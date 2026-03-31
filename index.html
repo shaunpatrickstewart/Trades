@@ -89,6 +89,13 @@
   <div id="pm-day"><div class="loader">Scanning...</div></div>
 </section>
 
+<!-- FOREX / CURRENCY -->
+<section>
+  <h2><span style="color:#ffdd66">&#36;</span> FOREX &amp; CURRENCY MARKETS <span class="count" id="fx-count"></span></h2>
+  <div class="section-note">Polymarket currency prediction markets — copy the same top wallets into currency bets. Run alongside eToro copy trading.</div>
+  <div id="pm-forex"><div class="loader">Scanning currency markets...</div></div>
+</section>
+
 <!-- SWING POSITIONS -->
 <section>
   <h2><span class="blue">&#9670;</span> SWING POSITIONS — 7 to 30 Days <span class="count" id="sw-count"></span></h2>
@@ -220,6 +227,44 @@
   async function fetchMarkets() {
     const r = await pf(GAMMA + '/markets?active=true&closed=false&tag=crypto&limit=500');
     return toArr(r);
+  }
+
+  async function fetchForexMarkets() {
+    const [fx, curr] = await Promise.all([
+      pf(GAMMA + '/markets?active=true&closed=false&tag=forex&limit=200').then(toArr).catch(()=>[]),
+      pf(GAMMA + '/markets?active=true&closed=false&tag=currencies&limit=200').then(toArr).catch(()=>[]),
+    ]);
+    const map = new Map();
+    [...fx, ...curr].forEach(m => { if (m.id) map.set(m.id, m); });
+    return [...map.values()].sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0));
+  }
+
+  function renderForex(markets) {
+    document.getElementById('fx-count').textContent = '(' + markets.length + ')';
+    if (!markets.length) {
+      document.getElementById('pm-forex').innerHTML = '<div class="dim" style="padding:12px">No active currency markets found right now.</div>';
+      return;
+    }
+    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Confidence</th><th>Volume</th><th>Expires</th></tr>';
+    markets.slice(0,20).forEach((m, i) => {
+      const { price, outcome } = getBest(m);
+      const vol = parseFloat(m.volumeNum||m.volume||0);
+      const cls = outcome === 'YES' ? 'by' : 'bn';
+      const hc  = getHighConf(m);
+      const confHtml = hc ? confLabel(hc.price) : '<span class="dim">uncertain</span>';
+      html +=
+        '<tr class="swing-row">' +
+        '<td class="dim">' + (i+1) + '</td>' +
+        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
+        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
+        '<td>' + price.toFixed(3) + '</td>' +
+        '<td>' + confHtml + '</td>' +
+        '<td class="blue">' + fmt(vol) + '</td>' +
+        '<td>' + timeStr(m) + '</td>' +
+        '</tr>';
+    });
+    html += '</table>';
+    document.getElementById('pm-forex').innerHTML = html;
   }
 
   async function fetchPositions(addr) {
@@ -468,11 +513,12 @@
     document.getElementById('pm-updated').textContent =
       'Last updated: ' + new Date().toLocaleString() + ' — auto-refreshes every 90s';
     try {
-      const [wallets, markets] = await Promise.all([fetchAllWallets(), fetchMarkets()]);
+      const [wallets, markets, forexMarkets] = await Promise.all([fetchAllWallets(), fetchMarkets(), fetchForexMarkets()]);
 
       renderStats(wallets, markets);
       renderDailyIncome(markets);
       render7Day(markets);
+      renderForex(forexMarkets);
       renderSwing(markets);
 
       // These hit many wallet APIs so run after the fast sections
