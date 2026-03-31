@@ -82,11 +82,18 @@
   <div id="pm-daily"><div class="loader">Scanning for near-certain outcomes...</div></div>
 </section>
 
+<!-- DAY TRADES — ALL MARKETS -->
+<section>
+  <h2><span class="warn">&#9889;</span> DAY TRADES — All Markets Resolving Within 48 Hours <span class="count" id="dt-count"></span></h2>
+  <div class="section-note">Sports, politics, news, crypto — ANY high-volume market closing within 48 hours. This is where daily income happens.</div>
+  <div id="pm-day"><div class="loader">Scanning all markets...</div></div>
+</section>
+
 <!-- 7-DAY TRADES -->
 <section>
-  <h2><span class="warn">&#9650;</span> 7-DAY TRADES — Active Opportunities This Week <span class="count" id="dt-count"></span></h2>
-  <div class="section-note">Markets resolving within 7 days — higher uncertainty, higher upside. Good for active trading.</div>
-  <div id="pm-day"><div class="loader">Scanning...</div></div>
+  <h2><span class="warn">&#9650;</span> THIS WEEK — All Markets Resolving Within 7 Days <span class="count" id="wk-count"></span></h2>
+  <div class="section-note">All categories, high volume only — the real active trading markets.</div>
+  <div id="pm-week"><div class="loader">Scanning...</div></div>
 </section>
 
 <!-- FOREX / CURRENCY -->
@@ -226,6 +233,12 @@
 
   async function fetchMarkets() {
     const r = await pf(GAMMA + '/markets?active=true&closed=false&tag=crypto&limit=500');
+    return toArr(r);
+  }
+
+  async function fetchAllMarkets() {
+    // Pull ALL categories for day trading — sports, politics, news, crypto, everything
+    const r = await pf(GAMMA + '/markets?active=true&closed=false&limit=500&order=volume&ascending=false');
     return toArr(r);
   }
 
@@ -387,21 +400,58 @@
     document.getElementById('pm-daily').innerHTML = html;
   }
 
-  // 7-day active trades — uncertain markets with good volume
+  // 48-hour day trades — ALL categories, high volume, uncertain enough to trade
+  function renderDayTrades(markets) {
+    const hits = markets.filter(m => {
+      const h   = hours(m.endDateIso||m.endDate);
+      const vol = parseFloat(m.volumeNum||m.volume||0);
+      if (h < 0 || h > 48) return false;
+      if (vol < 10000) return false;
+      let prices = [];
+      try { prices = JSON.parse(m.outcomePrices||'[]').map(Number); } catch(e){}
+      return prices.some(p => p >= 0.10 && p <= 0.90);
+    }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0, 25);
+
+    document.getElementById('dt-count').textContent = '(' + hits.length + ')';
+    if (!hits.length) {
+      document.getElementById('pm-day').innerHTML = '<div class="dim" style="padding:12px">No high-volume markets closing within 48 hours right now. Check back soon — sports events and news markets appear here.</div>';
+      return;
+    }
+    let html = '<table><tr><th>#</th><th>Market</th><th>Best Side</th><th>Price</th><th>Implied %</th><th>Volume</th><th>Expires</th></tr>';
+    hits.forEach((m, i) => {
+      const { price, outcome } = getBest(m);
+      const vol = parseFloat(m.volumeNum||m.volume||0);
+      const cls = outcome === 'YES' ? 'by' : 'bn';
+      html +=
+        '<tr class="day-row">' +
+        '<td class="dim">' + (i+1) + '</td>' +
+        '<td style="max-width:260px">' + (m.question||m.title||'').slice(0,65) + '</td>' +
+        '<td><span class="badge ' + cls + '">' + outcome + '</span></td>' +
+        '<td>' + price.toFixed(3) + '</td>' +
+        '<td style="color:' + (price>=0.5?'#00ff88':'#88aaff') + '">' + (price*100).toFixed(0) + '%</td>' +
+        '<td class="blue">' + fmt(vol) + '</td>' +
+        '<td>' + timeStr(m) + '</td>' +
+        '</tr>';
+    });
+    html += '</table>';
+    document.getElementById('pm-day').innerHTML = html;
+  }
+
+  // 7-day active trades — uncertain markets with good volume, ALL categories
   function render7Day(markets) {
     const hits = markets.filter(m => {
       const h   = hours(m.endDateIso||m.endDate);
       const vol = parseFloat(m.volumeNum||m.volume||0);
       if (h < 0 || h > 168) return false;
-      if (vol < 5000) return false;
+      if (vol < 25000) return false; // higher volume = real markets, filters out celebrity junk
       let prices = [];
       try { prices = JSON.parse(m.outcomePrices||'[]').map(Number); } catch(e){}
       return prices.some(p => p >= 0.15 && p <= 0.85);
     }).sort((a,b) => parseFloat(b.volumeNum||0) - parseFloat(a.volumeNum||0)).slice(0, 20);
 
-    document.getElementById('dt-count').textContent = '(' + hits.length + ')';
+    document.getElementById('wk-count').textContent = '(' + hits.length + ')';
     if (!hits.length) {
-      document.getElementById('pm-day').innerHTML = '<div class="dim" style="padding:12px">No active 7-day markets right now.</div>';
+      document.getElementById('pm-week').innerHTML = '<div class="dim" style="padding:12px">No active 7-day markets right now.</div>';
       return;
     }
 
@@ -422,7 +472,7 @@
         '</tr>';
     });
     html += '</table>';
-    document.getElementById('pm-day').innerHTML = html;
+    document.getElementById('pm-week').innerHTML = html;
   }
 
   // Swing: 7-30 days
@@ -513,11 +563,12 @@
     document.getElementById('pm-updated').textContent =
       'Last updated: ' + new Date().toLocaleString() + ' — auto-refreshes every 90s';
     try {
-      const [wallets, markets, forexMarkets] = await Promise.all([fetchAllWallets(), fetchMarkets(), fetchForexMarkets()]);
+      const [wallets, markets, allMarkets, forexMarkets] = await Promise.all([fetchAllWallets(), fetchMarkets(), fetchAllMarkets(), fetchForexMarkets()]);
 
-      renderStats(wallets, markets);
-      renderDailyIncome(markets);
-      render7Day(markets);
+      renderStats(wallets, allMarkets);
+      renderDailyIncome(allMarkets);
+      renderDayTrades(allMarkets);
+      render7Day(allMarkets);
       renderForex(forexMarkets);
       renderSwing(markets);
 
