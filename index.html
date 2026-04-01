@@ -106,7 +106,7 @@
 <!-- TOP WALLETS -->
 <section>
   <h2>Top Performing Wallets — Leaderboard <span class="count" id="wallet-count"></span></h2>
-  <div class="section-note">ALL-TIME, 30-DAY and 7-DAY combined. ROI = PnL ÷ Volume. These are the wallets the bot copies.</div>
+  <div class="section-note">ALL-TIME, 30-DAY and 7-DAY combined. Ranked by ROI (PnL ÷ Volume) — not raw PnL. These are the wallets the bot copies.</div>
   <div id="pm-wallets"><div class="loader">Pulling wallets...</div></div>
 </section>
 
@@ -220,7 +220,11 @@
       const existing = map.get(key);
       if (!existing || parseFloat(w.pnl||0) > parseFloat(existing.pnl||0)) map.set(key, w);
     });
-    return [...map.values()].sort((a,b) => parseFloat(b.pnl||0) - parseFloat(a.pnl||0));
+    return [...map.values()].sort((a,b) => {
+      const roiA = parseFloat(a.vol||0) > 0 ? parseFloat(a.pnl||0) / parseFloat(a.vol||0) : 0;
+      const roiB = parseFloat(b.vol||0) > 0 ? parseFloat(b.pnl||0) / parseFloat(b.vol||0) : 0;
+      return roiB - roiA;
+    });
   }
 
   async function fetchMarkets() {
