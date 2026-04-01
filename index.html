@@ -302,26 +302,28 @@
   // Render copy signals — top wallet positions as actionable cards
   async function renderSignals(wallets) {
     const top = wallets.slice(0, 10);
-    let signals = [];
-    for (let i = 0; i < top.length; i++) {
-      const w = top[i];
+    const results = await Promise.allSettled(top.map(w => {
       const addr = w.proxyWallet || w.address || '';
-      if (!addr) continue;
-      try {
-        const pos = await fetchPositions(addr);
-        const name = (w.userName || addr.slice(0,10) || 'anon').slice(0,20);
-        const pnl = parseFloat(w.pnl||0);
-        pos.filter(p => {
-          const pr = parseFloat(p.curPrice||p.price||0);
-          return pr >= 0.25 && pr <= 0.75; // uncertain markets only — real upside
-        }).slice(0,2).forEach(p => {
-          const pr  = parseFloat(p.curPrice||p.price||0);
-          const oc  = (p.outcome||'').toUpperCase();
-          const pnlV = parseFloat(p.cashPnl||0);
-          signals.push({ name, walletPnl: pnl, title: p.title||'', outcome: oc, price: pr, cashPnl: pnlV, addr });
-        });
-      } catch(e) {}
-    }
+      if (!addr) return Promise.resolve([]);
+      return fetchPositions(addr).then(pos => ({ w, pos })).catch(() => null);
+    }));
+    let signals = [];
+    results.forEach(r => {
+      if (r.status !== 'fulfilled' || !r.value) return;
+      const { w, pos } = r.value;
+      const addr = w.proxyWallet || w.address || '';
+      const name = (w.userName || addr.slice(0,10) || 'anon').slice(0,20);
+      const pnl = parseFloat(w.pnl||0);
+      pos.filter(p => {
+        const pr = parseFloat(p.curPrice||p.price||0);
+        return pr >= 0.25 && pr <= 0.75;
+      }).slice(0,2).forEach(p => {
+        const pr  = parseFloat(p.curPrice||p.price||0);
+        const oc  = (p.outcome||'').toUpperCase();
+        const pnlV = parseFloat(p.cashPnl||0);
+        signals.push({ name, walletPnl: pnl, title: p.title||'', outcome: oc, price: pr, cashPnl: pnlV, addr });
+      });
+    });
 
     // Sort by most uncertain first (closest to 50/50 = highest upside)
     signals.sort((a, b) => Math.abs(a.price - 0.5) - Math.abs(b.price - 0.5));
@@ -513,37 +515,42 @@
 
   async function renderWallets(wallets) {
     document.getElementById('wallet-count').textContent = '(' + wallets.length + ')';
+    const el = document.getElementById('pm-wallets');
     let html = '<table><tr><th>#</th><th>Wallet</th><th>All-Time PnL</th><th>ROI</th><th class="hm">Volume</th><th>Current Positions</th></tr>';
-    for (let i = 0; i < wallets.length; i++) {
-      const w    = wallets[i];
+    el.innerHTML = html + '</table>';
+
+    const rows = await Promise.allSettled(wallets.map((w, i) => {
+      const addr = w.proxyWallet || w.address || '';
       const name = (w.userName || (w.proxyWallet||'').slice(0,12) || 'anon').slice(0,20);
       const pnl  = parseFloat(w.pnl||0);
       const vol  = parseFloat(w.vol||0);
       const roi  = vol > 0 ? (pnl / vol) * 100 : 0;
-      const addr = w.proxyWallet || w.address || '';
-      let posHtml = '<span class="dim">—</span>';
-      try {
-        const pos = await fetchPositions(addr);
+      return fetchPositions(addr).then(pos => {
         const unc = pos.filter(p => {
           const pr = parseFloat(p.curPrice||p.price||0);
           return pr >= 0.15 && pr <= 0.85;
         }).slice(0,3);
-        if (unc.length) {
-          posHtml = unc.map(p => {
-            const pr  = parseFloat(p.curPrice||p.price||0);
-            const oc  = (p.outcome||'').toUpperCase();
-            const cls = oc === 'YES' ? 'by' : 'bn';
-            const pnlV = parseFloat(p.cashPnl||0);
-            const pnlS = pnlV >= 0
-              ? '<span class="yes">+$'+pnlV.toFixed(2)+'</span>'
-              : '<span class="no">-$'+Math.abs(pnlV).toFixed(2)+'</span>';
-            return '<span class="badge ' + cls + '">' + oc + '</span> ' +
-                   (p.title||'').slice(0,42) +
-                   ' <span class="dim">@' + pr.toFixed(3) + '</span> ' + pnlS;
-          }).join('<br>');
-        }
-      } catch(e) {}
-      html +=
+        const posHtml = unc.length ? unc.map(p => {
+          const pr  = parseFloat(p.curPrice||p.price||0);
+          const oc  = (p.outcome||'').toUpperCase();
+          const cls = oc === 'YES' ? 'by' : 'bn';
+          const pnlV = parseFloat(p.cashPnl||0);
+          const pnlS = pnlV >= 0
+            ? '<span class="yes">+$'+pnlV.toFixed(2)+'</span>'
+            : '<span class="no">-$'+Math.abs(pnlV).toFixed(2)+'</span>';
+          return '<span class="badge ' + cls + '">' + oc + '</span> ' +
+                 (p.title||'').slice(0,42) +
+                 ' <span class="dim">@' + pr.toFixed(3) + '</span> ' + pnlS;
+        }).join('<br>') : '<span class="dim">—</span>';
+        return { i, name, pnl, roi, vol, posHtml };
+      }).catch(() => ({ i, name, pnl, roi, vol, posHtml: '<span class="dim">—</span>' }));
+    }));
+
+    html += rows
+      .filter(r => r.status === 'fulfilled')
+      .map(r => r.value)
+      .sort((a,b) => a.i - b.i)
+      .map(({i, name, pnl, roi, vol, posHtml}) =>
         '<tr>' +
         '<td class="dim">' + (i+1) + '</td>' +
         '<td>' + name + '</td>' +
@@ -551,10 +558,10 @@
         '<td style="color:' + (roi>=0?'#00ff88':'#ff5050') + '">' + roi.toFixed(1) + '%</td>' +
         '<td class="hm dim">' + fmt(vol) + '</td>' +
         '<td style="line-height:2;font-size:0.88em">' + posHtml + '</td>' +
-        '</tr>';
-    }
+        '</tr>'
+      ).join('');
     html += '</table>';
-    document.getElementById('pm-wallets').innerHTML = html;
+    el.innerHTML = html;
   }
 
   async function refresh() {
@@ -584,11 +591,16 @@
   async function renderPaperTrades() {
     const el = document.getElementById('paper-trades');
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/Trades/paper_trades.jsonl';
+      const PAPER_URL = 'https://shaunpatrickstewart.github.io/Trades/paper_trades.jsonl?v=' + Date.now();
       const r = await fetch(P + encodeURIComponent(PAPER_URL));
       if (!r.ok) throw new Error('HTTP ' + r.status);
-      const text = await r.text();
-      const lines = text.trim().split('\n').filter(l => l.trim());
+      const raw = await r.text();
+      // Handle case where proxy wraps response in JSON
+      let text = raw;
+      if (raw.trim().startsWith('{') && !raw.trim().startsWith('{"timestamp"')) {
+        try { const w = JSON.parse(raw); text = w.body || w.content || w.data || raw; } catch(e) {}
+      }
+      const lines = text.trim().split('\n').filter(l => l.trim() && l.trim().startsWith('{'));
       const trades = lines.map(l => JSON.parse(l));
 
       // Deduplicate — keep latest entry per market+outcome
