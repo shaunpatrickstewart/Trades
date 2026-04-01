@@ -120,16 +120,8 @@
 <!-- PAPER TRADES -->
 <section>
   <h2>Paper Trade Tracker — Open Positions</h2>
-  <div class="section-note">Logged by bot — tracking performance before going live</div>
-  <table>
-    <tr><th>#</th><th>Market</th><th>Side</th><th>Entry</th><th>Bet</th><th>Pot. Profit</th><th>Copied From</th><th>Status</th></tr>
-    <tr class="paper-row"><td class="dim">1</td><td>Will Ethereum reach $3,500 by Dec 31?</td><td><span class="badge bn">NO</span></td><td>0.685</td><td>$5</td><td class="yes">+$2.30</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
-    <tr class="paper-row"><td class="dim">2</td><td>Will Ethereum dip to $1,500 by Dec 31?</td><td><span class="badge by">YES</span></td><td>0.720</td><td>$5</td><td class="yes">+$1.94</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
-    <tr class="paper-row"><td class="dim">3</td><td>Will Dogecoin reach $0.16 by Dec 31?</td><td><span class="badge bn">NO</span></td><td>0.607</td><td>$5</td><td class="yes">+$3.24</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
-    <tr class="paper-row"><td class="dim">4</td><td>Will Bitcoin dip to $65,000 in March?</td><td><span class="badge by">YES</span></td><td>0.9995</td><td>$5</td><td class="dim">+$0.00</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
-    <tr class="paper-row"><td class="dim">5</td><td>Will Dogecoin reach $0.15 in March?</td><td><span class="badge bn">NO</span></td><td>0.996</td><td>$5</td><td class="yes">+$0.02</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
-    <tr class="paper-row"><td class="dim">6</td><td>Will Solana dip to $80 in March?</td><td><span class="badge by">YES</span></td><td>0.9995</td><td>$5</td><td class="dim">+$0.00</td><td class="dim">0xf705fa</td><td><span class="warn">OPEN</span></td></tr>
-  </table>
+  <div class="section-note">Logged by bot — tracking performance before going live. Auto-updates every 30 min.</div>
+  <div id="paper-trades"><div class="loader">Loading...</div></div>
 </section>
 
 <footer>
@@ -589,8 +581,69 @@
     }
   }
 
+  async function renderPaperTrades() {
+    const el = document.getElementById('paper-trades');
+    try {
+      const PAPER_URL = 'https://shaunpatrickstewart.github.io/Trades/paper_trades.jsonl';
+      const r = await fetch(P + encodeURIComponent(PAPER_URL));
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const text = await r.text();
+      const lines = text.trim().split('\n').filter(l => l.trim());
+      const trades = lines.map(l => JSON.parse(l));
+
+      // Deduplicate — keep latest entry per market+outcome
+      const seen = new Map();
+      trades.forEach(t => {
+        const key = t.market + '|' + t.outcome;
+        if (!seen.has(key) || t.timestamp > seen.get(key).timestamp) seen.set(key, t);
+      });
+      const deduped = Array.from(seen.values()).sort((a,b) => b.timestamp.localeCompare(a.timestamp));
+
+      if (!deduped.length) { el.innerHTML = '<div class="dim">No paper trades logged yet.</div>'; return; }
+
+      let totalBet = 0, totalPotProfit = 0;
+      let rows = deduped.map((t, i) => {
+        totalBet += t.paper_bet || 0;
+        totalPotProfit += t.potential_profit || 0;
+        const side = t.outcome === 'Yes'
+          ? '<span class="badge by">YES</span>'
+          : '<span class="badge bn">NO</span>';
+        const profit = t.potential_profit > 0
+          ? `<td class="yes">+$${t.potential_profit.toFixed(2)}</td>`
+          : `<td class="dim">+$0.00</td>`;
+        const wallet = t.wallet ? t.wallet.slice(0,8) : '—';
+        const statusCls = t.status === 'OPEN' ? 'warn' : (t.status === 'WON' ? 'yes' : 'no');
+        return `<tr class="paper-row">
+          <td class="dim">${i+1}</td>
+          <td>${t.market}</td>
+          <td>${side}</td>
+          <td>${t.entry_price}</td>
+          <td>$${t.paper_bet}</td>
+          ${profit}
+          <td class="dim">${wallet}</td>
+          <td><span class="${statusCls}">${t.status}</span></td>
+        </tr>`;
+      }).join('');
+
+      el.innerHTML = `<table>
+        <tr><th>#</th><th>Market</th><th>Side</th><th>Entry</th><th>Bet</th><th>Pot. Profit</th><th>Copied From</th><th>Status</th></tr>
+        ${rows}
+        <tr style="border-top:1px solid #1a3a1a;font-weight:bold">
+          <td colspan="4" class="dim">TOTAL</td>
+          <td>$${totalBet.toFixed(0)}</td>
+          <td class="yes">+$${totalPotProfit.toFixed(2)}</td>
+          <td colspan="2"></td>
+        </tr>
+      </table>`;
+    } catch(e) {
+      el.innerHTML = '<div class="err">Paper trades unavailable: ' + e.message + '</div>';
+    }
+  }
+
   refresh();
+  renderPaperTrades();
   setInterval(refresh, REFRESH);
+  setInterval(renderPaperTrades, 1800000); // re-fetch every 30 min
 })();
 </script>
 
