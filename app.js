@@ -151,19 +151,10 @@
     ].map(([l,v])=>'<div class="stat"><div class="val">'+v+'</div><div class="lbl">'+l+'</div></div>').join('');
   }
 
-  // ── RENDER: Copy Signals
-  async function renderSignals(wallets) {
-    const top = wallets.slice(0,20);
-    const results = await Promise.allSettled(top.map(w=>{
-      const addr = w.proxyWallet||w.address||'';
-      if (!addr) return Promise.resolve(null);
-      return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>null);
-    }));
-
+  // ── RENDER: Copy Signals (walletPositions = [{w, pos}] pre-fetched)
+  function renderSignals(walletPositions) {
     let signals=[];
-    results.forEach(r=>{
-      if (r.status!=='fulfilled'||!r.value) return;
-      const {w,pos}=r.value;
+    walletPositions.forEach(({w,pos})=>{
       const addr = w.proxyWallet||w.address||'';
       const name = (w.userName||addr.slice(0,10)||'anon').slice(0,20);
       const walletPnl = parseFloat(w.pnl||0);
@@ -313,36 +304,30 @@
     document.getElementById('pm-daily').innerHTML = html+'</table>';
   }
 
-  // ── RENDER: Wallet Leaderboard
-  async function renderWallets(wallets) {
+  // ── RENDER: Wallet Leaderboard (walletPositions = [{w, pos}] pre-fetched)
+  function renderWallets(wallets, walletPositions) {
     document.getElementById('wallet-count').textContent = '('+wallets.length+')';
     const el = document.getElementById('pm-wallets');
-    el.innerHTML = '<div class="loader">Loading positions</div>';
 
-    const rows = await Promise.allSettled(wallets.slice(0,25).map((w,i)=>{
-      const addr = w.proxyWallet||w.address||'';
+    const rows = walletPositions.map(({w,pos},i)=>{
       const name = (w.userName||(w.proxyWallet||'').slice(0,12)||'anon').slice(0,20);
       const pnl  = parseFloat(w.pnl||0);
       const vol  = parseFloat(w.vol||0);
       const roi  = vol>0?(pnl/vol)*100:0;
-      return fetchPositions(addr).then(pos=>{
-        const unc = pos.filter(p=>{ const pr=parseFloat(p.curPrice||p.price||0); return pr>=0.15&&pr<=0.85; }).slice(0,2);
-        const posHtml = unc.length
-          ? unc.map(p=>{
-              const pr=parseFloat(p.curPrice||p.price||0);
-              const oc=(p.outcome||'').toUpperCase();
-              const cls=oc==='YES'?'by':'bn';
-              return '<span class="badge '+cls+'">'+oc+'</span> '+(p.title||'').slice(0,36)+' <span class="dim">@'+pr.toFixed(2)+'</span>';
-            }).join('<br>')
-          : '<span class="dim">—</span>';
-        return {i,name,pnl,roi,vol,posHtml};
-      }).catch(()=>({i,name,pnl,roi,vol,posHtml:'<span class="dim">—</span>'}));
-    }));
+      const unc = pos.filter(p=>{ const pr=parseFloat(p.curPrice||p.price||0); return pr>=0.15&&pr<=0.85; }).slice(0,2);
+      const posHtml = unc.length
+        ? unc.map(p=>{
+            const pr=parseFloat(p.curPrice||p.price||0);
+            const oc=(p.outcome||'').toUpperCase();
+            const cls=oc==='YES'?'by':'bn';
+            return '<span class="badge '+cls+'">'+oc+'</span> '+(p.title||'').slice(0,36)+' <span class="dim">@'+pr.toFixed(2)+'</span>';
+          }).join('<br>')
+        : '<span class="dim">—</span>';
+      return {i,name,pnl,roi,vol,posHtml};
+    });
 
     let html = '<table><tr><th>#</th><th>Wallet</th><th>PnL</th><th>ROI</th><th class="hm">Volume</th><th>Current Positions</th></tr>';
     html += rows
-      .filter(r=>r.status==='fulfilled')
-      .map(r=>r.value)
       .sort((a,b)=>a.i-b.i)
       .map(({i,name,pnl,roi,vol,posHtml})=>
         '<tr>'+
@@ -444,8 +429,15 @@
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
       renderDailyIncome(allMarkets);
-      renderSignals(wallets);
-      renderWallets(wallets);
+      // Fetch positions once for top 25, reuse for both Copy Signals and Leaderboard
+      const posResults = await Promise.allSettled(wallets.slice(0,25).map(w=>{
+        const addr = w.proxyWallet||w.address||'';
+        if (!addr) return Promise.resolve({w, pos:[]});
+        return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
+      }));
+      const walletPositions = posResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
+      renderSignals(walletPositions);
+      renderWallets(wallets, walletPositions);
     } catch(e) {
       console.error('Refresh error:', e);
       document.getElementById('hdr-updated').textContent = 'Error: '+e.message+' — press R to retry';
