@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-04-03T11:46:14.021453+00:00",
+  "bot_running": true,
+  "trade_summary": {
+    "total": 5,
+    "open": 4,
+    "won": 0,
+    "lost": 1,
+    "realized_pnl": -5.0,
+    "unrealized_potential": 11.8
+  },
+  "engine_summary": [
+    {
+      "engine": "UNKNOWN",
+      "total_trades": 5,
+      "open": 0,
+      "realized_pnl": -5.0
+    }
+  ],
+  "engine_last_run": {
+    "MONITOR": -2.0,
+    "LONG_TERM": -1.1
+  },
+  "ok": [
+    "Realized P&L = $-5.00 from 0 wins / 1 losses",
+    "Engine MONITOR: last ran -2.0h ago \u2014 active",
+    "Engine LONG_TERM: last ran -1.1h ago \u2014 active",
+    "No duplicate open positions",
+    "No open trades past their resolution date",
+    "bot.py process is running"
+  ],
+  "warnings": [],
+  "issues": [
+    "Engine NEAR_CERTAIN: no activity found in log \u2014 may not have run yet",
+    "Engine SHORT_TERM: no activity found in log \u2014 may not have run yet",
+    "NEAR_CERTAIN engine has logged 0 trades. It runs every 30 min but finds no 82-97% confidence markets resolving within 7 days. Either: (a) no qualifying markets exist right now, or (b) the engine is always hitting the cap before it runs."
+  ],
+  "suggestions": [
+    "NEAR_CERTAIN engine producing 0 trades: lower NEAR_CERTAIN_MIN from 0.85 to 0.80 or expand SHORT_TERM_DAYS from 7 to 14 to catch more qualifying markets."
+  ]
+}

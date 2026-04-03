@@ -342,6 +342,35 @@
     el.innerHTML = html+'</table>';
   }
 
+  // ── Capital increase modal
+  window.pmSetCapital = async function(slug, outcome, currentBet) {
+    const amt = prompt(
+      'Increase capital for:\n['+outcome+'] '+slug+'\n\nCurrent bet: $'+currentBet+'\nEnter new bet amount in USD:',
+      currentBet
+    );
+    if (!amt || isNaN(parseFloat(amt))) return;
+    const amount = parseFloat(amt);
+    try {
+      const r = await fetch('http://localhost:8080/capital', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({slug, outcome, amount})
+      });
+      if (r.ok) {
+        const j = await r.json();
+        if (j.ok) {
+          alert('Capital updated: '+slug+' ['+outcome+'] → $'+amount.toFixed(2)+'\nWill apply next time the bot runs this engine.');
+        } else {
+          throw new Error(j.error||'unknown error');
+        }
+      } else {
+        throw new Error('HTTP '+r.status);
+      }
+    } catch(e) {
+      alert('Could not reach local bot dashboard.\n\nRun this command in your terminal instead:\npython3 -c "import json; d=json.load(open(\'polybot/capital_overrides.json\')) if __import__(\'os\').path.exists(\'polybot/capital_overrides.json\') else {}; d[\''+slug+'|'+outcome+'\']='+amount+'; json.dump(d,open(\'polybot/capital_overrides.json\',\'w\'),indent=2)"');
+    }
+  };
+
   // ── RENDER: Paper Trade Tracker
   async function renderPaperTrades() {
     const el = document.getElementById('paper-trades');
@@ -359,9 +388,10 @@
         .map(l=>{ try{return JSON.parse(l)}catch(e){return null} })
         .filter(Boolean);
 
+      // Dedup by slug+outcome, keep most recent
       const seen = new Map();
       trades.forEach(t=>{
-        const key=t.market+'|'+t.outcome;
+        const key=(t.slug||t.market)+'|'+t.outcome;
         if(!seen.has(key)||t.timestamp>seen.get(key).timestamp) seen.set(key,t);
       });
       const deduped = Array.from(seen.values()).sort((a,b)=>b.timestamp.localeCompare(a.timestamp));
@@ -373,48 +403,175 @@
       }
 
       const open   = deduped.filter(t=>t.status==='OPEN');
-      const closed = deduped.filter(t=>t.status!=='OPEN');
-      const totalBet = deduped.reduce((s,t)=>s+(t.paper_bet||0),0);
-      const totalPot = deduped.reduce((s,t)=>s+(t.potential_profit||0),0);
+      const won    = deduped.filter(t=>t.status==='WON');
+      const lost   = deduped.filter(t=>t.status==='LOST');
 
+      // Realized P&L = actual wins/losses only
+      const realizedPnl   = won.reduce((s,t)=>s+(t.pnl||0),0) + lost.reduce((s,t)=>s+(t.pnl||0),0);
+      // Unrealized = potential_profit on still-open trades
+      const unrealizedPot = open.reduce((s,t)=>s+(t.potential_profit||0),0);
+      const totalBet      = deduped.reduce((s,t)=>s+(t.paper_bet||0),0);
+
+      // Header P&L counter shows REALIZED only
       const pnlEl = document.getElementById('pnl-counter');
-      pnlEl.textContent = (totalPot>=0?'+':'')+' $'+Math.abs(totalPot).toFixed(2);
-      pnlEl.className   = totalPot>=0?'':'loss';
+      if (won.length+lost.length === 0) {
+        pnlEl.textContent = '$0.00 realized';
+        pnlEl.className = '';
+      } else {
+        pnlEl.textContent = (realizedPnl>=0?'+':'')+'$'+Math.abs(realizedPnl).toFixed(2)+' realized';
+        pnlEl.className   = realizedPnl>=0?'':'loss';
+      }
 
       document.getElementById('paper-summary').innerHTML =
         '<span class="green">'+open.length+' open</span> &nbsp;|&nbsp; '+
-        closed.length+' settled &nbsp;|&nbsp; '+
+        '<span class="green">'+won.length+' won</span> &nbsp;|&nbsp; '+
+        '<span style="color:#ff6655">'+lost.length+' lost</span> &nbsp;|&nbsp; '+
         '<span class="green">$'+totalBet.toFixed(0)+' deployed</span> &nbsp;|&nbsp; '+
-        '<span class="yellow">+$'+totalPot.toFixed(2)+' potential</span>';
+        (won.length+lost.length>0
+          ? '<span class="green">Realized: '+(realizedPnl>=0?'+':'')+'$'+realizedPnl.toFixed(2)+'</span>'
+          : '<span class="dim">No resolved trades yet</span>')+
+        ' &nbsp;|&nbsp; '+
+        '<span class="yellow">Unrealized est: +$'+unrealizedPot.toFixed(2)+'</span>';
 
-      let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Entry</th><th>Bet</th><th>Potential</th><th class="hm">EV</th><th>Status</th></tr>';
+      // Engine breakdown
+      const byEngine = {};
+      deduped.forEach(t=>{
+        const eng = t.type||'UNKNOWN';
+        if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0};
+        if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); }
+        if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); }
+        if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); }
+      });
+      const engColors = {SHORT_TERM:'#00ff88', NEAR_CERTAIN:'#ffdd44', LONG_TERM:'#88aaff', UNKNOWN:'#888'};
+      let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #1a2a1a">';
+      Object.entries(byEngine).forEach(([eng,d])=>{
+        const c = engColors[eng]||'#888';
+        const label = eng==='LONG_TERM'?'WALLET COPY':eng.replace('_',' ');
+        const pnlStr = (d.won+d.lost)>0
+          ? (d.realPnl>=0?'<span style="color:#00ff88">+$'+d.realPnl.toFixed(2)+'</span>'
+                         :'<span style="color:#ff4444">$'+d.realPnl.toFixed(2)+'</span>')
+          : '<span style="color:#444">no resolved</span>';
+        engHtml +=
+          '<div style="background:#0d0d0d;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:140px">'+
+          '<div style="color:'+c+';font-size:0.7em;font-weight:700">'+label+'</div>'+
+          '<div style="font-size:0.8em;margin-top:2px">'+d.open+' open &nbsp; '+d.won+'W/'+d.lost+'L</div>'+
+          '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
+          '<div style="font-size:0.75em;color:#555">Unrealized: +$'+d.unrealized.toFixed(2)+'</div>'+
+          '</div>';
+      });
+      engHtml += '</div>';
+
+      // Trade table
+      const engineLabel = t => {
+        const s = t.source||t.type||'';
+        if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
+        if (t.type==='NEAR_CERTAIN') return '<span style="color:#ffdd44;font-size:0.75em">NEAR-CERTAIN</span>';
+        if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">SHORT-TERM</span>';
+        return '<span style="color:#888;font-size:0.75em">'+(t.type||'—')+'</span>';
+      };
+
+      let html = engHtml;
+      html += '<table><tr>'+
+        '<th>#</th><th>Engine</th><th>Market</th><th>Side</th><th>Entry</th>'+
+        '<th>Bet</th><th>P&L / Est</th><th class="hm">EV</th>'+
+        '<th>Entered</th><th>Resolves</th><th>Status</th><th>+Capital</th>'+
+        '</tr>';
+
       html += deduped.map((t,i)=>{
-        const side = t.outcome==='Yes'?'<span class="badge by">YES</span>':'<span class="badge bn">NO</span>';
-        const pot  = t.potential_profit>0?'<span class="green">+$'+t.potential_profit.toFixed(2)+'</span>':'<span class="dim">—</span>';
-        const evH  = t.ev!=null
-          ? (t.ev>=0?'<span class="ev-pos">EV+'+parseFloat(t.ev).toFixed(3)+'</span>'
-                    :'<span class="ev-neg">EV'+parseFloat(t.ev).toFixed(3)+'</span>')
+        const side = (t.outcome||'').toLowerCase()==='yes'
+          ?'<span class="badge by">YES</span>'
+          :'<span class="badge bn">NO</span>';
+        let pnlCell;
+        if (t.status==='WON') {
+          pnlCell = '<span class="green">+$'+(t.pnl||0).toFixed(2)+'</span>';
+        } else if (t.status==='LOST') {
+          pnlCell = '<span style="color:#ff4444">$'+(t.pnl||0).toFixed(2)+'</span>';
+        } else {
+          pnlCell = '<span class="yellow">+$'+(t.potential_profit||0).toFixed(2)+' est</span>';
+        }
+        const evH = t.ev!=null
+          ? (parseFloat(t.ev)>=0
+              ?'<span class="ev-pos">EV+'+parseFloat(t.ev).toFixed(3)+'</span>'
+              :'<span class="ev-neg">EV'+parseFloat(t.ev).toFixed(3)+'</span>')
           : '<span class="dim">—</span>';
         const stCl = t.status==='OPEN'?'yellow':(t.status==='WON'?'green':'red');
+        // Entered date (from timestamp)
+        const entered = t.timestamp ? t.timestamp.slice(0,10) : '—';
+        // Resolution date
+        const resolves = t.end_date || (t.days_left!=null ? 'in '+t.days_left+'d' : '—');
+        // Capital button (only for OPEN)
+        const capBtn = t.status==='OPEN' && t.slug
+          ? '<button onclick="pmSetCapital(\''+t.slug+'\',\''+t.outcome+'\','+(t.paper_bet||5)+')" '+
+            'style="background:#111;border:1px solid #333;color:#aaa;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
+          : '<span class="dim">—</span>';
+
         return '<tr class="paper-row">'+
           '<td class="dim">'+(i+1)+'</td>'+
-          '<td>'+(t.market||'').slice(0,58)+'</td>'+
+          '<td>'+engineLabel(t)+'</td>'+
+          '<td style="max-width:220px">'+(t.market||'').slice(0,55)+'</td>'+
           '<td>'+side+'</td>'+
           '<td class="dim">'+(t.entry_price||0).toFixed(3)+'</td>'+
           '<td>$'+(t.paper_bet||0).toFixed(0)+'</td>'+
-          '<td>'+pot+'</td>'+
+          '<td>'+pnlCell+'</td>'+
           '<td class="hm">'+evH+'</td>'+
+          '<td class="dim" style="font-size:0.78em">'+entered+'</td>'+
+          '<td style="font-size:0.78em;color:'+(t.status==='OPEN'?'#88aaff':'#555')+'">'+resolves+'</td>'+
           '<td><span class="'+stCl+'">'+t.status+'</span></td>'+
+          '<td>'+capBtn+'</td>'+
           '</tr>';
       }).join('');
+
+      // Totals row
       html += '<tr style="border-top:1px solid #1a3a1a;background:#090909">'+
-        '<td colspan="4" class="dim" style="font-size:0.72em">TOTAL</td>'+
+        '<td colspan="5" class="dim" style="font-size:0.72em">TOTAL</td>'+
         '<td style="color:#aaa">$'+totalBet.toFixed(0)+'</td>'+
-        '<td class="green">+$'+totalPot.toFixed(2)+'</td>'+
-        '<td colspan="2"></td></tr>';
+        '<td>'+(realizedPnl>=0?'<span class="green">':'<span style="color:#ff4444">')+
+          (realizedPnl>=0?'+':'')+'$'+realizedPnl.toFixed(2)+' realized</span> '+
+          '<span class="yellow" style="font-size:0.8em">+$'+unrealizedPot.toFixed(2)+' unrealized</span>'+
+        '</td>'+
+        '<td colspan="5"></td></tr>';
       el.innerHTML = html+'</table>';
+
     } catch(e) {
       el.innerHTML='<div class="err">Paper trades unavailable: '+e.message+'</div>';
+    }
+  }
+
+  // ── RENDER: Daily Audit Panel
+  async function renderAudit() {
+    const el = document.getElementById('audit-panel');
+    if (!el) return;
+    try {
+      const AUDIT_URL = 'https://shaunpatrickstewart.github.io/trades/audit.json?v='+Date.now();
+      const r = await fetch(P+encodeURIComponent(AUDIT_URL));
+      if (!r.ok) throw new Error('HTTP '+r.status);
+      const a = await r.json();
+
+      const ts = a.generated_at ? new Date(a.generated_at).toLocaleString() : '—';
+      const botSt = a.bot_running
+        ? '<span class="green">RUNNING</span>'
+        : '<span style="color:#ff4444">STOPPED</span>';
+
+      let html = '<div style="font-size:0.75em;color:#555;margin-bottom:8px">Last audit: '+ts+' &nbsp;|&nbsp; Bot: '+botSt+'</div>';
+
+      if (a.issues && a.issues.length) {
+        html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Issues ('+a.issues.length+')</div>';
+        a.issues.forEach(s=>{ html += '<div style="color:#ff8844;margin-bottom:3px">⚠ '+s+'</div>'; });
+      }
+      if (a.warnings && a.warnings.length) {
+        a.warnings.forEach(s=>{ html += '<div style="color:#ffcc44;margin-bottom:3px">⚡ '+s+'</div>'; });
+      }
+      if (a.suggestions && a.suggestions.length) {
+        html += '<div style="color:#88aaff;font-weight:700;margin:8px 0 4px">Suggested improvements</div>';
+        a.suggestions.forEach(s=>{ html += '<div style="color:#88aaff;margin-bottom:3px">→ '+s+'</div>'; });
+      }
+      if (a.ok && a.ok.length) {
+        html += '<div style="color:#555;font-weight:700;margin:8px 0 4px">Passing</div>';
+        a.ok.forEach(s=>{ html += '<div style="color:#2a4a2a;margin-bottom:2px">✓ '+s+'</div>'; });
+      }
+      el.innerHTML = html || '<div class="dim">No issues found.</div>';
+    } catch(e) {
+      if (el) el.innerHTML = '<div class="dim">Audit not available yet — runs daily at 8am. ('+ e.message+')</div>';
     }
   }
 
@@ -446,7 +603,9 @@
 
   refresh();
   renderPaperTrades();
+  renderAudit();
   setInterval(refresh, REFRESH);
   setInterval(renderPaperTrades, 1800000);
+  setInterval(renderAudit, 3600000);  // re-check audit hourly
 
 })();
