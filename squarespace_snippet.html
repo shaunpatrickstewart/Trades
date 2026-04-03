@@ -1,13 +1,9 @@
-<!-- ═══════════════════════════════════════════════════════════════════
-     POLYMARKET TRADING INTELLIGENCE — Direct Squarespace Inject
-     Paste squarespace_snippet.html into Squarespace Code Block.
-     This file is the standalone GitHub Pages version.
-     ═══════════════════════════════════════════════════════════════════ -->
-<link rel="stylesheet" href="style.css">
+<!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — never needs updating again -->
+<link rel="stylesheet" href="https://shaunpatrickstewart.github.io/trades/style.css">
+<div id="pm-root"></div>
+<script src="https://shaunpatrickstewart.github.io/trades/app.js"></script>
 
-<div id="pm-root">
-
-<!-- ═══ HEADER ════════════════════════════════════════════════════════ -->
+<!-- ═══ PAGE HTML — loaded from GitHub, auto-updates ═══ -->
 <header>
   <div class="hdr-left">
     <div class="pm-title">Polymarket Trading Intelligence</div>
@@ -16,11 +12,9 @@
       <span class="live-badge">&#9679; LIVE</span>
     </div>
   </div>
-
   <div id="hdr-stats">
     <div class="loader" style="padding:4px;color:#1e1e1e">Connecting</div>
   </div>
-
   <div class="hdr-right">
     <div id="pnl-counter">+$0.00</div>
     <div class="pnl-label">PAPER P&amp;L</div>
@@ -28,10 +22,7 @@
   </div>
 </header>
 
-<!-- ═══ UNIFIED 4-PANEL GRID ══════════════════════════════════════════ -->
 <div class="pm-grid">
-
-  <!-- ── PANEL 1: COPY SIGNALS ──────────────────────────────────────── -->
   <div class="panel accent-green">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
@@ -40,12 +31,9 @@
       </div>
       <div class="panel-desc">Uncertain markets (20–80¢) where elite wallets hold real positions. Closest to 50/50 listed first — highest upside, fastest compounding. These are the trades the bot copies.</div>
     </div>
-    <div class="panel-body tall" id="pm-signals">
-      <div class="loader">Fetching top wallet positions</div>
-    </div>
+    <div class="panel-body tall" id="pm-signals"><div class="loader">Fetching top wallet positions</div></div>
   </div>
 
-  <!-- ── PANEL 2: MARKET SCANNER ────────────────────────────────────── -->
   <div class="panel accent-blue">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
@@ -55,22 +43,10 @@
       <div class="panel-desc">All Polymarket categories — crypto, politics, sports, news, forex. High-volume markets with real uncertainty and real upside.</div>
     </div>
     <div class="tabs">
-      <button class="tab active" onclick="pmSwitchTab('week',this)">
-        <span class="tab-icon">◈</span>
-        <span class="tab-label">7 DAY</span>
-      </button>
-      <button class="tab" onclick="pmSwitchTab('day48',this)">
-        <span class="tab-icon">⚡</span>
-        <span class="tab-label">48H</span>
-      </button>
-      <button class="tab" onclick="pmSwitchTab('swing',this)">
-        <span class="tab-icon">◆</span>
-        <span class="tab-label">SWING</span>
-      </button>
-      <button class="tab" onclick="pmSwitchTab('forex',this)">
-        <span class="tab-icon">$</span>
-        <span class="tab-label">FOREX</span>
-      </button>
+      <button class="tab active" onclick="pmSwitchTab('week',this)"><span class="tab-icon">◈</span><span class="tab-label">7 DAY</span></button>
+      <button class="tab" onclick="pmSwitchTab('day48',this)"><span class="tab-icon">⚡</span><span class="tab-label">48H</span></button>
+      <button class="tab" onclick="pmSwitchTab('swing',this)"><span class="tab-icon">◆</span><span class="tab-label">SWING</span></button>
+      <button class="tab" onclick="pmSwitchTab('forex',this)"><span class="tab-icon">$</span><span class="tab-label">FOREX</span></button>
     </div>
     <div id="pm-tab-desc" class="tab-subdesc">Uncertain markets resolving this week — all categories, volume &gt;$20K. Best short-term plays.</div>
     <div class="panel-body tall">
@@ -81,7 +57,6 @@
     </div>
   </div>
 
-  <!-- ── PANEL 3: NEAR-CERTAIN INCOME ───────────────────────────────── -->
   <div class="panel accent-yellow">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
@@ -90,12 +65,9 @@
       </div>
       <div class="panel-desc">82–97% confidence markets resolving within 7 days across all categories. Low risk, fast resolution. Buy the obvious side for a quick return — the safest play in the system.</div>
     </div>
-    <div class="panel-body" id="pm-daily">
-      <div class="loader">Scanning</div>
-    </div>
+    <div class="panel-body" id="pm-daily"><div class="loader">Scanning</div></div>
   </div>
 
-  <!-- ── PANEL 4: TOP WALLETS LEADERBOARD ───────────────────────────── -->
   <div class="panel accent-purple">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
@@ -104,14 +76,10 @@
       </div>
       <div class="panel-desc">ALL-TIME, 30-DAY and 7-DAY combined. Ranked by ROI (PnL ÷ Volume traded) — not raw PnL. Consistent performers, not one-time winners. These are the wallets the bot mirrors.</div>
     </div>
-    <div class="panel-body" id="pm-wallets">
-      <div class="loader">Pulling wallets</div>
-    </div>
+    <div class="panel-body" id="pm-wallets"><div class="loader">Pulling wallets</div></div>
   </div>
+</div>
 
-</div><!-- /.pm-grid -->
-
-<!-- ═══ PAPER TRADE TRACKER — FULL WIDTH ══════════════════════════════ -->
 <div class="pm-full">
   <div class="panel accent-paper">
     <div class="panel-hdr">
@@ -121,25 +89,11 @@
       </div>
       <div class="panel-desc">Bot-logged paper trades tracking performance before real money is deployed. Includes entry price, Kelly-sized bet, expected value (EV), and live status. Auto-syncs every 30 minutes.</div>
     </div>
-    <div class="panel-body" style="max-height:280px" id="paper-trades">
-      <div class="loader">Loading</div>
-    </div>
+    <div class="panel-body" style="max-height:280px" id="paper-trades"><div class="loader">Loading</div></div>
   </div>
 </div>
 
-<!-- ═══ FOOTER ═════════════════════════════════════════════════════════ -->
 <footer>
-  <span>
-    Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API via
-    <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a>
-    Cloudflare Worker &mdash; refreshes every 30s
-  </span>
-  <span>
-    <span class="kbd">R</span> refresh &nbsp;|&nbsp;
-    Not financial advice. All positions carry full loss risk.
-  </span>
+  <span>Live data: <a href="https://polymarket.com" target="_blank">Polymarket</a> public API via <a href="https://shaunpatrickstewart.com" target="_blank">shaunpatrickstewart.com</a> Cloudflare Worker &mdash; refreshes every 30s</span>
+  <span><span class="kbd">R</span> refresh &nbsp;|&nbsp; Not financial advice. All positions carry full loss risk.</span>
 </footer>
-
-</div><!-- /#pm-root -->
-
-<script src="app.js"></script>
