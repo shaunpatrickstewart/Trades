@@ -451,15 +451,24 @@
       Object.entries(byEngine).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
         const label = eng==='LONG_TERM'?'WALLET COPY':eng.replace('_',' ');
-        const pnlStr = (d.won+d.lost)>0
+        const resolved = d.won + d.lost;
+        const totalEngBet = deduped.filter(t=>(t.type||'UNKNOWN')===eng).reduce((s,t)=>s+(t.paper_bet||0),0);
+        const roi = resolved > 0 && totalEngBet > 0 ? (d.realPnl / totalEngBet * 100) : null;
+        const wr  = resolved > 0 ? (d.won / resolved * 100) : null;
+        const pnlStr = resolved > 0
           ? (d.realPnl>=0?'<span style="color:#00ff88">+$'+d.realPnl.toFixed(2)+'</span>'
                          :'<span style="color:#ff4444">$'+d.realPnl.toFixed(2)+'</span>')
           : '<span style="color:#444">no resolved</span>';
+        const roiStr = roi !== null
+          ? '<span style="color:'+(roi>=0?'#00ff88':'#ff4444')+'">ROI '+(roi>=0?'+':'')+roi.toFixed(1)+'%</span>'
+          : '<span style="color:#333;font-size:0.75em">ROI: need '+(10-resolved)+' more</span>';
+        const wrStr = wr !== null ? '<span style="color:#aaa"> &nbsp; '+wr.toFixed(0)+'% WR</span>' : '';
         engHtml +=
-          '<div style="background:#0d0d0d;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:140px">'+
+          '<div style="background:#0d0d0d;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:155px">'+
           '<div style="color:'+c+';font-size:0.7em;font-weight:700">'+label+'</div>'+
           '<div style="font-size:0.8em;margin-top:2px">'+d.open+' open &nbsp; '+d.won+'W/'+d.lost+'L</div>'+
           '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
+          '<div style="font-size:0.78em;margin-top:2px">'+roiStr+wrStr+'</div>'+
           '<div style="font-size:0.75em;color:#555">Unrealized: +$'+d.unrealized.toFixed(2)+'</div>'+
           '</div>';
       });
@@ -557,6 +566,40 @@
         : '<span style="color:#ff4444">STOPPED</span>';
 
       let html = '<div style="font-size:0.75em;color:#555;margin-bottom:8px">Last audit: '+ts+' &nbsp;|&nbsp; Bot: '+botSt+'</div>';
+
+      // Strategy ROI + allocation recommendation
+      if (a.engine_summary && a.engine_summary.length) {
+        html += '<div style="color:#ffaa44;font-weight:700;margin-bottom:6px">Strategy Performance</div>';
+        html += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">';
+        const ec = {SHORT_TERM:'#00ff88', NEAR_CERTAIN:'#ffdd44', LONG_TERM:'#88aaff', UNKNOWN:'#555'};
+        a.engine_summary.forEach(e=>{
+          const c = ec[e.engine]||'#888';
+          const roiStr = e.roi_pct !== null && e.roi_pct !== undefined
+            ? '<span style="color:'+(e.roi_pct>=0?'#00ff88':'#ff4444')+';font-weight:700">'+(e.roi_pct>=0?'+':'')+e.roi_pct+'%</span>'
+            : '<span style="color:#333">need '+(10-e.resolved)+' more</span>';
+          const wrStr = e.win_rate_pct !== null && e.win_rate_pct !== undefined
+            ? ' &nbsp;<span style="color:#aaa">'+e.win_rate_pct+'% WR</span>' : '';
+          html += '<div style="background:#0d0d0d;border-left:2px solid '+c+';padding:4px 8px;font-size:0.78em">'+
+            '<div style="color:'+c+';font-weight:700">'+(e.engine==='LONG_TERM'?'WALLET COPY':e.engine.replace('_',' '))+'</div>'+
+            '<div>'+e.resolved+' resolved | ROI '+roiStr+wrStr+'</div>'+
+            '<div>P&amp;L: '+(e.realized_pnl>=0?'<span style="color:#00ff88">+':'<span style="color:#ff4444">')+
+            '$'+Math.abs(e.realized_pnl).toFixed(2)+'</span></div>'+
+            '</div>';
+        });
+        html += '</div>';
+      }
+      if (a.allocation_rec) {
+        const ar = a.allocation_rec;
+        if (ar.status === 'recommendation_ready') {
+          html += '<div style="color:#00ff88;font-weight:700;margin-bottom:4px">Capital Allocation</div>';
+          ar.summary.split('\n').forEach(line=>{
+            html += '<div style="color:#88cc88;margin-bottom:2px">▸ '+line+'</div>';
+          });
+        } else {
+          html += '<div style="color:#333;font-size:0.78em;margin-bottom:8px">'+
+            '⏳ '+ar.message+'</div>';
+        }
+      }
 
       if (a.issues && a.issues.length) {
         html += '<div style="color:#ff8844;font-weight:700;margin-bottom:4px">Issues ('+a.issues.length+')</div>';
