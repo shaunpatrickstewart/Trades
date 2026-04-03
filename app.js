@@ -232,23 +232,26 @@
   }
 
   function renderScanner(allMarkets, forexMarkets) {
+    // Prefer endDate (has time component) over endDateIso (date-only, defaults to midnight UTC)
+    const ed = m => m.endDate || m.endDateIso || '';
+
     const week = allMarkets.filter(m=>{
-      const h=hours(m.endDateIso||m.endDate), vol=parseFloat(m.volumeNum||0);
-      if(h<0||h>168||vol<20000) return false;
+      const h=hours(ed(m)), vol=parseFloat(m.volumeNum||0);
+      if(h<0||h>168||vol<1000) return false;
       let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
       return p.some(v=>v>=0.15&&v<=0.85);
     }).sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
 
     const day48 = allMarkets.filter(m=>{
-      const h=hours(m.endDateIso||m.endDate), vol=parseFloat(m.volumeNum||0);
-      if(h<0||h>48||vol<10000) return false;
+      const h=hours(ed(m)), vol=parseFloat(m.volumeNum||0);
+      if(h<0||h>48||vol<500) return false;
       let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
       return p.some(v=>v>=0.10&&v<=0.90);
     }).sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
 
     const swing = allMarkets.filter(m=>{
-      const h=hours(m.endDateIso||m.endDate), vol=parseFloat(m.volumeNum||0);
-      if(h<168||h>720||vol<15000) return false;
+      const h=hours(ed(m)), vol=parseFloat(m.volumeNum||0);
+      if(h<168||h>720||vol<5000) return false;
       let p=[]; try{p=JSON.parse(m.outcomePrices||'[]').map(Number)}catch(e){}
       return p.some(v=>v>=0.15&&v<=0.85);
     }).sort((a,b)=>parseFloat(b.volumeNum||0)-parseFloat(a.volumeNum||0));
@@ -275,12 +278,13 @@
 
   // ── RENDER: Near-Certain Income
   function renderDailyIncome(allMarkets) {
+    const ed = m => m.endDate || m.endDateIso || '';
     const hits = allMarkets.filter(m=>{
-      const h=hours(m.endDateIso||m.endDate);
+      const h=hours(ed(m));
       if(h<0||h>168) return false;
-      if(parseFloat(m.volumeNum||0)<2000) return false;
+      if(parseFloat(m.volumeNum||0)<200) return false;
       return getHighConf(m)!==null;
-    }).sort((a,b)=>hours(a.endDateIso||a.endDate)-hours(b.endDateIso||b.endDate));
+    }).sort((a,b)=>hours(ed(a))-hours(ed(b)));
 
     document.getElementById('dc-count').textContent = '('+hits.length+')';
     if (!hits.length) {
