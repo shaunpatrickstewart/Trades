@@ -277,35 +277,77 @@
   }
 
   // ── RENDER: Near-Certain Income
-  function renderDailyIncome(allMarkets) {
-    const ed = m => m.endDate || m.endDateIso || '';
-    const hits = allMarkets.filter(m=>{
-      const h=hours(ed(m));
-      if(h<0||h>168) return false;
-      if(parseFloat(m.volumeNum||0)<200) return false;
-      return getHighConf(m)!==null;
-    }).sort((a,b)=>hours(ed(a))-hours(ed(b)));
+  async function renderPerformance() {
+    try {
+      const resp = await fetch('paper_trades.jsonl?_='+Date.now());
+      const text = await resp.text();
+      const trades = text.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
 
-    document.getElementById('dc-count').textContent = '('+hits.length+')';
-    if (!hits.length) {
-      document.getElementById('pm-daily').innerHTML='<div class="empty">No near-certain markets this week — all outcomes genuinely uncertain right now.</div>';
-      return;
+      const won  = trades.filter(t=>t.status==='WON');
+      const lost = trades.filter(t=>t.status==='LOST');
+      const open = trades.filter(t=>t.status==='OPEN');
+      const settled = won.length + lost.length;
+      const winRate = settled > 0 ? (won.length/settled*100).toFixed(1) : '—';
+      const totalPnl = trades.reduce((s,t)=>s+(parseFloat(t.pnl||0)),0);
+      const avgWin  = won.length  ? (won.reduce((s,t)=>s+parseFloat(t.pnl||0),0)/won.length).toFixed(2)  : '0.00';
+      const avgLoss = lost.length ? (lost.reduce((s,t)=>s+parseFloat(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
+
+      document.getElementById('perf-count').textContent = '('+settled+' settled)';
+
+      // NC-style = tiny wins ≤$0.75 — these were the losing strategy
+      const ncWins = won.filter(t=>parseFloat(t.pnl||0)<=0.75);
+      const stLtWins = won.filter(t=>parseFloat(t.pnl||0)>0.75);
+      const ncWinPnl = ncWins.reduce((s,t)=>s+parseFloat(t.pnl||0),0);
+      const stLtWinPnl = stLtWins.reduce((s,t)=>s+parseFloat(t.pnl||0),0);
+
+      // Fetch live bankroll from paper_trades meta or use known value
+      const bankroll = 1232.57; // updated with $1000 paper top-up
+
+      const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
+      let html = '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">';
+      const stat = (lbl,val,color) => '<div style="background:#f0f0f0;border-radius:4px;padding:6px 8px;text-align:center"><div style="font-size:1.1em;font-weight:700;color:'+(color||'#222')+'">'+val+'</div><div style="font-size:0.68em;color:#888;margin-top:2px">'+lbl+'</div></div>';
+      html += stat('BANKROLL','$'+bankroll.toFixed(2),'#222');
+      html += stat('TOTAL P&L', (totalPnl>=0?'+':'')+fmt(totalPnl), pnlColor);
+      html += stat('WIN RATE', winRate+'%', parseFloat(winRate)>=60?'#00cc66':'#ee3344');
+      html += stat('SETTLED', settled, '#555');
+      html += stat('AVG WIN', '+$'+avgWin, '#00cc66');
+      html += stat('AVG LOSS', '$'+avgLoss, '#ee3344');
+      html += stat('ST/LT P&L', (stLtWinPnl>=0?'+':'')+fmt(stLtWinPnl), '#00cc66');
+      html += '</div>';
+
+      // "Without NC" insight
+      const withoutNcNote = '<div style="background:#fff8e6;border:1px solid #f0c040;border-radius:4px;padding:6px 10px;margin-bottom:8px;font-size:0.75em;color:#7a5c00">'+
+        '<b>Without Near-Certain:</b> NC trades contributed only $'+ncWinPnl.toFixed(2)+' in wins ('+ncWins.length+' trades, avg $'+(ncWins.length?ncWinPnl/ncWins.length:0).toFixed(2)+'/win). '+
+        'SHORT+LONG term wins: $'+stLtWinPnl.toFixed(2)+' ('+stLtWins.length+' trades). Engine disabled. Bets reset to $12 max on genuine uncertainty markets.</div>';
+      html += withoutNcNote;
+
+      html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
+      html += '<div style="display:flex;gap:6px;margin-bottom:10px">';
+      html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; SHORT_TERM</span>';
+      html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; LONG_TERM</span>';
+      html += '<span style="background:#f5f5f5;color:#999;padding:3px 8px;border-radius:3px;font-size:0.75em;text-decoration:line-through">NEAR_CERTAIN</span>';
+      html += '</div>';
+
+      // Recent settled trades
+      const recent = [...won,...lost].sort((a,b)=>(b.closed_at||'').localeCompare(a.closed_at||'')).slice(0,8);
+      if (recent.length) {
+        html += '<table><tr><th>Result</th><th>Market</th><th>Bet</th><th>P&L</th></tr>';
+        recent.forEach(t=>{
+          const isWon = t.status==='WON';
+          const q = (t.question||t.title||'Unknown market').slice(0,50);
+          html += '<tr>'+
+            '<td><span class="badge '+(isWon?'by':'bn')+'">'+t.status+'</span></td>'+
+            '<td style="max-width:180px">'+q+'</td>'+
+            '<td class="dim">$'+parseFloat(t.paper_bet||0).toFixed(2)+'</td>'+
+            '<td class="'+(isWon?'green':'red')+'">'+(isWon?'+':'')+fmt(parseFloat(t.pnl||0))+'</td>'+
+            '</tr>';
+        });
+        html += '</table>';
+      }
+      document.getElementById('pm-performance').innerHTML = html;
+    } catch(e) {
+      document.getElementById('pm-performance').innerHTML = '<div class="empty">Could not load performance data</div>';
     }
-    let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Conf</th><th>Profit/$1</th><th>Expires</th></tr>';
-    hits.slice(0,20).forEach((m,i)=>{
-      const hc  = getHighConf(m);
-      const cls = hc.outcome==='YES' ? 'by' : 'bn';
-      const profit = ((1-hc.price)/hc.price).toFixed(3);
-      html += '<tr>'+
-        '<td class="dim">'+(i+1)+'</td>'+
-        '<td style="max-width:200px">'+(m.question||m.title||'').slice(0,58)+'</td>'+
-        '<td><span class="badge '+cls+'">'+hc.outcome+'</span></td>'+
-        '<td class="green">'+(hc.price*100).toFixed(0)+'%</td>'+
-        '<td class="green">+$'+profit+'</td>'+
-        '<td>'+timeLabel(m)+'</td>'+
-        '</tr>';
-    });
-    document.getElementById('pm-daily').innerHTML = html+'</table>';
   }
 
   // ── RENDER: Wallet Leaderboard (walletPositions = [{w, pos}] pre-fetched)
@@ -446,7 +488,7 @@
         if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); }
         if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); }
       });
-      const engColors = {SHORT_TERM:'#00ff88', NEAR_CERTAIN:'#ffdd44', LONG_TERM:'#88aaff', UNKNOWN:'#888'};
+      const engColors = {SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', UNKNOWN:'#888'};
       let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #1a2a1a">';
       Object.entries(byEngine).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
@@ -478,7 +520,7 @@
       const engineLabel = t => {
         const s = t.source||t.type||'';
         if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
-        if (t.type==='NEAR_CERTAIN') return '<span style="color:#ffdd44;font-size:0.75em">NEAR-CERTAIN</span>';
+        if (t.type==='NEAR_CERTAIN') return '<span style="color:#aaa;font-size:0.75em;text-decoration:line-through">NEAR-CERTAIN</span>';
         if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">SHORT-TERM</span>';
         return '<span style="color:#888;font-size:0.75em">'+(t.type||'—')+'</span>';
       };
@@ -661,7 +703,7 @@
       ]);
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
-      renderDailyIncome(allMarkets);
+      renderPerformance();
       // Fetch positions once for top 25, reuse for both Copy Signals and Leaderboard
       const posResults = await Promise.allSettled(wallets.slice(0,25).map(w=>{
         const addr = w.proxyWallet||w.address||'';
