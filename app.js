@@ -294,12 +294,6 @@
 
       document.getElementById('perf-count').textContent = '('+settled+' settled)';
 
-      // NC-style = tiny wins ≤$0.75 — these were the losing strategy
-      const ncWins = won.filter(t=>parseFloat(t.pnl||0)<=0.75);
-      const stLtWins = won.filter(t=>parseFloat(t.pnl||0)>0.75);
-      const ncWinPnl = ncWins.reduce((s,t)=>s+parseFloat(t.pnl||0),0);
-      const stLtWinPnl = stLtWins.reduce((s,t)=>s+parseFloat(t.pnl||0),0);
-
       // Fetch live bankroll from paper_trades meta or use known value
       const bankroll = 1232.57; // updated with $1000 paper top-up
 
@@ -312,20 +306,13 @@
       html += stat('SETTLED', settled, '#555');
       html += stat('AVG WIN', '+$'+avgWin, '#00cc66');
       html += stat('AVG LOSS', '$'+avgLoss, '#ee3344');
-      html += stat('ST/LT P&L', (stLtWinPnl>=0?'+':'')+fmt(stLtWinPnl), '#00cc66');
+      html += stat('OPEN', open.length, '#888');
       html += '</div>';
-
-      // "Without NC" insight
-      const withoutNcNote = '<div style="background:#fff8e6;border:1px solid #f0c040;border-radius:4px;padding:6px 10px;margin-bottom:8px;font-size:0.75em;color:#7a5c00">'+
-        '<b>Without Near-Certain:</b> NC trades contributed only $'+ncWinPnl.toFixed(2)+' in wins ('+ncWins.length+' trades, avg $'+(ncWins.length?ncWinPnl/ncWins.length:0).toFixed(2)+'/win). '+
-        'SHORT+LONG term wins: $'+stLtWinPnl.toFixed(2)+' ('+stLtWins.length+' trades). Engine disabled. Bets reset to $12 max on genuine uncertainty markets.</div>';
-      html += withoutNcNote;
 
       html += '<div style="font-size:0.72em;color:#555;margin-bottom:6px;font-weight:600">ACTIVE ENGINES</div>';
       html += '<div style="display:flex;gap:6px;margin-bottom:10px">';
       html += '<span style="background:#e6f9f0;color:#007a44;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; SHORT_TERM</span>';
       html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; LONG_TERM</span>';
-      html += '<span style="background:#f5f5f5;color:#999;padding:3px 8px;border-radius:3px;font-size:0.75em;text-decoration:line-through">NEAR_CERTAIN</span>';
       html += '</div>';
 
       // Recent settled trades
@@ -520,7 +507,7 @@
       const engineLabel = t => {
         const s = t.source||t.type||'';
         if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
-        if (t.type==='NEAR_CERTAIN') return '<span style="color:#aaa;font-size:0.75em;text-decoration:line-through">NEAR-CERTAIN</span>';
+        if (t.type==='NEAR_CERTAIN') return '<span style="color:#aaa;font-size:0.75em">NEAR-CERTAIN</span>';
         if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">SHORT-TERM</span>';
         return '<span style="color:#888;font-size:0.75em">'+(t.type||'—')+'</span>';
       };
@@ -642,7 +629,7 @@
       if (a.engine_summary && a.engine_summary.length) {
         html += '<div style="color:#ffaa44;font-weight:700;margin-bottom:6px">Strategy Performance</div>';
         html += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">';
-        const ec = {SHORT_TERM:'#00ff88', NEAR_CERTAIN:'#ffdd44', LONG_TERM:'#88aaff', UNKNOWN:'#555'};
+        const ec = {SHORT_TERM:'#00ff88', LONG_TERM:'#88aaff', UNKNOWN:'#555'};
         a.engine_summary.forEach(e=>{
           const c = ec[e.engine]||'#888';
           const roiStr = e.roi_pct !== null && e.roi_pct !== undefined
