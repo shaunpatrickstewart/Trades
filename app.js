@@ -684,6 +684,61 @@
     }
   }
 
+  // ── TESTING LAB
+  async function renderLab() {
+    const el = document.getElementById('lab-panel');
+    const countEl = document.getElementById('lab-count');
+    if (!el) return;
+    try {
+      const lab = await pf('https://shaunpatrickstewart.github.io/trades/lab.json');
+      const exps = lab.experiments || [];
+      if (countEl) countEl.textContent = exps.length + ' experiments';
+
+      const statusColor = {
+        LIVE:        '#00ff88',
+        IN_PROGRESS: '#ffcc00',
+        PLANNED:     '#88aaff',
+        ANALYZING:   '#ff8844',
+        BLOCKED:     '#ff4444',
+        COMPLETE:    '#aaaaaa',
+      };
+      const statusIcon = {
+        LIVE: '&#9679; LIVE', IN_PROGRESS: '&#9654; RUNNING', PLANNED: '&#9675; PLANNED',
+        ANALYZING: '&#9670; ANALYZING', BLOCKED: '&#9888; BLOCKED', COMPLETE: '&#10003; DONE',
+      };
+      const priBadge = p =>
+        p==='HIGH' ? '<span style="background:#ff4444;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">HIGH</span>' :
+        p==='MEDIUM' ? '<span style="background:#ff8844;color:#fff;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">MED</span>' :
+        p==='LIVE' ? '<span style="background:#00cc66;color:#000;padding:1px 5px;border-radius:2px;font-size:0.68em;font-weight:700">LIVE</span>' : '';
+
+      let html = `<div style="color:#555;font-size:0.7em;margin-bottom:8px">Last updated: ${lab.updated || '—'} — Updated by bot on every strategy change</div>`;
+      html += '<div style="display:flex;flex-direction:column;gap:10px">';
+
+      exps.forEach(e => {
+        const sc = statusColor[e.status] || '#888';
+        const si = statusIcon[e.status] || e.status;
+        html += `<div style="background:#0a0a0a;border-left:3px solid ${sc};padding:8px 10px;border-radius:0 4px 4px 0">`;
+        html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">`;
+        html += `<span style="color:${sc};font-weight:700;font-size:0.82em">${si} &nbsp; ${e.name}</span>`;
+        html += `<span>${priBadge(e.priority)}</span>`;
+        html += `</div>`;
+        html += `<div style="color:#aaa;font-size:0.75em;margin-bottom:3px">${e.hypothesis}</div>`;
+        if (e.result) {
+          const rc = e.status==='LIVE' ? '#00cc66' : e.status==='BLOCKED' ? '#ff4444' : '#888';
+          html += `<div style="color:${rc};font-size:0.72em;margin-top:3px"><b>Result:</b> ${e.result}</div>`;
+        } else {
+          html += `<div style="color:#555;font-size:0.72em;margin-top:3px"><b>Next:</b> ${e.action}</div>`;
+        }
+        html += `</div>`;
+      });
+
+      html += '</div>';
+      el.innerHTML = html;
+    } catch(e) {
+      if (el) el.innerHTML = '<div class="dim">Lab data unavailable — ('+ e.message+')</div>';
+    }
+  }
+
   // ── MAIN REFRESH
   async function refresh() {
     document.getElementById('hdr-updated').textContent =
@@ -713,8 +768,10 @@
   refresh();
   renderPaperTrades();
   renderAudit();
+  renderLab();
   setInterval(refresh, REFRESH);
   setInterval(renderPaperTrades, 1800000);
-  setInterval(renderAudit, 3600000);  // re-check audit hourly
+  setInterval(renderAudit, 3600000);
+  setInterval(renderLab, 3600000);
 
 })();

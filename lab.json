@@ -1,0 +1,75 @@
+{
+  "updated": "2026-04-07",
+  "experiments": [
+    {
+      "id": "arb_detection",
+      "name": "Yes+No Arbitrage Scanner",
+      "status": "PLANNED",
+      "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
+      "source": "Grok research 2026-04-07",
+      "action": "Add arbitrage scanner to bot — scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
+      "result": null,
+      "priority": "HIGH"
+    },
+    {
+      "id": "near_certain_volume",
+      "name": "NEAR_CERTAIN Bet Size Scaling",
+      "status": "ANALYZING",
+      "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
+      "source": "Paper trade analysis + Grok research",
+      "action": "Test 5x bet size increase ($10→$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
+      "result": "Current: $10 max bet. Awaiting data on whether WR holds at $50.",
+      "priority": "HIGH"
+    },
+    {
+      "id": "cross_platform_arb",
+      "name": "Polymarket vs Kalshi Price Arbitrage",
+      "status": "BLOCKED",
+      "hypothesis": "Same events trade on both Polymarket and Kalshi with different prices. Buying the cheaper side on one platform and hedging on the other locks in profit. 6-cent spread = profit after fees.",
+      "source": "Grok research 2026-04-07",
+      "action": "Need active Kalshi account to test. Currently blocked on signup.",
+      "result": "BLOCKED — Kalshi account pending registration.",
+      "priority": "HIGH"
+    },
+    {
+      "id": "wallet_gain_loss_ratio",
+      "name": "Gain/Loss Ratio Wallet Filter",
+      "status": "IN_PROGRESS",
+      "hypothesis": "Research shows elite copy traders target wallets with gain/loss ratio >2.0 (win $2 for every $1 lost). Current scoring uses Sharpe+ROI+trades but misses this metric.",
+      "source": "Grok copy trading research 2026-04-07",
+      "action": "Add gain/loss ratio to wallet composite score. Penalize wallets with ratio <1.5.",
+      "result": "Implementing in wallet_analyzer.py — next wallet rescore run.",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "short_term_news_arb",
+      "name": "News Arbitrage — 30-60 Second Entry",
+      "status": "PLANNED",
+      "hypothesis": "Breaking news reprices markets within 30-60 seconds. Bot that monitors X/news feeds and enters before the crowd captures the repricing move.",
+      "source": "Grok research — confirmed elite traders use this",
+      "action": "Build news alert → xAI X-search → trade signal pipeline. Requires x_search API.",
+      "result": null,
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "short_term_wallet_copy",
+      "name": "SHORT_TERM = Wallet Copy (Short Timeframe)",
+      "status": "LIVE",
+      "hypothesis": "Instead of independently picking markets, copy elite wallet positions expiring within 14 days. Same wallets have been scoring >60% WR on LONG_TERM trades.",
+      "source": "Shaun's original intent for SHORT_TERM engine",
+      "action": "Rewrite run_short_term_scan() to copy elite wallet positions with end_date within SHORT_TERM_DAYS.",
+      "result": "DEPLOYED 2026-04-07. Engine now logs 'SHORT-TERM WALLET COPY' — running every 30 min.",
+      "priority": "LIVE"
+    },
+    {
+      "id": "10k_wallet_win_rate",
+      "name": "10,050 Wallet Win Rate Scoring",
+      "status": "IN_PROGRESS",
+      "hypothesis": "All 10,050 wallets in all_wallets_raw.json have rank/PNL/volume data but no per-wallet win rate. Fetching actual closed trade win rates would dramatically improve which wallets we copy.",
+      "source": "Wallet analysis session",
+      "action": "Run wallet_analyzer.py on all 10,050 wallets. Fetch closed trade activity for top 500. Calculate real win rate. Rescore composite = win_rate × Sharpe × ROI.",
+      "result": "Partial — 134 elite wallets scored with Sharpe-estimated win rate. Full 10,050 scan pending (rate-limited).",
+      "priority": "HIGH"
+    }
+  ]
+}
