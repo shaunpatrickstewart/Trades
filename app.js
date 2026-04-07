@@ -295,7 +295,12 @@
       document.getElementById('perf-count').textContent = '('+settled+' settled)';
 
       // Fetch live bankroll from paper_trades meta or use known value
-      const bankroll = 1232.57; // updated with $1000 paper top-up
+      // Live bankroll from bot_stats.json (updated hourly by bot_hourly.sh)
+      let bankroll = 1316.59; // fallback
+      try {
+        const bs = await pf('https://shaunpatrickstewart.github.io/trades/bot_stats.json');
+        if (bs && bs.bankroll) bankroll = bs.bankroll;
+      } catch(e) { /* use fallback */ }
 
       const pnlColor = totalPnl >= 0 ? '#00cc66' : '#ee3344';
       let html = '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">';
