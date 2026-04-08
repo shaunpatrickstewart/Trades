@@ -1,5 +1,19 @@
 <!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — updated 2026-04-08 -->
-<link rel="stylesheet" href="https://shaunpatrickstewart.github.io/trades/style.css">
+
+<!-- Anti-FOUC: hide root until CSS loads, then fade in -->
+<style>
+  #pm-root { opacity: 0; background: #050f05; min-height: 200px; }
+  #pm-root.css-ready { opacity: 1; transition: opacity 0.35s ease; }
+</style>
+
+<link rel="stylesheet"
+  href="https://shaunpatrickstewart.github.io/trades/style.css"
+  onload="document.getElementById('pm-root').classList.add('css-ready')"
+>
+<script>
+  // Fallback: if onload never fires (cached/blocked), show after 1.2s
+  setTimeout(function(){ var r=document.getElementById('pm-root'); if(r) r.classList.add('css-ready'); }, 1200);
+</script>
 
 <div id="pm-root">
 
