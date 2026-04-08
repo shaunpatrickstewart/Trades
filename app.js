@@ -923,13 +923,87 @@
     }
   }
 
+  // ── RENDER: Live News & X Signals
+  async function renderSignalsFeed() {
+    const el = document.getElementById('news-signals-panel');
+    if (!el) return;
+    try {
+      const SIG_URL = 'https://shaunpatrickstewart.github.io/trades/signals.json?v='+Date.now();
+      const data = await pf(SIG_URL);
+      const signals = data.signals || [];
+      const stats   = data.stats   || {};
+      const scanAge = data.last_scan ? Math.round((Date.now()-new Date(data.last_scan))/60000) : null;
+
+      const countEl = document.getElementById('signals-count');
+      if (countEl) countEl.textContent = '('+signals.length+' signals · scan '+(scanAge!=null?scanAge+'m ago':'pending')+')';
+
+      if (!signals.length) {
+        el.innerHTML = '<div class="dim">No signals yet — first scan in progress...</div>';
+        return;
+      }
+
+      // Stats bar
+      let html = '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">';
+      const sBar = (label, val, color) =>
+        '<div style="background:#0a0a0a;border:1px solid #1a1a1a;border-radius:3px;padding:4px 10px;font-size:0.75em">'+
+        '<span style="color:'+color+';font-weight:700">'+val+'</span> <span style="color:#444">'+label+'</span></div>';
+      html += sBar('ENTER', stats.enter||0, '#ff4400');
+      html += sBar('ALERT', stats.alert||0, '#ffaa00');
+      html += sBar('WATCH', stats.watch||0, '#555');
+      html += sBar('HIGH CONF', stats.high_conf||0, '#00ff88');
+      html += sBar('MARKETS SCANNED', data.markets_scanned||0, '#88aaff');
+      html += '</div>';
+
+      // Signal cards
+      html += '<div style="display:flex;flex-direction:column;gap:6px">';
+      signals.forEach(s=>{
+        const actionColor = s.action==='ENTER'?'#ff4400':s.action==='ALERT'?'#ffaa00':'#444';
+        const confColor   = s.confidence>=0.80?'#00ff88':s.confidence>=0.65?'#ffcc44':'#888';
+        const dirBadge    = s.direction
+          ? '<span style="background:'+(s.direction==='YES'?'#003300':'#330000')+';color:'+(s.direction==='YES'?'#00ff88':'#ff4444')+';padding:1px 6px;border-radius:2px;font-size:0.7em;font-weight:700">'+s.direction+'</span> '
+          : '';
+        const srcBadge    = s.source==='PERPLEXITY'
+          ? '<span style="color:#88aaff;font-size:0.68em">PERPLEXITY</span>'
+          : '<span style="color:#1d9bf0;font-size:0.68em">X/GROK</span>';
+
+        html += '<div style="background:#080808;border:1px solid #1a1a1a;border-left:3px solid '+actionColor+';border-radius:4px;padding:7px 10px">';
+        html += '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:6px">';
+        html += '<div style="flex:1">';
+        html += '<div style="font-size:0.82em;color:#ddd;font-weight:600;margin-bottom:3px">'+dirBadge+s.headline+'</div>';
+        if (s.matched_markets && s.matched_markets.length) {
+          html += '<div style="font-size:0.7em;color:#555;margin-bottom:2px">→ '+s.matched_markets[0]+'</div>';
+        }
+        if (s.raw && s.raw !== s.headline) {
+          html += '<div style="font-size:0.7em;color:#444;margin-top:2px">'+s.raw.substring(0,180)+'...</div>';
+        }
+        html += '</div>';
+        html += '<div style="text-align:right;flex-shrink:0;min-width:80px">';
+        html += '<div style="font-size:0.8em;font-weight:700;color:'+actionColor+'">'+s.action+'</div>';
+        html += '<div style="font-size:0.78em;color:'+confColor+'">'+Math.round(s.confidence*100)+'%</div>';
+        html += '<div style="margin-top:2px">'+srcBadge+'</div>';
+        html += s.x_link ? '<div style="margin-top:2px"><a href="'+s.x_link+'" target="_blank" style="color:#1d9bf0;font-size:0.65em">View post ↗</a></div>' : '';
+        html += '</div></div>';
+        html += '<div style="font-size:0.65em;color:#333;margin-top:3px">'+
+          (s.category||'')+' · '+(s.timestamp?s.timestamp.slice(11,16)+' UTC':'')+
+          '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+      el.innerHTML = html;
+    } catch(e) {
+      if (el) el.innerHTML = '<div class="dim">Signals loading... ('+e.message+')</div>';
+    }
+  }
+
   refresh();
   renderPaperTrades();
   renderAudit();
   renderLab();
+  renderSignalsFeed();
   setInterval(refresh, REFRESH);
   setInterval(renderPaperTrades, 1800000);
   setInterval(renderAudit, 3600000);
   setInterval(renderLab, 3600000);
+  setInterval(renderSignalsFeed, 300000);  // refresh signals every 5 min
 
 })();
