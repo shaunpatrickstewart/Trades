@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1831 multi-outcome) at 2026-04-08 03:10 UTC\nBest: 9.9% profit on 'Which cities will Russia enter by June 30?' \u2014 buy YES on all 8 outcomes (sum=0.901)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.8% on 'NHL Art Ross Trophy Winner'",
+      "result": "LIVE \u2014 127 categorical arb opportunities found\nScanned 3000 events (1844 multi-outcome) at 2026-04-08 04:11 UTC\nBest: 9.9% profit on 'Which cities will Russia enter by June 30?' \u2014 buy YES on all 8 outcomes (sum=0.901)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.7% on ' Iran agrees to surrender enriched uranium stockpile by...?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 03:10 UTC",
+      "last_scan": "2026-04-08 04:11 UTC",
       "opportunities": [
         {
           "event_title": "Which cities will Russia enter by June 30?",
@@ -24,14 +24,14 @@
               "market_id": "1007632",
               "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
               "question": "Will Russia enter Dopropillia by June 30?",
-              "yes_price": 0.33,
-              "volume": 178782
+              "yes_price": 0.34,
+              "volume": 178812
             },
             {
               "market_id": "1007631",
               "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
               "question": "Will Russia enter Druzkhivka by June 30?",
-              "yes_price": 0.135,
+              "yes_price": 0.13,
               "volume": 260256
             },
             {
@@ -45,7 +45,7 @@
               "market_id": "1007633",
               "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
               "question": "Will Russia enter Kramatorsk by June 30?",
-              "yes_price": 0.115,
+              "yes_price": 0.11,
               "volume": 115813
             },
             {
@@ -81,156 +81,44 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "NHL Art Ross Trophy Winner",
-          "event_slug": "nhl-2025-26-art-ross-trophy",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 19,
+          "event_title": " Iran agrees to surrender enriched uranium stockpile by...?",
+          "event_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "645085",
-              "slug": "nhl-2025-26-art-ross-trophy-nikita-kucherov-winner",
-              "question": "Will Nikita Kucherov win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.478,
-              "volume": 16189
+              "market_id": "1731346",
+              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-december-31-2026",
+              "question": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
+              "yes_price": 0.39,
+              "volume": 53786
             },
             {
-              "market_id": "645082",
-              "slug": "nhl-2025-26-art-ross-trophy-connor-mcdavid-winner",
-              "question": "Will Connor McDavid win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.3735,
-              "volume": 27963
+              "market_id": "1731345",
+              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-june-30-2026",
+              "question": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+              "yes_price": 0.335,
+              "volume": 48648
             },
             {
-              "market_id": "645083",
-              "slug": "nhl-2025-26-art-ross-trophy-nathan-mackinnon-winner",
-              "question": "Will Nathan MacKinnon win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.04,
-              "volume": 21329
-            },
-            {
-              "market_id": "645127",
-              "slug": "nhl-2025-26-art-ross-trophy-ivan-demidov-winner",
-              "question": "Will Ivan Demidov win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0015,
-              "volume": 163169
-            },
-            {
-              "market_id": "645152",
-              "slug": "nhl-2025-26-art-ross-trophy-macklin-celebrini-winner",
-              "question": "Will Macklin Celebrini win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0015,
-              "volume": 9714
-            },
-            {
-              "market_id": "645108",
-              "slug": "nhl-2025-26-art-ross-trophy-dylan-guenther-winner",
-              "question": "Will Dylan Guenther win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.001,
-              "volume": 4098
-            },
-            {
-              "market_id": "645088",
-              "slug": "nhl-2025-26-art-ross-trophy-david-pastrnak-winner",
-              "question": "Will David Pastrnak win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 2137
-            },
-            {
-              "market_id": "645094",
-              "slug": "nhl-2025-26-art-ross-trophy-nick-suzuki-winner",
-              "question": "Will Nick Suzuki win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 86366
-            },
-            {
-              "market_id": "645103",
-              "slug": "nhl-2025-26-art-ross-trophy-andrei-svechnikov-winner",
-              "question": "Will Andrei Svechnikov win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 3576
-            },
-            {
-              "market_id": "645115",
-              "slug": "nhl-2025-26-art-ross-trophy-miro-heiskanen-winner",
-              "question": "Will Miro Heiskanen win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 9137
-            },
-            {
-              "market_id": "645122",
-              "slug": "nhl-2025-26-art-ross-trophy-mathew-barzal-winner",
-              "question": "Will Mathew Barzal win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 8016
-            },
-            {
-              "market_id": "645169",
-              "slug": "nhl-2025-26-art-ross-trophy-alex-tuch-winner",
-              "question": "Will Alex Tuch win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 2194
-            },
-            {
-              "market_id": "645132",
-              "slug": "nhl-2025-26-art-ross-trophy-brad-marchand-winner",
-              "question": "Will Brad Marchand win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1825
-            },
-            {
-              "market_id": "645138",
-              "slug": "nhl-2025-26-art-ross-trophy-nazem-kadri-winner",
-              "question": "Will Nazem Kadri win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 2168
-            },
-            {
-              "market_id": "645148",
-              "slug": "nhl-2025-26-art-ross-trophy-jordan-kyrou-winner",
-              "question": "Will Jordan Kyrou win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 1985
-            },
-            {
-              "market_id": "645150",
-              "slug": "nhl-2025-26-art-ross-trophy-dylan-strome-winner",
-              "question": "Will Dylan Strome win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 3142
-            },
-            {
-              "market_id": "645157",
-              "slug": "nhl-2025-26-art-ross-trophy-seth-jarvis-winner",
-              "question": "Will Seth Jarvis win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 3377
-            },
-            {
-              "market_id": "645165",
-              "slug": "nhl-2025-26-art-ross-trophy-dylan-larkin-winner",
-              "question": "Will Dylan Larkin win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 2856
-            },
-            {
-              "market_id": "645172",
-              "slug": "nhl-2025-26-art-ross-trophy-tage-thompson-winner",
-              "question": "Will Tage Thompson win the 2025\u20132026 NHL Art Ross Trophy?",
-              "yes_price": 0.0005,
-              "volume": 2709
+              "market_id": "1731344",
+              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-april-30-2026",
+              "question": "Iran agrees to surrender enriched uranium stockpile by April 30, 2026?",
+              "yes_price": 0.178,
+              "volume": 76255
             }
           ],
-          "url": "https://polymarket.com/event/nhl-2025-26-art-ross-trophy",
-          "strategy": "Buy YES on all 19 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "VA-02 Democratic Primary Winner",
           "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -244,394 +132,99 @@
               "market_id": "704139",
               "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
               "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.064,
+              "yes_price": 0.0655,
               "volume": 1097
             },
             {
               "market_id": "704143",
               "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
               "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.023,
+              "yes_price": 0.0235,
               "volume": 1490
             }
           ],
           "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "S\u00fcper Lig Winner",
-          "event_slug": "sper-lig-2025-26-champion",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "629133",
-              "slug": "will-galatasaray-win-the-sper-lig",
-              "question": "Will Galatasaray win the S\u00fcper Lig?",
-              "yes_price": 0.68,
-              "volume": 11775
-            },
-            {
-              "market_id": "629138",
-              "slug": "will-trabzonspor-win-the-sper-lig",
-              "question": "Will Trabzonspor win the S\u00fcper Lig?",
-              "yes_price": 0.1135,
-              "volume": 5723
-            },
-            {
-              "market_id": "629132",
-              "slug": "will-fenerbahe-win-the-sper-lig",
-              "question": "Will Fenerbah\u00e7e win the S\u00fcper Lig?",
-              "yes_price": 0.105,
-              "volume": 7353
-            },
-            {
-              "market_id": "629129",
-              "slug": "will-beikta-win-the-sper-lig",
-              "question": "Will Be\u015fikta\u015f win the S\u00fcper Lig?",
-              "yes_price": 0.0055,
-              "volume": 3743
-            },
-            {
-              "market_id": "629128",
-              "slug": "will-baakehir-win-the-sper-lig",
-              "question": "Will Ba\u015fak\u015fehir win the S\u00fcper Lig?",
-              "yes_price": 0.0005,
-              "volume": 5749
-            },
-            {
-              "market_id": "629140",
-              "slug": "will-gztepe-win-the-sper-lig",
-              "question": "Will G\u00f6ztepe win the S\u00fcper Lig?",
-              "yes_price": 0.0005,
-              "volume": 4988
-            }
-          ],
-          "url": "https://polymarket.com/event/sper-lig-2025-26-champion",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "IA-02 Democratic Primary Winner",
-          "event_slug": "ia-02-democratic-primary-winner-845",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "event_title": "2025-2026 PFA Players' Player of the Year Winner",
+          "event_slug": "2025-2026-pfa-players-player-of-the-year-winner",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1419986",
-              "slug": "will-lindsay-james-be-the-democratic-nominee-for-ia-02-295",
-              "question": "Will Lindsay James be the Democratic Nominee for IA-02?",
-              "yes_price": 0.385,
-              "volume": 2175
+              "market_id": "1131737",
+              "slug": "will-declan-rice-win-the-2026-pfa-player-of-the-year",
+              "question": "Will Declan Rice win the 2026 PFA Player of the Year?",
+              "yes_price": 0.59,
+              "volume": 1156
             },
             {
-              "market_id": "1419989",
-              "slug": "will-clint-twedt-ball-be-the-democratic-nominee-for-ia-02-791",
-              "question": "Will Clint Twedt-Ball be the Democratic Nominee for IA-02?",
-              "yes_price": 0.37,
-              "volume": 1111
+              "market_id": "1131753",
+              "slug": "will-bruno-fernandes-win-the-2026-pfa-player-of-the-year",
+              "question": "Will Bruno Fernandes win the 2026 PFA Player of the Year?",
+              "yes_price": 0.24,
+              "volume": 12375
             },
             {
-              "market_id": "1419985",
-              "slug": "will-kathy-dolter-be-the-democratic-nominee-for-ia-02-396",
-              "question": "Will Kathy Dolter be the Democratic Nominee for IA-02?",
-              "yes_price": 0.15,
-              "volume": 1430
+              "market_id": "1131738",
+              "slug": "will-erling-haaland-win-the-2026-pfa-player-of-the-year",
+              "question": "Will Erling Haaland win the 2026 PFA Player of the Year?",
+              "yes_price": 0.0745,
+              "volume": 7583
             }
           ],
-          "url": "https://polymarket.com/event/ia-02-democratic-primary-winner-845",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/2025-2026-pfa-players-player-of-the-year-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "Santa Cruz Governor Election Winner (Bolivia)",
-          "event_slug": "santa-cruz-governor-election-winner-bolivia",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 10,
+          "event_title": "Will Exponent launch a token by ___?",
+          "event_slug": "will-exponent-launch-a-token-by",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1228212",
-              "slug": "will-juan-pablo-velasco-win-the-2026-santa-cruz-gubernatorial-election-929",
-              "question": "Will Juan Pablo Velasco win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.567,
-              "volume": 296556
+              "market_id": "1038880",
+              "slug": "will-exponent-launch-a-token-by-december-31-2026",
+              "question": "Will Exponent launch a token by December 31, 2026?",
+              "yes_price": 0.46,
+              "volume": 348364
             },
             {
-              "market_id": "1228214",
-              "slug": "will-otto-ritter-win-the-2026-santa-cruz-gubernatorial-election-232",
-              "question": "Will Otto Ritter win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.3335,
-              "volume": 83371
+              "market_id": "1038877",
+              "slug": "will-exponent-launch-a-token-by-september-30-2026",
+              "question": "Will Exponent launch a token by September 30, 2026?",
+              "yes_price": 0.28,
+              "volume": 28151
             },
             {
-              "market_id": "1228219",
-              "slug": "will-julio-csar-trrez-win-the-2026-santa-cruz-gubernatorial-election-447",
-              "question": "Will Julio C\u00e9sar T\u00f3rrez win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0015,
-              "volume": 25370
+              "market_id": "1038876",
+              "slug": "will-exponent-launch-a-token-by-june-30-2026",
+              "question": "Will Exponent launch a token by June 30, 2026?",
+              "yes_price": 0.165,
+              "volume": 20878
             },
             {
-              "market_id": "1228220",
-              "slug": "will-luis-fernando-camacho-win-the-2026-santa-cruz-gubernatorial-election-723",
-              "question": "Will Luis Fernando Camacho win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.001,
-              "volume": 140073
-            },
-            {
-              "market_id": "1228213",
-              "slug": "will-juan-carlos-medrano-win-the-2026-santa-cruz-gubernatorial-election-984",
-              "question": "Will Juan Carlos Medrano win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 24916
-            },
-            {
-              "market_id": "1228215",
-              "slug": "will-mauricio-quezada-win-the-2026-santa-cruz-gubernatorial-election-385",
-              "question": "Will Mauricio Quezada win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 20864
-            },
-            {
-              "market_id": "1228217",
-              "slug": "will-chi-hyun-chung-win-the-2026-santa-cruz-gubernatorial-election-162",
-              "question": "Will Chi Hyun Chung win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 25233
-            },
-            {
-              "market_id": "1228221",
-              "slug": "will-guido-eduardo-nayar-win-the-2026-santa-cruz-gubernatorial-election-894",
-              "question": "Will Guido Eduardo Nayar win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 49935
-            },
-            {
-              "market_id": "1228216",
-              "slug": "will-miguel-cadima-win-the-2026-santa-cruz-gubernatorial-election-992",
-              "question": "Will Miguel Cadima win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 22253
-            },
-            {
-              "market_id": "1228218",
-              "slug": "will-vladimir-pea-win-the-2026-santa-cruz-gubernatorial-election-232",
-              "question": "Will Vladimir Pe\u00f1a win the 2026 Santa Cruz gubernatorial election?",
-              "yes_price": 0.0005,
-              "volume": 37682
+              "market_id": "1038874",
+              "slug": "will-exponent-launch-a-token-by-march-31-2026",
+              "question": "Will Exponent launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 57085
             }
           ],
-          "url": "https://polymarket.com/event/santa-cruz-governor-election-winner-bolivia",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "When will the DHS shutdown end?",
-          "event_slug": "when-will-the-dhs-shutdown-end-521",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1723674",
-              "slug": "will-the-dhs-shutdown-end-after-april-30-2026-195",
-              "question": "Will the DHS shutdown end after April 30, 2026?",
-              "yes_price": 0.5145,
-              "volume": 123214
-            },
-            {
-              "market_id": "1723669",
-              "slug": "will-the-dhs-shutdown-end-between-april-13-16-2026-288",
-              "question": "Will the DHS shutdown end between April 13-16, 2026?",
-              "yes_price": 0.1485,
-              "volume": 39955
-            },
-            {
-              "market_id": "1723670",
-              "slug": "will-the-dhs-shutdown-end-between-april-17-20-2026-376",
-              "question": "Will the DHS shutdown end between April 17-20, 2026?",
-              "yes_price": 0.104,
-              "volume": 399597
-            },
-            {
-              "market_id": "1723672",
-              "slug": "will-the-dhs-shutdown-end-between-april-25-28-2026-745",
-              "question": "Will the DHS shutdown end between April 25-28, 2026?",
-              "yes_price": 0.063,
-              "volume": 11505
-            },
-            {
-              "market_id": "1723671",
-              "slug": "will-the-dhs-shutdown-end-between-april-21-24-2026-975",
-              "question": "Will the DHS shutdown end between April 21-24, 2026?",
-              "yes_price": 0.03,
-              "volume": 46309
-            },
-            {
-              "market_id": "1723673",
-              "slug": "will-the-dhs-shutdown-end-between-april-29-30-2026-142",
-              "question": "Will the DHS shutdown end between April 29-30, 2026?",
-              "yes_price": 0.027,
-              "volume": 11177
-            },
-            {
-              "market_id": "1723668",
-              "slug": "will-the-dhs-shutdown-end-between-april-9-12-2026-277",
-              "question": "Will the DHS shutdown end between April 9-12, 2026?",
-              "yes_price": 0.0185,
-              "volume": 28625
-            },
-            {
-              "market_id": "1723667",
-              "slug": "will-the-dhs-shutdown-end-between-april-5-8-2026-658",
-              "question": "Will the DHS shutdown end between April 5-8, 2026?",
-              "yes_price": 0.0015,
-              "volume": 87926
-            },
-            {
-              "market_id": "1723665",
-              "slug": "will-the-dhs-shutdown-end-before-april-1-2026-954",
-              "question": "Will the DHS shutdown end before April 1, 2026?",
-              "yes_price": 0.0,
-              "volume": 39006
-            },
-            {
-              "market_id": "1723666",
-              "slug": "will-the-dhs-shutdown-end-between-april-1-4-2026-864",
-              "question": "Will the DHS shutdown end between April 1-4, 2026?",
-              "yes_price": 0.0,
-              "volume": 60213
-            }
-          ],
-          "url": "https://polymarket.com/event/when-will-the-dhs-shutdown-end-521",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
-        },
-        {
-          "event_title": "How many different countries will Israel strike in 2026?",
-          "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 15,
-          "outcomes": [
-            {
-              "market_id": "678747",
-              "slug": "will-israel-strike-4-countries-in-november-2025",
-              "question": "Will Israel strike 4 countries in 2026?",
-              "yes_price": 0.284,
-              "volume": 1140893
-            },
-            {
-              "market_id": "678748",
-              "slug": "will-israel-strike-5-countries-in-november-2025",
-              "question": "Will Israel strike 5 countries in 2026?",
-              "yes_price": 0.2775,
-              "volume": 492388
-            },
-            {
-              "market_id": "678746",
-              "slug": "will-israel-strike-3-countries-in-2026",
-              "question": "Will Israel strike 3 countries in 2026?",
-              "yes_price": 0.1315,
-              "volume": 1897399
-            },
-            {
-              "market_id": "678749",
-              "slug": "will-israel-strike-6-countries-in-2026",
-              "question": "Will Israel strike 6 countries in 2026?",
-              "yes_price": 0.1235,
-              "volume": 626501
-            },
-            {
-              "market_id": "678750",
-              "slug": "will-israel-strike-7-countries-in-2026",
-              "question": "Will Israel strike 7 countries in 2026?",
-              "yes_price": 0.0355,
-              "volume": 584992
-            },
-            {
-              "market_id": "678751",
-              "slug": "will-israel-strike-8-countries-in-2026",
-              "question": "Will Israel strike 8 countries in 2026?",
-              "yes_price": 0.016,
-              "volume": 499711
-            },
-            {
-              "market_id": "678753",
-              "slug": "will-israel-strike-10-countries-in-2026",
-              "question": "Will Israel strike 10 countries in 2026?",
-              "yes_price": 0.0145,
-              "volume": 375791
-            },
-            {
-              "market_id": "678752",
-              "slug": "will-israel-strike-9-countries-in-2026",
-              "question": "Will Israel strike 9 countries in 2026?",
-              "yes_price": 0.012,
-              "volume": 199148
-            },
-            {
-              "market_id": "678754",
-              "slug": "will-israel-strike-11-countries-in-2026",
-              "question": "Will Israel strike 11 countries in 2026?",
-              "yes_price": 0.005,
-              "volume": 89851
-            },
-            {
-              "market_id": "678755",
-              "slug": "will-israel-strike-12-countries-in-2026",
-              "question": "Will Israel strike 12 countries in 2026?",
-              "yes_price": 0.0035,
-              "volume": 61436
-            },
-            {
-              "market_id": "678756",
-              "slug": "will-israel-strike-13-countries-in-2026",
-              "question": "Will Israel strike 13 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 133131
-            },
-            {
-              "market_id": "678757",
-              "slug": "will-israel-strike-14-countries-in-2026",
-              "question": "Will Israel strike 14 countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 100187
-            },
-            {
-              "market_id": "678758",
-              "slug": "will-israel-strike-15-or-more-countries-in-2026",
-              "question": "Will Israel strike 15 or more countries in 2026?",
-              "yes_price": 0.0015,
-              "volume": 35178
-            },
-            {
-              "market_id": "678743",
-              "slug": "will-israel-strike-0-countries-in-2026",
-              "question": "Will Israel strike 0 countries in 2026?",
-              "yes_price": 0.0,
-              "volume": 38308
-            },
-            {
-              "market_id": "678744",
-              "slug": "will-israel-strike-1-country-in-2026",
-              "question": "Will Israel strike 1 country in 2026?",
-              "yes_price": 0.0,
-              "volume": 87273
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+          "url": "https://polymarket.com/event/will-exponent-launch-a-token-by",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
           "num_outcomes": 11,
           "outcomes": [
             {
@@ -652,7 +245,7 @@
               "market_id": "704345",
               "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
               "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.052,
+              "yes_price": 0.051,
               "volume": 7582
             },
             {
@@ -713,49 +306,337 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
-          "event_title": "India Annual Inflation 2026",
-          "event_slug": "india-annual-inflation-2026",
+          "event_title": "Iran leader end of 2026?",
+          "event_slug": "iran-leader-end-of-2026",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 31,
+          "outcomes": [
+            {
+              "market_id": "1469737",
+              "slug": "will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+              "yes_price": 0.494,
+              "volume": 1369020
+            },
+            {
+              "market_id": "1469739",
+              "slug": "will-reza-pahlavi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Reza Pahlavi be head of state in Iran end of 2026?",
+              "yes_price": 0.095,
+              "volume": 131579
+            },
+            {
+              "market_id": "1469766",
+              "slug": "will-mohammad-bagher-ghalibaf-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mohammad-Bagher Ghalibaf be head of state in Iran end of 2026?",
+              "yes_price": 0.095,
+              "volume": 162495
+            },
+            {
+              "market_id": "1469753",
+              "slug": "will-hassan-rouhani-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Hassan Rouhani be head of state in Iran end of 2026?",
+              "yes_price": 0.0525,
+              "volume": 272547
+            },
+            {
+              "market_id": "1469734",
+              "slug": "will-there-be-no-head-of-state-in-iran-end-of-2026",
+              "question": "Will there be no Head of State in Iran end of 2026?",
+              "yes_price": 0.0315,
+              "volume": 366414
+            },
+            {
+              "market_id": "1469736",
+              "slug": "will-sadegh-larijani-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Sadegh Larijani be head of state in Iran end of 2026?",
+              "yes_price": 0.0285,
+              "volume": 172809
+            },
+            {
+              "market_id": "1469758",
+              "slug": "will-alireza-arafi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Alireza Arafi be head of state in Iran end of 2026?",
+              "yes_price": 0.0185,
+              "volume": 773303
+            },
+            {
+              "market_id": "1469751",
+              "slug": "will-masoud-pezeshkian-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Masoud Pezeshkian be head of state in Iran end of 2026?",
+              "yes_price": 0.0155,
+              "volume": 239196
+            },
+            {
+              "market_id": "1469760",
+              "slug": "will-abbas-araghchi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Abbas Araghchi be head of state in Iran end of 2026?",
+              "yes_price": 0.015,
+              "volume": 93047
+            },
+            {
+              "market_id": "1469738",
+              "slug": "will-hassan-khomeini-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Hassan Khomeini be head of state in Iran end of 2026?",
+              "yes_price": 0.011,
+              "volume": 669909
+            },
+            {
+              "market_id": "1469755",
+              "slug": "will-mohammad-khatami-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mohammad Khatami be head of state in Iran end of 2026?",
+              "yes_price": 0.0095,
+              "volume": 229570
+            },
+            {
+              "market_id": "1469754",
+              "slug": "will-mahmoud-ahmadinejad-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mahmoud Ahmadinejad be head of state in Iran end of 2026?",
+              "yes_price": 0.005,
+              "volume": 46962
+            },
+            {
+              "market_id": "1469741",
+              "slug": "will-maryam-rajavi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Maryam Rajavi be head of state in Iran end of 2026?",
+              "yes_price": 0.0045,
+              "volume": 238800
+            },
+            {
+              "market_id": "1469761",
+              "slug": "will-ahmad-vahidi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Ahmad Vahidi be head of state in Iran end of 2026?",
+              "yes_price": 0.0045,
+              "volume": 191932
+            },
+            {
+              "market_id": "1469765",
+              "slug": "will-ali-asghar-hejazi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Ali Asghar Hejazi be head of state in Iran end of 2026?",
+              "yes_price": 0.0035,
+              "volume": 74071
+            },
+            {
+              "market_id": "1469735",
+              "slug": "will-muhammad-mirbaqiri-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Muhammad Mirbaqiri be head of state in Iran end of 2026?",
+              "yes_price": 0.0025,
+              "volume": 269672
+            },
+            {
+              "market_id": "1469745",
+              "slug": "will-navid-shomali-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Navid Shomali be head of state in Iran end of 2026?",
+              "yes_price": 0.0025,
+              "volume": 52187
+            },
+            {
+              "market_id": "1469752",
+              "slug": "will-saeed-jalili-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Saeed Jalili be head of state in Iran end of 2026?",
+              "yes_price": 0.0025,
+              "volume": 42774
+            },
+            {
+              "market_id": "1469740",
+              "slug": "will-hassan-shariatmadari-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Hassan Shariatmadari be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 146124
+            },
+            {
+              "market_id": "1469742",
+              "slug": "will-massoud-rajavi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Massoud Rajavi be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 20808
+            },
+            {
+              "market_id": "1469743",
+              "slug": "will-seyed-hossein-mousavian-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Seyed Hossein Mousavian be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 31448
+            },
+            {
+              "market_id": "1469744",
+              "slug": "will-reza-pirzadeh-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Reza Pirzadeh be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 25371
+            },
+            {
+              "market_id": "1469746",
+              "slug": "will-mustafa-hijri-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mustafa Hijri be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 18441
+            },
+            {
+              "market_id": "1469747",
+              "slug": "will-ali-motahari-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Ali Motahari be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 47729
+            },
+            {
+              "market_id": "1469748",
+              "slug": "will-gholam-ali-haddad-adel-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Gholam-Ali Haddad-Adel be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 33643
+            },
+            {
+              "market_id": "1469749",
+              "slug": "will-mostafa-pourmohammadi-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mostafa Pourmohammadi be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 64736
+            },
+            {
+              "market_id": "1469750",
+              "slug": "will-sadegh-mahsouli-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Sadegh Mahsouli be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 45940
+            },
+            {
+              "market_id": "1469762",
+              "slug": "will-mohsen-araki-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Mohsen Araki be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 27116
+            },
+            {
+              "market_id": "1469763",
+              "slug": "will-nasir-hosseini-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Nasir Hosseini be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 13087
+            },
+            {
+              "market_id": "1469764",
+              "slug": "will-ahmad-hosseini-khorasani-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Ahmad Hosseini Khorasani be head of state in Iran end of 2026?",
+              "yes_price": 0.0015,
+              "volume": 22354
+            },
+            {
+              "market_id": "1469759",
+              "slug": "will-ali-larijani-be-head-of-state-in-iran-end-of-2026",
+              "question": "Will Ali Larijani be head of state in Iran end of 2026?",
+              "yes_price": 0.0,
+              "volume": 236860
+            }
+          ],
+          "url": "https://polymarket.com/event/iran-leader-end-of-2026",
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+        },
+        {
+          "event_title": "Alabama Governor Democratic Primary Winner",
+          "event_slug": "alabama-governor-democratic-primary-winner",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "821613",
+              "slug": "will-doug-jones-win-the-2026-alabama-governor-democratic-primary-election",
+              "question": "Will Doug Jones win the 2026 Alabama Governor Democratic primary election?",
+              "yes_price": 0.866,
+              "volume": 11215
+            },
+            {
+              "market_id": "821612",
+              "slug": "will-yolanda-flowers-win-the-2026-alabama-governor-democratic-primary-election",
+              "question": "Will Yolanda Flowers win the 2026 Alabama Governor Democratic primary election?",
+              "yes_price": 0.026,
+              "volume": 8435
+            },
+            {
+              "market_id": "821611",
+              "slug": "will-jamel-brown-win-the-2026-alabama-governor-democratic-primary-election",
+              "question": "Will Ja\u2019Mel Brown win the 2026 Alabama Governor Democratic primary election?",
+              "yes_price": 0.017,
+              "volume": 2511
+            }
+          ],
+          "url": "https://polymarket.com/event/alabama-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+        },
+        {
+          "event_title": "Trail Blazers vs. Spurs",
+          "event_slug": "nba-por-sas-2026-04-08",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1913345",
+              "slug": "nba-por-sas-2026-04-08-spread-home-3pt5",
+              "question": "Spread: Spurs (-3.5)",
+              "yes_price": 0.515,
+              "volume": 4171
+            },
+            {
+              "market_id": "1829491",
+              "slug": "nba-por-sas-2026-04-08",
+              "question": "Trail Blazers vs. Spurs",
+              "yes_price": 0.395,
+              "volume": 151451
+            }
+          ],
+          "url": "https://polymarket.com/event/nba-por-sas-2026-04-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "MLB: NL Manager of the Year",
+          "event_slug": "mlb-nl-manager-of-the-year",
           "yes_sum": 0.91,
           "profit_pct": 9.0,
           "profit_per_dollar_pct": 9.89,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1353088",
-              "slug": "will-indias-2026-annual-inflation-be-between-2pt25-and-2pt99",
-              "question": "Will India\u2019s 2026 Annual Inflation be between 2.25% and 2.99%?",
-              "yes_price": 0.375,
-              "volume": 22328
+              "market_id": "1721587",
+              "slug": "will-carlos-mendoza-win-the-2026-nl-manager-of-the-year",
+              "question": "Will Carlos Mendoza win the 2026 NL Manager of the Year?",
+              "yes_price": 0.435,
+              "volume": 9319
             },
             {
-              "market_id": "1353090",
-              "slug": "will-indias-2026-annual-inflation-be-between-3pt75-and-4pt49",
-              "question": "Will India\u2019s 2026 Annual Inflation be between 3.75% and 4.49%?",
-              "yes_price": 0.315,
-              "volume": 22735
+              "market_id": "1721583",
+              "slug": "will-terry-francona-win-the-2026-nl-manager-of-the-year",
+              "question": "Will Terry Francona win the 2026 NL Manager of the Year?",
+              "yes_price": 0.335,
+              "volume": 2740
             },
             {
-              "market_id": "1353091",
-              "slug": "will-indias-2026-annual-inflation-be-at-least-4pt50",
-              "question": "Will India\u2019s 2026 Annual Inflation be at least 4.50%?",
-              "yes_price": 0.22,
-              "volume": 10672
+              "market_id": "1721584",
+              "slug": "will-warren-schaeffer-win-the-2026-nl-manager-of-the-year",
+              "question": "Will Warren Schaeffer win the 2026 NL Manager of the Year?",
+              "yes_price": 0.14,
+              "volume": 3007
             }
           ],
-          "url": "https://polymarket.com/event/india-annual-inflation-2026",
+          "url": "https://polymarket.com/event/mlb-nl-manager-of-the-year",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1831,
-        "skipped_single_outcome": 588,
-        "opportunities_found": 129,
+        "checked_multi_outcome": 1844,
+        "skipped_single_outcome": 581,
+        "opportunities_found": 127,
         "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-08 03:10 UTC"
+        "scanned_at": "2026-04-08 04:11 UTC"
       }
     },
     {
