@@ -326,13 +326,106 @@
       html += '<span style="background:#eef0ff;color:#3344cc;padding:3px 8px;border-radius:3px;font-size:0.75em;font-weight:600">&#9679; WALLET COPY LONG</span>';
       html += '</div>';
 
-      // Recent settled trades
-      const recent = [...won,...lost].sort((a,b)=>(b.closed_at||'').localeCompare(a.closed_at||'')).slice(0,8);
+      // ── Realized Breakdown ───────────────────────────────────────
+      const FILTER_DATE = '2026-04-05'; // when current filters went live
+      const now = new Date();
+
+      // Build per-day map from settled trades
+      const byDay = {};
+      [...won,...lost].forEach(t=>{
+        const ts = t.timestamp||t.closed_at||'';
+        const day = ts.slice(0,10);
+        if (!day) return;
+        if (!byDay[day]) byDay[day]={w:0,l:0,pnl:0};
+        if (t.status==='WON')  { byDay[day].w++; byDay[day].pnl+=(t.pnl||0); }
+        if (t.status==='LOST') { byDay[day].l++; byDay[day].pnl+=(t.pnl||0); }
+      });
+
+      // Days with activity, sorted newest first
+      const days = Object.keys(byDay).sort().reverse();
+
+      // Slice helpers
+      const sinceDays = (n) => {
+        const cut = new Date(now); cut.setDate(cut.getDate()-n);
+        const cutStr = cut.toISOString().slice(0,10);
+        return [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=cutStr);
+      };
+      const t24h = sinceDays(1), t7d = sinceDays(7), t30d = sinceDays(30);
+      const tPf  = [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=FILTER_DATE);
+
+      const sumPnl = arr => arr.reduce((s,t)=>s+(t.pnl||0),0);
+      const wr = arr => { const s=arr.filter(t=>t.status==='WON').length; const tot=arr.length; return tot?((s/tot)*100).toFixed(0)+'%':'—'; };
+      const daysSince = (ds) => {
+        const d=new Date(ds); const diff=Math.round((now-d)/(86400000)); return Math.max(diff,1);
+      };
+
+      const pf7d   = sumPnl(t7d);
+      const pf30d  = sumPnl(t30d);
+      const pfPf   = sumPnl(tPf);
+      const avgDay7 = t7d.length ? pf7d / Math.min(7, days.filter(d=>d>=(new Date(now.getTime()-7*86400000)).toISOString().slice(0,10)).length||1) : 0;
+      const pfDaysCount = daysSince(FILTER_DATE);
+      const avgDayPf = pfDaysCount > 0 ? pfPf / pfDaysCount : 0;
+
+      html += '<div style="margin:10px 0 4px;font-size:0.72em;color:#555;font-weight:600;letter-spacing:0.05em">REALIZED P&amp;L — BREAKDOWN</div>';
+
+      // Summary bar
+      const bsCell = (label,val,sub,color) =>
+        '<div style="background:#0a0a0a;border:1px solid #1a1a1a;border-radius:4px;padding:6px 10px;min-width:100px;flex:1">'+
+        '<div style="font-size:1.0em;font-weight:700;color:'+(color||'#ccc')+'">'+val+'</div>'+
+        '<div style="font-size:0.68em;color:#555;margin-top:1px">'+label+'</div>'+
+        (sub?'<div style="font-size:0.65em;color:#444;margin-top:1px">'+sub+'</div>':'')+
+        '</div>';
+
+      const c = v => v>=0?'#00ff88':'#ff4444';
+      const f = v => (v>=0?'+':'')+'$'+Math.abs(v).toFixed(2);
+
+      html += '<div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">';
+      html += bsCell('last 24h', f(sumPnl(t24h)), wr(t24h)+' WR · '+t24h.length+' settled', c(sumPnl(t24h)));
+      html += bsCell('7-day total', f(pf7d), 'avg '+f(avgDay7)+'/day', c(pf7d));
+      html += bsCell('30-day total', f(pf30d), t30d.length+' settled', c(pf30d));
+      html += bsCell('since filters (Apr 5)', f(pfPf), 'avg '+f(avgDayPf)+'/day · '+wr(tPf)+' WR', c(pfPf));
+      html += '</div>';
+
+      // Per-day table (last 10 active days)
+      const recentDays = days.slice(0,10);
+      if (recentDays.length) {
+        html += '<table style="font-size:0.8em"><tr>'+
+          '<th style="text-align:left">Date</th>'+
+          '<th>Won</th><th>Lost</th>'+
+          '<th>Daily P&amp;L</th>'+
+          '<th>Running Total</th>'+
+          '</tr>';
+        let running = 0;
+        // Build running total from oldest to newest first
+        const allDaysSorted = Object.keys(byDay).sort();
+        const runMap = {};
+        allDaysSorted.forEach(d=>{ running += byDay[d].pnl; runMap[d]=running; });
+        recentDays.forEach(d=>{
+          const row = byDay[d];
+          const isToday = d === now.toISOString().slice(0,10);
+          const pnlC = row.pnl>=0?'#00ff88':'#ff4444';
+          const runC = (runMap[d]||0)>=0?'#00ff88':'#ff4444';
+          html += '<tr style="'+(isToday?'background:#0a1a0a':'')+'">' +
+            '<td style="color:#aaa;font-weight:'+(isToday?'700':'400')+'">'+d+(isToday?' ★':'')+
+              (d < FILTER_DATE ? ' <span style="color:#555;font-size:0.75em">(pre-filter)</span>':'')+
+            '</td>'+
+            '<td style="color:#00ff88;text-align:center">'+row.w+'</td>'+
+            '<td style="color:#ff4444;text-align:center">'+row.l+'</td>'+
+            '<td style="color:'+pnlC+';font-weight:600;text-align:right">'+(row.pnl>=0?'+':'')+'$'+Math.abs(row.pnl).toFixed(2)+'</td>'+
+            '<td style="color:'+runC+';text-align:right">'+(runMap[d]>=0?'+':'')+'$'+Math.abs(runMap[d]).toFixed(2)+'</td>'+
+            '</tr>';
+        });
+        html += '</table>';
+      }
+
+      // Recent settled trades (compact, last 5)
+      const recent = [...won,...lost].sort((a,b)=>(b.closed_at||b.timestamp||'').localeCompare(a.closed_at||a.timestamp||'')).slice(0,5);
       if (recent.length) {
-        html += '<table><tr><th>Result</th><th>Market</th><th>Bet</th><th>P&L</th></tr>';
+        html += '<div style="margin:8px 0 3px;font-size:0.7em;color:#444;font-weight:600">LATEST SETTLED</div>';
+        html += '<table style="font-size:0.78em"><tr><th>Result</th><th>Market</th><th>Bet</th><th>P&L</th></tr>';
         recent.forEach(t=>{
           const isWon = t.status==='WON';
-          const q = (t.question||t.title||'Unknown market').slice(0,50);
+          const q = (t.market||t.question||t.title||'Unknown market').slice(0,52);
           html += '<tr>'+
             '<td><span class="badge '+(isWon?'by':'bn')+'">'+t.status+'</span></td>'+
             '<td style="max-width:180px">'+q+'</td>'+
