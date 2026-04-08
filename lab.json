@@ -1,15 +1,25 @@
 {
-  "updated": "2026-04-07",
+  "updated": "2026-04-08",
   "experiments": [
     {
       "id": "arb_detection",
       "name": "Yes+No Arbitrage Scanner",
-      "status": "PLANNED",
+      "status": "MONITORING",
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": null,
-      "priority": "HIGH"
+      "result": "Scanned 5000 markets at 2026-04-08 00:55 UTC \u2014 no opportunities > 0.97 threshold right now. Skipped 1289 low-volume, 3711 non-binary.",
+      "priority": "HIGH",
+      "last_scan": "2026-04-08 00:55 UTC",
+      "opportunities": [],
+      "stats": {
+        "total_markets": 5000,
+        "skipped_low_volume": 1289,
+        "skipped_non_binary": 3711,
+        "opportunities_found": 0,
+        "best_profit_pct": 0,
+        "scanned_at": "2026-04-08 00:55 UTC"
+      }
     },
     {
       "id": "near_certain_volume",
