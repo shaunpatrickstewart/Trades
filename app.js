@@ -318,8 +318,8 @@
       const tPfAll = [...won,...lost].filter(t=>(t.timestamp||t.closed_at||'').slice(0,10)>=FILTER_DATE);
       const postFilterPnl = tPfAll.reduce((s,t)=>s+(t.pnl||0),0);
       const postFilterWR  = tPfAll.length ? (tPfAll.filter(t=>t.status==='WON').length/tPfAll.length*100) : 0;
-      // Use true realized from bot_stats if available (computed from all trades, no dedup)
-      const trueRealized = bsTrueRealized !== null ? bsTrueRealized : postFilterPnl;
+      // TRUE realized: computed directly from this trades array — never stale, same source as header
+      const trueRealized = trades.reduce((s,t)=>s+(t.status==='WON'||t.status==='LOST'?(t.pnl||0):0), 0);
       // Bankroll growth since filters went live (started at ~$222 on Apr 5)
       const brGrowthPct = ((bankroll - 222.26) / 222.26 * 100);
 
