@@ -8,16 +8,108 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 127 categorical arb opportunities found\nScanned 3000 events (1844 multi-outcome) at 2026-04-08 04:11 UTC\nBest: 9.9% profit on 'Which cities will Russia enter by June 30?' \u2014 buy YES on all 8 outcomes (sum=0.901)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.7% on ' Iran agrees to surrender enriched uranium stockpile by...?'",
+      "result": "LIVE \u2014 119 categorical arb opportunities found\nScanned 3000 events (1846 multi-outcome) at 2026-04-08 05:14 UTC\nBest: 10.0% profit on 'Kansas Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.5% on 'Will Exponent launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-08 04:11 UTC",
+      "last_scan": "2026-04-08 05:14 UTC",
       "opportunities": [
+        {
+          "event_title": "Kansas Governor Election Winner",
+          "event_slug": "kansas-governor-winner-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "629413",
+              "slug": "will-the-republicans-win-the-kansas-governor-race-in-2026",
+              "question": "Will the Republicans win the Kansas governor race in 2026?",
+              "yes_price": 0.62,
+              "volume": 1703
+            },
+            {
+              "market_id": "629412",
+              "slug": "will-the-democrats-win-the-kansas-governor-race-in-2026",
+              "question": "Will the Democrats win the Kansas governor race in 2026?",
+              "yes_price": 0.28,
+              "volume": 3394
+            }
+          ],
+          "url": "https://polymarket.com/event/kansas-governor-winner-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Will Exponent launch a token by ___?",
+          "event_slug": "will-exponent-launch-a-token-by",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1038880",
+              "slug": "will-exponent-launch-a-token-by-december-31-2026",
+              "question": "Will Exponent launch a token by December 31, 2026?",
+              "yes_price": 0.46,
+              "volume": 348364
+            },
+            {
+              "market_id": "1038877",
+              "slug": "will-exponent-launch-a-token-by-september-30-2026",
+              "question": "Will Exponent launch a token by September 30, 2026?",
+              "yes_price": 0.28,
+              "volume": 28151
+            },
+            {
+              "market_id": "1038876",
+              "slug": "will-exponent-launch-a-token-by-june-30-2026",
+              "question": "Will Exponent launch a token by June 30, 2026?",
+              "yes_price": 0.165,
+              "volume": 20878
+            },
+            {
+              "market_id": "1038874",
+              "slug": "will-exponent-launch-a-token-by-march-31-2026",
+              "question": "Will Exponent launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 57085
+            }
+          ],
+          "url": "https://polymarket.com/event/will-exponent-launch-a-token-by",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "CD Tolima vs. Deportivo Pereira - More Markets",
+          "event_slug": "col1-cdt-dep-2026-04-18-more-markets",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1690826",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-1pt5",
+              "question": "Spread: CD Tolima (-1.5)",
+              "yes_price": 0.46,
+              "volume": 2740
+            },
+            {
+              "market_id": "1690830",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-2pt5",
+              "question": "Spread: CD Tolima (-2.5)",
+              "yes_price": 0.445,
+              "volume": 2738
+            }
+          ],
+          "url": "https://polymarket.com/event/col1-cdt-dep-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
         {
           "event_title": "Which cities will Russia enter by June 30?",
           "event_slug": "which-cities-will-russia-enter-by-june-30",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
           "num_outcomes": 8,
           "outcomes": [
             {
@@ -31,7 +123,7 @@
               "market_id": "1007631",
               "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
               "question": "Will Russia enter Druzkhivka by June 30?",
-              "yes_price": 0.13,
+              "yes_price": 0.135,
               "volume": 260256
             },
             {
@@ -78,478 +170,21 @@
             }
           ],
           "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": " Iran agrees to surrender enriched uranium stockpile by...?",
-          "event_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1731346",
-              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-december-31-2026",
-              "question": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
-              "yes_price": 0.39,
-              "volume": 53786
-            },
-            {
-              "market_id": "1731345",
-              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-june-30-2026",
-              "question": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
-              "yes_price": 0.335,
-              "volume": 48648
-            },
-            {
-              "market_id": "1731344",
-              "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-april-30-2026",
-              "question": "Iran agrees to surrender enriched uranium stockpile by April 30, 2026?",
-              "yes_price": 0.178,
-              "volume": 76255
-            }
-          ],
-          "url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.815,
-              "volume": 1102
-            },
-            {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0655,
-              "volume": 1097
-            },
-            {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0235,
-              "volume": 1490
-            }
-          ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
-        },
-        {
-          "event_title": "2025-2026 PFA Players' Player of the Year Winner",
-          "event_slug": "2025-2026-pfa-players-player-of-the-year-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1131737",
-              "slug": "will-declan-rice-win-the-2026-pfa-player-of-the-year",
-              "question": "Will Declan Rice win the 2026 PFA Player of the Year?",
-              "yes_price": 0.59,
-              "volume": 1156
-            },
-            {
-              "market_id": "1131753",
-              "slug": "will-bruno-fernandes-win-the-2026-pfa-player-of-the-year",
-              "question": "Will Bruno Fernandes win the 2026 PFA Player of the Year?",
-              "yes_price": 0.24,
-              "volume": 12375
-            },
-            {
-              "market_id": "1131738",
-              "slug": "will-erling-haaland-win-the-2026-pfa-player-of-the-year",
-              "question": "Will Erling Haaland win the 2026 PFA Player of the Year?",
-              "yes_price": 0.0745,
-              "volume": 7583
-            }
-          ],
-          "url": "https://polymarket.com/event/2025-2026-pfa-players-player-of-the-year-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "Will Exponent launch a token by ___?",
-          "event_slug": "will-exponent-launch-a-token-by",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1038880",
-              "slug": "will-exponent-launch-a-token-by-december-31-2026",
-              "question": "Will Exponent launch a token by December 31, 2026?",
-              "yes_price": 0.46,
-              "volume": 348364
-            },
-            {
-              "market_id": "1038877",
-              "slug": "will-exponent-launch-a-token-by-september-30-2026",
-              "question": "Will Exponent launch a token by September 30, 2026?",
-              "yes_price": 0.28,
-              "volume": 28151
-            },
-            {
-              "market_id": "1038876",
-              "slug": "will-exponent-launch-a-token-by-june-30-2026",
-              "question": "Will Exponent launch a token by June 30, 2026?",
-              "yes_price": 0.165,
-              "volume": 20878
-            },
-            {
-              "market_id": "1038874",
-              "slug": "will-exponent-launch-a-token-by-march-31-2026",
-              "question": "Will Exponent launch a token by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 57085
-            }
-          ],
-          "url": "https://polymarket.com/event/will-exponent-launch-a-token-by",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.71,
-              "volume": 4636
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7369
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.051,
-              "volume": 7582
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.026,
-              "volume": 9865
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0155,
-              "volume": 2957
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0115,
-              "volume": 4365
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0105,
-              "volume": 6398
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0105,
-              "volume": 221052
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.0075,
-              "volume": 8035
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.006,
-              "volume": 47835
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4021
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
-        },
-        {
-          "event_title": "Iran leader end of 2026?",
-          "event_slug": "iran-leader-end-of-2026",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 31,
-          "outcomes": [
-            {
-              "market_id": "1469737",
-              "slug": "will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
-              "yes_price": 0.494,
-              "volume": 1369020
-            },
-            {
-              "market_id": "1469739",
-              "slug": "will-reza-pahlavi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Reza Pahlavi be head of state in Iran end of 2026?",
-              "yes_price": 0.095,
-              "volume": 131579
-            },
-            {
-              "market_id": "1469766",
-              "slug": "will-mohammad-bagher-ghalibaf-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mohammad-Bagher Ghalibaf be head of state in Iran end of 2026?",
-              "yes_price": 0.095,
-              "volume": 162495
-            },
-            {
-              "market_id": "1469753",
-              "slug": "will-hassan-rouhani-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Hassan Rouhani be head of state in Iran end of 2026?",
-              "yes_price": 0.0525,
-              "volume": 272547
-            },
-            {
-              "market_id": "1469734",
-              "slug": "will-there-be-no-head-of-state-in-iran-end-of-2026",
-              "question": "Will there be no Head of State in Iran end of 2026?",
-              "yes_price": 0.0315,
-              "volume": 366414
-            },
-            {
-              "market_id": "1469736",
-              "slug": "will-sadegh-larijani-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Sadegh Larijani be head of state in Iran end of 2026?",
-              "yes_price": 0.0285,
-              "volume": 172809
-            },
-            {
-              "market_id": "1469758",
-              "slug": "will-alireza-arafi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Alireza Arafi be head of state in Iran end of 2026?",
-              "yes_price": 0.0185,
-              "volume": 773303
-            },
-            {
-              "market_id": "1469751",
-              "slug": "will-masoud-pezeshkian-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Masoud Pezeshkian be head of state in Iran end of 2026?",
-              "yes_price": 0.0155,
-              "volume": 239196
-            },
-            {
-              "market_id": "1469760",
-              "slug": "will-abbas-araghchi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Abbas Araghchi be head of state in Iran end of 2026?",
-              "yes_price": 0.015,
-              "volume": 93047
-            },
-            {
-              "market_id": "1469738",
-              "slug": "will-hassan-khomeini-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Hassan Khomeini be head of state in Iran end of 2026?",
-              "yes_price": 0.011,
-              "volume": 669909
-            },
-            {
-              "market_id": "1469755",
-              "slug": "will-mohammad-khatami-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mohammad Khatami be head of state in Iran end of 2026?",
-              "yes_price": 0.0095,
-              "volume": 229570
-            },
-            {
-              "market_id": "1469754",
-              "slug": "will-mahmoud-ahmadinejad-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mahmoud Ahmadinejad be head of state in Iran end of 2026?",
-              "yes_price": 0.005,
-              "volume": 46962
-            },
-            {
-              "market_id": "1469741",
-              "slug": "will-maryam-rajavi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Maryam Rajavi be head of state in Iran end of 2026?",
-              "yes_price": 0.0045,
-              "volume": 238800
-            },
-            {
-              "market_id": "1469761",
-              "slug": "will-ahmad-vahidi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Ahmad Vahidi be head of state in Iran end of 2026?",
-              "yes_price": 0.0045,
-              "volume": 191932
-            },
-            {
-              "market_id": "1469765",
-              "slug": "will-ali-asghar-hejazi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Ali Asghar Hejazi be head of state in Iran end of 2026?",
-              "yes_price": 0.0035,
-              "volume": 74071
-            },
-            {
-              "market_id": "1469735",
-              "slug": "will-muhammad-mirbaqiri-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Muhammad Mirbaqiri be head of state in Iran end of 2026?",
-              "yes_price": 0.0025,
-              "volume": 269672
-            },
-            {
-              "market_id": "1469745",
-              "slug": "will-navid-shomali-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Navid Shomali be head of state in Iran end of 2026?",
-              "yes_price": 0.0025,
-              "volume": 52187
-            },
-            {
-              "market_id": "1469752",
-              "slug": "will-saeed-jalili-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Saeed Jalili be head of state in Iran end of 2026?",
-              "yes_price": 0.0025,
-              "volume": 42774
-            },
-            {
-              "market_id": "1469740",
-              "slug": "will-hassan-shariatmadari-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Hassan Shariatmadari be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 146124
-            },
-            {
-              "market_id": "1469742",
-              "slug": "will-massoud-rajavi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Massoud Rajavi be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 20808
-            },
-            {
-              "market_id": "1469743",
-              "slug": "will-seyed-hossein-mousavian-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Seyed Hossein Mousavian be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 31448
-            },
-            {
-              "market_id": "1469744",
-              "slug": "will-reza-pirzadeh-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Reza Pirzadeh be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 25371
-            },
-            {
-              "market_id": "1469746",
-              "slug": "will-mustafa-hijri-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mustafa Hijri be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 18441
-            },
-            {
-              "market_id": "1469747",
-              "slug": "will-ali-motahari-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Ali Motahari be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 47729
-            },
-            {
-              "market_id": "1469748",
-              "slug": "will-gholam-ali-haddad-adel-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Gholam-Ali Haddad-Adel be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 33643
-            },
-            {
-              "market_id": "1469749",
-              "slug": "will-mostafa-pourmohammadi-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mostafa Pourmohammadi be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 64736
-            },
-            {
-              "market_id": "1469750",
-              "slug": "will-sadegh-mahsouli-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Sadegh Mahsouli be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 45940
-            },
-            {
-              "market_id": "1469762",
-              "slug": "will-mohsen-araki-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Mohsen Araki be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 27116
-            },
-            {
-              "market_id": "1469763",
-              "slug": "will-nasir-hosseini-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Nasir Hosseini be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 13087
-            },
-            {
-              "market_id": "1469764",
-              "slug": "will-ahmad-hosseini-khorasani-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Ahmad Hosseini Khorasani be head of state in Iran end of 2026?",
-              "yes_price": 0.0015,
-              "volume": 22354
-            },
-            {
-              "market_id": "1469759",
-              "slug": "will-ali-larijani-be-head-of-state-in-iran-end-of-2026",
-              "question": "Will Ali Larijani be head of state in Iran end of 2026?",
-              "yes_price": 0.0,
-              "volume": 236860
-            }
-          ],
-          "url": "https://polymarket.com/event/iran-leader-end-of-2026",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
           "event_title": "Alabama Governor Democratic Primary Winner",
           "event_slug": "alabama-governor-democratic-primary-winner",
-          "yes_sum": 0.909,
-          "profit_pct": 9.1,
-          "profit_per_dollar_pct": 10.01,
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
           "num_outcomes": 3,
           "outcomes": [
             {
               "market_id": "821613",
               "slug": "will-doug-jones-win-the-2026-alabama-governor-democratic-primary-election",
               "question": "Will Doug Jones win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.866,
+              "yes_price": 0.865,
               "volume": 11215
             },
             {
@@ -563,80 +198,172 @@
               "market_id": "821611",
               "slug": "will-jamel-brown-win-the-2026-alabama-governor-democratic-primary-election",
               "question": "Will Ja\u2019Mel Brown win the 2026 Alabama Governor Democratic primary election?",
-              "yes_price": 0.017,
+              "yes_price": 0.016,
               "volume": 2511
             }
           ],
           "url": "https://polymarket.com/event/alabama-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
-          "event_title": "Trail Blazers vs. Spurs",
-          "event_slug": "nba-por-sas-2026-04-08",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
+          "event_title": "PA-10 Democratic Primary Winner",
+          "event_slug": "pa-10-democratic-primary-winner-877",
+          "yes_sum": 0.911,
+          "profit_pct": 8.9,
+          "profit_per_dollar_pct": 9.77,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1913345",
-              "slug": "nba-por-sas-2026-04-08-spread-home-3pt5",
-              "question": "Spread: Spurs (-3.5)",
-              "yes_price": 0.515,
-              "volume": 4171
+              "market_id": "1448356",
+              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
+              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
+              "yes_price": 0.895,
+              "volume": 3029
             },
             {
-              "market_id": "1829491",
-              "slug": "nba-por-sas-2026-04-08",
-              "question": "Trail Blazers vs. Spurs",
-              "yes_price": 0.395,
-              "volume": 151451
+              "market_id": "1448358",
+              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
+              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "yes_price": 0.016,
+              "volume": 8157
             }
           ],
-          "url": "https://polymarket.com/event/nba-por-sas-2026-04-08",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
         },
         {
-          "event_title": "MLB: NL Manager of the Year",
-          "event_slug": "mlb-nl-manager-of-the-year",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
+          "event_title": "Highest temperature in Paris on April 10?",
+          "event_slug": "highest-temperature-in-paris-on-april-10-2026",
+          "yes_sum": 0.9125,
+          "profit_pct": 8.75,
+          "profit_per_dollar_pct": 9.59,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1886266",
+              "slug": "highest-temperature-in-paris-on-april-10-2026-18corbelow",
+              "question": "Will the highest temperature in Paris be 18\u00b0C or below on April 10?",
+              "yes_price": 0.905,
+              "volume": 1257
+            },
+            {
+              "market_id": "1886274",
+              "slug": "highest-temperature-in-paris-on-april-10-2026-26c",
+              "question": "Will the highest temperature in Paris be 26\u00b0C on April 10?",
+              "yes_price": 0.0075,
+              "volume": 1021
+            }
+          ],
+          "url": "https://polymarket.com/event/highest-temperature-in-paris-on-april-10-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+        },
+        {
+          "event_title": "ME-02 Democratic Primary Winner",
+          "event_slug": "who-will-be-the-democratic-nominee-for-me-02",
+          "yes_sum": 0.914,
+          "profit_pct": 8.6,
+          "profit_per_dollar_pct": 9.41,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "703948",
+              "slug": "will-joe-baldacci-be-the-democratic-nominee-for-me-02",
+              "question": "Will Joe Baldacci be the Democratic nominee for ME-02?",
+              "yes_price": 0.435,
+              "volume": 2873
+            },
+            {
+              "market_id": "703947",
+              "slug": "will-matthew-dunlap-be-the-democratic-nominee-for-me-02",
+              "question": "Will Matthew Dunlap be the Democratic nominee for ME-02?",
+              "yes_price": 0.26,
+              "volume": 2249
+            },
+            {
+              "market_id": "703949",
+              "slug": "will-jordan-wood-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jordan Wood be the Democratic nominee for ME-02?",
+              "yes_price": 0.205,
+              "volume": 1649
+            },
+            {
+              "market_id": "703946",
+              "slug": "will-jared-golden-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jared Golden be the Democratic nominee for ME-02?",
+              "yes_price": 0.014,
+              "volume": 2236
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-me-02",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9140. One wins $1.00. Profit: $0.0860 (8.60%)"
+        },
+        {
+          "event_title": "LA-05 Republican Primary Winner",
+          "event_slug": "la-05-republican-primary-winner",
+          "yes_sum": 0.9145,
+          "profit_pct": 8.55,
+          "profit_per_dollar_pct": 9.35,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1721587",
-              "slug": "will-carlos-mendoza-win-the-2026-nl-manager-of-the-year",
-              "question": "Will Carlos Mendoza win the 2026 NL Manager of the Year?",
-              "yes_price": 0.435,
-              "volume": 9319
+              "market_id": "1731841",
+              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
+              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
+              "yes_price": 0.86,
+              "volume": 15029
             },
             {
-              "market_id": "1721583",
-              "slug": "will-terry-francona-win-the-2026-nl-manager-of-the-year",
-              "question": "Will Terry Francona win the 2026 NL Manager of the Year?",
-              "yes_price": 0.335,
-              "volume": 2740
+              "market_id": "1731837",
+              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
+              "question": "Will Michael Echols be the Republican nominee for LA-05?",
+              "yes_price": 0.0355,
+              "volume": 8162
             },
             {
-              "market_id": "1721584",
-              "slug": "will-warren-schaeffer-win-the-2026-nl-manager-of-the-year",
-              "question": "Will Warren Schaeffer win the 2026 NL Manager of the Year?",
-              "yes_price": 0.14,
-              "volume": 3007
+              "market_id": "1731842",
+              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
+              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
+              "yes_price": 0.019,
+              "volume": 5025
             }
           ],
-          "url": "https://polymarket.com/event/mlb-nl-manager-of-the-year",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9145. One wins $1.00. Profit: $0.0855 (8.55%)"
+        },
+        {
+          "event_title": "Philadelphia Union vs. D.C. United SC - More Markets",
+          "event_slug": "mls-phi-dcu-2026-04-18-more-markets",
+          "yes_sum": 0.915,
+          "profit_pct": 8.5,
+          "profit_per_dollar_pct": 9.29,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1684171",
+              "slug": "mls-phi-dcu-2026-04-18-total-2pt5",
+              "question": "Philadelphia Union vs. D.C. United SC: O/U 2.5",
+              "yes_price": 0.53,
+              "volume": 8249
+            },
+            {
+              "market_id": "1684173",
+              "slug": "mls-phi-dcu-2026-04-18-total-3pt5",
+              "question": "Philadelphia Union vs. D.C. United SC: O/U 3.5",
+              "yes_price": 0.385,
+              "volume": 2921
+            }
+          ],
+          "url": "https://polymarket.com/event/mls-phi-dcu-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9150. One wins $1.00. Profit: $0.0850 (8.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1844,
-        "skipped_single_outcome": 581,
-        "opportunities_found": 127,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-08 04:11 UTC"
+        "checked_multi_outcome": 1846,
+        "skipped_single_outcome": 582,
+        "opportunities_found": 119,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-08 05:14 UTC"
       }
     },
     {
