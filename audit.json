@@ -1,122 +1,128 @@
 {
-  "generated_at": "2026-04-04T06:00:01.600593+00:00",
+  "generated_at": "2026-04-08T06:00:02.643848+00:00",
   "bot_running": true,
   "trade_summary": {
-    "total": 42,
-    "open": 20,
-    "won": 11,
-    "lost": 11,
-    "realized_pnl": -112.38,
-    "unrealized_potential": 219.63
+    "total": 1378,
+    "open": 96,
+    "won": 1214,
+    "lost": 68,
+    "realized_pnl": 68.62,
+    "unrealized_potential": 234.12
   },
   "scanner_counts": {
     "site_7day": 9,
-    "site_48h": 26,
-    "bot_near_certain": 24,
-    "bot_short_term": 8
+    "site_48h": 13,
+    "bot_near_certain": 16,
+    "bot_short_term": 7
   },
   "engine_summary": [
     {
       "engine": "LONG_TERM",
-      "total_trades": 9,
+      "total_trades": 30,
       "open": 6,
-      "won": 0,
-      "lost": 3,
-      "resolved": 3,
-      "total_bet": 55.13,
-      "realized_pnl": -17.66,
-      "roi_pct": -32.0,
-      "win_rate_pct": 0.0,
-      "data_sufficient": false
+      "won": 13,
+      "lost": 11,
+      "resolved": 24,
+      "total_bet": 448.41,
+      "realized_pnl": 11.66,
+      "roi_pct": 2.6,
+      "win_rate_pct": 54.2,
+      "data_sufficient": true
     },
     {
       "engine": "NEAR_CERTAIN",
-      "total_trades": 16,
-      "open": 6,
-      "won": 9,
-      "lost": 1,
-      "resolved": 10,
-      "total_bet": 79.46,
-      "realized_pnl": -0.38,
-      "roi_pct": -0.5,
-      "win_rate_pct": 90.0,
+      "total_trades": 1312,
+      "open": 86,
+      "won": 1190,
+      "lost": 36,
+      "resolved": 1226,
+      "total_bet": 27775.01,
+      "realized_pnl": 135.26,
+      "roi_pct": 0.5,
+      "win_rate_pct": 97.1,
       "data_sufficient": true
     },
     {
       "engine": "SHORT_TERM",
-      "total_trades": 17,
-      "open": 8,
-      "won": 2,
-      "lost": 7,
-      "resolved": 9,
-      "total_bet": 316.33,
-      "realized_pnl": -94.34,
-      "roi_pct": -29.8,
-      "win_rate_pct": 22.2,
+      "total_trades": 33,
+      "open": 1,
+      "won": 11,
+      "lost": 21,
+      "resolved": 32,
+      "total_bet": 487.64,
+      "realized_pnl": -78.3,
+      "roi_pct": -16.1,
+      "win_rate_pct": 34.4,
+      "data_sufficient": true
+    },
+    {
+      "engine": "UNKNOWN",
+      "total_trades": 3,
+      "open": 0,
+      "won": 0,
+      "lost": 0,
+      "resolved": 0,
+      "total_bet": 15.0,
+      "realized_pnl": 0,
+      "roi_pct": null,
+      "win_rate_pct": null,
       "data_sufficient": false
     }
   ],
   "engine_last_run": {
-    "MONITOR": -2.0,
-    "NEAR_CERTAIN": -1.2,
-    "LONG_TERM": -1.1,
-    "SHORT_TERM": -0.7
+    "MONITOR": -1.9,
+    "NEAR_CERTAIN": -1.7,
+    "LONG_TERM": -1.2
   },
   "allocation_rec": {
     "status": "recommendation_ready",
     "top_engine": "NEAR_CERTAIN",
-    "top_roi_pct": -0.5,
+    "top_roi_pct": 0.5,
     "allocations": {
-      "NEAR_CERTAIN": 100,
-      "LONG_TERM": null,
-      "SHORT_TERM": null
+      "NEAR_CERTAIN": 67,
+      "LONG_TERM": 33,
+      "SHORT_TERM": 0,
+      "UNKNOWN": null
     },
-    "summary": "NEAR_CERTAIN: 100% of capital (ROI -0.5%)\nLONG_TERM: hold (need more data \u2014 ROI -32.0%)\nSHORT_TERM: hold (need more data \u2014 ROI -29.8%)"
+    "summary": "NEAR_CERTAIN: 67% of capital (ROI 0.5%)\nLONG_TERM: 33% of capital (ROI 2.6%)\nSHORT_TERM: PAUSE (negative ROI \u2014 ROI -16.1%)\nUNKNOWN: hold (need more data \u2014 insufficient data)"
   },
   "bankroll": {
-    "current_bankroll": 192.03,
+    "current_bankroll": 1373.03,
     "initial_bankroll": 300.0,
-    "total_growth": -107.97,
+    "total_growth": 1073.03,
     "target_daily_profit": 300.0,
-    "days_of_data": 2,
-    "avg_daily_pnl_7d": -53.98,
-    "daily_roi_pct": -18.396,
-    "min_bankroll_for_target": null,
-    "days_to_target": null,
-    "withdrawable_today": 0.0,
+    "days_of_data": 6,
+    "avg_daily_pnl_7d": 178.84,
+    "daily_roi_pct": 29.619,
+    "min_bankroll_for_target": 1012.85,
+    "days_to_target": 1,
+    "withdrawable_today": 360.18,
     "on_track": false
   },
   "ok": [
-    "bot.py is running (PID 3081) \u2014 single instance confirmed",
-    "top_wallets.json: 0 wallets, 13.0h old",
-    "Engine NEAR_CERTAIN: last ran -1.2h ago",
-    "Engine SHORT_TERM: last ran -0.7h ago",
-    "Engine LONG_TERM: last ran -1.1h ago",
-    "Engine MONITOR: last ran -2.0h ago",
+    "bot.py is running (PID 437589) \u2014 single instance confirmed",
+    "Engine NEAR_CERTAIN: last ran -1.7h ago",
+    "Engine LONG_TERM: last ran -1.2h ago",
+    "Engine MONITOR: last ran -1.9h ago",
     "Polymarket API reachable \u2014 500 markets fetched",
     "7-Day scanner tab: 9 live markets available \u2713",
-    "48H scanner tab: 26 live markets available \u2713",
-    "Near-certain engine (bot): 24 live markets available \u2713",
-    "Short-term engine (bot): 8 live markets available \u2713",
-    "Realized P&L = $-112.38 (11W / 11L)",
-    "No duplicate open positions"
+    "48H scanner tab: 13 live markets available \u2713",
+    "Near-certain engine (bot): 16 live markets available \u2713",
+    "Short-term engine (bot): 7 live markets available \u2713",
+    "Realized P&L = $68.62 (1214W / 68L)"
   ],
-  "warnings": [],
+  "warnings": [
+    "top_wallets.json is 84h old \u2014 run: python3 ~/polybot/wallet_analyzer.py",
+    "Engine SHORT_TERM: no recent activity in log \u2014 may not have found qualifying markets yet"
+  ],
   "issues": [
-    "Stale OPEN trade past end_date by 0d: 'Counter-Strike: BESTIA Academy vs HereWeGoAgain (B'",
-    "Stale OPEN trade past end_date by 0d: 'LoL: T1 vs Hanwha Life Esports (BO3) - LCK Rounds '",
-    "Stale OPEN trade past end_date by 0d: 'LoL: T1 vs Hanwha Life Esports (BO3) - LCK Rounds '",
-    "Stale OPEN trade past end_date by 0d: 'Will PSV win on 2026-04-04?'",
-    "Stale OPEN trade past end_date by 0d: 'Spread: Bucheon FC 1995 (-2.5)'",
-    "Stale OPEN trade past end_date by 0d: 'Spread: Jamshedpur FC (-1.5)'",
-    "Stale OPEN trade past end_date by 0d: 'Will Elon Musk post 115-139 tweets from April 2 to'",
-    "Stale OPEN trade past end_date by 0d: 'Will the highest temperature in Shanghai be 20\u00b0C o'",
-    "Stale OPEN trade past end_date by 0d: 'Will Real Salt Lake win on 2026-04-04?'",
-    "Stale OPEN trade past end_date by 0d: 'Exact Score: TSG 1899 Hoffenheim 0 - 1 1. FSV Main'",
-    "Stale OPEN trade past end_date by 0d: 'Will Manchester City FC win on 2026-04-04?'",
-    "Stale OPEN trade past end_date by 0d: 'Will the highest temperature in Mexico City be 29\u00b0'",
-    "Stale OPEN trade past end_date by 0d: 'Will Kashima Antlers win on 2026-04-04?'",
-    "Stale OPEN trade past end_date by 0d: 'Exact Score: SV Werder Bremen 3 - 1 RB Leipzig?'"
+    "Duplicate OPEN position: will-dogecoin-reach-0pt16-by-december-31-2026|No x2 \u2014 run dedup script",
+    "Duplicate OPEN position: will-ethereum-reach-3500-by-december-31-2026|No x2 \u2014 run dedup script",
+    "Duplicate OPEN position: will-ethereum-dip-to-1500-by-december-31-2026|Yes x2 \u2014 run dedup script",
+    "Stale OPEN trade past end_date by 1d: 'Will Al Kholood Saudi Club win on 2026-04-07?'",
+    "Stale OPEN trade past end_date by 2d: 'Will \"The Drama\" Opening Weekend Box Office be bet'"
   ],
-  "suggestions": []
+  "suggestions": [
+    "2 wallet-copy trade(s) resolve after July 2026 \u2014 capital locked for months. Consider adding a max-days-to-resolution filter on the wallet copy engine."
+  ]
 }
