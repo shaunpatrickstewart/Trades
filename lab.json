@@ -8,218 +8,49 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1938 multi-outcome) at 2026-04-09 14:16 UTC\nBest: 9.75% profit on 'Which cities will Russia enter by June 30?' \u2014 buy YES on all 8 outcomes (sum=0.9025)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)\n2nd: 9.75% on '#1 Paid App in the US Apple App Store on April 10?'",
+      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1935 multi-outcome) at 2026-04-09 15:13 UTC\nBest: 10.0% profit on 'Who will be UFC Welterweight champion at the end of 2026?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 14:16 UTC",
+      "last_scan": "2026-04-09 15:13 UTC",
       "opportunities": [
         {
-          "event_title": "Which cities will Russia enter by June 30?",
-          "event_slug": "which-cities-will-russia-enter-by-june-30",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 8,
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1007632",
-              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
-              "question": "Will Russia enter Dopropillia by June 30?",
-              "yes_price": 0.325,
-              "volume": 180916
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.74,
+              "volume": 2640
             },
             {
-              "market_id": "1007631",
-              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
-              "question": "Will Russia enter Druzkhivka by June 30?",
-              "yes_price": 0.14,
-              "volume": 261727
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.145,
+              "volume": 1320
             },
             {
-              "market_id": "1007628",
-              "slug": "will-russia-enter-sloviansk-by-june-30",
-              "question": "Will Russia enter Sloviansk by June 30?",
-              "yes_price": 0.125,
-              "volume": 147726
-            },
-            {
-              "market_id": "1007633",
-              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
-              "question": "Will Russia enter Kramatorsk by June 30?",
-              "yes_price": 0.11,
-              "volume": 115918
-            },
-            {
-              "market_id": "1007630",
-              "slug": "will-russia-enter-sumy-by-june-30-893-434",
-              "question": "Will Russia enter Sumy by June 30?",
-              "yes_price": 0.055,
-              "volume": 70602
-            },
-            {
-              "market_id": "1007636",
-              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
-              "question": "Will Russia enter Zaporizhia by June 30?",
-              "yes_price": 0.055,
-              "volume": 71978
-            },
-            {
-              "market_id": "1007635",
-              "slug": "will-russia-enter-kherson-by-june-30-645",
-              "question": "Will Russia enter Kherson by June 30?",
-              "yes_price": 0.051,
-              "volume": 46423
-            },
-            {
-              "market_id": "1007634",
-              "slug": "will-russia-enter-kharkiv-by-june-30-967",
-              "question": "Will Russia enter Kharkiv by June 30?",
-              "yes_price": 0.0415,
-              "volume": 35799
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.015,
+              "volume": 1318
             }
           ],
-          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
-          "event_title": "#1 Paid App in the US Apple App Store on April 10?",
-          "event_slug": "1-paid-app-in-the-us-apple-app-store-on-april-10",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1909158",
-              "slug": "will-shadowrocket-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
-              "question": "Will Shadowrocket be #1 Paid App in the US Apple App Store on April 10?",
-              "yes_price": 0.735,
-              "volume": 1555
-            },
-            {
-              "market_id": "1909159",
-              "slug": "will-hotschedules-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
-              "question": "Will HotSchedules be #1 Paid App in the US Apple App Store on April 10?",
-              "yes_price": 0.14,
-              "volume": 5848
-            },
-            {
-              "market_id": "1909162",
-              "slug": "will-ankimobile-flashcards-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
-              "question": "Will AnkiMobile Flashcards be #1 Paid App in the US Apple App Store on April 10?",
-              "yes_price": 0.008,
-              "volume": 1280
-            },
-            {
-              "market_id": "1909164",
-              "slug": "will-tonalenergy-tuner-metronome-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
-              "question": "Will TonalEnergy Tuner & Metronome be #1 Paid App in the US Apple App Store on A",
-              "yes_price": 0.0075,
-              "volume": 1678
-            },
-            {
-              "market_id": "1909163",
-              "slug": "will-monash-fodmap-diet-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
-              "question": "Will Monash FODMAP Diet be #1 Paid App in the US Apple App Store on April 10?",
-              "yes_price": 0.007,
-              "volume": 1256
-            },
-            {
-              "market_id": "1909165",
-              "slug": "will-skyview-be-1-paid-app-in-the-us-apple-app-store-on-april-10",
-              "question": "Will SkyView be #1 Paid App in the US Apple App Store on April 10?",
-              "yes_price": 0.005,
-              "volume": 1315
-            }
-          ],
-          "url": "https://polymarket.com/event/1-paid-app-in-the-us-apple-app-store-on-april-10",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
-          "event_title": "Perplexity IPO Closing Market Cap",
-          "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1115936",
-              "slug": "will-perplexity-not-ipo-by-december-31-2027",
-              "question": "Will Perplexity not IPO by December 31, 2027?",
-              "yes_price": 0.605,
-              "volume": 105842
-            },
-            {
-              "market_id": "1115933",
-              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.114,
-              "volume": 6171
-            },
-            {
-              "market_id": "1115935",
-              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
-              "yes_price": 0.0655,
-              "volume": 4468
-            },
-            {
-              "market_id": "1115934",
-              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
-              "yes_price": 0.0495,
-              "volume": 3197
-            },
-            {
-              "market_id": "1115930",
-              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
-              "yes_price": 0.036,
-              "volume": 5845
-            },
-            {
-              "market_id": "1115929",
-              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
-              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
-              "yes_price": 0.033,
-              "volume": 4421
-            }
-          ],
-          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "Montana Democratic Senate Primary Winner",
-          "event_slug": "montana-democratic-senate-primary-winner",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "801938",
-              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.83,
-              "volume": 4343
-            },
-            {
-              "market_id": "801937",
-              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.073,
-              "volume": 2029
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
           "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 11,
           "outcomes": [
             {
@@ -254,7 +85,7 @@
               "market_id": "704349",
               "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
               "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0155,
+              "yes_price": 0.0145,
               "volume": 2957
             },
             {
@@ -301,7 +132,47 @@
             }
           ],
           "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "ME-02 Democratic Primary Winner",
+          "event_slug": "who-will-be-the-democratic-nominee-for-me-02",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "703948",
+              "slug": "will-joe-baldacci-be-the-democratic-nominee-for-me-02",
+              "question": "Will Joe Baldacci be the Democratic nominee for ME-02?",
+              "yes_price": 0.41,
+              "volume": 3081
+            },
+            {
+              "market_id": "703947",
+              "slug": "will-matthew-dunlap-be-the-democratic-nominee-for-me-02",
+              "question": "Will Matthew Dunlap be the Democratic nominee for ME-02?",
+              "yes_price": 0.26,
+              "volume": 2249
+            },
+            {
+              "market_id": "703949",
+              "slug": "will-jordan-wood-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jordan Wood be the Democratic nominee for ME-02?",
+              "yes_price": 0.215,
+              "volume": 1649
+            },
+            {
+              "market_id": "703946",
+              "slug": "will-jared-golden-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jared Golden be the Democratic nominee for ME-02?",
+              "yes_price": 0.019,
+              "volume": 2248
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-me-02",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
           "event_title": "Miguel D\u00edaz-Canel out as leader of Cuba by...?",
@@ -316,7 +187,7 @@
               "slug": "miguel-daz-canel-out-as-leader-of-cuba-by-december-31-113-682",
               "question": "Miguel D\u00edaz-Canel out as leader of Cuba by December 31?",
               "yes_price": 0.575,
-              "volume": 109408
+              "volume": 109458
             },
             {
               "market_id": "1106634",
@@ -337,131 +208,267 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
-          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
+          "event_title": "What floor price will Milady hit before 2027?",
+          "event_slug": "what-floor-price-will-milady-hit-before-2027",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1742068",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
+              "market_id": "1099807",
+              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
+              "question": "Will Milady floor price reach 2 ETH before 2027?",
               "yes_price": 0.505,
-              "volume": 3753
+              "volume": 11530
             },
             {
-              "market_id": "1742067",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.29,
-              "volume": 10408
-            },
-            {
-              "market_id": "1742066",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.11,
-              "volume": 6316
+              "market_id": "1099806",
+              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
+              "question": "Will Milady floor price reach 4 ETH before 2027?",
+              "yes_price": 0.4,
+              "volume": 1294
             }
           ],
-          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
-          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "event_title": "Precipitation in Hong Kong in April?",
+          "event_slug": "precipitation-in-hong-kong-in-april",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1090024",
-              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.74,
-              "volume": 2640
+              "market_id": "1706968",
+              "slug": "will-hong-kong-have-less-than-130mm-of-precipitation-in-april",
+              "question": "Will Hong Kong have less than 130mm of precipitation in April?",
+              "yes_price": 0.3,
+              "volume": 3039
             },
             {
-              "market_id": "1090027",
-              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "market_id": "1706972",
+              "slug": "will-hong-kong-have-between-130-140mm-of-precipitation-in-april",
+              "question": "Will Hong Kong have between 130-140mm of precipitation in April?",
+              "yes_price": 0.25,
+              "volume": 2190
+            },
+            {
+              "market_id": "1706971",
+              "slug": "will-hong-kong-have-between-140-150mm-of-precipitation-in-april",
+              "question": "Will Hong Kong have between 140-150mm of precipitation in April?",
+              "yes_price": 0.23,
+              "volume": 2911
+            },
+            {
+              "market_id": "1706969",
+              "slug": "will-hong-kong-have-between-150-160mm-of-precipitation-in-april-243",
+              "question": "Will Hong Kong have between 150-160mm of precipitation in April?",
+              "yes_price": 0.125,
+              "volume": 1664
+            }
+          ],
+          "url": "https://polymarket.com/event/precipitation-in-hong-kong-in-april",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Clube N\u00e1utico Capibaribe vs. S\u00e3o Bernardo FC",
+          "event_slug": "bra2-nau-ber-2026-04-18",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1684984",
+              "slug": "bra2-nau-ber-2026-04-18-nau",
+              "question": "Will Clube N\u00e1utico Capibaribe win on 2026-04-18?",
+              "yes_price": 0.495,
+              "volume": 6704
+            },
+            {
+              "market_id": "1684989",
+              "slug": "bra2-nau-ber-2026-04-18-ber",
+              "question": "Will S\u00e3o Bernardo FC win on 2026-04-18?",
+              "yes_price": 0.41,
+              "volume": 2403
+            }
+          ],
+          "url": "https://polymarket.com/event/bra2-nau-ber-2026-04-18",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Highest temperature in Taipei on April 10?",
+          "event_slug": "highest-temperature-in-taipei-on-april-10-2026",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1886543",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-32c",
+              "question": "Will the highest temperature in Taipei be 32\u00b0C on April 10?",
+              "yes_price": 0.315,
+              "volume": 1293
+            },
+            {
+              "market_id": "1886544",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-33c",
+              "question": "Will the highest temperature in Taipei be 33\u00b0C on April 10?",
+              "yes_price": 0.305,
+              "volume": 1469
+            },
+            {
+              "market_id": "1886542",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-31c",
+              "question": "Will the highest temperature in Taipei be 31\u00b0C on April 10?",
               "yes_price": 0.15,
-              "volume": 1320
+              "volume": 1326
             },
             {
-              "market_id": "1090025",
-              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
-              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
-              "yes_price": 0.015,
-              "volume": 1318
+              "market_id": "1886545",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-34c",
+              "question": "Will the highest temperature in Taipei be 34\u00b0C on April 10?",
+              "yes_price": 0.089,
+              "volume": 1986
+            },
+            {
+              "market_id": "1886540",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-29corbelow",
+              "question": "Will the highest temperature in Taipei be 29\u00b0C or below on April 10?",
+              "yes_price": 0.025,
+              "volume": 5472
+            },
+            {
+              "market_id": "1886546",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-35c",
+              "question": "Will the highest temperature in Taipei be 35\u00b0C on April 10?",
+              "yes_price": 0.0125,
+              "volume": 2578
+            },
+            {
+              "market_id": "1886547",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-36c",
+              "question": "Will the highest temperature in Taipei be 36\u00b0C on April 10?",
+              "yes_price": 0.006,
+              "volume": 3509
+            },
+            {
+              "market_id": "1886548",
+              "slug": "highest-temperature-in-taipei-on-april-10-2026-37c",
+              "question": "Will the highest temperature in Taipei be 37\u00b0C on April 10?",
+              "yes_price": 0.0035,
+              "volume": 1216
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-taipei-on-april-10-2026",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "English Premier League - Most Clean Sheets",
-          "event_slug": "english-premier-league-top-gk-clean-sheets",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 2,
+          "event_title": "Perplexity IPO Closing Market Cap",
+          "event_slug": "perplexity-ipo-closing-market-cap",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1222798",
-              "slug": "will-david-raya-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will David Raya be the goalkeeper with the most clean sheets in the 2025\u201326 Engl",
-              "yes_price": 0.907,
-              "volume": 2693
+              "market_id": "1115936",
+              "slug": "will-perplexity-not-ipo-by-december-31-2027",
+              "question": "Will Perplexity not IPO by December 31, 2027?",
+              "yes_price": 0.615,
+              "volume": 105842
             },
             {
-              "market_id": "1222808",
-              "slug": "will-nick-pope-be-the-goalkeeper-with-the-most-clean-sheets-in-the-202526-english-premier-league-season",
-              "question": "Will Nick Pope be the goalkeeper with the most clean sheets in the 2025\u201326 Engli",
-              "yes_price": 0.0,
-              "volume": 1029
+              "market_id": "1115933",
+              "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
+              "yes_price": 0.1085,
+              "volume": 6171
+            },
+            {
+              "market_id": "1115935",
+              "slug": "will-perplexitys-market-cap-be-greater-than-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be greater than $100B at market close on IPO day?",
+              "yes_price": 0.0665,
+              "volume": 4468
+            },
+            {
+              "market_id": "1115934",
+              "slug": "will-perplexitys-market-cap-be-between-100b-and-150b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $75B and $100B at market close on IPO da",
+              "yes_price": 0.0505,
+              "volume": 3197
+            },
+            {
+              "market_id": "1115930",
+              "slug": "will-perplexitys-market-cap-be-between-20b-and-40b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be between $20B and $30B at market close on IPO day",
+              "yes_price": 0.0345,
+              "volume": 5845
+            },
+            {
+              "market_id": "1115929",
+              "slug": "will-perplexitys-market-cap-be-less-than-20b-at-market-close-on-ipo-day",
+              "question": "Will Perplexity\u2019s market cap be less than $20B at market close on IPO day?",
+              "yes_price": 0.033,
+              "volume": 4421
             }
           ],
-          "url": "https://polymarket.com/event/english-premier-league-top-gk-clean-sheets",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+          "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "PA-10 Democratic Primary Winner",
-          "event_slug": "pa-10-democratic-primary-winner-877",
-          "yes_sum": 0.9085,
-          "profit_pct": 9.15,
-          "profit_per_dollar_pct": 10.07,
-          "num_outcomes": 2,
+          "event_title": "\"The Super Mario Galaxy Movie\" 2nd Weekend Box Office",
+          "event_slug": "the-super-mario-galaxy-movie-2nd-weekend-box-office",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1448356",
-              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
-              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
-              "yes_price": 0.895,
-              "volume": 3029
+              "market_id": "1891892",
+              "slug": "will-the-super-mario-galaxy-movie-2nd-weekend-box-office-be-between-70m-and-80m",
+              "question": "Will \"The Super Mario Galaxy Movie\" 2nd Weekend Box Office be between 70m and 80",
+              "yes_price": 0.46,
+              "volume": 3695
             },
             {
-              "market_id": "1448358",
-              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
-              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
-              "yes_price": 0.0135,
-              "volume": 8157
+              "market_id": "1891888",
+              "slug": "will-the-super-mario-galaxy-movie-2nd-weekend-box-office-be-less-than-70m",
+              "question": "Will \"The Super Mario Galaxy Movie\" 2nd Weekend Box Office be less than 70m?",
+              "yes_price": 0.32,
+              "volume": 3677
+            },
+            {
+              "market_id": "1891896",
+              "slug": "will-the-super-mario-galaxy-movie-2nd-weekend-box-office-be-between-80m-and-90m",
+              "question": "Will \"The Super Mario Galaxy Movie\" 2nd Weekend Box Office be between 80m and 90",
+              "yes_price": 0.115,
+              "volume": 1840
+            },
+            {
+              "market_id": "1891903",
+              "slug": "will-the-super-mario-galaxy-movie-2nd-weekend-box-office-be-greater-than-90m",
+              "question": "Will \"The Super Mario Galaxy Movie\" 2nd Weekend Box Office be greater than 90m?",
+              "yes_price": 0.013,
+              "volume": 2058
             }
           ],
-          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
+          "url": "https://polymarket.com/event/the-super-mario-galaxy-movie-2nd-weekend-box-office",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1938,
-        "skipped_single_outcome": 588,
-        "opportunities_found": 134,
-        "best_profit_pct": 9.75,
-        "scanned_at": "2026-04-09 14:16 UTC"
+        "checked_multi_outcome": 1935,
+        "skipped_single_outcome": 595,
+        "opportunities_found": 129,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-09 15:13 UTC"
       }
     },
     {
@@ -471,7 +478,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2666 L=45 PnL=$441.83 open=93",
+      "result": "W=2721 L=46 PnL=$452.16 open=88",
       "priority": "HIGH"
     },
     {
