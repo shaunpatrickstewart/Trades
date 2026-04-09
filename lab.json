@@ -4,21 +4,422 @@
     {
       "id": "arb_detection",
       "name": "Yes+No Arbitrage Scanner",
-      "status": "MONITORING",
+      "status": "LIVE",
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "Scanned 0 events at 2026-04-09 20:26 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
+      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1936 multi-outcome) at 2026-04-09 21:09 UTC\nBest: 10.0% profit on 'What price will Hyperliquid hit in April?' \u2014 buy YES on all 8 outcomes (sum=0.9)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Florida Senate Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-09 20:26 UTC",
-      "opportunities": [],
+      "last_scan": "2026-04-09 21:09 UTC",
+      "opportunities": [
+        {
+          "event_title": "What price will Hyperliquid hit in April?",
+          "event_slug": "what-price-will-hyperliquid-hit-in-april",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1823835",
+              "slug": "will-hyperliquid-reach-44-in-april",
+              "question": "Will Hyperliquid reach $44 in April?",
+              "yes_price": 0.315,
+              "volume": 1014
+            },
+            {
+              "market_id": "1823839",
+              "slug": "will-hyperliquid-dip-to-28-in-april",
+              "question": "Will Hyperliquid dip to $28 in April?",
+              "yes_price": 0.24,
+              "volume": 5005
+            },
+            {
+              "market_id": "1823834",
+              "slug": "will-hyperliquid-reach-48-in-april",
+              "question": "Will Hyperliquid reach $48 in April?",
+              "yes_price": 0.155,
+              "volume": 3842
+            },
+            {
+              "market_id": "1823833",
+              "slug": "will-hyperliquid-reach-52-in-april",
+              "question": "Will Hyperliquid reach $52 in April?",
+              "yes_price": 0.0635,
+              "volume": 2127
+            },
+            {
+              "market_id": "1823840",
+              "slug": "will-hyperliquid-dip-to-24-in-april",
+              "question": "Will Hyperliquid dip to $24 in April?",
+              "yes_price": 0.063,
+              "volume": 2860
+            },
+            {
+              "market_id": "1823832",
+              "slug": "will-hyperliquid-reach-56-in-april",
+              "question": "Will Hyperliquid reach $56 in April?",
+              "yes_price": 0.04,
+              "volume": 5213
+            },
+            {
+              "market_id": "1823841",
+              "slug": "will-hyperliquid-dip-to-20-in-april",
+              "question": "Will Hyperliquid dip to $20 in April?",
+              "yes_price": 0.015,
+              "volume": 10638
+            },
+            {
+              "market_id": "1823842",
+              "slug": "will-hyperliquid-dip-to-16-in-april",
+              "question": "Will Hyperliquid dip to $16 in April?",
+              "yes_price": 0.0085,
+              "volume": 12028
+            }
+          ],
+          "url": "https://polymarket.com/event/what-price-will-hyperliquid-hit-in-april",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Florida Senate Election Winner",
+          "event_slug": "florida-senate-election-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "631045",
+              "slug": "will-the-republicans-win-the-florida-senate-race-in-2026",
+              "question": "Will the Republicans win the Florida Senate race in 2026?",
+              "yes_price": 0.785,
+              "volume": 16849
+            },
+            {
+              "market_id": "631044",
+              "slug": "will-the-democrats-win-the-florida-senate-race-in-2026",
+              "question": "Will the Democrats win the Florida Senate race in 2026?",
+              "yes_price": 0.115,
+              "volume": 14844
+            }
+          ],
+          "url": "https://polymarket.com/event/florida-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
+          "event_slug": "nor-ham-kfu-2026-04-19-more-markets",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1692169",
+              "slug": "nor-ham-kfu-2026-04-19-total-2pt5",
+              "question": "Hamarkameratene vs. KFUM-Kameratene Oslo: O/U 2.5",
+              "yes_price": 0.495,
+              "volume": 11808
+            },
+            {
+              "market_id": "1692174",
+              "slug": "nor-ham-kfu-2026-04-19-total-4pt5",
+              "question": "Hamarkameratene vs. KFUM-Kameratene Oslo: O/U 4.5",
+              "yes_price": 0.405,
+              "volume": 2740
+            }
+          ],
+          "url": "https://polymarket.com/event/nor-ham-kfu-2026-04-19-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.575,
+              "volume": 2049
+            },
+            {
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.11,
+              "volume": 19318
+            },
+            {
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.09,
+              "volume": 26136
+            },
+            {
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.088,
+              "volume": 15338
+            },
+            {
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.0135,
+              "volume": 4284
+            },
+            {
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0135,
+              "volume": 1222
+            },
+            {
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.011,
+              "volume": 1191
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
+          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1545032",
+              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.865,
+              "volume": 16012
+            },
+            {
+              "market_id": "1545044",
+              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.0325,
+              "volume": 1670
+            },
+            {
+              "market_id": "1545037",
+              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.0055,
+              "volume": 21741
+            }
+          ],
+          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "LA-05 Republican Primary Winner",
+          "event_slug": "la-05-republican-primary-winner",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1731841",
+              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
+              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
+              "yes_price": 0.84,
+              "volume": 15029
+            },
+            {
+              "market_id": "1731837",
+              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
+              "question": "Will Michael Echols be the Republican nominee for LA-05?",
+              "yes_price": 0.037,
+              "volume": 8162
+            },
+            {
+              "market_id": "1731842",
+              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
+              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
+              "yes_price": 0.026,
+              "volume": 5025
+            }
+          ],
+          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "Netflix (NFLX) closes week of Apr 6 at ___?",
+          "event_slug": "nflx-week-april-10-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "1850138",
+              "slug": "will-nflx-close-between-100-and-110-week-april-10-2026",
+              "question": "Will Netflix (NFLX) close at $100-$110 on the final day of trading of the week o",
+              "yes_price": 0.71,
+              "volume": 1870
+            },
+            {
+              "market_id": "1850136",
+              "slug": "will-nflx-close-between-90-and-100-week-april-10-2026",
+              "question": "Will Netflix (NFLX) close at $90-$100 on the final day of trading of the week of",
+              "yes_price": 0.185,
+              "volume": 1077
+            },
+            {
+              "market_id": "1850144",
+              "slug": "will-nflx-close-between-130-and-140-week-april-10-2026",
+              "question": "Will Netflix (NFLX) close at $130-$140 on the final day of trading of the week o",
+              "yes_price": 0.006,
+              "volume": 1185
+            },
+            {
+              "market_id": "1850146",
+              "slug": "will-nflx-close-above-140-week-april-10-2026",
+              "question": "Will Netflix (NFLX) close at >$140 on the final day of trading of the week of Ap",
+              "yes_price": 0.002,
+              "volume": 1278
+            },
+            {
+              "market_id": "1850126",
+              "slug": "will-nflx-close-below-50-week-april-10-2026",
+              "question": "Will Netflix (NFLX) close at <$50 on the final day of trading of the week of Apr",
+              "yes_price": 0.0005,
+              "volume": 1108
+            },
+            {
+              "market_id": "1850142",
+              "slug": "will-nflx-close-between-120-and-130-week-april-10-2026",
+              "question": "Will Netflix (NFLX) close at $120-$130 on the final day of trading of the week o",
+              "yes_price": 0.0005,
+              "volume": 2061
+            }
+          ],
+          "url": "https://polymarket.com/event/nflx-week-april-10-2026",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "UT-01 Democratic Primary Winner",
+          "event_slug": "ut-01-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "704280",
+              "slug": "will-ben-mcadams-be-the-democratic-nominee-for-ut-01",
+              "question": "Will Ben McAdams be the Democratic nominee for UT-01?",
+              "yes_price": 0.535,
+              "volume": 5959
+            },
+            {
+              "market_id": "704281",
+              "slug": "will-nate-blouin-be-the-democratic-nominee-for-ut-01",
+              "question": "Will Nate Blouin be the Democratic nominee for UT-01?",
+              "yes_price": 0.355,
+              "volume": 2519
+            },
+            {
+              "market_id": "704288",
+              "slug": "will-luz-escamilla-be-the-democratic-nominee-for-ut-01",
+              "question": "Will Luz Escamilla be the Democratic nominee for UT-01?",
+              "yes_price": 0.0085,
+              "volume": 5352
+            },
+            {
+              "market_id": "704285",
+              "slug": "will-erin-mendenhall-be-the-democratic-nominee-for-ut-01",
+              "question": "Will Erin Mendenhall be the Democratic nominee for UT-01?",
+              "yes_price": 0.0065,
+              "volume": 4047
+            }
+          ],
+          "url": "https://polymarket.com/event/ut-01-democratic-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "GA-13 Democratic Primary Winner",
+          "event_slug": "ga-13-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1653178",
+              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
+              "question": "Will David Scott be the Democratic nominee for GA-13?",
+              "yes_price": 0.345,
+              "volume": 1261
+            },
+            {
+              "market_id": "1653180",
+              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
+              "yes_price": 0.345,
+              "volume": 2684
+            },
+            {
+              "market_id": "1653179",
+              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
+              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
+              "yes_price": 0.215,
+              "volume": 1313
+            }
+          ],
+          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "CD Tolima vs. Deportivo Pereira - More Markets",
+          "event_slug": "col1-cdt-dep-2026-04-18-more-markets",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1690826",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-1pt5",
+              "question": "Spread: CD Tolima (-1.5)",
+              "yes_price": 0.47,
+              "volume": 2740
+            },
+            {
+              "market_id": "1690830",
+              "slug": "col1-cdt-dep-2026-04-18-spread-home-2pt5",
+              "question": "Spread: CD Tolima (-2.5)",
+              "yes_price": 0.435,
+              "volume": 2738
+            }
+          ],
+          "url": "https://polymarket.com/event/col1-cdt-dep-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        }
+      ],
       "stats": {
-        "total_events": 0,
-        "checked_multi_outcome": 0,
-        "skipped_single_outcome": 0,
-        "opportunities_found": 0,
-        "best_profit_pct": 0,
-        "scanned_at": "2026-04-09 20:26 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1936,
+        "skipped_single_outcome": 600,
+        "opportunities_found": 143,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-09 21:09 UTC"
       }
     },
     {
@@ -28,7 +429,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=2962 L=49 PnL=$500.00 open=84",
+      "result": "W=3002 L=49 PnL=$509.86 open=66",
       "priority": "HIGH"
     },
     {
