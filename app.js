@@ -343,7 +343,7 @@
         '</div>';
 
       let html = '<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px">';
-      html += stat('BANKROLL', '$'+bankroll.toFixed(2), '#222', '$'+startingBr+' start');
+      html += stat('BANKROLL', '$'+bankroll.toFixed(2), '#222', '$'+STARTING_BR+' start');
       html += stat('TRUE REALIZED P&L', (trueRealized>=0?'+':'')+fmt(trueRealized), trueRealized>=0?'#00cc66':'#ee3344', 'all settled trades');
       html += stat('WIN RATE', postFilterWR.toFixed(1)+'%', postFilterWR>=60?'#00cc66':'#ee3344', tPfAll.length+' post-filter');
       html += stat('BANKROLL GROWTH', (brGrowthPct>=0?'+':'')+brGrowthPct.toFixed(0)+'%', '#00cc66', 'since filters live');
@@ -351,7 +351,7 @@
       html += stat('AVG LOSS', '$'+avgLoss, '#ee3344', lost.length+' losses');
       html += stat('OPEN POSITIONS', open.length, '#888', 'active trades');
       html += stat('WIN STREAK', winStreak > 0 ? winStreak+'&#x1F525;' : winStreak, winStreak>=10?'#ffaa00':'#ccc', 'consecutive wins');
-      html += stat('ORGANIC P&L', (organicPnl>=0?'+$':'$')+Math.abs(organicPnl).toFixed(2), organicPnl>=0?'#00cc66':'#ee3344', 'excl $'+paperTopup+' top-up');
+      html += stat('ORGANIC P&L', (organicPnl>=0?'+$':'$')+Math.abs(organicPnl).toFixed(2), organicPnl>=0?'#00cc66':'#ee3344', 'excl $'+PAPER_TOPUP+' top-up');
       html += '</div>';
 
       // Bankroll growth chart from daily_log
@@ -366,10 +366,10 @@
           return x.toFixed(1)+','+y.toFixed(1);
         }).join(' ');
         html += '<div style="margin-bottom:10px;background:#080808;border:1px solid #1a1a1a;border-radius:4px;padding:6px 10px">';
-        html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">BANKROLL GROWTH — $'+startingBr+' → $'+bankroll.toFixed(0)+'</div>';
+        html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">BANKROLL GROWTH — $'+STARTING_BR+' → $'+bankroll.toFixed(0)+'</div>';
         html += '<svg width="100%" viewBox="0 0 '+W+' '+H+'" style="display:block">';
         // Zero line
-        const zeroY = H - PAD - ((startingBr - minBr)/range)*(H-PAD*2);
+        const zeroY = H - PAD - ((STARTING_BR - minBr)/range)*(H-PAD*2);
         html += '<line x1="'+PAD+'" y1="'+zeroY.toFixed(1)+'" x2="'+(W-PAD)+'" y2="'+zeroY.toFixed(1)+'" stroke="#1a1a1a" stroke-width="1"/>';
         html += '<polyline points="'+pts+'" fill="none" stroke="#00ff88" stroke-width="2" stroke-linejoin="round"/>';
         // Dots + labels
