@@ -1,28 +1,15 @@
 {
-  "last_scan": "2026-04-10T02:09:42.320480+00:00",
-  "scan_seconds": 72.6,
-  "markets_scanned": 75,
-  "open_positions": 77,
+  "last_scan": "2026-04-10T07:06:25.908023+00:00",
+  "scan_seconds": 19.5,
+  "markets_scanned": 158,
+  "open_positions": 83,
   "signals": [
     {
-      "id": "sig_748114",
-      "timestamp": "2026-04-10T02:09:32.326259+00:00",
-      "source": "X_GROK",
-      "headline": "Denver Nuggets injury report: Jokic (wrist), Murray (shoulder), Gordon (hamstring) QUESTIONABLE vs Thunder tomorrow** |",
-      "raw": "Denver Nuggets injury report: Jokic (wrist), Murray (shoulder), Gordon (hamstring) QUESTIONABLE vs Thunder tomorrow** | NO for Nuggets full strength, leans YES Thunder edge | MED[[3]](https://x.com/i/status/2042377414752489561)\n\nNo confirmed Bruins playoff clinch or other resolutions; scenarios pending other results.[[4]](https://x.com/i/status/2042219056556659052)",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042377414752489561)",
-      "category": "SPORTS"
-    },
-    {
-      "id": "perp_758108",
-      "timestamp": "2026-04-10T02:09:42.320198+00:00",
+      "id": "perp_561713",
+      "timestamp": "2026-04-10T07:06:25.907796+00:00",
       "source": "PERPLEXITY",
       "headline": "[Context] Will Dogecoin reach $0.16 by December 31, 2026?",
-      "raw": "Prediction markets currently assign a **35.8-37.6% probability** to Dogecoin (DOGE) reaching $0.16 by December 31, 2026, requiring roughly a 76-77% price increase from recent levels around $0.09-$0.15 within about 268 days.[1]\n\n### Current Price and Recent Status\nAs of early 2026 data in the results:\n- DOGE trades near **$0.15** with a 5.34% 24-hour gain, neutral RSI at 57.69, and robust $151.4 million Binance spot volume, showing recovery momentum after dipping to $0.09 in March.[2][3]\n- It rec",
+      "raw": "Prediction markets currently assign a **36.2% probability** to Dogecoin (DOGE) reaching $0.16 by December 31, 2026, requiring a +73.2% price increase from recent levels within 266 days.[1] This is more optimistic than the historical base rate of 16.4%, with only 76 of 463 similar 266-day periods achieving such a move.[1]\n\n**Current DOGE status**: As of early 2026 reports, DOGE trades around **$0.15** (up 5.34% in the past 24 hours), with neutral RSI at 57.69 indicating room for upside before ove",
       "direction": null,
       "confidence": 0.7,
       "matched_markets": [
@@ -31,78 +18,12 @@
       "action": "WATCH",
       "category": "RESEARCH",
       "x_link": null
-    },
-    {
-      "id": "sig_724018",
-      "timestamp": "2026-04-10T02:09:08.230381+00:00",
-      "source": "X_GROK",
-      "headline": "US March CPI release imminent today (8:30AM ET)**: Markets brace for post-oil spike data amid Fed \"higher for longer\" si",
-      "raw": "US March CPI release imminent today (8:30AM ET)**: Markets brace for post-oil spike data amid Fed \"higher for longer\" signals; hot print would solidify pause on cuts.[[1]](https://x.com/i/status/2042418097571946812)[[2]](https://x.com/i/status/2042422317675135076) | YES (Fed pause) | MED",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will monthly inflation increase by 0.8% or more in March?",
-        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (",
-        "Will annual inflation increase by 3.1% in March?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042418097571946812)[[2]](https://x.com/i/status/2042422317675135076)",
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_724022",
-      "timestamp": "2026-04-10T02:09:08.234833+00:00",
-      "source": "X_GROK",
-      "headline": "Rumor of hot March CPI (headline 2",
-      "raw": "Rumor of hot March CPI (headline 2.8%, core 3.1%) circulates pre-release**: Sticky inflation keeps hikes/rates on table longer.[[3]](https://x.com/i/status/2042417657530769599) | YES (Fed pause) | LOW",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will monthly inflation increase by 0.8% or more in March?",
-        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (",
-        "Will annual inflation increase by 3.1% in March?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042417657530769599)",
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_724027",
-      "timestamp": "2026-04-10T02:09:08.239723+00:00",
-      "source": "X_GROK",
-      "headline": "Mexico March inflation spikes amid Middle East risks**: Banxico majority sees pause on cuts",
-      "raw": "Mexico March inflation spikes amid Middle East risks**: Banxico majority sees pause on cuts.[[4]](https://x.com/i/status/2042398638068977876) | YES (global pause theme) | HIGH",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will monthly inflation increase by 0.8% or more in March?",
-        "Will annual inflation increase by 3.1% in March?",
-        "Will a dozen eggs cost between $2.00\u20132.25 in March?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042398638068977876)",
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_748109",
-      "timestamp": "2026-04-10T02:09:32.321855+00:00",
-      "source": "X_GROK",
-      "headline": "OKC Thunder clinch #1 seed in Western Conference and NBA's best overall record after 128-110 win over Clippers** | YES f",
-      "raw": "OKC Thunder clinch #1 seed in Western Conference and NBA's best overall record after 128-110 win over Clippers** | YES for Thunder top seed, homecourt thru playoffs, favorites status | HIGH[[1]](https://x.com/i/status/2042106372108468305)[[2]](https://x.com/i/status/2042125497426174023)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Atlanta Hawks make the NBA Playoffs?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042106372108468305)[[2]](https://x.com/i/status/2042125497426174023)",
-      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 5,
+    "alert": 0,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
