@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-10T22:17:12.082359+00:00",
-  "bankroll": 1814.48,
+  "last_updated": "2026-04-10T23:03:12.754983+00:00",
+  "bankroll": 1818.97,
   "engines": {
     "LONG_TERM": {
       "won": 13,
@@ -9,10 +9,10 @@
       "pnl": -77.06
     },
     "NEAR_CERTAIN": {
-      "won": 3608,
+      "won": 3622,
       "lost": 54,
-      "open": 58,
-      "pnl": 659.409999999999
+      "open": 53,
+      "pnl": 663.8999999999988
     },
     "SHORT_TERM": {
       "won": 12,
@@ -33,11 +33,11 @@
       "pnl": 0.0
     }
   },
-  "total_trades": 3805,
-  "win_streak": 292,
+  "total_trades": 3814,
+  "win_streak": 306,
   "starting_bankroll": 300.0,
   "paper_topup": 1000.0,
-  "organic_pnl": 514.48,
+  "organic_pnl": 518.97,
   "daily_log": [
     {
       "date": "2026-04-03",
@@ -87,9 +87,15 @@
       "starting": 1684.19,
       "pnl": 130.29,
       "ending": 1814.48
+    },
+    {
+      "date": "2026-04-11",
+      "starting": 1814.48,
+      "pnl": 4.49,
+      "ending": 1818.97
     }
   ],
-  "true_realized_pnl": 510.07,
-  "open_capital_deployed": 1899.61,
-  "post_filter_pnl": 615.97
+  "true_realized_pnl": 514.56,
+  "open_capital_deployed": 1536.91,
+  "post_filter_pnl": 620.46
 }
