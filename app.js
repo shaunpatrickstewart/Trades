@@ -386,12 +386,12 @@
           const y = H - PAD - ((d.ending - minBr)/range)*(H-PAD*2);
           return x.toFixed(1)+','+y.toFixed(1);
         }).join(' ');
-        html += '<div style="margin-bottom:10px;background:#080808;border:1px solid #1a1a1a;border-radius:4px;padding:6px 10px">';
+        html += '<div style="margin-bottom:10px;background:#f2f2f2;border:1px solid #dddddd;border-radius:4px;padding:6px 10px">';
         html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">BANKROLL GROWTH — $'+STARTING_BR+' → $'+bankroll.toFixed(0)+'</div>';
         html += '<svg width="100%" viewBox="0 0 '+W+' '+H+'" style="display:block">';
         // Zero line
         const zeroY = H - PAD - ((STARTING_BR - minBr)/range)*(H-PAD*2);
-        html += '<line x1="'+PAD+'" y1="'+zeroY.toFixed(1)+'" x2="'+(W-PAD)+'" y2="'+zeroY.toFixed(1)+'" stroke="#1a1a1a" stroke-width="1"/>';
+        html += '<line x1="'+PAD+'" y1="'+zeroY.toFixed(1)+'" x2="'+(W-PAD)+'" y2="'+zeroY.toFixed(1)+'" stroke="#aaaaaa" stroke-width="1"/>';
         html += '<polyline points="'+pts+'" fill="none" stroke="#00ff88" stroke-width="2" stroke-linejoin="round"/>';
         // Dots + labels
         dailyLog.forEach((d,i)=>{
@@ -457,7 +457,7 @@
 
       // Summary bar
       const bsCell = (label,val,sub,color) =>
-        '<div style="background:#0a0a0a;border:1px solid #1a1a1a;border-radius:4px;padding:6px 10px;min-width:100px;flex:1">'+
+        '<div style="background:#f5f5f5;border:1px solid #dddddd;border-radius:4px;padding:6px 10px;min-width:100px;flex:1">'+
         '<div style="font-size:1.0em;font-weight:700;color:'+(color||'#ccc')+'">'+val+'</div>'+
         '<div style="font-size:0.68em;color:#555;margin-top:1px">'+label+'</div>'+
         (sub?'<div style="font-size:0.65em;color:#444;margin-top:1px">'+sub+'</div>':'')+
@@ -492,7 +492,7 @@
           const isToday = d === now.toISOString().slice(0,10);
           const pnlC = row.pnl>=0?'#00ff88':'#ff4444';
           const runC = (runMap[d]||0)>=0?'#00ff88':'#ff4444';
-          html += '<tr style="'+(isToday?'background:#0a1a0a':'')+'">' +
+          html += '<tr style="'+(isToday?'background:#e8f5ee':'')+'">' +
             '<td style="color:#aaa;font-weight:'+(isToday?'700':'400')+'">'+d+(isToday?' ★':'')+
               (d < FILTER_DATE ? ' <span style="color:#555;font-size:0.75em">(pre-filter)</span>':'')+
             '</td>'+
@@ -666,29 +666,32 @@
       const byEngine = {};
       trades.forEach(t=>{
         const eng = t.type||'UNKNOWN';
-        if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0,openBet:0};
-        if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); byEngine[eng].openBet+=(t.paper_bet||0); }
-        if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); }
-        if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); }
+        if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0,totalBet:0};
+        const bet = parseFloat(t.paper_bet||0);
+        if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); byEngine[eng].totalBet+=bet; }
+        if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
+        if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
       });
-      const engColors = {SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', UNKNOWN:'#888'};
-      let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #1a2a1a">';
-      Object.entries(byEngine).forEach(([eng,d])=>{
+      const engColors = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', UNKNOWN:'#888'};
+      let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #dddddd">';
+      Object.entries(byEngine).sort((a,b)=>b[1].realPnl-a[1].realPnl).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
-        const label = eng==='LONG_TERM'?'WALLET COPY LONG':eng==='SHORT_TERM'?'WALLET COPY SHORT':eng.replace('_',' ');
+        const label = eng==='LONG_TERM'?'WALLET COPY LONG':eng==='SHORT_TERM'?'WALLET COPY SHORT':eng.replace(/_/g,' ');
         const resolved = d.won + d.lost;
-        const roi = resolved > 0 && d.openBet > 0 ? (d.realPnl / d.openBet * 100) : null;
+        // ROI = realized P&L / total invested (won+lost bets, not open)
+        const resolvedBet = d.totalBet - (d.open > 0 ? d.totalBet * d.open/(d.open+resolved) : 0);
+        const roi = resolved > 0 && resolvedBet > 0 ? (d.realPnl / resolvedBet * 100) : null;
         const wr  = resolved > 0 ? (d.won / resolved * 100) : null;
         const pnlStr = resolved > 0
-          ? (d.realPnl>=0?'<span style="color:#00ff88">+$'+d.realPnl.toFixed(2)+'</span>'
-                         :'<span style="color:#ff4444">$'+d.realPnl.toFixed(2)+'</span>')
-          : '<span style="color:#444">no resolved</span>';
+          ? (d.realPnl>=0?'<span style="color:#00aa44">+$'+d.realPnl.toFixed(2)+'</span>'
+                         :'<span style="color:#cc3322">-$'+Math.abs(d.realPnl).toFixed(2)+'</span>')
+          : '<span style="color:#999">no resolved</span>';
         const roiStr = roi !== null
-          ? '<span style="color:'+(roi>=0?'#00ff88':'#ff4444')+'">ROI '+(roi>=0?'+':'')+roi.toFixed(1)+'%</span>'
-          : '<span style="color:#333;font-size:0.75em">ROI: need '+(10-resolved)+' more</span>';
-        const wrStr = wr !== null ? '<span style="color:#aaa"> &nbsp; '+wr.toFixed(0)+'% WR</span>' : '';
+          ? '<span style="color:'+(roi>=0?'#00aa44':'#cc3322')+'">ROI '+(roi>=0?'+':'')+roi.toFixed(1)+'%</span>'
+          : '<span style="color:#888;font-size:0.75em">ROI: '+(10-resolved)+' more needed</span>';
+        const wrStr = wr !== null ? '<span style="color:#555"> &nbsp; '+wr.toFixed(0)+'% WR</span>' : '';
         engHtml +=
-          '<div style="background:#0d0d0d;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:155px">'+
+          '<div style="background:#f0f0f0;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:155px">'+
           '<div style="color:'+c+';font-size:0.7em;font-weight:700">'+label+'</div>'+
           '<div style="font-size:0.8em;margin-top:2px">'+d.open+' open &nbsp; '+d.won+'W/'+d.lost+'L</div>'+
           '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
@@ -739,7 +742,7 @@
         // Capital button (only for OPEN)
         const capBtn = t.status==='OPEN' && t.slug
           ? '<button onclick="pmSetCapital(\''+t.slug+'\',\''+t.outcome+'\','+(t.paper_bet||5)+')" '+
-            'style="background:#111;border:1px solid #333;color:#aaa;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
+            'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
           : '<span class="dim">—</span>';
 
         return '<tr class="paper-row">'+
@@ -759,7 +762,7 @@
       }).join('');
 
       // Totals row
-      html += '<tr style="border-top:1px solid #1a3a1a;background:#090909">'+
+      html += '<tr style="border-top:1px solid #d0e8d8;background:#eeeeee">'+
         '<td colspan="5" class="dim" style="font-size:0.72em">TOTAL</td>'+
         '<td style="color:#aaa">$'+totalBet.toFixed(0)+'</td>'+
         '<td>'+(realizedPnl>=0?'<span class="green">':'<span style="color:#ff4444">')+
@@ -798,10 +801,10 @@
         const growth = br.total_growth >= 0
           ? '<span style="color:#00ff88">+$'+br.total_growth.toFixed(2)+'</span>'
           : '<span style="color:#ff4444">-$'+Math.abs(br.total_growth).toFixed(2)+'</span>';
-        html += '<div style="background:#0a0a0a;border:1px solid #333;border-left:3px solid '+(onTrack?'#00ff88':'#ffaa44')+';padding:8px 12px;margin-bottom:10px;border-radius:4px">';
+        html += '<div style="background:#f5f5f5;border:1px solid #333;border-left:3px solid '+(onTrack?'#00ff88':'#ffaa44')+';padding:8px 12px;margin-bottom:10px;border-radius:4px">';
         html += '<div style="font-weight:700;color:'+(onTrack?'#00ff88':'#ffaa44')+';margin-bottom:4px">$300/DAY TARGET '+(onTrack?'✓ HIT':'— IN PROGRESS')+'</div>';
         html += '<div style="font-size:0.82em;display:flex;gap:20px;flex-wrap:wrap">';
-        html += '<span>Bankroll: <b style="color:#fff">$'+br.current_bankroll.toFixed(2)+'</b></span>';
+        html += '<span>Bankroll: <b style="color:#111">$'+br.current_bankroll.toFixed(2)+'</b></span>';
         html += '<span>Started: $'+br.initial_bankroll.toFixed(2)+'</span>';
         html += '<span>Growth: '+growth+'</span>';
         if (br.days_of_data >= 1) {
@@ -832,7 +835,7 @@
             : '<span style="color:#333">need '+(10-e.resolved)+' more</span>';
           const wrStr = e.win_rate_pct !== null && e.win_rate_pct !== undefined
             ? ' &nbsp;<span style="color:#aaa">'+e.win_rate_pct+'% WR</span>' : '';
-          html += '<div style="background:#0d0d0d;border-left:2px solid '+c+';padding:4px 8px;font-size:0.78em">'+
+          html += '<div style="background:#f0f0f0;border-left:2px solid '+c+';padding:4px 8px;font-size:0.78em">'+
             '<div style="color:'+c+';font-weight:700">'+(e.engine==='LONG_TERM'?'WALLET COPY LONG':e.engine==='SHORT_TERM'?'WALLET COPY SHORT':e.engine.replace('_',' '))+'</div>'+
             '<div>'+e.resolved+' resolved | ROI '+roiStr+wrStr+'</div>'+
             '<div>P&amp;L: '+(e.realized_pnl>=0?'<span style="color:#00ff88">+':'<span style="color:#ff4444">')+
@@ -908,7 +911,7 @@
       exps.forEach(e => {
         const sc = statusColor[e.status] || '#888';
         const si = statusIcon[e.status] || e.status;
-        html += `<div style="background:#0a0a0a;border-left:3px solid ${sc};padding:8px 10px;border-radius:0 4px 4px 0">`;
+        html += `<div style="background:#f5f5f5;border-left:3px solid ${sc};padding:8px 10px;border-radius:0 4px 4px 0">`;
         html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">`;
         html += `<span style="color:${sc};font-weight:700;font-size:0.82em">${si} &nbsp; ${e.name}</span>`;
         html += `<span>${priBadge(e.priority)}</span>`;
@@ -992,7 +995,7 @@
       // Stats bar
       let html = '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">';
       const sBar = (label, val, color) =>
-        '<div style="background:#0a0a0a;border:1px solid #1a1a1a;border-radius:3px;padding:4px 10px;font-size:0.75em">'+
+        '<div style="background:#f5f5f5;border:1px solid #dddddd;border-radius:3px;padding:4px 10px;font-size:0.75em">'+
         '<span style="color:'+color+';font-weight:700">'+val+'</span> <span style="color:#444">'+label+'</span></div>';
       html += sBar('ENTER', stats.enter||0, '#ff4400');
       html += sBar('ALERT', stats.alert||0, '#ffaa00');
@@ -1013,10 +1016,10 @@
           ? '<span style="color:#88aaff;font-size:0.68em">PERPLEXITY</span>'
           : '<span style="color:#1d9bf0;font-size:0.68em">X/GROK</span>';
 
-        html += '<div style="background:#080808;border:1px solid #1a1a1a;border-left:3px solid '+actionColor+';border-radius:4px;padding:7px 10px">';
+        html += '<div style="background:#f2f2f2;border:1px solid #dddddd;border-left:3px solid '+actionColor+';border-radius:4px;padding:7px 10px">';
         html += '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:6px">';
         html += '<div style="flex:1">';
-        html += '<div style="font-size:0.82em;color:#ddd;font-weight:600;margin-bottom:3px">'+dirBadge+s.headline+'</div>';
+        html += '<div style="font-size:0.82em;color:#333;font-weight:600;margin-bottom:3px">'+dirBadge+s.headline+'</div>';
         if (s.matched_markets && s.matched_markets.length) {
           html += '<div style="font-size:0.7em;color:#555;margin-bottom:2px">→ '+s.matched_markets[0]+'</div>';
         }
