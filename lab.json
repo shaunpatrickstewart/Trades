@@ -8,198 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 148 categorical arb opportunities found\nScanned 3000 events (1981 multi-outcome) at 2026-04-10 21:18 UTC\nBest: 10.0% profit on 'Highest temperature in Seoul on April 12?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Bulgaria Parliamentary Election: Margin of Victory'",
+      "result": "LIVE \u2014 150 categorical arb opportunities found\nScanned 3000 events (1983 multi-outcome) at 2026-04-10 21:45 UTC\nBest: 9.95% profit on 'Will Audemars Piguet prices hit __ by April 30?' \u2014 buy YES on all 10 outcomes (sum=0.9005)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 21:18 UTC",
+      "last_scan": "2026-04-10 21:45 UTC",
       "opportunities": [
-        {
-          "event_title": "Highest temperature in Seoul on April 12?",
-          "event_slug": "highest-temperature-in-seoul-on-april-12-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1914826",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-17c",
-              "question": "Will the highest temperature in Seoul be 17\u00b0C on April 12?",
-              "yes_price": 0.24,
-              "volume": 2738
-            },
-            {
-              "market_id": "1914827",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-18c",
-              "question": "Will the highest temperature in Seoul be 18\u00b0C on April 12?",
-              "yes_price": 0.195,
-              "volume": 2331
-            },
-            {
-              "market_id": "1914828",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-19c",
-              "question": "Will the highest temperature in Seoul be 19\u00b0C on April 12?",
-              "yes_price": 0.175,
-              "volume": 1820
-            },
-            {
-              "market_id": "1914829",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-20c",
-              "question": "Will the highest temperature in Seoul be 20\u00b0C on April 12?",
-              "yes_price": 0.08,
-              "volume": 2258
-            },
-            {
-              "market_id": "1914824",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-15c",
-              "question": "Will the highest temperature in Seoul be 15\u00b0C on April 12?",
-              "yes_price": 0.0695,
-              "volume": 4292
-            },
-            {
-              "market_id": "1914830",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-21c",
-              "question": "Will the highest temperature in Seoul be 21\u00b0C on April 12?",
-              "yes_price": 0.047,
-              "volume": 4983
-            },
-            {
-              "market_id": "1914823",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-14corbelow",
-              "question": "Will the highest temperature in Seoul be 14\u00b0C or below on April 12?",
-              "yes_price": 0.0375,
-              "volume": 7065
-            },
-            {
-              "market_id": "1914825",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-16c",
-              "question": "Will the highest temperature in Seoul be 16\u00b0C on April 12?",
-              "yes_price": 0.0265,
-              "volume": 4798
-            },
-            {
-              "market_id": "1914831",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-22c",
-              "question": "Will the highest temperature in Seoul be 22\u00b0C on April 12?",
-              "yes_price": 0.0135,
-              "volume": 7570
-            },
-            {
-              "market_id": "1914833",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-24corhigher",
-              "question": "Will the highest temperature in Seoul be 24\u00b0C or higher on April 12?",
-              "yes_price": 0.0085,
-              "volume": 6689
-            },
-            {
-              "market_id": "1914832",
-              "slug": "highest-temperature-in-seoul-on-april-12-2026-23c",
-              "question": "Will the highest temperature in Seoul be 23\u00b0C on April 12?",
-              "yes_price": 0.0075,
-              "volume": 3930
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-seoul-on-april-12-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
-          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1742068",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.44,
-              "volume": 4314
-            },
-            {
-              "market_id": "1742067",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.335,
-              "volume": 10487
-            },
-            {
-              "market_id": "1742066",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.125,
-              "volume": 10882
-            }
-          ],
-          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Colorado Republican Senate Primary Winner",
-          "event_slug": "colorado-republican-senate-primary-winner",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "679608",
-              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.445,
-              "volume": 7073
-            },
-            {
-              "market_id": "679606",
-              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.175,
-              "volume": 1774
-            },
-            {
-              "market_id": "679605",
-              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.15,
-              "volume": 1160
-            },
-            {
-              "market_id": "679607",
-              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.13,
-              "volume": 2281
-            }
-          ],
-          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "GA-01 Republican Primary Winner",
-          "event_slug": "ga-01-republican-primary-winner",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1663555",
-              "slug": "will-james-kingston-be-the-republican-nominee-for-ga-01",
-              "question": "Will James Kingston be the Republican nominee for GA-01?",
-              "yes_price": 0.81,
-              "volume": 3268
-            },
-            {
-              "market_id": "1663558",
-              "slug": "will-kandiss-taylor-be-the-republican-nominee-for-ga-01",
-              "question": "Will Kandiss Taylor be the Republican nominee for GA-01?",
-              "yes_price": 0.09,
-              "volume": 3906
-            }
-          ],
-          "url": "https://polymarket.com/event/ga-01-republican-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Will Audemars Piguet prices hit __ by April 30?",
           "event_slug": "will-audemars-piguet-prices-hit-by-april-30",
@@ -396,51 +208,11 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "B.C. Conservative Party Leadership Election Winner",
-          "event_slug": "bc-conservative-party-leadership-election-winner",
+          "event_title": "How many Gold Cards will Trump sell in 2026?",
+          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
           "yes_sum": 0.9025,
           "profit_pct": 9.75,
           "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1864345",
-              "slug": "will-caroline-elliott-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Caroline Elliott win the 2026 Conservative Party of British Columbia leader",
-              "yes_price": 0.41,
-              "volume": 5422
-            },
-            {
-              "market_id": "1864350",
-              "slug": "will-peter-milobar-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Peter Milobar win the 2026 Conservative Party of British Columbia leadershi",
-              "yes_price": 0.31,
-              "volume": 1575
-            },
-            {
-              "market_id": "1864347",
-              "slug": "will-yuri-fulmer-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Yuri Fulmer win the 2026 Conservative Party of British Columbia leadership ",
-              "yes_price": 0.113,
-              "volume": 1549
-            },
-            {
-              "market_id": "1864346",
-              "slug": "will-kerry-lynne-findlay-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Kerry-Lynne Findlay win the 2026 Conservative Party of British Columbia lea",
-              "yes_price": 0.0695,
-              "volume": 1129
-            }
-          ],
-          "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
-          "event_title": "How many Gold Cards will Trump sell in 2026?",
-          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
           "num_outcomes": 9,
           "outcomes": [
             {
@@ -479,25 +251,25 @@
               "volume": 55007
             },
             {
+              "market_id": "665323",
+              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
+              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
+              "yes_price": 0.041,
+              "volume": 5036
+            },
+            {
               "market_id": "665324",
               "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
               "question": "Will Trump sell over 100k Gold Cards in 2026?",
-              "yes_price": 0.0405,
+              "yes_price": 0.04,
               "volume": 14643
             },
             {
               "market_id": "665321",
               "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
               "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
-              "yes_price": 0.0395,
+              "yes_price": 0.0375,
               "volume": 5419
-            },
-            {
-              "market_id": "665323",
-              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
-              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
-              "yes_price": 0.039,
-              "volume": 5036
             },
             {
               "market_id": "665318",
@@ -508,16 +280,216 @@
             }
           ],
           "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "Next Prime Minister of Bulgaria",
+          "event_slug": "next-prime-minister-of-bulgaria",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1572243",
+              "slug": "will-rumen-radev-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
+              "question": "Will Rumen Radev be the next prime minister of Bulgaria after the 2026 parliamen",
+              "yes_price": 0.725,
+              "volume": 5709
+            },
+            {
+              "market_id": "1572247",
+              "slug": "will-assen-vassilev-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
+              "question": "Will Assen Vassilev be the next prime minister of Bulgaria after the 2026 parlia",
+              "yes_price": 0.1225,
+              "volume": 2048
+            },
+            {
+              "market_id": "1572245",
+              "slug": "will-andrey-gyurov-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
+              "question": "Will Andrey Gyurov be the next prime minister of Bulgaria after the 2026 parliam",
+              "yes_price": 0.055,
+              "volume": 1809
+            }
+          ],
+          "url": "https://polymarket.com/event/next-prime-minister-of-bulgaria",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "B.C. Conservative Party Leadership Election Winner",
+          "event_slug": "bc-conservative-party-leadership-election-winner",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1864345",
+              "slug": "will-caroline-elliott-win-the-2026-conservative-party-of-british-columbia-leadership-election",
+              "question": "Will Caroline Elliott win the 2026 Conservative Party of British Columbia leader",
+              "yes_price": 0.41,
+              "volume": 5422
+            },
+            {
+              "market_id": "1864350",
+              "slug": "will-peter-milobar-win-the-2026-conservative-party-of-british-columbia-leadership-election",
+              "question": "Will Peter Milobar win the 2026 Conservative Party of British Columbia leadershi",
+              "yes_price": 0.31,
+              "volume": 1575
+            },
+            {
+              "market_id": "1864347",
+              "slug": "will-yuri-fulmer-win-the-2026-conservative-party-of-british-columbia-leadership-election",
+              "question": "Will Yuri Fulmer win the 2026 Conservative Party of British Columbia leadership ",
+              "yes_price": 0.0965,
+              "volume": 1549
+            },
+            {
+              "market_id": "1864346",
+              "slug": "will-kerry-lynne-findlay-win-the-2026-conservative-party-of-british-columbia-leadership-election",
+              "question": "Will Kerry-Lynne Findlay win the 2026 Conservative Party of British Columbia lea",
+              "yes_price": 0.086,
+              "volume": 1129
+            }
+          ],
+          "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
+          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1704815",
+              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
+              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
+              "yes_price": 0.33,
+              "volume": 22381
+            },
+            {
+              "market_id": "1704816",
+              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
+              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1275,
+              "volume": 9944
+            },
+            {
+              "market_id": "1704820",
+              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
+              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1045,
+              "volume": 7199
+            },
+            {
+              "market_id": "1704819",
+              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
+              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.1025,
+              "volume": 7158
+            },
+            {
+              "market_id": "1704821",
+              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
+              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
+              "yes_price": 0.1,
+              "volume": 23793
+            },
+            {
+              "market_id": "1704818",
+              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
+              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.078,
+              "volume": 8194
+            },
+            {
+              "market_id": "1704817",
+              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
+              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
+              "yes_price": 0.0625,
+              "volume": 8791
+            }
+          ],
+          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "2nd richest person on December 31?",
+          "event_slug": "2nd-richest-person-on-december-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1302181",
+              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
+              "question": "Will Larry Page be 2nd richest person on December 31?",
+              "yes_price": 0.44,
+              "volume": 3962
+            },
+            {
+              "market_id": "1302173",
+              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
+              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
+              "yes_price": 0.231,
+              "volume": 1882
+            },
+            {
+              "market_id": "1302183",
+              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
+              "question": "Will Sergey Brin be 2nd richest person on December 31?",
+              "yes_price": 0.215,
+              "volume": 4050
+            },
+            {
+              "market_id": "1302178",
+              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
+              "question": "Will Warren Buffett be 2nd richest person on December 31?",
+              "yes_price": 0.019,
+              "volume": 1080
+            }
+          ],
+          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "CO-08 Democratic Primary Winner",
+          "event_slug": "co-08-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "704026",
+              "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
+              "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
+              "yes_price": 0.83,
+              "volume": 8789
+            },
+            {
+              "market_id": "704025",
+              "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
+              "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
+              "yes_price": 0.075,
+              "volume": 1287
+            }
+          ],
+          "url": "https://polymarket.com/event/co-08-democratic-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1981,
-        "skipped_single_outcome": 597,
-        "opportunities_found": 148,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-10 21:18 UTC"
+        "checked_multi_outcome": 1983,
+        "skipped_single_outcome": 598,
+        "opportunities_found": 150,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-10 21:45 UTC"
       }
     },
     {
