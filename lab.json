@@ -8,10 +8,50 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (1980 multi-outcome) at 2026-04-10 17:20 UTC\nBest: 9.9% profit on 'Will Opensea launch a token by ___?' \u2014 buy YES on all 4 outcomes (sum=0.901)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.85% on 'Next Prime Minister of Bulgaria'",
+      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1991 multi-outcome) at 2026-04-10 17:49 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 17:20 UTC",
+      "last_scan": "2026-04-10 17:49 UTC",
       "opportunities": [
+        {
+          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
+          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1429286",
+              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
+              "yes_price": 0.425,
+              "volume": 3224
+            },
+            {
+              "market_id": "1429289",
+              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
+              "yes_price": 0.245,
+              "volume": 13277
+            },
+            {
+              "market_id": "1429278",
+              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
+              "yes_price": 0.19,
+              "volume": 18821
+            },
+            {
+              "market_id": "1429283",
+              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
+              "yes_price": 0.0405,
+              "volume": 6201
+            }
+          ],
+          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
         {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
@@ -53,124 +93,133 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Next Prime Minister of Bulgaria",
-          "event_slug": "next-prime-minister-of-bulgaria",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 3,
+          "event_title": "How many Republican Senators not running in 2026?",
+          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1572243",
-              "slug": "will-rumen-radev-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
-              "question": "Will Rumen Radev be the next prime minister of Bulgaria after the 2026 parliamen",
-              "yes_price": 0.725,
-              "volume": 5709
+              "market_id": "909079",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
+              "yes_price": 0.575,
+              "volume": 2049
             },
             {
-              "market_id": "1572247",
-              "slug": "will-assen-vassilev-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
-              "question": "Will Assen Vassilev be the next prime minister of Bulgaria after the 2026 parlia",
-              "yes_price": 0.1215,
-              "volume": 2048
+              "market_id": "909078",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
+              "yes_price": 0.1,
+              "volume": 26136
             },
             {
-              "market_id": "1572245",
-              "slug": "will-andrey-gyurov-be-the-next-prime-minister-of-bulgaria-after-the-2026-parliamentary-election",
-              "question": "Will Andrey Gyurov be the next prime minister of Bulgaria after the 2026 parliam",
-              "yes_price": 0.055,
-              "volume": 1809
+              "market_id": "909077",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
+              "yes_price": 0.0955,
+              "volume": 19320
+            },
+            {
+              "market_id": "923035",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
+              "yes_price": 0.0905,
+              "volume": 15338
+            },
+            {
+              "market_id": "909082",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
+              "yes_price": 0.0175,
+              "volume": 1222
+            },
+            {
+              "market_id": "909081",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
+              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
+              "yes_price": 0.0145,
+              "volume": 1191
+            },
+            {
+              "market_id": "909083",
+              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
+              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
+              "yes_price": 0.011,
+              "volume": 4291
             }
           ],
-          "url": "https://polymarket.com/event/next-prime-minister-of-bulgaria",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
-          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1429286",
-              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
-              "yes_price": 0.425,
-              "volume": 3224
-            },
-            {
-              "market_id": "1429289",
-              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
-              "yes_price": 0.245,
-              "volume": 13277
-            },
-            {
-              "market_id": "1429278",
-              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
-              "yes_price": 0.192,
-              "volume": 18821
-            },
-            {
-              "market_id": "1429283",
-              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
-              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
-              "yes_price": 0.0405,
-              "volume": 6201
-            }
-          ],
-          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
-        {
-          "event_title": "2026 World GDP Growth",
-          "event_slug": "2026-world-gdp-growth",
+          "event_title": "Mecklenburg-Vorpommern Parliamentary Election Winner",
+          "event_slug": "mecklenburg-vorpommern-parliamentary-election-winner",
           "yes_sum": 0.9045,
           "profit_pct": 9.55,
           "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 5,
+          "num_outcomes": 8,
           "outcomes": [
             {
-              "market_id": "1245861",
-              "slug": "will-world-gdp-growth-be-2pt9-in-2026",
-              "question": "Will world GDP growth be \u22642.9% in 2026?",
-              "yes_price": 0.375,
-              "volume": 3477
+              "market_id": "1364103",
+              "slug": "will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.72,
+              "volume": 5625
             },
             {
-              "market_id": "1245864",
-              "slug": "will-world-gdp-growth-be-3pt2-in-2026",
-              "question": "Will world GDP growth be 3.2% in 2026?",
-              "yes_price": 0.2365,
-              "volume": 1543
+              "market_id": "1364105",
+              "slug": "will-spd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will SPD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.1,
+              "volume": 33525
             },
             {
-              "market_id": "1245865",
-              "slug": "will-world-gdp-growth-be-3pt3-in-2026",
-              "question": "Will world GDP growth be 3.3% in 2026?",
-              "yes_price": 0.153,
-              "volume": 1824
+              "market_id": "1364102",
+              "slug": "will-cdu-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will CDU win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.062,
+              "volume": 26439
             },
             {
-              "market_id": "1245866",
-              "slug": "will-world-gdp-growth-be-3pt4-in-2026",
-              "question": "Will world GDP growth be 3.4% in 2026?",
-              "yes_price": 0.0835,
-              "volume": 3393
+              "market_id": "1364104",
+              "slug": "will-grne-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will Gr\u00fcne win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary e",
+              "yes_price": 0.0065,
+              "volume": 50487
             },
             {
-              "market_id": "1245867",
-              "slug": "will-world-gdp-growth-be-3pt5-in-2026",
-              "question": "Will world GDP growth be 3.5% in 2026?",
-              "yes_price": 0.0565,
-              "volume": 2959
+              "market_id": "1364106",
+              "slug": "will-fdp-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will FDP win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.0055,
+              "volume": 45752
+            },
+            {
+              "market_id": "1364107",
+              "slug": "will-linke-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will Linke win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary e",
+              "yes_price": 0.0045,
+              "volume": 7218
+            },
+            {
+              "market_id": "1364109",
+              "slug": "will-bsw-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will BSW win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele",
+              "yes_price": 0.0035,
+              "volume": 10350
+            },
+            {
+              "market_id": "1364108",
+              "slug": "will-fw-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+              "question": "Will FW win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elec",
+              "yes_price": 0.0025,
+              "volume": 18715
             }
           ],
-          "url": "https://polymarket.com/event/2026-world-gdp-growth",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "url": "https://polymarket.com/event/mecklenburg-vorpommern-parliamentary-election-winner",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
           "event_title": "Houston Astros vs. Seattle Mariners",
@@ -192,7 +241,33 @@
               "slug": "mlb-hou-sea-2026-04-10",
               "question": "Houston Astros vs. Seattle Mariners",
               "yes_price": 0.435,
-              "volume": 19335
+              "volume": 19389
+            }
+          ],
+          "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-10",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Houston Astros vs. Seattle Mariners",
+          "event_slug": "mlb-hou-sea-2026-04-10",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1860436",
+              "slug": "mlb-hou-sea-2026-04-10-nrfi",
+              "question": "Will there be a run scored in the first inning?: Houston Astros vs. Seattle Mari",
+              "yes_price": 0.47,
+              "volume": 1217
+            },
+            {
+              "market_id": "1860435",
+              "slug": "mlb-hou-sea-2026-04-10",
+              "question": "Houston Astros vs. Seattle Mariners",
+              "yes_price": 0.435,
+              "volume": 19389
             }
           ],
           "url": "https://polymarket.com/event/mlb-hou-sea-2026-04-10",
@@ -201,9 +276,9 @@
         {
           "event_title": "New Hampshire Governor Democratic Primary Winner",
           "event_slug": "new-hampshire-governor-democratic-primary-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
           "num_outcomes": 4,
           "outcomes": [
             {
@@ -224,7 +299,7 @@
               "market_id": "824221",
               "slug": "will-tom-sherman-win-the-2026-new-hampshire-governor-democratic-primary-election",
               "question": "Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election",
-              "yes_price": 0.0585,
+              "yes_price": 0.059,
               "volume": 1688
             },
             {
@@ -236,169 +311,227 @@
             }
           ],
           "url": "https://polymarket.com/event/new-hampshire-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
-        },
-        {
-          "event_title": "Iowa Democratic Senate Primary Winner",
-          "event_slug": "iowa-democratic-senate-primary-winner",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "679367",
-              "slug": "will-zach-wahls-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Zach Wahls be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.585,
-              "volume": 4180
-            },
-            {
-              "market_id": "679366",
-              "slug": "will-josh-turek-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Josh Turek be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.29,
-              "volume": 3073
-            },
-            {
-              "market_id": "679364",
-              "slug": "will-chris-henry-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Chris Henry be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.0295,
-              "volume": 1212
-            },
-            {
-              "market_id": "679365",
-              "slug": "will-nathan-sage-be-the-democratic-nominee-for-senate-in-iowa",
-              "question": "Will Nathan Sage be the Democratic nominee for Senate in Iowa?",
-              "yes_price": 0.0035,
-              "volume": 4299
-            }
-          ],
-          "url": "https://polymarket.com/event/iowa-democratic-senate-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "How many Republican Senators not running in 2026?",
-          "event_slug": "how-many-republican-senators-not-running-in-2026",
+          "event_title": "Which cities will Russia enter by June 30?",
+          "event_slug": "which-cities-will-russia-enter-by-june-30",
           "yes_sum": 0.909,
           "profit_pct": 9.1,
           "profit_per_dollar_pct": 10.01,
-          "num_outcomes": 7,
+          "num_outcomes": 8,
           "outcomes": [
             {
-              "market_id": "909079",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
-              "yes_price": 0.57,
-              "volume": 2049
+              "market_id": "1007632",
+              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
+              "question": "Will Russia enter Dopropillia by June 30?",
+              "yes_price": 0.3,
+              "volume": 181796
             },
             {
-              "market_id": "909078",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
-              "yes_price": 0.105,
-              "volume": 26136
+              "market_id": "1007631",
+              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
+              "question": "Will Russia enter Druzkhivka by June 30?",
+              "yes_price": 0.145,
+              "volume": 262524
             },
             {
-              "market_id": "909077",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
-              "yes_price": 0.0985,
-              "volume": 19320
+              "market_id": "1007628",
+              "slug": "will-russia-enter-sloviansk-by-june-30",
+              "question": "Will Russia enter Sloviansk by June 30?",
+              "yes_price": 0.14,
+              "volume": 148078
             },
             {
-              "market_id": "923035",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
-              "yes_price": 0.0915,
-              "volume": 15338
+              "market_id": "1007633",
+              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
+              "question": "Will Russia enter Kramatorsk by June 30?",
+              "yes_price": 0.12,
+              "volume": 116265
             },
             {
-              "market_id": "909082",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
-              "yes_price": 0.0175,
-              "volume": 1222
+              "market_id": "1007630",
+              "slug": "will-russia-enter-sumy-by-june-30-893-434",
+              "question": "Will Russia enter Sumy by June 30?",
+              "yes_price": 0.055,
+              "volume": 70995
             },
             {
-              "market_id": "909081",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
-              "yes_price": 0.0145,
-              "volume": 1191
+              "market_id": "1007636",
+              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
+              "question": "Will Russia enter Zaporizhia by June 30?",
+              "yes_price": 0.055,
+              "volume": 72190
             },
             {
-              "market_id": "909083",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
-              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
-              "yes_price": 0.012,
-              "volume": 4291
+              "market_id": "1007635",
+              "slug": "will-russia-enter-kherson-by-june-30-645",
+              "question": "Will Russia enter Kherson by June 30?",
+              "yes_price": 0.052,
+              "volume": 46652
+            },
+            {
+              "market_id": "1007634",
+              "slug": "will-russia-enter-kharkiv-by-june-30-967",
+              "question": "Will Russia enter Kharkiv by June 30?",
+              "yes_price": 0.042,
+              "volume": 36018
             }
           ],
-          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
+          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         },
         {
-          "event_title": "Montana Democratic Senate Primary Winner",
-          "event_slug": "montana-democratic-senate-primary-winner",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "801938",
-              "slug": "will-reilly-neill-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Reilly Neill be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.855,
-              "volume": 4343
-            },
-            {
-              "market_id": "801937",
-              "slug": "will-michael-hummert-be-the-democratic-nominee-for-senate-in-montana",
-              "question": "Will Michael Hummert be the Democratic nominee for Senate in Montana?",
-              "yes_price": 0.0545,
-              "volume": 2029
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-democratic-senate-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "PA-10 Democratic Primary Winner",
-          "event_slug": "pa-10-democratic-primary-winner-877",
+          "event_title": "NHL: Pacific Division Winner",
+          "event_slug": "nhl-pacific-division-winner-228",
           "yes_sum": 0.9105,
           "profit_pct": 8.95,
           "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 2,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1448356",
-              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
-              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
-              "yes_price": 0.895,
-              "volume": 3029
+              "market_id": "629054",
+              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
+              "question": "Will the Edmonton Oilers win the Pacific Division?",
+              "yes_price": 0.54,
+              "volume": 114248
             },
             {
-              "market_id": "1448358",
-              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
-              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
-              "yes_price": 0.0155,
-              "volume": 8157
+              "market_id": "629059",
+              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
+              "question": "Will the Vegas Golden Knights win the Pacific Division?",
+              "yes_price": 0.211,
+              "volume": 193147
+            },
+            {
+              "market_id": "629052",
+              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
+              "question": "Will the Anaheim Ducks win the Pacific Division?",
+              "yes_price": 0.158,
+              "volume": 54505
+            },
+            {
+              "market_id": "629055",
+              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
+              "question": "Will the Los Angeles Kings win the Pacific Division?",
+              "yes_price": 0.0015,
+              "volume": 31413
+            },
+            {
+              "market_id": "629056",
+              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
+              "question": "Will the San Jose Sharks win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 36551
+            },
+            {
+              "market_id": "629057",
+              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
+              "question": "Will the Seattle Kraken win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 12896
             }
           ],
-          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+        },
+        {
+          "event_title": "PGL Bucharest 2026 Winner",
+          "event_slug": "pgl-bucharest-2026-winner",
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
+          "num_outcomes": 11,
+          "outcomes": [
+            {
+              "market_id": "1891343",
+              "slug": "will-astralis-win-pgl-bucharest-2026",
+              "question": "Will Astralis win PGL Bucharest 2026?",
+              "yes_price": 0.435,
+              "volume": 10289
+            },
+            {
+              "market_id": "1891346",
+              "slug": "will-fut-esports-win-pgl-bucharest-2026",
+              "question": "Will FUT Esports win PGL Bucharest 2026?",
+              "yes_price": 0.375,
+              "volume": 5808
+            },
+            {
+              "market_id": "1891340",
+              "slug": "will-the-mongolz-win-pgl-bucharest-2026",
+              "question": "Will The MongolZ win PGL Bucharest 2026?",
+              "yes_price": 0.1,
+              "volume": 5050
+            },
+            {
+              "market_id": "1891342",
+              "slug": "will-3dmax-win-pgl-bucharest-2026",
+              "question": "Will 3DMAX win PGL Bucharest 2026?",
+              "yes_price": 0.0005,
+              "volume": 21483
+            },
+            {
+              "market_id": "1891339",
+              "slug": "will-faze-clan-win-pgl-bucharest-2026",
+              "question": "Will FaZe Clan win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 7248
+            },
+            {
+              "market_id": "1891341",
+              "slug": "will-b8-win-pgl-bucharest-2026",
+              "question": "Will B8 win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 4842
+            },
+            {
+              "market_id": "1891351",
+              "slug": "will-eyeballers-win-pgl-bucharest-2026",
+              "question": "Will EYEBALLERS win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 2473
+            },
+            {
+              "market_id": "1891344",
+              "slug": "will-legacy-win-pgl-bucharest-2026",
+              "question": "Will Legacy win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 1624
+            },
+            {
+              "market_id": "1891338",
+              "slug": "will-parivision-win-pgl-bucharest-2026",
+              "question": "Will PARIVISION win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 7739
+            },
+            {
+              "market_id": "1891348",
+              "slug": "will-mibr-win-pgl-bucharest-2026",
+              "question": "Will MIBR win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 2534
+            },
+            {
+              "market_id": "1891350",
+              "slug": "will-inner-circle-esports-win-pgl-bucharest-2026",
+              "question": "Will Inner Circle Esports win PGL Bucharest 2026?",
+              "yes_price": 0.0,
+              "volume": 1110
+            }
+          ],
+          "url": "https://polymarket.com/event/pgl-bucharest-2026-winner",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1980,
-        "skipped_single_outcome": 590,
-        "opportunities_found": 138,
-        "best_profit_pct": 9.9,
-        "scanned_at": "2026-04-10 17:20 UTC"
+        "checked_multi_outcome": 1991,
+        "skipped_single_outcome": 583,
+        "opportunities_found": 139,
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-10 17:49 UTC"
       }
     },
     {
