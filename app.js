@@ -698,7 +698,7 @@
           '<div style="font-size:0.8em;margin-top:2px">'+d.open+' open &nbsp; '+d.won+'W/'+d.lost+'L</div>'+
           '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
           '<div style="font-size:0.78em;margin-top:2px">'+roiStr+wrStr+'</div>'+
-          '<div style="font-size:0.75em;color:#555">Unrealized: +$'+d.unrealized.toFixed(2)+'</div>'+
+          '<div style="font-size:0.75em;color:#555">'+(eng==='ANTI_NC'?'Max payout if all win':'Unrealized')+': +$'+d.unrealized.toFixed(2)+'</div>'+
           '</div>';
       });
       engHtml += '</div>';
