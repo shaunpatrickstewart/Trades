@@ -4,6 +4,7 @@
   const DATA    = 'https://data-api.polymarket.com';
   const GAMMA   = 'https://gamma-api.polymarket.com';
   const P       = 'https://florida.shaunpatrickstewart.workers.dev/?url=';
+  const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
   const REFRESH = 30000;
 
   const TAB_DESCS = {
@@ -112,6 +113,21 @@
     });
   }
 
+  // Elite wallets from local scrape — real win rates, ROI, sample size
+  // Scored by win_rate * roi * (sample_quality) — only wallets still actively trading
+  async function fetchEliteWallets() {
+    try {
+      const raw = await fetch(ELITE_URL+'?v='+Date.now()).then(r=>r.json());
+      return (Array.isArray(raw) ? raw : []).sort((a,b)=>{
+        const qa = Math.min(a.real_sample_size||0,50)/50;
+        const qb = Math.min(b.real_sample_size||0,50)/50;
+        const sa = (a.real_win_rate||0) * Math.max(a.roi||0,0) * qa;
+        const sb = (b.real_win_rate||0) * Math.max(b.roi||0,0) * qb;
+        return sb-sa;
+      });
+    } catch(e) { return []; }
+  }
+
   async function fetchAllMarkets() {
     return toArr(await pf(GAMMA+'/markets?active=true&closed=false&limit=500&order=volume&ascending=false'));
   }
@@ -155,19 +171,23 @@
   function renderSignals(walletPositions) {
     let signals=[];
     walletPositions.forEach(({w,pos})=>{
-      const addr = w.proxyWallet||w.address||'';
+      const addr = w.address||w.proxyWallet||'';
       const name = (w.userName||addr.slice(0,10)||'anon').slice(0,20);
       const walletPnl = parseFloat(w.pnl||0);
-      const walletRoi = parseFloat(w.vol||0)>0 ? (walletPnl/parseFloat(w.vol))*100 : 0;
+      // Use scraped real_win_rate if available, else estimate from pnl/vol
+      const realWR  = w.real_win_rate != null ? w.real_win_rate : null;
+      const realROI = w.roi != null ? w.roi : (parseFloat(w.vol||0)>0 ? walletPnl/parseFloat(w.vol) : 0);
+      const walletRoi = realROI * 100;
+      const sampleBadge = w.real_sample_size ? '('+w.real_sample_size+' trades)' : '';
       pos.filter(p=>{
         const pr=parseFloat(p.curPrice||p.price||0);
         return pr>=0.15&&pr<=0.85;
       }).slice(0,3).forEach(p=>{
         const pr  = parseFloat(p.curPrice||p.price||0);
         const oc  = (p.outcome||'').toUpperCase();
-        const pEv = parseFloat(w.winRate||50)/100;
+        const pEv = realWR != null ? realWR : parseFloat(w.winRate||50)/100;
         const ev  = pEv*(1-pr)-(1-pEv)*pr;
-        signals.push({ name, walletPnl, walletRoi, title:p.title||'', outcome:oc, price:pr, cashPnl:parseFloat(p.cashPnl||0), ev, addr });
+        signals.push({ name, walletPnl, walletRoi, realWR, sampleBadge, title:p.title||'', outcome:oc, price:pr, cashPnl:parseFloat(p.cashPnl||0), ev, addr });
       });
     });
 
@@ -204,6 +224,7 @@
             evH+
             '<span class="dim">▸</span><span class="blue">'+s.name.slice(0,14)+'</span>'+
             roiS+
+            (s.realWR!=null ? '<span style="color:#aaffaa;font-size:0.72em">WR '+(s.realWR*100).toFixed(0)+'% '+s.sampleBadge+'</span>' : '')+
           '</div>'+
         '</div>'
       );
@@ -914,20 +935,34 @@
     document.getElementById('hdr-updated').textContent =
       'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
     try {
-      const [wallets, allMarkets, forexMarkets] = await Promise.all([
-        fetchAllWallets(), fetchAllMarkets(), fetchForex()
+      const [wallets, allMarkets, forexMarkets, eliteWallets] = await Promise.all([
+        fetchAllWallets(), fetchAllMarkets(), fetchForex(), fetchEliteWallets()
       ]);
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
       renderPerformance();
-      // Fetch positions for top 50 wallets — top ROI wallets often cashed out, need wider net
-      const posResults = await Promise.allSettled(wallets.slice(0,50).map(w=>{
+
+      // Copy Signals: use elite wallets (local scrape — real win rates, active filter)
+      // Elite wallets sorted by win_rate × roi × sample quality, only those still trading
+      const elitePosResults = await Promise.allSettled(eliteWallets.slice(0,60).map(w=>{
+        const addr = w.address||'';
+        if (!addr) return Promise.resolve({w, pos:[]});
+        return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
+      }));
+      // Filter: only wallets with at least 1 open position (still actively trading)
+      const eliteWalletPositions = elitePosResults
+        .filter(r=>r.status==='fulfilled')
+        .map(r=>r.value)
+        .filter(({pos})=>pos.some(p=>parseFloat(p.curPrice||0)<0.99));
+      renderSignals(eliteWalletPositions);
+
+      // Leaderboard: use public API wallets (has names/profiles)
+      const lbPosResults = await Promise.allSettled(wallets.slice(0,25).map(w=>{
         const addr = w.proxyWallet||w.address||'';
         if (!addr) return Promise.resolve({w, pos:[]});
         return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
       }));
-      const walletPositions = posResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
-      renderSignals(walletPositions);
+      const walletPositions = lbPosResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
       renderWallets(wallets, walletPositions);
     } catch(e) {
       console.error('Refresh error:', e);
