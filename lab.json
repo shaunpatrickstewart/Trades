@@ -8,10 +8,64 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 157 categorical arb opportunities found\nScanned 3000 events (1977 multi-outcome) at 2026-04-10 20:12 UTC\nBest: 9.95% profit on 'UEFA Europa Conference League: Most Goal Contributions' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 158 categorical arb opportunities found\nScanned 3000 events (1978 multi-outcome) at 2026-04-10 20:15 UTC\nBest: 9.95% profit on 'NHL: Pacific Division Winner' \u2014 buy YES on all 6 outcomes (sum=0.9005)\nStrategy: Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 20:12 UTC",
+      "last_scan": "2026-04-10 20:15 UTC",
       "opportunities": [
+        {
+          "event_title": "NHL: Pacific Division Winner",
+          "event_slug": "nhl-pacific-division-winner-228",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "629054",
+              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
+              "question": "Will the Edmonton Oilers win the Pacific Division?",
+              "yes_price": 0.545,
+              "volume": 114248
+            },
+            {
+              "market_id": "629059",
+              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
+              "question": "Will the Vegas Golden Knights win the Pacific Division?",
+              "yes_price": 0.1925,
+              "volume": 193147
+            },
+            {
+              "market_id": "629052",
+              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
+              "question": "Will the Anaheim Ducks win the Pacific Division?",
+              "yes_price": 0.1615,
+              "volume": 54553
+            },
+            {
+              "market_id": "629055",
+              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
+              "question": "Will the Los Angeles Kings win the Pacific Division?",
+              "yes_price": 0.0015,
+              "volume": 31413
+            },
+            {
+              "market_id": "629056",
+              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
+              "question": "Will the San Jose Sharks win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 36551
+            },
+            {
+              "market_id": "629057",
+              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
+              "question": "Will the Seattle Kraken win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 12896
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+        },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
           "event_slug": "uefa-europa-conference-league-most-goal-contributions",
@@ -328,154 +382,163 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
-          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
-          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
-          "yes_sum": 0.9125,
-          "profit_pct": 8.75,
-          "profit_per_dollar_pct": 9.59,
+          "event_title": "West Bromwich Albion FC vs. Millwall FC - More Markets",
+          "event_slug": "elc-wba-mil-2026-04-11-more-markets",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
           "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1704815",
-              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
-              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
-              "yes_price": 0.34,
-              "volume": 22381
+              "market_id": "1597078",
+              "slug": "elc-wba-mil-2026-04-11-total-1pt5",
+              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 1.5",
+              "yes_price": 0.355,
+              "volume": 4503
             },
             {
-              "market_id": "1704816",
-              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
-              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.1275,
-              "volume": 9944
+              "market_id": "1597085",
+              "slug": "elc-wba-mil-2026-04-11-btts",
+              "question": "West Bromwich Albion FC vs. Millwall FC: Both Teams to Score",
+              "yes_price": 0.235,
+              "volume": 15111
             },
             {
-              "market_id": "1704820",
-              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
-              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.115,
-              "volume": 7199
+              "market_id": "1597080",
+              "slug": "elc-wba-mil-2026-04-11-total-2pt5",
+              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 2.5",
+              "yes_price": 0.13,
+              "volume": 4057
             },
             {
-              "market_id": "1704819",
-              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
-              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.096,
-              "volume": 7158
+              "market_id": "1597070",
+              "slug": "elc-wba-mil-2026-04-11-spread-home-1pt5",
+              "question": "Spread: West Bromwich Albion FC (-1.5)",
+              "yes_price": 0.08,
+              "volume": 1340
             },
             {
-              "market_id": "1704821",
-              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
-              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
-              "yes_price": 0.09,
-              "volume": 23534
+              "market_id": "1597072",
+              "slug": "elc-wba-mil-2026-04-11-spread-away-1pt5",
+              "question": "Spread: Millwall FC (-1.5)",
+              "yes_price": 0.065,
+              "volume": 1038
             },
             {
-              "market_id": "1704818",
-              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
-              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.0795,
-              "volume": 8194
+              "market_id": "1597082",
+              "slug": "elc-wba-mil-2026-04-11-total-3pt5",
+              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 3.5",
+              "yes_price": 0.035,
+              "volume": 3850
             },
             {
-              "market_id": "1704817",
-              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
-              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.0645,
-              "volume": 8774
+              "market_id": "1597084",
+              "slug": "elc-wba-mil-2026-04-11-total-4pt5",
+              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 4.5",
+              "yes_price": 0.01,
+              "volume": 1882
             }
           ],
-          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+          "url": "https://polymarket.com/event/elc-wba-mil-2026-04-11-more-markets",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Next CEO of Lululemon?",
-          "event_slug": "next-ceo-of-lululemon",
-          "yes_sum": 0.9125,
-          "profit_pct": 8.75,
-          "profit_per_dollar_pct": 9.59,
-          "num_outcomes": 3,
+          "event_title": "Highest temperature in Shanghai on April 12?",
+          "event_slug": "highest-temperature-in-shanghai-on-april-12-2026",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "916392",
-              "slug": "will-meghan-frank-be-the-next-ceo-of-lululemon",
-              "question": "Will Meghan Frank be the next CEO of Lululemon?",
-              "yes_price": 0.35,
-              "volume": 48764
+              "market_id": "1915009",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-17corbelow",
+              "question": "Will the highest temperature in Shanghai be 17\u00b0C or below on April 12?",
+              "yes_price": 0.6525,
+              "volume": 6465
             },
             {
-              "market_id": "916398",
-              "slug": "will-stephanie-linnartz-be-the-next-ceo-of-lululemon",
-              "question": "Will Stephanie Linnartz be the next CEO of Lululemon?",
-              "yes_price": 0.2845,
-              "volume": 2936
+              "market_id": "1915010",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-18c",
+              "question": "Will the highest temperature in Shanghai be 18\u00b0C on April 12?",
+              "yes_price": 0.135,
+              "volume": 2586
             },
             {
-              "market_id": "916393",
-              "slug": "will-marti-morfitt-be-the-next-ceo-of-lululemon",
-              "question": "Will Marti Morfitt be the next CEO of Lululemon?",
-              "yes_price": 0.278,
-              "volume": 5936
+              "market_id": "1915011",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-19c",
+              "question": "Will the highest temperature in Shanghai be 19\u00b0C on April 12?",
+              "yes_price": 0.04,
+              "volume": 2529
+            },
+            {
+              "market_id": "1915012",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-20c",
+              "question": "Will the highest temperature in Shanghai be 20\u00b0C on April 12?",
+              "yes_price": 0.0285,
+              "volume": 2821
+            },
+            {
+              "market_id": "1915013",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-21c",
+              "question": "Will the highest temperature in Shanghai be 21\u00b0C on April 12?",
+              "yes_price": 0.021,
+              "volume": 2793
+            },
+            {
+              "market_id": "1915015",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-23c",
+              "question": "Will the highest temperature in Shanghai be 23\u00b0C on April 12?",
+              "yes_price": 0.0105,
+              "volume": 4012
+            },
+            {
+              "market_id": "1915014",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-22c",
+              "question": "Will the highest temperature in Shanghai be 22\u00b0C on April 12?",
+              "yes_price": 0.0065,
+              "volume": 2960
+            },
+            {
+              "market_id": "1915016",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-24c",
+              "question": "Will the highest temperature in Shanghai be 24\u00b0C on April 12?",
+              "yes_price": 0.006,
+              "volume": 2591
+            },
+            {
+              "market_id": "1915017",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-25c",
+              "question": "Will the highest temperature in Shanghai be 25\u00b0C on April 12?",
+              "yes_price": 0.004,
+              "volume": 1536
+            },
+            {
+              "market_id": "1915018",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-26c",
+              "question": "Will the highest temperature in Shanghai be 26\u00b0C on April 12?",
+              "yes_price": 0.0035,
+              "volume": 1435
+            },
+            {
+              "market_id": "1915019",
+              "slug": "highest-temperature-in-shanghai-on-april-12-2026-27corhigher",
+              "question": "Will the highest temperature in Shanghai be 27\u00b0C or higher on April 12?",
+              "yes_price": 0.0025,
+              "volume": 2598
             }
           ],
-          "url": "https://polymarket.com/event/next-ceo-of-lululemon",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
-        },
-        {
-          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.9125,
-          "profit_pct": 8.75,
-          "profit_per_dollar_pct": 9.59,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1738313",
-              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
-              "yes_price": 0.335,
-              "volume": 1010
-            },
-            {
-              "market_id": "1738312",
-              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.275,
-              "volume": 2690
-            },
-            {
-              "market_id": "1738311",
-              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.125,
-              "volume": 19414
-            },
-            {
-              "market_id": "1738310",
-              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.105,
-              "volume": 7337
-            },
-            {
-              "market_id": "1738308",
-              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
-              "yes_price": 0.0725,
-              "volume": 1732
-            }
-          ],
-          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-shanghai-on-april-12-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1977,
-        "skipped_single_outcome": 587,
-        "opportunities_found": 157,
+        "checked_multi_outcome": 1978,
+        "skipped_single_outcome": 588,
+        "opportunities_found": 158,
         "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-10 20:12 UTC"
+        "scanned_at": "2026-04-10 20:15 UTC"
       }
     },
     {
@@ -485,7 +548,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3544 L=54 PnL=$641.06 open=65",
+      "result": "W=3584 L=54 PnL=$651.91 open=52",
       "priority": "HIGH"
     },
     {
