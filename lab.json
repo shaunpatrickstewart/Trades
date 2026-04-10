@@ -8,63 +8,35 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 158 categorical arb opportunities found\nScanned 3000 events (1978 multi-outcome) at 2026-04-10 20:15 UTC\nBest: 9.95% profit on 'NHL: Pacific Division Winner' \u2014 buy YES on all 6 outcomes (sum=0.9005)\nStrategy: Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
+      "result": "LIVE \u2014 155 categorical arb opportunities found\nScanned 3000 events (1972 multi-outcome) at 2026-04-10 20:44 UTC\nBest: 10.0% profit on 'GA-01 Republican Primary Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'UEFA Europa Conference League: Most Goal Contributions'",
       "priority": "HIGH",
-      "last_scan": "2026-04-10 20:15 UTC",
+      "last_scan": "2026-04-10 20:44 UTC",
       "opportunities": [
         {
-          "event_title": "NHL: Pacific Division Winner",
-          "event_slug": "nhl-pacific-division-winner-228",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 6,
+          "event_title": "GA-01 Republican Primary Winner",
+          "event_slug": "ga-01-republican-primary-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "629054",
-              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
-              "question": "Will the Edmonton Oilers win the Pacific Division?",
-              "yes_price": 0.545,
-              "volume": 114248
+              "market_id": "1663555",
+              "slug": "will-james-kingston-be-the-republican-nominee-for-ga-01",
+              "question": "Will James Kingston be the Republican nominee for GA-01?",
+              "yes_price": 0.81,
+              "volume": 3268
             },
             {
-              "market_id": "629059",
-              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
-              "question": "Will the Vegas Golden Knights win the Pacific Division?",
-              "yes_price": 0.1925,
-              "volume": 193147
-            },
-            {
-              "market_id": "629052",
-              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
-              "question": "Will the Anaheim Ducks win the Pacific Division?",
-              "yes_price": 0.1615,
-              "volume": 54553
-            },
-            {
-              "market_id": "629055",
-              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
-              "question": "Will the Los Angeles Kings win the Pacific Division?",
-              "yes_price": 0.0015,
-              "volume": 31413
-            },
-            {
-              "market_id": "629056",
-              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
-              "question": "Will the San Jose Sharks win the Pacific Division?",
-              "yes_price": 0.0,
-              "volume": 36551
-            },
-            {
-              "market_id": "629057",
-              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
-              "question": "Will the Seattle Kraken win the Pacific Division?",
-              "yes_price": 0.0,
-              "volume": 12896
+              "market_id": "1663558",
+              "slug": "will-kandiss-taylor-be-the-republican-nominee-for-ga-01",
+              "question": "Will Kandiss Taylor be the Republican nominee for GA-01?",
+              "yes_price": 0.09,
+              "volume": 3906
             }
           ],
-          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "url": "https://polymarket.com/event/ga-01-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "UEFA Europa Conference League: Most Goal Contributions",
@@ -147,6 +119,121 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
+          "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
+          "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1545032",
+              "slug": "will-cdu-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will CDU win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.86,
+              "volume": 16116
+            },
+            {
+              "market_id": "1545044",
+              "slug": "will-fdp-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will FDP win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.03,
+              "volume": 1670
+            },
+            {
+              "market_id": "1545037",
+              "slug": "will-spd-win-the-second-most-seats-in-the-2026-sachsen-anhalt-parliamentary-elections",
+              "question": "Will SPD win the second most seats in the 2026 Sachsen-Anhalt parliamentary elec",
+              "yes_price": 0.011,
+              "volume": 21871
+            }
+          ],
+          "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Santa Cruz Governor Election Winner (Bolivia)",
+          "event_slug": "santa-cruz-governor-election-winner-bolivia",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 10,
+          "outcomes": [
+            {
+              "market_id": "1228212",
+              "slug": "will-juan-pablo-velasco-win-the-2026-santa-cruz-gubernatorial-election-929",
+              "question": "Will Juan Pablo Velasco win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.5375,
+              "volume": 306795
+            },
+            {
+              "market_id": "1228214",
+              "slug": "will-otto-ritter-win-the-2026-santa-cruz-gubernatorial-election-232",
+              "question": "Will Otto Ritter win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.3595,
+              "volume": 90590
+            },
+            {
+              "market_id": "1228220",
+              "slug": "will-luis-fernando-camacho-win-the-2026-santa-cruz-gubernatorial-election-723",
+              "question": "Will Luis Fernando Camacho win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0015,
+              "volume": 142326
+            },
+            {
+              "market_id": "1228219",
+              "slug": "will-julio-csar-trrez-win-the-2026-santa-cruz-gubernatorial-election-447",
+              "question": "Will Julio C\u00e9sar T\u00f3rrez win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.001,
+              "volume": 26347
+            },
+            {
+              "market_id": "1228213",
+              "slug": "will-juan-carlos-medrano-win-the-2026-santa-cruz-gubernatorial-election-984",
+              "question": "Will Juan Carlos Medrano win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 26745
+            },
+            {
+              "market_id": "1228215",
+              "slug": "will-mauricio-quezada-win-the-2026-santa-cruz-gubernatorial-election-385",
+              "question": "Will Mauricio Quezada win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 21893
+            },
+            {
+              "market_id": "1228217",
+              "slug": "will-chi-hyun-chung-win-the-2026-santa-cruz-gubernatorial-election-162",
+              "question": "Will Chi Hyun Chung win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 26234
+            },
+            {
+              "market_id": "1228221",
+              "slug": "will-guido-eduardo-nayar-win-the-2026-santa-cruz-gubernatorial-election-894",
+              "question": "Will Guido Eduardo Nayar win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 50705
+            },
+            {
+              "market_id": "1228216",
+              "slug": "will-miguel-cadima-win-the-2026-santa-cruz-gubernatorial-election-992",
+              "question": "Will Miguel Cadima win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 23254
+            },
+            {
+              "market_id": "1228218",
+              "slug": "will-vladimir-pea-win-the-2026-santa-cruz-gubernatorial-election-232",
+              "question": "Will Vladimir Pe\u00f1a win the 2026 Santa Cruz gubernatorial election?",
+              "yes_price": 0.0005,
+              "volume": 38716
+            }
+          ],
+          "url": "https://polymarket.com/event/santa-cruz-governor-election-winner-bolivia",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
           "event_title": "How many Gold Cards will Trump sell in 2026?",
           "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
           "yes_sum": 0.9025,
@@ -222,323 +309,264 @@
           "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "GA-13 Democratic Primary Winner",
-          "event_slug": "ga-13-democratic-primary-winner",
+          "event_title": "Peru Presidential Election First Round: Margin of Victory",
+          "event_slug": "peru-presidential-election-first-round-margin-of-victory",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 13,
+          "outcomes": [
+            {
+              "market_id": "1665869",
+              "slug": "will-keiko-fujimori-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-less-than-5",
+              "question": "Will Keiko Fujimori win the first round of the 2026 Peruvian presidential electi",
+              "yes_price": 0.345,
+              "volume": 3767
+            },
+            {
+              "market_id": "1665874",
+              "slug": "will-another-outcome-occur-in-the-the-first-round-of-the-2026-peruvian-presidential-elections-927",
+              "question": "Will another outcome occur in the the first round of the 2026 Peruvian president",
+              "yes_price": 0.1945,
+              "volume": 6587
+            },
+            {
+              "market_id": "1665868",
+              "slug": "will-keiko-fujimori-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-at-least-5-627",
+              "question": "Will Keiko Fujimori win the first round of the 2026 Peruvian presidential electi",
+              "yes_price": 0.186,
+              "volume": 4441
+            },
+            {
+              "market_id": "1665873",
+              "slug": "will-carlos-lvarez-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-any-margin-586",
+              "question": "Will Carlos \u00c1lvarez win the first round of the 2026 Peruvian presidential electi",
+              "yes_price": 0.07,
+              "volume": 2229
+            },
+            {
+              "market_id": "1665871",
+              "slug": "will-roberto-snchez-palomino-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-any-margin-788",
+              "question": "Will Roberto S\u00e1nchez Palomino win the first round of the 2026 Peruvian president",
+              "yes_price": 0.034,
+              "volume": 2281
+            },
+            {
+              "market_id": "1665865",
+              "slug": "will-rafael-lpez-aliaga-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-less-than-5",
+              "question": "Will Rafael L\u00f3pez Aliaga win the first round of the 2026 Peruvian presidential e",
+              "yes_price": 0.0305,
+              "volume": 2567
+            },
+            {
+              "market_id": "1665864",
+              "slug": "will-rafael-lpez-aliaga-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-between-5-and-10",
+              "question": "Will Rafael L\u00f3pez Aliaga win the first round of the 2026 Peruvian presidential e",
+              "yes_price": 0.021,
+              "volume": 1938
+            },
+            {
+              "market_id": "1665862",
+              "slug": "will-rafael-lpez-aliaga-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-at-least-15-619",
+              "question": "Will Rafael L\u00f3pez Aliaga win the first round of the 2026 Peruvian presidential e",
+              "yes_price": 0.013,
+              "volume": 1592
+            },
+            {
+              "market_id": "1665863",
+              "slug": "will-rafael-lpez-aliaga-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-between-10-and-15",
+              "question": "Will Rafael L\u00f3pez Aliaga win the first round of the 2026 Peruvian presidential e",
+              "yes_price": 0.0025,
+              "volume": 2320
+            },
+            {
+              "market_id": "1665866",
+              "slug": "will-alfonso-lpez-chau-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-at-least-5",
+              "question": "Will Alfonso L\u00f3pez Chau win the first round of the 2026 Peruvian presidential el",
+              "yes_price": 0.0015,
+              "volume": 1021
+            },
+            {
+              "market_id": "1665870",
+              "slug": "will-jorge-nieto-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-any-margin-935",
+              "question": "Will Jorge Nieto win the first round of the 2026 Peruvian presidential elections",
+              "yes_price": 0.0015,
+              "volume": 1181
+            },
+            {
+              "market_id": "1665867",
+              "slug": "will-alfonso-lpez-chau-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-less-than-5",
+              "question": "Will Alfonso L\u00f3pez Chau win the first round of the 2026 Peruvian presidential el",
+              "yes_price": 0.0015,
+              "volume": 1006
+            },
+            {
+              "market_id": "1665872",
+              "slug": "will-wolfgang-grozo-win-the-first-round-of-the-2026-peruvian-presidential-elections-by-any-margin-889",
+              "question": "Will Wolfgang Grozo win the first round of the 2026 Peruvian presidential electi",
+              "yes_price": 0.0015,
+              "volume": 1240
+            }
+          ],
+          "url": "https://polymarket.com/event/peru-presidential-election-first-round-margin-of-victory",
+          "strategy": "Buy YES on all 13 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+        },
+        {
+          "event_title": "Which cities will Russia enter by June 30?",
+          "event_slug": "which-cities-will-russia-enter-by-june-30",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 8,
+          "outcomes": [
+            {
+              "market_id": "1007632",
+              "slug": "will-russia-enter-dopropillia-by-june-30-122-495",
+              "question": "Will Russia enter Dopropillia by June 30?",
+              "yes_price": 0.3,
+              "volume": 181824
+            },
+            {
+              "market_id": "1007631",
+              "slug": "will-russia-enter-druzkhivka-by-june-30-933-897",
+              "question": "Will Russia enter Druzkhivka by June 30?",
+              "yes_price": 0.145,
+              "volume": 263006
+            },
+            {
+              "market_id": "1007628",
+              "slug": "will-russia-enter-sloviansk-by-june-30",
+              "question": "Will Russia enter Sloviansk by June 30?",
+              "yes_price": 0.14,
+              "volume": 148078
+            },
+            {
+              "market_id": "1007633",
+              "slug": "will-russia-enter-kramatorsk-by-june-30-821-192",
+              "question": "Will Russia enter Kramatorsk by June 30?",
+              "yes_price": 0.115,
+              "volume": 116265
+            },
+            {
+              "market_id": "1007630",
+              "slug": "will-russia-enter-sumy-by-june-30-893-434",
+              "question": "Will Russia enter Sumy by June 30?",
+              "yes_price": 0.055,
+              "volume": 70995
+            },
+            {
+              "market_id": "1007636",
+              "slug": "will-russia-enter-zaporizhia-by-june-30-845",
+              "question": "Will Russia enter Zaporizhia by June 30?",
+              "yes_price": 0.055,
+              "volume": 72190
+            },
+            {
+              "market_id": "1007635",
+              "slug": "will-russia-enter-kherson-by-june-30-645",
+              "question": "Will Russia enter Kherson by June 30?",
+              "yes_price": 0.052,
+              "volume": 46652
+            },
+            {
+              "market_id": "1007634",
+              "slug": "will-russia-enter-kharkiv-by-june-30-967",
+              "question": "Will Russia enter Kharkiv by June 30?",
+              "yes_price": 0.041,
+              "volume": 36018
+            }
+          ],
+          "url": "https://polymarket.com/event/which-cities-will-russia-enter-by-june-30",
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+        },
+        {
+          "event_title": "NHL: Pacific Division Winner",
+          "event_slug": "nhl-pacific-division-winner-228",
+          "yes_sum": 0.9045,
+          "profit_pct": 9.55,
+          "profit_per_dollar_pct": 10.56,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "629054",
+              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
+              "question": "Will the Edmonton Oilers win the Pacific Division?",
+              "yes_price": 0.55,
+              "volume": 114248
+            },
+            {
+              "market_id": "629059",
+              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
+              "question": "Will the Vegas Golden Knights win the Pacific Division?",
+              "yes_price": 0.192,
+              "volume": 193147
+            },
+            {
+              "market_id": "629052",
+              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
+              "question": "Will the Anaheim Ducks win the Pacific Division?",
+              "yes_price": 0.161,
+              "volume": 54553
+            },
+            {
+              "market_id": "629055",
+              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
+              "question": "Will the Los Angeles Kings win the Pacific Division?",
+              "yes_price": 0.0015,
+              "volume": 31413
+            },
+            {
+              "market_id": "629056",
+              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
+              "question": "Will the San Jose Sharks win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 36551
+            },
+            {
+              "market_id": "629057",
+              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
+              "question": "Will the Seattle Kraken win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 12896
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+        },
+        {
+          "event_title": "CO-08 Democratic Primary Winner",
+          "event_slug": "co-08-democratic-primary-winner",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1653180",
-              "slug": "will-jasmine-clark-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Jasmine Clark be the Democratic nominee for GA-13?",
-              "yes_price": 0.35,
-              "volume": 2684
-            },
-            {
-              "market_id": "1653178",
-              "slug": "will-david-scott-be-the-democratic-nominee-for-ga-13",
-              "question": "Will David Scott be the Democratic nominee for GA-13?",
-              "yes_price": 0.345,
-              "volume": 1261
-            },
-            {
-              "market_id": "1653179",
-              "slug": "will-everton-blair-jr-be-the-democratic-nominee-for-ga-13",
-              "question": "Will Everton Blair Jr. be the Democratic nominee for GA-13?",
-              "yes_price": 0.21,
-              "volume": 1313
-            }
-          ],
-          "url": "https://polymarket.com/event/ga-13-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "How many Republican Senators not running in 2026?",
-          "event_slug": "how-many-republican-senators-not-running-in-2026",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "909079",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-7-546",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 7?",
-              "yes_price": 0.585,
-              "volume": 2049
-            },
-            {
-              "market_id": "909078",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-6-462",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 6?",
-              "yes_price": 0.1,
-              "volume": 26136
-            },
-            {
-              "market_id": "909077",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-less-than-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be less than 5?",
-              "yes_price": 0.094,
-              "volume": 19320
-            },
-            {
-              "market_id": "923035",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-5",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 5?",
-              "yes_price": 0.09,
-              "volume": 15338
-            },
-            {
-              "market_id": "909082",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-10-938",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 10?",
-              "yes_price": 0.0135,
-              "volume": 1222
-            },
-            {
-              "market_id": "909083",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-12-or-more-926",
-              "question": "Will the number of Republican Senate members who retire in 2026 be 12 or more?",
-              "yes_price": 0.012,
-              "volume": 4291
-            },
-            {
-              "market_id": "909081",
-              "slug": "will-the-number-of-republican-senate-members-who-retire-in-2026-be-exactly-9-466",
-              "question": "Will the number of Republican Senate members who retire in 2026 be exactly 9?",
-              "yes_price": 0.011,
-              "volume": 1191
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-republican-senators-not-running-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
-        },
-        {
-          "event_title": "New Hampshire Governor Democratic Primary Winner",
-          "event_slug": "new-hampshire-governor-democratic-primary-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "824224",
-              "slug": "will-cinde-warmington-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will Cinde Warmington win the 2026 New Hampshire Governor Democratic primary ele",
-              "yes_price": 0.74,
-              "volume": 8156
-            },
-            {
-              "market_id": "824220",
-              "slug": "will-john-kiper-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will John Kiper win the 2026 New Hampshire Governor Democratic primary election?",
-              "yes_price": 0.085,
-              "volume": 1898
-            },
-            {
-              "market_id": "824221",
-              "slug": "will-tom-sherman-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will Tom Sherman win the 2026 New Hampshire Governor Democratic primary election",
-              "yes_price": 0.058,
-              "volume": 1688
-            },
-            {
-              "market_id": "824222",
-              "slug": "will-deaglan-mceachern-win-the-2026-new-hampshire-governor-democratic-primary-election",
-              "question": "Will Deaglan McEachern win the 2026 New Hampshire Governor Democratic primary el",
-              "yes_price": 0.0245,
-              "volume": 8051
-            }
-          ],
-          "url": "https://polymarket.com/event/new-hampshire-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
-        },
-        {
-          "event_title": "PA-10 Democratic Primary Winner",
-          "event_slug": "pa-10-democratic-primary-winner-877",
-          "yes_sum": 0.9085,
-          "profit_pct": 9.15,
-          "profit_per_dollar_pct": 10.07,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1448356",
-              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
-              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
-              "yes_price": 0.895,
-              "volume": 3029
+              "market_id": "704026",
+              "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
+              "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
+              "yes_price": 0.83,
+              "volume": 8789
             },
             {
-              "market_id": "1448358",
-              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
-              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
-              "yes_price": 0.0135,
-              "volume": 8157
+              "market_id": "704025",
+              "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
+              "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
+              "yes_price": 0.075,
+              "volume": 1287
             }
           ],
-          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
-        },
-        {
-          "event_title": "West Bromwich Albion FC vs. Millwall FC - More Markets",
-          "event_slug": "elc-wba-mil-2026-04-11-more-markets",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1597078",
-              "slug": "elc-wba-mil-2026-04-11-total-1pt5",
-              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 1.5",
-              "yes_price": 0.355,
-              "volume": 4503
-            },
-            {
-              "market_id": "1597085",
-              "slug": "elc-wba-mil-2026-04-11-btts",
-              "question": "West Bromwich Albion FC vs. Millwall FC: Both Teams to Score",
-              "yes_price": 0.235,
-              "volume": 15111
-            },
-            {
-              "market_id": "1597080",
-              "slug": "elc-wba-mil-2026-04-11-total-2pt5",
-              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 2.5",
-              "yes_price": 0.13,
-              "volume": 4057
-            },
-            {
-              "market_id": "1597070",
-              "slug": "elc-wba-mil-2026-04-11-spread-home-1pt5",
-              "question": "Spread: West Bromwich Albion FC (-1.5)",
-              "yes_price": 0.08,
-              "volume": 1340
-            },
-            {
-              "market_id": "1597072",
-              "slug": "elc-wba-mil-2026-04-11-spread-away-1pt5",
-              "question": "Spread: Millwall FC (-1.5)",
-              "yes_price": 0.065,
-              "volume": 1038
-            },
-            {
-              "market_id": "1597082",
-              "slug": "elc-wba-mil-2026-04-11-total-3pt5",
-              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 3.5",
-              "yes_price": 0.035,
-              "volume": 3850
-            },
-            {
-              "market_id": "1597084",
-              "slug": "elc-wba-mil-2026-04-11-total-4pt5",
-              "question": "West Bromwich Albion FC vs. Millwall FC: O/U 4.5",
-              "yes_price": 0.01,
-              "volume": 1882
-            }
-          ],
-          "url": "https://polymarket.com/event/elc-wba-mil-2026-04-11-more-markets",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "Highest temperature in Shanghai on April 12?",
-          "event_slug": "highest-temperature-in-shanghai-on-april-12-2026",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1915009",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-17corbelow",
-              "question": "Will the highest temperature in Shanghai be 17\u00b0C or below on April 12?",
-              "yes_price": 0.6525,
-              "volume": 6465
-            },
-            {
-              "market_id": "1915010",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-18c",
-              "question": "Will the highest temperature in Shanghai be 18\u00b0C on April 12?",
-              "yes_price": 0.135,
-              "volume": 2586
-            },
-            {
-              "market_id": "1915011",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-19c",
-              "question": "Will the highest temperature in Shanghai be 19\u00b0C on April 12?",
-              "yes_price": 0.04,
-              "volume": 2529
-            },
-            {
-              "market_id": "1915012",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-20c",
-              "question": "Will the highest temperature in Shanghai be 20\u00b0C on April 12?",
-              "yes_price": 0.0285,
-              "volume": 2821
-            },
-            {
-              "market_id": "1915013",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-21c",
-              "question": "Will the highest temperature in Shanghai be 21\u00b0C on April 12?",
-              "yes_price": 0.021,
-              "volume": 2793
-            },
-            {
-              "market_id": "1915015",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-23c",
-              "question": "Will the highest temperature in Shanghai be 23\u00b0C on April 12?",
-              "yes_price": 0.0105,
-              "volume": 4012
-            },
-            {
-              "market_id": "1915014",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-22c",
-              "question": "Will the highest temperature in Shanghai be 22\u00b0C on April 12?",
-              "yes_price": 0.0065,
-              "volume": 2960
-            },
-            {
-              "market_id": "1915016",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-24c",
-              "question": "Will the highest temperature in Shanghai be 24\u00b0C on April 12?",
-              "yes_price": 0.006,
-              "volume": 2591
-            },
-            {
-              "market_id": "1915017",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-25c",
-              "question": "Will the highest temperature in Shanghai be 25\u00b0C on April 12?",
-              "yes_price": 0.004,
-              "volume": 1536
-            },
-            {
-              "market_id": "1915018",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-26c",
-              "question": "Will the highest temperature in Shanghai be 26\u00b0C on April 12?",
-              "yes_price": 0.0035,
-              "volume": 1435
-            },
-            {
-              "market_id": "1915019",
-              "slug": "highest-temperature-in-shanghai-on-april-12-2026-27corhigher",
-              "question": "Will the highest temperature in Shanghai be 27\u00b0C or higher on April 12?",
-              "yes_price": 0.0025,
-              "volume": 2598
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-shanghai-on-april-12-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/co-08-democratic-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1978,
-        "skipped_single_outcome": 588,
-        "opportunities_found": 158,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-10 20:15 UTC"
+        "checked_multi_outcome": 1972,
+        "skipped_single_outcome": 595,
+        "opportunities_found": 155,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-10 20:44 UTC"
       }
     },
     {
