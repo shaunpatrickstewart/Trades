@@ -1,13 +1,29 @@
 {
-  "last_scan": "2026-04-10T10:24:55.833680+00:00",
-  "scan_seconds": 11.0,
-  "markets_scanned": 93,
-  "open_positions": 95,
-  "signals": [],
+  "last_scan": "2026-04-10T10:51:38.075017+00:00",
+  "scan_seconds": 31.8,
+  "markets_scanned": 149,
+  "open_positions": 82,
+  "signals": [
+    {
+      "id": "perp_73894",
+      "timestamp": "2026-04-10T10:51:38.074736+00:00",
+      "source": "PERPLEXITY",
+      "headline": "[Context] Will Dogecoin reach $0.16 by December 31, 2026?",
+      "raw": "**No definitive evidence confirms Dogecoin (DOGE) will reach $0.16 by December 31, 2026, but prediction markets assign a 34.8-37.6% probability, requiring roughly a 73-77% price increase from recent levels around $0.14-$0.15 within 265-274 days.** Current prices hover near $0.14-$0.15, with technical analyses targeting $0.16 as short-term resistance amid neutral-to-bullish momentum.[1][2][3]\n\n### Current Status and Prediction Market\n- Prediction market on whether DOGE hits $0.16 (per Binance 1-m",
+      "direction": null,
+      "confidence": 0.7,
+      "matched_markets": [
+        "Will Dogecoin reach $0.16 by December 31, 2026?"
+      ],
+      "action": "WATCH",
+      "category": "RESEARCH",
+      "x_link": null
+    }
+  ],
   "stats": {
     "enter": 0,
     "alert": 0,
-    "watch": 0,
+    "watch": 1,
     "high_conf": 0
   }
 }

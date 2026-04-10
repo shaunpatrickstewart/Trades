@@ -1,19 +1,6 @@
-<!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — updated 2026-04-08 -->
+<!-- PASTE THIS INTO SQUARESPACE CODE BLOCK — updated 2026-04-10 -->
 
-<!-- Anti-FOUC: hide root until CSS loads, then fade in -->
-<style>
-  #pm-root { opacity: 0; background: #050f05; min-height: 200px; }
-  #pm-root.css-ready { opacity: 1; transition: opacity 0.35s ease; }
-</style>
-
-<link rel="stylesheet"
-  href="https://shaunpatrickstewart.github.io/trades/style.css"
-  onload="document.getElementById('pm-root').classList.add('css-ready')"
->
-<script>
-  // Fallback: if onload never fires (cached/blocked), show after 1.2s
-  setTimeout(function(){ var r=document.getElementById('pm-root'); if(r) r.classList.add('css-ready'); }, 1200);
-</script>
+<link rel="stylesheet" href="https://shaunpatrickstewart.github.io/trades/style.css">
 
 <div id="pm-root">
 
@@ -26,7 +13,7 @@
     </div>
   </div>
   <div id="hdr-stats">
-    <div class="loader" style="padding:4px;color:#1e1e1e">Connecting</div>
+    <div class="loader" style="padding:4px;">Connecting</div>
   </div>
   <div class="hdr-right">
     <div id="pnl-counter">+$0.00</div>
@@ -79,7 +66,7 @@
         <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
         <span class="panel-count" id="perf-count">—</span>
       </div>
-      <div class="panel-desc">Live paper trade results. Engines: NEAR-CERTAIN (97.5%+ confidence markets) + WALLET COPY SHORT (elite wallets ≤14d) + WALLET COPY LONG (longer holds).</div>
+      <div class="panel-desc">Live paper trade results. Engines: NEAR-CERTAIN (97.5%+ confidence markets) + WALLET COPY SHORT (elite wallets ≤14d) + WALLET COPY LONG (longer holds) + ANTI-NC.</div>
     </div>
     <div class="panel-body" id="pm-performance">
       <div class="loader">Loading results</div>
@@ -108,7 +95,7 @@
         <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Active paper trades from all 3 engines. Entry price, bet size, expected value (EV), and current status. Auto-syncs every 30 minutes via GitHub.</div>
+      <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Auto-syncs every 30 minutes.</div>
     </div>
     <div class="panel-body" style="max-height:280px" id="paper-trades">
       <div class="loader">Loading</div>
@@ -123,7 +110,7 @@
         <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
         <span class="panel-count" id="audit-count">—</span>
       </div>
-      <div class="panel-desc">Runs every morning at 8am. Checks engine health, stale trades, duplicates, and P&L accuracy. Issues and recommendations appear here automatically.</div>
+      <div class="panel-desc">Runs every morning at 8am. Checks engine health, stale trades, duplicates, and P&L accuracy.</div>
     </div>
     <div class="panel-body" id="audit-panel" style="max-height:260px">
       <div class="loader">Loading audit...</div>
@@ -138,20 +125,19 @@
         <span class="panel-title" style="color:#cc44ff">&#9650; Testing Lab — Algorithm Experiments</span>
         <span class="panel-count" id="lab-count">—</span>
       </div>
-      <div class="panel-desc">New strategy ideas and algorithm experiments. Each theory is tracked with hypothesis, current status, and early results. Bot runs these in parallel with main engines.</div>
+      <div class="panel-desc">New strategy ideas and algorithm experiments tracked with hypothesis, status, and results.</div>
     </div>
     <div class="panel-body" id="lab-panel" style="max-height:400px">
       <div class="loader">Loading experiments...</div>
     </div>
   </div>
 
-  <!-- Live X + News Signals -->
   <div class="panel full-width">
     <div class="panel-header">
       <span class="panel-title" style="color:#1d9bf0">&#9889; Live X &amp; News Signals — Real-Time Market Intelligence</span>
       <span class="panel-count" id="signals-count">scanning...</span>
     </div>
-    <div class="panel-desc">Continuous X.com + Perplexity scan every 5 minutes. Grok searches breaking news matching open market positions and scores ENTER / ALERT / WATCH signals in real time.</div>
+    <div class="panel-desc">Continuous X.com + Perplexity scan every 5 minutes. Grok searches breaking news matching open market positions.</div>
     <div class="panel-body" id="news-signals-panel" style="max-height:500px">
       <div class="loader">Scanning X for signals...</div>
     </div>
