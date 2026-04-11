@@ -1,132 +1,59 @@
 {
-  "last_scan": "2026-04-11T19:18:46.924449+00:00",
-  "scan_seconds": 26.4,
-  "markets_scanned": 99,
-  "open_positions": 58,
+  "last_scan": "2026-04-11T20:19:21.232016+00:00",
+  "scan_seconds": 31.6,
+  "markets_scanned": 96,
+  "open_positions": 60,
   "signals": [
     {
-      "id": "sig_896516",
-      "timestamp": "2026-04-11T19:18:40.580318+00:00",
+      "id": "sig_536171",
+      "timestamp": "2026-04-11T20:19:20.231396+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Roundtable Looms for Solana (April 11, 2026) | NO | HIGH confidence[1]",
-      "raw": "SEC Roundtable Looms for Solana (April 11, 2026) | NO | HIGH confidence[1]\n\nSolana (SOL) shows price stability amid anticipation for the SEC's CLARITY Act Roundtable on April 16, following a March 2026 joint SEC-CFTC classification of SOL as a digital commodity, which could provide regulatory clarity and spur rallies if formalized[1]. No confirmations, announcements, or resolutions have occurred t",
+      "headline": "Fed Puts Rate Cuts on Pause Until Further Notice | YES | HIGH confidence**",
+      "raw": "Fed Puts Rate Cuts on Pause Until Further Notice | YES | HIGH confidence**  \nThe Federal Open Market Committee (FOMC) kept the federal funds rate at 3.5%-3.75% on Wednesday, signaling no rush for reductions amid strong economic growth above the long-run trend, stabilizing employment, and elevated inflation[1]. Fed Chair Jerome Powell's press conference reinforced this wait-and-see stance, focusing",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Solana Up or Down - April 12, 8:35AM-8:40AM ET",
-        "Will the price of Bitcoin be between $74,000 and $76,000 on April 13?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_885605",
-      "timestamp": "2026-04-11T19:18:29.669934+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ukraine-Jordan-Iran (March 9, 2026):** Zelenskyy confirmed Ukraine sent drone experts and interceptors to Jordan to de",
-      "raw": "**Ukraine-Jordan-Iran (March 9, 2026):** Zelenskyy confirmed Ukraine sent drone experts and interceptors to Jordan to defend US bases from Iran's Shahed drones, following a US request; Pentagon noted vulnerabilities to Iranian drones.[1]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_891386",
-      "timestamp": "2026-04-11T19:18:35.450890+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Reza Pahlavi** (likely Mohammad Reza Shah Pahlavi) in 1953 Iran coup history",
-      "raw": "**Reza Pahlavi** (likely Mohammad Reza Shah Pahlavi) in 1953 Iran coup history.[1][5]\n\nNo mentions of **Jorge Nieto** (possibly a misspelling or obscure figure; no matches found). \"April\" appears only in irrelevant historical dates (e.g., 2018 Ethiopia events).[5] All sources predate 2026 and lack real-time developments.[1][2][5] **LOW confidence** in any market-moving events due to absence of cur",
-      "direction": "NO",
       "confidence": 0.78,
-      "matched_markets": [
-        "Will Trump talk to Reza Pahlavi in April?",
-        "Will Jordan strike Iran by April 30?",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_885613",
-      "timestamp": "2026-04-11T19:18:29.677330+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Russia-Vovchansk (November 30, 2025 claim):** Russia claimed capture of Vovchansk and Pokrovsk, but Ukraine reported o",
-      "raw": "**Russia-Vovchansk (November 30, 2025 claim):** Russia claimed capture of Vovchansk and Pokrovsk, but Ukraine reported ongoing fighting with no withdrawal; earlier (Feb 2026) reports noted Russian attacks near Vovchansk and chemical weapon allegations (Sep 2024-Jun 2025).[2][3][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Russia capture all of Vovchansk by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_885620",
-      "timestamp": "2026-04-11T19:18:29.684834+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US-Iran (April 7, 2026):** Conflicting claims on a US aircraft downing in Iran\u2014Iran asserted shootdowns of US planes/h",
-      "raw": "**US-Iran (April 7, 2026):** Conflicting claims on a US aircraft downing in Iran\u2014Iran asserted shootdowns of US planes/helicopters, US denied losses and claimed successful recovery; no resolution confirmed.[4]\n\nAll items predate today by weeks/months with no new confirmations; disputes persist without market-moving resolutions.[1][2][3][4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Jordan strike Iran by April 30?",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_891373",
-      "timestamp": "2026-04-11T19:18:35.437702+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nicolas **Maduro**'s past statements on China-Venezuela ties (pre-2015)",
-      "raw": "Nicolas **Maduro**'s past statements on China-Venezuela ties (pre-2015).[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_891380",
-      "timestamp": "2026-04-11T19:18:35.444326+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ongoing low-intensity tensions in **Peru** with government and opposition (data up to 2024)",
-      "raw": "Ongoing low-intensity tensions in **Peru** with government and opposition (data up to 2024).[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_901837",
-      "timestamp": "2026-04-11T19:18:45.901520+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Paused Rates on March 18, 2026 | YES | HIGH confidence**",
-      "raw": "Fed Paused Rates on March 18, 2026 | YES | HIGH confidence**\n\nThe Federal Reserve's FOMC issued a statement on March 18, 2026, confirming it maintained the federal funds rate at 3\u00bd to 3\u00be percent, signaling a pause after prior cuts amid solid economic expansion, low job gains, stable unemployment, and somewhat elevated inflation.[3][4][5] This decision reflects attentiveness to dual mandate risks, ",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions ("
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_518143",
+      "timestamp": "2026-04-11T20:19:02.203649+00:00",
+      "source": "PERPLEXITY",
+      "headline": "North Korea's Kim Jong Un Pledges \"Unconditional and Permanent\" Support to Putin | NO | MED confidence**",
+      "raw": "North Korea's Kim Jong Un Pledges \"Unconditional and Permanent\" Support to Putin | NO | MED confidence**  \nKim sent a letter to Putin reaffirming deep strategic ties amid U.S.-Russia tensions over a seized Russian tanker (Bella One), reported January 9, 2026\u2014not breaking news today\u2014and unlikely to newly shift prediction markets on Russia-North Korea alliances.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_518136",
+      "timestamp": "2026-04-11T20:19:02.196139+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia Reveals Iran Has Activated a \"Nuclear Weapon,\" Trump Faces Major Shock Ahead of Deadline | NO | HIGH confidence**",
+      "raw": "Russia Reveals Iran Has Activated a \"Nuclear Weapon,\" Trump Faces Major Shock Ahead of Deadline | NO | HIGH confidence**  \nDmitry Medvedev, Russian Deputy Chairman of the Security Council, compared the Strait of Hormuz to Iran's \"nuclear weapon\" amid escalating tensions, occurring today (April 11, 2026) as Trump's Iran deadline looms; this unverified claim could jolt markets on nuclear escalation ",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Russia capture all of Vovchansk by April 30?",
+        "Will Trump talk to Reza Pahlavi in April?",
+        "Will Trump talk to Nicol\u00e1s Maduro in April?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 0
   }
 }
