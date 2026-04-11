@@ -8,43 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1957 multi-outcome) at 2026-04-11 04:45 UTC\nBest: 10.0% profit on 'Bulgaria Parliamentary Election: Margin of Victory' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What will S&P 500 (SPX) close at end of 2026?'",
+      "result": "LIVE \u2014 143 categorical arb opportunities found\nScanned 3000 events (1964 multi-outcome) at 2026-04-11 05:15 UTC\nBest: 10.0% profit on 'What will S&P 500 (SPX) close at end of 2026?' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'ME-02 Democratic Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 04:45 UTC",
+      "last_scan": "2026-04-11 05:15 UTC",
       "opportunities": [
-        {
-          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
-          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1742068",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.495,
-              "volume": 4397
-            },
-            {
-              "market_id": "1742067",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.315,
-              "volume": 10496
-            },
-            {
-              "market_id": "1742066",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.09,
-              "volume": 10891
-            }
-          ],
-          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "What will S&P 500 (SPX) close at end of 2026?",
           "event_slug": "spx-close-dec-2026",
@@ -64,14 +31,14 @@
               "market_id": "1125399",
               "slug": "spx-close-6500-7000-dec-2026",
               "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.19,
+              "yes_price": 0.185,
               "volume": 1373
             },
             {
               "market_id": "1125398",
               "slug": "spx-close-6000-6500-dec-2026",
               "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.165,
+              "yes_price": 0.17,
               "volume": 1195
             },
             {
@@ -93,30 +60,84 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "FL-14 House Election Winner",
-          "event_slug": "fl-14-house-election-winner",
+          "event_title": "ME-02 Democratic Primary Winner",
+          "event_slug": "who-will-be-the-democratic-nominee-for-me-02",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1283049",
-              "slug": "will-the-democratic-party-win-the-fl-14-house-seat",
-              "question": "Will the Democratic Party win the FL-14 House seat?",
-              "yes_price": 0.5,
-              "volume": 3390
+              "market_id": "703948",
+              "slug": "will-joe-baldacci-be-the-democratic-nominee-for-me-02",
+              "question": "Will Joe Baldacci be the Democratic nominee for ME-02?",
+              "yes_price": 0.425,
+              "volume": 3140
             },
             {
-              "market_id": "1283048",
-              "slug": "will-the-republican-party-win-the-fl-14-house-seat",
-              "question": "Will the Republican Party win the FL-14 House seat?",
-              "yes_price": 0.4,
-              "volume": 3194
+              "market_id": "703947",
+              "slug": "will-matthew-dunlap-be-the-democratic-nominee-for-me-02",
+              "question": "Will Matthew Dunlap be the Democratic nominee for ME-02?",
+              "yes_price": 0.255,
+              "volume": 2849
+            },
+            {
+              "market_id": "703949",
+              "slug": "will-jordan-wood-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jordan Wood be the Democratic nominee for ME-02?",
+              "yes_price": 0.215,
+              "volume": 1649
+            },
+            {
+              "market_id": "703946",
+              "slug": "will-jared-golden-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jared Golden be the Democratic nominee for ME-02?",
+              "yes_price": 0.005,
+              "volume": 2253
             }
           ],
-          "url": "https://polymarket.com/event/fl-14-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-me-02",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "UEFA Europa Conference League: Most Goal Contributions",
+          "event_slug": "uefa-europa-conference-league-most-goal-contributions",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1429286",
+              "slug": "will-ismala-sarr-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isma\u00efla Sarr record the most goal contributions in the 2025-26 UEFA Europa ",
+              "yes_price": 0.425,
+              "volume": 3224
+            },
+            {
+              "market_id": "1429289",
+              "slug": "will-isak-jensen-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Isak Jensen record the most goal contributions in the 2025-26 UEFA Europa C",
+              "yes_price": 0.245,
+              "volume": 13277
+            },
+            {
+              "market_id": "1429278",
+              "slug": "will-lvaro-garca-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will \u00c1lvaro Garc\u00eda record the most goal contributions in the 2025-26 UEFA Europa",
+              "yes_price": 0.19,
+              "volume": 18821
+            },
+            {
+              "market_id": "1429283",
+              "slug": "will-aboubakary-koita-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-conference-league",
+              "question": "Will Aboubakary Koita record the most goal contributions in the 2025-26 UEFA Eur",
+              "yes_price": 0.0405,
+              "volume": 6201
+            }
+          ],
+          "url": "https://polymarket.com/event/uefa-europa-conference-league-most-goal-contributions",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -159,51 +180,65 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "B.C. Conservative Party Leadership Election Winner",
-          "event_slug": "bc-conservative-party-leadership-election-winner",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 4,
+          "event_title": "NHL: Pacific Division Winner",
+          "event_slug": "nhl-pacific-division-winner-228",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1864345",
-              "slug": "will-caroline-elliott-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Caroline Elliott win the 2026 Conservative Party of British Columbia leader",
-              "yes_price": 0.41,
-              "volume": 5522
+              "market_id": "629054",
+              "slug": "will-the-edmonton-oilers-win-the-pacific-division-823",
+              "question": "Will the Edmonton Oilers win the Pacific Division?",
+              "yes_price": 0.53,
+              "volume": 114349
             },
             {
-              "market_id": "1864350",
-              "slug": "will-peter-milobar-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Peter Milobar win the 2026 Conservative Party of British Columbia leadershi",
-              "yes_price": 0.355,
-              "volume": 1720
+              "market_id": "629059",
+              "slug": "will-the-vegas-golden-knights-win-the-pacific-division-474",
+              "question": "Will the Vegas Golden Knights win the Pacific Division?",
+              "yes_price": 0.21,
+              "volume": 193147
             },
             {
-              "market_id": "1864347",
-              "slug": "will-yuri-fulmer-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Yuri Fulmer win the 2026 Conservative Party of British Columbia leadership ",
-              "yes_price": 0.09,
-              "volume": 1581
+              "market_id": "629052",
+              "slug": "will-the-anaheim-ducks-win-the-pacific-division-754",
+              "question": "Will the Anaheim Ducks win the Pacific Division?",
+              "yes_price": 0.161,
+              "volume": 54553
             },
             {
-              "market_id": "1864346",
-              "slug": "will-kerry-lynne-findlay-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Kerry-Lynne Findlay win the 2026 Conservative Party of British Columbia lea",
-              "yes_price": 0.046,
-              "volume": 1129
+              "market_id": "629055",
+              "slug": "will-the-los-angeles-kings-win-the-pacific-division-456",
+              "question": "Will the Los Angeles Kings win the Pacific Division?",
+              "yes_price": 0.0015,
+              "volume": 31413
+            },
+            {
+              "market_id": "629056",
+              "slug": "will-the-san-jose-sharks-win-the-pacific-division-471",
+              "question": "Will the San Jose Sharks win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 36551
+            },
+            {
+              "market_id": "629057",
+              "slug": "will-the-seattle-kraken-win-the-pacific-division-111",
+              "question": "Will the Seattle Kraken win the Pacific Division?",
+              "yes_price": 0.0,
+              "volume": 12896
             }
           ],
-          "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "url": "https://polymarket.com/event/nhl-pacific-division-winner-228",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
           "event_slug": "will-russia-capture-lyman-in-2025",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 8,
           "outcomes": [
             {
@@ -224,8 +259,8 @@
               "market_id": "1397302",
               "slug": "will-russia-capture-lyman-by-april-30-2026",
               "question": "Will Russia capture Lyman by April 30, 2026?",
-              "yes_price": 0.033,
-              "volume": 144622
+              "yes_price": 0.0335,
+              "volume": 145036
             },
             {
               "market_id": "566493",
@@ -264,40 +299,7 @@
             }
           ],
           "url": "https://polymarket.com/event/will-russia-capture-lyman-in-2025",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "Guam Governor Democratic Primary Winner",
-          "event_slug": "guam-governor-democratic-primary-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "907694",
-              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.55,
-              "volume": 8620
-            },
-            {
-              "market_id": "907695",
-              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.325,
-              "volume": 1729
-            },
-            {
-              "market_id": "907693",
-              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
-              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
-              "yes_price": 0.0295,
-              "volume": 1973
-            }
-          ],
-          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
@@ -347,6 +349,39 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
+          "event_title": "Guam Governor Democratic Primary Winner",
+          "event_slug": "guam-governor-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "907694",
+              "slug": "will-josh-tenorio-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Josh Tenorio win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.55,
+              "volume": 8620
+            },
+            {
+              "market_id": "907695",
+              "slug": "will-therese-terlaje-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Therese Terlaje win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.325,
+              "volume": 1729
+            },
+            {
+              "market_id": "907693",
+              "slug": "will-joe-s-san-agustin-win-the-2026-guam-governor-democratic-primary-election",
+              "question": "Will Joe S. San Agustin win the 2026 Guam Governor Democratic primary election?",
+              "yes_price": 0.03,
+              "volume": 1973
+            }
+          ],
+          "url": "https://polymarket.com/event/guam-governor-democratic-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
           "yes_sum": 0.906,
@@ -359,21 +394,21 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10071877
+              "volume": 10072253
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.171,
-              "volume": 13122903
+              "volume": 13127404
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.0945,
-              "volume": 5915370
+              "yes_price": 0.094,
+              "volume": 5915630
             },
             {
               "market_id": "561231",
@@ -387,49 +422,49 @@
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0415,
-              "volume": 3424486
+              "volume": 3424618
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0345,
-              "volume": 9843350
+              "yes_price": 0.034,
+              "volume": 9843387
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0315,
-              "volume": 6921496
+              "volume": 6924024
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0225,
-              "volume": 6911526
+              "volume": 6911560
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5765225
+              "volume": 5765289
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.02,
-              "volume": 8099380
+              "yes_price": 0.021,
+              "volume": 8107088
             },
             {
               "market_id": "561232",
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3831897
+              "volume": 3831908
             },
             {
               "market_id": "561237",
@@ -443,14 +478,14 @@
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.012,
-              "volume": 10805626
+              "volume": 10805638
             },
             {
               "market_id": "561252",
               "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
               "yes_price": 0.011,
-              "volume": 6030893
+              "volume": 6031893
             },
             {
               "market_id": "561260",
@@ -464,14 +499,14 @@
               "slug": "will-james-talarico-win-the-2028-us-presidential-election",
               "question": "Will James Talarico win the 2028 US Presidential Election?",
               "yes_price": 0.0105,
-              "volume": 4337875
+              "volume": 4337878
             },
             {
               "market_id": "561250",
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22595814
+              "volume": 22595936
             },
             {
               "market_id": "561236",
@@ -485,35 +520,35 @@
               "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
               "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 7506099
+              "volume": 7507352
             },
             {
               "market_id": "561249",
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31783213
+              "volume": 31783406
             },
             {
               "market_id": "561257",
               "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
               "question": "Will Michelle Obama win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 13563297
+              "volume": 13564709
             },
             {
               "market_id": "561238",
               "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
               "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 20681588
+              "volume": 20681601
             },
             {
               "market_id": "561255",
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4429567
+              "volume": 4431181
             },
             {
               "market_id": "561259",
@@ -527,7 +562,7 @@
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29493057
+              "volume": 29494712
             },
             {
               "market_id": "561244",
@@ -541,28 +576,28 @@
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21694483
+              "volume": 21695495
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17470077
+              "volume": 17471232
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6507290
+              "volume": 6508043
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39358131
+              "volume": 39360017
             },
             {
               "market_id": "561235",
@@ -604,46 +639,242 @@
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 45957534
+              "volume": 45960813
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
           "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "PA-10 Democratic Primary Winner",
-          "event_slug": "pa-10-democratic-primary-winner-877",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 2,
+          "event_title": "MLS Cup Winner 2026",
+          "event_slug": "mls-cup-winner-2026",
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
+          "num_outcomes": 30,
           "outcomes": [
             {
-              "market_id": "1448356",
-              "slug": "will-janelle-stelson-be-the-democratic-nominee-for-pa-10-994",
-              "question": "Will Janelle Stelson be the Democratic Nominee for PA-10?",
-              "yes_price": 0.895,
-              "volume": 3029
+              "market_id": "1349156",
+              "slug": "will-inter-miami-cf-win-the-2026-mls-cup",
+              "question": "Will Inter Miami CF win the 2026 MLS Cup?",
+              "yes_price": 0.18,
+              "volume": 8854
             },
             {
-              "market_id": "1448358",
-              "slug": "will-jason-cass-be-the-democratic-nominee-for-pa-10-765",
-              "question": "Will Jason Cass be the Democratic Nominee for PA-10?",
+              "market_id": "1349154",
+              "slug": "will-los-angeles-fc-win-the-2026-mls-cup",
+              "question": "Will Los Angeles FC win the 2026 MLS Cup?",
+              "yes_price": 0.165,
+              "volume": 14192
+            },
+            {
+              "market_id": "1349172",
+              "slug": "will-vancouver-whitecaps-fc-win-the-2026-mls-cup",
+              "question": "Will Vancouver Whitecaps FC win the 2026 MLS Cup?",
+              "yes_price": 0.1165,
+              "volume": 348270
+            },
+            {
+              "market_id": "1349166",
+              "slug": "will-san-diego-fc-win-the-2026-mls-cup",
+              "question": "Will San Diego FC win the 2026 MLS Cup?",
+              "yes_price": 0.055,
+              "volume": 1196754
+            },
+            {
+              "market_id": "1349158",
+              "slug": "will-nashville-sc-win-the-2026-mls-cup",
+              "question": "Will Nashville SC win the 2026 MLS Cup?",
+              "yes_price": 0.048,
+              "volume": 204196
+            },
+            {
+              "market_id": "1349147",
+              "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
+              "question": "Will FC Cincinnati win the 2026 MLS Cup?",
+              "yes_price": 0.0435,
+              "volume": 412070
+            },
+            {
+              "market_id": "1349168",
+              "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
+              "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
+              "yes_price": 0.037,
+              "volume": 694225
+            },
+            {
+              "market_id": "1349160",
+              "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
+              "question": "Will New York City FC win the 2026 MLS Cup?",
+              "yes_price": 0.036,
+              "volume": 448776
+            },
+            {
+              "market_id": "1349149",
+              "slug": "will-columbus-crew-win-the-2026-mls-cup",
+              "question": "Will Columbus Crew win the 2026 MLS Cup?",
+              "yes_price": 0.0205,
+              "volume": 2850042
+            },
+            {
+              "market_id": "1349165",
+              "slug": "will-real-salt-lake-win-the-2026-mls-cup",
+              "question": "Will Real Salt Lake win the 2026 MLS Cup?",
+              "yes_price": 0.0195,
+              "volume": 2449793
+            },
+            {
+              "market_id": "1349161",
+              "slug": "will-new-york-red-bulls-win-the-2026-mls-cup",
+              "question": "Will New York Red Bulls win the 2026 MLS Cup?",
+              "yes_price": 0.018,
+              "volume": 64299
+            },
+            {
+              "market_id": "1349155",
+              "slug": "will-minnesota-united-fc-win-the-2026-mls-cup",
+              "question": "Will Minnesota United FC win the 2026 MLS Cup?",
+              "yes_price": 0.0155,
+              "volume": 73488
+            },
+            {
+              "market_id": "1349162",
+              "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
+              "question": "Will Orlando City SC win the 2026 MLS Cup?",
+              "yes_price": 0.015,
+              "volume": 1775699
+            },
+            {
+              "market_id": "1349153",
+              "slug": "will-la-galaxy-win-the-2026-mls-cup",
+              "question": "Will LA Galaxy win the 2026 MLS Cup?",
+              "yes_price": 0.0145,
+              "volume": 4295
+            },
+            {
+              "market_id": "1349163",
+              "slug": "will-philadelphia-union-win-the-2026-mls-cup",
+              "question": "Will Philadelphia Union win the 2026 MLS Cup?",
+              "yes_price": 0.0145,
+              "volume": 49982
+            },
+            {
+              "market_id": "1349145",
+              "slug": "will-charlotte-fc-win-the-2026-mls-cup",
+              "question": "Will Charlotte FC win the 2026 MLS Cup?",
+              "yes_price": 0.0135,
+              "volume": 289150
+            },
+            {
+              "market_id": "1349146",
+              "slug": "will-chicago-fire-fc-win-the-2026-mls-cup",
+              "question": "Will Chicago Fire FC win the 2026 MLS Cup?",
               "yes_price": 0.013,
-              "volume": 8157
+              "volume": 70702
+            },
+            {
+              "market_id": "1349167",
+              "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
+              "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+              "yes_price": 0.0105,
+              "volume": 936765
+            },
+            {
+              "market_id": "1349171",
+              "slug": "will-toronto-fc-win-the-2026-mls-cup",
+              "question": "Will Toronto FC win the 2026 MLS Cup?",
+              "yes_price": 0.0105,
+              "volume": 15446
+            },
+            {
+              "market_id": "1349152",
+              "slug": "will-houston-dynamo-fc-win-the-2026-mls-cup",
+              "question": "Will Houston Dynamo FC win the 2026 MLS Cup?",
+              "yes_price": 0.0095,
+              "volume": 49086
+            },
+            {
+              "market_id": "1349144",
+              "slug": "will-austin-fc-win-the-2026-mls-cup",
+              "question": "Will Austin FC win the 2026 MLS Cup?",
+              "yes_price": 0.009,
+              "volume": 60222
+            },
+            {
+              "market_id": "1349150",
+              "slug": "will-fc-dallas-win-the-2026-mls-cup",
+              "question": "Will FC Dallas win the 2026 MLS Cup?",
+              "yes_price": 0.008,
+              "volume": 36659
+            },
+            {
+              "market_id": "1349143",
+              "slug": "will-atlanta-united-fc-win-the-2026-mls-cup",
+              "question": "Will Atlanta United FC win the 2026 MLS Cup?",
+              "yes_price": 0.0075,
+              "volume": 35676
+            },
+            {
+              "market_id": "1349164",
+              "slug": "will-portland-timbers-win-the-2026-mls-cup",
+              "question": "Will Portland Timbers win the 2026 MLS Cup?",
+              "yes_price": 0.0065,
+              "volume": 57246
+            },
+            {
+              "market_id": "1349170",
+              "slug": "will-st-louis-city-sc-win-the-2026-mls-cup",
+              "question": "Will St. Louis City SC win the 2026 MLS Cup?",
+              "yes_price": 0.006,
+              "volume": 63617
+            },
+            {
+              "market_id": "1349157",
+              "slug": "will-cf-montral-win-the-2026-mls-cup",
+              "question": "Will CF Montr\u00e9al win the 2026 MLS Cup?",
+              "yes_price": 0.0035,
+              "volume": 3154
+            },
+            {
+              "market_id": "1349151",
+              "slug": "will-dc-united-win-the-2026-mls-cup",
+              "question": "Will D.C. United win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 2191
+            },
+            {
+              "market_id": "1349159",
+              "slug": "will-new-england-revolution-win-the-2026-mls-cup",
+              "question": "Will New England Revolution win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 2776
+            },
+            {
+              "market_id": "1349169",
+              "slug": "will-sporting-kansas-city-win-the-2026-mls-cup",
+              "question": "Will Sporting Kansas City win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 6293
+            },
+            {
+              "market_id": "1349148",
+              "slug": "will-colorado-rapids-win-the-2026-mls-cup",
+              "question": "Will Colorado Rapids win the 2026 MLS Cup?",
+              "yes_price": 0.0025,
+              "volume": 94724
             }
           ],
-          "url": "https://polymarket.com/event/pa-10-democratic-primary-winner-877",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "url": "https://polymarket.com/event/mls-cup-winner-2026",
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1957,
-        "skipped_single_outcome": 598,
+        "checked_multi_outcome": 1964,
+        "skipped_single_outcome": 597,
         "opportunities_found": 143,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 04:45 UTC"
+        "scanned_at": "2026-04-11 05:15 UTC"
       }
     },
     {
