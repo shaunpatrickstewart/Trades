@@ -1,31 +1,104 @@
 {
-  "last_scan": "2026-04-11T17:03:20.941794+00:00",
-  "scan_seconds": 29.4,
-  "markets_scanned": 104,
-  "open_positions": 62,
+  "last_scan": "2026-04-11T17:11:56.443585+00:00",
+  "scan_seconds": 30.3,
+  "markets_scanned": 102,
+  "open_positions": 59,
   "signals": [
     {
-      "id": "sig_775825",
-      "timestamp": "2026-04-11T17:03:19.897246+00:00",
+      "id": "sig_291371",
+      "timestamp": "2026-04-11T17:11:55.442817+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Confirms Rate Pause in March 2026 FOMC Statement | YES | HIGH confidence**",
-      "raw": "Fed Confirms Rate Pause in March 2026 FOMC Statement | YES | HIGH confidence**\n\nThe Federal Reserve's FOMC statement on March 18, 2026, explicitly announced it would **maintain the target range for the federal funds rate at 3\u00bd to 3\u00be percent**, signaling a pause after prior cuts, amid solid economic expansion, low job gains, stable unemployment, and somewhat elevated inflation.[3] This decision ref",
+      "headline": "Fed pauses rate cuts at 3",
+      "raw": "Fed pauses rate cuts at 3.5%-3.75%, holding steady amid labor slowdown, persistent inflation, and external uncertainties | YES | HIGH confidence**\n\nThe Federal Reserve announced on Wednesday (prior to April 11, 2026) that it is leaving the federal funds rate unchanged at 3.5%-3.75%, explicitly pausing after three consecutive 25 basis point cuts in late 2025, as economic data showed labor market so",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions ("
+        "Will Jordan strike Iran by April 30?",
+        "Will the Fed Pause\u2013Pause\u2013Pause in the next three decisions (",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_765489",
-      "timestamp": "2026-04-11T17:03:09.561438+00:00",
+      "id": "sig_269083",
+      "timestamp": "2026-04-11T17:11:33.154152+00:00",
       "source": "PERPLEXITY",
-      "headline": "Maduro Capture Confirmed with $400,000 Payout, Spotlighting Prediction Markets | YES | HIGH confidence**",
-      "raw": "Maduro Capture Confirmed with $400,000 Payout, Spotlighting Prediction Markets | YES | HIGH confidence**  \nA $400,000 payout following **Nicolas Maduro's capture** has been confirmed, directly putting **prediction markets** in the spotlight amid related political developments.[1]  \nThis breaking development ties to broader contexts like **Reza Pahlavi**'s ongoing role as the international face of ",
+      "headline": "US-Iran Agree to Two-Week Truce; Face-to-Face Talks Confirmed in Pakistan | YES | HIGH confidence**",
+      "raw": "US-Iran Agree to Two-Week Truce; Face-to-Face Talks Confirmed in Pakistan | YES | HIGH confidence**  \nUS and Iran have agreed to a two-week truce after Trump pulled back on escalation threats, with Iran's defense-industrial base reported as \"completely\" destroyed.[1] Reuters-confirmed direct talks occurred in Pakistan between US officials (JD Vance, Steve Witkoff, Jared Kushner) and Iranian leader",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_285832",
+      "timestamp": "2026-04-11T17:11:49.903962+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Technical Breakout Signals | YES | MEDIUM confidence**",
+      "raw": "Technical Breakout Signals | YES | MEDIUM confidence**\n\nMultiple technical indicators suggest imminent moves: Bitcoin holding above the $62,750 support level could trigger an **18-25% gain toward a potential $132,000 all-time high**[4], while **Solana is approaching a descending wedge pattern with potential for a 40-50% upside move**[4]. XRP is showing **strong reversal candles**[4], positioning t",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will XRP dip to $0.60 in April?",
+        "Bitcoin Up or Down - April 11, 1:20PM-1:25PM ET",
+        "Solana Up or Down - April 12, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_269090",
+      "timestamp": "2026-04-11T17:11:33.161897+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Announces US Starting to Clear Hormuz Strait | YES | HIGH confidence**",
+      "raw": "Trump Announces US Starting to Clear Hormuz Strait | YES | HIGH confidence**  \nPresident Trump posted that the US is initiating clearance of the Strait of Hormuz, stating it \"will open soon,\" amid ongoing tensions now shifting toward de-escalation.[2] Iranian delegation has landed in Pakistan for these US talks, with ceasefire on fragile ground ahead of weekend peace negotiations led by VP Vance.[",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_269098",
+      "timestamp": "2026-04-11T17:11:33.169423+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia-Ukraine Easter Truce Underway | YES | MED confidence**",
+      "raw": "Russia-Ukraine Easter Truce Underway | YES | MED confidence**  \nA Russia-Ukraine Easter truce is reported as underway in top headlines, potentially resolving short-term hostilities.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_269105",
+      "timestamp": "2026-04-11T17:11:33.176576+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia Issues Stark Warning Ahead of Iran-US Talks | YES | HIGH confidence**",
+      "raw": "Russia Issues Stark Warning Ahead of Iran-US Talks | YES | HIGH confidence**  \nRussia warned all parties to act responsibly before Iran-US talks in Islamabad, criticizing Hormuz claims and urging conflict end to stabilize the Gulf.[6] No resolutions confirmed on NATO tensions or Trump threats to Europe/Iran infrastructure.[3][4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_274450",
+      "timestamp": "2026-04-11T17:11:38.521119+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Administration Finalizes DHS-Justice Deal for Voter Data Access, Escalates Midterm Election Integrity Push | NO |",
+      "raw": "Trump Administration Finalizes DHS-Justice Deal for Voter Data Access, Escalates Midterm Election Integrity Push | NO | HIGH confidence**  \nThe Justice Department has finalized a deal with DHS to access sensitive state voter-roll data for citizenship checks, part of intensified efforts against alleged voter fraud ahead of 2026 midterms.[1]  \nThis includes threats to withhold homeland security gran",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Jorge Nieto win the 2026 Peruvian presidential election",
@@ -37,18 +110,44 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_770220",
-      "timestamp": "2026-04-11T17:03:14.292503+00:00",
+      "id": "sig_285806",
+      "timestamp": "2026-04-11T17:11:49.877799+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Gains Key Endorsements from Coinbase CEO | YES | HIGH confidence**",
-      "raw": "CLARITY Act Gains Key Endorsements from Coinbase CEO | YES | HIGH confidence**  \nCoinbase CEO reversed opposition to the CLARITY Act on April 10, 2026, clearing a major hurdle ahead of Senate markup, potentially enabling banks to use XRP for liquidity and boosting institutional appeal amid regulatory clarity for XRP, Ethereum, and Solana.[8][2][4]  \nNo other confirmations, announcements, or resolu",
+      "headline": "Based on the search results provided, here are the key developments that would move prediction markets:",
+      "raw": "Based on the search results provided, here are the key developments that would move prediction markets:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_285814",
+      "timestamp": "2026-04-11T17:11:49.885199+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Agreement | YES | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Agreement | YES | HIGH confidence**\n\nA **2-week ceasefire between the US and Iran was agreed to on April 8, 2026**, causing a significant crypto and stock rally[6]. This geopolitical resolution reduced safe-haven demand and triggered a **$224 million inflow into crypto**, with XRP leading the rebound[6]. This directly impacts prediction markets since geopolitical tensions had pre",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "Will Jordan strike Iran by April 30?",
         "Will XRP dip to $0.60 in April?",
-        "Solana Up or Down - April 12, 8:35AM-8:40AM ET",
-        "Ethereum Up or Down - April 12, 10:20AM-10:25AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_285824",
+      "timestamp": "2026-04-11T17:11:49.895534+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Token Classification Clarity | YES | HIGH confidence**",
+      "raw": "SEC Token Classification Clarity | YES | HIGH confidence**\n\nThe **SEC officially classified BTC, ETH, SOL, XRP, ADA and others as digital commodities**[8]. This regulatory clarity removes a major uncertainty factor that prediction markets price in, particularly benefiting XRP's institutional appeal as noted by analysts[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
@@ -56,8 +155,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
