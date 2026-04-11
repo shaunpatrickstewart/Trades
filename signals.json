@@ -1,151 +1,64 @@
 {
-  "last_scan": "2026-04-11T17:39:37.908049+00:00",
-  "scan_seconds": 28.8,
-  "markets_scanned": 101,
+  "last_scan": "2026-04-11T18:07:33.212368+00:00",
+  "scan_seconds": 27.4,
+  "markets_scanned": 102,
   "open_positions": 59,
   "signals": [
     {
-      "id": "sig_940137",
-      "timestamp": "2026-04-11T17:39:24.207169+00:00",
+      "id": "sig_614933",
+      "timestamp": "2026-04-11T18:07:19.001253+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP'S WAR IN IRAN POLLING POORLY WITH 2024 VOTERS | YES | HIGH confidence**",
-      "raw": "TRUMP'S WAR IN IRAN POLLING POORLY WITH 2024 VOTERS | YES | HIGH confidence**\n\nDonald Trump's war in Iran has been polling badly among groups that voted for him in 2024, with midterm elections just over six months away.[1] This comes as Republicans currently control both the Senate and House of Representatives.[1]\n\nNote: The search results do not contain information about \"Jorge Nieto\" or specific",
+      "headline": "US Captures Venezuelan President Nicol\u00e1s Maduro in Military Operation | YES | HIGH confidence**",
+      "raw": "US Captures Venezuelan President Nicol\u00e1s Maduro in Military Operation | YES | HIGH confidence**  \nPresident Donald Trump announced on January 3, 2026, that the US conducted a large-scale strike in Venezuela's capital, capturing Maduro and his wife, who were flown out of the country in conjunction with US law enforcement.[2]  \nPeruvian analysts warn the attack threatens Latin America, potentially i",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "2026 Balance of Power: R Senate, D House"
+        "Will Jorge Nieto win the 2026 Peruvian presidential election",
+        "Will Trump talk to Reza Pahlavi in April?",
+        "Will Trump talk to Nicol\u00e1s Maduro in April?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_952836",
-      "timestamp": "2026-04-11T17:39:36.906259+00:00",
+      "id": "sig_628142",
+      "timestamp": "2026-04-11T18:07:32.210719+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Expected to Pause Rate Cuts at January 2026 Meeting Amid Strong Economic Data and Legal Uncertainties | YES | HIGH c",
-      "raw": "Fed Expected to Pause Rate Cuts at January 2026 Meeting Amid Strong Economic Data and Legal Uncertainties | YES | HIGH confidence**  \nThe Federal Reserve is widely anticipated to hold interest rates steady at its first 2026 policy meeting next week, following three prior 25bps cuts ending in December 2025 that brought the fed funds rate to 3.5-3.75%; this pause is supported by resilient job growth",
+      "headline": "Fed Signals Rate-Cut Pause at Upcoming 2026 Meeting Amid Strong Economic Data and Leadership Uncertainty | YES | HIGH co",
+      "raw": "Fed Signals Rate-Cut Pause at Upcoming 2026 Meeting Amid Strong Economic Data and Leadership Uncertainty | YES | HIGH confidence**\n\nEconomic indicators, including a 4.4% unemployment rate in December (down from 4.6% in November), 50,000 jobs added, and upwardly revised Q3 GDP growth to 4.4%, strongly support the Federal Reserve maintaining unchanged interest rates at its first 2026 policy meeting ",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will Trump talk to Reza Pahlavi in April?",
         "Will Trump talk to Nicol\u00e1s Maduro in April?",
         "Will Jordan strike Iran by April 30?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_940115",
-      "timestamp": "2026-04-11T17:39:24.185316+00:00",
+      "id": "sig_621013",
+      "timestamp": "2026-04-11T18:07:25.081369+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results, here are the key developments:",
-      "raw": "Based on the search results, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_940122",
-      "timestamp": "2026-04-11T17:39:24.192600+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRUMP IMPEACHMENT VOTE HELD IN HOUSE | YES | HIGH confidence**",
-      "raw": "TRUMP IMPEACHMENT VOTE HELD IN HOUSE | YES | HIGH confidence**\n\nThe U.S. House of Representatives conducted a historic impeachment vote against President Donald Trump on April 10, 2026.[3] This makes him only the third president in American history to be impeached.[3] The vote followed floor debate on articles of impeachment, with the White House denying wrongdoing and characterizing the inquiry a",
+      "headline": "US-Iran Ceasefire Boosts Crypto Sentiment: Solana and Ethereum Up 5-7% Weekly | YES | MED confidence**",
+      "raw": "US-Iran Ceasefire Boosts Crypto Sentiment: Solana and Ethereum Up 5-7% Weekly | YES | MED confidence**\n\nSolana (SOL) rose 5.1% weekly to ~$83 (defending $80 support) amid broader market rally, with price surging ~7% from $78 to $87 post-ceasefire relief.[3][4][6] Ethereum (ETH) followed higher with regulatory clarity on commodity status (SEC/CFTC) and Layer 2 expansions fueling institutional inter",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Trump talk to Reza Pahlavi in April?",
-        "Will Trump talk to Nicol\u00e1s Maduro in April?",
-        "Will Trump visit North Korea by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_947006",
-      "timestamp": "2026-04-11T17:39:31.076164+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket odds show **87% probability** for Solana above $80 in April (bullish dominant) and **69%** for XRP below $1",
-      "raw": "Polymarket odds show **87% probability** for Solana above $80 in April (bullish dominant) and **69%** for XRP below $1.2 (bearish tilt), amid US-Iran tensions and Trump statements impacting markets.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump talk to Reza Pahlavi in April?",
-        "Will Trump talk to Nicol\u00e1s Maduro in April?",
-        "Will Jordan strike Iran by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_947027",
-      "timestamp": "2026-04-11T17:39:31.097608+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CoinCodex algorithm predicts **Solana up 30% to $103",
-      "raw": "CoinCodex algorithm predicts **Solana up 30% to $103.76** by April end, citing historical April gains (up to +60.8% in past 5 years).[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Solana Up or Down - April 12, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_947045",
-      "timestamp": "2026-04-11T17:39:31.115356+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP analyst (@XRP_Captain) forecasts **surge to $7",
-      "raw": "XRP analyst (@XRP_Captain) forecasts **surge to $7.52** by April end after downtrend breakout; others split between **$1.15-$1.60**, watching CLARITY Act, FOMC (April 28-29), and ceasefire news.[3][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will XRP dip to $0.60 in April?",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will the price of XRP be between $1.30 and $1.40 on April 15?"
+        "Ethereum Up or Down - April 12, 10:20AM-10:25AM ET"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_947058",
-      "timestamp": "2026-04-11T17:39:31.128530+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No reports of \"just confirmed\" events like regulatory approvals, partnerships, or resolutions; focus remains on technica",
-      "raw": "No reports of \"just confirmed\" events like regulatory approvals, partnerships, or resolutions; focus remains on technicals, macros, and speculation (e.g., Solana breakdown risks, XRP EMA weakness).[5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_947069",
-      "timestamp": "2026-04-11T17:39:31.139318+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (results lack any timestamped \"right now\" announcements post-April 8; all speculative, not event-driv",
-      "raw": "Confidence: HIGH** (results lack any timestamped \"right now\" announcements post-April 8; all speculative, not event-driven).[1][2][3][4][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
