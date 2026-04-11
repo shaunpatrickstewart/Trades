@@ -1,42 +1,99 @@
 {
-  "last_scan": "2026-04-11T01:08:29.253903+00:00",
-  "scan_seconds": 49.1,
-  "markets_scanned": 102,
-  "open_positions": 63,
+  "last_scan": "2026-04-11T01:24:06.127626+00:00",
+  "scan_seconds": 26.2,
+  "markets_scanned": 98,
+  "open_positions": 61,
   "signals": [
     {
-      "id": "sig_474923",
-      "timestamp": "2026-04-11T01:08:19.052451+00:00",
-      "source": "X_GROK",
-      "headline": "Denver Nuggets resting key starters (Jokic, Murray, Gordon, Braun, Johnson) vs",
-      "raw": "Denver Nuggets resting key starters (Jokic, Murray, Gordon, Braun, Johnson) vs. OKC Thunder tonight.**[[1]](https://x.com/i/status/2042760624581513345)[[2]](https://x.com/i/status/2042767462756700179)[[3]](https://x.com/i/status/2042768295946780846)\nHEADLINE: Nuggets stars out vs Thunder | YES for Thunder (easy win/momentum into playoffs as #1 seed) | HIGH confidence\n\nNo confirmed/resolved events ",
-      "direction": "YES",
+      "id": "sig_404210",
+      "timestamp": "2026-04-11T01:23:48.338983+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Confirmed Resolutions or Major Announcements on Trump-Russia Peace Talks or Vovchansk Capture | NO | MED confidence**",
+      "raw": "No Confirmed Resolutions or Major Announcements on Trump-Russia Peace Talks or Vovchansk Capture | NO | MED confidence** [3][4]\n\nEarlier signals from December 2025 indicated Russia might condition Ukraine peace acceptance on territorial concessions, strengthening leverage via gains in Vovchansk and Pokrovsk, but no new confirmations as of search data.[3] Ongoing Russian losses in Pokrovsk and Nort",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042760624581513345)[[2]](https://x.com/i/status/2042767462756700179)[[3]](https://x.com/i/status/2042768295946780846)",
-      "category": "SPORTS"
+      "matched_markets": [
+        "Will Dogecoin reach $0.16 by December 31, 2026?",
+        "Will Russia capture all of Vovchansk by April 30?",
+        "Will Trump visit North Korea by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "perp_485124",
-      "timestamp": "2026-04-11T01:08:29.253659+00:00",
+      "id": "sig_409408",
+      "timestamp": "2026-04-11T01:23:53.536476+00:00",
       "source": "PERPLEXITY",
-      "headline": "[Context] Will Dogecoin reach $0.16 by December 31, 2026?",
-      "raw": "No definitive consensus exists on whether Dogecoin (DOGE) will reach $0.16 by December 31, 2026, as predictions vary widely from bearish short-term stagnation around $0.14 to highly optimistic yearly highs above $1, with prediction markets assigning only 34.8-37.6% probability to a \"Yes\" outcome.[1][3][7]\n\n### Current Status (as of early 2026)\nDOGE trades around **$0.12-$0.14**, following a pullback from $0.15-$0.16 tests in late 2025, amid neutral momentum and moderate trading volume (~$79 mill",
-      "direction": null,
-      "confidence": 0.7,
+      "headline": "Trump Retains Military Authority in Venezuela After VP Tie-Breaker Vote** | YES | HIGH confidence[1]",
+      "raw": "Trump Retains Military Authority in Venezuela After VP Tie-Breaker Vote** | YES | HIGH confidence[1]\n\nA tie-breaking vote by the U.S. Vice President on January 15, 2026, defeated a Senate measure restricting President Trump's military options in Venezuela, preserving his authority amid tensions with Nicol\u00e1s Maduro[1]. This advances Trump's Venezuela plan, shifting focus to a high-stakes meeting wi",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Dogecoin reach $0.16 by December 31, 2026?"
+        "Will Jorge Nieto win the 2026 Peruvian presidential election",
+        "Will turnout in the first round of the 2026 Peruvian preside",
+        "Will Trump talk to Nicol\u00e1s Maduro in April?"
       ],
-      "action": "WATCH",
-      "category": "RESEARCH",
-      "x_link": null
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_415452",
+      "timestamp": "2026-04-11T01:23:59.580779+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No confirmed breaking news RIGHT NOW on April XRP developments that would move prediction markets | NO | HIGH confidence",
+      "raw": "No confirmed breaking news RIGHT NOW on April XRP developments that would move prediction markets | NO | HIGH confidence**\n\nXRP price analyses highlight early April 2026 recovery signs, with trading above $1.35-$1.39 amid Bitcoin's rise above $70K and $120M ETF inflows last week, potentially ending a six-month losing streak if April closes above $1.33[1][2][3]. The CLARITY Act faces potential Sena",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?",
+        "U.S. evacuates Beirut Embassy by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_404200",
+      "timestamp": "2026-04-11T01:23:48.328939+00:00",
+      "source": "PERPLEXITY",
+      "headline": "North Korea Deploys Additional 5,000 Engineering Troops to Russia for Ukraine Rear Support | YES | HIGH confidence** [1]",
+      "raw": "North Korea Deploys Additional 5,000 Engineering Troops to Russia for Ukraine Rear Support | YES | HIGH confidence** [1]\n\nRussian President Putin held a Security Council meeting on November 5, 2025, directing preparations for potential full-scale nuclear testing in response to perceived US moves under Trump, with officials like Defense Minister Belousov recommending immediate action.[1] North Kore",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Russia capture all of Vovchansk by April 30?",
+        "Will Trump visit North Korea by April 30?",
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_420998",
+      "timestamp": "2026-04-11T01:24:05.126827+00:00",
+      "source": "PERPLEXITY",
+      "headline": "FED CONFIRMS RATE PAUSE AT MARCH 17-18, 2026 MEETING | YES | HIGH confidence**",
+      "raw": "FED CONFIRMS RATE PAUSE AT MARCH 17-18, 2026 MEETING | YES | HIGH confidence**\n\nThe Federal Reserve's FOMC statement on March 18, 2026, explicitly maintained the federal funds rate at 3.5%-3.75%, citing solid economic expansion, low job gains, stable unemployment, and somewhat elevated inflation amid Middle East uncertainties.[5][6] Markets have since doubled down on expectations of another **paus",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Noah Kahan have a #1 hit in April?",
+        "Joe Kent charged by April 30?",
+        "U.S. evacuates Beirut Embassy by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 3,
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 3
   }
 }
