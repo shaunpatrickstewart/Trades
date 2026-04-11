@@ -244,6 +244,7 @@
     n = parseFloat(n) || 0;
     if (Math.abs(n) >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
     if (Math.abs(n) >= 1e3) return '$' + (n/1e3).toFixed(1) + 'K';
+    if (Math.abs(n) < 1)    return '$' + Math.abs(n).toFixed(2);
     return '$' + Math.abs(n).toFixed(0);
   }
   function days(s)  { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/86400000) }
@@ -430,17 +431,24 @@
   // ── RENDER: Market Scanner tables
   function marketTable(markets, limit) {
     if (!markets.length) return '<div class="empty">No markets matching this filter right now.</div>';
+    const slice = markets.slice(0, limit||25);
+    const maxVol = Math.max(...slice.map(m=>parseFloat(m.volumeNum||m.volume||0)), 1);
     let html = '<table><tr><th>#</th><th>Market</th><th>Side</th><th>Price</th><th class="hm">Volume</th><th>Expires</th></tr>';
-    markets.slice(0,limit||25).forEach((m,i)=>{
+    slice.forEach((m,i)=>{
       const {price,outcome} = getBest(m);
       const cls = outcome==='YES' ? 'by' : 'bn';
       const vol = parseFloat(m.volumeNum||m.volume||0);
+      const barW = Math.round((vol/maxVol)*40);
       html += '<tr>'+
         '<td class="dim">'+(i+1)+'</td>'+
         '<td style="max-width:260px">'+(m.question||m.title||'').slice(0,62)+'</td>'+
         '<td><span class="badge '+cls+'">'+outcome+'</span></td>'+
         '<td style="color:'+pctColor(price)+'">'+(price*100).toFixed(0)+'%</td>'+
-        '<td class="blue hm">'+fmt(vol)+'</td>'+
+        '<td class="blue hm">'+
+          '<div style="display:flex;align-items:center;gap:4px">'+
+          '<div style="background:#0066cc;height:3px;width:'+barW+'px;border-radius:1px;flex-shrink:0"></div>'+
+          fmt(vol)+
+          '</div></td>'+
         '<td>'+timeLabel(m)+'</td>'+
         '</tr>';
     });
@@ -601,6 +609,38 @@
         // End value label
         const lastPt = pts.split(' ').pop().split(',');
         html += '<text x="'+(parseFloat(lastPt[0])+4)+'" y="'+lastPt[1]+'" font-size="8" fill="#00ff88">$'+bankroll.toFixed(0)+'</text>';
+        html += '</svg></div>';
+      }
+
+      // Per-trade equity curve — smoother than daily chart, shows every settlement
+      const sortedSettled = [...won,...lost].sort((a,b)=>(a.timestamp||a.closed_at||'').localeCompare(b.timestamp||b.closed_at||''));
+      if (sortedSettled.length > 5) {
+        let cum = 0;
+        const cumPts = sortedSettled.map(t=>{ cum += (t.pnl||0); return cum; });
+        const minC = Math.min(0, ...cumPts);
+        const maxC = Math.max(0, ...cumPts);
+        const rangeC = (maxC - minC) || 1;
+        const W2=420, H2=54, P2=6;
+        const n = cumPts.length;
+        const curve = cumPts.map((v,i)=>{
+          const x = P2 + (i/(n-1||1))*(W2-P2*2);
+          const y = H2 - P2 - ((v - minC)/rangeC)*(H2-P2*2);
+          return x.toFixed(1)+','+y.toFixed(1);
+        }).join(' ');
+        const zeroYc = H2 - P2 - ((0 - minC)/rangeC)*(H2-P2*2);
+        const lastColor = cumPts[cumPts.length-1] >= 0 ? '#00ff88' : '#ff4444';
+        html += '<div style="margin-bottom:10px;background:#f2f2f2;border:1px solid #dddddd;border-radius:4px;padding:6px 10px">';
+        html += '<div style="font-size:0.68em;color:#555;margin-bottom:4px;font-weight:600">P&amp;L EQUITY CURVE — '+n+' settled trades · per-trade resolution</div>';
+        html += '<svg width="100%" viewBox="0 0 '+W2+' '+H2+'" style="display:block">';
+        html += '<line x1="'+P2+'" y1="'+zeroYc.toFixed(1)+'" x2="'+(W2-P2)+'" y2="'+zeroYc.toFixed(1)+'" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="3,2"/>';
+        html += '<polyline points="'+curve+'" fill="none" stroke="'+lastColor+'" stroke-width="1.5" stroke-linejoin="round"/>';
+        // Start and end labels
+        const lastX = (P2 + (W2-P2*2)).toFixed(1);
+        const lastY = (H2 - P2 - ((cumPts[n-1] - minC)/rangeC)*(H2-P2*2)).toFixed(1);
+        const firstY = (H2 - P2 - ((cumPts[0] - minC)/rangeC)*(H2-P2*2)).toFixed(1);
+        html += '<circle cx="'+P2+'" cy="'+firstY+'" r="3" fill="#888"/>';
+        html += '<circle cx="'+lastX+'" cy="'+lastY+'" r="3" fill="'+lastColor+'"/>';
+        html += '<text x="'+(parseFloat(lastX)+3)+'" y="'+lastY+'" font-size="8" fill="'+lastColor+'">'+(cumPts[n-1]>=0?'+':'')+'$'+cumPts[n-1].toFixed(0)+'</text>';
         html += '</svg></div>';
       }
 
@@ -889,13 +929,24 @@
           ? '<span style="color:'+(roi>=0?'#00aa44':'#cc3322')+'">ROI '+(roi>=0?'+':'')+roi.toFixed(1)+'%</span>'
           : '<span style="color:#888;font-size:0.75em">ROI: '+(10-resolved)+' more needed</span>';
         const wrStr = wr !== null ? '<span style="color:#555"> &nbsp; '+wr.toFixed(0)+'% WR</span>' : '';
+        // Win rate gauge bar: fill from left, tick at 50%
+        const wrPct = wr !== null ? Math.min(100, Math.max(0, Math.round(wr))) : null;
+        const wrBarColor = wrPct !== null ? (wrPct >= 60 ? '#00cc66' : wrPct >= 50 ? '#88cc44' : '#ff4444') : '#ccc';
+        const wrGauge = wrPct !== null
+          ? '<div style="position:relative;background:#e0e0e0;border-radius:2px;height:4px;margin-top:4px">'+
+            '<div style="position:absolute;left:50%;width:1px;height:6px;background:#aaa;top:-1px;z-index:1"></div>'+
+            '<div style="background:'+wrBarColor+';height:4px;border-radius:2px;width:'+wrPct+'%;max-width:100%"></div>'+
+            '</div>'+
+            '<div style="font-size:0.6em;color:#aaa;text-align:right">50%=even</div>'
+          : '';
         engHtml +=
           '<div style="background:#f0f0f0;border:1px solid '+c+'33;border-left:3px solid '+c+';padding:6px 12px;border-radius:4px;min-width:155px">'+
           '<div style="color:'+c+';font-size:0.7em;font-weight:700">'+label+'</div>'+
           '<div style="font-size:0.8em;margin-top:2px">'+d.open+' open &nbsp; '+d.won+'W/'+d.lost+'L</div>'+
           '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
           '<div style="font-size:0.78em;margin-top:2px">'+roiStr+wrStr+'</div>'+
-          '<div style="font-size:0.75em;color:#555">'+(eng==='ANTI_NC'?'Max payout if all win':'Unrealized')+': +$'+d.unrealized.toFixed(2)+'</div>'+
+          wrGauge+
+          '<div style="font-size:0.75em;color:#555;margin-top:2px">'+(eng==='ANTI_NC'?'Max payout if all win':'Unrealized')+': +$'+d.unrealized.toFixed(2)+'</div>'+
           '</div>';
       });
       engHtml += '</div>';
