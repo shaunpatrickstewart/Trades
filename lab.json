@@ -8,16 +8,16 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 145 categorical arb opportunities found\nScanned 3000 events (2026 multi-outcome) at 2026-04-11 13:57 UTC\nBest: 9.95% profit on 'What will Netflix (NFLX) hit in April 2026?' \u2014 buy YES on all 7 outcomes (sum=0.9005)\nStrategy: Buy YES on all 7 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.9% on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2026 multi-outcome) at 2026-04-11 14:11 UTC\nBest: 10.0% profit on 'What will Netflix (NFLX) hit in April 2026?' \u2014 buy YES on all 7 outcomes (sum=0.9)\nStrategy: Buy YES on all 7 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'TX-23 House Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 13:57 UTC",
+      "last_scan": "2026-04-11 14:11 UTC",
       "opportunities": [
         {
           "event_title": "What will Netflix (NFLX) hit in April 2026?",
           "event_slug": "what-price-will-nflx-hit-in-april-2026",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
           "num_outcomes": 7,
           "outcomes": [
             {
@@ -31,15 +31,8 @@
               "market_id": "1542754",
               "slug": "will-nflx-dip-to-70-in-april",
               "question": "Will Netflix dip to $70 in April?",
-              "yes_price": 0.08,
+              "yes_price": 0.0805,
               "volume": 3665
-            },
-            {
-              "market_id": "1542744",
-              "slug": "will-nflx-reach-298-in-april",
-              "question": "Will Netflix reach $298 in April?",
-              "yes_price": 0.011,
-              "volume": 4257
             },
             {
               "market_id": "1542742",
@@ -47,6 +40,13 @@
               "question": "Will Netflix reach $368 in April?",
               "yes_price": 0.0105,
               "volume": 1050
+            },
+            {
+              "market_id": "1542744",
+              "slug": "will-nflx-reach-298-in-april",
+              "question": "Will Netflix reach $298 in April?",
+              "yes_price": 0.01,
+              "volume": 4257
             },
             {
               "market_id": "1542740",
@@ -71,7 +71,99 @@
             }
           ],
           "url": "https://polymarket.com/event/what-price-will-nflx-hit-in-april-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "TX-23 House Election Winner",
+          "event_slug": "tx-23-house-election-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1284959",
+              "slug": "will-the-republican-party-win-the-tx-23-house-seat",
+              "question": "Will the Republican Party win the TX-23 House seat?",
+              "yes_price": 0.64,
+              "volume": 7673
+            },
+            {
+              "market_id": "1284960",
+              "slug": "will-the-democratic-party-win-the-tx-23-house-seat",
+              "question": "Will the Democratic Party win the TX-23 House seat?",
+              "yes_price": 0.26,
+              "volume": 4710
+            }
+          ],
+          "url": "https://polymarket.com/event/tx-23-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "MN-02 Republican Primary Winner",
+          "event_slug": "mn-02-republican-primary-winner",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "959547",
+              "slug": "will-eric-pratt-be-the-republican-nominee-for-mn-02",
+              "question": "Will Eric Pratt be the Republican Nominee for MN-02?",
+              "yes_price": 0.46,
+              "volume": 1823
+            },
+            {
+              "market_id": "959546",
+              "slug": "will-tyler-kistner-be-the-republican-nominee-for-mn-02",
+              "question": "Will Tyler Kistner be the Republican Nominee for MN-02?",
+              "yes_price": 0.44,
+              "volume": 4062
+            }
+          ],
+          "url": "https://polymarket.com/event/mn-02-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Michigan Governor Republican Primary Winner",
+          "event_slug": "michigan-governor-republican-primary-winner",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "907794",
+              "slug": "will-perry-johnson-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Perry Johnson win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.455,
+              "volume": 10091
+            },
+            {
+              "market_id": "907785",
+              "slug": "will-john-james-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will John James win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.385,
+              "volume": 7160
+            },
+            {
+              "market_id": "907788",
+              "slug": "will-aric-nesbitt-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Aric Nesbitt win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.036,
+              "volume": 1213
+            },
+            {
+              "market_id": "907781",
+              "slug": "will-mike-cox-win-the-2026-michigan-governor-republican-primary-election",
+              "question": "Will Mike Cox win the 2026 Michigan Governor Republican primary election?",
+              "yes_price": 0.0245,
+              "volume": 2391
+            }
+          ],
+          "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
@@ -107,58 +199,100 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "Which film will get the most Oscar nominations at the 99th Academy Awards?",
-          "event_slug": "which-film-will-get-the-most-oscar-nominations-at-the-99th-academy-awards",
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
           "yes_sum": 0.9015,
           "profit_pct": 9.85,
           "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 6,
+          "num_outcomes": 12,
           "outcomes": [
             {
-              "market_id": "1321500",
-              "slug": "will-the-odyssey-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will The Odyssey get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.51,
-              "volume": 3870
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.695,
+              "volume": 4681
             },
             {
-              "market_id": "1321503",
-              "slug": "will-dune-messiah-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Dune: Messiah get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.135,
-              "volume": 2390
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.079,
+              "volume": 8138
             },
             {
-              "market_id": "1321499",
-              "slug": "will-disclosure-day-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Disclosure Day get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.11,
-              "volume": 1980
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7582
             },
             {
-              "market_id": "1321501",
-              "slug": "will-wuthering-heights-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Wuthering Heights get the most Oscar nominations at the 99th Academy Awards",
-              "yes_price": 0.0685,
-              "volume": 1337
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0145,
+              "volume": 4365
             },
             {
-              "market_id": "1321498",
-              "slug": "will-project-hail-mary-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will Project Hail Mary get the most Oscar nominations at the 99th Academy Awards",
-              "yes_price": 0.0665,
-              "volume": 1974
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.014,
+              "volume": 3463
             },
             {
-              "market_id": "1321502",
-              "slug": "will-the-bride-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-              "question": "Will The Bride! get the most Oscar nominations at the 99th Academy Awards?",
-              "yes_price": 0.0115,
-              "volume": 1218
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.0065,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 4221
             }
           ],
-          "url": "https://polymarket.com/event/which-film-will-get-the-most-oscar-nominations-at-the-99th-academy-awards",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -231,16 +365,16 @@
         {
           "event_title": "Will USDT market cap hit $200B by ___?",
           "event_slug": "will-usdt-market-cap-hit-by-december-31",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
           "num_outcomes": 2,
           "outcomes": [
             {
               "market_id": "1068728",
               "slug": "will-usdt-market-cap-hit-200b-before-2027",
               "question": "Will USDT market cap hit $200B before 2027?",
-              "yes_price": 0.903,
+              "yes_price": 0.904,
               "volume": 143332
             },
             {
@@ -252,272 +386,355 @@
             }
           ],
           "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.695,
-              "volume": 4681
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0785,
-              "volume": 8138
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7582
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.017,
-              "volume": 3463
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0145,
-              "volume": 4365
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0065,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4221
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
-        },
-        {
-          "event_title": "Will __ ships transit the Strait of Hormuz on any day April 8-12?",
-          "event_slug": "will-ships-transit-the-strait-of-hormuz-on-any-day-april-8-12",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1920311",
-              "slug": "will-10-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
-              "question": "Will 10 ships transit the Strait of Hormuz on any day April 8\u201312?",
-              "yes_price": 0.64,
-              "volume": 16585
-            },
-            {
-              "market_id": "1920312",
-              "slug": "will-20-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
-              "question": "Will 20 ships transit the Strait of Hormuz on any day April 8\u201312?",
-              "yes_price": 0.1385,
-              "volume": 20207
-            },
-            {
-              "market_id": "1920313",
-              "slug": "will-30-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
-              "question": "Will 30 ships transit the Strait of Hormuz on any day April 8\u201312?",
-              "yes_price": 0.053,
-              "volume": 7541
-            },
-            {
-              "market_id": "1920315",
-              "slug": "will-50-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
-              "question": "Will 50 ships transit the Strait of Hormuz on any day April 8\u201312?",
-              "yes_price": 0.0315,
-              "volume": 15472
-            },
-            {
-              "market_id": "1920314",
-              "slug": "will-40-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
-              "question": "Will 40 ships transit the Strait of Hormuz on any day April 8\u201312?",
-              "yes_price": 0.028,
-              "volume": 5921
-            },
-            {
-              "market_id": "1920316",
-              "slug": "will-60-ships-transit-the-strait-of-hormuz-on-any-day-april-812",
-              "question": "Will 60 ships transit the Strait of Hormuz on any day April 8\u201312?",
-              "yes_price": 0.014,
-              "volume": 12674
-            }
-          ],
-          "url": "https://polymarket.com/event/will-ships-transit-the-strait-of-hormuz-on-any-day-april-8-12",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "How many ships will Iran successfully target by April 30?",
-          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1706115",
-              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
-              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.395,
-              "volume": 5879
-            },
-            {
-              "market_id": "1706116",
-              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
-              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.295,
-              "volume": 2440
-            },
-            {
-              "market_id": "1706118",
-              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
-              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.15,
-              "volume": 4978
-            },
-            {
-              "market_id": "1706117",
-              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
-              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.065,
-              "volume": 2689
-            },
-            {
-              "market_id": "1706113",
-              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
-              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
-              "yes_price": 0.0,
-              "volume": 24731
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Bulgaria Parliamentary Election: Margin of Victory",
-          "event_slug": "bulgaria-parliamentary-election-margin-of-victory",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1742068",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-5-10",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.47,
-              "volume": 4408
-            },
-            {
-              "market_id": "1742067",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-10-15",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.305,
-              "volume": 10496
-            },
-            {
-              "market_id": "1742066",
-              "slug": "will-progressive-bulgaria-pb-win-the-2026-bulgarian-parliamentary-election-by-15-20",
-              "question": "Will Progressive Bulgaria (PB) win the 2026 Bulgarian Parliamentary election by ",
-              "yes_price": 0.13,
-              "volume": 10914
-            }
-          ],
-          "url": "https://polymarket.com/event/bulgaria-parliamentary-election-margin-of-victory",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "What floor price will Milady hit before 2027?",
-          "event_slug": "what-floor-price-will-milady-hit-before-2027",
+          "event_title": "Trump drops Powell investigation by\u2026?",
+          "event_slug": "trump-drops-powell-investigation-by",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1099807",
-              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
-              "question": "Will Milady floor price reach 2 ETH before 2027?",
-              "yes_price": 0.505,
-              "volume": 11530
+              "market_id": "1719241",
+              "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-june-30",
+              "question": "Will the criminal investigation into Jerome Powell be dropped by June 30?",
+              "yes_price": 0.75,
+              "volume": 1490
             },
             {
-              "market_id": "1099806",
-              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
-              "question": "Will Milady floor price reach 4 ETH before 2027?",
-              "yes_price": 0.4,
-              "volume": 1894
+              "market_id": "1719240",
+              "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-april-30-918",
+              "question": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
+              "yes_price": 0.155,
+              "volume": 9951
             }
           ],
-          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
+          "url": "https://polymarket.com/event/trump-drops-powell-investigation-by",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "NHL James Norris Memorial Trophy Winner",
+          "event_slug": "nhl-2025-26-james-norris-memorial-trophy",
+          "yes_sum": 0.906,
+          "profit_pct": 9.4,
+          "profit_per_dollar_pct": 10.38,
+          "num_outcomes": 43,
+          "outcomes": [
+            {
+              "market_id": "645611",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-zach-werenski",
+              "question": "Will Zach Werenski win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.4965,
+              "volume": 5853
+            },
+            {
+              "market_id": "645615",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-evan-bouchard",
+              "question": "Will Evan Bouchard win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.3335,
+              "volume": 22632
+            },
+            {
+              "market_id": "645609",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-cale-makar",
+              "question": "Will Cale Makar win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.034,
+              "volume": 56889
+            },
+            {
+              "market_id": "645610",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-quinn-hughes",
+              "question": "Will Quinn Hughes win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0075,
+              "volume": 6431
+            },
+            {
+              "market_id": "645617",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-lane-hutson",
+              "question": "Will Lane Hutson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0055,
+              "volume": 3281
+            },
+            {
+              "market_id": "645645",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-moritz-seider",
+              "question": "Will Moritz Seider win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.004,
+              "volume": 2080
+            },
+            {
+              "market_id": "645631",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-ryker-evans",
+              "question": "Will Ryker Evans win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.003,
+              "volume": 1839
+            },
+            {
+              "market_id": "645612",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-rasmus-dahlin",
+              "question": "Will Rasmus Dahlin win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0015,
+              "volume": 3102
+            },
+            {
+              "market_id": "645626",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-jaccob-slavin",
+              "question": "Will Jaccob Slavin win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0015,
+              "volume": 2403
+            },
+            {
+              "market_id": "645614",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-roman-josi",
+              "question": "Will Roman Josi win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0015,
+              "volume": 1514
+            },
+            {
+              "market_id": "645616",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-victor-hedman",
+              "question": "Will Victor Hedman win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0015,
+              "volume": 2544
+            },
+            {
+              "market_id": "645655",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-darnell-nurse",
+              "question": "Will Darnell Nurse win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1346
+            },
+            {
+              "market_id": "645661",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-jakob-chychrun",
+              "question": "Will Jakob Chychrun win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1614
+            },
+            {
+              "market_id": "645619",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-thomas-harley",
+              "question": "Will Thomas Harley win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1831
+            },
+            {
+              "market_id": "645668",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-devon-toews",
+              "question": "Will Devon Toews win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1556
+            },
+            {
+              "market_id": "645669",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-colton-parayko",
+              "question": "Will Colton Parayko win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1446
+            },
+            {
+              "market_id": "645672",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-drew-doughty",
+              "question": "Will Drew Doughty win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1857
+            },
+            {
+              "market_id": "645622",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-jake-sanderson",
+              "question": "Will Jake Sanderson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1955
+            },
+            {
+              "market_id": "645625",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-charlie-mcavoy",
+              "question": "Will Charlie McAvoy win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1420
+            },
+            {
+              "market_id": "645677",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-thomas-chabot",
+              "question": "Will Thomas Chabot win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1336
+            },
+            {
+              "market_id": "645633",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-simon-edvinsson",
+              "question": "Will Simon Edvinsson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1635
+            },
+            {
+              "market_id": "645634",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-vince-dunn",
+              "question": "Will Vince Dunn win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1714
+            },
+            {
+              "market_id": "645640",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-neal-pionk",
+              "question": "Will Neal Pionk win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1834
+            },
+            {
+              "market_id": "645648",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-dougie-hamilton",
+              "question": "Will Dougie Hamilton win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1735
+            },
+            {
+              "market_id": "645658",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-brady-skjei",
+              "question": "Will Brady Skjei win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1544
+            },
+            {
+              "market_id": "645663",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-brock-faber",
+              "question": "Will Brock Faber win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1897
+            },
+            {
+              "market_id": "645670",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-travis-sanheim",
+              "question": "Will Travis Sanheim win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1553
+            },
+            {
+              "market_id": "645627",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-jackson-lacombe",
+              "question": "Will Jackson LaCombe win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1550
+            },
+            {
+              "market_id": "645636",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-cam-fowler",
+              "question": "Will Cam Fowler win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1578
+            },
+            {
+              "market_id": "645639",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-mike-matheson",
+              "question": "Will Mike Matheson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1625
+            },
+            {
+              "market_id": "645666",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-owen-power",
+              "question": "Will Owen Power win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1569
+            },
+            {
+              "market_id": "645637",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-philip-broberg",
+              "question": "Will Philip Broberg win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1648
+            },
+            {
+              "market_id": "645654",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-aaron-ekblad",
+              "question": "Will Aaron Ekblad win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1644
+            },
+            {
+              "market_id": "645656",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-kris-letang",
+              "question": "Will Kris Letang win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1511
+            },
+            {
+              "market_id": "645671",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-mason-lohrei",
+              "question": "Will Mason Lohrei win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1749
+            },
+            {
+              "market_id": "645674",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-mackenzie-weegar",
+              "question": "Will MacKenzie Weegar win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1499
+            },
+            {
+              "market_id": "645635",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-alex-vlasic",
+              "question": "Will Alex Vlasic win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 2145
+            },
+            {
+              "market_id": "645665",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-noah-hanifin",
+              "question": "Will Noah Hanifin win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1235
+            },
+            {
+              "market_id": "645623",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-luke-hughes",
+              "question": "Will Luke Hughes win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1764
+            },
+            {
+              "market_id": "645624",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-noah-dobson",
+              "question": "Will Noah Dobson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1615
+            },
+            {
+              "market_id": "645676",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-erik-karlsson",
+              "question": "Will Erik Karlsson win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1327
+            },
+            {
+              "market_id": "645649",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-brandon-montour",
+              "question": "Will Brandon Montour win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1866
+            },
+            {
+              "market_id": "645662",
+              "slug": "nhl-2025-26-james-norris-memorial-trophy-shayne-gostisbehere",
+              "question": "Will Shayne Gostisbehere win the 2025\u20132026 NHL James Norris Memorial Trophy?",
+              "yes_price": 0.0005,
+              "volume": 1488
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-2025-26-james-norris-memorial-trophy",
+          "strategy": "Buy YES on all 43 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 2026,
-        "skipped_single_outcome": 594,
-        "opportunities_found": 145,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-11 13:57 UTC"
+        "skipped_single_outcome": 596,
+        "opportunities_found": 137,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-11 14:11 UTC"
       }
     },
     {
@@ -527,7 +744,7 @@
       "hypothesis": "NEAR_CERTAIN is profitable (93.6% WR, +$16.32) but makes <$0.23/trade. Research shows pros scale these to thousands of dollars per trade to generate real income. At $10/bet we need 4,000+ trades to make $1,000.",
       "source": "Paper trade analysis + Grok research",
       "action": "Test 5x bet size increase ($10\u2192$50) on NEAR_CERTAIN. Downside: avg loss goes from $2.49 to $12.45. Need 93.6%+ WR sustained at higher sizes.",
-      "result": "W=3774 L=61 PnL=$635.25 open=42",
+      "result": "W=3777 L=61 PnL=$635.83 open=42",
       "priority": "HIGH"
     },
     {
