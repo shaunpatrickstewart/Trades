@@ -8,118 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 121 categorical arb opportunities found\nScanned 2300 events (1693 multi-outcome) at 2026-04-11 11:30 UTC\nBest: 10.0% profit on 'Avg. # of ships transiting Strait of Hormuz end of April?' \u2014 buy YES on all 7 outcomes (sum=0.9)\nStrategy: Buy YES on all 7 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What will S&P 500 (SPX) close at end of 2026?'",
+      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (2001 multi-outcome) at 2026-04-11 11:42 UTC\nBest: 9.9% profit on 'Sachsen-Anhalt Parliamentary Elections: 2nd Place' \u2014 buy YES on all 3 outcomes (sum=0.901)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.85% on 'Who will be UFC Welterweight champion at the end of 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 11:30 UTC",
+      "last_scan": "2026-04-11 11:42 UTC",
       "opportunities": [
-        {
-          "event_title": "Avg. # of ships transiting Strait of Hormuz end of April?",
-          "event_slug": "avg-of-ships-transiting-strait-of-hormuz-end-of-april",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1704815",
-              "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-april-30-753",
-              "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on",
-              "yes_price": 0.365,
-              "volume": 22395
-            },
-            {
-              "market_id": "1704816",
-              "slug": "will-there-be-between-10-and-20-average-daily-transits-of-the-strait-of-hormuz-on-april-30-633",
-              "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.137,
-              "volume": 10113
-            },
-            {
-              "market_id": "1704821",
-              "slug": "will-there-be-60-or-more-average-daily-transits-of-the-strait-of-hormuz-on-april-30-965",
-              "question": "Will there be 60 or more average daily transits of the Strait of Hormuz on April",
-              "yes_price": 0.125,
-              "volume": 23851
-            },
-            {
-              "market_id": "1704818",
-              "slug": "will-there-be-between-30-and-40-average-daily-transits-of-the-strait-of-hormuz-on-april-30-332",
-              "question": "Will there be between 30 and 40 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.082,
-              "volume": 8294
-            },
-            {
-              "market_id": "1704820",
-              "slug": "will-there-be-between-50-and-60-average-daily-transits-of-the-strait-of-hormuz-on-april-30-215",
-              "question": "Will there be between 50 and 60 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.081,
-              "volume": 7329
-            },
-            {
-              "market_id": "1704817",
-              "slug": "will-there-be-between-20-and-30-average-daily-transits-of-the-strait-of-hormuz-on-april-30-234",
-              "question": "Will there be between 20 and 30 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.061,
-              "volume": 8791
-            },
-            {
-              "market_id": "1704819",
-              "slug": "will-there-be-between-40-and-50-average-daily-transits-of-the-strait-of-hormuz-on-april-30-318",
-              "question": "Will there be between 40 and 50 average daily transits of the Strait of Hormuz o",
-              "yes_price": 0.049,
-              "volume": 7158
-            }
-          ],
-          "url": "https://polymarket.com/event/avg-of-ships-transiting-strait-of-hormuz-end-of-april",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
-          "event_slug": "spx-close-dec-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1125397",
-              "slug": "spx-close-below-6000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
-              "yes_price": 0.375,
-              "volume": 11127
-            },
-            {
-              "market_id": "1125399",
-              "slug": "spx-close-6500-7000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
-              "yes_price": 0.185,
-              "volume": 1373
-            },
-            {
-              "market_id": "1125398",
-              "slug": "spx-close-6000-6500-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
-              "yes_price": 0.17,
-              "volume": 1195
-            },
-            {
-              "market_id": "1126565",
-              "slug": "spx-close-7500-8000-dec-2026",
-              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
-              "yes_price": 0.095,
-              "volume": 1570
-            },
-            {
-              "market_id": "1125404",
-              "slug": "spx-close-above-8000-dec-2026-362-989-862",
-              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
-              "yes_price": 0.075,
-              "volume": 1708
-            }
-          ],
-          "url": "https://polymarket.com/event/spx-close-dec-2026",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
           "event_slug": "sachsen-anhalt-parliamentary-elections-2nd-place",
@@ -152,6 +44,39 @@
           ],
           "url": "https://polymarket.com/event/sachsen-anhalt-parliamentary-elections-2nd-place",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.765,
+              "volume": 3908
+            },
+            {
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.12,
+              "volume": 1320
+            },
+            {
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.0165,
+              "volume": 1318
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Russia capture Lyman by...?",
@@ -269,6 +194,53 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
+          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
+          "event_slug": "spx-close-dec-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1125397",
+              "slug": "spx-close-below-6000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
+              "yes_price": 0.375,
+              "volume": 11127
+            },
+            {
+              "market_id": "1125399",
+              "slug": "spx-close-6500-7000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
+              "yes_price": 0.19,
+              "volume": 1373
+            },
+            {
+              "market_id": "1125398",
+              "slug": "spx-close-6000-6500-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
+              "yes_price": 0.17,
+              "volume": 1195
+            },
+            {
+              "market_id": "1126565",
+              "slug": "spx-close-7500-8000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
+              "yes_price": 0.095,
+              "volume": 1570
+            },
+            {
+              "market_id": "1125404",
+              "slug": "spx-close-above-8000-dec-2026-362-989-862",
+              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
+              "yes_price": 0.075,
+              "volume": 1708
+            }
+          ],
+          "url": "https://polymarket.com/event/spx-close-dec-2026",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
           "event_title": "South Carolina Governor Democratic Primary Winner",
           "event_slug": "south-carolina-governor-democratic-primary-winner",
           "yes_sum": 0.905,
@@ -335,37 +307,11 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
-          "event_title": "Will USDT market cap hit $200B by ___?",
-          "event_slug": "will-usdt-market-cap-hit-by-december-31",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1068728",
-              "slug": "will-usdt-market-cap-hit-200b-before-2027",
-              "question": "Will USDT market cap hit $200B before 2027?",
-              "yes_price": 0.908,
-              "volume": 143324
-            },
-            {
-              "market_id": "569994",
-              "slug": "will-usdt-market-cap-hit-by-december-31",
-              "question": "Will USDT market cap hit $200B by December 31?",
-              "yes_price": 0.0,
-              "volume": 39278
-            }
-          ],
-          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
-        },
-        {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
           "num_outcomes": 4,
           "outcomes": [
             {
@@ -386,7 +332,7 @@
               "market_id": "1271611",
               "slug": "will-opensea-launch-a-token-by-june-30-2026",
               "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.068,
+              "yes_price": 0.0675,
               "volume": 188289
             },
             {
@@ -398,70 +344,68 @@
             }
           ],
           "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         },
         {
-          "event_title": "Highest temperature in Moscow on April 13?",
-          "event_slug": "highest-temperature-in-moscow-on-april-13-2026",
+          "event_title": "Will USDT market cap hit $200B by ___?",
+          "event_slug": "will-usdt-market-cap-hit-by-december-31",
           "yes_sum": 0.9095,
           "profit_pct": 9.05,
           "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 6,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1924747",
-              "slug": "highest-temperature-in-moscow-on-april-13-2026-11corhigher",
-              "question": "Will the highest temperature in Moscow be 11\u00b0C or higher on April 13?",
-              "yes_price": 0.895,
-              "volume": 1041
+              "market_id": "1068728",
+              "slug": "will-usdt-market-cap-hit-200b-before-2027",
+              "question": "Will USDT market cap hit $200B before 2027?",
+              "yes_price": 0.9095,
+              "volume": 143324
             },
             {
-              "market_id": "1924738",
-              "slug": "highest-temperature-in-moscow-on-april-13-2026-2c",
-              "question": "Will the highest temperature in Moscow be 2\u00b0C on April 13?",
-              "yes_price": 0.005,
-              "volume": 1784
-            },
-            {
-              "market_id": "1924740",
-              "slug": "highest-temperature-in-moscow-on-april-13-2026-4c",
-              "question": "Will the highest temperature in Moscow be 4\u00b0C on April 13?",
-              "yes_price": 0.0035,
-              "volume": 1447
-            },
-            {
-              "market_id": "1924741",
-              "slug": "highest-temperature-in-moscow-on-april-13-2026-5c",
-              "question": "Will the highest temperature in Moscow be 5\u00b0C on April 13?",
-              "yes_price": 0.0035,
-              "volume": 1204
-            },
-            {
-              "market_id": "1924743",
-              "slug": "highest-temperature-in-moscow-on-april-13-2026-7c",
-              "question": "Will the highest temperature in Moscow be 7\u00b0C on April 13?",
-              "yes_price": 0.0015,
-              "volume": 1223
-            },
-            {
-              "market_id": "1924739",
-              "slug": "highest-temperature-in-moscow-on-april-13-2026-3c",
-              "question": "Will the highest temperature in Moscow be 3\u00b0C on April 13?",
-              "yes_price": 0.001,
-              "volume": 1552
+              "market_id": "569994",
+              "slug": "will-usdt-market-cap-hit-by-december-31",
+              "question": "Will USDT market cap hit $200B by December 31?",
+              "yes_price": 0.0,
+              "volume": 39278
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-moscow-on-april-13-2026",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets",
+          "event_slug": "chi-sgr-tie-2026-04-18-more-markets",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1683329",
+              "slug": "chi-sgr-tie-2026-04-18-total-2pt5",
+              "question": "Shanghai Shenhua FC vs. Liaoning Tieren FC: O/U 2.5",
+              "yes_price": 0.495,
+              "volume": 22933
+            },
+            {
+              "market_id": "1683333",
+              "slug": "chi-sgr-tie-2026-04-18-total-3pt5",
+              "question": "Shanghai Shenhua FC vs. Liaoning Tieren FC: O/U 3.5",
+              "yes_price": 0.415,
+              "volume": 2849
+            }
+          ],
+          "url": "https://polymarket.com/event/chi-sgr-tie-2026-04-18-more-markets",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
-        "total_events": 2300,
-        "checked_multi_outcome": 1693,
-        "skipped_single_outcome": 468,
-        "opportunities_found": 121,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 11:30 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 2001,
+        "skipped_single_outcome": 595,
+        "opportunities_found": 140,
+        "best_profit_pct": 9.9,
+        "scanned_at": "2026-04-11 11:42 UTC"
       }
     },
     {
