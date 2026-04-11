@@ -401,6 +401,8 @@
       const roiS = s.walletRoi>=0
         ? '<span class="green">+'+s.walletRoi.toFixed(1)+'% ROI</span>'
         : '<span class="red">'+s.walletRoi.toFixed(1)+'% ROI</span>';
+      const mult = s.price > 0 ? (1/s.price).toFixed(2) : '—';
+      const multColor = s.price <= 0.40 ? '#00cc66' : s.price <= 0.60 ? '#ffcc44' : '#888';
       return (
         '<div class="signal-card">'+
           '<div class="sig-top">'+
@@ -409,6 +411,7 @@
           '</div>'+
           '<div class="sig-meta">'+
             '<span class="blue">'+s.price.toFixed(3)+'</span>'+
+            '<span style="color:'+multColor+';font-size:0.75em;font-weight:700">→ '+mult+'x</span>'+
             '<span class="unc-wrap">'+
               '<div class="unc-bar-bg"><div class="unc-bar-fill" style="width:'+uncW+'%"></div></div>'+
               '<span style="color:#444">'+Math.round(unc)+'%</span>'+
