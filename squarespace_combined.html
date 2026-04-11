@@ -88,7 +88,7 @@
         <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
         <span class="panel-count" id="perf-count">—</span>
       </div>
-      <div class="panel-desc">Live paper trade results. Active engines: WALLET COPY SHORT (elite wallet positions expiring ≤14d) + WALLET COPY LONG (longer-horizon wallet copy). Near-Certain paused — $0.09 avg win cannot offset $17 avg loss at current bet sizes.</div>
+      <div class="panel-desc">Live paper trade results. Active engines: NEAR-CERTAIN (98.4% WR · +$608 net) + WALLET COPY SHORT + WALLET COPY LONG. All engines running. Real-time stats computed from paper_trades.jsonl.</div>
     </div>
     <div class="panel-body" id="pm-performance">
       <div class="loader">Loading results</div>
@@ -155,6 +155,22 @@
     </div>
     <div class="panel-body" id="lab-panel" style="max-height:400px">
       <div class="loader">Loading experiments...</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ LIVE NEWS & X SIGNALS — FULL WIDTH ════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #1d9bf0">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#1d9bf0">&#9650; Live News &amp; X Signals — AI Market Scanner</span>
+        <span class="panel-count" id="signals-count">—</span>
+      </div>
+      <div class="panel-desc">Real-time trading signals from X/Grok + Perplexity. Scans every 5 minutes for breaking news that affects open Polymarket positions. ENTER = high-confidence trade trigger. ALERT = monitor closely.</div>
+    </div>
+    <div class="panel-body" id="pm-news-signals" style="max-height:320px">
+      <div class="loader">Scanning news and X for signals</div>
     </div>
   </div>
 </div>
@@ -239,7 +255,7 @@
     if (h<=24) return '<span style="color:#ff4455">' +h+ 'h</span>';
     if (d<=3)  return '<span style="color:#ffcc44">' +d+ 'd</span>';
     if (d<=7)  return '<span style="color:#ccaa44">' +d+ 'd</span>';
-    return '<span style="color:#2a2a2a">' +d+ 'd</span>';
+    return '<span style="color:#777">' +d+ 'd</span>';
   }
 
   function pctColor(p) {
@@ -735,7 +751,9 @@
         '<tr>'+
         '<td class="dim">'+(i+1)+'</td>'+
         '<td>'+name+'</td>'+
-        '<td class="green">'+fmt(pnl)+'</td>'+
+        '<td class="'+(pnl>=0?'green':'red')+'">'+
+          (pnl<0?'-':'')+fmt(Math.abs(pnl))+
+        '</td>'+
         '<td style="color:'+(roi>=0?'#00ff88':'#ff4455')+'">'+roi.toFixed(1)+'%</td>'+
         '<td class="dim hm">'+fmt(vol)+'</td>'+
         '<td style="line-height:1.9;font-size:0.84em">'+posHtml+'</td>'+
@@ -850,7 +868,7 @@
         if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
         if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
       });
-      const engColors = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', UNKNOWN:'#888'};
+      const engColors = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', NEWS:'#ff8844', UNKNOWN:'#888'};
       let engHtml = '<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;padding:8px 0;border-bottom:1px solid #dddddd">';
       Object.entries(byEngine).sort((a,b)=>b[1].realPnl-a[1].realPnl).forEach(([eng,d])=>{
         const c = engColors[eng]||'#888';
@@ -1201,7 +1219,7 @@
 
   // ── RENDER: Live News & X Signals
   async function renderSignalsFeed() {
-    const el = document.getElementById('news-signals-panel');
+    const el = document.getElementById('pm-news-signals');
     if (!el) return;
     try {
       const SIG_URL = 'https://shaunpatrickstewart.github.io/trades/signals.json?v='+Date.now();
