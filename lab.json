@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 149 categorical arb opportunities found\nScanned 3000 events (2011 multi-outcome) at 2026-04-11 13:11 UTC\nBest: 10.0% profit on 'Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Michigan Governor Republican Primary Winner'",
+      "result": "LIVE \u2014 150 categorical arb opportunities found\nScanned 3000 events (2017 multi-outcome) at 2026-04-11 13:14 UTC\nBest: 10.0% profit on 'Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Will USDT market cap hit $200B by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-11 13:11 UTC",
+      "last_scan": "2026-04-11 13:14 UTC",
       "opportunities": [
         {
           "event_title": "Shanghai Shenhua FC vs. Liaoning Tieren FC - More Markets",
@@ -37,6 +37,32 @@
           ],
           "url": "https://polymarket.com/event/chi-sgr-tie-2026-04-18-more-markets",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Will USDT market cap hit $200B by ___?",
+          "event_slug": "will-usdt-market-cap-hit-by-december-31",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1068728",
+              "slug": "will-usdt-market-cap-hit-200b-before-2027",
+              "question": "Will USDT market cap hit $200B before 2027?",
+              "yes_price": 0.9005,
+              "volume": 143332
+            },
+            {
+              "market_id": "569994",
+              "slug": "will-usdt-market-cap-hit-by-december-31",
+              "question": "Will USDT market cap hit $200B by December 31?",
+              "yes_price": 0.0,
+              "volume": 39278
+            }
+          ],
+          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Michigan Governor Republican Primary Winner",
@@ -77,60 +103,6 @@
           ],
           "url": "https://polymarket.com/event/michigan-governor-republican-primary-winner",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
-          "event_title": "April 2026 Temperature Increase (\u00baC)",
-          "event_slug": "april-2026-temperature-increase-c",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "1694906",
-              "slug": "will-global-temperature-increase-by-between-1pt20c-and-1pt24c-in-april-2026",
-              "question": "Will global temperature increase by between 1.20\u00baC and 1.24\u00baC in April 2026?",
-              "yes_price": 0.28,
-              "volume": 7205
-            },
-            {
-              "market_id": "1694905",
-              "slug": "will-global-temperature-increase-by-between-1pt15c-and-1pt19c-in-april-2026",
-              "question": "Will global temperature increase by between 1.15\u00baC and 1.19\u00baC in April 2026?",
-              "yes_price": 0.25,
-              "volume": 5573
-            },
-            {
-              "market_id": "1694904",
-              "slug": "will-global-temperature-increase-by-between-1pt10c-and-1pt14c-in-april-2026",
-              "question": "Will global temperature increase by between 1.10\u00baC and 1.14\u00baC in April 2026?",
-              "yes_price": 0.135,
-              "volume": 3733
-            },
-            {
-              "market_id": "1694907",
-              "slug": "will-global-temperature-increase-by-between-1pt25c-and-1pt29c-in-april-2026",
-              "question": "Will global temperature increase by between 1.25\u00baC and 1.29\u00baC in April 2026?",
-              "yes_price": 0.12,
-              "volume": 15464
-            },
-            {
-              "market_id": "1694903",
-              "slug": "will-global-temperature-increase-by-less-than-1pt10c-in-april-2026",
-              "question": "Will global temperature increase by less than 1.10\u00baC in April 2026?",
-              "yes_price": 0.061,
-              "volume": 22876
-            },
-            {
-              "market_id": "1694908",
-              "slug": "will-global-temperature-increase-by-more-than-1pt29c-in-april-2026",
-              "question": "Will global temperature increase by more than 1.29\u00baC in April 2026?",
-              "yes_price": 0.055,
-              "volume": 7974
-            }
-          ],
-          "url": "https://polymarket.com/event/april-2026-temperature-increase-c",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
           "event_title": "Sachsen-Anhalt Parliamentary Elections: 2nd Place",
@@ -260,46 +232,6 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "2nd richest person on December 31?",
-          "event_slug": "2nd-richest-person-on-december-31",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1302181",
-              "slug": "will-larry-page-be-2nd-richest-person-on-december-31",
-              "question": "Will Larry Page be 2nd richest person on December 31?",
-              "yes_price": 0.435,
-              "volume": 5682
-            },
-            {
-              "market_id": "1302183",
-              "slug": "will-sergey-brin-be-2nd-richest-person-on-december-31",
-              "question": "Will Sergey Brin be 2nd richest person on December 31?",
-              "yes_price": 0.24,
-              "volume": 4968
-            },
-            {
-              "market_id": "1302173",
-              "slug": "will-jeff-bezos-be-2nd-richest-person-on-december-31",
-              "question": "Will Jeff Bezos be 2nd richest person on December 31?",
-              "yes_price": 0.209,
-              "volume": 9320
-            },
-            {
-              "market_id": "1302178",
-              "slug": "will-warren-buffett-be-2nd-richest-person-on-december-31",
-              "question": "Will Warren Buffett be 2nd richest person on December 31?",
-              "yes_price": 0.019,
-              "volume": 1080
-            }
-          ],
-          "url": "https://polymarket.com/event/2nd-richest-person-on-december-31",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
           "event_title": "Will Russia capture Lyman by...?",
           "event_slug": "will-russia-capture-lyman-in-2025",
           "yes_sum": 0.9035,
@@ -368,102 +300,6 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.695,
-              "volume": 4681
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.079,
-              "volume": 8138
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.055,
-              "volume": 7582
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0165,
-              "volume": 3463
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0145,
-              "volume": 4365
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.013,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.0065,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 4221
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
-        },
-        {
           "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
           "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
           "yes_sum": 0.905,
@@ -509,15 +345,88 @@
           ],
           "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "How many ships will Iran successfully target by April 30?",
+          "event_slug": "how-many-ships-will-iran-successfully-target-by-april-30",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1706115",
+              "slug": "will-23-ships-be-successfully-targeted-by-iran-by-april-30-589",
+              "question": "Will 2\u20133 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.395,
+              "volume": 5879
+            },
+            {
+              "market_id": "1706116",
+              "slug": "will-45-ships-be-successfully-targeted-by-iran-by-april-30-494",
+              "question": "Will 4\u20135 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.31,
+              "volume": 2440
+            },
+            {
+              "market_id": "1706118",
+              "slug": "will-89-ships-be-successfully-targeted-by-iran-by-april-30-113",
+              "question": "Will 8\u20139 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.14,
+              "volume": 4978
+            },
+            {
+              "market_id": "1706117",
+              "slug": "will-67-ships-be-successfully-targeted-by-iran-by-april-30-177",
+              "question": "Will 6\u20137 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.06,
+              "volume": 2689
+            },
+            {
+              "market_id": "1706113",
+              "slug": "will-fewer-than-2-ships-be-successfully-targeted-by-iran-by-april-30-439",
+              "question": "Will fewer than 2 ships be successfully targeted by Iran by April 30?",
+              "yes_price": 0.0,
+              "volume": 24731
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-ships-will-iran-successfully-target-by-april-30",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "CO-08 Democratic Primary Winner",
+          "event_slug": "co-08-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "704026",
+              "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
+              "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
+              "yes_price": 0.83,
+              "volume": 8789
+            },
+            {
+              "market_id": "704025",
+              "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
+              "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
+              "yes_price": 0.075,
+              "volume": 1297
+            }
+          ],
+          "url": "https://polymarket.com/event/co-08-democratic-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2011,
-        "skipped_single_outcome": 602,
-        "opportunities_found": 149,
+        "checked_multi_outcome": 2017,
+        "skipped_single_outcome": 597,
+        "opportunities_found": 150,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-11 13:11 UTC"
+        "scanned_at": "2026-04-11 13:14 UTC"
       }
     },
     {
