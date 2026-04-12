@@ -8,108 +8,110 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1969 multi-outcome) at 2026-04-12 19:12 UTC\nBest: 10.0% profit on 'Relay FDV above ___ one day after launch?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What floor price will Milady hit before 2027?'",
+      "result": "LIVE \u2014 130 categorical arb opportunities found\nScanned 3000 events (1965 multi-outcome) at 2026-04-12 19:26 UTC\nBest: 10.0% profit on 'Athletics vs. New York Mets' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.85% on 'Maduro Prison Time?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 19:12 UTC",
+      "last_scan": "2026-04-12 19:26 UTC",
       "opportunities": [
         {
-          "event_title": "Relay FDV above ___ one day after launch?",
-          "event_slug": "relay-fdv-above-one-day-after-launch",
+          "event_title": "Athletics vs. New York Mets",
+          "event_slug": "mlb-oak-nym-2026-04-12",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 4,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1361726",
-              "slug": "relay-fdv-above-300m-one-day-after-launch",
-              "question": "Relay FDV above $300M one day after launch?",
-              "yes_price": 0.34,
-              "volume": 2643
+              "market_id": "1890652",
+              "slug": "mlb-oak-nym-2026-04-12",
+              "question": "Athletics vs. New York Mets",
+              "yes_price": 0.645,
+              "volume": 173227
             },
             {
-              "market_id": "1361725",
-              "slug": "relay-fdv-above-100m-one-day-after-launch",
-              "question": "Relay FDV above $100M one day after launch?",
-              "yes_price": 0.295,
-              "volume": 17380
+              "market_id": "1948790",
+              "slug": "mlb-oak-nym-2026-04-12-spread-home-1pt5",
+              "question": "Spread: New York Mets (-1.5)",
+              "yes_price": 0.12,
+              "volume": 34679
             },
             {
-              "market_id": "1361727",
-              "slug": "relay-fdv-above-500m-one-day-after-launch",
-              "question": "Relay FDV above $500M one day after launch?",
-              "yes_price": 0.14,
-              "volume": 8602
+              "market_id": "1958110",
+              "slug": "mlb-oak-nym-2026-04-12-total-7pt5",
+              "question": "Athletics vs. New York Mets: O/U 7.5",
+              "yes_price": 0.07,
+              "volume": 141150
             },
             {
-              "market_id": "1361729",
-              "slug": "relay-fdv-above-700m-one-day-after-launch",
-              "question": "Relay FDV above $700M one day after launch?",
-              "yes_price": 0.125,
-              "volume": 1187
+              "market_id": "1948791",
+              "slug": "mlb-oak-nym-2026-04-12-total-8pt5",
+              "question": "Athletics vs. New York Mets: O/U 8.5",
+              "yes_price": 0.06,
+              "volume": 15862
+            },
+            {
+              "market_id": "1890653",
+              "slug": "mlb-oak-nym-2026-04-12-nrfi",
+              "question": "Will there be a run scored in the first inning?: Athletics vs. New York Mets",
+              "yes_price": 0.005,
+              "volume": 1665
             }
           ],
-          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/mlb-oak-nym-2026-04-12",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "What floor price will Milady hit before 2027?",
-          "event_slug": "what-floor-price-will-milady-hit-before-2027",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
+          "event_title": "Maduro Prison Time?",
+          "event_slug": "maduro-prison-time-527",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1099807",
-              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
-              "question": "Will Milady floor price reach 2 ETH before 2027?",
-              "yes_price": 0.53,
-              "volume": 11530
+              "market_id": "1098292",
+              "slug": "will-nicols-maduro-be-sentenced-to-at-least-60-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to at least 60 years in prison?",
+              "yes_price": 0.355,
+              "volume": 30741
             },
             {
-              "market_id": "1099806",
-              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
-              "question": "Will Milady floor price reach 4 ETH before 2027?",
-              "yes_price": 0.37,
-              "volume": 1894
-            }
-          ],
-          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Will Russia enter Dovha Balka by...?",
-          "event_slug": "will-russia-enter-dovha-balka-by-march-31",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1729390",
-              "slug": "will-russia-enter-dovha-balka-by-april-30",
-              "question": "Will Russia enter Dovha Balka by April 30?",
-              "yes_price": 0.901,
-              "volume": 34722
+              "market_id": "1098288",
+              "slug": "will-nicols-maduro-be-sentenced-to-no-prison-time-974",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to no prison time?",
+              "yes_price": 0.265,
+              "volume": 362921
             },
             {
-              "market_id": "1494063",
-              "slug": "will-russia-enter-dovha-balka-by-march-31",
-              "question": "Will Russia enter Dovha Balka by March 31?",
-              "yes_price": 0.0,
-              "volume": 13849
+              "market_id": "1098291",
+              "slug": "will-nicols-maduro-be-sentenced-to-between-40-and-60-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to between 40 and 60 years in prison?",
+              "yes_price": 0.15,
+              "volume": 13957
+            },
+            {
+              "market_id": "1098289",
+              "slug": "will-nicols-maduro-be-sentenced-to-less-than-20-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to less than 20 years in prison?",
+              "yes_price": 0.0775,
+              "volume": 28519
+            },
+            {
+              "market_id": "1098290",
+              "slug": "will-nicols-maduro-be-sentenced-to-between-20-and-40-years-in-prison",
+              "question": "Will Nicol\u00e1s Maduro be sentenced to between 20 and 40 years in prison?",
+              "yes_price": 0.054,
+              "volume": 33898
             }
           ],
-          "url": "https://polymarket.com/event/will-russia-enter-dovha-balka-by-march-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+          "url": "https://polymarket.com/event/maduro-prison-time-527",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9035,
-          "profit_pct": 9.65,
-          "profit_per_dollar_pct": 10.68,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -117,21 +119,21 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1875,
-              "volume": 10117717
+              "volume": 10117917
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1695,
-              "volume": 13717114
+              "yes_price": 0.1685,
+              "volume": 13718930
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.097,
-              "volume": 6001734
+              "volume": 6001754
             },
             {
               "market_id": "561231",
@@ -145,21 +147,21 @@
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0435,
-              "volume": 3437092
+              "volume": 3437236
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0325,
-              "volume": 6954180
+              "volume": 6954973
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0275,
-              "volume": 9867291
+              "volume": 9867311
             },
             {
               "market_id": "561233",
@@ -173,14 +175,14 @@
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 6929075
+              "volume": 6929177
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.018,
-              "volume": 8673220
+              "volume": 8674135
             },
             {
               "market_id": "561232",
@@ -243,7 +245,7 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22653478
+              "volume": 22653796
             },
             {
               "market_id": "561258",
@@ -257,14 +259,14 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31850688
+              "volume": 31851233
             },
             {
               "market_id": "561255",
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4536229
+              "volume": 4536254
             },
             {
               "market_id": "561257",
@@ -278,77 +280,77 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 7065916
+              "volume": 7066378
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29586942
+              "volume": 29587185
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9194682
+              "volume": 9194855
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 21789565
+              "volume": 21789802
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17565864
+              "volume": 17566073
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6587885
+              "volume": 6588267
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39472935
+              "volume": 39473175
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6465737
+              "volume": 6466049
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28136004
+              "volume": 28136204
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4347158
+              "volume": 4347495
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30985699
+              "volume": 30986267
             },
             {
               "market_id": "561254",
@@ -362,11 +364,11 @@
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46283614
+              "volume": 46284300
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -409,29 +411,130 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "Vermont Governor Election Winner",
-          "event_slug": "vermont-governor-winner-2026",
+          "event_title": "How many Tornadoes in the US in 2026?",
+          "event_slug": "how-many-tornadoes-in-the-us-in-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1428393",
+              "slug": "will-1250-or-more-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1250 or more tornadoes occur in the United States in 2026?",
+              "yes_price": 0.31,
+              "volume": 14527
+            },
+            {
+              "market_id": "1428392",
+              "slug": "will-1200-to-1249-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1200 to 1249 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.2095,
+              "volume": 14432
+            },
+            {
+              "market_id": "1428365",
+              "slug": "will-fewer-than-950-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will fewer than 950 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.12,
+              "volume": 21053
+            },
+            {
+              "market_id": "1428381",
+              "slug": "will-1050-to-1099-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1050 to 1099 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.1,
+              "volume": 6633
+            },
+            {
+              "market_id": "1428391",
+              "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.0705,
+              "volume": 1147
+            },
+            {
+              "market_id": "1428380",
+              "slug": "will-1000-to-1049-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1000 to 1049 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.056,
+              "volume": 1139
+            },
+            {
+              "market_id": "1428374",
+              "slug": "will-950-to-999-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 950 to 999 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.039,
+              "volume": 2049
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Relay FDV above ___ one day after launch?",
+          "event_slug": "relay-fdv-above-one-day-after-launch",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1361726",
+              "slug": "relay-fdv-above-300m-one-day-after-launch",
+              "question": "Relay FDV above $300M one day after launch?",
+              "yes_price": 0.34,
+              "volume": 2643
+            },
+            {
+              "market_id": "1361725",
+              "slug": "relay-fdv-above-100m-one-day-after-launch",
+              "question": "Relay FDV above $100M one day after launch?",
+              "yes_price": 0.295,
+              "volume": 17380
+            },
+            {
+              "market_id": "1361727",
+              "slug": "relay-fdv-above-500m-one-day-after-launch",
+              "question": "Relay FDV above $500M one day after launch?",
+              "yes_price": 0.14,
+              "volume": 8602
+            },
+            {
+              "market_id": "1361729",
+              "slug": "relay-fdv-above-700m-one-day-after-launch",
+              "question": "Relay FDV above $700M one day after launch?",
+              "yes_price": 0.13,
+              "volume": 1187
+            }
+          ],
+          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Sabres vs. Blackhawks",
+          "event_slug": "nhl-buf-chi-2026-04-13",
           "yes_sum": 0.905,
           "profit_pct": 9.5,
           "profit_per_dollar_pct": 10.5,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "629708",
-              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Republicans win the Vermont governor race in 2026?",
-              "yes_price": 0.77,
-              "volume": 4674
+              "market_id": "1628340",
+              "slug": "nhl-buf-chi-2026-04-13",
+              "question": "Sabres vs. Blackhawks",
+              "yes_price": 0.645,
+              "volume": 9306
             },
             {
-              "market_id": "629707",
-              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
-              "question": "Will the Democrats win the Vermont governor race in 2026?",
-              "yes_price": 0.135,
-              "volume": 6883
+              "market_id": "1628347",
+              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
+              "question": "Sabres vs. Blackhawks: O/U 7.5",
+              "yes_price": 0.26,
+              "volume": 19714
             }
           ],
-          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
+          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
@@ -585,37 +688,11 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "Montana Senate Election Winner",
-          "event_slug": "montana-senate-election-winner",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "630832",
-              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
-              "question": "Will the Republicans win the Montana Senate race in 2026?",
-              "yes_price": 0.785,
-              "volume": 34484
-            },
-            {
-              "market_id": "630831",
-              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
-              "question": "Will the Democrats win the Montana Senate race in 2026?",
-              "yes_price": 0.1245,
-              "volume": 25855
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-senate-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
           "event_title": "MLS Cup Winner 2026",
           "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.911,
-          "profit_pct": 8.9,
-          "profit_per_dollar_pct": 9.77,
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
           "num_outcomes": 30,
           "outcomes": [
             {
@@ -636,7 +713,7 @@
               "market_id": "1349172",
               "slug": "will-vancouver-whitecaps-fc-win-the-2026-mls-cup",
               "question": "Will Vancouver Whitecaps FC win the 2026 MLS Cup?",
-              "yes_price": 0.1145,
+              "yes_price": 0.114,
               "volume": 349457
             },
             {
@@ -658,7 +735,7 @@
               "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
               "question": "Will FC Cincinnati win the 2026 MLS Cup?",
               "yes_price": 0.038,
-              "volume": 544934
+              "volume": 545024
             },
             {
               "market_id": "1349160",
@@ -685,7 +762,7 @@
               "market_id": "1349171",
               "slug": "will-toronto-fc-win-the-2026-mls-cup",
               "question": "Will Toronto FC win the 2026 MLS Cup?",
-              "yes_price": 0.0245,
+              "yes_price": 0.024,
               "volume": 18756
             },
             {
@@ -721,7 +798,7 @@
               "slug": "will-real-salt-lake-win-the-2026-mls-cup",
               "question": "Will Real Salt Lake win the 2026 MLS Cup?",
               "yes_price": 0.0145,
-              "volume": 2462184
+              "volume": 2462243
             },
             {
               "market_id": "1349153",
@@ -812,7 +889,7 @@
               "slug": "will-dc-united-win-the-2026-mls-cup",
               "question": "Will D.C. United win the 2026 MLS Cup?",
               "yes_price": 0.003,
-              "volume": 2418
+              "volume": 2431
             },
             {
               "market_id": "1349159",
@@ -830,16 +907,16 @@
             }
           ],
           "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1969,
-        "skipped_single_outcome": 635,
-        "opportunities_found": 132,
+        "checked_multi_outcome": 1965,
+        "skipped_single_outcome": 636,
+        "opportunities_found": 130,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 19:12 UTC"
+        "scanned_at": "2026-04-12 19:26 UTC"
       }
     },
     {
