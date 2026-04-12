@@ -1,30 +1,30 @@
 {
-  "last_scan": "2026-04-12T08:03:32.349147+00:00",
-  "scan_seconds": 49.4,
+  "last_scan": "2026-04-12T08:10:34.003115+00:00",
+  "scan_seconds": 61.4,
   "markets_scanned": 44,
   "open_positions": 17,
   "signals": [
     {
-      "id": "sig_742452",
-      "timestamp": "2026-04-12T08:02:46.470783+00:00",
+      "id": "sig_160121",
+      "timestamp": "2026-04-12T08:09:44.138928+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Announced on April 8 | YES | HIGH confidence**",
-      "raw": "US-Iran Two-Week Ceasefire Announced on April 8 | YES | HIGH confidence**\n\nA two-week ceasefire between the US and Iran was confirmed on April 8, 2026, mediated by Pakistan, following Iran's 10-point proposal and US President Trump's announcement on Truth Social, with Iran agreeing to conditions including potential reopening of the Strait of Hormuz.[1][2][3][4] This de-escalation has triggered maj",
-      "direction": "YES",
+      "headline": "BREAK-IN AT VP JD VANCE'S CINCINNATI HOME: ONE SUSPECT DETAINED | NO | LOW confidence**",
+      "raw": "BREAK-IN AT VP JD VANCE'S CINCINNATI HOME: ONE SUSPECT DETAINED | NO | LOW confidence**\n\nPolice and US Secret Service are investigating a break-in at Vice President **JD Vance**'s $1.4 million **East Walnut Hills house** early Monday morning, with multiple windows smashed and one individual taken into custody at the scene[1][1]. Authorities have not confirmed charges, motives, or Vance's presence ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "2026 Balance of Power: R Senate, D House"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_752489",
-      "timestamp": "2026-04-12T08:02:56.507690+00:00",
+      "id": "sig_165522",
+      "timestamp": "2026-04-12T08:09:49.539974+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news that would move prediction markets from these search results",
-      "raw": "I cannot identify breaking news that would move prediction markets from these search results. The most recent game information is from April 11, 2026\u2014the Denver Nuggets defeated the Oklahoma City Thunder 127-107[1]\u2014but this appears to be a regular season game, not Finals-related news or a market-moving announcement.\n\nThe search results discuss playoff positioning and strategic implications[2][4], ",
+      "headline": "Based on the search results provided, I cannot identify any breaking news that has just been confirmed or announced rega",
+      "raw": "Based on the search results provided, I cannot identify any breaking news that has just been confirmed or announced regarding the NBA Finals or Oklahoma City Thunder that would move prediction markets.\n\nThe most recent information available is from **April 11, 2026** (yesterday), which covered:",
       "direction": null,
       "confidence": 0.9,
       "matched_markets": [
@@ -35,135 +35,256 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_758112",
-      "timestamp": "2026-04-12T08:03:02.130097+00:00",
+      "id": "sig_165529",
+      "timestamp": "2026-04-12T08:09:49.546003+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**  \nPolymarket traders on X are heavily discussing the \"Iran x Israel/US conflict ends by...?\" market, currently at 94% odds for December 31 with top volume among 1345 X-related markets, signaling strong crowd consensus on prolonged tensions.[1]",
+      "headline": "Confirmation that the **Thunder have already clinched the No",
+      "raw": "Confirmation that the **Thunder have already clinched the No. 1 seed and best regular-season record**[1][4]",
       "direction": "NO",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_788327",
-      "timestamp": "2026-04-12T08:03:32.345675+00:00",
-      "source": "X_GROK",
-      "headline": "Trump warns China on Iran arms:** @Polymarket (2",
-      "raw": "Trump warns China on Iran arms:** @Polymarket (2.6k likes) post; @PredyX_bot sees smart money on YES military ops end by Apr15 (odds +7pts to 20%, deal likely). Bullish resolution.[[6]](https://x.com/i/status/2043079038353199418)[[7]](https://x.com/i/status/2043217269547765875)\nConfidence: MED (rhetoric vs. odds move).",
+      "id": "sig_165532",
+      "timestamp": "2026-04-12T08:09:49.549265+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Multiple Thunder players ruled out for today's regular-season finale against Phoenix due to injury management (Shai Gilg",
+      "raw": "Multiple Thunder players ruled out for today's regular-season finale against Phoenix due to injury management (Shai Gilgeous-Alexander, Jalen Williams, Isaiah Hartenstein, and others)[2][3]\n\nHowever, these are not new announcements\u2014they represent strategic decisions already made ahead of the playoffs, not breaking developments that would significantly alter Finals predictions.\n\nThe search results ",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_173636",
+      "timestamp": "2026-04-12T08:09:57.653490+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by Dec 31",
+      "raw": "Iran x Israel/US Conflict Ends by Dec 31? | YES 94% | HIGH confidence**  \nPolymarket's most active X-related market assigns a **94% probability** to the Iran-Israel/US conflict ending by December 31, 2026, amid $78.6M total X market volume, signaling strong trader consensus on de-escalation[1]. Real-time odds reflect recent trading, potentially driven by unconfirmed diplomatic signals or news not ",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043079038353199418)[[7]](https://x.com/i/status/2043217269547765875)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_758115",
-      "timestamp": "2026-04-12T08:03:02.133265+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Bets Surge with High Volume | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Bets Surge with High Volume | NO | HIGH confidence**  \nActive X posts highlight Elon Musk tweet markets like \"April 10-17, 2026\" (30% on 240-259 tweets, $3M vol, $1M today) and \"April 11-13\" (55% on 65-89, $609K vol, $489K today), indicating real-time trader focus on his posting activity amid $15.3M+ total post volume.[3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Elon Musk post 40-64 tweets from April 11 to April 13, 2026?"
-      ],
-      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_758118",
-      "timestamp": "2026-04-12T08:03:02.136807+00:00",
-      "source": "PERPLEXITY",
-      "headline": "X Money & Stablecoin Launches Draw Speculation | NO | MED confidence**",
-      "raw": "X Money & Stablecoin Launches Draw Speculation | NO | MED confidence**  \nTraders note \"\ud835\udd4f Money launched by April 30?\" at 43% ($29.6K vol) and \"X launch USD stablecoin in 2026?\" at 19% ($7.3K vol), with X buzz on potential Elon Musk/X developments but no confirmed announcements shifting odds.[1]  \n\nNo search results confirm whale bets, smart money moves, mispriced markets, prediction tips, or recen",
+      "id": "sig_209973",
+      "timestamp": "2026-04-12T08:10:33.990037+00:00",
+      "source": "X_GROK",
+      "headline": "**$906K whale buy on Sharks to beat Canucks (NHL game today):** Implies strong YES on Sharks win (currently 57%)",
+      "raw": "**$906K whale buy on Sharks to beat Canucks (NHL game today):** Implies strong YES on Sharks win (currently 57%). F-grade trader history lowers conviction.[[1]](https://x.com/i/status/2043240092676796828)[[2]](https://x.com/i/status/2043240221622288676)",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043240092676796828)[[2]](https://x.com/i/status/2043240221622288676)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_209982",
+      "timestamp": "2026-04-12T08:10:33.999447+00:00",
+      "source": "X_GROK",
+      "headline": "**Smart money piling NO on \"US invades Iran before 2027\":** High conviction against escalation amid noise",
+      "raw": "**Smart money piling NO on \"US invades Iran before 2027\":** High conviction against escalation amid noise. NO resolves likely soon if no action.[[5]](https://x.com/i/status/2043228084225114462)",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Elon Musk post 40-64 tweets from April 11 to April 13, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_788318",
-      "timestamp": "2026-04-12T08:03:32.336253+00:00",
-      "source": "X_GROK",
-      "headline": "FIFA 2026 World Cup Winner mispriced arb trending:** Traders like @gavelsvtw (790 likes) and @MazinoTower highlight buyi",
-      "raw": "FIFA 2026 World Cup Winner mispriced arb trending:** Traders like @gavelsvtw (790 likes) and @MazinoTower highlight buying YES on top 7 teams (e.g., Brazil, France) yields ~30-139% guaranteed profit as implied probs sum >100% ($562M vol). Arb YES on favorites.[[1]](https://x.com/i/status/2042940914679640187)[[2]](https://x.com/i/status/2042673407720820803)\nConfidence: HIGH (high engagement, liquid",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2042940914679640187)[[2]](https://x.com/i/status/2042673407720820803)",
+      "x_link": "https://x.com/i/status/2043228084225114462)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_788321",
-      "timestamp": "2026-04-12T08:03:32.339386+00:00",
-      "source": "X_GROK",
-      "headline": "5-min BTC up/down whale spotted:** @Kropanchik IDs wallet with $430k/mo profits fading post-move overreactions in first",
-      "raw": "5-min BTC up/down whale spotted:** @Kropanchik IDs wallet with $430k/mo profits fading post-move overreactions in first 30min (less algo competition). Smart money: Bet against crowd shocks.[[3]](https://x.com/i/status/2043011700149096525)\nConfidence: MED (tracked edge, but short-term).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043011700149096525)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_788324",
-      "timestamp": "2026-04-12T08:03:32.342575+00:00",
-      "source": "X_GROK",
-      "headline": "Iran talks fail \u2192 BTC dumps under $72k:** @WatcherGuru (9",
-      "raw": "Iran talks fail \u2192 BTC dumps under $72k:** @WatcherGuru (9.9k likes) links to stalled Pakistan negos; @polyaddict ties to lower Polymarket conflict resolution odds. Bearish resolution YES (e.g., ceasefire by Apr15 at 20%).[[4]](https://x.com/i/status/2043143180846010513)[[5]](https://x.com/i/status/2043210343481029102)\nConfidence: HIGH (news + PM reaction).",
+      "id": "sig_154901",
+      "timestamp": "2026-04-12T08:09:38.918496+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Agree to Two-Week Ceasefire; Iran Opens Strait of Hormuz** | YES | HIGH confidence",
+      "raw": "US and Iran Agree to Two-Week Ceasefire; Iran Opens Strait of Hormuz** | YES | HIGH confidence\n\nA **two-week ceasefire between the United States and Iran** was agreed to on April 7-8, 2026, mediated by Pakistan.[1] As part of the agreement, Iran committed to immediately opening the Strait of Hormuz and working toward a final peace agreement.[1]\n\nKey developments that would move prediction markets:",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043143180846010513)[[5]](https://x.com/i/status/2043210343481029102)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_788330",
-      "timestamp": "2026-04-12T08:03:32.348810+00:00",
-      "source": "X_GROK",
-      "headline": "Election hedging tips:** @GutsPoly on 2300% Hungarian election wins via all-outcomes bets (arb thin liquidity)",
-      "raw": "Election hedging tips:** @GutsPoly on 2300% Hungarian election wins via all-outcomes bets (arb thin liquidity).[[8]](https://x.com/i/status/2043216394406277351)\nConfidence: LOW (niche, vig risk).",
+      "id": "sig_154904",
+      "timestamp": "2026-04-12T08:09:38.921834+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Hormuz Strait reopening:** Iran agreed to safe passage through the Strait of Hormuz for the two-week ceasefire period,",
+      "raw": "**Hormuz Strait reopening:** Iran agreed to safe passage through the Strait of Hormuz for the two-week ceasefire period, with reports indicating Iran and Oman are allowed to charge for passage.[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_154907",
+      "timestamp": "2026-04-12T08:09:38.924887+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**De-escalation of military threats:** President Trump suspended his threats to destroy Iranian power plants and bridges",
+      "raw": "**De-escalation of military threats:** President Trump suspended his threats to destroy Iranian power plants and bridges, which had been issued earlier in April.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_154910",
+      "timestamp": "2026-04-12T08:09:38.927978+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Peace negotiations underway:** High-level delegations from both sides arrived in Islamabad on April 11, 2026, for form",
+      "raw": "**Peace negotiations underway:** High-level delegations from both sides arrived in Islamabad on April 11, 2026, for formal peace talks, including US Vice President JD Vance, special envoy Steve Witkoff, and Iranian Foreign Minister Abbas Araghchi.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_154914",
+      "timestamp": "2026-04-12T08:09:38.931303+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Competing claims on terms:** Iran claims the agreement incorporates its 10-point plan requiring lifting all sanctions",
+      "raw": "**Competing claims on terms:** Iran claims the agreement incorporates its 10-point plan requiring lifting all sanctions and US withdrawal from regional bases, while the US framing emphasizes Hormuz access and peace finalization.[1]\n\nThe ceasefire represents a significant de-escalation in the 2025-2026 conflict, with immediate market implications for oil prices and geopolitical risk premiums.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_165526",
+      "timestamp": "2026-04-12T08:09:49.543004+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The Thunder's **127-107 loss to the Denver Nuggets** on Friday[1][3]",
+      "raw": "The Thunder's **127-107 loss to the Denver Nuggets** on Friday[1][3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043216394406277351)",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_165535",
+      "timestamp": "2026-04-12T08:09:49.552367+00:00",
+      "source": "PERPLEXITY",
+      "headline": "To provide the breaking news you're seeking, I would need access to more current search results from this morning",
+      "raw": "To provide the breaking news you're seeking, I would need access to more current search results from this morning.**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_173639",
+      "timestamp": "2026-04-12T08:09:57.656647+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X Launches USD Stablecoin in 2026",
+      "raw": "X Launches USD Stablecoin in 2026? | NO 19% | MED confidence**  \nTraders price only **19% odds** for X launching a USD stablecoin this year ($7.3K volume), viewing it as unlikely despite X Money speculation (43% by April 30)[1]. Low liquidity ($3.9K) tempers conviction, but sentiment leans bearish on near-term execution.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_746754",
-      "timestamp": "2026-04-12T08:02:50.772128+00:00",
+      "id": "sig_173642",
+      "timestamp": "2026-04-12T08:09:57.659814+00:00",
       "source": "PERPLEXITY",
-      "headline": "NM Supreme Court Unanimously Confirms Duke Rodriguez on June 2026 GOP Gubernatorial Primary Ballot** | **YES** | **HIGH*",
-      "raw": "NM Supreme Court Unanimously Confirms Duke Rodriguez on June 2026 GOP Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1].  \nThe New Mexico Supreme Court ruled unanimously that Republican candidate **Duke Rodriguez** remains eligible for the June 2 primary ballot, upholding a lower court decision and resolving a challenge to his candidacy[1].  \nThis secures his position alongside riv",
+      "headline": "Elon Musk Tweets Surge April 11-13 | YES 55% (65-89 tweets) | HIGH confidence**",
+      "raw": "Elon Musk Tweets Surge April 11-13 | YES 55% (65-89 tweets) | HIGH confidence**  \nHigh-volume tweet markets show **55% odds** for Elon Musk posting 65-89 tweets April 11-13 ($609K volume, $489K today), with overlapping markets like April 10-17 at 30% for 240-259 total ($3M volume, $1M today)[2][4]. Spike in recent activity ($937K+ daily) suggests traders betting on increased posting, possibly tied",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
+        "Will Elon Musk post 40-64 tweets from April 11 to April 13, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_173646",
+      "timestamp": "2026-04-12T08:09:57.663078+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Inflation Tops 3% in 2026 | YES 100% | HIGH confidence**",
+      "raw": "Inflation Tops 3% in 2026 | YES 100% | HIGH confidence**  \nTrending market locks in **100% odds** for 2026 inflation exceeding 3%, as Polymarket's top active bet per latest data[3]. Indicates unanimous \"smart money\" view amid economic shifts, though no specific whale bets or X posts detailed.\n\nNo direct X posts from Polymarket traders, whale bets, mispriced calls, or fresh confirmations (e.g., ann",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_209969",
+      "timestamp": "2026-04-12T08:10:33.986525+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Bets & Smart Money on Polymarket (as of Apr 12, 2026):**",
+      "raw": "Whale Bets & Smart Money on Polymarket (as of Apr 12, 2026):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_209976",
+      "timestamp": "2026-04-12T08:10:33.993366+00:00",
+      "source": "X_GROK",
+      "headline": "**$870K whale on Viktor Orb\u00e1n as next Hungary PM (elections imminent):** Against crowd (29% odds vs P\u00e9ter Magyar 72%)",
+      "raw": "**$870K whale on Viktor Orb\u00e1n as next Hungary PM (elections imminent):** Against crowd (29% odds vs P\u00e9ter Magyar 72%). YES Orb\u00e1n win. Smart money contrarian play.[[3]](https://x.com/i/status/2043048470244663574)[[4]](https://x.com/i/status/2042232963488735685)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043048470244663574)[[4]](https://x.com/i/status/2042232963488735685)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_209985",
+      "timestamp": "2026-04-12T08:10:34.002762+00:00",
+      "source": "X_GROK",
+      "headline": "**61K shares (~$1",
+      "raw": "**61K shares (~$1.2K cost) NO Fed rate change (meeting today):** Massive ROI potential (4988%) if holds. NO change favored by whale.[[6]](https://x.com/i/status/2043237111483060288)\n\nTrending tips: Copy consistent winners (e.g., Solana niche wallet +$105K, 73% WR); hunt pre/post-window inefficiencies; AI scanners flag mispriced low-liq markets like weather/politics.[[7]](https://x.com/i/status/204",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043237111483060288)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 9,
-    "watch": 1,
-    "high_conf": 2
+    "alert": 19,
+    "watch": 0,
+    "high_conf": 4
   }
 }
