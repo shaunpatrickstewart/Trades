@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-12T19:10:13.123470+00:00",
-  "scan_seconds": 35.5,
-  "markets_scanned": 39,
+  "last_scan": "2026-04-12T20:01:11.579979+00:00",
+  "scan_seconds": 34.3,
+  "markets_scanned": 43,
   "open_positions": 18,
   "signals": [
     {
-      "id": "sig_767833",
-      "timestamp": "2026-04-12T19:09:51.811150+00:00",
+      "id": "sig_823690",
+      "timestamp": "2026-04-12T20:00:47.665034+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Fragile as VP Vance Arrives in Pakistan for Talks; Strait of Hormuz Remains Closed Amid Mutual Violati",
-      "raw": "US-Iran Ceasefire Fragile as VP Vance Arrives in Pakistan for Talks; Strait of Hormuz Remains Closed Amid Mutual Violation Claims | NO | HIGH confidence**\n\nNo new confirmations, announcements, or resolutions today (April 12, 2026) indicate a breakthrough or extension of the two-week ceasefire agreed on April 8; instead, ongoing violations persist, including Iran's failure to fully reopen the Strai",
-      "direction": "YES",
+      "headline": "US-Iran ceasefire talks collapse without agreement after 21 hours of negotiations in Islamabad | NO | HIGH confidence**",
+      "raw": "US-Iran ceasefire talks collapse without agreement after 21 hours of negotiations in Islamabad | NO | HIGH confidence**\n\nHigh-stakes diplomatic negotiations between the United States and Iran ended on April 12, 2026, without producing a peace agreement.[2][3] Vice President JD Vance confirmed that the marathon 21-hour talks failed to reach a breakthrough, with Iran refusing to accept American term",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?"
@@ -20,15 +20,113 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_774413",
-      "timestamp": "2026-04-12T19:09:58.391998+00:00",
+      "id": "sig_831790",
+      "timestamp": "2026-04-12T20:00:55.765375+00:00",
       "source": "PERPLEXITY",
-      "headline": "New Mexico Senate passes medical malpractice reform bill (HB 99) 40-2, sending it to Democratic Gov",
-      "raw": "New Mexico Senate passes medical malpractice reform bill (HB 99) 40-2, sending it to Democratic Gov. Michelle Lujan Grisham for signature amid doctor shortage crisis | YES | HIGH confidence** [1]\n\nThis bipartisan bill, prioritized by Gov. Lujan Grisham in her final session, advanced late Tuesday after House passage; Senate Republicans hailed it as vindication of their reform push, potentially easi",
+      "headline": "NM Legislature passes $162",
+      "raw": "NM Legislature passes $162.5M SNAP payment bill, signed by Acting Gov. Howie Morales | YES | HIGH confidence**  \nBipartisan votes (House 52-9, **Senate** 30-6) passed and Morales signed funding to cover SNAP payments if needed.[3]  \n\nNo breaking developments tie directly to **New Mexico governor Republican** shift, **House** federal, **Vance**, or **balance** (e.g., power balance); mentions of Tru",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "2026 Balance of Power: R Senate, D House"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_823696",
+      "timestamp": "2026-04-12T20:00:47.671504+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ceasefire remains fragile**: This is day five of the two-week ceasefire agreed to on April 8, and both sides have alre",
+      "raw": "**Ceasefire remains fragile**: This is day five of the two-week ceasefire agreed to on April 8, and both sides have already reported violations.[1] By April 9, ships were being prevented from transiting the Strait of Hormuz despite Iran's agreement to reopen it.[1]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_831780",
+      "timestamp": "2026-04-12T20:00:55.755838+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New Mexico Senate passes medical malpractice reform bill, sends to Gov",
+      "raw": "New Mexico Senate passes medical malpractice reform bill, sends to Gov. Lujan Grisham | YES | MED confidence**  \nThe New Mexico Senate passed a medical malpractice overhaul bill late Tuesday, addressing doctor shortages; it now heads to Democratic Gov. Michelle Lujan Grisham, her top priority in her final session, with Senate Republicans crediting their efforts.[2]  \nFour Democrats, including **Se",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_823693",
+      "timestamp": "2026-04-12T20:00:47.668283+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key developments moving prediction markets:**",
+      "raw": "Key developments moving prediction markets:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_823699",
+      "timestamp": "2026-04-12T20:00:47.674697+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Core disagreements unresolved**: Iran claims the ceasefire should extend to Israel's operations in Lebanon; the US and",
+      "raw": "**Core disagreements unresolved**: Iran claims the ceasefire should extend to Israel's operations in Lebanon; the US and Israel disagree.[5] Additionally, Iran demands all sanctions be lifted and all US forces withdrawn from the region, while the US seeks to prevent Iran from developing nuclear weapons.[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_823705",
+      "timestamp": "2026-04-12T20:00:47.680648+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Reset preparations**: Trump stated the US military is \"resetting in case no deal is reached",
+      "raw": "**Reset preparations**: Trump stated the US military is \"resetting in case no deal is reached.\"[4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_831783",
+      "timestamp": "2026-04-12T20:00:55.758998+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NM Legislature nears approval of record-largest state budget (HB 2) for governor's desk | YES | LOW confidence**",
+      "raw": "NM Legislature nears approval of record-largest state budget (HB 2) for governor's desk | YES | LOW confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_831787",
+      "timestamp": "2026-04-12T20:00:55.762229+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Senate** lawmakers passed a budget proposal\u2014New Mexico's largest ever\u2014positioned for final House approval and Gov",
+      "raw": "Senate** lawmakers passed a budget proposal\u2014New Mexico's largest ever\u2014positioned for final House approval and Gov. Lujan Grisham's signature; no recent House passage confirmed.[4][1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
         "2026 Balance of Power: R Senate, D House"
       ],
       "action": "ALERT",
@@ -36,41 +134,16 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_774417",
-      "timestamp": "2026-04-12T19:09:58.395039+00:00",
+      "id": "sig_839706",
+      "timestamp": "2026-04-12T20:01:03.681605+00:00",
       "source": "PERPLEXITY",
-      "headline": "Republican Jim Ellison launches 2026 New Mexico gubernatorial bid, warning of soaring electric rates and vowing to flip",
-      "raw": "Republican Jim Ellison launches 2026 New Mexico gubernatorial bid, warning of soaring electric rates and vowing to flip blue state | YES | MED confidence** [2]\n\nEnergy veteran Ellison joins GOP field (including Sen. Steve Lanier) challenging term-limited Grisham's successor race, where historical alternations favor Republicans next; Democrat frontrunner Deb Haaland (ex-Interior Sec.) has also ente",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_782909",
-      "timestamp": "2026-04-12T19:10:06.887565+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or market-moving developments from these search results that would warrant the \"RIGHT NO",
-      "raw": "I cannot identify breaking news or market-moving developments from these search results that would warrant the \"RIGHT NOW\" framing you've requested.\n\nThe most recent data in the search results is from **April 9-10, 2026** (2-3 days ago), which includes:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_782912",
-      "timestamp": "2026-04-12T19:10:06.890215+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin trading at **$71,362 on April 9** and **$72,204",
-      "raw": "Bitcoin trading at **$71,362 on April 9** and **$72,204.20 on April 10**[1][3]",
+      "headline": "I cannot provide the breaking news format you've requested because the search results don't contain information about ev",
+      "raw": "I cannot provide the breaking news format you've requested because the search results don't contain information about events occurring today (April 12, 2026) or very recent announcements that would typically trigger prediction market movements.\n\nThe most recent data in the search results is from April 9, 2026, which shows Ethereum trading at $2,182.54 and Bitcoin at $71,217.62[1]. There are also r",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Bitcoin be above $70,000 on April 13?",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Ethereum Up or Down - April 12, 3:55PM-4:00PM ET",
         "Will Bitcoin reach $75,000 in April?"
       ],
       "action": "ALERT",
@@ -78,92 +151,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_782914",
-      "timestamp": "2026-04-12T19:10:06.892892+00:00",
+      "id": "sig_846568",
+      "timestamp": "2026-04-12T20:01:10.543096+00:00",
       "source": "PERPLEXITY",
-      "headline": "**$471 million in Bitcoin ETF inflows on April 6**, described as the strongest day since late February[3]",
-      "raw": "**$471 million in Bitcoin ETF inflows on April 6**, described as the strongest day since late February[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $70,000 on April 13?",
-        "Will Bitcoin reach $75,000 in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_782920",
-      "timestamp": "2026-04-12T19:10:06.898337+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Events or announcements occurring today (April 12)",
-      "raw": "Events or announcements occurring today (April 12)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_782922",
-      "timestamp": "2026-04-12T19:10:06.901001+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent regulatory decisions or institutional announcements",
-      "raw": "Recent regulatory decisions or institutional announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_782927",
-      "timestamp": "2026-04-12T19:10:06.905720+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant price movements or technical breakouts in the past 48 hours",
-      "raw": "Significant price movements or technical breakouts in the past 48 hours",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_782933",
-      "timestamp": "2026-04-12T19:10:06.911435+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market catalysts that have emerged in the last few days",
-      "raw": "Market catalysts that have emerged in the last few days",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_782939",
-      "timestamp": "2026-04-12T19:10:06.917097+00:00",
-      "source": "PERPLEXITY",
-      "headline": "To properly answer your query, I would need search results with timestamps from April 12, 2026, or very recent market da",
-      "raw": "To properly answer your query, I would need search results with timestamps from April 12, 2026, or very recent market data showing which specific event has just moved prediction markets.** The current results only provide historical context and analyst predictions from earlier in the week.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_788143",
-      "timestamp": "2026-04-12T19:10:12.121122+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder Win 2025 NBA Championship in Game 7 Over Pacers (103-91)** | YES | HIGH confidence[1][2]",
-      "raw": "OKC Thunder Win 2025 NBA Championship in Game 7 Over Pacers (103-91)** | YES | HIGH confidence[1][2]\n\nThe Oklahoma City Thunder secured their first franchise title with a dominant 34-20 third quarter led by Finals MVP Shai Gilgeous-Alexander, overcoming Indiana despite Tyrese Haliburton's early leg injury.[1][2] This caps OKC's historic 68-win regular season and resolves all NBA Finals prediction ",
+      "headline": "OKC Thunder Locks #1 Seed & Best NBA Record; Multiple Stars Ruled Out for Regular Season Finale vs Suns | YES | HIGH con",
+      "raw": "OKC Thunder Locks #1 Seed & Best NBA Record; Multiple Stars Ruled Out for Regular Season Finale vs Suns | YES | HIGH confidence** [1][3][4]\n\nOklahoma City Thunder have secured the **#1 seed in the West** and the NBA's best regular-season record at 60-16, with nothing left to play for in their final game today against Phoenix. [1][4] Recent loss to Denver Nuggets (127-107) aided playoff positioning",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -174,25 +166,90 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_774420",
-      "timestamp": "2026-04-12T19:09:58.398013+00:00",
+      "id": "sig_846571",
+      "timestamp": "2026-04-12T20:01:10.546278+00:00",
       "source": "PERPLEXITY",
-      "headline": "New Mexico lawmakers advance record-largest state budget (HB 2) toward Gov",
-      "raw": "New Mexico lawmakers advance record-largest state budget (HB 2) toward Gov. Lujan Grisham's desk | YES | MED confidence** [3]\n\nSenate passage of HB 2 positions it for imminent House concurrence and gubernatorial approval, marking major fiscal development in ongoing session that could influence economic and budget-related prediction markets [3].",
+      "headline": "Key injury announcements** for today's finale (8:30 PM ET, OKC -7",
+      "raw": "Key injury announcements** for today's finale (8:30 PM ET, OKC -7.5):",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_846574",
+      "timestamp": "2026-04-12T20:01:10.549424+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Shai Gilgeous-Alexander (oblique): Out, expected back for playoffs",
+      "raw": "Shai Gilgeous-Alexander (oblique): Out, expected back for playoffs. [3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_846577",
+      "timestamp": "2026-04-12T20:01:10.552462+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Jalen Williams (hamstring): Out, expected back for playoffs",
+      "raw": "Jalen Williams (hamstring): Out, expected back for playoffs. [3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_846580",
+      "timestamp": "2026-04-12T20:01:10.555610+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Isaiah Hartenstein (soleus): Out, expected back for playoffs",
+      "raw": "Isaiah Hartenstein (soleus): Out, expected back for playoffs. [3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_846583",
+      "timestamp": "2026-04-12T20:01:10.558905+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Others out: Chet Holmgren (back), Jaylin Williams, Cason Wallace (10 total)",
+      "raw": "Others out: Chet Holmgren (back), Jaylin Williams, Cason Wallace (10 total). [1][3]\n\nThese rest decisions prioritize health for playoffs, potentially influencing prediction markets on OKC's Finals odds, seeding impacts, and player prop markets given their depth (e.g., Nikola Topic, Jared McCain stepping up). [3][4] No NBA Finals resolutions; regular season ends today. [2][4]",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "2026 Balance of Power: R Senate, D House"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_823702",
+      "timestamp": "2026-04-12T20:00:47.677723+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Escalation risks**: The failure of negotiations leaves the region \"on a knife-edge,\" with concerns that prolonged tens",
+      "raw": "**Escalation risks**: The failure of negotiations leaves the region \"on a knife-edge,\" with concerns that prolonged tensions could trigger deeper US military involvement and cause international oil prices to spike.[3] Israel continues intensifying strikes against Hezbollah in Lebanon despite international pressure.[2]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 11,
+    "enter": 2,
+    "alert": 14,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 4
   }
 }
