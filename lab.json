@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 2 categorical arb opportunities found\nScanned 100 events (84 multi-outcome) at 2026-04-12 11:29 UTC\nBest: 4.15% profit on 'How many different countries will Israel strike in 2026?' \u2014 buy YES on all 15 outcomes (sum=0.9585)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9585. One wins $1.00. Profit: $0.0415 (4.15%)\n2nd: 3.4% on 'Democratic Presidential Nominee 2028'",
+      "result": "LIVE \u2014 2 categorical arb opportunities found\nScanned 100 events (84 multi-outcome) at 2026-04-12 11:32 UTC\nBest: 4.15% profit on 'How many different countries will Israel strike in 2026?' \u2014 buy YES on all 15 outcomes (sum=0.9585)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9585. One wins $1.00. Profit: $0.0415 (4.15%)\n2nd: 3.4% on 'Democratic Presidential Nominee 2028'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 11:29 UTC",
+      "last_scan": "2026-04-12 11:32 UTC",
       "opportunities": [
         {
           "event_title": "How many different countries will Israel strike in 2026?",
@@ -456,7 +456,7 @@
         "skipped_single_outcome": 16,
         "opportunities_found": 2,
         "best_profit_pct": 4.15,
-        "scanned_at": "2026-04-12 11:29 UTC"
+        "scanned_at": "2026-04-12 11:32 UTC"
       }
     },
     {
