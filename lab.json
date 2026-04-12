@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 128 categorical arb opportunities found\nScanned 3000 events (1951 multi-outcome) at 2026-04-12 20:14 UTC\nBest: 10.0% profit on 'Vermont Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Elon Musk musk # tweets in May 2026?'",
+      "result": "LIVE \u2014 138 categorical arb opportunities found\nScanned 3000 events (1950 multi-outcome) at 2026-04-12 20:26 UTC\nBest: 10.0% profit on 'Vermont Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.7% on 'Iowa Democratic Senate Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 20:14 UTC",
+      "last_scan": "2026-04-12 20:26 UTC",
       "opportunities": [
         {
           "event_title": "Vermont Governor Election Winner",
@@ -39,491 +39,59 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Elon Musk musk # tweets in May 2026?",
-          "event_slug": "elon-musk-of-tweets-may-2026",
-          "yes_sum": 0.901,
-          "profit_pct": 9.9,
-          "profit_per_dollar_pct": 10.99,
-          "num_outcomes": 49,
+          "event_title": "Iowa Democratic Senate Primary Winner",
+          "event_slug": "iowa-democratic-senate-primary-winner",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1698939",
-              "slug": "elon-musk-of-tweets-may-2026-1360-1399",
-              "question": "Will Elon Musk post 1360-1399 tweets in May 2026?",
-              "yes_price": 0.097,
-              "volume": 2578
+              "market_id": "679367",
+              "slug": "will-zach-wahls-be-the-democratic-nominee-for-senate-in-iowa",
+              "question": "Will Zach Wahls be the Democratic nominee for Senate in Iowa?",
+              "yes_price": 0.585,
+              "volume": 4180
             },
             {
-              "market_id": "1698936",
-              "slug": "elon-musk-of-tweets-may-2026-1320-1359",
-              "question": "Will Elon Musk post 1320-1359 tweets in May 2026?",
-              "yes_price": 0.092,
-              "volume": 2524
+              "market_id": "679366",
+              "slug": "will-josh-turek-be-the-democratic-nominee-for-senate-in-iowa",
+              "question": "Will Josh Turek be the Democratic nominee for Senate in Iowa?",
+              "yes_price": 0.29,
+              "volume": 3112
             },
             {
-              "market_id": "1698930",
-              "slug": "elon-musk-of-tweets-may-2026-1240-1279",
-              "question": "Will Elon Musk post 1240-1279 tweets in May 2026?",
-              "yes_price": 0.091,
-              "volume": 1555
+              "market_id": "679364",
+              "slug": "will-chris-henry-be-the-democratic-nominee-for-senate-in-iowa",
+              "question": "Will Chris Henry be the Democratic nominee for Senate in Iowa?",
+              "yes_price": 0.0245,
+              "volume": 1212
             },
             {
-              "market_id": "1698933",
-              "slug": "elon-musk-of-tweets-may-2026-1280-1319",
-              "question": "Will Elon Musk post 1280-1319 tweets in May 2026?",
-              "yes_price": 0.079,
-              "volume": 3178
-            },
-            {
-              "market_id": "1698926",
-              "slug": "elon-musk-of-tweets-may-2026-1200-1239",
-              "question": "Will Elon Musk post 1200-1239 tweets in May 2026?",
-              "yes_price": 0.0765,
-              "volume": 1200
-            },
-            {
-              "market_id": "1698923",
-              "slug": "elon-musk-of-tweets-may-2026-1160-1199",
-              "question": "Will Elon Musk post 1160-1199 tweets in May 2026?",
-              "yes_price": 0.074,
-              "volume": 1806
-            },
-            {
-              "market_id": "1698942",
-              "slug": "elon-musk-of-tweets-may-2026-1400-1439",
-              "question": "Will Elon Musk post 1400-1439 tweets in May 2026?",
-              "yes_price": 0.074,
-              "volume": 2155
-            },
-            {
-              "market_id": "1698945",
-              "slug": "elon-musk-of-tweets-may-2026-1440-1479",
-              "question": "Will Elon Musk post 1440-1479 tweets in May 2026?",
-              "yes_price": 0.065,
-              "volume": 1805
-            },
-            {
-              "market_id": "1698920",
-              "slug": "elon-musk-of-tweets-may-2026-1080-1119",
-              "question": "Will Elon Musk post 1080-1119 tweets in May 2026?",
-              "yes_price": 0.0415,
-              "volume": 1090
-            },
-            {
-              "market_id": "1698956",
-              "slug": "elon-musk-of-tweets-may-2026-1600-1679",
-              "question": "Will Elon Musk post 1600-1679 tweets in May 2026?",
-              "yes_price": 0.0345,
-              "volume": 1110
-            },
-            {
-              "market_id": "1698918",
-              "slug": "elon-musk-of-tweets-may-2026-1040-1079",
-              "question": "Will Elon Musk post 1040-1079 tweets in May 2026?",
-              "yes_price": 0.0325,
-              "volume": 1404
-            },
-            {
-              "market_id": "1698915",
-              "slug": "elon-musk-of-tweets-may-2026-960-999",
-              "question": "Will Elon Musk post 960-999 tweets in May 2026?",
-              "yes_price": 0.0315,
-              "volume": 1313
-            },
-            {
-              "market_id": "1698957",
-              "slug": "elon-musk-of-tweets-may-2026-1680-1759",
-              "question": "Will Elon Musk post 1680-1759 tweets in May 2026?",
-              "yes_price": 0.02,
-              "volume": 1615
-            },
-            {
-              "market_id": "1698964",
-              "slug": "elon-musk-of-tweets-may-2026-2000plus",
-              "question": "Will Elon Musk post 2000+ tweets in May 2026?",
-              "yes_price": 0.0125,
-              "volume": 2328
-            },
-            {
-              "market_id": "1698902",
-              "slug": "elon-musk-of-tweets-may-2026-760-779",
-              "question": "Will Elon Musk post 760-779 tweets in May 2026?",
-              "yes_price": 0.009,
-              "volume": 1149
-            },
-            {
-              "market_id": "1698960",
-              "slug": "elon-musk-of-tweets-may-2026-1760-1839",
-              "question": "Will Elon Musk post 1760-1839 tweets in May 2026?",
-              "yes_price": 0.0085,
-              "volume": 1037
-            },
-            {
-              "market_id": "1698870",
-              "slug": "elon-musk-of-tweets-may-2026-460-479",
-              "question": "Will Elon Musk post 460-479 tweets in May 2026?",
-              "yes_price": 0.0055,
-              "volume": 3137
-            },
-            {
-              "market_id": "1698961",
-              "slug": "elon-musk-of-tweets-may-2026-1840-1919",
-              "question": "Will Elon Musk post 1840-1919 tweets in May 2026?",
+              "market_id": "679365",
+              "slug": "will-nathan-sage-be-the-democratic-nominee-for-senate-in-iowa",
+              "question": "Will Nathan Sage be the Democratic nominee for Senate in Iowa?",
               "yes_price": 0.0035,
-              "volume": 1050
-            },
-            {
-              "market_id": "1698835",
-              "slug": "elon-musk-of-tweets-may-2026-200-219",
-              "question": "Will Elon Musk post 200-219 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 3802
-            },
-            {
-              "market_id": "1698849",
-              "slug": "elon-musk-of-tweets-may-2026-320-339",
-              "question": "Will Elon Musk post 320-339 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 7117
-            },
-            {
-              "market_id": "1698852",
-              "slug": "elon-musk-of-tweets-may-2026-340-359",
-              "question": "Will Elon Musk post 340-359 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 2410
-            },
-            {
-              "market_id": "1698875",
-              "slug": "elon-musk-of-tweets-may-2026-500-519",
-              "question": "Will Elon Musk post 500-519 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 3812
-            },
-            {
-              "market_id": "1698878",
-              "slug": "elon-musk-of-tweets-may-2026-520-539",
-              "question": "Will Elon Musk post 520-539 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 2297
-            },
-            {
-              "market_id": "1698882",
-              "slug": "elon-musk-of-tweets-may-2026-540-559",
-              "question": "Will Elon Musk post 540-559 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 1621
-            },
-            {
-              "market_id": "1698885",
-              "slug": "elon-musk-of-tweets-may-2026-560-579",
-              "question": "Will Elon Musk post 560-579 tweets in May 2026?",
-              "yes_price": 0.0025,
-              "volume": 1607
-            },
-            {
-              "market_id": "1698777",
-              "slug": "elon-musk-of-tweets-may-2026-0-19",
-              "question": "Will Elon Musk post 0-19 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 12319
-            },
-            {
-              "market_id": "1698786",
-              "slug": "elon-musk-of-tweets-may-2026-20-39",
-              "question": "Will Elon Musk post 20-39 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 11876
-            },
-            {
-              "market_id": "1698795",
-              "slug": "elon-musk-of-tweets-may-2026-40-59",
-              "question": "Will Elon Musk post 40-59 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 6448
-            },
-            {
-              "market_id": "1698803",
-              "slug": "elon-musk-of-tweets-may-2026-60-79",
-              "question": "Will Elon Musk post 60-79 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 14539
-            },
-            {
-              "market_id": "1698808",
-              "slug": "elon-musk-of-tweets-may-2026-80-99",
-              "question": "Will Elon Musk post 80-99 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 6164
-            },
-            {
-              "market_id": "1698812",
-              "slug": "elon-musk-of-tweets-may-2026-100-119",
-              "question": "Will Elon Musk post 100-119 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 4738
-            },
-            {
-              "market_id": "1698816",
-              "slug": "elon-musk-of-tweets-may-2026-120-139",
-              "question": "Will Elon Musk post 120-139 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 2474
-            },
-            {
-              "market_id": "1698820",
-              "slug": "elon-musk-of-tweets-may-2026-140-159",
-              "question": "Will Elon Musk post 140-159 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 4696
-            },
-            {
-              "market_id": "1698824",
-              "slug": "elon-musk-of-tweets-may-2026-160-179",
-              "question": "Will Elon Musk post 160-179 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 5638
-            },
-            {
-              "market_id": "1698830",
-              "slug": "elon-musk-of-tweets-may-2026-180-199",
-              "question": "Will Elon Musk post 180-199 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 4271
-            },
-            {
-              "market_id": "1698837",
-              "slug": "elon-musk-of-tweets-may-2026-220-239",
-              "question": "Will Elon Musk post 220-239 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 6089
-            },
-            {
-              "market_id": "1698839",
-              "slug": "elon-musk-of-tweets-may-2026-240-259",
-              "question": "Will Elon Musk post 240-259 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 6294
-            },
-            {
-              "market_id": "1698841",
-              "slug": "elon-musk-of-tweets-may-2026-260-279",
-              "question": "Will Elon Musk post 260-279 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 5619
-            },
-            {
-              "market_id": "1698843",
-              "slug": "elon-musk-of-tweets-may-2026-280-299",
-              "question": "Will Elon Musk post 280-299 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 2550
-            },
-            {
-              "market_id": "1698846",
-              "slug": "elon-musk-of-tweets-may-2026-300-319",
-              "question": "Will Elon Musk post 300-319 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 4000
-            },
-            {
-              "market_id": "1698855",
-              "slug": "elon-musk-of-tweets-may-2026-360-379",
-              "question": "Will Elon Musk post 360-379 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 2329
-            },
-            {
-              "market_id": "1698858",
-              "slug": "elon-musk-of-tweets-may-2026-380-399",
-              "question": "Will Elon Musk post 380-399 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 3045
-            },
-            {
-              "market_id": "1698860",
-              "slug": "elon-musk-of-tweets-may-2026-400-419",
-              "question": "Will Elon Musk post 400-419 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 3132
-            },
-            {
-              "market_id": "1698865",
-              "slug": "elon-musk-of-tweets-may-2026-420-439",
-              "question": "Will Elon Musk post 420-439 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 2724
-            },
-            {
-              "market_id": "1698868",
-              "slug": "elon-musk-of-tweets-may-2026-440-459",
-              "question": "Will Elon Musk post 440-459 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 2724
-            },
-            {
-              "market_id": "1698873",
-              "slug": "elon-musk-of-tweets-may-2026-480-499",
-              "question": "Will Elon Musk post 480-499 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 6528
-            },
-            {
-              "market_id": "1698887",
-              "slug": "elon-musk-of-tweets-may-2026-580-599",
-              "question": "Will Elon Musk post 580-599 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 2580
-            },
-            {
-              "market_id": "1698890",
-              "slug": "elon-musk-of-tweets-may-2026-620-639",
-              "question": "Will Elon Musk post 620-639 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 1032
-            },
-            {
-              "market_id": "1698895",
-              "slug": "elon-musk-of-tweets-may-2026-680-699",
-              "question": "Will Elon Musk post 680-699 tweets in May 2026?",
-              "yes_price": 0.0015,
-              "volume": 1480
+              "volume": 4299
             }
           ],
-          "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
-          "strategy": "Buy YES on all 49 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
-        },
-        {
-          "event_title": "Colorado Governor Republican Primary Winner",
-          "event_slug": "colorado-governor-republican-primary-winner",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
-          "num_outcomes": 15,
-          "outcomes": [
-            {
-              "market_id": "825858",
-              "slug": "will-victor-marx-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Victor Marx win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.415,
-              "volume": 3536
-            },
-            {
-              "market_id": "825856",
-              "slug": "will-barbara-kirkmeyer-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Barbara Kirkmeyer win the 2026 Colorado Governor Republican primary electio",
-              "yes_price": 0.265,
-              "volume": 17900
-            },
-            {
-              "market_id": "825853",
-              "slug": "will-scott-bottoms-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Scott Bottoms win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.151,
-              "volume": 2749
-            },
-            {
-              "market_id": "825852",
-              "slug": "will-mark-baisley-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Mark Baisley win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.025,
-              "volume": 7572
-            },
-            {
-              "market_id": "825862",
-              "slug": "will-jon-gray-ginsberg-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Jon Gray-Ginsberg win the 2026 Colorado Governor Republican primary electio",
-              "yes_price": 0.013,
-              "volume": 5820
-            },
-            {
-              "market_id": "825860",
-              "slug": "will-jason-mikesell-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Jason Mikesell win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0075,
-              "volume": 1769
-            },
-            {
-              "market_id": "825857",
-              "slug": "will-greg-lopez-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Greg Lopez win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0035,
-              "volume": 2214
-            },
-            {
-              "market_id": "825865",
-              "slug": "will-daniel-thomas-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Daniel Thomas win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0035,
-              "volume": 1353
-            },
-            {
-              "market_id": "825861",
-              "slug": "will-stevan-gess-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Stevan Gess win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.003,
-              "volume": 3483
-            },
-            {
-              "market_id": "825855",
-              "slug": "will-joshua-griffin-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Joshua Griffin win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1723
-            },
-            {
-              "market_id": "825859",
-              "slug": "will-will-mcbride-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Will McBride win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 28230
-            },
-            {
-              "market_id": "825863",
-              "slug": "will-brycen-garrison-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Brycen Garrison win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1306
-            },
-            {
-              "market_id": "825854",
-              "slug": "will-jason-clark-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Jason Clark win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1364
-            },
-            {
-              "market_id": "825864",
-              "slug": "will-bob-brinkerhoff-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Bob Brinkerhoff win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 1700
-            },
-            {
-              "market_id": "825866",
-              "slug": "will-robert-moore-win-the-2026-colorado-governor-republican-primary-election",
-              "question": "Will Robert Moore win the 2026 Colorado Governor Republican primary election?",
-              "yes_price": 0.0025,
-              "volume": 3264
-            }
-          ],
-          "url": "https://polymarket.com/event/colorado-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+          "url": "https://polymarket.com/event/iowa-democratic-senate-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Will Russia enter Dovha Balka by...?",
           "event_slug": "will-russia-enter-dovha-balka-by-march-31",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 2,
           "outcomes": [
             {
               "market_id": "1729390",
               "slug": "will-russia-enter-dovha-balka-by-april-30",
               "question": "Will Russia enter Dovha Balka by April 30?",
-              "yes_price": 0.904,
-              "volume": 34825
+              "yes_price": 0.9035,
+              "volume": 35155
             },
             {
               "market_id": "1494063",
@@ -534,7 +102,7 @@
             }
           ],
           "url": "https://polymarket.com/event/will-russia-enter-dovha-balka-by-march-31",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -577,46 +145,6 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
-          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1738484",
-              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.34,
-              "volume": 6350
-            },
-            {
-              "market_id": "1738483",
-              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
-              "yes_price": 0.24,
-              "volume": 8014
-            },
-            {
-              "market_id": "1738485",
-              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
-              "yes_price": 0.18,
-              "volume": 12751
-            },
-            {
-              "market_id": "1738482",
-              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
-              "yes_price": 0.145,
-              "volume": 7917
-            }
-          ],
-          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
           "event_title": "Sabres vs. Blackhawks",
           "event_slug": "nhl-buf-chi-2026-04-13",
           "yes_sum": 0.905,
@@ -629,7 +157,7 @@
               "slug": "nhl-buf-chi-2026-04-13",
               "question": "Sabres vs. Blackhawks",
               "yes_price": 0.645,
-              "volume": 9383
+              "volume": 9413
             },
             {
               "market_id": "1628347",
@@ -667,6 +195,228 @@
           ],
           "url": "https://polymarket.com/event/cyprus-house-of-representatives-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "MLS Cup Winner 2026",
+          "event_slug": "mls-cup-winner-2026",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 30,
+          "outcomes": [
+            {
+              "market_id": "1349156",
+              "slug": "will-inter-miami-cf-win-the-2026-mls-cup",
+              "question": "Will Inter Miami CF win the 2026 MLS Cup?",
+              "yes_price": 0.18,
+              "volume": 9161
+            },
+            {
+              "market_id": "1349154",
+              "slug": "will-los-angeles-fc-win-the-2026-mls-cup",
+              "question": "Will Los Angeles FC win the 2026 MLS Cup?",
+              "yes_price": 0.16,
+              "volume": 14877
+            },
+            {
+              "market_id": "1349172",
+              "slug": "will-vancouver-whitecaps-fc-win-the-2026-mls-cup",
+              "question": "Will Vancouver Whitecaps FC win the 2026 MLS Cup?",
+              "yes_price": 0.1135,
+              "volume": 349457
+            },
+            {
+              "market_id": "1349166",
+              "slug": "will-san-diego-fc-win-the-2026-mls-cup",
+              "question": "Will San Diego FC win the 2026 MLS Cup?",
+              "yes_price": 0.055,
+              "volume": 1196759
+            },
+            {
+              "market_id": "1349158",
+              "slug": "will-nashville-sc-win-the-2026-mls-cup",
+              "question": "Will Nashville SC win the 2026 MLS Cup?",
+              "yes_price": 0.045,
+              "volume": 242071
+            },
+            {
+              "market_id": "1349147",
+              "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
+              "question": "Will FC Cincinnati win the 2026 MLS Cup?",
+              "yes_price": 0.036,
+              "volume": 545412
+            },
+            {
+              "market_id": "1349160",
+              "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
+              "question": "Will New York City FC win the 2026 MLS Cup?",
+              "yes_price": 0.036,
+              "volume": 459635
+            },
+            {
+              "market_id": "1349168",
+              "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
+              "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
+              "yes_price": 0.034,
+              "volume": 703491
+            },
+            {
+              "market_id": "1349167",
+              "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
+              "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
+              "yes_price": 0.0265,
+              "volume": 953862
+            },
+            {
+              "market_id": "1349171",
+              "slug": "will-toronto-fc-win-the-2026-mls-cup",
+              "question": "Will Toronto FC win the 2026 MLS Cup?",
+              "yes_price": 0.024,
+              "volume": 18756
+            },
+            {
+              "market_id": "1349145",
+              "slug": "will-charlotte-fc-win-the-2026-mls-cup",
+              "question": "Will Charlotte FC win the 2026 MLS Cup?",
+              "yes_price": 0.022,
+              "volume": 303305
+            },
+            {
+              "market_id": "1349155",
+              "slug": "will-minnesota-united-fc-win-the-2026-mls-cup",
+              "question": "Will Minnesota United FC win the 2026 MLS Cup?",
+              "yes_price": 0.0185,
+              "volume": 77208
+            },
+            {
+              "market_id": "1349161",
+              "slug": "will-new-york-red-bulls-win-the-2026-mls-cup",
+              "question": "Will New York Red Bulls win the 2026 MLS Cup?",
+              "yes_price": 0.0185,
+              "volume": 66046
+            },
+            {
+              "market_id": "1349149",
+              "slug": "will-columbus-crew-win-the-2026-mls-cup",
+              "question": "Will Columbus Crew win the 2026 MLS Cup?",
+              "yes_price": 0.018,
+              "volume": 2851635
+            },
+            {
+              "market_id": "1349153",
+              "slug": "will-la-galaxy-win-the-2026-mls-cup",
+              "question": "Will LA Galaxy win the 2026 MLS Cup?",
+              "yes_price": 0.0135,
+              "volume": 4789
+            },
+            {
+              "market_id": "1349165",
+              "slug": "will-real-salt-lake-win-the-2026-mls-cup",
+              "question": "Will Real Salt Lake win the 2026 MLS Cup?",
+              "yes_price": 0.0135,
+              "volume": 2462537
+            },
+            {
+              "market_id": "1349163",
+              "slug": "will-philadelphia-union-win-the-2026-mls-cup",
+              "question": "Will Philadelphia Union win the 2026 MLS Cup?",
+              "yes_price": 0.0115,
+              "volume": 51256
+            },
+            {
+              "market_id": "1349162",
+              "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
+              "question": "Will Orlando City SC win the 2026 MLS Cup?",
+              "yes_price": 0.0105,
+              "volume": 1786637
+            },
+            {
+              "market_id": "1349152",
+              "slug": "will-houston-dynamo-fc-win-the-2026-mls-cup",
+              "question": "Will Houston Dynamo FC win the 2026 MLS Cup?",
+              "yes_price": 0.0095,
+              "volume": 49091
+            },
+            {
+              "market_id": "1349144",
+              "slug": "will-austin-fc-win-the-2026-mls-cup",
+              "question": "Will Austin FC win the 2026 MLS Cup?",
+              "yes_price": 0.009,
+              "volume": 60227
+            },
+            {
+              "market_id": "1349146",
+              "slug": "will-chicago-fire-fc-win-the-2026-mls-cup",
+              "question": "Will Chicago Fire FC win the 2026 MLS Cup?",
+              "yes_price": 0.0085,
+              "volume": 74615
+            },
+            {
+              "market_id": "1349150",
+              "slug": "will-fc-dallas-win-the-2026-mls-cup",
+              "question": "Will FC Dallas win the 2026 MLS Cup?",
+              "yes_price": 0.008,
+              "volume": 38185
+            },
+            {
+              "market_id": "1349143",
+              "slug": "will-atlanta-united-fc-win-the-2026-mls-cup",
+              "question": "Will Atlanta United FC win the 2026 MLS Cup?",
+              "yes_price": 0.0075,
+              "volume": 36761
+            },
+            {
+              "market_id": "1349164",
+              "slug": "will-portland-timbers-win-the-2026-mls-cup",
+              "question": "Will Portland Timbers win the 2026 MLS Cup?",
+              "yes_price": 0.0065,
+              "volume": 57363
+            },
+            {
+              "market_id": "1349170",
+              "slug": "will-st-louis-city-sc-win-the-2026-mls-cup",
+              "question": "Will St. Louis City SC win the 2026 MLS Cup?",
+              "yes_price": 0.0065,
+              "volume": 64343
+            },
+            {
+              "market_id": "1349157",
+              "slug": "will-cf-montral-win-the-2026-mls-cup",
+              "question": "Will CF Montr\u00e9al win the 2026 MLS Cup?",
+              "yes_price": 0.0035,
+              "volume": 3167
+            },
+            {
+              "market_id": "1349148",
+              "slug": "will-colorado-rapids-win-the-2026-mls-cup",
+              "question": "Will Colorado Rapids win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 95140
+            },
+            {
+              "market_id": "1349151",
+              "slug": "will-dc-united-win-the-2026-mls-cup",
+              "question": "Will D.C. United win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 2431
+            },
+            {
+              "market_id": "1349159",
+              "slug": "will-new-england-revolution-win-the-2026-mls-cup",
+              "question": "Will New England Revolution win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 2834
+            },
+            {
+              "market_id": "1349169",
+              "slug": "will-sporting-kansas-city-win-the-2026-mls-cup",
+              "question": "Will Sporting Kansas City win the 2026 MLS Cup?",
+              "yes_price": 0.003,
+              "volume": 6365
+            }
+          ],
+          "url": "https://polymarket.com/event/mls-cup-winner-2026",
+          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -796,15 +546,90 @@
           ],
           "url": "https://polymarket.com/event/la-05-republican-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "China Annual Inflation 2026",
+          "event_slug": "china-annual-inflation-2026",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1132795",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
+              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+              "yes_price": 0.265,
+              "volume": 1819
+            },
+            {
+              "market_id": "1132798",
+              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
+              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
+              "yes_price": 0.1355,
+              "volume": 1562
+            },
+            {
+              "market_id": "1132796",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
+              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
+              "yes_price": 0.125,
+              "volume": 2205
+            },
+            {
+              "market_id": "1132792",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
+              "yes_price": 0.0835,
+              "volume": 1733
+            },
+            {
+              "market_id": "1132793",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
+              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
+              "yes_price": 0.0835,
+              "volume": 1765
+            },
+            {
+              "market_id": "1132797",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
+              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
+              "yes_price": 0.081,
+              "volume": 2488
+            },
+            {
+              "market_id": "1237148",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
+              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
+              "yes_price": 0.0645,
+              "volume": 1617
+            },
+            {
+              "market_id": "1132794",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
+              "yes_price": 0.045,
+              "volume": 1628
+            },
+            {
+              "market_id": "1132791",
+              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
+              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
+              "yes_price": 0.026,
+              "volume": 16740
+            }
+          ],
+          "url": "https://polymarket.com/event/china-annual-inflation-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1951,
-        "skipped_single_outcome": 636,
-        "opportunities_found": 128,
+        "checked_multi_outcome": 1950,
+        "skipped_single_outcome": 637,
+        "opportunities_found": 138,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 20:14 UTC"
+        "scanned_at": "2026-04-12 20:26 UTC"
       }
     },
     {
