@@ -1,70 +1,98 @@
 {
-  "last_scan": "2026-04-12T18:25:33.522282+00:00",
-  "scan_seconds": 51.1,
-  "markets_scanned": 35,
+  "last_scan": "2026-04-12T19:01:44.508711+00:00",
+  "scan_seconds": 30.5,
+  "markets_scanned": 40,
   "open_positions": 18,
   "signals": [
     {
-      "id": "sig_89161",
-      "timestamp": "2026-04-12T18:25:13.141036+00:00",
+      "id": "sig_260281",
+      "timestamp": "2026-04-12T19:01:24.259509+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Clinch #1 Seed and Best NBA Record; Key Players Confirmed Out for Final Regular Season Game vs",
-      "raw": "OKC Thunder Clinch #1 Seed and Best NBA Record; Key Players Confirmed Out for Final Regular Season Game vs. Suns** | YES | HIGH confidence[1][4]\n\nThe Thunder have locked up the **#1 seed** in the Western Conference and the NBA's best regular-season record with two games remaining, eliminating any seeding incentives for their April 12 finale against Phoenix[1][4]. Confirmed absences include **Shai ",
-      "direction": "YES",
+      "headline": "US-Iran Ceasefire Talks Collapse Without Agreement | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Talks Collapse Without Agreement | NO | HIGH confidence**\n\nAs of April 12, 2026, U.S. negotiators have departed Islamabad after 21 hours of discussions with no breakthrough achieved.[4] Vice President JD Vance stated that despite \"substantive discussions,\" the American team and Iranian delegation failed to reach an agreement.[4] This represents a significant setback to the two-we",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_77506",
-      "timestamp": "2026-04-12T18:25:01.486822+00:00",
+      "id": "sig_260296",
+      "timestamp": "2026-04-12T19:01:24.274610+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, the most recent confirmed news is from **Thursday, April 2nd, 2026**:",
-      "raw": "Based on the available search results, the most recent confirmed news is from **Thursday, April 2nd, 2026**:",
+      "headline": "**Ceasefire already violated:** Both sides have violated the April 8 ceasefire agreement since its declaration",
+      "raw": "**Ceasefire already violated:** Both sides have violated the April 8 ceasefire agreement since its declaration.[3]\n\nThese collapsed negotiations heighten near-term escalation risks and suggest the fragile ceasefire may not survive beyond its two-week window without major diplomatic breakthroughs.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_273783",
+      "timestamp": "2026-04-12T19:01:37.761546+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify any breaking news from these search results that would constitute a confirmed announcement or resoluti",
+      "raw": "I cannot identify any breaking news from these search results that would constitute a confirmed announcement or resolution affecting prediction markets as of this moment.\n\nThe search results contain:",
       "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_77511",
-      "timestamp": "2026-04-12T18:25:01.491661+00:00",
+      "id": "sig_273794",
+      "timestamp": "2026-04-12T19:01:37.772279+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** - This has been confirmed and resolved",
-      "raw": "YES** - This has been confirmed and resolved.",
-      "direction": "YES",
+      "headline": "**Opinion pieces** on prediction markets and technical analysis, not confirmed events[6][7]",
+      "raw": "**Opinion pieces** on prediction markets and technical analysis, not confirmed events[6][7]\n\nTo provide the headline format you requested, I would need search results showing:",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_109523",
-      "timestamp": "2026-04-12T18:25:33.503117+00:00",
-      "source": "X_GROK",
-      "headline": "**$169k whale bet on YES: FC Internazionale Milano wins today** (at 42%)",
-      "raw": "**$169k whale bet on YES: FC Internazionale Milano wins today** (at 42%). Signals strong conviction on underdog. HIGH confidence.[[1]](https://x.com/i/status/2043394718164197473)[[2]](https://x.com/i/status/2043390404507185255)",
-      "direction": "YES",
-      "confidence": 0.78,
+      "id": "sig_273802",
+      "timestamp": "2026-04-12T19:01:37.780022+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confirmed institutional moves or partnerships",
+      "raw": "Confirmed institutional moves or partnerships",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043394718164197473)[[2]](https://x.com/i/status/2043390404507185255)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_70322",
-      "timestamp": "2026-04-12T18:24:54.302674+00:00",
+      "id": "sig_260284",
+      "timestamp": "2026-04-12T19:01:24.262835+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Talks Collapse in Islamabad Without Agreement; Trump Announces Strait of Hormuz Blockade** | **NO** |",
-      "raw": "US-Iran Ceasefire Talks Collapse in Islamabad Without Agreement; Trump Announces Strait of Hormuz Blockade** | **NO** | **HIGH** confidence[4][5][6][7]\n\nFace-to-face negotiations between U.S. and Iranian officials ended today, April 12, 2026, with no deal reached, as confirmed by Vice President JD Vance, who stated Iran refused U.S. terms on abandoning its nuclear program path[2][5][6]. Iranian of",
-      "direction": "NO",
+      "headline": "Key developments affecting prediction markets:**",
+      "raw": "Key developments affecting prediction markets:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_260287",
+      "timestamp": "2026-04-12T19:01:24.265849+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Strait of Hormuz remains closed:** Iran has failed to meet Trump's primary condition for the ceasefire\u2014reopening the c",
+      "raw": "**Strait of Hormuz remains closed:** Iran has failed to meet Trump's primary condition for the ceasefire\u2014reopening the critical waterway, with only two ships transiting on April 11.[5]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?"
@@ -74,144 +102,132 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_77509",
-      "timestamp": "2026-04-12T18:25:01.489296+00:00",
+      "id": "sig_260290",
+      "timestamp": "2026-04-12T19:01:24.268787+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** New Mexico Supreme Court unanimously upholds Duke Rodriguez's ballot eligibility for June Republican guberna",
-      "raw": "HEADLINE:** New Mexico Supreme Court unanimously upholds Duke Rodriguez's ballot eligibility for June Republican gubernatorial primary",
+      "headline": "**Lebanon dispute unresolved:** The U",
+      "raw": "**Lebanon dispute unresolved:** The U.S. and Israel maintain that Lebanon is not part of the ceasefire agreement, while Iran claims it is, with Israel continuing strikes on Hezbollah positions.[2][5][6]",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_77514",
-      "timestamp": "2026-04-12T18:25:01.494358+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CONFIDENCE:** HIGH",
-      "raw": "CONFIDENCE:** HIGH\n\nThe New Mexico Supreme Court unanimously ruled that **Republican gubernatorial candidate Duke Rodriguez can appear on the June primary ballot**[1], upholding a lower court decision. Rodriguez is one of three Republicans in the race alongside Greg Hall and Doug Turner, competing in an open primary since Governor Michelle Luhan Gisham cannot run for a third term[1].\n\nThis ruling ",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_77516",
-      "timestamp": "2026-04-12T18:25:01.496856+00:00",
+      "id": "sig_260293",
+      "timestamp": "2026-04-12T19:01:24.271679+00:00",
       "source": "PERPLEXITY",
-      "headline": "Note:** The search results provided are from April 2nd",
-      "raw": "Note:** The search results provided are from April 2nd. No breaking news from today (April 12th) regarding Duke Rodriguez or the New Mexico governor's race appears in the available search results.",
+      "headline": "**Military reset underway:** President Trump told the New York Post that U",
+      "raw": "**Military reset underway:** President Trump told the New York Post that U.S. military forces are resetting in preparation for potential renewed conflict if negotiations fail.[5]",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_109520",
-      "timestamp": "2026-04-12T18:25:33.500304+00:00",
-      "source": "X_GROK",
-      "headline": "Whale Activity on Sports Markets (Imminent Today):**",
-      "raw": "Whale Activity on Sports Markets (Imminent Today):**",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_109525",
-      "timestamp": "2026-04-12T18:25:33.505990+00:00",
-      "source": "X_GROK",
-      "headline": "**$374k top trader (Tiger200, +$288k profit) buys Michigan Wolverines vs UConn** (at 79\u00a2)",
-      "raw": "**$374k top trader (Tiger200, +$288k profit) buys Michigan Wolverines vs UConn** (at 79\u00a2). Smart money on favorite. HIGH confidence.[[3]](https://x.com/i/status/2043392852005171529)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043392852005171529)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_109528",
-      "timestamp": "2026-04-12T18:25:33.508805+00:00",
-      "source": "X_GROK",
-      "headline": "**$136k whale on UNDER 12",
-      "raw": "**$136k whale on UNDER 12.5: Pirates vs Cubs** (at 54%). Betting low-scoring game. MED confidence.[[4]](https://x.com/i/status/2043393437861286237)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043393437861286237)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_109531",
-      "timestamp": "2026-04-12T18:25:33.511491+00:00",
-      "source": "X_GROK",
-      "headline": "Hungarian Election (Polls Tonight):**",
-      "raw": "Hungarian Election (Polls Tonight):**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_109534",
-      "timestamp": "2026-04-12T18:25:33.514277+00:00",
-      "source": "X_GROK",
-      "headline": "**Trader long Viktor Orb\u00e1n next PM** (built position at 9-11\u00a2)",
-      "raw": "**Trader long Viktor Orb\u00e1n next PM** (built position at 9-11\u00a2). Volatility play expecting repricing. MED confidence.[[5]](https://x.com/i/status/2043392397929820201)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043392397929820201)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_109539",
-      "timestamp": "2026-04-12T18:25:33.519198+00:00",
-      "source": "X_GROK",
-      "headline": "Smart Money Highlight:**",
-      "raw": "Smart Money Highlight:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_109541",
-      "timestamp": "2026-04-12T18:25:33.521885+00:00",
-      "source": "X_GROK",
-      "headline": "**Ghost whale 'cqs' up $600k (73% win rate)** on geo bets (e",
-      "raw": "**Ghost whale 'cqs' up $600k (73% win rate)** on geo bets (e.g., YES Zelenskyy stays, NO ceasefire). Copy trading recommended. HIGH confidence (track record).[[7]](https://x.com/i/status/2043393447932174455)\n\nNo major mispriced tips or broad trends beyond sports whales and Orb\u00e1n vol. PolyWhaleFeed/PolyScan tracking active.[[1]](https://x.com/i/status/2043394718164197473)[[4]](https://x.com/i/statu",
+      "id": "sig_265983",
+      "timestamp": "2026-04-12T19:01:29.961175+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New Mexico Disqualifies All Republican Senate Candidates for 2026 Ballot, Ensuring No GOP Opponent for Incumbent Democra",
+      "raw": "New Mexico Disqualifies All Republican Senate Candidates for 2026 Ballot, Ensuring No GOP Opponent for Incumbent Democrat Ben Ray Lujan** | YES | HIGH confidence[1][2]\n\nAll Republican candidates, including Christopher Vanden Heuvel, were disqualified by Secretary of State Maggie Toulouse Oliver for insufficient voter signatures, marking the first time in modern history no Republican appears on the",
       "direction": "YES",
       "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "2026 Balance of Power: R Senate, D House"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_273786",
+      "timestamp": "2026-04-12T19:01:37.764282+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Price predictions and forecasts** from various sources (Binance, Changelly) projecting future Ethereum prices, but the",
+      "raw": "**Price predictions and forecasts** from various sources (Binance, Changelly) projecting future Ethereum prices, but these are analytical estimates, not news events[1][3]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043393447932174455)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_273788",
+      "timestamp": "2026-04-12T19:01:37.766985+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Real-time prediction market odds** from Polymarket showing current betting positions on Ethereum and Bitcoin prices, b",
+      "raw": "**Real-time prediction market odds** from Polymarket showing current betting positions on Ethereum and Bitcoin prices, but no indication of resolved markets or new announcements[2][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_273791",
+      "timestamp": "2026-04-12T19:01:37.769646+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Commentary on market sentiment** noting Bitcoin trading around $70,800 and short-term volatility, but this reflects ex",
+      "raw": "**Commentary on market sentiment** noting Bitcoin trading around $70,800 and short-term volatility, but this reflects existing conditions rather than breaking news[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_273796",
+      "timestamp": "2026-04-12T19:01:37.774908+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Official announcements (protocol upgrades, regulatory decisions, exchange listings)",
+      "raw": "Official announcements (protocol upgrades, regulatory decisions, exchange listings)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_273799",
+      "timestamp": "2026-04-12T19:01:37.777463+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Resolved prediction market outcomes",
+      "raw": "Resolved prediction market outcomes",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_273804",
+      "timestamp": "2026-04-12T19:01:37.782704+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Published earnings or development milestones",
+      "raw": "Published earnings or development milestones\n\nNone of these are present in the current results. If you're aware of a specific breaking development, I can help analyze its market impact with additional search results.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 14,
+    "alert": 15,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 5
   }
 }
