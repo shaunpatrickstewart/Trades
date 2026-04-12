@@ -524,6 +524,7 @@
       const activeEngLabels = [];
       if (won.filter(t=>t.type==="NEAR_CERTAIN").length + lost.filter(t=>t.type==="NEAR_CERTAIN").length > 0) activeEngLabels.push('NEAR-CERTAIN');
       if (won.filter(t=>t.type==="SHORT_TERM").length + lost.filter(t=>t.type==="SHORT_TERM").length > 0) activeEngLabels.push('WALLET COPY SHORT');
+      if (won.filter(t=>t.type==="LONG_TERM").length + lost.filter(t=>t.type==="LONG_TERM").length + open.filter(t=>t.type==="LONG_TERM").length > 0) activeEngLabels.push('WALLET COPY LONG (suspended)');
       if (won.filter(t=>t.type==="ANTI_NC").length + lost.filter(t=>t.type==="ANTI_NC").length + open.filter(t=>t.type==="ANTI_NC").length > 0) activeEngLabels.push('ANTI-NC');
       if (won.filter(t=>t.type==="NEWS").length + lost.filter(t=>t.type==="NEWS").length + open.filter(t=>t.type==="NEWS").length > 0) activeEngLabels.push('NEWS');
       if (descEl) descEl.innerHTML = 'Live results · <b style="color:#00aa55">'+winRate+'% WR</b> · <b style="color:'+(totalPnl>=0?'#00aa55':'#dd3344')+'">'+(totalPnl>=0?'+':'')+'$'+Math.abs(totalPnl).toFixed(2)+' net</b> · Engines: '+activeEngLabels.join(' + ');
