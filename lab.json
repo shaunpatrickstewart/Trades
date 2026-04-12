@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 147 categorical arb opportunities found\nScanned 3000 events (1953 multi-outcome) at 2026-04-12 09:36 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.75% on 'Next Premier of Quebec'",
+      "result": "LIVE \u2014 145 categorical arb opportunities found\nScanned 3000 events (1954 multi-outcome) at 2026-04-12 09:39 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.9% on 'Pennsylvania Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 09:36 UTC",
+      "last_scan": "2026-04-12 09:39 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -39,37 +39,37 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Next Premier of Quebec",
-          "event_slug": "next-premier-of-quebec",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "event_title": "Pennsylvania Governor Republican Primary Winner",
+          "event_slug": "pennsylvania-governor-republican-primary-winner",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1837607",
-              "slug": "will-christine-frechette-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
-              "question": "Will Christine Fr\u00e9chette be the next Premier of Quebec following the 2026 CAQ le",
-              "yes_price": 0.805,
-              "volume": 17126
+              "market_id": "906830",
+              "slug": "will-stacy-garrity-win-the-2026-pennsylvania-governor-republican-primary-election",
+              "question": "Will Stacy Garrity win the 2026 Pennsylvania Governor Republican primary electio",
+              "yes_price": 0.8845,
+              "volume": 1853
             },
             {
-              "market_id": "1837604",
-              "slug": "will-bernard-drainville-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
-              "question": "Will Bernard Drainville be the next Premier of Quebec following the 2026 CAQ lea",
-              "yes_price": 0.0975,
-              "volume": 12967
+              "market_id": "906832",
+              "slug": "will-doug-mastriano-win-the-2026-pennsylvania-governor-republican-primary-election",
+              "question": "Will Doug Mastriano win the 2026 Pennsylvania Governor Republican primary electi",
+              "yes_price": 0.0165,
+              "volume": 6095
             }
           ],
-          "url": "https://polymarket.com/event/next-premier-of-quebec",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/pennsylvania-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
           "event_title": "Perplexity IPO Closing Market Cap",
           "event_slug": "perplexity-ipo-closing-market-cap",
-          "yes_sum": 0.904,
-          "profit_pct": 9.6,
-          "profit_per_dollar_pct": 10.62,
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -83,7 +83,7 @@
               "market_id": "1115933",
               "slug": "will-perplexitys-market-cap-be-between-80b-and-100b-at-market-close-on-ipo-day",
               "question": "Will Perplexity\u2019s market cap be between $50B and $75B at market close on IPO day",
-              "yes_price": 0.1195,
+              "yes_price": 0.119,
               "volume": 6171
             },
             {
@@ -116,7 +116,99 @@
             }
           ],
           "url": "https://polymarket.com/event/perplexity-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "Next Premier of Quebec",
+          "event_slug": "next-premier-of-quebec",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1837607",
+              "slug": "will-christine-frechette-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
+              "question": "Will Christine Fr\u00e9chette be the next Premier of Quebec following the 2026 CAQ le",
+              "yes_price": 0.805,
+              "volume": 17126
+            },
+            {
+              "market_id": "1837604",
+              "slug": "will-bernard-drainville-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
+              "question": "Will Bernard Drainville be the next Premier of Quebec following the 2026 CAQ lea",
+              "yes_price": 0.099,
+              "volume": 12967
+            }
+          ],
+          "url": "https://polymarket.com/event/next-premier-of-quebec",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "Valorant: JD Gaming vs TEC Esports (BO3) - VCT China Group Alpha",
+          "event_slug": "val-jdg-tec-2026-04-12",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1931081",
+              "slug": "val-jdg-tec-2026-04-12",
+              "question": "Valorant: JD Gaming vs TEC Esports (BO3) - VCT China Group Alpha",
+              "yes_price": 0.465,
+              "volume": 48039
+            },
+            {
+              "market_id": "1931082",
+              "slug": "val-jdg-tec-2026-04-12-game1",
+              "question": "Valorant: JD Gaming vs TEC Esports - Map 1 Winner",
+              "yes_price": 0.44,
+              "volume": 1215
+            }
+          ],
+          "url": "https://polymarket.com/event/val-jdg-tec-2026-04-12",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "ME-02 Democratic Primary Winner",
+          "event_slug": "who-will-be-the-democratic-nominee-for-me-02",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "703948",
+              "slug": "will-joe-baldacci-be-the-democratic-nominee-for-me-02",
+              "question": "Will Joe Baldacci be the Democratic nominee for ME-02?",
+              "yes_price": 0.455,
+              "volume": 3200
+            },
+            {
+              "market_id": "703947",
+              "slug": "will-matthew-dunlap-be-the-democratic-nominee-for-me-02",
+              "question": "Will Matthew Dunlap be the Democratic nominee for ME-02?",
+              "yes_price": 0.23,
+              "volume": 2849
+            },
+            {
+              "market_id": "703949",
+              "slug": "will-jordan-wood-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jordan Wood be the Democratic nominee for ME-02?",
+              "yes_price": 0.215,
+              "volume": 1649
+            },
+            {
+              "market_id": "703946",
+              "slug": "will-jared-golden-be-the-democratic-nominee-for-me-02",
+              "question": "Will Jared Golden be the Democratic nominee for ME-02?",
+              "yes_price": 0.005,
+              "volume": 2253
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-me-02",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Tennessee Democratic Senate Primary Winner",
@@ -150,6 +242,32 @@
           ],
           "url": "https://polymarket.com/event/tennessee-democratic-senate-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "United Rugby Championship: Dragons vs Bulls",
+          "event_slug": "ruurc-dra-bul-2026-04-17",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1669673",
+              "slug": "ruurc-dra-bul-2026-04-17-bul",
+              "question": "Will Bulls win?",
+              "yes_price": 0.595,
+              "volume": 1094
+            },
+            {
+              "market_id": "1669671",
+              "slug": "ruurc-dra-bul-2026-04-17-dra",
+              "question": "Will Dragons win?",
+              "yes_price": 0.31,
+              "volume": 3929
+            }
+          ],
+          "url": "https://polymarket.com/event/ruurc-dra-bul-2026-04-17",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Harvey Weinstein prison time?",
@@ -206,86 +324,6 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "Pennsylvania Governor Republican Primary Winner",
-          "event_slug": "pennsylvania-governor-republican-primary-winner",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "906830",
-              "slug": "will-stacy-garrity-win-the-2026-pennsylvania-governor-republican-primary-election",
-              "question": "Will Stacy Garrity win the 2026 Pennsylvania Governor Republican primary electio",
-              "yes_price": 0.8895,
-              "volume": 1853
-            },
-            {
-              "market_id": "906832",
-              "slug": "will-doug-mastriano-win-the-2026-pennsylvania-governor-republican-primary-election",
-              "question": "Will Doug Mastriano win the 2026 Pennsylvania Governor Republican primary electi",
-              "yes_price": 0.0165,
-              "volume": 6095
-            }
-          ],
-          "url": "https://polymarket.com/event/pennsylvania-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "Guinea-Bissau National People's Assembly Election Winner",
-          "event_slug": "guinea-bissau-national-peoples-assembly-election-winner",
-          "yes_sum": 0.9075,
-          "profit_pct": 9.25,
-          "profit_per_dollar_pct": 10.19,
-          "num_outcomes": 6,
-          "outcomes": [
-            {
-              "market_id": "668685",
-              "slug": "will-platforma-reupblicana-n-kumpu-guin-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will Platforma Reupblicana \u201cN\u00f4 Kumpu Guin\u00e9\u201d win the most seats in the 2025 Guine",
-              "yes_price": 0.375,
-              "volume": 33421
-            },
-            {
-              "market_id": "668683",
-              "slug": "will-pt-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will PT win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
-              "yes_price": 0.237,
-              "volume": 17878
-            },
-            {
-              "market_id": "668684",
-              "slug": "will-ptg-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will MUNDO-GB\u2028 win the most seats in the 2025 Guinea-Bissau National People\u2019s As",
-              "yes_price": 0.1745,
-              "volume": 19085
-            },
-            {
-              "market_id": "668680",
-              "slug": "will-fling-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will FLING win the most seats in the 2025 Guinea-Bissau National People\u2019s Assemb",
-              "yes_price": 0.0535,
-              "volume": 11103
-            },
-            {
-              "market_id": "668681",
-              "slug": "will-frepasna-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will FREPASNA win the most seats in the 2025 Guinea-Bissau National People\u2019s Ass",
-              "yes_price": 0.036,
-              "volume": 22992
-            },
-            {
-              "market_id": "668682",
-              "slug": "will-ps-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
-              "question": "Will PS win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
-              "yes_price": 0.0315,
-              "volume": 21410
-            }
-          ],
-          "url": "https://polymarket.com/event/guinea-bissau-national-peoples-assembly-election-winner",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
-        },
-        {
           "event_title": "TX-18 Democratic Primary Winner",
           "event_slug": "tx-18-democratic-primary-winner",
           "yes_sum": 0.9085,
@@ -317,81 +355,15 @@
           ],
           "url": "https://polymarket.com/event/tx-18-democratic-primary-winner",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
-        },
-        {
-          "event_title": "Montana Senate Election Winner",
-          "event_slug": "montana-senate-election-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "630832",
-              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
-              "question": "Will the Republicans win the Montana Senate race in 2026?",
-              "yes_price": 0.785,
-              "volume": 34353
-            },
-            {
-              "market_id": "630831",
-              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
-              "question": "Will the Democrats win the Montana Senate race in 2026?",
-              "yes_price": 0.125,
-              "volume": 25609
-            }
-          ],
-          "url": "https://polymarket.com/event/montana-senate-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "Colorado Republican Senate Primary Winner",
-          "event_slug": "colorado-republican-senate-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "679608",
-              "slug": "will-mark-baisley-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Mark Baisley be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.41,
-              "volume": 7184
-            },
-            {
-              "market_id": "679606",
-              "slug": "will-janak-joshi-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Janak Joshi be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.195,
-              "volume": 1779
-            },
-            {
-              "market_id": "679607",
-              "slug": "will-george-washington-markert-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will George Washington Markert be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.155,
-              "volume": 2281
-            },
-            {
-              "market_id": "679605",
-              "slug": "will-dathan-jones-be-the-republican-nominee-for-senate-in-colorado",
-              "question": "Will Dathan Jones be the Republican nominee for Senate in Colorado?",
-              "yes_price": 0.15,
-              "volume": 1160
-            }
-          ],
-          "url": "https://polymarket.com/event/colorado-republican-senate-primary-winner",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1953,
-        "skipped_single_outcome": 620,
-        "opportunities_found": 147,
+        "checked_multi_outcome": 1954,
+        "skipped_single_outcome": 622,
+        "opportunities_found": 145,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 09:36 UTC"
+        "scanned_at": "2026-04-12 09:39 UTC"
       }
     },
     {
