@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1942 multi-outcome) at 2026-04-12 06:12 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Colorado Republican Senate Primary Winner'",
+      "result": "LIVE \u2014 145 categorical arb opportunities found\nScanned 3000 events (1940 multi-outcome) at 2026-04-12 06:13 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Colorado Republican Senate Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 06:12 UTC",
+      "last_scan": "2026-04-12 06:13 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -341,9 +341,9 @@
         {
           "event_title": "TX-18 Democratic Primary Winner",
           "event_slug": "tx-18-democratic-primary-winner",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
           "num_outcomes": 3,
           "outcomes": [
             {
@@ -357,7 +357,7 @@
               "market_id": "1335328",
               "slug": "will-al-green-be-the-democratic-nominee-for-tx-18",
               "question": "Will Al Green be the Democratic nominee for TX-18?",
-              "yes_price": 0.2045,
+              "yes_price": 0.205,
               "volume": 3395
             },
             {
@@ -369,14 +369,14 @@
             }
           ],
           "url": "https://polymarket.com/event/tx-18-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
           "num_outcomes": 36,
           "outcomes": [
             {
@@ -390,8 +390,8 @@
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.161,
-              "volume": 13576293
+              "yes_price": 0.1605,
+              "volume": 13577041
             },
             {
               "market_id": "561234",
@@ -412,7 +412,7 @@
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0435,
-              "volume": 3435147
+              "volume": 3435185
             },
             {
               "market_id": "561239",
@@ -425,15 +425,15 @@
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0285,
-              "volume": 8529967
+              "yes_price": 0.028,
+              "volume": 8534112
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0275,
-              "volume": 9860946
+              "volume": 9861029
             },
             {
               "market_id": "561233",
@@ -475,7 +475,7 @@
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.0115,
-              "volume": 10815095
+              "volume": 10815107
             },
             {
               "market_id": "561252",
@@ -503,7 +503,7 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22624522
+              "volume": 22625039
             },
             {
               "market_id": "561236",
@@ -552,7 +552,7 @@
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29543127
+              "volume": 29544163
             },
             {
               "market_id": "561244",
@@ -580,21 +580,21 @@
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6546443
+              "volume": 6547598
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39422489
+              "volume": 39423887
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6406893
+              "volume": 6407078
             },
             {
               "market_id": "561242",
@@ -608,32 +608,72 @@
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4313453
+              "volume": 4313463
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 30950767
+              "volume": 30952208
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32653239
+              "volume": 32653368
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46150834
+              "volume": 46151380
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
+        },
+        {
+          "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1738484",
+              "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
+              "yes_price": 0.32,
+              "volume": 6332
+            },
+            {
+              "market_id": "1738483",
+              "slug": "will-progressive-bulgaria-pb-win-between-85-89-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 85-89 seats in the 2026 Bulgarian par",
+              "yes_price": 0.255,
+              "volume": 6058
+            },
+            {
+              "market_id": "1738482",
+              "slug": "will-progressive-bulgaria-pb-win-between-80-84-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win between 80-84 seats in the 2026 Bulgarian par",
+              "yes_price": 0.175,
+              "volume": 7896
+            },
+            {
+              "market_id": "1738485",
+              "slug": "will-progressive-bulgaria-pb-win-95-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Progressive Bulgaria (PB) win 95 or more seats in the 2026 Bulgarian parlia",
+              "yes_price": 0.155,
+              "volume": 11194
+            }
+          ],
+          "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "South Carolina Governor Democratic Primary Winner",
@@ -686,41 +726,15 @@
           ],
           "url": "https://polymarket.com/event/montana-senate-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
-          "event_title": "CO-08 Democratic Primary Winner",
-          "event_slug": "co-08-democratic-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "704026",
-              "slug": "will-manny-rutinel-be-the-democratic-nominee-for-co-08",
-              "question": "Will Manny Rutinel be the Democratic nominee for CO-08?",
-              "yes_price": 0.83,
-              "volume": 8789
-            },
-            {
-              "market_id": "704025",
-              "slug": "will-shannon-bird-be-the-democratic-nominee-for-co-08",
-              "question": "Will Shannon Bird be the Democratic nominee for CO-08?",
-              "yes_price": 0.08,
-              "volume": 1297
-            }
-          ],
-          "url": "https://polymarket.com/event/co-08-democratic-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1942,
-        "skipped_single_outcome": 627,
-        "opportunities_found": 142,
+        "checked_multi_outcome": 1940,
+        "skipped_single_outcome": 629,
+        "opportunities_found": 145,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 06:12 UTC"
+        "scanned_at": "2026-04-12 06:13 UTC"
       }
     },
     {
