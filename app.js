@@ -847,7 +847,7 @@
         const s = t.source||t.type||'';
         if (s.startsWith('copy:')) return '<span style="color:#88aaff;font-size:0.75em">COPY: '+s.slice(5).slice(0,14)+'</span>';
         if (t.type==='NEAR_CERTAIN') return '<span style="color:#aaa;font-size:0.75em">NEAR-CERTAIN</span>';
-        if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">COPY SHORT</span>';
+        if (t.type==='SHORT_TERM')   return '<span style="color:#00ff88;font-size:0.75em">WALLET COPY SHORT</span>';
         return '<span style="color:#888;font-size:0.75em">'+(t.type||'—')+'</span>';
       };
 
