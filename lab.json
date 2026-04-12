@@ -8,56 +8,628 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 130 categorical arb opportunities found\nScanned 3000 events (1965 multi-outcome) at 2026-04-12 19:26 UTC\nBest: 10.0% profit on 'Athletics vs. New York Mets' \u2014 buy YES on all 5 outcomes (sum=0.9)\nStrategy: Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.85% on 'Maduro Prison Time?'",
+      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (1955 multi-outcome) at 2026-04-12 19:58 UTC\nBest: 9.9% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.901)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.9% on 'Elon Musk musk # tweets in May 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 19:26 UTC",
+      "last_scan": "2026-04-12 19:58 UTC",
       "opportunities": [
         {
-          "event_title": "Athletics vs. New York Mets",
-          "event_slug": "mlb-oak-nym-2026-04-12",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 5,
+          "event_title": "Presidential Election Winner 2028",
+          "event_slug": "presidential-election-winner-2028",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 36,
           "outcomes": [
             {
-              "market_id": "1890652",
-              "slug": "mlb-oak-nym-2026-04-12",
-              "question": "Athletics vs. New York Mets",
-              "yes_price": 0.645,
-              "volume": 173227
+              "market_id": "561229",
+              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
+              "question": "Will JD Vance win the 2028 US Presidential Election?",
+              "yes_price": 0.1875,
+              "volume": 10118208
             },
             {
-              "market_id": "1948790",
-              "slug": "mlb-oak-nym-2026-04-12-spread-home-1pt5",
-              "question": "Spread: New York Mets (-1.5)",
-              "yes_price": 0.12,
-              "volume": 34679
+              "market_id": "561230",
+              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
+              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
+              "yes_price": 0.167,
+              "volume": 13723303
             },
             {
-              "market_id": "1958110",
-              "slug": "mlb-oak-nym-2026-04-12-total-7pt5",
-              "question": "Athletics vs. New York Mets: O/U 7.5",
-              "yes_price": 0.07,
-              "volume": 141150
+              "market_id": "561234",
+              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
+              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
+              "yes_price": 0.097,
+              "volume": 6002449
             },
             {
-              "market_id": "1948791",
-              "slug": "mlb-oak-nym-2026-04-12-total-8pt5",
-              "question": "Athletics vs. New York Mets: O/U 8.5",
-              "yes_price": 0.06,
-              "volume": 15862
+              "market_id": "561231",
+              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
+              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+              "yes_price": 0.0545,
+              "volume": 10773084
             },
             {
-              "market_id": "1890653",
-              "slug": "mlb-oak-nym-2026-04-12-nrfi",
-              "question": "Will there be a run scored in the first inning?: Athletics vs. New York Mets",
-              "yes_price": 0.005,
-              "volume": 1665
+              "market_id": "561261",
+              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
+              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
+              "yes_price": 0.0425,
+              "volume": 3437349
+            },
+            {
+              "market_id": "561239",
+              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
+              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
+              "yes_price": 0.0325,
+              "volume": 6955219
+            },
+            {
+              "market_id": "561253",
+              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
+              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
+              "yes_price": 0.0275,
+              "volume": 9867643
+            },
+            {
+              "market_id": "561233",
+              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
+              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
+              "yes_price": 0.0215,
+              "volume": 5780315
+            },
+            {
+              "market_id": "561243",
+              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
+              "question": "Will Donald Trump win the 2028 US Presidential Election?",
+              "yes_price": 0.0215,
+              "volume": 6929276
+            },
+            {
+              "market_id": "561246",
+              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
+              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
+              "yes_price": 0.018,
+              "volume": 8676485
+            },
+            {
+              "market_id": "561232",
+              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
+              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
+              "yes_price": 0.0165,
+              "volume": 3841775
+            },
+            {
+              "market_id": "561237",
+              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
+              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
+              "yes_price": 0.0125,
+              "volume": 17424753
+            },
+            {
+              "market_id": "561241",
+              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
+              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
+              "yes_price": 0.0115,
+              "volume": 10824734
+            },
+            {
+              "market_id": "561252",
+              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
+              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
+              "yes_price": 0.0115,
+              "volume": 6048006
+            },
+            {
+              "market_id": "561260",
+              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
+              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
+              "yes_price": 0.0115,
+              "volume": 3770082
+            },
+            {
+              "market_id": "561238",
+              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
+              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+              "yes_price": 0.011,
+              "volume": 20792393
+            },
+            {
+              "market_id": "561236",
+              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
+              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
+              "yes_price": 0.0105,
+              "volume": 8558129
+            },
+            {
+              "market_id": "561262",
+              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
+              "question": "Will James Talarico win the 2028 US Presidential Election?",
+              "yes_price": 0.0105,
+              "volume": 4352302
+            },
+            {
+              "market_id": "561250",
+              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
+              "question": "Will Elon Musk win the 2028 US Presidential Election?",
+              "yes_price": 0.0095,
+              "volume": 22654905
+            },
+            {
+              "market_id": "561258",
+              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
+              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
+              "yes_price": 0.0095,
+              "volume": 7612615
+            },
+            {
+              "market_id": "561249",
+              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
+              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
+              "yes_price": 0.0095,
+              "volume": 31852117
+            },
+            {
+              "market_id": "561255",
+              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
+              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
+              "yes_price": 0.0085,
+              "volume": 4537097
+            },
+            {
+              "market_id": "561245",
+              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
+              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
+              "yes_price": 0.0085,
+              "volume": 22051637
+            },
+            {
+              "market_id": "561257",
+              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
+              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
+              "yes_price": 0.0085,
+              "volume": 13595086
+            },
+            {
+              "market_id": "561259",
+              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
+              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
+              "yes_price": 0.0085,
+              "volume": 7066691
+            },
+            {
+              "market_id": "561240",
+              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
+              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
+              "yes_price": 0.0075,
+              "volume": 29587658
+            },
+            {
+              "market_id": "561244",
+              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
+              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+              "yes_price": 0.0075,
+              "volume": 9195421
+            },
+            {
+              "market_id": "561256",
+              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
+              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+              "yes_price": 0.0075,
+              "volume": 17566260
+            },
+            {
+              "market_id": "561263",
+              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
+              "question": "Will Eric Trump win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 6588907
+            },
+            {
+              "market_id": "561247",
+              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
+              "question": "Will Tim Walz win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 39474882
+            },
+            {
+              "market_id": "561235",
+              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
+              "question": "Will Wes Moore win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 6466873
+            },
+            {
+              "market_id": "561242",
+              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
+              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 28136771
+            },
+            {
+              "market_id": "561264",
+              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
+              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 4348744
+            },
+            {
+              "market_id": "561248",
+              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 30986379
+            },
+            {
+              "market_id": "561254",
+              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
+              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
+              "yes_price": 0.0065,
+              "volume": 32701043
+            },
+            {
+              "market_id": "561251",
+              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
+              "question": "Will LeBron James win the 2028 US Presidential Election?",
+              "yes_price": 0.0055,
+              "volume": 46285309
             }
           ],
-          "url": "https://polymarket.com/event/mlb-oak-nym-2026-04-12",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/presidential-election-winner-2028",
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Elon Musk musk # tweets in May 2026?",
+          "event_slug": "elon-musk-of-tweets-may-2026",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 49,
+          "outcomes": [
+            {
+              "market_id": "1698939",
+              "slug": "elon-musk-of-tweets-may-2026-1360-1399",
+              "question": "Will Elon Musk post 1360-1399 tweets in May 2026?",
+              "yes_price": 0.097,
+              "volume": 2578
+            },
+            {
+              "market_id": "1698936",
+              "slug": "elon-musk-of-tweets-may-2026-1320-1359",
+              "question": "Will Elon Musk post 1320-1359 tweets in May 2026?",
+              "yes_price": 0.092,
+              "volume": 2524
+            },
+            {
+              "market_id": "1698930",
+              "slug": "elon-musk-of-tweets-may-2026-1240-1279",
+              "question": "Will Elon Musk post 1240-1279 tweets in May 2026?",
+              "yes_price": 0.091,
+              "volume": 1555
+            },
+            {
+              "market_id": "1698933",
+              "slug": "elon-musk-of-tweets-may-2026-1280-1319",
+              "question": "Will Elon Musk post 1280-1319 tweets in May 2026?",
+              "yes_price": 0.079,
+              "volume": 3178
+            },
+            {
+              "market_id": "1698926",
+              "slug": "elon-musk-of-tweets-may-2026-1200-1239",
+              "question": "Will Elon Musk post 1200-1239 tweets in May 2026?",
+              "yes_price": 0.0765,
+              "volume": 1200
+            },
+            {
+              "market_id": "1698923",
+              "slug": "elon-musk-of-tweets-may-2026-1160-1199",
+              "question": "Will Elon Musk post 1160-1199 tweets in May 2026?",
+              "yes_price": 0.074,
+              "volume": 1806
+            },
+            {
+              "market_id": "1698942",
+              "slug": "elon-musk-of-tweets-may-2026-1400-1439",
+              "question": "Will Elon Musk post 1400-1439 tweets in May 2026?",
+              "yes_price": 0.074,
+              "volume": 2155
+            },
+            {
+              "market_id": "1698945",
+              "slug": "elon-musk-of-tweets-may-2026-1440-1479",
+              "question": "Will Elon Musk post 1440-1479 tweets in May 2026?",
+              "yes_price": 0.065,
+              "volume": 1805
+            },
+            {
+              "market_id": "1698920",
+              "slug": "elon-musk-of-tweets-may-2026-1080-1119",
+              "question": "Will Elon Musk post 1080-1119 tweets in May 2026?",
+              "yes_price": 0.0415,
+              "volume": 1090
+            },
+            {
+              "market_id": "1698956",
+              "slug": "elon-musk-of-tweets-may-2026-1600-1679",
+              "question": "Will Elon Musk post 1600-1679 tweets in May 2026?",
+              "yes_price": 0.0345,
+              "volume": 1110
+            },
+            {
+              "market_id": "1698918",
+              "slug": "elon-musk-of-tweets-may-2026-1040-1079",
+              "question": "Will Elon Musk post 1040-1079 tweets in May 2026?",
+              "yes_price": 0.0325,
+              "volume": 1404
+            },
+            {
+              "market_id": "1698915",
+              "slug": "elon-musk-of-tweets-may-2026-960-999",
+              "question": "Will Elon Musk post 960-999 tweets in May 2026?",
+              "yes_price": 0.0315,
+              "volume": 1313
+            },
+            {
+              "market_id": "1698957",
+              "slug": "elon-musk-of-tweets-may-2026-1680-1759",
+              "question": "Will Elon Musk post 1680-1759 tweets in May 2026?",
+              "yes_price": 0.02,
+              "volume": 1615
+            },
+            {
+              "market_id": "1698964",
+              "slug": "elon-musk-of-tweets-may-2026-2000plus",
+              "question": "Will Elon Musk post 2000+ tweets in May 2026?",
+              "yes_price": 0.0125,
+              "volume": 2328
+            },
+            {
+              "market_id": "1698902",
+              "slug": "elon-musk-of-tweets-may-2026-760-779",
+              "question": "Will Elon Musk post 760-779 tweets in May 2026?",
+              "yes_price": 0.009,
+              "volume": 1149
+            },
+            {
+              "market_id": "1698960",
+              "slug": "elon-musk-of-tweets-may-2026-1760-1839",
+              "question": "Will Elon Musk post 1760-1839 tweets in May 2026?",
+              "yes_price": 0.0085,
+              "volume": 1037
+            },
+            {
+              "market_id": "1698870",
+              "slug": "elon-musk-of-tweets-may-2026-460-479",
+              "question": "Will Elon Musk post 460-479 tweets in May 2026?",
+              "yes_price": 0.0055,
+              "volume": 3137
+            },
+            {
+              "market_id": "1698961",
+              "slug": "elon-musk-of-tweets-may-2026-1840-1919",
+              "question": "Will Elon Musk post 1840-1919 tweets in May 2026?",
+              "yes_price": 0.0035,
+              "volume": 1050
+            },
+            {
+              "market_id": "1698835",
+              "slug": "elon-musk-of-tweets-may-2026-200-219",
+              "question": "Will Elon Musk post 200-219 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 3802
+            },
+            {
+              "market_id": "1698849",
+              "slug": "elon-musk-of-tweets-may-2026-320-339",
+              "question": "Will Elon Musk post 320-339 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 7117
+            },
+            {
+              "market_id": "1698852",
+              "slug": "elon-musk-of-tweets-may-2026-340-359",
+              "question": "Will Elon Musk post 340-359 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 2410
+            },
+            {
+              "market_id": "1698875",
+              "slug": "elon-musk-of-tweets-may-2026-500-519",
+              "question": "Will Elon Musk post 500-519 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 3812
+            },
+            {
+              "market_id": "1698878",
+              "slug": "elon-musk-of-tweets-may-2026-520-539",
+              "question": "Will Elon Musk post 520-539 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 2297
+            },
+            {
+              "market_id": "1698882",
+              "slug": "elon-musk-of-tweets-may-2026-540-559",
+              "question": "Will Elon Musk post 540-559 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 1621
+            },
+            {
+              "market_id": "1698885",
+              "slug": "elon-musk-of-tweets-may-2026-560-579",
+              "question": "Will Elon Musk post 560-579 tweets in May 2026?",
+              "yes_price": 0.0025,
+              "volume": 1607
+            },
+            {
+              "market_id": "1698777",
+              "slug": "elon-musk-of-tweets-may-2026-0-19",
+              "question": "Will Elon Musk post 0-19 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 12319
+            },
+            {
+              "market_id": "1698786",
+              "slug": "elon-musk-of-tweets-may-2026-20-39",
+              "question": "Will Elon Musk post 20-39 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 11876
+            },
+            {
+              "market_id": "1698795",
+              "slug": "elon-musk-of-tweets-may-2026-40-59",
+              "question": "Will Elon Musk post 40-59 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 6448
+            },
+            {
+              "market_id": "1698803",
+              "slug": "elon-musk-of-tweets-may-2026-60-79",
+              "question": "Will Elon Musk post 60-79 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 14539
+            },
+            {
+              "market_id": "1698808",
+              "slug": "elon-musk-of-tweets-may-2026-80-99",
+              "question": "Will Elon Musk post 80-99 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 6164
+            },
+            {
+              "market_id": "1698812",
+              "slug": "elon-musk-of-tweets-may-2026-100-119",
+              "question": "Will Elon Musk post 100-119 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 4738
+            },
+            {
+              "market_id": "1698816",
+              "slug": "elon-musk-of-tweets-may-2026-120-139",
+              "question": "Will Elon Musk post 120-139 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 2474
+            },
+            {
+              "market_id": "1698820",
+              "slug": "elon-musk-of-tweets-may-2026-140-159",
+              "question": "Will Elon Musk post 140-159 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 4696
+            },
+            {
+              "market_id": "1698824",
+              "slug": "elon-musk-of-tweets-may-2026-160-179",
+              "question": "Will Elon Musk post 160-179 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 5638
+            },
+            {
+              "market_id": "1698830",
+              "slug": "elon-musk-of-tweets-may-2026-180-199",
+              "question": "Will Elon Musk post 180-199 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 4271
+            },
+            {
+              "market_id": "1698837",
+              "slug": "elon-musk-of-tweets-may-2026-220-239",
+              "question": "Will Elon Musk post 220-239 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 6089
+            },
+            {
+              "market_id": "1698839",
+              "slug": "elon-musk-of-tweets-may-2026-240-259",
+              "question": "Will Elon Musk post 240-259 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 6294
+            },
+            {
+              "market_id": "1698841",
+              "slug": "elon-musk-of-tweets-may-2026-260-279",
+              "question": "Will Elon Musk post 260-279 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 5619
+            },
+            {
+              "market_id": "1698843",
+              "slug": "elon-musk-of-tweets-may-2026-280-299",
+              "question": "Will Elon Musk post 280-299 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 2550
+            },
+            {
+              "market_id": "1698846",
+              "slug": "elon-musk-of-tweets-may-2026-300-319",
+              "question": "Will Elon Musk post 300-319 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 4000
+            },
+            {
+              "market_id": "1698855",
+              "slug": "elon-musk-of-tweets-may-2026-360-379",
+              "question": "Will Elon Musk post 360-379 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 2329
+            },
+            {
+              "market_id": "1698858",
+              "slug": "elon-musk-of-tweets-may-2026-380-399",
+              "question": "Will Elon Musk post 380-399 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 3045
+            },
+            {
+              "market_id": "1698860",
+              "slug": "elon-musk-of-tweets-may-2026-400-419",
+              "question": "Will Elon Musk post 400-419 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 3132
+            },
+            {
+              "market_id": "1698865",
+              "slug": "elon-musk-of-tweets-may-2026-420-439",
+              "question": "Will Elon Musk post 420-439 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 2724
+            },
+            {
+              "market_id": "1698868",
+              "slug": "elon-musk-of-tweets-may-2026-440-459",
+              "question": "Will Elon Musk post 440-459 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 2724
+            },
+            {
+              "market_id": "1698873",
+              "slug": "elon-musk-of-tweets-may-2026-480-499",
+              "question": "Will Elon Musk post 480-499 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 6528
+            },
+            {
+              "market_id": "1698887",
+              "slug": "elon-musk-of-tweets-may-2026-580-599",
+              "question": "Will Elon Musk post 580-599 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 2580
+            },
+            {
+              "market_id": "1698890",
+              "slug": "elon-musk-of-tweets-may-2026-620-639",
+              "question": "Will Elon Musk post 620-639 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 1032
+            },
+            {
+              "market_id": "1698895",
+              "slug": "elon-musk-of-tweets-may-2026-680-699",
+              "question": "Will Elon Musk post 680-699 tweets in May 2026?",
+              "yes_price": 0.0015,
+              "volume": 1480
+            }
+          ],
+          "url": "https://polymarket.com/event/elon-musk-of-tweets-may-2026",
+          "strategy": "Buy YES on all 49 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
           "event_title": "Maduro Prison Time?",
@@ -107,268 +679,51 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 36,
+          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "561229",
-              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
-              "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.1875,
-              "volume": 10117917
+              "market_id": "1738311",
+              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.29,
+              "volume": 19945
             },
             {
-              "market_id": "561230",
-              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
-              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1685,
-              "volume": 13718930
+              "market_id": "1738310",
+              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.255,
+              "volume": 7428
             },
             {
-              "market_id": "561234",
-              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
-              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.097,
-              "volume": 6001754
+              "market_id": "1738312",
+              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.175,
+              "volume": 2690
             },
             {
-              "market_id": "561231",
-              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
-              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.0545,
-              "volume": 10772947
+              "market_id": "1738313",
+              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
+              "yes_price": 0.12,
+              "volume": 1015
             },
             {
-              "market_id": "561261",
-              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
-              "yes_price": 0.0435,
-              "volume": 3437236
-            },
-            {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.0325,
-              "volume": 6954973
-            },
-            {
-              "market_id": "561253",
-              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
-              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0275,
-              "volume": 9867311
-            },
-            {
-              "market_id": "561233",
-              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 5780302
-            },
-            {
-              "market_id": "561243",
-              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 6929177
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.018,
-              "volume": 8674135
-            },
-            {
-              "market_id": "561232",
-              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
-              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 3841775
-            },
-            {
-              "market_id": "561237",
-              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
-              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 17424753
-            },
-            {
-              "market_id": "561241",
-              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
-              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10824711
-            },
-            {
-              "market_id": "561252",
-              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
-              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 6048006
-            },
-            {
-              "market_id": "561260",
-              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
-              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 3770082
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.011,
-              "volume": 20792382
-            },
-            {
-              "market_id": "561236",
-              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
-              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 8557842
-            },
-            {
-              "market_id": "561262",
-              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
-              "question": "Will James Talarico win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 4352302
-            },
-            {
-              "market_id": "561250",
-              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
-              "question": "Will Elon Musk win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 22653796
-            },
-            {
-              "market_id": "561258",
-              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
-              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 7612615
-            },
-            {
-              "market_id": "561249",
-              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
-              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 31851233
-            },
-            {
-              "market_id": "561255",
-              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
-              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 4536254
-            },
-            {
-              "market_id": "561257",
-              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
-              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 13595086
-            },
-            {
-              "market_id": "561259",
-              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
-              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7066378
-            },
-            {
-              "market_id": "561240",
-              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
-              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 29587185
-            },
-            {
-              "market_id": "561244",
-              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 9194855
-            },
-            {
-              "market_id": "561245",
-              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
-              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 21789802
-            },
-            {
-              "market_id": "561256",
-              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
-              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 17566073
-            },
-            {
-              "market_id": "561263",
-              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
-              "question": "Will Eric Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6588267
-            },
-            {
-              "market_id": "561247",
-              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
-              "question": "Will Tim Walz win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 39473175
-            },
-            {
-              "market_id": "561235",
-              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
-              "question": "Will Wes Moore win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6466049
-            },
-            {
-              "market_id": "561242",
-              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
-              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 28136204
-            },
-            {
-              "market_id": "561264",
-              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
-              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 4347495
-            },
-            {
-              "market_id": "561248",
-              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
-              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 30986267
-            },
-            {
-              "market_id": "561254",
-              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
-              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 32700242
-            },
-            {
-              "market_id": "561251",
-              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
-              "question": "Will LeBron James win the 2028 US Presidential Election?",
-              "yes_price": 0.0055,
-              "volume": 46284300
+              "market_id": "1738308",
+              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.063,
+              "volume": 1732
             }
           ],
-          "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
+          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -411,107 +766,6 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
         },
         {
-          "event_title": "How many Tornadoes in the US in 2026?",
-          "event_slug": "how-many-tornadoes-in-the-us-in-2026",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1428393",
-              "slug": "will-1250-or-more-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1250 or more tornadoes occur in the United States in 2026?",
-              "yes_price": 0.31,
-              "volume": 14527
-            },
-            {
-              "market_id": "1428392",
-              "slug": "will-1200-to-1249-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1200 to 1249 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.2095,
-              "volume": 14432
-            },
-            {
-              "market_id": "1428365",
-              "slug": "will-fewer-than-950-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will fewer than 950 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.12,
-              "volume": 21053
-            },
-            {
-              "market_id": "1428381",
-              "slug": "will-1050-to-1099-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1050 to 1099 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.1,
-              "volume": 6633
-            },
-            {
-              "market_id": "1428391",
-              "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.0705,
-              "volume": 1147
-            },
-            {
-              "market_id": "1428380",
-              "slug": "will-1000-to-1049-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 1000 to 1049 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.056,
-              "volume": 1139
-            },
-            {
-              "market_id": "1428374",
-              "slug": "will-950-to-999-tornadoes-occur-in-the-united-states-in-2026",
-              "question": "Will 950 to 999 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.039,
-              "volume": 2049
-            }
-          ],
-          "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "Relay FDV above ___ one day after launch?",
-          "event_slug": "relay-fdv-above-one-day-after-launch",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1361726",
-              "slug": "relay-fdv-above-300m-one-day-after-launch",
-              "question": "Relay FDV above $300M one day after launch?",
-              "yes_price": 0.34,
-              "volume": 2643
-            },
-            {
-              "market_id": "1361725",
-              "slug": "relay-fdv-above-100m-one-day-after-launch",
-              "question": "Relay FDV above $100M one day after launch?",
-              "yes_price": 0.295,
-              "volume": 17380
-            },
-            {
-              "market_id": "1361727",
-              "slug": "relay-fdv-above-500m-one-day-after-launch",
-              "question": "Relay FDV above $500M one day after launch?",
-              "yes_price": 0.14,
-              "volume": 8602
-            },
-            {
-              "market_id": "1361729",
-              "slug": "relay-fdv-above-700m-one-day-after-launch",
-              "question": "Relay FDV above $700M one day after launch?",
-              "yes_price": 0.13,
-              "volume": 1187
-            }
-          ],
-          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
           "event_title": "Sabres vs. Blackhawks",
           "event_slug": "nhl-buf-chi-2026-04-13",
           "yes_sum": 0.905,
@@ -524,7 +778,7 @@
               "slug": "nhl-buf-chi-2026-04-13",
               "question": "Sabres vs. Blackhawks",
               "yes_price": 0.645,
-              "volume": 9306
+              "volume": 9333
             },
             {
               "market_id": "1628347",
@@ -535,6 +789,32 @@
             }
           ],
           "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Cyprus House of Representatives Election Winner",
+          "event_slug": "cyprus-house-of-representatives-election-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "681018",
+              "slug": "will-disy-win-the-most-seats-at-the-cyprus-house-of-representatives-election",
+              "question": "Will DISY win the most seats at the Cyprus House of Representatives election?",
+              "yes_price": 0.625,
+              "volume": 2283
+            },
+            {
+              "market_id": "681019",
+              "slug": "will-akel-win-the-most-seats-at-the-cyprus-house-of-representatives-election",
+              "question": "Will AKEL win the most seats at the Cyprus House of Representatives election?",
+              "yes_price": 0.28,
+              "volume": 1240
+            }
+          ],
+          "url": "https://polymarket.com/event/cyprus-house-of-representatives-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
@@ -655,268 +935,100 @@
           "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
-          "event_title": "LA-05 Republican Primary Winner",
-          "event_slug": "la-05-republican-primary-winner",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 3,
+          "event_title": "Montana Senate Election Winner",
+          "event_slug": "montana-senate-election-winner",
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1731841",
-              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
-              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
-              "yes_price": 0.835,
-              "volume": 15029
+              "market_id": "630832",
+              "slug": "will-the-republicans-win-the-montana-senate-race-in-2026",
+              "question": "Will the Republicans win the Montana Senate race in 2026?",
+              "yes_price": 0.785,
+              "volume": 34484
             },
             {
-              "market_id": "1731837",
-              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
-              "question": "Will Michael Echols be the Republican nominee for LA-05?",
-              "yes_price": 0.043,
-              "volume": 8194
-            },
-            {
-              "market_id": "1731842",
-              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
-              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
-              "yes_price": 0.03,
-              "volume": 5125
+              "market_id": "630831",
+              "slug": "will-the-democrats-win-the-montana-senate-race-in-2026",
+              "question": "Will the Democrats win the Montana Senate race in 2026?",
+              "yes_price": 0.1215,
+              "volume": 25855
             }
           ],
-          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "url": "https://polymarket.com/event/montana-senate-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
-          "event_title": "MLS Cup Winner 2026",
-          "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 30,
+          "event_title": "Highest temperature in Miami on April 14?",
+          "event_slug": "highest-temperature-in-miami-on-april-14-2026",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1349156",
-              "slug": "will-inter-miami-cf-win-the-2026-mls-cup",
-              "question": "Will Inter Miami CF win the 2026 MLS Cup?",
-              "yes_price": 0.18,
-              "volume": 9161
+              "market_id": "1953513",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-82-83f",
+              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 14?",
+              "yes_price": 0.39,
+              "volume": 1136
             },
             {
-              "market_id": "1349154",
-              "slug": "will-los-angeles-fc-win-the-2026-mls-cup",
-              "question": "Will Los Angeles FC win the 2026 MLS Cup?",
-              "yes_price": 0.16,
-              "volume": 14877
+              "market_id": "1953512",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-80-81f",
+              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 14?",
+              "yes_price": 0.345,
+              "volume": 1320
             },
             {
-              "market_id": "1349172",
-              "slug": "will-vancouver-whitecaps-fc-win-the-2026-mls-cup",
-              "question": "Will Vancouver Whitecaps FC win the 2026 MLS Cup?",
-              "yes_price": 0.114,
-              "volume": 349457
+              "market_id": "1953511",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-78-79f",
+              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 14?",
+              "yes_price": 0.13,
+              "volume": 1280
             },
             {
-              "market_id": "1349166",
-              "slug": "will-san-diego-fc-win-the-2026-mls-cup",
-              "question": "Will San Diego FC win the 2026 MLS Cup?",
-              "yes_price": 0.055,
-              "volume": 1196759
+              "market_id": "1953510",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-76-77f",
+              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 14?",
+              "yes_price": 0.0215,
+              "volume": 1754
             },
             {
-              "market_id": "1349158",
-              "slug": "will-nashville-sc-win-the-2026-mls-cup",
-              "question": "Will Nashville SC win the 2026 MLS Cup?",
-              "yes_price": 0.045,
-              "volume": 242071
-            },
-            {
-              "market_id": "1349147",
-              "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
-              "question": "Will FC Cincinnati win the 2026 MLS Cup?",
-              "yes_price": 0.038,
-              "volume": 545024
-            },
-            {
-              "market_id": "1349160",
-              "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
-              "question": "Will New York City FC win the 2026 MLS Cup?",
-              "yes_price": 0.0365,
-              "volume": 459635
-            },
-            {
-              "market_id": "1349168",
-              "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
-              "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
-              "yes_price": 0.0345,
-              "volume": 703258
-            },
-            {
-              "market_id": "1349167",
-              "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
-              "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
-              "yes_price": 0.025,
-              "volume": 950107
-            },
-            {
-              "market_id": "1349171",
-              "slug": "will-toronto-fc-win-the-2026-mls-cup",
-              "question": "Will Toronto FC win the 2026 MLS Cup?",
-              "yes_price": 0.024,
-              "volume": 18756
-            },
-            {
-              "market_id": "1349145",
-              "slug": "will-charlotte-fc-win-the-2026-mls-cup",
-              "question": "Will Charlotte FC win the 2026 MLS Cup?",
-              "yes_price": 0.022,
-              "volume": 303305
-            },
-            {
-              "market_id": "1349155",
-              "slug": "will-minnesota-united-fc-win-the-2026-mls-cup",
-              "question": "Will Minnesota United FC win the 2026 MLS Cup?",
-              "yes_price": 0.0185,
-              "volume": 77208
-            },
-            {
-              "market_id": "1349161",
-              "slug": "will-new-york-red-bulls-win-the-2026-mls-cup",
-              "question": "Will New York Red Bulls win the 2026 MLS Cup?",
-              "yes_price": 0.0185,
-              "volume": 66046
-            },
-            {
-              "market_id": "1349149",
-              "slug": "will-columbus-crew-win-the-2026-mls-cup",
-              "question": "Will Columbus Crew win the 2026 MLS Cup?",
-              "yes_price": 0.018,
-              "volume": 2851635
-            },
-            {
-              "market_id": "1349165",
-              "slug": "will-real-salt-lake-win-the-2026-mls-cup",
-              "question": "Will Real Salt Lake win the 2026 MLS Cup?",
-              "yes_price": 0.0145,
-              "volume": 2462243
-            },
-            {
-              "market_id": "1349153",
-              "slug": "will-la-galaxy-win-the-2026-mls-cup",
-              "question": "Will LA Galaxy win the 2026 MLS Cup?",
-              "yes_price": 0.0135,
-              "volume": 4789
-            },
-            {
-              "market_id": "1349163",
-              "slug": "will-philadelphia-union-win-the-2026-mls-cup",
-              "question": "Will Philadelphia Union win the 2026 MLS Cup?",
-              "yes_price": 0.0115,
-              "volume": 51256
-            },
-            {
-              "market_id": "1349162",
-              "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
-              "question": "Will Orlando City SC win the 2026 MLS Cup?",
+              "market_id": "1953508",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-72-73f",
+              "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 14?",
               "yes_price": 0.0105,
-              "volume": 1786553
+              "volume": 5397
             },
             {
-              "market_id": "1349152",
-              "slug": "will-houston-dynamo-fc-win-the-2026-mls-cup",
-              "question": "Will Houston Dynamo FC win the 2026 MLS Cup?",
-              "yes_price": 0.0095,
-              "volume": 49091
-            },
-            {
-              "market_id": "1349144",
-              "slug": "will-austin-fc-win-the-2026-mls-cup",
-              "question": "Will Austin FC win the 2026 MLS Cup?",
-              "yes_price": 0.009,
-              "volume": 60227
-            },
-            {
-              "market_id": "1349146",
-              "slug": "will-chicago-fire-fc-win-the-2026-mls-cup",
-              "question": "Will Chicago Fire FC win the 2026 MLS Cup?",
+              "market_id": "1953507",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-70-71f",
+              "question": "Will the highest temperature in Miami be between 70-71\u00b0F on April 14?",
               "yes_price": 0.0085,
-              "volume": 74615
+              "volume": 3887
             },
             {
-              "market_id": "1349150",
-              "slug": "will-fc-dallas-win-the-2026-mls-cup",
-              "question": "Will FC Dallas win the 2026 MLS Cup?",
-              "yes_price": 0.008,
-              "volume": 38185
-            },
-            {
-              "market_id": "1349143",
-              "slug": "will-atlanta-united-fc-win-the-2026-mls-cup",
-              "question": "Will Atlanta United FC win the 2026 MLS Cup?",
-              "yes_price": 0.0075,
-              "volume": 36761
-            },
-            {
-              "market_id": "1349164",
-              "slug": "will-portland-timbers-win-the-2026-mls-cup",
-              "question": "Will Portland Timbers win the 2026 MLS Cup?",
-              "yes_price": 0.0065,
-              "volume": 57363
-            },
-            {
-              "market_id": "1349170",
-              "slug": "will-st-louis-city-sc-win-the-2026-mls-cup",
-              "question": "Will St. Louis City SC win the 2026 MLS Cup?",
-              "yes_price": 0.0065,
-              "volume": 64341
-            },
-            {
-              "market_id": "1349157",
-              "slug": "will-cf-montral-win-the-2026-mls-cup",
-              "question": "Will CF Montr\u00e9al win the 2026 MLS Cup?",
-              "yes_price": 0.0035,
-              "volume": 3167
-            },
-            {
-              "market_id": "1349148",
-              "slug": "will-colorado-rapids-win-the-2026-mls-cup",
-              "question": "Will Colorado Rapids win the 2026 MLS Cup?",
-              "yes_price": 0.003,
-              "volume": 95140
-            },
-            {
-              "market_id": "1349151",
-              "slug": "will-dc-united-win-the-2026-mls-cup",
-              "question": "Will D.C. United win the 2026 MLS Cup?",
-              "yes_price": 0.003,
-              "volume": 2431
-            },
-            {
-              "market_id": "1349159",
-              "slug": "will-new-england-revolution-win-the-2026-mls-cup",
-              "question": "Will New England Revolution win the 2026 MLS Cup?",
-              "yes_price": 0.003,
-              "volume": 2834
-            },
-            {
-              "market_id": "1349169",
-              "slug": "will-sporting-kansas-city-win-the-2026-mls-cup",
-              "question": "Will Sporting Kansas City win the 2026 MLS Cup?",
-              "yes_price": 0.003,
-              "volume": 6357
+              "market_id": "1953506",
+              "slug": "highest-temperature-in-miami-on-april-14-2026-69forbelow",
+              "question": "Will the highest temperature in Miami be 69\u00b0F or below on April 14?",
+              "yes_price": 0.0015,
+              "volume": 1461
             }
           ],
-          "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-14-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1965,
-        "skipped_single_outcome": 636,
-        "opportunities_found": 130,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 19:26 UTC"
+        "checked_multi_outcome": 1955,
+        "skipped_single_outcome": 634,
+        "opportunities_found": 133,
+        "best_profit_pct": 9.9,
+        "scanned_at": "2026-04-12 19:58 UTC"
       }
     },
     {
