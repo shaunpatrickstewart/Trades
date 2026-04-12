@@ -8,99 +8,10 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2005 multi-outcome) at 2026-04-12 15:56 UTC\nBest: 10.0% profit on 'Highest temperature in Munich on April 12?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Precipitation in NYC in April?'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (2006 multi-outcome) at 2026-04-12 15:59 UTC\nBest: 9.95% profit on 'Precipitation in NYC in April?' \u2014 buy YES on all 4 outcomes (sum=0.9005)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.8% on 'Maine Governor Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 15:56 UTC",
+      "last_scan": "2026-04-12 15:59 UTC",
       "opportunities": [
-        {
-          "event_title": "Highest temperature in Munich on April 12?",
-          "event_slug": "highest-temperature-in-munich-on-april-12-2026",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 11,
-          "outcomes": [
-            {
-              "market_id": "1914971",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-11c",
-              "question": "Will the highest temperature in Munich be 11\u00b0C on April 12?",
-              "yes_price": 0.8745,
-              "volume": 41330
-            },
-            {
-              "market_id": "1914972",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-12c",
-              "question": "Will the highest temperature in Munich be 12\u00b0C on April 12?",
-              "yes_price": 0.019,
-              "volume": 20820
-            },
-            {
-              "market_id": "1914973",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-13c",
-              "question": "Will the highest temperature in Munich be 13\u00b0C on April 12?",
-              "yes_price": 0.0025,
-              "volume": 13085
-            },
-            {
-              "market_id": "1914974",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-14c",
-              "question": "Will the highest temperature in Munich be 14\u00b0C on April 12?",
-              "yes_price": 0.0025,
-              "volume": 12718
-            },
-            {
-              "market_id": "1914975",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-15corhigher",
-              "question": "Will the highest temperature in Munich be 15\u00b0C or higher on April 12?",
-              "yes_price": 0.0015,
-              "volume": 20486
-            },
-            {
-              "market_id": "1914965",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-5corbelow",
-              "question": "Will the highest temperature in Munich be 5\u00b0C or below on April 12?",
-              "yes_price": 0.0,
-              "volume": 2789
-            },
-            {
-              "market_id": "1914966",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-6c",
-              "question": "Will the highest temperature in Munich be 6\u00b0C on April 12?",
-              "yes_price": 0.0,
-              "volume": 1533
-            },
-            {
-              "market_id": "1914967",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-7c",
-              "question": "Will the highest temperature in Munich be 7\u00b0C on April 12?",
-              "yes_price": 0.0,
-              "volume": 4428
-            },
-            {
-              "market_id": "1914968",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-8c",
-              "question": "Will the highest temperature in Munich be 8\u00b0C on April 12?",
-              "yes_price": 0.0,
-              "volume": 9337
-            },
-            {
-              "market_id": "1914969",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-9c",
-              "question": "Will the highest temperature in Munich be 9\u00b0C on April 12?",
-              "yes_price": 0.0,
-              "volume": 19188
-            },
-            {
-              "market_id": "1914970",
-              "slug": "highest-temperature-in-munich-on-april-12-2026-10c",
-              "question": "Will the highest temperature in Munich be 10\u00b0C on April 12?",
-              "yes_price": 0.0,
-              "volume": 37616
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-munich-on-april-12-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
         {
           "event_title": "Precipitation in NYC in April?",
           "event_slug": "precipitation-in-nyc-in-april",
@@ -229,79 +140,58 @@
           "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Next Prime Minister of Slovenia",
-          "event_slug": "next-prime-minister-of-slovenia",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 9,
+          "event_title": "Which CEOs will be out before 2027?",
+          "event_slug": "which-ceos-will-be-out-before-2027",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "1193229",
-              "slug": "will-janez-jana-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Janez Jan\u0161a be the next Prime Minister of Slovenia?",
-              "yes_price": 0.665,
-              "volume": 632244
+              "market_id": "687555",
+              "slug": "tim-cook-out-as-apple-ceo-before-2027",
+              "question": "Tim Cook out as Apple CEO before 2027?",
+              "yes_price": 0.235,
+              "volume": 332850
             },
             {
-              "market_id": "1193235",
-              "slug": "will-jernej-vrtovec-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Jernej Vrtovec be the next Prime Minister of Slovenia?",
-              "yes_price": 0.117,
-              "volume": 32997
+              "market_id": "687559",
+              "slug": "sam-altman-out-as-openai-ceo-before-2027",
+              "question": "Sam Altman out as OpenAI CEO before 2027?",
+              "yes_price": 0.215,
+              "volume": 72662
             },
             {
-              "market_id": "1193230",
-              "slug": "will-ane-logar-be-the-next-prime-minister-of-slovenia",
-              "question": "Will An\u017ee Logar be the next Prime Minister of Slovenia?",
-              "yes_price": 0.075,
-              "volume": 940175
+              "market_id": "687557",
+              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
+              "question": "Andy Jassy out as Amazon CEO before 2027?",
+              "yes_price": 0.145,
+              "volume": 24382
             },
             {
-              "market_id": "1193228",
-              "slug": "will-robert-golob-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Robert Golob be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0405,
-              "volume": 603021
+              "market_id": "687558",
+              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
+              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
+              "yes_price": 0.135,
+              "volume": 80170
             },
             {
-              "market_id": "1193231",
-              "slug": "will-vladimir-prebili-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Vladimir Prebili\u010d be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0015,
-              "volume": 176829
+              "market_id": "687554",
+              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
+              "question": "Sundar Pichai out as Google CEO before 2027?",
+              "yes_price": 0.125,
+              "volume": 35575
             },
             {
-              "market_id": "1193233",
-              "slug": "will-matej-tonin-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Matej Tonin be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0015,
-              "volume": 10066
-            },
-            {
-              "market_id": "1193237",
-              "slug": "will-zoran-stevanovi-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Zoran Stevanovi\u0107 be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0015,
-              "volume": 107289
-            },
-            {
-              "market_id": "1193236",
-              "slug": "will-luka-mesec-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Luka Mesec be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0005,
-              "volume": 9299
-            },
-            {
-              "market_id": "1193234",
-              "slug": "will-matja-han-be-the-next-prime-minister-of-slovenia",
-              "question": "Will Matja\u017e Han be the next Prime Minister of Slovenia?",
-              "yes_price": 0.0005,
-              "volume": 14316
+              "market_id": "687556",
+              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
+              "question": "Dan Clancy out as Twitch CEO before 2027?",
+              "yes_price": 0.0485,
+              "volume": 38599
             }
           ],
-          "url": "https://polymarket.com/event/next-prime-minister-of-slovenia",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Next CEO of Lululemon?",
@@ -377,65 +267,117 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
-          "event_title": "Which CEOs will be out before 2027?",
-          "event_slug": "which-ceos-will-be-out-before-2027",
+          "event_title": "Croydon Mayoral Election Winner",
+          "event_slug": "croydon-mayoral-election-winner",
           "yes_sum": 0.904,
           "profit_pct": 9.6,
           "profit_per_dollar_pct": 10.62,
-          "num_outcomes": 6,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "687555",
-              "slug": "tim-cook-out-as-apple-ceo-before-2027",
-              "question": "Tim Cook out as Apple CEO before 2027?",
-              "yes_price": 0.235,
-              "volume": 332850
+              "market_id": "1864313",
+              "slug": "will-rowenna-davis-win-the-2026-london-borough-of-croydon-mayoral-election",
+              "question": "Will Rowenna Davis win the 2026 London Borough of Croydon mayoral election?",
+              "yes_price": 0.635,
+              "volume": 1855
             },
             {
-              "market_id": "687559",
-              "slug": "sam-altman-out-as-openai-ceo-before-2027",
-              "question": "Sam Altman out as OpenAI CEO before 2027?",
-              "yes_price": 0.215,
-              "volume": 72662
+              "market_id": "1864317",
+              "slug": "will-jason-perry-win-the-2026-london-borough-of-croydon-mayoral-election",
+              "question": "Will Jason Perry win the 2026 London Borough of Croydon mayoral election?",
+              "yes_price": 0.26,
+              "volume": 2030
             },
             {
-              "market_id": "687557",
-              "slug": "andy-jassy-out-as-amazon-ceo-before-2027",
-              "question": "Andy Jassy out as Amazon CEO before 2027?",
-              "yes_price": 0.145,
-              "volume": 24382
-            },
-            {
-              "market_id": "687558",
-              "slug": "brian-armstrong-out-as-coinbase-ceo-before-2027",
-              "question": "Brian Armstrong out as Coinbase CEO before 2027?",
-              "yes_price": 0.135,
-              "volume": 80170
-            },
-            {
-              "market_id": "687554",
-              "slug": "sundar-pichai-out-as-google-ceo-before-2027",
-              "question": "Sundar Pichai out as Google CEO before 2027?",
-              "yes_price": 0.125,
-              "volume": 35575
-            },
-            {
-              "market_id": "687556",
-              "slug": "dan-clancy-out-as-twitch-ceo-before-2027",
-              "question": "Dan Clancy out as Twitch CEO before 2027?",
-              "yes_price": 0.049,
-              "volume": 38599
+              "market_id": "1864314",
+              "slug": "will-ben-flook-win-the-2026-london-borough-of-croydon-mayoral-election",
+              "question": "Will Ben Flook win the 2026 London Borough of Croydon mayoral election?",
+              "yes_price": 0.009,
+              "volume": 2204
             }
           ],
-          "url": "https://polymarket.com/event/which-ceos-will-be-out-before-2027",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+          "url": "https://polymarket.com/event/croydon-mayoral-election-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
+        },
+        {
+          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
+          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1642010",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.57,
+              "volume": 18180
+            },
+            {
+              "market_id": "1642009",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
+              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+              "yes_price": 0.335,
+              "volume": 13424
+            },
+            {
+              "market_id": "639929",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.0,
+              "volume": 50690
+            },
+            {
+              "market_id": "639928",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
+              "yes_price": 0.0,
+              "volume": 100197
+            },
+            {
+              "market_id": "677398",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
+              "yes_price": 0.0,
+              "volume": 325856
+            }
+          ],
+          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Vermont Governor Election Winner",
+          "event_slug": "vermont-governor-winner-2026",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "629708",
+              "slug": "will-the-republicans-win-the-vermont-governor-race-in-2026",
+              "question": "Will the Republicans win the Vermont governor race in 2026?",
+              "yes_price": 0.77,
+              "volume": 4674
+            },
+            {
+              "market_id": "629707",
+              "slug": "will-the-democrats-win-the-vermont-governor-race-in-2026",
+              "question": "Will the Democrats win the Vermont governor race in 2026?",
+              "yes_price": 0.135,
+              "volume": 6883
+            }
+          ],
+          "url": "https://polymarket.com/event/vermont-governor-winner-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Who will Petr Yan fight next?",
           "event_slug": "who-will-petr-yan-fight-next-before-2027",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
           "num_outcomes": 14,
           "outcomes": [
             {
@@ -449,7 +391,7 @@
               "market_id": "897242",
               "slug": "will-petr-yan-fight-sean-omalley-next",
               "question": "Will Petr Yan fight Sean O\u2019Malley next?",
-              "yes_price": 0.1445,
+              "yes_price": 0.145,
               "volume": 15295
             },
             {
@@ -463,7 +405,7 @@
               "market_id": "897250",
               "slug": "will-petr-yan-fight-payton-talbott-next",
               "question": "Will Petr Yan fight Payton Talbott next?",
-              "yes_price": 0.0125,
+              "yes_price": 0.013,
               "volume": 7212
             },
             {
@@ -538,49 +480,16 @@
             }
           ],
           "url": "https://polymarket.com/event/who-will-petr-yan-fight-next-before-2027",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "Croydon Mayoral Election Winner",
-          "event_slug": "croydon-mayoral-election-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1864313",
-              "slug": "will-rowenna-davis-win-the-2026-london-borough-of-croydon-mayoral-election",
-              "question": "Will Rowenna Davis win the 2026 London Borough of Croydon mayoral election?",
-              "yes_price": 0.635,
-              "volume": 1855
-            },
-            {
-              "market_id": "1864317",
-              "slug": "will-jason-perry-win-the-2026-london-borough-of-croydon-mayoral-election",
-              "question": "Will Jason Perry win the 2026 London Borough of Croydon mayoral election?",
-              "yes_price": 0.26,
-              "volume": 2030
-            },
-            {
-              "market_id": "1864314",
-              "slug": "will-ben-flook-win-the-2026-london-borough-of-croydon-mayoral-election",
-              "question": "Will Ben Flook win the 2026 London Borough of Croydon mayoral election?",
-              "yes_price": 0.0095,
-              "volume": 2204
-            }
-          ],
-          "url": "https://polymarket.com/event/croydon-mayoral-election-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
+          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 2005,
-        "skipped_single_outcome": 622,
+        "checked_multi_outcome": 2006,
+        "skipped_single_outcome": 621,
         "opportunities_found": 137,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 15:56 UTC"
+        "best_profit_pct": 9.95,
+        "scanned_at": "2026-04-12 15:59 UTC"
       }
     },
     {
