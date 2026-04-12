@@ -8,404 +8,23 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 9 categorical arb opportunities found\nScanned 300 events (261 multi-outcome) at 2026-04-12 11:12 UTC\nBest: 5.85% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9415)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9415. One wins $1.00. Profit: $0.0585 (5.85%)\n2nd: 5.7% on 'Next UK Prime Minister in 2026?'",
+      "result": "LIVE \u2014 2 categorical arb opportunities found\nScanned 100 events (84 multi-outcome) at 2026-04-12 11:29 UTC\nBest: 4.15% profit on 'How many different countries will Israel strike in 2026?' \u2014 buy YES on all 15 outcomes (sum=0.9585)\nStrategy: Buy YES on all 15 outcomes. Total cost: $0.9585. One wins $1.00. Profit: $0.0415 (4.15%)\n2nd: 3.4% on 'Democratic Presidential Nominee 2028'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 11:12 UTC",
+      "last_scan": "2026-04-12 11:29 UTC",
       "opportunities": [
-        {
-          "event_title": "English Premier League - Top Goalscorer ",
-          "event_slug": "english-premier-league-top-goalscorer",
-          "yes_sum": 0.9415,
-          "profit_pct": 5.85,
-          "profit_per_dollar_pct": 6.21,
-          "num_outcomes": 31,
-          "outcomes": [
-            {
-              "market_id": "577160",
-              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.815,
-              "volume": 64101
-            },
-            {
-              "market_id": "577162",
-              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0105,
-              "volume": 130779
-            },
-            {
-              "market_id": "577183",
-              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.01,
-              "volume": 11145
-            },
-            {
-              "market_id": "577173",
-              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0085,
-              "volume": 12406
-            },
-            {
-              "market_id": "577174",
-              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.008,
-              "volume": 85318
-            },
-            {
-              "market_id": "577172",
-              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
-              "yes_price": 0.008,
-              "volume": 23924
-            },
-            {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0075,
-              "volume": 10840
-            },
-            {
-              "market_id": "577189",
-              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0075,
-              "volume": 109775
-            },
-            {
-              "market_id": "577170",
-              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.007,
-              "volume": 157553
-            },
-            {
-              "market_id": "577171",
-              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.007,
-              "volume": 15416
-            },
-            {
-              "market_id": "577181",
-              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.007,
-              "volume": 15894
-            },
-            {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0065,
-              "volume": 39787
-            },
-            {
-              "market_id": "577161",
-              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.005,
-              "volume": 227374
-            },
-            {
-              "market_id": "577182",
-              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.005,
-              "volume": 84126
-            },
-            {
-              "market_id": "577179",
-              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
-              "yes_price": 0.0025,
-              "volume": 16268
-            },
-            {
-              "market_id": "577167",
-              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0025,
-              "volume": 15791
-            },
-            {
-              "market_id": "577176",
-              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 129810
-            },
-            {
-              "market_id": "577187",
-              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.002,
-              "volume": 15982
-            },
-            {
-              "market_id": "577164",
-              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 108209
-            },
-            {
-              "market_id": "577168",
-              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 32983
-            },
-            {
-              "market_id": "577163",
-              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0015,
-              "volume": 145984
-            },
-            {
-              "market_id": "577165",
-              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0015,
-              "volume": 151793
-            },
-            {
-              "market_id": "577166",
-              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0015,
-              "volume": 13494
-            },
-            {
-              "market_id": "577186",
-              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0015,
-              "volume": 49345
-            },
-            {
-              "market_id": "577169",
-              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0015,
-              "volume": 30140
-            },
-            {
-              "market_id": "577188",
-              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 15581
-            },
-            {
-              "market_id": "577175",
-              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 17373
-            },
-            {
-              "market_id": "577180",
-              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
-              "yes_price": 0.0015,
-              "volume": 74162
-            },
-            {
-              "market_id": "577184",
-              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 116259
-            },
-            {
-              "market_id": "577185",
-              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0015,
-              "volume": 20079
-            },
-            {
-              "market_id": "577190",
-              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 13456
-            }
-          ],
-          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9415. One wins $1.00. Profit: $0.0585 (5.85%)"
-        },
-        {
-          "event_title": "Next UK Prime Minister in 2026?",
-          "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.943,
-          "profit_pct": 5.7,
-          "profit_per_dollar_pct": 6.04,
-          "num_outcomes": 20,
-          "outcomes": [
-            {
-              "market_id": "1343514",
-              "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
-              "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
-              "yes_price": 0.525,
-              "volume": 219898
-            },
-            {
-              "market_id": "1343456",
-              "slug": "will-angela-rayner-be-the-next-prime-minister-of-the-united-kingdom-in-2026-737",
-              "question": "Will Angela Rayner be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.185,
-              "volume": 265964
-            },
-            {
-              "market_id": "1343455",
-              "slug": "will-wes-streeting-be-the-next-prime-minister-of-the-united-kingdom-in-2026-137",
-              "question": "Will Wes Streeting be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.045,
-              "volume": 63770
-            },
-            {
-              "market_id": "1343462",
-              "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
-              "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.045,
-              "volume": 182101
-            },
-            {
-              "market_id": "1343457",
-              "slug": "will-nigel-farage-be-the-next-prime-minister-of-the-united-kingdom-in-2026-356",
-              "question": "Will Nigel Farage be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.029,
-              "volume": 667049
-            },
-            {
-              "market_id": "1343466",
-              "slug": "will-rupert-lowe-be-the-next-prime-minister-of-the-united-kingdom-in-2026-515",
-              "question": "Will Rupert Lowe be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.026,
-              "volume": 575328
-            },
-            {
-              "market_id": "1343458",
-              "slug": "will-andy-burnham-be-the-next-prime-minister-of-the-united-kingdom-in-2026-882",
-              "question": "Will Andy Burnham be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0235,
-              "volume": 297982
-            },
-            {
-              "market_id": "1343461",
-              "slug": "will-shabana-mahmood-be-the-next-prime-minister-of-the-united-kingdom-in-2026-129",
-              "question": "Will Shabana Mahmood be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0125,
-              "volume": 203070
-            },
-            {
-              "market_id": "1343460",
-              "slug": "will-yvette-cooper-be-the-next-prime-minister-of-the-united-kingdom-in-2026-875",
-              "question": "Will Yvette Cooper be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0105,
-              "volume": 197082
-            },
-            {
-              "market_id": "1343472",
-              "slug": "will-al-carns-be-the-next-prime-minister-of-the-united-kingdom-in-2026-126",
-              "question": "Will Al Carns be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.01,
-              "volume": 108830
-            },
-            {
-              "market_id": "1343454",
-              "slug": "will-lucy-powell-be-the-next-prime-minister-of-the-united-kingdom-in-2026-663",
-              "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.007,
-              "volume": 181729
-            },
-            {
-              "market_id": "1343459",
-              "slug": "will-kemi-badenoch-be-the-next-prime-minister-of-the-united-kingdom-in-2026-828",
-              "question": "Will Kemi Badenoch be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.006,
-              "volume": 116628
-            },
-            {
-              "market_id": "1343467",
-              "slug": "will-rachel-reeves-be-the-next-prime-minister-of-the-united-kingdom-in-2026-919",
-              "question": "Will Rachel Reeves be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0045,
-              "volume": 365265
-            },
-            {
-              "market_id": "1343469",
-              "slug": "will-david-lammy-be-the-next-prime-minister-of-the-united-kingdom-in-2026-654",
-              "question": "Will David Lammy be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.004,
-              "volume": 101547
-            },
-            {
-              "market_id": "1343471",
-              "slug": "will-darren-jones-be-the-next-prime-minister-of-the-united-kingdom-in-2026-455",
-              "question": "Will Darren Jones be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0025,
-              "volume": 127721
-            },
-            {
-              "market_id": "1343463",
-              "slug": "will-boris-johnson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-495",
-              "question": "Will Boris Johnson be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 161608
-            },
-            {
-              "market_id": "1343464",
-              "slug": "will-ed-davey-be-the-next-prime-minister-of-the-united-kingdom-in-2026-255",
-              "question": "Will Ed Davey be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 151746
-            },
-            {
-              "market_id": "1343465",
-              "slug": "will-bridget-phillipson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-539",
-              "question": "Will Bridget Phillipson be the next Prime Minister of the United Kingdom in 2026",
-              "yes_price": 0.0015,
-              "volume": 69110
-            },
-            {
-              "market_id": "1343468",
-              "slug": "will-robert-jenrick-be-the-next-prime-minister-of-the-united-kingdom-in-2026-325",
-              "question": "Will Robert Jenrick be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 249892
-            },
-            {
-              "market_id": "1343470",
-              "slug": "will-james-cleverly-be-the-next-prime-minister-of-the-united-kingdom-in-2026-292",
-              "question": "Will James Cleverly be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.0015,
-              "volume": 206028
-            }
-          ],
-          "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9430. One wins $1.00. Profit: $0.0570 (5.70%)"
-        },
         {
           "event_title": "How many different countries will Israel strike in 2026?",
           "event_slug": "how-many-different-countries-will-israel-strike-in-2026",
-          "yes_sum": 0.953,
-          "profit_pct": 4.7,
-          "profit_per_dollar_pct": 4.93,
+          "yes_sum": 0.9585,
+          "profit_pct": 4.15,
+          "profit_per_dollar_pct": 4.33,
           "num_outcomes": 15,
           "outcomes": [
             {
               "market_id": "678747",
               "slug": "will-israel-strike-4-countries-in-november-2025",
               "question": "Will Israel strike 4 countries in 2026?",
-              "yes_price": 0.286,
+              "yes_price": 0.291,
               "volume": 1143927
             },
             {
@@ -447,7 +66,7 @@
               "market_id": "678751",
               "slug": "will-israel-strike-8-countries-in-2026",
               "question": "Will Israel strike 8 countries in 2026?",
-              "yes_price": 0.0145,
+              "yes_price": 0.015,
               "volume": 499852
             },
             {
@@ -508,602 +127,99 @@
             }
           ],
           "url": "https://polymarket.com/event/how-many-different-countries-will-israel-strike-in-2026",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9530. One wins $1.00. Profit: $0.0470 (4.70%)"
-        },
-        {
-          "event_title": "Peru Presidential Election Winner",
-          "event_slug": "peru-presidential-election-winner",
-          "yes_sum": 0.956,
-          "profit_pct": 4.4,
-          "profit_per_dollar_pct": 4.6,
-          "num_outcomes": 23,
-          "outcomes": [
-            {
-              "market_id": "947269",
-              "slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
-              "question": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
-              "yes_price": 0.315,
-              "volume": 985407
-            },
-            {
-              "market_id": "947281",
-              "slug": "will-ricardo-belmont-win-the-2026-peruvian-presidential-election",
-              "question": "Will Ricardo Belmont win the 2026 Peruvian presidential election?",
-              "yes_price": 0.2245,
-              "volume": 1432428
-            },
-            {
-              "market_id": "947268",
-              "slug": "will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election",
-              "question": "Will Rafael L\u00f3pez Aliaga win the 2026 Peruvian presidential election?",
-              "yes_price": 0.21,
-              "volume": 1853397
-            },
-            {
-              "market_id": "947271",
-              "slug": "will-carlos-lvarez-win-the-2026-peruvian-presidential-election",
-              "question": "Will Carlos \u00c1lvarez win the 2026 Peruvian presidential election?",
-              "yes_price": 0.093,
-              "volume": 1383494
-            },
-            {
-              "market_id": "947288",
-              "slug": "will-jorge-nieto-win-the-2026-peruvian-presidential-election",
-              "question": "Will Jorge Nieto win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0515,
-              "volume": 1593288
-            },
-            {
-              "market_id": "947289",
-              "slug": "will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election",
-              "question": "Will Roberto S\u00e1nchez Palomino win the 2026 Peruvian presidential election?",
-              "yes_price": 0.032,
-              "volume": 977441
-            },
-            {
-              "market_id": "947273",
-              "slug": "will-alfonso-lpez-chau-win-the-2026-peruvian-presidential-election",
-              "question": "Will Alfonso L\u00f3pez Chau win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0155,
-              "volume": 738531
-            },
-            {
-              "market_id": "947283",
-              "slug": "will-carlos-esp-win-the-2026-peruvian-presidential-election",
-              "question": "Will Carlos Esp\u00e1 win the 2026 Peruvian presidential election?",
-              "yes_price": 0.005,
-              "volume": 527121
-            },
-            {
-              "market_id": "947282",
-              "slug": "will-fernando-olivera-win-the-2026-peruvian-presidential-election",
-              "question": "Will Fernando Olivera win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0015,
-              "volume": 411405
-            },
-            {
-              "market_id": "947287",
-              "slug": "will-marisol-prez-tello-win-the-2026-peruvian-presidential-election",
-              "question": "Will Marisol P\u00e9rez Tello win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0015,
-              "volume": 572497
-            },
-            {
-              "market_id": "947272",
-              "slug": "will-csar-acua-win-the-2026-peruvian-presidential-election",
-              "question": "Will C\u00e9sar Acu\u00f1a win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 598826
-            },
-            {
-              "market_id": "947274",
-              "slug": "will-vladimir-cerrn-win-the-2026-peruvian-presidential-election",
-              "question": "Will Vladimir Cerr\u00f3n win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 233953
-            },
-            {
-              "market_id": "947277",
-              "slug": "will-roberto-chiabra-win-the-2026-peruvian-presidential-election",
-              "question": "Will Roberto Chiabra win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 123420
-            },
-            {
-              "market_id": "947278",
-              "slug": "will-enrique-valderrama-win-the-2026-peruvian-presidential-election",
-              "question": "Will Enrique Valderrama win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 237835
-            },
-            {
-              "market_id": "947286",
-              "slug": "will-mesas-guevara-win-the-2026-peruvian-presidential-election",
-              "question": "Will Mes\u00edas Guevara win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 314738
-            },
-            {
-              "market_id": "947270",
-              "slug": "will-mario-vizcarra-win-the-2026-peruvian-presidential-election",
-              "question": "Will Mario Vizcarra win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 191851
-            },
-            {
-              "market_id": "947275",
-              "slug": "will-jos-luna-win-the-2026-peruvian-presidential-election",
-              "question": "Will Jos\u00e9 Luna win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 359828
-            },
-            {
-              "market_id": "947279",
-              "slug": "will-jos-williams-win-the-2026-peruvian-presidential-election",
-              "question": "Will Jos\u00e9 Williams win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 130903
-            },
-            {
-              "market_id": "947280",
-              "slug": "will-fiorella-molinelli-win-the-2026-peruvian-presidential-election",
-              "question": "Will Fiorella Molinelli win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 153381
-            },
-            {
-              "market_id": "947285",
-              "slug": "will-yonhy-lescano-win-the-2026-peruvian-presidential-election",
-              "question": "Will Yonhy Lescano win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 424430
-            },
-            {
-              "market_id": "947276",
-              "slug": "will-george-forsyth-win-the-2026-peruvian-presidential-election",
-              "question": "Will George Forsyth win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 270131
-            },
-            {
-              "market_id": "947284",
-              "slug": "will-rafael-belande-llosa-win-the-2026-peruvian-presidential-election",
-              "question": "Will Rafael Bela\u00fande Llosa win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 211325
-            },
-            {
-              "market_id": "947291",
-              "slug": "will-wolfgang-grozo-win-the-2026-peruvian-presidential-election",
-              "question": "Will Wolfgang Grozo win the 2026 Peruvian presidential election?",
-              "yes_price": 0.0005,
-              "volume": 629309
-            }
-          ],
-          "url": "https://polymarket.com/event/peru-presidential-election-winner",
-          "strategy": "Buy YES on all 23 outcomes. Total cost: $0.9560. One wins $1.00. Profit: $0.0440 (4.40%)"
-        },
-        {
-          "event_title": "Which movie has biggest opening weekend in 2026?",
-          "event_slug": "which-movie-has-biggest-opening-weekend-in-2026",
-          "yes_sum": 0.9625,
-          "profit_pct": 3.75,
-          "profit_per_dollar_pct": 3.9,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "678447",
-              "slug": "will-avengers-doomsday-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Avengers: Doomsday have the best domestic opening weekend in 2026?",
-              "yes_price": 0.775,
-              "volume": 104473
-            },
-            {
-              "market_id": "678445",
-              "slug": "will-spider-man-brand-new-day-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Spider-Man: Brand New Day have the best domestic opening weekend in 2026?",
-              "yes_price": 0.095,
-              "volume": 31418
-            },
-            {
-              "market_id": "678443",
-              "slug": "will-toy-story-5-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Toy Story 5 have the best domestic opening weekend in 2026?",
-              "yes_price": 0.025,
-              "volume": 179428
-            },
-            {
-              "market_id": "678448",
-              "slug": "will-dune-messiah-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Dune: Messiah have the best domestic opening weekend in 2026?",
-              "yes_price": 0.024,
-              "volume": 83307
-            },
-            {
-              "market_id": "678444",
-              "slug": "will-the-odyssey-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will The Odyssey have the best domestic opening weekend in 2026?",
-              "yes_price": 0.017,
-              "volume": 139945
-            },
-            {
-              "market_id": "678442",
-              "slug": "will-star-wars-the-mandalorian-and-grogu-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Star Wars: The Mandalorian and Grogu have the best domestic opening weekend",
-              "yes_price": 0.0095,
-              "volume": 30525
-            },
-            {
-              "market_id": "678441",
-              "slug": "will-michael-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Michael have the best domestic opening weekend in 2026?",
-              "yes_price": 0.007,
-              "volume": 485425
-            },
-            {
-              "market_id": "678450",
-              "slug": "will-the-super-mario-galaxy-movie-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will The Super Mario Galaxy Movie have the best domestic opening weekend in 2026",
-              "yes_price": 0.0065,
-              "volume": 8279
-            },
-            {
-              "market_id": "678446",
-              "slug": "will-the-hunger-games-sunrise-on-the-reaping-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will The Hunger Games: Sunrise on the Reaping have the best domestic opening wee",
-              "yes_price": 0.0035,
-              "volume": 57393
-            },
-            {
-              "market_id": "678440",
-              "slug": "will-scream-7-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Scream 7 have the best domestic opening weekend in 2026?",
-              "yes_price": 0.0,
-              "volume": 67648
-            },
-            {
-              "market_id": "678439",
-              "slug": "will-wuthering-heights-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Wuthering Heights have the best domestic opening weekend in 2026?",
-              "yes_price": 0.0,
-              "volume": 122856
-            },
-            {
-              "market_id": "678449",
-              "slug": "will-project-hail-mary-have-the-best-domestic-opening-weekend-in-2026",
-              "question": "Will Project Hail Mary have the best domestic opening weekend in 2026?",
-              "yes_price": 0.0,
-              "volume": 91481
-            }
-          ],
-          "url": "https://polymarket.com/event/which-movie-has-biggest-opening-weekend-in-2026",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9625. One wins $1.00. Profit: $0.0375 (3.75%)"
-        },
-        {
-          "event_title": "Highest grossing movie in 2026?",
-          "event_slug": "highest-grossing-movie-in-2026",
-          "yes_sum": 0.964,
-          "profit_pct": 3.6,
-          "profit_per_dollar_pct": 3.73,
-          "num_outcomes": 14,
-          "outcomes": [
-            {
-              "market_id": "678414",
-              "slug": "will-spider-man-brand-new-day-be-the-top-grossing-movie-of-2026",
-              "question": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
-              "yes_price": 0.44,
-              "volume": 135865
-            },
-            {
-              "market_id": "678416",
-              "slug": "will-avengers-doomsday-be-the-top-grossing-movie-of-2026",
-              "question": "Will Avengers: Doomsday be the top grossing movie of 2026?",
-              "yes_price": 0.265,
-              "volume": 200174
-            },
-            {
-              "market_id": "678419",
-              "slug": "will-movie-a-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Super Mario Galaxy Movie be the top grossing movie of 2026?",
-              "yes_price": 0.1,
-              "volume": 141006
-            },
-            {
-              "market_id": "678413",
-              "slug": "will-the-odyssey-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Odyssey be the top grossing movie of 2026?",
-              "yes_price": 0.044,
-              "volume": 349042
-            },
-            {
-              "market_id": "678412",
-              "slug": "will-toy-story-5-be-the-top-grossing-movie-of-2026",
-              "question": "Will Toy Story 5 be the top grossing movie of 2026?",
-              "yes_price": 0.0415,
-              "volume": 161347
-            },
-            {
-              "market_id": "678410",
-              "slug": "will-michael-be-the-top-grossing-movie-of-2026",
-              "question": "Will Michael be the top grossing movie of 2026?",
-              "yes_price": 0.0155,
-              "volume": 633228
-            },
-            {
-              "market_id": "678411",
-              "slug": "will-star-wars-the-mandalorian-and-grogu-be-the-top-grossing-movie-of-2026",
-              "question": "Will Star Wars: The Mandalorian and Grogu be the top grossing movie of 2026?",
-              "yes_price": 0.015,
-              "volume": 120239
-            },
-            {
-              "market_id": "678417",
-              "slug": "will-dune-messiah-be-the-top-grossing-movie-of-2026",
-              "question": "Will Dune: Messiah be the top grossing movie of 2026?",
-              "yes_price": 0.015,
-              "volume": 249636
-            },
-            {
-              "market_id": "678420",
-              "slug": "will-jumanji-3-be-the-top-grossing-movie-of-2026",
-              "question": "Will Jumanji 3 be the top grossing movie of 2026?",
-              "yes_price": 0.01,
-              "volume": 91688
-            },
-            {
-              "market_id": "678415",
-              "slug": "will-the-hunger-games-sunrise-on-the-reaping-be-the-top-grossing-movie-of-2026",
-              "question": "Will The Hunger Games: Sunrise on the Reaping be the top grossing movie of 2026?",
-              "yes_price": 0.0055,
-              "volume": 224500
-            },
-            {
-              "market_id": "678418",
-              "slug": "will-project-hail-mary-be-the-top-grossing-movie-of-2026",
-              "question": "Will Project Hail Mary be the top grossing movie of 2026?",
-              "yes_price": 0.004,
-              "volume": 199660
-            },
-            {
-              "market_id": "678408",
-              "slug": "will-wuthering-heights-be-the-top-grossing-movie-of-2026",
-              "question": "Will Wuthering Heights be the top grossing movie of 2026?",
-              "yes_price": 0.0035,
-              "volume": 363261
-            },
-            {
-              "market_id": "678407",
-              "slug": "will-wicked-for-good-be-the-top-grossing-movie-of-2026",
-              "question": "Will Wicked: For Good be the top grossing movie of 2026?",
-              "yes_price": 0.0025,
-              "volume": 429351
-            },
-            {
-              "market_id": "678409",
-              "slug": "will-scream-7-be-the-top-grossing-movie-of-2026",
-              "question": "Will Scream 7 be the top grossing movie of 2026?",
-              "yes_price": 0.0025,
-              "volume": 124813
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-grossing-movie-in-2026",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9640. One wins $1.00. Profit: $0.0360 (3.60%)"
-        },
-        {
-          "event_title": "Brazil Presidential Election First Round: 2nd Place",
-          "event_slug": "brazil-presidential-election-first-round-2nd-place",
-          "yes_sum": 0.9675,
-          "profit_pct": 3.25,
-          "profit_per_dollar_pct": 3.36,
-          "num_outcomes": 15,
-          "outcomes": [
-            {
-              "market_id": "1365861",
-              "slug": "will-flvio-bolsonaro-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Fl\u00e1vio Bolsonaro finish in second place in the first round of the 2026 Braz",
-              "yes_price": 0.57,
-              "volume": 25345
-            },
-            {
-              "market_id": "1365854",
-              "slug": "will-luiz-incio-lula-da-silva-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Luiz In\u00e1cio Lula da Silva finish in second place in the first round of the ",
-              "yes_price": 0.155,
-              "volume": 29788
-            },
-            {
-              "market_id": "1365856",
-              "slug": "will-fernando-haddad-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Fernando Haddad finish in second place in the first round of the 2026 Brazi",
-              "yes_price": 0.074,
-              "volume": 632633
-            },
-            {
-              "market_id": "1365860",
-              "slug": "will-renan-santos-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Renan Santos finish in second place in the first round of the 2026 Brazilia",
-              "yes_price": 0.071,
-              "volume": 966507
-            },
-            {
-              "market_id": "1365864",
-              "slug": "will-camilo-santana-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Camilo Santana finish in second place in the first round of the 2026 Brazil",
-              "yes_price": 0.05,
-              "volume": 28839
-            },
-            {
-              "market_id": "1365862",
-              "slug": "will-ronaldo-caiado-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Ronaldo Caiado finish in second place in the first round of the 2026 Brazil",
-              "yes_price": 0.02,
-              "volume": 183628
-            },
-            {
-              "market_id": "1365863",
-              "slug": "will-romeu-zema-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Romeu Zema finish in second place in the first round of the 2026 Brazilian ",
-              "yes_price": 0.005,
-              "volume": 119715
-            },
-            {
-              "market_id": "1365865",
-              "slug": "will-geraldo-alckmin-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Geraldo Alckmin finish in second place in the first round of the 2026 Brazi",
-              "yes_price": 0.005,
-              "volume": 73661
-            },
-            {
-              "market_id": "1365859",
-              "slug": "will-carlos-roberto-massa-jnior-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Carlos Roberto Massa J\u00fanior finish in second place in the first round of th",
-              "yes_price": 0.0035,
-              "volume": 594795
-            },
-            {
-              "market_id": "1365866",
-              "slug": "will-aldo-rebelo-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Aldo Rebelo finish in second place in the first round of the 2026 Brazilian",
-              "yes_price": 0.0025,
-              "volume": 10298
-            },
-            {
-              "market_id": "1365853",
-              "slug": "will-tarcisio-de-freitas-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Tarcisio de Freitas finish in second place in the first round of the 2026 B",
-              "yes_price": 0.0025,
-              "volume": 79413
-            },
-            {
-              "market_id": "1365857",
-              "slug": "will-michelle-bolsonaro-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Michelle Bolsonaro finish in second place in the first round of the 2026 Br",
-              "yes_price": 0.0025,
-              "volume": 25119
-            },
-            {
-              "market_id": "1365855",
-              "slug": "will-jair-bolsonaro-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Jair Bolsonaro finish in second place in the first round of the 2026 Brazil",
-              "yes_price": 0.0025,
-              "volume": 23900
-            },
-            {
-              "market_id": "1365867",
-              "slug": "will-eduardo-leite-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Eduardo Leite finish in second place in the first round of the 2026 Brazili",
-              "yes_price": 0.0025,
-              "volume": 8529
-            },
-            {
-              "market_id": "1365858",
-              "slug": "will-eduardo-bolsonaro-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
-              "question": "Will Eduardo Bolsonaro finish in second place in the first round of the 2026 Bra",
-              "yes_price": 0.0015,
-              "volume": 20626
-            }
-          ],
-          "url": "https://polymarket.com/event/brazil-presidential-election-first-round-2nd-place",
-          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9675. One wins $1.00. Profit: $0.0325 (3.25%)"
+          "strategy": "Buy YES on all 15 outcomes. Total cost: $0.9585. One wins $1.00. Profit: $0.0415 (4.15%)"
         },
         {
           "event_title": "Democratic Presidential Nominee 2028",
           "event_slug": "democratic-presidential-nominee-2028",
-          "yes_sum": 0.9685,
-          "profit_pct": 3.15,
-          "profit_per_dollar_pct": 3.25,
+          "yes_sum": 0.966,
+          "profit_pct": 3.4,
+          "profit_per_dollar_pct": 3.52,
           "num_outcomes": 44,
           "outcomes": [
             {
               "market_id": "559652",
               "slug": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568",
               "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-              "yes_price": 0.273,
-              "volume": 22221055
+              "yes_price": 0.2725,
+              "volume": 22227552
             },
             {
               "market_id": "559653",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-              "yes_price": 0.086,
-              "volume": 11493542
+              "yes_price": 0.0855,
+              "volume": 11493861
             },
             {
               "market_id": "559661",
               "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
               "question": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0645,
-              "volume": 7975409
+              "volume": 7975532
             },
             {
               "market_id": "559658",
               "slug": "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641",
               "question": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
               "yes_price": 0.055,
-              "volume": 9634800
+              "volume": 9635196
             },
             {
               "market_id": "559655",
               "slug": "will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977",
               "question": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-              "yes_price": 0.041,
-              "volume": 6896130
+              "yes_price": 0.0415,
+              "volume": 6904413
             },
             {
               "market_id": "559654",
               "slug": "will-pete-buttigieg-win-the-2028-democratic-presidential-nomination-687",
               "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0385,
-              "volume": 9983888
+              "volume": 9983951
             },
             {
               "market_id": "559660",
               "slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832",
               "question": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
               "yes_price": 0.027,
-              "volume": 10162660
+              "volume": 10164651
             },
             {
               "market_id": "559675",
               "slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
               "question": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
               "yes_price": 0.022,
-              "volume": 16171362
-            },
-            {
-              "market_id": "559695",
-              "slug": "will-james-talarico-win-the-2028-democratic-presidential-nomination",
-              "question": "Will James Talarico win the 2028 Democratic presidential nomination?",
-              "yes_price": 0.0215,
-              "volume": 8308251
+              "volume": 16175389
             },
             {
               "market_id": "559663",
               "slug": "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288",
               "question": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0215,
-              "volume": 13123856
+              "volume": 13123917
+            },
+            {
+              "market_id": "559695",
+              "slug": "will-james-talarico-win-the-2028-democratic-presidential-nomination",
+              "question": "Will James Talarico win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.021,
+              "volume": 8316130
             },
             {
               "market_id": "559668",
               "slug": "will-mark-kelly-win-the-2028-democratic-presidential-nomination-479",
               "question": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0205,
-              "volume": 12623493
+              "volume": 12623874
             },
             {
               "market_id": "559694",
               "slug": "will-ro-khanna-win-the-2028-democratic-presidential-nomination",
               "question": "Will Ro Khanna win the 2028 Democratic presidential nomination?",
               "yes_price": 0.017,
-              "volume": 8823162
-            },
-            {
-              "market_id": "559669",
-              "slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299",
-              "question": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
-              "yes_price": 0.013,
-              "volume": 12163248
+              "volume": 8828338
             },
             {
               "market_id": "559659",
@@ -1117,14 +233,21 @@
               "slug": "will-michelle-obama-win-the-2028-democratic-presidential-nomination-777",
               "question": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0125,
-              "volume": 22812965
+              "volume": 22813543
+            },
+            {
+              "market_id": "559669",
+              "slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299",
+              "question": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0125,
+              "volume": 12164638
             },
             {
               "market_id": "559693",
               "slug": "will-ruben-gallego-win-the-2028-democratic-presidential-nomination",
               "question": "Will Ruben Gallego win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0125,
-              "volume": 4170906
+              "volume": 4171056
             },
             {
               "market_id": "559656",
@@ -1145,7 +268,7 @@
               "slug": "will-corey-booker-win-the-2028-democratic-presidential-nomination-125",
               "question": "Will Cory Booker win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0105,
-              "volume": 21857690
+              "volume": 21857698
             },
             {
               "market_id": "559673",
@@ -1159,147 +282,147 @@
               "slug": "will-mark-cuban-win-the-2028-democratic-presidential-nomination-329",
               "question": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0105,
-              "volume": 18321674
+              "volume": 18325283
             },
             {
               "market_id": "559686",
               "slug": "will-dwayne-the-rock-johnson-win-the-2028-democratic-presidential-nomination",
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0105,
-              "volume": 9688822
-            },
-            {
-              "market_id": "559672",
-              "slug": "will-roy-cooper-win-the-2028-democratic-presidential-nomination-286",
-              "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
-              "yes_price": 0.0105,
-              "volume": 26473915
+              "volume": 9689130
             },
             {
               "market_id": "559687",
               "slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination",
               "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0095,
-              "volume": 44365450
+              "volume": 44368511
+            },
+            {
+              "market_id": "559672",
+              "slug": "will-roy-cooper-win-the-2028-democratic-presidential-nomination-286",
+              "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
+              "yes_price": 0.0095,
+              "volume": 26475805
             },
             {
               "market_id": "559678",
               "slug": "will-liz-cheney-win-the-2028-democratic-presidential-nomination-551",
               "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0085,
-              "volume": 34121880
+              "volume": 34122727
             },
             {
               "market_id": "559684",
               "slug": "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination",
               "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0085,
-              "volume": 45555573
+              "volume": 45559067
             },
             {
               "market_id": "559691",
               "slug": "will-chris-murphy-win-the-2028-democratic-presidential-nomination",
               "question": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0085,
-              "volume": 12260369
+              "volume": 12262446
             },
             {
               "market_id": "559664",
               "slug": "will-raphael-warnock-win-the-2028-democratic-presidential-nomination-914",
               "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 26909187
+              "volume": 26909833
             },
             {
               "market_id": "559676",
               "slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265",
               "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 27948341
+              "volume": 27950164
             },
             {
               "market_id": "559683",
               "slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
               "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 38250863
+              "volume": 38253608
             },
             {
               "market_id": "559666",
               "slug": "will-tim-walz-win-the-2028-democratic-presidential-nomination-475",
               "question": "Will Tim Walz win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 37883275
+              "volume": 37884294
             },
             {
               "market_id": "559671",
               "slug": "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination-445",
               "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 34015161
+              "volume": 34016453
             },
             {
               "market_id": "559688",
               "slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination",
               "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 43658739
+              "volume": 43660413
             },
             {
               "market_id": "559674",
               "slug": "will-jared-polis-win-the-2028-democratic-presidential-nomination-837",
               "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 21645967
+              "volume": 21647675
             },
             {
               "market_id": "559681",
               "slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
               "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 39600196
+              "volume": 39600626
             },
             {
               "market_id": "559685",
               "slug": "will-mrbeast-win-the-2028-democratic-presidential-nomination",
               "question": "Will MrBeast win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 36058640
+              "volume": 36060539
             },
             {
               "market_id": "559677",
               "slug": "will-hillary-clinton-win-the-2028-democratic-presidential-nomination",
               "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0075,
-              "volume": 38794026
+              "volume": 38795454
             },
             {
               "market_id": "559670",
               "slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676",
               "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0065,
-              "volume": 29509726
+              "volume": 29511338
             },
             {
               "market_id": "559689",
               "slug": "will-beto-orourke-win-the-2028-democratic-presidential-nomination",
               "question": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0065,
-              "volume": 35913619
+              "volume": 35914277
             },
             {
               "market_id": "559690",
               "slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination",
               "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0065,
-              "volume": 34595823
+              "volume": 34596225
             },
             {
               "market_id": "559680",
               "slug": "will-phil-murphy-win-the-2028-democratic-presidential-nomination-611",
               "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0065,
-              "volume": 37130981
+              "volume": 37131223
             },
             {
               "market_id": "559682",
@@ -1313,88 +436,27 @@
               "slug": "will-jasmine-crockett-win-the-2028-democratic-presidential-nomination",
               "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0065,
-              "volume": 27755204
+              "volume": 27757291
             },
             {
               "market_id": "559679",
               "slug": "will-bernie-sanders-win-the-2028-democratic-presidential-nomination-879",
               "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
               "yes_price": 0.0055,
-              "volume": 41282745
+              "volume": 41283915
             }
           ],
           "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-          "strategy": "Buy YES on all 44 outcomes. Total cost: $0.9685. One wins $1.00. Profit: $0.0315 (3.15%)"
-        },
-        {
-          "event_title": "OpenAI IPO Closing Market Cap",
-          "event_slug": "openai-ipo-closing-market-cap",
-          "yes_sum": 0.969,
-          "profit_pct": 3.1,
-          "profit_per_dollar_pct": 3.2,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "608368",
-              "slug": "will-openai-not-ipo-by-december-31-2026",
-              "question": "Will OpenAI not IPO by December 31, 2026?",
-              "yes_price": 0.605,
-              "volume": 279903
-            },
-            {
-              "market_id": "608367",
-              "slug": "will-openais-market-cap-be-greater-than-1pt5t-at-market-close-on-ipo-day",
-              "question": "Will OpenAI\u2019s market cap be $1.5T or greater at market close on IPO day?",
-              "yes_price": 0.1295,
-              "volume": 93747
-            },
-            {
-              "market_id": "608366",
-              "slug": "will-openais-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-              "question": "Will OpenAI\u2019s market cap be between $1.25T and $1.5T at market close on IPO day?",
-              "yes_price": 0.068,
-              "volume": 489118
-            },
-            {
-              "market_id": "608364",
-              "slug": "will-openais-market-cap-be-between-750b-and-1t-at-market-close-on-ipo-day",
-              "question": "Will OpenAI\u2019s market cap be between $750B and $1T at market close on IPO day?",
-              "yes_price": 0.066,
-              "volume": 133887
-            },
-            {
-              "market_id": "608365",
-              "slug": "will-openais-market-cap-be-between-1t-and-1pt25t-at-market-close-on-ipo-day",
-              "question": "Will OpenAI\u2019s market cap be between $1T and $1.25T at market close on IPO day?",
-              "yes_price": 0.0415,
-              "volume": 174258
-            },
-            {
-              "market_id": "608362",
-              "slug": "will-openais-market-cap-be-less-than-500b-at-market-close-on-ipo-day",
-              "question": "Will OpenAI\u2019s market cap be less than $500B at market close on IPO day?",
-              "yes_price": 0.0385,
-              "volume": 259162
-            },
-            {
-              "market_id": "608363",
-              "slug": "will-openais-market-cap-be-between-500b-and-750b-at-market-close-on-ipo-day",
-              "question": "Will OpenAI\u2019s market cap be between $500B and $750B at market close on IPO day?",
-              "yes_price": 0.0205,
-              "volume": 140545
-            }
-          ],
-          "url": "https://polymarket.com/event/openai-ipo-closing-market-cap",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9690. One wins $1.00. Profit: $0.0310 (3.10%)"
+          "strategy": "Buy YES on all 44 outcomes. Total cost: $0.9660. One wins $1.00. Profit: $0.0340 (3.40%)"
         }
       ],
       "stats": {
-        "total_events": 300,
-        "checked_multi_outcome": 261,
-        "skipped_single_outcome": 39,
-        "opportunities_found": 9,
-        "best_profit_pct": 5.85,
-        "scanned_at": "2026-04-12 11:12 UTC"
+        "total_events": 100,
+        "checked_multi_outcome": 84,
+        "skipped_single_outcome": 16,
+        "opportunities_found": 2,
+        "best_profit_pct": 4.15,
+        "scanned_at": "2026-04-12 11:29 UTC"
       }
     },
     {
