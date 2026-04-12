@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1945 multi-outcome) at 2026-04-12 10:09 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Guinea-Bissau National People's Assembly Election Winner'",
+      "result": "LIVE \u2014 142 categorical arb opportunities found\nScanned 3000 events (1946 multi-outcome) at 2026-04-12 10:11 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Guinea-Bissau National People's Assembly Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 10:09 UTC",
+      "last_scan": "2026-04-12 10:11 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -171,67 +171,6 @@
           ],
           "url": "https://polymarket.com/event/next-premier-of-quebec",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
-        },
-        {
-          "event_title": "B.C. Conservative Party Leadership Election Winner",
-          "event_slug": "bc-conservative-party-leadership-election-winner",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 7,
-          "outcomes": [
-            {
-              "market_id": "1864345",
-              "slug": "will-caroline-elliott-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Caroline Elliott win the 2026 Conservative Party of British Columbia leader",
-              "yes_price": 0.41,
-              "volume": 5858
-            },
-            {
-              "market_id": "1864350",
-              "slug": "will-peter-milobar-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Peter Milobar win the 2026 Conservative Party of British Columbia leadershi",
-              "yes_price": 0.15,
-              "volume": 2520
-            },
-            {
-              "market_id": "1864347",
-              "slug": "will-yuri-fulmer-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Yuri Fulmer win the 2026 Conservative Party of British Columbia leadership ",
-              "yes_price": 0.14,
-              "volume": 2693
-            },
-            {
-              "market_id": "1864344",
-              "slug": "will-iain-black-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Iain Black win the 2026 Conservative Party of British Columbia leadership e",
-              "yes_price": 0.098,
-              "volume": 1243
-            },
-            {
-              "market_id": "1864346",
-              "slug": "will-kerry-lynne-findlay-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Kerry-Lynne Findlay win the 2026 Conservative Party of British Columbia lea",
-              "yes_price": 0.0925,
-              "volume": 1397
-            },
-            {
-              "market_id": "1864343",
-              "slug": "will-harman-bhangu-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Harman Bhangu win the 2026 Conservative Party of British Columbia leadershi",
-              "yes_price": 0.014,
-              "volume": 1139
-            },
-            {
-              "market_id": "1864342",
-              "slug": "will-bruce-banman-win-the-2026-conservative-party-of-british-columbia-leadership-election",
-              "question": "Will Bruce Banman win the 2026 Conservative Party of British Columbia leadership",
-              "yes_price": 0.0015,
-              "volume": 1162
-            }
-          ],
-          "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
           "event_title": "Ted Cruz # posts April 7 - April 14, 2026?",
@@ -439,15 +378,76 @@
           ],
           "url": "https://polymarket.com/event/another-7pt0-or-above-earthquake-by-553",
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
+        },
+        {
+          "event_title": "Hurupay FDV above ___ one day after launch?",
+          "event_slug": "hurupay-fdv-above-one-day-after-launch",
+          "yes_sum": 0.915,
+          "profit_pct": 8.5,
+          "profit_per_dollar_pct": 9.29,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1294068",
+              "slug": "hurupay-fdv-above-10m-one-day-after-launch",
+              "question": "Hurupay FDV above $10M one day after launch?",
+              "yes_price": 0.2,
+              "volume": 26465
+            },
+            {
+              "market_id": "1294067",
+              "slug": "hurupay-fdv-above-5m-one-day-after-launch",
+              "question": "Hurupay FDV above $5M one day after launch?",
+              "yes_price": 0.195,
+              "volume": 14132
+            },
+            {
+              "market_id": "1294071",
+              "slug": "hurupay-fdv-above-40m-one-day-after-launch",
+              "question": "Hurupay FDV above $40M one day after launch?",
+              "yes_price": 0.1345,
+              "volume": 8697
+            },
+            {
+              "market_id": "1294072",
+              "slug": "hurupay-fdv-above-50m-one-day-after-launch",
+              "question": "Hurupay FDV above $50M one day after launch?",
+              "yes_price": 0.1205,
+              "volume": 70961
+            },
+            {
+              "market_id": "1294069",
+              "slug": "hurupay-fdv-above-20m-one-day-after-launch",
+              "question": "Hurupay FDV above $20M one day after launch?",
+              "yes_price": 0.118,
+              "volume": 37293
+            },
+            {
+              "market_id": "1294070",
+              "slug": "hurupay-fdv-above-30m-one-day-after-launch",
+              "question": "Hurupay FDV above $30M one day after launch?",
+              "yes_price": 0.0885,
+              "volume": 9225
+            },
+            {
+              "market_id": "1294073",
+              "slug": "hurupay-fdv-above-100m-one-day-after-launch",
+              "question": "Hurupay FDV above $100M one day after launch?",
+              "yes_price": 0.0585,
+              "volume": 20232
+            }
+          ],
+          "url": "https://polymarket.com/event/hurupay-fdv-above-one-day-after-launch",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9150. One wins $1.00. Profit: $0.0850 (8.50%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1945,
-        "skipped_single_outcome": 626,
+        "checked_multi_outcome": 1946,
+        "skipped_single_outcome": 625,
         "opportunities_found": 142,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 10:09 UTC"
+        "scanned_at": "2026-04-12 10:11 UTC"
       }
     },
     {
