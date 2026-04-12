@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1945 multi-outcome) at 2026-04-12 10:05 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Perplexity IPO Closing Market Cap'",
+      "result": "LIVE \u2014 146 categorical arb opportunities found\nScanned 3000 events (1944 multi-outcome) at 2026-04-12 10:08 UTC\nBest: 10.0% profit on 'Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Guinea-Bissau National People's Assembly Election Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 10:05 UTC",
+      "last_scan": "2026-04-12 10:08 UTC",
       "opportunities": [
         {
           "event_title": "Hamarkameratene vs. KFUM-Kameratene Oslo - More Markets",
@@ -37,6 +37,60 @@
           ],
           "url": "https://polymarket.com/event/nor-ham-kfu-2026-04-19-more-markets",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Guinea-Bissau National People's Assembly Election Winner",
+          "event_slug": "guinea-bissau-national-peoples-assembly-election-winner",
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
+          "num_outcomes": 6,
+          "outcomes": [
+            {
+              "market_id": "668685",
+              "slug": "will-platforma-reupblicana-n-kumpu-guin-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will Platforma Reupblicana \u201cN\u00f4 Kumpu Guin\u00e9\u201d win the most seats in the 2025 Guine",
+              "yes_price": 0.3655,
+              "volume": 33421
+            },
+            {
+              "market_id": "668683",
+              "slug": "will-pt-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will PT win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
+              "yes_price": 0.238,
+              "volume": 18748
+            },
+            {
+              "market_id": "668684",
+              "slug": "will-ptg-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will MUNDO-GB\u2028 win the most seats in the 2025 Guinea-Bissau National People\u2019s As",
+              "yes_price": 0.1745,
+              "volume": 19085
+            },
+            {
+              "market_id": "668680",
+              "slug": "will-fling-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will FLING win the most seats in the 2025 Guinea-Bissau National People\u2019s Assemb",
+              "yes_price": 0.0535,
+              "volume": 11103
+            },
+            {
+              "market_id": "668681",
+              "slug": "will-frepasna-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will FREPASNA win the most seats in the 2025 Guinea-Bissau National People\u2019s Ass",
+              "yes_price": 0.036,
+              "volume": 22992
+            },
+            {
+              "market_id": "668682",
+              "slug": "will-ps-win-the-most-seats-in-the-2025-guinea-bissau-national-peoples-assembly-election",
+              "question": "Will PS win the most seats in the 2025 Guinea-Bissau National People\u2019s Assembly ",
+              "yes_price": 0.033,
+              "volume": 21433
+            }
+          ],
+          "url": "https://polymarket.com/event/guinea-bissau-national-peoples-assembly-election-winner",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Perplexity IPO Closing Market Cap",
@@ -184,9 +238,9 @@
         {
           "event_title": "Next Premier of Quebec",
           "event_slug": "next-premier-of-quebec",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
           "num_outcomes": 2,
           "outcomes": [
             {
@@ -200,12 +254,12 @@
               "market_id": "1837604",
               "slug": "will-bernard-drainville-be-the-next-premier-of-quebec-following-the-2026-caq-leadership-elections",
               "question": "Will Bernard Drainville be the next Premier of Quebec following the 2026 CAQ lea",
-              "yes_price": 0.101,
+              "yes_price": 0.1005,
               "volume": 12967
             }
           ],
           "url": "https://polymarket.com/event/next-premier-of-quebec",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
           "event_title": "B.C. Conservative Party Leadership Election Winner",
@@ -267,39 +321,6 @@
           ],
           "url": "https://polymarket.com/event/bc-conservative-party-leadership-election-winner",
           "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
-        },
-        {
-          "event_title": "Another 7.0 or above earthquake by...?",
-          "event_slug": "another-7pt0-or-above-earthquake-by-553",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1829475",
-              "slug": "another-7pt0-or-above-earthquake-by-april-30-2026-114",
-              "question": "Another 7.0 or above earthquake by April 30, 2026?",
-              "yes_price": 0.64,
-              "volume": 6646
-            },
-            {
-              "market_id": "1829474",
-              "slug": "another-7pt0-or-above-earthquake-by-april-15-2026",
-              "question": "Another 7.0 or above earthquake by April 15, 2026?",
-              "yes_price": 0.265,
-              "volume": 12070
-            },
-            {
-              "market_id": "1829473",
-              "slug": "another-7pt0-or-above-earthquake-by-april-7-2026",
-              "question": "Another 7.0 or above earthquake by April 7, 2026?",
-              "yes_price": 0.002,
-              "volume": 6486
-            }
-          ],
-          "url": "https://polymarket.com/event/another-7pt0-or-above-earthquake-by-553",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
         },
         {
           "event_title": "Ted Cruz # posts April 7 - April 14, 2026?",
@@ -424,9 +445,9 @@
         {
           "event_title": "How many Tornadoes in the US in 2026?",
           "event_slug": "how-many-tornadoes-in-the-us-in-2026",
-          "yes_sum": 0.9115,
-          "profit_pct": 8.85,
-          "profit_per_dollar_pct": 9.71,
+          "yes_sum": 0.912,
+          "profit_pct": 8.8,
+          "profit_per_dollar_pct": 9.65,
           "num_outcomes": 6,
           "outcomes": [
             {
@@ -461,7 +482,7 @@
               "market_id": "1428391",
               "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
               "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
-              "yes_price": 0.06,
+              "yes_price": 0.0605,
               "volume": 1103
             },
             {
@@ -473,16 +494,16 @@
             }
           ],
           "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
-          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9120. One wins $1.00. Profit: $0.0880 (8.80%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1945,
-        "skipped_single_outcome": 625,
+        "checked_multi_outcome": 1944,
+        "skipped_single_outcome": 627,
         "opportunities_found": 146,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 10:05 UTC"
+        "scanned_at": "2026-04-12 10:08 UTC"
       }
     },
     {
