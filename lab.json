@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1933 multi-outcome) at 2026-04-12 22:01 UTC\nBest: 9.55% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9045)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)\n2nd: 9.4% on 'Will Opensea launch a token by ___?'",
+      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1933 multi-outcome) at 2026-04-12 22:04 UTC\nBest: 9.55% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9045)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)\n2nd: 9.4% on 'Will Opensea launch a token by ___?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 22:01 UTC",
+      "last_scan": "2026-04-12 22:04 UTC",
       "opportunities": [
         {
           "event_title": "English Premier League - Top Goalscorer ",
@@ -594,32 +594,6 @@
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "United Rugby Championship: Dragons vs Bulls",
-          "event_slug": "ruurc-dra-bul-2026-04-17",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1669673",
-              "slug": "ruurc-dra-bul-2026-04-17-bul",
-              "question": "Will Bulls win?",
-              "yes_price": 0.595,
-              "volume": 1094
-            },
-            {
-              "market_id": "1669671",
-              "slug": "ruurc-dra-bul-2026-04-17-dra",
-              "question": "Will Dragons win?",
-              "yes_price": 0.315,
-              "volume": 3929
-            }
-          ],
-          "url": "https://polymarket.com/event/ruurc-dra-bul-2026-04-17",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
           "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
           "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
           "yes_sum": 0.911,
@@ -691,15 +665,76 @@
           ],
           "url": "https://polymarket.com/event/montana-senate-election-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+        },
+        {
+          "event_title": "How many Tornadoes in the US in 2026?",
+          "event_slug": "how-many-tornadoes-in-the-us-in-2026",
+          "yes_sum": 0.913,
+          "profit_pct": 8.7,
+          "profit_per_dollar_pct": 9.53,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1428393",
+              "slug": "will-1250-or-more-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1250 or more tornadoes occur in the United States in 2026?",
+              "yes_price": 0.31,
+              "volume": 14527
+            },
+            {
+              "market_id": "1428392",
+              "slug": "will-1200-to-1249-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1200 to 1249 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.2165,
+              "volume": 14432
+            },
+            {
+              "market_id": "1428365",
+              "slug": "will-fewer-than-950-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will fewer than 950 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.12,
+              "volume": 21053
+            },
+            {
+              "market_id": "1428381",
+              "slug": "will-1050-to-1099-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1050 to 1099 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.095,
+              "volume": 6633
+            },
+            {
+              "market_id": "1428391",
+              "slug": "will-1150-to-1199-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1150 to 1199 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.072,
+              "volume": 1246
+            },
+            {
+              "market_id": "1428380",
+              "slug": "will-1000-to-1049-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 1000 to 1049 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.0605,
+              "volume": 1139
+            },
+            {
+              "market_id": "1428374",
+              "slug": "will-950-to-999-tornadoes-occur-in-the-united-states-in-2026",
+              "question": "Will 950 to 999 tornadoes occur in the United States in 2026?",
+              "yes_price": 0.039,
+              "volume": 2049
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-tornadoes-in-the-us-in-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1933,
-        "skipped_single_outcome": 634,
+        "skipped_single_outcome": 633,
         "opportunities_found": 132,
         "best_profit_pct": 9.55,
-        "scanned_at": "2026-04-12 22:01 UTC"
+        "scanned_at": "2026-04-12 22:04 UTC"
       }
     },
     {
