@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1926 multi-outcome) at 2026-04-12 23:21 UTC\nBest: 10.0% profit on 'Which candidates advance to 2026 Peru presidential runoff?' \u2014 buy YES on all 10 outcomes (sum=0.9)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Harvey Weinstein prison time?'",
+      "result": "LIVE \u2014 133 categorical arb opportunities found\nScanned 3000 events (1928 multi-outcome) at 2026-04-12 23:25 UTC\nBest: 10.0% profit on 'Which candidates advance to 2026 Peru presidential runoff?' \u2014 buy YES on all 10 outcomes (sum=0.9)\nStrategy: Buy YES on all 10 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Racing Club vs. CA River Plate - More Markets'",
       "priority": "HIGH",
-      "last_scan": "2026-04-12 23:21 UTC",
+      "last_scan": "2026-04-12 23:25 UTC",
       "opportunities": [
         {
           "event_title": "Which candidates advance to 2026 Peru presidential runoff?",
@@ -93,6 +93,39 @@
           ],
           "url": "https://polymarket.com/event/which-candidates-advance-to-2026-peru-presidential-runoff",
           "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Racing Club vs. CA River Plate - More Markets",
+          "event_slug": "arg-rac-riv-2026-04-12-more-markets",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1757239",
+              "slug": "arg-rac-riv-2026-04-12-total-1pt5",
+              "question": "Racing Club vs. CA River Plate: O/U 1.5",
+              "yes_price": 0.535,
+              "volume": 3468
+            },
+            {
+              "market_id": "1757240",
+              "slug": "arg-rac-riv-2026-04-12-total-2pt5",
+              "question": "Racing Club vs. CA River Plate: O/U 2.5",
+              "yes_price": 0.265,
+              "volume": 5213
+            },
+            {
+              "market_id": "1757241",
+              "slug": "arg-rac-riv-2026-04-12-total-3pt5",
+              "question": "Racing Club vs. CA River Plate: O/U 3.5",
+              "yes_price": 0.1,
+              "volume": 5724
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-rac-riv-2026-04-12-more-markets",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
           "event_title": "Harvey Weinstein prison time?",
@@ -336,30 +369,65 @@
           "strategy": "Buy YES on all 25 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
-          "event_title": "Sabres vs. Blackhawks",
-          "event_slug": "nhl-buf-chi-2026-04-13",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
+          "event_title": "Who will place first in the primary for Nancy Pelosi\u2019s congressional seat (CA-11",
+          "event_slug": "who-will-place-first-in-the-primary-for-nancy-pelosis-congressional-seat-ca-11",
+          "yes_sum": 0.9035,
+          "profit_pct": 9.65,
+          "profit_per_dollar_pct": 10.68,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "1628340",
-              "slug": "nhl-buf-chi-2026-04-13",
-              "question": "Sabres vs. Blackhawks",
-              "yes_price": 0.645,
-              "volume": 9539
+              "market_id": "700766",
+              "slug": "will-scott-wiener-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will Scott Wiener receive the most votes in the CA-11 primary?",
+              "yes_price": 0.52,
+              "volume": 34464
             },
             {
-              "market_id": "1628347",
-              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
-              "question": "Sabres vs. Blackhawks: O/U 7.5",
-              "yes_price": 0.26,
-              "volume": 19714
+              "market_id": "700764",
+              "slug": "will-saikat-chakrabarti-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will Saikat Chakrabarti receive the most votes in the CA-11 primary?",
+              "yes_price": 0.2555,
+              "volume": 19303
+            },
+            {
+              "market_id": "700769",
+              "slug": "will-connie-chan-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will Connie Chan receive the most votes in the CA-11 primary?",
+              "yes_price": 0.1155,
+              "volume": 201860
+            },
+            {
+              "market_id": "700767",
+              "slug": "will-jingchao-xiong-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will Jingchao Xiong receive the most votes in the CA-11 primary?",
+              "yes_price": 0.004,
+              "volume": 39181
+            },
+            {
+              "market_id": "700765",
+              "slug": "will-darren-helton-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will Darren Helton receive the most votes in the CA-11 primary?",
+              "yes_price": 0.0035,
+              "volume": 17362
+            },
+            {
+              "market_id": "700763",
+              "slug": "will-cole-bettles-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will Cole Bettles receive the most votes in the CA-11 primary?",
+              "yes_price": 0.0025,
+              "volume": 13803
+            },
+            {
+              "market_id": "700768",
+              "slug": "will-david-ganezer-receive-the-most-votes-in-the-ca-11-primary",
+              "question": "Will David Ganezer receive the most votes in the CA-11 primary?",
+              "yes_price": 0.0025,
+              "volume": 9716
             }
           ],
-          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/who-will-place-first-in-the-primary-for-nancy-pelosis-congressional-seat-ca-11",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9035. One wins $1.00. Profit: $0.0965 (9.65%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -557,142 +625,39 @@
           "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "In which month will SpaceX IPO?",
-          "event_slug": "in-which-month-will-spacex-ipo",
-          "yes_sum": 0.9105,
-          "profit_pct": 8.95,
-          "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 12,
+          "event_title": "Cyprus House of Representatives Election Winner",
+          "event_slug": "cyprus-house-of-representatives-election-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1345482",
-              "slug": "will-spacexs-initial-public-offering-occur-in-june-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in June 2026 (ET)?",
-              "yes_price": 0.565,
-              "volume": 84175
+              "market_id": "681018",
+              "slug": "will-disy-win-the-most-seats-at-the-cyprus-house-of-representatives-election",
+              "question": "Will DISY win the most seats at the Cyprus House of Representatives election?",
+              "yes_price": 0.64,
+              "volume": 2323
             },
             {
-              "market_id": "1345483",
-              "slug": "will-spacexs-initial-public-offering-occur-in-july-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in July 2026 (ET)?",
-              "yes_price": 0.141,
-              "volume": 8706
-            },
-            {
-              "market_id": "1345489",
-              "slug": "will-spacex-fail-to-complete-an-initial-public-offering-by-december-31-2026-1159-pm-et",
-              "question": "Will SpaceX fail to complete an initial public offering by December 31, 2026, 11",
-              "yes_price": 0.074,
-              "volume": 6197
-            },
-            {
-              "market_id": "1345484",
-              "slug": "will-spacexs-initial-public-offering-occur-in-august-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in August 2026 (ET)?",
-              "yes_price": 0.0465,
-              "volume": 2792
-            },
-            {
-              "market_id": "1345485",
-              "slug": "will-spacexs-initial-public-offering-occur-in-september-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in September 2026 (ET)?",
-              "yes_price": 0.04,
-              "volume": 4678
-            },
-            {
-              "market_id": "1345481",
-              "slug": "will-spacexs-initial-public-offering-occur-in-may-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in May 2026 (ET)?",
-              "yes_price": 0.0195,
-              "volume": 19725
-            },
-            {
-              "market_id": "1345486",
-              "slug": "will-spacexs-initial-public-offering-occur-in-october-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in October 2026 (ET)?",
-              "yes_price": 0.0085,
-              "volume": 5206
-            },
-            {
-              "market_id": "1345488",
-              "slug": "will-spacexs-initial-public-offering-occur-in-december-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in December 2026 (ET)?",
-              "yes_price": 0.007,
-              "volume": 2866
-            },
-            {
-              "market_id": "1345487",
-              "slug": "will-spacexs-initial-public-offering-occur-in-november-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in November 2026 (ET)?",
-              "yes_price": 0.006,
-              "volume": 3366
-            },
-            {
-              "market_id": "1345480",
-              "slug": "will-spacexs-initial-public-offering-occur-in-april-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in April 2026 (ET)?",
-              "yes_price": 0.003,
-              "volume": 21990
-            },
-            {
-              "market_id": "1345478",
-              "slug": "will-spacexs-initial-public-offering-occur-in-february-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in February 2026 (ET)?",
-              "yes_price": 0.0,
-              "volume": 2071
-            },
-            {
-              "market_id": "1345479",
-              "slug": "will-spacexs-initial-public-offering-occur-in-march-2026-et",
-              "question": "Will SpaceX\u2019s initial public offering occur in March 2026 (ET)?",
-              "yes_price": 0.0,
-              "volume": 51009
+              "market_id": "681019",
+              "slug": "will-akel-win-the-most-seats-at-the-cyprus-house-of-representatives-election",
+              "question": "Will AKEL win the most seats at the Cyprus House of Representatives election?",
+              "yes_price": 0.27,
+              "volume": 1240
             }
           ],
-          "url": "https://polymarket.com/event/in-which-month-will-spacex-ipo",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
-        },
-        {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.9115,
-          "profit_pct": 8.85,
-          "profit_per_dollar_pct": 9.71,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.825,
-              "volume": 1102
-            },
-            {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.062,
-              "volume": 1097
-            },
-            {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0245,
-              "volume": 1490
-            }
-          ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9115. One wins $1.00. Profit: $0.0885 (8.85%)"
+          "url": "https://polymarket.com/event/cyprus-house-of-representatives-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1926,
+        "checked_multi_outcome": 1928,
         "skipped_single_outcome": 638,
-        "opportunities_found": 134,
+        "opportunities_found": 133,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-12 23:21 UTC"
+        "scanned_at": "2026-04-12 23:25 UTC"
       }
     },
     {
