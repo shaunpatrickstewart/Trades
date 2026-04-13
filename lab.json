@@ -8,16 +8,187 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1849 multi-outcome) at 2026-04-13 08:32 UTC\nBest: 9.7% profit on 'Oklahoma Governor Republican Primary Winner' \u2014 buy YES on all 8 outcomes (sum=0.903)\nStrategy: Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)\n2nd: 9.55% on 'China Annual Inflation 2026'",
+      "result": "LIVE \u2014 135 categorical arb opportunities found\nScanned 3000 events (1850 multi-outcome) at 2026-04-13 09:03 UTC\nBest: 9.85% profit on 'AZ-01 Republican Primary Winner' \u2014 buy YES on all 12 outcomes (sum=0.9015)\nStrategy: Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)\n2nd: 9.85% on 'China Annual Inflation 2026'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 08:32 UTC",
+      "last_scan": "2026-04-13 09:03 UTC",
       "opportunities": [
+        {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 12,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.71,
+              "volume": 4746
+            },
+            {
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.073,
+              "volume": 8148
+            },
+            {
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.055,
+              "volume": 7582
+            },
+            {
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0155,
+              "volume": 16503
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 3520
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 4221
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
+            }
+          ],
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "China Annual Inflation 2026",
+          "event_slug": "china-annual-inflation-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "1132795",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
+              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
+              "yes_price": 0.26,
+              "volume": 1819
+            },
+            {
+              "market_id": "1132796",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
+              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
+              "yes_price": 0.15,
+              "volume": 2205
+            },
+            {
+              "market_id": "1132798",
+              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
+              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
+              "yes_price": 0.1185,
+              "volume": 1562
+            },
+            {
+              "market_id": "1132797",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
+              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
+              "yes_price": 0.0815,
+              "volume": 2488
+            },
+            {
+              "market_id": "1132792",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
+              "yes_price": 0.0775,
+              "volume": 1741
+            },
+            {
+              "market_id": "1132793",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
+              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
+              "yes_price": 0.073,
+              "volume": 1765
+            },
+            {
+              "market_id": "1237148",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
+              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
+              "yes_price": 0.0645,
+              "volume": 1617
+            },
+            {
+              "market_id": "1132794",
+              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
+              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
+              "yes_price": 0.05,
+              "volume": 1633
+            },
+            {
+              "market_id": "1132791",
+              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
+              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
+              "yes_price": 0.0265,
+              "volume": 16740
+            }
+          ],
+          "url": "https://polymarket.com/event/china-annual-inflation-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
         {
           "event_title": "Oklahoma Governor Republican Primary Winner",
           "event_slug": "oklahoma-governor-republican-primary-winner",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 8,
           "outcomes": [
             {
@@ -52,7 +223,7 @@
               "market_id": "825098",
               "slug": "will-matt-pinnell-win-the-2026-oklahoma-governor-republican-primary-election",
               "question": "Will Matt Pinnell win the 2026 Oklahoma Governor Republican primary election?",
-              "yes_price": 0.0105,
+              "yes_price": 0.01,
               "volume": 6691
             },
             {
@@ -78,115 +249,14 @@
             }
           ],
           "url": "https://polymarket.com/event/oklahoma-governor-republican-primary-winner",
-          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
-          "event_title": "China Annual Inflation 2026",
-          "event_slug": "china-annual-inflation-2026",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 9,
-          "outcomes": [
-            {
-              "market_id": "1132795",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt6-and-1pt0",
-              "question": "Will China's annual inflation in 2026 be between 0.6% and 1.0%?",
-              "yes_price": 0.26,
-              "volume": 1819
-            },
-            {
-              "market_id": "1132796",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt1-and-1pt5",
-              "question": "Will China's annual inflation in 2026 be between 1.1% and 1.5%?",
-              "yes_price": 0.15,
-              "volume": 2205
-            },
-            {
-              "market_id": "1132798",
-              "slug": "will-chinas-annual-inflation-in-2026-be-at-least-2pt5",
-              "question": "Will China's annual inflation in 2026 be at least 2.5%?",
-              "yes_price": 0.1165,
-              "volume": 1562
-            },
-            {
-              "market_id": "1132792",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt9-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between -0.9% and -0.5%?",
-              "yes_price": 0.0835,
-              "volume": 1741
-            },
-            {
-              "market_id": "1132797",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-1pt6-and-2pt0",
-              "question": "Will China's annual inflation in 2026 be between 1.6% and 2.0%?",
-              "yes_price": 0.0815,
-              "volume": 2488
-            },
-            {
-              "market_id": "1132793",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt4-and-0pt0",
-              "question": "Will China's annual inflation in 2026 be between -0.4% and 0.0%?",
-              "yes_price": 0.072,
-              "volume": 1765
-            },
-            {
-              "market_id": "1237148",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-2pt0-and-2pt4",
-              "question": "Will China's annual inflation in 2026 be between 2.0% and 2.4%?",
-              "yes_price": 0.0645,
-              "volume": 1617
-            },
-            {
-              "market_id": "1132794",
-              "slug": "will-chinas-annual-inflation-in-2026-be-between-0pt1-and-0pt5",
-              "question": "Will China's annual inflation in 2026 be between 0.1% and 0.5%?",
-              "yes_price": 0.05,
-              "volume": 1633
-            },
-            {
-              "market_id": "1132791",
-              "slug": "will-chinas-annual-inflation-in-2026-be-less-than-1pt0",
-              "question": "Will China's annual inflation in 2026 be less than -1.0%?",
-              "yes_price": 0.0265,
-              "volume": 16740
-            }
-          ],
-          "url": "https://polymarket.com/event/china-annual-inflation-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "CA River Plate vs. CA Tucum\u00e1n",
-          "event_slug": "arg-riv-cat-2026-03-08",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1360750",
-              "slug": "arg-riv-cat-2026-03-08-riv",
-              "question": "Will CA River Plate win on 2026-03-08?",
-              "yes_price": 0.58,
-              "volume": 6234
-            },
-            {
-              "market_id": "1360751",
-              "slug": "arg-riv-cat-2026-03-08-draw",
-              "question": "Will CA River Plate vs. CA Tucum\u00e1n end in a draw?",
-              "yes_price": 0.325,
-              "volume": 16586
-            }
-          ],
-          "url": "https://polymarket.com/event/arg-riv-cat-2026-03-08",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "How many 7.0 or above earthquakes by June 30? (Higher Strikes)",
           "event_slug": "how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
-          "yes_sum": 0.907,
-          "profit_pct": 9.3,
-          "profit_per_dollar_pct": 10.25,
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
           "num_outcomes": 4,
           "outcomes": [
             {
@@ -200,92 +270,176 @@
               "market_id": "1829470",
               "slug": "will-there-be-exactly-11-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
               "question": "Will there be exactly 11 earthquakes of magnitude 7.0 or higher worldwide by Jun",
-              "yes_price": 0.25,
+              "yes_price": 0.24,
               "volume": 15324
             },
             {
               "market_id": "1829468",
               "slug": "will-there-be-exactly-9-earthquake-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
               "question": "Will there be exactly 9 earthquake of magnitude 7.0 or higher worldwide by June ",
-              "yes_price": 0.15,
+              "yes_price": 0.155,
               "volume": 14546
             },
             {
               "market_id": "1829471",
               "slug": "will-there-be-exactly-12-earthquakes-of-magnitude-7pt0-or-higher-worldwide-by-june-30",
               "question": "Will there be exactly 12 earthquakes of magnitude 7.0 or higher worldwide by Jun",
-              "yes_price": 0.077,
+              "yes_price": 0.0775,
               "volume": 3308
             }
           ],
           "url": "https://polymarket.com/event/how-many-7pt0-or-above-earthquakes-by-june-30-higher-strikes",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Sabres vs. Blackhawks",
-          "event_slug": "nhl-buf-chi-2026-04-13",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
+          "event_title": "Highest temperature in Beijing on April 14?",
+          "event_slug": "highest-temperature-in-beijing-on-april-14-2026",
+          "yes_sum": 0.903,
+          "profit_pct": 9.7,
+          "profit_per_dollar_pct": 10.74,
+          "num_outcomes": 11,
           "outcomes": [
             {
-              "market_id": "1628340",
-              "slug": "nhl-buf-chi-2026-04-13",
-              "question": "Sabres vs. Blackhawks",
-              "yes_price": 0.655,
-              "volume": 28309
+              "market_id": "1953726",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-21c",
+              "question": "Will the highest temperature in Beijing be 21\u00b0C on April 14?",
+              "yes_price": 0.33,
+              "volume": 1089
             },
             {
-              "market_id": "1628347",
-              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
-              "question": "Sabres vs. Blackhawks: O/U 7.5",
-              "yes_price": 0.255,
-              "volume": 19827
+              "market_id": "1953725",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-20c",
+              "question": "Will the highest temperature in Beijing be 20\u00b0C on April 14?",
+              "yes_price": 0.175,
+              "volume": 1345
+            },
+            {
+              "market_id": "1953727",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-22c",
+              "question": "Will the highest temperature in Beijing be 22\u00b0C on April 14?",
+              "yes_price": 0.14,
+              "volume": 1964
+            },
+            {
+              "market_id": "1953724",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-19c",
+              "question": "Will the highest temperature in Beijing be 19\u00b0C on April 14?",
+              "yes_price": 0.115,
+              "volume": 1452
+            },
+            {
+              "market_id": "1953723",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-18corbelow",
+              "question": "Will the highest temperature in Beijing be 18\u00b0C or below on April 14?",
+              "yes_price": 0.076,
+              "volume": 4267
+            },
+            {
+              "market_id": "1953728",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-23c",
+              "question": "Will the highest temperature in Beijing be 23\u00b0C on April 14?",
+              "yes_price": 0.0415,
+              "volume": 3132
+            },
+            {
+              "market_id": "1953729",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-24c",
+              "question": "Will the highest temperature in Beijing be 24\u00b0C on April 14?",
+              "yes_price": 0.015,
+              "volume": 2943
+            },
+            {
+              "market_id": "1953730",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-25c",
+              "question": "Will the highest temperature in Beijing be 25\u00b0C on April 14?",
+              "yes_price": 0.004,
+              "volume": 1480
+            },
+            {
+              "market_id": "1953731",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-26c",
+              "question": "Will the highest temperature in Beijing be 26\u00b0C on April 14?",
+              "yes_price": 0.0025,
+              "volume": 1136
+            },
+            {
+              "market_id": "1953733",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-28corhigher",
+              "question": "Will the highest temperature in Beijing be 28\u00b0C or higher on April 14?",
+              "yes_price": 0.0025,
+              "volume": 5237
+            },
+            {
+              "market_id": "1953732",
+              "slug": "highest-temperature-in-beijing-on-april-14-2026-27c",
+              "question": "Will the highest temperature in Beijing be 27\u00b0C on April 14?",
+              "yes_price": 0.0015,
+              "volume": 1064
             }
           ],
-          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-beijing-on-april-14-2026",
+          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
         },
         {
-          "event_title": "FL-23 Democratic Primary Winner",
-          "event_slug": "fl-23-democratic-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
+          "event_title": "Will Israel launch a major ground offensive in Gaza by...?",
+          "event_slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "973114",
-              "slug": "will-jared-moskowitz-be-the-democratic-nominee-for-fl-23",
-              "question": "Will Jared Moskowitz be the Democratic Nominee for FL-23?",
-              "yes_price": 0.51,
-              "volume": 4642
+              "market_id": "1642010",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31-828",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.515,
+              "volume": 18180
             },
             {
-              "market_id": "973115",
-              "slug": "will-oliver-adams-larkin-be-the-democratic-nominee-for-fl-23",
-              "question": "Will Oliver Adams Larkin be the Democratic Nominee for FL-23?",
-              "yes_price": 0.4,
-              "volume": 8969
+              "market_id": "1642009",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-june-30",
+              "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+              "yes_price": 0.39,
+              "volume": 16479
+            },
+            {
+              "market_id": "639929",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-december-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+              "yes_price": 0.0,
+              "volume": 50690
+            },
+            {
+              "market_id": "639928",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by October 31?",
+              "yes_price": 0.0,
+              "volume": 100197
+            },
+            {
+              "market_id": "677398",
+              "slug": "will-israel-launch-a-major-ground-offensive-in-gaza-by-march-31",
+              "question": "Will Israel launch a major ground offensive in Gaza by March 31?",
+              "yes_price": 0.0,
+              "volume": 325856
             }
           ],
-          "url": "https://polymarket.com/event/fl-23-democratic-primary-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/will-israel-launch-a-major-ground-offensive-in-gaza-by-october-31",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
           "event_title": "Next UK Prime Minister in 2026?",
           "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.911,
-          "profit_pct": 8.9,
-          "profit_per_dollar_pct": 9.77,
+          "yes_sum": 0.9065,
+          "profit_pct": 9.35,
+          "profit_per_dollar_pct": 10.31,
           "num_outcomes": 20,
           "outcomes": [
             {
               "market_id": "1343514",
               "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
               "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
-              "yes_price": 0.5,
+              "yes_price": 0.495,
               "volume": 221046
             },
             {
@@ -306,7 +460,7 @@
               "market_id": "1343462",
               "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
               "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.04,
+              "yes_price": 0.041,
               "volume": 182187
             },
             {
@@ -320,7 +474,7 @@
               "market_id": "1343466",
               "slug": "will-rupert-lowe-be-the-next-prime-minister-of-the-united-kingdom-in-2026-515",
               "question": "Will Rupert Lowe be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.026,
+              "yes_price": 0.0255,
               "volume": 576263
             },
             {
@@ -423,157 +577,94 @@
             }
           ],
           "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9110. One wins $1.00. Profit: $0.0890 (8.90%)"
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.913,
-          "profit_pct": 8.7,
-          "profit_per_dollar_pct": 9.53,
-          "num_outcomes": 3,
+          "event_title": "Sabres vs. Blackhawks",
+          "event_slug": "nhl-buf-chi-2026-04-13",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.825,
-              "volume": 1102
+              "market_id": "1628340",
+              "slug": "nhl-buf-chi-2026-04-13",
+              "question": "Sabres vs. Blackhawks",
+              "yes_price": 0.655,
+              "volume": 28366
             },
             {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0625,
-              "volume": 1097
-            },
-            {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.0255,
-              "volume": 1490
+              "market_id": "1628347",
+              "slug": "nhl-buf-chi-2026-04-13-total-7pt5",
+              "question": "Sabres vs. Blackhawks: O/U 7.5",
+              "yes_price": 0.255,
+              "volume": 19834
             }
           ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9130. One wins $1.00. Profit: $0.0870 (8.70%)"
+          "url": "https://polymarket.com/event/nhl-buf-chi-2026-04-13",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Will Patek prices hit __ by April 30?",
-          "event_slug": "will-patek-prices-hit-by-april-30",
-          "yes_sum": 0.914,
-          "profit_pct": 8.6,
-          "profit_per_dollar_pct": 9.41,
-          "num_outcomes": 7,
+          "event_title": "FL-23 Democratic Primary Winner",
+          "event_slug": "fl-23-democratic-primary-winner",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1613373",
-              "slug": "will-the-patek-index-hit-106000-high-by-april-30",
-              "question": "Will the Patek Index hit $106,000 (HIGH) by April 30?",
-              "yes_price": 0.6,
-              "volume": 1174
+              "market_id": "973114",
+              "slug": "will-jared-moskowitz-be-the-democratic-nominee-for-fl-23",
+              "question": "Will Jared Moskowitz be the Democratic Nominee for FL-23?",
+              "yes_price": 0.51,
+              "volume": 4642
             },
             {
-              "market_id": "1613372",
-              "slug": "will-the-patek-index-hit-106500-high-by-april-30",
-              "question": "Will the Patek Index hit $106,500 (HIGH) by April 30?",
+              "market_id": "973115",
+              "slug": "will-oliver-adams-larkin-be-the-democratic-nominee-for-fl-23",
+              "question": "Will Oliver Adams Larkin be the Democratic Nominee for FL-23?",
+              "yes_price": 0.4,
+              "volume": 8969
+            }
+          ],
+          "url": "https://polymarket.com/event/fl-23-democratic-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "What will Coinbase Global, Inc. (COIN) hit Week of April 13 2026?",
+          "event_slug": "will-coin-hit-week-of-april-13-2026",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1941254",
+              "slug": "will-coin-dip-to-157-50-by-april-13-2026",
+              "question": "Will Coinbase Global, Inc. (COIN) hit (LOW) $157.50 Week of April 13 2026?",
+              "yes_price": 0.775,
+              "volume": 1816
+            },
+            {
+              "market_id": "1941244",
+              "slug": "will-coin-reach-182-50-by-april-13-2026",
+              "question": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $182.50 Week of April 13 2026?",
               "yes_price": 0.135,
-              "volume": 2314
-            },
-            {
-              "market_id": "1613371",
-              "slug": "will-the-patek-index-hit-107000-high-by-april-30",
-              "question": "Will the Patek Index hit $107,000 (HIGH) by April 30?",
-              "yes_price": 0.055,
-              "volume": 4959
-            },
-            {
-              "market_id": "1613376",
-              "slug": "will-the-patek-index-hit-103000-low-by-april-30",
-              "question": "Will the Patek Index hit $103,000 (LOW) by April 30?",
-              "yes_price": 0.046,
-              "volume": 2521
-            },
-            {
-              "market_id": "1613370",
-              "slug": "will-the-patek-index-hit-108000-high-by-april-30",
-              "question": "Will the Patek Index hit $108,000 (HIGH) by April 30?",
-              "yes_price": 0.035,
-              "volume": 2505
-            },
-            {
-              "market_id": "1613369",
-              "slug": "will-the-patek-index-hit-109000-high-by-april-30",
-              "question": "Will the Patek Index hit $109,000 (HIGH) by April 30?",
-              "yes_price": 0.025,
-              "volume": 4251
-            },
-            {
-              "market_id": "1613368",
-              "slug": "will-the-patek-index-hit-112000-high-by-april-30",
-              "question": "Will the Patek Index hit $112,000 (HIGH) by April 30?",
-              "yes_price": 0.018,
-              "volume": 6525
+              "volume": 2146
             }
           ],
-          "url": "https://polymarket.com/event/will-patek-prices-hit-by-april-30",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9140. One wins $1.00. Profit: $0.0860 (8.60%)"
-        },
-        {
-          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
-          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
-          "yes_sum": 0.9145,
-          "profit_pct": 8.55,
-          "profit_per_dollar_pct": 9.35,
-          "num_outcomes": 5,
-          "outcomes": [
-            {
-              "market_id": "1737533",
-              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
-              "yes_price": 0.605,
-              "volume": 20561
-            },
-            {
-              "market_id": "1737537",
-              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
-              "yes_price": 0.16,
-              "volume": 4656
-            },
-            {
-              "market_id": "1737536",
-              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
-              "yes_price": 0.1,
-              "volume": 24926
-            },
-            {
-              "market_id": "1737535",
-              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
-              "yes_price": 0.0255,
-              "volume": 10085
-            },
-            {
-              "market_id": "1737534",
-              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
-              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
-              "yes_price": 0.024,
-              "volume": 12482
-            }
-          ],
-          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
-          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9145. One wins $1.00. Profit: $0.0855 (8.55%)"
+          "url": "https://polymarket.com/event/will-coin-hit-week-of-april-13-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1849,
-        "skipped_single_outcome": 640,
-        "opportunities_found": 136,
-        "best_profit_pct": 9.7,
-        "scanned_at": "2026-04-13 08:32 UTC"
+        "checked_multi_outcome": 1850,
+        "skipped_single_outcome": 636,
+        "opportunities_found": 135,
+        "best_profit_pct": 9.85,
+        "scanned_at": "2026-04-13 09:03 UTC"
       }
     },
     {
