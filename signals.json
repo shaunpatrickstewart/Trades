@@ -1,66 +1,70 @@
 {
-  "last_scan": "2026-04-13T23:52:13.668654+00:00",
-  "scan_seconds": 28.7,
-  "markets_scanned": 103,
-  "open_positions": 74,
+  "last_scan": "2026-04-13T23:55:01.211629+00:00",
+  "scan_seconds": 28.3,
+  "markets_scanned": 67,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_108773",
-      "timestamp": "2026-04-13T23:52:12.647708+00:00",
+      "id": "sig_271497",
+      "timestamp": "2026-04-13T23:54:55.371599+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% | NO | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4% and aligning with the Bank of Korea's 2% target amid contained price pressures.[1]  \nSlight variations exist across sources (e.g., 2.16% per rateinflation.com), but Trading Economics' March 5, ",
+      "headline": "Grayscale Increases Cardano Holdings 20%; Coinbase Adds Solana/Cardano Pairs (April 11) | NO | LOW confidence**",
+      "raw": "Grayscale Increases Cardano Holdings 20%; Coinbase Adds Solana/Cardano Pairs (April 11) | NO | LOW confidence**  \nGrayscale announced a 20% hike in Cardano holdings on April 9, signaling institutional confidence tied to its partnerships, while Coinbase added trading pairs for Solana and Cardano on April 11 to boost liquidity\u2014no direct Bitcoin/Ethereum impact confirmed to move prediction markets li",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Bitcoin Up or Down - April 13, 7:50PM-7:55PM ET",
+        "Will the price of Bitcoin be above $72,000 on April 16?",
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_103655",
-      "timestamp": "2026-04-13T23:52:07.529260+00:00",
+      "id": "sig_263544",
+      "timestamp": "2026-04-13T23:54:47.418930+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current market positioning:** Polymarket data shows XRP traders assigning a 72% probability to prices above $1",
-      "raw": "Current market positioning:** Polymarket data shows XRP traders assigning a 72% probability to prices above $1.40 in April and a 49% probability of XRP trading in the $1.30-1.40 range on April 18[4][5].\n\nTo provide the breaking news format you requested, I would need search results containing today's specific announcements or developments. The current results appear to be from earlier in April and",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "NM Supreme Court Confirms Duke Rodriguez on Republican Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1]",
+      "raw": "NM Supreme Court Confirms Duke Rodriguez on Republican Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1][2]\n\nThe New Mexico Supreme Court unanimously ruled on April 1, 2026, that Republican candidate **Duke Rodriguez** remains eligible for the June primary ballot, upholding a lower court's dismissal of a challenge to his 5-year residency requirement despite his recent voting in Ari",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of XRP be above $1.70 on April 15?"
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_271485",
+      "timestamp": "2026-04-13T23:54:55.359598+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Hits $3,200 on 5% Rally Driven by EIP-4829 Upgrade | YES | HIGH confidence**",
+      "raw": "Ethereum Hits $3,200 on 5% Rally Driven by EIP-4829 Upgrade | YES | HIGH confidence**  \nEthereum reached $3,200 during Friday afternoon trading (April 10, 2026), marking a 5% gain over 24 hours amid renewed altcoin risk appetite following weeks of sideways action; this follows the rollout of **Ethereum Improvement Proposal 4829** earlier in April, which enables faster transactions and lower fees, ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
+        "Ethereum Up or Down - April 14, 5:35AM-5:40AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_103637",
-      "timestamp": "2026-04-13T23:52:07.511482+00:00",
+      "id": "sig_271492",
+      "timestamp": "2026-04-13T23:54:55.366312+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news events from these search results that would move prediction markets",
-      "raw": "I cannot identify breaking news events from these search results that would move prediction markets. The search results contain prediction market data and analyst forecasts from early April 2026, but no recent announcements, confirmations, or resolved events that occurred today or very recently.\n\nThe most time-sensitive information available is:",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_103645",
-      "timestamp": "2026-04-13T23:52:07.519355+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Potential near-term catalyst:** The Senate Banking Committee has indicated a window in the latter half of April for mark",
-      "raw": "Potential near-term catalyst:** The Senate Banking Committee has indicated a window in the latter half of April for markup on the CLARITY Act, which could classify XRP as a digital commodity[3]. However, this is a scheduled legislative event rather than breaking news.",
-      "direction": null,
+      "headline": "Bitcoin ETFs See $8",
+      "raw": "Bitcoin ETFs See $8.9M Inflow on April 4; Ethereum ETFs Lead with $71.1M | YES | MED confidence**  \nOn April 4, Bitcoin spot ETFs recorded $8.99M net inflows (down from March's $1.32B), while Ethereum ETFs saw $71.16M inflows amid Middle East tensions dampening risk appetite; this modest capital shift could influence prediction markets like Bitcoin $100K by June 30 odds, though volumes remain low ",
+      "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of XRP be above $1.70 on April 15?"
+        "Bitcoin Up or Down - April 13, 7:50PM-7:55PM ET",
+        "Will the price of Bitcoin be above $72,000 on April 16?",
+        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -71,6 +75,6 @@
     "enter": 1,
     "alert": 2,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
