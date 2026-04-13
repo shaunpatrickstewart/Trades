@@ -1,13 +1,180 @@
 {
-  "last_scan": "2026-04-13T09:48:56.731891+00:00",
-  "scan_seconds": 64.8,
-  "markets_scanned": 80,
-  "open_positions": 80,
-  "signals": [],
+  "last_scan": "2026-04-13T10:44:45.137217+00:00",
+  "scan_seconds": 53.7,
+  "markets_scanned": 67,
+  "open_positions": 47,
+  "signals": [
+    {
+      "id": "sig_815397",
+      "timestamp": "2026-04-13T10:43:59.319458+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Announces Imminent Blockade of Iranian Ports as Islamabad Peace Talks Collapse Without Deal | NO | HIGH confidence**",
+      "raw": "US Announces Imminent Blockade of Iranian Ports as Islamabad Peace Talks Collapse Without Deal | NO | HIGH confidence**  \nUS Vice President JD Vance departed Pakistan on April 12, 2026, after 21 hours of talks failed due to Iran's refusal to abandon nuclear ambitions or reopen the Strait of Hormuz, with the US military confirming a blockade of Iranian ports to begin \"within hours.\"[1][4][5]  \nThis",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Donald Trump post 40-59 Truth Social posts from April 1",
+        "Will Apple (AAPL) finish week of April 13 above $255?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_833017",
+      "timestamp": "2026-04-13T10:44:16.939117+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Thunder Lose Meaningless Regular Season Finale 135-103 to Suns; No Impact on #1 Seed or Finals Path | NO | HIGH confiden",
+      "raw": "Thunder Lose Meaningless Regular Season Finale 135-103 to Suns; No Impact on #1 Seed or Finals Path | NO | HIGH confidence** [1][2][3]\n\nThe Oklahoma City Thunder fell 103-135 to the Phoenix Suns on April 12, 2026, in their regular-season closer at Paycom Center, dropping to 64-18 while Suns improved to 45-37; key Thunder stars like Shai Gilgeous-Alexander (oblique), Jalen Williams (hamstring), and",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_826074",
+      "timestamp": "2026-04-13T10:44:09.996117+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Foundation Introduces Structured Security Approach Across Ecosystem | YES | HIGH confidence**",
+      "raw": "Solana Foundation Introduces Structured Security Approach Across Ecosystem | YES | HIGH confidence**  \nThe Solana Foundation responded to a recent exploit by announcing coordinated monitoring and support for DeFi projects, treating security as a shared responsibility to restore network confidence.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_826078",
+      "timestamp": "2026-04-13T10:44:10.000933+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Developers Introduce Quantum-Resistant Wallet Rescue Prototype | YES | HIGH confidence**",
+      "raw": "Bitcoin Developers Introduce Quantum-Resistant Wallet Rescue Prototype | YES | HIGH confidence**  \nBitcoin developers unveiled a prototype for quantum-resistant wallet rescue, addressing long-term foundational security risks ahead of potential threats.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_826084",
+      "timestamp": "2026-04-13T10:44:10.006139+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Explores Standard for AI Agents in Complex DeFi Trades | YES | MED confidence**",
+      "raw": "Ethereum Explores Standard for AI Agents in Complex DeFi Trades | YES | MED confidence**  \nEthereum is developing a standard enabling AI agents to execute advanced DeFi trades, with Alchemy unveiling supporting infrastructure for AI payment systems.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_826089",
+      "timestamp": "2026-04-13T10:44:10.011147+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SpaceX Holds $603M in Bitcoin Ahead of Planned IPO | YES | MED confidence**",
+      "raw": "SpaceX Holds $603M in Bitcoin Ahead of Planned IPO | YES | MED confidence**  \nSpaceX retains $603 million in Bitcoin despite losses, with an IPO slated for later this year, signaling sustained corporate adoption.[6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_861188",
+      "timestamp": "2026-04-13T10:44:45.110894+00:00",
+      "source": "X_GROK",
+      "headline": "BTC $80k in April",
+      "raw": "BTC $80k in April?** Whales (e.g., $5.7k+$7.9k buys @85-87\u00a2) piling into NO. Implies low confidence in late-month surge. NO. HIGH.[[1]](https://x.com/i/status/2043619685443260564)[[2]](https://x.com/i/status/2043578448036192639)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043619685443260564)[[2]](https://x.com/i/status/2043578448036192639)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_861194",
+      "timestamp": "2026-04-13T10:44:45.116219+00:00",
+      "source": "X_GROK",
+      "headline": "CA Billionaire Wealth Tax 2026 passes",
+      "raw": "CA Billionaire Wealth Tax 2026 passes?** $11k whale BUY NO @61\u00a2. Smart money bets against. NO. MED.[[3]](https://x.com/i/status/2043628731638358447)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043628731638358447)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_861205",
+      "timestamp": "2026-04-13T10:44:45.127143+00:00",
+      "source": "X_GROK",
+      "headline": "WTI Crude $110+ April:** Highlighted as \"crazy\" active market amid geopolitics",
+      "raw": "WTI Crude $110+ April:** Highlighted as \"crazy\" active market amid geopolitics. Potential volatility play. YES if Iran tensions. LOW.[[6]](https://x.com/i/status/2043636739437146408)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043636739437146408)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_861210",
+      "timestamp": "2026-04-13T10:44:45.132038+00:00",
+      "source": "X_GROK",
+      "headline": "UEFA Markets:** \"Underrated edge\" per active trader",
+      "raw": "UEFA Markets:** \"Underrated edge\" per active trader. Value bets emerging. Unspecified. MED.[[7]](https://x.com/i/status/2043617697582248342)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043617697582248342)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_861214",
+      "timestamp": "2026-04-13T10:44:45.136852+00:00",
+      "source": "X_GROK",
+      "headline": "BTC 5-min Downs:** Whales loading 20k-50k shares @1\u00a2 (9900% ROI potential)",
+      "raw": "BTC 5-min Downs:** Whales loading 20k-50k shares @1\u00a2 (9900% ROI potential). Short-term bearish momentum. DOWN. LOW (gamblish).[[8]](https://x.com/i/status/2043558576728285678)[[9]](https://x.com/i/status/2043558573771309457)\n\nLow whale thresholds (~$5-70k); PolyTech tools shilled for copy-trading edges. Focus geopolitics/crypto prices.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043558576728285678)[[9]](https://x.com/i/status/2043558573771309457)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_861199",
+      "timestamp": "2026-04-13T10:44:45.121684+00:00",
+      "source": "X_GROK",
+      "headline": "Iran Geopolitics (ceasefire/conflict end):** Traders call markets \"juicy\"; smart money bought end-by-Apr7 (pre-resolutio",
+      "raw": "Iran Geopolitics (ceasefire/conflict end):** Traders call markets \"juicy\"; smart money bought end-by-Apr7 (pre-resolution?). Watching closely for edges. Mixed/NO escalation. MED.[[4]](https://x.com/i/status/2043636248997425334)[[5]](https://x.com/i/status/2043568453823373777)",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": "https://x.com/i/status/2043636248997425334)[[5]](https://x.com/i/status/2043568453823373777)",
+      "category": "COMMUNITY"
+    }
+  ],
   "stats": {
-    "enter": 0,
-    "alert": 0,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 9,
+    "watch": 1,
+    "high_conf": 2
   }
 }
