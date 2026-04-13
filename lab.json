@@ -8,306 +8,63 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1903 multi-outcome) at 2026-04-13 01:01 UTC\nBest: 10.0% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.9)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.7% on 'LA-05 Republican Primary Winner'",
+      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1892 multi-outcome) at 2026-04-13 01:32 UTC\nBest: 9.75% profit on 'How many ships transit the Strait of Hormuz this week? (Apr 6-12)' \u2014 buy YES on all 6 outcomes (sum=0.9025)\nStrategy: Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)\n2nd: 9.55% on 'Who will place first in the primary for Nancy Pelosi\u2019s congressional seat (CA-11'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 01:01 UTC",
+      "last_scan": "2026-04-13 01:32 UTC",
       "opportunities": [
         {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 36,
+          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
+          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "561229",
-              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
-              "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.1875,
-              "volume": 10120043
+              "market_id": "1846506",
+              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.4595,
+              "volume": 12957
             },
             {
-              "market_id": "561230",
-              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
-              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.165,
-              "volume": 13794901
+              "market_id": "1846507",
+              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.36,
+              "volume": 58950
             },
             {
-              "market_id": "561234",
-              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
-              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.098,
-              "volume": 6003890
+              "market_id": "1846504",
+              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.031,
+              "volume": 21055
             },
             {
-              "market_id": "561231",
-              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
-              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.0545,
-              "volume": 10775524
+              "market_id": "1846503",
+              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0225,
+              "volume": 24436
             },
             {
-              "market_id": "561261",
-              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
-              "yes_price": 0.0425,
-              "volume": 3440279
+              "market_id": "1846505",
+              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0205,
+              "volume": 25772
             },
             {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.0325,
-              "volume": 6966273
-            },
-            {
-              "market_id": "561253",
-              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
-              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0275,
-              "volume": 9868800
-            },
-            {
-              "market_id": "561233",
-              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 5782003
-            },
-            {
-              "market_id": "561243",
-              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 6931355
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0175,
-              "volume": 8698462
-            },
-            {
-              "market_id": "561232",
-              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
-              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 3842468
-            },
-            {
-              "market_id": "561237",
-              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
-              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 17424953
-            },
-            {
-              "market_id": "561252",
-              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
-              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 6142909
-            },
-            {
-              "market_id": "561241",
-              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
-              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10830188
-            },
-            {
-              "market_id": "561260",
-              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
-              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 3770282
-            },
-            {
-              "market_id": "561236",
-              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
-              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 8558616
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 20792668
-            },
-            {
-              "market_id": "561262",
-              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
-              "question": "Will James Talarico win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 4352502
-            },
-            {
-              "market_id": "561250",
-              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
-              "question": "Will Elon Musk win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 22660951
-            },
-            {
-              "market_id": "561258",
-              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
-              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 7612615
-            },
-            {
-              "market_id": "561249",
-              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
-              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 31858488
-            },
-            {
-              "market_id": "561255",
-              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
-              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 4541103
-            },
-            {
-              "market_id": "561245",
-              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
-              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 22056361
-            },
-            {
-              "market_id": "561257",
-              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
-              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 13595486
-            },
-            {
-              "market_id": "561259",
-              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
-              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7074389
-            },
-            {
-              "market_id": "561240",
-              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
-              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 29592514
-            },
-            {
-              "market_id": "561244",
-              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 9198811
-            },
-            {
-              "market_id": "561256",
-              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
-              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 17571147
-            },
-            {
-              "market_id": "561263",
-              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
-              "question": "Will Eric Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6594162
-            },
-            {
-              "market_id": "561247",
-              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
-              "question": "Will Tim Walz win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 39482850
-            },
-            {
-              "market_id": "561235",
-              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
-              "question": "Will Wes Moore win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6471470
-            },
-            {
-              "market_id": "561242",
-              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
-              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 28142650
-            },
-            {
-              "market_id": "561264",
-              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
-              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 4376685
-            },
-            {
-              "market_id": "561248",
-              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
-              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 30992373
-            },
-            {
-              "market_id": "561254",
-              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
-              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 32708111
-            },
-            {
-              "market_id": "561251",
-              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
-              "question": "Will LeBron James win the 2028 US Presidential Election?",
-              "yes_price": 0.0055,
-              "volume": 46301812
+              "market_id": "1846502",
+              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.009,
+              "volume": 49182
             }
           ],
-          "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "LA-05 Republican Primary Winner",
-          "event_slug": "la-05-republican-primary-winner",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1731841",
-              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
-              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
-              "yes_price": 0.83,
-              "volume": 15029
-            },
-            {
-              "market_id": "1731837",
-              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
-              "question": "Will Michael Echols be the Republican nominee for LA-05?",
-              "yes_price": 0.043,
-              "volume": 8194
-            },
-            {
-              "market_id": "1731842",
-              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
-              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
-              "yes_price": 0.03,
-              "volume": 5125
-            }
-          ],
-          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
+          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Who will place first in the primary for Nancy Pelosi\u2019s congressional seat (CA-11",
@@ -389,14 +146,14 @@
               "market_id": "1706219",
               "slug": "will-israel-strike-2-countries-in-april-2026",
               "question": "Will Israel strike 2 countries in April 2026?",
-              "yes_price": 0.32,
+              "yes_price": 0.315,
               "volume": 23000
             },
             {
               "market_id": "1706221",
               "slug": "will-israel-strike-4-countries-in-april-2026",
               "question": "Will Israel strike \u22654 countries in April 2026?",
-              "yes_price": 0.21,
+              "yes_price": 0.215,
               "volume": 32766
             },
             {
@@ -451,233 +208,30 @@
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
         },
         {
-          "event_title": "English Premier League - Top Goalscorer ",
-          "event_slug": "english-premier-league-top-goalscorer",
+          "event_title": "Will USDT market cap hit $200B by ___?",
+          "event_slug": "will-usdt-market-cap-hit-by-december-31",
           "yes_sum": 0.9065,
           "profit_pct": 9.35,
           "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 31,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "577160",
-              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.795,
-              "volume": 66257
+              "market_id": "1068728",
+              "slug": "will-usdt-market-cap-hit-200b-before-2027",
+              "question": "Will USDT market cap hit $200B before 2027?",
+              "yes_price": 0.9065,
+              "volume": 145192
             },
             {
-              "market_id": "577171",
-              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.009,
-              "volume": 15888
-            },
-            {
-              "market_id": "577162",
-              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0085,
-              "volume": 165995
-            },
-            {
-              "market_id": "577189",
-              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0085,
-              "volume": 111818
-            },
-            {
-              "market_id": "577174",
-              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.008,
-              "volume": 99001
-            },
-            {
-              "market_id": "577167",
-              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.006,
-              "volume": 16075
-            },
-            {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.006,
-              "volume": 11972
-            },
-            {
-              "market_id": "577181",
-              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0055,
-              "volume": 16361
-            },
-            {
-              "market_id": "577161",
-              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0045,
-              "volume": 233125
-            },
-            {
-              "market_id": "577182",
-              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0045,
-              "volume": 84801
-            },
-            {
-              "market_id": "577170",
-              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.004,
-              "volume": 158181
-            },
-            {
-              "market_id": "577184",
-              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.004,
-              "volume": 116784
-            },
-            {
-              "market_id": "577172",
-              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
-              "yes_price": 0.0035,
-              "volume": 24056
-            },
-            {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0035,
-              "volume": 40715
-            },
-            {
-              "market_id": "577183",
-              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.003,
-              "volume": 12729
-            },
-            {
-              "market_id": "577163",
-              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.003,
-              "volume": 146398
-            },
-            {
-              "market_id": "577176",
-              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.003,
-              "volume": 130160
-            },
-            {
-              "market_id": "577179",
-              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
-              "yes_price": 0.0025,
-              "volume": 16618
-            },
-            {
-              "market_id": "577168",
-              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0025,
-              "volume": 33508
-            },
-            {
-              "market_id": "577173",
-              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 12884
-            },
-            {
-              "market_id": "577180",
-              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
-              "yes_price": 0.0025,
-              "volume": 74667
-            },
-            {
-              "market_id": "577185",
-              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0025,
-              "volume": 20604
-            },
-            {
-              "market_id": "577187",
-              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0025,
-              "volume": 16332
-            },
-            {
-              "market_id": "577164",
-              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 108734
-            },
-            {
-              "market_id": "577165",
-              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0015,
-              "volume": 151793
-            },
-            {
-              "market_id": "577166",
-              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0015,
-              "volume": 14019
-            },
-            {
-              "market_id": "577186",
-              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0015,
-              "volume": 49345
-            },
-            {
-              "market_id": "577169",
-              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0015,
-              "volume": 30140
-            },
-            {
-              "market_id": "577188",
-              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 15581
-            },
-            {
-              "market_id": "577175",
-              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 17373
-            },
-            {
-              "market_id": "577190",
-              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0015,
-              "volume": 13456
+              "market_id": "569994",
+              "slug": "will-usdt-market-cap-hit-by-december-31",
+              "question": "Will USDT market cap hit $200B by December 31?",
+              "yes_price": 0.0,
+              "volume": 39278
             }
           ],
-          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+          "url": "https://polymarket.com/event/will-usdt-market-cap-hit-by-december-31",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
         },
         {
           "event_title": "AZ-01 Republican Primary Winner",
@@ -830,86 +384,322 @@
           "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "Internet Access restored in Iran by...?",
-          "event_slug": "internet-access-restored-in-iran-by",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 4,
+          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
+          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 5,
           "outcomes": [
             {
-              "market_id": "1831357",
-              "slug": "internet-access-restored-in-iran-by-june-30-2026",
-              "question": "Internet Access restored in Iran by June 30, 2026?",
-              "yes_price": 0.46,
-              "volume": 28205
+              "market_id": "1737533",
+              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
+              "yes_price": 0.595,
+              "volume": 20527
             },
             {
-              "market_id": "1831356",
-              "slug": "internet-access-restored-in-iran-by-may-31-2026",
-              "question": "Internet Access restored in Iran by May 31, 2026?",
-              "yes_price": 0.325,
-              "volume": 18664
+              "market_id": "1737537",
+              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
+              "yes_price": 0.16,
+              "volume": 4646
             },
             {
-              "market_id": "1559713",
-              "slug": "internet-access-restored-in-iran-by-april-30-2026",
-              "question": "Internet Access restored in Iran by April 30, 2026?",
-              "yes_price": 0.125,
-              "volume": 115822
+              "market_id": "1737536",
+              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
+              "yes_price": 0.105,
+              "volume": 24353
             },
             {
-              "market_id": "1559658",
-              "slug": "internet-access-restored-in-iran-by-march-31-2026",
-              "question": "Internet Access restored in Iran by March 31, 2026?",
-              "yes_price": 0.0,
-              "volume": 61475
+              "market_id": "1737535",
+              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
+              "yes_price": 0.0255,
+              "volume": 10005
+            },
+            {
+              "market_id": "1737534",
+              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
+              "yes_price": 0.0225,
+              "volume": 12426
             }
           ],
-          "url": "https://polymarket.com/event/internet-access-restored-in-iran-by",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
         },
         {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
+          "event_title": "LA-05 Republican Primary Winner",
+          "event_slug": "la-05-republican-primary-winner",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
           "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.825,
-              "volume": 1102
+              "market_id": "1731841",
+              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
+              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
+              "yes_price": 0.835,
+              "volume": 15029
             },
             {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.062,
-              "volume": 1097
+              "market_id": "1731837",
+              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
+              "question": "Will Michael Echols be the Republican nominee for LA-05?",
+              "yes_price": 0.043,
+              "volume": 8194
             },
             {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.023,
-              "volume": 1490
+              "market_id": "1731842",
+              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
+              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
+              "yes_price": 0.03,
+              "volume": 5125
             }
           ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "English Premier League - Top Goalscorer ",
+          "event_slug": "english-premier-league-top-goalscorer",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 31,
+          "outcomes": [
+            {
+              "market_id": "577160",
+              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.8,
+              "volume": 66310
+            },
+            {
+              "market_id": "577171",
+              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.009,
+              "volume": 15888
+            },
+            {
+              "market_id": "577162",
+              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0085,
+              "volume": 165995
+            },
+            {
+              "market_id": "577189",
+              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0085,
+              "volume": 111818
+            },
+            {
+              "market_id": "577174",
+              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.008,
+              "volume": 99001
+            },
+            {
+              "market_id": "577167",
+              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.006,
+              "volume": 16075
+            },
+            {
+              "market_id": "577181",
+              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.006,
+              "volume": 16361
+            },
+            {
+              "market_id": "577161",
+              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0045,
+              "volume": 233125
+            },
+            {
+              "market_id": "577182",
+              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0045,
+              "volume": 84801
+            },
+            {
+              "market_id": "577184",
+              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0045,
+              "volume": 116784
+            },
+            {
+              "market_id": "577170",
+              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.004,
+              "volume": 158181
+            },
+            {
+              "market_id": "577172",
+              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
+              "yes_price": 0.0035,
+              "volume": 24161
+            },
+            {
+              "market_id": "577177",
+              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0035,
+              "volume": 40715
+            },
+            {
+              "market_id": "577183",
+              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.003,
+              "volume": 12729
+            },
+            {
+              "market_id": "577163",
+              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.003,
+              "volume": 146398
+            },
+            {
+              "market_id": "577176",
+              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.003,
+              "volume": 130160
+            },
+            {
+              "market_id": "577179",
+              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
+              "yes_price": 0.0025,
+              "volume": 16618
+            },
+            {
+              "market_id": "577168",
+              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0025,
+              "volume": 33508
+            },
+            {
+              "market_id": "577173",
+              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0025,
+              "volume": 12990
+            },
+            {
+              "market_id": "577178",
+              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0025,
+              "volume": 11972
+            },
+            {
+              "market_id": "577180",
+              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
+              "yes_price": 0.0025,
+              "volume": 74667
+            },
+            {
+              "market_id": "577185",
+              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0025,
+              "volume": 20604
+            },
+            {
+              "market_id": "577187",
+              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0025,
+              "volume": 16332
+            },
+            {
+              "market_id": "577164",
+              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 108734
+            },
+            {
+              "market_id": "577165",
+              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0015,
+              "volume": 151887
+            },
+            {
+              "market_id": "577166",
+              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0015,
+              "volume": 14019
+            },
+            {
+              "market_id": "577186",
+              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0015,
+              "volume": 49345
+            },
+            {
+              "market_id": "577169",
+              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0015,
+              "volume": 30140
+            },
+            {
+              "market_id": "577188",
+              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 15581
+            },
+            {
+              "market_id": "577175",
+              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 17373
+            },
+            {
+              "market_id": "577190",
+              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0015,
+              "volume": 13456
+            }
+          ],
+          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1903,
-        "skipped_single_outcome": 642,
-        "opportunities_found": 134,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 01:01 UTC"
+        "checked_multi_outcome": 1892,
+        "skipped_single_outcome": 644,
+        "opportunities_found": 136,
+        "best_profit_pct": 9.75,
+        "scanned_at": "2026-04-13 01:32 UTC"
       }
     },
     {
