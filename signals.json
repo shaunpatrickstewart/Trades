@@ -1,41 +1,117 @@
 {
-  "last_scan": "2026-04-13T03:05:40.850292+00:00",
-  "scan_seconds": 39.3,
-  "markets_scanned": 17,
-  "open_positions": 17,
+  "last_scan": "2026-04-13T03:38:05.132817+00:00",
+  "scan_seconds": 58.4,
+  "markets_scanned": 66,
+  "open_positions": 42,
   "signals": [
     {
-      "id": "sig_316892",
-      "timestamp": "2026-04-13T03:05:40.841236+00:00",
-      "source": "X_GROK",
-      "headline": "Rory McIlroy 2026 Masters Win:** New whale buys $27k YES at 71\u00a2",
-      "raw": "Rory McIlroy 2026 Masters Win:** New whale buys $27k YES at 71\u00a2. Signals strong trader conviction in YES (win). Confidence: MED (single new wallet).[[1]](https://x.com/i/status/2043524605164270071)[[2]](https://x.com/i/status/2043484513523966459)",
+      "id": "sig_213727",
+      "timestamp": "2026-04-13T03:37:17.674755+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran peace talks collapse in Islamabad after 21 hours; no deal reached as ceasefire at risk, US announces imminent bl",
+      "raw": "US-Iran peace talks collapse in Islamabad after 21 hours; no deal reached as ceasefire at risk, US announces imminent blockade of Iranian ports.** | **NO** | **HIGH** confidence[1][4][5]\n\nUS Vice President JD Vance departed Pakistan on April 12, 2026, confirming Iran rejected US demands to end its nuclear program and reopen the Strait of Hormuz, despite both sides claiming near-agreement[1][4]. Th",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_219096",
+      "timestamp": "2026-04-13T03:37:23.043780+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NM Supreme Court Confirms Duke Rodriguez on 2026 GOP Gubernatorial Primary Ballot | YES | HIGH confidence**",
+      "raw": "NM Supreme Court Confirms Duke Rodriguez on 2026 GOP Gubernatorial Primary Ballot | YES | HIGH confidence**  \nThe New Mexico Supreme Court unanimously ruled that Republican gubernatorial candidate **Duke Rodriguez** can appear on the June 2 primary ballot, upholding a lower court decision and resolving a key eligibility challenge.[1]  \nA judge also recently tossed a second lawsuit against his elig",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "2026 Balance of Power: R Senate, D House",
+        "Will the Republican Party win the AK-AL House seat?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_225326",
+      "timestamp": "2026-04-13T03:37:29.273952+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Drift Protocol Hack on Solana Confirmed: $280M Stolen on April 1** | YES | HIGH confidence[4]",
+      "raw": "Drift Protocol Hack on Solana Confirmed: $280M Stolen on April 1** | YES | HIGH confidence[4]  \nSolana-based DeFi platform Drift Protocol suffered a sophisticated hack exploiting multisig vulnerabilities, with the attacker withdrawing at least $280 million in assets including wrapped BTC, Jito tokens, Fartcoin, and stablecoins; the team suspended functions, updated security, and is coordinating wi",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Solana be above $120 on April 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_225332",
+      "timestamp": "2026-04-13T03:37:29.279172+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Alpenglow Upgrade Governance Vote Passed with 98",
+      "raw": "Alpenglow Upgrade Governance Vote Passed with 98.27% Approval** | YES | MED confidence[5]  \nSolana's Alpenglow upgrade, targeting 100-150ms transaction finality, secured overwhelming community support via governance vote, positioning it as a high-speed layer amid strong network metrics like $57B March DEX volume and $650B February stablecoin activity[2][5]. Could influence bullish prediction marke",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043524605164270071)[[2]](https://x.com/i/status/2043484513523966459)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_316893",
-      "timestamp": "2026-04-13T03:05:40.842929+00:00",
+      "id": "sig_231364",
+      "timestamp": "2026-04-13T03:37:35.311319+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results contain outdated information th",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results contain outdated information that does not reflect current events as of April 13, 2026.\n\nThe most recent information in the search results pertains to the **2025 NBA Finals**, which concluded with the Oklahoma City Thunder defeating the Indiana Pacers 103-91 in Game 7. This event occurred in June 2025\u2014nearly 1",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_261151",
+      "timestamp": "2026-04-13T03:38:05.098337+00:00",
       "source": "X_GROK",
-      "headline": "NHL Hurricanes vs Flyers:** $102k whale on Flyers win @50%",
-      "raw": "NHL Hurricanes vs Flyers:** $102k whale on Flyers win @50%. Smart money fading home team? Confidence: HIGH (large position, imminent game).[[3]](https://x.com/i/status/2043520493349658987)",
+      "headline": "Inter Milan defeats Como 1907**: Whale bet $740k YES on Inter win, profited $952k",
+      "raw": "Inter Milan defeats Como 1907**: Whale bet $740k YES on Inter win, profited $952k. Confirms YES resolution. HIGH confidence (resolved).[[1]](https://x.com/i/status/2043437944837394606)[[2]](https://x.com/i/status/2043438734809469052)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043520493349658987)",
+      "x_link": "https://x.com/i/status/2043437944837394606)[[2]](https://x.com/i/status/2043438734809469052)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_316895",
-      "timestamp": "2026-04-13T03:05:40.844662+00:00",
+      "id": "sig_261158",
+      "timestamp": "2026-04-13T03:38:05.105179+00:00",
       "source": "X_GROK",
-      "headline": "NHL Rangers vs Panthers:** $187k whale on Rangers win @52%",
-      "raw": "NHL Rangers vs Panthers:** $187k whale on Rangers win @52%. Biggest move today. Signals YES Rangers. Confidence: HIGH.[[4]](https://x.com/i/status/2043519215139762238)",
+      "headline": "Hungarian election: Orb\u00e1n ousted**: Whale down $857k on Orb\u00e1n win (NO)",
+      "raw": "Hungarian election: Orb\u00e1n ousted**: Whale down $857k on Orb\u00e1n win (NO). Opposition victory confirmed by ex-PM. HIGH confidence (resolved).[[3]](https://x.com/i/status/2043437592423588242)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043437592423588242)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_261164",
+      "timestamp": "2026-04-13T03:38:05.111940+00:00",
+      "source": "X_GROK",
+      "headline": "NHL: Rangers vs Panthers**: $187k whale bet on Rangers win @52%",
+      "raw": "NHL: Rangers vs Panthers**: $187k whale bet on Rangers win @52%. Smart money fading Panthers. MED confidence (imminent, game 4/13).[[4]](https://x.com/i/status/2043519215139762238)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -44,51 +120,49 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_316897",
-      "timestamp": "2026-04-13T03:05:40.846147+00:00",
+      "id": "sig_261171",
+      "timestamp": "2026-04-13T03:38:05.118784+00:00",
       "source": "X_GROK",
-      "headline": "Weather Markets Mispriced:** AI tips Central Asia (Afghanistan/Pakistan) & S",
-      "raw": "Weather Markets Mispriced:** AI tips Central Asia (Afghanistan/Pakistan) & S. Europe heatwaves undervalued (<15\u00a2) vs forecasts. Buy YES overheat. Confidence: MED (model-based).[[5]](https://x.com/i/status/2043516236202742078)",
+      "headline": "NHL: Flyers vs Hurricanes**: $101k whale bet on Flyers @50\u00a2",
+      "raw": "NHL: Flyers vs Hurricanes**: $101k whale bet on Flyers @50\u00a2. Value on even matchup. MED confidence (imminent).[[5]](https://x.com/i/status/2043520493349658987)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043520493349658987)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_261178",
+      "timestamp": "2026-04-13T03:38:05.125528+00:00",
+      "source": "X_GROK",
+      "headline": "Masters 2026: Rory McIlroy to win**: New whale $27k YES @71\u00a2",
+      "raw": "Masters 2026: Rory McIlroy to win**: New whale $27k YES @71\u00a2. Building position pre-tourney. LOW confidence (long-term, early bet).[[6]](https://x.com/i/status/2043524605164270071)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043516236202742078)",
+      "x_link": "https://x.com/i/status/2043524605164270071)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_316898",
-      "timestamp": "2026-04-13T03:05:40.847790+00:00",
+      "id": "sig_261185",
+      "timestamp": "2026-04-13T03:38:05.132408+00:00",
       "source": "X_GROK",
-      "headline": "US-Iran Ceasefire Ends by Apr 21:** Traders pricing 41% YES amid Trump rhetoric",
-      "raw": "US-Iran Ceasefire Ends by Apr 21:** Traders pricing 41% YES amid Trump rhetoric. No big whales yet, but volume building. Confidence: LOW (speculative).[[6]](https://x.com/i/status/2043521831156822501)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043521831156822501)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_316900",
-      "timestamp": "2026-04-13T03:05:40.849465+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tips:** Fade 88-95\u00a2 favorites (e",
-      "raw": "Trending Tips:** Fade 88-95\u00a2 favorites (e.g. @swisstony up $6m); G7 econ data arb (8-16% edges); post-news panic buys. Hungarian Orb\u00e1n whale liquidated -$857k, validating PM correct.[[7]](https://x.com/i/status/2043351708471001358)[[8]](https://x.com/i/status/2043417484368224521)",
-      "direction": "YES",
+      "headline": "Trending tips**: Copy bots scalping weather/econ data (8-16% edges vs consensus); fade 88-95\u00a2 overconfident faves; arbit",
+      "raw": "Trending tips**: Copy bots scalping weather/econ data (8-16% edges vs consensus); fade 88-95\u00a2 overconfident faves; arbitrage short-term sports (e.g. Spurs underdog @34%).[[7]](https://x.com/i/status/2043391435437678896)[[8]](https://x.com/i/status/2043351708471001358)",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043351708471001358)[[8]](https://x.com/i/status/2043417484368224521)",
+      "x_link": "https://x.com/i/status/2043391435437678896)[[8]](https://x.com/i/status/2043351708471001358)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 3,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 3
   }
 }
