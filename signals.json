@@ -1,62 +1,51 @@
 {
-  "last_scan": "2026-04-13T06:39:41.121358+00:00",
-  "scan_seconds": 26.0,
-  "markets_scanned": 40,
-  "open_positions": 19,
+  "last_scan": "2026-04-13T06:59:05.081751+00:00",
+  "scan_seconds": 30.8,
+  "markets_scanned": 42,
+  "open_positions": 18,
   "signals": [
     {
-      "id": "sig_137837",
-      "timestamp": "2026-04-13T06:39:21.773755+00:00",
+      "id": "sig_301934",
+      "timestamp": "2026-04-13T06:58:45.869755+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ceasefire Talks Collapse: US-Iran Negotiations in Islamabad End Without Progress on April 12 | NO** | **MED confidence**",
-      "raw": "Ceasefire Talks Collapse: US-Iran Negotiations in Islamabad End Without Progress on April 12 | NO** | **MED confidence** [2][3]\n\nThe two-week ceasefire, agreed on April 8 and mediated by Pakistan, remains fragile on day five (April 12), with US negotiators including VP JD Vance leaving Islamabad after Iran rejected a \"take it or leave it\" US proposal demanding an end to its nuclear program[2][3]. ",
+      "headline": "US-Iran ceasefire talks in Islamabad collapse without agreement | NO | HIGH confidence**",
+      "raw": "US-Iran ceasefire talks in Islamabad collapse without agreement | NO | HIGH confidence**\n\nHigh-stakes negotiations between the U.S. and Iran ended on April 12, 2026, without producing a peace agreement after 21 hours of talks.[4][5] Vice President JD Vance confirmed that Iran refused to accept American terms, with discussions breaking down primarily over the blockade of the Strait of Hormuz and re",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_151240",
-      "timestamp": "2026-04-13T06:39:35.176396+00:00",
+      "id": "sig_314946",
+      "timestamp": "2026-04-13T06:58:58.881943+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested based on these search results",
-      "raw": "I cannot provide the breaking news format you've requested based on these search results. The available sources are from April 9-10, 2026, which are several days old relative to your current date of April 13, 2026 at 6:39 AM UTC. None of the search results contain information about events happening \"right now\" or breaking news from today.\n\nThe most recent concrete price data available is from Apri",
-      "direction": null,
+      "headline": "Bitcoin hits $73,000 on $350M ETF inflows, BNY Mellon crypto expansion, and Treasury push for CLARITY Act | YES | HIGH c",
+      "raw": "Bitcoin hits $73,000 on $350M ETF inflows, BNY Mellon crypto expansion, and Treasury push for CLARITY Act | YES | HIGH confidence** [1]\n\nBitcoin has surged to **$73,010** as of early April 13, 2026 UTC, driven by **$350 million net inflows** into spot Bitcoin ETFs, **BNY Mellon's** new 24/7 \"Crypto-to-Treasury\" service linking crypto to U.S. Treasuries, and Treasury Secretary Scott Bessent's call ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Ethereum be above $2,200 on April 15?"
+        "Bitcoin Up or Down - April 13, 8AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_156183",
-      "timestamp": "2026-04-13T06:39:40.119078+00:00",
+      "id": "sig_308190",
+      "timestamp": "2026-04-13T06:58:52.125192+00:00",
       "source": "PERPLEXITY",
-      "headline": "Thunder Key Players Ruled Out for Regular Season Finale vs",
-      "raw": "Thunder Key Players Ruled Out for Regular Season Finale vs. Suns (135-103 Loss), Expected Back for Playoffs | NO | HIGH confidence** [1]\n\nSuns reserves dominated a shorthanded Thunder team in their meaningless regular-season finale on April 12, with 10 players listed out, including **Shai Gilgeous-Alexander** (oblique), **Jalen Williams** (hamstring), and **Jaylin Williams** (Achilles tendinitis);",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_143244",
-      "timestamp": "2026-04-13T06:39:27.180055+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NM Supreme Court Confirms Republican Gubernatorial Candidate Duke Rodriguez's Ballot Eligibility** | YES | HIGH confiden",
-      "raw": "NM Supreme Court Confirms Republican Gubernatorial Candidate Duke Rodriguez's Ballot Eligibility** | YES | HIGH confidence[1]\n\nThe New Mexico Supreme Court unanimously ruled that Duke Rodriguez, a Republican candidate for governor in the 2026 race, can appear on the June primary ballot, upholding a lower court's dismissal of an eligibility challenge[1]. This resolution addresses residency concerns",
+      "headline": "House Republicans Reject Senate's DHS Funding Plan, Plan Vote on 8-Week Stopgap | YES | HIGH confidence**[5]",
+      "raw": "House Republicans Reject Senate's DHS Funding Plan, Plan Vote on 8-Week Stopgap | YES | HIGH confidence**[5]\n\nRepublicans in the House have rejected the Senate's DHS funding proposal, escalating a standoff that risks a government shutdown, with Rep. Mike Flood indicating a floor vote on an 8-week stopgap could occur as early as tonight (March 28, 2026)[5]. Rep. Sean Casten noted uncertainty on pas",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
+        "2026 Balance of Power: R Senate, D House",
+        "Will the Republican Party win the AK-AL House seat?"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -65,7 +54,7 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
+    "alert": 1,
     "watch": 1,
     "high_conf": 1
   }
