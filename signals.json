@@ -1,140 +1,66 @@
 {
-  "last_scan": "2026-04-13T23:26:33.921153+00:00",
-  "scan_seconds": 36.9,
-  "markets_scanned": 120,
+  "last_scan": "2026-04-13T23:29:20.388388+00:00",
+  "scan_seconds": 26.1,
+  "markets_scanned": 122,
   "open_positions": 93,
   "signals": [
     {
-      "id": "sig_568969",
-      "timestamp": "2026-04-13T23:26:32.845574+00:00",
+      "id": "sig_717865",
+      "timestamp": "2026-04-13T23:29:01.741415+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rate at 2",
-      "raw": "Bank of Korea Holds Rate at 2.5% Amid Inflation Pressures** | NO | HIGH confidence\n\nThe most recent confirmed announcement is that **South Korea's central bank maintained its benchmark interest rate at 2.5% on April 10, 2026**, marking the 7th consecutive month of unchanged policy.[4] This decision was unanimous among board members and was widely anticipated, so it does not represent a market-movi",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will the Central Bank of Colombia announce an increase at the April meeting?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_552808",
-      "timestamp": "2026-04-13T23:26:16.684248+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Polling**: Only one public poll exists\u2014a Mejia internal poll showing her leading by 17 points[2]",
-      "raw": "**Polling**: Only one public poll exists\u2014a Mejia internal poll showing her leading by 17 points[2]\n\nThe search results do not contain information about J.D. Vance or any confirmed developments from April 13 that would constitute market-moving news. To provide the format you requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need search results with actual breaking announcements or",
+      "headline": "TRUMP ORDERS US NAVY BLOCKADE OF STRAIT OF HORMUZ AFTER IRAN CEASEFIRE TALKS COLLAPSE IN PAKISTAN | NO | HIGH confidence",
+      "raw": "TRUMP ORDERS US NAVY BLOCKADE OF STRAIT OF HORMUZ AFTER IRAN CEASEFIRE TALKS COLLAPSE IN PAKISTAN | NO | HIGH confidence**\n\nCeasefire talks between the US and Iran stalled over the weekend in Islamabad, Pakistan, prompting President Trump to announce and implement a naval blockade on Iranian ports in the Strait of Hormuz starting this morning (April 13, 2026).[1][2][3][4] Trump vowed to sink Irani",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_560784",
-      "timestamp": "2026-04-13T23:26:24.660362+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the format you've requested because the search results do not contain **breaking news** or recently con",
-      "raw": "I cannot provide the format you've requested because the search results do not contain **breaking news** or recently confirmed announcements that would move prediction markets.\n\nThe search results include:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_546152",
-      "timestamp": "2026-04-13T23:26:10.028028+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Announces US Navy Blockade of Strait of Hormuz After Iran Talks Collapse | NO** | **HIGH** confidence[1][2][4]",
-      "raw": "Trump Announces US Navy Blockade of Strait of Hormuz After Iran Talks Collapse | NO** | **HIGH** confidence[1][2][4]\n\nFailed weekend negotiations between the US and Iran over Iran's nuclear program ended without agreement, prompting President Trump to order a US Navy blockade of Iranian ports in the Strait of Hormuz starting today[1][2][4]. This escalates tensions amid a fragile, barely-holding ce",
-      "direction": "YES",
-      "confidence": 0.78,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by J",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_552610",
-      "timestamp": "2026-04-13T23:26:16.486636+00:00",
+      "id": "sig_729848",
+      "timestamp": "2026-04-13T23:29:13.724577+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent announcements that would move prediction markets based on these search res",
-      "raw": "I cannot identify any breaking news or recent announcements that would move prediction markets based on these search results. The available information covers the New Jersey 11th Congressional District special election scheduled for April 16, 2026, but contains no developments from today (April 13) or recent confirmations that would constitute breaking news.\n\nThe search results show:",
+      "headline": "XRP Options Expiry Looms with $418M Open Interest at $1",
+      "raw": "XRP Options Expiry Looms with $418M Open Interest at $1.50 Strike | NO | LOW confidence**  \nApril 24 expiry features bullish call dominance (put/call ratio 0.72) and 68% implied volatility (vs. ETH's 61%), but no instant resolution\u2014delta-hedging may drive volatility without confirmed price move yet.[1]",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_552644",
-      "timestamp": "2026-04-13T23:26:16.520355+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Election timing**: Early voting is underway through April 14, with Election Day on April 16[3]",
-      "raw": "**Election timing**: Early voting is underway through April 14, with Election Day on April 16[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_552685",
-      "timestamp": "2026-04-13T23:26:16.561384+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Candidates**: Democrat Analilia Mejia (progressive activist endorsed by Bernie Sanders and AOC) and Republican Joe Hat",
-      "raw": "**Candidates**: Democrat Analilia Mejia (progressive activist endorsed by Bernie Sanders and AOC) and Republican Joe Hathaway (former Randolph mayor) are the frontrunners[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_552752",
-      "timestamp": "2026-04-13T23:26:16.628200+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Fundraising**: As of late March, Mejia had outraised Hathaway by more than two-to-one[2]",
-      "raw": "**Fundraising**: As of late March, Mejia had outraised Hathaway by more than two-to-one[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_560799",
-      "timestamp": "2026-04-13T23:26:24.675940+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Price predictions and analyst commentary** from early-to-mid April 2026 (not breaking news)",
-      "raw": "**Price predictions and analyst commentary** from early-to-mid April 2026 (not breaking news)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of XRP be above $1.70 on April 15?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_560817",
-      "timestamp": "2026-04-13T23:26:24.693705+00:00",
+      "id": "sig_722987",
+      "timestamp": "2026-04-13T23:29:06.863382+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Historical patterns and technical analysis** (e",
-      "raw": "**Historical patterns and technical analysis** (e.g., XRP's average 24.8% April gains)",
+      "headline": "I cannot provide the breaking news update you're requesting",
+      "raw": "I cannot provide the breaking news update you're requesting. The search results provided discuss a **New Jersey congressional special election** (NJ-11 district), not a New Mexico gubernatorial race. The results cover fundraising and campaign developments between Democrat Analilia Mejia and Republican Joe Hathaway in advance of their special election for a House seat previously held by Gov. Mikie ",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Joe Hathaway win the NJ-11 special election?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_729809",
+      "timestamp": "2026-04-13T23:29:13.685113+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Clears Hurdle, Classifying XRP as Digital Commodity | YES | MED confidence**",
+      "raw": "CLARITY Act Clears Hurdle, Classifying XRP as Digital Commodity | YES | MED confidence**  \nThe bill advanced past a key legislative step, targeting late-April Senate Banking Committee markup and mid-2026 floor vote, enabling banks/asset managers to scale XRP exposure; Galaxy's Alex Thorn notes April as critical, with XRP leading ETF inflows ($119.6M weekly, $3.3M on April 12).[5][3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the price of XRP be above $1.10 on April 14?",
@@ -146,81 +72,27 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_560836",
-      "timestamp": "2026-04-13T23:26:24.712400+00:00",
+      "id": "sig_735510",
+      "timestamp": "2026-04-13T23:29:19.386729+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Pending regulatory developments** like the CLARITY Act, which the Senate was set to return to on April 13, 2026, but n",
-      "raw": "**Pending regulatory developments** like the CLARITY Act, which the Senate was set to return to on April 13, 2026, but no confirmation of passage or rejection is included in these results[6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_560857",
-      "timestamp": "2026-04-13T23:26:24.733902+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**General market positioning** showing XRP holding above $1",
-      "raw": "**General market positioning** showing XRP holding above $1.30 with sideways trading[6]\n\nThe most recent dated content references April 8, 2026 analyst commentary and April 13 Senate return expectations, but no confirmed resolutions, announcements, or market-moving events are documented in these results.\n\nTo answer your question properly, I would need search results containing actual breaking anno",
-      "direction": "NO",
+      "headline": "SOUTH KOREA INFLATION RISES TO 2",
+      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, UP FROM 2.0% IN PRIOR MONTHS | NO | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, remaining below market forecasts of 2.4% but exceeding the Bank of Korea's 2.0% target amid oil price pressures from Middle East tensions.[3] The Bank of Korea held its benchmark rate at 2.5% ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the price of XRP be above $1.10 on April 14?",
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of XRP be above $1.70 on April 15?"
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of Solana be above $110 on April 19?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_568995",
-      "timestamp": "2026-04-13T23:26:32.871561+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current inflation status:** South Korea's annual inflation reached **2",
-      "raw": "Current inflation status:** South Korea's annual inflation reached **2.2% in March 2026**, up from 2.0% in the previous two months but below market forecasts of 2.4%.[1] Core inflation (excluding volatile food and energy) remains at 2.0%.[3] The inflation rate continues to hover near the Bank of Korea's 2% target.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_569019",
-      "timestamp": "2026-04-13T23:26:32.895726+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key context:** The central bank is maintaining its cautious stance despite moderating headline inflation, primarily due",
-      "raw": "Key context:** The central bank is maintaining its cautious stance despite moderating headline inflation, primarily due to **rising global oil prices stemming from the Iran conflict** and currency volatility, with the won weakening to around 1,520 per U.S. dollar.[4] The Policy Board expects inflation to rise into the mid to upper two-percent range, with anticipated economic growth falling below 2",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_569040",
-      "timestamp": "2026-04-13T23:26:32.916285+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market implications:** The rate hold was expected, the inflation reading came in below forecasts, and the central bank's",
-      "raw": "Market implications:** The rate hold was expected, the inflation reading came in below forecasts, and the central bank's forward guidance signals extended policy hold\u2014none of these represent confirming news that would significantly move prediction markets.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 14,
+    "enter": 2,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
