@@ -1,43 +1,93 @@
 {
-  "last_scan": "2026-04-13T23:32:12.423070+00:00",
-  "scan_seconds": 26.8,
-  "markets_scanned": 104,
-  "open_positions": 74,
+  "last_scan": "2026-04-13T23:35:04.310470+00:00",
+  "scan_seconds": 26.4,
+  "markets_scanned": 64,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_901793",
-      "timestamp": "2026-04-13T23:32:05.669409+00:00",
+      "id": "sig_63682",
+      "timestamp": "2026-04-13T23:34:47.557475+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify breaking news that has been \"just confirmed, announced, or resol",
-      "raw": "Based on the search results provided, I cannot identify breaking news that has been \"just confirmed, announced, or resolved\" as of April 13, 2026, 11 PM UTC.\n\nThe search results contain analysis and speculation from April 8-11, 2026, but do not report any new developments occurring today. The most recent substantive content discusses:",
+      "headline": "HIGH confidence**",
+      "raw": "HIGH confidence**\n\nThe key developments are: ceasefire talks between the U.S. and Iran stalled over the weekend in Pakistan[1][3], and President Trump subsequently announced Sunday that the U.S. Navy would block ships entering or leaving the Strait of Hormuz[1]. This blockade began Monday morning[3]. While a fragile two-week ceasefire had been agreed to on April 8[2], Trump is now escalating by im",
       "direction": null,
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_63596",
+      "timestamp": "2026-04-13T23:34:47.471548+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results from April 13, 2026:",
+      "raw": "Based on the search results from April 13, 2026:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_901901",
-      "timestamp": "2026-04-13T23:32:05.777193+00:00",
+      "id": "sig_63618",
+      "timestamp": "2026-04-13T23:34:47.493829+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Institutional activity**: References to institutional capital positioning and ETF developments, but these appear to be",
-      "raw": "**Institutional activity**: References to institutional capital positioning and ETF developments, but these appear to be ongoing trends rather than new announcements.[5]\n\nTo provide the breaking news format you requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need search results containing actual developments from today, April 13, 2026. The current results do not contain confirm",
+      "headline": "HEADLINE:** Trump orders U",
+      "raw": "HEADLINE:** Trump orders U.S. Navy blockade of Strait of Hormuz after Iran ceasefire talks collapse in Pakistan",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by J",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_63646",
+      "timestamp": "2026-04-13T23:34:47.521291+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** - This represents a significant escalation",
+      "raw": "YES** - This represents a significant escalation",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_907524",
-      "timestamp": "2026-04-13T23:32:11.400972+00:00",
+      "id": "sig_69087",
+      "timestamp": "2026-04-13T23:34:52.962716+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Benchmark Interest Rate Steady at 2",
-      "raw": "Bank of Korea Holds Benchmark Interest Rate Steady at 2.5% on April 10, 2026 Amid Inflation Pressures from Iran War and Oil Surge | YES | HIGH confidence** [4][5]\n\nSouth Korea's March 2026 annual inflation rate rose to 2.2% year-over-year, up from 2.0% in prior months but below the 2.4% market forecast, with core inflation easing to 2.2%.[1][3] The Bank of Korea's Monetary Policy Board unanimously",
+      "headline": "New Mexico Republicans Disqualified from U",
+      "raw": "New Mexico Republicans Disqualified from U.S. Senate Race, Forfeiting Seat to Democrat Ben Ray Lujan** | **YES** | **HIGH** confidence[1]\n\nNew Mexico's Secretary of State ruled on Tuesday that Republican candidate Christopher Vanden Heuvel failed to submit enough signatures, marking the first time since 1912 the GOP won't field a Senate candidate, handing the race uncontested to incumbent Democrat",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_79434",
+      "timestamp": "2026-04-13T23:35:03.309527+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Rises to 2",
+      "raw": "South Korea March 2026 Inflation Rises to 2.2% (Trading Economics) or 2.16% (RateInflation), Up from February's 2.0% but Below Forecasts of 2.4% | NO | HIGH confidence** [1][3]\n\nThis data, released around early April 2026 (latest updates post-March), shows a modest monthly uptick in annual CPI inflation amid contained price pressures before global energy volatility from the Iran conflict, yet it u",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Iran strike Iraq by April 30, 2026?",
@@ -46,57 +96,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_894208",
-      "timestamp": "2026-04-13T23:31:58.084817+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO recent breaking news confirmed, announced, or resolved",
-      "raw": "NO recent breaking news confirmed, announced, or resolved.**[1][2][3][4]\n\nSearch results cover the 2022 New Mexico gubernatorial election, where Democrat Michelle Lujan Grisham defeated Republican Mark Ronchetti (52.0% to 45.6%), with Ronchetti winning the GOP primary in June 2022.[1][2][3] No mentions of \"Will Duke Rodriguez\" or any 2026 election developments appear; upcoming elections are schedu",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_901825",
-      "timestamp": "2026-04-13T23:32:05.701550+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Legislative developments**: The Senate Banking Committee's markup of the Clarity Act was referenced as a potential cat",
-      "raw": "**Legislative developments**: The Senate Banking Committee's markup of the Clarity Act was referenced as a potential catalyst, with April 13 mentioned as the Senate's return date in a video published April 8.[4] However, the search results do not confirm whether any vote or action actually occurred today.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_901861",
-      "timestamp": "2026-04-13T23:32:05.737835+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Price action**: XRP traded around $1",
-      "raw": "**Price action**: XRP traded around $1.30-$1.40 as of April 10-11, with technical resistance identified at $1.60.[2][6]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be between $1.60 and $1.70 on April 14",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be greater than $1.80 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 6,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
