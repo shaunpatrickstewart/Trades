@@ -8,229 +8,23 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1863 multi-outcome) at 2026-04-13 11:09 UTC\nBest: 9.95% profit on 'Who will Petr Yan fight next?' \u2014 buy YES on all 14 outcomes (sum=0.9005)\nStrategy: Buy YES on all 14 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)\n2nd: 9.75% on 'AZ-01 Republican Primary Winner'",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1861 multi-outcome) at 2026-04-13 11:18 UTC\nBest: 10.0% profit on '# of seats won by PB in Bulgarian Parliamentary Election?' \u2014 buy YES on all 4 outcomes (sum=0.9)\nStrategy: Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.5% on 'Relay FDV above ___ one day after launch?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 11:09 UTC",
+      "last_scan": "2026-04-13 11:18 UTC",
       "opportunities": [
-        {
-          "event_title": "Who will Petr Yan fight next?",
-          "event_slug": "who-will-petr-yan-fight-next-before-2027",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 14,
-          "outcomes": [
-            {
-              "market_id": "897241",
-              "slug": "will-petr-yan-fight-merab-dvalishvili-next",
-              "question": "Will Petr Yan fight Merab Dvalishvili next?",
-              "yes_price": 0.565,
-              "volume": 57950
-            },
-            {
-              "market_id": "897242",
-              "slug": "will-petr-yan-fight-sean-omalley-next",
-              "question": "Will Petr Yan fight Sean O\u2019Malley next?",
-              "yes_price": 0.2025,
-              "volume": 15312
-            },
-            {
-              "market_id": "897244",
-              "slug": "will-petr-yan-fight-umar-nurmagomedov-next",
-              "question": "Will Petr Yan fight Umar Nurmagomedov next?",
-              "yes_price": 0.067,
-              "volume": 12575
-            },
-            {
-              "market_id": "897250",
-              "slug": "will-petr-yan-fight-payton-talbott-next",
-              "question": "Will Petr Yan fight Payton Talbott next?",
-              "yes_price": 0.013,
-              "volume": 7212
-            },
-            {
-              "market_id": "897253",
-              "slug": "will-petr-yan-fight-alexandre-pantoja-next",
-              "question": "Will Petr Yan fight Alexandre Pantoja next?",
-              "yes_price": 0.0105,
-              "volume": 7199
-            },
-            {
-              "market_id": "897249",
-              "slug": "will-petr-yan-fight-pedro-munhoz-next",
-              "question": "Will Petr Yan fight Pedro Munhoz next?",
-              "yes_price": 0.009,
-              "volume": 5271
-            },
-            {
-              "market_id": "897245",
-              "slug": "will-petr-yan-fight-song-yadong-next",
-              "question": "Will Petr Yan fight Song Yadong next?",
-              "yes_price": 0.005,
-              "volume": 12224
-            },
-            {
-              "market_id": "897248",
-              "slug": "will-petr-yan-fight-ricky-simn-next",
-              "question": "Will Petr Yan fight Ricky Sim\u00f3n next?",
-              "yes_price": 0.005,
-              "volume": 7402
-            },
-            {
-              "market_id": "897251",
-              "slug": "will-petr-yan-fight-dominick-cruz-next",
-              "question": "Will Petr Yan fight Dominick Cruz next?",
-              "yes_price": 0.0045,
-              "volume": 12714
-            },
-            {
-              "market_id": "897243",
-              "slug": "will-petr-yan-fight-cory-sandhagen-next",
-              "question": "Will Petr Yan fight Cory Sandhagen next?",
-              "yes_price": 0.004,
-              "volume": 6864
-            },
-            {
-              "market_id": "897247",
-              "slug": "will-petr-yan-fight-rob-font-next",
-              "question": "Will Petr Yan fight Rob Font next?",
-              "yes_price": 0.004,
-              "volume": 4605
-            },
-            {
-              "market_id": "897254",
-              "slug": "will-petr-yan-fight-alexander-volkanovski-next",
-              "question": "Will Petr Yan fight Alexander Volkanovski next?",
-              "yes_price": 0.004,
-              "volume": 38879
-            },
-            {
-              "market_id": "897246",
-              "slug": "will-petr-yan-fight-deiveson-figueiredo-next",
-              "question": "Will Petr Yan fight Deiveson Figueiredo next?",
-              "yes_price": 0.0035,
-              "volume": 8483
-            },
-            {
-              "market_id": "897252",
-              "slug": "will-petr-yan-fight-henry-cejudo-next",
-              "question": "Will Petr Yan fight Henry Cejudo next?",
-              "yes_price": 0.0035,
-              "volume": 7288
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-petr-yan-fight-next-before-2027",
-          "strategy": "Buy YES on all 14 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
-        },
-        {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.71,
-              "volume": 4746
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.0735,
-              "volume": 8148
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.0555,
-              "volume": 7582
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0155,
-              "volume": 16503
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 3520
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 4221
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
-        },
         {
           "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
           "event_slug": "of-seats-won-by-pb-in-bulgarian-parliamentary-election",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
           "num_outcomes": 4,
           "outcomes": [
             {
               "market_id": "1738484",
               "slug": "will-progressive-bulgaria-pb-win-between-90-94-seats-in-the-2026-bulgarian-parliamentary-election",
               "question": "Will Progressive Bulgaria (PB) win between 90-94 seats in the 2026 Bulgarian par",
-              "yes_price": 0.32,
+              "yes_price": 0.315,
               "volume": 6362
             },
             {
@@ -256,6 +50,46 @@
             }
           ],
           "url": "https://polymarket.com/event/of-seats-won-by-pb-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Relay FDV above ___ one day after launch?",
+          "event_slug": "relay-fdv-above-one-day-after-launch",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1361726",
+              "slug": "relay-fdv-above-300m-one-day-after-launch",
+              "question": "Relay FDV above $300M one day after launch?",
+              "yes_price": 0.335,
+              "volume": 2643
+            },
+            {
+              "market_id": "1361725",
+              "slug": "relay-fdv-above-100m-one-day-after-launch",
+              "question": "Relay FDV above $100M one day after launch?",
+              "yes_price": 0.28,
+              "volume": 17380
+            },
+            {
+              "market_id": "1361727",
+              "slug": "relay-fdv-above-500m-one-day-after-launch",
+              "question": "Relay FDV above $500M one day after launch?",
+              "yes_price": 0.155,
+              "volume": 8602
+            },
+            {
+              "market_id": "1361729",
+              "slug": "relay-fdv-above-700m-one-day-after-launch",
+              "question": "Relay FDV above $700M one day after launch?",
+              "yes_price": 0.135,
+              "volume": 1187
+            }
+          ],
+          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
           "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
@@ -411,6 +245,102 @@
           "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         },
         {
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
+          "yes_sum": 0.907,
+          "profit_pct": 9.3,
+          "profit_per_dollar_pct": 10.25,
+          "num_outcomes": 12,
+          "outcomes": [
+            {
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.715,
+              "volume": 4746
+            },
+            {
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.073,
+              "volume": 8148
+            },
+            {
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.0555,
+              "volume": 7582
+            },
+            {
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0155,
+              "volume": 16503
+            },
+            {
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
+            },
+            {
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 222106
+            },
+            {
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
+            },
+            {
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
+            },
+            {
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 3520
+            },
+            {
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 4221
+            },
+            {
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
+            }
+          ],
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+        },
+        {
           "event_title": "Sabres vs. Blackhawks",
           "event_slug": "nhl-buf-chi-2026-04-13",
           "yes_sum": 0.91,
@@ -423,7 +353,7 @@
               "slug": "nhl-buf-chi-2026-04-13",
               "question": "Sabres vs. Blackhawks",
               "yes_price": 0.655,
-              "volume": 29273
+              "volume": 29291
             },
             {
               "market_id": "1628347",
@@ -496,126 +426,70 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "VA-02 Democratic Primary Winner",
-          "event_slug": "va-02-democratic-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 3,
+          "event_title": "Who will close Warner Bros. acquisition?",
+          "event_slug": "who-will-close-warner-bros-acquisition",
+          "yes_sum": 0.9105,
+          "profit_pct": 8.95,
+          "profit_per_dollar_pct": 9.83,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "704140",
-              "slug": "will-elaine-luria-be-the-democratic-nominee-for-va-02",
-              "question": "Will Elaine Luria be the Democratic nominee for VA-02?",
-              "yes_price": 0.825,
-              "volume": 1102
+              "market_id": "897019",
+              "slug": "will-paramount-close-warner-bros-acquisition",
+              "question": "Will Paramount close Warner Bros acquisition?",
+              "yes_price": 0.72,
+              "volume": 440836
             },
             {
-              "market_id": "704139",
-              "slug": "will-james-osyf-be-the-democratic-nominee-for-va-02",
-              "question": "Will James Osyf be the Democratic nominee for VA-02?",
-              "yes_price": 0.062,
-              "volume": 1097
+              "market_id": "897030",
+              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
+              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
+              "yes_price": 0.165,
+              "volume": 157390
             },
             {
-              "market_id": "704143",
-              "slug": "will-patrick-mosolf-be-the-democratic-nominee-for-va-02",
-              "question": "Will Patrick Mosolf be the Democratic nominee for VA-02?",
-              "yes_price": 0.023,
-              "volume": 1490
+              "market_id": "897017",
+              "slug": "will-netflix-close-warner-bros-acquisition",
+              "question": "Will Netflix close Warner Bros acquisition?",
+              "yes_price": 0.0175,
+              "volume": 219920
+            },
+            {
+              "market_id": "897018",
+              "slug": "will-comcast-close-warner-bros-acquisition",
+              "question": "Will Comcast close Warner Bros acquisition?",
+              "yes_price": 0.008,
+              "volume": 173873
             }
           ],
-          "url": "https://polymarket.com/event/va-02-democratic-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         },
         {
-          "event_title": "Highest temperature in Seattle on April 13?",
-          "event_slug": "highest-temperature-in-seattle-on-april-13-2026",
+          "event_title": "Ella Langley 'Dandelion' First Week Album Sales?",
+          "event_slug": "ella-langley-dandelion-first-week-album-sales",
           "yes_sum": 0.9125,
           "profit_pct": 8.75,
           "profit_per_dollar_pct": 9.59,
-          "num_outcomes": 11,
+          "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1924402",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-54-55f",
-              "question": "Will the highest temperature in Seattle be between 54-55\u00b0F on April 13?",
-              "yes_price": 0.43,
-              "volume": 5174
+              "market_id": "1911977",
+              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-at-least-140k",
+              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be at least 140k?",
+              "yes_price": 0.91,
+              "volume": 14310
             },
             {
-              "market_id": "1924401",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-52-53f",
-              "question": "Will the highest temperature in Seattle be between 52-53\u00b0F on April 13?",
-              "yes_price": 0.235,
-              "volume": 3602
-            },
-            {
-              "market_id": "1924403",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-56-57f",
-              "question": "Will the highest temperature in Seattle be between 56-57\u00b0F on April 13?",
-              "yes_price": 0.18,
-              "volume": 4216
-            },
-            {
-              "market_id": "1924404",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-58-59f",
-              "question": "Will the highest temperature in Seattle be between 58-59\u00b0F on April 13?",
-              "yes_price": 0.0295,
-              "volume": 4210
-            },
-            {
-              "market_id": "1924400",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-50-51f",
-              "question": "Will the highest temperature in Seattle be between 50-51\u00b0F on April 13?",
-              "yes_price": 0.0185,
-              "volume": 5165
-            },
-            {
-              "market_id": "1924399",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-48-49f",
-              "question": "Will the highest temperature in Seattle be between 48-49\u00b0F on April 13?",
-              "yes_price": 0.007,
-              "volume": 3471
-            },
-            {
-              "market_id": "1924405",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-60-61f",
-              "question": "Will the highest temperature in Seattle be between 60-61\u00b0F on April 13?",
-              "yes_price": 0.007,
-              "volume": 2660
-            },
-            {
-              "market_id": "1924406",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-62-63f",
-              "question": "Will the highest temperature in Seattle be between 62-63\u00b0F on April 13?",
-              "yes_price": 0.005,
-              "volume": 2528
-            },
-            {
-              "market_id": "1924407",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-64forhigher",
-              "question": "Will the highest temperature in Seattle be 64\u00b0F or higher on April 13?",
-              "yes_price": 0.0005,
-              "volume": 2018
-            },
-            {
-              "market_id": "1924397",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-45forbelow",
-              "question": "Will the highest temperature in Seattle be 45\u00b0F or below on April 13?",
-              "yes_price": 0.0,
-              "volume": 11054
-            },
-            {
-              "market_id": "1924398",
-              "slug": "highest-temperature-in-seattle-on-april-13-2026-46-47f",
-              "question": "Will the highest temperature in Seattle be between 46-47\u00b0F on April 13?",
-              "yes_price": 0.0,
-              "volume": 1252
+              "market_id": "1911972",
+              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-less-than-60k",
+              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be less than 60k?",
+              "yes_price": 0.0025,
+              "volume": 1824
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-seattle-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
+          "url": "https://polymarket.com/event/ella-langley-dandelion-first-week-album-sales",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9125. One wins $1.00. Profit: $0.0875 (8.75%)"
         },
         {
           "event_title": "Montana Senate Election Winner",
@@ -646,11 +520,11 @@
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1863,
-        "skipped_single_outcome": 633,
-        "opportunities_found": 139,
-        "best_profit_pct": 9.95,
-        "scanned_at": "2026-04-13 11:09 UTC"
+        "checked_multi_outcome": 1861,
+        "skipped_single_outcome": 639,
+        "opportunities_found": 137,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-13 11:18 UTC"
       }
     },
     {
