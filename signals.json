@@ -1,129 +1,65 @@
 {
-  "last_scan": "2026-04-13T14:10:57.562233+00:00",
-  "scan_seconds": 27.4,
-  "markets_scanned": 105,
-  "open_positions": 74,
+  "last_scan": "2026-04-13T14:43:13.920728+00:00",
+  "scan_seconds": 38.1,
+  "markets_scanned": 65,
+  "open_positions": 42,
   "signals": [
     {
-      "id": "sig_213459",
-      "timestamp": "2026-04-13T14:10:37.368272+00:00",
+      "id": "sig_155011",
+      "timestamp": "2026-04-13T14:42:58.918083+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Confirms US-Iran Ceasefire 'Holding Well' Despite Failed Talks and Imminent Strait of Hormuz Blockade** | **NO** |",
-      "raw": "Trump Confirms US-Iran Ceasefire 'Holding Well' Despite Failed Talks and Imminent Strait of Hormuz Blockade** | **NO** | **HIGH** confidence[1][2]\n\nPresident Trump stated today that the two-week US-Iran ceasefire, effective since April 7, 2026, is \"holding well,\" even as Islamabad negotiations collapsed over Iran's uranium enrichment, proxy funding, and Strait tolls[1][2][5]. He announced a US Nav",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "Republican Jim Ellison launches 2026 New Mexico gubernatorial bid, joining GOP field including Duke Rodriguez amid term-",
+      "raw": "Republican Jim Ellison launches 2026 New Mexico gubernatorial bid, joining GOP field including Duke Rodriguez amid term-limited Democratic Gov. Michelle Lujan Grisham** | NO | HIGH confidence[1]\n\nNo confirmed White House announcements, Vance involvement, or resolutions tied to New Mexico governor race in latest reports; Ellison's launch (announced Tuesday) adds to existing Republican candidates li",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by J",
-        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
+        "Will the Republican Party win the AK-AL House seat?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_226046",
-      "timestamp": "2026-04-13T14:10:49.955161+00:00",
+      "id": "sig_169012",
+      "timestamp": "2026-04-13T14:43:12.919672+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Social Sentiment Hits Pre-2025 Rally Lows | YES | MED confidence**",
-      "raw": "ETH Social Sentiment Hits Pre-2025 Rally Lows | YES | MED confidence**  \nSantiment analyst Brian Quinlivan confirmed ETH social sentiment has reset to levels matching the pre-2025 rally (from $1,470 to $4,900, +233%), suggesting potential repeat upside as contrarian positioning builds.[3]  \n\nNo breaking confirmations today (April 13) on Solana or April-specific Ethereum events; recent ETH price st",
+      "headline": "OKC Thunder Clinch #1 Overall Seed with 64-18 Record, Rest Key Players Including SGA Ahead of Playoffs | YES | HIGH conf",
+      "raw": "OKC Thunder Clinch #1 Overall Seed with 64-18 Record, Rest Key Players Including SGA Ahead of Playoffs | YES | HIGH confidence** [1][2][3]\n\nThe Oklahoma City Thunder have ended the 2025-26 regular season as the top seed in the NBA playoffs (64-18 record), securing home-court advantage throughout the postseason and sitting stars like Shai Gilgeous-Alexander in their final games for playoff prep[1][",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 13?",
-        "Will the price of Ethereum be above $2,000 on April 13?",
-        "Will Ethereum dip to $1,900 on April 13?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_232652",
-      "timestamp": "2026-04-13T14:10:56.561167+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder Clinch #1 Overall NBA Seed at 64-18, Ending Regular Season with Playoffs Starting April 19 | YES | HIGH conf",
-      "raw": "OKC Thunder Clinch #1 Overall NBA Seed at 64-18, Ending Regular Season with Playoffs Starting April 19 | YES | HIGH confidence** [2][3]\n\nThe Oklahoma City Thunder have **confirmed** their league-best 64-18 record and top seed after the regular season finale, despite a 135-103 loss to the Phoenix Suns; this secures homecourt advantage throughout the playoffs beginning Sunday, April 19, potentially ",
-      "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will Arvell Reese be the third pick in the 2026 NFL draft?",
         "Will David Bailey be the second pick in the 2026 NFL draft?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_219580",
-      "timestamp": "2026-04-13T14:10:43.489893+00:00",
+      "id": "sig_161666",
+      "timestamp": "2026-04-13T14:43:05.573843+00:00",
       "source": "PERPLEXITY",
-      "headline": "New Mexico Republican leaders responded positively to Democratic Governor Michelle Luj\u00e1n Grisham's 2026 State of the Sta",
-      "raw": "New Mexico Republican leaders responded positively to Democratic Governor Michelle Luj\u00e1n Grisham's 2026 State of the State address (likely early 2026), agreeing on priorities like juvenile crime and transportation; no Vance or White House involvement[2].",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the Republican Party win the AK-AL House seat?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_219573",
-      "timestamp": "2026-04-13T14:10:43.482182+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Vice President JD Vance (Republican) held the first meeting of a new White House anti-fraud task force on March 27, 2026",
-      "raw": "Vice President JD Vance (Republican) held the first meeting of a new White House anti-fraud task force on March 27, 2026, targeting benefit programs like Medicaid; no New Mexico link[1].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the Republican Party win the AK-AL House seat?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_219589",
-      "timestamp": "2026-04-13T14:10:43.498201+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Other Vance-related items include April 1 tensions with Rubio on Iran policy[3], April 10 departure for Pakistan-Iran ce",
-      "raw": "Other Vance-related items include April 1 tensions with Rubio on Iran policy[3], April 10 departure for Pakistan-Iran ceasefire talks[4], and an undated Michigan defense of gas prices amid Iran war[5]; none connect to New Mexico Republicans or governor.\n\nNo results indicate fresh confirmations (e.g., endorsements, policy shifts, or resolutions) that would impact prediction markets like election od",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_226036",
-      "timestamp": "2026-04-13T14:10:49.945297+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Grayscale Ethereum Staking ETF Launches on NYSE Arca with $120M Inflows | YES | HIGH confidence**",
-      "raw": "Grayscale Ethereum Staking ETF Launches on NYSE Arca with $120M Inflows | YES | HIGH confidence**  \nGrayscale's Ethereum Staking ETF launched on NYSE Arca on April 6, 2026, introducing first-of-its-kind delayed delivery liquidity for staked assets and drawing $120 million in inflows on April 7\u2014the quarter's strongest single-day figure\u2014signaling robust institutional demand amid ETH's price pullback",
+      "headline": "Polymarket Reveals April Price Expectations for BTC, SOL, XRP Amid Mixed Investor Sentiment | NO | MED confidence**",
+      "raw": "Polymarket Reveals April Price Expectations for BTC, SOL, XRP Amid Mixed Investor Sentiment | NO | MED confidence**\n\nNo major breaking confirmations, announcements, or resolutions today directly impacting prediction markets for XRP, Bitcoin, or Solana\u2014recent Polymarket data from early April shows ongoing trader bets on April prices, but these are expectations, not resolved events[1][5]. For **Sola",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Will the price of Solana be above $90 on April 13?",
-        "Will the price of Ethereum be above $2,000 on April 13?",
-        "Will Ethereum dip to $1,900 on April 13?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by J",
+        "Will the price of XRP be above $1.70 on April 15?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 0,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 0
   }
 }
