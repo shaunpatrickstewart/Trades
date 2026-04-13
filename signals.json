@@ -1,159 +1,183 @@
 {
-  "last_scan": "2026-04-13T00:12:14.721907+00:00",
-  "scan_seconds": 62.1,
-  "markets_scanned": 45,
+  "last_scan": "2026-04-13T00:19:08.078269+00:00",
+  "scan_seconds": 54.8,
+  "markets_scanned": 43,
   "open_positions": 17,
   "signals": [
     {
-      "id": "sig_870897",
-      "timestamp": "2026-04-13T00:11:34.857302+00:00",
+      "id": "sig_283124",
+      "timestamp": "2026-04-13T00:18:27.083925+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news from today (April 13, 2026) that has just been confirmed",
-      "raw": "Based on the search results provided, there is no breaking news from today (April 13, 2026) that has just been confirmed or announced. The most recent content in the search results is from April 11, 2026, which discusses playoff positioning strategy rather than a confirmed announcement.\n\nThe April 11 content indicates that the **Oklahoma City Thunder have secured the 1-seed** and the best record i",
+      "headline": "VP Vance broke a Senate tie to block a war powers resolution after two Republicans flipped (recent, undated)",
+      "raw": "VP Vance broke a Senate tie to block a war powers resolution after two Republicans flipped (recent, undated).[5]\n\nNo mentions of Truth Social posts, New Mexico, or any Republican governor; no events from today or immediate hours prior confirmed to impact prediction markets like election odds or policy bets.[1][2][3][5]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "2026 Balance of Power: R Senate, D House"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_878016",
-      "timestamp": "2026-04-13T00:11:41.976772+00:00",
+      "id": "sig_290526",
+      "timestamp": "2026-04-13T00:18:34.485493+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market at 94% Odds for Ending by Dec 31 | NO (No whale bets or tips reported) | HIGH confidenc",
-      "raw": "Iran x Israel/US Conflict Market at 94% Odds for Ending by Dec 31 | NO (No whale bets or tips reported) | HIGH confidence**  \nPolymarket's most active X-related market assigns a **94% probability** to the Iran-Israel/US conflict ending by December 31, with high trading volume, reflecting strong trader consensus on de-escalation amid potential unreported developments[1]. No direct X posts on whale ",
+      "headline": "Based on the search results provided, there is **no breaking news** that has just been confirmed, announced, or resolved",
+      "raw": "Based on the search results provided, there is **no breaking news** that has just been confirmed, announced, or resolved as of April 13, 2026.\n\nThe most recent information in the search results dates to April 10, 2026, which reported Ethereum trading at $2,217.74[2]. The search results contain price updates and technical analysis from early-to-mid April 2026, but they do not document any new annou",
       "direction": "NO",
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,200 on April 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_282956",
+      "timestamp": "2026-04-13T00:18:26.915285+00:00",
+      "source": "PERPLEXITY",
+      "headline": "President Trump appointed VP JD Vance to lead a nationwide fraud crackdown, with raids underway in Los Angeles (targetin",
+      "raw": "President Trump appointed VP JD Vance to lead a nationwide fraud crackdown, with raids underway in Los Angeles (targeting states like California), announced April 3, 2026.[2]",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_858344",
-      "timestamp": "2026-04-13T00:11:22.304772+00:00",
+      "id": "sig_283032",
+      "timestamp": "2026-04-13T00:18:26.991933+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH**",
-      "raw": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH**",
-      "direction": "YES",
+      "headline": "Trump stated Vance is likely favored for the 2028 Republican nomination, per a Fox News interview (date unspecified, but",
+      "raw": "Trump stated Vance is likely favored for the 2028 Republican nomination, per a Fox News interview (date unspecified, but contextually recent).[3]",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_277101",
+      "timestamp": "2026-04-13T00:18:21.060483+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran ceasefire talks in Islamabad end without agreement after 21 hours, ceasefire holds with expiration on April 22 |",
+      "raw": "US-Iran ceasefire talks in Islamabad end without agreement after 21 hours, ceasefire holds with expiration on April 22 | NO | HIGH confidence** [1][2][3][5]\n\nU.S. Vice President JD Vance confirmed the marathon direct talks collapsed due to Iran's refusal to commit to abandoning its nuclear path, while Iran blamed excessive U.S. demands; neither side signaled escalation yet, but President Trump ann",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?",
+        "US-Iran nuclear deal by April 30?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_878045",
-      "timestamp": "2026-04-13T00:11:42.005357+00:00",
+      "id": "sig_283086",
+      "timestamp": "2026-04-13T00:18:27.045459+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Surge with $8M+ Volume on April 7-14 Range | NO (No confirmed resolutions or tips) | HIGH",
-      "raw": "Elon Musk Tweet Count Markets Surge with $8M+ Volume on April 7-14 Range | NO (No confirmed resolutions or tips) | HIGH confidence**  \nThe top-traded market predicts Elon Musk's tweet count for April 7-14, 2026, at **29% for 320-339 tweets** ($8M volume, $3M today), with new markets launching for April 13-15 (e.g., 37% for 65-89)[3][6]. High liquidity ($1M+) indicates active speculation, but no X ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_878079",
-      "timestamp": "2026-04-13T00:11:42.039425+00:00",
-      "source": "PERPLEXITY",
-      "headline": "X Platform Developments: \ud835\udd4f Money Launch by April 30 at 43% Odds | NO (No announcements or whale activity) | MED confiden",
-      "raw": "X Platform Developments: \ud835\udd4f Money Launch by April 30 at 43% Odds | NO (No announcements or whale activity) | MED confidence**  \nTraders price **43% chance** of \ud835\udd4f Money launching by April 30 ($29.6K volume), alongside niche bets like Nikita Bier exiting as Head of Product by June 30 and X stablecoin in 2026 (19%)[1]. No confirmed announcements or resolutions impacting these; lower volume suggests le",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_910632",
-      "timestamp": "2026-04-13T00:12:14.592968+00:00",
-      "source": "X_GROK",
-      "headline": "NBA Whales Heavy on Jazz-Lakers Over 236",
-      "raw": "NBA Whales Heavy on Jazz-Lakers Over 236.5**: Multiple whales bet $86k, $87k, $126k on Over at 55-57%. Implies YES Over. Confidence: MED[[1]](https://x.com/i/status/2043481203924201889)[[2]](https://x.com/i/status/2043481190343074209)[[3]](https://x.com/i/status/2043479911231365285)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043481203924201889)[[2]](https://x.com/i/status/2043481190343074209)[[3]](https://x.com/i/status/2043479911231365285)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_910670",
-      "timestamp": "2026-04-13T00:12:14.630285+00:00",
-      "source": "X_GROK",
-      "headline": "Celtics Win vs Magic**: $61k whale bet on Celtics at 83%",
-      "raw": "Celtics Win vs Magic**: $61k whale bet on Celtics at 83%. Implies YES Celtics win. Confidence: MED[[4]](https://x.com/i/status/2043479897629143308)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043479897629143308)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_910694",
-      "timestamp": "2026-04-13T00:12:14.654525+00:00",
-      "source": "X_GROK",
-      "headline": "Warriors Upset Clippers**: $197k whale on Warriors at 37%",
-      "raw": "Warriors Upset Clippers**: $197k whale on Warriors at 37%. Contrarian smart money. Implies YES Warriors. Confidence: LOW[[5]](https://x.com/i/status/2043473544449839412)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043473544449839412)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_910711",
-      "timestamp": "2026-04-13T00:12:14.672007+00:00",
-      "source": "X_GROK",
-      "headline": "Iran Peace Deal Low Odds**: Whales buy No on US-Iran deal by Apr 22 ($12k @92\u00a2), meeting by Apr10 ($5k @95\u00a2)",
-      "raw": "Iran Peace Deal Low Odds**: Whales buy No on US-Iran deal by Apr 22 ($12k @92\u00a2), meeting by Apr10 ($5k @95\u00a2). Implies NO deal amid blockade news. Confidence: HIGH[[6]](https://x.com/i/status/2043479322933985358)[[7]](https://x.com/i/status/2043480755473432887)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043479322933985358)[[7]](https://x.com/i/status/2043480755473432887)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_910730",
-      "timestamp": "2026-04-13T00:12:14.690757+00:00",
-      "source": "X_GROK",
-      "headline": "Oil Spike, No $170 High**: Post +10% surge to $105, whales bet No on WTI $170 ($5k @97\u00a2)",
-      "raw": "Oil Spike, No $170 High**: Post +10% surge to $105, whales bet No on WTI $170 ($5k @97\u00a2). Implies NO extreme high. Confidence: MED[[8]](https://x.com/i/status/2043479674605478344)[[9]](https://x.com/i/status/2043450305870762115)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043479674605478344)[[9]](https://x.com/i/status/2043450305870762115)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_910758",
-      "timestamp": "2026-04-13T00:12:14.718890+00:00",
-      "source": "X_GROK",
-      "headline": "Tips Trending**: Fade 88-95\u00a2 favorites (e",
-      "raw": "Tips Trending**: Fade 88-95\u00a2 favorites (e.g. copy @swisstony $500\u2192$6M); arb news lags; G7 econ data mispricings; hedge BTC tails.[[10]](https://x.com/i/status/2043351708471001358)[[11]](https://x.com/i/status/2043391435437678896)",
+      "headline": "California Governor Gavin Newsom (Democrat) trolled Trump and Vance with memes and nicknames like \"TACO Trump\" and \"Just",
+      "raw": "California Governor Gavin Newsom (Democrat) trolled Trump and Vance with memes and nicknames like \"TACO Trump\" and \"Just Dance Vance\" on social media, dated August 20, 2025.[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043351708471001358)[[11]](https://x.com/i/status/2043391435437678896)",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_290550",
+      "timestamp": "2026-04-13T00:18:34.509703+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ETHEREUM BREAKING NEWS (April 13, 2026)** | NO | LOW confidence",
+      "raw": "ETHEREUM BREAKING NEWS (April 13, 2026)** | NO | LOW confidence\n\nThe search results do not contain actionable breaking news from the current timeframe.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,200 on April 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_323892",
+      "timestamp": "2026-04-13T00:19:07.851620+00:00",
+      "source": "X_GROK",
+      "headline": "Polymarket Sports Whales Active:** Elkmonke dumped $817k buying Magic win (83% odds) vs Celtics; F-grade trader signals",
+      "raw": "Polymarket Sports Whales Active:** Elkmonke dumped $817k buying Magic win (83% odds) vs Celtics; F-grade trader signals potential overconfidence\u2014consider fading YES (Magic). Confidence: LOW.[[1]](https://x.com/i/status/2043475345962152418)[[2]](https://x.com/i/status/2043437944837394606)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043475345962152418)[[2]](https://x.com/i/status/2043437944837394606)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_323929",
+      "timestamp": "2026-04-13T00:19:07.888452+00:00",
+      "source": "X_GROK",
+      "headline": "Oil Surge Skepticism:** Top 10% traders net selling NO on WTI >$120 April (44%); one whale holds 43% NO shares amid flow",
+      "raw": "Oil Surge Skepticism:** Top 10% traders net selling NO on WTI >$120 April (44%); one whale holds 43% NO shares amid flow imbalance. Smart money bets NO oil spike imminent. Confidence: MED.[[3]](https://x.com/i/status/2043459013300347182)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043459013300347182)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_323970",
+      "timestamp": "2026-04-13T00:19:07.929938+00:00",
+      "source": "X_GROK",
+      "headline": "BTC 5-Min Scalps Trending:** New trader +$49k sniping mispriced UP/DOWN windows (24-62\u00a2 entries on momentum edges)",
+      "raw": "BTC 5-Min Scalps Trending:** New trader +$49k sniping mispriced UP/DOWN windows (24-62\u00a2 entries on momentum edges). Tip: Buy directional bias pre-open. Multiple wins signal YES on fast BTC moves. Confidence: MED.[[4]](https://x.com/i/status/2043374481947656435)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043374481947656435)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_324016",
+      "timestamp": "2026-04-13T00:19:07.975336+00:00",
+      "source": "X_GROK",
+      "headline": "Fade High-Prob Traps:** Chatter on betting NO 88-95\u00a2 \"sure things\" (true prob ~75-80%); weather NOAA arb (buy <1\u00a2 events",
+      "raw": "Fade High-Prob Traps:** Chatter on betting NO 88-95\u00a2 \"sure things\" (true prob ~75-80%); weather NOAA arb (buy <1\u00a2 events); G7 econ data gaps (8-16% vs consensus). YES on underdogs/misprices. Confidence: HIGH.[[5]](https://x.com/i/status/2043250873422303530)[[6]](https://x.com/i/status/2043391435437678896)[[7]](https://x.com/i/status/2043351708471001358)[[8]](https://x.com/i/status/2043304087496613",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043250873422303530)[[6]](https://x.com/i/status/2043391435437678896)[[7]](https://x.com/i/status/2043351708471001358)[[8]](https://x.com/i/status/2043304087496613993)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_324118",
+      "timestamp": "2026-04-13T00:19:08.077143+00:00",
+      "source": "X_GROK",
+      "headline": "World Cup 2026 Alpha:** Top 7 teams undervalued (122% APR YES bets); $612M liq",
+      "raw": "World Cup 2026 Alpha:** Top 7 teams undervalued (122% APR YES bets); $612M liq. Imminent qualifiers? Load YES contenders. Confidence: LOW (long-term).[[9]](https://x.com/i/status/2043448239395885483)\n\nNo major politics/crypto whales; focus sports/oil sniping. Watch headline lags for arb.[[10]](https://x.com/i/status/2043335548211806455)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043448239395885483)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 2,
     "alert": 10,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
