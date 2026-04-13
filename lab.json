@@ -8,101 +8,214 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 134 categorical arb opportunities found\nScanned 3000 events (1873 multi-outcome) at 2026-04-13 13:31 UTC\nBest: 9.85% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.9015)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)\n2nd: 9.8% on 'ME-02 Democratic Primary Winner'",
+      "result": "LIVE \u2014 132 categorical arb opportunities found\nScanned 3000 events (1889 multi-outcome) at 2026-04-13 14:02 UTC\nBest: 10.0% profit on 'Michigan Governor Election Winner' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'What will S&P 500 (SPX) close at end of 2026?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 13:31 UTC",
+      "last_scan": "2026-04-13 14:02 UTC",
       "opportunities": [
+        {
+          "event_title": "Michigan Governor Election Winner",
+          "event_slug": "michigan-governor-winner-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "629464",
+              "slug": "will-the-democrats-win-the-michigan-governor-race-in-2026",
+              "question": "Will the Democrats win the Michigan governor race in 2026?",
+              "yes_price": 0.665,
+              "volume": 35726
+            },
+            {
+              "market_id": "629465",
+              "slug": "will-the-republicans-win-the-michigan-governor-race-in-2026",
+              "question": "Will the Republicans win the Michigan governor race in 2026?",
+              "yes_price": 0.235,
+              "volume": 137585
+            }
+          ],
+          "url": "https://polymarket.com/event/michigan-governor-winner-2026",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "What will S&P 500 (SPX) close at end of 2026?",
+          "event_slug": "spx-close-dec-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1125397",
+              "slug": "spx-close-below-6000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at <$6,000 in December?",
+              "yes_price": 0.365,
+              "volume": 11537
+            },
+            {
+              "market_id": "1125398",
+              "slug": "spx-close-6000-6500-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,000-$6,500 in December?",
+              "yes_price": 0.195,
+              "volume": 1206
+            },
+            {
+              "market_id": "1125399",
+              "slug": "spx-close-6500-7000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $6,500-$7,000 in December?",
+              "yes_price": 0.145,
+              "volume": 1373
+            },
+            {
+              "market_id": "1125404",
+              "slug": "spx-close-above-8000-dec-2026-362-989-862",
+              "question": "Will S&P 500 (SPX) close at >$8,000 in December?",
+              "yes_price": 0.115,
+              "volume": 1767
+            },
+            {
+              "market_id": "1126565",
+              "slug": "spx-close-7500-8000-dec-2026",
+              "question": "Will S&P 500 (SPX) close at $7,500-$8,000 in December?",
+              "yes_price": 0.08,
+              "volume": 1570
+            }
+          ],
+          "url": "https://polymarket.com/event/spx-close-dec-2026",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Who will be UFC Light Heavyweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1090072",
+              "slug": "will-carlos-ulberg-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Carlos Ulberg be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.54,
+              "volume": 2200
+            },
+            {
+              "market_id": "1090078",
+              "slug": "will-dominick-reyes-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Dominick Reyes be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.1725,
+              "volume": 6452
+            },
+            {
+              "market_id": "1090069",
+              "slug": "will-alex-pereira-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Alex Pereira be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.135,
+              "volume": 3209
+            },
+            {
+              "market_id": "1090070",
+              "slug": "will-ji-prochzka-be-the-ufc-light-heavyweight-champion-on-december-31-2026",
+              "question": "Will Ji\u0159\u00ed Proch\u00e1zka be the UFC Light Heavyweight Champion on December 31, 2026?",
+              "yes_price": 0.0525,
+              "volume": 2560
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-light-heavyweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
         {
           "event_title": "Presidential Election Winner 2028",
           "event_slug": "presidential-election-winner-2028",
-          "yes_sum": 0.9015,
-          "profit_pct": 9.85,
-          "profit_per_dollar_pct": 10.93,
+          "yes_sum": 0.9005,
+          "profit_pct": 9.95,
+          "profit_per_dollar_pct": 11.05,
           "num_outcomes": 36,
           "outcomes": [
             {
               "market_id": "561229",
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.188,
-              "volume": 10155221
+              "yes_price": 0.1875,
+              "volume": 10156076
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1675,
-              "volume": 13953801
+              "yes_price": 0.168,
+              "volume": 13971747
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.098,
-              "volume": 6333106
+              "volume": 6333147
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.055,
-              "volume": 10878113
+              "yes_price": 0.0545,
+              "volume": 10878351
             },
             {
               "market_id": "561261",
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0425,
-              "volume": 3444901
+              "volume": 3445219
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0325,
-              "volume": 6974271
+              "volume": 6974794
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.027,
-              "volume": 9876691
+              "volume": 9876838
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5786503
+              "volume": 5786548
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 6938288
+              "volume": 6938464
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0175,
-              "volume": 8706585
+              "yes_price": 0.017,
+              "volume": 8709389
             },
             {
               "market_id": "561232",
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3847560
+              "volume": 3847689
             },
             {
               "market_id": "561252",
               "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
               "yes_price": 0.0135,
-              "volume": 6169540
+              "volume": 6169680
             },
             {
               "market_id": "561237",
@@ -123,7 +236,7 @@
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.0115,
-              "volume": 10843936
+              "volume": 10844574
             },
             {
               "market_id": "561260",
@@ -144,7 +257,7 @@
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22683978
+              "volume": 22684340
             },
             {
               "market_id": "561236",
@@ -158,7 +271,7 @@
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31881953
+              "volume": 31883045
             },
             {
               "market_id": "561258",
@@ -172,7 +285,7 @@
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4576825
+              "volume": 4577785
             },
             {
               "market_id": "561257",
@@ -186,505 +299,109 @@
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 7125678
+              "volume": 7126552
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29633074
+              "volume": 29633716
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9241935
+              "volume": 9242459
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 22130414
+              "volume": 22131145
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17618949
+              "volume": 17619569
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6624775
+              "volume": 6625522
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39558377
+              "volume": 39559729
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6523620
+              "volume": 6524520
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28237703
+              "volume": 28238949
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4467278
+              "volume": 4467820
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 31034199
+              "volume": 31035018
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32773786
+              "volume": 32774741
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46399189
+              "volume": 46404558
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
-        },
-        {
-          "event_title": "ME-02 Democratic Primary Winner",
-          "event_slug": "who-will-be-the-democratic-nominee-for-me-02",
-          "yes_sum": 0.902,
-          "profit_pct": 9.8,
-          "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "703948",
-              "slug": "will-joe-baldacci-be-the-democratic-nominee-for-me-02",
-              "question": "Will Joe Baldacci be the Democratic nominee for ME-02?",
-              "yes_price": 0.42,
-              "volume": 3205
-            },
-            {
-              "market_id": "703947",
-              "slug": "will-matthew-dunlap-be-the-democratic-nominee-for-me-02",
-              "question": "Will Matthew Dunlap be the Democratic nominee for ME-02?",
-              "yes_price": 0.245,
-              "volume": 2849
-            },
-            {
-              "market_id": "703949",
-              "slug": "will-jordan-wood-be-the-democratic-nominee-for-me-02",
-              "question": "Will Jordan Wood be the Democratic nominee for ME-02?",
-              "yes_price": 0.23,
-              "volume": 1749
-            },
-            {
-              "market_id": "703946",
-              "slug": "will-jared-golden-be-the-democratic-nominee-for-me-02",
-              "question": "Will Jared Golden be the Democratic nominee for ME-02?",
-              "yes_price": 0.007,
-              "volume": 2253
-            }
-          ],
-          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-me-02",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "2026 NHL Draft: 1st Overall Pick",
-          "event_slug": "2026-nhl-draft-1st-overall-pick-349",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 26,
-          "outcomes": [
-            {
-              "market_id": "1343556",
-              "slug": "will-gavin-mckenna-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Gavin McKenna be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.69,
-              "volume": 10820
-            },
-            {
-              "market_id": "1343585",
-              "slug": "will-brooks-rogowski-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Brooks Rogowski be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0925,
-              "volume": 4325
-            },
-            {
-              "market_id": "1343557",
-              "slug": "will-ivar-stenberg-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Ivar Stenberg be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.088,
-              "volume": 4421
-            },
-            {
-              "market_id": "1343558",
-              "slug": "will-keaton-verhoeff-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Keaton Verhoeff be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.012,
-              "volume": 3447
-            },
-            {
-              "market_id": "1343605",
-              "slug": "will-mikey-berchild-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Mikey Berchild be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.007,
-              "volume": 1382
-            },
-            {
-              "market_id": "1343564",
-              "slug": "will-ethan-belchetz-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Ethan Belchetz be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0015,
-              "volume": 1903
-            },
-            {
-              "market_id": "1343579",
-              "slug": "will-ilya-morozov-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Ilya Morozov be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0015,
-              "volume": 1916
-            },
-            {
-              "market_id": "1343588",
-              "slug": "will-alexander-command-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Alexander Command be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0015,
-              "volume": 2972
-            },
-            {
-              "market_id": "1343569",
-              "slug": "will-oliver-suvanto-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Oliver Suvanto be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.001,
-              "volume": 1400
-            },
-            {
-              "market_id": "1343572",
-              "slug": "will-malte-gustafsson-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Malte Gustafsson be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.001,
-              "volume": 1300
-            },
-            {
-              "market_id": "1343583",
-              "slug": "will-maddox-dagenais-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Maddox Dagenais be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.001,
-              "volume": 31780
-            },
-            {
-              "market_id": "1343560",
-              "slug": "will-chase-reid-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Chase Reid be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 2150
-            },
-            {
-              "market_id": "1343562",
-              "slug": "will-carson-carels-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Carson Carels be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 4180
-            },
-            {
-              "market_id": "1343565",
-              "slug": "will-viggo-bjrck-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Viggo Bj\u00f6rck be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 4123
-            },
-            {
-              "market_id": "1343567",
-              "slug": "will-daxon-rudolph-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Daxon Rudolph be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1811
-            },
-            {
-              "market_id": "1343573",
-              "slug": "will-mathis-preston-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Mathis Preston be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 2916
-            },
-            {
-              "market_id": "1343587",
-              "slug": "will-jack-hextall-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Jack Hextall be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 2127
-            },
-            {
-              "market_id": "1343589",
-              "slug": "will-niklas-aaram-olsen-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Niklas Aaram-Olsen be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1678
-            },
-            {
-              "market_id": "1343592",
-              "slug": "will-wyatt-cullen-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Wyatt Cullen be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1957
-            },
-            {
-              "market_id": "1343593",
-              "slug": "will-alessandro-di-iorio-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Alessandro Di Iorio be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1472
-            },
-            {
-              "market_id": "1343594",
-              "slug": "will-giorgos-pantelas-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Giorgos Pantelas be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 2079
-            },
-            {
-              "market_id": "1343596",
-              "slug": "will-adam-goljer-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Adam Goljer be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1550
-            },
-            {
-              "market_id": "1343599",
-              "slug": "will-liam-ruck-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Liam Ruck be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1585
-            },
-            {
-              "market_id": "1343601",
-              "slug": "will-adam-nemec-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Adam Nemec be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 3794
-            },
-            {
-              "market_id": "1343561",
-              "slug": "will-alberts-smits-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Alberts Smits be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1377
-            },
-            {
-              "market_id": "1343568",
-              "slug": "will-xavier-villeneuve-be-drafted-1st-overall-in-the-2026-nhl-draft",
-              "question": "Will Xavier Villeneuve be drafted 1st overall in the 2026 NHL Draft?",
-              "yes_price": 0.0005,
-              "volume": 1656
-            }
-          ],
-          "url": "https://polymarket.com/event/2026-nhl-draft-1st-overall-pick-349",
-          "strategy": "Buy YES on all 26 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "LA-05 Republican Primary Winner",
-          "event_slug": "la-05-republican-primary-winner",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1731841",
-              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
-              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
-              "yes_price": 0.83,
-              "volume": 15059
-            },
-            {
-              "market_id": "1731837",
-              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
-              "question": "Will Michael Echols be the Republican nominee for LA-05?",
-              "yes_price": 0.0445,
-              "volume": 8194
-            },
-            {
-              "market_id": "1731842",
-              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
-              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
-              "yes_price": 0.03,
-              "volume": 5125
-            }
-          ],
-          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 12,
-          "outcomes": [
-            {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.71,
-              "volume": 4746
-            },
-            {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.075,
-              "volume": 8148
-            },
-            {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.0555,
-              "volume": 7582
-            },
-            {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0155,
-              "volume": 16503
-            },
-            {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
-            },
-            {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0055,
-              "volume": 4221
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 3520
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
-            }
-          ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "SC-01 Republican Primary Winner",
-          "event_slug": "sc-01-republican-primary-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "960229",
-              "slug": "will-mark-smith-be-the-republican-nominee-for-sc-01",
-              "question": "Will Mark Smith be the Republican Nominee for SC-01?",
-              "yes_price": 0.38,
-              "volume": 1747
-            },
-            {
-              "market_id": "960228",
-              "slug": "will-alex-pelbath-be-the-republican-nominee-for-sc-01",
-              "question": "Will Alex Pelbath be the Republican Nominee for SC-01?",
-              "yes_price": 0.29,
-              "volume": 1441
-            },
-            {
-              "market_id": "960226",
-              "slug": "will-sam-mccown-be-the-republican-nominee-for-sc-01",
-              "question": "Will Sam McCown be the Republican Nominee for SC-01?",
-              "yes_price": 0.235,
-              "volume": 1019
-            }
-          ],
-          "url": "https://polymarket.com/event/sc-01-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "Next UK Prime Minister in 2026?",
           "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
           "num_outcomes": 20,
           "outcomes": [
             {
               "market_id": "1343514",
               "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
               "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
-              "yes_price": 0.495,
+              "yes_price": 0.49,
               "volume": 221072
             },
             {
@@ -755,7 +472,7 @@
               "slug": "will-lucy-powell-be-the-next-prime-minister-of-the-united-kingdom-in-2026-663",
               "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
               "yes_price": 0.0065,
-              "volume": 185846
+              "volume": 185856
             },
             {
               "market_id": "1343459",
@@ -822,47 +539,54 @@
             }
           ],
           "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "2025-2026 PFA Players' Player of the Year Winner",
-          "event_slug": "2025-2026-pfa-players-player-of-the-year-winner",
-          "yes_sum": 0.906,
-          "profit_pct": 9.4,
-          "profit_per_dollar_pct": 10.38,
-          "num_outcomes": 3,
+          "event_title": "Maine Governor Republican Primary Winner",
+          "event_slug": "maine-governor-republican-primary-winner",
+          "yes_sum": 0.9025,
+          "profit_pct": 9.75,
+          "profit_per_dollar_pct": 10.8,
+          "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "1131753",
-              "slug": "will-bruno-fernandes-win-the-2026-pfa-player-of-the-year",
-              "question": "Will Bruno Fernandes win the 2026 PFA Player of the Year?",
-              "yes_price": 0.495,
-              "volume": 13601
+              "market_id": "904693",
+              "slug": "will-robert-charles-win-the-2026-maine-governor-republican-primary-election",
+              "question": "Will Robert Charles win the 2026 Maine Governor Republican primary election?",
+              "yes_price": 0.535,
+              "volume": 3187
             },
             {
-              "market_id": "1131737",
-              "slug": "will-declan-rice-win-the-2026-pfa-player-of-the-year",
-              "question": "Will Declan Rice win the 2026 PFA Player of the Year?",
-              "yes_price": 0.32,
-              "volume": 1171
+              "market_id": "904691",
+              "slug": "will-jonathan-bush-win-the-2026-maine-governor-republican-primary-election",
+              "question": "Will Jonathan Bush win the 2026 Maine Governor Republican primary election?",
+              "yes_price": 0.275,
+              "volume": 4121
             },
             {
-              "market_id": "1131738",
-              "slug": "will-erling-haaland-win-the-2026-pfa-player-of-the-year",
-              "question": "Will Erling Haaland win the 2026 PFA Player of the Year?",
-              "yes_price": 0.091,
-              "volume": 7725
+              "market_id": "904694",
+              "slug": "will-david-jones-win-the-2026-maine-governor-republican-primary-election",
+              "question": "Will David Jones win the 2026 Maine Governor Republican primary election?",
+              "yes_price": 0.082,
+              "volume": 1383
+            },
+            {
+              "market_id": "904696",
+              "slug": "will-owen-mccarthy-win-the-2026-maine-governor-republican-primary-election",
+              "question": "Will Owen McCarthy win the 2026 Maine Governor Republican primary election?",
+              "yes_price": 0.0105,
+              "volume": 1281
             }
           ],
-          "url": "https://polymarket.com/event/2025-2026-pfa-players-player-of-the-year-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9060. One wins $1.00. Profit: $0.0940 (9.40%)"
+          "url": "https://polymarket.com/event/maine-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
           "event_slug": "will-opensea-launch-a-token-by-142",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 4,
           "outcomes": [
             {
@@ -883,7 +607,7 @@
               "market_id": "1271611",
               "slug": "will-opensea-launch-a-token-by-june-30-2026",
               "question": "Will OpenSea launch a token by June 30, 2026?",
-              "yes_price": 0.0585,
+              "yes_price": 0.057,
               "volume": 191259
             },
             {
@@ -895,42 +619,129 @@
             }
           ],
           "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "Ella Langley 'Dandelion' First Week Album Sales?",
-          "event_slug": "ella-langley-dandelion-first-week-album-sales",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
+          "event_title": "How many coins launched in 2026 end the year in the top 100?",
+          "event_slug": "how-many-coins-launched-in-2026-end-the-year-in-the-top-100",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 2,
           "outcomes": [
             {
-              "market_id": "1911977",
-              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-at-least-140k",
-              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be at least 140k?",
-              "yes_price": 0.905,
-              "volume": 14310
+              "market_id": "1091092",
+              "slug": "over-4-coins-launched-in-2026-end-the-year-in-the-top-100",
+              "question": "Over 4 coins launched in 2026 end the year in the top 100?",
+              "yes_price": 0.615,
+              "volume": 25693
             },
             {
-              "market_id": "1911972",
-              "slug": "will-dandelion-ella-langley-debut-week-album-sales-be-less-than-60k",
-              "question": "Will \"Dandelion\" - Ella Langley debut week album sales be less than 60k?",
-              "yes_price": 0.003,
-              "volume": 1824
+              "market_id": "1091096",
+              "slug": "over-12-coins-launched-in-2026-end-the-year-in-the-top-100",
+              "question": "Over 12 coins launched in 2026 end the year in the top 100?",
+              "yes_price": 0.29,
+              "volume": 2527
             }
           ],
-          "url": "https://polymarket.com/event/ella-langley-dandelion-first-week-album-sales",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+          "url": "https://polymarket.com/event/how-many-coins-launched-in-2026-end-the-year-in-the-top-100",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors",
+          "event_slug": "arg-gim-aaj-2026-03-08",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1360742",
+              "slug": "arg-gim-aaj-2026-03-08-draw",
+              "question": "Will Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors end in a draw?",
+              "yes_price": 0.46,
+              "volume": 1695
+            },
+            {
+              "market_id": "1360741",
+              "slug": "arg-gim-aaj-2026-03-08-gim",
+              "question": "Will Gimnasia y Esgrima de La Plata win on 2026-03-08?",
+              "yes_price": 0.445,
+              "volume": 22792
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-gim-aaj-2026-03-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "# of seats won by PPP in South Korea by-elections?",
+          "event_slug": "of-seats-won-by-ppp-in-south-korea-by-elections",
+          "yes_sum": 0.9055,
+          "profit_pct": 9.45,
+          "profit_per_dollar_pct": 10.44,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1364310",
+              "slug": "will-the-people-power-party-win-less-than-or-equal-to-1-seat-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win less than or equal to 1 seat in South Korea\u2019s Ju",
+              "yes_price": 0.3435,
+              "volume": 3251
+            },
+            {
+              "market_id": "1364312",
+              "slug": "will-the-people-power-party-win-3-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win 3 seats in South Korea\u2019s June 3, 2026 parliament",
+              "yes_price": 0.23,
+              "volume": 2883
+            },
+            {
+              "market_id": "1364311",
+              "slug": "will-the-people-power-party-win-2-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
+              "yes_price": 0.145,
+              "volume": 9855
+            },
+            {
+              "market_id": "1364309",
+              "slug": "will-the-people-power-party-win-0-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win 0 seats in South Korea\u2019s June 3, 2026 parliament",
+              "yes_price": 0.1,
+              "volume": 2417
+            },
+            {
+              "market_id": "1364313",
+              "slug": "will-the-people-power-party-win-4-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win 4 seats in South Korea\u2019s June 3, 2026 parliament",
+              "yes_price": 0.0715,
+              "volume": 2166
+            },
+            {
+              "market_id": "1364314",
+              "slug": "will-the-people-power-party-win-5-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win 5 seats in South Korea\u2019s June 3, 2026 parliament",
+              "yes_price": 0.013,
+              "volume": 1083
+            },
+            {
+              "market_id": "1364315",
+              "slug": "will-the-people-power-party-win-6-or-more-seats-in-south-koreas-june-3-2026-parliamentary-by-elections",
+              "question": "Will the People Power Party win 6 or more seats in South Korea\u2019s June 3, 2026 pa",
+              "yes_price": 0.0025,
+              "volume": 3055
+            }
+          ],
+          "url": "https://polymarket.com/event/of-seats-won-by-ppp-in-south-korea-by-elections",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1873,
-        "skipped_single_outcome": 629,
-        "opportunities_found": 134,
-        "best_profit_pct": 9.85,
-        "scanned_at": "2026-04-13 13:31 UTC"
+        "checked_multi_outcome": 1889,
+        "skipped_single_outcome": 633,
+        "opportunities_found": 132,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-13 14:02 UTC"
       }
     },
     {
