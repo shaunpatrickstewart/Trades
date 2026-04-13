@@ -1,180 +1,75 @@
 {
-  "last_scan": "2026-04-13T08:33:46.149238+00:00",
-  "scan_seconds": 51.7,
-  "markets_scanned": 109,
-  "open_positions": 78,
+  "last_scan": "2026-04-13T09:03:17.173573+00:00",
+  "scan_seconds": 49.2,
+  "markets_scanned": 49,
+  "open_positions": 19,
   "signals": [
     {
-      "id": "sig_969620",
-      "timestamp": "2026-04-13T08:33:13.550251+00:00",
+      "id": "sig_728778",
+      "timestamp": "2026-04-13T09:02:32.706397+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions RIGHT NOW (April 13, 2026, 8 AM UTC) for April, XRP, or Ethereu",
-      "raw": "No breaking confirmations, announcements, or resolutions RIGHT NOW (April 13, 2026, 8 AM UTC) for April, XRP, or Ethereum that would move prediction markets.**| NO | HIGH confidence\n\nSearch results highlight speculation and upcoming events rather than confirmed developments[1][2][3][4][5][6][7]. Key points include:",
+      "headline": "US Announces Imminent Blockade of Iranian Ports as Islamabad Peace Talks Collapse Without Deal | NO | HIGH confidence**",
+      "raw": "US Announces Imminent Blockade of Iranian Ports as Islamabad Peace Talks Collapse Without Deal | NO | HIGH confidence**  \nUS Vice President JD Vance departed Islamabad on April 12, 2026, after 21-hour talks failed due to Iran's refusal to abandon nuclear ambitions or reopen the Strait of Hormuz, with the US military confirming a blockade of Iranian ports to begin \"within hours.\"[1][2][3]  \nThe exi",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the price of XRP be between $1.10 and $1.20 on April 13",
-        "Will the price of Ethereum be above $2,400 on April 13?",
-        "Will the price of XRP be above $1.70 on April 14?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_977609",
-      "timestamp": "2026-04-13T08:33:21.539098+00:00",
-      "source": "PERPLEXITY",
-      "headline": "THUNDER SECURE #1 SEED, REST KEY PLAYERS FOR PLAYOFFS | CONFIRMED | HIGH confidence**",
-      "raw": "THUNDER SECURE #1 SEED, REST KEY PLAYERS FOR PLAYOFFS | CONFIRMED | HIGH confidence**\n\nThe Oklahoma City Thunder locked up the **#1 seed and best record in the NBA** and strategically rested their star players (Shai Gilgeous-Alexander, Jalen Williams, and others) in their regular season finale against the Phoenix Suns on April 12.[2][3] This seeding is now finalized and represents the culmination ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_2203",
-      "timestamp": "2026-04-13T08:33:46.132817+00:00",
-      "source": "X_GROK",
-      "headline": "Iran Ceasefire Market:** Whales placed $294k in large bets under 20\u00a2 on YES; settled for $1",
-      "raw": "Iran Ceasefire Market:** Whales placed $294k in large bets under 20\u00a2 on YES; settled for $1.38M profit amid recent peace talks.[[1]](https://x.com/i/status/2043408129464131794)[[2]](https://x.com/i/status/2043001212652728500) Past YES confirmed (HIGH confidence); signals potential NO bets on lasting peace/nuclear amid blockade/nuke reports (MED confidence).",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": "https://x.com/i/status/2043408129464131794)[[2]](https://x.com/i/status/2043001212652728500)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_977600",
-      "timestamp": "2026-04-13T08:33:21.531008+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news being announced or confirmed as of this moment",
-      "raw": "Based on the search results provided, there is no breaking news being announced or confirmed as of this moment. The most recent events documented are from April 11-12, 2026, which include:",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_955543",
-      "timestamp": "2026-04-13T08:32:59.473233+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any market-moving positive resolution, as reports emphasize failure and firmness from Iran (e",
-      "raw": "LOW confidence** in any market-moving positive resolution, as reports emphasize failure and firmness from Iran (e.g., President Pezeshkian)[3]; prior update on April 11 notes ongoing tensions without ceasefire confirmation[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Rocket Lab USA, Inc. (RKLB) hit (HIGH) $76 Week of April 13 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_964444",
-      "timestamp": "2026-04-13T08:33:08.374202+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain recent announcem",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain recent announcements, confirmations, or resolutions from today that would move prediction markets.\n\nThe available information shows that **Duke Rodriguez**, a former New Mexico state human services Cabinet secretary and cannabis entrepreneur, is running as a **Republican candidate for New Mexico",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_964452",
-      "timestamp": "2026-04-13T08:33:08.382062+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any statements from Truth Social or recent communications from Donald Trump about Rodriguez or the New Mexico governor's",
-      "raw": "Any statements from Truth Social or recent communications from Donald Trump about Rodriguez or the New Mexico governor's race",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi",
-        "Will Donald Trump post 40-59 Truth Social posts from April 1"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_964459",
-      "timestamp": "2026-04-13T08:33:08.389852+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news or announcements from today (April 13, 2026)",
-      "raw": "Breaking news or announcements from today (April 13, 2026)",
-      "direction": null,
-      "confidence": 0.65,
+      "id": "sig_773227",
+      "timestamp": "2026-04-13T09:03:17.155430+00:00",
+      "source": "X_GROK",
+      "headline": "Peruvian Presidential Election 2026 - Keiko Fujimori win",
+      "raw": "Peruvian Presidential Election 2026 - Keiko Fujimori win?**  \nWhale \"diadjaid\" ($502K NO at 59%, A-grade trader): Strong NO signal.[[1]](https://x.com/i/status/2043603700275388655)[[2]](https://x.com/i/status/2043543298170572820) Confidence: HIGH",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043603700275388655)[[2]](https://x.com/i/status/2043543298170572820)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_733263",
+      "timestamp": "2026-04-13T09:02:37.191583+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NM Supreme Court Unanimously Rules Duke Rodriguez Stays on Republican Gubernatorial Primary Ballot** | **YES** | **HIGH*",
+      "raw": "NM Supreme Court Unanimously Rules Duke Rodriguez Stays on Republican Gubernatorial Primary Ballot** | **YES** | **HIGH** confidence[1]\n\nThe New Mexico Supreme Court unanimously upheld a lower court decision on April 2, 2026, confirming Republican candidate **Duke Rodriguez**'s eligibility for the June primary ballot, resolving a key legal challenge amid a competitive open race to replace term-lim",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_964468",
-      "timestamp": "2026-04-13T08:33:08.398244+00:00",
+      "id": "sig_740291",
+      "timestamp": "2026-04-13T09:02:44.219200+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-moving developments or confirmations",
-      "raw": "Market-moving developments or confirmations\n\nTo provide the headline-format answer you're seeking, I would need access to current news from today's date with specific announcements or confirmations that have substantive implications for prediction markets. The existing results only show Rodriguez's ongoing campaign activities from previous months.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_969636",
-      "timestamp": "2026-04-13T08:33:13.566511+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ethereum mentions**: Limited to general bullish April momentum via Layer 2 expansions and no specific news, announceme",
-      "raw": "**Ethereum mentions**: Limited to general bullish April momentum via Layer 2 expansions and no specific news, announcements, or resolutions today[6][8].",
-      "direction": "NO",
+      "headline": "Thunder Rest Key Players in Season Finale Before Playoffs | YES | HIGH confidence**",
+      "raw": "Thunder Rest Key Players in Season Finale Before Playoffs | YES | HIGH confidence**\n\nThe Oklahoma City Thunder sat **Shai Gilgeous-Alexander, Jalen Williams, and Jaylin Williams** for Sunday's regular-season finale against the Phoenix Suns[6]. This strategic rest decision by the defending NBA champions signals confidence in their playoff readiness while prioritizing player health going into postse",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Ethereum be above $2,400 on April 13?",
-        "Will the price of Ethereum be above $1,900 on April 14?",
-        "Will the price of Ethereum be above $1,800 on April 14?"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_969644",
-      "timestamp": "2026-04-13T08:33:13.574523+00:00",
+      "id": "sig_740294",
+      "timestamp": "2026-04-13T09:02:44.222890+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Absence of impact**: No \"just confirmed\" items like ETF approvals, regulatory wins, or adoptions; results mix hype (e",
-      "raw": "**Absence of impact**: No \"just confirmed\" items like ETF approvals, regulatory wins, or adoptions; results mix hype (e.g., NYSE signals by April 15[2]) with analyst caution on weak historical trends[3]. Price stalls noted April 11\u201312 amid Bitcoin weakness[5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be greater than $80,000 on April 1"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_977617",
-      "timestamp": "2026-04-13T08:33:21.547190+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No new market-moving announcements or confirmations are evident in these results as of April 13, 2026",
-      "raw": "No new market-moving announcements or confirmations are evident in these results as of April 13, 2026.**",
-      "direction": "NO",
+      "headline": "Thunder Face Denver Rematch in Second Round | YES | HIGH confidence**",
+      "raw": "Thunder Face Denver Rematch in Second Round | YES | HIGH confidence**\n\nBased on final regular-season standings, the **Thunder will face the Denver Nuggets in the second round** after both teams' playoff positioning was finalized[3][5]. This represents a repeat matchup from last season, when Oklahoma City defeated Denver in seven games[3].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -182,52 +77,90 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_2211",
-      "timestamp": "2026-04-13T08:33:46.140871+00:00",
-      "source": "X_GROK",
-      "headline": "Smart Money Tracking Tools Trending:** Traders buzzing Merlin (@jasperbellx), predictedanalytics, Nansen CLI for copying",
-      "raw": "Smart Money Tracking Tools Trending:** Traders buzzing Merlin (@jasperbellx), predictedanalytics, Nansen CLI for copying Polymarket whales across 300k daily trades\u2014no specific mispriced markets named (LOW confidence for actionable moves).[[3]](https://x.com/i/status/2043350520677462255)[[4]](https://x.com/i/status/2043254790713446447)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043350520677462255)[[4]](https://x.com/i/status/2043254790713446447)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_2219",
-      "timestamp": "2026-04-13T08:33:46.148951+00:00",
-      "source": "X_GROK",
-      "headline": "Liquidity Incentives:** $5M pool rewards for top Polymarket positions ahead of $POLY drop\u2014smart money farming (MED confi",
-      "raw": "Liquidity Incentives:** $5M pool rewards for top Polymarket positions ahead of $POLY drop\u2014smart money farming (MED confidence for volume boost, no directional signal).[[5]](https://x.com/i/status/2043384099965137040)\n\nNo fresh whale bets or mispriced tips dominating; Iran alpha echoes, watch South China Sea tensions via Polymarket news.[[6]](https://x.com/i/status/2043591516128710935)[[7]](https:/",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043384099965137040)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_969628",
-      "timestamp": "2026-04-13T08:33:13.558641+00:00",
+      "id": "sig_740298",
+      "timestamp": "2026-04-13T09:02:44.226548+00:00",
       "source": "PERPLEXITY",
-      "headline": "**XRP April trends and events**: Historical April gains (e",
-      "raw": "**XRP April trends and events**: Historical April gains (e.g., 180% in 2021) fuel rally hopes to $1.60\u2013$2, but current price consolidates at $1.33 with mixed history; no new breakout confirmed[1][3]. Senate returns today (April 13) for crypto market-structure legislation, potentially binary for XRP pricing, but no vote or passage announced yet[4]. XRPL hackathon starts April 13\u201327 and Paris event ",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of XRP be between $1.10 and $1.20 on April 13",
-        "Will the price of XRP be above $1.70 on April 14?"
-      ],
-      "action": "WATCH",
+      "headline": "Thunder Lose Meaningless Season Finale to Suns | YES | HIGH confidence**",
+      "raw": "Thunder Lose Meaningless Season Finale to Suns | YES | HIGH confidence**\n\nThe Phoenix Suns defeated the Thunder **135-103 on April 12**, with Jamaree Bouyea leading Phoenix's bench players[4]. This loss carries minimal playoff implications as both teams were resting key contributors in their regular-season finale[6].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_773230",
+      "timestamp": "2026-04-13T09:03:17.158975+00:00",
+      "source": "X_GROK",
+      "headline": "NHL: Colorado vs Edmonton (Apr 13)**",
+      "raw": "NHL: Colorado vs Edmonton (Apr 13)**  \nWhale buys Avalanche YES $2.9K at 51\u00a2: Bullish Avalanche.[[3]](https://x.com/i/status/2043593840091898336) Confidence: MED",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043593840091898336)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_773234",
+      "timestamp": "2026-04-13T09:03:17.162506+00:00",
+      "source": "X_GROK",
+      "headline": "UCL: Liverpool vs PSG (Apr 14)**",
+      "raw": "UCL: Liverpool vs PSG (Apr 14)**  \nWhale buys PSG NOT win $4.7K at 60\u00a2: Bearish PSG win.[[4]](https://x.com/i/status/2043589914869309582) Confidence: MED",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043589914869309582)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_773238",
+      "timestamp": "2026-04-13T09:03:17.166014+00:00",
+      "source": "X_GROK",
+      "headline": "NBA: Nuggets vs Spurs**",
+      "raw": "NBA: Nuggets vs Spurs**  \nWhale \"ferrariChampions2026\" $589K Spurs YES at 68% (B-grade): Bullish Spurs.[[2]](https://x.com/i/status/2043543298170572820) Confidence: MED",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043543298170572820)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_773241",
+      "timestamp": "2026-04-13T09:03:17.169558+00:00",
+      "source": "X_GROK",
+      "headline": "Iran/US Conflict End by Apr 7",
+      "raw": "Iran/US Conflict End by Apr 7?**  \nSmart money piling into YES (large buys noted): YES resolved/moving.[[5]](https://x.com/i/status/2043568453823373777) Confidence: LOW (date past)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043568453823373777)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_773245",
+      "timestamp": "2026-04-13T09:03:17.173268+00:00",
+      "source": "X_GROK",
+      "headline": "Hot Markets (Volume/Whale Activity):** Hungary election, Masters golf finals, Iran ceasefire extensions - fast moves, tr",
+      "raw": "Hot Markets (Volume/Whale Activity):** Hungary election, Masters golf finals, Iran ceasefire extensions - fast moves, track whales.[[6]](https://x.com/i/status/2043611134930874485) Confidence: MED\n\nNo clear mispriced tips or broad trends beyond whale sports/politics bets. Polydata, 0xinsider, PolyBookie tracking active.[[7]](https://x.com/i/status/2043513193859895796)[[8]](https://x.com/i/status/2",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043611134930874485)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 3,
+    "enter": 0,
     "alert": 11,
-    "watch": 1,
-    "high_conf": 4
+    "watch": 0,
+    "high_conf": 0
   }
 }
