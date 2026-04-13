@@ -8,498 +8,220 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 128 categorical arb opportunities found\nScanned 3000 events (1867 multi-outcome) at 2026-04-13 11:26 UTC\nBest: 10.0% profit on 'Presidential Election Winner 2028' \u2014 buy YES on all 36 outcomes (sum=0.9)\nStrategy: Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'Highest temperature in Amsterdam on April 13?'",
+      "result": "LIVE \u2014 136 categorical arb opportunities found\nScanned 3000 events (1867 multi-outcome) at 2026-04-13 11:32 UTC\nBest: 10.0% profit on 'Which banks will fail by end of 2026?' \u2014 buy YES on all 3 outcomes (sum=0.9)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.8% on 'AZ-01 Republican Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-13 11:26 UTC",
+      "last_scan": "2026-04-13 11:32 UTC",
       "opportunities": [
         {
-          "event_title": "Presidential Election Winner 2028",
-          "event_slug": "presidential-election-winner-2028",
+          "event_title": "Which banks will fail by end of 2026?",
+          "event_slug": "which-banks-will-fail-by-end-of-2026",
           "yes_sum": 0.9,
           "profit_pct": 10.0,
           "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 36,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "561229",
-              "slug": "will-jd-vance-win-the-2028-us-presidential-election",
-              "question": "Will JD Vance win the 2028 US Presidential Election?",
-              "yes_price": 0.1885,
-              "volume": 10146694
+              "market_id": "1922875",
+              "slug": "will-keybank-fail-by-end-of-2026",
+              "question": "Will KeyBank fail by end of 2026?",
+              "yes_price": 0.365,
+              "volume": 6552
             },
             {
-              "market_id": "561230",
-              "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
-              "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
-              "yes_price": 0.1675,
-              "volume": 13937135
+              "market_id": "1922869",
+              "slug": "will-truist-fail-by-end-of-2026",
+              "question": "Will Truist fail by end of 2026?",
+              "yes_price": 0.315,
+              "volume": 6298
             },
             {
-              "market_id": "561234",
-              "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
-              "question": "Will Marco Rubio win the 2028 US Presidential Election?",
-              "yes_price": 0.0965,
-              "volume": 6327918
-            },
-            {
-              "market_id": "561231",
-              "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
-              "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-              "yes_price": 0.055,
-              "volume": 10876048
-            },
-            {
-              "market_id": "561261",
-              "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-              "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
-              "yes_price": 0.0425,
-              "volume": 3444241
-            },
-            {
-              "market_id": "561239",
-              "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
-              "question": "Will Kamala Harris win the 2028 US Presidential Election?",
-              "yes_price": 0.0325,
-              "volume": 6973465
-            },
-            {
-              "market_id": "561253",
-              "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
-              "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
-              "yes_price": 0.0275,
-              "volume": 9873345
-            },
-            {
-              "market_id": "561233",
-              "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-              "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 5785958
-            },
-            {
-              "market_id": "561243",
-              "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0215,
-              "volume": 6937432
-            },
-            {
-              "market_id": "561246",
-              "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
-              "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
-              "yes_price": 0.0175,
-              "volume": 8706432
-            },
-            {
-              "market_id": "561232",
-              "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
-              "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-              "yes_price": 0.0165,
-              "volume": 3847535
-            },
-            {
-              "market_id": "561252",
-              "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
-              "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
-              "yes_price": 0.0135,
-              "volume": 6165411
-            },
-            {
-              "market_id": "561237",
-              "slug": "will-andy-beshear-win-the-2028-us-presidential-election",
-              "question": "Will Andy Beshear win the 2028 US Presidential Election?",
-              "yes_price": 0.0125,
-              "volume": 17434249
-            },
-            {
-              "market_id": "561241",
-              "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
-              "question": "Will JB Pritzker win the 2028 US Presidential Election?",
-              "yes_price": 0.0115,
-              "volume": 10842182
-            },
-            {
-              "market_id": "561238",
-              "slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
-              "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 20795869
-            },
-            {
-              "market_id": "561260",
-              "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
-              "question": "Will Thomas Massie win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 3772003
-            },
-            {
-              "market_id": "561262",
-              "slug": "will-james-talarico-win-the-2028-us-presidential-election",
-              "question": "Will James Talarico win the 2028 US Presidential Election?",
-              "yes_price": 0.0105,
-              "volume": 4354039
-            },
-            {
-              "market_id": "561250",
-              "slug": "will-elon-musk-win-the-2028-us-presidential-election",
-              "question": "Will Elon Musk win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 22680391
-            },
-            {
-              "market_id": "561236",
-              "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
-              "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 8565823
-            },
-            {
-              "market_id": "561249",
-              "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
-              "question": "Will Greg Abbott win the 2028 US Presidential Election?",
-              "yes_price": 0.0095,
-              "volume": 31878884
-            },
-            {
-              "market_id": "561258",
-              "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
-              "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
-              "yes_price": 0.009,
-              "volume": 7621515
-            },
-            {
-              "market_id": "561255",
-              "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
-              "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 4569763
-            },
-            {
-              "market_id": "561257",
-              "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
-              "question": "Will Michelle Obama win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 13624563
-            },
-            {
-              "market_id": "561259",
-              "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
-              "question": "Will Ro Khanna win the 2028 US Presidential Election?",
-              "yes_price": 0.0085,
-              "volume": 7123215
-            },
-            {
-              "market_id": "561240",
-              "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
-              "question": "Will Stephen Smith win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 29630315
-            },
-            {
-              "market_id": "561244",
-              "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
-              "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 9238117
-            },
-            {
-              "market_id": "561245",
-              "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
-              "question": "Will Nikki Haley win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 22125505
-            },
-            {
-              "market_id": "561256",
-              "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
-              "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
-              "yes_price": 0.0075,
-              "volume": 17614557
-            },
-            {
-              "market_id": "561263",
-              "slug": "will-eric-trump-win-the-2028-us-presidential-election",
-              "question": "Will Eric Trump win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6622052
-            },
-            {
-              "market_id": "561247",
-              "slug": "will-tim-walz-win-the-2028-us-presidential-election",
-              "question": "Will Tim Walz win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 39553780
-            },
-            {
-              "market_id": "561235",
-              "slug": "will-wes-moore-win-the-2028-us-presidential-election",
-              "question": "Will Wes Moore win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 6509078
-            },
-            {
-              "market_id": "561242",
-              "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
-              "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 28176797
-            },
-            {
-              "market_id": "561264",
-              "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
-              "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 4462873
-            },
-            {
-              "market_id": "561248",
-              "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
-              "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 31031118
-            },
-            {
-              "market_id": "561254",
-              "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
-              "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
-              "yes_price": 0.0065,
-              "volume": 32771256
-            },
-            {
-              "market_id": "561251",
-              "slug": "will-lebron-james-win-the-2028-us-presidential-election",
-              "question": "Will LeBron James win the 2028 US Presidential Election?",
-              "yes_price": 0.0055,
-              "volume": 46395654
+              "market_id": "1922873",
+              "slug": "will-lloyds-fail-by-end-of-2026",
+              "question": "Will Lloyds fail by end of 2026?",
+              "yes_price": 0.22,
+              "volume": 4973
             }
           ],
-          "url": "https://polymarket.com/event/presidential-election-winner-2028",
-          "strategy": "Buy YES on all 36 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/which-banks-will-fail-by-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
         },
         {
-          "event_title": "Highest temperature in Amsterdam on April 13?",
-          "event_slug": "highest-temperature-in-amsterdam-on-april-13-2026",
+          "event_title": "AZ-01 Republican Primary Winner",
+          "event_slug": "az-01-republican-primary-winner",
           "yes_sum": 0.902,
           "profit_pct": 9.8,
           "profit_per_dollar_pct": 10.86,
-          "num_outcomes": 11,
+          "num_outcomes": 12,
           "outcomes": [
             {
-              "market_id": "1924787",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-14c",
-              "question": "Will the highest temperature in Amsterdam be 14\u00b0C on April 13?",
-              "yes_price": 0.61,
-              "volume": 1905
+              "market_id": "704348",
+              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
+              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
+              "yes_price": 0.71,
+              "volume": 4746
             },
             {
-              "market_id": "1924788",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-15c",
-              "question": "Will the highest temperature in Amsterdam be 15\u00b0C on April 13?",
-              "yes_price": 0.18,
-              "volume": 1814
+              "market_id": "704343",
+              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
+              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
+              "yes_price": 0.073,
+              "volume": 8148
             },
             {
-              "market_id": "1924786",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-13c",
-              "question": "Will the highest temperature in Amsterdam be 13\u00b0C on April 13?",
-              "yes_price": 0.06,
-              "volume": 2335
+              "market_id": "704345",
+              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
+              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
+              "yes_price": 0.0555,
+              "volume": 7582
             },
             {
-              "market_id": "1924789",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-16c",
-              "question": "Will the highest temperature in Amsterdam be 16\u00b0C on April 13?",
-              "yes_price": 0.0375,
-              "volume": 2930
+              "market_id": "704346",
+              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
+              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
+              "yes_price": 0.0155,
+              "volume": 16503
             },
             {
-              "market_id": "1924790",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-17c",
-              "question": "Will the highest temperature in Amsterdam be 17\u00b0C on April 13?",
-              "yes_price": 0.0075,
-              "volume": 1736
+              "market_id": "704347",
+              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
+              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
+              "yes_price": 0.0135,
+              "volume": 6398
             },
             {
-              "market_id": "1924791",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-18corhigher",
-              "question": "Will the highest temperature in Amsterdam be 18\u00b0C or higher on April 13?",
+              "market_id": "704341",
+              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
+              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
+              "yes_price": 0.007,
+              "volume": 47835
+            },
+            {
+              "market_id": "704351",
+              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
+              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
               "yes_price": 0.005,
-              "volume": 1200
+              "volume": 222106
             },
             {
-              "market_id": "1924782",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-9c",
-              "question": "Will the highest temperature in Amsterdam be 9\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 1074
+              "market_id": "704350",
+              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
+              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 8235
             },
             {
-              "market_id": "1924783",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-10c",
-              "question": "Will the highest temperature in Amsterdam be 10\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 1521
+              "market_id": "704352",
+              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
+              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
+              "yes_price": 0.005,
+              "volume": 10660
             },
             {
-              "market_id": "1924784",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-11c",
-              "question": "Will the highest temperature in Amsterdam be 11\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 1995
+              "market_id": "704349",
+              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
+              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 3520
             },
             {
-              "market_id": "1924785",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-12c",
-              "question": "Will the highest temperature in Amsterdam be 12\u00b0C on April 13?",
-              "yes_price": 0.0005,
-              "volume": 4258
+              "market_id": "704344",
+              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
+              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
+              "yes_price": 0.0045,
+              "volume": 4221
             },
             {
-              "market_id": "1924781",
-              "slug": "highest-temperature-in-amsterdam-on-april-13-2026-8corbelow",
-              "question": "Will the highest temperature in Amsterdam be 8\u00b0C or below on April 13?",
-              "yes_price": 0.0,
-              "volume": 2552
+              "market_id": "704353",
+              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
+              "question": "Will John Trobough be the Republican nominee for AZ-01?",
+              "yes_price": 0.0035,
+              "volume": 1910
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-amsterdam-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
         },
         {
-          "event_title": "Highest temperature in Beijing on April 14?",
-          "event_slug": "highest-temperature-in-beijing-on-april-14-2026",
-          "yes_sum": 0.9045,
-          "profit_pct": 9.55,
-          "profit_per_dollar_pct": 10.56,
-          "num_outcomes": 11,
+          "event_title": "Highest temperature in Ankara on April 13?",
+          "event_slug": "highest-temperature-in-ankara-on-april-13-2026",
+          "yes_sum": 0.904,
+          "profit_pct": 9.6,
+          "profit_per_dollar_pct": 10.62,
+          "num_outcomes": 9,
           "outcomes": [
             {
-              "market_id": "1953726",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-21c",
-              "question": "Will the highest temperature in Beijing be 21\u00b0C on April 14?",
-              "yes_price": 0.305,
-              "volume": 1616
+              "market_id": "1924465",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-11c",
+              "question": "Will the highest temperature in Ankara be 11\u00b0C on April 13?",
+              "yes_price": 0.415,
+              "volume": 5606
             },
             {
-              "market_id": "1953725",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-20c",
-              "question": "Will the highest temperature in Beijing be 20\u00b0C on April 14?",
-              "yes_price": 0.215,
-              "volume": 2129
+              "market_id": "1924466",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-12c",
+              "question": "Will the highest temperature in Ankara be 12\u00b0C on April 13?",
+              "yes_price": 0.39,
+              "volume": 5255
             },
             {
-              "market_id": "1953724",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-19c",
-              "question": "Will the highest temperature in Beijing be 19\u00b0C on April 14?",
-              "yes_price": 0.125,
-              "volume": 2739
+              "market_id": "1924464",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-10c",
+              "question": "Will the highest temperature in Ankara be 10\u00b0C on April 13?",
+              "yes_price": 0.041,
+              "volume": 9041
             },
             {
-              "market_id": "1953727",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-22c",
-              "question": "Will the highest temperature in Beijing be 22\u00b0C on April 14?",
-              "yes_price": 0.115,
-              "volume": 2303
+              "market_id": "1924467",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-13c",
+              "question": "Will the highest temperature in Ankara be 13\u00b0C on April 13?",
+              "yes_price": 0.04,
+              "volume": 5724
             },
             {
-              "market_id": "1953723",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-18corbelow",
-              "question": "Will the highest temperature in Beijing be 18\u00b0C or below on April 14?",
-              "yes_price": 0.0955,
-              "volume": 6793
+              "market_id": "1924468",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-14c",
+              "question": "Will the highest temperature in Ankara be 14\u00b0C on April 13?",
+              "yes_price": 0.015,
+              "volume": 4423
             },
             {
-              "market_id": "1953728",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-23c",
-              "question": "Will the highest temperature in Beijing be 23\u00b0C on April 14?",
-              "yes_price": 0.0275,
-              "volume": 3419
-            },
-            {
-              "market_id": "1953729",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-24c",
-              "question": "Will the highest temperature in Beijing be 24\u00b0C on April 14?",
-              "yes_price": 0.008,
-              "volume": 3208
-            },
-            {
-              "market_id": "1953733",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-28corhigher",
-              "question": "Will the highest temperature in Beijing be 28\u00b0C or higher on April 14?",
-              "yes_price": 0.0055,
-              "volume": 5357
-            },
-            {
-              "market_id": "1953730",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-25c",
-              "question": "Will the highest temperature in Beijing be 25\u00b0C on April 14?",
-              "yes_price": 0.004,
-              "volume": 1603
-            },
-            {
-              "market_id": "1953731",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-26c",
-              "question": "Will the highest temperature in Beijing be 26\u00b0C on April 14?",
-              "yes_price": 0.0025,
-              "volume": 1232
-            },
-            {
-              "market_id": "1953732",
-              "slug": "highest-temperature-in-beijing-on-april-14-2026-27c",
-              "question": "Will the highest temperature in Beijing be 27\u00b0C on April 14?",
+              "market_id": "1924473",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-19corhigher",
+              "question": "Will the highest temperature in Ankara be 19\u00b0C or higher on April 13?",
               "yes_price": 0.0015,
-              "volume": 1099
+              "volume": 4630
+            },
+            {
+              "market_id": "1924463",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-9corbelow",
+              "question": "Will the highest temperature in Ankara be 9\u00b0C or below on April 13?",
+              "yes_price": 0.0005,
+              "volume": 15536
+            },
+            {
+              "market_id": "1924469",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-15c",
+              "question": "Will the highest temperature in Ankara be 15\u00b0C on April 13?",
+              "yes_price": 0.0005,
+              "volume": 3329
+            },
+            {
+              "market_id": "1924470",
+              "slug": "highest-temperature-in-ankara-on-april-13-2026-16c",
+              "question": "Will the highest temperature in Ankara be 16\u00b0C on April 13?",
+              "yes_price": 0.0005,
+              "volume": 2329
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-beijing-on-april-14-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9045. One wins $1.00. Profit: $0.0955 (9.55%)"
-        },
-        {
-          "event_title": "Relay FDV above ___ one day after launch?",
-          "event_slug": "relay-fdv-above-one-day-after-launch",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 4,
-          "outcomes": [
-            {
-              "market_id": "1361726",
-              "slug": "relay-fdv-above-300m-one-day-after-launch",
-              "question": "Relay FDV above $300M one day after launch?",
-              "yes_price": 0.34,
-              "volume": 2643
-            },
-            {
-              "market_id": "1361725",
-              "slug": "relay-fdv-above-100m-one-day-after-launch",
-              "question": "Relay FDV above $100M one day after launch?",
-              "yes_price": 0.275,
-              "volume": 17380
-            },
-            {
-              "market_id": "1361727",
-              "slug": "relay-fdv-above-500m-one-day-after-launch",
-              "question": "Relay FDV above $500M one day after launch?",
-              "yes_price": 0.155,
-              "volume": 8602
-            },
-            {
-              "market_id": "1361729",
-              "slug": "relay-fdv-above-700m-one-day-after-launch",
-              "question": "Relay FDV above $700M one day after launch?",
-              "yes_price": 0.135,
-              "volume": 1187
-            }
-          ],
-          "url": "https://polymarket.com/event/relay-fdv-above-one-day-after-launch",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-ankara-on-april-13-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9040. One wins $1.00. Profit: $0.0960 (9.60%)"
         },
         {
           "event_title": "Next UK Prime Minister in 2026?",
           "event_slug": "next-uk-prime-minister-in-2026-122",
-          "yes_sum": 0.9055,
-          "profit_pct": 9.45,
-          "profit_per_dollar_pct": 10.44,
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
           "num_outcomes": 20,
           "outcomes": [
             {
@@ -527,7 +249,7 @@
               "market_id": "1343462",
               "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
               "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
-              "yes_price": 0.04,
+              "yes_price": 0.0395,
               "volume": 182187
             },
             {
@@ -644,103 +366,148 @@
             }
           ],
           "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
-          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9055. One wins $1.00. Profit: $0.0945 (9.45%)"
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "AZ-01 Republican Primary Winner",
-          "event_slug": "az-01-republican-primary-winner",
+          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 6-12)",
+          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
           "yes_sum": 0.907,
           "profit_pct": 9.3,
           "profit_per_dollar_pct": 10.25,
-          "num_outcomes": 12,
+          "num_outcomes": 6,
           "outcomes": [
             {
-              "market_id": "704348",
-              "slug": "will-jay-feely-be-the-republican-nominee-for-az-01",
-              "question": "Will Jay Feely be the Republican nominee for AZ-01?",
-              "yes_price": 0.715,
-              "volume": 4746
+              "market_id": "1846507",
+              "slug": "will-60-or-more-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 60 or more ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.62,
+              "volume": 65891
             },
             {
-              "market_id": "704343",
-              "slug": "will-joseph-chaplik-be-the-republican-nominee-for-az-01",
-              "question": "Will Joseph Chaplik be the Republican nominee for AZ-01?",
-              "yes_price": 0.073,
-              "volume": 8148
+              "market_id": "1846506",
+              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 50-59 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.1335,
+              "volume": 13129
             },
             {
-              "market_id": "704345",
-              "slug": "will-todd-graham-be-the-republican-nominee-for-az-01",
-              "question": "Will Todd Graham be the Republican nominee for AZ-01?",
-              "yes_price": 0.0555,
-              "volume": 7582
+              "market_id": "1846505",
+              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 40-49 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0975,
+              "volume": 26253
             },
             {
-              "market_id": "704346",
-              "slug": "will-mark-brnovich-be-the-republican-nominee-for-az-01",
-              "question": "Will Mark Brnovich be the Republican nominee for AZ-01?",
-              "yes_price": 0.0155,
-              "volume": 16503
+              "market_id": "1846504",
+              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 30-39 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.03,
+              "volume": 21181
             },
             {
-              "market_id": "704347",
-              "slug": "will-kari-lake-be-the-republican-nominee-for-az-01",
-              "question": "Will Kari Lake be the Republican nominee for AZ-01?",
-              "yes_price": 0.0135,
-              "volume": 6398
+              "market_id": "1846503",
+              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will 20-29 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0185,
+              "volume": 24448
             },
             {
-              "market_id": "704341",
-              "slug": "will-matt-gress-be-the-republican-nominee-for-az-01",
-              "question": "Will Matt Gress be the Republican nominee for AZ-01?",
-              "yes_price": 0.007,
-              "volume": 47835
-            },
-            {
-              "market_id": "704351",
-              "slug": "will-paul-reevs-be-the-republican-nominee-for-az-01",
-              "question": "Will Paul Reevs be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 222106
-            },
-            {
-              "market_id": "704350",
-              "slug": "will-kaitlin-purrington-be-the-republican-nominee-for-az-01",
-              "question": "Will Kaitlin Purrington be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 8235
-            },
-            {
-              "market_id": "704352",
-              "slug": "will-brandon-sowers-be-the-republican-nominee-for-az-01-218",
-              "question": "Will Brandon Sowers be the Republican nominee for AZ-01?",
-              "yes_price": 0.005,
-              "volume": 10660
-            },
-            {
-              "market_id": "704349",
-              "slug": "will-derrick-gallego-be-the-republican-nominee-for-az-01-424",
-              "question": "Will Derrick Gallego be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 3520
-            },
-            {
-              "market_id": "704344",
-              "slug": "will-muchelle-ugenti-rita-be-the-republican-nominee-for-az-01",
-              "question": "Will Muchelle Ugenti-Rita be the Republican nominee for AZ-01?",
-              "yes_price": 0.0045,
-              "volume": 4221
-            },
-            {
-              "market_id": "704353",
-              "slug": "will-john-trobough-be-the-republican-nominee-for-az-01-622",
-              "question": "Will John Trobough be the Republican nominee for AZ-01?",
-              "yes_price": 0.0035,
-              "volume": 1910
+              "market_id": "1846502",
+              "slug": "will-fewer-than-20-ships-transit-the-strait-of-hormuz-between-april-6-april-12",
+              "question": "Will fewer than 20 ships transit the Strait of Hormuz between April 6-April 12?",
+              "yes_price": 0.0075,
+              "volume": 49193
             }
           ],
-          "url": "https://polymarket.com/event/az-01-republican-primary-winner",
-          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-6-12",
+          "strategy": "Buy YES on all 6 outcomes. Total cost: $0.9070. One wins $1.00. Profit: $0.0930 (9.30%)"
+        },
+        {
+          "event_title": "Who will close Warner Bros. acquisition?",
+          "event_slug": "who-will-close-warner-bros-acquisition",
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "897019",
+              "slug": "will-paramount-close-warner-bros-acquisition",
+              "question": "Will Paramount close Warner Bros acquisition?",
+              "yes_price": 0.72,
+              "volume": 440836
+            },
+            {
+              "market_id": "897030",
+              "slug": "no-listed-company-closes-warner-bros-acquisition-by-june-30-2027",
+              "question": "No listed company closes Warner Bros acquisition by June 30, 2027",
+              "yes_price": 0.165,
+              "volume": 157390
+            },
+            {
+              "market_id": "897017",
+              "slug": "will-netflix-close-warner-bros-acquisition",
+              "question": "Will Netflix close Warner Bros acquisition?",
+              "yes_price": 0.0145,
+              "volume": 219920
+            },
+            {
+              "market_id": "897018",
+              "slug": "will-comcast-close-warner-bros-acquisition",
+              "question": "Will Comcast close Warner Bros acquisition?",
+              "yes_price": 0.008,
+              "volume": 173873
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-close-warner-bros-acquisition",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+        },
+        {
+          "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
+          "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "yes_sum": 0.9085,
+          "profit_pct": 9.15,
+          "profit_per_dollar_pct": 10.07,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1737533",
+              "slug": "will-united-left-bsp-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will United Left (BSP) win at least one seat in the 2026 Bulgarian parliamentary",
+              "yes_price": 0.605,
+              "volume": 20561
+            },
+            {
+              "market_id": "1737537",
+              "slug": "will-morality-unity-honour-mech-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Morality, Unity, Honour (MECh) win at least one seat in the 2026 Bulgarian ",
+              "yes_price": 0.16,
+              "volume": 4656
+            },
+            {
+              "market_id": "1737536",
+              "slug": "will-velichie-velichie-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Velichie (Velichie) win at least one seat in the 2026 Bulgarian parliamenta",
+              "yes_price": 0.095,
+              "volume": 25006
+            },
+            {
+              "market_id": "1737535",
+              "slug": "will-there-is-such-a-people-itn-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will There is Such a People (ITN) win at least one seat in the 2026 Bulgarian pa",
+              "yes_price": 0.0255,
+              "volume": 10085
+            },
+            {
+              "market_id": "1737534",
+              "slug": "will-alliance-for-rights-and-freedoms-aps-win-at-least-one-seat-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will Alliance for Rights and Freedoms (APS) win at least one seat in the 2026 Bu",
+              "yes_price": 0.023,
+              "volume": 12482
+            }
+          ],
+          "url": "https://polymarket.com/event/bulgarian-parliamentary-election-which-parties-enter-parliament",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9085. One wins $1.00. Profit: $0.0915 (9.15%)"
         },
         {
           "event_title": "Sabres vs. Blackhawks",
@@ -769,39 +536,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "LA-05 Republican Primary Winner",
-          "event_slug": "la-05-republican-primary-winner",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1731841",
-              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
-              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
-              "yes_price": 0.845,
-              "volume": 15029
-            },
-            {
-              "market_id": "1731837",
-              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
-              "question": "Will Michael Echols be the Republican nominee for LA-05?",
-              "yes_price": 0.035,
-              "volume": 8194
-            },
-            {
-              "market_id": "1731842",
-              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
-              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
-              "yes_price": 0.03,
-              "volume": 5125
-            }
-          ],
-          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
-        },
-        {
           "event_title": "FL-23 Democratic Primary Winner",
           "event_slug": "fl-23-democratic-primary-winner",
           "yes_sum": 0.91,
@@ -828,102 +562,46 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "Highest temperature in Miami on April 13?",
-          "event_slug": "highest-temperature-in-miami-on-april-13-2026",
+          "event_title": "LA-05 Republican Primary Winner",
+          "event_slug": "la-05-republican-primary-winner",
           "yes_sum": 0.9105,
           "profit_pct": 8.95,
           "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 11,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1924446",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-80-81f",
-              "question": "Will the highest temperature in Miami be between 80-81\u00b0F on April 13?",
-              "yes_price": 0.48,
-              "volume": 6563
+              "market_id": "1731841",
+              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
+              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
+              "yes_price": 0.845,
+              "volume": 15029
             },
             {
-              "market_id": "1924447",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-82-83f",
-              "question": "Will the highest temperature in Miami be between 82-83\u00b0F on April 13?",
-              "yes_price": 0.305,
-              "volume": 4649
+              "market_id": "1731837",
+              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
+              "question": "Will Michael Echols be the Republican nominee for LA-05?",
+              "yes_price": 0.0355,
+              "volume": 8194
             },
             {
-              "market_id": "1924445",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-78-79f",
-              "question": "Will the highest temperature in Miami be between 78-79\u00b0F on April 13?",
-              "yes_price": 0.085,
-              "volume": 6639
-            },
-            {
-              "market_id": "1924448",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-84-85f",
-              "question": "Will the highest temperature in Miami be between 84-85\u00b0F on April 13?",
-              "yes_price": 0.0195,
-              "volume": 4852
-            },
-            {
-              "market_id": "1924444",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-76-77f",
-              "question": "Will the highest temperature in Miami be between 76-77\u00b0F on April 13?",
-              "yes_price": 0.0095,
-              "volume": 11497
-            },
-            {
-              "market_id": "1924449",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-86-87f",
-              "question": "Will the highest temperature in Miami be between 86-87\u00b0F on April 13?",
-              "yes_price": 0.006,
-              "volume": 3192
-            },
-            {
-              "market_id": "1924450",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-88-89f",
-              "question": "Will the highest temperature in Miami be between 88-89\u00b0F on April 13?",
-              "yes_price": 0.002,
-              "volume": 1697
-            },
-            {
-              "market_id": "1924443",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-74-75f",
-              "question": "Will the highest temperature in Miami be between 74-75\u00b0F on April 13?",
-              "yes_price": 0.0015,
-              "volume": 10158
-            },
-            {
-              "market_id": "1924451",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-90forhigher",
-              "question": "Will the highest temperature in Miami be 90\u00b0F or higher on April 13?",
-              "yes_price": 0.0015,
-              "volume": 1208
-            },
-            {
-              "market_id": "1924442",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-72-73f",
-              "question": "Will the highest temperature in Miami be between 72-73\u00b0F on April 13?",
-              "yes_price": 0.0005,
-              "volume": 3086
-            },
-            {
-              "market_id": "1924441",
-              "slug": "highest-temperature-in-miami-on-april-13-2026-71forbelow",
-              "question": "Will the highest temperature in Miami be 71\u00b0F or below on April 13?",
-              "yes_price": 0.0,
-              "volume": 2654
+              "market_id": "1731842",
+              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
+              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
+              "yes_price": 0.03,
+              "volume": 5125
             }
           ],
-          "url": "https://polymarket.com/event/highest-temperature-in-miami-on-april-13-2026",
-          "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1867,
-        "skipped_single_outcome": 638,
-        "opportunities_found": 128,
+        "skipped_single_outcome": 634,
+        "opportunities_found": 136,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-13 11:26 UTC"
+        "scanned_at": "2026-04-13 11:32 UTC"
       }
     },
     {
