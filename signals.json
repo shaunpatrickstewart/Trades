@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T18:48:25.143007+00:00",
-  "scan_seconds": 34.9,
-  "markets_scanned": 63,
+  "last_scan": "2026-04-14T18:51:29.954031+00:00",
+  "scan_seconds": 39.5,
+  "markets_scanned": 64,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_259799",
-      "timestamp": "2026-04-14T18:48:03.605335+00:00",
+      "id": "sig_436997",
+      "timestamp": "2026-04-14T18:51:00.803250+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Key Developments**: US and Iran are eyeing new negotiations this week in response to weekend talks in Islamabad ending",
-      "raw": "**Key Developments**: US and Iran are eyeing new negotiations this week in response to weekend talks in Islamabad ending without a deal, aiming to resolve issues before the two-week ceasefire\u2014announced April 7\u2014expires early next week[1][3]. Trump announced a naval blockade of Iranian ports and the Strait of Hormuz after the failed talks, warning of a \"quick and brutal\" response to Iranian ships, w",
-      "direction": "NO",
+      "headline": "Trump confirms US-Iran ceasefire 'holding well' amid new Strait of Hormuz blockade announcement | YES | HIGH confidence*",
+      "raw": "Trump confirms US-Iran ceasefire 'holding well' amid new Strait of Hormuz blockade announcement | YES | HIGH confidence**[1][2][3]\n\nThe two-week ceasefire, starting April 7, 2026, between the US, Israel, and Iran remains in effect despite escalated US actions, including a US Navy blockade of Iranian ports and the Strait of Hormuz launched April 13 to intercept vessels paying Iranian tolls and clea",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,142 +22,41 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_272332",
-      "timestamp": "2026-04-14T18:48:16.138337+00:00",
+      "id": "sig_451983",
+      "timestamp": "2026-04-14T18:51:15.789364+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP | NO | HIGH confidence** \u2013 All reports are price predictions, analyst charts (e",
-      "raw": "XRP | NO | HIGH confidence** \u2013 All reports are price predictions, analyst charts (e.g., $7.52 target[3]), or Polymarket bets (e.g., 8% chance of $1.80 by April 1[2]); nothing newly confirmed today[1][2][3][5].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 14, 2:45PM-3:00PM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_280323",
-      "timestamp": "2026-04-14T18:48:24.129105+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information from",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information from today (April 14, 2026). The most recent data available is from **March 2026**, when South Korea's annual inflation rose to **2.2%**[1][3].\n\nThe latest confirmed developments are:",
+      "headline": "I cannot identify any breaking news or recently confirmed announcements about JD Vance or Republican politics that would",
+      "raw": "I cannot identify any breaking news or recently confirmed announcements about JD Vance or Republican politics that would move prediction markets based on these search results.\n\nThe search results provide market data from April 10-13, 2026, showing that JD Vance leads prediction markets for the 2028 Republican presidential nominee at 39-42% implied probability[1][2], but they do not contain any bre",
       "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_259794",
-      "timestamp": "2026-04-14T18:48:03.600363+00:00",
+      "id": "sig_457679",
+      "timestamp": "2026-04-14T18:51:21.485257+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Fresh Ceasefire Talks Before April 7 Two-Week Truce Expires; Trump Maintains Port Blockade After Weeken",
-      "raw": "US and Iran Plan Fresh Ceasefire Talks Before April 7 Two-Week Truce Expires; Trump Maintains Port Blockade After Weekend Talks Collapse | NO | MED confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_259804",
-      "timestamp": "2026-04-14T18:48:03.610087+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**No Confirmed Resolution**: Talks collapsed over disagreements\u2014Iran proposed a 5-year nuclear suspension vs",
-      "raw": "**No Confirmed Resolution**: Talks collapsed over disagreements\u2014Iran proposed a 5-year nuclear suspension vs. US demand for 20 years\u2014with VP Vance blaming Iran and Iran citing US \"excessive demands\"; blockade is active but Iranian ships have crossed[3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_259808",
-      "timestamp": "2026-04-14T18:48:03.614871+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Prediction Market Impact**: These updates signal ongoing tensions without breakthrough (e",
-      "raw": "**Prediction Market Impact**: These updates signal ongoing tensions without breakthrough (e.g., no extended ceasefire or deal), unlikely to sharply move markets like Iran conflict resolution; MED confidence due to consistent reporting across sources but reliance on unconfirmed \"people familiar\" and negotiator commentary[1][2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_272337",
-      "timestamp": "2026-04-14T18:48:16.143224+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin | NO | HIGH confidence** \u2013 No mentions of recent Bitcoin-specific announcements; context notes steady price with",
-      "raw": "Bitcoin | NO | HIGH confidence** \u2013 No mentions of recent Bitcoin-specific announcements; context notes steady price with institutional ETF flows[1].\n\nThese are ongoing trends or early-April events (e.g., April 7-11), not \"right now\" (April 14) resolutions; prediction markets like Polymarket show low-probability XRP bets without shifts from new confirmations[2].",
+      "headline": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **NO** | **HIGH** confidence[6]",
+      "raw": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **NO** | **HIGH** confidence[6]\n\nA major exploit on Solana's Drift protocol, involving social engineering and pre-approved transactions for administrative control, resulted in over $280M stolen, with Circle declining to freeze $230M+ in bridged USDC[6]. This has led to a 13% SOL price drop to ~$78, testing $75-80 support,",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the price of Bitcoin be between $72,000 and $74,000 on April 17?",
-        "XRP Up or Down - April 14, 2:45PM-3:00PM ET"
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
-    },
-    {
-      "id": "sig_280327",
-      "timestamp": "2026-04-14T18:48:24.133394+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**March 2026 inflation reading:** Consumer prices rose 2",
-      "raw": "**March 2026 inflation reading:** Consumer prices rose 2.2% year-on-year, up from 2.0% in February[1][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_280331",
-      "timestamp": "2026-04-14T18:48:24.137858+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Bank of Korea decision:** The central bank held its benchmark rate at 2",
-      "raw": "**Bank of Korea decision:** The central bank held its benchmark rate at 2.5% for the 7th consecutive meeting, with rate cuts remaining off the table due to renewed inflationary pressures and foreign exchange instability[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_280336",
-      "timestamp": "2026-04-14T18:48:24.142251+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Forward guidance:** Inflation is expected to temporarily decline below 2% in the near term, but the Bank of Korea's ea",
-      "raw": "**Forward guidance:** Inflation is expected to temporarily decline below 2% in the near term, but the Bank of Korea's easing cycle has ended, with the policy rate expected to remain at 2.5% for an extended period[2]\n\nTo provide market-moving breaking news, I would need search results from today's date with official announcements from the Bank of Korea, Statistics Korea, or major financial institut",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
