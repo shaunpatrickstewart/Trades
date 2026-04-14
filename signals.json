@@ -1,114 +1,161 @@
 {
-  "last_scan": "2026-04-14T22:14:10.438275+00:00",
-  "scan_seconds": 30.9,
-  "markets_scanned": 131,
+  "last_scan": "2026-04-14T22:17:00.943865+00:00",
+  "scan_seconds": 29.3,
+  "markets_scanned": 128,
   "open_positions": 90,
   "signals": [
     {
-      "id": "sig_620318",
-      "timestamp": "2026-04-14T22:14:04.112070+00:00",
+      "id": "sig_779553",
+      "timestamp": "2026-04-14T22:16:43.347150+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Records Largest Weekly Inflows, Unseating Bitcoin and Solana Amid U",
-      "raw": "XRP Records Largest Weekly Inflows, Unseating Bitcoin and Solana Amid U.S.-Iran Ceasefire Rally | YES | HIGH confidence**  \nXRP led digital asset inflows with $119.6 million last week\u2014its strongest since mid-December 2025\u2014surpassing Bitcoin's $107.3 million and Solana's $34.9 million, boosting year-to-date XRP inflows to 7% of assets under management.[1]  \nThis follows a confirmed **U.S.-Iran ceas",
+      "headline": "US and Iran Agree to 2-Week Ceasefire as Trump Deescalates Threats of Strikes on Iran | YES | HIGH confidence**[1][2]",
+      "raw": "US and Iran Agree to 2-Week Ceasefire as Trump Deescalates Threats of Strikes on Iran | YES | HIGH confidence**[1][2]\n\nA 2-week ceasefire was announced on April 7, 2026, with Trump pulling back from strikes just before his deadline for Iran, shifting to diplomacy amid ongoing talks.[1][2] Fresh negotiations are eyed before it expires next week after weekend talks in Islamabad stalled, per sources ",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_796148",
+      "timestamp": "2026-04-14T22:16:59.942576+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's Annual Inflation Rises to 2",
+      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months, below market forecasts of 2.4%, as confirmed by Statistics Korea data released recently.[1]  \nThis uptick from the Bank of Korea's 2% target, amid contained price pressures before Middle East energy volatility,",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_779562",
+      "timestamp": "2026-04-14T22:16:43.356649+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Begins Naval Blockade of Iranian Ports in Strait of Hormuz | YES | HIGH confidence**[3][4]",
+      "raw": "US Begins Naval Blockade of Iranian Ports in Strait of Hormuz | YES | HIGH confidence**[3][4]\n\nTrump declared the blockade effective, targeting Iranian oil tankers while monitoring others; Iran vows retaliation, and fast-attack ships risk elimination.[3][4] Ceasefire holds fragilely with no US Navy attacks but drone strikes on Gulf allies like Bahrain reported.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_779571",
+      "timestamp": "2026-04-14T22:16:43.365743+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ceasefire Talks Falter with No Deal; Iran Retains Uranium Stockpile Amid Red-Line Clash | YES | MED confidence**[2][4]",
+      "raw": "Ceasefire Talks Falter with No Deal; Iran Retains Uranium Stockpile Amid Red-Line Clash | YES | MED confidence**[2][4]\n\nIslamabad talks ended without agreement; US demands nuclear material removal, viewing any deal allowing Iran's stockpile as failure, while Iran sets irreconcilable red lines.[2][4] Tensions rise with Hezbollah threats and Israeli operations, potentially impacting oil markets and ",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "Will Trump announce that the US x Iran ceasefire has been br"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_620327",
-      "timestamp": "2026-04-14T22:14:04.121504+00:00",
+      "id": "sig_791628",
+      "timestamp": "2026-04-14T22:16:55.422059+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin April net outflows** stand at $145 million despite weekly gains, tying into prediction markets showing mixed sen",
-      "raw": "Bitcoin April net outflows** stand at $145 million despite weekly gains, tying into prediction markets showing mixed sentiment (e.g., Polymarket odds for CLARITY Act at 72%, potentially unlocking $4-8B XRP ETF capital late April).[3]  \nSolana shows bullish Polymarket forecasts (87% chance above $80 this April), with strong ecosystem activity.[2]  \nThese confirmed inflows and geopolitical resolutio",
+      "headline": "Polymarket prices 93% chance Bitcoin falls below $65,000 in April, with low short-term ATH odds (3% by June 2026)",
+      "raw": "Polymarket prices 93% chance Bitcoin falls below $65,000 in April, with low short-term ATH odds (3% by June 2026).[1][2]",
       "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Will Bitcoin dip to $68,000 on April 14?",
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of XRP be above $1.60 on April 15?"
+        "Will the price of Bitcoin be above $68,000 on April 15?",
+        "Will the price of Bitcoin be less than $64,000 on April 16?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_612741",
-      "timestamp": "2026-04-14T22:13:56.535279+00:00",
+      "id": "sig_791637",
+      "timestamp": "2026-04-14T22:16:55.431949+00:00",
       "source": "PERPLEXITY",
-      "headline": "House of Representatives advances Trump impeachment debate toward vote, potentially deciding his political fate",
-      "raw": "House of Representatives advances Trump impeachment debate toward vote, potentially deciding his political fate.** | YES | HIGH confidence[1]\n\nThe U.S. House is conducting a live historic floor debate on articles of impeachment against President Trump, with a vote expected later today amid intense Democrat-Republican clashes; the White House calls it a partisan witch hunt, and a Senate trial could",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Solana shows bullish April sentiment (87% above $80), amid DEX volume and pending ETF approvals",
+      "raw": "Solana shows bullish April sentiment (87% above $80), amid DEX volume and pending ETF approvals.[2][3][5]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will the price of Solana be between $60 and $70 on April 15?",
+        "Will the price of Solana be above $100 on April 15?",
+        "Will the price of Solana be above $100 on April 16?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_607986",
-      "timestamp": "2026-04-14T22:13:51.780768+00:00",
+      "id": "sig_791655",
+      "timestamp": "2026-04-14T22:16:55.449971+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence**",
-      "raw": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence**  \nThe US and Iran are discussing a second round of negotiations in Islamabad before the two-week ceasefire\u2014announced April 7\u2014expires early next week, following inconclusive weekend talks, but no deal or extension has been confirmed.[1]",
+      "headline": "Recent non-April confirmations include CME SUI futures (May 4) and Securitize-Nasdaq tokenization on Solana/Ethereum, bu",
+      "raw": "Recent non-April confirmations include CME SUI futures (May 4) and Securitize-Nasdaq tokenization on Solana/Ethereum, but these predate today and lack direct impact on queried assets.[6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be between $60 and $70 on April 15?",
+        "Will the price of Solana be above $100 on April 15?",
+        "Will the price of Solana be above $100 on April 16?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_791664",
+      "timestamp": "2026-04-14T22:16:55.458853+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (no fresh confirmations in results; all data reflects prior or projected events)",
+      "raw": "Confidence: HIGH** (no fresh confirmations in results; all data reflects prior or projected events).[1][2][3][4][5][6]",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_608010",
-      "timestamp": "2026-04-14T22:13:51.804488+00:00",
+      "id": "sig_791646",
+      "timestamp": "2026-04-14T22:16:55.440970+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Begins Naval Blockade of Iranian Ports and Strait of Hormuz | NO | HIGH confidence**",
-      "raw": "US Begins Naval Blockade of Iranian Ports and Strait of Hormuz | NO | HIGH confidence**  \nPresident Trump has imposed a blockade on Iranian shipping, declaring any Iranian fast attack ships approaching US vessels will be eliminated; Tehran vows retaliation amid fragile ceasefire holding with no direct US Navy attacks reported.[2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "XRP faces mixed views: 69% chance below $1",
+      "raw": "XRP faces mixed views: 69% chance below $1.2 in April per Polymarket, historical 24.8% April gains, and CLARITY Act markup expected late April.[2][3][4]",
+      "direction": null,
+      "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will the price of XRP be above $1.60 on April 15?",
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of XRP be above $1.00 on April 16?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_625643",
-      "timestamp": "2026-04-14T22:14:09.437247+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea Annual Inflation Holds at 2",
-      "raw": "South Korea Annual Inflation Holds at 2.0% in February 2026, Unchanged from January and Below Forecasts | NO | LOW confidence**\n\nSouth Korea's annual inflation rate remained steady at **2.0%** in February 2026, matching the Bank of Korea's target and the prior month's figure, while slightly missing market expectations of 2.1%[2]. This follows January's 2.0% reading, a five-month low that also hit ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 0,
+    "enter": 2,
+    "alert": 6,
+    "watch": 1,
     "high_conf": 2
   }
 }
