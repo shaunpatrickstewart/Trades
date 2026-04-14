@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T23:40:03.520709+00:00",
-  "scan_seconds": 59.8,
-  "markets_scanned": 69,
-  "open_positions": 34,
+  "last_scan": "2026-04-14T23:42:54.554504+00:00",
+  "scan_seconds": 30.1,
+  "markets_scanned": 117,
+  "open_positions": 83,
   "signals": [
     {
-      "id": "sig_728942",
-      "timestamp": "2026-04-14T23:39:12.731176+00:00",
+      "id": "sig_949756",
+      "timestamp": "2026-04-14T23:42:53.545493+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire talks collapse; Trump orders Navy blockade of Strait of Hormuz** | NO | HIGH confidence[1][2]",
-      "raw": "US-Iran ceasefire talks collapse; Trump orders Navy blockade of Strait of Hormuz** | NO | HIGH confidence[1][2]\n\nUS-Iran negotiations mediated in Pakistan ended without agreement on April 13, 2026, primarily due to Iran's refusal to abandon nuclear ambitions, prompting President Trump to announce a US Navy blockade of ships entering or leaving the Strait of Hormuz[1][2]. The blockade took effect b",
-      "direction": "NO",
+      "headline": "Germany March 2026 Inflation Confirmed at 2",
+      "raw": "Germany March 2026 Inflation Confirmed at 2.7% | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026, up from 1.9% in February and the highest since January 2024, driven by a 7.2% surge in energy prices including motor fuel (+20%) and heating oil (+44.4%) amid the Iran war.[1][3]  \nThis final confirmation on April 10 matches preliminary estimates and exceeds Februa",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -18,229 +18,92 @@
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_943910",
+      "timestamp": "2026-04-14T23:42:47.699582+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify any breaking news, confirmed announcements, or resolved events in the provided search results that wou",
+      "raw": "I cannot identify any breaking news, confirmed announcements, or resolved events in the provided search results that would move prediction markets.\n\nThe search results contain:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_943936",
+      "timestamp": "2026-04-14T23:42:47.725817+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Speculative price predictions**: YouTube analysts offering long-term forecasts (potential $2 zone in May/June)[4]",
+      "raw": "**Speculative price predictions**: YouTube analysts offering long-term forecasts (potential $2 zone in May/June)[4]\n\nNone of these represent breaking news, official announcements, or newly resolved market events. The prediction market odds reflect ongoing trader sentiment rather than new confirmed information. To identify genuine breaking news that would move markets, you would need sources report",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_928549",
+      "timestamp": "2026-04-14T23:42:32.338717+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US imposes naval blockade on Iranian ports in Strait of Hormuz, Trump vows to eliminate Iranian fast attack ships approa",
+      "raw": "US imposes naval blockade on Iranian ports in Strait of Hormuz, Trump vows to eliminate Iranian fast attack ships approaching US vessels; Tehran threatens retaliation.** | **NO** | **HIGH** confidence[1][3]\n\nCeasefire talks with Iran collapsed days earlier on April 12, with no progress in US-led negotiations in Islamabad, escalating tensions over Iran's nuclear stockpile and Strait of Hormuz contr",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_735007",
-      "timestamp": "2026-04-14T23:39:18.796203+00:00",
+      "id": "sig_943919",
+      "timestamp": "2026-04-14T23:42:47.708384+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Makes Major Announcement Involving Elon Musk, Shocking U",
-      "raw": "Trump Makes Major Announcement Involving Elon Musk, Shocking U.S. Cabinet | YES | HIGH confidence**[1][2]\n\nPresident Donald Trump has announced a significant, unexpected move related to Elon Musk, reportedly stunning the Cabinet and potentially elevating Musk's role in politics or government, amid ongoing tensions like Steve Bannon's calls for Musk's deportation (which Trump did not endorse during",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_741764",
-      "timestamp": "2026-04-14T23:39:25.553892+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Germany Inflation Hits 2-Year High at 2",
-      "raw": "Germany Inflation Hits 2-Year High at 2.7% in March | YES | HIGH confidence**  \nGermany's annual inflation rate reached 2.7% in March 2026, the highest since January 2024, driven by energy prices rising for the first time since 2023, as confirmed by the Federal Statistical Office (Destatis).[3] This exceeds prior forecasts like OECD's 2.9% projection and could shift prediction markets on Eurozone ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_779716",
-      "timestamp": "2026-04-14T23:40:03.505382+00:00",
-      "source": "X_GROK",
-      "headline": "US Navy Drone Loss:** Confirmed $240M drone lost in Persian Gulf last week - bearish signal for Iran ceasefire/end ops b",
-      "raw": "US Navy Drone Loss:** Confirmed $240M drone lost in Persian Gulf last week - bearish signal for Iran ceasefire/end ops bets.[[3]](https://x.com/i/status/2044186426967785802) **NO** on related markets. HIGH confidence (official confirmation).",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ENTER",
-      "x_link": "https://x.com/i/status/2044186426967785802)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_741775",
-      "timestamp": "2026-04-14T23:39:25.564301+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea GDP Growth Forecast Slashed to 1",
-      "raw": "South Korea GDP Growth Forecast Slashed to 1.7% by OECD | YES | MED confidence**  \nOECD lowered South Korea's 2026 GDP growth forecast to 1.7% from 2.1%, citing Middle East conflict risks and energy import dependence, raising stagflation concerns.[1] Supplementary 25 trillion won budget announced but effectiveness doubted; private forecasts like Natexis at 1% add bearish signals for growth markets",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_741770",
-      "timestamp": "2026-04-14T23:39:25.559389+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea Inflation Rises to 2",
-      "raw": "South Korea Inflation Rises to 2.2% in March, Below Forecasts | NO | HIGH confidence**  \nSouth Korea's annual inflation increased to 2.2% in March 2026 from 2.0% prior, but missed market expectations of 2.4%, per Statistics Korea data, signaling contained pressures amid energy volatility.[2] This aligns with Bank of Korea's 2% target and may ease markets betting on rate hikes.[2][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_749448",
-      "timestamp": "2026-04-14T23:39:33.237872+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide a definitive answer to your query based on the search results provided",
-      "raw": "I cannot provide a definitive answer to your query based on the search results provided.\n\nThe search results contain limited and fragmented information related to your request. While result [5] mentions \"Nick Wright's Mock Draft 2.0\" with references to David Bailey and the Chiefs (not the Thunder), and mentions \"FIFA WORLD CUP 2026\u2122,\" there is no clear confirmation, announcement, or resolution con",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_749453",
-      "timestamp": "2026-04-14T23:39:33.242327+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The 2025 NBA champion Oklahoma City Thunder[2]",
-      "raw": "The 2025 NBA champion Oklahoma City Thunder[2]",
+      "headline": "**Price analysis from April 11**: Technical commentary on XRP trading at $1",
+      "raw": "**Price analysis from April 11**: Technical commentary on XRP trading at $1.35 with consolidation patterns[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of XRP be above $1.00 on April 16?",
+        "Will the price of XRP be above $1.00 on April 19?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_749457",
-      "timestamp": "2026-04-14T23:39:33.246841+00:00",
+      "id": "sig_943928",
+      "timestamp": "2026-04-14T23:42:47.717014+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikola Topic's return to play for the Thunder[1]",
-      "raw": "Nikola Topic's return to play for the Thunder[1]",
+      "headline": "**Prediction market odds**: Polymarket traders currently assign 46% probability to XRP trading in the $1",
+      "raw": "**Prediction market odds**: Polymarket traders currently assign 46% probability to XRP trading in the $1.30-1.40 range on April 20, and 74% probability that XRP will reach above $1.40 at some point in April[2][3]",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_749462",
-      "timestamp": "2026-04-14T23:39:33.251424+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Shai Gilgeous-Alexander's performance[3]",
-      "raw": "Shai Gilgeous-Alexander's performance[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_749467",
-      "timestamp": "2026-04-14T23:39:33.256235+00:00",
-      "source": "PERPLEXITY",
-      "headline": "On-court altercations involving Thunder players[6][7]",
-      "raw": "On-court altercations involving Thunder players[6][7]\n\nTo answer your question accurately, I would need search results containing recent breaking news specifically about David Bailey's status with the Thunder, any NBA Draft-related announcements, or World Cup 2026 developments. The current results do not provide sufficient information to confirm or deny any specific development that would move pre",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_779706",
-      "timestamp": "2026-04-14T23:40:03.495490+00:00",
-      "source": "X_GROK",
-      "headline": "Trump Iran Ops End Whale Bet:** Polymarket whale holds position worth $750k payout if Trump announces end of military op",
-      "raw": "Trump Iran Ops End Whale Bet:** Polymarket whale holds position worth $750k payout if Trump announces end of military ops in Iran by Apr 15; Trump just called war \"over\" on Fox.[[1]](https://x.com/i/status/2044195378422030583) **YES** on market. HIGH confidence (imminent deadline, direct news tie-in).",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of XRP be above $1.00 on April 16?",
+        "Will the price of XRP be above $1.00 on April 19?"
       ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044195378422030583)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_779711",
-      "timestamp": "2026-04-14T23:40:03.500424+00:00",
-      "source": "X_GROK",
-      "headline": "Iran Regime Fall Whale:** $600 invested for $30k payout (30k Yes @2\u00a2) on \"Iranian regime falls by Apr 30",
-      "raw": "Iran Regime Fall Whale:** $600 invested for $30k payout (30k Yes @2\u00a2) on \"Iranian regime falls by Apr 30.\"[[2]](https://x.com/i/status/2044185560521068754) **YES**. MED confidence (whale conviction amid Gulf tensions).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044185560521068754)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_779721",
-      "timestamp": "2026-04-14T23:40:03.510357+00:00",
-      "source": "X_GROK",
-      "headline": "Fed Rate Change Bets:** Multiple whales (40k+ & 25k+ shares No @1\u00a2) on \"no Fed rate change Apr 2026\" - betting on hike/c",
-      "raw": "Fed Rate Change Bets:** Multiple whales (40k+ & 25k+ shares No @1\u00a2) on \"no Fed rate change Apr 2026\" - betting on hike/cut.[[4]](https://x.com/i/status/2044078594620563696)[[5]](https://x.com/i/status/2044078469009526937) **YES** on rate change. MED (meeting imminent).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044078594620563696)[[5]](https://x.com/i/status/2044078469009526937)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_779726",
-      "timestamp": "2026-04-14T23:40:03.515357+00:00",
-      "source": "X_GROK",
-      "headline": "Russia-Ukraine Ceasefire:** Whale 26k Yes @9\u00a2 for ceasefire by Jun 30 ($26k payout)",
-      "raw": "Russia-Ukraine Ceasefire:** Whale 26k Yes @9\u00a2 for ceasefire by Jun 30 ($26k payout).[[6]](https://x.com/i/status/2044148499525026235) **YES**. LOW (longer horizon).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044148499525026235)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_779731",
-      "timestamp": "2026-04-14T23:40:03.520390+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tips:** Bots/scanners for edges (e",
-      "raw": "Trending Tips:** Bots/scanners for edges (e.g., Chinese dev $284\u2192$68k); market making over predicting; avoid <10\u00a2 buys per study (top 1% take 84% profits).[[7]](https://x.com/i/status/2044192727861006545)[[8]](https://x.com/i/status/2044167305819763154) Weather asym bets highlighted as mispriced alpha.[[9]](https://x.com/i/status/2043694377143296153)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044192727861006545)[[8]](https://x.com/i/status/2044167305819763154)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_741780",
-      "timestamp": "2026-04-14T23:39:25.569361+00:00",
+      "id": "sig_949764",
+      "timestamp": "2026-04-14T23:42:53.553832+00:00",
       "source": "PERPLEXITY",
-      "headline": "Global Annual Inflation Forecast Upped to 4% for G20 by OECD | YES | MED confidence**",
-      "raw": "Global Annual Inflation Forecast Upped to 4% for G20 by OECD | YES | MED confidence**  \nOECD's interim outlook raised G20 consumer inflation to 4% for 2026 (up 1.2 points), with South Korea at 2.7% and Germany at 2.9%, due to Middle East-driven energy surges.[1] J.P. Morgan sees stable global core CPI at 2.8%, but regional upticks could move broader inflation bets.[1][4]",
+      "headline": "South Korea March 2026 Inflation at 2",
+      "raw": "South Korea March 2026 Inflation at 2.2%, Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, but undershot market expectations of 2.4% while aligning with the Bank of Korea's 2% target.[2]  \nThis recent Statistics Korea release signals contained price pressures despite global energy volatility from the Iran con",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
@@ -252,9 +115,9 @@
     }
   ],
   "stats": {
-    "enter": 4,
-    "alert": 12,
+    "enter": 1,
+    "alert": 5,
     "watch": 1,
-    "high_conf": 5
+    "high_conf": 3
   }
 }
