@@ -1,113 +1,185 @@
 {
-  "last_scan": "2026-04-14T05:05:30.617317+00:00",
-  "scan_seconds": 29.1,
-  "markets_scanned": 67,
-  "open_positions": 36,
+  "last_scan": "2026-04-14T05:08:23.607629+00:00",
+  "scan_seconds": 30.1,
+  "markets_scanned": 117,
+  "open_positions": 86,
   "signals": [
     {
-      "id": "sig_905744",
-      "timestamp": "2026-04-14T05:05:29.600994+00:00",
+      "id": "sig_73321",
+      "timestamp": "2026-04-14T05:08:17.176397+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | South Korea holds interest rates at 2",
-      "raw": "HEADLINE | South Korea holds interest rates at 2.5% amid inflation above target | YES | HIGH confidence**\n\nThe Bank of Korea's Monetary Policy Board announced on April 10, 2026, that it maintained its benchmark interest rate at 2.5% for the 7th consecutive month.[6] This decision came as **consumer prices climbed above the central bank's 2% target**, with inflation recently at approximately 2.2%.[",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full Rollout Confirmed | YES | HIGH confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full Rollout Confirmed | YES | HIGH confidence**\nThe official full-scale rollout of Ripple USD (RLUSD) across the XRP Ledger and Ethereum has been completed as of April 13, 2026, driving record-breaking transaction volume on the XRPL[4].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will the Central Bank of Colombia announce an increase at the April meeting?"
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14",
+        "Will the price of XRP be above $1.70 on April 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_78751",
+      "timestamp": "2026-04-14T05:08:22.606991+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast)** | YES | HIGH confidence[1]\n\nThis data, released around early April 2026 (latest in search results), shows inflation rising modestly but missing higher market expectations amid global energy volatility from Iran conflict, potentially shifting prediction markets on BoK rate cuts (held at 2.5% on Apr 10)[1",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_905739",
-      "timestamp": "2026-04-14T05:05:29.596003+00:00",
+      "id": "sig_56643",
+      "timestamp": "2026-04-14T05:08:00.498762+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent confirmed inflation data is from **early April 2026**:",
-      "raw": "Based on the search results provided, the most recent confirmed inflation data is from **early April 2026**:",
+      "headline": "**Blockade Confirmed Active**: US naval blockade of Iranian ports in the Strait of Hormuz started ~8 hours ago (as of Ap",
+      "raw": "**Blockade Confirmed Active**: US naval blockade of Iranian ports in the Strait of Hormuz started ~8 hours ago (as of Apr 14 reporting), enforcing Trump's demand for full reopening and permanent ceasefire terms after failed weekend talks**[1][3].",
       "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_56672",
+      "timestamp": "2026-04-14T05:08:00.527541+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Market Impact Potential**: No resolution or permanent ceasefire announced\u2014escalation via blockade offsets outreach, li",
+      "raw": "**Market Impact Potential**: No resolution or permanent ceasefire announced\u2014escalation via blockade offsets outreach, likely keeping prediction markets stable or bearish on de-escalation (oil prices reacting)**[1][2].",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_905749",
-      "timestamp": "2026-04-14T05:05:29.605641+00:00",
+      "id": "sig_73337",
+      "timestamp": "2026-04-14T05:08:17.192799+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Inflation pressure:** Surging oil costs are driving prices above the BOK's 2% target, with clear upside risks from ris",
-      "raw": "**Inflation pressure:** Surging oil costs are driving prices above the BOK's 2% target, with clear upside risks from rising global oil prices.[6]",
-      "direction": null,
-      "confidence": 0.78,
+      "headline": "SOL Price Breakdown Confirmed | YES | HIGH confidence**",
+      "raw": "SOL Price Breakdown Confirmed | YES | HIGH confidence**\nSolana completed a head-and-shoulders breakdown on March 27, with technical projections targeting $73 (approximately 15% further decline from current levels near $86)[3].\n\nThese developments represent significant market catalysts: XRP benefits from regulatory clarity and institutional infrastructure expansion, while Solana faces technical pre",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_891291",
-      "timestamp": "2026-04-14T05:05:15.147637+00:00",
+      "id": "sig_56634",
+      "timestamp": "2026-04-14T05:08:00.489539+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Named in New Epstein Files During Kash Patel Senate Testimony, No Trip Confirmation | NO | HIGH confidence**",
-      "raw": "Elon Musk Named in New Epstein Files During Kash Patel Senate Testimony, No Trip Confirmation | NO | HIGH confidence**  \nA six-page document released by Democratic lawmakers lists Elon Musk on a tentative December 6, 2014, itinerary to Epstein's island, with a note questioning if it was still happening; no evidence confirms the trip occurred, and no charges exist.[1]  \nKash Patel faced grilling in",
+      "headline": "US Blockade of Strait of Hormuz Begins; Iran Vows Response but Reaches Out for Talks Amid Fragile Ceasefire | NO | HIGH",
+      "raw": "US Blockade of Strait of Hormuz Begins; Iran Vows Response but Reaches Out for Talks Amid Fragile Ceasefire | NO | HIGH confidence**[1][2][3]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Elon Musk Testify to Congress about Epstein?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_891297",
-      "timestamp": "2026-04-14T05:05:15.153472+00:00",
-      "source": "PERPLEXITY",
-      "headline": "House Passes SAVE America Act on Party-Line Vote Amid Musk/Trump Pressure, Senate Path Blocked | NO | MED confidence**",
-      "raw": "House Passes SAVE America Act on Party-Line Vote Amid Musk/Trump Pressure, Senate Path Blocked | NO | MED confidence**  \nThe GOP-led House approved the voter registration overhaul (218-213) on February 11, 2026, after pushes from Trump and Musk, but Senate Republicans lack votes to overcome a Democratic filibuster; Sen. Lisa Murkowski opposes it as overreach.[2]  \nSenate Majority Leader John Thune",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_905754",
-      "timestamp": "2026-04-14T05:05:29.610268+00:00",
+      "id": "sig_56652",
+      "timestamp": "2026-04-14T05:08:00.507825+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Currency weakness:** The Korean won has weakened significantly to around 1,520 won per U",
-      "raw": "**Currency weakness:** The Korean won has weakened significantly to around 1,520 won per U.S. dollar, complicating inflation management.[6]",
+      "headline": "**Iran's Dual Stance**: Iran condemned blockade as \"piracy,\" vowed \"decisive\" response (jeopardizing ceasefire), but sen",
+      "raw": "**Iran's Dual Stance**: Iran condemned blockade as \"piracy,\" vowed \"decisive\" response (jeopardizing ceasefire), but senior officials reached out to US, signaling willingness to negotiate before Apr 21 deadline**[1][2][3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_56662",
+      "timestamp": "2026-04-14T05:08:00.517825+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Diplomatic Momentum**: Trump stated \"appropriate people\" from Iran called to \"work a deal\"; US internally discussing 2",
+      "raw": "**Diplomatic Momentum**: Trump stated \"appropriate people\" from Iran called to \"work a deal\"; US internally discussing 2nd in-person talks (e.g., Islamabad/Geneva); Iran reportedly proposed 5-year nuclear suspension**[1][2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_73304",
+      "timestamp": "2026-04-14T05:08:17.160011+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results available, here are the market-moving developments:",
+      "raw": "Based on the search results available, here are the market-moving developments:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_905758",
-      "timestamp": "2026-04-14T05:05:29.614961+00:00",
+      "id": "sig_73313",
+      "timestamp": "2026-04-14T05:08:17.168368+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Growth concerns:** Anticipated economic growth is expected to fall below 2% this year",
-      "raw": "**Growth concerns:** Anticipated economic growth is expected to fall below 2% this year.[6]\n\nThe rate hold decision was unanimous and widely anticipated given the external risk environment, particularly the Iran conflict's impact on energy markets.[6]",
-      "direction": "NO",
+      "headline": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**",
+      "raw": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**\nXRP ETF approvals are moving through final stages with institutional adoption at an all-time high, following the resolution of the SEC legal battle[4].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_73329",
+      "timestamp": "2026-04-14T05:08:17.184334+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Drift Protocol $280M Hack (April 1) | YES | HIGH confidence**",
+      "raw": "Solana Drift Protocol $280M Hack (April 1) | YES | HIGH confidence**\nA Solana-based DeFi platform Drift Protocol was hacked on April 1, with attackers withdrawing at least $280 million through sophisticated social engineering targeting Security Council members[6].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $70 on April 14?",
+        "Will the price of Solana be above $60 on April 15?",
+        "Will the price of Solana be above $100 on April 16?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 2,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 5
   }
 }
