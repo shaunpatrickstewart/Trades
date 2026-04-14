@@ -1,99 +1,62 @@
 {
-  "last_scan": "2026-04-14T00:05:35.841464+00:00",
-  "scan_seconds": 27.1,
-  "markets_scanned": 67,
-  "open_positions": 35,
+  "last_scan": "2026-04-14T00:08:05.847392+00:00",
+  "scan_seconds": 26.6,
+  "markets_scanned": 125,
+  "open_positions": 94,
   "signals": [
     {
-      "id": "sig_905176",
-      "timestamp": "2026-04-14T00:05:29.050143+00:00",
+      "id": "sig_45284",
+      "timestamp": "2026-04-14T00:07:49.157114+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
-      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow upgrade, aimed at reducing Solana transaction finality to 100-150 milliseconds, was confirmed via a governance vote with 98.27% in favor, strengthening Solana's position as a high-speed layer-1 blockchain amid strong network activity like $57B DEX volume in March.[2]  \nThis resolution cou",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_892025",
-      "timestamp": "2026-04-14T00:05:15.899652+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Orders US Navy Blockade of Strait of Hormuz on Iranian Ports After Failed Ceasefire Talks | NO | HIGH confidence**",
-      "raw": "Trump Orders US Navy Blockade of Strait of Hormuz on Iranian Ports After Failed Ceasefire Talks | NO | HIGH confidence**  \nCeasefire talks between the US and Iran stalled over the weekend in Pakistan (Islamabad), prompting President Trump to announce and implement a naval blockade starting April 13, 2026, targeting Iranian ships and vessels paying tolls to Iran.[1][2][3][5]  \nTrump vowed to \"kill\"",
+      "headline": "Marathon Peace Talks with Iran Collapse; Trump Orders Strait of Hormuz Blockade | NO | HIGH confidence**",
+      "raw": "Marathon Peace Talks with Iran Collapse; Trump Orders Strait of Hormuz Blockade | NO | HIGH confidence**\n\nThe U.S.-led negotiations with Iran in Islamabad have ended without achieving an agreement as of April 12-13, 2026.[1][2] Following the failed talks, **Donald Trump announced a U.S. Navy blockade of the Strait of Hormuz**, though U.S. Central Command subsequently clarified that forces would ta",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by J",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_910930",
-      "timestamp": "2026-04-14T00:05:34.804896+00:00",
+      "id": "sig_55743",
+      "timestamp": "2026-04-14T00:07:59.616839+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea holding benchmark interest rate at 2",
-      "raw": "Bank of Korea holding benchmark interest rate at 2.5% on April 10, 2026, citing inflation at ~2.2% (above 2% target) amid oil price surges and won weakness\u2014widely anticipated, not new[3].",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "XRP ETF Inflows Top BTC/ETH Amid Senate CLARITY Act Momentum | YES | HIGH confidence**",
+      "raw": "XRP ETF Inflows Top BTC/ETH Amid Senate CLARITY Act Momentum | YES | HIGH confidence**\n\nOn April 12, 2026, XRP ETFs recorded $3.3M net inflows\u2014the highest among major cryptos\u2014while Bitcoin ETFs saw $159M outflows and Ethereum $64M, signaling institutional rotation to XRP as a neutral asset during risk-off conditions.[3] Weekly XRP inflows reached $19.3M with AUM surging to $2.46B, alongside on-cha",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the price of Bitcoin be above $72,000 on April 16?"
+        "Will Bitcoin dip to $70,000 on April 13?",
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of XRP be between $1.60 and $1.70 on April 14"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_910935",
-      "timestamp": "2026-04-14T00:05:34.809816+00:00",
+      "id": "sig_50282",
+      "timestamp": "2026-04-14T00:07:54.155505+00:00",
       "source": "PERPLEXITY",
-      "headline": "Annual inflation at 2",
-      "raw": "Annual inflation at 2.2% in March 2026 (up from 2.0% in Jan/Feb), below forecasts; February held at 2.0% on target[1][2].",
+      "headline": "NO NEW BREAKING NEWS | NO | HIGH confidence**",
+      "raw": "NO NEW BREAKING NEWS | NO | HIGH confidence**  \nNo confirmed announcements, resolutions, or updates as of April 14, 2026, involving New Mexico Governor Michelle Lujan Grisham (Democrat, incumbent since 2022 win over Republican Mark Ronchetti), Will Duke Rodriguez, or Republican gubernatorial election developments that would impact prediction markets.[1][2][4][5] Search results cover the 2022 elect",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will Duke Rodriguez win the 2026 New Mexico Governor Republi"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_910941",
-      "timestamp": "2026-04-14T00:05:34.815053+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market turmoil from Middle East conflict (Iran Strait blockade), with won at 1,517/USD and KOSPI plunge, plus OECD raisi",
-      "raw": "Market turmoil from Middle East conflict (Iran Strait blockade), with won at 1,517/USD and KOSPI plunge, plus OECD raising 2026 inflation forecast to 2.7%\u2014ongoing pressures, no fresh resolutions[4][5][7].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_910946",
-      "timestamp": "2026-04-14T00:05:34.820615+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HIGH confidence** (search results cover up to early April 2026 with no post-April 10 events; prior data like January's 2",
-      "raw": "HIGH confidence** (search results cover up to early April 2026 with no post-April 10 events; prior data like January's 2.0% low is stale)[1][2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
     "high_conf": 1
   }
