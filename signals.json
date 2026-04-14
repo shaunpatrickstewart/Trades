@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T23:55:25.061786+00:00",
-  "scan_seconds": 55.7,
+  "last_scan": "2026-04-14T23:58:30.936426+00:00",
+  "scan_seconds": 44.8,
   "markets_scanned": 69,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_652932",
-      "timestamp": "2026-04-14T23:54:36.720122+00:00",
+      "id": "sig_850048",
+      "timestamp": "2026-04-14T23:57:53.836062+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire talks collapse; Trump enacts naval blockade of Strait of Hormuz after failed Pakistan mediation | NO |",
-      "raw": "US-Iran ceasefire talks collapse; Trump enacts naval blockade of Strait of Hormuz after failed Pakistan mediation | NO | HIGH confidence**  \nUS-Iran negotiations in Pakistan ended without agreement on Sunday, April 13, primarily due to Iran's refusal to abandon nuclear ambitions, prompting President Trump to announce and implement a US Navy blockade of ships entering or leaving the Strait of Hormu",
+      "headline": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | MED confidence**",
+      "raw": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | MED confidence**\n\nNo new ceasefire confirmation, announcement, or resolution today (April 14, 2026); instead, reports indicate ongoing discussions for a second round of negotiations in Islamabad before the existing 2-week ceasefire\u2014announced April 7\u2014expires early next week, amid a US blockade on Iranian ports in the Strait o",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,11 +22,11 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_662796",
-      "timestamp": "2026-04-14T23:54:46.584674+00:00",
+      "id": "sig_863356",
+      "timestamp": "2026-04-14T23:58:07.144860+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany March 2026 Inflation Confirmed at 2",
-      "raw": "Germany March 2026 Inflation Confirmed at 2.7% YoY, Up from 1.9% in February | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026, confirming preliminary estimates and marking the highest since January 2024, driven by a 7.2% energy price surge (fuel up 20%, heating oil up 44.4%).[1] This acceleration exceeds the ECB's 2% target and could shift prediction markets o",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.16-2.2% YoY, Up Slightly from 2.0% but Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.16% in March 2026 from 2.00% in February, with monthly inflation at 0.34%; this missed market expectations of 2.4% and remains near the Bank of Korea's 2% target.[1][2]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -37,116 +37,115 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_670451",
-      "timestamp": "2026-04-14T23:54:54.239821+00:00",
+      "id": "sig_863361",
+      "timestamp": "2026-04-14T23:58:07.149927+00:00",
       "source": "PERPLEXITY",
-      "headline": "No information about a \"group,\" current finals, or world cup related to these topics",
-      "raw": "No information about a \"group,\" current finals, or world cup related to these topics\n\nThe results appear to be from different sports contexts (NFL draft coverage mixed with past NBA championship information) and don't contain a cohesive news event that matches your query parameters. Additionally, some information is dated (the 2025 NBA Finals already occurred[3]).\n\nTo provide accurate breaking new",
-      "direction": "NO",
+      "headline": "Germany March 2026 Inflation Confirmed at 2",
+      "raw": "Germany March 2026 Inflation Confirmed at 2.7% YoY, Up Sharply from 1.9% on Energy Spike | YES | HIGH confidence**  \nGermany's annual inflation accelerated to 2.7% in March 2026 from 1.9% in February, matching preliminary estimates and the highest since January 2024, driven by a 7.2% energy price surge including 20% in fuel.[3]  \n\nNo breaking GDP announcements for South Korea or Germany confirmed ",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
-        "Will Germany win Group E in the 2026 FIFA World Cup?",
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_670437",
-      "timestamp": "2026-04-14T23:54:54.225129+00:00",
+      "id": "sig_868280",
+      "timestamp": "2026-04-14T23:58:12.068530+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a breaking news answer in the format you've requested because the search results do not contain relevan",
-      "raw": "I cannot provide a breaking news answer in the format you've requested because the search results do not contain relevant information about the query components you've specified.\n\nThe search results mention:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_670441",
-      "timestamp": "2026-04-14T23:54:54.229915+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**David Bailey** in relation to NFL draft prospects (edge rusher), not the Oklahoma City Thunder or a group[4]",
-      "raw": "**David Bailey** in relation to NFL draft prospects (edge rusher), not the Oklahoma City Thunder or a group[4]",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "2026 FIFA World Cup Groups Finalized After Draw Completion | YES | HIGH confidence**",
+      "raw": "2026 FIFA World Cup Groups Finalized After Draw Completion | YES | HIGH confidence**  \nThe 2026 FIFA World Cup final draw has been completed, locking in all 12 groups for the tournament starting June 11, including **Germany** in **Group E** with Cura\u00e7ao, Ivory Coast, and Ecuador.[4][5] Top two teams per group plus the eight best third-place teams advance to the Round of 32; all groups show 0 point",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
-        "Will David Bailey be the second pick in the 2026 NFL draft?"
+        "Will Germany win Group E in the 2026 FIFA World Cup?",
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Will France win Group I in the 2026 FIFA World Cup?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_670446",
-      "timestamp": "2026-04-14T23:54:54.234714+00:00",
+      "id": "sig_857622",
+      "timestamp": "2026-04-14T23:58:01.410671+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Oklahoma City Thunder** as the 2025 NBA champions who declined a White House visit due to timing conflicts[2], not cur",
-      "raw": "**Oklahoma City Thunder** as the 2025 NBA champions who declined a White House visit due to timing conflicts[2], not current breaking news about finals or world cup events",
-      "direction": null,
+      "headline": "HIGH confidence** no matching breaking news, as results lack any unified April 2026 confirmation impacting markets like",
+      "raw": "HIGH confidence** no matching breaking news, as results lack any unified April 2026 confirmation impacting markets like those on Polymarket. [2][6]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_701258",
-      "timestamp": "2026-04-14T23:55:25.046169+00:00",
+      "id": "sig_887128",
+      "timestamp": "2026-04-14T23:58:30.916668+00:00",
       "source": "X_GROK",
-      "headline": "Poly Terminal tool for Polymarket edges**: Scanning 100+ markets live for mispriced opportunities (e",
-      "raw": "Poly Terminal tool for Polymarket edges**: Scanning 100+ markets live for mispriced opportunities (e.g., BTC move noted). Signals potential YES/NO alpha across markets; confidence MED.[[1]](https://x.com/i/status/2044147558763688427)[[2]](https://x.com/i/status/2044125468358594763)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044147558763688427)[[2]](https://x.com/i/status/2044125468358594763)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_701263",
-      "timestamp": "2026-04-14T23:55:25.051228+00:00",
-      "source": "X_GROK",
-      "headline": "Top Polymarket traders spotting mispriced markets early**: Consistent 40-50% weekly returns by acting on timing/convicti",
-      "raw": "Top Polymarket traders spotting mispriced markets early**: Consistent 40-50% weekly returns by acting on timing/conviction before obvious. Implies ongoing mispricing exploitable; confidence HIGH for smart money edge.[[3]](https://x.com/i/status/2044010027850076670)",
+      "headline": "Polymarket traders on X focusing on whale tracking tools, sports bets, and BTC end-month prices",
+      "raw": "Polymarket traders on X focusing on whale tracking tools, sports bets, and BTC end-month prices.**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044010027850076670)",
+      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_701268",
-      "timestamp": "2026-04-14T23:55:25.056227+00:00",
+      "id": "sig_887133",
+      "timestamp": "2026-04-14T23:58:30.921615+00:00",
       "source": "X_GROK",
-      "headline": "Polymarket research trends**: Top 1% capture 84% gains; avoid buying <10\u00a2 (overpriced)",
-      "raw": "Polymarket research trends**: Top 1% capture 84% gains; avoid buying <10\u00a2 (overpriced). Market makers win; signals NO for low-prob buys, YES for maker strategies. Confidence HIGH.[[4]](https://x.com/i/status/2044167305819763154)",
+      "headline": "**Whale copy-trading tools trending**: PolyTechTrade, Nansen CLI, and Whale Watcher enable real-time smart money trackin",
+      "raw": "**Whale copy-trading tools trending**: PolyTechTrade, Nansen CLI, and Whale Watcher enable real-time smart money tracking and auto-execution on Polymarket; multiple promos urge copying top wallets for alpha.[[1]](https://x.com/i/status/2044156147712561175)[[2]](https://x.com/i/status/2043960221987373224)[[3]](https://x.com/i/status/2043826495861252589) Means edge for following YES/NO on whale posi",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044167305819763154)",
+      "x_link": "https://x.com/i/status/2044156147712561175)[[2]](https://x.com/i/status/2043960221987373224)[[3]](https://x.com/i/status/2043826495861252589)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_701273",
-      "timestamp": "2026-04-14T23:55:25.061550+00:00",
+      "id": "sig_887138",
+      "timestamp": "2026-04-14T23:58:30.926427+00:00",
       "source": "X_GROK",
-      "headline": "Whale spotlight - Professional Punter ($286k profit)**: Big wins like Kevin Warsh Fed YES (+$83k at 43\u00a2), OpenAI browser",
-      "raw": "Whale spotlight - Professional Punter ($286k profit)**: Big wins like Kevin Warsh Fed YES (+$83k at 43\u00a2), OpenAI browser YES (+$24k). Monitors geopolitics/tech live; fades hype. Copy-trading tip trending; confidence HIGH for similar live plays.[[5]](https://x.com/i/status/2044078695263154178)\n\nNo specific imminent market mispricings called out; buzz on tools, research, and proven punters. Low volu",
+      "headline": "**Liverpool vs PSG UCL BTTS**: Market at 70% YES for Both Teams To Score tonight (PSG leads 2-0); top 0",
+      "raw": "**Liverpool vs PSG UCL BTTS**: Market at 70% YES for Both Teams To Score tonight (PSG leads 2-0); top 0.01% trader ($3.5M PNL) fading PSG win with $338k bet. Chaos expected.[[4]](https://x.com/i/status/2044130178784178626) YES for BTTS. Confidence: MED (whale conviction + logic).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Clube N\u00e1utico Capibaribe vs. S\u00e3o Bernardo FC: Both Teams to Score"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044130178784178626)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_887143",
+      "timestamp": "2026-04-14T23:58:30.931375+00:00",
+      "source": "X_GROK",
+      "headline": "**BTC April 2026 price target**: Volatile market amid fear (index 21, BTC ~$74k); smart money buying for $80k+ squeeze b",
+      "raw": "**BTC April 2026 price target**: Volatile market amid fear (index 21, BTC ~$74k); smart money buying for $80k+ squeeze by month-end.[[5]](https://x.com/i/status/2044000209546686501) YES for $80k+ bins. Confidence: MED (sentiment divergence).",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044078695263154178)",
+      "x_link": "https://x.com/i/status/2044000209546686501)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_887148",
+      "timestamp": "2026-04-14T23:58:30.936123+00:00",
+      "source": "X_GROK",
+      "headline": "**Polymarket LP farming**: Passive alpha via rewards/$POLY airdrop; copy top LPs",
+      "raw": "**Polymarket LP farming**: Passive alpha via rewards/$POLY airdrop; copy top LPs.[[6]](https://x.com/i/status/2043945104814338131) Means farm high-yield pools. Confidence: LOW (general tip).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2043945104814338131)",
       "category": "COMMUNITY"
     }
   ],
