@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T19:25:22.094788+00:00",
-  "scan_seconds": 28.9,
+  "last_scan": "2026-04-14T19:26:28.483660+00:00",
+  "scan_seconds": 31.8,
   "markets_scanned": 64,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_479369",
-      "timestamp": "2026-04-14T19:25:03.173053+00:00",
+      "id": "sig_547002",
+      "timestamp": "2026-04-14T19:26:10.806977+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | M",
-      "raw": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | MED confidence** [1]\n\nA two-week ceasefire between the US and Iran is in place, set to expire around April 21, 2026, with sources indicating both sides are considering fresh negotiations for a larger deal.[1] President Trump has initiated a US naval blockade of the Strait of Hormu",
+      "headline": "US Begins Blockade of Iranian Ports in Strait of Hormuz After Failed Peace Talks | NO | HIGH confidence** [3]",
+      "raw": "US Begins Blockade of Iranian Ports in Strait of Hormuz After Failed Peace Talks | NO | HIGH confidence** [3]\n\nThe US military has initiated a blockade of all traffic to and from Iranian ports, announced on April 14, 2026, following the collapse of weekend negotiations in Islamabad[3][2][4]. President Trump authorized the move to pressure Iran amid a fragile two-week ceasefire (announced April 7, ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,40 +22,40 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_491901",
-      "timestamp": "2026-04-14T19:25:15.705233+00:00",
+      "id": "sig_563678",
+      "timestamp": "2026-04-14T19:26:27.482641+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record of 167 Million Monthly Token Holders Amid Alpenglow Upgrade Momentum | YES | HIGH confidence",
-      "raw": "Solana Hits All-Time Record of 167 Million Monthly Token Holders Amid Alpenglow Upgrade Momentum | YES | HIGH confidence**[1]\n\nOn April 14, 2026, Solana achieved a network record of 167 million monthly token holders and 148 million daily non-vote transactions, driving a reported 10% SOL price surge tied to the Alpenglow consensus upgrade promising 150ms transaction finality.[1] This real-time perf",
+      "headline": "South Korea March 2026 Annual CPI Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual CPI Inflation Confirmed at 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's headline annual CPI inflation rose to 2.16% in March 2026 from 2.00% in February, marking a recent uptick driven by a 0.34% month-on-month increase, as reported by Statistics Korea via rateinflation.com[2]. This data, published post-February's steady 2.0% reading amid government fresh food ",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_497290",
-      "timestamp": "2026-04-14T19:25:21.094215+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Key Rate at 2",
-      "raw": "Bank of Korea Holds Key Rate at 2.5% for 7th Straight Meeting Amid March 2026 Inflation at 2.2% YoY | NO | HIGH confidence** [4][2]\n\nNo breaking announcements today (April 14, 2026) confirm, resolve, or newly report South Korea's annual inflation data that would shift prediction markets; the most recent is the BoK's rate freeze decision (likely early April), citing March CPI at **2.2% YoY** (up fr",
-      "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_557092",
+      "timestamp": "2026-04-14T19:26:20.896492+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026** | YES",
+      "raw": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026** | YES | HIGH confidence[1][5]\n\nSolana's network achieved these all-time highs today, signaling unprecedented adoption amid the Alpenglow consensus upgrade progressing toward 150ms transaction finality, which could boost scalability and attract prediction market bets on performance[1].",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 0,
+    "watch": 1,
+    "high_conf": 2
   }
 }
