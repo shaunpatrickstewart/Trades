@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T19:26:28.483660+00:00",
-  "scan_seconds": 31.8,
+  "last_scan": "2026-04-14T19:27:33.497222+00:00",
+  "scan_seconds": 36.6,
   "markets_scanned": 64,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_547002",
-      "timestamp": "2026-04-14T19:26:10.806977+00:00",
+      "id": "sig_605320",
+      "timestamp": "2026-04-14T19:27:09.124243+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Begins Blockade of Iranian Ports in Strait of Hormuz After Failed Peace Talks | NO | HIGH confidence** [3]",
-      "raw": "US Begins Blockade of Iranian Ports in Strait of Hormuz After Failed Peace Talks | NO | HIGH confidence** [3]\n\nThe US military has initiated a blockade of all traffic to and from Iranian ports, announced on April 14, 2026, following the collapse of weekend negotiations in Islamabad[3][2][4]. President Trump authorized the move to pressure Iran amid a fragile two-week ceasefire (announced April 7, ",
-      "direction": "YES",
+      "headline": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires; Trump Reports Iranian Outreach Amid Ongoing Port Blockade",
+      "raw": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires; Trump Reports Iranian Outreach Amid Ongoing Port Blockade** | **NO** | **HIGH** confidence[1][2]\n\nNo ceasefire extension, resolution, or nuclear deal has been confirmed or announced as of April 14, 2026. Weekend talks in Islamabad ended without agreement, but both sides are eyeing new negotiations this week before the two-week ceasefir",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,12 +22,12 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_563678",
-      "timestamp": "2026-04-14T19:26:27.482641+00:00",
+      "id": "sig_628672",
+      "timestamp": "2026-04-14T19:27:32.476969+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual CPI Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual CPI Inflation Confirmed at 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's headline annual CPI inflation rose to 2.16% in March 2026 from 2.00% in February, marking a recent uptick driven by a 0.34% month-on-month increase, as reported by Statistics Korea via rateinflation.com[2]. This data, published post-February's steady 2.0% reading amid government fresh food ",
-      "direction": "YES",
+      "headline": "South Korea's Bank of Korea holds benchmark interest rate at 2",
+      "raw": "South Korea's Bank of Korea holds benchmark interest rate at 2.5% for 7th consecutive month | NO | HIGH confidence** [4]\n\nThis decision, announced on April 10, 2026, cites persistent inflationary pressures around 2.2% (above the 2% target), rising oil prices from Middle East conflict, and a weakened won at ~1,520/USD, offsetting prior moderation to 2.0% in Jan-Feb 2026.[1][2][4] No rate cut occurr",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -37,25 +37,38 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_557092",
-      "timestamp": "2026-04-14T19:26:20.896492+00:00",
+      "id": "sig_616178",
+      "timestamp": "2026-04-14T19:27:19.982367+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026** | YES",
-      "raw": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026** | YES | HIGH confidence[1][5]\n\nSolana's network achieved these all-time highs today, signaling unprecedented adoption amid the Alpenglow consensus upgrade progressing toward 150ms transaction finality, which could boost scalability and attract prediction market bets on performance[1].",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results contain information about Randy Fine's political career through early 2026, but they do not include any breaking announcements, confirmations, or resolutions from today (April 14, 2026) that would move prediction markets.\n\nThe most recent content in the search results is from March 29, 2",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_623348",
+      "timestamp": "2026-04-14T19:27:27.152460+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Surges 10% on Record 167M Monthly Token Holders and Alpenglow Upgrade Boosting Network to 150ms Finality |",
+      "raw": "Solana (SOL) Surges 10% on Record 167M Monthly Token Holders and Alpenglow Upgrade Boosting Network to 150ms Finality | YES | HIGH confidence** [1]\n\nThis breaking development, reported as of April 14, 2026, confirms Solana's all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, directly tied to the anticipated **Alpenglow consensus upgrade** reducing trans",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
         "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 0,
-    "watch": 1,
+    "alert": 2,
+    "watch": 0,
     "high_conf": 2
   }
 }
