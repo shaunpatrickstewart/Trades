@@ -1,140 +1,77 @@
 {
-  "last_scan": "2026-04-14T05:28:25.766196+00:00",
-  "scan_seconds": 27.8,
-  "markets_scanned": 63,
+  "last_scan": "2026-04-14T05:31:15.102596+00:00",
+  "scan_seconds": 29.4,
+  "markets_scanned": 62,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_280888",
-      "timestamp": "2026-04-14T05:28:24.742036+00:00",
+      "id": "sig_430408",
+      "timestamp": "2026-04-14T05:30:54.262808+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY, Up from 2.00% in February | YES | HIGH confidence**[1]\n\nThis figure, just released for March 2026, marks a 0.16 percentage point increase and exceeds the Bank of Korea's 2% target amid rising oil prices and a weakening won (recently at 1,520 per USD), potentially influencing prediction markets on BoK rate decisions or economic forecas",
+      "headline": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 p",
+      "raw": "Trump Announces Two-Week Ceasefire with Iran Ahead of 8 p.m. Deadline | YES | HIGH confidence**  \nPresident Donald Trump announced Tuesday evening that the U.S. reached a two-week ceasefire agreement with Iran, averting escalation just before an 8 p.m. ET deadline amid threats over the Strait of Hormuz closure.[1]  \nThis follows Trump's morning social media warning of severe consequences if no dea",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will the Central Bank of Colombia announce an increase at the April meeting?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_276320",
-      "timestamp": "2026-04-14T05:28:20.174736+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or recent market-moving announcements from the provided search results",
-      "raw": "I cannot identify breaking news or recent market-moving announcements from the provided search results. The search results contain **price predictions and historical analysis** from early April 2026, but they do not document specific breaking news, confirmed announcements, or resolved events that would move prediction markets as of April 14, 2026.\n\nThe most recent concrete data point is from April",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_262142",
-      "timestamp": "2026-04-14T05:28:05.996747+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Blockade of Iranian Ports in Strait of Hormuz Begins After Failed Ceasefire Talks | NO | HIGH confidence**",
-      "raw": "US Blockade of Iranian Ports in Strait of Hormuz Begins After Failed Ceasefire Talks | NO | HIGH confidence**  \nThe US naval blockade took effect around midnight Australian Eastern time (late April 13 UTC), enforcing control over access to Iran's ports to compel reopening of the Strait and a permanent ceasefire, following collapsed talks in Islamabad led by VP JD Vance[1][2][3].  \nPresident Trump ",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_276324",
-      "timestamp": "2026-04-14T05:28:20.178962+00:00",
+      "id": "sig_436259",
+      "timestamp": "2026-04-14T05:31:00.113820+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time market news from April 14, 2026",
-      "raw": "Real-time market news from April 14, 2026",
-      "direction": null,
+      "headline": "JD Vance Urges Elon Musk to Rejoin MAGA Ahead of Midterms Amid Ongoing Trump Rift | NO | LOW confidence**",
+      "raw": "JD Vance Urges Elon Musk to Rejoin MAGA Ahead of Midterms Amid Ongoing Trump Rift | NO | LOW confidence**\n\nUS Vice President **JD Vance** expressed hope that **Elon Musk**, former Department of Government Efficiency chief, will return to the MAGA movement by the **midterms**, citing a strained relationship with President Trump over the \"Big Beautiful Bill.\"[1] Vance stated, \"My hope is that by the",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_276329",
-      "timestamp": "2026-04-14T05:28:20.183021+00:00",
+      "id": "sig_450239",
+      "timestamp": "2026-04-14T05:31:14.093799+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent regulatory announcements",
-      "raw": "Recent regulatory announcements",
-      "direction": null,
+      "headline": "South Korea March 2026 Inflation at 2",
+      "raw": "South Korea March 2026 Inflation at 2.2% YoY (Released April 2) | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% prior, but undershot market forecasts of 2.4%; core inflation eased to 2.2% from 2.3%.[1][2] This data, released on April 2 by the Ministry of Data and Statistics, showed monthly CPI up 0.3% (below 0.6% expected), with petroleum up",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_276333",
-      "timestamp": "2026-04-14T05:28:20.187340+00:00",
+      "id": "sig_450244",
+      "timestamp": "2026-04-14T05:31:14.098719+00:00",
       "source": "PERPLEXITY",
-      "headline": "Protocol upgrades or technical developments",
-      "raw": "Protocol upgrades or technical developments",
-      "direction": null,
+      "headline": "Bank of Korea Holds Rate at 2",
+      "raw": "Bank of Korea Holds Rate at 2.5% (April 10 Decision) | NO | HIGH confidence**  \nThe Bank of Korea unanimously kept its benchmark rate at 2.5% for the 7th month on April 10, citing inflation above 2% target (recently 2.2%), rising oil prices, weak won (1,520/USD), and growth below 2% forecast; no easing signaled despite prior March data.[5][6] BOK now expects headline inflation to exceed prior 2.2%",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_276337",
-      "timestamp": "2026-04-14T05:28:20.191649+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETF flow data or institutional news",
-      "raw": "ETF flow data or institutional news",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_276341",
-      "timestamp": "2026-04-14T05:28:20.195884+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Macroeconomic events affecting crypto markets",
-      "raw": "Macroeconomic events affecting crypto markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_276346",
-      "timestamp": "2026-04-14T05:28:20.200228+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I recommend:** Search for current news from crypto news outlets (CoinDesk, The Block, BeInCrypto) or market data platfor",
-      "raw": "I recommend:** Search for current news from crypto news outlets (CoinDesk, The Block, BeInCrypto) or market data platforms for today's breaking developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 8,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
