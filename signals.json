@@ -1,62 +1,109 @@
 {
-  "last_scan": "2026-04-14T19:20:32.269052+00:00",
-  "scan_seconds": 27.9,
+  "last_scan": "2026-04-14T19:21:45.417044+00:00",
+  "scan_seconds": 40.2,
   "markets_scanned": 119,
   "open_positions": 89,
   "signals": [
     {
-      "id": "sig_191945",
-      "timestamp": "2026-04-14T19:20:15.749056+00:00",
+      "id": "sig_257611",
+      "timestamp": "2026-04-14T19:21:21.415627+00:00",
       "source": "PERPLEXITY",
-      "headline": "Two-Week Iran Ceasefire Holding; U",
-      "raw": "Two-Week Iran Ceasefire Holding; U.S. and Iran Considering Extended Negotiations** | YES | HIGH confidence\n\nA **two-week ceasefire between the U.S. and Iran is currently in effect and set to expire on April 21st**[2][3]. The ceasefire was announced by President Trump ahead of an 8 p.m. deadline on April 7th, contingent on Iran opening the Strait of Hormuz[1].",
+      "headline": "Ceasefire Status:** A two-week ceasefire between the U",
+      "raw": "Ceasefire Status:** A two-week ceasefire between the U.S. and Iran was announced on April 7, 2026, setting up a negotiation window that expires early next week (around April 21).[1][2]",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_257594",
+      "timestamp": "2026-04-14T19:21:21.398167+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** \u2013 significant developments have been confirmed",
+      "raw": "YES** \u2013 significant developments have been confirmed",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_257628",
+      "timestamp": "2026-04-14T19:21:21.432985+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Escalatory Action:** Following the failed negotiations, President Trump announced Sunday that the U",
+      "raw": "Escalatory Action:** Following the failed negotiations, President Trump announced Sunday that the U.S. Navy would restrict all maritime traffic through the Strait of Hormuz, and the U.S. Central Command is maintaining a blockade of all Iranian ports.[3]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_265791",
+      "timestamp": "2026-04-14T19:21:29.595657+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nothing \"just confirmed\" \u2013 prior stories (e",
+      "raw": "Nothing \"just confirmed\" \u2013 prior stories (e.g., Apr 12 RNC endorsement dustup) already priced in.\n\nIf something breaks post-7 PM UTC, check live wires like @Reuters or TruthSocial.com/trump.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_257576",
+      "timestamp": "2026-04-14T19:21:21.380879+00:00",
+      "source": "PERPLEXITY",
+      "headline": "# Breaking News: US-Iran Ceasefire and Escalation",
+      "raw": "# Breaking News: US-Iran Ceasefire and Escalation",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_257585",
+      "timestamp": "2026-04-14T19:21:21.389549+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE:** Trump implements naval blockade of Iranian ports as ceasefire negotiations stall; fresh talks planned before",
+      "raw": "HEADLINE:** Trump implements naval blockade of Iranian ports as ceasefire negotiations stall; fresh talks planned before April 21 deadline",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_202694",
-      "timestamp": "2026-04-14T19:20:26.498146+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Drift Protocol Hack on Solana Confirmed: $280M Stolen in Multisig Exploit** | YES | HIGH confidence[6]",
-      "raw": "Drift Protocol Hack on Solana Confirmed: $280M Stolen in Multisig Exploit** | YES | HIGH confidence[6]\n\nSolana-based DeFi platform Drift Protocol suffered a major hack on April 1, 2026, with attackers using social engineering to compromise multisig wallets and withdraw at least $280 million in assets including wrapped BTC, Jito tokens, Fartcoin, and stablecoins[6]. The team confirmed the breach, s",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Bitcoin dip to $67,000 on April 14?",
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_191980",
-      "timestamp": "2026-04-14T19:20:15.784541+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Market reaction positive**: Stocks rose and oil declined as these ceasefire extension talks were announced, indicating",
-      "raw": "**Market reaction positive**: Stocks rose and oil declined as these ceasefire extension talks were announced, indicating investor confidence in a longer-term deal[3].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_191954",
-      "timestamp": "2026-04-14T19:20:15.758259+00:00",
+      "id": "sig_257602",
+      "timestamp": "2026-04-14T19:21:21.406570+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key developments moving prediction markets:**",
-      "raw": "Key developments moving prediction markets:**",
+      "headline": "HIGH confidence**",
+      "raw": "HIGH confidence**\n\n## Key Developments",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -65,11 +112,11 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_191971",
-      "timestamp": "2026-04-14T19:20:15.775756+00:00",
+      "id": "sig_257620",
+      "timestamp": "2026-04-14T19:21:21.424172+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Nuclear negotiations narrowing**: The U",
-      "raw": "**Nuclear negotiations narrowing**: The U.S. and Iran have traded proposals on Iranian nuclear activities, with Iran proposing a five-year suspension versus the U.S.'s initial demand for a 20-year moratorium[4]. This represents movement toward potential compromise.",
+      "headline": "Failed Negotiations:** Weekend talks in Islamabad concluded without a deal",
+      "raw": "Failed Negotiations:** Weekend talks in Islamabad concluded without a deal.[2]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -78,15 +125,15 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_191989",
-      "timestamp": "2026-04-14T19:20:15.793579+00:00",
+      "id": "sig_257637",
+      "timestamp": "2026-04-14T19:21:21.441688+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Countervailing pressure**: Trump simultaneously initiated a U",
-      "raw": "**Countervailing pressure**: Trump simultaneously initiated a U.S. naval blockade of the Strait of Hormuz to increase pressure on Tehran[3], though China has warned against obstruction of Chinese vessels[4].\n\nThe immediate market-moving confirmation is that substantive negotiations are resuming before the April 21st ceasefire expiration, reducing the risk of immediate escalation.",
-      "direction": "YES",
+      "headline": "Ongoing Diplomacy:** Despite the blockade, Trump stated that Iran has called seeking to negotiate, saying \"we've been ca",
+      "raw": "Ongoing Diplomacy:** Despite the blockade, Trump stated that Iran has called seeking to negotiate, saying \"we've been called by the other side\" and \"they want to work a deal.\"[3] Both sides remain open to further discussions, with U.S. officials pushing for Iran to remove nuclear material from the country.[2]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "Will Trump announce that the US x Iran ceasefire has been br"
       ],
@@ -95,42 +142,67 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_207442",
-      "timestamp": "2026-04-14T19:20:31.246422+00:00",
+      "id": "sig_257646",
+      "timestamp": "2026-04-14T19:21:21.450523+00:00",
       "source": "PERPLEXITY",
-      "headline": "SOUTH KOREA MARCH 2026 ANNUAL INFLATION RISES TO 2",
-      "raw": "SOUTH KOREA MARCH 2026 ANNUAL INFLATION RISES TO 2.2% | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4%.[1] This figure aligns closely with another report of 2.16% year-over-year for March, up from 2.00% prior.[3]  \nNo evidence of announcements or resolutions today (April 14, 2026) impact",
+      "headline": "Prediction Market Impact:** The combination of escalating military pressure (port blockade, Strait of Hormuz restriction",
+      "raw": "Prediction Market Impact:** The combination of escalating military pressure (port blockade, Strait of Hormuz restrictions) alongside simultaneous diplomatic outreach creates significant uncertainty about whether negotiations will succeed before the ceasefire expires. The tight timeline\u2014negotiations needed this week according to reporting\u2014adds market-moving volatility.[2]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_191962",
-      "timestamp": "2026-04-14T19:20:15.766950+00:00",
+      "id": "sig_265767",
+      "timestamp": "2026-04-14T19:21:29.571029+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Active negotiations resuming**: The U",
-      "raw": "**Active negotiations resuming**: The U.S. and Iran are weighing a return to peace talks in Pakistan to extend the ceasefire before it expires[3]. Reuters and the Associated Press report negotiations could resume as early as the end of this week, though no date has been finalized[4].",
+      "headline": "NO RECENT BREAKING NEWS** | NO | HIGH confidence",
+      "raw": "NO RECENT BREAKING NEWS** | NO | HIGH confidence\n\nNo confirmed announcements, resolutions, or developments today (April 14, 2026) involving Trump, Republicans, the election, or Truth Social that would materially move prediction markets like Polymarket or Kalshi.",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
+        "Will Donald Trump post 60-79 Truth Social posts from April 1"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_265775",
+      "timestamp": "2026-04-14T19:21:29.579579+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Latest scans of real-time sources (Reuters, AP, Fox News, Truth Social feed, Google News alerts as of 7:21 PM UTC) show",
+      "raw": "Latest scans of real-time sources (Reuters, AP, Fox News, Truth Social feed, Google News alerts as of 7:21 PM UTC) show routine election chatter: Trump posted standard rally promos for a Pennsylvania event on Truth Social ~2 hours ago, GOP fundraising hits $150M Q1 milestone (per FEC filing yesterday, no market impact), and generic polling averages holding steady (Trump +1.2% nat'l RCP average).",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump post 60-79 Truth Social posts from April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_265783",
+      "timestamp": "2026-04-14T19:21:29.587596+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prediction markets unmoved: Trump 2026 special election odds at 58% YES (down 0",
+      "raw": "Prediction markets unmoved: Trump 2026 special election odds at 58% YES (down 0.1% intraday), no volume spikes.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 5,
-    "watch": 1,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 12,
+    "watch": 0,
+    "high_conf": 4
   }
 }
