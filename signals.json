@@ -1,54 +1,99 @@
 {
-  "last_scan": "2026-04-14T19:17:19.081425+00:00",
-  "scan_seconds": 29.4,
+  "last_scan": "2026-04-14T19:18:38.837900+00:00",
+  "scan_seconds": 45.3,
   "markets_scanned": 118,
   "open_positions": 89,
   "signals": [
     {
-      "id": "sig_14276",
-      "timestamp": "2026-04-14T19:17:18.080789+00:00",
+      "id": "sig_85658",
+      "timestamp": "2026-04-14T19:18:29.462644+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4%, as reported by Statistics Korea via Trading Economics[1]. The Bank of Korea announced its 7th consecutive interest rate freeze at 2.5% on Friday (April 10, 2026), citing this re",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_7951",
-      "timestamp": "2026-04-14T19:17:11.755183+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Hits All-Time Record of 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on Ap",
-      "raw": "Solana (SOL) Hits All-Time Record of 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Upgrade Progress | YES | HIGH confidence**[1]\n\nInstitutional players like BlackRock and Fidelity report record SOL ETF holdings amid network surges, with Alpenglow upgrade targeting 150ms transaction finality and Firedancer validator enhanceme",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Bitcoin dip to $67,000 on April 14?",
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_996283",
-      "timestamp": "2026-04-14T19:17:00.088318+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Weighing Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade |",
-      "raw": "US and Iran Weighing Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence**\n\nA two-week ceasefire between the US and Iran is in place, set to expire around April 21, with sources indicating both sides are considering fresh talks in Pakistan to extend it into a longer-term deal, though no agreement has been confirmed.[1][2][3] Presid",
+      "headline": "Confidence: LOW**\u2014search results highlight price predictions and technicals (e",
+      "raw": "Confidence: LOW**\u2014search results highlight price predictions and technicals (e.g., Solana support at $72-78, record PreStocks volume)[5] but no fresh resolutions or Trump/Iran-related impacts confirmed as \"just now\" on April 14.[1][7]",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_73482",
+      "timestamp": "2026-04-14T19:18:17.287022+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade** | YES |",
+      "raw": "US and Iran Weighing Talks to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade** | YES | MED confidence[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_73500",
+      "timestamp": "2026-04-14T19:18:17.304314+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Details**: Sources confirm the US and Iran are considering fresh negotiations for a \"bigger ceasefire deal\" as the cur",
+      "raw": "**Details**: Sources confirm the US and Iran are considering fresh negotiations for a \"bigger ceasefire deal\" as the current two-week truce nears expiry around April 21, 2026, while Trump advances a naval blockade of the Strait of Hormuz to pressure Iran's oil exports; stocks rose and oil prices fell on the news[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_73508",
+      "timestamp": "2026-04-14T19:18:17.312404+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Prior Context**: Talks collapsed on April 12 in Islamabad with no progress, per US negotiators including VP JD Vance;",
+      "raw": "**Prior Context**: Talks collapsed on April 12 in Islamabad with no progress, per US negotiators including VP JD Vance; Trump ordered the blockade post-failure on April 13, prompting Iranian retaliation threats[2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_73524",
+      "timestamp": "2026-04-14T19:18:17.328514+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Confidence Note**: MED due to anonymous \"people familiar\" sourcing in real-time reporting; no formal announcement conf",
+      "raw": "**Confidence Note**: MED due to anonymous \"people familiar\" sourcing in real-time reporting; no formal announcement confirmed resolution[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_73516",
+      "timestamp": "2026-04-14T19:18:17.320426+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Market Impact Potential**: Ceasefire extension talks could shift odds on Middle East de-escalation markets, though blo",
+      "raw": "**Market Impact Potential**: Ceasefire extension talks could shift odds on Middle East de-escalation markets, though blockade offsets optimism; prior collapse drove risks higher[1][2].",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
@@ -56,7 +101,7 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
+    "alert": 4,
     "watch": 1,
     "high_conf": 1
   }
