@@ -1,65 +1,108 @@
 {
-  "last_scan": "2026-04-14T21:10:37.527212+00:00",
-  "scan_seconds": 28.9,
+  "last_scan": "2026-04-14T21:11:38.384410+00:00",
+  "scan_seconds": 25.4,
   "markets_scanned": 120,
   "open_positions": 84,
   "signals": [
     {
-      "id": "sig_807082",
-      "timestamp": "2026-04-14T21:10:30.880180+00:00",
+      "id": "sig_869082",
+      "timestamp": "2026-04-14T21:11:32.880227+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167 Million Monthly Token Holders and 148 Million Daily Transactions on April 14, 2026, Boosted by Al",
-      "raw": "Solana Hits Record 167 Million Monthly Token Holders and 148 Million Daily Transactions on April 14, 2026, Boosted by Alpenglow Upgrade** | YES | HIGH  \nSolana's network achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026, driven by the Alpenglow consensus upgrade reducing transaction finality to 150 milliseconds from 12 s",
+      "headline": "Solana Hits Record 167M Monthly Token Holders & 148M Daily Transactions on April 14, 2026, Boosted by Alpenglow Upgrade",
+      "raw": "Solana Hits Record 167M Monthly Token Holders & 148M Daily Transactions on April 14, 2026, Boosted by Alpenglow Upgrade Slashing Finality to 150ms | YES | HIGH confidence** [1]\n\nSolana's network achieved these all-time highs today, with BlackRock and Fidelity reporting record SOL ETF holdings amid the Alpenglow consensus upgrade announcement, directly confirming performance breakthroughs that coul",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?",
-        "Will the price of Solana be above $100 on April 16?"
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of Solana be above $100 on April 15?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_812727",
-      "timestamp": "2026-04-14T21:10:36.526010+00:00",
+      "id": "sig_864085",
+      "timestamp": "2026-04-14T21:11:27.883912+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Key Interest Rate at 2",
-      "raw": "Bank of Korea Holds Key Interest Rate at 2.5% for 7th Consecutive Time Amid Stable Inflation at 2.2% YoY in March 2026 | NO | HIGH confidence** [2][3][6]\n\nSouth Korea's annual inflation rate increased slightly to 2.2% in March 2026 from 2.0% in prior months, below market forecasts of 2.4% and aligning with the central bank's 2% target amid contained pressures before Middle East volatility.[2] The ",
-      "direction": "NO",
+      "headline": "Executive order from White House on **election** citizenship verification, signed March 31, 2026, directing DHS/SSA prob",
+      "raw": "Executive order from White House on **election** citizenship verification, signed March 31, 2026, directing DHS/SSA probes into fraud but not a new April event[4].",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will White House post 40-59 posts from April 14 to April 21,"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_794843",
-      "timestamp": "2026-04-14T21:10:18.641706+00:00",
+      "id": "sig_858029",
+      "timestamp": "2026-04-14T21:11:21.827089+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Talks Collapse; Trump Launches Naval Blockade of Strait of Hormuz | NO | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Talks Collapse; Trump Launches Naval Blockade of Strait of Hormuz | NO | HIGH confidence**  \nUS-Iran negotiations in Pakistan ended without agreement on Sunday, with no path forward on ending the war, primarily due to Iran's refusal to abandon nuclear ambitions\u2014Trump demands \"all or none.\"[1][2]  \nTrump announced a US Navy blockade of the Strait of Hormuz to pressure Iran by curb",
-      "direction": "NO",
-      "confidence": 0.6,
+      "headline": "US and Iran Resume Peace Talks This Week to Extend Ceasefire | NO | HIGH confidence**",
+      "raw": "US and Iran Resume Peace Talks This Week to Extend Ceasefire | NO | HIGH confidence**\n\nPeace talks between the US and Iran are set to resume within days, according to Iranian and Pakistani officials, though **no deal has been confirmed or resolved**[1]. The negotiations aim to extend a two-week ceasefire that expires around April 21st before it collapses[2]. Vice President JD Vance stated the ball",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_864070",
+      "timestamp": "2026-04-14T21:11:27.868733+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Differing stances by VP **JD Vance** and Sec",
+      "raw": "Differing stances by VP **JD Vance** and Sec. State Marco Rubio on Trump's Iran war, positioning them for **2028 election** amid **Republican** jockeying, but dated April 1 with White House affirming Trump's confidence in both[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_864098",
+      "timestamp": "2026-04-14T21:11:27.896016+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Unrelated Hungarian election ousting Orb\u00e1n (no Trump/**White House**/**Vance** comment) and a prior Wisconsin Supreme Co",
+      "raw": "Unrelated Hungarian election ousting Orb\u00e1n (no Trump/**White House**/**Vance** comment) and a prior Wisconsin Supreme Court **election** flip signaling **Republican** midterm risks, but not current or tied to query terms[2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_873585",
+      "timestamp": "2026-04-14T21:11:37.383580+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (no evidence of \"right now\" news in results; recent trends like oil shocks may pressure future inflat",
+      "raw": "Confidence: HIGH** (no evidence of \"right now\" news in results; recent trends like oil shocks may pressure future inflation but lack confirmation today)[5][6][7].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 0,
-    "watch": 1,
+    "enter": 1,
+    "alert": 5,
+    "watch": 0,
     "high_conf": 2
   }
 }
