@@ -861,6 +861,15 @@
         return '<span style="color:'+c+';font-size:0.75em">'+engLabel(t.type)+'</span>';
       };
 
+      // Limit rendered rows for mobile perf: all OPEN + most recent 200 settled
+      const MAX_SETTLED = 200;
+      const openTrades = deduped.filter(t=>t.status==='OPEN');
+      const settledTrades = deduped.filter(t=>t.status!=='OPEN');
+      const showAll = window._showAllTrades;
+      const visibleSettled = showAll ? settledTrades : settledTrades.slice(0, MAX_SETTLED);
+      const displayTrades = [...openTrades, ...visibleSettled];
+      const hiddenCount = settledTrades.length - visibleSettled.length;
+
       let html = engHtml + signalHtml;
       html += '<table><tr>'+
         '<th>#</th><th>Engine</th><th>Market</th><th>Side</th><th>Entry</th>'+
@@ -868,7 +877,7 @@
         '<th>Entered</th><th>Resolves</th><th>Status</th><th>+Capital</th>'+
         '</tr>';
 
-      html += deduped.map((t,i)=>{
+      html += displayTrades.map((t,i)=>{
         const side = (t.outcome||'').toLowerCase()==='yes'
           ?'<span class="badge by">YES</span>'
           :'<span class="badge bn">NO</span>';
@@ -892,7 +901,7 @@
         const resolves = t.end_date || (t.days_left!=null ? 'in '+t.days_left+'d' : '—');
         // Capital button (only for OPEN)
         const capBtn = t.status==='OPEN' && t.slug
-          ? '<button onclick="pmSetCapital(\''+t.slug+'\',\''+t.outcome+'\','+(t.paper_bet||5)+')" '+
+          ? '<button class="cap-btn" data-slug="'+esc(t.slug)+'" data-outcome="'+esc(t.outcome)+'" data-bet="'+(t.paper_bet||5)+'" '+
             'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
           : '<span class="dim">—</span>';
 
@@ -921,7 +930,32 @@
           '<span class="yellow" style="font-size:0.8em">+$'+unrealizedPot.toFixed(2)+' unrealized</span>'+
         '</td>'+
         '<td colspan="5"></td></tr>';
-      el.innerHTML = html+'</table>';
+
+      // "Show all" button when trades are truncated
+      if (hiddenCount > 0) {
+        html += '</table><div style="text-align:center;padding:8px"><button id="show-all-trades" '+
+          'style="background:#f0f0f0;border:1px solid #ccc;padding:4px 16px;cursor:pointer;font-size:0.85em;border-radius:3px">'+
+          'Show '+hiddenCount+' more settled trades</button></div>';
+      } else {
+        html += '</table>';
+      }
+      el.innerHTML = html;
+
+      // "Show all" click handler
+      const showBtn = document.getElementById('show-all-trades');
+      if (showBtn) {
+        showBtn.addEventListener('click', function() {
+          window._showAllTrades = true;
+          renderPaperTrades();
+        });
+      }
+
+      // Event delegation for capital buttons (avoids inline onclick XSS)
+      el.querySelectorAll('.cap-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          pmSetCapital(this.dataset.slug, this.dataset.outcome, parseFloat(this.dataset.bet));
+        });
+      });
 
     } catch(e) {
       el.innerHTML='<div class="err">Paper trades unavailable: '+e.message+'</div>';
