@@ -1,63 +1,60 @@
 {
-  "last_scan": "2026-04-14T04:11:18.955307+00:00",
-  "scan_seconds": 41.9,
-  "markets_scanned": 127,
+  "last_scan": "2026-04-14T04:14:10.340068+00:00",
+  "scan_seconds": 29.0,
+  "markets_scanned": 125,
   "open_positions": 88,
   "signals": [
     {
-      "id": "sig_636257",
-      "timestamp": "2026-04-14T04:11:00.116188+00:00",
+      "id": "sig_811992",
+      "timestamp": "2026-04-14T04:13:55.851152+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** US Initiates Second Round of In-Person Iran Talks as Naval Blockade of Strait of Hormuz Takes Effect[1][2]",
-      "raw": "HEADLINE:** US Initiates Second Round of In-Person Iran Talks as Naval Blockade of Strait of Hormuz Takes Effect[1][2]",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Pre-election status:** Analilia **Mejia (Democrat)** is the strong favorite to win this House seat, not Joe Hathaway (Re",
+      "raw": "Pre-election status:** Analilia **Mejia (Democrat)** is the strong favorite to win this House seat, not Joe Hathaway (Republican)[2]. Recent polling shows Mejia leading 53% to 36% with 11% undecided[1]. She has substantially outraised Hathaway ($1.1 million vs. $525,000) and the district favors Democrats, having voted for Kamala Harris by 53%-44% in 2024[2].\n\nThe only confirmed development since t",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will 30-39 ships transit the Strait of Hormuz between April 13-April 19?"
+        "Will Joe Hathaway win the NJ-11 special election?",
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_654075",
-      "timestamp": "2026-04-14T04:11:17.934886+00:00",
+      "id": "sig_825479",
+      "timestamp": "2026-04-14T04:14:09.338051+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Policy Rate Steady at 2",
-      "raw": "Bank of Korea Holds Policy Rate Steady at 2.5% Amid Iran War Inflation Risks (April 10, 2026) | YES | HIGH confidence** [5]\n\nSouth Korea's March 2026 annual inflation rose to 2.2% YoY (from 2.0% prior), undershooting forecasts of 2.4% despite oil price surges from the Iran conflict; core inflation eased to 2.2% [1][2]. The Bank of Korea's April 10 decision flagged inflation exceeding prior 2.2% fo",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "South Korea BOK Holds Benchmark Rate at 2",
+      "raw": "South Korea BOK Holds Benchmark Rate at 2.5% for 7th Straight Month Amid Inflation Above Target and Oil Price Risks | NO | HIGH confidence**  \nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to keep its policy rate unchanged at 2.5%, citing inflation at ~2.2% (slightly above the 2% target), rising oil costs from Middle East conflict, won weakness (~1,520/USD), and ",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of Solana be above $70 on April 14?",
+        "Will the price of Bitcoin be above $82,000 on April 15?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_636267",
-      "timestamp": "2026-04-14T04:11:00.126085+00:00",
+      "id": "sig_811982",
+      "timestamp": "2026-04-14T04:13:55.841685+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** | **HIGH confidence**",
-      "raw": "YES** | **HIGH confidence**\n\nThe Trump administration is reportedly considering a second round of in-person negotiations with Iranian officials before the April 21 ceasefire deadline expires, with proposed locations including Islamabad or Geneva[1]. This diplomatic initiative comes as the US has begun enforcing a blockade of Iranian ports through the Strait of Hormuz, which Trump officials are usi",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
-      ],
-      "action": "WATCH",
+      "headline": "I cannot provide the breaking news format you've requested because the election hasn't occurred yet",
+      "raw": "I cannot provide the breaking news format you've requested because the election hasn't occurred yet. The **2026 New Jersey's 11th congressional district special election is scheduled for April 16, 2026**[1]\u2014two days from the current date\u2014so no results have been confirmed or announced.\n\nBased on available information before the election:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 2,
-    "watch": 1,
-    "high_conf": 0
+    "watch": 0,
+    "high_conf": 1
   }
 }
