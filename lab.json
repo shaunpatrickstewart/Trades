@@ -4,21 +4,744 @@
     {
       "id": "arb_detection",
       "name": "Yes+No Arbitrage Scanner",
-      "status": "MONITORING",
+      "status": "LIVE",
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "Scanned 0 events at 2026-04-14 17:40 UTC \u2014 no categorical arb opportunities (sum < 0.97) found. Checked 0 multi-outcome events. NOTE: Binary YES+NO always sums to 1.0 by AMM design. Cross-platform Kalshi arb: BLOCKED (needs account).",
+      "result": "LIVE \u2014 137 categorical arb opportunities found\nScanned 3000 events (1967 multi-outcome) at 2026-04-14 18:08 UTC\nBest: 10.0% profit on 'English Premier League - Top Goalscorer ' \u2014 buy YES on all 31 outcomes (sum=0.9)\nStrategy: Buy YES on all 31 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'Ducks vs. Wild'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 17:40 UTC",
-      "opportunities": [],
+      "last_scan": "2026-04-14 18:08 UTC",
+      "opportunities": [
+        {
+          "event_title": "English Premier League - Top Goalscorer ",
+          "event_slug": "english-premier-league-top-goalscorer",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 31,
+          "outcomes": [
+            {
+              "market_id": "577160",
+              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.78,
+              "volume": 70629
+            },
+            {
+              "market_id": "577162",
+              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.008,
+              "volume": 176357
+            },
+            {
+              "market_id": "577168",
+              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0065,
+              "volume": 34465
+            },
+            {
+              "market_id": "577171",
+              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0065,
+              "volume": 19550
+            },
+            {
+              "market_id": "577183",
+              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0055,
+              "volume": 13480
+            },
+            {
+              "market_id": "577174",
+              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0055,
+              "volume": 188266
+            },
+            {
+              "market_id": "577186",
+              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0055,
+              "volume": 51093
+            },
+            {
+              "market_id": "577170",
+              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0055,
+              "volume": 179718
+            },
+            {
+              "market_id": "577182",
+              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0055,
+              "volume": 85796
+            },
+            {
+              "market_id": "577178",
+              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0055,
+              "volume": 18361
+            },
+            {
+              "market_id": "577180",
+              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
+              "yes_price": 0.0055,
+              "volume": 76309
+            },
+            {
+              "market_id": "577163",
+              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.005,
+              "volume": 148938
+            },
+            {
+              "market_id": "577161",
+              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0045,
+              "volume": 236001
+            },
+            {
+              "market_id": "577165",
+              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0045,
+              "volume": 155798
+            },
+            {
+              "market_id": "577172",
+              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
+              "yes_price": 0.0045,
+              "volume": 44558
+            },
+            {
+              "market_id": "577177",
+              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
+              "yes_price": 0.0045,
+              "volume": 41351
+            },
+            {
+              "market_id": "577181",
+              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.0045,
+              "volume": 21700
+            },
+            {
+              "market_id": "577189",
+              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0045,
+              "volume": 113973
+            },
+            {
+              "market_id": "577187",
+              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
+              "yes_price": 0.004,
+              "volume": 29093
+            },
+            {
+              "market_id": "577169",
+              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0035,
+              "volume": 32326
+            },
+            {
+              "market_id": "577166",
+              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.003,
+              "volume": 14950
+            },
+            {
+              "market_id": "577164",
+              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0025,
+              "volume": 111697
+            },
+            {
+              "market_id": "577173",
+              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0025,
+              "volume": 14822
+            },
+            {
+              "market_id": "577176",
+              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
+              "yes_price": 0.0025,
+              "volume": 130920
+            },
+            {
+              "market_id": "577179",
+              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
+              "yes_price": 0.0015,
+              "volume": 18662
+            },
+            {
+              "market_id": "577167",
+              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0015,
+              "volume": 26659
+            },
+            {
+              "market_id": "577188",
+              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 17556
+            },
+            {
+              "market_id": "577175",
+              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
+              "yes_price": 0.0015,
+              "volume": 19265
+            },
+            {
+              "market_id": "577184",
+              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0015,
+              "volume": 117540
+            },
+            {
+              "market_id": "577185",
+              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
+              "yes_price": 0.0015,
+              "volume": 21298
+            },
+            {
+              "market_id": "577190",
+              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
+              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
+              "yes_price": 0.0015,
+              "volume": 14706
+            }
+          ],
+          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
+          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "Ducks vs. Wild",
+          "event_slug": "nhl-ana-min-2026-04-14",
+          "yes_sum": 0.9,
+          "profit_pct": 10.0,
+          "profit_per_dollar_pct": 11.11,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1640255",
+              "slug": "nhl-ana-min-2026-04-14",
+              "question": "Ducks vs. Wild",
+              "yes_price": 0.555,
+              "volume": 292519
+            },
+            {
+              "market_id": "1973178",
+              "slug": "nhl-ana-min-2026-04-14-spread-away-1pt5",
+              "question": "Spread: Ducks (-1.5)",
+              "yes_price": 0.345,
+              "volume": 58473
+            }
+          ],
+          "url": "https://polymarket.com/event/nhl-ana-min-2026-04-14",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+        },
+        {
+          "event_title": "NBA Sixth Man of the Year Winner",
+          "event_slug": "nba-2025-26-sixth-man-of-the-year",
+          "yes_sum": 0.902,
+          "profit_pct": 9.8,
+          "profit_per_dollar_pct": 10.86,
+          "num_outcomes": 28,
+          "outcomes": [
+            {
+              "market_id": "643634",
+              "slug": "nba-2025-26-sixth-man-of-the-year-keldon-johnson",
+              "question": "Will Keldon Johnson win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.8175,
+              "volume": 63677
+            },
+            {
+              "market_id": "643616",
+              "slug": "nba-2025-26-sixth-man-of-the-year-naz-reid",
+              "question": "Will Naz Reid win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.007,
+              "volume": 26826
+            },
+            {
+              "market_id": "643618",
+              "slug": "nba-2025-26-sixth-man-of-the-year-reed-sheppard",
+              "question": "Will Reed Sheppard win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.007,
+              "volume": 20121
+            },
+            {
+              "market_id": "643615",
+              "slug": "nba-2025-26-sixth-man-of-the-year-zacharie-risacher",
+              "question": "Will Zacharie Risacher win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0065,
+              "volume": 1437
+            },
+            {
+              "market_id": "643622",
+              "slug": "nba-2025-26-sixth-man-of-the-year-obi-toppin",
+              "question": "Will Obi Toppin win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.006,
+              "volume": 24106
+            },
+            {
+              "market_id": "643630",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jonathan-kuminga",
+              "question": "Will Jonathan Kuminga win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0055,
+              "volume": 1747
+            },
+            {
+              "market_id": "643621",
+              "slug": "nba-2025-26-sixth-man-of-the-year-payton-pritchard",
+              "question": "Will Payton Pritchard win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0045,
+              "volume": 2157
+            },
+            {
+              "market_id": "643607",
+              "slug": "nba-2025-26-sixth-man-of-the-year-anfernee-simons",
+              "question": "Will Anfernee Simons win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.004,
+              "volume": 14287
+            },
+            {
+              "market_id": "643619",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jared-mccain",
+              "question": "Will Jared McCain win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.004,
+              "volume": 4346
+            },
+            {
+              "market_id": "643608",
+              "slug": "nba-2025-26-sixth-man-of-the-year-onyeka-okongwu",
+              "question": "Will Onyeka Okongwu win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0035,
+              "volume": 6509
+            },
+            {
+              "market_id": "643629",
+              "slug": "nba-2025-26-sixth-man-of-the-year-norman-powell",
+              "question": "Will Norman Powell win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0035,
+              "volume": 31210
+            },
+            {
+              "market_id": "643625",
+              "slug": "nba-2025-26-sixth-man-of-the-year-collin-sexton",
+              "question": "Will Collin Sexton win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.003,
+              "volume": 1659
+            },
+            {
+              "market_id": "643606",
+              "slug": "nba-2025-26-sixth-man-of-the-year-deandre-hunter",
+              "question": "Will DeAndre Hunter win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 9569
+            },
+            {
+              "market_id": "643610",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jordan-clarkson",
+              "question": "Will Jordan Clarkson win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 7916
+            },
+            {
+              "market_id": "643614",
+              "slug": "nba-2025-26-sixth-man-of-the-year-nikola-jovic",
+              "question": "Will Nikola Jovic win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 1156
+            },
+            {
+              "market_id": "643617",
+              "slug": "nba-2025-26-sixth-man-of-the-year-tari-eason",
+              "question": "Will Tari Eason win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 8369
+            },
+            {
+              "market_id": "643626",
+              "slug": "nba-2025-26-sixth-man-of-the-year-john-collins",
+              "question": "Will John Collins win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 15574
+            },
+            {
+              "market_id": "643631",
+              "slug": "nba-2025-26-sixth-man-of-the-year-santi-aldama",
+              "question": "Will Santi Aldama win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 1710
+            },
+            {
+              "market_id": "643635",
+              "slug": "nba-2025-26-sixth-man-of-the-year-miles-mcbride",
+              "question": "Will Miles McBride win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0025,
+              "volume": 1334
+            },
+            {
+              "market_id": "643609",
+              "slug": "nba-2025-26-sixth-man-of-the-year-bobby-portis",
+              "question": "Will Bobby Portis win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 2821
+            },
+            {
+              "market_id": "643612",
+              "slug": "nba-2025-26-sixth-man-of-the-year-aaron-wiggins",
+              "question": "Will Aaron Wiggins win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 1866
+            },
+            {
+              "market_id": "643620",
+              "slug": "nba-2025-26-sixth-man-of-the-year-p-j-washington",
+              "question": "Will P.J. Washington win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 1419
+            },
+            {
+              "market_id": "643623",
+              "slug": "nba-2025-26-sixth-man-of-the-year-nickeil-alexander-walker",
+              "question": "Will Nickeil Alexander-Walker win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 2216
+            },
+            {
+              "market_id": "643624",
+              "slug": "nba-2025-26-sixth-man-of-the-year-jerami-grant",
+              "question": "Will Jerami Grant win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 30747
+            },
+            {
+              "market_id": "643627",
+              "slug": "nba-2025-26-sixth-man-of-the-year-ty-jerome",
+              "question": "Will Ty Jerome win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 2090
+            },
+            {
+              "market_id": "643632",
+              "slug": "nba-2025-26-sixth-man-of-the-year-caris-levert",
+              "question": "Will Caris LeVert win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 1417
+            },
+            {
+              "market_id": "643633",
+              "slug": "nba-2025-26-sixth-man-of-the-year-donte-divincenzo",
+              "question": "Will Donte DiVincenzo win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0015,
+              "volume": 12483
+            },
+            {
+              "market_id": "643628",
+              "slug": "nba-2025-26-sixth-man-of-the-year-bradley-beal",
+              "question": "Will Bradley Beal win the 2025\u20132026 NBA Sixth Man of the Year?",
+              "yes_price": 0.0005,
+              "volume": 4242
+            }
+          ],
+          "url": "https://polymarket.com/event/nba-2025-26-sixth-man-of-the-year",
+          "strategy": "Buy YES on all 28 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
+        },
+        {
+          "event_title": "CA River Plate vs. CA Tucum\u00e1n",
+          "event_slug": "arg-riv-cat-2026-03-08",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1360750",
+              "slug": "arg-riv-cat-2026-03-08-riv",
+              "question": "Will CA River Plate win on 2026-03-08?",
+              "yes_price": 0.55,
+              "volume": 6234
+            },
+            {
+              "market_id": "1360751",
+              "slug": "arg-riv-cat-2026-03-08-draw",
+              "question": "Will CA River Plate vs. CA Tucum\u00e1n end in a draw?",
+              "yes_price": 0.355,
+              "volume": 22895
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-riv-cat-2026-03-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "UFC: Who will Conor McGregor fight next?",
+          "event_slug": "ufc-who-will-conor-mcgregor-fight-next",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1747846",
+              "slug": "will-max-holloway-fight-conor-mcgregor-next",
+              "question": "Will Max Holloway fight Conor McGregor next?",
+              "yes_price": 0.5,
+              "volume": 2244
+            },
+            {
+              "market_id": "1747849",
+              "slug": "will-michael-chandler-fight-conor-mcgregor-next",
+              "question": "Will Michael Chandler fight Conor McGregor next?",
+              "yes_price": 0.37,
+              "volume": 2796
+            },
+            {
+              "market_id": "1747848",
+              "slug": "will-nate-diaz-fight-conor-mcgregor-next",
+              "question": "Will Nate Diaz fight Conor McGregor next?",
+              "yes_price": 0.035,
+              "volume": 11853
+            }
+          ],
+          "url": "https://polymarket.com/event/ufc-who-will-conor-mcgregor-fight-next",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "FL-25 House Election Winner",
+          "event_slug": "fl-25-house-election-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1283129",
+              "slug": "will-the-democratic-party-win-the-fl-25-house-seat",
+              "question": "Will the Democratic Party win the FL-25 House seat?",
+              "yes_price": 0.61,
+              "volume": 1777
+            },
+            {
+              "market_id": "1283128",
+              "slug": "will-the-republican-party-win-the-fl-25-house-seat",
+              "question": "Will the Republican Party win the FL-25 House seat?",
+              "yes_price": 0.295,
+              "volume": 6829
+            }
+          ],
+          "url": "https://polymarket.com/event/fl-25-house-election-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "What price will XRP hit April 13-19?",
+          "event_slug": "what-price-will-xrp-hit-april-13-19",
+          "yes_sum": 0.9075,
+          "profit_pct": 9.25,
+          "profit_per_dollar_pct": 10.19,
+          "num_outcomes": 10,
+          "outcomes": [
+            {
+              "market_id": "1965210",
+              "slug": "will-xrp-reach-1pt4-april-13-19",
+              "question": "Will XRP reach $1.40 April 13-19?",
+              "yes_price": 0.69,
+              "volume": 4186
+            },
+            {
+              "market_id": "1965209",
+              "slug": "will-xrp-reach-1pt5-april-13-19",
+              "question": "Will XRP reach $1.50 April 13-19?",
+              "yes_price": 0.125,
+              "volume": 4628
+            },
+            {
+              "market_id": "1965211",
+              "slug": "will-xrp-dip-to-1pt2-april-13-19",
+              "question": "Will XRP dip to $1.20 April 13-19?",
+              "yes_price": 0.0305,
+              "volume": 8454
+            },
+            {
+              "market_id": "1965207",
+              "slug": "will-xrp-reach-1pt6-april-13-19",
+              "question": "Will XRP reach $1.60 April 13-19?",
+              "yes_price": 0.0205,
+              "volume": 8329
+            },
+            {
+              "market_id": "1965212",
+              "slug": "will-xrp-dip-to-1pt1-april-13-19",
+              "question": "Will XRP dip to $1.10 April 13-19?",
+              "yes_price": 0.015,
+              "volume": 4617
+            },
+            {
+              "market_id": "1965205",
+              "slug": "will-xrp-reach-1pt7-april-13-19",
+              "question": "Will XRP reach $1.70 April 13-19?",
+              "yes_price": 0.0145,
+              "volume": 3555
+            },
+            {
+              "market_id": "1965213",
+              "slug": "will-xrp-dip-to-1-april-13-19",
+              "question": "Will XRP dip to $1.00 April 13-19?",
+              "yes_price": 0.0035,
+              "volume": 4296
+            },
+            {
+              "market_id": "1965201",
+              "slug": "will-xrp-reach-1pt9-april-13-19",
+              "question": "Will XRP reach $1.90 April 13-19?",
+              "yes_price": 0.003,
+              "volume": 7315
+            },
+            {
+              "market_id": "1965214",
+              "slug": "will-xrp-dip-to-0pt9-april-13-19",
+              "question": "Will XRP dip to $0.90 April 13-19?",
+              "yes_price": 0.003,
+              "volume": 3397
+            },
+            {
+              "market_id": "1965203",
+              "slug": "will-xrp-reach-1pt8-april-13-19",
+              "question": "Will XRP reach $1.80 April 13-19?",
+              "yes_price": 0.0025,
+              "volume": 5487
+            }
+          ],
+          "url": "https://polymarket.com/event/what-price-will-xrp-hit-april-13-19",
+          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9075. One wins $1.00. Profit: $0.0925 (9.25%)"
+        },
+        {
+          "event_title": "Rhode Island Governor Republican Primary Winner",
+          "event_slug": "rhode-island-governor-republican-primary-winner",
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "906891",
+              "slug": "will-aaron-guckian-win-the-2026-rhode-island-governor-republican-primary-election",
+              "question": "Will Aaron Guckian win the 2026 Rhode Island Governor Republican primary electio",
+              "yes_price": 0.6245,
+              "volume": 2384
+            },
+            {
+              "market_id": "906892",
+              "slug": "will-elaine-pelino-win-the-2026-rhode-island-governor-republican-primary-election",
+              "question": "Will Elaine Pelino win the 2026 Rhode Island Governor Republican primary electio",
+              "yes_price": 0.285,
+              "volume": 1796
+            }
+          ],
+          "url": "https://polymarket.com/event/rhode-island-governor-republican-primary-winner",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "Los Angeles Angels vs. New York Yankees",
+          "event_slug": "mlb-laa-nyy-2026-04-14",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1972301",
+              "slug": "mlb-laa-nyy-2026-04-14-total-8pt5",
+              "question": "Los Angeles Angels vs. New York Yankees: O/U 8.5",
+              "yes_price": 0.535,
+              "volume": 17389
+            },
+            {
+              "market_id": "1918066",
+              "slug": "mlb-laa-nyy-2026-04-14",
+              "question": "Los Angeles Angels vs. New York Yankees",
+              "yes_price": 0.375,
+              "volume": 37070
+            }
+          ],
+          "url": "https://polymarket.com/event/mlb-laa-nyy-2026-04-14",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Guam Governor Republican Primary Winner",
+          "event_slug": "guam-governor-republican-primary-winner-363",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "907724",
+              "slug": "will-vicente-ada-win-the-2026-guam-governor-republican-primary-election-611",
+              "question": "Will Vicente Ada win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.715,
+              "volume": 6726
+            },
+            {
+              "market_id": "907725",
+              "slug": "will-frank-f-blas-jr-win-the-2026-guam-governor-republican-primary-election-495",
+              "question": "Will Frank F. Blas Jr. win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.17,
+              "volume": 6235
+            },
+            {
+              "market_id": "907726",
+              "slug": "will-marcel-camacho-win-the-2026-guam-governor-republican-primary-election-798",
+              "question": "Will Marcel Camacho win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.0175,
+              "volume": 2256
+            },
+            {
+              "market_id": "907728",
+              "slug": "will-douglas-moylan-win-the-2026-guam-governor-republican-primary-election-683",
+              "question": "Will Douglas Moylan win the 2026 Guam Governor Republican primary election?",
+              "yes_price": 0.0075,
+              "volume": 8246
+            }
+          ],
+          "url": "https://polymarket.com/event/guam-governor-republican-primary-winner-363",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        }
+      ],
       "stats": {
-        "total_events": 0,
-        "checked_multi_outcome": 0,
-        "skipped_single_outcome": 0,
-        "opportunities_found": 0,
-        "best_profit_pct": 0,
-        "scanned_at": "2026-04-14 17:40 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1967,
+        "skipped_single_outcome": 604,
+        "opportunities_found": 137,
+        "best_profit_pct": 10.0,
+        "scanned_at": "2026-04-14 18:08 UTC"
       }
     },
     {
