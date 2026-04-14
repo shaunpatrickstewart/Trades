@@ -1,29 +1,49 @@
 {
-  "last_scan": "2026-04-14T19:31:38.508706+00:00",
-  "scan_seconds": 33.0,
+  "last_scan": "2026-04-14T19:32:56.753853+00:00",
+  "scan_seconds": 48.3,
   "markets_scanned": 65,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_865595",
-      "timestamp": "2026-04-14T19:31:29.399629+00:00",
+      "id": "sig_934034",
+      "timestamp": "2026-04-14T19:32:37.838055+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | Solana Hits All-Time Record of 167M Monthly Token Holders as Alpenglow Upgrade Targets 150ms Transaction Fina",
-      "raw": "HEADLINE | Solana Hits All-Time Record of 167M Monthly Token Holders as Alpenglow Upgrade Targets 150ms Transaction Finality | YES | HIGH confidence**\n\nThe Solana network has reached a historic milestone with **167 million monthly token holders** and daily non-vote transactions hitting **148 million**[1]. The highly anticipated **Alpenglow consensus upgrade** has been confirmed, aiming to reduce t",
-      "direction": "YES",
+      "headline": "**Blockade is active**: President Trump announced the Navy would block any ships in the Strait of Hormuz, with threats s",
+      "raw": "**Blockade is active**: President Trump announced the Navy would block any ships in the Strait of Hormuz, with threats specifically directed at Iran's remaining naval forces[2].",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [],
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_852399",
-      "timestamp": "2026-04-14T19:31:16.203945+00:00",
+      "id": "sig_934038",
+      "timestamp": "2026-04-14T19:32:37.842783+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Eye Fresh Talks as Two-Week Ceasefire Nears Expiration | NO | HIGH confidence**",
-      "raw": "US and Iran Eye Fresh Talks as Two-Week Ceasefire Nears Expiration | NO | HIGH confidence**\n\nNo major breakthrough has been confirmed or announced. Negotiations in Islamabad over the weekend ended without a deal, and both sides are currently discussing a second round of talks before the two-week ceasefire expires next week.[1][2] Vice President JD Vance stated that after 21 hours of substantive di",
-      "direction": "NO",
+      "headline": "**Two-week ceasefire expires**: The ceasefire announced April 7 is set to expire next week, creating an immediate timeli",
+      "raw": "**Two-week ceasefire expires**: The ceasefire announced April 7 is set to expire next week, creating an immediate timeline pressure[1].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_934028",
+      "timestamp": "2026-04-14T19:32:37.832111+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | Trump Administration Implements Naval Blockade of Iran's Strait of Hormuz After Failed Peace Talks | YES | HI",
+      "raw": "HEADLINE | Trump Administration Implements Naval Blockade of Iran's Strait of Hormuz After Failed Peace Talks | YES | HIGH confidence\n\nThe **US military has begun a blockade of all traffic** entering and leaving Iranian ports in the Strait of Hormuz[3]. This follows the collapse of ceasefire negotiations in Islamabad over the weekend, where talks ended without an agreement[1].\n\nKey developments th",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -35,27 +55,62 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_865590",
-      "timestamp": "2026-04-14T19:31:29.394922+00:00",
+      "id": "sig_934043",
+      "timestamp": "2026-04-14T19:32:37.847590+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results from today, April 14, 2026:",
-      "raw": "Based on the search results from today, April 14, 2026:",
+      "headline": "**Second round of talks planned**: The US and Iran are discussing fresh negotiations before the ceasefire expires, with",
+      "raw": "**Second round of talks planned**: The US and Iran are discussing fresh negotiations before the ceasefire expires, with reports indicating both sides are mulling another round[1][3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_934048",
+      "timestamp": "2026-04-14T19:32:37.852812+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Nuclear stalemate remains**: A key point of contention centers on uranium enrichment\u2014Iran offered to suspend it for 5",
+      "raw": "**Nuclear stalemate remains**: A key point of contention centers on uranium enrichment\u2014Iran offered to suspend it for 5 years, but the US demanded at least a longer commitment[3].\n\nThis represents a significant **escalation from diplomatic efforts to military enforcement**, with the blockade directly threatening Iran's economy and raising the risk of conflict reigniting in the region.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_865600",
-      "timestamp": "2026-04-14T19:31:29.404324+00:00",
+      "id": "sig_951948",
+      "timestamp": "2026-04-14T19:32:55.752659+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market Context:** SOL is consolidating between $80-$95[2], with current price around $82-$83[2][5]",
-      "raw": "Market Context:** SOL is consolidating between $80-$95[2], with current price around $82-$83[2][5]. While technical indicators remain mixed, the network fundamentals\u2014record user adoption, major institutional inflows, and the imminent Alpenglow upgrade\u2014represent concrete catalysts that directly address long-standing blockchain scalability concerns. This is prediction-market relevant as it transform",
-      "direction": null,
+      "headline": "South Korea's March 2026 annual inflation rate rose to 2",
+      "raw": "South Korea's March 2026 annual inflation rate rose to 2.2% | NO breaking news right now | HIGH confidence**  \nNo announcements, confirmations, or resolutions on South Korea's annual inflation have occurred today (April 14, 2026) that would move prediction markets, as the most recent data covers March 2026.[1][3]  \nTrading Economics reports the rate increased to 2.2% in March from 2.0% in February",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_945806",
+      "timestamp": "2026-04-14T19:32:49.610627+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits All-Time Record of 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14",
+      "raw": "Solana Hits All-Time Record of 167 Million Monthly Token Holders and 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Upgrade Anticipation | YES | HIGH confidence**[1]\n\nThis breaking development, reported today, confirms unprecedented network growth and activity highs, directly tied to the **Alpenglow consensus upgrade** aiming to reduce transaction finality from 1",
+      "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,400 on April 19?",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
       "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
@@ -63,8 +118,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
+    "alert": 6,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
