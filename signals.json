@@ -1,65 +1,77 @@
 {
-  "last_scan": "2026-04-14T22:42:43.395686+00:00",
-  "scan_seconds": 31.6,
-  "markets_scanned": 114,
-  "open_positions": 84,
+  "last_scan": "2026-04-14T22:45:34.991171+00:00",
+  "scan_seconds": 26.9,
+  "markets_scanned": 66,
+  "open_positions": 32,
   "signals": [
     {
-      "id": "sig_326736",
-      "timestamp": "2026-04-14T22:42:30.528550+00:00",
+      "id": "sig_492950",
+      "timestamp": "2026-04-14T22:45:16.742671+00:00",
       "source": "PERPLEXITY",
-      "headline": "NJ-11 Special Election Candidate Joe Hathaway Positions as Sole GOP Contender** | **NO** | **MED** confidence[2]",
-      "raw": "NJ-11 Special Election Candidate Joe Hathaway Positions as Sole GOP Contender** | **NO** | **MED** confidence[2].\n\nRandolph Mayor Joe Hathaway campaigns as the only Republican in the April 16 special election to replace Gov.-elect Mikie Sherrill (D), emphasizing affordability and a \"big-tent\" GOP without confirmed Trump endorsement[2]. Analysts note Democratic infighting in a 12-candidate primary,",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Joe Hathaway win the NJ-11 special election?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_338602",
-      "timestamp": "2026-04-14T22:42:42.394690+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea Annual Inflation Rises to 2",
-      "raw": "South Korea Annual Inflation Rises to 2.2% in March 2026, Below Forecasts Amid Iran Conflict Volatility | YES | MED confidence** [1]\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, missing market expectations of 2.4% and remaining near the Bank of Korea's 2% target despite global energy market pressures from the Iran conflict.[1] This data, r",
+      "headline": "Trump Agrees to 2-Week Ceasefire Truce with Iran** | **YES** | **HIGH** confidence[3]",
+      "raw": "Trump Agrees to 2-Week Ceasefire Truce with Iran** | **YES** | **HIGH** confidence[3]\n\nPresident Donald Trump shifted from threatening Iran with annihilation to agreeing on a two-week truce after Iran's leadership presented a workable plan, confirmed in breaking coverage today[3]. This follows the prior Twelve-Day War ceasefire mediated by the U.S. and Qatar in June 2025, which held until 2026 des",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_498352",
+      "timestamp": "2026-04-14T22:45:22.144143+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Musk Predicts 12-Year Republican Era: Trump Followed by 2 Vance Terms | NO | HIGH confidence**",
+      "raw": "Musk Predicts 12-Year Republican Era: Trump Followed by 2 Vance Terms | NO | HIGH confidence**\n\nElon Musk, speaking virtually at a DOGE reunion last month (reported Tuesday), forecasted President Donald Trump's administration succeeded by two JD Vance presidencies, calling it the start of a \"great 12-year span.\"[1][6] Musk cited personal security risks, ranking himself behind only Trump and Vance ",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Trump talk to Elon Musk in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_504173",
+      "timestamp": "2026-04-14T22:45:27.965978+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & $1",
+      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & $1.1 Trillion Q1 Economic Activity | YES | HIGH confidence** [1][2]\n\nThese metrics, reported today (April 14, 2026), confirm unprecedented network adoption with daily non-vote transactions at 148 million and a 6,500% quarterly surge in on-chain usage, signaling robust real-world growth amid the Alpenglow upgrade path to 150ms finality",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_510198",
+      "timestamp": "2026-04-14T22:45:33.990158+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
+      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2% (up from 2.0% in Feb), below market forecasts of 2.4% | YES | HIGH confidence** [1][2]\n\nSouth Korea's Consumer Price Index data for March 2026, released around early April 2026, shows **annual inflation rose to 2.2%** from 2.0% in January and February, aligning with the Bank of Korea's 2% target amid contained price pressures before ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_326723",
-      "timestamp": "2026-04-14T22:42:30.515357+00:00",
-      "source": "PERPLEXITY",
-      "headline": "White House Confirms Full Confidence in VP Vance and Sec",
-      "raw": "White House Confirms Full Confidence in VP Vance and Sec. Rubio Amid Iran War Policy Differences** | **NO** | **HIGH** confidence[1].\n\nThe White House issued an unsolicited statement affirming \"President Trump has full confidence in both Vice President Vance and Secretary Rubio,\" addressing reported tensions over their hawkish (Rubio) vs. dovish (Vance) stances on the ongoing Iran war during a rec",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
+    "enter": 4,
     "alert": 0,
-    "watch": 1,
-    "high_conf": 2
+    "watch": 0,
+    "high_conf": 4
   }
 }
