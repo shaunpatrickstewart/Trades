@@ -1,131 +1,81 @@
 {
-  "last_scan": "2026-04-14T16:51:07.458226+00:00",
-  "scan_seconds": 25.8,
+  "last_scan": "2026-04-14T16:54:03.179653+00:00",
+  "scan_seconds": 29.7,
   "markets_scanned": 73,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_232341",
-      "timestamp": "2026-04-14T16:50:56.154411+00:00",
+      "id": "sig_403005",
+      "timestamp": "2026-04-14T16:53:46.818547+00:00",
       "source": "PERPLEXITY",
-      "headline": "On April 14, 2026, Donald Trump confirmed he posted an AI-generated image on **Truth Social** showing himself with divin",
-      "raw": "On April 14, 2026, Donald Trump confirmed he posted an AI-generated image on **Truth Social** showing himself with divine light healing a man in a hospital bed, which he described as portraying \"me as a doctor\" related to the Red Cross\u2014not a Christ-like figure as critics claimed[1][2].",
-      "direction": null,
+      "headline": "US and Iran Weigh New Peace Talks to Extend Ceasefire Before April 21 Expiration | YES | MED confidence**[1][4]",
+      "raw": "US and Iran Weigh New Peace Talks to Extend Ceasefire Before April 21 Expiration | YES | MED confidence**[1][4]\n\nA two-week ceasefire between the US and Iran, set to expire around April 21, remains in place amid a US naval blockade of the Strait of Hormuz announced by President Trump, but fresh reports confirm both sides are considering further negotiations in Pakistan for a longer-term deal, incl",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Donald Trump post 80-99 Truth Social posts from April 14 to April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_237770",
-      "timestamp": "2026-04-14T16:51:01.583466+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Hits $75,000 as XRP, Ethereum, and Solana Surge on Iran-US Peace Talks Resumption | YES | HIGH confidence**",
-      "raw": "Bitcoin Hits $75,000 as XRP, Ethereum, and Solana Surge on Iran-US Peace Talks Resumption | YES | HIGH confidence**  \nIran signaling intent to resume peace talks with the US has driven a market-wide rally, with Bitcoin breaking above $75,000 (up 5.9%), Solana up 6.3%, Ethereum up 8.6%, and XRP up 4.2%\u2014marking Bitcoin's first close above $75k since mid-March after war-related pressure kept it below",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_227606",
-      "timestamp": "2026-04-14T16:50:51.419586+00:00",
-      "source": "PERPLEXITY",
-      "headline": "MED confidence**\u2014multiple sources align on blockade start (Apr 14), failed talks, and talk resumption, but no firm date",
-      "raw": "MED confidence**\u2014multiple sources align on blockade start (Apr 14), failed talks, and talk resumption, but no firm date or deal confirmed.[1][2][3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_232328",
-      "timestamp": "2026-04-14T16:50:56.142004+00:00",
+      "id": "sig_408149",
+      "timestamp": "2026-04-14T16:53:51.962612+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Posts, Then Deletes AI Image on Truth Social Depicting Himself as Christ-Like Figure Amid Backlash from Supporters",
-      "raw": "Trump Posts, Then Deletes AI Image on Truth Social Depicting Himself as Christ-Like Figure Amid Backlash from Supporters and Feud with Pope Leo | NO | LOW confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Donald Trump post 80-99 Truth Social posts from April 14 to April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_232354",
-      "timestamp": "2026-04-14T16:50:56.167080+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The **White House** deleted the post following outcry from high-profile Christian supporters and MAGA Republicans, thoug",
-      "raw": "The **White House** deleted the post following outcry from high-profile Christian supporters and MAGA Republicans, though it has not commented on why; this occurs amid Trump's growing feud with Pope Leo[1][2].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will White House post 100-119 posts from April 17 to April 24, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_232367",
-      "timestamp": "2026-04-14T16:50:56.180238+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No statements from **Republicans** beyond backlash reported; a separate **White House** event on \"No Tax on Tips\" delive",
-      "raw": "No statements from **Republicans** beyond backlash reported; a separate **White House** event on \"No Tax on Tips\" delivery occurred April 13, but lacks new confirmations or resolutions[3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will White House post 100-119 posts from April 17 to April 24, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_232379",
-      "timestamp": "2026-04-14T16:50:56.192277+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No major announcements, confirmations, or resolutions identified that would **move prediction markets** (e",
-      "raw": "No major announcements, confirmations, or resolutions identified that would **move prediction markets** (e.g., no policy shifts, elections, or legal outcomes); the AI image controversy is minor and cultural, not market-moving[1][2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_242644",
-      "timestamp": "2026-04-14T16:51:06.457045+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results cover up to early April 2026 with no fresh triggers; ongoing oil/geopolitical pressur",
-      "raw": "Confidence: HIGH** (search results cover up to early April 2026 with no fresh triggers; ongoing oil/geopolitical pressures noted but not newly resolved).[1][2][4][5][6]",
+      "headline": "Trump and VP Vance Announce 'War on Fraud' via Executive Order on Election Citizenship Verification | YES | HIGH confide",
+      "raw": "Trump and VP Vance Announce 'War on Fraud' via Executive Order on Election Citizenship Verification | YES | HIGH confidence**  \nPresident Donald Trump signed an executive order on March 31, 2026, titled \"Ensuring Citizenship Verification and Integrity in Federal Elections,\" mandating federal agencies like DHS, SSA, and Commerce to verify voter citizenship using SAVE and SSA records, with final rul",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will White House post 100-119 posts from April 17 to April 24, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_418363",
+      "timestamp": "2026-04-14T16:54:02.176811+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY, Up from 2.00% in February | YES | HIGH confidence**  \nSouth Korea's Consumer Price Index reached 118.8 in March 2026, with year-over-year inflation rising to 2.16% from 2.00% the prior month and month-over-month inflation at 0.34%[1]. This exceeds the Bank of Korea's 2% target, aligning with recent policy board comments on inflationar",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $74,000 on April 20?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_413010",
+      "timestamp": "2026-04-14T16:53:56.823891+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana $280M Drift Protocol Exploit Confirmed with Foundation Response | NO | HIGH confidence**",
+      "raw": "Solana $280M Drift Protocol Exploit Confirmed with Foundation Response | NO | HIGH confidence**  \nA $280\u2013285M security breach on Solana's Drift Protocol occurred on April 12, 2026, via social engineering and admin control seizure, prompting the Solana Foundation to launch STRIDE (independent security audits) and SIRN (incident response network).[1][2]  \nThis bearish event has shaken ecosystem conf",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be greater than $82,000 on April 1",
+        "Will Solana reach $90 April 13-19?",
+        "Will the price of Bitcoin be above $74,000 on April 20?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
+    "enter": 3,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
