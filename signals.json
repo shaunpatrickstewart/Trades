@@ -1,62 +1,64 @@
 {
-  "last_scan": "2026-04-14T21:51:24.927386+00:00",
-  "scan_seconds": 29.2,
+  "last_scan": "2026-04-14T21:54:20.640911+00:00",
+  "scan_seconds": 32.8,
   "markets_scanned": 70,
   "open_positions": 34,
   "signals": [
     {
-      "id": "sig_241514",
-      "timestamp": "2026-04-14T21:51:05.309530+00:00",
+      "id": "sig_417728",
+      "timestamp": "2026-04-14T21:54:01.523060+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran 2-Week Ceasefire Announced by Trump on April 7, Holding Despite Blockade and Ongoing Talks | YES | HIGH confiden",
-      "raw": "US-Iran 2-Week Ceasefire Announced by Trump on April 7, Holding Despite Blockade and Ongoing Talks | YES | HIGH confidence**\n\nPresident Trump announced a **two-week ceasefire** with Iran on April 7, 2026, ahead of an 8 p.m. ET deadline, conditional on Iran fully reopening the Strait of Hormuz, with Iran's Foreign Minister confirming the halt of defensive operations if attacks cease[1][2][3]. Trump",
+      "headline": "US and Iran weighing negotiations for extended ceasefire talks before April 21 expiry, despite Trump's naval blockade of",
+      "raw": "US and Iran weighing negotiations for extended ceasefire talks before April 21 expiry, despite Trump's naval blockade of Strait of Hormuz.** | YES | MED[1][2][4]\n\nA two-week ceasefire is in place, set to expire around April 21, with sources indicating US-Iran discussions for fresh face-to-face talks to secure a larger deal; no final agreement confirmed yet[1][2][3][4].[4] Trump has initiated the b",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ENTER",
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_251431",
-      "timestamp": "2026-04-14T21:51:15.226388+00:00",
+      "id": "sig_424487",
+      "timestamp": "2026-04-14T21:54:08.282426+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 202",
-      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Boosted by Alpenglow Upgrade** | YES | HIGH  \nSolana's network activity has surged to unprecedented levels today, with **167 million monthly token holders** and **148 million daily non-vote transactions**, directly tied to the **Alpenglow consensus upgrade** reducing transacti",
+      "headline": "JD Vance publicly urges Elon Musk to stay loyal to Trump's Republican Party and abandon third-party plans | NO | LOW con",
+      "raw": "JD Vance publicly urges Elon Musk to stay loyal to Trump's Republican Party and abandon third-party plans | NO | LOW confidence**  \nUS Vice President **JD Vance** advised **Elon Musk** on Wednesday to \"try to fix the Republican Party\" instead of launching a third party like the 'America Party,' arguing Musk could wield more influence within **Trump**'s MAGA movement[1][4]. This follows reports Mus",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Trump talk to Elon Musk in April?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_430423",
+      "timestamp": "2026-04-14T21:54:14.218713+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Surges 10% on Record 167 Million Monthly Token Holders and Alpenglow Consensus Upgrade Achieving 150ms Fina",
+      "raw": "Solana (SOL) Surges 10% on Record 167 Million Monthly Token Holders and Alpenglow Consensus Upgrade Achieving 150ms Finality | YES | HIGH confidence**[1]\n\nSolana network hit an all-time high of **167 million monthly token holders** and **148 million daily non-vote transactions** as of April 14, 2026, driving the price surge alongside the **Alpenglow upgrade** that reduces transaction finality from",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "matched_markets": [
         "Will the price of Bitcoin be above $74,000 on April 15?",
         "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
-      "action": "ENTER",
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
-    },
-    {
-      "id": "sig_260131",
-      "timestamp": "2026-04-14T21:51:23.926674+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is **no breaking news or recent announcement** to report in the format you'",
-      "raw": "Based on the available search results, there is **no breaking news or recent announcement** to report in the format you've requested.\n\nThe most recent confirmed data shows South Korea's **annual inflation rate at 2.16% in March 2026**[3], up slightly from 2.0% in February. However, this data was released on March 5, 2026[1]\u2014over a month ago\u2014and does not constitute breaking news as of April 14, 202",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 3,
+    "enter": 0,
     "alert": 0,
-    "watch": 0,
-    "high_conf": 3
+    "watch": 3,
+    "high_conf": 0
   }
 }
