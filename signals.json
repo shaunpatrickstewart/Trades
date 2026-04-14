@@ -1,95 +1,131 @@
 {
-  "last_scan": "2026-04-14T19:46:02.559382+00:00",
-  "scan_seconds": 50.8,
+  "last_scan": "2026-04-14T19:46:47.045784+00:00",
+  "scan_seconds": 34.1,
   "markets_scanned": 119,
   "open_positions": 90,
   "signals": [
     {
-      "id": "sig_729658",
-      "timestamp": "2026-04-14T19:45:53.461671+00:00",
+      "id": "sig_782221",
+      "timestamp": "2026-04-14T19:46:46.024589+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Announced | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Announced | YES | HIGH confidence**\n\nSolana's network reached an all-time record of **167 million monthly token holders** as of April 14, 2026, with daily non-vote transactions hitting historic highs of 148 million[2]. The highly anticipated **Alpenglow consensus upgrade** has been confirmed, which aims to dramatically reduce transa",
+      "headline": "South Korea's annual inflation rises to 2",
+      "raw": "South Korea's annual inflation rises to 2.2% in March 2026 | YES | HIGH confidence**[1][4]\n\nThe Bank of Korea announced its 7th consecutive interest rate freeze at 2.5% on Friday (April 10, 2026), citing the March inflation uptick to 2.2% YoY (from 2.0% in Jan-Feb, below 2.4% forecasts) amid Middle East-driven energy volatility and won weakness; this confirms no rate cuts, potentially shifting pre",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?",
-        "Will the price of Solana be above $100 on April 16?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_729668",
-      "timestamp": "2026-04-14T19:45:53.471129+00:00",
+      "id": "sig_764692",
+      "timestamp": "2026-04-14T19:46:28.495970+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin 2026 Conference Opens April 27 with Institutional Keynotes | YES | HIGH confidence**",
-      "raw": "Bitcoin 2026 Conference Opens April 27 with Institutional Keynotes | YES | HIGH confidence**\n\nThe **Bitcoin 2026 Conference** is confirmed to open April 27 in Las Vegas with over 35,000 registered attendees and keynote presentations from BlackRock, Fidelity, and Goldman Sachs digital asset divisions[1]. Bitcoin is currently trading at $68,758[1].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Bitcoin reach $80,000 on April 14?",
-        "Will Bitcoin dip to $67,000 on April 14?",
-        "Will the price of Bitcoin be less than $64,000 on April 16?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_729646",
-      "timestamp": "2026-04-14T19:45:53.449241+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results available, here are the key developments:",
-      "raw": "Based on the search results available, here are the key developments:",
+      "headline": "**Key Confirmation**: US military has initiated a blockade of all traffic to/from Iranian ports, announced by President",
+      "raw": "**Key Confirmation**: US military has initiated a blockade of all traffic to/from Iranian ports, announced by President Trump following failed weekend negotiations in Islamabad/Pakistan; ceasefire (announced April 7, expires next week) remains in effect but under pressure**[1][2][3]**.",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_764710",
+      "timestamp": "2026-04-14T19:46:28.513908+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Prediction Market Impact**: Blockade escalation post-ceasefire failure likely shifts odds on Iran conflict resolution,",
+      "raw": "**Prediction Market Impact**: Blockade escalation post-ceasefire failure likely shifts odds on Iran conflict resolution, nuclear deal, or Strait disruptions (e.g., higher war resumption probability)**[2][3]**.",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_777307",
+      "timestamp": "2026-04-14T19:46:41.110455+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Signals Resumption of Peace Talks with US, Driving Bitcoin to $75,000 and Solana Surge | YES | HIGH confidence** [2",
+      "raw": "Iran Signals Resumption of Peace Talks with US, Driving Bitcoin to $75,000 and Solana Surge | YES | HIGH confidence** [2]\n\nPolymarket's \"Solana Up or Down on April 14?\" market shows 100% probability for \"Up,\" set to resolve soon at noon ET (within ~1 hour of 7 PM UTC) based on Binance SOL/USDT close prices comparing April 13 noon ET to April 14 noon ET[1]. Bitcoin hit $75,000 amid a broad crypto r",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_706864",
-      "timestamp": "2026-04-14T19:45:30.667358+00:00",
+      "id": "sig_764683",
+      "timestamp": "2026-04-14T19:46:28.486703+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Issues Executive Order on March 31, 2026, Mandating Citizenship Verification for Federal Elections Ahead of 2026 M",
-      "raw": "Trump Issues Executive Order on March 31, 2026, Mandating Citizenship Verification for Federal Elections Ahead of 2026 Midterms** | **YES** | **HIGH** confidence[3]\n\nTrump's order directs the Department of Homeland Security to establish state citizenship lists using SSA and DHS SAVE data to verify voter eligibility, prioritizing election fraud investigations under laws like 18 U.S.C. 611, explicit",
+      "headline": "US Begins Naval Blockade of Iranian Ports in Strait of Hormuz After Failed Ceasefire Talks | YES | HIGH confidence**[1][",
+      "raw": "US Begins Naval Blockade of Iranian Ports in Strait of Hormuz After Failed Ceasefire Talks | YES | HIGH confidence**[1][2][3]",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Kharg Island no longer under Iranian control by April 15?",
-        "Will Donald Trump post 60-79 Truth Social posts from April 1"
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_729676",
-      "timestamp": "2026-04-14T19:45:53.479837+00:00",
+      "id": "sig_764701",
+      "timestamp": "2026-04-14T19:46:28.504882+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Price Consolidation Between $80-$95 | YES | MED confidence**",
-      "raw": "Solana Price Consolidation Between $80-$95 | YES | MED confidence**\n\nSOL is consolidating in a $75-$95 range with limited near-term breakout signals[6]. Current price sits around $82[6], though some sources cite $79.94[1]. Market analysts suggest if Bitcoin rallies above $80,000, it could push SOL beyond the $100 resistance mark[4].\n\nThe most market-moving confirmations are Solana's record network",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "**Related Developments**: Fresh US-Iran talks eyed this week before ceasefire deadline; Iran offered 5-year uranium enri",
+      "raw": "**Related Developments**: Fresh US-Iran talks eyed this week before ceasefire deadline; Iran offered 5-year uranium enrichment suspension (US demands more, e.g., nuclear material removal); Trump states Iran has reached out for a deal but no agreement yet**[1][2][3]**.",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of Bitcoin be between $64,000 and $66,000 on ",
-        "Will the price of Solana be above $100 on April 15?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_769819",
+      "timestamp": "2026-04-14T19:46:33.622515+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NJ CD-11 Special Election Debate: Joe Hathaway Clashes with Analilia Mejia Ahead of April 16 Vote | NO | LOW confidence*",
+      "raw": "NJ CD-11 Special Election Debate: Joe Hathaway Clashes with Analilia Mejia Ahead of April 16 Vote | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions today involving Truth Social, Donald Trump, or Joe Hathaway that would move prediction markets. Search results highlight an ongoing special election in New Jersey's 11th Congressional District on Thursday, April 16, to r",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Joe Hathaway win the NJ-11 special election?",
+        "Will Donald Trump post 60-79 Truth Social posts from April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
-    "watch": 2,
+    "enter": 1,
+    "alert": 6,
+    "watch": 0,
     "high_conf": 2
   }
 }
