@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 129 categorical arb opportunities found\nScanned 3000 events (1972 multi-outcome) at 2026-04-14 19:09 UTC\nBest: 10.0% profit on 'Ducks vs. Wild' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'MLB: NL Manager of the Year'",
+      "result": "LIVE \u2014 96 categorical arb opportunities found\nScanned 1900 events (1457 multi-outcome) at 2026-04-14 19:10 UTC\nBest: 10.0% profit on 'Ducks vs. Wild' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.65% on 'Which CEOs will be out before 2027?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 19:09 UTC",
+      "last_scan": "2026-04-14 19:10 UTC",
       "opportunities": [
         {
           "event_title": "Ducks vs. Wild",
@@ -37,72 +37,6 @@
           ],
           "url": "https://polymarket.com/event/nhl-ana-min-2026-04-14",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "MLB: NL Manager of the Year",
-          "event_slug": "mlb-nl-manager-of-the-year",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1721587",
-              "slug": "will-carlos-mendoza-win-the-2026-nl-manager-of-the-year",
-              "question": "Will Carlos Mendoza win the 2026 NL Manager of the Year?",
-              "yes_price": 0.355,
-              "volume": 9319
-            },
-            {
-              "market_id": "1721583",
-              "slug": "will-terry-francona-win-the-2026-nl-manager-of-the-year",
-              "question": "Will Terry Francona win the 2026 NL Manager of the Year?",
-              "yes_price": 0.33,
-              "volume": 2740
-            },
-            {
-              "market_id": "1721584",
-              "slug": "will-warren-schaeffer-win-the-2026-nl-manager-of-the-year",
-              "question": "Will Warren Schaeffer win the 2026 NL Manager of the Year?",
-              "yes_price": 0.215,
-              "volume": 3007
-            }
-          ],
-          "url": "https://polymarket.com/event/mlb-nl-manager-of-the-year",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "XRP price on April 15?",
-          "event_slug": "xrp-price-on-april-15",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1919395",
-              "slug": "will-the-price-of-xrp-be-between-1pt30-1pt40-on-april-15",
-              "question": "Will the price of XRP be between $1.30 and $1.40 on April 15?",
-              "yes_price": 0.88,
-              "volume": 4113
-            },
-            {
-              "market_id": "1919393",
-              "slug": "will-the-price-of-xrp-be-between-1pt20-1pt30-on-april-15",
-              "question": "Will the price of XRP be between $1.20 and $1.30 on April 15?",
-              "yes_price": 0.0205,
-              "volume": 1807
-            },
-            {
-              "market_id": "1919389",
-              "slug": "will-the-price-of-xrp-be-between-1pt00-1pt10-on-april-15",
-              "question": "Will the price of XRP be between $1.00 and $1.10 on April 15?",
-              "yes_price": 0.002,
-              "volume": 1813
-            }
-          ],
-          "url": "https://polymarket.com/event/xrp-price-on-april-15",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Which CEOs will be out before 2027?",
@@ -185,84 +119,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "FL-25 House Election Winner",
-          "event_slug": "fl-25-house-election-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1283129",
-              "slug": "will-the-democratic-party-win-the-fl-25-house-seat",
-              "question": "Will the Democratic Party win the FL-25 House seat?",
-              "yes_price": 0.61,
-              "volume": 1777
-            },
-            {
-              "market_id": "1283128",
-              "slug": "will-the-republican-party-win-the-fl-25-house-seat",
-              "question": "Will the Republican Party win the FL-25 House seat?",
-              "yes_price": 0.295,
-              "volume": 6829
-            }
-          ],
-          "url": "https://polymarket.com/event/fl-25-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "FL-14 House Election Winner",
-          "event_slug": "fl-14-house-election-winner",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1283049",
-              "slug": "will-the-democratic-party-win-the-fl-14-house-seat",
-              "question": "Will the Democratic Party win the FL-14 House seat?",
-              "yes_price": 0.55,
-              "volume": 3548
-            },
-            {
-              "market_id": "1283048",
-              "slug": "will-the-republican-party-win-the-fl-14-house-seat",
-              "question": "Will the Republican Party win the FL-14 House seat?",
-              "yes_price": 0.355,
-              "volume": 3475
-            }
-          ],
-          "url": "https://polymarket.com/event/fl-14-house-election-winner",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
-          "event_title": "UEFA Europa League: Most Goal Contributions",
-          "event_slug": "uefa-europa-league-most-goal-contributions",
-          "yes_sum": 0.905,
-          "profit_pct": 9.5,
-          "profit_per_dollar_pct": 10.5,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1420691",
-              "slug": "will-igor-jesus-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-league",
-              "question": "Will Igor Jesus record the most goal contributions in the 2025-26 UEFA Europa Le",
-              "yes_price": 0.535,
-              "volume": 2952
-            },
-            {
-              "market_id": "1420692",
-              "slug": "will-ricardo-horta-record-the-most-goal-contributions-in-the-2025-26-uefa-europa-league",
-              "question": "Will Ricardo Horta record the most goal contributions in the 2025-26 UEFA Europa",
-              "yes_price": 0.37,
-              "volume": 2740
-            }
-          ],
-          "url": "https://polymarket.com/event/uefa-europa-league-most-goal-contributions",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
-        },
-        {
           "event_title": "Bulgarian Parliamentary Election: Which Parties Enter Parliament?",
           "event_slug": "bulgarian-parliamentary-election-which-parties-enter-parliament",
           "yes_sum": 0.9085,
@@ -334,15 +190,341 @@
           ],
           "url": "https://polymarket.com/event/mlb-laa-nyy-2026-04-14",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "CA River Plate vs. CA Tucum\u00e1n",
+          "event_slug": "arg-riv-cat-2026-03-08",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1360750",
+              "slug": "arg-riv-cat-2026-03-08-riv",
+              "question": "Will CA River Plate win on 2026-03-08?",
+              "yes_price": 0.55,
+              "volume": 6234
+            },
+            {
+              "market_id": "1360751",
+              "slug": "arg-riv-cat-2026-03-08-draw",
+              "question": "Will CA River Plate vs. CA Tucum\u00e1n end in a draw?",
+              "yes_price": 0.36,
+              "volume": 22895
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-riv-cat-2026-03-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+        },
+        {
+          "event_title": "Lowest temperature in NYC on April 15?",
+          "event_slug": "lowest-temperature-in-nyc-on-april-15-2026",
+          "yes_sum": 0.9145,
+          "profit_pct": 8.55,
+          "profit_per_dollar_pct": 9.35,
+          "num_outcomes": 7,
+          "outcomes": [
+            {
+              "market_id": "1975907",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-64-65f",
+              "question": "Will the lowest temperature in New York City be between 64-65\u00b0F on April 15?",
+              "yes_price": 0.345,
+              "volume": 2299
+            },
+            {
+              "market_id": "1975908",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-66-67f",
+              "question": "Will the lowest temperature in New York City be between 66-67\u00b0F on April 15?",
+              "yes_price": 0.2605,
+              "volume": 2295
+            },
+            {
+              "market_id": "1975909",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-68-69f",
+              "question": "Will the lowest temperature in New York City be between 68-69\u00b0F on April 15?",
+              "yes_price": 0.1545,
+              "volume": 1145
+            },
+            {
+              "market_id": "1975906",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-62-63f",
+              "question": "Will the lowest temperature in New York City be between 62-63\u00b0F on April 15?",
+              "yes_price": 0.12,
+              "volume": 1113
+            },
+            {
+              "market_id": "1975904",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-59forbelow",
+              "question": "Will the lowest temperature in New York City be 59\u00b0F or below on April 15?",
+              "yes_price": 0.015,
+              "volume": 2293
+            },
+            {
+              "market_id": "1975905",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-60-61f",
+              "question": "Will the lowest temperature in New York City be between 60-61\u00b0F on April 15?",
+              "yes_price": 0.013,
+              "volume": 1271
+            },
+            {
+              "market_id": "1975914",
+              "slug": "lowest-temperature-in-nyc-on-april-15-2026-78forhigher",
+              "question": "Will the lowest temperature in New York City be 78\u00b0F or higher on April 15?",
+              "yes_price": 0.0065,
+              "volume": 5310
+            }
+          ],
+          "url": "https://polymarket.com/event/lowest-temperature-in-nyc-on-april-15-2026",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9145. One wins $1.00. Profit: $0.0855 (8.55%)"
+        },
+        {
+          "event_title": "# of seats won by GERB-SDS in Bulgarian Parliamentary Election?",
+          "event_slug": "of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "yes_sum": 0.9165,
+          "profit_pct": 8.35,
+          "profit_per_dollar_pct": 9.11,
+          "num_outcomes": 5,
+          "outcomes": [
+            {
+              "market_id": "1738310",
+              "slug": "will-gerb-sds-win-between-55-59-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 55-59 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.42,
+              "volume": 7662
+            },
+            {
+              "market_id": "1738312",
+              "slug": "will-gerb-sds-win-between-65-69-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 65-69 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.155,
+              "volume": 2791
+            },
+            {
+              "market_id": "1738311",
+              "slug": "will-gerb-sds-win-between-60-64-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win between 60-64 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.14,
+              "volume": 20057
+            },
+            {
+              "market_id": "1738308",
+              "slug": "will-gerb-sds-win-fewer-than-50-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win fewer than 50 seats in the 2026 Bulgarian parliamentary electi",
+              "yes_price": 0.1015,
+              "volume": 1836
+            },
+            {
+              "market_id": "1738313",
+              "slug": "will-gerb-sds-win-70-or-more-seats-in-the-2026-bulgarian-parliamentary-election",
+              "question": "Will GERB-SDS win 70 or more seats in the 2026 Bulgarian parliamentary election?",
+              "yes_price": 0.1,
+              "volume": 1160
+            }
+          ],
+          "url": "https://polymarket.com/event/of-seats-won-by-gerb-sds-in-bulgarian-parliamentary-election",
+          "strategy": "Buy YES on all 5 outcomes. Total cost: $0.9165. One wins $1.00. Profit: $0.0835 (8.35%)"
+        },
+        {
+          "event_title": "Next UK Prime Minister in 2026?",
+          "event_slug": "next-uk-prime-minister-in-2026-122",
+          "yes_sum": 0.919,
+          "profit_pct": 8.1,
+          "profit_per_dollar_pct": 8.81,
+          "num_outcomes": 20,
+          "outcomes": [
+            {
+              "market_id": "1343514",
+              "slug": "will-no-next-prime-minister-of-the-united-kingdom-be-appointed-in-2026",
+              "question": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
+              "yes_price": 0.515,
+              "volume": 222071
+            },
+            {
+              "market_id": "1343456",
+              "slug": "will-angela-rayner-be-the-next-prime-minister-of-the-united-kingdom-in-2026-737",
+              "question": "Will Angela Rayner be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.175,
+              "volume": 266393
+            },
+            {
+              "market_id": "1343455",
+              "slug": "will-wes-streeting-be-the-next-prime-minister-of-the-united-kingdom-in-2026-137",
+              "question": "Will Wes Streeting be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.045,
+              "volume": 63847
+            },
+            {
+              "market_id": "1343462",
+              "slug": "will-ed-miliband-be-the-next-prime-minister-of-the-united-kingdom-in-2026-745",
+              "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0415,
+              "volume": 182187
+            },
+            {
+              "market_id": "1343457",
+              "slug": "will-nigel-farage-be-the-next-prime-minister-of-the-united-kingdom-in-2026-356",
+              "question": "Will Nigel Farage be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0275,
+              "volume": 668564
+            },
+            {
+              "market_id": "1343466",
+              "slug": "will-rupert-lowe-be-the-next-prime-minister-of-the-united-kingdom-in-2026-515",
+              "question": "Will Rupert Lowe be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0255,
+              "volume": 576267
+            },
+            {
+              "market_id": "1343458",
+              "slug": "will-andy-burnham-be-the-next-prime-minister-of-the-united-kingdom-in-2026-882",
+              "question": "Will Andy Burnham be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.023,
+              "volume": 298382
+            },
+            {
+              "market_id": "1343461",
+              "slug": "will-shabana-mahmood-be-the-next-prime-minister-of-the-united-kingdom-in-2026-129",
+              "question": "Will Shabana Mahmood be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0125,
+              "volume": 203071
+            },
+            {
+              "market_id": "1343460",
+              "slug": "will-yvette-cooper-be-the-next-prime-minister-of-the-united-kingdom-in-2026-875",
+              "question": "Will Yvette Cooper be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0105,
+              "volume": 197180
+            },
+            {
+              "market_id": "1343472",
+              "slug": "will-al-carns-be-the-next-prime-minister-of-the-united-kingdom-in-2026-126",
+              "question": "Will Al Carns be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.01,
+              "volume": 108921
+            },
+            {
+              "market_id": "1343454",
+              "slug": "will-lucy-powell-be-the-next-prime-minister-of-the-united-kingdom-in-2026-663",
+              "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0075,
+              "volume": 188381
+            },
+            {
+              "market_id": "1343459",
+              "slug": "will-kemi-badenoch-be-the-next-prime-minister-of-the-united-kingdom-in-2026-828",
+              "question": "Will Kemi Badenoch be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0045,
+              "volume": 119897
+            },
+            {
+              "market_id": "1343465",
+              "slug": "will-bridget-phillipson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-539",
+              "question": "Will Bridget Phillipson be the next Prime Minister of the United Kingdom in 2026",
+              "yes_price": 0.0045,
+              "volume": 71705
+            },
+            {
+              "market_id": "1343467",
+              "slug": "will-rachel-reeves-be-the-next-prime-minister-of-the-united-kingdom-in-2026-919",
+              "question": "Will Rachel Reeves be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0045,
+              "volume": 365290
+            },
+            {
+              "market_id": "1343469",
+              "slug": "will-david-lammy-be-the-next-prime-minister-of-the-united-kingdom-in-2026-654",
+              "question": "Will David Lammy be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0035,
+              "volume": 101553
+            },
+            {
+              "market_id": "1343471",
+              "slug": "will-darren-jones-be-the-next-prime-minister-of-the-united-kingdom-in-2026-455",
+              "question": "Will Darren Jones be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.003,
+              "volume": 127768
+            },
+            {
+              "market_id": "1343463",
+              "slug": "will-boris-johnson-be-the-next-prime-minister-of-the-united-kingdom-in-2026-495",
+              "question": "Will Boris Johnson be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 163255
+            },
+            {
+              "market_id": "1343464",
+              "slug": "will-ed-davey-be-the-next-prime-minister-of-the-united-kingdom-in-2026-255",
+              "question": "Will Ed Davey be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 151781
+            },
+            {
+              "market_id": "1343468",
+              "slug": "will-robert-jenrick-be-the-next-prime-minister-of-the-united-kingdom-in-2026-325",
+              "question": "Will Robert Jenrick be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 250036
+            },
+            {
+              "market_id": "1343470",
+              "slug": "will-james-cleverly-be-the-next-prime-minister-of-the-united-kingdom-in-2026-292",
+              "question": "Will James Cleverly be the next Prime Minister of the United Kingdom in 2026?",
+              "yes_price": 0.0015,
+              "volume": 206076
+            }
+          ],
+          "url": "https://polymarket.com/event/next-uk-prime-minister-in-2026-122",
+          "strategy": "Buy YES on all 20 outcomes. Total cost: $0.9190. One wins $1.00. Profit: $0.0810 (8.10%)"
+        },
+        {
+          "event_title": "Will Opensea launch a token by ___?",
+          "event_slug": "will-opensea-launch-a-token-by-142",
+          "yes_sum": 0.9195,
+          "profit_pct": 8.05,
+          "profit_per_dollar_pct": 8.75,
+          "num_outcomes": 4,
+          "outcomes": [
+            {
+              "market_id": "1271613",
+              "slug": "will-opensea-launch-a-token-by-december-31-2026",
+              "question": "Will OpenSea launch a token by December 31, 2026?",
+              "yes_price": 0.616,
+              "volume": 97154
+            },
+            {
+              "market_id": "1271612",
+              "slug": "will-opensea-launch-a-token-by-september-30-2026",
+              "question": "Will OpenSea launch a token by September 30, 2026?",
+              "yes_price": 0.25,
+              "volume": 66649
+            },
+            {
+              "market_id": "1271611",
+              "slug": "will-opensea-launch-a-token-by-june-30-2026",
+              "question": "Will OpenSea launch a token by June 30, 2026?",
+              "yes_price": 0.0535,
+              "volume": 192476
+            },
+            {
+              "market_id": "1271610",
+              "slug": "will-opensea-launch-a-token-by-march-31-2026",
+              "question": "Will OpenSea launch a token by March 31, 2026?",
+              "yes_price": 0.0,
+              "volume": 1030401
+            }
+          ],
+          "url": "https://polymarket.com/event/will-opensea-launch-a-token-by-142",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9195. One wins $1.00. Profit: $0.0805 (8.05%)"
         }
       ],
       "stats": {
-        "total_events": 3000,
-        "checked_multi_outcome": 1972,
-        "skipped_single_outcome": 602,
-        "opportunities_found": 129,
+        "total_events": 1900,
+        "checked_multi_outcome": 1457,
+        "skipped_single_outcome": 375,
+        "opportunities_found": 96,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 19:09 UTC"
+        "scanned_at": "2026-04-14 19:10 UTC"
       }
     },
     {
