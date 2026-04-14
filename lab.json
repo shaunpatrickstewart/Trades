@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 144 categorical arb opportunities found\nScanned 3000 events (1879 multi-outcome) at 2026-04-14 03:08 UTC\nBest: 10.0% profit on 'What floor price will Milady hit before 2027?' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'NY-04 Democratic Primary Winner'",
+      "result": "LIVE \u2014 119 categorical arb opportunities found\nScanned 2200 events (1619 multi-outcome) at 2026-04-14 03:09 UTC\nBest: 10.0% profit on 'What floor price will Milady hit before 2027?' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'NY-04 Democratic Primary Winner'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 03:08 UTC",
+      "last_scan": "2026-04-14 03:09 UTC",
       "opportunities": [
         {
           "event_title": "What floor price will Milady hit before 2027?",
@@ -185,39 +185,6 @@
           ],
           "url": "https://polymarket.com/event/oklahoma-governor-republican-primary-winner",
           "strategy": "Buy YES on all 8 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)"
-        },
-        {
-          "event_title": "#1 Free App in the US Apple App Store on April 14?",
-          "event_slug": "1-free-app-in-the-us-apple-app-store-on-april-14",
-          "yes_sum": 0.9025,
-          "profit_pct": 9.75,
-          "profit_per_dollar_pct": 10.8,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1937440",
-              "slug": "will-chatgpt-be-1-free-app-in-the-us-apple-app-store-on-april-14",
-              "question": "Will ChatGPT be #1 Free App in the US Apple App Store on April 14?",
-              "yes_price": 0.9,
-              "volume": 1549
-            },
-            {
-              "market_id": "1937446",
-              "slug": "will-threads-be-1-free-app-in-the-us-apple-app-store-on-april-14",
-              "question": "Will Threads be #1 Free App in the US Apple App Store on April 14?",
-              "yes_price": 0.002,
-              "volume": 1143
-            },
-            {
-              "market_id": "1937443",
-              "slug": "will-google-be-1-free-app-in-the-us-apple-app-store-on-april-14",
-              "question": "Will Google be #1 Free App in the US Apple App Store on April 14?",
-              "yes_price": 0.0005,
-              "volume": 1330
-            }
-          ],
-          "url": "https://polymarket.com/event/1-free-app-in-the-us-apple-app-store-on-april-14",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
           "event_title": "Presidential Election Winner 2028",
@@ -1083,15 +1050,41 @@
           ],
           "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
           "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
+        },
+        {
+          "event_title": "Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors",
+          "event_slug": "arg-gim-aaj-2026-03-08",
+          "yes_sum": 0.91,
+          "profit_pct": 9.0,
+          "profit_per_dollar_pct": 9.89,
+          "num_outcomes": 2,
+          "outcomes": [
+            {
+              "market_id": "1360742",
+              "slug": "arg-gim-aaj-2026-03-08-draw",
+              "question": "Will Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors end in a draw?",
+              "yes_price": 0.48,
+              "volume": 1695
+            },
+            {
+              "market_id": "1360741",
+              "slug": "arg-gim-aaj-2026-03-08-gim",
+              "question": "Will Gimnasia y Esgrima de La Plata win on 2026-03-08?",
+              "yes_price": 0.43,
+              "volume": 22792
+            }
+          ],
+          "url": "https://polymarket.com/event/arg-gim-aaj-2026-03-08",
+          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         }
       ],
       "stats": {
-        "total_events": 3000,
-        "checked_multi_outcome": 1879,
-        "skipped_single_outcome": 609,
-        "opportunities_found": 144,
+        "total_events": 2200,
+        "checked_multi_outcome": 1619,
+        "skipped_single_outcome": 456,
+        "opportunities_found": 119,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 03:08 UTC"
+        "scanned_at": "2026-04-14 03:09 UTC"
       }
     },
     {
