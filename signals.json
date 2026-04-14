@@ -1,185 +1,80 @@
 {
-  "last_scan": "2026-04-14T20:04:36.430428+00:00",
-  "scan_seconds": 96.2,
-  "markets_scanned": 64,
+  "last_scan": "2026-04-14T20:05:50.632479+00:00",
+  "scan_seconds": 52.5,
+  "markets_scanned": 65,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_779337",
-      "timestamp": "2026-04-14T20:03:23.139144+00:00",
+      "id": "sig_883458",
+      "timestamp": "2026-04-14T20:05:07.260929+00:00",
       "source": "PERPLEXITY",
-      "headline": "Vance's Diplomatic Role Solidified | YES | HIGH confidence**",
-      "raw": "Vance's Diplomatic Role Solidified | YES | HIGH confidence**\n\nVice President Vance has played a significant and key role in negotiations from the beginning and continues as the president's right-hand man in these discussions.[1]\n\nThe search results show mixed signals: while a ceasefire and Strait of Hormuz agreement appear confirmed, the status of broader peace negotiations remains unclear, with s",
+      "headline": "TRUMP ANNOUNCES TWO-WEEK CEASEFIRE WITH IRAN, ISRAEL JOINS AS PEACE TALKS ADVANCE ON 10-POINT DEAL | YES | HIGH confiden",
+      "raw": "TRUMP ANNOUNCES TWO-WEEK CEASEFIRE WITH IRAN, ISRAEL JOINS AS PEACE TALKS ADVANCE ON 10-POINT DEAL | YES | HIGH confidence** [1][2]\n\nPresident Trump confirmed a mutual two-week suspension of U.S. and Iranian military actions on Tuesday via Truth Social, following Iran's 10-point peace proposal described as a \"workable basis\" for negotiations, averting an 8 p.m. ET deadline for escalation.[1][2] Is",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_889725",
+      "timestamp": "2026-04-14T20:05:13.527191+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran-US peace talks fail; Vance returns empty-handed from negotiations** | NO | HIGH confidence[1][4][5]",
+      "raw": "Iran-US peace talks fail; Vance returns empty-handed from negotiations** | NO | HIGH confidence[1][4][5]\n\nVice President JD Vance's recent negotiations with Iran over the weekend collapsed without a peace agreement, as confirmed by the chief US negotiator (Vance himself) and reported across multiple outlets today[1][4]. Trump claimed talks were \"intensive\" and nearly successful except for Iran's r",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_792610",
-      "timestamp": "2026-04-14T20:03:36.412696+00:00",
+      "id": "sig_925829",
+      "timestamp": "2026-04-14T20:05:49.631758+00:00",
       "source": "PERPLEXITY",
-      "headline": "SOUTH KOREA INFLATION RISES TO 2",
-      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, ABOVE BOK TARGET AMID OIL PRICE SURGE | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, exceeding the Bank of Korea's 2.0% target but below market forecasts of 2.4%[2]. This uptick follows January's five-month low of 2.0%[1][3], driven by contained price pressures befo",
-      "direction": "NO",
+      "headline": "Bank of Korea Holds Policy Rate at 2",
+      "raw": "Bank of Korea Holds Policy Rate at 2.5% Amid Rising Inflation Pressures from Oil Prices (April 2026 Meeting)** | YES | HIGH confidence[7][8]\n\nSouth Korea's March 2026 CPI data, released early April, showed annual inflation at 2.2% (up from 2.0% in February), slightly below 2.3-2.4% forecasts, with monthly rise of 0.3% and core at 2.2%[1][3][4][5]. AMRO raised its 2026 full-year inflation forecast ",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_816046",
-      "timestamp": "2026-04-14T20:03:59.848963+00:00",
+      "id": "sig_919381",
+      "timestamp": "2026-04-14T20:05:43.183493+00:00",
       "source": "PERPLEXITY",
-      "headline": "Isaiah Hartenstein wins NBA title with Oklahoma City Thunder, becoming second German champion after Dirk Nowitzki** | YE",
-      "raw": "Isaiah Hartenstein wins NBA title with Oklahoma City Thunder, becoming second German champion after Dirk Nowitzki** | YES | HIGH confidence[1]\n\nIsaiah Hartenstein, a 27-year-old German-American center, has won the NBA championship with the Oklahoma City Thunder, confirmed as only the second German to achieve this feat following Dirk Nowitzki's 2011 victory with the Dallas Mavericks[1]. This resolu",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_765936",
-      "timestamp": "2026-04-14T20:03:09.738674+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE: US and Iran plan fresh talks before April 7 ceasefire expires next week, after Islamabad negotiations fail; Tr",
-      "raw": "HEADLINE: US and Iran plan fresh talks before April 7 ceasefire expires next week, after Islamabad negotiations fail; Trump reports Iranian outreach amid ongoing Strait of Hormuz blockade[1][3][4].**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_779228",
-      "timestamp": "2026-04-14T20:03:23.030728+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the key developments:",
-      "raw": "Based on the search results provided, here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_779263",
-      "timestamp": "2026-04-14T20:03:23.065124+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Reached | YES | HIGH confidence**",
-      "raw": "Iran Ceasefire Reached | YES | HIGH confidence**\n\nIran has agreed to open the Strait of Hormuz following President Trump's deadline, representing a significant diplomatic breakthrough.[1] Vice President Vance called this a \"fragile truce,\" acknowledging that some inside Iran are \"lying\" about its stability.[6]",
+      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders with Alpenglow Upgrade Boost | YES | HIGH confidence**",
+      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders with Alpenglow Upgrade Boost | YES | HIGH confidence**  \nOn April 14, 2026, Solana achieved a record 167 million monthly token holders and 148 million daily non-vote transactions, fueled by the anticipated **Alpenglow consensus upgrade** reducing transaction finality from 12 seconds to 150 milliseconds[2].  \nThis network milestone, alon",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_779296",
-      "timestamp": "2026-04-14T20:03:23.098161+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Peace Talks Advancing | YES | MED confidence**",
-      "raw": "US-Iran Peace Talks Advancing | YES | MED confidence**\n\nThe first round of in-person peace talks is scheduled for Saturday morning local time in Islamabad, with Vice President Vance, Special Envoy Whitcoff, and Kushner attending.[1] However, conflicting reports indicate the US and Iran \"failed to reach a peace agreement\" over the weekend, suggesting negotiations remain incomplete.[5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_852582",
-      "timestamp": "2026-04-14T20:04:36.385010+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket whale profits this week:** Whales printed $4",
-      "raw": "Polymarket whale profits this week:** Whales printed $4.9M at +40% ROI, with tight 40-50% returns across traders signaling mispriced edges via timing/conviction.[[1]](https://x.com/i/status/2043796535981359389)[[2]](https://x.com/i/status/2044010027850076670) No specific market; implies broad YES opportunities. Conf: MED.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043796535981359389)[[2]](https://x.com/i/status/2044010027850076670)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_852595",
-      "timestamp": "2026-04-14T20:04:36.397669+00:00",
-      "source": "X_GROK",
-      "headline": "CS2 IEM esports whales:** $256k+$112k bets on B8 (-1",
-      "raw": "CS2 IEM esports whales:** $256k+$112k bets on B8 (-1.5) vs Passion UA @46-47% (ongoing Apr 14). YES for B8 handicap win. Conf: MED (clustered smart money, esports volatile).[[3]](https://x.com/i/status/2044120245980332349)[[4]](https://x.com/i/status/2044116405058965983)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044120245980332349)[[4]](https://x.com/i/status/2044116405058965983)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_852606",
-      "timestamp": "2026-04-14T20:04:36.408869+00:00",
-      "source": "X_GROK",
-      "headline": "Other CS2 bets:** $125k on G2 (-1",
-      "raw": "Other CS2 bets:** $125k on G2 (-1.5) vs Gentle Mates @39%; $195k on 3DMAX (+1.5) vs FAL @40%. YES respective outcomes. Conf: LOW-MED (resolved/near).[[5]](https://x.com/i/status/2043668491035693072)[[6]](https://x.com/i/status/2043655819674140818)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043668491035693072)[[6]](https://x.com/i/status/2043655819674140818)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_852616",
-      "timestamp": "2026-04-14T20:04:36.419011+00:00",
-      "source": "X_GROK",
-      "headline": "G7 econ data tip:** Markets mispriced 8-16% vs pro consensus (GDP/unemployment); low variance, backtested +380% on $1k",
-      "raw": "G7 econ data tip:** Markets mispriced 8-16% vs pro consensus (GDP/unemployment); low variance, backtested +380% on $1k. YES towards consensus on upcoming releases. Conf: HIGH.[[7]](https://x.com/i/status/2043391435437678896)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043391435437678896)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_852627",
-      "timestamp": "2026-04-14T20:04:36.429764+00:00",
-      "source": "X_GROK",
-      "headline": "Notable whale:** @tanar2007 all-in printed massive bag (insider/conviction",
-      "raw": "Notable whale:** @tanar2007 all-in printed massive bag (insider/conviction?). Past win, track for moves. Conf: LOW.[[8]](https://x.com/i/status/2043604622133125147)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043604622133125147)",
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 3,
-    "alert": 9,
+    "alert": 1,
     "watch": 0,
     "high_conf": 3
   }
