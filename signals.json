@@ -1,79 +1,30 @@
 {
-  "last_scan": "2026-04-14T20:53:01.357060+00:00",
-  "scan_seconds": 54.1,
-  "markets_scanned": 115,
+  "last_scan": "2026-04-14T20:55:30.607772+00:00",
+  "scan_seconds": 33.1,
+  "markets_scanned": 116,
   "open_positions": 82,
   "signals": [
     {
-      "id": "sig_733127",
-      "timestamp": "2026-04-14T20:52:36.926078+00:00",
+      "id": "sig_905787",
+      "timestamp": "2026-04-14T20:55:29.586975+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP ANNOUNCES TWO-WEEK IRAN CEASEFIRE AND SUSPENSION OF BOMBING | YES | HIGH confidence**",
-      "raw": "TRUMP ANNOUNCES TWO-WEEK IRAN CEASEFIRE AND SUSPENSION OF BOMBING | YES | HIGH confidence**\n\nPresident Trump announced a **two-week ceasefire agreement with Iran** that suspends U.S. bombing and military action, following talks with Pakistani Prime Minister Shehbaz Sharif.[1][2] Trump stated on Truth Social that \"we have already met and exceeded all Military objectives\" and are \"very far along wit",
+      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
+      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2% (or precisely 2.16%), up from 2.0% in February | NO (no major deviation from recent steady levels or forecasts to significantly shift prediction markets)** | MED confidence[2][3]\n\nSouth Korea's Statistics Korea released the latest CPI data showing annual inflation rose to 2.2% in March 2026 from 2.0% in February, below market expecta",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_739387",
-      "timestamp": "2026-04-14T20:52:43.186121+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-VP Vance Confirms Iran Nuclear Talks End Without Agreement After 21-Hour Impasse** | **NO** | **HIGH** confidence[1]",
-      "raw": "US-VP Vance Confirms Iran Nuclear Talks End Without Agreement After 21-Hour Impasse** | **NO** | **HIGH** confidence[1]\n\nUS Vice President JD Vance announced on April 11, 2026, that high-stakes negotiations with Iran in Pakistan concluded early Sunday without a deal, as Iran refused US terms to abandon nuclear weapon development[1]. The talks, held under a two-week ceasefire starting April 7 amid ",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_748642",
-      "timestamp": "2026-04-14T20:52:52.441715+00:00",
-      "source": "PERPLEXITY",
-      "headline": "RIPPLE LAUNCHES UNIFIED TREASURY SYSTEM MERGING SWIFT AND XRP RAILS | YES | HIGH confidence**",
-      "raw": "RIPPLE LAUNCHES UNIFIED TREASURY SYSTEM MERGING SWIFT AND XRP RAILS | YES | HIGH confidence**\n\nRipple has launched a **new Unified Treasury System** (announced April 13, 2026) that merges SWIFT and XRP payment rails, targeting corporate adoption for payments and liquidity[7]. This represents a concrete step toward institutional use cases.",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?",
-        "Will XRP reach $1.90 April 13-19?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_756524",
-      "timestamp": "2026-04-14T20:53:00.323024+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Policy decisions announced today",
-      "raw": "Policy decisions announced today",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_733116",
-      "timestamp": "2026-04-14T20:52:36.915670+00:00",
+      "id": "sig_884075",
+      "timestamp": "2026-04-14T20:55:07.874253+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent significant development is:",
-      "raw": "Based on the search results provided, the most recent significant development is:",
+      "headline": "Implementation faltered quickly: Iran reportedly re-closed the Strait after Israeli strikes on Hezbollah, prompting US w",
+      "raw": "Implementation faltered quickly: Iran reportedly re-closed the Strait after Israeli strikes on Hezbollah, prompting US warnings of readiness to resume operations.[2]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -82,119 +33,12 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_733135",
-      "timestamp": "2026-04-14T20:52:36.934980+00:00",
+      "id": "sig_884084",
+      "timestamp": "2026-04-14T20:55:07.883039+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Strait of Hormuz reopening**: The agreement requires Iran to keep the Strait of Hormuz \"OPEN & SAFE\" for international",
-      "raw": "**Strait of Hormuz reopening**: The agreement requires Iran to keep the Strait of Hormuz \"OPEN & SAFE\" for international shipping traffic.[5]",
+      "headline": "By **April 12 (day 5)**, US-Iran talks in Islamabad collapsed without progress on nuclear terms or Hormuz control, leavi",
+      "raw": "By **April 12 (day 5)**, US-Iran talks in Islamabad collapsed without progress on nuclear terms or Hormuz control, leaving escalation risks high.[3]",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733147",
-      "timestamp": "2026-04-14T20:52:36.946959+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Nuclear restrictions**: Iran must not develop or obtain a nuclear weapon",
-      "raw": "**Nuclear restrictions**: Iran must not develop or obtain a nuclear weapon.[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733156",
-      "timestamp": "2026-04-14T20:52:36.955438+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Regional scope**: The ceasefire applies to the Middle East region, including Lebanon, according to multiple diplomatic",
-      "raw": "**Regional scope**: The ceasefire applies to the Middle East region, including Lebanon, according to multiple diplomatic sources and Pakistan's Prime Minister.[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733165",
-      "timestamp": "2026-04-14T20:52:36.964154+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Israeli agreement**: Trump claims Netanyahu agreed to the ceasefire terms",
-      "raw": "**Israeli agreement**: Trump claims Netanyahu agreed to the ceasefire terms.[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733173",
-      "timestamp": "2026-04-14T20:52:36.972523+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Movement for prediction markets:**",
-      "raw": "Movement for prediction markets:**\n\nThis would significantly impact markets betting on:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733182",
-      "timestamp": "2026-04-14T20:52:36.981136+00:00",
-      "source": "PERPLEXITY",
-      "headline": "De-escalation of Middle East tensions",
-      "raw": "De-escalation of Middle East tensions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733190",
-      "timestamp": "2026-04-14T20:52:36.989288+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Oil price stability (given Strait of Hormuz control concerns)",
-      "raw": "Oil price stability (given Strait of Hormuz control concerns)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733198",
-      "timestamp": "2026-04-14T20:52:36.997626+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Duration of the conflict (two-week negotiation window)",
-      "raw": "Duration of the conflict (two-week negotiation window)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_733207",
-      "timestamp": "2026-04-14T20:52:37.006261+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Potential nuclear agreement framework",
-      "raw": "Potential nuclear agreement framework\n\nThe ceasefire followed Trump's escalating threats, including warnings that \"a whole civilization will die tonight\" if no deal was reached ahead of an 8 p.m. ET deadline on April 7.[2] Peace negotiations are scheduled to resume in Islamabad with Vice President JD Vance and senior envoys.[5]",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -206,94 +50,40 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_748625",
-      "timestamp": "2026-04-14T20:52:52.424410+00:00",
+      "id": "sig_884092",
+      "timestamp": "2026-04-14T20:55:07.891795+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results available, here are the key developments as of April 14, 2026:",
-      "raw": "Based on the search results available, here are the key developments as of April 14, 2026:",
-      "direction": null,
+      "headline": "LOW confidence** in any market-moving resolution today, as sources show no updates since April 12 and highlight ongoing",
+      "raw": "LOW confidence** in any market-moving resolution today, as sources show no updates since April 12 and highlight ongoing tensions rather than confirmations.[1][2][3]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_748634",
-      "timestamp": "2026-04-14T20:52:52.433118+00:00",
+      "id": "sig_889865",
+      "timestamp": "2026-04-14T20:55:13.664096+00:00",
       "source": "PERPLEXITY",
-      "headline": "SOLANA HITS ALL-TIME RECORD OF 167 MILLION MONTHLY TOKEN HOLDERS | YES | HIGH confidence**",
-      "raw": "SOLANA HITS ALL-TIME RECORD OF 167 MILLION MONTHLY TOKEN HOLDERS | YES | HIGH confidence**\n\nSolana has just reached an all-time record of **167 million monthly token holders** with daily non-vote transactions hitting historic highs of 148 million[3]. The network's **Alpenglow consensus upgrade** aims to reduce transaction finality from 12 seconds to just 150 milliseconds[3]. SOL surged approximate",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_748651",
-      "timestamp": "2026-04-14T20:52:52.450779+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP LEADS DIGITAL ASSET INFLOWS WITH $119",
-      "raw": "XRP LEADS DIGITAL ASSET INFLOWS WITH $119.6 MILLION | YES | HIGH confidence**\n\nXRP recorded its **strongest weekly inflow since mid-December 2025 at $119.6 million**, unseating both Bitcoin and Solana[4]. This inflow is approximately **4x larger than Solana's $34.9 million**[8], signaling stronger institutional interest in XRP.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_748660",
-      "timestamp": "2026-04-14T20:52:52.459233+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC CLARITY ACT ROUNDTABLE SCHEDULED FOR APRIL 16 | YES | HIGH confidence**",
-      "raw": "SEC CLARITY ACT ROUNDTABLE SCHEDULED FOR APRIL 16 | YES | HIGH confidence**\n\nThe SEC has officially scheduled a landmark **roundtable discussion for April 16, 2026** on the CLARITY Act[7]. This legislation aims to resolve which regulatory agency oversees digital assets and establish a framework for U.S. crypto markets\u2014a major potential catalyst for both XRP and Solana sentiment[7].",
-      "direction": "YES",
+      "headline": "NJ-11 Special Election Debate: Joe Hathaway (R) Spars with Favorite Analilia Mejia (D) Over Trump White House Policies,",
+      "raw": "NJ-11 Special Election Debate: Joe Hathaway (R) Spars with Favorite Analilia Mejia (D) Over Trump White House Policies, Israel, and Costs Ahead of April 16 Vote** | NO | HIGH confidence\n\nNo breaking confirmations, announcements, or resolutions today involving the White House or Joe Hathaway that would move prediction markets[1][2][3][4]. The latest development is Wednesday's virtual debate where H",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Solana be between $60 and $70 on April 15?",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of Solana be above $100 on April 15?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Joe Hathaway win the NJ-11 special election?",
+        "Will White House post 40-59 posts from April 14 to April 21,"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_756515",
-      "timestamp": "2026-04-14T20:53:00.314798+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain any announcement",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain any announcements, confirmations, or resolutions made today or very recently that would move prediction markets.\n\nThe most recent data available shows that **South Korea's annual inflation rate was 2.16% in March 2026**[3], up slightly from 2.0% in February 2026[1]. However, this represents rout",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_756532",
-      "timestamp": "2026-04-14T20:53:00.331415+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Unexpected inflation surprises",
-      "raw": "Unexpected inflation surprises",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 20,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
