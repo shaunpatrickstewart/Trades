@@ -1,31 +1,79 @@
 {
-  "last_scan": "2026-04-14T18:57:30.431349+00:00",
-  "scan_seconds": 35.5,
-  "markets_scanned": 61,
+  "last_scan": "2026-04-14T19:00:34.495079+00:00",
+  "scan_seconds": 39.6,
+  "markets_scanned": 62,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_808648",
-      "timestamp": "2026-04-14T18:57:12.454033+00:00",
+      "id": "sig_993715",
+      "timestamp": "2026-04-14T19:00:17.521382+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Pursue Fresh Talks Before Ceasefire Expires** | NO | HIGH confidence",
-      "raw": "US and Iran Pursue Fresh Talks Before Ceasefire Expires** | NO | HIGH confidence\n\nThe most significant recent development is that **negotiations remain ongoing despite failed talks over the weekend**[1][2][3]. The US and Iran are discussing another round of negotiations in an attempt to reach a deal before a two-week ceasefire announced April 7 expires next week[1]. President Trump stated that Ira",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "US and Iran Agree to Two-Week Ceasefire Ahead of Trump's Deadline | YES | HIGH confidence** [1][2]",
+      "raw": "US and Iran Agree to Two-Week Ceasefire Ahead of Trump's Deadline | YES | HIGH confidence** [1][2]\n\nPresident Donald Trump announced a two-week ceasefire with Iran on April 7-8, 2026, mediated by Pakistan's PM Shehbaz Sharif (with T\u00fcrkiye and Egypt), averting U.S. strikes on Iranian civilian infrastructure and reopening negotiations over the Strait of Hormuz [1][2].  \nThe deal followed Trump's Tru",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_9689",
+      "timestamp": "2026-04-14T19:00:33.494061+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% | NO** | **MED confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4%.[1] This is the latest reported figure as of search data through early March 2026, with no newer monthly releases (e.g., April) available and minor source variations (2.16% in one report).[3",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_998558",
+      "timestamp": "2026-04-14T19:00:22.364974+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking confirmations, announcements, or resolutions RIGHT NOW about JD Vance or Republicans that would move predict",
+      "raw": "No breaking confirmations, announcements, or resolutions RIGHT NOW about JD Vance or Republicans that would move prediction markets | NO | HIGH confidence**\n\nRecent coverage (April 12-14, 2026) mentions Vice President JD Vance discussing Iran negotiations as a \"final and best offer\" with no acceptance confirmed[2][5], calling a potential ceasefire a \"fragile truce\" while in Hungary supporting Vikt",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_4539",
+      "timestamp": "2026-04-14T19:00:28.344531+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 202",
+      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Consensus Upgrade to 150ms Finality | YES | HIGH confidence**[1]\n\nSolana's network activity has surged to historic highs as of April 14, 2026, with 167 million monthly token holders and 148 million daily non-vote transactions, directly tied to the antici",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 14, 3:20PM-3:25PM ET",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
+    "enter": 2,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
