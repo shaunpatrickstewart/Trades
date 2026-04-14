@@ -1,271 +1,118 @@
 {
-  "last_scan": "2026-04-14T23:07:16.467640+00:00",
-  "scan_seconds": 50.6,
-  "markets_scanned": 66,
-  "open_positions": 32,
+  "last_scan": "2026-04-14T23:10:07.117938+00:00",
+  "scan_seconds": 28.7,
+  "markets_scanned": 121,
+  "open_positions": 84,
   "signals": [
     {
-      "id": "sig_771790",
-      "timestamp": "2026-04-14T23:06:35.581303+00:00",
+      "id": "sig_982325",
+      "timestamp": "2026-04-14T23:10:06.116696+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Naval Blockade of Iran's Ports Now in Effect | NO | HIGH confidence**",
-      "raw": "US Naval Blockade of Iran's Ports Now in Effect | NO | HIGH confidence**\n\nThe United States has implemented a naval blockade on Iran's ports and coastal areas as of April 14, 2026.[2] President Trump declared that any Iranian \"fast attack ships\" attempting to approach US vessels will be \"immediately eliminated.\"[2] This blockade follows the collapse of US-Iran ceasefire talks in Pakistan on April ",
-      "direction": "NO",
+      "headline": "South Korea Holds Benchmark Interest Rate at 2",
+      "raw": "South Korea Holds Benchmark Interest Rate at 2.5% for 7th Consecutive Month Amid Inflation Pressures and Weak Growth Outlook | YES | HIGH confidence**  \nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to maintain its benchmark rate at 2.5%, citing consumer prices above the 2% target (recently ~2.2% YoY), upside inflation risks from surging oil prices and Middle Eas",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_974717",
+      "timestamp": "2026-04-14T23:09:58.508686+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Booste",
+      "raw": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Boosted by Alpenglow Upgrade** | **YES** | **HIGH** confidence[1]\n\nSolana's network achieved these all-time highs as of April 14, 2026, with the Alpenglow consensus upgrade\u2014aiming to reduce transaction finality from 12 seconds to 150 milliseconds\u2014driving performance gains and a reporte",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Solana reach $105 on April 14?",
+        "Will Bitcoin dip to $68,000 on April 14?",
+        "Will the price of Bitcoin be above $68,000 on April 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_964265",
+      "timestamp": "2026-04-14T23:09:48.056523+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Talks remain inconclusive**: The previous round of mediation in Islamabad ended without a deal",
+      "raw": "**Talks remain inconclusive**: The previous round of mediation in Islamabad ended without a deal.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_777529",
-      "timestamp": "2026-04-14T23:06:41.320192+00:00",
+      "id": "sig_964274",
+      "timestamp": "2026-04-14T23:09:48.065546+00:00",
       "source": "PERPLEXITY",
-      "headline": "Musk Backtracks on Trump Criticism After Vance Outreach; Steps Back from DOGE Role | YES | HIGH confidence**",
-      "raw": "Musk Backtracks on Trump Criticism After Vance Outreach; Steps Back from DOGE Role | YES | HIGH confidence**  \nElon Musk apologized for calling Trump's tax and spending bill a \"disgusting abomination,\" stating he went \"too far,\" following outreach from administration officials including Vice President JD Vance.[1] Musk also announced reducing his DOGE involvement to 1-2 days/week amid Tesla's 71% ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump talk to Elon Musk in April?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_783359",
-      "timestamp": "2026-04-14T23:06:47.150567+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Germany March 2026 Annual Inflation Confirmed at 2",
-      "raw": "Germany March 2026 Annual Inflation Confirmed at 2.7% | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026 from 1.9% in February, confirming preliminary estimates and driven by a 7.2% energy price surge (fuel up 20%, heating oil up 44.4%), the highest since January 2024.[2] This exceeds the ECB's 2% target and could shift prediction markets on Eurozone rate hikes ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_789631",
-      "timestamp": "2026-04-14T23:06:53.422977+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No breaking finals, OKC Thunder, Will Germany, or World Cup news confirmed | NO | HIGH confidence**",
-      "raw": "No breaking finals, OKC Thunder, Will Germany, or World Cup news confirmed | NO | HIGH confidence**  \nSearch results show no recent confirmations, announcements, or resolutions in NBA finals/playoffs, Oklahoma City Thunder activity, Will Germany-related sports events, or FIFA World Cup qualifiers/tournaments as of now.[1][2]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
-        "Will Germany win Group E in the 2026 FIFA World Cup?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_777536",
-      "timestamp": "2026-04-14T23:06:41.327211+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Attacks Alex Jones and Other Ex-Allies as \"Low IQs\" Over Iran War Criticism | YES | MED confidence**",
-      "raw": "Trump Attacks Alex Jones and Other Ex-Allies as \"Low IQs\" Over Iran War Criticism | YES | MED confidence**  \nPresident Trump labeled Alex Jones \"bankrupt\" and a \"low IQ\" in a Truth Social post targeting former MAGA allies (including Jones, Carlson, Owens, Kelly) critical of U.S. strikes on Iran, which caused U.S. casualties, Hormuz blockade, gas price spikes, and poll declines.[3] No direct Vance ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br",
-        "Will Donald Trump publicly insult Alex Jones by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_783364",
-      "timestamp": "2026-04-14T23:06:47.155337+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation at 2",
-      "raw": "South Korea March 2026 Annual Inflation at 2.2%, Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation increased to 2.2% in March 2026 from 2.0% prior, missing market expectations of 2.4% while aligning with the Bank of Korea's 2.2% yearly outlook (rate held at 2.5%).[1] Amid Middle East oil shocks, this contained reading may influence markets on Asia growth or BOK policy shif",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_789610",
-      "timestamp": "2026-04-14T23:06:53.401130+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Panel rules NFL teams didn't collude on QB deals | YES | HIGH confidence**",
-      "raw": "Panel rules NFL teams didn't collude on QB deals | YES | HIGH confidence**  \nA neutral arbitration panel has officially ruled that NFL teams did not collude on quarterback contracts, resolving recent allegations and providing league-wide clarity on free agency practices.[1][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_789618",
-      "timestamp": "2026-04-14T23:06:53.409617+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Eagles trade for Packers WR Christian Wicks in exchange for picks | YES | HIGH confidence**",
-      "raw": "Eagles trade for Packers WR Christian Wicks in exchange for picks | YES | HIGH confidence**  \nThe Philadelphia Eagles have acquired wide receiver Christian Wicks from the Green Bay Packers for draft picks, bolstering their receiving corps amid ongoing A.J. Brown trade speculation.[1][6]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_789623",
-      "timestamp": "2026-04-14T23:06:53.414134+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Falcons exercise fifth-year option on RB Bijan Robinson | YES | MED confidence**",
-      "raw": "Falcons exercise fifth-year option on RB Bijan Robinson | YES | MED confidence**  \nAtlanta has picked up the fifth-year option on running back Bijan Robinson's rookie contract, securing him through 2026 and signaling long-term commitment.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_789627",
-      "timestamp": "2026-04-14T23:06:53.418562+00:00",
-      "source": "PERPLEXITY",
-      "headline": "49ers sign CB Jones to one-year deal | YES | MED confidence**",
-      "raw": "49ers sign CB Jones to one-year deal | YES | MED confidence**  \nSan Francisco has agreed to a one-year contract with cornerback Jones, addressing secondary depth needs post-playoffs.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_812640",
-      "timestamp": "2026-04-14T23:07:16.431079+00:00",
-      "source": "X_GROK",
-      "headline": "Whale Bets & Smart Money:**",
-      "raw": "Whale Bets & Smart Money:**",
+      "headline": "**Blockade intensified**: The United States has blockaded the Strait of Hormuz, halting maritime traffic and Iranian oil",
+      "raw": "**Blockade intensified**: The United States has blockaded the Strait of Hormuz, halting maritime traffic and Iranian oil exports.[2]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_812645",
-      "timestamp": "2026-04-14T23:07:16.436432+00:00",
-      "source": "X_GROK",
-      "headline": "Whales printed $4",
-      "raw": "Whales printed $4.9M at +40% ROI this week via conviction bets; copy via @Chance_ heatmaps.[[1]](https://x.com/i/status/2043796535981359389)[[2]](https://x.com/i/status/2043604622133125147)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043796535981359389)[[2]](https://x.com/i/status/2043604622133125147)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_812650",
-      "timestamp": "2026-04-14T23:07:16.441948+00:00",
-      "source": "X_GROK",
-      "headline": "$125k whale on G2 (-1",
-      "raw": "$125k whale on G2 (-1.5) esports vs Gentle Mates @39% (YES for G2 handicap win). Confidence: MED (whale size).[[3]](https://x.com/i/status/2043668491035693072)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043668491035693072)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_812656",
-      "timestamp": "2026-04-14T23:07:16.447299+00:00",
-      "source": "X_GROK",
-      "headline": "Weather trader up $114k in 5mo buying NO on 97-99c extremes & cheap YES specs (e",
-      "raw": "Weather trader up $114k in 5mo buying NO on 97-99c extremes & cheap YES specs (e.g., Tokyo 16\u00b0C +48k%). Mispriced daily via models. Means NO extremes (HIGH), selective YES (MED).[[4]](https://x.com/i/status/2043674963975045620)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043674963975045620)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_812661",
-      "timestamp": "2026-04-14T23:07:16.452321+00:00",
-      "source": "X_GROK",
-      "headline": "Mispriced/Tips Trending:**",
-      "raw": "Mispriced/Tips Trending:**",
+      "id": "sig_964284",
+      "timestamp": "2026-04-14T23:09:48.075392+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Timeline pressure**: Both sides are mulling a second round of talks, with negotiations needed to occur before the ceas",
+      "raw": "**Timeline pressure**: Both sides are mulling a second round of talks, with negotiations needed to occur before the ceasefire expires next week.[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_812666",
-      "timestamp": "2026-04-14T23:07:16.457218+00:00",
-      "source": "X_GROK",
-      "headline": "Peter Magyar market at 68c YES underpriced (crowd leaves 30-40% edge weekly on certainties)",
-      "raw": "Peter Magyar market at 68c YES underpriced (crowd leaves 30-40% edge weekly on certainties). Means BUY YES. Confidence: HIGH.[[5]](https://x.com/i/status/2043620343080767726)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043620343080767726)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_812671",
-      "timestamp": "2026-04-14T23:07:16.462186+00:00",
-      "source": "X_GROK",
-      "headline": "73% non-sports markets resolve NO; bet /nothingeverhappens on random actives",
-      "raw": "73% non-sports markets resolve NO; bet /nothingeverhappens on random actives. Means BUY NO hype. Confidence: HIGH (base rate).[[6]](https://x.com/i/status/2044168765831561277)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044168765831561277)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_812676",
-      "timestamp": "2026-04-14T23:07:16.467100+00:00",
-      "source": "X_GROK",
-      "headline": "Buzz:** Whale trackers (@PolyTechTrade, @Chance_, PolyTerminal), arbs (@usePolyArb +$729 day3), copy tools dominating ch",
-      "raw": "Buzz:** Whale trackers (@PolyTechTrade, @Chance_, PolyTerminal), arbs (@usePolyArb +$729 day3), copy tools dominating chatter. No major event bets yet today.[[7]](https://x.com/i/status/2044156147712561175)[[8]](https://x.com/i/status/2044018570288328782)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044156147712561175)[[8]](https://x.com/i/status/2044018570288328782)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_771795",
-      "timestamp": "2026-04-14T23:06:35.586817+00:00",
+      "id": "sig_964293",
+      "timestamp": "2026-04-14T23:09:48.084608+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ceasefire Status Remains Uncertain | CONDITIONAL | MED confidence**",
-      "raw": "Ceasefire Status Remains Uncertain | CONDITIONAL | MED confidence**\n\nA two-week ceasefire agreement remains nominally in place and is set to expire on April 22, 2026.[1] However, the current naval blockade escalation creates significant uncertainty about whether this ceasefire will hold through its expiration date.[1] Experts characterize the two sides as \"still miles apart\" on reaching a comprehe",
+      "headline": "**Unresolved core issues**: A US official stated they need to see \"nuclear material come out of the country of Iran,\" in",
+      "raw": "**Unresolved core issues**: A US official stated they need to see \"nuclear material come out of the country of Iran,\" indicating fundamental disagreements remain on Iran's nuclear program.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_964302",
+      "timestamp": "2026-04-14T23:09:48.093765+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** This represents diplomatic momentum but no breakthrough",
+      "raw": "Market implications:** This represents diplomatic momentum but no breakthrough. The situation remains highly volatile with significant geopolitical risk, particularly regarding oil markets given the Hormuz blockade affecting Asian economies.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_964256",
+      "timestamp": "2026-04-14T23:09:48.047647+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE:** US and Iran to Hold Fresh Talks in Pakistan Within Days Before April 22 Ceasefire Expires | NO | HIGH confid",
+      "raw": "HEADLINE:** US and Iran to Hold Fresh Talks in Pakistan Within Days Before April 22 Ceasefire Expires | NO | HIGH confidence\n\nNo major resolution has been confirmed or announced. According to reports from today, **President Trump signalled that fresh talks with Iran could take place in Pakistan \"over the next two days,\"**[2] following inconclusive negotiations in Islamabad over the weekend. The te",
       "direction": "NO",
       "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -273,9 +120,9 @@
     }
   ],
   "stats": {
-    "enter": 4,
-    "alert": 14,
+    "enter": 1,
+    "alert": 6,
     "watch": 1,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
