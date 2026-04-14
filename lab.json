@@ -8,75 +8,148 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 119 categorical arb opportunities found\nScanned 2200 events (1619 multi-outcome) at 2026-04-14 03:09 UTC\nBest: 10.0% profit on 'What floor price will Milady hit before 2027?' \u2014 buy YES on all 2 outcomes (sum=0.9)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 10.0% on 'NY-04 Democratic Primary Winner'",
+      "result": "LIVE \u2014 140 categorical arb opportunities found\nScanned 3000 events (1876 multi-outcome) at 2026-04-14 03:40 UTC\nBest: 9.9% profit on 'LA-05 Republican Primary Winner' \u2014 buy YES on all 3 outcomes (sum=0.901)\nStrategy: Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)\n2nd: 9.9% on 'UFC: Who will Conor McGregor fight next?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-14 03:09 UTC",
+      "last_scan": "2026-04-14 03:40 UTC",
       "opportunities": [
         {
-          "event_title": "What floor price will Milady hit before 2027?",
-          "event_slug": "what-floor-price-will-milady-hit-before-2027",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
-          "num_outcomes": 2,
+          "event_title": "LA-05 Republican Primary Winner",
+          "event_slug": "la-05-republican-primary-winner",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1099807",
-              "slug": "will-milady-floor-price-reach-2-eth-before-2027",
-              "question": "Will Milady floor price reach 2 ETH before 2027?",
-              "yes_price": 0.505,
-              "volume": 11530
+              "market_id": "1731837",
+              "slug": "will-michael-echols-be-the-republican-nominee-for-la-05",
+              "question": "Will Michael Echols be the Republican nominee for LA-05?",
+              "yes_price": 0.476,
+              "volume": 8253
             },
             {
-              "market_id": "1099806",
-              "slug": "will-milady-floor-price-reach-4-eth-before-2027",
-              "question": "Will Milady floor price reach 4 ETH before 2027?",
+              "market_id": "1731841",
+              "slug": "will-blake-miguez-be-the-republican-nominee-for-la-05",
+              "question": "Will Blake Miguez be the Republican nominee for LA-05?",
               "yes_price": 0.395,
-              "volume": 1894
+              "volume": 15204
+            },
+            {
+              "market_id": "1731842",
+              "slug": "will-samuel-wyatt-be-the-republican-nominee-for-la-05",
+              "question": "Will Samuel Wyatt be the Republican nominee for LA-05?",
+              "yes_price": 0.03,
+              "volume": 5125
             }
           ],
-          "url": "https://polymarket.com/event/what-floor-price-will-milady-hit-before-2027",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/la-05-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
         },
         {
-          "event_title": "NY-04 Democratic Primary Winner",
-          "event_slug": "who-will-be-the-democratic-nominee-for-ny-04",
-          "yes_sum": 0.9,
-          "profit_pct": 10.0,
-          "profit_per_dollar_pct": 11.11,
+          "event_title": "UFC: Who will Conor McGregor fight next?",
+          "event_slug": "ufc-who-will-conor-mcgregor-fight-next",
+          "yes_sum": 0.901,
+          "profit_pct": 9.9,
+          "profit_per_dollar_pct": 10.99,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1747846",
+              "slug": "will-max-holloway-fight-conor-mcgregor-next",
+              "question": "Will Max Holloway fight Conor McGregor next?",
+              "yes_price": 0.46,
+              "volume": 2244
+            },
+            {
+              "market_id": "1747849",
+              "slug": "will-michael-chandler-fight-conor-mcgregor-next",
+              "question": "Will Michael Chandler fight Conor McGregor next?",
+              "yes_price": 0.41,
+              "volume": 2796
+            },
+            {
+              "market_id": "1747848",
+              "slug": "will-nate-diaz-fight-conor-mcgregor-next",
+              "question": "Will Nate Diaz fight Conor McGregor next?",
+              "yes_price": 0.031,
+              "volume": 11853
+            }
+          ],
+          "url": "https://polymarket.com/event/ufc-who-will-conor-mcgregor-fight-next",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9010. One wins $1.00. Profit: $0.0990 (9.90%)"
+        },
+        {
+          "event_title": "Highest temperature in Austin on April 15?",
+          "event_slug": "highest-temperature-in-austin-on-april-15-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
           "num_outcomes": 4,
           "outcomes": [
             {
-              "market_id": "787526",
-              "slug": "will-nicholas-sciretta-be-the-democratic-nominee-for-ny-04",
-              "question": "Will Nicholas Sciretta be the Democratic nominee for NY-04?",
-              "yes_price": 0.525,
-              "volume": 4597
+              "market_id": "1965591",
+              "slug": "highest-temperature-in-austin-on-april-15-2026-80forhigher",
+              "question": "Will the highest temperature in Austin be 80\u00b0F or higher on April 15?",
+              "yes_price": 0.875,
+              "volume": 1573
             },
             {
-              "market_id": "787524",
-              "slug": "will-laura-gillen-be-the-democratic-nominee-for-ny-04",
-              "question": "Will Laura Gillen be the Democratic nominee for NY-04?",
-              "yes_price": 0.37,
-              "volume": 4037
+              "market_id": "1965589",
+              "slug": "highest-temperature-in-austin-on-april-15-2026-76-77f",
+              "question": "Will the highest temperature in Austin be between 76-77\u00b0F on April 15?",
+              "yes_price": 0.0215,
+              "volume": 2082
             },
             {
-              "market_id": "787525",
-              "slug": "will-gian-jones-be-the-democratic-nominee-for-ny-04",
-              "question": "Will Gian Jones be the Democratic nominee for NY-04?",
-              "yes_price": 0.0025,
-              "volume": 1521
+              "market_id": "1965585",
+              "slug": "highest-temperature-in-austin-on-april-15-2026-68-69f",
+              "question": "Will the highest temperature in Austin be between 68-69\u00b0F on April 15?",
+              "yes_price": 0.0035,
+              "volume": 4755
             },
             {
-              "market_id": "787527",
-              "slug": "will-taylor-darling-be-the-democratic-nominee-for-ny-04",
-              "question": "Will Taylor Darling be the Democratic nominee for NY-04?",
-              "yes_price": 0.0025,
-              "volume": 1806
+              "market_id": "1965584",
+              "slug": "highest-temperature-in-austin-on-april-15-2026-66-67f",
+              "question": "Will the highest temperature in Austin be between 66-67\u00b0F on April 15?",
+              "yes_price": 0.0015,
+              "volume": 1056
             }
           ],
-          "url": "https://polymarket.com/event/who-will-be-the-democratic-nominee-for-ny-04",
-          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
+          "url": "https://polymarket.com/event/highest-temperature-in-austin-on-april-15-2026",
+          "strategy": "Buy YES on all 4 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
+        },
+        {
+          "event_title": "Who will be UFC Welterweight champion at the end of 2026?",
+          "event_slug": "who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "yes_sum": 0.9015,
+          "profit_pct": 9.85,
+          "profit_per_dollar_pct": 10.93,
+          "num_outcomes": 3,
+          "outcomes": [
+            {
+              "market_id": "1090024",
+              "slug": "will-islam-makhachev-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Islam Makhachev be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.765,
+              "volume": 3908
+            },
+            {
+              "market_id": "1090027",
+              "slug": "will-ian-machado-garry-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Ian Machado Garry be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.12,
+              "volume": 1320
+            },
+            {
+              "market_id": "1090025",
+              "slug": "will-jack-della-maddalena-be-the-ufc-welterweight-champion-on-december-31-2026",
+              "question": "Will Jack Della Maddalena be the UFC Welterweight Champion on December 31, 2026?",
+              "yes_price": 0.0165,
+              "volume": 1318
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-be-ufc-welterweight-champion-at-the-end-of-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9015. One wins $1.00. Profit: $0.0985 (9.85%)"
         },
         {
           "event_title": "Will Opensea launch a token by ___?",
@@ -199,84 +272,84 @@
               "slug": "will-jd-vance-win-the-2028-us-presidential-election",
               "question": "Will JD Vance win the 2028 US Presidential Election?",
               "yes_price": 0.1885,
-              "volume": 10210458
+              "volume": 10210516
             },
             {
               "market_id": "561230",
               "slug": "will-gavin-newsom-win-the-2028-us-presidential-election",
               "question": "Will Gavin Newsom win the 2028 US Presidential Election?",
               "yes_price": 0.17,
-              "volume": 14168350
+              "volume": 14191529
             },
             {
               "market_id": "561234",
               "slug": "will-marco-rubio-win-the-2028-us-presidential-election",
               "question": "Will Marco Rubio win the 2028 US Presidential Election?",
               "yes_price": 0.1005,
-              "volume": 6414759
+              "volume": 6415204
             },
             {
               "market_id": "561231",
               "slug": "will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election",
               "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
               "yes_price": 0.0545,
-              "volume": 10883586
+              "volume": 10883627
             },
             {
               "market_id": "561261",
               "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
               "question": "Will Jon Ossoff win the 2028 US Presidential Election?",
               "yes_price": 0.0385,
-              "volume": 3562431
+              "volume": 3563081
             },
             {
               "market_id": "561239",
               "slug": "will-kamala-harris-win-the-2028-us-presidential-election",
               "question": "Will Kamala Harris win the 2028 US Presidential Election?",
               "yes_price": 0.0335,
-              "volume": 6985498
+              "volume": 6985584
             },
             {
               "market_id": "561253",
               "slug": "will-tucker-carlson-win-the-2028-us-presidential-election",
               "question": "Will Tucker Carlson win the 2028 US Presidential Election?",
               "yes_price": 0.0245,
-              "volume": 9932284
+              "volume": 9932674
             },
             {
               "market_id": "561233",
               "slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
               "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 5789029
+              "volume": 5789811
             },
             {
               "market_id": "561243",
               "slug": "will-donald-trump-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0215,
-              "volume": 6944532
+              "volume": 6944598
             },
             {
               "market_id": "561246",
               "slug": "will-ron-desantis-win-the-2028-us-presidential-election",
               "question": "Will Ron DeSantis win the 2028 US Presidential Election?",
               "yes_price": 0.0185,
-              "volume": 8873212
+              "volume": 8887877
             },
             {
               "market_id": "561232",
               "slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
               "question": "Will Pete Buttigieg win the 2028 US Presidential Election?",
               "yes_price": 0.0165,
-              "volume": 3850280
+              "volume": 3850292
             },
             {
               "market_id": "561252",
               "slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
               "question": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
               "yes_price": 0.0145,
-              "volume": 6193771
+              "volume": 6197792
             },
             {
               "market_id": "561237",
@@ -297,154 +370,154 @@
               "slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
               "question": "Will JB Pritzker win the 2028 US Presidential Election?",
               "yes_price": 0.0115,
-              "volume": 10867959
+              "volume": 10869840
             },
             {
               "market_id": "561260",
               "slug": "will-thomas-massie-win-the-2028-us-presidential-election",
               "question": "Will Thomas Massie win the 2028 US Presidential Election?",
               "yes_price": 0.0115,
-              "volume": 3779489
+              "volume": 3779572
             },
             {
               "market_id": "561250",
               "slug": "will-elon-musk-win-the-2028-us-presidential-election",
               "question": "Will Elon Musk win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 22704648
+              "volume": 22707599
             },
             {
               "market_id": "561236",
               "slug": "will-gretchen-whitmer-win-the-2028-us-presidential-election",
               "question": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 8578709
+              "volume": 8578719
             },
             {
               "market_id": "561249",
               "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
               "question": "Will Greg Abbott win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 31913492
+              "volume": 31915178
             },
             {
               "market_id": "561262",
               "slug": "will-james-talarico-win-the-2028-us-presidential-election",
               "question": "Will James Talarico win the 2028 US Presidential Election?",
               "yes_price": 0.0095,
-              "volume": 4687199
+              "volume": 4687208
             },
             {
               "market_id": "561258",
               "slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
               "question": "Will Jamie Dimon win the 2028 US Presidential Election?",
               "yes_price": 0.009,
-              "volume": 7631714
+              "volume": 7631729
             },
             {
               "market_id": "561255",
               "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
               "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 4615594
+              "volume": 4616800
             },
             {
               "market_id": "561257",
               "slug": "will-michelle-obama-win-the-2028-us-presidential-election",
               "question": "Will Michelle Obama win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 13638483
+              "volume": 13641105
             },
             {
               "market_id": "561259",
               "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
               "question": "Will Ro Khanna win the 2028 US Presidential Election?",
               "yes_price": 0.0085,
-              "volume": 7163623
+              "volume": 7165782
             },
             {
               "market_id": "561240",
               "slug": "will-stephen-smith-win-the-2028-us-presidential-election",
               "question": "Will Stephen Smith win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 29663754
+              "volume": 29668725
             },
             {
               "market_id": "561244",
               "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
               "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 9266850
+              "volume": 9268759
             },
             {
               "market_id": "561245",
               "slug": "will-nikki-haley-win-the-2028-us-presidential-election",
               "question": "Will Nikki Haley win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 22156203
+              "volume": 22159209
             },
             {
               "market_id": "561256",
               "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
               "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
               "yes_price": 0.0075,
-              "volume": 17636758
+              "volume": 17638949
             },
             {
               "market_id": "561263",
               "slug": "will-eric-trump-win-the-2028-us-presidential-election",
               "question": "Will Eric Trump win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6654866
+              "volume": 6656236
             },
             {
               "market_id": "561247",
               "slug": "will-tim-walz-win-the-2028-us-presidential-election",
               "question": "Will Tim Walz win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 39592164
+              "volume": 39595271
             },
             {
               "market_id": "561235",
               "slug": "will-wes-moore-win-the-2028-us-presidential-election",
               "question": "Will Wes Moore win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 6541598
+              "volume": 6547140
             },
             {
               "market_id": "561242",
               "slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
               "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 28319515
+              "volume": 28320724
             },
             {
               "market_id": "561264",
               "slug": "will-pete-hegseth-win-the-2028-us-presidential-election",
               "question": "Will Pete Hegseth win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 4497487
+              "volume": 4499621
             },
             {
               "market_id": "561248",
               "slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
               "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 31053957
+              "volume": 31055271
             },
             {
               "market_id": "561254",
               "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
               "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
               "yes_price": 0.0065,
-              "volume": 32833853
+              "volume": 32834979
             },
             {
               "market_id": "561251",
               "slug": "will-lebron-james-win-the-2028-us-presidential-election",
               "question": "Will LeBron James win the 2028 US Presidential Election?",
               "yes_price": 0.0055,
-              "volume": 46437095
+              "volume": 46438495
             }
           ],
           "url": "https://polymarket.com/event/presidential-election-winner-2028",
@@ -462,14 +535,14 @@
               "market_id": "1285080",
               "slug": "will-the-democratic-party-win-the-va-05-house-seat",
               "question": "Will the Democratic Party win the VA-05 House seat?",
-              "yes_price": 0.685,
+              "yes_price": 0.69,
               "volume": 14365
             },
             {
               "market_id": "1285079",
               "slug": "will-the-republican-party-win-the-va-05-house-seat",
               "question": "Will the Republican Party win the VA-05 House seat?",
-              "yes_price": 0.22,
+              "yes_price": 0.215,
               "volume": 12058
             }
           ],
@@ -477,614 +550,107 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "English Premier League - Top Goalscorer ",
-          "event_slug": "english-premier-league-top-goalscorer",
-          "yes_sum": 0.9065,
-          "profit_pct": 9.35,
-          "profit_per_dollar_pct": 10.31,
-          "num_outcomes": 31,
+          "event_title": "PA-03 Democratic Primary Winner",
+          "event_slug": "pa-03-democratic-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 7,
           "outcomes": [
             {
-              "market_id": "577160",
-              "slug": "will-erling-haaland-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Erling Haaland be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.77,
-              "volume": 69637
+              "market_id": "704188",
+              "slug": "will-sharif-street-be-the-democratic-nominee-for-pa-03",
+              "question": "Will Sharif Street be the Democratic nominee for PA-03?",
+              "yes_price": 0.435,
+              "volume": 4983
             },
             {
-              "market_id": "577178",
-              "slug": "will-jarrod-bowen-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jarrod Bowen be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0105,
-              "volume": 13575
+              "market_id": "704193",
+              "slug": "will-chris-rabb-be-the-democratic-nominee-for-pa-03",
+              "question": "Will Chris Rabb be the Democratic nominee for PA-03?",
+              "yes_price": 0.2785,
+              "volume": 1925
             },
             {
-              "market_id": "577186",
-              "slug": "will-nicolas-jackson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Nicolas Jackson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.009,
-              "volume": 50736
+              "market_id": "704194",
+              "slug": "will-ala-stanford-be-the-democratic-nominee-for-pa-03",
+              "question": "Will Ala Stanford be the Democratic nominee for PA-03?",
+              "yes_price": 0.149,
+              "volume": 1718
             },
             {
-              "market_id": "577166",
-              "slug": "will-cole-palmer-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cole Palmer be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0085,
-              "volume": 14950
+              "market_id": "704190",
+              "slug": "will-david-oxman-be-the-democratic-nominee-for-pa-03",
+              "question": "Will David Oxman be the Democratic nominee for PA-03?",
+              "yes_price": 0.0215,
+              "volume": 3974
             },
             {
-              "market_id": "577171",
-              "slug": "will-omar-marmoush-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Omar Marmoush be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0085,
-              "volume": 19550
+              "market_id": "704191",
+              "slug": "will-robin-toldens-be-the-democratic-nominee-for-pa-03",
+              "question": "Will Robin Toldens be the Democratic nominee for PA-03?",
+              "yes_price": 0.012,
+              "volume": 3233
             },
             {
-              "market_id": "577162",
-              "slug": "will-viktor-gyokeres-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Viktor Gyokeres be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.008,
-              "volume": 174380
-            },
-            {
-              "market_id": "577174",
-              "slug": "will-matheus-cunha-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Matheus Cunha be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.007,
-              "volume": 188127
-            },
-            {
-              "market_id": "577180",
-              "slug": "will-charalambos-kostoulas-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Charalambos Kostoulas be the top goal scorer in the 2025\u201326 English Premier",
+              "market_id": "704192",
+              "slug": "will-morgan-cephas-be-the-democratic-nominee-for-pa-03",
+              "question": "Will Morgan Cephas be the Democratic nominee for PA-03?",
               "yes_price": 0.0065,
-              "volume": 76309
+              "volume": 1016
             },
             {
-              "market_id": "577168",
-              "slug": "will-ollie-watkins-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Ollie Watkins be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.006,
-              "volume": 34465
-            },
-            {
-              "market_id": "577183",
-              "slug": "will-morgan-rogers-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Morgan Rogers be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0055,
-              "volume": 13480
-            },
-            {
-              "market_id": "577182",
-              "slug": "will-chris-wood-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Chris Wood be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0055,
-              "volume": 85796
-            },
-            {
-              "market_id": "577181",
-              "slug": "will-bruno-fernandes-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bruno Fernandes be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0055,
-              "volume": 21460
-            },
-            {
-              "market_id": "577172",
-              "slug": "will-jean-philippe-mateta-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Jean-Philippe Mateta be the top goal scorer in the 2025\u201326 English Premier ",
-              "yes_price": 0.005,
-              "volume": 44393
-            },
-            {
-              "market_id": "577177",
-              "slug": "will-bryan-mbeumo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bryan Mbeumo be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.005,
-              "volume": 41153
-            },
-            {
-              "market_id": "577161",
-              "slug": "will-mohamed-salah-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohamed Salah be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0045,
-              "volume": 235563
-            },
-            {
-              "market_id": "577170",
-              "slug": "will-dominic-solanke-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Dominic Solanke be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.0045,
-              "volume": 162096
-            },
-            {
-              "market_id": "577187",
-              "slug": "will-brennan-johnson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Brennan Johnson be the top goal scorer in the 2025\u201326 English Premier Leagu",
-              "yes_price": 0.004,
-              "volume": 17359
-            },
-            {
-              "market_id": "577189",
-              "slug": "will-kai-havertz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Kai Havertz be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.004,
-              "volume": 113968
-            },
-            {
-              "market_id": "577176",
-              "slug": "will-bukayo-saka-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Bukayo Saka be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0035,
-              "volume": 130682
-            },
-            {
-              "market_id": "577163",
-              "slug": "will-alexander-isak-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Alexander Isak be the top goal scorer in the 2025\u201326 English Premier League",
+              "market_id": "704189",
+              "slug": "will-gabriel-caceres-be-the-democratic-nominee-for-pa-03",
+              "question": "Will Gabriel Caceres be the Democratic nominee for PA-03?",
               "yes_price": 0.0025,
-              "volume": 148101
-            },
-            {
-              "market_id": "577165",
-              "slug": "will-hugo-ekitike-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Hugo Ekitike be the top goal scorer in the 2025\u201326 English Premier League s",
-              "yes_price": 0.0025,
-              "volume": 155798
-            },
-            {
-              "market_id": "577167",
-              "slug": "will-benjamin-sesko-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Benjamin Sesko be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0025,
-              "volume": 26070
-            },
-            {
-              "market_id": "577169",
-              "slug": "will-richarlison-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Richarlison be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 32326
-            },
-            {
-              "market_id": "577173",
-              "slug": "will-yoane-wissa-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Yoane Wissa be the top goal scorer in the 2025\u201326 English Premier League se",
-              "yes_price": 0.0025,
-              "volume": 14822
-            },
-            {
-              "market_id": "577184",
-              "slug": "will-thierno-barry-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Thierno Barry be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0025,
-              "volume": 117540
-            },
-            {
-              "market_id": "577190",
-              "slug": "will-florian-wirtz-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Florian Wirtz be the top goal scorer in the 2025\u201326 English Premier League ",
-              "yes_price": 0.0025,
-              "volume": 14528
-            },
-            {
-              "market_id": "577164",
-              "slug": "will-joao-pedro-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Joao Pedro be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.002,
-              "volume": 111697
-            },
-            {
-              "market_id": "577179",
-              "slug": "will-evanilson-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Evanilson be the top goal scorer in the 2025\u201326 English Premier League seas",
-              "yes_price": 0.0015,
-              "volume": 17880
-            },
-            {
-              "market_id": "577188",
-              "slug": "will-cody-gakpo-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Cody Gakpo be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 17059
-            },
-            {
-              "market_id": "577175",
-              "slug": "will-liam-delap-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Liam Delap be the top goal scorer in the 2025\u201326 English Premier League sea",
-              "yes_price": 0.0015,
-              "volume": 18920
-            },
-            {
-              "market_id": "577185",
-              "slug": "will-mohammed-kudus-be-the-top-goal-scorer-in-the-202526-english-premier-league-season",
-              "question": "Will Mohammed Kudus be the top goal scorer in the 2025\u201326 English Premier League",
-              "yes_price": 0.0015,
-              "volume": 21106
+              "volume": 3360
             }
           ],
-          "url": "https://polymarket.com/event/english-premier-league-top-goalscorer",
-          "strategy": "Buy YES on all 31 outcomes. Total cost: $0.9065. One wins $1.00. Profit: $0.0935 (9.35%)"
+          "url": "https://polymarket.com/event/pa-03-democratic-primary-winner",
+          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         },
         {
-          "event_title": "MLS Cup Winner 2026",
-          "event_slug": "mls-cup-winner-2026",
-          "yes_sum": 0.908,
-          "profit_pct": 9.2,
-          "profit_per_dollar_pct": 10.13,
-          "num_outcomes": 30,
+          "event_title": "SC-01 Republican Primary Winner",
+          "event_slug": "sc-01-republican-primary-winner",
+          "yes_sum": 0.905,
+          "profit_pct": 9.5,
+          "profit_per_dollar_pct": 10.5,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1349156",
-              "slug": "will-inter-miami-cf-win-the-2026-mls-cup",
-              "question": "Will Inter Miami CF win the 2026 MLS Cup?",
-              "yes_price": 0.175,
-              "volume": 9522
+              "market_id": "960229",
+              "slug": "will-mark-smith-be-the-republican-nominee-for-sc-01",
+              "question": "Will Mark Smith be the Republican Nominee for SC-01?",
+              "yes_price": 0.44,
+              "volume": 1748
             },
             {
-              "market_id": "1349154",
-              "slug": "will-los-angeles-fc-win-the-2026-mls-cup",
-              "question": "Will Los Angeles FC win the 2026 MLS Cup?",
-              "yes_price": 0.155,
-              "volume": 15294
+              "market_id": "960228",
+              "slug": "will-alex-pelbath-be-the-republican-nominee-for-sc-01",
+              "question": "Will Alex Pelbath be the Republican Nominee for SC-01?",
+              "yes_price": 0.245,
+              "volume": 1441
             },
             {
-              "market_id": "1349172",
-              "slug": "will-vancouver-whitecaps-fc-win-the-2026-mls-cup",
-              "question": "Will Vancouver Whitecaps FC win the 2026 MLS Cup?",
-              "yes_price": 0.093,
-              "volume": 349629
-            },
-            {
-              "market_id": "1349166",
-              "slug": "will-san-diego-fc-win-the-2026-mls-cup",
-              "question": "Will San Diego FC win the 2026 MLS Cup?",
-              "yes_price": 0.0555,
-              "volume": 1196959
-            },
-            {
-              "market_id": "1349158",
-              "slug": "will-nashville-sc-win-the-2026-mls-cup",
-              "question": "Will Nashville SC win the 2026 MLS Cup?",
-              "yes_price": 0.0435,
-              "volume": 250895
-            },
-            {
-              "market_id": "1349171",
-              "slug": "will-toronto-fc-win-the-2026-mls-cup",
-              "question": "Will Toronto FC win the 2026 MLS Cup?",
-              "yes_price": 0.04,
-              "volume": 18800
-            },
-            {
-              "market_id": "1349168",
-              "slug": "will-seattle-sounders-fc-win-the-2026-mls-cup",
-              "question": "Will Seattle Sounders FC win the 2026 MLS Cup?",
-              "yes_price": 0.0365,
-              "volume": 713286
-            },
-            {
-              "market_id": "1349147",
-              "slug": "will-fc-cincinnati-win-the-2026-mls-cup",
-              "question": "Will FC Cincinnati win the 2026 MLS Cup?",
-              "yes_price": 0.036,
-              "volume": 998964
-            },
-            {
-              "market_id": "1349160",
-              "slug": "will-new-york-city-fc-win-the-2026-mls-cup",
-              "question": "Will New York City FC win the 2026 MLS Cup?",
-              "yes_price": 0.036,
-              "volume": 468993
-            },
-            {
-              "market_id": "1349167",
-              "slug": "will-san-jose-earthquakes-win-the-2026-mls-cup",
-              "question": "Will San Jose Earthquakes win the 2026 MLS Cup?",
-              "yes_price": 0.0315,
-              "volume": 1045569
-            },
-            {
-              "market_id": "1349145",
-              "slug": "will-charlotte-fc-win-the-2026-mls-cup",
-              "question": "Will Charlotte FC win the 2026 MLS Cup?",
-              "yes_price": 0.0245,
-              "volume": 303354
-            },
-            {
-              "market_id": "1349155",
-              "slug": "will-minnesota-united-fc-win-the-2026-mls-cup",
-              "question": "Will Minnesota United FC win the 2026 MLS Cup?",
-              "yes_price": 0.021,
-              "volume": 77317
-            },
-            {
-              "market_id": "1349161",
-              "slug": "will-new-york-red-bulls-win-the-2026-mls-cup",
-              "question": "Will New York Red Bulls win the 2026 MLS Cup?",
-              "yes_price": 0.019,
-              "volume": 66246
-            },
-            {
-              "market_id": "1349149",
-              "slug": "will-columbus-crew-win-the-2026-mls-cup",
-              "question": "Will Columbus Crew win the 2026 MLS Cup?",
-              "yes_price": 0.0185,
-              "volume": 2853845
-            },
-            {
-              "market_id": "1349153",
-              "slug": "will-la-galaxy-win-the-2026-mls-cup",
-              "question": "Will LA Galaxy win the 2026 MLS Cup?",
-              "yes_price": 0.0135,
-              "volume": 5027
-            },
-            {
-              "market_id": "1349165",
-              "slug": "will-real-salt-lake-win-the-2026-mls-cup",
-              "question": "Will Real Salt Lake win the 2026 MLS Cup?",
-              "yes_price": 0.0125,
-              "volume": 2471140
-            },
-            {
-              "market_id": "1349163",
-              "slug": "will-philadelphia-union-win-the-2026-mls-cup",
-              "question": "Will Philadelphia Union win the 2026 MLS Cup?",
-              "yes_price": 0.0115,
-              "volume": 51264
-            },
-            {
-              "market_id": "1349146",
-              "slug": "will-chicago-fire-fc-win-the-2026-mls-cup",
-              "question": "Will Chicago Fire FC win the 2026 MLS Cup?",
-              "yes_price": 0.0105,
-              "volume": 79963
-            },
-            {
-              "market_id": "1349162",
-              "slug": "will-orlando-city-sc-win-the-2026-mls-cup",
-              "question": "Will Orlando City SC win the 2026 MLS Cup?",
-              "yes_price": 0.0105,
-              "volume": 1796109
-            },
-            {
-              "market_id": "1349152",
-              "slug": "will-houston-dynamo-fc-win-the-2026-mls-cup",
-              "question": "Will Houston Dynamo FC win the 2026 MLS Cup?",
-              "yes_price": 0.0095,
-              "volume": 58281
-            },
-            {
-              "market_id": "1349144",
-              "slug": "will-austin-fc-win-the-2026-mls-cup",
-              "question": "Will Austin FC win the 2026 MLS Cup?",
-              "yes_price": 0.0085,
-              "volume": 60618
-            },
-            {
-              "market_id": "1349150",
-              "slug": "will-fc-dallas-win-the-2026-mls-cup",
-              "question": "Will FC Dallas win the 2026 MLS Cup?",
-              "yes_price": 0.0085,
-              "volume": 42092
-            },
-            {
-              "market_id": "1349143",
-              "slug": "will-atlanta-united-fc-win-the-2026-mls-cup",
-              "question": "Will Atlanta United FC win the 2026 MLS Cup?",
-              "yes_price": 0.0075,
-              "volume": 37469
-            },
-            {
-              "market_id": "1349164",
-              "slug": "will-portland-timbers-win-the-2026-mls-cup",
-              "question": "Will Portland Timbers win the 2026 MLS Cup?",
-              "yes_price": 0.0065,
-              "volume": 57568
-            },
-            {
-              "market_id": "1349170",
-              "slug": "will-st-louis-city-sc-win-the-2026-mls-cup",
-              "question": "Will St. Louis City SC win the 2026 MLS Cup?",
-              "yes_price": 0.0065,
-              "volume": 64559
-            },
-            {
-              "market_id": "1349151",
-              "slug": "will-dc-united-win-the-2026-mls-cup",
-              "question": "Will D.C. United win the 2026 MLS Cup?",
-              "yes_price": 0.004,
-              "volume": 2646
-            },
-            {
-              "market_id": "1349157",
-              "slug": "will-cf-montral-win-the-2026-mls-cup",
-              "question": "Will CF Montr\u00e9al win the 2026 MLS Cup?",
-              "yes_price": 0.004,
-              "volume": 4408
-            },
-            {
-              "market_id": "1349148",
-              "slug": "will-colorado-rapids-win-the-2026-mls-cup",
-              "question": "Will Colorado Rapids win the 2026 MLS Cup?",
-              "yes_price": 0.0035,
-              "volume": 95457
-            },
-            {
-              "market_id": "1349159",
-              "slug": "will-new-england-revolution-win-the-2026-mls-cup",
-              "question": "Will New England Revolution win the 2026 MLS Cup?",
-              "yes_price": 0.003,
-              "volume": 3094
-            },
-            {
-              "market_id": "1349169",
-              "slug": "will-sporting-kansas-city-win-the-2026-mls-cup",
-              "question": "Will Sporting Kansas City win the 2026 MLS Cup?",
-              "yes_price": 0.003,
-              "volume": 6596
+              "market_id": "960226",
+              "slug": "will-sam-mccown-be-the-republican-nominee-for-sc-01",
+              "question": "Will Sam McCown be the Republican Nominee for SC-01?",
+              "yes_price": 0.22,
+              "volume": 1019
             }
           ],
-          "url": "https://polymarket.com/event/mls-cup-winner-2026",
-          "strategy": "Buy YES on all 30 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
-        },
-        {
-          "event_title": "Pro Football: 2027 NFC Champion ",
-          "event_slug": "pro-football-2027-nfc-champion",
-          "yes_sum": 0.9095,
-          "profit_pct": 9.05,
-          "profit_per_dollar_pct": 9.95,
-          "num_outcomes": 16,
-          "outcomes": [
-            {
-              "market_id": "1361067",
-              "slug": "will-los-angeles-rams-win-the-2027-nfl-nfc-championship-351",
-              "question": "Will Los Angeles Rams win the 2027 NFL NFC Championship?",
-              "yes_price": 0.14,
-              "volume": 2615
-            },
-            {
-              "market_id": "1361069",
-              "slug": "will-seattle-seahawks-win-the-2027-nfl-nfc-championship-625",
-              "question": "Will Seattle Seahawks win the 2027 NFL NFC Championship?",
-              "yes_price": 0.11,
-              "volume": 2628
-            },
-            {
-              "market_id": "1361068",
-              "slug": "will-san-francisco-49ers-win-the-2027-nfl-nfc-championship-832",
-              "question": "Will San Francisco 49ers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.08,
-              "volume": 15839
-            },
-            {
-              "market_id": "1361056",
-              "slug": "will-philadelphia-eagles-win-the-2027-nfl-nfc-championship-835",
-              "question": "Will Philadelphia Eagles win the 2027 NFL NFC Championship?",
-              "yes_price": 0.077,
-              "volume": 25501
-            },
-            {
-              "market_id": "1361060",
-              "slug": "will-green-bay-packers-win-the-2027-nfl-nfc-championship-857",
-              "question": "Will Green Bay Packers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.075,
-              "volume": 38478
-            },
-            {
-              "market_id": "1361061",
-              "slug": "will-minnesota-vikings-win-the-2027-nfl-nfc-championship-884",
-              "question": "Will Minnesota Vikings win the 2027 NFL NFC Championship?",
-              "yes_price": 0.067,
-              "volume": 1731342
-            },
-            {
-              "market_id": "1361058",
-              "slug": "will-chicago-bears-win-the-2027-nfl-nfc-championship-449",
-              "question": "Will Chicago Bears win the 2027 NFL NFC Championship?",
-              "yes_price": 0.065,
-              "volume": 14990
-            },
-            {
-              "market_id": "1361063",
-              "slug": "will-carolina-panthers-win-the-2027-nfl-nfc-championship-793",
-              "question": "Will Carolina Panthers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.065,
-              "volume": 660966
-            },
-            {
-              "market_id": "1361059",
-              "slug": "will-detroit-lions-win-the-2027-nfl-nfc-championship-721",
-              "question": "Will Detroit Lions win the 2027 NFL NFC Championship?",
-              "yes_price": 0.051,
-              "volume": 21635
-            },
-            {
-              "market_id": "1361054",
-              "slug": "will-dallas-cowboys-win-the-2027-nfl-nfc-championship-584",
-              "question": "Will Dallas Cowboys win the 2027 NFL NFC Championship?",
-              "yes_price": 0.039,
-              "volume": 777376
-            },
-            {
-              "market_id": "1361065",
-              "slug": "will-tampa-bay-buccaneers-win-the-2027-nfl-nfc-championship-312",
-              "question": "Will Tampa Bay Buccaneers win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0355,
-              "volume": 681550
-            },
-            {
-              "market_id": "1361064",
-              "slug": "will-new-orleans-saints-win-the-2027-nfl-nfc-championship-398",
-              "question": "Will New Orleans Saints win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0295,
-              "volume": 504793
-            },
-            {
-              "market_id": "1361055",
-              "slug": "will-new-york-giants-win-the-2027-nfl-nfc-championship-866",
-              "question": "Will New York Giants win the 2027 NFL NFC Championship?",
-              "yes_price": 0.029,
-              "volume": 4146
-            },
-            {
-              "market_id": "1361057",
-              "slug": "will-washington-commanders-win-the-2027-nfl-nfc-championship-484",
-              "question": "Will Washington Commanders win the 2027 NFL NFC Championship?",
-              "yes_price": 0.021,
-              "volume": 147859
-            },
-            {
-              "market_id": "1361062",
-              "slug": "will-atlanta-falcons-win-the-2027-nfl-nfc-championship-312",
-              "question": "Will Atlanta Falcons win the 2027 NFL NFC Championship?",
-              "yes_price": 0.017,
-              "volume": 122547
-            },
-            {
-              "market_id": "1361066",
-              "slug": "will-arizona-cardinals-win-the-2027-nfl-nfc-championship-199",
-              "question": "Will Arizona Cardinals win the 2027 NFL NFC Championship?",
-              "yes_price": 0.0085,
-              "volume": 348607
-            }
-          ],
-          "url": "https://polymarket.com/event/pro-football-2027-nfc-champion",
-          "strategy": "Buy YES on all 16 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
-        },
-        {
-          "event_title": "Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors",
-          "event_slug": "arg-gim-aaj-2026-03-08",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
-          "num_outcomes": 2,
-          "outcomes": [
-            {
-              "market_id": "1360742",
-              "slug": "arg-gim-aaj-2026-03-08-draw",
-              "question": "Will Gimnasia y Esgrima de La Plata vs. AA Argentinos Juniors end in a draw?",
-              "yes_price": 0.48,
-              "volume": 1695
-            },
-            {
-              "market_id": "1360741",
-              "slug": "arg-gim-aaj-2026-03-08-gim",
-              "question": "Will Gimnasia y Esgrima de La Plata win on 2026-03-08?",
-              "yes_price": 0.43,
-              "volume": 22792
-            }
-          ],
-          "url": "https://polymarket.com/event/arg-gim-aaj-2026-03-08",
-          "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "url": "https://polymarket.com/event/sc-01-republican-primary-winner",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
         }
       ],
       "stats": {
-        "total_events": 2200,
-        "checked_multi_outcome": 1619,
-        "skipped_single_outcome": 456,
-        "opportunities_found": 119,
-        "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-14 03:09 UTC"
+        "total_events": 3000,
+        "checked_multi_outcome": 1876,
+        "skipped_single_outcome": 612,
+        "opportunities_found": 140,
+        "best_profit_pct": 9.9,
+        "scanned_at": "2026-04-14 03:40 UTC"
       }
     },
     {
