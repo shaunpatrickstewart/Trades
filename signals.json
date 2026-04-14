@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T18:51:29.954031+00:00",
-  "scan_seconds": 39.5,
+  "last_scan": "2026-04-14T18:54:30.296274+00:00",
+  "scan_seconds": 39.1,
   "markets_scanned": 64,
   "open_positions": 33,
   "signals": [
     {
-      "id": "sig_436997",
-      "timestamp": "2026-04-14T18:51:00.803250+00:00",
+      "id": "sig_623269",
+      "timestamp": "2026-04-14T18:54:07.075467+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump confirms US-Iran ceasefire 'holding well' amid new Strait of Hormuz blockade announcement | YES | HIGH confidence*",
-      "raw": "Trump confirms US-Iran ceasefire 'holding well' amid new Strait of Hormuz blockade announcement | YES | HIGH confidence**[1][2][3]\n\nThe two-week ceasefire, starting April 7, 2026, between the US, Israel, and Iran remains in effect despite escalated US actions, including a US Navy blockade of Iranian ports and the Strait of Hormuz launched April 13 to intercept vessels paying Iranian tolls and clea",
+      "headline": "Trump Announces Two-Week Ceasefire With Iran Ahead of 8 P",
+      "raw": "Trump Announces Two-Week Ceasefire With Iran Ahead of 8 P.M. Deadline | YES | HIGH confidence**\n\nPresident Donald Trump announced a **two-week ceasefire agreement** with Iran on Tuesday evening, just before a looming 8 p.m. ET deadline.[1] This represents a significant de-escalation after days of intense threats, including Trump's warning that \"a whole civilization will die tonight\" if Iran did no",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,41 +22,123 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_451983",
-      "timestamp": "2026-04-14T18:51:15.789364+00:00",
+      "id": "sig_645486",
+      "timestamp": "2026-04-14T18:54:29.292190+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recently confirmed announcements about JD Vance or Republican politics that would",
-      "raw": "I cannot identify any breaking news or recently confirmed announcements about JD Vance or Republican politics that would move prediction markets based on these search results.\n\nThe search results provide market data from April 10-13, 2026, showing that JD Vance leads prediction markets for the 2028 Republican presidential nominee at 39-42% implied probability[1][2], but they do not contain any bre",
-      "direction": null,
+      "headline": "Bank of Korea Holds Key Rate at 2",
+      "raw": "Bank of Korea Holds Key Rate at 2.5% for 7th Straight Meeting Amid March Inflation at 2.2% | NO | HIGH confidence** [1][4]\n\nSouth Korea's annual consumer inflation rose to **2.2%** in March 2026 from 2.0% in January-February, below market forecasts of 2.4% and aligning with the central bank's 2% target despite global energy volatility from the Iran conflict.[1][4] This data, combined with the BoK'",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_633802",
+      "timestamp": "2026-04-14T18:54:17.608207+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, I cannot identify a single breaking news story that has just been confirmed or ann",
+      "raw": "Based on the search results provided, I cannot identify a single breaking news story that has just been confirmed or announced that would clearly move prediction markets. \n\nThe most recent content available includes:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_633816",
+      "timestamp": "2026-04-14T18:54:17.622090+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**2028 presidential speculation**: Nikki Haley was interviewed about whether Vance should be the GOP's next presidential",
+      "raw": "**2028 presidential speculation**: Nikki Haley was interviewed about whether Vance should be the GOP's next presidential nominee, but she declined to give a definitive answer, stating \"it's too soon to tell\"[1].\n\nThe search results lack sufficient specificity about what was \"just confirmed\" today to provide the headline-format answer you requested. More current and detailed news sources would be n",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_623274",
+      "timestamp": "2026-04-14T18:54:07.080257+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Energy markets:** The agreement should provide relief from the spike in fuel prices caused by the Strait of Hormuz clo",
+      "raw": "**Energy markets:** The agreement should provide relief from the spike in fuel prices caused by the Strait of Hormuz closure",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_623278",
+      "timestamp": "2026-04-14T18:54:07.084417+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Geopolitical risk premium:** Reduced immediate war risk between the U",
+      "raw": "**Geopolitical risk premium:** Reduced immediate war risk between the U.S. and Iran",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_623282",
+      "timestamp": "2026-04-14T18:54:07.088838+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Regional stability:** Two weeks of negotiating time to potentially resolve underlying disputes over nuclear developmen",
+      "raw": "**Regional stability:** Two weeks of negotiating time to potentially resolve underlying disputes over nuclear development and the strait's reopening\n\nThis ceasefire caps a period that saw earlier diplomatic efforts collapse on April 12, with negotiations in Islamabad making \"virtually no progress\" before U.S. negotiators departed.[4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_633806",
+      "timestamp": "2026-04-14T18:54:17.612720+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Vice President Vance's Iran ceasefire comments** (22 hours ago): Vance characterized an Iran ceasefire as a \"fragile t",
+      "raw": "**Vice President Vance's Iran ceasefire comments** (22 hours ago): Vance characterized an Iran ceasefire as a \"fragile truce\" and suggested some Iranian officials are being dishonest[5]. However, this appears to be commentary rather than a major new development.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_457679",
-      "timestamp": "2026-04-14T18:51:21.485257+00:00",
+      "id": "sig_633811",
+      "timestamp": "2026-04-14T18:54:17.617294+00:00",
       "source": "PERPLEXITY",
-      "headline": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **NO** | **HIGH** confidence[6]",
-      "raw": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **NO** | **HIGH** confidence[6]\n\nA major exploit on Solana's Drift protocol, involving social engineering and pre-approved transactions for administrative control, resulted in over $280M stolen, with Circle declining to freeze $230M+ in bridged USDC[6]. This has led to a 13% SOL price drop to ~$78, testing $75-80 support,",
-      "direction": "NO",
+      "headline": "**Vance's Hungary campaign involvement controversy**: Multiple sources reference Vance and Trump administration official",
+      "raw": "**Vance's Hungary campaign involvement controversy**: Multiple sources reference Vance and Trump administration officials campaigning for Hungarian Prime Minister Viktor Orb\u00e1n, with international figures like Nigel Farage distancing themselves from the Trump-Vance brand due to perceived toxicity[3]. Viktor Orb\u00e1n appears to have lost his election[3], but the timing of this outcome relative to today",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $72,000 and $74,000 on April 17?",
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 2,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 4
   }
 }
