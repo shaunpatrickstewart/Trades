@@ -1,16 +1,31 @@
 {
-  "last_scan": "2026-04-14T04:59:46.666311+00:00",
-  "scan_seconds": 37.2,
+  "last_scan": "2026-04-14T05:02:41.072538+00:00",
+  "scan_seconds": 31.6,
   "markets_scanned": 69,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_555384",
-      "timestamp": "2026-04-14T04:59:39.240294+00:00",
+      "id": "sig_736214",
+      "timestamp": "2026-04-14T05:02:40.070428+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Rebounds Above $80 with Strong Network Metrics | YES | HIGH confidence**",
-      "raw": "Solana Rebounds Above $80 with Strong Network Metrics | YES | HIGH confidence**\nSolana is currently trading near $80 after a 70% decline from its $294 peak, with the cryptocurrency showing a 6.61% gain today[3]. Network activity remains robust, with decentralized exchange volume reaching $57 billion in March and DeFi value tied to real-world assets climbing to $465 million[1]. The Alpenglow upgrad",
+      "headline": "South Korea's March 2026 annual inflation rate confirmed at 2",
+      "raw": "South Korea's March 2026 annual inflation rate confirmed at 2.2%, up from 2.0% in prior months but below 2.4% forecast | NO | HIGH confidence** [1][3]\n\nThis data, released around early April 2026, shows a modest rise in year-over-year CPI inflation to 2.2% (Trading Economics) or 2.16% (rateinflation.com), remaining near the Bank of Korea's 2% target amid contained price pressures before global ene",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_731161",
+      "timestamp": "2026-04-14T05:02:35.017777+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a \"breaking news\" headline with market-moving confirmation based on these search results",
+      "raw": "I cannot provide a \"breaking news\" headline with market-moving confirmation based on these search results. The available information consists of articles from early April 2026 (April 1-7) containing **predictions and analyses**, not confirmed events or official announcements from today.\n\nThe search results include:",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,27 +33,58 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_542859",
-      "timestamp": "2026-04-14T04:59:26.715997+00:00",
+      "id": "sig_731190",
+      "timestamp": "2026-04-14T05:02:35.046166+00:00",
       "source": "PERPLEXITY",
-      "headline": "House vote on Epstein Files Transparency Act forced by discharge petition (Nov 12, 2025), backed by bipartisan support i",
-      "raw": "House vote on Epstein Files Transparency Act forced by discharge petition (Nov 12, 2025), backed by bipartisan support including 4 Republicans and 214 Democrats[1][3].",
+      "headline": "Confirmed announcements or official statements from exchanges, projects, or regulatory bodies",
+      "raw": "Confirmed announcements or official statements from exchanges, projects, or regulatory bodies",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_542864",
-      "timestamp": "2026-04-14T04:59:26.720714+00:00",
+      "id": "sig_731176",
+      "timestamp": "2026-04-14T05:02:35.032053+00:00",
       "source": "PERPLEXITY",
-      "headline": "Chaotic Senate hearing on new Epstein files (April 10, 2026), featuring testimony on a Democrat congresswoman's Epstein",
-      "raw": "Chaotic Senate hearing on new Epstein files (April 10, 2026), featuring testimony on a Democrat congresswoman's Epstein donations[2].",
+      "headline": "**Network metrics** like Solana's $57 billion DEX volume in March and strong activity despite price weakness[6]",
+      "raw": "**Network metrics** like Solana's $57 billion DEX volume in March and strong activity despite price weakness[6]",
       "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_714716",
+      "timestamp": "2026-04-14T05:02:18.572968+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US initiates Strait of Hormuz blockade on April 13 despite Trump confirming two-week US-Iran ceasefire (started April 7)",
+      "raw": "US initiates Strait of Hormuz blockade on April 13 despite Trump confirming two-week US-Iran ceasefire (started April 7) is 'holding well'; Trump threatens to eliminate approaching Iranian ships and destroy mines | NO | HIGH confidence**[1][2]\n\nTrump's April 13 statements describe Iran as \"desperate\" and in \"very bad shape,\" signaling no de-escalation amid failed Islamabad talks over uranium enric",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_720267",
+      "timestamp": "2026-04-14T05:02:24.123549+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Democrats fail to subpoena Elon Musk to testify before House Oversight Committee (June 5, 2025)** | NO | HIGH confidence",
+      "raw": "Democrats fail to subpoena Elon Musk to testify before House Oversight Committee (June 5, 2025)** | NO | HIGH confidence[2]\n\nRepublicans on the House Oversight Committee rejected Democrats' request to subpoena Elon Musk in a 21-20 party-line vote, marking the second failed attempt[2]. Democrats, led by Rep. Stephen Lynch (D-Mass.), accused Musk of endangering privacy via DOGE actions under Trump, ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
         "Will Elon Musk Testify to Congress about Epstein?"
       ],
       "action": "ALERT",
@@ -46,26 +92,11 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_542869",
-      "timestamp": "2026-04-14T04:59:26.725588+00:00",
+      "id": "sig_731166",
+      "timestamp": "2026-04-14T05:02:35.022688+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump firing AG Pam Bondi over Epstein files handling (April 2, 2026), following failed contempt amendment (Jan 2026) an",
-      "raw": "Trump firing AG Pam Bondi over Epstein files handling (April 2, 2026), following failed contempt amendment (Jan 2026) and her testimony[3].\n\nAnticipated House GOP defections on the bill (Nov 2025) did not materialize as new events today[1][3]. No sources indicate fresh Senate actions, party announcements, or market-moving confirmations at this hour[1][2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_555379",
-      "timestamp": "2026-04-14T04:59:39.235461+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here are the key market-moving developments:",
-      "raw": "Based on the search results, here are the key market-moving developments:",
+      "headline": "**Price predictions** if Bitcoin reaches $80k (it was trading at $68,539-$68,758 during the reporting period)[1][3]",
+      "raw": "**Price predictions** if Bitcoin reaches $80k (it was trading at $68,539-$68,758 during the reporting period)[1][3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -74,11 +105,37 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_555393",
-      "timestamp": "2026-04-14T04:59:39.249886+00:00",
+      "id": "sig_731171",
+      "timestamp": "2026-04-14T05:02:35.027397+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market Sentiment Shift from Extreme Fear | YES | HIGH confidence**",
-      "raw": "Market Sentiment Shift from Extreme Fear | YES | HIGH confidence**\nThe Fear and Greed Index has held at extreme fear for 46 consecutive days, with historical data showing that buying below a reading of 15 has returned a median of 38.4% within 90 days[1].",
+      "headline": "**Historical price analysis** showing Solana trading near $80 with a 70% decline from its $294 peak[3][6]",
+      "raw": "**Historical price analysis** showing Solana trading near $80 with a 70% decline from its $294 peak[3][6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_731180",
+      "timestamp": "2026-04-14T05:02:35.036696+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Technical analysis** suggesting potential rallies, but no confirmed breakout or resolution[7][8]",
+      "raw": "**Technical analysis** suggesting potential rallies, but no confirmed breakout or resolution[7][8]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_731185",
+      "timestamp": "2026-04-14T05:02:35.041415+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**A Drift Protocol hack** on April 1 that resulted in $280 million in losses[4]",
+      "raw": "**A Drift Protocol hack** on April 1 that resulted in $280 million in losses[4]\n\nFor a format like \"HEADLINE | YES or NO | HIGH/MED/LOW confidence,\" I would need:",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -87,42 +144,36 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_555398",
-      "timestamp": "2026-04-14T04:59:39.254662+00:00",
+      "id": "sig_731194",
+      "timestamp": "2026-04-14T05:02:35.050787+00:00",
       "source": "PERPLEXITY",
-      "headline": "Risk Factor: Solana Security Breach | NO | MED confidence**",
-      "raw": "Risk Factor: Solana Security Breach | NO | MED confidence**\nOn April 1, the Solana-based DeFi platform Drift Protocol was hacked for $280 million through social engineering of security council members[6], though this is a protocol-specific issue rather than a network-level confirmation.",
-      "direction": "NO",
+      "headline": "Resolved events (e",
+      "raw": "Resolved events (e.g., \"Bitcoin breaks $80k,\" \"Major ETF approval,\" \"Regulatory decision\")",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Solana Up or Down - April 14, 1:45PM-1:50PM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_555389",
-      "timestamp": "2026-04-14T04:59:39.245159+00:00",
+      "id": "sig_731199",
+      "timestamp": "2026-04-14T05:02:35.055611+00:00",
       "source": "PERPLEXITY",
-      "headline": "April Presents Multiple Crypto Catalysts for Recovery | YES | HIGH confidence**",
-      "raw": "April Presents Multiple Crypto Catalysts for Recovery | YES | HIGH confidence**\nBitcoin, Ethereum, Solana, and XRP all have specific April catalysts that could trigger recoveries[1]. For Bitcoin, improving macro conditions and macro-related ETF inflows are expected, with price targets of $95K\u2013$120K[1]. Solana faces potential ETF approvals and DEX volume surpassing Ethereum[1]. The CLARITY Act mark",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Bitcoin outperform Gold in April 2026?",
-        "Solana Up or Down - April 14, 1:45PM-1:50PM ET",
-        "Bitcoin Up or Down - April 14, 10:00PM-10:05PM ET"
-      ],
-      "action": "WATCH",
+      "headline": "Current market data showing what has actually occurred",
+      "raw": "Current market data showing what has actually occurred\n\nThe search results provide speculation and analysis from early April, not breaking developments from today that would definitively move prediction markets.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 11,
+    "watch": 0,
+    "high_conf": 3
   }
 }
