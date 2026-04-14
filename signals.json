@@ -1,33 +1,16 @@
 {
-  "last_scan": "2026-04-14T21:05:16.185419+00:00",
-  "scan_seconds": 25.9,
+  "last_scan": "2026-04-14T21:06:20.406458+00:00",
+  "scan_seconds": 25.7,
   "markets_scanned": 69,
   "open_positions": 34,
   "signals": [
     {
-      "id": "sig_474400",
-      "timestamp": "2026-04-14T21:04:58.198547+00:00",
+      "id": "sig_544558",
+      "timestamp": "2026-04-14T21:06:08.356069+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump announces US-Iran two-week ceasefire agreement ahead of 8 p",
-      "raw": "Trump announces US-Iran two-week ceasefire agreement ahead of 8 p.m. ET deadline | YES | HIGH confidence**[1]\n\nPresident Donald Trump confirmed on Tuesday evening, April 7, 2026, that the US reached a two-week ceasefire with Iran, averting escalation after his morning threats to strike if the Strait of Hormuz was not reopened.[1] This followed intense rhetoric, including warnings of nuclear risks ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_480288",
-      "timestamp": "2026-04-14T21:05:04.086699+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire with Trump Administration Holds Fragilely as VP JD Vance Warns of Collapse, Ramps Up Pressure** | NO | HI",
-      "raw": "Iran Ceasefire with Trump Administration Holds Fragilely as VP JD Vance Warns of Collapse, Ramps Up Pressure** | NO | HIGH confidence[1][2][3]\n\nVP **JD Vance**, speaking Wednesday in Hungary amid stalled **Iran** talks under **President Trump**, described a recently agreed **two-week ceasefire**\u2014announced Tuesday night just before Trump's deadline to strike Iranian energy infrastructure\u2014as **fragi",
-      "direction": "YES",
+      "headline": "Vance-Iran Ceasefire Deal Falls Apart as Negotiations Fail, Trump Deadline Looms | NO | HIGH confidence**[1][2][4]",
+      "raw": "Vance-Iran Ceasefire Deal Falls Apart as Negotiations Fail, Trump Deadline Looms | NO | HIGH confidence**[1][2][4]\n\nVice President **JD Vance** confirmed that U.S.-Iran talks collapsed over the weekend, with Iran refusing key concessions despite a **fragile two-week ceasefire** tied to reopening the Strait of Hormuz; Trump threatened strikes on Iranian energy infrastructure if unmet by his deadlin",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
@@ -39,64 +22,42 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_485957",
-      "timestamp": "2026-04-14T21:05:09.755451+00:00",
+      "id": "sig_538714",
+      "timestamp": "2026-04-14T21:06:02.512750+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** potential for upside if BTC stabilizes above $68K or Solana breaks $85\u2013$95, driven by catalysts like Interactive B",
-      "raw": "YES** potential for upside if BTC stabilizes above $68K or Solana breaks $85\u2013$95, driven by catalysts like Interactive Brokers' SOL trading launch for Europeans, Firedancer/Alpenglow upgrades (98.27% governance approval), and strong DeFi TVL (~$6B).[3][4][7]",
-      "direction": "YES",
+      "headline": "US-Iran ceasefire holding amid Trump-ordered naval blockade of Strait of Hormuz (effective April 13); no new deal confir",
+      "raw": "US-Iran ceasefire holding amid Trump-ordered naval blockade of Strait of Hormuz (effective April 13); no new deal confirmed, peace talks may resume soon | NO | HIGH confidence**\n\nTrump stated the two-week ceasefire (started April 7, 2026) is \"holding well,\" with no active fighting, despite the US Navy's new blockade halting Iranian port traffic and surging oil prices.[1][2] He issued stark warning",
+      "direction": "NO",
       "confidence": 0.78,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_491386",
-      "timestamp": "2026-04-14T21:05:15.184117+00:00",
+      "id": "sig_555607",
+      "timestamp": "2026-04-14T21:06:19.405524+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI: Annual Inflation Rises to 2",
-      "raw": "South Korea March 2026 CPI: Annual Inflation Rises to 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's headline CPI inflation increased to 2.16% year-on-year in March 2026 from 2.00% in February, with month-on-month inflation at 0.34%.[2]  \nThis uptick, amid steady February core inflation at 2.3% and rising upside risks from oil prices and KRW weakness, prompted ING to revise its 2026 CPI forec",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts | NO | HIGH confidence** [1][2]\n\nThis March figure from Statistics Korea, released recently via Trading Economics, marks a slight acceleration from prior months' stability at the Bank of Korea's 2% target but missed expectations, signaling contained pressures amid global energy",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_485964",
-      "timestamp": "2026-04-14T21:05:09.762616+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO** recent confirmations; content focuses on ongoing consolidation, historical April seasonality (+23\u201360% in green mont",
-      "raw": "NO** recent confirmations; content focuses on ongoing consolidation, historical April seasonality (+23\u201360% in green months), and bearish risks like head-and-shoulders patterns targeting $73 if $80 fails.[5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_485969",
-      "timestamp": "2026-04-14T21:05:09.767679+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW** confidence due to absence of time-sensitive announcements\u2014results are speculative forecasts, not \"right now\" event",
-      "raw": "LOW** confidence due to absence of time-sensitive announcements\u2014results are speculative forecasts, not \"right now\" events.[1][2][3][4][5][6][7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
