@@ -1,49 +1,32 @@
 {
-  "last_scan": "2026-04-14T19:48:53.042470+00:00",
-  "scan_seconds": 37.8,
-  "markets_scanned": 97,
-  "open_positions": 68,
+  "last_scan": "2026-04-14T19:49:46.664567+00:00",
+  "scan_seconds": 28.6,
+  "markets_scanned": 75,
+  "open_positions": 45,
   "signals": [
     {
-      "id": "sig_888627",
-      "timestamp": "2026-04-14T19:48:32.430094+00:00",
+      "id": "sig_956858",
+      "timestamp": "2026-04-14T19:49:40.661459+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | HIGH confidence**",
-      "raw": "US, Iran Eye Fresh Talks Before 2-Week Ceasefire Expires Next Week | NO | HIGH confidence**  \nNo new ceasefire confirmation, announcement, or resolution has occurred today; the existing 2-week ceasefire was announced April 7 and is set to expire early next week, with both sides now discussing a second round of negotiations in Islamabad to potentially extend it[2][1].  \nTrump pulled back strike thr",
-      "direction": "NO",
+      "headline": "Alpenglow Upgrade Passes Governance Vote with 98",
+      "raw": "Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nSolana's Alpenglow upgrade, aimed at reducing transaction finality to 100-150 milliseconds, passed a governance vote with 98.27% in favor, positioning it as one of the fastest execution layers and potentially boosting network adoption amid April trading near $80.[5]  \nNo other confirmations, announcements, or",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Will the price of Solana be above $100 on April 18?",
+        "Will the price of Solana be above $130 on April 19?",
+        "Will the price of Bitcoin be above $60,000 on April 19?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_895964",
-      "timestamp": "2026-04-14T19:48:39.767257+00:00",
+      "id": "sig_961840",
+      "timestamp": "2026-04-14T19:49:45.643353+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran-US Peace Talks Fail: VP JD Vance Returns Empty-Handed from Pakistan-Facilitated Negotiations** | NO | HIGH confiden",
-      "raw": "Iran-US Peace Talks Fail: VP JD Vance Returns Empty-Handed from Pakistan-Facilitated Negotiations** | NO | HIGH confidence[1][2][6]\n\nVP **JD Vance** concluded negotiations with Iran in Islamabad, Pakistan on or around April 11, 2026, but no deal was reached as Iran refused to abandon its nuclear ambitions, despite Trump's claim of near-success on other points[1][2][3]. Trump publicly blamed Vance ",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_908238",
-      "timestamp": "2026-04-14T19:48:52.041809+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY (up from 2.00% in Feb)** | YES | HIGH confidence[1]\n\nSouth Korea's Statistics Korea released Consumer Price Index data for March 2026, showing **annual inflation at 2.16%** year-over-year, a rise from February's 2.00%, with month-over-month inflation at 0.34% (CPI: 118.8).[1] This exceeds the Bank of Korea's 2% target amid oil price pr",
+      "headline": "IMF Raises South Korea 2026 Inflation Forecast to 2",
+      "raw": "IMF Raises South Korea 2026 Inflation Forecast to 2.5% Amid Middle East Oil Risks | YES | HIGH confidence** [3][5]\n\nSouth Korea's March 2026 annual inflation rate was confirmed at 2.2%, up from 2.0% in February but below 2.4% forecasts, driven by a 9.9% surge in oil prices[1][2]. On April 14, 2026, the IMF released its World Economic Outlook, maintaining 2026 GDP growth at 1.9% while lifting the i",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -52,12 +35,68 @@
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_951032",
+      "timestamp": "2026-04-14T19:49:34.835054+00:00",
+      "source": "PERPLEXITY",
+      "headline": "An executive order from March 31, 2026, regarding citizenship verification in federal elections[2]",
+      "raw": "An executive order from March 31, 2026, regarding citizenship verification in federal elections[2]\n\nTo identify what has \"just been confirmed, announced, or resolved\" that would move prediction markets today, you would need current search results from April 14, 2026. I recommend running a fresh search with today's date specified to find breaking news from this evening.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_951020",
+      "timestamp": "2026-04-14T19:49:34.823182+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news you're requesting based on these search results. The available information is from March 2026 and does not contain any announcements or developments from April 14, 2026.\n\nThe search results only show:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_951025",
+      "timestamp": "2026-04-14T19:49:34.828756+00:00",
+      "source": "PERPLEXITY",
+      "headline": "An executive signing ceremony from March 16, 2026, where President Trump and Vice President Vance established a task for",
+      "raw": "An executive signing ceremony from March 16, 2026, where President Trump and Vice President Vance established a task force to address fraud in federal programs[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_943759",
+      "timestamp": "2026-04-14T19:49:27.562784+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Weigh Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES",
+      "raw": "US and Iran Weigh Negotiations to Extend Two-Week Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | YES | MED confidence**[1][4]\n\nSources confirm the US and Iran are considering fresh talks for a larger ceasefire deal, with proposals exchanged on suspending Iran's nuclear activities (Iran offers 5 years vs. US's 20-year ask), potentially resuming in Pakistan by week's end after pr",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 0,
-    "watch": 0,
+    "enter": 2,
+    "alert": 3,
+    "watch": 1,
     "high_conf": 3
   }
 }
