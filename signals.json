@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-14T00:56:06.259592+00:00",
-  "scan_seconds": 31.4,
-  "markets_scanned": 72,
+  "last_scan": "2026-04-14T00:58:57.547731+00:00",
+  "scan_seconds": 30.9,
+  "markets_scanned": 71,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_919641",
-      "timestamp": "2026-04-14T00:55:43.512991+00:00",
+      "id": "sig_92614",
+      "timestamp": "2026-04-14T00:58:36.484858+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces US Navy Blockade of Strait of Hormuz After Iran Talks Collapse | NO | HIGH confidence**",
-      "raw": "Trump Announces US Navy Blockade of Strait of Hormuz After Iran Talks Collapse | NO | HIGH confidence**  \nPresident Trump ordered the US Navy to begin blockading Iranian ports in the Strait of Hormuz on April 13, 2026, following failed weekend negotiations where Iran refused to abandon its nuclear program.[1][2][4] This escalates tensions amid a fragile two-week ceasefire, with US Central Command ",
-      "direction": "NO",
+      "headline": "US Navy Blockade of Strait of Hormuz Announced by Trump Amid Failed Iran Peace Talks and Fragile Ceasefire | NO | HIGH c",
+      "raw": "US Navy Blockade of Strait of Hormuz Announced by Trump Amid Failed Iran Peace Talks and Fragile Ceasefire | NO | HIGH confidence**  \nTrump ordered a US Navy blockade of Iranian ports in the Strait of Hormuz starting April 13, 2026, after marathon peace talks collapsed over the weekend, escalating tensions despite a barely holding two-week ceasefire.[1]  \nUS Central Command partially walked back t",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,39 +22,42 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_934906",
-      "timestamp": "2026-04-14T00:55:58.777866+00:00",
+      "id": "sig_112656",
+      "timestamp": "2026-04-14T00:58:56.526863+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent \"breaking news\" material is from **April 12, 2026**, which is the",
-      "raw": "Based on the search results provided, the most recent \"breaking news\" material is from **April 12, 2026**, which is the latest dated source available. Here are the key market-moving developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_934914",
-      "timestamp": "2026-04-14T00:55:58.785883+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | Confidence Level**",
-      "raw": "HEADLINE | Confidence Level**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_934921",
-      "timestamp": "2026-04-14T00:55:58.792990+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Tests $74,516 Support as Ethereum Stabilizes Above Critical 0",
-      "raw": "Bitcoin Tests $74,516 Support as Ethereum Stabilizes Above Critical 0.030 ETH/BTC Ratio | YES | HIGH** \u2014 Bitcoin recovered to $74,516 (+5.54%) on April 12, with Ethereum outperforming at $2,374 (+7.46%), marking the third consecutive session where ETH outpaced BTC on a relative basis[5]. The ETH/BTC ratio stabilized above the critical 0.030 level, a historically significant trend inflection point[",
+      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.16% in March 2026 from 2.00% in February 2026, with monthly inflation at 0.34%; the Consumer Price Index reached 118.8.[1] This newly released figure exceeds the Bank of Korea's 2% target amid rising oil prices and currency weakness, aligning with the central ban",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
+        "Will the Central Bank of Colombia announce an increase at the April meeting?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_107416",
+      "timestamp": "2026-04-14T00:58:51.286677+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Strategy Closes in on 1 Million BTC with $1 Billion Purchase | YES | HIGH confidence**",
+      "raw": "Strategy Closes in on 1 Million BTC with $1 Billion Purchase | YES | HIGH confidence**\n\nStrategy (NASDAQ:MSTR) has acquired an additional 13,927 BTC for approximately $1 billion, bringing its total Bitcoin holdings to 780,897 tokens\u2014roughly 3.8% of circulating supply.[1] Executive Chairman Michael Saylor confirmed the purchase was executed at an average price of $71,902.[1] Analysts project the co",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_107427",
+      "timestamp": "2026-04-14T00:58:51.297308+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current Price Action (as of April 13)**",
+      "raw": "Current Price Action (as of April 13)**\n\nBitcoin was trading at $70,942.32, up 0.9% over 24 hours.[1] Ethereum was priced at $2,188.09, up 0.8% over 24 hours.[1] The total crypto market cap reached $2.52 trillion.[2]\n\nThese developments would likely move prediction markets around institutional Bitcoin accumulation trends and the ETH/BTC ratio reversal amid improving macroeconomic sentiment.",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Will the price of Bitcoin be above $72,000 on April 16?",
         "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
@@ -65,81 +68,40 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_934928",
-      "timestamp": "2026-04-14T00:55:58.799591+00:00",
+      "id": "sig_107411",
+      "timestamp": "2026-04-14T00:58:51.281163+00:00",
       "source": "PERPLEXITY",
-      "headline": "Institutional Bitcoin Accumulation Accelerates Amid Extreme Fear Conditions | YES | HIGH** \u2014 Bitcoin ETFs have accumulat",
-      "raw": "Institutional Bitcoin Accumulation Accelerates Amid Extreme Fear Conditions | YES | HIGH** \u2014 Bitcoin ETFs have accumulated $86.22 billion in net assets with $55.96 billion in cumulative inflows[3]. Strategy acquired over 85,000 BTC in Q1 2026[3]. This institutional positioning during the Fear and Greed Index's 46-day extreme fear period historically signals bullish reversals, with median 90-day re",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_934933",
-      "timestamp": "2026-04-14T00:55:58.804775+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key April Catalysts Identified for Market Recovery | YES | MED** \u2014 Analysts highlight multiple triggers: the CLARITY Act",
-      "raw": "Key April Catalysts Identified for Market Recovery | YES | MED** \u2014 Analysts highlight multiple triggers: the CLARITY Act markup scheduled for late April (targeting XRP recovery to $2.50\u2013$4.00)[3], Ethereum's Layer 2 network activity monitoring[4], and potential Fed rate softening if oil-driven inflation stabilizes[4]. The Pectra upgrade is scheduled for Q2 2026[5].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be between $2,400 and $2,500 on April 14?",
-        "Ethereum Up or Down - April 14, 5:35AM-5:40AM ET",
-        "XRP Up or Down - April 14, 1:00AM-1:05AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_941354",
-      "timestamp": "2026-04-14T00:56:05.225913+00:00",
-      "source": "PERPLEXITY",
-      "headline": "March 2026 annual inflation at 2",
-      "raw": "March 2026 annual inflation at 2.2% (up from 2.0% in Jan/Feb, below 2.4% forecasts), with Feb steady at 2.0% near BoK's 2% target.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_941360",
-      "timestamp": "2026-04-14T00:56:05.231038+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BoK held benchmark rate at 2",
-      "raw": "BoK held benchmark rate at 2.5% on Apr 10 (7th straight month), citing inflation ~2.2%, oil price risks from Middle East tensions, and weak won (~1,520/USD).[3]",
+      "headline": "Based on the search results provided, here are the key developments:",
+      "raw": "Based on the search results provided, here are the key developments:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_941365",
-      "timestamp": "2026-04-14T00:56:05.236243+00:00",
+      "id": "sig_107422",
+      "timestamp": "2026-04-14T00:58:51.292113+00:00",
       "source": "PERPLEXITY",
-      "headline": "Earlier Jan 2026 inflation cooled to 2",
-      "raw": "Earlier Jan 2026 inflation cooled to 2.0% YoY (core steady at 2%), unlikely to prompt rate cuts amid housing/FX concerns.[1]\n\nNo confirmations, resolutions, or announcements post-Apr 10 in results; oil shocks and OECD forecast tweaks (growth to 1.7%, inflation to 2.7%) are from Mar and predate today.[4][5][6] **LOW confidence** due to recency gap in sources (latest ~Apr 10).[2][3]",
-      "direction": "NO",
+      "headline": "Ethereum Outperforms Bitcoin Following Iran Ceasefire | YES | HIGH confidence**",
+      "raw": "Ethereum Outperforms Bitcoin Following Iran Ceasefire | YES | HIGH confidence**\n\nOn April 8, 2026, Ethereum surged 5.6% to reach its highest level since March 18, significantly outperforming Bitcoin's 4.5% gain.[2] The catalyst was an Iran ceasefire announcement that triggered broad risk-on sentiment.[2] ETH's outsized move was amplified by aggressive short covering in perpetual futures markets, w",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Iran strike Iraq by April 30, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 2,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
