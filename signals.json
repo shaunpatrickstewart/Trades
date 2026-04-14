@@ -1,130 +1,64 @@
 {
-  "last_scan": "2026-04-14T19:46:47.045784+00:00",
-  "scan_seconds": 34.1,
+  "last_scan": "2026-04-14T19:47:52.676927+00:00",
+  "scan_seconds": 38.9,
   "markets_scanned": 119,
   "open_positions": 90,
   "signals": [
     {
-      "id": "sig_782221",
-      "timestamp": "2026-04-14T19:46:46.024589+00:00",
+      "id": "sig_823891",
+      "timestamp": "2026-04-14T19:47:27.694946+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rises to 2",
-      "raw": "South Korea's annual inflation rises to 2.2% in March 2026 | YES | HIGH confidence**[1][4]\n\nThe Bank of Korea announced its 7th consecutive interest rate freeze at 2.5% on Friday (April 10, 2026), citing the March inflation uptick to 2.2% YoY (from 2.0% in Jan-Feb, below 2.4% forecasts) amid Middle East-driven energy volatility and won weakness; this confirms no rate cuts, potentially shifting pre",
+      "headline": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline | YES | HIGH confidence**",
+      "raw": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline | YES | HIGH confidence**  \nPresident Trump announced on Tuesday via Truth Social a conditional 2-week ceasefire with Iran, effective ahead of his 8 p.m. ET deadline, requiring Iran's \"COMPLETE, IMMEDIATE, and SAFE OPENING\" of the Strait of Hormuz while Pakistan-mediated negotiations continue.[1]  \nIran submitted a 10-point peace proposa",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_764692",
-      "timestamp": "2026-04-14T19:46:28.495970+00:00",
+      "id": "sig_831254",
+      "timestamp": "2026-04-14T19:47:35.057691+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Key Confirmation**: US military has initiated a blockade of all traffic to/from Iranian ports, announced by President",
-      "raw": "**Key Confirmation**: US military has initiated a blockade of all traffic to/from Iranian ports, announced by President Trump following failed weekend negotiations in Islamabad/Pakistan; ceasefire (announced April 7, expires next week) remains in effect but under pressure**[1][2][3]**.",
-      "direction": null,
+      "headline": "TRUMP DOUBLES DOWN ON GREENLAND ACQUISITION IN LATE-NIGHT TRUTH SOCIAL POSTS, CONFIRMS NATO MEETING AGREEMENT | NO | LOW",
+      "raw": "TRUMP DOUBLES DOWN ON GREENLAND ACQUISITION IN LATE-NIGHT TRUTH SOCIAL POSTS, CONFIRMS NATO MEETING AGREEMENT | NO | LOW confidence**\n\nTrump posted on Truth Social early Tuesday (April 14, 2026) announcing a \"very good telephone call\" with NATO Secretary General Mark Rutte, agreeing to a meeting of parties in Davos on Greenland, which he called \"imperative for National and World Security\" with \"no",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_764710",
-      "timestamp": "2026-04-14T19:46:28.513908+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Prediction Market Impact**: Blockade escalation post-ceasefire failure likely shifts odds on Iran conflict resolution,",
-      "raw": "**Prediction Market Impact**: Blockade escalation post-ceasefire failure likely shifts odds on Iran conflict resolution, nuclear deal, or Strait disruptions (e.g., higher war resumption probability)**[2][3]**.",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_777307",
-      "timestamp": "2026-04-14T19:46:41.110455+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Signals Resumption of Peace Talks with US, Driving Bitcoin to $75,000 and Solana Surge | YES | HIGH confidence** [2",
-      "raw": "Iran Signals Resumption of Peace Talks with US, Driving Bitcoin to $75,000 and Solana Surge | YES | HIGH confidence** [2]\n\nPolymarket's \"Solana Up or Down on April 14?\" market shows 100% probability for \"Up,\" set to resolve soon at noon ET (within ~1 hour of 7 PM UTC) based on Binance SOL/USDT close prices comparing April 13 noon ET to April 14 noon ET[1]. Bitcoin hit $75,000 amid a broad crypto r",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_764683",
-      "timestamp": "2026-04-14T19:46:28.486703+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Begins Naval Blockade of Iranian Ports in Strait of Hormuz After Failed Ceasefire Talks | YES | HIGH confidence**[1][",
-      "raw": "US Begins Naval Blockade of Iranian Ports in Strait of Hormuz After Failed Ceasefire Talks | YES | HIGH confidence**[1][2][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_764701",
-      "timestamp": "2026-04-14T19:46:28.504882+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Related Developments**: Fresh US-Iran talks eyed this week before ceasefire deadline; Iran offered 5-year uranium enri",
-      "raw": "**Related Developments**: Fresh US-Iran talks eyed this week before ceasefire deadline; Iran offered 5-year uranium enrichment suspension (US demands more, e.g., nuclear material removal); Trump states Iran has reached out for a deal but no agreement yet**[1][2][3]**.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_769819",
-      "timestamp": "2026-04-14T19:46:33.622515+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NJ CD-11 Special Election Debate: Joe Hathaway Clashes with Analilia Mejia Ahead of April 16 Vote | NO | LOW confidence*",
-      "raw": "NJ CD-11 Special Election Debate: Joe Hathaway Clashes with Analilia Mejia Ahead of April 16 Vote | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions today involving Truth Social, Donald Trump, or Joe Hathaway that would move prediction markets. Search results highlight an ongoing special election in New Jersey's 11th Congressional District on Thursday, April 16, to r",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Joe Hathaway win the NJ-11 special election?",
-        "Will Donald Trump post 60-79 Truth Social posts from April 1"
-      ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_847854",
+      "timestamp": "2026-04-14T19:47:51.657313+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea Holds Rates at 2",
+      "raw": "South Korea Holds Rates at 2.5% Amid Rising Inflation Concerns | NO** | **HIGH confidence**\n\nOn April 10, 2026, the **Bank of Korea kept its benchmark interest rate unchanged at 2.5%** for the seventh consecutive month, maintaining its steady policy stance despite mounting inflationary pressures[5][6]. This decision would not move prediction markets significantly, as the hold was widely anticipate",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
     "high_conf": 2
   }
