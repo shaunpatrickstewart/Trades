@@ -1,108 +1,49 @@
 {
-  "last_scan": "2026-04-14T04:34:27.482513+00:00",
+  "last_scan": "2026-04-14T04:37:15.569139+00:00",
   "scan_seconds": 25.7,
-  "markets_scanned": 71,
-  "open_positions": 36,
+  "markets_scanned": 108,
+  "open_positions": 73,
   "signals": [
     {
-      "id": "sig_32247",
-      "timestamp": "2026-04-14T04:34:16.104408+00:00",
+      "id": "sig_193127",
+      "timestamp": "2026-04-14T04:36:56.984294+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no single breaking news event that has been \"just confirmed, announced, o",
-      "raw": "Based on the search results provided, there is no single breaking news event that has been \"just confirmed, announced, or resolved\" that would clearly move prediction markets. The results contain several recent developments, but they represent ongoing developments rather than definitive market-moving confirmations:",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_32252",
-      "timestamp": "2026-04-14T04:34:16.109320+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Senate Hearing on Epstein Files | UNCLEAR | LOW confidence**",
-      "raw": "Senate Hearing on Epstein Files | UNCLEAR | LOW confidence**\nA Senate hearing occurred around April 10, 2026, regarding \"explosive new Epstein files,\" but the search results provide only promotional descriptions without substantive details on what was confirmed or its market impact.[1]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_32262",
-      "timestamp": "2026-04-14T04:34:16.119193+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Marjorie Taylor Greene Predicts GOP \"Bloodbath\" | OPINION | LOW confidence**",
-      "raw": "Marjorie Taylor Greene Predicts GOP \"Bloodbath\" | OPINION | LOW confidence**\nMTG's prediction of Republican losses in the midterms is a political statement, not a confirmed development.[4]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_32267",
-      "timestamp": "2026-04-14T04:34:16.124300+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Senate Democrats Reject 25th Amendment Push | RESOLVED | MED confidence**",
-      "raw": "Senate Democrats Reject 25th Amendment Push | RESOLVED | MED confidence**\nSenate Democrats have officially rejected efforts to remove Trump via the 25th Amendment, viewing it as unrealistic\u2014this represents a definitive political resolution, though it relates to Trump rather than directly to the Epstein/midterm nexus you're asking about.[3]\n\nNone of these constitute the type of singular, market-mov",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "US-Iran ceasefire talks collapse in Pakistan; Trump announces Navy blockade of Strait of Hormuz** | NO | HIGH confidence",
+      "raw": "US-Iran ceasefire talks collapse in Pakistan; Trump announces Navy blockade of Strait of Hormuz** | NO | HIGH confidence[1][2]\n\nFailed negotiations over Iran's nuclear ambitions ended without agreement on April 13, 2026, prompting President Trump to order a US Navy blockade of ships entering or leaving the Strait of Hormuz, effective immediately[1][2]. A fragile two-week ceasefire remains in place",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_32257",
-      "timestamp": "2026-04-14T04:34:16.114372+00:00",
+      "id": "sig_210659",
+      "timestamp": "2026-04-14T04:37:14.516062+00:00",
       "source": "PERPLEXITY",
-      "headline": "GOP Primary Mailer Controversy | RESOLVED (tactical) | MED confidence**",
-      "raw": "GOP Primary Mailer Controversy | RESOLVED (tactical) | MED confidence**\nA mailer linking John Sununu to Epstein in a New Hampshire GOP primary (dated March 30, 2026) represents a tactical political move, but this is a campaign strategy rather than a breaking confirmation of fact.[2]",
-      "direction": null,
+      "headline": "Bank of Korea holding benchmark interest rate at **2",
+      "raw": "Bank of Korea holding benchmark interest rate at **2.5%** on April 10, 2026 (7th consecutive month), citing inflation at ~**2.2%** (above 2% target) and oil price risks from Middle East conflict\u2014widely anticipated, unlikely to shift markets significantly.[4]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_37660",
-      "timestamp": "2026-04-14T04:34:21.517055+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to lack of real-time events amid ongoing predictions and fear index at extreme lows[3]",
-      "raw": "LOW confidence** due to lack of real-time events amid ongoing predictions and fear index at extreme lows[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_42620",
-      "timestamp": "2026-04-14T04:34:26.477059+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of XRP be above $1.10 on April 14?",
+        "Will the price of Solana be above $70 on April 14?",
+        "Will the price of Bitcoin be above $82,000 on April 15?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_42624",
-      "timestamp": "2026-04-14T04:34:26.481918+00:00",
+      "id": "sig_210666",
+      "timestamp": "2026-04-14T04:37:14.523691+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation at 2",
-      "raw": "South Korea March 2026 Inflation at 2.2% (Below Forecasts, Up from 2.0%) | NO | HIGH**",
+      "headline": "Annual inflation at **2",
+      "raw": "Annual inflation at **2.2%** in March 2026 (up from 2.0% in Jan/Feb, below 2.4% forecast); held at **2.0%** (BOK target) in Jan/Feb after easing to five-month low.[1][2][3]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -113,27 +54,64 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_24664",
-      "timestamp": "2026-04-14T04:34:08.521731+00:00",
+      "id": "sig_210674",
+      "timestamp": "2026-04-14T04:37:14.531688+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump announces Iran ceasefire conditional on Strait of Hormuz reopening ahead of 8 p",
-      "raw": "Trump announces Iran ceasefire conditional on Strait of Hormuz reopening ahead of 8 p.m. ET deadline | YES | HIGH confidence** [1]\n\nUS President Donald Trump stated the ceasefire is in place but requires Iran to fully reopen the Strait of Hormuz, a key demand amid escalating tensions and prior failed talks.[1][2][3] This follows Trump's threats of strikes on Iranian civilian infrastructure and a U",
+      "headline": "OECD raised 2026 inflation forecast to **2",
+      "raw": "OECD raised 2026 inflation forecast to **2.7%** (from prior), lowered growth to **1.7%**, due to oil shocks\u2014no specific date in results, but not \"right now.\"[7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_210682",
+      "timestamp": "2026-04-14T04:37:14.539432+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market volatility from oil prices (Middle East tensions), weakening won (~1,520/USD), and KOSPI plunge, but no new infla",
+      "raw": "Market volatility from oil prices (Middle East tensions), weakening won (~1,520/USD), and KOSPI plunge, but no new inflation data releases.[5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_210690",
+      "timestamp": "2026-04-14T04:37:14.547036+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH confidence**: Search results show no events post-April 10; latest inflation data is March 2026",
+      "raw": "HIGH confidence**: Search results show no events post-April 10; latest inflation data is March 2026.[1][2][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_198942",
+      "timestamp": "2026-04-14T04:37:02.799156+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SENATE HEARING ERUPTS OVER EXPLOSIVE NEW EPSTEIN FILES IMPRICATING DC FIGURES AND A SITTING DEMOCRATIC CONGRESSWOMAN | Y",
+      "raw": "SENATE HEARING ERUPTS OVER EXPLOSIVE NEW EPSTEIN FILES IMPRICATING DC FIGURES AND A SITTING DEMOCRATIC CONGRESSWOMAN | YES | HIGH confidence**  \nA US Senate hearing on April 10, 2026, descended into chaos following the release of new Jeffrey Epstein files, with lawmakers demanding accountability for revelations implicating powerful Washington figures, including a sitting Democratic congresswoman w",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will Iran strike Iraq by April 30, 2026?"
+        "Will Elon Musk Testify to Congress about Epstein?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
+    "alert": 6,
     "watch": 1,
-    "high_conf": 4
+    "high_conf": 0
   }
 }
