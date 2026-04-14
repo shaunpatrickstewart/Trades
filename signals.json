@@ -1,13 +1,61 @@
 {
-  "last_scan": "2026-04-14T20:44:38.941344+00:00",
-  "scan_seconds": 4.3,
-  "markets_scanned": 32,
+  "last_scan": "2026-04-14T20:47:25.771916+00:00",
+  "scan_seconds": 23.2,
+  "markets_scanned": 64,
   "open_positions": 33,
-  "signals": [],
+  "signals": [
+    {
+      "id": "sig_404615",
+      "timestamp": "2026-04-14T20:47:08.415009+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran Weighing Extended Ceasefire Deal Before April 21 Expiration | PENDING | HIGH confidence**",
+      "raw": "US and Iran Weighing Extended Ceasefire Deal Before April 21 Expiration | PENDING | HIGH confidence**\n\nThe US and Iran are actively negotiating to extend their two-week ceasefire beyond its April 21 expiration date.[1] Trump is simultaneously maintaining pressure through a naval blockade of the Strait of Hormuz targeting Iranian oil exports.[1] Financial markets have already reacted positively to ",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_409747",
+      "timestamp": "2026-04-14T20:47:13.546281+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Vance Casts Tie-Breaking Vote as Senate Republicans Block Venezuela War Powers Resolution Under Trump Pressure | YES | H",
+      "raw": "Vance Casts Tie-Breaking Vote as Senate Republicans Block Venezuela War Powers Resolution Under Trump Pressure | YES | HIGH confidence**  \nVice President **JD Vance** provided the decisive tie-breaking vote on January 14, 2026, enabling Senate Republicans to defeat a bipartisan war powers resolution that would have required congressional approval for any U.S. military action in **Venezuela**, dire",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces end of military operations against Iran by A",
+        "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_404625",
+      "timestamp": "2026-04-14T20:47:08.424285+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market relevance:** The outcome of these talks before April 21 could significantly impact geopolitical risk premiums, oi",
+      "raw": "Market relevance:** The outcome of these talks before April 21 could significantly impact geopolitical risk premiums, oil prices, and defense sector valuations. No final agreement has been confirmed or announced\u2014only that negotiations are ongoing with mixed signals about progress.",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    }
+  ],
   "stats": {
     "enter": 0,
-    "alert": 0,
-    "watch": 0,
-    "high_conf": 0
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 1
   }
 }
