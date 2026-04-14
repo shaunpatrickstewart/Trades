@@ -1,78 +1,13 @@
 {
-  "last_scan": "2026-04-14T20:07:52.196792+00:00",
-  "scan_seconds": 30.2,
-  "markets_scanned": 65,
+  "last_scan": "2026-04-14T20:41:59.397668+00:00",
+  "scan_seconds": 4.7,
+  "markets_scanned": 32,
   "open_positions": 33,
-  "signals": [
-    {
-      "id": "sig_30076",
-      "timestamp": "2026-04-14T20:07:33.877367+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Weigh New Talks to Extend Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence",
-      "raw": "US-Iran Weigh New Talks to Extend Ceasefire Before April 21 Expiration Amid Trump's Naval Blockade | NO | MED confidence**\n\nA two-week ceasefire between the US and Iran, expiring around April 21-22, remains in place despite collapsed talks in Pakistan, with both sides now considering fresh negotiations for extension or a larger deal[1][2][3][4]. President Trump announced a US Navy blockade of the ",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_35316",
-      "timestamp": "2026-04-14T20:07:39.117189+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran peace talks fail after weekend negotiations led by VP JD Vance; Vance returns empty-handed amid reports of no ag",
-      "raw": "US-Iran peace talks fail after weekend negotiations led by VP JD Vance; Vance returns empty-handed amid reports of no agreement reached.** | NO | HIGH confidence[1][4][5]\n\nVance, as Trump's Vice President, led direct US-Iran talks over the weekend but confirmed their collapse, describing any potential ceasefire as a \"fragile truce\" while accusing some Iranian parties of \"lying.\"[4][5] Chief US neg",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_47394",
-      "timestamp": "2026-04-14T20:07:51.195738+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% | NO | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, missing market forecasts of 2.4% and remaining near the Bank of Korea's 2% target.[1] This newly released figure (as of early March 2026 data) indicates contained price pressures amid global energy volatility, potentially re",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_42152",
-      "timestamp": "2026-04-14T20:07:45.953905+00:00",
-      "source": "PERPLEXITY",
-      "headline": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **YES** | **HIGH** confidence[6]",
-      "raw": "$280M+ Drift Protocol Exploit on Solana Confirmed via Social Engineering** | **YES** | **HIGH** confidence[6]\n\nSolana (SOL) faces fallout from a major exploit on its Drift protocol, where attackers used social engineering and pre-approved transactions to gain administrative control, draining over $280 million; Circle had a six-hour window to freeze $230M+ in bridged USDC but did not act[6]. This e",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
-    }
-  ],
+  "signals": [],
   "stats": {
-    "enter": 3,
+    "enter": 0,
     "alert": 0,
-    "watch": 1,
-    "high_conf": 3
+    "watch": 0,
+    "high_conf": 0
   }
 }
