@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-14T03:08:10.061706+00:00",
-  "scan_seconds": 21.4,
-  "markets_scanned": 90,
-  "open_positions": 50,
+  "last_scan": "2026-04-14T03:10:56.967231+00:00",
+  "scan_seconds": 24.4,
+  "markets_scanned": 106,
+  "open_positions": 68,
   "signals": [
     {
-      "id": "sig_850850",
-      "timestamp": "2026-04-14T03:07:54.713019+00:00",
+      "id": "sig_15675",
+      "timestamp": "2026-04-14T03:10:39.537147+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran 2-Week Ceasefire Agreed: Trump Suspends Bombing if Strait of Hormuz Reopens** | **YES** | **HIGH** confidence[1]",
-      "raw": "US-Iran 2-Week Ceasefire Agreed: Trump Suspends Bombing if Strait of Hormuz Reopens** | **YES** | **HIGH** confidence[1]\n\nPresident Donald Trump announced a conditional 2-week ceasefire with Iran, halting a planned US bombing attack in exchange for Iran reopening the Strait of Hormuz, following talks urged by Pakistan leaders; the ceasefire is now described as \"in effect\"[1]. This development, dat",
+      "headline": "HEADLINE | YES | LOW confidence**",
+      "raw": "HEADLINE | YES | LOW confidence**  \nU.S. and Iran announced a **2-week ceasefire** on April 8, 2026, ahead of Trump's 8 p.m. ET deadline, conditional on Iran fully reopening the Strait of Hormuz, with Pakistan mediating talks in Islamabad and Israel agreeing to the contours[1][2].  \nIran acknowledged the deal via Tasnim News Agency, claiming acceptance of its 10-point plan, while Trump posted on T",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,55 +22,22 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_865195",
-      "timestamp": "2026-04-14T03:08:09.058938+00:00",
+      "id": "sig_15683",
+      "timestamp": "2026-04-14T03:10:39.545297+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's Annual Inflation Rises to 2",
-      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | YES | HIGH confidence**  \nThis marks the latest confirmed data, up from 2.0% in January and February 2026 but below market forecasts of 2.4%, signaling contained price pressures amid global energy volatility from the Iran conflict.[1]  \nThe Bank of Korea held its benchmark rate at 2.5% on April 10, 2026, for the 7th consecutive month, ci",
-      "direction": "YES",
+      "headline": "Low confidence** due to the April 8 announcement (6 days old) followed by confirmed collapse, reducing impact on current",
+      "raw": "Low confidence** due to the April 8 announcement (6 days old) followed by confirmed collapse, reducing impact on current prediction markets as of April 14.",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Iran strike Iraq by April 30, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_855940",
-      "timestamp": "2026-04-14T03:07:59.803054+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO recent breaking news confirming Elon Musk will testify before Congress or Senate",
-      "raw": "NO recent breaking news confirming Elon Musk will testify before Congress or Senate.**  \nRepublicans in the House Oversight and Ways & Means Committees blocked Democratic attempts to subpoena Musk over his DOGE activities, including at Treasury and Social Security, as recently as March 2025, with no new announcements, resolutions, or confirmations reported that would shift prediction markets.[1][2",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
-        "Will Elon Musk Testify to Congress about Epstein?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_855946",
-      "timestamp": "2026-04-14T03:07:59.809665+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to search results lacking updates beyond early 2026 and no \"just confirmed\" developments as of now",
-      "raw": "LOW confidence** due to search results lacking updates beyond early 2026 and no \"just confirmed\" developments as of now.",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 2,
+    "enter": 1,
+    "alert": 1,
     "watch": 0,
     "high_conf": 2
   }
