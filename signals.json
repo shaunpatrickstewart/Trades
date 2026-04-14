@@ -1,61 +1,59 @@
 {
-  "last_scan": "2026-04-14T04:45:42.006990+00:00",
-  "scan_seconds": 28.3,
+  "last_scan": "2026-04-14T04:48:25.849641+00:00",
+  "scan_seconds": 24.4,
   "markets_scanned": 72,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_717146",
-      "timestamp": "2026-04-14T04:45:41.003099+00:00",
+      "id": "sig_864075",
+      "timestamp": "2026-04-14T04:48:07.932639+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.16% in March 2026 from 2.00% in February 2026, with monthly inflation at 0.34%; the CPI reached 118.8.[1] This exceeds the Bank of Korea's 2% target, aligning with recent reports of inflation around 2.2% amid oil price pressures, supporting the BoK's decision to ",
-      "direction": "YES",
+      "headline": "Trump Orders US Navy Blockade of Iran's Ports in Strait of Hormuz After Failed Nuclear Talks | NO | HIGH confidence**[1]",
+      "raw": "Trump Orders US Navy Blockade of Iran's Ports in Strait of Hormuz After Failed Nuclear Talks | NO | HIGH confidence**[1][2]\n\nPresident Trump announced on April 13, 2026, that US Navy ships will impose a blockade starting that day, following weekend negotiations that collapsed over Iran's refusal to abandon its nuclear program; Trump stated he is indifferent to further talks and emphasized Iran wil",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Iran strike Iraq by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_712561",
-      "timestamp": "2026-04-14T04:45:36.418769+00:00",
+      "id": "sig_870217",
+      "timestamp": "2026-04-14T04:48:14.074800+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results available, here are the key market-moving developments:",
-      "raw": "Based on the search results available, here are the key market-moving developments:",
+      "headline": "Democrats on House Oversight repeatedly tried (and failed) to subpoena Elon Musk over his DOGE role and federal oversigh",
+      "raw": "Democrats on House Oversight repeatedly tried (and failed) to subpoena Elon Musk over his DOGE role and federal oversight, rejected on party-line votes (e.g., 21-20 in June 2025).[1][2]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_712566",
-      "timestamp": "2026-04-14T04:45:36.423882+00:00",
+      "id": "sig_870228",
+      "timestamp": "2026-04-14T04:48:14.085081+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin Holds Above $71K Amid Geopolitical De-escalation | YES | HIGH confidence**",
-      "raw": "Bitcoin Holds Above $71K Amid Geopolitical De-escalation | YES | HIGH confidence**\nBitcoin remains steady above $71,000 following a ceasefire deal between the United States and Iran, which sparked a risk-on rally and contributed to institutional accumulation[2]. The geopolitical tension relief has been a significant confidence builder for the broader cryptocurrency market[1].",
-      "direction": "YES",
+      "headline": "House Democrats launched a 2025 pressure campaign urging 3 GOP defections for the Taxpayer Data Protection Act to block",
+      "raw": "House Democrats launched a 2025 pressure campaign urging 3 GOP defections for the Taxpayer Data Protection Act to block Musk's access to Treasury data, but Republicans backed DOGE amid debt concerns.[4]\n\nNo mentions of midterms or Congress shifts in results; nothing recent enough to impact prediction markets like Polymarket odds on elections, DOGE, or Musk testimony.[1][2][3][4][5]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_712572",
-      "timestamp": "2026-04-14T04:45:36.429095+00:00",
+      "id": "sig_875948",
+      "timestamp": "2026-04-14T04:48:19.805524+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Tests $87 Resistance Level with Bullish Chart Setup | YES | HIGH confidence**",
-      "raw": "Solana Tests $87 Resistance Level with Bullish Chart Setup | YES | HIGH confidence**\nSolana is consolidating near $84-87, showing a short-term inverse head and shoulders recovery pattern that traders view as a potential reversal signal[4]. If SOL breaks decisively above $87, analysts project potential targets between $100-$120[6]. However, over $17 million in outflows from Solana-focused ETFs this",
-      "direction": "YES",
+      "headline": "Confidence: HIGH** (no \"just confirmed\" events in last 4 hours per news feeds[4]; prices volatile but macro bearish on B",
+      "raw": "Confidence: HIGH** (no \"just confirmed\" events in last 4 hours per news feeds[4]; prices volatile but macro bearish on Bitcoin[3]).",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -63,35 +61,24 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_712582",
-      "timestamp": "2026-04-14T04:45:36.439094+00:00",
+      "id": "sig_880970",
+      "timestamp": "2026-04-14T04:48:24.827987+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin ETF Inflows Support Rally | YES | HIGH confidence**",
-      "raw": "Bitcoin ETF Inflows Support Rally | YES | HIGH confidence**\nBitcoin spot ETFs reported $117.63 million in inflows, reflecting institutional demand that has supported the broader market recovery[1].\n\nThe overall sentiment remains cautious, with traders monitoring macro risks and geopolitical developments for the next major directional move.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_712577",
-      "timestamp": "2026-04-14T04:45:36.434074+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major $280M Security Breach on Drift Protocol Triggers Audit Initiative | YES | HIGH confidence**",
-      "raw": "Major $280M Security Breach on Drift Protocol Triggers Audit Initiative | YES | HIGH confidence**\nA significant hack on Drift Protocol has prompted a new security audit initiative from Solana, which could impact investor confidence in the ecosystem[5].",
+      "headline": "South Korea March 2026 Inflation Rises to 2",
+      "raw": "South Korea March 2026 Inflation Rises to 2.16% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.16% in March 2026 from 2.00% in February 2026, with monthly inflation at 0.34% and CPI at 118.8, per the latest data release.[1] This uptick above the Bank of Korea's 2% target\u2014amid prior moderation to 2.0% in January\u2014aligns with recent BoK decision to hold rates at 2.",
       "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 4,
+    "alert": 3,
     "watch": 1,
     "high_conf": 1
   }
