@@ -1,34 +1,51 @@
 {
-  "last_scan": "2026-04-15T00:29:57.707768+00:00",
-  "scan_seconds": 31.0,
+  "last_scan": "2026-04-15T00:32:50.142962+00:00",
+  "scan_seconds": 31.4,
   "markets_scanned": 70,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_751522",
-      "timestamp": "2026-04-15T00:29:35.308045+00:00",
+      "id": "sig_938704",
+      "timestamp": "2026-04-15T00:32:42.490949+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Fresh Talks in Pakistan Before April 22 Ceasefire Expires; Trump Signals Negotiations in Next 2 Days |",
-      "raw": "US and Iran Plan Fresh Talks in Pakistan Before April 22 Ceasefire Expires; Trump Signals Negotiations in Next 2 Days | NO | HIGH confidence** [1][2]\n\nThe US and Iran are eyeing another round of negotiations after inconclusive talks in Islamabad, aiming to hold them before the two-week ceasefire\u2014announced April 7\u2014expires next week, amid a US blockade of Iranian ports in the Strait of Hormuz pressu",
-      "direction": "NO",
+      "headline": "Solana (SOL) Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 1",
+      "raw": "Solana (SOL) Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Upgrade Progress | YES | HIGH confidence** [1]\n\nThis breaking network activity surge, reported just yesterday, confirms Solana's redefining blockchain performance with historic adoption metrics, directly tied to the anticipated **Alpenglow consensu",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,300 on April 21?",
+        "Solana Up or Down - April 14, 8:40PM-8:45PM ET",
+        "Will the price of Ethereum be above $2,300 on April 18?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_925710",
+      "timestamp": "2026-04-15T00:32:29.498373+00:00",
+      "source": "PERPLEXITY",
+      "headline": "# Current Status of U",
+      "raw": "# Current Status of U.S.-Iran Ceasefire (April 2026)",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_772915",
-      "timestamp": "2026-04-15T00:29:56.701938+00:00",
+      "id": "sig_925720",
+      "timestamp": "2026-04-15T00:32:29.506959+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany:** Inflation confirmed at **2",
-      "raw": "Germany:** Inflation confirmed at **2.7% in March 2026**[1][4], announced April 10, 2026. This was driven by sharp energy price increases (7.2%) following the Iran conflict, marking the highest level since January 2024[4]. GDP growth forecasts for 2026 were significantly lowered to +0.6% to +1.2%[3].",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "CEASEFIRE COLLAPSES: U",
+      "raw": "CEASEFIRE COLLAPSES: U.S.-Iran Negotiations End Without Deal | NO (Deal Reached) | HIGH confidence**\n\nThe two-week ceasefire that began on April 8, 2026, is deteriorating as diplomatic efforts have failed.[2][4] As of April 12, 2026 (day five of the ceasefire), U.S. negotiators left Islamabad with \"virtually no progress\" after talks ended without achieving a peace agreement.[4] Vice President JD V",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
@@ -36,93 +53,72 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_772921",
-      "timestamp": "2026-04-15T00:29:56.707122+00:00",
+      "id": "sig_925726",
+      "timestamp": "2026-04-15T00:32:29.512211+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea:** Inflation rose to **2",
-      "raw": "South Korea:** Inflation rose to **2.2% in March 2026**[2], below market forecasts of 2.4%. The Bank of Korea raised its inflation outlook for 2026 to 2.2% and held its policy rate steady at 2.5%[2]. GDP growth for 2026 is projected at 1.8%[9].\n\nThese announcements (from early-to-mid April 2026) already reflect market expectations and recent geopolitical developments (the Iran conflict). To identi",
+      "headline": "The initial ceasefire was mediated by Pakistan, T\u00fcrkiye, and Egypt and was set for two weeks with further negotiations p",
+      "raw": "The initial ceasefire was mediated by Pakistan, T\u00fcrkiye, and Egypt and was set for two weeks with further negotiations planned in Islamabad on April 10.[2]",
       "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_765241",
-      "timestamp": "2026-04-15T00:29:49.027554+00:00",
+      "id": "sig_925731",
+      "timestamp": "2026-04-15T00:32:29.517579+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions on April 14, 2026 | YES | HIGH confiden",
-      "raw": "Solana Hits Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions on April 14, 2026 | YES | HIGH confidence**  \nThis breaking network milestone, reported as of April 14, coincides with a 10% SOL price surge and robust institutional ETF holdings from BlackRock and Fidelity, amid anticipation for the Alpenglow upgrade targeting 150ms transaction finality[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Solana Up or Down - April 14, 8:40PM-8:45PM ET",
-        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_765252",
-      "timestamp": "2026-04-15T00:29:49.038161+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Stablecoin Supply Reaches Record $16",
-      "raw": "Solana Stablecoin Supply Reaches Record $16.3B, Overtaking Ethereum in Adjusted Volume for 2nd Time | YES | HIGH confidence**  \nData ending April 12 shows Solana at 32.6% weekly adjusted stablecoin volume share vs. Ethereum's 27.8%, with fastest supply growth (+10.87% in 7 days) among top chains, signaling structural DeFi shift[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be above $2,300 on April 21?",
-        "Solana Up or Down - April 14, 8:40PM-8:45PM ET",
-        "Will the price of Ethereum be above $2,300 on April 18?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_765260",
-      "timestamp": "2026-04-15T00:29:49.046699+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Economic Activity Surges to $1",
-      "raw": "Solana Economic Activity Surges to $1.1T in Q1 2026, Up 6,500% QoQ | YES | MED confidence**  \nOn-chain data from Artemis confirms historic rebound in transactions, DeFi, and staking, driving network adoption despite market volatility (reported April 14)[5].  \n\nNo confirmed announcements directly reference Ethereum beyond Solana outperformance in stablecoins[2]; general April bullish momentum noted",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be above $2,300 on April 21?",
-        "Solana Up or Down - April 14, 8:40PM-8:45PM ET",
-        "Will the price of Ethereum be above $2,300 on April 18?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_772910",
-      "timestamp": "2026-04-15T00:29:56.696978+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the \"breaking news\" format you're requesting because the search results do not contain announcements, c",
-      "raw": "I cannot provide the \"breaking news\" format you're requesting because the search results do not contain announcements, confirmations, or resolutions from today (April 15, 2026) that would move prediction markets.\n\nThe most recent data in the search results are:",
+      "headline": "Trump's administration now faces a critical choice: pursue prolonged diplomacy or risk renewed conflict, potentially inc",
+      "raw": "Trump's administration now faces a critical choice: pursue prolonged diplomacy or risk renewed conflict, potentially including escalation over the Strait of Hormuz\u2014a route handling roughly 20 percent of global oil supply.[4]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_925736",
+      "timestamp": "2026-04-15T00:32:29.522843+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The ceasefire's core issue remains unresolved: Iran's closure of the Strait of Hormuz, which Trump made a \"very big prio",
+      "raw": "The ceasefire's core issue remains unresolved: Iran's closure of the Strait of Hormuz, which Trump made a \"very big priority\" in negotiations, with threats to strike Iranian civilian infrastructure if the strait wasn't reopened.[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_925742",
+      "timestamp": "2026-04-15T00:32:29.528019+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** The collapse of talks suggests elevated risks of renewed military action, potential oil price vol",
+      "raw": "Market implications:** The collapse of talks suggests elevated risks of renewed military action, potential oil price volatility, and continued geopolitical uncertainty in the Middle East.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 6,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
