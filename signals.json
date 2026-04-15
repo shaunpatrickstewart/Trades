@@ -1,206 +1,136 @@
 {
-  "last_scan": "2026-04-15T00:41:10.294982+00:00",
-  "scan_seconds": 27.8,
-  "markets_scanned": 115,
-  "open_positions": 82,
+  "last_scan": "2026-04-15T00:43:56.056056+00:00",
+  "scan_seconds": 25.5,
+  "markets_scanned": 68,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_433098",
-      "timestamp": "2026-04-15T00:40:56.883540+00:00",
+      "id": "sig_594607",
+      "timestamp": "2026-04-15T00:43:38.392089+00:00",
       "source": "PERPLEXITY",
-      "headline": "NJ-11 Special Election Tomorrow: No Breaking Confirmation on Joe Hathaway Victory, Trump/Vance Ties, or White House Impa",
-      "raw": "NJ-11 Special Election Tomorrow: No Breaking Confirmation on Joe Hathaway Victory, Trump/Vance Ties, or White House Impact** | **NO** | **HIGH** confidence[4][5]\n\nThe special election for New Jersey's 11th Congressional District is scheduled for **April 16, 2026**\u2014less than 24 hours from now\u2014with Republican **Joe Hathaway** facing Democrat Analilia Mejia; no results, endorsements, or announcements",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Joe Hathaway win the NJ-11 special election?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_445492",
-      "timestamp": "2026-04-15T00:41:09.277052+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rises to 2",
-      "raw": "South Korea's March 2026 annual inflation rises to 2.2%, below forecasts of 2.4% | YES | HIGH confidence**  \nThis is the latest confirmed inflation data (released recently per source timing), up from 2.0% in Jan-Feb but milder than expected, signaling contained pressures amid Middle East energy volatility; Bank of Korea held rates at 2.5% last week and raised 2026 inflation outlook to 2.2% from 2.",
+      "headline": "US Imposes Naval Blockade on Iranian Ports After Failed Ceasefire Talks | NO | HIGH confidence**",
+      "raw": "US Imposes Naval Blockade on Iranian Ports After Failed Ceasefire Talks | NO | HIGH confidence**\n\nPresident Trump has ordered a US naval blockade of Iranian ports and the Strait of Hormuz, effective immediately following failed weekend negotiations in Pakistan, with declarations that Iranian fast-attack ships approaching US vessels will be eliminated; Iran has vowed retaliation.[1][2][3] A fragile",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_445500",
-      "timestamp": "2026-04-15T00:41:09.285615+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No breaking Germany inflation, GDP, or debt announcements confirmed today | NO | HIGH confidence**",
-      "raw": "No breaking Germany inflation, GDP, or debt announcements confirmed today | NO | HIGH confidence**  \nRecent IMF revisions lowered Germany's debt-to-GDP projection slightly to 73.6% (from 74.8%), with OECD forecasting 0.3% GDP growth in 2025 and 1% in 2026, but nothing \"just\" resolved or announced to newly move markets.[2][7]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_426461",
-      "timestamp": "2026-04-15T00:40:50.246532+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Reiterates Demands for Iran to Remove Nuclear Stockpile, Hints at Resumed Talks Despite Red Line Conflicts | NO |",
-      "raw": "Trump Reiterates Demands for Iran to Remove Nuclear Stockpile, Hints at Resumed Talks Despite Red Line Conflicts | NO | HIGH confidence**  \nTrump insists on no deal allowing Iran to retain enriched uranium, viewing current negotiations as likely to fail due to irreconcilable red lines, though he hints at resuming talks after Pakistan collapse.[1][2]",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_426443",
-      "timestamp": "2026-04-15T00:40:50.228753+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Eye Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence**",
-      "raw": "US and Iran Eye Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | HIGH confidence**  \nNo new ceasefire has been confirmed, announced, or resolved; weekend talks in Islamabad ended without a deal, but both sides are discussing another round of negotiations this week to avert expiration.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_426452",
-      "timestamp": "2026-04-15T00:40:50.237686+00:00",
+      "id": "sig_601338",
+      "timestamp": "2026-04-15T00:43:45.123530+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Imposes Blockade on Iranian Oil Tankers in Strait of Hormuz Amid Faltering Ceasefire Talks | NO | MED confidence**",
-      "raw": "US Imposes Blockade on Iranian Oil Tankers in Strait of Hormuz Amid Faltering Ceasefire Talks | NO | MED confidence**  \nPresident Trump is pressuring Iran via a US naval blockade on Iranian shipping (allowing other transit under monitoring), with Iran threatening retaliation, but the fragile ceasefire holds without direct US Navy attacks; Trump expresses confidence in Iran's limited capabilities p",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_439864",
-      "timestamp": "2026-04-15T00:41:03.649720+00:00",
-      "source": "PERPLEXITY",
-      "headline": "For **XRP**, Polymarket odds favor a drop below $1",
-      "raw": "For **XRP**, Polymarket odds favor a drop below $1.2 (69%), with 56% above $1.4; a past market on \"XRP all-time high in April\" (ending 2025) resolved **No**.[1][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be between $1.10 and $1.20 on April 15",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_439880",
-      "timestamp": "2026-04-15T00:41:03.665518+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysts predict XRP volatility around April 24 options expiry ($418M open interest at $1",
-      "raw": "Analysts predict XRP volatility around April 24 options expiry ($418M open interest at $1.50 strike), potentially testing $1.50-$1.55 via delta-hedging.[4]",
+      "headline": "Kerala police FIR against X over an AI video misleadingly portraying PM Modi and ECI, flagged amid state elections; vide",
+      "raw": "Kerala police FIR against X over an AI video misleadingly portraying PM Modi and ECI, flagged amid state elections; video not removed despite notice (LOW confidence impact on markets, as it's an ongoing probe without resolution).[1]",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be between $1.10 and $1.20 on April 15",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_439888",
-      "timestamp": "2026-04-15T00:41:03.673279+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no real-time confirmations in sources; all dated April 2-12, 2026, focusing on expectations rather t",
-      "raw": "Confidence: HIGH** (no real-time confirmations in sources; all dated April 2-12, 2026, focusing on expectations rather than resolutions).[1][2][3][4][5]",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_439856",
-      "timestamp": "2026-04-15T00:41:03.641488+00:00",
+      "id": "sig_601343",
+      "timestamp": "2026-04-15T00:43:45.128424+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket shows 87% odds for **Solana** above $80 in April, with current price at $83",
-      "raw": "Polymarket shows 87% odds for **Solana** above $80 in April, with current price at $83.74, alongside mixed bearish/bullish scenarios like 62% below $70.[1]",
-      "direction": null,
-      "confidence": 0.6,
+      "headline": "Indian government denial of Elon Musk joining March 24 Modi-Trump call on West Asia, despite NYT report and Congress que",
+      "raw": "Indian government denial of Elon Musk joining March 24 Modi-Trump call on West Asia, despite NYT report and Congress questions (MED confidence no market shift, as bilateral confirmed).[2][5][7][8]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Solana reach $105 on April 14?",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?"
+        "Will Trump talk to Elon Musk in April?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_601348",
+      "timestamp": "2026-04-15T00:43:45.133163+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump-Musk claims of US aid ($18-21M) for India voter turnout sparking interference accusations; dated to 2024-2025 (LOW",
+      "raw": "Trump-Musk claims of US aid ($18-21M) for India voter turnout sparking interference accusations; dated to 2024-2025 (LOW confidence fresh impact).[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_601352",
+      "timestamp": "2026-04-15T00:43:45.137905+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Older reports of Trump-Musk tensions, including Musk's July 2025 \"America Party\" launch and April 14, 2026 video on cabi",
+      "raw": "Older reports of Trump-Musk tensions, including Musk's July 2025 \"America Party\" launch and April 14, 2026 video on cabinet shock (no confirmed resolutions).[4][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_606353",
+      "timestamp": "2026-04-15T00:43:50.138871+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 202",
+      "raw": "Solana Hits All-Time Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions on April 14, 2026, Bolstered by Alpenglow Upgrade** | YES | HIGH confidence[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_439872",
-      "timestamp": "2026-04-15T00:41:03.657674+00:00",
+      "id": "sig_611269",
+      "timestamp": "2026-04-15T00:43:55.054846+00:00",
       "source": "PERPLEXITY",
-      "headline": "Upcoming events include potential Senate markup on the CLARITY Act (latter half of April, post-April 13 recess), which c",
-      "raw": "Upcoming events include potential Senate markup on the CLARITY Act (latter half of April, post-April 13 recess), which could classify XRP as a digital commodity if advanced.[3]",
-      "direction": null,
-      "confidence": 0.6,
+      "headline": "South Korea Holds Benchmark Interest Rate at 2",
+      "raw": "South Korea Holds Benchmark Interest Rate at 2.5% for 7th Consecutive Month Amid Inflation Above Target and Oil Price Risks | NO | HIGH confidence** [2]\n\nBank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to maintain the 2.5% rate, citing consumer prices above the 2% target (recently ~2.2%), rising oil costs from Middle East conflict, KRW weakness (1,520/USD), and growth ",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of XRP be between $1.10 and $1.20 on April 15",
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?"
+        "Will the price of Ethereum be above $2,300 on April 18?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_445508",
-      "timestamp": "2026-04-15T00:41:09.293899+00:00",
+      "id": "sig_606358",
+      "timestamp": "2026-04-15T00:43:50.143812+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea stock market value surpasses Germany's ($3",
-      "raw": "South Korea stock market value surpasses Germany's ($3.25T vs $3.22T) as of Wednesday | YES | MED confidence**  \nTech surge drives this milestone, making South Korea the world's 10th-largest market; could influence prediction markets on economic outperformance or GDP trajectories, though not direct inflation/GDP data.[6]",
+      "headline": "Alpenglow Consensus Upgrade Passes Governance Vote with 98",
+      "raw": "Alpenglow Consensus Upgrade Passes Governance Vote with 98.27% Approval, Targeting 150ms Transaction Finality in 2026** | YES | HIGH confidence[1][6]\n\nNo confirmed announcements or resolutions directly involving Ethereum or explicitly moving prediction markets like Polymarket odds were found in the latest results[1][6][8]. Solana price trades around $80-$83 with mixed April predictions, no major s",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the price of Ethereum be above $2,300 on April 18?",
+        "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 7,
-    "watch": 3,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 1
   }
 }
