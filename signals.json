@@ -1,30 +1,32 @@
 {
-  "last_scan": "2026-04-15T21:47:51.999889+00:00",
-  "scan_seconds": 39.7,
+  "last_scan": "2026-04-15T21:51:05.320915+00:00",
+  "scan_seconds": 52.7,
   "markets_scanned": 76,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_416708",
-      "timestamp": "2026-04-15T21:47:20.417322+00:00",
+      "id": "sig_598470",
+      "timestamp": "2026-04-15T21:50:22.179907+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** on prediction markets moving from that April 8 event (e",
-      "raw": "YES** on prediction markets moving from that April 8 event (e.g., calmed markets, lowered oil prices post-announcement).[3] **LOW** confidence in anything \"just confirmed/resolved\" today\u2014latest updates involve unrelated Lebanon-Israel talks and Italy suspending Israel defense ties.[6] Prior 2025 ceasefire (Twelve-Day War) held until 2026 but is historical.[4]",
+      "headline": "US-Iran Ceasefire Talks Collapse in Pakistan Over Weekend; Trump Warns of Escalation if No Deal by Ceasefire End | NO |",
+      "raw": "US-Iran Ceasefire Talks Collapse in Pakistan Over Weekend; Trump Warns of Escalation if No Deal by Ceasefire End | NO | HIGH confidence**\n\nThe two-week US-Iran ceasefire, announced on April 8, 2026, and mediated by Pakistan, remains in effect but fragile, with talks collapsing over the April 11-13 weekend in Islamabad amid disagreements on nuclear limits, Strait of Hormuz access, and sanctions rel",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_426229",
-      "timestamp": "2026-04-15T21:47:29.938531+00:00",
+      "id": "sig_610245",
+      "timestamp": "2026-04-15T21:50:33.954143+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May | YES | HIGH confidence**  \nPresident Donald Trump has just announced his intention to nominate Kevin Warsh as the new Federal Reserve chair, succeeding Jerome Powell when his term expires in May 2026, amid rising wholesale inflation and pressure for rate cuts.[1][4][5]  \nThis nomination could significantly move prediction mark",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Prompting South Korea Rate Cut Delays and Dollar Rally** | **YES** | **HI",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Prompting South Korea Rate Cut Delays and Dollar Rally** | **YES** | **HIGH** confidence[1][2][4]\n\nWarsh's nomination, reported in late January 2026, signals a hawkish Fed stance with slower U.S. rate cuts, strengthening the dollar (DXY up 0.74-0.9% to 96.99-97.13) and narrowing the Bank of Korea's options\u2014its rate frozen at 2.5% since June 2025, with",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -36,92 +38,85 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_448257",
-      "timestamp": "2026-04-15T21:47:51.966272+00:00",
+      "id": "sig_641586",
+      "timestamp": "2026-04-15T21:51:05.295381+00:00",
       "source": "X_GROK",
-      "headline": "Strait of Hormuz traffic normal by April end: NO heavily mispriced",
-      "raw": "Strait of Hormuz traffic normal by April end: NO heavily mispriced.** Trader @badmorgan420 spots 26% edge on NO (74\u00a2 market price vs. 93% true prob per data/models), bets $36.5k half-Kelly. Implies strong NO for this market.[[1]](https://x.com/i/status/2044464413843874167)[[2]](https://x.com/i/status/2044485506000437443) Confidence: MED (detailed reasoning but single trader).",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "Weather Markets Copy-Trading Trending:** Polymarket traders on X are buzzing about high-win-rate weather specialists, e",
+      "raw": "Weather Markets Copy-Trading Trending:** Polymarket traders on X are buzzing about high-win-rate weather specialists, e.g., one turned $9 into $4,600 (6K+ predictions, $1,450/day avg last month) buying YES <10-15\u00a2/NO >40-50\u00a2 on short-term forecasts (1-2 days). Implies YES/NO extremes mispriced; follow for imminent daily edges.[[1]](https://x.com/i/status/2043235012741337368)[[2]](https://x.com/i/s",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044464413843874167)[[2]](https://x.com/i/status/2044485506000437443)",
+      "x_link": "https://x.com/i/status/2043235012741337368)[[2]](https://x.com/i/status/2042196933951864855)[[3]](https://x.com/i/status/2040425569465057405)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_421419",
-      "timestamp": "2026-04-15T21:47:25.128985+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRUMP CLAIMS US STRIKES HAVE 'LITERALLY OBLITERATED' 7,000+ IRANIAN TARGETS, SLASHING MISSILE LAUNCHES 90% AND DRONE ATT",
-      "raw": "TRUMP CLAIMS US STRIKES HAVE 'LITERALLY OBLITERATED' 7,000+ IRANIAN TARGETS, SLASHING MISSILE LAUNCHES 90% AND DRONE ATTACKS 95% AMID STRAIT OF HORMUZ TENSIONS** | **NO** | **LOW** confidence\n\nTrump's update on March 16, 2026, describes escalated US military action against Iran in a conflict now in its third week, but no mentions of the White House, Vance, or King Charles appear in available repor",
-      "direction": "NO",
+      "id": "sig_641598",
+      "timestamp": "2026-04-15T21:51:05.307306+00:00",
+      "source": "X_GROK",
+      "headline": "Arbitrage Whale Copy-Bots:** Heavy promo for AI bots (Claude-based) scanning/tracking 1K+ wallets, copying e",
+      "raw": "Arbitrage Whale Copy-Bots:** Heavy promo for AI bots (Claude-based) scanning/tracking 1K+ wallets, copying e.g., $120\u2192$1.4M traders (66% WR, 2K trades). Targets mispriced/arbitrage markets; smart money flows suggest broad PM edges.[[4]](https://x.com/i/status/2041503776868024433)[[5]](https://x.com/i/status/2041154085563384160)[[6]](https://x.com/i/status/2040425977717649890) Confidence: MED (repe",
+      "direction": null,
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2041503776868024433)[[5]](https://x.com/i/status/2041154085563384160)[[6]](https://x.com/i/status/2040425977717649890)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_641611",
+      "timestamp": "2026-04-15T21:51:05.320321+00:00",
+      "source": "X_GROK",
+      "headline": "Insider Bets Suspicion:** Claims of 50+ new wallets betting big on US-Iran ceasefire YES minutes pre-Trump announcement",
+      "raw": "Insider Bets Suspicion:** Claims of 50+ new wallets betting big on US-Iran ceasefire YES minutes pre-Trump announcement (plus past Maduro/Iran wins, $143M est. profits). Suggests foreknowledge; watch geo-politics for whale pumps.[[7]](https://x.com/i/status/2042586628355481783) Confidence: LOW (conspiracy tone, no direct signal).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2042586628355481783)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_604920",
+      "timestamp": "2026-04-15T21:50:28.629932+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Addresses Nation from White House on Iran War Progress: Iran's Navy \"Gone,\" Air Force \"in Ruins,\" Missile/Drone Ca",
+      "raw": "Trump Addresses Nation from White House on Iran War Progress: Iran's Navy \"Gone,\" Air Force \"in Ruins,\" Missile/Drone Capabilities \"Dramatically Curtailed,\" IRGC \"Being Decimated\" \u2013 No End Announced Despite Early April Deadline Pressure | YES | HIGH confidence**[1][2][3]\n\nWhite House speech tonight confirms major operational successes in Operation Epic Fury, including destruction of Iran's navy, a",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_448262",
-      "timestamp": "2026-04-15T21:47:51.971761+00:00",
-      "source": "X_GROK",
-      "headline": "NFTs comeback in 2026 odds at 65% signal smart money front-run",
-      "raw": "NFTs comeback in 2026 odds at 65% signal smart money front-run.** @shynrz007 notes positioning before narrative shift, not reaction.[[3]](https://x.com/i/status/2044430618843635960)[[4]](https://x.com/i/status/2044431386463932552) Implies building bullish pressure on YES. Confidence: LOW (speculative sentiment).",
+      "id": "sig_614650",
+      "timestamp": "2026-04-15T21:50:38.359837+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Texas Tech's Christian Anderson leads Team Germany to FIBA U19 finals** | YES | HIGH confidence[1]",
+      "raw": "Texas Tech's Christian Anderson leads Team Germany to FIBA U19 finals** | YES | HIGH confidence[1]\n\nTeam Germany's 84-72 semifinal win over Slovenia today advances them to the FIBA U19 World Cup finals on Sunday against the USA-New Zealand winner, confirming their finals berth after Anderson's 27-point performance[1]. This resolution could shift prediction markets on international youth basketball",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044430618843635960)[[4]](https://x.com/i/status/2044431386463932552)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_448271",
-      "timestamp": "2026-04-15T21:47:51.980575+00:00",
-      "source": "X_GROK",
-      "headline": "Whale bet: $112k on B8 (-1",
-      "raw": "Whale bet: $112k on B8 (-1.5) handicap vs Passion UA esports (47%).** @PolyWhaleFeed alert on CS2 IEM market.[[5]](https://x.com/i/status/2044120245980332349) Implies conviction on B8 win by 2+. Confidence: MED (whale size).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044120245980332349)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_448281",
-      "timestamp": "2026-04-15T21:47:51.990647+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket whales up $4",
-      "raw": "Polymarket whales up $4.9M at +40% ROI this week.** @Bellannieth highlights conviction plays; copy via heatmaps.[[6]](https://x.com/i/status/2043796535981359389) General smart money edge in mispriced spots. Confidence: HIGH (aggregated profits).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2043796535981359389)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_448290",
-      "timestamp": "2026-04-15T21:47:51.999460+00:00",
-      "source": "X_GROK",
-      "headline": "Tips trending: Math models (Black-Scholes, Kelly) for edges; whale trackers/analyzers",
-      "raw": "Tips trending: Math models (Black-Scholes, Kelly) for edges; whale trackers/analyzers.** Posts promote analyzers, copy-trading, low-variance econ data bets.[[7]](https://x.com/i/status/2044429560599527469)[[8]](https://x.com/i/status/2044370645039956092)[[9]](https://x.com/i/status/2044461989888426312) Polymarket top-5 revenue signals growth.[[10]](https://x.com/i/status/2044303531755397591) Confi",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044429560599527469)[[8]](https://x.com/i/status/2044370645039956092)[[9]](https://x.com/i/status/2044461989888426312)",
-      "category": "COMMUNITY"
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will David Bailey be the second pick in the 2026 NFL draft?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 6,
-    "watch": 0,
+    "alert": 3,
+    "watch": 2,
     "high_conf": 2
   }
 }
