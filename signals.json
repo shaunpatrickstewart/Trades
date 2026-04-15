@@ -1,101 +1,62 @@
 {
-  "last_scan": "2026-04-15T22:11:57.142443+00:00",
-  "scan_seconds": 30.8,
+  "last_scan": "2026-04-15T22:14:47.673719+00:00",
+  "scan_seconds": 29.3,
   "markets_scanned": 80,
   "open_positions": 44,
   "signals": [
     {
-      "id": "sig_880528",
-      "timestamp": "2026-04-15T22:11:44.236566+00:00",
+      "id": "sig_50945",
+      "timestamp": "2026-04-15T22:14:34.652165+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles to Hold Private Oval Office Talks with President Trump on Upcoming US State Visit | YES | HIGH confidence**",
-      "raw": "King Charles to Hold Private Oval Office Talks with President Trump on Upcoming US State Visit | YES | HIGH confidence**  \nKing Charles will engage in private discussions with President Trump during a state visit aimed at addressing US-UK challenges and renewing bilateral ties, as reported in recent coverage.[1]  \nNo direct White House announcements or resolutions confirmed yet, but the planned ta",
-      "direction": "YES",
+      "headline": "A confirmed announcement or development involving Vance, King Charles, and Trump that occurred recently",
+      "raw": "A confirmed announcement or development involving Vance, King Charles, and Trump that occurred recently",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
         "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_886312",
-      "timestamp": "2026-04-15T22:11:50.020982+00:00",
+      "id": "sig_50951",
+      "timestamp": "2026-04-15T22:14:34.658035+00:00",
       "source": "PERPLEXITY",
-      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRP Ledger and Ethereum | YES | HIGH confidence**",
-      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRP Ledger and Ethereum | YES | HIGH confidence**  \nThe official full-scale rollout of Ripple USD (RLUSD) stablecoin across the XRP Ledger and Ethereum has been confirmed as of April 14, 2026, driving massive capital influx, record-breaking XRPL transaction volume, and heightened institutional adoption amid resolved SEC legal battles and advancing X",
-      "direction": "YES",
+      "headline": "Clear information about what has just been \"resolved\" or newly announced",
+      "raw": "Clear information about what has just been \"resolved\" or newly announced",
+      "direction": null,
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_57185",
+      "timestamp": "2026-04-15T22:14:40.892111+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Gains Strong Endorsements from U",
+      "raw": "CLARITY Act Gains Strong Endorsements from U.S. Treasury Secretary, SEC Chairman, and Senate Banking Committee Targets Late April Markup | YES | MED confidence**  \nBitcoin surged above $74,500 (up 4.73%), driving a broader crypto market rally with 4.09% gains and XRP climbing to $1.36 amid institutional inflows of $1.1B last week.[2][3]  \nRipple CEO Brad Garlinghouse expressed optimism for CLARITY",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the price of XRP be above $1.00 on April 19?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_892406",
-      "timestamp": "2026-04-15T22:11:56.114910+00:00",
+      "id": "sig_62965",
+      "timestamp": "2026-04-15T22:14:46.672632+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Fed's March 17\u201318, 2026 FOMC minutes** released April 8, 2026, with no new rate cuts despite raised core PCE inflation",
-      "raw": "**Fed's March 17\u201318, 2026 FOMC minutes** released April 8, 2026, with no new rate cuts despite raised core PCE inflation forecast to 2.7% (from 2.5%), citing Middle East oil spikes and sticky pressures; still projects one 2026 cut amid labor market risks[2][7].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_892412",
-      "timestamp": "2026-04-15T22:11:56.120311+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Powell's March 30, 2026 Harvard speech** (pre-term end in May): Fed to \"wait and see\" on Iran war, tariffs (adding 0",
-      "raw": "**Powell's March 30, 2026 Harvard speech** (pre-term end in May): Fed to \"wait and see\" on Iran war, tariffs (adding 0.5\u20131% to inflation as one-time), and gas prices before moves, committed to 2% target[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_892417",
-      "timestamp": "2026-04-15T22:11:56.125577+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Bank of Korea (BoK) pause influenced** by Fed's hawkish hold, avoiding cuts amid energy shocks and weak won to prevent",
-      "raw": "**Bank of Korea (BoK) pause influenced** by Fed's hawkish hold, avoiding cuts amid energy shocks and weak won to prevent inflation rebound[2][5].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_892422",
-      "timestamp": "2026-04-15T22:11:56.130830+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**South Korea inflation stats** stable at ~3",
-      "raw": "**South Korea inflation stats** stable at ~3.6% in 2023, with high groceries but low utilities; no 2026 annual figure or new data[1].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_892428",
-      "timestamp": "2026-04-15T22:11:56.136184+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Fed Chair transition uncertainty** looms for May 2026, with potential volatility from Trump policies and inflation pre",
-      "raw": "**Fed Chair transition uncertainty** looms for May 2026, with potential volatility from Trump policies and inflation pressures; new nomination caused KOSPI drop (date unspecified, recent)[4][6].",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Rate Hike Amid Surging Inflation** | YES | HIGH confi",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Rate Hike Amid Surging Inflation** | YES | HIGH confidence[1][2][4][5][6]\n\nKevin Warsh, a former Fed governor and current Hoover Institution fellow, has been nominated by President Trump to replace Jerome Powell as Fed chair when Powell's term ends in May 2026, with Treasury Secretary Scott Bessent confirming Warsh among five final",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
@@ -104,21 +65,38 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_892433",
-      "timestamp": "2026-04-15T22:11:56.141486+00:00",
+      "id": "sig_50939",
+      "timestamp": "2026-04-15T22:14:34.646668+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Global forecasts**: Core CPI at 2",
-      "raw": "**Global forecasts**: Core CPI at 2.8% in 2026, U.S. 3.2%, BoK on hold near 2%[5].\n\nNo events today per Fed site (latest: April 14 discount minutes, unrelated)[7]; prior items too dated for \"RIGHT NOW\" market impact.",
-      "direction": "NO",
+      "headline": "I cannot provide the requested breaking news headline with market-moving confirmation based on these search results",
+      "raw": "I cannot provide the requested breaking news headline with market-moving confirmation based on these search results.\n\nThe search results contain fragmented and unclear information that does not support a coherent breaking news story. The first result appears to be a transcript excerpt from a Trump statement about U.S. military operations against Iran (dated March 16, 2026), while the second result",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_50956",
+      "timestamp": "2026-04-15T22:14:34.663624+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current details that would substantiate a market-moving event",
+      "raw": "Current details that would substantiate a market-moving event\n\nTo provide accurate breaking news with confidence scoring, I would need search results with current timestamps, explicit confirmation language, and clear details about the specific event you're asking about.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
+    "enter": 0,
     "alert": 6,
     "watch": 0,
     "high_conf": 2
