@@ -1,57 +1,48 @@
 {
-  "last_scan": "2026-04-15T14:24:02.370224+00:00",
-  "scan_seconds": 35.4,
-  "markets_scanned": 76,
+  "last_scan": "2026-04-15T14:26:48.879065+00:00",
+  "scan_seconds": 25.8,
+  "markets_scanned": 77,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_804836",
-      "timestamp": "2026-04-15T14:23:48.572373+00:00",
+      "id": "sig_984141",
+      "timestamp": "2026-04-15T14:26:47.877863+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about events that have \"just been confirmed, announced, or resolved\" today or very recently that would move prediction markets.\n\nThe search results provide context about the **West Bengal Legislative Assembly elections scheduled for April 23-29, 2026**[2][3], with results to be decla",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Kevin Warsh's nomination as next Fed Chair confirmed amid surging inflation and rate hike speculation",
+      "raw": "Kevin Warsh's nomination as next Fed Chair confirmed amid surging inflation and rate hike speculation.** | **YES** | **HIGH** confidence[1][3][4]\n\nKevin Warsh is Trump's nominee to succeed Jerome Powell as Federal Reserve Chair, with sources indicating likely Senate confirmation by mid-May 2026, positioning him to potentially oversee an interest rate hike as his first major decision amid oil price",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_804842",
-      "timestamp": "2026-04-15T14:23:48.578063+00:00",
+      "id": "sig_966891",
+      "timestamp": "2026-04-15T14:26:30.627708+00:00",
       "source": "PERPLEXITY",
-      "headline": "The **Dearness Allowance (DA) dispute** involving \u20b941,000 crore in arrear claims affecting nearly 20 lakh people[1]",
-      "raw": "The **Dearness Allowance (DA) dispute** involving \u20b941,000 crore in arrear claims affecting nearly 20 lakh people[1]",
-      "direction": null,
+      "headline": "US-Iran Ceasefire Talks Advance as Deadline Looms; No New Agreement Confirmed** | NO | HIGH confidence[1][2][6]",
+      "raw": "US-Iran Ceasefire Talks Advance as Deadline Looms; No New Agreement Confirmed** | NO | HIGH confidence[1][2][6]\n\nThe two-week ceasefire agreed on April 8, 2026 (announced April 7 by Trump), mediated by Pakistan, remains in effect but fragile, with violations reported and no implementation of key terms like reopening the Strait of Hormuz[1][3][4].  \nAs of April 14, US and Iran are planning a second",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_804847",
-      "timestamp": "2026-04-15T14:23:48.583283+00:00",
+      "id": "sig_972051",
+      "timestamp": "2026-04-15T14:26:35.787876+00:00",
       "source": "PERPLEXITY",
-      "headline": "Electoral roll concerns, including the deletion of 91 lakh voters during the Special Intensive Revision process[4]",
-      "raw": "Electoral roll concerns, including the deletion of 91 lakh voters during the Special Intensive Revision process[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_804852",
-      "timestamp": "2026-04-15T14:23:48.588875+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Debates around the Citizenship Amendment Act (CAA) and immigration issues[2]",
-      "raw": "Debates around the Citizenship Amendment Act (CAA) and immigration issues[2]\n\nHowever, these represent ongoing political developments rather than breaking news from today. Additionally, your query mentions \"congress\" and \"republican,\" which do not appear in the search results\u2014these terms may refer to different political contexts not relevant to West Bengal's current situation.\n\nTo provide accurate",
+      "headline": "A Georgia congressional special election runoff on April 2026 between Republican Clay Fuller and Democrat Shawn Harris i",
+      "raw": "A Georgia congressional special election runoff on April 2026 between Republican Clay Fuller and Democrat Shawn Harris in a solidly red district, testing GOP control amid House majority stakes.[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
@@ -62,78 +53,23 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_811878",
-      "timestamp": "2026-04-15T14:23:55.614870+00:00",
+      "id": "sig_972057",
+      "timestamp": "2026-04-15T14:26:35.793278+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC/CFTC Classifies Solana (SOL) as Digital Commodity | YES | HIGH confidence**",
-      "raw": "SEC/CFTC Classifies Solana (SOL) as Digital Commodity | YES | HIGH confidence**  \nThe SEC and CFTC have classified digital assets like Solana as commodities, providing regulatory clarity that acts as a catalyst for SOL price near $82 and drawing institutional capital amid low market sentiment (Fear and Greed Index at 11).[6]",
-      "direction": "YES",
+      "headline": "GOP policy chair election scheduled for April 16, 2026",
+      "raw": "GOP policy chair election scheduled for April 16, 2026.[3]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_811884",
-      "timestamp": "2026-04-15T14:23:55.620192+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Firedancer Upgrade Fully Integrated | YES | MED confidence**",
-      "raw": "Solana Firedancer Upgrade Fully Integrated | YES | MED confidence**  \nFiredancer upgrade is now fully integrated, enabling Solana to process over 1 million transactions per second, boosting throughput, ecosystem stability, and developer appeal despite a recent 6% dip to ~$83.[2][5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_811889",
-      "timestamp": "2026-04-15T14:23:55.625731+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Prague Upgrade Improves Speed/Efficiency | NO | LOW confidence**",
-      "raw": "Ethereum Prague Upgrade Improves Speed/Efficiency | NO | LOW confidence**  \nEthereum's Prague upgrade is cited for enhancing speed, efficiency, and institutional adoption, with ETH at $2,184 showing recovery signs (bullish pattern, RSI oversold, 70k ETH staked reducing sell pressure), but no \"just confirmed\" announcement.[2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_811895",
-      "timestamp": "2026-04-15T14:23:55.631038+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ripple XRP Gains Legal Clarity/Banking Adoption | NO | LOW confidence**",
-      "raw": "Ripple XRP Gains Legal Clarity/Banking Adoption | NO | LOW confidence**  \nXRP benefits from ongoing legal clarity and banking demand positioning it for institutional inflows (projections to $5), but current price action shows weakness below $1.33 with bearish RSI and momentum\u2014no fresh resolution.[2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_817633",
-      "timestamp": "2026-04-15T14:24:01.369233+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI: 2",
-      "raw": "South Korea March 2026 CPI: 2.2% YoY (up from 2.0%, below 2.4% consensus)** | NO | HIGH confidence[1][2]\n\nSouth Korea's headline annual inflation rose to 2.2% in March 2026 from February's 2.0%, marking a three-month high driven by energy pressures but missing forecasts; core eased to 2.2%[1][2]. This leaves Polymarket's 2026 annual inflation market unchanged, with 3.0%+ still at 36% probability p",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 9,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
