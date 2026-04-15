@@ -1,48 +1,46 @@
 {
-  "last_scan": "2026-04-15T15:58:54.972066+00:00",
-  "scan_seconds": 29.7,
-  "markets_scanned": 73,
-  "open_positions": 41,
+  "last_scan": "2026-04-15T16:02:14.199912+00:00",
+  "scan_seconds": 54.6,
+  "markets_scanned": 72,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_489127",
-      "timestamp": "2026-04-15T15:58:32.857428+00:00",
+      "id": "sig_667745",
+      "timestamp": "2026-04-15T16:01:31.475906+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Agreement Confirmed on April 8, 2026, with Islamabad Talks Underway Amid Violations and Secon",
-      "raw": "US-Iran Two-Week Ceasefire Agreement Confirmed on April 8, 2026, with Islamabad Talks Underway Amid Violations and Second Round Planned** | YES | HIGH confidence[1][2][3][4]\n\nThe US and Iran agreed to an immediate two-week ceasefire in the 2026 Iran war, mediated by Pakistan's PM Shehbaz Sharif and military chief Asim Munir, with involvement from T\u00fcrkiye and Egypt, following Trump's deadline on re",
-      "direction": "YES",
+      "headline": "US-Iran Ceasefire Nears Expiration with Second Round of Talks Planned Before April 21 Deadline | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Nears Expiration with Second Round of Talks Planned Before April 21 Deadline | NO | HIGH confidence**\n\nThe two-week ceasefire, announced April 7-8 and mediated by Pakistan, expires April 21 without any confirmed extension, new deal, or resolution on key issues like Iran's nuclear program, Strait of Hormuz control, or uranium enrichment limits[1][2][3][4]. First-round talks in Isl",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_496660",
-      "timestamp": "2026-04-15T15:58:40.390244+00:00",
+      "id": "sig_698144",
+      "timestamp": "2026-04-15T16:02:01.874112+00:00",
       "source": "PERPLEXITY",
-      "headline": "**ECI-TMC clash escalates**: Election Commission publicly censured All India Trinamool Congress (TMC) on April 8 for all",
-      "raw": "**ECI-TMC clash escalates**: Election Commission publicly censured All India Trinamool Congress (TMC) on April 8 for alleged malpractices, vowing fear-free polls; TMC retaliated, accusing ECI bias and alleging outsider voter enrollment by BJP.[1][2][6]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
+      "headline": "Technical Breakout Signal Confirmed** | YES | MEDIUM confidence",
+      "raw": "Technical Breakout Signal Confirmed** | YES | MEDIUM confidence\n\nXRP's daily MACD has turned bullish[1], creating a technical inflection point as price compresses within a symmetrical triangle between $1.30 support and $1.38 resistance[1]. A close above the SMA 50 at $1.3792 could target $1.5625[1].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_496672",
-      "timestamp": "2026-04-15T15:58:40.402464+00:00",
+      "id": "sig_674272",
+      "timestamp": "2026-04-15T16:01:38.002445+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Opposition unity presser**: On April 9, TMC, Congress, and anti-BJP parties jointly criticized ECI as \"partisan",
-      "raw": "**Opposition unity presser**: On April 9, TMC, Congress, and anti-BJP parties jointly criticized ECI as \"partisan.\"[3]",
-      "direction": null,
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -50,42 +48,94 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_496683",
-      "timestamp": "2026-04-15T15:58:40.413815+00:00",
+      "id": "sig_674282",
+      "timestamp": "2026-04-15T16:01:38.012168+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Congress internal woes**: Ongoing leader exits in Assam and frustration in West Bengal over seat contests, but no new",
-      "raw": "**Congress internal woes**: Ongoing leader exits in Assam and frustration in West Bengal over seat contests, but no new quits today.[4]",
+      "headline": "West Bengal Voter List Crisis: Supreme Court Acknowledges Appeals from 34 Lakh Voters Ahead of April 23 Polls | NO | MED",
+      "raw": "West Bengal Voter List Crisis: Supreme Court Acknowledges Appeals from 34 Lakh Voters Ahead of April 23 Polls | NO | MED**  \nOver 60 lakh objections to voter list revisions have led to 34 lakh appeals, with the Supreme Court stepping in to stress voting rights; first-phase voting is April 23, but no resolution announced.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_674302",
+      "timestamp": "2026-04-15T16:01:38.032704+00:00",
+      "source": "PERPLEXITY",
+      "headline": "EC Deploys Massive Central Forces in West Bengal, Drawing TMC 'Siege' Claims | NO | LOW**",
+      "raw": "EC Deploys Massive Central Forces in West Bengal, Drawing TMC 'Siege' Claims | NO | LOW**  \nUnprecedented transfers and 3.5x more forces than 2021 (vs. other states) aim for fair polls, but critics question neutrality; ongoing, no fresh confirmations.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_674313",
+      "timestamp": "2026-04-15T16:01:38.043931+00:00",
+      "source": "PERPLEXITY",
+      "headline": "JD Vance References Indian In-Laws on US H-1B Immigration Policy | NO | LOW**",
+      "raw": "JD Vance References Indian In-Laws on US H-1B Immigration Policy | NO | LOW**  \nUS VP Vance discussed family ties and US priorities in response to an Indian student, unrelated to elections or White House announcements on India.[4]  \n\nNo links to White House, Vance-election ties, or market-moving resolutions in results; WB polls (April 23/29, results May 4) face tensions but lack today's breakthrou",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_496696",
-      "timestamp": "2026-04-15T15:58:40.426515+00:00",
+      "id": "sig_698177",
+      "timestamp": "2026-04-15T16:02:01.907459+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Campaign rhetoric**: BJP promises UCC, anti-infiltration measures; Mamata Banerjee alleges BJP threats to TMC candidat",
-      "raw": "**Campaign rhetoric**: BJP promises UCC, anti-infiltration measures; Mamata Banerjee alleges BJP threats to TMC candidates; no policy confirmations.[5]\n\nNo mentions of U.S. Congress, White House, or Vance (JD Vance) in results; West Bengal focus unlikely to shift U.S.-centric prediction markets without major upset like election postponement (none reported).[1][2][3][4][5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_510241",
-      "timestamp": "2026-04-15T15:58:53.971094+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady at 3",
-      "raw": "Fed Holds Rates Steady at 3.50%-3.75% in March 2026 FOMC Meeting Amid Elevated Inflation Uncertainty | NO | HIGH confidence** [1][3]\n\nThe Federal Open Market Committee (FOMC) on March 18, 2026, maintained the federal funds target range at **3.50% to 3.75%**, noting solid economic expansion, low job gains, stable unemployment, and **somewhat elevated inflation** short of the 2% goal [1][3]. Uncerta",
+      "headline": "Record ETF Inflows & Major Retail Integration** | YES | HIGH confidence",
+      "raw": "Record ETF Inflows & Major Retail Integration** | YES | HIGH confidence\n\nU.S. spot XRP ETFs attracted $119.6 million in inflows\u2014the strongest single-day intake since December 2025[1]. Concurrently, Rakuten Wallet integrated XRP into its Rakuten Pay system, enabling 44 million users to convert XRP into loyalty points[1]. This demonstrates both institutional demand and a pathway to mainstream retail",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_698220",
+      "timestamp": "2026-04-15T16:02:01.950217+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Upcoming Critical Event: CLARITY Act Roundtable (April 16)**",
+      "raw": "Upcoming Critical Event: CLARITY Act Roundtable (April 16)**\n\nTomorrow's SEC roundtable on the CLARITY Act is the most significant near-term catalyst[2]. The Senate Banking Committee has targeted late April for a markup that would make XRP's commodity status permanent[2]. Should this pass, banks would gain legal cover to use XRP in Ripple's cross-border payment network, potentially unlocking insti",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_709072",
+      "timestamp": "2026-04-15T16:02:12.803001+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you've requested based on these search results",
+      "raw": "I cannot provide the breaking news you've requested based on these search results. The most recent information available is from early April 2026, which is over a week old relative to your query time of April 15, 2026, 4 PM UTC.\n\nThe search results contain:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709104",
+      "timestamp": "2026-04-15T16:02:12.834081+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**South Korea inflation data** through March 2026 (2",
+      "raw": "**South Korea inflation data** through March 2026 (2.2% annual rate)[1]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -93,12 +143,120 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709131",
+      "timestamp": "2026-04-15T16:02:12.861244+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Federal Reserve discussions** from March FOMC minutes regarding potential rate hikes amid Middle East tensions[2]",
+      "raw": "**Federal Reserve discussions** from March FOMC minutes regarding potential rate hikes amid Middle East tensions[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709216",
+      "timestamp": "2026-04-15T16:02:12.946983+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Market volatility** related to Trump administration's Federal Reserve Chair nomination (timing unclear, but appears re",
+      "raw": "**Market volatility** related to Trump administration's Federal Reserve Chair nomination (timing unclear, but appears recent)[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709353",
+      "timestamp": "2026-04-15T16:02:13.083397+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Historical KOSPI data** from July 2024[4]",
+      "raw": "**Historical KOSPI data** from July 2024[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709387",
+      "timestamp": "2026-04-15T16:02:13.117272+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No information about Kevin Warsh** appears in these results, and there is no current breaking news confirmed as of April",
+      "raw": "No information about Kevin Warsh** appears in these results, and there is no current breaking news confirmed as of April 15, 2026.\n\nTo answer your query properly, I would need search results from today (April 15, 2026) or very recent hours that specifically address:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709414",
+      "timestamp": "2026-04-15T16:02:13.144127+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Any Federal Reserve Chair announcements or confirmations involving Kevin Warsh",
+      "raw": "Any Federal Reserve Chair announcements or confirmations involving Kevin Warsh",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709439",
+      "timestamp": "2026-04-15T16:02:13.169958+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Today's market movements",
+      "raw": "Today's market movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_709467",
+      "timestamp": "2026-04-15T16:02:13.197209+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent policy decisions or statements that would impact prediction markets",
+      "raw": "Recent policy decisions or statements that would impact prediction markets\n\nI recommend searching for real-time financial news sources or Fed announcements from today for this information.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_698110",
+      "timestamp": "2026-04-15T16:02:01.840794+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Clarifies Rules for Crypto Interfaces** | YES | HIGH confidence",
+      "raw": "SEC Clarifies Rules for Crypto Interfaces** | YES | HIGH confidence\n\nThe SEC issued roundtable guidance today that clarified rules for crypto interfaces, potentially benefiting XRPL's native DEX[1]. This regulatory clarity could facilitate institutional adoption of XRP-based trading infrastructure.",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 16,
+    "watch": 1,
+    "high_conf": 2
   }
 }
