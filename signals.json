@@ -1,195 +1,103 @@
 {
-  "last_scan": "2026-04-15T16:50:28.813705+00:00",
-  "scan_seconds": 44.1,
-  "markets_scanned": 133,
-  "open_positions": 99,
+  "last_scan": "2026-04-15T16:53:38.535581+00:00",
+  "scan_seconds": 49.5,
+  "markets_scanned": 73,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_604085",
-      "timestamp": "2026-04-15T16:50:27.812440+00:00",
+      "id": "sig_761063",
+      "timestamp": "2026-04-15T16:53:04.790854+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's Senate confirmation hearing for Fed Chair scheduled for April 21 | NO | HIGH confidence**",
-      "raw": "Kevin Warsh's Senate confirmation hearing for Fed Chair scheduled for April 21 | NO | HIGH confidence**\n\nNo breaking confirmations, announcements, or resolutions today on South Korea's annual inflation, Fed rate decisions, or Warsh's confirmation that would move prediction markets; the key development is Senate Banking Committee Chair Tim Scott's announcement Tuesday of Warsh's hearing next week (",
-      "direction": "NO",
+      "headline": "Opposition Parties in India Move Historic Notices to Remove Chief Election Commissioner Amid West Bengal Election Tensio",
+      "raw": "Opposition Parties in India Move Historic Notices to Remove Chief Election Commissioner Amid West Bengal Election Tensions | NO | LOW confidence**\n\nOpposition leaders from Trinamool Congress (TMC), Congress, and ~20 anti-BJP parties, representing 300 MPs, submitted notices in Lok Sabha (over 100 signatures) and Rajya Sabha (over 50) to remove the Chief Election Commissioner, exceeding the required",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Palantir Technologies Inc. (PLTR) hit (HIGH) $144 Week of April 13 2026?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
+        "Will the Republican Party win the MO-05 House seat?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_768230",
+      "timestamp": "2026-04-15T16:53:11.957284+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US March 2026 CPI: Headline Inflation Surges to 3",
+      "raw": "US March 2026 CPI: Headline Inflation Surges to 3.3% YoY (from 2.4%), Monthly +0.9%; Core at 2.6% YoY (from 2.5%, below 2.7% forecast)** | YES | HIGH\n\nUS Bureau of Labor Statistics released March 2026 CPI data today, showing annual headline inflation at **3.3%**\u2014highest since May 2024, driven by **+21.2% gas prices** and **+0.9% monthly rise** (largest since June 2022)\u2014while core inflation ticked ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_568707",
-      "timestamp": "2026-04-15T16:49:52.434644+00:00",
+      "id": "sig_754500",
+      "timestamp": "2026-04-15T16:52:58.227789+00:00",
       "source": "PERPLEXITY",
-      "headline": "Israel-Lebanon highest-level talks since 1993 yield agreement for direct negotiations, excluding Hezbollah role per US;",
-      "raw": "Israel-Lebanon highest-level talks since 1993 yield agreement for direct negotiations, excluding Hezbollah role per US; separate from Iran ceasefire[3].\nThese developments\u2014escalating from fragile truce to imminent talks and optimistic rhetoric\u2014would likely shift prediction markets on de-escalation or war end, as markets reacted positively to initial ceasefire (Brent crude fell 15%)[4]. No full res",
+      "headline": "No breaking confirmations, announcements, or resolutions today (April 15, 2026) on Iran ceasefire that would move predic",
+      "raw": "No breaking confirmations, announcements, or resolutions today (April 15, 2026) on Iran ceasefire that would move prediction markets.**| NO | HIGH confidence\n\nThe initial two-week ceasefire between the US and Iran was agreed on April 8, 2026, mediated by Pakistan, effective immediately across conflict zones including Lebanon, but it has faced violations by both sides since implementation.[1] Recen",
       "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_568659",
-      "timestamp": "2026-04-15T16:49:52.386780+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire holds as second round of talks looms within days; Trump declares war \"very close to over\"; Israel-Leba",
-      "raw": "US-Iran ceasefire holds as second round of talks looms within days; Trump declares war \"very close to over\"; Israel-Lebanon direct negotiations begin.** | YES | HIGH confidence[1][2][3][5][6]",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_568669",
-      "timestamp": "2026-04-15T16:49:52.396720+00:00",
-      "source": "PERPLEXITY",
-      "headline": "UN chief urges continuation of the fragile US-Iran ceasefire and respect for international law amid regional crisis[1]",
-      "raw": "UN chief urges continuation of the fragile US-Iran ceasefire and respect for international law amid regional crisis[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_568688",
-      "timestamp": "2026-04-15T16:49:52.415891+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump states the Iran war is \"very close to over,\" with Vance emphasizing US support for Iran to \"thrive\" without nuclea",
-      "raw": "Trump states the Iran war is \"very close to over,\" with Vance emphasizing US support for Iran to \"thrive\" without nuclear weapons[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_568698",
-      "timestamp": "2026-04-15T16:49:52.425226+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Two-week ceasefire (agreed April 8 via Pakistan mediation) nears end, prompting second-round preparations; Pakistan push",
-      "raw": "Two-week ceasefire (agreed April 8 via Pakistan mediation) nears end, prompting second-round preparations; Pakistan pushes to host in Islamabad, with clearer positions shared[4][5][6].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_591832",
-      "timestamp": "2026-04-15T16:50:15.559574+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the provided search results, here is the current breaking news relevant to your query:",
-      "raw": "Based on the provided search results, here is the current breaking news relevant to your query:",
-      "direction": null,
+      "id": "sig_794775",
+      "timestamp": "2026-04-15T16:53:38.502523+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Bets on CS2 IEM Rio: Vitality vs Team Falcons (BO3, imminent match)**",
+      "raw": "Whale Bets on CS2 IEM Rio: Vitality vs Team Falcons (BO3, imminent match)**  \nMultiple whales deploying $50k-$322k bets on underdog Team Falcons win at 36-38\u00a2 (total ~$700k+ across alerts); also $56k-$89k on Falcons +1.5 map handicap at 62\u00a2.[[1]](https://x.com/i/status/2044459007964762120)[[2]](https://x.com/i/status/2044459007893504161)[[3]](https://x.com/i/status/2044459007738302547)[[4]](https:",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
+      "x_link": "https://x.com/i/status/2044459007964762120)[[2]](https://x.com/i/status/2044459007893504161)[[3]](https://x.com/i/status/2044459007738302547)[[4]](https://x.com/i/status/2044459007683813515)[[5]](https://x.com/i/status/2044458861931749570)[[6]](https://x.com/i/status/2044458848321184071)[[7]](https://x.com/i/status/2044458834727407756)[[8]](https://x.com/i/status/2044458815387541974)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_591843",
-      "timestamp": "2026-04-15T16:50:15.570053+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE: TMC Releases Star Campaigners List for Phase I of 2026 West Bengal Assembly Elections**",
-      "raw": "HEADLINE: TMC Releases Star Campaigners List for Phase I of 2026 West Bengal Assembly Elections**",
-      "direction": null,
+      "id": "sig_794792",
+      "timestamp": "2026-04-15T16:53:38.519236+00:00",
+      "source": "X_GROK",
+      "headline": "$POLY Token Listed on CoinGecko**",
+      "raw": "$POLY Token Listed on CoinGecko**  \nHype around listing as bullish signal for Polymarket token airdrop/valuation; traders positioning up.[[10]](https://x.com/i/status/2044379084084699260)  \nYES for $POLY price momentum. Confidence: LOW (sentiment, no volume data).[[11]](https://x.com/i/status/2044392028776386622)",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
+      "x_link": "https://x.com/i/status/2044379084084699260)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_591852",
-      "timestamp": "2026-04-15T16:50:15.579939+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market Impact: NO** | **Confidence: HIGH**",
-      "raw": "Market Impact: NO** | **Confidence: HIGH**\n\nThe Trinamool Congress released its star campaigners' list for the first phase of the 2026 West Bengal Legislative Assembly Elections, featuring Chief Minister Mamata Banerjee and AITC General Secretary Abhishek Banerjee alongside other senior party leaders[1]. The voting is scheduled for April 23 and April 29, with counting on May 4[1].\n\nThis announceme",
+      "id": "sig_794808",
+      "timestamp": "2026-04-15T16:53:38.535061+00:00",
+      "source": "X_GROK",
+      "headline": "Tips Trending: Avoid <10\u00a2 bets, focus math edges/arbs**",
+      "raw": "Tips Trending: Avoid <10\u00a2 bets, focus math edges/arbs**  \nResearch shows top 1% capture 84% gains; low-\u00a2 overpriced, use Bayes/Kelly/Black-Scholes for mispricings in sports/elections.[[12]](https://x.com/i/status/2044167305819763154)[[13]](https://x.com/i/status/2044429560599527469) No specific markets, but implies value in lagging updates (e.g., sportsbooks vs PM). Confidence: HIGH (data-backed).",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_591862",
-      "timestamp": "2026-04-15T16:50:15.589258+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Note:** The search results do not contain information about Republican party developments",
-      "raw": "Note:** The search results do not contain information about Republican party developments. The results focus exclusively on the Trinamool Congress and West Bengal state elections. If you're seeking breaking news about U.S. Republican political developments occurring today, those results are not included in the provided search set.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Republican Party win the MO-05 House seat?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_568679",
-      "timestamp": "2026-04-15T16:49:52.406331+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump warns of port blockades but signals diplomacy possible, with VP Vance noting Iranian progress in nuclear talks; ne",
-      "raw": "Trump warns of port blockades but signals diplomacy possible, with VP Vance noting Iranian progress in nuclear talks; new US-Iran talks potentially in Pakistan in two days[2].",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_597646",
-      "timestamp": "2026-04-15T16:50:21.373865+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any fresh, market-moving resolution today, as updates are dated (up to April 14) with mixed bullish/",
-      "raw": "LOW confidence** in any fresh, market-moving resolution today, as updates are dated (up to April 14) with mixed bullish/bearish signals but no \"just confirmed\" events at 4 PM UTC[1][2][3].",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044167305819763154)[[13]](https://x.com/i/status/2044429560599527469)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 9,
-    "watch": 2,
+    "alert": 5,
+    "watch": 0,
     "high_conf": 1
   }
 }
