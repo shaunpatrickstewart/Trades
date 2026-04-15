@@ -1,230 +1,155 @@
 {
-  "last_scan": "2026-04-15T02:27:33.127554+00:00",
-  "scan_seconds": 33.1,
-  "markets_scanned": 115,
+  "last_scan": "2026-04-15T02:30:47.280061+00:00",
+  "scan_seconds": 47.1,
+  "markets_scanned": 116,
   "open_positions": 80,
   "signals": [
     {
-      "id": "sig_811103",
-      "timestamp": "2026-04-15T02:27:14.882632+00:00",
+      "id": "sig_6338",
+      "timestamp": "2026-04-15T02:30:30.116751+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news that has just been confirmed, announced, or re",
-      "raw": "Based on the search results provided, I cannot identify any breaking news that has just been confirmed, announced, or resolved as of April 15, 2026, 2 AM UTC.\n\nThe search results document Joe Hathaway's Republican candidacy for New Jersey's 11th Congressional District special election, which is scheduled for **Thursday, April 16, 2026**[3][5]\u2014meaning the election has not yet occurred. The most rec",
-      "direction": "NO",
+      "headline": "Regarding Solana and XRP specifically:** The search results do not contain breaking news announcements or confirmed deve",
+      "raw": "Regarding Solana and XRP specifically:** The search results do not contain breaking news announcements or confirmed developments specific to these assets for April 2026. General price data shows XRP trading at $1.33-$1.34 as of mid-April.[6][7]",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Joe Hathaway win the NJ-11 special election?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will the price of XRP be above $1.70 on April 15?",
+        "Will the price of Solana be above $50 on April 15?",
+        "Will the price of XRP be above $1.00 on April 16?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_984681",
+      "timestamp": "2026-04-15T02:30:08.460236+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Imposes Naval Blockade on Iranian Ports After Failed Ceasefire Talks; Iran Vows Retaliation, But New Talks Eyed** | N",
+      "raw": "US Imposes Naval Blockade on Iranian Ports After Failed Ceasefire Talks; Iran Vows Retaliation, But New Talks Eyed** | NO | HIGH confidence[1][2][4]\n\nPresident Trump ordered a US naval blockade of Iranian ports and the Strait of Hormuz effective April 14, 2026, targeting oil tankers to pressure Iran amid stalled ceasefire negotiations in Pakistan[1][2][4]. Trump declared any Iranian fast-attack sh",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_995555",
+      "timestamp": "2026-04-15T02:30:19.334557+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH confidence** (search results cover up to early 2026 previews, no real-time events match criteria)",
+      "raw": "HIGH confidence** (search results cover up to early 2026 previews, no real-time events match criteria).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_819366",
-      "timestamp": "2026-04-15T02:27:23.145185+00:00",
+      "id": "sig_6304",
+      "timestamp": "2026-04-15T02:30:30.082502+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits 167M Monthly Token Holders & Alpenglow Upgrade Path Confirmed | YES | HIGH confidence**",
-      "raw": "Solana Hits 167M Monthly Token Holders & Alpenglow Upgrade Path Confirmed | YES | HIGH confidence**\nSolana reached an all-time record of 167 million monthly token holders with daily non-vote transactions hitting 148 million as of April 14, 2026.[1] The Alpenglow consensus upgrade has been confirmed to target reducing transaction finality from 12 seconds to 150 milliseconds.[1] Institutional intere",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Solana be above $50 on April 15?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_819374",
-      "timestamp": "2026-04-15T02:27:23.153531+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Drift Protocol $280M Hack on Solana Confirmed | YES | HIGH confidence**",
-      "raw": "Drift Protocol $280M Hack on Solana Confirmed | YES | HIGH confidence**\nOn April 1, the Solana-based DeFi platform Drift Protocol suffered a confirmed $280 million hack through sophisticated social engineering of multisig signatories.[6] The attack involved pre-signed transactions and compromised wallet management, with stolen assets including wrapped BTC, Jito tokens, and stablecoins.[6]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Solana be above $50 on April 15?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be between $100 and $110 on April 1"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_828339",
-      "timestamp": "2026-04-15T02:27:32.118132+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO FRESH GDP ANNOUNCEMENTS FOR SOUTH KOREA OR GERMANY | NO | HIGH**",
-      "raw": "NO FRESH GDP ANNOUNCEMENTS FOR SOUTH KOREA OR GERMANY | NO | HIGH**  \nSearch results lack any confirmed Q1 2026 GDP figures or announcements for South Korea or Germany as of April 15, 2026; prior data covers only inflation and CPI through March.[1][2][3]  \nPrediction markets on GDP growth see no immediate catalyst from resolved news.[5]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_828347",
-      "timestamp": "2026-04-15T02:27:32.126887+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GERMANY 2024 INFLATION LISTED AT 2",
-      "raw": "GERMANY 2024 INFLATION LISTED AT 2.5% (NO 2025/2026 UPDATE) | NO | MED**  \nGermany's reported 2024 annual inflation was 2.5%, but no new March 2026 or Q1 data has been confirmed or announced in results.[3]  \nThis outdated figure (full-year 2024) offers no breaking resolution to impact current prediction markets on Eurozone inflation.[3][6]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_805482",
-      "timestamp": "2026-04-15T02:27:09.261053+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IMF Warns of Economic Storm Clouds | CONFIRMED | HIGH confidence**",
-      "raw": "IMF Warns of Economic Storm Clouds | CONFIRMED | HIGH confidence**\n\nThe International Monetary Fund has warned of economic concerns due to the war in Iran, affecting prediction markets.[3]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_819357",
-      "timestamp": "2026-04-15T02:27:23.136710+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results available (which extend through April 14, 2026), here are the confirmed developments with ma",
-      "raw": "Based on the search results available (which extend through April 14, 2026), here are the confirmed developments with market-moving potential:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_819394",
-      "timestamp": "2026-04-15T02:27:23.173516+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOL Trading Range Compressed Near Support Despite Fundamentals | YES | MED confidence**",
-      "raw": "SOL Trading Range Compressed Near Support Despite Fundamentals | YES | MED confidence**\nDespite strong network fundamentals, SOL has compressed at critical support levels ($79-$85) rather than breaking higher, with analyst targets of $88-$100 by end of April contingent on a confirmed breakout.[5]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_805446",
-      "timestamp": "2026-04-15T02:27:09.225812+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results from April 14, 2026, here are the key developments:",
-      "raw": "Based on the most recent search results from April 14, 2026, here are the key developments:",
+      "headline": "Based on the search results provided, here are the recent developments relevant to your query:",
+      "raw": "Based on the search results provided, here are the recent developments relevant to your query:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_805456",
-      "timestamp": "2026-04-15T02:27:09.235513+00:00",
+      "id": "sig_6321",
+      "timestamp": "2026-04-15T02:30:30.099766+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Implements Naval Blockade of Iranian Ports | NO (Escalation, Not Resolution) | HIGH confidence**",
-      "raw": "US Implements Naval Blockade of Iranian Ports | NO (Escalation, Not Resolution) | HIGH confidence**\n\nPresident Trump has enacted a **naval blockade on Iran's ports and coastal areas** following the collapse of ceasefire negotiations in Pakistan over the weekend.[1][2] Trump declared that Iranian \"fast attack ships\" attempting to approach US vessels will be \"immediately eliminated.\"[1] Iran has cal",
-      "direction": "NO",
+      "headline": "Bitcoin Slips Below $71,000 Following Trump Blockade Order | YES | HIGH confidence**",
+      "raw": "Bitcoin Slips Below $71,000 Following Trump Blockade Order | YES | HIGH confidence**\n\nBitcoin declined below $71,000 as Trump ordered a blockade of the Strait of Hormuz, adding to weekend losses.[5] As of April 13, Bitcoin was trading at $71,188.84.[6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will the price of Bitcoin be greater than $80,000 on April 1",
+        "Will the price of Bitcoin be above $60,000 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_6330",
+      "timestamp": "2026-04-15T02:30:30.108167+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Ceasefire Collapsed, Oil Prices Spiked | YES | HIGH confidence**",
+      "raw": "Iran Ceasefire Collapsed, Oil Prices Spiked | YES | HIGH confidence**\n\nA two-week U.S.-Iran ceasefire collapsed on April 9, triggering crude oil price increases and forcing $427 million in crypto short positions into liquidation, causing Bitcoin to trade at $71,362 with a 4.5% intraday gain.[8]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_805464",
-      "timestamp": "2026-04-15T02:27:09.243990+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire Talks Collapse Over Nuclear Terms | NO (Negotiations Failed) | HIGH confidence**",
-      "raw": "Ceasefire Talks Collapse Over Nuclear Terms | NO (Negotiations Failed) | HIGH confidence**\n\nThe first round of ceasefire talks in Pakistan collapsed Sunday after disagreement over Iran's nuclear program suspension.[2] The US sought a 20-year moratorium while Iran proposed a 5-year suspension.[2] Vice President JD Vance stated Iran \"chose not to accept our terms,\" while Iranian state media blamed \"",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_819385",
-      "timestamp": "2026-04-15T02:27:23.164428+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Surge to $120M Weekly, CLARITY Act Vote Expected Late April | YES | HIGH confidence**",
-      "raw": "XRP ETF Inflows Surge to $120M Weekly, CLARITY Act Vote Expected Late April | YES | HIGH confidence**\nXRP is trading at $1.34-$1.35 with $120 million in global ETP inflows\u2014the highest of any crypto asset\u2014driven by the CLARITY Act's expected Senate Banking Committee markup vote in late April.[5] Swiss products captured 70% of global flows at $157 million.[5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of XRP be above $1.70 on April 15?",
-        "Will the price of XRP be above $1.00 on April 16?",
-        "Will the price of XRP be above $1.80 on April 16?"
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_805473",
-      "timestamp": "2026-04-15T02:27:09.252645+00:00",
+      "id": "sig_22492",
+      "timestamp": "2026-04-15T02:30:46.270240+00:00",
       "source": "PERPLEXITY",
-      "headline": "Potential for Renewed Talks Within 48 Hours | CONDITIONAL | MEDIUM confidence**",
-      "raw": "Potential for Renewed Talks Within 48 Hours | CONDITIONAL | MEDIUM confidence**\n\nTrump told the New York Post that talks with Iran could resume within the next two days, suggesting ongoing diplomatic momentum despite the blockade announcement.[3] Former US negotiators note that deals were described as \"within reach\" before the US military actions.[2] However, sources caution that Trump's decision ",
-      "direction": null,
+      "headline": "South Korea Inflation at 2",
+      "raw": "South Korea Inflation at 2.2% in March 2026, Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation rose to 2.2% in March 2026 from 2.0%, missing market expectations of 2.4%, per April data release[2][4]. This follows steady 2% readings in Jan-Feb, contained pre-Iran volatility, potentially easing BoK rate cut bets despite quarterly forecasts of 2.6%[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_22483",
+      "timestamp": "2026-04-15T02:30:46.261628+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Germany Inflation Surge to 2",
+      "raw": "Germany Inflation Surge to 2.7% in March 2026 | YES | HIGH confidence**  \nGermany's annual inflation rate jumped to 2.7% in March 2026 from 1.9% prior, as reported on April 15[4], aligning with the ifo Spring 2026 forecast of energy-driven pressures pushing rates to 2.8% annually amid the Iran war shock[1]. This exceeds prior OECD January data (2.1%) and could shift prediction markets on ECB polic",
+      "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_828330",
-      "timestamp": "2026-04-15T02:27:32.109420+00:00",
+      "id": "sig_22500",
+      "timestamp": "2026-04-15T02:30:46.278970+00:00",
       "source": "PERPLEXITY",
-      "headline": "SOUTH KOREA MARCH 2026 INFLATION RISES TO 2",
-      "raw": "SOUTH KOREA MARCH 2026 INFLATION RISES TO 2.2% (BELOW FORECAST 2.4%) | YES | HIGH**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, missing market expectations of 2.4% and remaining near the Bank of Korea's 2% target amid contained price pressures.[1]  \nThis fresh data release could shift prediction markets on Asia-Pacific inflation trends o",
+      "headline": "Germany GDP Forecast Cut to 0",
+      "raw": "Germany GDP Forecast Cut to 0.6% Growth in 2026 | YES | MED confidence**  \nifo's Joint Economic Forecast Spring 2026 (April 1) slashed Germany's 2026 GDP growth to 0.6% from prior estimates (down 0.6pp), citing energy shocks overshadowing stimulus, with 0.9% in 2027[1]. No South Korea GDP updates; IMF projects $1.93T nominal[5][8]. Could impact markets on Eurozone recession risks.",
       "direction": "YES",
       "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 5,
+    "enter": 0,
     "alert": 7,
     "watch": 2,
-    "high_conf": 8
+    "high_conf": 1
   }
 }
