@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 128 categorical arb opportunities found\nScanned 3000 events (1943 multi-outcome) at 2026-04-15 16:11 UTC\nBest: 10.0% profit on 'Highest temperature in Shanghai on April 16?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'Valorant: BBL Esports vs GIANTX (BO3) - VCT EMEA Group Omega'",
+      "result": "LIVE \u2014 130 categorical arb opportunities found\nScanned 3000 events (1943 multi-outcome) at 2026-04-15 16:12 UTC\nBest: 10.0% profit on 'Highest temperature in Shanghai on April 16?' \u2014 buy YES on all 11 outcomes (sum=0.9)\nStrategy: Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)\n2nd: 9.95% on 'What day will the USD.AI token launch be?'",
       "priority": "HIGH",
-      "last_scan": "2026-04-15 16:11 UTC",
+      "last_scan": "2026-04-15 16:12 UTC",
       "opportunities": [
         {
           "event_title": "Highest temperature in Shanghai on April 16?",
@@ -100,39 +100,6 @@
           ],
           "url": "https://polymarket.com/event/highest-temperature-in-shanghai-on-april-16-2026",
           "strategy": "Buy YES on all 11 outcomes. Total cost: $0.9000. One wins $1.00. Profit: $0.1000 (10.00%)"
-        },
-        {
-          "event_title": "Valorant: BBL Esports vs GIANTX (BO3) - VCT EMEA Group Omega",
-          "event_slug": "val-bbl1-gx-2026-04-15",
-          "yes_sum": 0.9005,
-          "profit_pct": 9.95,
-          "profit_per_dollar_pct": 11.05,
-          "num_outcomes": 3,
-          "outcomes": [
-            {
-              "market_id": "1942731",
-              "slug": "val-bbl1-gx-2026-04-15-game2",
-              "question": "Valorant: BBL Esports vs GIANTX - Map 2 Winner",
-              "yes_price": 0.545,
-              "volume": 2526
-            },
-            {
-              "market_id": "1942729",
-              "slug": "val-bbl1-gx-2026-04-15",
-              "question": "Valorant: BBL Esports vs GIANTX (BO3) - VCT EMEA Group Omega",
-              "yes_price": 0.355,
-              "volume": 158231
-            },
-            {
-              "market_id": "1942730",
-              "slug": "val-bbl1-gx-2026-04-15-game1",
-              "question": "Valorant: BBL Esports vs GIANTX - Map 1 Winner",
-              "yes_price": 0.0005,
-              "volume": 136820
-            }
-          ],
-          "url": "https://polymarket.com/event/val-bbl1-gx-2026-04-15",
-          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9005. One wins $1.00. Profit: $0.0995 (9.95%)"
         },
         {
           "event_title": "What day will the USD.AI token launch be?",
@@ -372,88 +339,6 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9025. One wins $1.00. Profit: $0.0975 (9.75%)"
         },
         {
-          "event_title": "Highest temperature in Chicago on April 16?",
-          "event_slug": "highest-temperature-in-chicago-on-april-16-2026",
-          "yes_sum": 0.903,
-          "profit_pct": 9.7,
-          "profit_per_dollar_pct": 10.74,
-          "num_outcomes": 10,
-          "outcomes": [
-            {
-              "market_id": "1985933",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-68-69f",
-              "question": "Will the highest temperature in Chicago be between 68-69\u00b0F on April 16?",
-              "yes_price": 0.39,
-              "volume": 1558
-            },
-            {
-              "market_id": "1985934",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-70-71f",
-              "question": "Will the highest temperature in Chicago be between 70-71\u00b0F on April 16?",
-              "yes_price": 0.255,
-              "volume": 2039
-            },
-            {
-              "market_id": "1985935",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-72-73f",
-              "question": "Will the highest temperature in Chicago be between 72-73\u00b0F on April 16?",
-              "yes_price": 0.1,
-              "volume": 2964
-            },
-            {
-              "market_id": "1985931",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-64-65f",
-              "question": "Will the highest temperature in Chicago be between 64-65\u00b0F on April 16?",
-              "yes_price": 0.095,
-              "volume": 2661
-            },
-            {
-              "market_id": "1985936",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-74-75f",
-              "question": "Will the highest temperature in Chicago be between 74-75\u00b0F on April 16?",
-              "yes_price": 0.0295,
-              "volume": 2839
-            },
-            {
-              "market_id": "1985930",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-62-63f",
-              "question": "Will the highest temperature in Chicago be between 62-63\u00b0F on April 16?",
-              "yes_price": 0.013,
-              "volume": 3847
-            },
-            {
-              "market_id": "1985937",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-76-77f",
-              "question": "Will the highest temperature in Chicago be between 76-77\u00b0F on April 16?",
-              "yes_price": 0.0075,
-              "volume": 2635
-            },
-            {
-              "market_id": "1985929",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-61forbelow",
-              "question": "Will the highest temperature in Chicago be 61\u00b0F or below on April 16?",
-              "yes_price": 0.0055,
-              "volume": 4313
-            },
-            {
-              "market_id": "1985938",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-78-79f",
-              "question": "Will the highest temperature in Chicago be between 78-79\u00b0F on April 16?",
-              "yes_price": 0.005,
-              "volume": 1584
-            },
-            {
-              "market_id": "1985939",
-              "slug": "highest-temperature-in-chicago-on-april-16-2026-80forhigher",
-              "question": "Will the highest temperature in Chicago be 80\u00b0F or higher on April 16?",
-              "yes_price": 0.0025,
-              "volume": 2665
-            }
-          ],
-          "url": "https://polymarket.com/event/highest-temperature-in-chicago-on-april-16-2026",
-          "strategy": "Buy YES on all 10 outcomes. Total cost: $0.9030. One wins $1.00. Profit: $0.0970 (9.70%)"
-        },
-        {
           "event_title": "Bank of Russia decision in June?",
           "event_slug": "bank-of-russia-decision-in-june",
           "yes_sum": 0.903,
@@ -530,15 +415,186 @@
           ],
           "url": "https://polymarket.com/event/rhode-island-governor-republican-primary-winner",
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9050. One wins $1.00. Profit: $0.0950 (9.50%)"
+        },
+        {
+          "event_title": "Who will Trump meet with in April?",
+          "event_slug": "who-will-trump-meet-with-in-april",
+          "yes_sum": 0.908,
+          "profit_pct": 9.2,
+          "profit_per_dollar_pct": 10.13,
+          "num_outcomes": 12,
+          "outcomes": [
+            {
+              "market_id": "1696076",
+              "slug": "will-trump-meet-with-elon-musk-in-april-2026",
+              "question": "Will Trump meet with Elon Musk in April 2026?",
+              "yes_price": 0.255,
+              "volume": 2245
+            },
+            {
+              "market_id": "1696072",
+              "slug": "will-trump-meet-with-keir-starmer-in-april-2026",
+              "question": "Will Trump meet with Keir Starmer in April 2026?",
+              "yes_price": 0.13,
+              "volume": 12036
+            },
+            {
+              "market_id": "1696073",
+              "slug": "will-trump-meet-with-luiz-incio-lula-da-silva-in-april-2026",
+              "question": "Will Trump meet with Luiz In\u00e1cio Lula da Silva in April 2026?",
+              "yes_price": 0.123,
+              "volume": 2686
+            },
+            {
+              "market_id": "1696075",
+              "slug": "will-trump-meet-with-mark-zuckerberg-in-april-2026",
+              "question": "Will Trump meet with Mark Zuckerberg in April 2026?",
+              "yes_price": 0.0935,
+              "volume": 1980
+            },
+            {
+              "market_id": "1696067",
+              "slug": "will-trump-meet-with-volodymyr-zelenskyy-in-april-2026",
+              "question": "Will Trump meet with Volodymyr Zelenskyy in April 2026?",
+              "yes_price": 0.075,
+              "volume": 4506
+            },
+            {
+              "market_id": "1696071",
+              "slug": "will-trump-meet-with-king-of-morocco-mohammed-vi-in-april-2026",
+              "question": "Will Trump meet with King of Morocco Mohammed VI in April 2026?",
+              "yes_price": 0.064,
+              "volume": 1201
+            },
+            {
+              "market_id": "1696069",
+              "slug": "will-trump-meet-with-mohammed-bin-salman-in-april-2026",
+              "question": "Will Trump meet with Mohammed bin Salman in April 2026?",
+              "yes_price": 0.063,
+              "volume": 4760
+            },
+            {
+              "market_id": "1696074",
+              "slug": "will-trump-meet-with-giorgia-meloni-in-april-2026",
+              "question": "Will Trump meet with Giorgia Meloni in April 2026?",
+              "yes_price": 0.05,
+              "volume": 1509
+            },
+            {
+              "market_id": "1696065",
+              "slug": "will-trump-meet-with-reza-pahlavi-in-april-2026",
+              "question": "Will Trump meet with Reza Pahlavi in April 2026?",
+              "yes_price": 0.0325,
+              "volume": 2192
+            },
+            {
+              "market_id": "1696066",
+              "slug": "will-trump-meet-with-kim-jong-un-in-april-2026",
+              "question": "Will Trump meet with Kim Jong Un in April 2026?",
+              "yes_price": 0.009,
+              "volume": 26308
+            },
+            {
+              "market_id": "1696068",
+              "slug": "will-trump-meet-with-xi-jinping-in-april-2026",
+              "question": "Will Trump meet with Xi Jinping in April 2026?",
+              "yes_price": 0.0085,
+              "volume": 21442
+            },
+            {
+              "market_id": "1696070",
+              "slug": "will-trump-meet-with-vladimir-putin-in-april-2026",
+              "question": "Will Trump meet with Vladimir Putin in April 2026?",
+              "yes_price": 0.0045,
+              "volume": 14771
+            }
+          ],
+          "url": "https://polymarket.com/event/who-will-trump-meet-with-in-april",
+          "strategy": "Buy YES on all 12 outcomes. Total cost: $0.9080. One wins $1.00. Profit: $0.0920 (9.20%)"
+        },
+        {
+          "event_title": "How many Gold Cards will Trump sell in 2026?",
+          "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
+          "yes_sum": 0.909,
+          "profit_pct": 9.1,
+          "profit_per_dollar_pct": 10.01,
+          "num_outcomes": 9,
+          "outcomes": [
+            {
+              "market_id": "665316",
+              "slug": "will-trump-sell-0-gold-cards-in-2026",
+              "question": "Will Trump sell 0 Gold Cards in 2026?",
+              "yes_price": 0.405,
+              "volume": 26528
+            },
+            {
+              "market_id": "665317",
+              "slug": "will-trump-sell-1-100-gold-cards-in-2026",
+              "question": "Will Trump sell 1-100 Gold Cards in 2026?",
+              "yes_price": 0.1895,
+              "volume": 10678
+            },
+            {
+              "market_id": "665319",
+              "slug": "will-trump-sell-1k-2pt5k-gold-cards-in-2026",
+              "question": "Will Trump sell 1k-2.5k Gold Cards in 2026?",
+              "yes_price": 0.06,
+              "volume": 7596
+            },
+            {
+              "market_id": "665320",
+              "slug": "will-trump-sell-2pt5k-5k-gold-cards-in-2026",
+              "question": "Will Trump sell 2.5k-5k Gold Cards in 2026?",
+              "yes_price": 0.059,
+              "volume": 4552
+            },
+            {
+              "market_id": "665324",
+              "slug": "will-trump-sell-over-100k-gold-cards-in-2026",
+              "question": "Will Trump sell over 100k Gold Cards in 2026?",
+              "yes_price": 0.056,
+              "volume": 15173
+            },
+            {
+              "market_id": "665323",
+              "slug": "will-trump-sell-25k-100k-gold-cards-in-2026",
+              "question": "Will Trump sell 25k-100k Gold Cards in 2026?",
+              "yes_price": 0.044,
+              "volume": 5371
+            },
+            {
+              "market_id": "665321",
+              "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
+              "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
+              "yes_price": 0.037,
+              "volume": 6256
+            },
+            {
+              "market_id": "665318",
+              "slug": "will-trump-sell-101-1k-gold-cards-in-2026",
+              "question": "Will Trump sell 101-1k Gold Cards in 2026?",
+              "yes_price": 0.034,
+              "volume": 5088
+            },
+            {
+              "market_id": "665322",
+              "slug": "will-trump-sell-10k-25k-gold-cards-in-2026",
+              "question": "Will Trump sell 10k-25k Gold Cards in 2026?",
+              "yes_price": 0.0245,
+              "volume": 55653
+            }
+          ],
+          "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9090. One wins $1.00. Profit: $0.0910 (9.10%)"
         }
       ],
       "stats": {
         "total_events": 3000,
         "checked_multi_outcome": 1943,
-        "skipped_single_outcome": 595,
-        "opportunities_found": 128,
+        "skipped_single_outcome": 593,
+        "opportunities_found": 130,
         "best_profit_pct": 10.0,
-        "scanned_at": "2026-04-15 16:11 UTC"
+        "scanned_at": "2026-04-15 16:12 UTC"
       }
     },
     {
