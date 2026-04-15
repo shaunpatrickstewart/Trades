@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-15T11:55:38.781772+00:00",
-  "scan_seconds": 28.3,
+  "last_scan": "2026-04-15T11:58:25.774004+00:00",
+  "scan_seconds": 27.4,
   "markets_scanned": 79,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_895719",
-      "timestamp": "2026-04-15T11:55:19.464938+00:00",
+      "id": "sig_64607",
+      "timestamp": "2026-04-15T11:58:08.351195+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence**",
-      "raw": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence**  \nOn April 15, 2026, President Trump announced potential new negotiations with Iran in the coming days, hosted by Pakistan, following constructive talks in Islamabad[4]. US Vice President JD Vance confirmed the existing two-week ceasefire\u2014agreed on April 8, 2026, and mediated by Pakistan\u2014is holding, amid US pushes f",
+      "headline": "US and Iran Plan New Round of Talks Within Days as Ceasefire Holds** | YES | HIGH confidence[4][5]",
+      "raw": "US and Iran Plan New Round of Talks Within Days as Ceasefire Holds** | YES | HIGH confidence[4][5]\n\nUS President Trump announced a new round of negotiations with Iran could occur in the next couple of days, with Pakistan offering to host again in Islamabad after prior talks failed to yield a breakthrough[4][5]. VP JD Vance confirmed the two-week ceasefire\u2014agreed on April 8 and mediated by Pakistan",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,27 +22,40 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_903298",
-      "timestamp": "2026-04-15T11:55:27.043019+00:00",
+      "id": "sig_70014",
+      "timestamp": "2026-04-15T11:58:13.758013+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any confirmed or newly announced developments that would immediately move prediction markets",
-      "raw": "Any confirmed or newly announced developments that would immediately move prediction markets\n\nThe West Bengal election information (2,926 candidates announced, polling dates set, TMC vs. BJP contest) appears to be routine electoral administration news rather than a late-breaking development. Additionally, the search results don't contain information specifically connecting these topics to the quer",
-      "direction": null,
+      "headline": "West Bengal Assembly elections confirmed in two phases on April 23 & 29, vote count May 4; TMC fields Kunal Ghosh in Bel",
+      "raw": "West Bengal Assembly elections confirmed in two phases on April 23 & 29, vote count May 4; TMC fields Kunal Ghosh in Beleghata amid tight BJP contest | YES | HIGH confidence** [2][3][5]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_70003",
+      "timestamp": "2026-04-15T11:58:13.747327+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_903273",
-      "timestamp": "2026-04-15T11:55:27.018081+00:00",
+      "id": "sig_70008",
+      "timestamp": "2026-04-15T11:58:13.752649+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the market-moving breaking news you're requesting in the format specified",
-      "raw": "I cannot provide the market-moving breaking news you're requesting in the format specified. The search result provided contains information about West Bengal Assembly elections scheduled for April 23 and 29, 2026, with results expected May 4\u2014events that have not yet occurred as of April 15, 2026.\n\nThe search results do not include:",
-      "direction": null,
+      "headline": "West Bengal Supreme Court DA dispute hearing set for today (April 15), with pressure on TMC government to address \u20b941,00",
+      "raw": "West Bengal Supreme Court DA dispute hearing set for today (April 15), with pressure on TMC government to address \u20b941,000 crore arrears amid 2026 election campaign targeting 20 lakh employees | YES | MED confidence** [1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
@@ -52,12 +65,12 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_903287",
-      "timestamp": "2026-04-15T11:55:27.032359+00:00",
+      "id": "sig_70019",
+      "timestamp": "2026-04-15T11:58:13.763334+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any breaking news about JD Vance",
-      "raw": "Any breaking news about JD Vance",
-      "direction": null,
+      "headline": "Mass voter deletions under Special Intensive Revision (SIR): Over 90L names (12% of rolls) removed, sparking protests &",
+      "raw": "Mass voter deletions under Special Intensive Revision (SIR): Over 90L names (12% of rolls) removed, sparking protests & TMC accusations against EC ahead of polls | YES | HIGH confidence** [5][6]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -65,22 +78,39 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_903292",
-      "timestamp": "2026-04-15T11:55:27.037613+00:00",
+      "id": "sig_70024",
+      "timestamp": "2026-04-15T11:58:13.768494+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any congressional announcements or resolutions",
-      "raw": "Any congressional announcements or resolutions",
-      "direction": null,
+      "headline": "TMC-EC tensions escalate with 'straight talk' clashes; Mamata Banerjee files nomination from Bhabanipur, slams SIR as id",
+      "raw": "TMC-EC tensions escalate with 'straight talk' clashes; Mamata Banerjee files nomination from Bhabanipur, slams SIR as identity threat | YES | HIGH confidence** [6]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_81028",
+      "timestamp": "2026-04-15T11:58:24.772751+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SOUTH KOREA MARCH 2026 ANNUAL INFLATION RISES TO 2",
+      "raw": "SOUTH KOREA MARCH 2026 ANNUAL INFLATION RISES TO 2.2%, BELOW FORECASTS OF 2.4% | NO | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, undershooting market expectations of 2.4%, with core inflation also easing to 2.2% from 2.3%.[1][3] This data, released around April 2, indicates ongoing moderation amid oil price pressures from the Ir",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
     "high_conf": 2
   }
