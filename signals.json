@@ -1,19 +1,20 @@
 {
-  "last_scan": "2026-04-15T12:09:43.448207+00:00",
-  "scan_seconds": 25.1,
-  "markets_scanned": 157,
+  "last_scan": "2026-04-15T12:12:32.763948+00:00",
+  "scan_seconds": 30.6,
+  "markets_scanned": 158,
   "open_positions": 115,
   "signals": [
     {
-      "id": "sig_743183",
-      "timestamp": "2026-04-15T12:09:26.927282+00:00",
+      "id": "sig_906401",
+      "timestamp": "2026-04-15T12:12:10.145430+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence**",
-      "raw": "US Signals New Iran Talks Within Days as Ceasefire Holds | YES | HIGH confidence**  \nPresident Trump announced a new round of US-Iran negotiations could occur within days, with VP JD Vance confirming the ceasefire\u2014now 6-7 days old\u2014is holding amid ongoing diplomatic efforts in Islamabad, Pakistan.[1][2][3]  \nThis follows failed first-round talks, with both sides preparing clearer positions on Iran'",
+      "headline": "US-Iran Plan Second Round of Peace Talks as Initial Ceasefire Deadline Approaches** | YES | MED confidence[7][5][4]",
+      "raw": "US-Iran Plan Second Round of Peace Talks as Initial Ceasefire Deadline Approaches** | YES | MED confidence[7][5][4]\n\nA two-week US-Iran ceasefire was announced on April 8, 2026, mediated by Pakistan, with Trump confirming Iran's commitment to reopen the Strait of Hormuz and both sides agreeing to immediate talks in Islamabad starting April 11[1][2][4][5][6]. The first round of negotiations ended w",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
@@ -21,41 +22,125 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_758703",
-      "timestamp": "2026-04-15T12:09:42.447270+00:00",
+      "id": "sig_917937",
+      "timestamp": "2026-04-15T12:12:21.681794+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 inflation rate confirmed at 2",
-      "raw": "South Korea March 2026 inflation rate confirmed at 2.16% YoY (up from 2.00% in Feb), with MoM rise of 0.34% | NO | HIGH confidence** [3]\n\nSouth Korea's latest monthly inflation data for March 2026 shows a year-over-year rate of **2.16%**, an increase from February 2026's 2.00%, driven by a 0.34% month-to-month gain; the CPI reached 118.8[3]. This is the most recent release available as of April 15",
+      "headline": "CLARITY Act Roundtable Confirmed for April 16 with Unprecedented Backing from Coinbase, Treasury Secretary, SEC Chair, a",
+      "raw": "CLARITY Act Roundtable Confirmed for April 16 with Unprecedented Backing from Coinbase, Treasury Secretary, SEC Chair, and Former White House Crypto Czar | YES | HIGH confidence**[7]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_928019",
+      "timestamp": "2026-04-15T12:12:31.763101+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key drivers of recent inflation:** Producer prices increased for the sixth consecutive month in February, rising 2",
+      "raw": "Key drivers of recent inflation:** Producer prices increased for the sixth consecutive month in February, rising 2.4% year-over-year, driven primarily by surging global oil costs with diesel and naphtha prices spiking 7.4% and 8.7% respectively[5]. Food and energy prices remain primary inflationary concerns despite recent moderation from favorable harvest effects and fuel tax adjustments[2].\n\nThe ",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_747787",
-      "timestamp": "2026-04-15T12:09:31.531616+00:00",
+      "id": "sig_912130",
+      "timestamp": "2026-04-15T12:12:15.874961+00:00",
       "source": "PERPLEXITY",
-      "headline": "CPAC Straw Poll Confirms JD Vance as Top Republican Choice for 2028 Presidential Nomination with 53% Support** | **YES**",
-      "raw": "CPAC Straw Poll Confirms JD Vance as Top Republican Choice for 2028 Presidential Nomination with 53% Support** | **YES** | **HIGH** confidence[1][3]\n\nCPAC attendees voted Vice President **JD Vance** as the Republican presidential nominee in a straw poll, receiving 53% of votes from about 1600 participants, ahead of Secretary of State Marco Rubio at 35%; this signals strong conservative base suppor",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "JD Vance**, as Vice President, rallied with Turning Point USA in Georgia on April 15 amid low turnout and criticism over",
+      "raw": "JD Vance**, as Vice President, rallied with Turning Point USA in Georgia on April 15 amid low turnout and criticism over Trump-related feuds, following a failed Pakistan trip on the Iran war\u2014no White House ties or market-moving confirmations.[2]  \nNo connections found between Hathaway, Vance, the White House, or Republicans in April events; search results lack recent (post-March) developments.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Joe Hathaway win the NJ-11 special election?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_912142",
+      "timestamp": "2026-04-15T12:12:15.886448+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (based on absence of matching results across sources)",
+      "raw": "Confidence: HIGH** (based on absence of matching results across sources).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_917949",
+      "timestamp": "2026-04-15T12:12:21.693215+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CME Group Announces Regulated SUI Futures Launch on May 4 | YES | HIGH confidence**[5]",
+      "raw": "CME Group Announces Regulated SUI Futures Launch on May 4 | YES | HIGH confidence**[5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_917960",
+      "timestamp": "2026-04-15T12:12:21.704663+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Two-Week Ceasefire Announcement Drives BTC to $72,000, ETH Above $2,200, XRP to $1",
+      "raw": "US-Iran Two-Week Ceasefire Announcement Drives BTC to $72,000, ETH Above $2,200, XRP to $1.38 Rally | YES | MED confidence (dated April 7)**[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_917972",
+      "timestamp": "2026-04-15T12:12:21.716094+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Shows 170% Rally Potential to $8,500 After Breaking 5-Month Downtrend, Echoing 2021 Pattern | NO (prediction, n",
+      "raw": "Ethereum Shows 170% Rally Potential to $8,500 After Breaking 5-Month Downtrend, Echoing 2021 Pattern | NO (prediction, not confirmed announcement) | LOW confidence**[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_928007",
+      "timestamp": "2026-04-15T12:12:31.751775+00:00",
+      "source": "PERPLEXITY",
+      "headline": "BOK HOLDS RATE AT 2",
+      "raw": "BOK HOLDS RATE AT 2.5% AS INFLATION RISES TO 2.2% IN MARCH** | NO | HIGH confidence\n\nSouth Korea's **annual inflation rose to 2.2% in March 2026**, exceeding the Bank of Korea's 2% target and market forecasts of 2.4%[1]. The Bank of Korea maintained its benchmark interest rate at 2.5% for the 7th consecutive month on April 10, 2026, with board members unanimously deciding to hold steady despite in",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 1,
+    "alert": 7,
     "watch": 0,
     "high_conf": 2
   }
