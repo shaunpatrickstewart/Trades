@@ -1,31 +1,126 @@
 {
-  "last_scan": "2026-04-15T22:09:05.886348+00:00",
-  "scan_seconds": 31.6,
-  "markets_scanned": 79,
-  "open_positions": 45,
+  "last_scan": "2026-04-15T22:11:57.142443+00:00",
+  "scan_seconds": 30.8,
+  "markets_scanned": 80,
+  "open_positions": 44,
   "signals": [
     {
-      "id": "sig_705986",
-      "timestamp": "2026-04-15T22:08:49.694387+00:00",
+      "id": "sig_880528",
+      "timestamp": "2026-04-15T22:11:44.236566+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Strikes Obliterate Iranian Capabilities; Vance Peace Talks Fail Amid Strait of Hormuz Blockade** | **YES** | **HIGH**",
-      "raw": "US Strikes Obliterate Iranian Capabilities; Vance Peace Talks Fail Amid Strait of Hormuz Blockade** | **YES** | **HIGH** confidence\n\nTrump confirmed U.S. strikes hit over 7,000 Iranian targets, slashing missile launches by 90% and drone attacks by 95%, as the conflict enters its third week with a naval blockade on the Strait of Hormuz.[1][2] Vice President JD Vance's 21-hour peace talks with Iran ",
+      "headline": "King Charles to Hold Private Oval Office Talks with President Trump on Upcoming US State Visit | YES | HIGH confidence**",
+      "raw": "King Charles to Hold Private Oval Office Talks with President Trump on Upcoming US State Visit | YES | HIGH confidence**  \nKing Charles will engage in private discussions with President Trump during a state visit aimed at addressing US-UK challenges and renewing bilateral ties, as reported in recent coverage.[1]  \nNo direct White House announcements or resolutions confirmed yet, but the planned ta",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Strait of Hormuz traffic returns to normal by end of April?"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_886312",
+      "timestamp": "2026-04-15T22:11:50.020982+00:00",
+      "source": "PERPLEXITY",
+      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRP Ledger and Ethereum | YES | HIGH confidence**",
+      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRP Ledger and Ethereum | YES | HIGH confidence**  \nThe official full-scale rollout of Ripple USD (RLUSD) stablecoin across the XRP Ledger and Ethereum has been confirmed as of April 14, 2026, driving massive capital influx, record-breaking XRPL transaction volume, and heightened institutional adoption amid resolved SEC legal battles and advancing X",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of XRP be above $1.00 on April 19?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_892406",
+      "timestamp": "2026-04-15T22:11:56.114910+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Fed's March 17\u201318, 2026 FOMC minutes** released April 8, 2026, with no new rate cuts despite raised core PCE inflation",
+      "raw": "**Fed's March 17\u201318, 2026 FOMC minutes** released April 8, 2026, with no new rate cuts despite raised core PCE inflation forecast to 2.7% (from 2.5%), citing Middle East oil spikes and sticky pressures; still projects one 2026 cut amid labor market risks[2][7].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_892412",
+      "timestamp": "2026-04-15T22:11:56.120311+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Powell's March 30, 2026 Harvard speech** (pre-term end in May): Fed to \"wait and see\" on Iran war, tariffs (adding 0",
+      "raw": "**Powell's March 30, 2026 Harvard speech** (pre-term end in May): Fed to \"wait and see\" on Iran war, tariffs (adding 0.5\u20131% to inflation as one-time), and gas prices before moves, committed to 2% target[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_892417",
+      "timestamp": "2026-04-15T22:11:56.125577+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Bank of Korea (BoK) pause influenced** by Fed's hawkish hold, avoiding cuts amid energy shocks and weak won to prevent",
+      "raw": "**Bank of Korea (BoK) pause influenced** by Fed's hawkish hold, avoiding cuts amid energy shocks and weak won to prevent inflation rebound[2][5].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_892422",
+      "timestamp": "2026-04-15T22:11:56.130830+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**South Korea inflation stats** stable at ~3",
+      "raw": "**South Korea inflation stats** stable at ~3.6% in 2023, with high groceries but low utilities; no 2026 annual figure or new data[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_892428",
+      "timestamp": "2026-04-15T22:11:56.136184+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Fed Chair transition uncertainty** looms for May 2026, with potential volatility from Trump policies and inflation pre",
+      "raw": "**Fed Chair transition uncertainty** looms for May 2026, with potential volatility from Trump policies and inflation pressures; new nomination caused KOSPI drop (date unspecified, recent)[4][6].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_892433",
+      "timestamp": "2026-04-15T22:11:56.141486+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Global forecasts**: Core CPI at 2",
+      "raw": "**Global forecasts**: Core CPI at 2.8% in 2026, U.S. 3.2%, BoK on hold near 2%[5].\n\nNo events today per Fed site (latest: April 14 discount minutes, unrelated)[7]; prior items too dated for \"RIGHT NOW\" market impact.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 0,
+    "enter": 2,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
