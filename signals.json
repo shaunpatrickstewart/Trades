@@ -1,105 +1,256 @@
 {
-  "last_scan": "2026-04-15T01:26:55.737642+00:00",
-  "scan_seconds": 29.0,
+  "last_scan": "2026-04-15T01:29:48.276308+00:00",
+  "scan_seconds": 33.3,
   "markets_scanned": 74,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_171808",
-      "timestamp": "2026-04-15T01:26:35.590735+00:00",
+      "id": "sig_363482",
+      "timestamp": "2026-04-15T01:29:47.264980+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline** | **YES** | **HIGH** confidence",
-      "raw": "Trump Announces 2-Week Ceasefire with Iran Ahead of Deadline** | **YES** | **HIGH** confidence\n\nPresident Donald Trump confirmed a two-week ceasefire agreement with Iran on Tuesday, April 7, suspending U.S. bombing and attacks to allow negotiations on a 10-point peace deal, including reopening the Strait of Hormuz[1][4][5]. Trump posted on Truth Social early Wednesday that Iran seeks peace after U",
+      "headline": "Germany Annual Inflation Confirmed at 2",
+      "raw": "Germany Annual Inflation Confirmed at 2.7% for March 2026 | YES | HIGH confidence**  \nGermany's annual inflation rate rose to 2.7% in March 2026 from 1.9% in February, confirming preliminary estimates and marking the highest since January 2024, driven by a 7.2% energy price surge amid the Iran war impact.[1][2] This exceeds recent ECB target expectations and could shift prediction markets on infla",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_363493",
+      "timestamp": "2026-04-15T01:29:47.275654+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking South Korea inflation confirmation RIGHT NOW | NO | N/A**",
+      "raw": "No breaking South Korea inflation confirmation RIGHT NOW | NO | N/A**  \nSearch results lack any recent or confirmed South Korea inflation data as of April 15, 2026.",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_349343",
+      "timestamp": "2026-04-15T01:29:33.125524+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (results lack any \"just confirmed\" events post-election date and pre-April 15; no Musk mentions)",
+      "raw": "Confidence: HIGH** (results lack any \"just confirmed\" events post-election date and pre-April 15; no Musk mentions).[1][2]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_358247",
+      "timestamp": "2026-04-15T01:29:42.029674+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Alpenglow Consensus Upgrade Approved for 2026 | YES | HIGH confidence**",
+      "raw": "Alpenglow Consensus Upgrade Approved for 2026 | YES | HIGH confidence**\n\nThe highly anticipated **Alpenglow upgrade** has been confirmed, which aims to reduce transaction finality from 12 seconds to just **150 milliseconds**[1]. This technical advancement addresses a core scalability concern that has historically weighed on SOL's institutional adoption.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_343411",
+      "timestamp": "2026-04-15T01:29:27.193375+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the most recent search results from April 14, 2026:",
+      "raw": "Based on the most recent search results from April 14, 2026:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_343416",
+      "timestamp": "2026-04-15T01:29:27.198903+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Naval Blockade of Iranian Ports Begins | YES | HIGH confidence**",
+      "raw": "US Naval Blockade of Iranian Ports Begins | YES | HIGH confidence**\n\nThe United States has implemented a **naval blockade on Iran's ports and coastal areas**[1]. President Trump declared that any Iranian \"fast attack ships\" attempting to approach US vessels will be \"immediately eliminated,\" while Tehran has vowed retaliation[1]. This represents a significant escalation that contradicts Iran's posi",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump announce that the US x Iran ceasefire has been br"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_343422",
+      "timestamp": "2026-04-15T01:29:27.204325+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ceasefire Negotiations Resume in Islamabad | YES | HIGH confidence**",
+      "raw": "Ceasefire Negotiations Resume in Islamabad | YES | HIGH confidence**\n\nPakistan is actively working to bring US and Iranian negotiators back to the table, with Iran responding positively to continuing talks[3]. However, the ceasefire remains fragile and is currently scheduled to expire on April 22[3].",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces US x Iran ceasefire end by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_185003",
-      "timestamp": "2026-04-15T01:26:48.785305+00:00",
+      "id": "sig_343427",
+      "timestamp": "2026-04-15T01:29:27.209764+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Token Holders & Surging Network Metrics Amid Alpenglow Upgrade Prep | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Token Holders & Surging Network Metrics Amid Alpenglow Upgrade Prep | YES | HIGH confidence**\n\nSolana achieved an all-time high of 167 million monthly token holders as of April 14, 2026, with daily non-vote transactions at 148 million\u2014records confirmed via on-chain data from Token Terminal and Artemis, alongside Q1 2026 economic activity reaching $1.1 trillion (up 6,500% Qo",
+      "headline": "First Round of Talks Ended Without Breakthrough | YES | HIGH confidence**",
+      "raw": "First Round of Talks Ended Without Breakthrough | YES | HIGH confidence**\n\nThe highest-level US-Iran negotiations in decades concluded on April 12 without agreement[3]. Vice President JD Vance stated that Iran refused to accept American terms on nuclear development, and Washington presented what it described as its \"final and best offer\"[3].",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Ethereum be above $2,300 on April 18?",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_343432",
+      "timestamp": "2026-04-15T01:29:27.214963+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market-Moving Implications:**",
+      "raw": "Market-Moving Implications:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_343438",
+      "timestamp": "2026-04-15T01:29:27.220283+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The naval blockade implementation signals willingness to escalate despite diplomatic efforts, potentially increasing con",
+      "raw": "The naval blockade implementation signals willingness to escalate despite diplomatic efforts, potentially increasing conflict risk",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_343443",
+      "timestamp": "2026-04-15T01:29:27.225691+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The ceasefire expiration deadline (April 22) creates a critical pressure point for negotiations",
+      "raw": "The ceasefire expiration deadline (April 22) creates a critical pressure point for negotiations",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_343449",
+      "timestamp": "2026-04-15T01:29:27.231275+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Diplomatic intermediaries (Pakistan, Turkey, Egypt) are actively engaged, suggesting ongoing negotiation potential rathe",
+      "raw": "Diplomatic intermediaries (Pakistan, Turkey, Egypt) are actively engaged, suggesting ongoing negotiation potential rather than immediate military escalation",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_358241",
+      "timestamp": "2026-04-15T01:29:42.023918+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Network Hits 167M Monthly Token Holders & Reaches $1",
+      "raw": "Solana Network Hits 167M Monthly Token Holders & Reaches $1.1T Economic Activity | YES | HIGH confidence**\n\nSolana has achieved two major milestones as of April 14, 2026: the network reached an **all-time record of 167 million monthly token holders** with daily non-vote transactions hitting **148 million**, and total on-chain economic activity surged to **$1.1 trillion in Q1 2026**, representing a",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
         "Solana Up or Down - April 15, 4:40AM-4:45AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_190944",
-      "timestamp": "2026-04-15T01:26:54.726296+00:00",
+      "id": "sig_358253",
+      "timestamp": "2026-04-15T01:29:42.035244+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations on South Korea GDP or debt-to-GDP | NO | HIGH confidence**",
-      "raw": "No breaking confirmations on South Korea GDP or debt-to-GDP | NO | HIGH confidence**  \nDebt-to-GDP data covers 2025 settlement (1,304.5 trillion won), with projections nearing 60% by 2030; no new April 2026 GDP releases confirmed.[2]",
+      "headline": "Institutional Capital Accumulation Continues | YES | HIGH confidence**",
+      "raw": "Institutional Capital Accumulation Continues | YES | HIGH confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_358258",
+      "timestamp": "2026-04-15T01:29:42.040619+00:00",
+      "source": "PERPLEXITY",
+      "headline": "BlackRock and Fidelity** have disclosed record SOL ETF holdings despite broader market consolidation[1], signaling susta",
+      "raw": "BlackRock and Fidelity** have disclosed record SOL ETF holdings despite broader market consolidation[1], signaling sustained institutional confidence in the network despite recent volatility.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_358264",
+      "timestamp": "2026-04-15T01:29:42.046218+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Price Action: SOL Trading $82-$90 with Bullish Consolidation | NEUTRAL-BULLISH | MED confidence**",
+      "raw": "Price Action: SOL Trading $82-$90 with Bullish Consolidation | NEUTRAL-BULLISH | MED confidence**\n\nSOL is trading between $82.19 and $88-$90 with buyers defending the $80 support level[2][6]. Analysts identify resistance at $87-$89.75, with $108 as the next major target if breakout momentum holds[2]. DeepSeek AI projects an April range of $75-$95, with potential upside toward $110 if $95 breaks[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_363488",
+      "timestamp": "2026-04-15T01:29:47.270288+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking GDP confirmation for Germany RIGHT NOW | NO | N/A**",
+      "raw": "No breaking GDP confirmation for Germany RIGHT NOW | NO | N/A**  \nQ4 2025 GDP grew 0.3% qoq and 0.2% annually per January/February 2026 reports; 2026 forecasts range 0.6-1.2% but show downward revisions due to energy shocks, with no new April announcements.[2][3][7]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_190949",
-      "timestamp": "2026-04-15T01:26:54.731701+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No new Germany GDP, inflation, or \"will\" resolutions announced | NO | HIGH confidence**",
-      "raw": "No new Germany GDP, inflation, or \"will\" resolutions announced | NO | HIGH confidence**  \nOECD projects Germany GDP growth at 1% for 2026; stock market value briefly surpassed by South Korea ($3.25T vs $3.22T), but no inflation or policy shifts confirmed today.[4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_190954",
-      "timestamp": "2026-04-15T01:26:54.736835+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IMF raises South Korea inflation outlook to 2",
-      "raw": "IMF raises South Korea inflation outlook to 2.5% | YES | MED confidence**  \nRecent IMF update lifts 2026 inflation forecast amid fiscal pressures; less timestamped than CPI data but relevant to macro bets.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_190938",
-      "timestamp": "2026-04-15T01:26:54.720790+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rises to 2",
-      "raw": "South Korea's March 2026 annual inflation rises to 2.2%, below forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% amid Middle East energy volatility; this fresh data from Statistics Korea could shift prediction markets on BoK rate cuts or inflation targets.[1]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 2
+    "alert": 15,
+    "watch": 0,
+    "high_conf": 4
   }
 }
