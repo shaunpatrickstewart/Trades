@@ -1,93 +1,64 @@
 {
-  "last_scan": "2026-04-15T12:38:10.391851+00:00",
-  "scan_seconds": 23.9,
-  "markets_scanned": 141,
-  "open_positions": 99,
+  "last_scan": "2026-04-15T12:40:56.075039+00:00",
+  "scan_seconds": 25.8,
+  "markets_scanned": 151,
+  "open_positions": 111,
   "signals": [
     {
-      "id": "sig_459652",
-      "timestamp": "2026-04-15T12:38:03.394425+00:00",
+      "id": "sig_614368",
+      "timestamp": "2026-04-15T12:40:38.110573+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Schedules CLARITY Act Roundtable for April 16, 2026 | YES | HIGH confidence**",
-      "raw": "SEC Schedules CLARITY Act Roundtable for April 16, 2026 | YES | HIGH confidence**  \nThe U.S. SEC has confirmed a roundtable on April 16 to discuss the CLARITY Act, aiming to clarify regulatory oversight for digital assets like XRP, potentially reducing legal risks and boosting institutional adoption.[5] This development, dated around April 13, directly impacts XRP amid ongoing regulatory uncertain",
-      "direction": "YES",
+      "headline": "US-Iran Ceasefire Holding Fragily Amid Blockade and Failed Talks; Second Round Negotiations Planned Soon | NO | MED conf",
+      "raw": "US-Iran Ceasefire Holding Fragily Amid Blockade and Failed Talks; Second Round Negotiations Planned Soon | NO | MED confidence** [1][2][3][5][6]\n\nA US-Iran ceasefire, announced around April 8 after 40 days of hostilities, remains in effect but is described as fragile due to a new US naval blockade on Iranian shipping in the Strait of Hormuz, continued Israeli strikes in Lebanon killing hundreds, a",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of XRP be between $1.50 and $1.60 on April 15",
-        "Will the price of XRP be above $1.00 on April 16?",
-        "Will the price of XRP be above $1.80 on April 16?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Kharg Island no longer under Iranian control by April 15?"
       ],
       "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_465648",
-      "timestamp": "2026-04-15T12:38:09.390573+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence**\u2014search results lack any confirmed announcements since April 10 that qualify as \"just\" breaking or",
-      "raw": "NO | LOW confidence**\u2014search results lack any confirmed announcements since April 10 that qualify as \"just\" breaking or market-moving (e.g., no new CPI data, policy shifts, or resolutions on oil/geopolitical impacts).[1][2][3][4][5][6]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_449333",
-      "timestamp": "2026-04-15T12:37:53.075655+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Second Round of Ceasefire Talks in Pakistan as Deadline Looms, Despite Failed First Round and US Blocka",
-      "raw": "US and Iran Plan Second Round of Ceasefire Talks in Pakistan as Deadline Looms, Despite Failed First Round and US Blockade** | NO | MED confidence\n\nNo ceasefire has been confirmed, announced, or resolved\u2014first talks in Islamabad ended without a deal, but both sides are preparing for round two possibly within days, with exchanged proposals including Iran's 5-year nuclear suspension offer vs. US 20-",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_454416",
-      "timestamp": "2026-04-15T12:37:58.158964+00:00",
+      "id": "sig_619967",
+      "timestamp": "2026-04-15T12:40:43.709503+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news update you're requesting",
-      "raw": "I cannot provide the breaking news update you're requesting. The search results provided contain only information about Joe Hathaway's candidacy in New Jersey's 11th Congressional District special election scheduled for April 16, 2026. They do not include any recent announcements or developments involving the White House, Vice President Vance, or market-moving confirmations.\n\nTo get current breaki",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "NJ-11 Special Election Fundraising Reports Confirm Democrat Mejia Outraises Republican Hathaway 2:1 Ahead of April Vote",
+      "raw": "NJ-11 Special Election Fundraising Reports Confirm Democrat Mejia Outraises Republican Hathaway 2:1 Ahead of April Vote | NO | HIGH confidence** [2]\n\nRecent filings show Democrat Analilia Mejia raised $676,309 from January 17 to March 27, versus Hathaway's $264,015, giving her $373,509 cash-on-hand compared to his $109,237; this reinforces her favoritism in the Democrat-leaning district per a 17-p",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will Joe Hathaway win the NJ-11 special election?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will Donald Trump post 80-99 Truth Social posts from April 1"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_459663",
-      "timestamp": "2026-04-15T12:38:03.405135+00:00",
+      "id": "sig_631331",
+      "timestamp": "2026-04-15T12:40:55.073937+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple Launches Unified Treasury System on April 13, 2026 | YES | HIGH confidence**",
-      "raw": "Ripple Launches Unified Treasury System on April 13, 2026 | YES | HIGH confidence**  \nRipple announced a new platform merging SWIFT and XRP rails for corporate payments and liquidity, targeting broader adoption.[5] This resolution enhances XRP's utility and could influence April price predictions on platforms like Polymarket, where bullish scenarios (e.g., above $1.4 at 56%) are prominent.[1][8]  ",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Oil Shock, Potentially Leading to Rate Hike** |",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Oil Shock, Potentially Leading to Rate Hike** | YES | HIGH confidence[1][2][3]\n\nKevin Warsh, former Fed Governor, has been nominated by President Trump to succeed Jerome Powell as Fed Chair by mid-May 2026, sparking immediate market speculation on his hawkish stance[1][2][3]. Annual core inflation has jumped to 3.9% (pushing ",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the price of Solana be between $90 and $100 on April 15",
-        "Will the price of Ethereum be above $2,500 on April 15?",
-        "Will the price of XRP be between $1.50 and $1.60 on April 15"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 1,
+    "enter": 2,
+    "alert": 1,
+    "watch": 0,
     "high_conf": 2
   }
 }
