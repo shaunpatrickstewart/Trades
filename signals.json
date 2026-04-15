@@ -1,117 +1,81 @@
 {
-  "last_scan": "2026-04-15T23:42:42.693002+00:00",
-  "scan_seconds": 24.5,
+  "last_scan": "2026-04-15T23:45:27.260633+00:00",
+  "scan_seconds": 25.0,
   "markets_scanned": 162,
   "open_positions": 122,
   "signals": [
     {
-      "id": "sig_322015",
-      "timestamp": "2026-04-15T23:42:25.717235+00:00",
+      "id": "sig_491794",
+      "timestamp": "2026-04-15T23:45:15.496296+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal Amid Strait of Hormuz Crisis | YES | HIGH confidence**[1][3]",
-      "raw": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal Amid Strait of Hormuz Crisis | YES | HIGH confidence**[1][3]\n\nRussia's Kremlin spokesman Dmitry Peskov confirmed on April 8, 2026, that Moscow welcomes a two-week ceasefire agreement between the US, Israel, and Iran, emphasizing de-escalation and diplomacy over military action to avoid wider war and oil shocks[1]. Russian FM Sergei Lavrov echoed this ",
+      "headline": "Trump Deletes Controversial Jesus-Themed Truth Social Post After Backlash, Explains It as Red Cross Doctor Image | NO |",
+      "raw": "Trump Deletes Controversial Jesus-Themed Truth Social Post After Backlash, Explains It as Red Cross Doctor Image | NO | LOW confidence**\n\nNewsmax host Rob Finnerty discussed on April 14, 2026, a now-deleted Truth Social post by Donald Trump featuring an image of Trump seemingly dressed as Jesus healing someone, with eagles, the Statue of Liberty, and a horned figure overhead, which offended viewer",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_497673",
+      "timestamp": "2026-04-15T23:45:21.375631+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Monthly Token Holders & 148M Daily Transactions on April 14, 2026, Boosted by Alpenglow Upgrade*",
+      "raw": "Solana Hits Record 167M Monthly Token Holders & 148M Daily Transactions on April 14, 2026, Boosted by Alpenglow Upgrade** | YES | HIGH confidence[1]\n\nSolana's network achieved unprecedented activity levels as of April 14, 2026, with 167 million monthly token holders and historic highs of 148 million daily non-vote transactions, driven by the anticipated **Alpenglow consensus upgrade** reducing tra",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Bitcoin reach $80,000 on April 15?",
+        "Will Bitcoin dip to $69,000 on April 15?",
+        "Will the price of Solana be between $60 and $70 on April 16?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_486709",
+      "timestamp": "2026-04-15T23:45:10.411446+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia pushes for continued U",
+      "raw": "Russia pushes for continued U.S.-Iran talks with China backing, emphasizing fair deal on Strait of Hormuz navigation | YES (diplomatic progress amid tensions could ease blockade fears) | MED confidence** [2][5]\n\nRussia benefits from Strait of Hormuz disruptions as oil/gas supplier amid U.S.-Iran chokepoints, per energy expert Daniel Yergin[1]. Lavrov announced Moscow's firm diplomatic support for ",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ENTER",
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_337989",
-      "timestamp": "2026-04-15T23:42:41.691764+00:00",
+      "id": "sig_502557",
+      "timestamp": "2026-04-15T23:45:26.259591+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Unchanged for Second Time, Raises 2026 Core PCE Inflation Forecast to 2",
-      "raw": "Fed Holds Rates Unchanged for Second Time, Raises 2026 Core PCE Inflation Forecast to 2.7% While Keeping One Rate Cut on Table Amid Middle East Oil Shock | YES | HIGH**  \nThe U.S. Federal Reserve recently decided to maintain interest rates steady, citing uncertainties from Middle East tensions and spiking oil prices, while updating its Summary of Economic Projections (SEP) to reflect higher **annu",
+      "headline": "February's core producer price inflation jumped to 3",
+      "raw": "February's core producer price inflation jumped to 3.9%, raising 3-month annualized core PCE to 4.56%\u2014more than double the Fed's 2% target\u2014prompting markets to price in a potential rate hike under incoming Fed Chair Kevin Warsh.** | YES | HIGH[1]\n\nThis pre-oil shock data release on Wednesday confirms persistent **annual inflation** pressures above target for five years, with Fed officials discussi",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Donald Trump post 40-59 Truth Social posts from April 1",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_332672",
-      "timestamp": "2026-04-15T23:42:36.374356+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent confirmations in the search results that would move prediction markets",
-      "raw": "I cannot identify any breaking news or recent confirmations in the search results that would move prediction markets. The search results contain **price predictions and market odds from Polymarket** rather than confirmed developments or announced events[1][4][7].\n\nThe most recent concrete data point is that **Solana was trading around $86 on April 14**[2], which aligns with existing price predicti",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Solana be between $60 and $70 on April 16?",
-        "Will the price of Solana be above $70 on April 16?",
-        "Will the price of Bitcoin be less than $64,000 on April 17?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_332721",
-      "timestamp": "2026-04-15T23:42:36.423388+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Resolved market events",
-      "raw": "Resolved market events\n\nThe current search results show only speculative price predictions, not confirmed news that has just been announced or resolved.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_332685",
-      "timestamp": "2026-04-15T23:42:36.387161+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official announcements or confirmations",
-      "raw": "Official announcements or confirmations",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_332697",
-      "timestamp": "2026-04-15T23:42:36.399107+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Regulatory decisions",
-      "raw": "Regulatory decisions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_332708",
-      "timestamp": "2026-04-15T23:42:36.410837+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major partnerships or developments",
-      "raw": "Major partnerships or developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 4
+    "enter": 0,
+    "alert": 2,
+    "watch": 2,
+    "high_conf": 0
   }
 }
