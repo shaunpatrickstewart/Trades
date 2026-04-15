@@ -1,67 +1,51 @@
 {
-  "last_scan": "2026-04-15T16:11:23.295939+00:00",
-  "scan_seconds": 30.5,
+  "last_scan": "2026-04-15T16:14:24.113368+00:00",
+  "scan_seconds": 35.2,
   "markets_scanned": 76,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_245616",
-      "timestamp": "2026-04-15T16:11:09.345708+00:00",
+      "id": "sig_415547",
+      "timestamp": "2026-04-15T16:13:59.276963+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Breaking Confirmations on West Bengal Assembly, Congress Internal Issues, or White House Beyond Vance Talks | NO | N/",
-      "raw": "No Breaking Confirmations on West Bengal Assembly, Congress Internal Issues, or White House Beyond Vance Talks | NO | N/A**  \nWest Bengal Congress faces frustration over High Command's decision to contest all 294 seats ahead of April 9 elections, with reports of neglect and few desertions due to TMC/BJP dynamics; similar unravelling in Assam with MP Pradyut Bordoloi's resignation[1].  \nTMC's Abhis",
-      "direction": "NO",
+      "headline": "US-Iran Ceasefire Nears End with New Talks Confirmed in Pakistan Within 2 Days** | YES | HIGH confidence[1][3][4]",
+      "raw": "US-Iran Ceasefire Nears End with New Talks Confirmed in Pakistan Within 2 Days** | YES | HIGH confidence[1][3][4]\n\nPresident Trump announced on April 13, 2026, that direct US-Iran talks could occur in Pakistan within two days, praising mediator Pakistan's Army Chief Asim Munir; this follows the two-week ceasefire starting April 8, amid a US blockade and prior Islamabad meetings on April 11[3][4][5",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_258515",
-      "timestamp": "2026-04-15T16:11:22.244049+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nominated by President Trump as Next Fed Chair, Potentially Facing Immediate Rate Hike Decision Amid Surging",
-      "raw": "Kevin Warsh Nominated by President Trump as Next Fed Chair, Potentially Facing Immediate Rate Hike Decision Amid Surging Inflation and Oil Shock | NO | HIGH confidence**\n\nNo definitive confirmations, announcements, or resolutions have occurred right now that would move prediction markets; reports highlight speculation around Warsh's **nomination** and hawkish stance on **inflation** (annual core r",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_238579",
-      "timestamp": "2026-04-15T16:11:02.308837+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Expires April 21; Second Round of Talks Planned Before Deadline** | NO | HIGH confidence[1][2][3][4][5",
-      "raw": "US-Iran Ceasefire Expires April 21; Second Round of Talks Planned Before Deadline** | NO | HIGH confidence[1][2][3][4][5]\n\nNo new confirmations, announcements, or resolutions today move prediction markets\u2014the initial two-week ceasefire from April 7-8 remains fragile with violations reported, and first-round talks in Pakistan ended without a deal on nuclear limits or Strait of Hormuz control[1][2][",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_258562",
-      "timestamp": "2026-04-15T16:11:22.291956+00:00",
+      "id": "sig_439314",
+      "timestamp": "2026-04-15T16:14:23.043161+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea** angles show Bank of Korea monitoring Fed moves amid won weakness (at 1,457/USD) and potential rate freeze/",
-      "raw": "South Korea** angles show Bank of Korea monitoring Fed moves amid won weakness (at 1,457/USD) and potential rate freeze/hike, but no new policy actions confirmed; trade talks ended without breakthrough.[2][3]\n\nWarsh's background as former Fed Governor emphasizes inflation control, but his chairmanship succession by mid-May remains assumed, not finalized.[1][4]",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Kevin Warsh Fed Chair Nomination | YES | HIGH confidence**",
+      "raw": "Kevin Warsh Fed Chair Nomination | YES | HIGH confidence**\nTrump announced Kevin Warsh as his nominee for Federal Reserve chair, with expected Senate confirmation and assumption of role by mid-May 2026.[1][3]",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_439345",
+      "timestamp": "2026-04-15T16:14:23.074577+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Potential Rate Hike Under Warsh | YES | MED confidence**",
+      "raw": "Potential Rate Hike Under Warsh | YES | MED confidence**\nOne of Warsh's first acts as Fed chair could involve presiding over an interest rate hike, particularly given current inflationary pressures with core annual inflation at 3.9% and oil prices surging above $100 per barrel amid Middle East conflict.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
@@ -69,15 +53,46 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_245577",
-      "timestamp": "2026-04-15T16:11:09.306961+00:00",
+      "id": "sig_439280",
+      "timestamp": "2026-04-15T16:14:23.009258+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance Heads to Pakistan for Iran War Talks as US Seeks Diplomatic Resolution | YES | HIGH confidence**",
-      "raw": "JD Vance Heads to Pakistan for Iran War Talks as US Seeks Diplomatic Resolution | YES | HIGH confidence**  \nUS Vice President JD Vance departed for Islamabad on Friday for mediated talks to end the US-Israel triggered war with Iran, which began six weeks ago on February 28, accompanied by Trump's special envoy Steve Witkoff and Jared Kushner; he struck a conciliatory tone while warning Tehran, wit",
+      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 15, 2026) that would move pr",
+      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 15, 2026) that would move prediction markets. The most recent search result is from January 30, 2026, which reports on Trump's selection of Kevin Warsh as Fed chair nominee.\n\nThe search results confirm the following established facts rather than breaking news:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will Trump say \"Christian\" during TPUSA events on April 17?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_439376",
+      "timestamp": "2026-04-15T16:14:23.105765+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Policy Shift from Hawkish to Dovish | YES | MED confidence**",
+      "raw": "Policy Shift from Hawkish to Dovish | YES | MED confidence**\nWhile Warsh held hawkish views during his 2006-2011 tenure as Fed governor, he has recently advocated for monetary easing and rate cuts while maintaining support for reducing the Fed's balance sheet.[2][4]\n\nThe search results do not contain information about South Korea or any announcements that would constitute breaking news as of today",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_422092",
+      "timestamp": "2026-04-15T16:14:05.821835+00:00",
+      "source": "PERPLEXITY",
+      "headline": "TMC Releases Star Campaigners List for West Bengal 2026 Assembly Polls Phase I | YES | MED confidence**",
+      "raw": "TMC Releases Star Campaigners List for West Bengal 2026 Assembly Polls Phase I | YES | MED confidence**  \nTrinamool Congress (AITC/TMC) announced its star campaigners list on Saturday for Phase I of the West Bengal Legislative Assembly elections (voting April 23 and 29, counting May 4), featuring top leaders like CM Mamata Banerjee and General Secretary Abhishek Banerjee, plus others such as Firha",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -85,9 +100,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 2,
     "alert": 3,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
