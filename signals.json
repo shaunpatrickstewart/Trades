@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-15T16:41:33.139167+00:00",
-  "scan_seconds": 32.0,
+  "last_scan": "2026-04-15T16:44:27.055371+00:00",
+  "scan_seconds": 34.6,
   "markets_scanned": 144,
   "open_positions": 111,
   "signals": [
     {
-      "id": "sig_51323",
-      "timestamp": "2026-04-15T16:41:15.050259+00:00",
+      "id": "sig_219581",
+      "timestamp": "2026-04-15T16:44:03.308854+00:00",
       "source": "PERPLEXITY",
-      "headline": "# HEADLINE: UN Chief Urges Extension of Fragile US-Iran Ceasefire as Negotiations Continue | YES | HIGH confidence",
-      "raw": "# HEADLINE: UN Chief Urges Extension of Fragile US-Iran Ceasefire as Negotiations Continue | YES | HIGH confidence\n\nA **two-week US-Iran ceasefire** was announced on April 8, 2026, following nearly 40 days of intense hostilities[1]. The agreement, mediated by Pakistan's Prime Minister Shehbaz Sharif and military chief Asim Munir with participation from T\u00fcrkiye and Egypt, includes the immediate ces",
+      "headline": "US, Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms (April 15 Confirmation)** | YES | MED confidence",
+      "raw": "US, Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms (April 15 Confirmation)** | YES | MED confidence[5][6]\n\nThe US and Iran are preparing for round two of peace talks after the first round in Pakistan failed, with a potential start within days (venue TBD, Pakistan pushing Islamabad); this follows the April 8 two-week ceasefire (now ~1 week old, violated by both sides) amid US H",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,105 +22,165 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_51445",
-      "timestamp": "2026-04-15T16:41:15.172645+00:00",
+      "id": "sig_226246",
+      "timestamp": "2026-04-15T16:44:09.973927+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Nuclear negotiations stalled**: Direct talks between the US and Iran are progressing \"somewhat slowly,\" with Trump ind",
-      "raw": "**Nuclear negotiations stalled**: Direct talks between the US and Iran are progressing \"somewhat slowly,\" with Trump indicating new negotiations likely in Pakistan within two days (as of April 13)[3]. Trump has rejected any arrangement limiting nuclear enrichment restrictions to a fixed period like 20 years[3].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_51370",
-      "timestamp": "2026-04-15T16:41:15.097631+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ceasefire fragility**: While the UN Secretary-General welcomed the move, reports show continued Israeli strikes and ma",
-      "raw": "**Ceasefire fragility**: While the UN Secretary-General welcomed the move, reports show continued Israeli strikes and mass casualties in Lebanon, with Israeli PM Netanyahu explicitly stating the ceasefire does not include Lebanon[4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_51500",
-      "timestamp": "2026-04-15T16:41:15.227108+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Economic leverage**: The US maintains a blockade on Iranian ports, effectively halting Iran's business operations, whi",
-      "raw": "**Economic leverage**: The US maintains a blockade on Iranian ports, effectively halting Iran's business operations, while Iran's military capabilities have been severely degraded[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_51554",
-      "timestamp": "2026-04-15T16:41:15.281787+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Uncertainty on extension**: As of April 14, the UN chief urged the US and Iran to continue the ceasefire and extend it",
-      "raw": "**Uncertainty on extension**: As of April 14, the UN chief urged the US and Iran to continue the ceasefire and extend it as needed, with warnings that \"there is no military solution\"[2]. Trump refused to comment on what happens if no agreement is reached by the ceasefire's end, stating only that \"it won't be pleasant for them\"[3].\n\nThe two-week window expires around April 22, 2026, making this a c",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_68410",
-      "timestamp": "2026-04-15T16:41:32.137598+00:00",
-      "source": "PERPLEXITY",
-      "headline": "March 2026 South Korea CPI Released: Headline at 2",
-      "raw": "March 2026 South Korea CPI Released: Headline at 2.2% YoY (Up from 2.0%, Below 2.4% Consensus)** | YES | HIGH confidence[1]\n\nThis fresh data, marking a three-month high driven by energy pressures despite core easing to 2.2%, exceeds the Bank of Korea's 2% target and aligns with OECD's revised 2.7% 2026 forecast, up from prior 2.0% outlooks\u2014potentially shifting Polymarket's \"South Korea Annual Infl",
+      "headline": "White House announces Trump-approved temporary waiver for India to buy Russian oil amid US-Iran tensions | YES | HIGH co",
+      "raw": "White House announces Trump-approved temporary waiver for India to buy Russian oil amid US-Iran tensions | YES | HIGH confidence**  \nPresident **Trump** personally cleared a short-term waiver allowing India to purchase **Russian oil** to stabilize global energy markets disrupted by the US campaign against Iran; White House Press Secretary Karoline Leavitt confirmed it follows India's prior sanctio",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Trump announces end of military operations against Iran by A"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_234430",
+      "timestamp": "2026-04-15T16:44:18.157540+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the specific breaking news format you've requested because the search results do not contain informatio",
+      "raw": "I cannot provide the specific breaking news format you've requested because the search results do not contain information about events that have been \"just confirmed, announced, or resolved\" today or very recently that would specifically move prediction markets.\n\nThe search results contain **price predictions and technical analyses** for Solana and Bitcoin throughout April 2026, but they do not re",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Bitcoin reach $81,000 on April 15?",
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be between $100 and $110 on April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_242307",
+      "timestamp": "2026-04-15T16:44:26.034150+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you've requested based on these search results",
+      "raw": "I cannot provide the breaking news format you've requested based on these search results. The available sources are **not current** \u2014 they date from February 2026 and earlier, with the most recent being from approximately two months ago. None contain confirmed announcements or resolutions that occurred today (April 15, 2026) that would move prediction markets.\n\nThe search results primarily discuss",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_62029",
-      "timestamp": "2026-04-15T16:41:25.756667+00:00",
+      "id": "sig_242327",
+      "timestamp": "2026-04-15T16:44:26.054297+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Reveals April Price Expectations for Bitcoin and Solana Amid Market Volatility | NO | LOW confidence**",
-      "raw": "Polymarket Reveals April Price Expectations for Bitcoin and Solana Amid Market Volatility | NO | LOW confidence**\n\nPolymarket currently prices a **93% probability that Bitcoin will fall below $65,000 in April**, alongside a 65% chance of rising above $70,000 and 54% for below $60,000, reflecting dominant bearish sentiment influenced by Trump\u2019s recent statements against Iran that caused BTC and alt",
+      "headline": "**South Korean won weakness** (timing unclear but appears recent): Linked to uncertainty over Warsh's nomination, trade",
+      "raw": "**South Korean won weakness** (timing unclear but appears recent): Linked to uncertainty over Warsh's nomination, trade tensions with the US, and potential auto tariffs, though partially offset by strong export growth[1]\n\nTo provide the market-moving breaking news you're seeking in the headline/YES-NO/confidence format, I would need search results from today or very recent hours containing concret",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_226236",
+      "timestamp": "2026-04-15T16:44:09.963253+00:00",
+      "source": "PERPLEXITY",
+      "headline": "JD Vance arrives in Delhi for 4-day visit to discuss US tariffs and bilateral trade deal with PM Modi | YES | MED confid",
+      "raw": "JD Vance arrives in Delhi for 4-day visit to discuss US tariffs and bilateral trade deal with PM Modi | YES | MED confidence**  \nUS Vice President **JD Vance** has arrived in Delhi, India, with his wife and kids, set to meet Prime Minister Narendra Modi amid tensions from new **US tariffs**; India seeks a trade deal to avoid further levies, highlighting strains in the US-India partnership despite ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_226257",
+      "timestamp": "2026-04-15T16:44:09.984760+00:00",
+      "source": "PERPLEXITY",
+      "headline": "All India Trinamool Congress walks out of Rajya Sabha protesting Election Commission's removal of West Bengal bureaucrat",
+      "raw": "All India Trinamool Congress walks out of Rajya Sabha protesting Election Commission's removal of West Bengal bureaucrats | NO | LOW confidence**",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_226268",
+      "timestamp": "2026-04-15T16:44:09.995600+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trinamool Congress** (TMC) members staged a walkout in **Rajya Sabha** over the **Election Commission**'s decision to re",
+      "raw": "Trinamool Congress** (TMC) members staged a walkout in **Rajya Sabha** over the **Election Commission**'s decision to remove top bureaucrats in **West Bengal** ahead of polls (dated Mar 16); no link to **US Congress**, **Vance**, **White House**, or **election** prediction markets like US races.[2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_234441",
+      "timestamp": "2026-04-15T16:44:18.168177+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana hitting an all-time record of 167 million monthly network users[4]",
+      "raw": "Solana hitting an all-time record of 167 million monthly network users[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_234451",
+      "timestamp": "2026-04-15T16:44:18.178447+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Daily non-vote transactions reaching 148 million[4]",
+      "raw": "Daily non-vote transactions reaching 148 million[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_234461",
+      "timestamp": "2026-04-15T16:44:18.188986+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The Alpenglow consensus upgrade expected to reduce transaction finality to 150 milliseconds[4]",
+      "raw": "The Alpenglow consensus upgrade expected to reduce transaction finality to 150 milliseconds[4]\n\nHowever, these appear to be ongoing developments rather than new announcements that just moved markets.\n\nTo get the breaking news you're seeking in the format you specified (HEADLINE | YES or NO | HIGH/MED/LOW confidence), you would need real-time news sources covering market-moving announcements from t",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_242317",
+      "timestamp": "2026-04-15T16:44:26.044193+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Kevin Warsh's Fed nomination and policy philosophy** (from February 2026): Warsh's advocacy for limiting Fed \"monetary",
+      "raw": "**Kevin Warsh's Fed nomination and policy philosophy** (from February 2026): Warsh's advocacy for limiting Fed \"monetary dominance\" and concerns about his potential impact on Fed independence[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 10,
+    "watch": 0,
+    "high_conf": 4
   }
 }
