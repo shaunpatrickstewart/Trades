@@ -1,33 +1,16 @@
 {
-  "last_scan": "2026-04-15T13:04:03.725965+00:00",
-  "scan_seconds": 37.1,
+  "last_scan": "2026-04-15T13:06:49.178977+00:00",
+  "scan_seconds": 26.5,
   "markets_scanned": 81,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_994287",
-      "timestamp": "2026-04-15T13:03:38.028522+00:00",
+      "id": "sig_171121",
+      "timestamp": "2026-04-15T13:06:34.861562+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Planning Second Round of Ceasefire Talks | YES | HIGH confidence**",
-      "raw": "US and Iran Planning Second Round of Ceasefire Talks | YES | HIGH confidence**\n\nThe **US and Iran are organizing fresh negotiations** before the two-week ceasefire (announced April 7) expires next week.[1] Pakistan has proposed hosting another round of direct talks in the coming days, potentially as early as the end of this week.[4] This represents a confirmed diplomatic development after weekend ",
+      "headline": "Trump Declares 'End of Iran Conflict' Amid Second Round of Ceasefire Talks Looming Within Days | YES | MED confidence**",
+      "raw": "Trump Declares 'End of Iran Conflict' Amid Second Round of Ceasefire Talks Looming Within Days | YES | MED confidence**\n\nUS President Trump stated to Fox News that the war with Iran has ended, even as a fragile ceasefire holds following inconclusive first-round talks in Islamabad last weekend[2][1]. A second round of direct US-Iran negotiations is planned imminently\u2014potentially within days\u2014before ",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_994301",
-      "timestamp": "2026-04-15T13:03:38.042894+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Parallel escalation complicates diplomacy**: The Trump administration has implemented a military blockade of Iranian-lin",
-      "raw": "Parallel escalation complicates diplomacy**: The Trump administration has implemented a military blockade of Iranian-linked shipping in the Strait of Hormuz, which China has condemned as \"dangerous and irresponsible.\"[4] Despite this, the ceasefire is currently holding, with no attacks on US Navy vessels reported, though Iranian drones have targeted Gulf allies in Bahrain.[5]\n\nThe confirmed announ",
-      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -38,109 +21,79 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1071",
-      "timestamp": "2026-04-15T13:03:44.811236+00:00",
+      "id": "sig_179724",
+      "timestamp": "2026-04-15T13:06:43.464113+00:00",
       "source": "PERPLEXITY",
-      "headline": "VP Vance-Iran Talks in Pakistan Collapse Without Agreement; Trump Threatens Strait of Hormuz Blockade | NO | HIGH confid",
-      "raw": "VP Vance-Iran Talks in Pakistan Collapse Without Agreement; Trump Threatens Strait of Hormuz Blockade | NO | HIGH confidence**[1][2]\n\nVice President **JD Vance**, alongside special envoy Steve Witkoff and Jared Kushner, concluded U.S.-Iran negotiations in Islamabad on April 10-11, 2026, failing to secure a deal to end the war due to Iran's refusal to abandon its nuclear program and mutual trust is",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_11767",
-      "timestamp": "2026-04-15T13:03:55.507221+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Announcement Drives Crypto Rally | YES | HIGH confidence**",
-      "raw": "Iran Ceasefire Announcement Drives Crypto Rally | YES | HIGH confidence**\n\nFollowing **ceasefire-related developments, broader markets gained around 5%, while Bitcoin climbed alongside a strong rebound in altcoins, including Ethereum**.[1] Notably, Ethereum surged over 50% in a single week during early April after the Iran ceasefire announcement, while Bitcoin gained roughly 8% over the same windo",
+      "headline": "Ether, Solana, XRP Surge 8% as Crypto Markets Rally on Easing War Fears | YES | HIGH confidence**",
+      "raw": "Ether, Solana, XRP Surge 8% as Crypto Markets Rally on Easing War Fears | YES | HIGH confidence**  \nBitcoin broke above $72,000 for the first time since its February 5 crash, driven by reduced war anxiety, $700 million in U.S. spot bitcoin ETF inflows since March, and rebounding global equities, sparking broad altcoin gains including Ether (+7.5% to $2,114), Solana (+5.3% to $89.91), and XRP (+4.2",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
         "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_994293",
-      "timestamp": "2026-04-15T13:03:38.034828+00:00",
+      "id": "sig_174801",
+      "timestamp": "2026-04-15T13:06:38.541112+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key sticking points remain unresolved**: The US demands removal of Iran's highly enriched uranium stockpile and a 20-yea",
-      "raw": "Key sticking points remain unresolved**: The US demands removal of Iran's highly enriched uranium stockpile and a 20-year pause on enrichment, while Iran is pushing back on both points and proposes only a five-year suspension instead.[4] Additionally, Iran insists on greater control over how the Strait of Hormuz is used, rejecting a return to previous arrangements.[1]",
-      "direction": null,
+      "headline": "House of Representatives advances impeachment vote against President Trump",
+      "raw": "House of Representatives advances impeachment vote against President Trump.**  \nYES | HIGH confidence[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_11753",
-      "timestamp": "2026-04-15T13:03:55.493613+00:00",
+      "id": "sig_174806",
+      "timestamp": "2026-04-15T13:06:38.546750+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here is the breaking news relevant to Bitcoin and Ethereum:",
-      "raw": "Based on the search results provided, here is the breaking news relevant to Bitcoin and Ethereum:",
-      "direction": null,
+      "headline": "VP JD Vance's Iran negotiations in Pakistan collapse without agreement",
+      "raw": "VP JD Vance's Iran negotiations in Pakistan collapse without agreement.**  \nYES | MED confidence[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_11773",
-      "timestamp": "2026-04-15T13:03:55.513335+00:00",
+      "id": "sig_174812",
+      "timestamp": "2026-04-15T13:06:38.552297+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current Prices (as of April 13, 2026):**",
-      "raw": "Current Prices (as of April 13, 2026):**",
-      "direction": null,
+      "headline": "Hungarian PM Viktor Orb\u00e1n suffers election defeat after Vance campaigned for him",
+      "raw": "Hungarian PM Viktor Orb\u00e1n suffers election defeat after Vance campaigned for him.**  \nYES | HIGH confidence[2][4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_11779",
-      "timestamp": "2026-04-15T13:03:55.519417+00:00",
+      "id": "sig_184437",
+      "timestamp": "2026-04-15T13:06:48.178006+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin: $71,188",
-      "raw": "Bitcoin: $71,188.84[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_11785",
-      "timestamp": "2026-04-15T13:03:55.525205+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum: $2,196",
-      "raw": "Ethereum: $2,196.04[2]\n\nBoth assets remain significantly down from their 2025 all-time highs ($126,198 for Bitcoin in October 2025 and approximately $4,800 for Ethereum).[2][3]",
+      "headline": "NO | LOW confidence** (due to absence of real-time events in results)",
+      "raw": "NO | LOW confidence** (due to absence of real-time events in results).",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 6,
+    "enter": 2,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
