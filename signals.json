@@ -1,143 +1,64 @@
 {
-  "last_scan": "2026-04-15T23:17:43.682131+00:00",
-  "scan_seconds": 28.7,
+  "last_scan": "2026-04-15T23:20:30.446432+00:00",
+  "scan_seconds": 23.4,
   "markets_scanned": 159,
-  "open_positions": 120,
+  "open_positions": 117,
   "signals": [
     {
-      "id": "sig_832502",
-      "timestamp": "2026-04-15T23:17:36.206753+00:00",
+      "id": "sig_990077",
+      "timestamp": "2026-04-15T23:20:13.781385+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Network Metrics Milestone** | YES | MEDIUM confidence",
-      "raw": "Solana Network Metrics Milestone** | YES | MEDIUM confidence\nAs of April 14, 2026, Solana reached an all-time record of 167 million monthly token holders with daily non-vote transactions hitting historic highs of 148 million.[1] This is confirmable on-chain data but may not constitute market-moving \"news\" in the prediction market sense.\n\nThe search results lack announcements of regulatory approval",
+      "headline": "Trump Signals Iran War 'Very Close to Over' with New Talks and Ceasefire Extension Agreement | YES | HIGH confidence** [",
+      "raw": "Trump Signals Iran War 'Very Close to Over' with New Talks and Ceasefire Extension Agreement | YES | HIGH confidence** [2][3]\n\nUS President Donald Trump stated on April 15, 2026, that the Iran war is \"very close to over,\" citing an \"in principle agreement\" between Washington and Tehran to extend the current ceasefire beyond April 22 for further negotiations, potentially in Islamabad within days.[2",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Solana be between $60 and $70 on April 16?",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be above $70 on April 16?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_832476",
-      "timestamp": "2026-04-15T23:17:36.180097+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or market-moving announcements from the search results provided",
-      "raw": "I cannot provide breaking news or market-moving announcements from the search results provided. The sources contain **price predictions and analysis from early-to-mid April 2026**, not confirmed developments that would trigger prediction market movements.\n\nThe most recent substantive news in the results is:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_832488",
-      "timestamp": "2026-04-15T23:17:36.192957+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Progress** | YES | HIGH confidence",
-      "raw": "Solana Alpenglow Upgrade Progress** | YES | HIGH confidence\nThe Alpenglow consensus upgrade passed governance voting with 98.27% approval and aims to reduce transaction finality from 12 seconds to 150 milliseconds.[1][7] This represents a confirmed protocol milestone rather than breaking news, as it was already anticipated infrastructure development.",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_838927",
-      "timestamp": "2026-04-15T23:17:42.631796+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting because the search results do not contain current information from",
-      "raw": "I cannot provide the breaking news you're requesting because the search results do not contain current information from today (April 15, 2026). The most recent sources are from February 2026 and earlier, making them outdated relative to your query about what \"has just been confirmed, announced, or resolved.\"\n\nThe search results discuss Kevin Warsh's nomination and confirmation prospects as Fed cha",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_818407",
-      "timestamp": "2026-04-15T23:17:22.111582+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Second Round of Ceasefire Talks as Deadline Looms | NO | HIGH confidence**",
-      "raw": "US and Iran Plan Second Round of Ceasefire Talks as Deadline Looms | NO | HIGH confidence**  \nNo ceasefire has been confirmed, announced, or resolved; instead, the first round of US-Iran talks in Islamabad ended without a deal, but both sides are preparing for round two within days, with Pakistan pushing to host again in Islamabad.[2][3]  \nWhite House denies reports of requesting a ceasefire exten",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_838940",
-      "timestamp": "2026-04-15T23:17:42.644522+00:00",
+      "id": "sig_5742",
+      "timestamp": "2026-04-15T23:20:29.445833+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current annual inflation data",
-      "raw": "Current annual inflation data",
-      "direction": null,
+      "headline": "Trump Nominates Kevin Warsh as Fed Chair Amid Rising US Inflation and South Korea Trade Tensions | YES | HIGH confidence",
+      "raw": "Trump Nominates Kevin Warsh as Fed Chair Amid Rising US Inflation and South Korea Trade Tensions | YES | HIGH confidence**\n\nKevin Warsh was just-announced by President Trump as nominee to replace Jerome Powell as Fed Chair in May 2026, sparking market uncertainty over his hawkish stance on inflation amid accelerating wholesale prices (PPI up 3% annually in Dec 2025, core 3.5%) and PCE at 3%.[1][2]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_990090",
+      "timestamp": "2026-04-15T23:20:13.794282+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Putin Announces Limited Easter Ceasefire in Ukraine (April 11-12) | NO | LOW confidence** [1]",
+      "raw": "Putin Announces Limited Easter Ceasefire in Ukraine (April 11-12) | NO | LOW confidence** [1]\n\nRussian President Vladimir Putin declared a one-off Easter ceasefire in Ukraine from 4:00 p.m. Moscow time April 11 to midnight April 12, halting combat but maintaining readiness; experts deem it humanitarian but unlikely to advance talks.[1] No connection to Iran or broader Russia-Ukraine resolution; Uk",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_838952",
-      "timestamp": "2026-04-15T23:17:42.656895+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent Fed announcements or decisions",
-      "raw": "Recent Fed announcements or decisions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_838964",
-      "timestamp": "2026-04-15T23:17:42.668871+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea-related developments",
-      "raw": "South Korea-related developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_838977",
-      "timestamp": "2026-04-15T23:17:42.681083+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Today's market-moving events",
-      "raw": "Today's market-moving events\n\nTo answer your query in the requested format (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need access to real-time news sources and market data from today. I recommend checking current financial news platforms, the Federal Reserve's official announcements, or market prediction sites for today's breaking developments.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 2
   }
 }
