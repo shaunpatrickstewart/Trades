@@ -1,91 +1,130 @@
 {
-  "last_scan": "2026-04-15T01:10:02.697302+00:00",
-  "scan_seconds": 31.7,
+  "last_scan": "2026-04-15T01:12:52.704582+00:00",
+  "scan_seconds": 29.8,
   "markets_scanned": 122,
   "open_positions": 86,
   "signals": [
     {
-      "id": "sig_156600",
-      "timestamp": "2026-04-15T01:09:40.383430+00:00",
+      "id": "sig_347886",
+      "timestamp": "2026-04-15T01:12:51.669897+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces Two-Week Ceasefire with Iran; Israel Joins; Predicts 'Golden Age of the Middle East' | YES | HIGH confid",
-      "raw": "Trump Announces Two-Week Ceasefire with Iran; Israel Joins; Predicts 'Golden Age of the Middle East' | YES | HIGH confidence**\n\nA two-week \"double-sided ceasefire\" between the US and Iran was confirmed by President Trump on Truth Social Tuesday night (April 14, 2026), suspending US bombing after meeting military objectives and advancing long-term peace talks, including Strait of Hormuz access[1][4",
-      "direction": "YES",
+      "headline": "Most Recent Confirmed Developments:**",
+      "raw": "Most Recent Confirmed Developments:**",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_163457",
-      "timestamp": "2026-04-15T01:09:47.240933+00:00",
+      "id": "sig_347895",
+      "timestamp": "2026-04-15T01:12:51.678394+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump teases warmer ties with Musk at Cabinet meeting, amid Polymarket buzz on April meeting (57% odds) and Musk's predi",
-      "raw": "Trump teases warmer ties with Musk at Cabinet meeting, amid Polymarket buzz on April meeting (57% odds) and Musk's prediction of 12-year Republican era with Vance succeeding Trump.** | **NO** | **HIGH** confidence\n\nNo breaking confirmations, announcements, or resolutions as of April 15, 2026, 1 AM UTC involving Trump, Elon Musk, Republicans, or April events that would shift prediction markets[1][2",
-      "direction": "NO",
+      "headline": "Bank of Korea Holds Rates at 2",
+      "raw": "Bank of Korea Holds Rates at 2.5%** | Already Priced In | HIGH confidence[6]\nThe Bank of Korea made this decision on April 10, 2026, maintaining its policy rate unchanged amid geopolitical uncertainty and rising inflation pressures.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_347903",
+      "timestamp": "2026-04-15T01:12:51.686902+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 Inflation at 2",
+      "raw": "South Korea's March 2026 Inflation at 2.2% Year-over-Year** | Confirmed | HIGH confidence[2][4]\nAnnual inflation rose from 2.0% in February to 2.2% in March, driven primarily by rising global oil prices and transportation costs increasing 5% year-over-year.",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will Trump announce that the US x Iran ceasefire has been br"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_347912",
+      "timestamp": "2026-04-15T01:12:51.695498+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ADB Raises 2026 Inflation Forecast to 2",
+      "raw": "ADB Raises 2026 Inflation Forecast to 2.3%** | Confirmed April 10 | HIGH confidence[5]\nThe Asian Development Bank revised its inflation projection upward by 0.2 percentage points due to Middle East tensions and currency weakness, while raising growth to 1.9%.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_334169",
+      "timestamp": "2026-04-15T01:12:37.952373+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GA-14 Special Election: Trump-Backed Republican Clay Fuller Wins Runoff** | YES | HIGH confidence[1][2]",
+      "raw": "GA-14 Special Election: Trump-Backed Republican Clay Fuller Wins Runoff** | YES | HIGH confidence[1][2]\n\nClay Fuller, a local prosecutor and Air National Guard member endorsed by President Trump, defeated Democrat Shawn Harris (retired brigadier general) by about 12 points on April 7, 2026, in the solidly red northwest Georgia district formerly held by Marjorie Taylor Greene (who won by 29 points ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_177894",
-      "timestamp": "2026-04-15T01:10:01.677034+00:00",
+      "id": "sig_347878",
+      "timestamp": "2026-04-15T01:12:51.661458+00:00",
       "source": "PERPLEXITY",
-      "headline": "Germany March 2026 Inflation Confirmed at +2",
-      "raw": "Germany March 2026 Inflation Confirmed at +2.7% YoY | YES | HIGH confidence**  \nGermany's official inflation rate rose to +2.7% year-on-year in March 2026 (CPI), up from +1.9% in February, driven by sharp increases in motor fuel and heating oil prices amid the Iran war; this is the highest since January 2024 and confirms provisional data released earlier.[2] Core inflation (excluding food and ener",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_177904",
-      "timestamp": "2026-04-15T01:10:01.687693+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation at 2",
-      "raw": "South Korea March 2026 Inflation at 2.2% YoY | YES | HIGH confidence**  \nSouth Korea's annual inflation rose to 2.2% in March 2026 from 2.0% in February, below market forecasts of 2.4% but marking a three-month high due to energy pressures from the Iran conflict; core inflation eased to 2.2%.[3][4] Polymarket odds for 2026 annual CPI at 3.0%+ stand at 36%, reflecting upside risks post-Bank of Kore",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_177913",
-      "timestamp": "2026-04-15T01:10:01.696454+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Germany 2026 GDP Forecast Downgraded to +0",
-      "raw": "Germany 2026 GDP Forecast Downgraded to +0.6% | YES | MED confidence**  \nThe Joint Economic Forecast Spring 2026 (released April 1) cut Germany's real GDP growth projection to +0.6% for 2026 (from prior +1.2%), after 2025's near-stagnation at +0.2%, due to energy price shocks eroding purchasing power despite fiscal stimulus.[1] A working-day adjustment reduces it further by 0.2pp; 2027 forecast is",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "I cannot provide the specific breaking news format you've requested because the search results do not contain announceme",
+      "raw": "I cannot provide the specific breaking news format you've requested because the search results do not contain announcements or confirmations from today (April 15, 2026) that would move prediction markets. The most recent data available is from April 10, 2026.",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_347920",
+      "timestamp": "2026-04-15T01:12:51.703944+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market Expectations:**",
+      "raw": "Market Expectations:**\nPrediction markets assign a 36% probability to South Korea's 2026 annual inflation exceeding 3.0%, reflecting concerns about sustained energy price pressures in coming months.[3]\n\nNo developments specifically about Germany's inflation or newer confirmations dated April 15, 2026 appear in the search results provided.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_334178",
+      "timestamp": "2026-04-15T01:12:37.961136+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NJ-11 Special Election Set for April 16: Republican Joe Hathaway Faces Democrat Analilia Mejia** | NO | MED confidence[1",
+      "raw": "NJ-11 Special Election Set for April 16: Republican Joe Hathaway Faces Democrat Analilia Mejia** | NO | MED confidence[1][2]\n\nNo result yet in this upset bid for the Democratic-leaning seat vacated by Gov. Mikie Sherrill; Hathaway (local mayor, unopposed GOP primary) runs against Mejia (progressive backed by Sanders/Ocasio-Cortez) in a race analysts call challenging for Republicans given recent le",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Elon Musk post 115-139 tweets from April 13 to April 15",
+        "Will Elon Musk post 140-164 tweets from April 13 to April 15",
+        "Will Joe Hathaway win the NJ-11 special election?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 0,
-    "watch": 2,
-    "high_conf": 3
+    "enter": 0,
+    "alert": 7,
+    "watch": 1,
+    "high_conf": 4
   }
 }
