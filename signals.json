@@ -1,80 +1,86 @@
 {
-  "last_scan": "2026-04-15T22:40:23.120274+00:00",
-  "scan_seconds": 26.7,
-  "markets_scanned": 159,
+  "last_scan": "2026-04-15T22:43:12.954197+00:00",
+  "scan_seconds": 25.9,
+  "markets_scanned": 161,
   "open_positions": 123,
   "signals": [
     {
-      "id": "sig_588397",
-      "timestamp": "2026-04-15T22:40:12.103864+00:00",
+      "id": "sig_768243",
+      "timestamp": "2026-04-15T22:43:11.949937+00:00",
       "source": "PERPLEXITY",
-      "headline": "White House Executive Order on Election Citizenship Verification (March 31)** | NO | LOW confidence[5]",
-      "raw": "White House Executive Order on Election Citizenship Verification (March 31)** | NO | LOW confidence[5]\n\nPresident Trump issued an order mandating DHS/SSA data use for voter eligibility checks and state fraud probes, but dated pre-April with no April announcements or market-moving updates confirmed[5].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Donald Trump post 40-59 Truth Social posts from April 1",
-        "Will Trump agree to unfreeze Iranian assets in April?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_593639",
-      "timestamp": "2026-04-15T22:40:17.345792+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Announced, Boosting BTC to $72K, ETH to $2",
-      "raw": "US-Iran Two-Week Ceasefire Announced, Boosting BTC to $72K, ETH to $2.2K, XRP to $1.38 | YES | HIGH confidence** [4]\n\nThis breaking development eases geopolitical tensions from prior Strait of Hormuz blockade risks, sparking risk-on sentiment and price recoveries across BTC (+ rally from range-bound $70K levels), ETH (above key resistance after 6% weekly gain), and XRP (rebound from $1.30 support ",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May 2026 | YES | HIGH confidence**",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May 2026 | YES | HIGH confidence**  \nKevin Warsh was just-announced by President Trump as nominee for Federal Reserve chairman upon Jerome Powell's term expiration in May, amid accelerating wholesale inflation (PPI up 0.5% monthly and 3% annually in Dec 2025, beating estimates) tied to Trump's tariff policies, posing an early chall",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_750843",
+      "timestamp": "2026-04-15T22:42:54.549891+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results show no events post-April 11 matching \"just confirmed/resolved\" criteria)",
+      "raw": "Confidence: HIGH** (search results show no events post-April 11 matching \"just confirmed/resolved\" criteria).[1][2][3][4]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_763154",
+      "timestamp": "2026-04-15T22:43:06.860526+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Foundation Staked 70,000 ETH (~$143M), Reducing Sell-Side Pressure | YES | HIGH confidence**[1][3]",
+      "raw": "Ethereum Foundation Staked 70,000 ETH (~$143M), Reducing Sell-Side Pressure | YES | HIGH confidence**[1][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_588372",
-      "timestamp": "2026-04-15T22:40:12.078614+00:00",
+      "id": "sig_763168",
+      "timestamp": "2026-04-15T22:43:06.874050+00:00",
       "source": "PERPLEXITY",
-      "headline": "GA-14 Special Election Runoff Set: Trump-Backed Clay Fuller Advances as Frontrunner to Fill Marjorie Taylor Greene's Sea",
-      "raw": "GA-14 Special Election Runoff Set: Trump-Backed Clay Fuller Advances as Frontrunner to Fill Marjorie Taylor Greene's Seat** | YES | HIGH confidence[1]\n\nRepublicans hold a slim 218-214 House majority, making this solidly red northwest Georgia district (Trump +37 in 2024) critical; Fuller, a local prosecutor, advanced from a crowded March primary and is expected to consolidate GOP support against De",
-      "direction": "YES",
+      "headline": "Bitcoin Stable at $70,778 Amid Macro Uncertainty, No Major Breakout | NO | MED confidence**[1][3]",
+      "raw": "Bitcoin Stable at $70,778 Amid Macro Uncertainty, No Major Breakout | NO | MED confidence**[1][3]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Donald Trump post 40-59 Truth Social posts from April 1",
-        "Will Trump agree to unfreeze Iranian assets in April?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_588385",
-      "timestamp": "2026-04-15T22:40:12.091308+00:00",
+      "id": "sig_763190",
+      "timestamp": "2026-04-15T22:43:06.896504+00:00",
       "source": "PERPLEXITY",
-      "headline": "VP JD Vance Rallies in Georgia, Urges GOP Unity for 2026 Midterms** | NO | MED confidence[2][3]",
-      "raw": "VP JD Vance Rallies in Georgia, Urges GOP Unity for 2026 Midterms** | NO | MED confidence[2][3]\n\nVance headlined a Turning Point USA event in Athens, GA, emphasizing Republican consolidation to win tight midterm races (e.g., House by 20-30 seats), but the rally saw low attendance and some frustration among young conservatives over Trump's unrelated feuds[2][3]. No new confirmations or resolutions ",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "XRP Drops Below $1",
+      "raw": "XRP Drops Below $1.33 on Bearish Momentum, Weakest Signals | NO | HIGH confidence**[1][3]\n\nPolymarket shows 93% odds BTC < $65K in April (bearish shift), XRP dominant odds for < $1.2 (69%) or > $1.4 (56%), with mixed trader bets but no resolution yet[2][4][8]. ETH technicals strongest (RSI oversold, bullish pattern forming), potentially moving DeFi bets upward[1][3]. No confirmed regulatory or mac",
+      "direction": "NO",
+      "confidence": 0.6,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat"
+        "Will the price of XRP be above $1.00 on April 19?",
+        "Will the price of XRP be above $1.60 on April 19?",
+        "Will XRP reach $1.90 April 13-19?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 2,
-    "watch": 0,
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
     "high_conf": 2
   }
 }
