@@ -1,116 +1,89 @@
 {
-  "last_scan": "2026-04-15T15:21:33.669913+00:00",
-  "scan_seconds": 25.6,
-  "markets_scanned": 111,
-  "open_positions": 76,
+  "last_scan": "2026-04-15T15:24:19.687766+00:00",
+  "scan_seconds": 27.7,
+  "markets_scanned": 108,
+  "open_positions": 73,
   "signals": [
     {
-      "id": "sig_257946",
-      "timestamp": "2026-04-15T15:21:21.678411+00:00",
+      "id": "sig_429319",
+      "timestamp": "2026-04-15T15:24:13.051623+00:00",
       "source": "PERPLEXITY",
-      "headline": "White House Announces VP Vance to Lead In-Person Iran Peace Talks in Islamabad This Weekend | YES | HIGH confidence**[1]",
-      "raw": "White House Announces VP Vance to Lead In-Person Iran Peace Talks in Islamabad This Weekend | YES | HIGH confidence**[1]\n\nThe White House confirmed that **Vice President JD Vance**, alongside special envoy Steve Witkoff and Jared Kushner, will lead the US negotiating team for in-person peace talks with Iran, scheduled this weekend in Islamabad[1]. This announcement, made on April 14, 2026, coincid",
+      "headline": "Solana Hits Record 167 Million Monthly Token Holders and $1",
+      "raw": "Solana Hits Record 167 Million Monthly Token Holders and $1.1 Trillion Quarterly Economic Activity | YES | HIGH confidence**  \nOn April 14, 2026, Solana achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, alongside $1.1 trillion in Q1 2026 economic activity (a 6,500% quarterly surge), signaling robust adoption that could boost prediction mark",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will the price of Solana be between $100 and $110 on April 1",
+        "Will the price of Solana be above $100 on April 17?",
+        "Will the price of Solana be above $100 on April 18?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_268936",
-      "timestamp": "2026-04-15T15:21:32.668625+00:00",
+      "id": "sig_434927",
+      "timestamp": "2026-04-15T15:24:18.659055+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's nomination as next Fed Chair confirmed amid surging inflation and rate hike speculation",
-      "raw": "Kevin Warsh's nomination as next Fed Chair confirmed amid surging inflation and rate hike speculation.** | YES | HIGH confidence[1][2][3]\n\nWarsh is set to succeed Jerome Powell by mid-May 2026, with his first potential action being an interest rate hike due to oil prices over $100/barrel from Middle East conflict and **annual core inflation** at 3.9% (pre-shock, pushing 3-month annualized core PCE",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
+      "headline": "Fed held rates steady at 4",
+      "raw": "Fed held rates steady at 4.25-4.5% after late 2024 cuts, with Powell noting elevated inflation and no urgency for changes (dated Jan 2025).[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_253173",
-      "timestamp": "2026-04-15T15:21:16.905271+00:00",
+      "id": "sig_434934",
+      "timestamp": "2026-04-15T15:24:18.666551+00:00",
       "source": "PERPLEXITY",
-      "headline": "Details on latest developments:**",
-      "raw": "Details on latest developments:**",
-      "direction": null,
+      "headline": "Powell stated long-term inflation expectations are well-anchored amid US-Israel-Iran war monitoring (no specific date, b",
+      "raw": "Powell stated long-term inflation expectations are well-anchored amid US-Israel-Iran war monitoring (no specific date, but video format suggests event coverage).[4][6]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_253181",
-      "timestamp": "2026-04-15T15:21:16.913255+00:00",
+      "id": "sig_434954",
+      "timestamp": "2026-04-15T15:24:18.686843+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ceasefire remains temporary and unstable, with first-round talks inconclusive on nuclear issues, Hormuz control (Iran ch",
-      "raw": "Ceasefire remains temporary and unstable, with first-round talks inconclusive on nuclear issues, Hormuz control (Iran choking 20% of global oil), and blockades; second round nears in next 48 hours, possibly hosted by Pakistan.[2][4][6]",
-      "direction": null,
+      "headline": "Older data: South Korea annual inflation at 2",
+      "raw": "Older data: South Korea annual inflation at 2.32% in 2024; IMF projects global inflation to 3.5% by 2030.[2][3]\n\nNo results indicate announcements today or resolutions impacting markets like Fed rate decisions or South Korea policy shifts.[1][2][3][4][5][6]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_253189",
-      "timestamp": "2026-04-15T15:21:16.921102+00:00",
+      "id": "sig_416299",
+      "timestamp": "2026-04-15T15:24:00.031777+00:00",
       "source": "PERPLEXITY",
-      "headline": "US enforces full Iranian port blockade; Trump hints at peace talks this week, Rubio hosts Israel-Lebanon talks, but stri",
-      "raw": "US enforces full Iranian port blockade; Trump hints at peace talks this week, Rubio hosts Israel-Lebanon talks, but strikes continue in Lebanon and Iran threatens retaliation.[1][3][4]",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "US-Iran ceasefire holding as of April 14; Trump announces potential new talks in Pakistan within 2 days (by April 15), w",
+      "raw": "US-Iran ceasefire holding as of April 14; Trump announces potential new talks in Pakistan within 2 days (by April 15), with Vance confirming progress in nuclear negotiations.** | **YES** | **MED** confidence[1][2][3][6]\n\nThe US-Iran two-week ceasefire, announced April 8 and mediated by Pakistan, remains in effect despite ongoing Israeli strikes in Lebanon and UN calls for extension[1][2][4]. On Ap",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_253196",
-      "timestamp": "2026-04-15T15:21:16.928764+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No new confirmations, announcements, or resolutions today to shift prediction markets\u2014focus is on looming expiration and",
-      "raw": "No new confirmations, announcements, or resolutions today to shift prediction markets\u2014focus is on looming expiration and diplomatic push to avoid escalation.[2][5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_253204",
-      "timestamp": "2026-04-15T15:21:16.936373+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: LOW** (sources from April 8-15 show ongoing fragility without breakthroughs; no RIGHT NOW confirmations)",
-      "raw": "Confidence: LOW** (sources from April 8-15 show ongoing fragility without breakthroughs; no RIGHT NOW confirmations).[1][2][3][4][5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 0
   }
 }
