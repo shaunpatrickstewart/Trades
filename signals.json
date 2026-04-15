@@ -1,89 +1,62 @@
 {
-  "last_scan": "2026-04-15T03:05:50.270464+00:00",
-  "scan_seconds": 20.1,
-  "markets_scanned": 87,
-  "open_positions": 53,
+  "last_scan": "2026-04-15T03:08:32.982373+00:00",
+  "scan_seconds": 18.9,
+  "markets_scanned": 111,
+  "open_positions": 77,
   "signals": [
     {
-      "id": "sig_116198",
-      "timestamp": "2026-04-15T03:05:39.974517+00:00",
+      "id": "sig_275042",
+      "timestamp": "2026-04-15T03:08:18.818627+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kerala Assembly Election 2026 Polling Concludes | NO | LOW confidence**",
-      "raw": "Kerala Assembly Election 2026 Polling Concludes | NO | LOW confidence**\n\nPolling for Kerala's 140 assembly seats ended on April 9, 2026, with 62.71% voter turnout recorded by 3 PM amid a tight race between LDF (seeking a third term), UDF (pushing for comeback), and NDA (aiming to break through); no results, winners, or seat projections confirmed yet, limiting market impact[4]. Congress leader Sham",
+      "headline": "Trump Agrees to 2-Week Ceasefire with Iran After Threats of Annihilation | YES | HIGH confidence**",
+      "raw": "Trump Agrees to 2-Week Ceasefire with Iran After Threats of Annihilation | YES | HIGH confidence**  \nPresident Donald Trump announced a two-week ceasefire agreement with Iran on Tuesday evening, April 7-8, 2026, shifting from morning threats of \"annihilation\" and strikes on civilian infrastructure to accepting Tehran's \"workable\" plan ahead of an 8 p.m. ET deadline.[1][2]  \nThis de-escalation addr",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_280011",
+      "timestamp": "2026-04-15T03:08:23.787489+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news update you're requesting",
+      "raw": "I cannot provide the breaking news update you're requesting. The search results provided discuss Joe Hathaway's candidacy in New Jersey's 11th Congressional District special election scheduled for April 16, 2026, but they contain no information about Vice President Vance, White House developments, or any confirmed announcements that would move prediction markets as of the current date.\n\nThe search",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Joe Hathaway win the NJ-11 special election?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_125493",
-      "timestamp": "2026-04-15T03:05:49.269500+00:00",
+      "id": "sig_288205",
+      "timestamp": "2026-04-15T03:08:31.981548+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking Germany annual inflation, GDP, or related South Korea GDP announcements confirmed in last hours** | NO | HIG",
-      "raw": "No breaking Germany annual inflation, GDP, or related South Korea GDP announcements confirmed in last hours** | NO | HIGH  \nNo results indicate fresh (post-April 10) confirmations, resolutions, or announcements on Germany inflation/GDP or South Korea GDP that could shift prediction markets; focus remains on South Korea CPI and forecasts.[1][2][3][4][5] Next South Korea CPI (April data) due May 6.[",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_110593",
-      "timestamp": "2026-04-15T03:05:34.369508+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving potential**: Optimism on renewed diplomacy is noted as what \"the market is seizing onto,\" per Bloomberg re",
-      "raw": "Market-moving potential**: Optimism on renewed diplomacy is noted as what \"the market is seizing onto,\" per Bloomberg reporting[3].  \nCeasefire entered final week as of Apr 14; no resolution on nuclear limits or economic normalization yet[1][2].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_125487",
-      "timestamp": "2026-04-15T03:05:49.263234+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI: 2",
-      "raw": "South Korea March 2026 CPI: 2.16-2.2% YoY (up from 2.0% prior, below 2.3-2.4% consensus)** | YES | HIGH  \nSouth Korea's March 2026 inflation rose to 2.16% YoY (from 2.00% in Feb) with 0.34% MoM rise, per official data, while other reports cite 2.2% YoY (three-month high, energy-driven but capped by govt measures); core at 2.2%.[1][3][4][5] Major IBs raised 2026 forecasts to 2.4% avg (from 2.0%), w",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_110585",
-      "timestamp": "2026-04-15T03:05:34.361266+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US signals new Iran talks within days as ceasefire holds; Trump confirms potential negotiations soon",
-      "raw": "US signals new Iran talks within days as ceasefire holds; Trump confirms potential negotiations soon.** | **YES** | **MED** confidence[1][3]\n\nVP JD Vance states the **current ceasefire is holding** after recent constructive talks in Islamabad, despite no breakthrough, with Pakistan offering to host again[1][2][3].  \nTrump told the New York Post that **talks with Iran could happen over the next two",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY, Below Forecasts | YES | HIGH**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% per Statistics Korea data released recently; this containment amid energy volatility could shift BoK rate cut bets and prediction markets on inflation staying near 2% target.[1]  \n\nNo c",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 2,
+    "alert": 0,
     "watch": 1,
     "high_conf": 2
   }
