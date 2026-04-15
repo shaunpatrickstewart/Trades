@@ -1,88 +1,67 @@
 {
-  "last_scan": "2026-04-15T15:09:55.207761+00:00",
-  "scan_seconds": 31.6,
-  "markets_scanned": 78,
-  "open_positions": 39,
+  "last_scan": "2026-04-15T15:12:49.593524+00:00",
+  "scan_seconds": 33.9,
+  "markets_scanned": 116,
+  "open_positions": 79,
   "signals": [
     {
-      "id": "sig_557491",
-      "timestamp": "2026-04-15T15:09:41.224861+00:00",
+      "id": "sig_731133",
+      "timestamp": "2026-04-15T15:12:34.866258+00:00",
       "source": "PERPLEXITY",
-      "headline": "Peru's presidential election held on April 12, 2026, with no candidate securing 50% amid delays and chaos; runoff in Jun",
-      "raw": "Peru's presidential election held on April 12, 2026, with no candidate securing 50% amid delays and chaos; runoff in June now inevitable | NO** | **LOW confidence** [1][2]\n\nPeru's general election on Sunday featured 35 candidates on oversized ballots, dominated by low polling (none above 15%), crime concerns, and frontrunners like Keiko Fujimori and Rafael L\u00f3pez Aliaga (ultraconservative ex-Lima m",
+      "headline": "White House Announces In-Person Peace Talks with Iran Led by VP JD Vance, Triggering Oil Price Drop** | YES | HIGH confi",
+      "raw": "White House Announces In-Person Peace Talks with Iran Led by VP JD Vance, Triggering Oil Price Drop** | YES | HIGH confidence[1]\n\nThe White House confirmed that **Vice President JD Vance**, alongside special envoy Steve Witkoff and Jared Kushner, will lead in-person peace talks with Iran this weekend in Islamabad, directly tied to a reported drop in oil prices[1]. This disputes media claims of U.S",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Keiko Fujimori win the 2026 Peruvian presidential elect",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Rafael L\u00f3pez Aliaga finish in third place in the first round of the 2026 Pe"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_551387",
-      "timestamp": "2026-04-15T15:09:35.120373+00:00",
+      "id": "sig_739464",
+      "timestamp": "2026-04-15T15:12:43.197262+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Blockade escalation**: U",
-      "raw": "**Blockade escalation**: U.S. forces have announced a full blockade of Iranian ports is now in effect[3], directly threatening Iran's oil exports and global energy supplies.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_564813",
-      "timestamp": "2026-04-15T15:09:48.546791+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news that has been confirmed, announced, or resolve",
-      "raw": "Based on the search results provided, I cannot identify any breaking news that has been confirmed, announced, or resolved today (April 15) that would move prediction markets.\n\nThe search results reference:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_564831",
-      "timestamp": "2026-04-15T15:09:48.564013+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current trading data** showing XRP trading around $1",
-      "raw": "**Current trading data** showing XRP trading around $1.36-$1.39 with resistance at $1.38 and institutional ETF inflows of $119M last week[5]\n\nHowever, none of these represent breaking news confirmed or announced on April 15, 2026. The legislative discussions referenced appear to be from earlier reporting, and the price action reflects ongoing trading activity rather than a specific market-moving a",
-      "direction": null,
+      "headline": "Based on the search results provided, there is **no breaking news or recent announcements** that have just been confirme",
+      "raw": "Based on the search results provided, there is **no breaking news or recent announcements** that have just been confirmed, announced, or resolved today (April 15, 2026) that would move Solana prediction markets.\n\nThe most recent market-moving event in the search results is from **April 3, 2026**, when a **US jobs report showed 178,000 jobs added, significantly beating the 59,000 estimate**[1]. Thi",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+        "Will the price of Solana be between $100 and $110 on April 1",
+        "Will the price of Solana be above $100 on April 17?",
+        "Will the price of Solana be above $100 on April 18?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_564836",
-      "timestamp": "2026-04-15T15:09:48.569619+00:00",
+      "id": "sig_744859",
+      "timestamp": "2026-04-15T15:12:48.592757+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**\n\nNo breaking news event that would move prediction markets has been confirmed in these search results as of today.",
-      "direction": "NO",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Persistent 3% Inflation Floor | YES | HIGH confidence**",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Persistent 3% Inflation Floor | YES | HIGH confidence**\n\nKevin Warsh, former Fed governor known as an inflation hawk advocating balance sheet reduction and Fed \"regime change,\" has been tapped by President Trump to lead the Federal Reserve, sparking market speculation on rates, independence, and policy shifts.[1][2][4] This nomination arrives as i",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_551376",
-      "timestamp": "2026-04-15T15:09:35.109285+00:00",
+      "id": "sig_725818",
+      "timestamp": "2026-04-15T15:12:29.551507+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Entering Critical Phase as Diplomatic Talks Stall | NO | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Entering Critical Phase as Diplomatic Talks Stall | NO | HIGH confidence**\n\nThe two-week US-Iran ceasefire announced on April 8 is **fragile and deteriorating**, with no major breakthrough confirmed as of today. While the ceasefire technically remains in effect until April 21, the first round of negotiations ended without a deal[2], leaving fundamental disagreements unresolved ov",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "**Blockade Confirmation**: U",
+      "raw": "**Blockade Confirmation**: U.S. Central Command announced last night (April 14-15, 2026) that the blockade of Iranian ports, including in the Strait of Hormuz, is now fully in effect, escalating tensions as Chinese and Iranian tankers test it and Tehran issues retaliation threats**[1][3][4].",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
@@ -93,42 +72,25 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_551394",
-      "timestamp": "2026-04-15T15:09:35.127824+00:00",
+      "id": "sig_725845",
+      "timestamp": "2026-04-15T15:12:29.578163+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Stalled diplomacy**: American negotiators departed Islamabad with \"virtually no progress\" after 21 hours of talks[4]",
-      "raw": "**Stalled diplomacy**: American negotiators departed Islamabad with \"virtually no progress\" after 21 hours of talks[4]. Vice President JD Vance stated Iran refused to accept U.S. terms on nuclear development[4].",
+      "headline": "**Market Impact Potential**: No resolution or ceasefire extension confirmed\u2014blockade enforcement and faltering talks sig",
+      "raw": "**Market Impact Potential**: No resolution or ceasefire extension confirmed\u2014blockade enforcement and faltering talks signal heightened conflict risk, likely moving markets toward \"NO\" on de-escalation bets**[1][2][3][4].",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_551403",
-      "timestamp": "2026-04-15T15:09:35.136806+00:00",
+      "id": "sig_725827",
+      "timestamp": "2026-04-15T15:12:29.560386+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Continued military operations**: Despite the ceasefire, Israeli strikes continue against Hezbollah in Lebanon, and Ira",
-      "raw": "**Continued military operations**: Despite the ceasefire, Israeli strikes continue against Hezbollah in Lebanon, and Iran-aligned militia attacks on U.S. diplomats in Baghdad occurred on April 9[5].",
+      "headline": "**Ceasefire Talks Progress**: US and Iran are preparing a second round of direct talks within days before the current ce",
+      "raw": "**Ceasefire Talks Progress**: US and Iran are preparing a second round of direct talks within days before the current ceasefire expires, with clearer positions shared; Pakistan pushes to host in Islamabad, following inconclusive first round led by JD Vance**[2][3].",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_551415",
-      "timestamp": "2026-04-15T15:09:35.148072+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Critical deadline approaching**: The ceasefire expires April 21, with the next 48 hours considered decisive for either",
-      "raw": "**Critical deadline approaching**: The ceasefire expires April 21, with the next 48 hours considered decisive for either breakthrough or renewed escalation[2].\n\nNo permanent resolution or agreement has been reached. The situation remains highly unstable with competing blockades, unresolved demands, and continued military action outside the ceasefire scope.",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?"
@@ -138,37 +100,25 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_564825",
-      "timestamp": "2026-04-15T15:09:48.558218+00:00",
+      "id": "sig_725836",
+      "timestamp": "2026-04-15T15:12:29.569212+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Past discussions about April 13 significance** related to the Senate's return and the Clarity Act for crypto legislati",
-      "raw": "**Past discussions about April 13 significance** related to the Senate's return and the Clarity Act for crypto legislation, with analysts previously calling April a \"binary month\" for potential price movement[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_564819",
-      "timestamp": "2026-04-15T15:09:48.552513+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Historical April trends for XRP** showing mixed performance across different years, with April 2021 showing a 180% gai",
-      "raw": "**Historical April trends for XRP** showing mixed performance across different years, with April 2021 showing a 180% gain and April 2022-2024 showing losses[1]",
+      "headline": "**Related Diplomacy**: President Trump suggests peace talks could re-ignite this week; Secretary Rubio hosts first Israe",
+      "raw": "**Related Diplomacy**: President Trump suggests peace talks could re-ignite this week; Secretary Rubio hosts first Israel-Lebanon talks, while Israel continues operations against Hezbollah despite a fragile ceasefire with Iran**[1][4].",
       "direction": null,
       "confidence": 0.6,
       "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 9,
+    "enter": 3,
+    "alert": 3,
     "watch": 1,
     "high_conf": 5
   }
