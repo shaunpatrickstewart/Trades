@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-15T23:00:30.331112+00:00",
-  "scan_seconds": 35.8,
-  "markets_scanned": 138,
-  "open_positions": 98,
+  "last_scan": "2026-04-15T23:03:25.093043+00:00",
+  "scan_seconds": 33.8,
+  "markets_scanned": 81,
+  "open_positions": 41,
   "signals": [
     {
-      "id": "sig_786237",
-      "timestamp": "2026-04-15T23:00:09.942609+00:00",
+      "id": "sig_963392",
+      "timestamp": "2026-04-15T23:03:07.097475+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Talks Collapse in Pakistan Over Weekend; Trump Warns of Consequences as Blockade Continues | NO | HIGH",
-      "raw": "US-Iran Ceasefire Talks Collapse in Pakistan Over Weekend; Trump Warns of Consequences as Blockade Continues | NO | HIGH confidence**[3][7]\n\nThe US-Iran two-week ceasefire, announced on April 8 and mediated by Pakistan, has not been extended or resolved into a permanent deal, with talks collapsing in Islamabad by April 11-13 amid ongoing US port blockades and Trump's threats of escalation if no ag",
-      "direction": "NO",
+      "headline": "King Charles' State Visit to Trump White House Confirmed Amid Tensions | YES | HIGH confidence**",
+      "raw": "King Charles' State Visit to Trump White House Confirmed Amid Tensions | YES | HIGH confidence**  \nUK Prime Minister Keir Starmer confirmed King Charles and Queen Camilla's planned state visit to President Trump in Washington DC this month (April 2026), defending it despite Trump's recent threat to \"erase an entire civilization\" in the Iran conflict, which Starmer called \"wrong.\"[1][2]  \nThe visit",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -19,105 +19,126 @@
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_793411",
-      "timestamp": "2026-04-15T23:00:17.116281+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NJ-11 Special Election Tomorrow: Republican Joe Hathaway Campaigns Aggressively for Upset Win | NO | LOW confidence**",
-      "raw": "NJ-11 Special Election Tomorrow: Republican Joe Hathaway Campaigns Aggressively for Upset Win | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions today (April 15, 2026) in NJ's 11th Congressional District special election\u2014set for **April 16**\u2014involving **Republican** candidate **Joe Hathaway** against Democrat Analilia Mejia to replace Mikie Sherrill[2][4][5].[1][2][4",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Joe Hathaway win the NJ-11 special election?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
-      "action": "ENTER",
-      "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_798325",
-      "timestamp": "2026-04-15T23:00:22.030661+00:00",
+      "id": "sig_973023",
+      "timestamp": "2026-04-15T23:03:16.728119+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana $280M+ Drift Protocol Exploit Confirmed via Social Engineering** | **YES** | **HIGH** confidence[2]",
-      "raw": "Solana $280M+ Drift Protocol Exploit Confirmed via Social Engineering** | **YES** | **HIGH** confidence[2]\n\nA major $280M+ exploit on Solana's Drift protocol was confirmed, using social engineering and pre-approved transactions to seize admin control, with Circle declining to freeze $230M+ in bridged USDC; SOL dropped 13% in the past week to ~$78, testing $75-80 support amid 40% DEX volume decline",
+      "headline": "Bitcoin Breaks $74K Resistance on Strong ETF Inflows | YES | HIGH confidence**",
+      "raw": "Bitcoin Breaks $74K Resistance on Strong ETF Inflows | YES | HIGH confidence**\n\nBitcoin broke through the **$74,000 resistance level on April 14, 2026**, reaching a one-month high near **$75,000** amid strong institutional demand and ETF inflows[3]. This follows a significant rally driven by the U.S.-Iran ceasefire collapsing oil prices, which triggered $427 million in crypto short liquidations an",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will Ethereum dip to $2,150 on April 15?",
-        "Will Bitcoin reach $80,000 on April 15?",
-        "Will the price of Solana be between $60 and $70 on April 16?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_805594",
-      "timestamp": "2026-04-15T23:00:29.299163+00:00",
+      "id": "sig_980387",
+      "timestamp": "2026-04-15T23:03:24.092034+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news announcement or confirmation from today (April",
-      "raw": "Based on the search results provided, I cannot identify any breaking news announcement or confirmation from today (April 15, 2026) that would move prediction markets. The most recent dated content in these results is from early February 2026, when President Trump announced Kevin Warsh's nomination as Fed chair nominee to replace Jay Powell.\n\nThe search results discuss:",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Kevin Warsh Nominated by Trump as Next Fed Chair, Speculation Mounts on Rate Hike Amid Surging Inflation and Oil Shock |",
+      "raw": "Kevin Warsh Nominated by Trump as Next Fed Chair, Speculation Mounts on Rate Hike Amid Surging Inflation and Oil Shock | NO | HIGH confidence**\n\nNo confirmed announcements, resolutions, or final decisions today on Fed rate moves, South Korea inflation, or Warsh's confirmation that would directly shift prediction markets\u2014only ongoing speculation and nominations.[1][2][3] Key developments include Tr",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump agree to unfreeze Iranian assets in April?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_805604",
-      "timestamp": "2026-04-15T23:00:29.309614+00:00",
+      "id": "sig_973017",
+      "timestamp": "2026-04-15T23:03:16.722279+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Warsh's nomination** (announced January 31, 2026)[4] to become Fed chair when Powell's term ends in May 2026[4]",
-      "raw": "**Warsh's nomination** (announced January 31, 2026)[4] to become Fed chair when Powell's term ends in May 2026[4]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_805625",
-      "timestamp": "2026-04-15T23:00:29.330493+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Policy uncertainty** regarding whether Warsh's first move might involve rate decisions, with markets and officials div",
-      "raw": "**Policy uncertainty** regarding whether Warsh's first move might involve rate decisions, with markets and officials divided on the direction[2]\n\nHowever, these are not today's announcements\u2014they represent the background context leading into mid-April 2026. To provide the breaking news format you've requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need search results containing ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_805615",
-      "timestamp": "2026-04-15T23:00:29.320239+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current economic conditions** as of mid-April 2026: inflation at 2",
-      "raw": "**Current economic conditions** as of mid-April 2026: inflation at 2.8% (February PCE)[1], unemployment at 4.3%[1], and ongoing inflation concerns above the Fed's 2% target[2]",
+      "headline": "Based on the available search results, here are the key developments from April 2026:",
+      "raw": "Based on the available search results, here are the key developments from April 2026:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_973032",
+      "timestamp": "2026-04-15T23:03:16.737518+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key Market-Moving Confirmations:**",
+      "raw": "Key Market-Moving Confirmations:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_973044",
+      "timestamp": "2026-04-15T23:03:16.749158+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Oil price crash:** WTI crude collapsed from $112 per barrel following the ceasefire announcement, improving inflation",
+      "raw": "**Oil price crash:** WTI crude collapsed from $112 per barrel following the ceasefire announcement, improving inflation expectations[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_973054",
+      "timestamp": "2026-04-15T23:03:16.759363+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Institutional accumulation:** Spot Bitcoin ETFs recorded $471 million in net inflows on April 6, the strongest single",
+      "raw": "**Institutional accumulation:** Spot Bitcoin ETFs recorded $471 million in net inflows on April 6, the strongest single day since late February, with BlackRock's IBIT, Fidelity's FBTC, and Ark Invest's ARKB leading[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $72,000 on April 20?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_973063",
+      "timestamp": "2026-04-15T23:03:16.768219+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Spot-driven rally:** BTC perpetual funding rates remained flat to slightly negative, confirming the rally is driven by",
+      "raw": "**Spot-driven rally:** BTC perpetual funding rates remained flat to slightly negative, confirming the rally is driven by genuine demand rather than leveraged speculation[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_973071",
+      "timestamp": "2026-04-15T23:03:16.776255+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Short-Term Predictions:** Analysts predict Bitcoin could test $75,000\u2013$80,000 on the bullish side, with the critical piv",
+      "raw": "Short-Term Predictions:** Analysts predict Bitcoin could test $75,000\u2013$80,000 on the bullish side, with the critical pivot zone at $72,200\u2013$73,500 where $6 billion in shorts are concentrated[2]. The outcome depends on whether the ceasefire holds and inflation expectations remain favorable for Fed rate cuts.",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 6
+    "enter": 1,
+    "alert": 7,
+    "watch": 1,
+    "high_conf": 1
   }
 }
