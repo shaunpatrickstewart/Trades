@@ -1,144 +1,90 @@
 {
-  "last_scan": "2026-04-15T15:44:25.077394+00:00",
-  "scan_seconds": 28.9,
-  "markets_scanned": 154,
+  "last_scan": "2026-04-15T15:47:17.052724+00:00",
+  "scan_seconds": 28.8,
+  "markets_scanned": 151,
   "open_positions": 117,
   "signals": [
     {
-      "id": "sig_624066",
-      "timestamp": "2026-04-15T15:44:07.797379+00:00",
+      "id": "sig_801510",
+      "timestamp": "2026-04-15T15:47:05.241184+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: LOW** - No sources confirm events post-April 14; ceasefire expiration looms without resolution, but nothing",
-      "raw": "Confidence: LOW** - No sources confirm events post-April 14; ceasefire expiration looms without resolution, but nothing \"just\" announced to shift markets like a full deal or breakdown.[3][7]",
+      "headline": "I cannot provide the breaking news headline format you've requested because the search results do not contain informatio",
+      "raw": "I cannot provide the breaking news headline format you've requested because the search results do not contain information about recent announcements, confirmations, or resolutions involving Joe Hathaway, the White House, or Vice President Vance that would move prediction markets.\n\nThe search results only show that Joe Hathaway is a Republican candidate for New Jersey's 11th Congressional District ",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_629632",
-      "timestamp": "2026-04-15T15:44:13.363067+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NJ-11 Special Election Tomorrow: Republican Joe Hathaway Faces Democrat Analilia Mejia in Tight Race | NO | LOW confiden",
-      "raw": "NJ-11 Special Election Tomorrow: Republican Joe Hathaway Faces Democrat Analilia Mejia in Tight Race | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions reported as of now regarding the NJ-11 special congressional election set for Thursday, April 16, 2026[1][2][4].[2] Republican Joe Hathaway (Randolph Township Council member) is unopposed in his primary and campaigns ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
         "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Joe Hathaway win the NJ-11 special election?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Joe Hathaway win the NJ-11 special election?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_640333",
-      "timestamp": "2026-04-15T15:44:24.064745+00:00",
+      "id": "sig_812320",
+      "timestamp": "2026-04-15T15:47:16.051408+00:00",
       "source": "PERPLEXITY",
-      "headline": "Senate Banking Committee schedules Kevin Warsh's Fed chair confirmation hearing for April 21, predicting Senate confirma",
-      "raw": "Senate Banking Committee schedules Kevin Warsh's Fed chair confirmation hearing for April 21, predicting Senate confirmation in coming weeks amid surging inflation and rate hike discussions.**[3][1]",
-      "direction": null,
-      "confidence": 0.78,
+      "headline": "South Korea's annual inflation rate rose to 2",
+      "raw": "South Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in prior months but below market forecasts of 2.4%.** | YES | MED\n\nThis marks the latest confirmed data release from Statistics Korea, showing contained price pressures amid global energy volatility, potentially influencing Fed assessments of international inflation trends during Waller\u2019s recent Seoul speech on U.S. tarif",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_624010",
-      "timestamp": "2026-04-15T15:44:07.741538+00:00",
+      "id": "sig_806687",
+      "timestamp": "2026-04-15T15:47:10.418394+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Trump's April 13 remarks**: New direct talks possibly in Pakistan within 2 days; progressing \"somewhat slowly\"; praise",
-      "raw": "**Trump's April 13 remarks**: New direct talks possibly in Pakistan within 2 days; progressing \"somewhat slowly\"; praised Pakistan's Asim Munir; no deal on nuclear curbs like 20-year enrichment halt; warned of consequences if no agreement by ceasefire end (~April 22).[3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Trump say \"Christian\" during TPUSA events on April 17?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_624034",
-      "timestamp": "2026-04-15T15:44:07.765274+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 11 talks in Islamabad**: US team (Vance, Witkoff, Kushner) met Iranian officials (Araghchi, Ghalibaf); ended wit",
-      "raw": "**April 11 talks in Islamabad**: US team (Vance, Witkoff, Kushner) met Iranian officials (Araghchi, Ghalibaf); ended without deal.[4][7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_624051",
-      "timestamp": "2026-04-15T15:44:07.782888+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 14 updates**: Second round of talks planned soon (Pakistan pushing Islamabad); ceasefire allows Iran missile reo",
-      "raw": "**April 14 updates**: Second round of talks planned soon (Pakistan pushing Islamabad); ceasefire allows Iran missile reorganization.[7][8]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_635420",
-      "timestamp": "2026-04-15T15:44:19.151158+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Deutsche B\u00f6rse Confirms $200M Investment in Kraken, Boosting Bitcoin Infrastructure and $80K Price Target** | YES | HIGH",
-      "raw": "Deutsche B\u00f6rse Confirms $200M Investment in Kraken, Boosting Bitcoin Infrastructure and $80K Price Target** | YES | HIGH confidence[1]\n\nBitcoin is consolidating above $73,000 in April 2026 amid whale accumulation unseen since early 2024, with this institutional move validating crypto maturity and signaling a breakout to $75,000-$80,000 before summer[1]. No confirmed announcements on Solana or Ethe",
+      "headline": "Solana $280M+ Drift Protocol Exploit Confirmed via Social Engineering** | YES | HIGH confidence[5]",
+      "raw": "Solana $280M+ Drift Protocol Exploit Confirmed via Social Engineering** | YES | HIGH confidence[5]",
       "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "WATCH",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_640345",
-      "timestamp": "2026-04-15T15:44:24.076350+00:00",
+      "id": "sig_806698",
+      "timestamp": "2026-04-15T15:47:10.429446+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** | **HIGH** confidence",
-      "raw": "YES** | **HIGH** confidence  \n\nThis announcement, reported Tuesday by Senate Banking Chair Tim Scott, advances Warsh's path to replacing Jerome Powell by mid-May, with discussions on economy, **annual inflation** (core PCE at 4.56%, pre-oil shock),[1] and Fed independence.[3][2] Markets price potential **rate hike** under Warsh due to oil >$100/barrel and persistent inflation above 2% target for 5",
+      "headline": "Interactive Brokers Launches Solana (SOL) Trading for European Investors** | YES | MED confidence[2]",
+      "raw": "Interactive Brokers Launches Solana (SOL) Trading for European Investors** | YES | MED confidence[2]",
       "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_806715",
+      "timestamp": "2026-04-15T15:47:10.446331+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Breaches $74,000 Amid Pump, Raising April $80k Hopes** | YES | MED confidence[7][1]",
+      "raw": "Bitcoin Breaches $74,000 Amid Pump, Raising April $80k Hopes** | YES | MED confidence[7][1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin reach $81,000 on April 15?",
+        "Will the price of Bitcoin be above $82,000 on April 16?",
+        "Will the price of Bitcoin be above $60,000 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 4,
-    "watch": 2,
-    "high_conf": 2
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 3
   }
 }
