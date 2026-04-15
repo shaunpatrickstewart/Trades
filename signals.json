@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-15T16:44:27.055371+00:00",
-  "scan_seconds": 34.6,
-  "markets_scanned": 144,
+  "last_scan": "2026-04-15T16:47:25.658066+00:00",
+  "scan_seconds": 37.1,
+  "markets_scanned": 145,
   "open_positions": 111,
   "signals": [
     {
-      "id": "sig_219581",
-      "timestamp": "2026-04-15T16:44:03.308854+00:00",
+      "id": "sig_399805",
+      "timestamp": "2026-04-15T16:47:03.532517+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms (April 15 Confirmation)** | YES | MED confidence",
-      "raw": "US, Iran Plan Second Round of Ceasefire Talks as Initial Deadline Looms (April 15 Confirmation)** | YES | MED confidence[5][6]\n\nThe US and Iran are preparing for round two of peace talks after the first round in Pakistan failed, with a potential start within days (venue TBD, Pakistan pushing Islamabad); this follows the April 8 two-week ceasefire (now ~1 week old, violated by both sides) amid US H",
-      "direction": "YES",
+      "headline": "US and Iran Planning Second Round of Talks Before April 21 Ceasefire Expires | NO | HIGH confidence**",
+      "raw": "US and Iran Planning Second Round of Talks Before April 21 Ceasefire Expires | NO | HIGH confidence**\n\nNo new ceasefire extension, deal, or resolution has been confirmed or announced as of April 15, 2026; instead, reports indicate both sides are discussing fresh negotiations in the next 48 hours to avoid escalation after first-round talks in Islamabad failed.[1][2] The existing two-week ceasefire,",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,28 +22,73 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_226246",
-      "timestamp": "2026-04-15T16:44:09.973927+00:00",
+      "id": "sig_405746",
+      "timestamp": "2026-04-15T16:47:09.473937+00:00",
       "source": "PERPLEXITY",
-      "headline": "White House announces Trump-approved temporary waiver for India to buy Russian oil amid US-Iran tensions | YES | HIGH co",
-      "raw": "White House announces Trump-approved temporary waiver for India to buy Russian oil amid US-Iran tensions | YES | HIGH confidence**  \nPresident **Trump** personally cleared a short-term waiver allowing India to purchase **Russian oil** to stabilize global energy markets disrupted by the US campaign against Iran; White House Press Secretary Karoline Leavitt confirmed it follows India's prior sanctio",
+      "headline": "Congress Releases First List of 284 Candidates for West Bengal Polls | YES | HIGH confidence**",
+      "raw": "Congress Releases First List of 284 Candidates for West Bengal Polls | YES | HIGH confidence**  \nCongress announced its first list of 284 candidates, including Adhir Ranjan Chowdhury from Baharampur and Mausam Noor from Malatipur, planning to contest all 294 seats.[4] This clarifies opposition positioning and may influence markets betting on seat shares or anti-incumbent momentum.[4]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_234430",
-      "timestamp": "2026-04-15T16:44:18.157540+00:00",
+      "id": "sig_414241",
+      "timestamp": "2026-04-15T16:47:17.968372+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific breaking news format you've requested because the search results do not contain informatio",
-      "raw": "I cannot provide the specific breaking news format you've requested because the search results do not contain information about events that have been \"just confirmed, announced, or resolved\" today or very recently that would specifically move prediction markets.\n\nThe search results contain **price predictions and technical analyses** for Solana and Bitcoin throughout April 2026, but they do not re",
-      "direction": null,
+      "headline": "Based on the available search results, there is no breaking news announced today (April 15) that would move prediction m",
+      "raw": "Based on the available search results, there is no breaking news announced today (April 15) that would move prediction markets. The most recent confirmed price data is from April 14, 2026, showing Bitcoin at $74,314.61[7], but this represents normal market movement rather than a confirming announcement.\n\nThe most significant recent developments are from earlier in April:",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will Bitcoin reach $81,000 on April 15?",
+        "Will the price of Bitcoin be above $60,000 on April 19?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_420929",
+      "timestamp": "2026-04-15T16:47:24.656862+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Confirmed as Finalist for Fed Chair | NO | LOW confidence**",
+      "raw": "Kevin Warsh Confirmed as Finalist for Fed Chair | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions today link Fed Chair developments, Kevin Warsh, annual inflation, or South Korea to prediction market movements[1][2]. Warsh remains one of five finalists to replace Jerome Powell in May 2026, as confirmed by Treasury Secretary Scott Bessent in October (prior to 2026), ",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_414261",
+      "timestamp": "2026-04-15T16:47:17.988710+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Deutsche B\u00f6rse's $200M Kraken Investment | YES | HIGH confidence**",
+      "raw": "Deutsche B\u00f6rse's $200M Kraken Investment | YES | HIGH confidence**\nDeutsche B\u00f6rse made a landmark $200 million investment in Kraken, signaling that crypto infrastructure has reached institutional maturity and opening new channels for traditional finance capital inflow[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_414272",
+      "timestamp": "2026-04-15T16:47:17.999145+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Price Consolidation Above $73,000 | YES | MEDIUM confidence**",
+      "raw": "Bitcoin Price Consolidation Above $73,000 | YES | MEDIUM confidence**\nBitcoin has established firm footing above $73,000, with whale accumulation patterns not seen since early 2024 suggesting positioning for a breakout toward $75,000-$80,000 by summer[1]. Bitcoin reached $74,314.61 as of April 14[7].\n\nThe search results do not contain any Solana-specific breaking news or announcements for April 15",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will Bitcoin reach $81,000 on April 15?",
         "Will the price of Solana be above $100 on April 16?",
@@ -54,133 +99,41 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_242307",
-      "timestamp": "2026-04-15T16:44:26.034150+00:00",
+      "id": "sig_405736",
+      "timestamp": "2026-04-15T16:47:09.463696+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested based on these search results",
-      "raw": "I cannot provide the breaking news format you've requested based on these search results. The available sources are **not current** \u2014 they date from February 2026 and earlier, with the most recent being from approximately two months ago. None contain confirmed announcements or resolutions that occurred today (April 15, 2026) that would move prediction markets.\n\nThe search results primarily discuss",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_242327",
-      "timestamp": "2026-04-15T16:44:26.054297+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**South Korean won weakness** (timing unclear but appears recent): Linked to uncertainty over Warsh's nomination, trade",
-      "raw": "**South Korean won weakness** (timing unclear but appears recent): Linked to uncertainty over Warsh's nomination, trade tensions with the US, and potential auto tariffs, though partially offset by strong export growth[1]\n\nTo provide the market-moving breaking news you're seeking in the headline/YES-NO/confidence format, I would need search results from today or very recent hours containing concret",
+      "headline": "Amit Shah Releases BJP's Manifesto for West Bengal Assembly Polls | YES | HIGH confidence**",
+      "raw": "Amit Shah Releases BJP's Manifesto for West Bengal Assembly Polls | YES | HIGH confidence**  \nAmit Shah has just released the Bharatiya Janata Party's (BJP) manifesto for the West Bengal Legislative Assembly elections, scheduled in two phases on April 23 and 29, with counting on May 4.[1] This development, amid intensifying campaigning, could shift prediction markets on BJP's prospects in the 294-",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_226236",
-      "timestamp": "2026-04-15T16:44:09.963253+00:00",
-      "source": "PERPLEXITY",
-      "headline": "JD Vance arrives in Delhi for 4-day visit to discuss US tariffs and bilateral trade deal with PM Modi | YES | MED confid",
-      "raw": "JD Vance arrives in Delhi for 4-day visit to discuss US tariffs and bilateral trade deal with PM Modi | YES | MED confidence**  \nUS Vice President **JD Vance** has arrived in Delhi, India, with his wife and kids, set to meet Prime Minister Narendra Modi amid tensions from new **US tariffs**; India seeks a trade deal to avoid further levies, highlighting strains in the US-India partnership despite ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_226257",
-      "timestamp": "2026-04-15T16:44:09.984760+00:00",
-      "source": "PERPLEXITY",
-      "headline": "All India Trinamool Congress walks out of Rajya Sabha protesting Election Commission's removal of West Bengal bureaucrat",
-      "raw": "All India Trinamool Congress walks out of Rajya Sabha protesting Election Commission's removal of West Bengal bureaucrats | NO | LOW confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
         "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_226268",
-      "timestamp": "2026-04-15T16:44:09.995600+00:00",
+      "id": "sig_405757",
+      "timestamp": "2026-04-15T16:47:09.484448+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trinamool Congress** (TMC) members staged a walkout in **Rajya Sabha** over the **Election Commission**'s decision to re",
-      "raw": "Trinamool Congress** (TMC) members staged a walkout in **Rajya Sabha** over the **Election Commission**'s decision to remove top bureaucrats in **West Bengal** ahead of polls (dated Mar 16); no link to **US Congress**, **Vance**, **White House**, or **election** prediction markets like US races.[2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Opposition Parties Hold Joint Press Conference Accusing Election Commission of Bias | YES | MED confidence**",
+      "raw": "Opposition Parties Hold Joint Press Conference Accusing Election Commission of Bias | YES | MED confidence**  \nLeaders from TMC, Congress, and ~20 anti-BJP parties united in New Delhi to blast the Election Commission as \"partisan,\" raising voter fraud claims (e.g., 11,000-40,000 bogus votes in Mahadev Pura).[3] While unverified, this rare unity could impact markets on electoral integrity or TMC's ",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
         "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_234441",
-      "timestamp": "2026-04-15T16:44:18.168177+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana hitting an all-time record of 167 million monthly network users[4]",
-      "raw": "Solana hitting an all-time record of 167 million monthly network users[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_234451",
-      "timestamp": "2026-04-15T16:44:18.178447+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Daily non-vote transactions reaching 148 million[4]",
-      "raw": "Daily non-vote transactions reaching 148 million[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_234461",
-      "timestamp": "2026-04-15T16:44:18.188986+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The Alpenglow consensus upgrade expected to reduce transaction finality to 150 milliseconds[4]",
-      "raw": "The Alpenglow consensus upgrade expected to reduce transaction finality to 150 milliseconds[4]\n\nHowever, these appear to be ongoing developments rather than new announcements that just moved markets.\n\nTo get the breaking news you're seeking in the format you specified (HEADLINE | YES or NO | HIGH/MED/LOW confidence), you would need real-time news sources covering market-moving announcements from t",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_242317",
-      "timestamp": "2026-04-15T16:44:26.044193+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Kevin Warsh's Fed nomination and policy philosophy** (from February 2026): Warsh's advocacy for limiting Fed \"monetary",
-      "raw": "**Kevin Warsh's Fed nomination and policy philosophy** (from February 2026): Warsh's advocacy for limiting Fed \"monetary dominance\" and concerns about his potential impact on Fed independence[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 10,
-    "watch": 0,
+    "enter": 4,
+    "alert": 2,
+    "watch": 2,
     "high_conf": 4
   }
 }
