@@ -1,147 +1,125 @@
 {
-  "last_scan": "2026-04-15T12:24:12.831265+00:00",
-  "scan_seconds": 42.4,
-  "markets_scanned": 83,
+  "last_scan": "2026-04-15T12:27:00.996097+00:00",
+  "scan_seconds": 30.4,
+  "markets_scanned": 84,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_594985",
-      "timestamp": "2026-04-15T12:23:38.728215+00:00",
+      "id": "sig_787954",
+      "timestamp": "2026-04-15T12:26:51.697215+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Holding Fragilely as of April 15 Amid Strait of Hormuz Blockade and Calls for Resumed Talks | NO | MED",
-      "raw": "US-Iran Ceasefire Holding Fragilely as of April 15 Amid Strait of Hormuz Blockade and Calls for Resumed Talks | NO | MED confidence**\n\nA US-Iran ceasefire, announced on April 8 after 40 days of hostilities, remains in effect but is described as fragile, with no new confirmations, announcements, or resolutions today that would shift prediction markets.[1][2][3] US maintains a naval blockade on Iran",
-      "direction": "NO",
+      "headline": "XRP Receives SEC Commodity Classification | YES | HIGH confidence**",
+      "raw": "XRP Receives SEC Commodity Classification | YES | HIGH confidence**\n\nThe SEC confirmed XRP's commodity status on March 17, 2026[3][4]. This represents a major legal vindication for Ripple and XRP after years of regulatory uncertainty, positioning XRP as \"legally vindicated, institutionally credible\"[4].",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_787948",
+      "timestamp": "2026-04-15T12:26:51.691140+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the most significant recent developments:",
+      "raw": "Based on the search results provided, here are the most significant recent developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_787960",
+      "timestamp": "2026-04-15T12:26:51.703258+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP ETF Inflows Surge to $1 Billion AUM | YES | HIGH confidence**",
+      "raw": "XRP ETF Inflows Surge to $1 Billion AUM | YES | HIGH confidence**\n\nSeven spot XRP ETFs have reached combined assets under management approaching $1 billion, with $119.6 million in net inflows for the week ending April 11\u2014the strongest weekly figure since December[3]. This signals significant institutional adoption momentum.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?",
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_787972",
+      "timestamp": "2026-04-15T12:26:51.715139+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Shows Early Recovery Signals | YES | MEDIUM confidence**",
+      "raw": "Ethereum Shows Early Recovery Signals | YES | MEDIUM confidence**\n\nTechnical analysis indicates Ethereum is showing early recovery with improving on-chain structure and demand, with some analysts targeting a potential 170% rally to $8,500 if 2021 patterns repeat[1][2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_787978",
+      "timestamp": "2026-04-15T12:26:51.721115+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Remains Range-Bound | YES | MEDIUM confidence**",
+      "raw": "Bitcoin Remains Range-Bound | YES | MEDIUM confidence**\n\nBitcoin trades at $70,778 with stability but continued macro uncertainty, remaining within a $68,000\u2013$70,000 support band with $80,000 as the key resistance level to watch[2][4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_796252",
+      "timestamp": "2026-04-15T12:26:59.995111+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026",
+      "raw": "I cannot identify breaking news from these search results that would move prediction markets as of April 15, 2026. The most recent data provided is from early April 2026, when the Bank of Korea held its benchmark interest rate at 2.5% for the 7th consecutive month[4]. The latest inflation reading mentioned is 2.2% in March 2026[2], which remained slightly above the BOK's 2% target but was below ma",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_772813",
+      "timestamp": "2026-04-15T12:26:36.556433+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran ceasefire holds as second round of talks planned after first round ends without deal** | YES | MED confidence[7]",
+      "raw": "US-Iran ceasefire holds as second round of talks planned after first round ends without deal** | YES | MED confidence[7][4][5]\n\nThe US and Iran agreed to a two-week ceasefire on April 8, 2026, mediated by Pakistan, with Trump announcing Iran's commitment to reopen the Strait of Hormuz ahead of his deadline; it has faced violations but continues per UN calls on April 14[1][2][3][4]. US VP JD Vance ",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ENTER",
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_610601",
-      "timestamp": "2026-04-15T12:23:54.344846+00:00",
+      "id": "sig_787966",
+      "timestamp": "2026-04-15T12:26:51.709231+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is **no breaking news from today (April 15, 2026)** that would move predict",
-      "raw": "Based on the available search results, there is **no breaking news from today (April 15, 2026)** that would move prediction markets. The most recent data in the search results is from April 12, 2026.\n\nThe latest confirmed developments from the past few days include:",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_601182",
-      "timestamp": "2026-04-15T12:23:44.925448+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news matching your query based on the search results provided",
-      "raw": "I cannot provide breaking news matching your query based on the search results provided. The search results contain news from **November 2025 through February 2026**\u2014all substantially older than the current date of April 15, 2026. None of the results contain recent announcements or confirmations from today or this week involving the White House, elections, Vice President Vance, the Trinamool Congr",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_601188",
-      "timestamp": "2026-04-15T12:23:44.931224+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A February 2026 White House post removal (not current)",
-      "raw": "A February 2026 White House post removal (not current)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_601194",
-      "timestamp": "2026-04-15T12:23:44.937041+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A November 2025 swearing-in of the U",
-      "raw": "A November 2025 swearing-in of the U.S. ambassador to India",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_601199",
-      "timestamp": "2026-04-15T12:23:44.942875+00:00",
-      "source": "PERPLEXITY",
-      "headline": "November 2025 reports on Indian state elections and Vance's India tour",
-      "raw": "November 2025 reports on Indian state elections and Vance's India tour\n\nTo answer your query effectively, I would need search results with today's date or this week's current news.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_610607",
-      "timestamp": "2026-04-15T12:23:54.350576+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Tests $71K Support | YES | HIGH confidence**",
-      "raw": "Bitcoin Tests $71K Support | YES | HIGH confidence**\nBitcoin tested $71,636 support levels on April 12 with extreme fear sentiment (Fear & Greed Index at 16), while accumulation addresses added 2,340 BTC over 72 hours, suggesting institutional interest at current levels[4].",
+      "headline": "CLARITY Act Advances Toward Senate Vote | YES | HIGH confidence**",
+      "raw": "CLARITY Act Advances Toward Senate Vote | YES | HIGH confidence**\n\nThe CLARITY Act is heading toward a Senate Banking Committee markup vote in late April with endorsements from Coinbase CEO Brian Armstrong and US Treasury Secretary Scott Bessent[3]. This regulatory development could substantially impact the broader cryptocurrency market.",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin Up or Down - April 16, 7:35AM-7:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_610613",
-      "timestamp": "2026-04-15T12:23:54.356183+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Stabilizes Above Critical Support | YES | MED confidence**",
-      "raw": "Ethereum Stabilizes Above Critical Support | YES | MED confidence**\nEthereum maintained the ETH/BTC ratio above 0.030 critical support on April 12, with markets awaiting the Pectra upgrade scheduled for Q2 2026 as a potential catalyst[4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET",
-        "Ethereum Up or Down - April 16, 6:40AM-6:45AM ET",
-        "Ethereum Up or Down - April 15, 11:00PM-11:05PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_610618",
-      "timestamp": "2026-04-15T12:23:54.361730+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Institutional ETF Outflows Continue | YES | HIGH confidence**",
-      "raw": "Institutional ETF Outflows Continue | YES | HIGH confidence**\nBitcoin spot ETFs recorded $129 million in net outflows on April 11, extending Q1 2026 institutional caution[2].\n\nNo major announcements, regulatory confirmations, or market-moving events from April 15 are present in the search results provided.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin Up or Down - April 16, 7:35AM-7:40AM ET"
-      ],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 6,
+    "watch": 2,
+    "high_conf": 1
   }
 }
