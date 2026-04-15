@@ -1,193 +1,82 @@
 {
-  "last_scan": "2026-04-15T21:30:31.736373+00:00",
-  "scan_seconds": 107.2,
-  "markets_scanned": 74,
-  "open_positions": 41,
+  "last_scan": "2026-04-15T21:33:20.290419+00:00",
+  "scan_seconds": 28.1,
+  "markets_scanned": 133,
+  "open_positions": 99,
   "signals": [
     {
-      "id": "sig_308258",
-      "timestamp": "2026-04-15T21:28:51.968836+00:00",
+      "id": "sig_555501",
+      "timestamp": "2026-04-15T21:32:59.211783+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump White House Claims Operation Epic Fury Has Obliterated Iran's Military Capabilities | NO | HIGH confidence**",
-      "raw": "Trump White House Claims Operation Epic Fury Has Obliterated Iran's Military Capabilities | NO | HIGH confidence**  \nThe White House released a statement asserting that under President Trump's leadership, U.S. forces have **obliterated** Iran's air/naval assets, ballistic missile facilities, and over 7,000 targets in three weeks, calling it an \"overwhelming success\" with strong **Republican** supp",
+      "headline": "US and Iran Seeking Further Ceasefire Talks Amid Ongoing Hormuz Blockade | NO | MED confidence**[1]",
+      "raw": "US and Iran Seeking Further Ceasefire Talks Amid Ongoing Hormuz Blockade | NO | MED confidence**[1]\n\nA two-week ceasefire in the US-Iran war is set to end next week, with both sides arranging a second round of peace talks beforehand, as reported in Bloomberg News Now on April 15, 2026[1]. An Iranian supertanker broke through the US-enforced Strait of Hormuz blockade this morning, marking the first",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_313952",
-      "timestamp": "2026-04-15T21:28:57.662766+00:00",
+      "id": "sig_569448",
+      "timestamp": "2026-04-15T21:33:13.158630+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news that has been \"just confirmed, announced, or r",
-      "raw": "Based on the search results provided, I cannot identify any breaking news that has been \"just confirmed, announced, or resolved\" today (April 15, 2026).\n\nThe search results discuss Kevin Warsh's **nomination and appointment as Federal Reserve Chair**, which appear to have occurred in early March 2026[1][2]. The results indicate that Warsh was expected to be confirmed by the Senate and take office ",
-      "direction": null,
+      "headline": "Alpenglow Upgrade Path Confirmed for 150ms Finality | YES | MED confidence** [1]",
+      "raw": "Alpenglow Upgrade Path Confirmed for 150ms Finality | YES | MED confidence** [1]\n\nAnnounced as progressing in April 2026, this consensus upgrade aims to cut Solana transaction finality from 12 seconds to 150 milliseconds, enhancing performance alongside Firedancer validator advances and record 167M monthly token holders (as of April 14).[1] Institutional ETF holdings by BlackRock/Fidelity add supp",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Will the price of Solana be above $70 on April 16?",
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be above $100 on April 18?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_575579",
+      "timestamp": "2026-04-15T21:33:19.289302+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Nominated as Next Fed Chair by President Trump | YES | HIGH confidence**",
+      "raw": "Kevin Warsh Nominated as Next Fed Chair by President Trump | YES | HIGH confidence**  \nPresident Donald Trump has nominated former Federal Reserve Governor Kevin Warsh to succeed Jerome Powell as Fed Chair, sparking immediate market reactions including a over 5% drop in South Korea's KOSPI due to expectations of Fed balance sheet shrinkage and tighter long-term rates.[7][2][5]  \nThis nomination, r",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_303568",
-      "timestamp": "2026-04-15T21:28:47.278102+00:00",
+      "id": "sig_569436",
+      "timestamp": "2026-04-15T21:33:13.146840+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Iran Plan Second Round of Ceasefire Talks Before Two-Week Truce Expires | YES | MED confidence**[2][3]",
-      "raw": "US, Iran Plan Second Round of Ceasefire Talks Before Two-Week Truce Expires | YES | MED confidence**[2][3]",
+      "headline": "Societe Generale Expands Regulated USD Stablecoin to Solana via MetaMask | YES | HIGH confidence** [2]",
+      "raw": "Societe Generale Expands Regulated USD Stablecoin to Solana via MetaMask | YES | HIGH confidence** [2]\n\nThis April 15, 2026, announcement marks a major bank's push for institutional adoption on Solana, blending regulated finance with blockchain and potentially boosting network utility amid price resistance at $86\u2013$88.[2] It counters recent bearish pressures like the Drift Protocol $285M hack (Apri",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the price of Solana be above $70 on April 16?",
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Bitcoin be above $68,000 on April 16?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_303574",
-      "timestamp": "2026-04-15T21:28:47.284487+00:00",
-      "source": "PERPLEXITY",
-      "headline": "White House Denies Formal Request for Iran Ceasefire Extension, Calls Talks Productive and Ongoing | NO | HIGH confidenc",
-      "raw": "White House Denies Formal Request for Iran Ceasefire Extension, Calls Talks Productive and Ongoing | NO | HIGH confidence**[3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_303580",
-      "timestamp": "2026-04-15T21:28:47.290758+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iranian Supertanker Breaks Through US-Enforced Hormuz Blockade | NO | HIGH confidence**[2]",
-      "raw": "Iranian Supertanker Breaks Through US-Enforced Hormuz Blockade | NO | HIGH confidence**[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_407988",
-      "timestamp": "2026-04-15T21:30:31.698587+00:00",
-      "source": "X_GROK",
-      "headline": "Esports CS2 IEM Whales (April 14 matches):**",
-      "raw": "Esports CS2 IEM Whales (April 14 matches):**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_407993",
-      "timestamp": "2026-04-15T21:30:31.703929+00:00",
-      "source": "X_GROK",
-      "headline": "**$316k whale bet on Vitality Map Handicap -1",
-      "raw": "**$316k whale bet on Vitality Map Handicap -1.5 vs G2 @69%**: YES for Vitality winning by 2+ maps. Smart money flow. Confidence: MED.[[1]](https://x.com/i/status/2044005969844175177)[[2]](https://x.com/i/status/2044008513022644621)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044005969844175177)[[2]](https://x.com/i/status/2044008513022644621)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_407999",
-      "timestamp": "2026-04-15T21:30:31.709283+00:00",
-      "source": "X_GROK",
-      "headline": "**$112k whale bet on B8 Map Handicap -1",
-      "raw": "**$112k whale bet on B8 Map Handicap -1.5 vs Passion UA @47%**: YES for B8 covering spread. Value at underdog odds. Confidence: LOW-MED.[[3]](https://x.com/i/status/2044120245980332349)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044120245980332349)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_408004",
-      "timestamp": "2026-04-15T21:30:31.714557+00:00",
-      "source": "X_GROK",
-      "headline": "**Additional $93k on Vitality -1",
-      "raw": "**Additional $93k on Vitality -1.5 vs G2**: Reinforces YES momentum. Confidence: MED.[[2]](https://x.com/i/status/2044008513022644621)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044008513022644621)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_408009",
-      "timestamp": "2026-04-15T21:30:31.719791+00:00",
-      "source": "X_GROK",
-      "headline": "Ongoing Whale Activity:**",
-      "raw": "Ongoing Whale Activity:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_408020",
-      "timestamp": "2026-04-15T21:30:31.730455+00:00",
-      "source": "X_GROK",
-      "headline": "Buy near-resolved high-prob events (90-95\u00a2) if news-aligned; thin liquidity but alpha for informed traders",
-      "raw": "Buy near-resolved high-prob events (90-95\u00a2) if news-aligned; thin liquidity but alpha for informed traders.[[5]](https://x.com/i/status/2044351307989782746)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044351307989782746)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_408025",
-      "timestamp": "2026-04-15T21:30:31.735884+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket volumes: $2",
-      "raw": "Polymarket volumes: $2.48B last week (+26%), sector $6.5B. Bullish growth, no specific mispricings noted.[[6]](https://x.com/i/status/2044379734377734342)\n\nNo major new whale bets or mispriced calls today beyond esports. Token hype (premarket $14B val) but not PM-specific.[[7]](https://x.com/i/status/2044140317390041379)",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044379734377734342)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_408015",
-      "timestamp": "2026-04-15T21:30:31.725141+00:00",
-      "source": "X_GROK",
-      "headline": "**cqs AI whale up $598k (73% win rate), $1M+ open geopolitics bets (no Ukraine ceasefire, Zelenskyy stays)**: YES on sho",
-      "raw": "**cqs AI whale up $598k (73% win rate), $1M+ open geopolitics bets (no Ukraine ceasefire, Zelenskyy stays)**: YES on short chaos. Imminent resolutions possible. Confidence: HIGH (proven track record).[[4]](https://x.com/i/status/2043393447932174455)",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": "https://x.com/i/status/2043393447932174455)",
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 11,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 3,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 3
   }
 }
