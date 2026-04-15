@@ -1,62 +1,67 @@
 {
-  "last_scan": "2026-04-15T13:01:04.188974+00:00",
-  "scan_seconds": 33.8,
+  "last_scan": "2026-04-15T13:04:03.725965+00:00",
+  "scan_seconds": 37.1,
   "markets_scanned": 81,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_819659",
-      "timestamp": "2026-04-15T13:00:43.400758+00:00",
+      "id": "sig_994287",
+      "timestamp": "2026-04-15T13:03:38.028522+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key Confirmed Developments:**",
-      "raw": "Key Confirmed Developments:**",
-      "direction": null,
+      "headline": "US and Iran Planning Second Round of Ceasefire Talks | YES | HIGH confidence**",
+      "raw": "US and Iran Planning Second Round of Ceasefire Talks | YES | HIGH confidence**\n\nThe **US and Iran are organizing fresh negotiations** before the two-week ceasefire (announced April 7) expires next week.[1] Pakistan has proposed hosting another round of direct talks in the coming days, potentially as early as the end of this week.[4] This represents a confirmed diplomatic development after weekend ",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_827974",
-      "timestamp": "2026-04-15T13:00:51.715934+00:00",
+      "id": "sig_994301",
+      "timestamp": "2026-04-15T13:03:38.042894+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about events that have \"just been confirmed, announced, or resolved\" that would move prediction markets.\n\nThe search results discuss **West Bengal Assembly elections scheduled for April 23 and 29, 2026**, with vote counting on May 4[1]. They reference candidate wealth disclosures and",
-      "direction": null,
+      "headline": "Parallel escalation complicates diplomacy**: The Trump administration has implemented a military blockade of Iranian-lin",
+      "raw": "Parallel escalation complicates diplomacy**: The Trump administration has implemented a military blockade of Iranian-linked shipping in the Strait of Hormuz, which China has condemned as \"dangerous and irresponsible.\"[4] Despite this, the ceasefire is currently holding, with no attacks on US Navy vessels reported, though Iranian drones have targeted Gulf allies in Bahrain.[5]\n\nThe confirmed announ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1071",
+      "timestamp": "2026-04-15T13:03:44.811236+00:00",
+      "source": "PERPLEXITY",
+      "headline": "VP Vance-Iran Talks in Pakistan Collapse Without Agreement; Trump Threatens Strait of Hormuz Blockade | NO | HIGH confid",
+      "raw": "VP Vance-Iran Talks in Pakistan Collapse Without Agreement; Trump Threatens Strait of Hormuz Blockade | NO | HIGH confidence**[1][2]\n\nVice President **JD Vance**, alongside special envoy Steve Witkoff and Jared Kushner, concluded U.S.-Iran negotiations in Islamabad on April 10-11, 2026, failing to secure a deal to end the war due to Iran's refusal to abandon its nuclear program and mutual trust is",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_839445",
-      "timestamp": "2026-04-15T13:01:03.186309+00:00",
+      "id": "sig_11767",
+      "timestamp": "2026-04-15T13:03:55.507221+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nominated as Next Fed Chair to Succeed Jerome Powell | YES | HIGH confidence**",
-      "raw": "Kevin Warsh Nominated as Next Fed Chair to Succeed Jerome Powell | YES | HIGH confidence**  \nKevin Warsh, former Fed Governor, has been nominated by President Trump as the new U.S. Federal Reserve chair, with likely Senate confirmation and a start in May 2026; this has sparked market reactions including a >5% KOSPI drop amid concerns over his hawkish inflation stance and plans to shrink the Fed's ",
+      "headline": "Iran Ceasefire Announcement Drives Crypto Rally | YES | HIGH confidence**",
+      "raw": "Iran Ceasefire Announcement Drives Crypto Rally | YES | HIGH confidence**\n\nFollowing **ceasefire-related developments, broader markets gained around 5%, while Bitcoin climbed alongside a strong rebound in altcoins, including Ethereum**.[1] Notably, Ethereum surged over 50% in a single week during early April after the Iran ceasefire announcement, while Bitcoin gained roughly 8% over the same windo",
       "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_819647",
-      "timestamp": "2026-04-15T13:00:43.388683+00:00",
-      "source": "PERPLEXITY",
-      "headline": "# Latest Developments on Iran Ceasefire (April 14, 2026)",
-      "raw": "# Latest Developments on Iran Ceasefire (April 14, 2026)",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
@@ -64,30 +69,14 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_819665",
-      "timestamp": "2026-04-15T13:00:43.406688+00:00",
+      "id": "sig_994293",
+      "timestamp": "2026-04-15T13:03:38.034828+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Ceasefire remains fragile but holding:** A ceasefire between the US and Iran persists, though it faces strain from rep",
-      "raw": "**Ceasefire remains fragile but holding:** A ceasefire between the US and Iran persists, though it faces strain from reported violations and ongoing military operations.[2][3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_819671",
-      "timestamp": "2026-04-15T13:00:43.412639+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US Blockade of Iranian Shipping:** The United States has imposed a blockade on Iranian shipping in the Strait of Hormu",
-      "raw": "**US Blockade of Iranian Shipping:** The United States has imposed a blockade on Iranian shipping in the Strait of Hormuz, with 10,000 US sailors, marines, and airmen deployed across various vessels.[4] Iran has issued threats of retaliation.[2][3]",
+      "headline": "Key sticking points remain unresolved**: The US demands removal of Iran's highly enriched uranium stockpile and a 20-yea",
+      "raw": "Key sticking points remain unresolved**: The US demands removal of Iran's highly enriched uranium stockpile and a 20-year pause on enrichment, while Iran is pushing back on both points and proposes only a five-year suspension instead.[4] Additionally, Iran insists on greater control over how the Strait of Hormuz is used, rejecting a return to previous arrangements.[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -96,79 +85,12 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_819677",
-      "timestamp": "2026-04-15T13:00:43.418589+00:00",
+      "id": "sig_11753",
+      "timestamp": "2026-04-15T13:03:55.493613+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Iran Avoiding Immediate Escalation:** Reports indicate Iran's response reflects a desire to avoid immediate escalation",
-      "raw": "**Iran Avoiding Immediate Escalation:** Reports indicate Iran's response reflects a desire to avoid immediate escalation during this sensitive negotiation period.[4]",
+      "headline": "Based on the search results provided, here is the breaking news relevant to Bitcoin and Ethereum:",
+      "raw": "Based on the search results provided, here is the breaking news relevant to Bitcoin and Ethereum:",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_819683",
-      "timestamp": "2026-04-15T13:00:43.424815+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Israel-Hezbollah Operations Ongoing:** While ceasefire talks continue, Israel maintains its military campaign against",
-      "raw": "**Israel-Hezbollah Operations Ongoing:** While ceasefire talks continue, Israel maintains its military campaign against Hezbollah in Lebanon with intense fighting in key areas.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_819690",
-      "timestamp": "2026-04-15T13:00:43.431346+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Uncertainty Factors:**",
-      "raw": "Uncertainty Factors:**\nThe exact date and venue for round two talks remain unfinalized,[1] and one US official expressed skepticism about reconciling Iran's and the US's conflicting red lines.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_827980",
-      "timestamp": "2026-04-15T13:00:51.721378+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No information about White House or U",
-      "raw": "No information about White House or U.S. Congress developments",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_827985",
-      "timestamp": "2026-04-15T13:00:51.726904+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The West Bengal election details provided are campaign-period context, not breaking developments",
-      "raw": "The West Bengal election details provided are campaign-period context, not breaking developments\n\nIf you're looking for current market-moving news, I would need search results containing recent announcements, official confirmations, or resolved outcomes from today or the immediate past.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_832951",
-      "timestamp": "2026-04-15T13:00:56.692377+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -176,23 +98,49 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_819653",
-      "timestamp": "2026-04-15T13:00:43.394766+00:00",
+      "id": "sig_11773",
+      "timestamp": "2026-04-15T13:03:55.513335+00:00",
       "source": "PERPLEXITY",
-      "headline": "Second Round of US-Iran Talks Planned Within Days | YES | HIGH confidence**",
-      "raw": "Second Round of US-Iran Talks Planned Within Days | YES | HIGH confidence**\n\nThe United States and Iran are preparing for a **second round of negotiations** after their initial meeting in Islamabad ended without a deal.[1] Pakistan is pushing to host the talks, with reports indicating they could occur within the next two days.[4] Both sides are entering with clearer positions after exchanging writ",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "Current Prices (as of April 13, 2026):**",
+      "raw": "Current Prices (as of April 13, 2026):**",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_11779",
+      "timestamp": "2026-04-15T13:03:55.519417+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin: $71,188",
+      "raw": "Bitcoin: $71,188.84[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_11785",
+      "timestamp": "2026-04-15T13:03:55.525205+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum: $2,196",
+      "raw": "Ethereum: $2,196.04[2]\n\nBoth assets remain significantly down from their 2025 all-time highs ($126,198 for Bitcoin in October 2025 and approximately $4,800 for Ethereum).[2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 12,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 3,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 3
   }
 }
