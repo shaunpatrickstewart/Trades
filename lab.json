@@ -8,9 +8,9 @@
       "hypothesis": "When Yes price + No price < $1.00 in a binary market, buying both sides is mathematically guaranteed profit. Top Polymarket traders extracted $40M+ this way in one year.",
       "source": "Grok research 2026-04-07",
       "action": "Add arbitrage scanner to bot \u2014 scan all active markets for Yes+No < $0.97 (after fees). Auto-enter both sides.",
-      "result": "LIVE \u2014 139 categorical arb opportunities found\nScanned 3000 events (1937 multi-outcome) at 2026-04-15 15:10 UTC\nBest: 9.8% profit on 'Rhode Island Republican Senate Primary Winner' \u2014 buy YES on all 2 outcomes (sum=0.902)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.65% on 'MLS Cup Winner 2026'",
+      "result": "LIVE \u2014 141 categorical arb opportunities found\nScanned 3000 events (1938 multi-outcome) at 2026-04-15 15:11 UTC\nBest: 9.8% profit on 'Rhode Island Republican Senate Primary Winner' \u2014 buy YES on all 2 outcomes (sum=0.902)\nStrategy: Buy YES on all 2 outcomes. Total cost: $0.9020. One wins $1.00. Profit: $0.0980 (9.80%)\n2nd: 9.65% on 'MLS Cup Winner 2026'",
       "priority": "HIGH",
-      "last_scan": "2026-04-15 15:10 UTC",
+      "last_scan": "2026-04-15 15:11 UTC",
       "opportunities": [
         {
           "event_title": "Rhode Island Republican Senate Primary Winner",
@@ -439,9 +439,9 @@
         {
           "event_title": "How many Gold Cards will Trump sell in 2026?",
           "event_slug": "how-many-gold-cards-will-trump-sell-in-2026",
-          "yes_sum": 0.91,
-          "profit_pct": 9.0,
-          "profit_per_dollar_pct": 9.89,
+          "yes_sum": 0.9095,
+          "profit_pct": 9.05,
+          "profit_per_dollar_pct": 9.95,
           "num_outcomes": 9,
           "outcomes": [
             {
@@ -455,7 +455,7 @@
               "market_id": "665317",
               "slug": "will-trump-sell-1-100-gold-cards-in-2026",
               "question": "Will Trump sell 1-100 Gold Cards in 2026?",
-              "yes_price": 0.189,
+              "yes_price": 0.1895,
               "volume": 10678
             },
             {
@@ -490,7 +490,7 @@
               "market_id": "665321",
               "slug": "will-trump-sell-5k-10k-gold-cards-in-2026",
               "question": "Will Trump sell 5k-10k Gold Cards in 2026?",
-              "yes_price": 0.0375,
+              "yes_price": 0.0365,
               "volume": 6256
             },
             {
@@ -509,7 +509,7 @@
             }
           ],
           "url": "https://polymarket.com/event/how-many-gold-cards-will-trump-sell-in-2026",
-          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
+          "strategy": "Buy YES on all 9 outcomes. Total cost: $0.9095. One wins $1.00. Profit: $0.0905 (9.05%)"
         },
         {
           "event_title": "# of seats won by PB in Bulgarian Parliamentary Election?",
@@ -625,74 +625,46 @@
           "strategy": "Buy YES on all 2 outcomes. Total cost: $0.9100. One wins $1.00. Profit: $0.0900 (9.00%)"
         },
         {
-          "event_title": "How many ships transit the Strait of Hormuz this week? (Apr 13-19)",
-          "event_slug": "how-many-ships-transit-the-strait-of-hormuz-this-week-apr-13-19",
+          "event_title": "Germany GDP growth in Q1 2026?",
+          "event_slug": "germany-gdp-growth-in-q1-2026",
           "yes_sum": 0.9105,
           "profit_pct": 8.95,
           "profit_per_dollar_pct": 9.83,
-          "num_outcomes": 7,
+          "num_outcomes": 3,
           "outcomes": [
             {
-              "market_id": "1931494",
-              "slug": "will-40-49-ships-transit-the-strait-of-hormuz-between-april-13-april-19-371",
-              "question": "Will 40-49 ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.205,
-              "volume": 1103
+              "market_id": "1301203",
+              "slug": "will-germany-gdp-growth-in-q1-2026-be-between-0pt1-and-0pt3",
+              "question": "Will Germany GDP growth in Q1 2026 be between 0.1% and 0.3%?",
+              "yes_price": 0.515,
+              "volume": 1780
             },
             {
-              "market_id": "1973395",
-              "slug": "will-30-39-ships-transit-the-strait-of-hormuz-between-april-13-april-19",
-              "question": "Will 30-39 ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.2,
-              "volume": 1479
+              "market_id": "1301204",
+              "slug": "will-germany-gdp-growth-in-q1-2026-be-between-0pt4-and-0pt6",
+              "question": "Will Germany GDP growth in Q1 2026 be between 0.4% and 0.6%?",
+              "yes_price": 0.306,
+              "volume": 13887
             },
             {
-              "market_id": "1931495",
-              "slug": "will-50-59-ships-transit-the-strait-of-hormuz-between-april-13-april-19-662",
-              "question": "Will 50-59 ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.175,
-              "volume": 1219
-            },
-            {
-              "market_id": "1973394",
-              "slug": "will-20-29-ships-transit-the-strait-of-hormuz-between-april-13-april-19-yzbu",
-              "question": "Will 20-29 ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.14,
-              "volume": 2295
-            },
-            {
-              "market_id": "1931498",
-              "slug": "will-80-or-more-ships-transit-the-strait-of-hormuz-between-april-13-april-19-362",
-              "question": "Will 80 or more ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.125,
-              "volume": 3415
-            },
-            {
-              "market_id": "1973391",
-              "slug": "will-10-19-ships-transit-the-strait-of-hormuz-between-april-13-april-19",
-              "question": "Will 10-19 ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.05,
-              "volume": 2044
-            },
-            {
-              "market_id": "1931493",
-              "slug": "will-fewer-than-10-ships-transit-the-strait-of-hormuz-between-april-13-april-19",
-              "question": "Will fewer than 10 ships transit the Strait of Hormuz between April 13-April 19?",
-              "yes_price": 0.0155,
-              "volume": 2809
+              "market_id": "1301202",
+              "slug": "will-germany-gdp-growth-in-q1-2026-be-less-than-or-equal-to-0pt0",
+              "question": "Will Germany GDP growth in Q1 2026 be less than or equal to 0.0%?",
+              "yes_price": 0.0895,
+              "volume": 1118
             }
           ],
-          "url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-this-week-apr-13-19",
-          "strategy": "Buy YES on all 7 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
+          "url": "https://polymarket.com/event/germany-gdp-growth-in-q1-2026",
+          "strategy": "Buy YES on all 3 outcomes. Total cost: $0.9105. One wins $1.00. Profit: $0.0895 (8.95%)"
         }
       ],
       "stats": {
         "total_events": 3000,
-        "checked_multi_outcome": 1937,
-        "skipped_single_outcome": 592,
-        "opportunities_found": 139,
+        "checked_multi_outcome": 1938,
+        "skipped_single_outcome": 594,
+        "opportunities_found": 141,
         "best_profit_pct": 9.8,
-        "scanned_at": "2026-04-15 15:10 UTC"
+        "scanned_at": "2026-04-15 15:11 UTC"
       }
     },
     {
