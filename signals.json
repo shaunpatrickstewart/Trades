@@ -1,62 +1,92 @@
 {
-  "last_scan": "2026-04-15T22:14:47.673719+00:00",
-  "scan_seconds": 29.3,
+  "last_scan": "2026-04-15T22:17:32.354180+00:00",
+  "scan_seconds": 26.0,
   "markets_scanned": 80,
   "open_positions": 44,
   "signals": [
     {
-      "id": "sig_50945",
-      "timestamp": "2026-04-15T22:14:34.652165+00:00",
+      "id": "sig_216288",
+      "timestamp": "2026-04-15T22:17:19.995532+00:00",
       "source": "PERPLEXITY",
-      "headline": "A confirmed announcement or development involving Vance, King Charles, and Trump that occurred recently",
-      "raw": "A confirmed announcement or development involving Vance, King Charles, and Trump that occurred recently",
-      "direction": null,
+      "headline": "King Charles' US State Visit Confirmed: Private Meeting with Trump Set for Later This Month Amid Iran Tensions | NO | LO",
+      "raw": "King Charles' US State Visit Confirmed: Private Meeting with Trump Set for Later This Month Amid Iran Tensions | NO | LOW confidence**\n\nNo breaking confirmations, announcements, or resolutions today (April 15, 2026) directly link **Vance**, **Trump**, **Republican**, **obliterated**, or **King Charles** in a way that would shift prediction markets, such as election odds or conflict resolutions[1][",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_50951",
-      "timestamp": "2026-04-15T22:14:34.658035+00:00",
+      "id": "sig_221303",
+      "timestamp": "2026-04-15T22:17:25.010880+00:00",
       "source": "PERPLEXITY",
-      "headline": "Clear information about what has just been \"resolved\" or newly announced",
-      "raw": "Clear information about what has just been \"resolved\" or newly announced",
-      "direction": null,
+      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL and Ethereum | YES | HIGH confidence**",
+      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL and Ethereum | YES | HIGH confidence**  \nRipple's RLUSD stablecoin has officially launched across the XRP Ledger and Ethereum as of April 13, 2026, driving massive capital influx and record XRPL transaction volume amid heightened institutional adoption.[2]",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of XRP be above $1.00 on April 19?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_221309",
+      "timestamp": "2026-04-15T22:17:25.016870+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**",
+      "raw": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**  \nThe long-standing SEC vs. Ripple case has reached finality, removing a major overhang and paving the way for broader XRP integration.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_57185",
-      "timestamp": "2026-04-15T22:14:40.892111+00:00",
+      "id": "sig_221315",
+      "timestamp": "2026-04-15T22:17:25.022419+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Gains Strong Endorsements from U",
-      "raw": "CLARITY Act Gains Strong Endorsements from U.S. Treasury Secretary, SEC Chairman, and Senate Banking Committee Targets Late April Markup | YES | MED confidence**  \nBitcoin surged above $74,500 (up 4.73%), driving a broader crypto market rally with 4.09% gains and XRP climbing to $1.36 amid institutional inflows of $1.1B last week.[2][3]  \nRipple CEO Brad Garlinghouse expressed optimism for CLARITY",
+      "headline": "XRP ETF Inflows Hit $119",
+      "raw": "XRP ETF Inflows Hit $119.6M for Week Ending April 11 | YES | HIGH confidence**  \nSeven spot XRP ETFs recorded the strongest weekly net inflows ($119.6M) since December, with assets under management nearing $1B; SEC/CFTC classified XRP as a digital commodity in March.[5]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Will the price of XRP be above $1.00 on April 19?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_62965",
-      "timestamp": "2026-04-15T22:14:46.672632+00:00",
+      "id": "sig_227622",
+      "timestamp": "2026-04-15T22:17:31.329357+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Rate Hike Amid Surging Inflation** | YES | HIGH confi",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Rate Hike Amid Surging Inflation** | YES | HIGH confidence[1][2][4][5][6]\n\nKevin Warsh, a former Fed governor and current Hoover Institution fellow, has been nominated by President Trump to replace Jerome Powell as Fed chair when Powell's term ends in May 2026, with Treasury Secretary Scott Bessent confirming Warsh among five final",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Fed held rates steady at 4",
+      "raw": "Fed held rates steady at 4.25-4.5% in late 2024/early 2025 (no urgency to cut due to elevated inflation), impacting South Korea's Bank of Korea policy options.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_227630",
+      "timestamp": "2026-04-15T22:17:31.337356+00:00",
+      "source": "PERPLEXITY",
+      "headline": "KOSPI dropped >5% on Feb 2, 2026, after Trump admin's new Fed Chair nominee announcement, cooling rate cut expectations",
+      "raw": "KOSPI dropped >5% on Feb 2, 2026, after Trump admin's new Fed Chair nominee announcement, cooling rate cut expectations and weakening the won.[2]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
@@ -65,40 +95,68 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_50939",
-      "timestamp": "2026-04-15T22:14:34.646668+00:00",
+      "id": "sig_227641",
+      "timestamp": "2026-04-15T22:17:31.348218+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the requested breaking news headline with market-moving confirmation based on these search results",
-      "raw": "I cannot provide the requested breaking news headline with market-moving confirmation based on these search results.\n\nThe search results contain fragmented and unclear information that does not support a coherent breaking news story. The first result appears to be a transcript excerpt from a Trump statement about U.S. military operations against Iran (dated March 16, 2026), while the second result",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_50956",
-      "timestamp": "2026-04-15T22:14:34.663624+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current details that would substantiate a market-moving event",
-      "raw": "Current details that would substantiate a market-moving event\n\nTo provide accurate breaking news with confidence scoring, I would need search results with current timestamps, explicit confirmation language, and clear details about the specific event you're asking about.",
-      "direction": null,
+      "headline": "April 2026 PCE data showed headline inflation at 2",
+      "raw": "April 2026 PCE data showed headline inflation at 2.1% YoY (core 2.5%), with tariffs expected to push it higher; no new resolutions.[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_227646",
+      "timestamp": "2026-04-15T22:17:31.353592+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea inflation stabilized ~3",
+      "raw": "South Korea inflation stabilized ~3.6% in 2023, with high grocery costs but low utilities; no 2026 updates.[4]\n\nNo confirmations, announcements, or resolutions today per available results\u2014all prior to April 15, 2026.[1][2][3][5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_221321",
+      "timestamp": "2026-04-15T22:17:25.028006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Heads to Senate Banking Markup in Late April | NO | MED confidence**",
+      "raw": "CLARITY Act Heads to Senate Banking Markup in Late April | NO | MED confidence**  \nThe bill, which could enable banks to use XRP for liquidity, is advancing with endorsements but awaits markup vote; Senate returned April 13 with no confirmation of passage.[3][5][6]",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of XRP be above $1.00 on April 19?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_227635",
+      "timestamp": "2026-04-15T22:17:31.342803+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Upcoming Fed Chair transition in May 2026 could bring U",
+      "raw": "Upcoming Fed Chair transition in May 2026 could bring U.S. market volatility tied to Trump policies like tariffs (potentially raising inflation).[5]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 2,
     "alert": 6,
-    "watch": 0,
+    "watch": 2,
     "high_conf": 2
   }
 }
