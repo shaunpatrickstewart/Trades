@@ -1,113 +1,46 @@
 {
-  "last_scan": "2026-04-15T15:04:13.915770+00:00",
-  "scan_seconds": 34.3,
-  "markets_scanned": 76,
+  "last_scan": "2026-04-15T15:07:03.832878+00:00",
+  "scan_seconds": 28.1,
+  "markets_scanned": 78,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_209403",
-      "timestamp": "2026-04-15T15:03:53.136794+00:00",
+      "id": "sig_388711",
+      "timestamp": "2026-04-15T15:06:52.444413+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Second Round of Ceasefire Talks Before April 7 Ceasefire Expires Next Week | NO | MED confidence**",
-      "raw": "US and Iran Plan Second Round of Ceasefire Talks Before April 7 Ceasefire Expires Next Week | NO | MED confidence**\n\nNo new ceasefire confirmation, announcement, or resolution has occurred as of April 15, 2026; instead, fresh talks are being planned after inconclusive first-round discussions in Islamabad, with the two-week ceasefire (announced April 7 or 8) set to expire early next week.[1][2][4][",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_229181",
-      "timestamp": "2026-04-15T15:04:12.914758+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Warsh's policy philosophy** emphasizes reframing inflation as a fiscal rather than monetary problem and views AI as de",
-      "raw": "**Warsh's policy philosophy** emphasizes reframing inflation as a fiscal rather than monetary problem and views AI as deflationary[4].\n\nTo provide the prediction-market-moving breaking news you're seeking, I would need search results with timestamps from today (April 15, 2026) containing specific confirmed announcements, policy decisions, or economic data releases. The current results lack this re",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_229170",
-      "timestamp": "2026-04-15T15:04:12.903142+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Warsh's nomination** has created uncertainty about Fed policy direction, though sources suggest he would likely suppor",
-      "raw": "**Warsh's nomination** has created uncertainty about Fed policy direction, though sources suggest he would likely support at least two 25-basis-point rate cuts in 2026[3].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_216566",
-      "timestamp": "2026-04-15T15:04:00.299646+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (Search results show no matching real-time development; closest item",
-      "raw": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (Search results show no matching real-time development; closest items are outdated or tangential.)",
+      "headline": "Keiko Fujimori Takes Lead in Peru's 2026 Presidential Election per Official Results** | NO | HIGH confidence[2]",
+      "raw": "Keiko Fujimori Takes Lead in Peru's 2026 Presidential Election per Official Results** | NO | HIGH confidence[2]\n\nRafael Lopez Aliaga, a right-leaning businessman, initially led early counts on April 12 with 23.4% (5% of ballots), ahead of Jorge Nieto (16.4%) and Keiko Fujimori (16.1%), but no candidate reached 50% for outright victory, setting up a potential June 7 runoff[1]. Official results from",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Rafael L\u00f3pez Aliaga finish in third place in the first round of the 2026 Pe"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_229164",
-      "timestamp": "2026-04-15T15:04:12.897538+00:00",
+      "id": "sig_399098",
+      "timestamp": "2026-04-15T15:07:02.831642+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the \"breaking news\" format you've requested because the search results do not contain information about",
-      "raw": "I cannot provide the \"breaking news\" format you've requested because the search results do not contain information about events that occurred today or very recently that would move prediction markets.\n\nThe search results primarily discuss **Kevin Warsh's nomination as Federal Reserve chair** and its potential implications for monetary policy, inflation frameworks, and US-Korea trade relations. How",
-      "direction": null,
+      "headline": "NO NEW CONFIRMATIONS, ANNOUNCEMENTS, OR RESOLUTIONS TODAY ON KEVIN WARSH, FED CHAIR, INFLATION, OR ANNUAL INFLATION THAT",
+      "raw": "NO NEW CONFIRMATIONS, ANNOUNCEMENTS, OR RESOLUTIONS TODAY ON KEVIN WARSH, FED CHAIR, INFLATION, OR ANNUAL INFLATION THAT WOULD MOVE PREDICTION MARKETS | NO | HIGH confidence**\n\nSearch results discuss Kevin Warsh's prior nomination by President Trump as Fed chair, his views challenging traditional inflation models (e.g., emphasizing government spending and money supply over wages), doubts on tariff",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
+        "Will Trump say \"Christian\" during TPUSA events on April 17?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_229175",
-      "timestamp": "2026-04-15T15:04:12.908750+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**South Korea's won weakened** partly due to trade concerns, with high-level US-Korea talks ending without breakthrough",
-      "raw": "**South Korea's won weakened** partly due to trade concerns, with high-level US-Korea talks ending without breakthrough on tariff issues[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_221381",
-      "timestamp": "2026-04-15T15:04:05.114383+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Massive XRP Milestone in Japan on April 15, 2026 | YES | LOW confidence**",
-      "raw": "Massive XRP Milestone in Japan on April 15, 2026 | YES | LOW confidence**  \nA \"massive XRP milestone\" in Japan is reported for today (April 15, 2026), described as crucial, though specifics are unavailable in search results.[6]  \nNo other confirmations, announcements, or resolutions (e.g., Clarity Act passage, legal updates, or ETF approvals) appear as breaking news RIGHT NOW; XRP trades steadily ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 0
   }
 }
