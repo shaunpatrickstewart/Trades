@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-15T00:49:54.564027+00:00",
-  "scan_seconds": 23.7,
+  "last_scan": "2026-04-15T00:52:43.537803+00:00",
+  "scan_seconds": 28.1,
   "markets_scanned": 68,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_954926",
-      "timestamp": "2026-04-15T00:49:38.711584+00:00",
+      "id": "sig_125022",
+      "timestamp": "2026-04-15T00:52:28.806446+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | MED confidence**",
-      "raw": "US and Iran Plan Fresh Talks Before April 7 Ceasefire Expires Next Week | NO | MED confidence**\n\nNo ceasefire extension, deal, or resolution has been confirmed; weekend talks in Islamabad ended without agreement, but both sides are discussing new negotiations this week to avert expiration.[1] President Trump is linked to the initial two-week ceasefire window from April 7 for talks, consistent with",
+      "headline": "MEA Denies Elon Musk Joined Modi-Trump Call on Iran** | YES | HIGH confidence[4]",
+      "raw": "MEA Denies Elon Musk Joined Modi-Trump Call on Iran** | YES | HIGH confidence[4]\n\nIndia's MEA dismissed reports Tuesday (April 14, 2026) that Musk participated in PM Modi's call with Trump on the Iran conflict, confirming it was bilateral only[4]. This clarifies amid Trump-Musk tensions, including Bannon's calls for Musk's deportation and SpaceX seizure (unmentioned by Trump)[3], and vague U.S. Ca",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -19,30 +19,99 @@
       ],
       "action": "ENTER",
       "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_118358",
+      "timestamp": "2026-04-15T00:52:22.142691+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_969772",
-      "timestamp": "2026-04-15T00:49:53.557226+00:00",
+      "id": "sig_125012",
+      "timestamp": "2026-04-15T00:52:28.796477+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Annual Inflation Confirmed at 2.2% | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4%; this fresh data release could shift prediction markets on BoK rate holds amid Middle East energy shocks.[1]",
+      "headline": "Indian Finance Ministry Confirms No USAID Election Funding to India, Debunking Trump-Musk Claims** | YES | HIGH confiden",
+      "raw": "Indian Finance Ministry Confirms No USAID Election Funding to India, Debunking Trump-Musk Claims** | YES | HIGH confidence[1]\n\nTrump claimed at CPAC that USAID gave India $18 million to boost voter turnout, echoing Elon Musk's X post alleging $21 million, amid India BJP-Congress clashes over foreign election interference[1]. On Monday (April 13, 2026), the Ministry reported USAID's 2024 $750 milli",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces US x Iran ceasefire end by April 21, 2026?",
+        "Will Trump talk to Elon Musk in April?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_138731",
+      "timestamp": "2026-04-15T00:52:42.515910+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news updates in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news updates in the format you've requested based on these search results. The most recent data available are from early 2026 (South Korea's March 2026 inflation rate of 2.2%[2] and February 2026 data[2]), which are not current announcements as of April 15, 2026.\n\nThe search results do not contain:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_969778",
-      "timestamp": "2026-04-15T00:49:53.563276+00:00",
+      "id": "sig_138737",
+      "timestamp": "2026-04-15T00:52:42.521309+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Breaking GDP Announcements for Germany or South Korea | NO | HIGH confidence**",
-      "raw": "No Breaking GDP Announcements for Germany or South Korea | NO | HIGH confidence**  \nGermany's OECD-projected GDP growth remains at 0.3% for 2025 and 1% for 2026 with no new confirmations; South Korea lacks recent GDP data releases amid rising debt-to-GDP concerns.[2][6]",
-      "direction": "NO",
+      "headline": "Any announcements, confirmations, or resolutions from April 2026",
+      "raw": "Any announcements, confirmations, or resolutions from April 2026",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_138742",
+      "timestamp": "2026-04-15T00:52:42.526291+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent Germany inflation data or announcements",
+      "raw": "Recent Germany inflation data or announcements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_138747",
+      "timestamp": "2026-04-15T00:52:42.531689+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GDP announcements or changes",
+      "raw": "GDP announcements or changes",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_138753",
+      "timestamp": "2026-04-15T00:52:42.537094+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Information that would indicate market-moving developments",
+      "raw": "Information that would indicate market-moving developments\n\nTo provide accurate breaking news in the format you need, I would require search results with today's date or very recent announcements from official sources such as Statistics Korea, the Bank of Korea, Destatis (German statistics), or major financial news outlets reporting on events from April 15, 2026.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -51,9 +120,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 1,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
