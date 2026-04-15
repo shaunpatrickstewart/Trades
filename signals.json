@@ -1,52 +1,102 @@
 {
-  "last_scan": "2026-04-15T17:32:10.042391+00:00",
-  "scan_seconds": 30.4,
+  "last_scan": "2026-04-15T17:35:02.494612+00:00",
+  "scan_seconds": 30.8,
   "markets_scanned": 75,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_105317",
-      "timestamp": "2026-04-15T17:32:09.041444+00:00",
+      "id": "sig_268438",
+      "timestamp": "2026-04-15T17:34:52.162796+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Appoints Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | **YES** | **HIGH** con",
-      "raw": "Trump Appoints Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | **YES** | **HIGH** confidence[1][6]\n\nKevin Warsh, a former Fed governor and hawkish rate-setter critical of Powell-era policies, has been appointed by President Trump as the new Federal Reserve chair, effective after Powell's term ends in May 2026[1][2][4][6]. This follows his confirmation as a finali",
+      "headline": "Bitcoin rebounds above $70,000 with $400-500M short liquidations fueling rally | YES | MED confidence**",
+      "raw": "Bitcoin rebounds above $70,000 with $400-500M short liquidations fueling rally | YES | MED confidence**\n\nBitcoin traded at $74,535 as of April 14, up 5.34% in 24 hours and 3.7% weekly, after re-establishing above $70,000 following consolidation.[2] This surge liquidated $400-500 million in shorts, accelerating upward momentum via forced buying.[2] Polymarket shows 92% probability of BTC at $75,000",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will the price of Bitcoin be above $72,000 on April 21?"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_277754",
+      "timestamp": "2026-04-15T17:35:01.478119+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea Inflation Accelerates to 2",
+      "raw": "South Korea Inflation Accelerates to 2.2% Year-on-Year in March | CONFIRMED | HIGH confidence**\nConsumer price inflation rose to 2.2% in March 2026, up from 2.0% in February and marking the highest reading since December[4]. Rising global oil prices were the primary driver, with transportation costs rising 5% year-on-year[1].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_277748",
+      "timestamp": "2026-04-15T17:35:01.472745+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bank of Korea Holds Rate at 2",
+      "raw": "Bank of Korea Holds Rate at 2.5% for 7th Consecutive Meeting | CONFIRMED | HIGH confidence**\nThe Bank of Korea announced on April 10, 2026, its seventh consecutive freeze of the benchmark interest rate at 2.5%[2]. Governor Rhee Chang-yong's final rate-setting decision maintained the rate despite renewed inflationary pressures and foreign exchange instability[2].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_84962",
-      "timestamp": "2026-04-15T17:31:48.686423+00:00",
+      "id": "sig_277759",
+      "timestamp": "2026-04-15T17:35:01.483582+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Two-Week Ceasefire Announced on April 8, 2026 | YES | MED confidence**",
-      "raw": "US-Iran Two-Week Ceasefire Announced on April 8, 2026 | YES | MED confidence**\n\nNo confirmed announcements, resolutions, or updates on a US-Iran ceasefire since April 8, when a temporary two-week deal was mediated by Pakistan (with T\u00fcrkiye and Egypt involvement) just before a US deadline for Iran to reopen the Strait of Hormuz.[1][3][4][5] The agreement stems from Iran's 10-point proposal (includi",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
+      "headline": "Fed Rate Hike Discussions Emerge Amid Middle East Tensions | CONFIRMED | HIGH confidence**",
+      "raw": "Fed Rate Hike Discussions Emerge Amid Middle East Tensions | CONFIRMED | HIGH confidence**\nMarch FOMC minutes revealed that some Federal Reserve participants argued the target rate range should be raised if inflation exceeds 2%, with rising energy prices identified as a key variable[5]. However, CME FedWatch reflected a 98.4% probability of a rate hold at the April FOMC meeting[5].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_91806",
-      "timestamp": "2026-04-15T17:31:55.530406+00:00",
+      "id": "sig_277764",
+      "timestamp": "2026-04-15T17:35:01.488878+00:00",
       "source": "PERPLEXITY",
-      "headline": "Election Commission Data Reveals 91 Lakh Voters Deleted from Bengal Rolls, Dropping Total from 766 Lakh to 677 Lakh; TMC",
-      "raw": "Election Commission Data Reveals 91 Lakh Voters Deleted from Bengal Rolls, Dropping Total from 766 Lakh to 677 Lakh; TMC Devises Emergency Strategy** | YES | MED confidence[2]\n\nSpecial Intensive Revision (SIR) outcome, submitted to Supreme Court recently, alarms ruling TMC as nominations close (Phase 1: midnight April 15?, Phase 2: April 2), freezing lists and potentially disenfranchising voters; ",
+      "headline": "Record Foreign Capital Outflow from South Korea | CONFIRMED | HIGH confidence**",
+      "raw": "Record Foreign Capital Outflow from South Korea | CONFIRMED | HIGH confidence**\nThe Middle East war drove a record $36.55 billion foreign capital outflow from Korea, contributing to Korean won volatility and emerging market currency weakness[5].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_277769",
+      "timestamp": "2026-04-15T17:35:01.493971+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New Bank of Korea Governor Nominee Announced | CONFIRMED | HIGH confidence**",
+      "raw": "New Bank of Korea Governor Nominee Announced | CONFIRMED | HIGH confidence**\nShin Hyun-song was nominated as the new Bank of Korea governor, with confirmation hearing responses indicating plans to strengthen financial safety nets and currency swaps[5].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_263008",
+      "timestamp": "2026-04-15T17:34:46.732564+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Leaked Audio Confirms Ted Cruz Accused JD Vance and Peter Navarro of Blocking US-India Trade Deal, Sparking Republican I",
+      "raw": "Leaked Audio Confirms Ted Cruz Accused JD Vance and Peter Navarro of Blocking US-India Trade Deal, Sparking Republican Infighting | YES | HIGH confidence**[3]\n\nNo confirmed announcements or resolutions today link West Bengal Legislative Assembly, All India Trinamool Congress, or Bengal elections to White House, Vance, or Republicans in a way that moves prediction markets; recent TMC violence alleg",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces end of military operations against Iran by A",
         "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
       "action": "ALERT",
@@ -54,38 +104,23 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_97934",
-      "timestamp": "2026-04-15T17:32:01.658497+00:00",
+      "id": "sig_277742",
+      "timestamp": "2026-04-15T17:35:01.466858+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results cover up to April 14; nothing timestamps to today)",
-      "raw": "Confidence: HIGH** (search results cover up to April 14; nothing timestamps to today).[1][2][3][4][5][6]",
-      "direction": "YES",
+      "headline": "Based on the search results provided, here are the recent developments that would impact prediction markets:",
+      "raw": "Based on the search results provided, here are the recent developments that would impact prediction markets:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_91800",
-      "timestamp": "2026-04-15T17:31:55.524728+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TMC Announces Full Candidate List for West Bengal Assembly Elections, with Mamata Banerjee Contesting Bhabanipur Against",
-      "raw": "TMC Announces Full Candidate List for West Bengal Assembly Elections, with Mamata Banerjee Contesting Bhabanipur Against BJP's Suvendu Adhikari; Predicts Victory of Over 226 Seats** | YES | HIGH confidence[1]\n\nTMC will contest 291 of 294 seats in the two-phase polls on April 23 and 29, 2026 (counting May 4), per the party's official announcement and Banerjee's press conference in Kolkata on March ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 6
   }
 }
