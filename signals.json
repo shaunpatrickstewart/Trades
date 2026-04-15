@@ -1,108 +1,194 @@
 {
-  "last_scan": "2026-04-15T16:14:24.113368+00:00",
-  "scan_seconds": 35.2,
-  "markets_scanned": 76,
-  "open_positions": 40,
+  "last_scan": "2026-04-15T16:17:28.526735+00:00",
+  "scan_seconds": 37.1,
+  "markets_scanned": 149,
+  "open_positions": 112,
   "signals": [
     {
-      "id": "sig_415547",
-      "timestamp": "2026-04-15T16:13:59.276963+00:00",
+      "id": "sig_614497",
+      "timestamp": "2026-04-15T16:17:18.226933+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Nears End with New Talks Confirmed in Pakistan Within 2 Days** | YES | HIGH confidence[1][3][4]",
-      "raw": "US-Iran Ceasefire Nears End with New Talks Confirmed in Pakistan Within 2 Days** | YES | HIGH confidence[1][3][4]\n\nPresident Trump announced on April 13, 2026, that direct US-Iran talks could occur in Pakistan within two days, praising mediator Pakistan's Army Chief Asim Munir; this follows the two-week ceasefire starting April 8, amid a US blockade and prior Islamabad meetings on April 11[3][4][5",
+      "headline": "Drift Protocol Hack Confirmed: $280M Loss on Solana DeFi Platform April 1 | YES | HIGH confidence**",
+      "raw": "Drift Protocol Hack Confirmed: $280M Loss on Solana DeFi Platform April 1 | YES | HIGH confidence**  \nSolana-based Drift Protocol suffered a $280M hack on April 1 via social engineering of its multisig, affecting user deposits but sparing insurance funds; team paused functions and engaged law enforcement.[6] This marks one of the largest crypto hacks, potentially impacting Solana sentiment amid on",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will Bitcoin reach $81,000 on April 15?",
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be above $100 on April 17?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_600999",
+      "timestamp": "2026-04-15T16:17:04.728260+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key terms of the ceasefire:**",
+      "raw": "Key terms of the ceasefire:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_601031",
+      "timestamp": "2026-04-15T16:17:04.760770+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Two-week duration, effective immediately[1]",
+      "raw": "Two-week duration, effective immediately[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_601062",
+      "timestamp": "2026-04-15T16:17:04.791236+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran must reopen the Strait of Hormuz[1]",
+      "raw": "Iran must reopen the Strait of Hormuz[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_601087",
+      "timestamp": "2026-04-15T16:17:04.816974+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Includes cessation of attacks on the U",
+      "raw": "Includes cessation of attacks on the U.S., Israel, and regional countries[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_601112",
+      "timestamp": "2026-04-15T16:17:04.841756+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Applies to Lebanon and other conflict zones, though Israel stated the ceasefire does not include Lebanon operations[1]",
+      "raw": "Applies to Lebanon and other conflict zones, though Israel stated the ceasefire does not include Lebanon operations[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_601139",
+      "timestamp": "2026-04-15T16:17:04.868894+00:00",
+      "source": "PERPLEXITY",
+      "headline": "What happens next:**",
+      "raw": "What happens next:**\nU.S. and Iranian delegations were invited to Islamabad on April 10, 2026, for further negotiations toward a conclusive settlement of all disputes.[1] The ceasefire came shortly before President Trump's deadline and followed an Iranian rejection of a ceasefire proposal on April 6, making this reversal significant.[4]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_439314",
-      "timestamp": "2026-04-15T16:14:23.043161+00:00",
+      "id": "sig_601168",
+      "timestamp": "2026-04-15T16:17:04.897946+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Fed Chair Nomination | YES | HIGH confidence**",
-      "raw": "Kevin Warsh Fed Chair Nomination | YES | HIGH confidence**\nTrump announced Kevin Warsh as his nominee for Federal Reserve chair, with expected Senate confirmation and assumption of role by mid-May 2026.[1][3]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_439345",
-      "timestamp": "2026-04-15T16:14:23.074577+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Potential Rate Hike Under Warsh | YES | MED confidence**",
-      "raw": "Potential Rate Hike Under Warsh | YES | MED confidence**\nOne of Warsh's first acts as Fed chair could involve presiding over an interest rate hike, particularly given current inflationary pressures with core annual inflation at 3.9% and oil prices surging above $100 per barrel amid Middle East conflict.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_439280",
-      "timestamp": "2026-04-15T16:14:23.009258+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 15, 2026) that would move pr",
-      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 15, 2026) that would move prediction markets. The most recent search result is from January 30, 2026, which reports on Trump's selection of Kevin Warsh as Fed chair nominee.\n\nThe search results confirm the following established facts rather than breaking news:",
+      "headline": "Market impact:**",
+      "raw": "Market impact:**\nThe ceasefire announcement temporarily calmed financial markets and lowered oil prices after six weeks of conflict in the region.[2]\n\nThe substantive negotiations remain unclear, as Iran's earlier proposal reportedly included release of frozen assets and U.S. military withdrawal\u2014terms difficult to reconcile with stated U.S. objectives.[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump say \"Christian\" during TPUSA events on April 17?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_439376",
-      "timestamp": "2026-04-15T16:14:23.105765+00:00",
+      "id": "sig_614486",
+      "timestamp": "2026-04-15T16:17:18.215957+00:00",
       "source": "PERPLEXITY",
-      "headline": "Policy Shift from Hawkish to Dovish | YES | MED confidence**",
-      "raw": "Policy Shift from Hawkish to Dovish | YES | MED confidence**\nWhile Warsh held hawkish views during his 2006-2011 tenure as Fed governor, he has recently advocated for monetary easing and rate cuts while maintaining support for reducing the Fed's balance sheet.[2][4]\n\nThe search results do not contain information about South Korea or any announcements that would constitute breaking news as of today",
+      "headline": "Solana (SOL) Hits Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions on April 14, Bolstered by Alpengl",
+      "raw": "Solana (SOL) Hits Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions on April 14, Bolstered by Alpenglow Upgrade Progress | YES | HIGH confidence**  \nSolana network achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026, driven by robust activity and the anticipated Alpenglow consensus upgrade reducing final",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 16?",
+        "Will the price of Solana be above $100 on April 17?",
+        "Will the price of Solana be between $100 and $110 on April 1"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_623775",
+      "timestamp": "2026-04-15T16:17:27.504303+00:00",
+      "source": "PERPLEXITY",
+      "headline": "AMRO Raises South Korea 2026 Inflation Forecast to 2",
+      "raw": "AMRO Raises South Korea 2026 Inflation Forecast to 2.3% Amid Global Energy Shock | YES | HIGH confidence**  \nThe ASEAN+3 Macroeconomic Research Office (AMRO) released its '2026 Regional Economic Outlook' report on April 6, 2026, lifting South Korea's annual inflation projection by 0.4 points to 2.3% from 1.9%, citing U.S.-Iran war-driven global energy price rises; this exceeds Bank of Korea's Febr",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_422092",
-      "timestamp": "2026-04-15T16:14:05.821835+00:00",
+      "id": "sig_623786",
+      "timestamp": "2026-04-15T16:17:27.515178+00:00",
       "source": "PERPLEXITY",
-      "headline": "TMC Releases Star Campaigners List for West Bengal 2026 Assembly Polls Phase I | YES | MED confidence**",
-      "raw": "TMC Releases Star Campaigners List for West Bengal 2026 Assembly Polls Phase I | YES | MED confidence**  \nTrinamool Congress (AITC/TMC) announced its star campaigners list on Saturday for Phase I of the West Bengal Legislative Assembly elections (voting April 23 and 29, counting May 4), featuring top leaders like CM Mamata Banerjee and General Secretary Abhishek Banerjee, plus others such as Firha",
+      "headline": "February Core PPI Jumps to 3",
+      "raw": "February Core PPI Jumps to 3.9%, Fuels Speculation on Kevin Warsh Fed Rate Hike | YES | MED confidence**  \nPre-oil shock U.S. producer price data released Wednesday showed annual core inflation at 3.9%, implying 3-month annualized core PCE at 4.56%\u2014over double the Fed's 2% target\u2014prompting markets to price in potential hikes under incoming Fed chair Kevin Warsh, despite Fed's unchanged 3.50-3.75% ",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_623796",
+      "timestamp": "2026-04-15T16:17:27.525700+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Nomination Heightens Fed Policy Uncertainty, Pressuring South Korean Won | YES | HIGH confidence**",
+      "raw": "Kevin Warsh Nomination Heightens Fed Policy Uncertainty, Pressuring South Korean Won | YES | HIGH confidence**  \nTrump's nomination of Kevin Warsh as Fed chair introduces uncertainty over inflation response and rate path, contributing to the won's slip to 1,457/USD amid trade tensions, as markets anticipate a stronger dollar.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 11,
+    "watch": 0,
+    "high_conf": 1
   }
 }
