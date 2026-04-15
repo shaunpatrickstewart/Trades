@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-15T13:29:11.836159+00:00",
-  "scan_seconds": 25.7,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-15T13:32:04.690227+00:00",
+  "scan_seconds": 30.7,
+  "markets_scanned": 79,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_509338",
-      "timestamp": "2026-04-15T13:28:53.077588+00:00",
+      "id": "sig_678849",
+      "timestamp": "2026-04-15T13:31:42.588485+00:00",
       "source": "PERPLEXITY",
-      "headline": "US and Iran Plan Second Round of Ceasefire Talks Before April 7 Two-Week Truce Expires Next Week | NO | MED confidence**",
-      "raw": "US and Iran Plan Second Round of Ceasefire Talks Before April 7 Two-Week Truce Expires Next Week | NO | MED confidence**[1][2][6]\n\nA two-week US-Iran ceasefire, announced April 8 after 40 days of hostilities, remains in effect but faces expiration early next week without a long-term deal[1][3][4]. Recent weekend talks in Islamabad ended without agreement, yet both sides are now eyeing fresh negoti",
+      "headline": "US, Iran Plan Second Round of Ceasefire Talks Before April 7 Ceasefire Expires Next Week | NO | MED confidence**[1][2][3",
+      "raw": "US, Iran Plan Second Round of Ceasefire Talks Before April 7 Ceasefire Expires Next Week | NO | MED confidence**[1][2][3][4][5]\n\nNo ceasefire extension, resolution, or nuclear deal has been confirmed; first talks in Islamabad ended without agreement, with VP Vance stating Iranians rejected US terms demanding nuclear program end**[1][4]. Both sides now eye fresh negotiations hosted by Pakistan in c",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,77 +22,98 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_515945",
-      "timestamp": "2026-04-15T13:28:59.684330+00:00",
+      "id": "sig_685744",
+      "timestamp": "2026-04-15T13:31:49.483785+00:00",
       "source": "PERPLEXITY",
-      "headline": "**News websites**: Times of India, The Hindu, IndiaToday, NDTV",
-      "raw": "**News websites**: Times of India, The Hindu, IndiaToday, NDTV",
+      "headline": "Key developments confirmed this week (post-April 13 withdrawal deadline):**",
+      "raw": "Key developments confirmed this week (post-April 13 withdrawal deadline):**",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_515950",
-      "timestamp": "2026-04-15T13:28:59.689652+00:00",
+      "id": "sig_685750",
+      "timestamp": "2026-04-15T13:31:49.489600+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Prediction markets**: PredictIt, Manifold Markets, or similar platforms",
-      "raw": "**Prediction markets**: PredictIt, Manifold Markets, or similar platforms",
+      "headline": "Election Commission of India (ECI) announced on Tuesday (April 14, 2026) the final tally of 2,926 candidates after scrut",
+      "raw": "Election Commission of India (ECI) announced on Tuesday (April 14, 2026) the final tally of 2,926 candidates after scrutiny on April 10 and withdrawals by April 13; polling set for April 23 (152 seats, North/West Bengal) and April 29 (remaining seats), with counting on May 4[1][2][5].",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_515955",
-      "timestamp": "2026-04-15T13:28:59.694998+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Social media**: Twitter/X for real-time updates from journalists and political analysts",
-      "raw": "**Social media**: Twitter/X for real-time updates from journalists and political analysts",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_515961",
-      "timestamp": "2026-04-15T13:28:59.700444+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Wire services**: Reuters, AP News, AFP",
-      "raw": "**Wire services**: Reuters, AP News, AFP\n\nIf you have a specific news item you'd like me to help analyze or contextualize, feel free to share the details and I can help evaluate its potential market impact.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_515939",
-      "timestamp": "2026-04-15T13:28:59.678992+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I don't have access to real-time breaking news or current events happening right now on April 15, 2026",
-      "raw": "I don't have access to real-time breaking news or current events happening right now on April 15, 2026. My training data has a cutoff date, and I cannot browse the internet or access live news feeds.\n\nTo get the latest breaking news about the All India Trinamool Congress, Indian Congress party, or any election-related developments that might impact prediction markets, I'd recommend:",
-      "direction": null,
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_685739",
+      "timestamp": "2026-04-15T13:31:49.478308+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ECI confirms 2,926 candidates in fray for West Bengal Assembly elections after nomination scrutiny; Congress announces f",
+      "raw": "ECI confirms 2,926 candidates in fray for West Bengal Assembly elections after nomination scrutiny; Congress announces full list of 284 candidates for all 294 seats, ending Left Front alliance.** | YES | HIGH confidence[1][2][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_685756",
+      "timestamp": "2026-04-15T13:31:49.495209+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Indian National Congress released its candidate list, committing to contest all 294 seats independently\u2014ending its decad",
+      "raw": "Indian National Congress released its candidate list, committing to contest all 294 seats independently\u2014ending its decade-long Left Front alliance and introducing vote-splitting risks in regions like Malda, Murshidabad, and Nadia[1][3][4].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_685762",
+      "timestamp": "2026-04-15T13:31:49.501016+00:00",
+      "source": "PERPLEXITY",
+      "headline": "This multi-cornered fight (TMC, BJP, Congress, Left) heightens unpredictability, potentially shifting prediction markets",
+      "raw": "This multi-cornered fight (TMC, BJP, Congress, Left) heightens unpredictability, potentially shifting prediction markets on seat shares or TMC/BJP majorities[1][3][4].  \n\nNo mentions of \"republican\" or \"Vance\" in West Bengal election coverage[1][2][3][4][5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_699949",
+      "timestamp": "2026-04-15T13:32:03.688810+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Disclosing $131M\u2013$209M Net Worth and Crypto Holdings Including Polymarket",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Disclosing $131M\u2013$209M Net Worth and Crypto Holdings Including Polymarket | YES | HIGH confidence**  \nKevin Warsh, Trump's pick to replace Jerome Powell as Fed Chair, has formally disclosed his substantial wealth and investments in fintech, crypto (e.g., Polymarket, Ethereum tools), SpaceX, and AI/biotech, positioning him as the richest potential Fed ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 3
   }
 }
