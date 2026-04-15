@@ -1,83 +1,91 @@
 {
-  "last_scan": "2026-04-15T15:18:48.305658+00:00",
-  "scan_seconds": 32.3,
+  "last_scan": "2026-04-15T15:21:33.669913+00:00",
+  "scan_seconds": 25.6,
   "markets_scanned": 111,
   "open_positions": 76,
   "signals": [
     {
-      "id": "sig_91684",
-      "timestamp": "2026-04-15T15:18:35.416725+00:00",
+      "id": "sig_257946",
+      "timestamp": "2026-04-15T15:21:21.678411+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance's Iran Negotiations Fail, Prompting Trump Strait of Hormuz Blockade Threat | NO | HIGH confidence**",
-      "raw": "JD Vance's Iran Negotiations Fail, Prompting Trump Strait of Hormuz Blockade Threat | NO | HIGH confidence**  \nVice President **JD Vance**'s talks with Iran in Islamabad collapsed on Sunday, with Vance blaming Iran's refusal to abandon its nuclear program and Iran citing lack of U.S. trust-building; this followed his unsuccessful campaigning for Hungarian PM Viktor Orb\u00e1n, who then lost a crushing ",
-      "direction": "NO",
+      "headline": "White House Announces VP Vance to Lead In-Person Iran Peace Talks in Islamabad This Weekend | YES | HIGH confidence**[1]",
+      "raw": "White House Announces VP Vance to Lead In-Person Iran Peace Talks in Islamabad This Weekend | YES | HIGH confidence**[1]\n\nThe White House confirmed that **Vice President JD Vance**, alongside special envoy Steve Witkoff and Jared Kushner, will lead the US negotiating team for in-person peace talks with Iran, scheduled this weekend in Islamabad[1]. This announcement, made on April 14, 2026, coincid",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_103573",
-      "timestamp": "2026-04-15T15:18:47.305024+00:00",
+      "id": "sig_268936",
+      "timestamp": "2026-04-15T15:21:32.668625+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's nomination as next Fed chair confirmed amid surging US inflation and oil shock, raising odds of near-term",
-      "raw": "Kevin Warsh's nomination as next Fed chair confirmed amid surging US inflation and oil shock, raising odds of near-term rate hike instead of cuts.** | YES | HIGH[1][3]\n\nWarsh, former Fed governor and current Coupang board member (South Korean e-commerce firm), is positioned to succeed Jerome Powell by mid-May 2026, per recent reports[1][2][3]. This follows the Fed's April 15 decision to hold rates",
+      "headline": "Kevin Warsh's nomination as next Fed Chair confirmed amid surging inflation and rate hike speculation",
+      "raw": "Kevin Warsh's nomination as next Fed Chair confirmed amid surging inflation and rate hike speculation.** | YES | HIGH confidence[1][2][3]\n\nWarsh is set to succeed Jerome Powell by mid-May 2026, with his first potential action being an interest rate hike due to oil prices over $100/barrel from Middle East conflict and **annual core inflation** at 3.9% (pre-shock, pushing 3-month annualized core PCE",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will the price of Solana be above $100 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_97987",
-      "timestamp": "2026-04-15T15:18:41.719584+00:00",
+      "id": "sig_253173",
+      "timestamp": "2026-04-15T15:21:16.905271+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana reached a record **167 million monthly token holders** as of April 14, with daily non-vote transactions at 148 mi",
-      "raw": "Solana reached a record **167 million monthly token holders** as of April 14, with daily non-vote transactions at 148 million and the Alpenglow upgrade announced to reduce finality to 150ms.[2][4]",
+      "headline": "Details on latest developments:**",
+      "raw": "Details on latest developments:**",
       "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Solana be between $100 and $110 on April 1",
-        "Will the price of Solana be above $100 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
-      ],
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_85708",
-      "timestamp": "2026-04-15T15:18:29.440103+00:00",
+      "id": "sig_253181",
+      "timestamp": "2026-04-15T15:21:16.913255+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump hints at potential progress:** On April 15, President Trump stated the \"end to war in sight,\" suggested peace talk",
-      "raw": "Trump hints at potential progress:** On April 15, President Trump stated the \"end to war in sight,\" suggested peace talks may restart in 1-2 days, and indicated the April 8 ceasefire (expiring soon) may not need extension\u2014spurring market rallies and energy price stability[2].",
+      "headline": "Ceasefire remains temporary and unstable, with first-round talks inconclusive on nuclear issues, Hormuz control (Iran ch",
+      "raw": "Ceasefire remains temporary and unstable, with first-round talks inconclusive on nuclear issues, Hormuz control (Iran choking 20% of global oil), and blockades; second round nears in next 48 hours, possibly hosted by Pakistan.[2][4][6]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Trump say \"Christian\" during TPUSA events on April 17?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_85715",
-      "timestamp": "2026-04-15T15:18:29.447795+00:00",
+      "id": "sig_253189",
+      "timestamp": "2026-04-15T15:21:16.921102+00:00",
       "source": "PERPLEXITY",
-      "headline": "Additional context (April 14 updates, no resolutions):**",
-      "raw": "Additional context (April 14 updates, no resolutions):**",
+      "headline": "US enforces full Iranian port blockade; Trump hints at peace talks this week, Rubio hosts Israel-Lebanon talks, but stri",
+      "raw": "US enforces full Iranian port blockade; Trump hints at peace talks this week, Rubio hosts Israel-Lebanon talks, but strikes continue in Lebanon and Iran threatens retaliation.[1][3][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_253196",
+      "timestamp": "2026-04-15T15:21:16.928764+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No new confirmations, announcements, or resolutions today to shift prediction markets\u2014focus is on looming expiration and",
+      "raw": "No new confirmations, announcements, or resolutions today to shift prediction markets\u2014focus is on looming expiration and diplomatic push to avoid escalation.[2][5][6]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -86,101 +94,23 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_85723",
-      "timestamp": "2026-04-15T15:18:29.455302+00:00",
+      "id": "sig_253204",
+      "timestamp": "2026-04-15T15:21:16.936373+00:00",
       "source": "PERPLEXITY",
-      "headline": "Second round of US-Iran talks planned soon (possibly end of week in Pakistan), after first round failed; includes nuclea",
-      "raw": "Second round of US-Iran talks planned soon (possibly end of week in Pakistan), after first round failed; includes nuclear suspension proposals (US: 20-year moratorium; Iran: 5-year)[4][5][6].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_85731",
-      "timestamp": "2026-04-15T15:18:29.463049+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran avoiding immediate escalation amid blockade (10,000 US personnel deployed), but tensions high with Israeli operatio",
-      "raw": "Iran avoiding immediate escalation amid blockade (10,000 US personnel deployed), but tensions high with Israeli operations in Lebanon[3][5].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_97995",
-      "timestamp": "2026-04-15T15:18:41.727070+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Q1 2026 economic activity hit **$1",
-      "raw": "Q1 2026 economic activity hit **$1.1 trillion**, up 6,500% quarter-over-quarter.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_98002",
-      "timestamp": "2026-04-15T15:18:41.734671+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ongoing pressure from **Drift Protocol's $285M hack** on April 1 (attributed to North Korean actors), causing TVL drop f",
-      "raw": "Ongoing pressure from **Drift Protocol's $285M hack** on April 1 (attributed to North Korean actors), causing TVL drop from $9B to $5.5-6B network-wide and $110M exchange inflows signaling sell pressure.[1][7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_98010",
-      "timestamp": "2026-04-15T15:18:41.742157+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Price at **$78-83**, defending $75-78 support amid ETF outflows and $18B capital exodus since October 2025",
-      "raw": "Price at **$78-83**, defending $75-78 support amid ETF outflows and $18B capital exodus since October 2025.[1][3][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_98020",
-      "timestamp": "2026-04-15T15:18:41.752370+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** \u2013 No search results report breaking news today; latest items are from April 14 or earlier",
-      "raw": "Confidence: HIGH** \u2013 No search results report breaking news today; latest items are from April 14 or earlier.[1][2][3]",
+      "headline": "Confidence: LOW** (sources from April 8-15 show ongoing fragility without breakthroughs; no RIGHT NOW confirmations)",
+      "raw": "Confidence: LOW** (sources from April 8-15 show ongoing fragility without breakthroughs; no RIGHT NOW confirmations).[1][2][3][4][5][6]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_85738",
-      "timestamp": "2026-04-15T15:18:29.470983+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets:** Trump's optimistic comments could shift odds toward de-escalation/peace, but no formal c",
-      "raw": "Impact on prediction markets:** Trump's optimistic comments could shift odds toward de-escalation/peace, but no formal confirmations\u2014**LOW confidence** in market-moving resolution today[2].",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 9,
-    "watch": 1,
-    "high_conf": 3
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 2
   }
 }
