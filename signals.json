@@ -1,119 +1,104 @@
 {
-  "last_scan": "2026-04-15T11:20:08.014468+00:00",
-  "scan_seconds": 34.2,
-  "markets_scanned": 148,
-  "open_positions": 111,
+  "last_scan": "2026-04-15T11:23:09.924471+00:00",
+  "scan_seconds": 39.0,
+  "markets_scanned": 46,
+  "open_positions": 4,
   "signals": [
     {
-      "id": "sig_765816",
-      "timestamp": "2026-04-15T11:19:49.563693+00:00",
+      "id": "sig_959964",
+      "timestamp": "2026-04-15T11:23:03.711424+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confirmed developments:**",
-      "raw": "Confirmed developments:**\n\nPresident Donald Trump has declared an **end to the Iran conflict**[2], with Fox News host Maria Bartiromo reporting his statement that the war with Iran has ended. Simultaneously, Trump confirmed that a **second round of negotiations could begin within days**[2], marking a significant diplomatic pivot.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_765899",
-      "timestamp": "2026-04-15T11:19:49.646808+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key negotiation positions:**",
-      "raw": "Key negotiation positions:**\n\nThe US, led by Vice President JD Vance, is seeking a **broader agreement including limits on Iran's nuclear ambitions in exchange for economic normalization**[1]. Both sides have already shared written demands and possible compromises[3]. However, Iran has accused the US of excessive demands and lack of political will[1], while Washington maintains that key Iranian de",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_772261",
-      "timestamp": "2026-04-15T11:19:56.008805+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NJ-11 Special Election Debate: Republican Joe Hathaway Spars with Democrat Analilia Mejia Over Trump Policies Ahead of A",
-      "raw": "NJ-11 Special Election Debate: Republican Joe Hathaway Spars with Democrat Analilia Mejia Over Trump Policies Ahead of April 16 Vote | NO | LOW confidence**\n\nA debate between **Republican Joe Hathaway** (former Randolph mayor) and Democrat **Analilia Mejia** (progressive favorite, ex-Bernie Sanders staffer) occurred Wednesday afternoon\u2014the likely final one before tomorrow's special election to rep",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Joe Hathaway win the NJ-11 special election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_765759",
-      "timestamp": "2026-04-15T11:19:49.506271+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRUMP DECLARES END OF IRAN CONFLICT; SECOND ROUND OF TALKS SET WITHIN DAYS** | YES | HIGH confidence",
-      "raw": "TRUMP DECLARES END OF IRAN CONFLICT; SECOND ROUND OF TALKS SET WITHIN DAYS** | YES | HIGH confidence",
+      "headline": "Ethereum Breakthrough**: The Ethereum ecosystem announced **22 scalability, privacy, and interoperability developments**",
+      "raw": "Ethereum Breakthrough**: The Ethereum ecosystem announced **22 scalability, privacy, and interoperability developments** aligned with the Ethereum Foundation's 2026 priorities[1]. Prediction markets reacted decisively\u2014the April 11 market for ETH reaching $2,400 surged to **100% YES probability on April 11**, up from 18% the previous day[1]. Daily trading volume hit $128,150 USDC, reflecting strong",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_765938",
-      "timestamp": "2026-04-15T11:19:49.685617+00:00",
+      "id": "sig_960040",
+      "timestamp": "2026-04-15T11:23:03.787928+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-relevant signals:**",
-      "raw": "Market-relevant signals:**\n\nTrump's declaration of conflict's end and imminent resumption of talks signals de-escalation, which would typically reduce geopolitical risk premiums affecting oil prices, defense stocks, and regional stability indices. The ceasefire's continuation despite failed Islamabad discussions suggests renewed diplomatic momentum rather than military action.",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Institutional Catalysts**: **CME futures for SOL go live May 4**, providing a major institutional on-ramp[6]",
+      "raw": "Institutional Catalysts**: **CME futures for SOL go live May 4**, providing a major institutional on-ramp[6]. Additionally, **BlackRock and Fidelity disclosed record SOL ETF holdings** despite market consolidation[2].\n\n## Price Prediction Range Update\n\n| Crypto | Current Price | April Range | Upside Target |\n|--------|---------------|-------------|---------------|\n| Ethereum | ~$2,050 | $1,800\u2013$2,",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Solana Up or Down - April 15, 7AM ET",
+        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_772320",
-      "timestamp": "2026-04-15T11:19:56.068001+00:00",
+      "id": "sig_965175",
+      "timestamp": "2026-04-15T11:23:08.923001+00:00",
       "source": "PERPLEXITY",
-      "headline": "No mentions** of the **White House**, **JD Vance**, or **election** developments involving prediction markets; Hathaway",
-      "raw": "No mentions** of the **White House**, **JD Vance**, or **election** developments involving prediction markets; Hathaway is sole GOP candidate in this blue district, facing a crowded Democratic primary winner, with a June rematch looming[1][2][3].  \nThis local race shows no confirmed announcements or resolutions with national impact[1][2][3].",
+      "headline": "IMF Maintains South Korea 2026 Inflation Forecast at 2",
+      "raw": "IMF Maintains South Korea 2026 Inflation Forecast at 2.5% and Growth at 1.9% Despite Global Downgrade | NO | HIGH confidence**[3]\n\nThe International Monetary Fund released its April World Economic Outlook on April 15, 2026 (Tuesday), holding South Korea's annual inflation projection steady at 2.5%\u2014unchanged from January\u2014amid rising energy pressures from the Middle East conflict, offset by strong c",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
+        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_943358",
+      "timestamp": "2026-04-15T11:22:47.105756+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news about Iran or current market-moving events based on these search results",
+      "raw": "I cannot provide breaking news about Iran or current market-moving events based on these search results. The search results contain articles from April 9, 2026, which discuss *past* prediction market activity related to Iran, not current breaking developments.\n\nThe most recent confirmed event mentioned in these sources is President Trump's announcement of a U.S.-Iran ceasefire on Tuesday, April 8,",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_959909",
+      "timestamp": "2026-04-15T11:23:03.656138+00:00",
+      "source": "PERPLEXITY",
+      "headline": "# Breaking News Summary",
+      "raw": "# Breaking News Summary\n\n| Event | Market Direction | Confidence |\n|-------|------------------|-----------|\n| **Ethereum 22 Ecosystem Developments Released** | YES (ETH to $2,400) | HIGH |\n| **Solana Alpenglow Upgrade Progress & 167M Monthly Holders** | YES (SOL upside potential) | MED |\n| **Solana CME Futures Launch Confirmed (May 4)** | YES (SOL institutional catalyst) | HIGH |\n| **Interactive B",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_765856",
-      "timestamp": "2026-04-15T11:19:49.603666+00:00",
+      "id": "sig_960004",
+      "timestamp": "2026-04-15T11:23:03.751832+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current status of ceasefire and talks:**",
-      "raw": "Current status of ceasefire and talks:**\n\nThe ceasefire is **holding** and is approximately 6-7 days old[1]. **Pakistan has offered to host** the next round of talks in Islamabad[1][3], though the date and venue remain unfinalised[3]. According to Trump, negotiations could occur \"within the next couple of days\"[1].",
+      "headline": "Solana Network Milestone**: Solana reached an **all-time record of 167 million monthly token holders** as of April 14, w",
+      "raw": "Solana Network Milestone**: Solana reached an **all-time record of 167 million monthly token holders** as of April 14, with daily non-vote transactions hitting historic highs of 148 million[2]. The **Alpenglow upgrade** is progressing toward reducing transaction finality from 12 seconds to just 150 milliseconds[2]. This upgrade passed governance voting with 98.27% in favor, cementing technical imp",
       "direction": null,
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
-        "Trump announces US x Iran ceasefire end by April 21, 2026?"
+        "Solana Up or Down - April 15, 7AM ET"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 3,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 6
   }
 }
