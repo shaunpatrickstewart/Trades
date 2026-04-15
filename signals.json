@@ -1,62 +1,77 @@
 {
-  "last_scan": "2026-04-15T23:50:58.906182+00:00",
-  "scan_seconds": 25.0,
-  "markets_scanned": 83,
-  "open_positions": 42,
+  "last_scan": "2026-04-15T23:53:54.528438+00:00",
+  "scan_seconds": 32.7,
+  "markets_scanned": 78,
+  "open_positions": 38,
   "signals": [
     {
-      "id": "sig_817506",
-      "timestamp": "2026-04-15T23:50:41.208388+00:00",
+      "id": "sig_998407",
+      "timestamp": "2026-04-15T23:53:42.109575+00:00",
       "source": "PERPLEXITY",
-      "headline": "**NO** mutual, official ceasefire agreement exists that meets prediction market criteria (e",
-      "raw": "**NO** mutual, official ceasefire agreement exists that meets prediction market criteria (e.g., Polymarket's \"Russia x Ukraine ceasefire by April 30, 2026,\" requiring publicly announced halt in military engagement by both sides).[2]",
-      "direction": "NO",
+      "headline": "Peru's runoff election confirmed after April 10 voting** | YES | HIGH confidence",
+      "raw": "Peru's runoff election confirmed after April 10 voting** | YES | HIGH confidence\n\nThe April 10, 2026 election in Peru has produced results that confirm a runoff is proceeding. Roberto S\u00e1nchez, a leftist candidate, has advanced to the June runoff after placing second, displacing Rafael L\u00f3pez Aliaga from that position.[3] L\u00f3pez Aliaga, the ultraconservative former Lima mayor, has responded by callin",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Rafael L\u00f3pez Aliaga finish in second place in the first round of the 2026 P",
+        "Will Roberto S\u00e1nchez Palomino finish in second place in the first round of the 2"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_989603",
+      "timestamp": "2026-04-15T23:53:33.305124+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, the most recent confirmed development is:",
+      "raw": "Based on the search results provided, the most recent confirmed development is:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_989614",
+      "timestamp": "2026-04-15T23:53:33.316266+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** - The ceasefire was confirmed and came into force[4]",
+      "raw": "YES** - The ceasefire was confirmed and came into force[4]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_989620",
+      "timestamp": "2026-04-15T23:53:33.322055+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** - Multiple credible sources document that both Russian President Putin and Ukrainian President Zelens",
+      "raw": "Confidence: HIGH** - Multiple credible sources document that both Russian President Putin and Ukrainian President Zelenskyy announced and implemented the ceasefire[1][2][3][4]\n\nHowever, I should note that these search results are from April 9-12, 2026, and you've indicated today is April 15, 2026. The ceasefire period has already concluded (it ended on April 12). The search results do not contain ",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_834150",
-      "timestamp": "2026-04-15T23:50:57.852955+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's path to Fed chair confirmed amid surging US inflation and oil shock, with markets pricing potential rate h",
-      "raw": "Kevin Warsh's path to Fed chair confirmed amid surging US inflation and oil shock, with markets pricing potential rate hike as his first move.** | YES | HIGH[1]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_817513",
-      "timestamp": "2026-04-15T23:50:41.215198+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**LOW** confidence in any market-moving resolution today, as trader consensus shows near-certainty of \"No\" due to the Ea",
-      "raw": "**LOW** confidence in any market-moving resolution today, as trader consensus shows near-certainty of \"No\" due to the Easter truce breakdown and ongoing hostilities; no new announcements reported after April 14.[2][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_817519",
-      "timestamp": "2026-04-15T23:50:41.221458+00:00",
+      "id": "sig_989608",
+      "timestamp": "2026-04-15T23:53:33.311004+00:00",
       "source": "PERPLEXITY",
-      "headline": "Earlier Easter announcements (April 9-10) do not qualify as binding or sustained, per historical patterns of violations",
-      "raw": "Earlier Easter announcements (April 9-10) do not qualify as binding or sustained, per historical patterns of violations.[1][3][4]\n\nNo mentions of \"Ternuvate\" (possibly a misspelling, e.g., Ternopil or similar) or fresh Russia-related confirmations in April 2026 news.[1-6] Ongoing talks (e.g., Putin\u2019s June 2024 terms) remain unresolved.[6]",
-      "direction": "NO",
+      "headline": "HEADLINE:** Russia and Ukraine implemented a 32-hour Orthodox Easter ceasefire from April 11-12, 2026",
+      "raw": "HEADLINE:** Russia and Ukraine implemented a 32-hour Orthodox Easter ceasefire from April 11-12, 2026",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?"
       ],
       "action": "ALERT",
@@ -64,116 +79,71 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_823396",
-      "timestamp": "2026-04-15T23:50:47.098410+00:00",
+      "id": "sig_998401",
+      "timestamp": "2026-04-15T23:53:42.103902+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Pushes Republicans for Clean FISA Section 702 Extension Amid Internal GOP Division | NO | MED confidence**",
-      "raw": "Trump Pushes Republicans for Clean FISA Section 702 Extension Amid Internal GOP Division | NO | MED confidence**  \nPresident Donald Trump is urging Republicans to unify and vote for a clean reauthorization of FISA Section 702 ahead of its deadline, emphasizing national security and military protection, with House Speaker Mike Johnson in support despite pushback from figures like Rep. Jim Jordan ov",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_823403",
-      "timestamp": "2026-04-15T23:50:47.105460+00:00",
-      "source": "PERPLEXITY",
-      "headline": "White House Highlights Success of 2025 Tax Cuts on Tax Day | NO | LOW confidence**",
-      "raw": "White House Highlights Success of 2025 Tax Cuts on Tax Day | NO | LOW confidence**  \nIn a press briefing today, Press Secretary Karoline Leavitt, Treasury Secretary Scott Bessent, and SBA Administrator Kelly Loeffler touted the largest tax cuts in history\u2014including no tax on tips, overtime, Social Security, and relief for small businesses and families\u2014claiming they saved Americans from a $4 trilli",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_834159",
-      "timestamp": "2026-04-15T23:50:57.861533+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US annual core inflation** hit 3",
-      "raw": "**US annual core inflation** hit 3.9% (pre-oil shock), pushing 3-month annualized core PCE to 4.56%\u2014over double the Fed's 2% target\u2014and has exceeded target for five years, with oil above $100/barrel signaling further rises[1].",
+      "headline": "Based on the search results provided, here are the key developments:",
+      "raw": "Based on the search results provided, here are the key developments:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_834167",
-      "timestamp": "2026-04-15T23:50:57.869466+00:00",
+      "id": "sig_998418",
+      "timestamp": "2026-04-15T23:53:42.120448+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Kevin Warsh** set to succeed Jerome Powell by mid-May 2026; Powell's final meeting was Wednesday (April 15), leaving W",
-      "raw": "**Kevin Warsh** set to succeed Jerome Powell by mid-May 2026; Powell's final meeting was Wednesday (April 15), leaving Warsh to face immediate rate decisions amid Middle East energy shock[1].",
+      "headline": "Prediction market implications:** The Peru election runoff confirmation and L\u00f3pez Aliaga's escalatory rhetoric could inc",
+      "raw": "Prediction market implications:** The Peru election runoff confirmation and L\u00f3pez Aliaga's escalatory rhetoric could increase volatility in emerging market instruments. The U.S.-Iran negotiation failure and Vance's framing of a \"final offer\" may increase geopolitical risk premiums, particularly in oil and defense-related securities.",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_834177",
-      "timestamp": "2026-04-15T23:50:57.879824+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed held rates at 3",
-      "raw": "Fed held rates at 3.50-3.75%, projecting one 25bp cut this year, but 7/19 officials expect no cuts, traders doubt easing, and officials discuss hikes if pressures persist[1].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_834187",
-      "timestamp": "2026-04-15T23:50:57.889140+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No direct South Korea inflation news, though global energy shock ties into broader **inflation** trends impacting predic",
-      "raw": "No direct South Korea inflation news, though global energy shock ties into broader **inflation** trends impacting predictions[1].",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
+        "Will Rafael L\u00f3pez Aliaga finish in second place in the first round of the 2026 P"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_5158",
+      "timestamp": "2026-04-15T23:53:48.860006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Ceasefire Collapses, Triggering $427M Bitcoin Short Liquidations and Bullish Price Prediction to $80K | YES | MED c",
+      "raw": "Iran Ceasefire Collapses, Triggering $427M Bitcoin Short Liquidations and Bullish Price Prediction to $80K | YES | MED confidence** [2]\n\nBitcoin traded at $71,362 on April 9, 2026, up 4.5% after a U.S.-Iran ceasefire ended, crashing WTI crude oil prices from $112/barrel and causing $427 million in crypto short liquidations\u2014the largest since late February [2]. This shifted price predictions bullish",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_9826",
+      "timestamp": "2026-04-15T23:53:53.527679+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea Annual Inflation Rises to 2",
+      "raw": "South Korea Annual Inflation Rises to 2.2% in March 2026, Below Forecasts | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months, missing market expectations of 2.4% and staying near the central bank's 2% target amid contained price pressures before global energy volatility.[1]  \nThis fresh data point, released recently giv",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_834195",
-      "timestamp": "2026-04-15T23:50:57.897595+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Warsh's prior hawkish stance noted, but recent views favor cuts paired with balance-sheet shrinkage via Treasury-Fed acc",
-      "raw": "Warsh's prior hawkish stance noted, but recent views favor cuts paired with balance-sheet shrinkage via Treasury-Fed accord; consensus challenges remain[2][3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_834203",
-      "timestamp": "2026-04-15T23:50:57.905221+00:00",
-      "source": "PERPLEXITY",
-      "headline": "This shifts prediction markets: oil shock + hot inflation flip Fed outlook from cuts to possible hikes, testing Warsh ea",
-      "raw": "This shifts prediction markets: oil shock + hot inflation flip Fed outlook from cuts to possible hikes, testing Warsh early[1].",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 9,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 5,
+    "watch": 3,
+    "high_conf": 4
   }
 }
