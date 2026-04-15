@@ -1,102 +1,271 @@
 {
-  "last_scan": "2026-04-15T12:46:55.557216+00:00",
-  "scan_seconds": 24.9,
+  "last_scan": "2026-04-15T12:49:46.317818+00:00",
+  "scan_seconds": 31.8,
   "markets_scanned": 81,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_990813",
-      "timestamp": "2026-04-15T12:46:54.555989+00:00",
+      "id": "sig_142933",
+      "timestamp": "2026-04-15T12:49:26.674412+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May; Wholesale Inflation Accelerates Amid Tariff Impa",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Powell in May; Wholesale Inflation Accelerates Amid Tariff Impacts | YES | HIGH confidence** [1]\n\nFed kept federal funds rate unchanged on Wednesday after three prior cuts, with PCE inflation at 3% annual pace in December (up from 2.8% in November), driven by services prices and Trump tariff effects on goods [1]. Powell expects tariff price ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_979077",
-      "timestamp": "2026-04-15T12:46:42.819576+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news summary you've requested based on these search results",
-      "raw": "I cannot provide the breaking news summary you've requested based on these search results.\n\nThe search results contain information about West Bengal elections (March 30, 2026) and a US-Iran conflict situation, but they do not show any recent developments from today (April 15, 2026) that would qualify as breaking news. Additionally, the search results lack concrete information linking the topics yo",
+      "headline": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf claimed three clauses of the 10-point proposal have already been vio",
+      "raw": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf claimed three clauses of the 10-point proposal have already been violated, specifically citing ceasefire violations in Lebanon, airspace violations, and disputes over Iran's enrichment rights.[4]",
       "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_156478",
+      "timestamp": "2026-04-15T12:49:40.219392+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Anticipated Catalysts (Not Yet Confirmed)**",
+      "raw": "Anticipated Catalysts (Not Yet Confirmed)**",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156496",
+      "timestamp": "2026-04-15T12:49:40.237266+00:00",
+      "source": "PERPLEXITY",
+      "headline": "However, these are speculative catalysts, not confirmed announcements[3]",
+      "raw": "However, these are speculative catalysts, not confirmed announcements[3]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156501",
+      "timestamp": "2026-04-15T12:49:40.242797+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Assessment**: The search results contain price predictions ranging from $4 by year-end to highly speculative claims of $",
+      "raw": "Assessment**: The search results contain price predictions ranging from $4 by year-end to highly speculative claims of $7-$42, but these are analyst opinions, not confirmed news. No breaking announcement has moved markets as of mid-April 2026.",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_142916",
+      "timestamp": "2026-04-15T12:49:26.657338+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Second Round of Iran-US Peace Talks Underway with No Deal from First Meeting | ONGOING NEGOTIATIONS | HIGH confidence**",
+      "raw": "Second Round of Iran-US Peace Talks Underway with No Deal from First Meeting | ONGOING NEGOTIATIONS | HIGH confidence**\n\nThe first round of peace talks between US and Iranian delegations in Islamabad (April 11) concluded without a finalized agreement.[1][5] Both sides are now preparing for a second round of negotiations, with the date and venue still being finalized, though Pakistan continues to p",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_979083",
-      "timestamp": "2026-04-15T12:46:42.825546+00:00",
+      "id": "sig_142921",
+      "timestamp": "2026-04-15T12:49:26.662919+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current developments from April 15, 2026",
-      "raw": "Current developments from April 15, 2026",
+      "headline": "Key developments affecting prediction markets:**",
+      "raw": "Key developments affecting prediction markets:**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_979089",
-      "timestamp": "2026-04-15T12:46:42.831114+00:00",
+      "id": "sig_142927",
+      "timestamp": "2026-04-15T12:49:26.668539+00:00",
       "source": "PERPLEXITY",
-      "headline": "Clear confirmation or announcement of a specific event",
-      "raw": "Clear confirmation or announcement of a specific event",
+      "headline": "The two-week ceasefire agreed on April 8 remains in effect but **has been violated by both sides** since its declaration",
+      "raw": "The two-week ceasefire agreed on April 8 remains in effect but **has been violated by both sides** since its declaration.[1]",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_979094",
-      "timestamp": "2026-04-15T12:46:42.836795+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Explicit connections between the various political actors and institutions you mentioned",
-      "raw": "Explicit connections between the various political actors and institutions you mentioned\n\nI recommend running a fresh search with more specific keywords or checking news aggregators for today's latest developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_983953",
-      "timestamp": "2026-04-15T12:46:47.695568+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Price Hits $2,370 on April 14, 2026 | YES | HIGH confidence**",
-      "raw": "Ethereum Price Hits $2,370 on April 14, 2026 | YES | HIGH confidence**  \nEthereum reached $2,370.04 at 8:30 a.m. ET on April 14, up $174 from the prior day, confirming resolution of Robinhood prediction markets for ETH at or above $2,370 (previously at 29\u00a2) and $2,350 (at 94\u00a2)[1][5].  \nBitcoin traded at $74,314.61 alongside this ETH rise, up from $71,188.84 on April 13[1][4].  \nNo other confirmati",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 16, 12:35AM-12:40AM ET",
-        "Will Robinhood Markets, Inc. (HOOD) hit (HIGH) $82.50 Week of April 13 2026?",
-        "Bitcoin Up or Down - April 16, 7:35AM-7:40AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
       "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_142938",
+      "timestamp": "2026-04-15T12:49:26.680004+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Vice President JD Vance has stated \"the ball is in Iran's court\" regarding further negotiations, indicating the US is wa",
+      "raw": "Vice President JD Vance has stated \"the ball is in Iran's court\" regarding further negotiations, indicating the US is waiting for Iranian movement on its demands.[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_156433",
+      "timestamp": "2026-04-15T12:49:40.174933+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results available, there is **no breaking news confirming major price movements or regulatory decisi",
+      "raw": "Based on the search results available, there is **no breaking news confirming major price movements or regulatory decisions as of April 15, 2026**.\n\nHere's what the current situation shows:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156439",
+      "timestamp": "2026-04-15T12:49:40.180357+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Status (Mid-April 2026)**",
+      "raw": "XRP Status (Mid-April 2026)**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156444",
+      "timestamp": "2026-04-15T12:49:40.185761+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP is trading around $1",
+      "raw": "XRP is trading around $1.35-$1.39, holding above the $1.30 support level[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156450",
+      "timestamp": "2026-04-15T12:49:40.191113+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The token has shown only 2-3% gains in early April trading, following a \"normal\" rather than historically bullish patter",
+      "raw": "The token has shown only 2-3% gains in early April trading, following a \"normal\" rather than historically bullish pattern[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156455",
+      "timestamp": "2026-04-15T12:49:40.196344+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP remains trapped in a descending channel since mid-July 2025, with six consecutive months of losses[5]",
+      "raw": "XRP remains trapped in a descending channel since mid-July 2025, with six consecutive months of losses[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156460",
+      "timestamp": "2026-04-15T12:49:40.201511+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key Technical Levels to Watch**",
+      "raw": "Key Technical Levels to Watch**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156465",
+      "timestamp": "2026-04-15T12:49:40.206897+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Resistance at $1",
+      "raw": "Resistance at $1.45 is critical; a break above this would signal recovery potential toward $1.60[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156471",
+      "timestamp": "2026-04-15T12:49:40.212459+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current price action suggests \"a market that is waiting\" with no clear directional conviction[3]",
+      "raw": "Current price action suggests \"a market that is waiting\" with no clear directional conviction[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_156490",
+      "timestamp": "2026-04-15T12:49:40.231349+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Potential XRP ETF approval decisions remain pending[2]",
+      "raw": "Potential XRP ETF approval decisions remain pending[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_142944",
+      "timestamp": "2026-04-15T12:49:26.685771+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Both delegations have now shared written demands and possible compromises, positioning the second round with \"clearer po",
+      "raw": "Both delegations have now shared written demands and possible compromises, positioning the second round with \"clearer positions\" than the first meeting.[5]\n\nThe lack of a breakthrough in the initial talks, combined with reported ceasefire violations and continued disagreement over fundamental issues (nuclear enrichment, sanctions relief, military withdrawal), suggests protracted negotiations ahead",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_156484",
+      "timestamp": "2026-04-15T12:49:40.225532+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Senate's return on April 13 could bring regulatory clarity, particularly around the CLARITY Act[3]",
+      "raw": "Senate's return on April 13 could bring regulatory clarity, particularly around the CLARITY Act[3]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 17,
+    "watch": 2,
+    "high_conf": 4
   }
 }
