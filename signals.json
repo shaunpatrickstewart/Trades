@@ -1,65 +1,121 @@
 {
-  "last_scan": "2026-04-15T14:41:27.612671+00:00",
-  "scan_seconds": 32.0,
+  "last_scan": "2026-04-15T14:44:17.566875+00:00",
+  "scan_seconds": 29.9,
   "markets_scanned": 143,
   "open_positions": 110,
   "signals": [
     {
-      "id": "sig_845067",
-      "timestamp": "2026-04-15T14:41:08.802452+00:00",
+      "id": "sig_21402",
+      "timestamp": "2026-04-15T14:44:05.136395+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE**: US-Iran ceasefire holds tenuously as blockade persists and Pakistan pushes for urgent second talks before ex",
-      "raw": "HEADLINE**: US-Iran ceasefire holds tenuously as blockade persists and Pakistan pushes for urgent second talks before expiry | **NO** | **MED** confidence\n\nA two-week US-Iran ceasefire was announced on April 8 after 40 days of hostilities, welcomed by the UN but undermined by ongoing Israeli strikes in Lebanon and Iran's failure to fully open the Strait of Hormuz as promised.[2][3] As of April 14,",
+      "headline": "**Joe Hathaway's special election**: Republican Joe Hathaway (likely \"Joe Hathaway\" in query) is in a tight April 16 run",
+      "raw": "**Joe Hathaway's special election**: Republican Joe Hathaway (likely \"Joe Hathaway\" in query) is in a tight April 16 runoff against Democrat Analilia Mejia for a New Jersey congressional seat vacated by Mikie Sherrill; no results or major announcements today, but Hathaway criticized Mejia for dodging in-person debates, with a virtual forum scheduled for this evening. [1][2]",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Will Joe Hathaway win the NJ-11 special election?",
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_856286",
-      "timestamp": "2026-04-15T14:41:20.021091+00:00",
+      "id": "sig_21412",
+      "timestamp": "2026-04-15T14:44:05.146902+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Announced | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Monthly Token Holders & Alpenglow Upgrade Announced | YES | HIGH confidence**  \nSolana network achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026, fueled by the Alpenglow consensus upgrade reducing transaction finality to 150 milliseconds[1][4]. This confirmed performance milestone and upgrade coul",
+      "headline": "**JD Vance and White House**: White House issued a statement yesterday affirming President Trump's confidence in VP **JD",
+      "raw": "**JD Vance and White House**: White House issued a statement yesterday affirming President Trump's confidence in VP **JD Vance** and Secretary of State Marco Rubio amid their differing views on the Iran war, as they position for 2028; not a new development today. [3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_21434",
+      "timestamp": "2026-04-15T14:44:05.168110+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**NO** | **LOW** confidence in market-moving news, as reports cover ongoing races without fresh confirmations",
+      "raw": "**NO** | **LOW** confidence in market-moving news, as reports cover ongoing races without fresh confirmations. [1][2][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_26791",
+      "timestamp": "2026-04-15T14:44:10.525161+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Records Largest Inflows from Digital Asset Investors, Unseating Bitcoin and Solana | YES | HIGH confidence**",
+      "raw": "XRP Records Largest Inflows from Digital Asset Investors, Unseating Bitcoin and Solana | YES | HIGH confidence**  \nXRP led with $119.6 million in inflows last week\u2014its strongest since mid-December 2025\u2014bringing year-to-date inflows to $159 million (7% of AUM), ahead of Bitcoin's $107.3 million (with net $145 million outflows in April so far) and Solana's $34.9 million.[3]",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Will the price of Solana be between $90 and $100 on April 15",
-        "Will the price of Solana be above $100 on April 16?",
-        "Will the price of Solana be above $100 on April 17?"
+        "Will Bitcoin reach $81,000 on April 15?",
+        "Will the price of XRP be above $1.00 on April 16?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_862876",
-      "timestamp": "2026-04-15T14:41:26.611692+00:00",
+      "id": "sig_26801",
+      "timestamp": "2026-04-15T14:44:10.535344+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair | YES | HIGH confidence**  \nPresident Donald Trump has nominated former Federal Reserve Governor **Kevin Warsh** to succeed Jerome Powell as Fed chair, as confirmed in recent announcements and analyses.[5][1][2]  \nThis nomination, highlighted in a February 3, 2026, video and ongoing commentary, has sparked market reactions including rising bond yields,",
+      "headline": "CME Expands Crypto Futures to Include Spot-Quoted Solana and XRP Contracts | YES | MED confidence**",
+      "raw": "CME Expands Crypto Futures to Include Spot-Quoted Solana and XRP Contracts | YES | MED confidence**  \nThe Chicago Mercantile Exchange is launching spot-quoted futures for Solana (SOL) and XRP, marking a milestone for institutional adoption by differing from traditional futures structures.[6]",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
-      ],
-      "action": "ENTER",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_14421",
+      "timestamp": "2026-04-15T14:43:58.155744+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US, Iran Plan Second Round of Ceasefire Talks Before April 7 Two-Week Truce Expires Next Week | NO | MED confidence**",
+      "raw": "US, Iran Plan Second Round of Ceasefire Talks Before April 7 Two-Week Truce Expires Next Week | NO | MED confidence**\n\nNo new ceasefire has been confirmed, announced, or resolved as of April 15, 2026; instead, both sides are discussing fresh negotiations in locations like Islamabad or Pakistan to occur before the existing two-week ceasefire\u2014announced April 7 or 8\u2014ends early next week[1][2][3][4][6",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_21423",
+      "timestamp": "2026-04-15T14:44:05.157479+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**April elections context**: Four key April 2026 special elections (including Hathaway's) could impact House control and",
+      "raw": "**April elections context**: Four key April 2026 special elections (including Hathaway's) could impact House control and test Trump/GOP power, but nothing resolved as of 2 PM UTC. [1]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump say \"Christian\" during TPUSA events on April 17?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 0,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 0,
+    "alert": 5,
+    "watch": 2,
+    "high_conf": 0
   }
 }
