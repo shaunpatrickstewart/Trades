@@ -1,45 +1,112 @@
 {
-  "last_scan": "2026-04-15T16:02:14.199912+00:00",
-  "scan_seconds": 54.6,
+  "last_scan": "2026-04-15T16:05:31.768402+00:00",
+  "scan_seconds": 54.1,
   "markets_scanned": 72,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_667745",
-      "timestamp": "2026-04-15T16:01:31.475906+00:00",
+      "id": "sig_907036",
+      "timestamp": "2026-04-15T16:05:30.766908+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Nears Expiration with Second Round of Talks Planned Before April 21 Deadline | NO | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Nears Expiration with Second Round of Talks Planned Before April 21 Deadline | NO | HIGH confidence**\n\nThe two-week ceasefire, announced April 7-8 and mediated by Pakistan, expires April 21 without any confirmed extension, new deal, or resolution on key issues like Iran's nuclear program, Strait of Hormuz control, or uranium enrichment limits[1][2][3][4]. First-round talks in Isl",
-      "direction": "NO",
+      "headline": "Bank of Korea Governor Nominee Shin Hyun-song Confirmed, Citing Ties to Warsh for US-Korea Fed Cooperation | YES | HIGH",
+      "raw": "Bank of Korea Governor Nominee Shin Hyun-song Confirmed, Citing Ties to Warsh for US-Korea Fed Cooperation | YES | HIGH confidence**  \nNominee Shin Hyun-song, in his confirmation hearing, pledged stronger currency swaps and liquidity nets, leveraging networks with Fed Chair Warsh, NY Fed's John Williams, and others for potential US-Korea monetary stability[1]. This resolution ties South Korea dire",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_864916",
+      "timestamp": "2026-04-15T16:04:48.646947+00:00",
+      "source": "PERPLEXITY",
+      "headline": "This April 8 event briefly calmed markets and oil prices but is not \"just confirmed\" today",
+      "raw": "This April 8 event briefly calmed markets and oil prices but is not \"just confirmed\" today.[6]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_698144",
-      "timestamp": "2026-04-15T16:02:01.874112+00:00",
+      "id": "sig_871713",
+      "timestamp": "2026-04-15T16:04:55.443645+00:00",
       "source": "PERPLEXITY",
-      "headline": "Technical Breakout Signal Confirmed** | YES | MEDIUM confidence",
-      "raw": "Technical Breakout Signal Confirmed** | YES | MEDIUM confidence\n\nXRP's daily MACD has turned bullish[1], creating a technical inflection point as price compresses within a symmetrical triangle between $1.30 support and $1.38 resistance[1]. A close above the SMA 50 at $1.3792 could target $1.5625[1].",
-      "direction": "YES",
+      "headline": "**Details**: **Vance** confirmed Iran rejected US terms despite \"red lines,\" ending marathon negotiations without breakt",
+      "raw": "**Details**: **Vance** confirmed Iran rejected US terms despite \"red lines,\" ending marathon negotiations without breakthrough[1].",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_900697",
+      "timestamp": "2026-04-15T16:05:24.427795+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP SEC Lawsuit Resolution Deadline April 16 | PENDING | HIGH confidence**",
+      "raw": "XRP SEC Lawsuit Resolution Deadline April 16 | PENDING | HIGH confidence**\n\nThe SEC has an April 16 deadline to officially dismiss its appeal or Ripple must respond.[2] Legal experts predict a high probability of an announcement today regarding the final resolution of the long-standing lawsuit, with XRP's fine already reduced to $50 million from $125 million.[2]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_674272",
-      "timestamp": "2026-04-15T16:01:38.002445+00:00",
+      "id": "sig_864898",
+      "timestamp": "2026-04-15T16:04:48.628079+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "headline": "UN chief on April 14 urged continuation and respect for international law amid fragility",
+      "raw": "UN chief on April 14 urged continuation and respect for international law amid fragility.[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_864907",
+      "timestamp": "2026-04-15T16:04:48.637774+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Peace talks in Islamabad occurred around April 11 (US delegation including JD Vance) but ended without a deal; a second",
+      "raw": "Peace talks in Islamabad occurred around April 11 (US delegation including JD Vance) but ended without a deal; a second round is planned soon, venue TBD.[4][7]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_864925",
+      "timestamp": "2026-04-15T16:04:48.655763+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Impact on prediction markets: LOW** (stale news from a week ago, no fresh catalysts)",
+      "raw": "Impact on prediction markets: LOW** (stale news from a week ago, no fresh catalysts).[6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_871673",
+      "timestamp": "2026-04-15T16:04:55.403558+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US headed toward government shutdown after failed White House talks; Vance confirms impasse with Democrats | YES | HIGH",
+      "raw": "US headed toward government shutdown after failed White House talks; Vance confirms impasse with Democrats | YES | HIGH confidence**[2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -48,12 +115,12 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_674282",
-      "timestamp": "2026-04-15T16:01:38.012168+00:00",
+      "id": "sig_871694",
+      "timestamp": "2026-04-15T16:04:55.424055+00:00",
       "source": "PERPLEXITY",
-      "headline": "West Bengal Voter List Crisis: Supreme Court Acknowledges Appeals from 34 Lakh Voters Ahead of April 23 Polls | NO | MED",
-      "raw": "West Bengal Voter List Crisis: Supreme Court Acknowledges Appeals from 34 Lakh Voters Ahead of April 23 Polls | NO | MED**  \nOver 60 lakh objections to voter list revisions have led to 34 lakh appeals, with the Supreme Court stepping in to stress voting rights; first-phase voting is April 23, but no resolution announced.[1]",
-      "direction": "NO",
+      "headline": "**Prediction market impact**: This resolution of failed talks boosts **shutdown odds** on platforms like Polymarket, giv",
+      "raw": "**Prediction market impact**: This resolution of failed talks boosts **shutdown odds** on platforms like Polymarket, given historical precedents (14 shutdowns since 1981, longest 35 days in 2018-19)[2][5].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -61,12 +128,12 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_674302",
-      "timestamp": "2026-04-15T16:01:38.032704+00:00",
+      "id": "sig_871703",
+      "timestamp": "2026-04-15T16:04:55.433823+00:00",
       "source": "PERPLEXITY",
-      "headline": "EC Deploys Massive Central Forces in West Bengal, Drawing TMC 'Siege' Claims | NO | LOW**",
-      "raw": "EC Deploys Massive Central Forces in West Bengal, Drawing TMC 'Siege' Claims | NO | LOW**  \nUnprecedented transfers and 3.5x more forces than 2021 (vs. other states) aim for fair polls, but critics question neutrality; ongoing, no fresh confirmations.[3]",
-      "direction": "NO",
+      "headline": "No agreement in 21-hour US-Iran talks in Islamabad; Vance calls it \"bad news\" | YES | MED confidence**[1]",
+      "raw": "No agreement in 21-hour US-Iran talks in Islamabad; Vance calls it \"bad news\" | YES | MED confidence**[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -74,39 +141,26 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_674313",
-      "timestamp": "2026-04-15T16:01:38.043931+00:00",
+      "id": "sig_871723",
+      "timestamp": "2026-04-15T16:04:55.453692+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance References Indian In-Laws on US H-1B Immigration Policy | NO | LOW**",
-      "raw": "JD Vance References Indian In-Laws on US H-1B Immigration Policy | NO | LOW**  \nUS VP Vance discussed family ties and US priorities in response to an Indian student, unrelated to elections or White House announcements on India.[4]  \n\nNo links to White House, Vance-election ties, or market-moving resolutions in results; WB polls (April 23/29, results May 4) face tensions but lack today's breakthrou",
+      "headline": "**Prediction market impact**: Escalates tensions amid ongoing Iran conflict and Congress war powers vote, shifting odds",
+      "raw": "**Prediction market impact**: Escalates tensions amid ongoing Iran conflict and Congress war powers vote, shifting odds on de-escalation or war expansion[1][3].\n\nNo confirmed breaking news on **West Bengal Legislative Assembly** or **All India Trinamool Congress** in results. Congress set for **Republican**-controlled vote on Iran war powers Wednesday, but outcome unconfirmed[3].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will the All India Trinamool Congress (AITC) win the most seats in the 2026 West"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_698177",
-      "timestamp": "2026-04-15T16:02:01.907459+00:00",
+      "id": "sig_900671",
+      "timestamp": "2026-04-15T16:05:24.401111+00:00",
       "source": "PERPLEXITY",
-      "headline": "Record ETF Inflows & Major Retail Integration** | YES | HIGH confidence",
-      "raw": "Record ETF Inflows & Major Retail Integration** | YES | HIGH confidence\n\nU.S. spot XRP ETFs attracted $119.6 million in inflows\u2014the strongest single-day intake since December 2025[1]. Concurrently, Rakuten Wallet integrated XRP into its Rakuten Pay system, enabling 44 million users to convert XRP into loyalty points[1]. This demonstrates both institutional demand and a pathway to mainstream retail",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_698220",
-      "timestamp": "2026-04-15T16:02:01.950217+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Upcoming Critical Event: CLARITY Act Roundtable (April 16)**",
-      "raw": "Upcoming Critical Event: CLARITY Act Roundtable (April 16)**\n\nTomorrow's SEC roundtable on the CLARITY Act is the most significant near-term catalyst[2]. The Senate Banking Committee has targeted late April for a markup that would make XRP's commodity status permanent[2]. Should this pass, banks would gain legal cover to use XRP in Ripple's cross-border payment network, potentially unlocking insti",
+      "headline": "Rakuten Integrates XRP into Payment System with 44 Million Users | YES | HIGH confidence**",
+      "raw": "Rakuten Integrates XRP into Payment System with 44 Million Users | YES | HIGH confidence**\n\nRakuten Wallet integrated XRP into its Rakuten Pay system on April 14, enabling 44 million users to convert XRP into loyalty points.[1] This mainstream retail utility integration signals significant real-world adoption momentum.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -117,146 +171,109 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_709072",
-      "timestamp": "2026-04-15T16:02:12.803001+00:00",
+      "id": "sig_900682",
+      "timestamp": "2026-04-15T16:05:24.412983+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you've requested based on these search results",
-      "raw": "I cannot provide the breaking news you've requested based on these search results. The most recent information available is from early April 2026, which is over a week old relative to your query time of April 15, 2026, 4 PM UTC.\n\nThe search results contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_709104",
-      "timestamp": "2026-04-15T16:02:12.834081+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**South Korea inflation data** through March 2026 (2",
-      "raw": "**South Korea inflation data** through March 2026 (2.2% annual rate)[1]",
-      "direction": null,
+      "headline": "Spot XRP ETF Inflows Hit $119",
+      "raw": "Spot XRP ETF Inflows Hit $119.6 Million\u2014Strongest Since December 2025 | YES | HIGH confidence**\n\nU.S. spot XRP ETFs attracted $119.6 million in inflows on April 14, marking the strongest single-day intake in four months and demonstrating renewed institutional demand.[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "XRP Up or Down - April 16, 7:20AM-7:25AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_709131",
-      "timestamp": "2026-04-15T16:02:12.861244+00:00",
+      "id": "sig_900730",
+      "timestamp": "2026-04-15T16:05:24.460762+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Federal Reserve discussions** from March FOMC minutes regarding potential rate hikes amid Middle East tensions[2]",
-      "raw": "**Federal Reserve discussions** from March FOMC minutes regarding potential rate hikes amid Middle East tensions[2]",
+      "headline": "Note:** Source [3] makes unverified claims about China purchasing $40 billion in XRP and extreme price predictions ($37",
+      "raw": "Note:** Source [3] makes unverified claims about China purchasing $40 billion in XRP and extreme price predictions ($37.92+) lacking credible supporting evidence and should not influence prediction market decisions.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_709216",
-      "timestamp": "2026-04-15T16:02:12.946983+00:00",
+      "id": "sig_871684",
+      "timestamp": "2026-04-15T16:04:55.414057+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Market volatility** related to Trump administration's Federal Reserve Chair nomination (timing unclear, but appears re",
-      "raw": "**Market volatility** related to Trump administration's Federal Reserve Chair nomination (timing unclear, but appears recent)[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_709353",
-      "timestamp": "2026-04-15T16:02:13.083397+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Historical KOSPI data** from July 2024[4]",
-      "raw": "**Historical KOSPI data** from July 2024[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_709387",
-      "timestamp": "2026-04-15T16:02:13.117272+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No information about Kevin Warsh** appears in these results, and there is no current breaking news confirmed as of April",
-      "raw": "No information about Kevin Warsh** appears in these results, and there is no current breaking news confirmed as of April 15, 2026.\n\nTo answer your query properly, I would need search results from today (April 15, 2026) or very recent hours that specifically address:",
+      "headline": "**Details**: Vice President **JD Vance** stated post-White House meeting that the US is \"headed to a shutdown\" as Trump",
+      "raw": "**Details**: Vice President **JD Vance** stated post-White House meeting that the US is \"headed to a shutdown\" as Trump Republicans and Democrats clashed over funding extensions, health benefits, and timelines\u2014Democrats want 7-10 days, Republicans to Nov 21; no progress, with shutdown possible as soon as Wednesday[2].",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_709414",
-      "timestamp": "2026-04-15T16:02:13.144127+00:00",
+      "id": "sig_900660",
+      "timestamp": "2026-04-15T16:05:24.390505+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any Federal Reserve Chair announcements or confirmations involving Kevin Warsh",
-      "raw": "Any Federal Reserve Chair announcements or confirmations involving Kevin Warsh",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_709439",
-      "timestamp": "2026-04-15T16:02:13.169958+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Today's market movements",
-      "raw": "Today's market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_709467",
-      "timestamp": "2026-04-15T16:02:13.197209+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent policy decisions or statements that would impact prediction markets",
-      "raw": "Recent policy decisions or statements that would impact prediction markets\n\nI recommend searching for real-time financial news sources or Fed announcements from today for this information.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_698110",
-      "timestamp": "2026-04-15T16:02:01.840794+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Clarifies Rules for Crypto Interfaces** | YES | HIGH confidence",
-      "raw": "SEC Clarifies Rules for Crypto Interfaces** | YES | HIGH confidence\n\nThe SEC issued roundtable guidance today that clarified rules for crypto interfaces, potentially benefiting XRPL's native DEX[1]. This regulatory clarity could facilitate institutional adoption of XRP-based trading infrastructure.",
+      "headline": "SEC Clarifies Crypto Interface Rules, Potentially Benefiting XRPL's Native DEX | YES | HIGH confidence**",
+      "raw": "SEC Clarifies Crypto Interface Rules, Potentially Benefiting XRPL's Native DEX | YES | HIGH confidence**\n\nThe SEC released roundtable guidance today clarifying rules for crypto interfaces, which could directly benefit the XRP Ledger's native decentralized exchange.[1] This regulatory clarity represents a tangible positive development for the ecosystem.",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_900713",
+      "timestamp": "2026-04-15T16:05:24.443680+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Achieves Technical Breakout Watch Setup | YES | MEDIUM confidence**",
+      "raw": "XRP Achieves Technical Breakout Watch Setup | YES | MEDIUM confidence**\n\nXRP is compressing in a symmetrical triangle with the daily MACD turning bullish.[1] A close above the 50-day moving average at $1.3792 could target $1.5625, creating a key technical inflection point.[1]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_906991",
+      "timestamp": "2026-04-15T16:05:30.721152+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Appointed New Federal Reserve Chairman | YES | HIGH confidence**",
+      "raw": "Kevin Warsh Appointed New Federal Reserve Chairman | YES | HIGH confidence**  \nRecent reports confirm Kevin Warsh's appointment as Fed Chair, succeeding Jerome Powell, signaling a potential shift toward rate cuts, AI-driven productivity emphasis, and a new inflation framework blaming fiscal mismanagement over economic overheating[2][3][4]. This could move prediction markets on Fed policy, with exp",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_907012",
+      "timestamp": "2026-04-15T16:05:30.742557+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed March Minutes Confirm Rate Hike Discussions if Inflation Exceeds 2% | YES | MED confidence**",
+      "raw": "Fed March Minutes Confirm Rate Hike Discussions if Inflation Exceeds 2% | YES | MED confidence**  \nMarch FOMC minutes revealed some members advocating raising the target rate if inflation surpasses 2%, linked to Middle East war-driven energy prices and record $36.55B foreign capital outflow from South Korea (KRW down 4.3%)[1]. CME FedWatch shows 98.4% chance of April hold, but this hawkish signal ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 16,
-    "watch": 1,
-    "high_conf": 2
+    "alert": 13,
+    "watch": 5,
+    "high_conf": 4
   }
 }
