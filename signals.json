@@ -1,164 +1,115 @@
 {
-  "last_scan": "2026-04-16T21:57:43.060872+00:00",
-  "scan_seconds": 26.6,
-  "markets_scanned": 82,
-  "open_positions": 40,
+  "last_scan": "2026-04-16T22:00:34.571642+00:00",
+  "scan_seconds": 26.0,
+  "markets_scanned": 80,
+  "open_positions": 35,
   "signals": [
     {
-      "id": "sig_423283",
-      "timestamp": "2026-04-16T21:57:26.905623+00:00",
+      "id": "sig_596841",
+      "timestamp": "2026-04-16T22:00:20.463404+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results (which cover through April 13, 2026), I cannot provide breaking news from April 16",
-      "raw": "Based on the available search results (which cover through April 13, 2026), I cannot provide breaking news from April 16, 2026, as the search results do not contain information from today's date.\n\nThe most recent confirmed developments from the search results are:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_433876",
-      "timestamp": "2026-04-16T21:57:37.498640+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major XRP-Rakuten Partnership Announced \u2013 Billions in Potential | YES | MED confidence**[1]",
-      "raw": "Major XRP-Rakuten Partnership Announced \u2013 Billions in Potential | YES | MED confidence**[1]",
+      "headline": "Oregon GOP Gubernatorial Debate Confirmed: Top Candidates Including Chris Dudley Set for Thursday in Hillsboro** | **YES",
+      "raw": "Oregon GOP Gubernatorial Debate Confirmed: Top Candidates Including Chris Dudley Set for Thursday in Hillsboro** | **YES** | **MED** confidence[3].  \nChris Dudley, a leading Republican candidate challenging incumbent Democrat Tina Kotek in the May 19 primary, will join Danielle Bethell, Ed Diehl, and Christine Drazan for the event, amid voter frustration over crime, homelessness, and costs[1][3]. ",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_423289",
-      "timestamp": "2026-04-16T21:57:26.911954+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Rejects US Uranium Enrichment Proposal | NO | HIGH confidence**",
-      "raw": "Iran Rejects US Uranium Enrichment Proposal | NO | HIGH confidence**\nIran rejected a US proposal to pause uranium enrichment for 20 years in exchange for unfreezing some Iranian assets and ending sanctions.[7]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_423295",
-      "timestamp": "2026-04-16T21:57:26.917742+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire Stalemate Over Strait of Hormuz | STALLED | HIGH confidence**",
-      "raw": "Ceasefire Stalemate Over Strait of Hormuz | STALLED | HIGH confidence**\nNegotiations reached a \"stalemate\" with the Strait of Hormuz status as the main sticking point.[1] Russia and China vetoed a UN resolution on reopening the Strait of Hormuz.[6]",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [
-        "Strait of Hormuz traffic returns to normal by end of April?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_423301",
-      "timestamp": "2026-04-16T21:57:26.923744+00:00",
+      "id": "sig_609948",
+      "timestamp": "2026-04-16T22:00:33.570676+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Military Escalation Since April 8 | HOLDING | HIGH confidence**",
-      "raw": "No Military Escalation Since April 8 | HOLDING | HIGH confidence**\nIran, the United States, and Israel have not exchanged direct fire since April 8, though Gulf states continue reporting drone attacks against them.[8]\n\nTo provide accurate breaking news predictions for today (April 16), I would need search results with current information from this date. I recommend searching for the latest develop",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_433865",
-      "timestamp": "2026-04-16T21:57:37.487809+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Goldman Sachs Applies for Bitcoin ETF | YES | HIGH confidence**[1]",
-      "raw": "Goldman Sachs Applies for Bitcoin ETF | YES | HIGH confidence**[1]",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results provided do not contain informa",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results provided do not contain information dated April 16, 2026 (today). The most recent data in the search results is from March 2026, which is already several weeks old.\n\nThe latest confirmed information available is that **South Korea's annual inflation rose to 2.2% in March 2026**, up from 2.0% in February[1][2].",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_433871",
-      "timestamp": "2026-04-16T21:57:37.493151+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tether Announces Significant Bitcoin Purchase | YES | HIGH confidence**[1]",
-      "raw": "Tether Announces Significant Bitcoin Purchase | YES | HIGH confidence**[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_433881",
-      "timestamp": "2026-04-16T21:57:37.503899+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade | YES | HIGH confidence**[2]",
-      "raw": "Solana Hits Record 167M Monthly Token Holders Amid Alpenglow Upgrade | YES | HIGH confidence**[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_433887",
-      "timestamp": "2026-04-16T21:57:37.509105+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches SOL Trading for Europeans | YES | MED confidence**[4]",
-      "raw": "Interactive Brokers Launches SOL Trading for Europeans | YES | MED confidence**[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_433892",
-      "timestamp": "2026-04-16T21:57:37.514538+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Chairman Confirms XRP Reclassification & Regulatory Shift | YES | HIGH confidence**[4]",
-      "raw": "SEC Chairman Confirms XRP Reclassification & Regulatory Shift | YES | HIGH confidence**[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_438437",
-      "timestamp": "2026-04-16T21:57:42.059594+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's headline CPI inflation steady at 2",
-      "raw": "South Korea's headline CPI inflation steady at 2.0% YoY in February 2026, but core inflation rose to 2.3% and upside risks sharpened due to oil prices and KRW weakness\u2014forecast raised to 2.2% for 2026 | NO | HIGH confidence** [1][2]\n\nNo breaking announcements today (April 16, 2026) confirm, resolve, or newly alter annual inflation trajectories in a way that would shift prediction markets; the Febr",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_602796",
+      "timestamp": "2026-04-16T22:00:26.418920+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Spot Solana ETFs See $5",
+      "raw": "US Spot Solana ETFs See $5.04M Net Inflows on April 16 | YES | HIGH confidence**  \nFollows $5.36M prior day; cumulative SOL ETF assets at $835M, reflecting institutional demand amid strong DeFi volume ($57B in March).[1][8]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_591622",
+      "timestamp": "2026-04-16T22:00:15.244735+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (directly from real-time Polymarket odds and lack of resolution triggers in sources[1][2][3][4])",
+      "raw": "Confidence: HIGH** (directly from real-time Polymarket odds and lack of resolution triggers in sources[1][2][3][4]).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_602780",
+      "timestamp": "2026-04-16T22:00:26.402622+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Signals Resumption of Peace Talks with US, Triggering Crypto Surge | YES | HIGH confidence**",
+      "raw": "Iran Signals Resumption of Peace Talks with US, Triggering Crypto Surge | YES | HIGH confidence**  \nBitcoin broke above $75,000 (up 5.9%), XRP hit $1.38 (up 4.2%), and Solana rose 6.3% to $86.55 amid a broad market rally following Iran's peace talk signal, easing Middle East war pressures.[1][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_602786",
+      "timestamp": "2026-04-16T22:00:26.408173+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Records Largest Weekly ETF Inflows ($119",
+      "raw": "XRP Records Largest Weekly ETF Inflows ($119.6M), Outpacing Bitcoin and Solana | YES | HIGH confidence**  \nXRP led digital asset inflows last week at $119.6M (strongest since Dec 2025), with YTD at 7% of AUM; Solana third at $34.9M (YTD 10% AUM), signaling institutional shift.[3][6] US XRP ETFs saw $12M April inflows after March outflows.[6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $74,000 on April 19?",
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_602791",
+      "timestamp": "2026-04-16T22:00:26.413733+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Teases XRP Integration via Cryptic X Post | YES | MED confidence**",
+      "raw": "Solana Teases XRP Integration via Cryptic X Post | YES | MED confidence**  \nSolana's X post fueled speculation, with RippleX responding; wrapped XRP expanding DeFi on Solana (via Hex Trust), alongside Solana powering X cash tags.[4][7][8] XRP hit $1.39 on the buzz.[7]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
     "high_conf": 2
   }
