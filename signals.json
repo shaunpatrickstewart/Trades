@@ -1,90 +1,58 @@
 {
-  "last_scan": "2026-04-16T23:14:07.838060+00:00",
-  "scan_seconds": 23.7,
+  "last_scan": "2026-04-16T23:16:54.630230+00:00",
+  "scan_seconds": 22.6,
   "markets_scanned": 79,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_7222",
-      "timestamp": "2026-04-16T23:13:50.839704+00:00",
+      "id": "sig_175730",
+      "timestamp": "2026-04-16T23:16:39.347097+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**\n\nRussia welcomed the initial US-Israel-Iran two-week ceasefire announced around April 8-10 (expiring ~April 21-22), with Kremlin spokesman Peskov and FM Lavrov expressing support for de-escalation and talks.[1][2][4] White House Press Secretary Leavitt denied any extension on April 15, stating optimism for a deal via Pakistan talks, while Trump claimed the war is ",
+      "headline": "Impact on prediction markets: LOW confidence in any shift, as no fresh confirmations; prior ceasefire reactions already",
+      "raw": "Impact on prediction markets: LOW confidence in any shift, as no fresh confirmations; prior ceasefire reactions already priced in.**[1][2][5]",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Will the White House call a full lid by 6:30PM on April 14?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_16340",
-      "timestamp": "2026-04-16T23:13:59.957445+00:00",
+      "id": "sig_180357",
+      "timestamp": "2026-04-16T23:16:43.974354+00:00",
       "source": "PERPLEXITY",
-      "headline": "Alpenglow Consensus Upgrade Progress Confirmed for Solana | YES | HIGH confidence**",
-      "raw": "Alpenglow Consensus Upgrade Progress Confirmed for Solana | YES | HIGH confidence**  \nSolana's upgrade to reduce transaction finality from 12 seconds to 150 milliseconds is advancing alongside Firedancer validator developments, driving performance surges and institutional interest from BlackRock and Fidelity's SOL ETF holdings[1].  \nNo breaking confirmations, announcements, or resolutions for Ethe",
+      "headline": "California GOP Convention Declines to Endorse Trump's Preferred Candidate in Governor Race** | NO | HIGH confidence[1][2",
+      "raw": "California GOP Convention Declines to Endorse Trump's Preferred Candidate in Governor Race** | NO | HIGH confidence[1][2]\n\nThe California Republican Party convention in San Diego ended on April 12, 2026, without endorsing either top contender in the June primary for governor: Sheriff Chad Bianco received 49% of delegate votes, Steve Hilton (endorsed by President Trump) got 44%, and neither hit the",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET"
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_23214",
-      "timestamp": "2026-04-16T23:14:06.831404+00:00",
+      "id": "sig_190011",
+      "timestamp": "2026-04-16T23:16:53.628905+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news from today (April 16, 2026) in the provided search results",
-      "raw": "I cannot identify breaking news from today (April 16, 2026) in the provided search results. The most recent data available is from **March 2026**, which showed South Korea's annual inflation rose to **2.2% year-on-year**, up from 2.0% in February but below the 2.4% market consensus[1][2].\n\nThe March report confirmed that **government measures (fuel price caps and food vouchers) successfully contai",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | YES | HIGH confidence** [1]\n\nThis March figure, released around early April 2026 per source timing, marks the latest confirmed data amid Middle East-driven oil shocks pushing import prices up sharply\u2014the steepest in nearly three decades\u2014potentially sustaining inflation above the Bank ",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.6,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_16334",
-      "timestamp": "2026-04-16T23:13:59.951556+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Opens Solana Trading to European Investors | YES | MED confidence**",
-      "raw": "Interactive Brokers Opens Solana Trading to European Investors | YES | MED confidence**  \nThis recent expansion via Zero Hash provides direct SOL access on a major brokerage platform, coinciding with Solana's network milestone of 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026[1][2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_23219",
-      "timestamp": "2026-04-16T23:14:06.836990+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Why I cannot fulfill your request:** The search results do not include any announcements, confirmations, or resolutions",
-      "raw": "Why I cannot fulfill your request:** The search results do not include any announcements, confirmations, or resolutions from today. To provide the \"HEADLINE | YES or NO | confidence level\" format you've requested would require current breaking news from April 16, 2026, which is not present in these results.\n\nIf you're looking for today's specific economic announcement or market-moving news about S",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 3,
+    "enter": 0,
     "alert": 2,
-    "watch": 0,
-    "high_conf": 3
+    "watch": 1,
+    "high_conf": 1
   }
 }
