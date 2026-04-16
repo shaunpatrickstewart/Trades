@@ -57,8 +57,8 @@
     n = parseFloat(n) || 0;
     if (Math.abs(n) >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
     if (Math.abs(n) >= 1e3) return '$' + (n/1e3).toFixed(1) + 'K';
-    if (Math.abs(n) < 1)    return '$' + Math.abs(n).toFixed(2);
-    return '$' + Math.abs(n).toFixed(0);
+    if (Math.abs(n) < 1)    return (n<0?'-':'') + '$' + Math.abs(n).toFixed(2);
+    return (n<0?'-':'') + '$' + Math.abs(n).toFixed(0);
   }
   function days(s)  { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/86400000) }
   function hours(s) { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/3600000) }
@@ -354,18 +354,11 @@
       for (let i = settledByTime.length-1; i >= 0; i--) {
         if (settledByTime[i].status === 'WON') winStreak++; else break;
       }
-      const organicPnl = bankroll - (STARTING_BR + PAPER_TOPUP);
-
       // bot_stats.json: ONLY for daily_log chart (supplementary, never for financials)
-      let dailyLog = [], bsLastUpdated = null;
+      let dailyLog = [];
       try {
         const bs = await pf('https://shaunpatrickstewart.github.io/trades/bot_stats.json');
-        if (bs) {
-          if (bs.daily_log) dailyLog = bs.daily_log;
-          if (bs.last_updated) bsLastUpdated = bs.last_updated;
-          // bot_stats.bankroll is a cross-check only — never override JSONL-computed value.
-          // JSONL is ground truth (structural rule); bot_stats can lag or have drift.
-        }
+        if (bs && bs.daily_log) dailyLog = bs.daily_log;
       } catch(e) { /* chart unavailable, all other data still correct */ }
 
       // Post-filter PnL (Apr 5+) — the meaningful number
@@ -589,7 +582,7 @@
         html += '<table style="font-size:0.78em"><tr><th>Result</th><th>Market</th><th>Bet</th><th>P&L</th></tr>';
         recent.forEach(t=>{
           const isWon = t.status==='WON';
-          const q = (t.market||t.question||t.title||'Unknown market').slice(0,52);
+          const q = esc((t.market||t.question||t.title||'Unknown market').slice(0,52));
           html += '<tr>'+
             '<td><span class="badge '+(isWon?'by':'bn')+'">'+t.status+'</span></td>'+
             '<td style="max-width:180px">'+q+'</td>'+
@@ -986,7 +979,7 @@
         const bet = (t.paper_bet || 0).toFixed(0);
         const side = (t.outcome||'').toLowerCase() === 'yes' ? '▲ YES' : '▼ NO';
         const sideColor = (t.outcome||'').toLowerCase() === 'yes' ? '#00cc66' : '#ff8844';
-        const mkt = (t.market || '').slice(0, 42);
+        const mkt = esc((t.market || '').slice(0, 42));
         const daysLabel = t.days_left != null ? t.days_left+'d' : (t.end_date ? t.end_date.slice(5) : '—');
 
         signalHtml +=
@@ -1067,7 +1060,7 @@
         return '<tr class="paper-row" data-wallet="'+(t.wallet_owner||'shaun_poly')+'">'+
           '<td class="dim">'+(i+1)+'</td>'+
           '<td>'+engineLabel(t)+'</td>'+
-          '<td style="max-width:220px">'+(t.market||'').slice(0,55)+'</td>'+
+          '<td style="max-width:220px">'+esc((t.market||'').slice(0,55))+'</td>'+
           '<td>'+side+'</td>'+
           '<td class="dim">'+(t.entry_price||0).toFixed(3)+'</td>'+
           '<td>$'+(t.paper_bet||0).toFixed(0)+'</td>'+
@@ -1205,7 +1198,7 @@
         const dt = new Date(ed);
         if (!isNaN(dt) && dt < new Date()) {
           const days = Math.ceil((new Date()-dt)/86400000);
-          if (days >= 1) issues.push('Stale OPEN '+days+'d past end_date: '+(t.question||t.title||t.slug||'').substring(0,70));
+          if (days >= 1) issues.push('Stale OPEN '+days+'d past end_date: '+esc((t.question||t.title||t.slug||'').substring(0,70)));
         }
       });
       // 2. Duplicate OPEN positions (same slug, same side)
