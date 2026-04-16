@@ -1,74 +1,125 @@
 {
-  "last_scan": "2026-04-16T18:30:56.739368+00:00",
-  "scan_seconds": 29.9,
-  "markets_scanned": 84,
+  "last_scan": "2026-04-16T18:33:53.189013+00:00",
+  "scan_seconds": 30.3,
+  "markets_scanned": 85,
   "open_positions": 43,
   "signals": [
     {
-      "id": "sig_27538",
-      "timestamp": "2026-04-16T18:30:51.172109+00:00",
+      "id": "sig_194616",
+      "timestamp": "2026-04-16T18:33:38.250931+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Monthly Token Holders; Alpenglow Upgrade Targets 150ms Finality | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Monthly Token Holders; Alpenglow Upgrade Targets 150ms Finality | YES | HIGH confidence**\n\nAs of April 14, 2026, Solana achieved an **all-time record of 167 million monthly token holders** with daily non-vote transactions reaching historic highs of 148 million.[1] The highly anticipated **Alpenglow consensus upgrade has been confirmed**, aiming to slash transaction finality",
+      "headline": "Trump Suspends US Bombing Campaign on Iran After GOP Backlash and Pakistani Talks | YES | HIGH confidence**",
+      "raw": "Trump Suspends US Bombing Campaign on Iran After GOP Backlash and Pakistani Talks | YES | HIGH confidence**  \nPresident Trump announced the suspension of the US bombing campaign against Iran, confirming a two-week ceasefire following a 10-point proposal from Iran deemed workable for negotiations[1].  \nThis reversal came after Trump's threat to \"obliterate\" Iran's infrastructure\u2014including energy si",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_27530",
-      "timestamp": "2026-04-16T18:30:51.164742+00:00",
+      "id": "sig_208553",
+      "timestamp": "2026-04-16T18:33:52.187772+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here is the breaking news from April 2026:",
-      "raw": "Based on the search results provided, here is the breaking news from April 2026:",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Inflation Pressures and AI Productivity Debate | NO | LOW confidence*",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Inflation Pressures and AI Productivity Debate | NO | LOW confidence**\n\nPresident Trump announced Kevin Warsh, a former Fed governor and Hoover Institution fellow, as his nominee to replace Fed Chair Jerome Powell, whose term ends in May 2026[3][5]. Warsh criticizes Powell's inflation record, calling it \"unwise choices\" driven by excessive governm",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_189852",
+      "timestamp": "2026-04-16T18:33:33.486245+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a breaking news update in the format you've requested based on these search results",
+      "raw": "I cannot provide a breaking news update in the format you've requested based on these search results.\n\nThe search results are from April 8-14, 2026, which are several days old relative to the current date of April 16, 2026. The most recent substantive information indicates that U.S.-Iran talks were planned for April 16[6], but the search results do not contain confirmed outcomes from today's discu",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_189870",
+      "timestamp": "2026-04-16T18:33:33.504553+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Planned Talks**: New negotiations were scheduled for April 16[6]",
+      "raw": "**Planned Talks**: New negotiations were scheduled for April 16[6]\n\nTo provide accurate breaking news with prediction market implications, I would need current search results from today that confirm whether the April 16 talks occurred, what outcomes were announced, or what new developments have emerged. Without that information, I cannot responsibly generate the headline-format summary you've requ",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_27543",
-      "timestamp": "2026-04-16T18:30:51.177828+00:00",
+      "id": "sig_189858",
+      "timestamp": "2026-04-16T18:33:33.492265+00:00",
       "source": "PERPLEXITY",
-      "headline": "Note:** The search results do not contain information about XRP breaking news for April 2026",
-      "raw": "Note:** The search results do not contain information about XRP breaking news for April 2026.",
+      "headline": "**April 12**: U",
+      "raw": "**April 12**: U.S.-Iran negotiations in Pakistan collapsed after 21 hours without a deal, with Iran's nuclear program remaining the central disagreement[3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of XRP be above $0.90 on April 21?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_18694",
-      "timestamp": "2026-04-16T18:30:42.328958+00:00",
+      "id": "sig_189863",
+      "timestamp": "2026-04-16T18:33:33.497815+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Issues 48-Hour Ultimatum to Iran on Strait of Hormuz, Threatens 'All Hell' and 'Obliteration' with 'Glory Be to Go",
-      "raw": "Trump Issues 48-Hour Ultimatum to Iran on Strait of Hormuz, Threatens 'All Hell' and 'Obliteration' with 'Glory Be to God' | YES | HIGH confidence**  \nTrump posted on Truth Social demanding Iran reopen the Strait of Hormuz within 48 hours or face massive retaliation, signaling potential escalation amid perceived U.S. strategic setbacks[1].  \nJD Vance faced heckling from Turning Point USA members o",
+      "headline": "**Ceasefire Status**: The original two-week ceasefire was set to expire April 21, with discussions about potential exten",
+      "raw": "**Ceasefire Status**: The original two-week ceasefire was set to expire April 21, with discussions about potential extension[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_201468",
+      "timestamp": "2026-04-16T18:33:45.102349+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC CLARITY Act Roundtable Scheduled for April 16, Boosting XRP and Solana Sentiment Ahead of Potential Regulatory Clari",
+      "raw": "SEC CLARITY Act Roundtable Scheduled for April 16, Boosting XRP and Solana Sentiment Ahead of Potential Regulatory Clarity | NO | MED confidence**  \nXRP and Solana prices steadied or gained modestly (XRP near $1.39\u2013$1.43 up 0.66\u20132.71%; Solana at $83.43 up 1.12%) ahead of today's U.S. SEC-led roundtable on the CLARITY Act, with hopes for crypto regulatory progress driving whale accumulation and mar",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces end of military operations against Iran by A",
-        "Strait of Hormuz traffic returns to normal by end of April?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 2,
+    "alert": 4,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 4
   }
 }
