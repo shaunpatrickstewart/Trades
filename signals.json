@@ -1,127 +1,64 @@
 {
-  "last_scan": "2026-04-16T06:41:59.158598+00:00",
-  "scan_seconds": 23.3,
+  "last_scan": "2026-04-16T06:44:47.440217+00:00",
+  "scan_seconds": 27.9,
   "markets_scanned": 133,
   "open_positions": 86,
   "signals": [
     {
-      "id": "sig_485277",
-      "timestamp": "2026-04-16T06:41:48.954124+00:00",
+      "id": "sig_662762",
+      "timestamp": "2026-04-16T06:44:46.439210+00:00",
       "source": "PERPLEXITY",
-      "headline": "The search results provided do not contain information about any breaking news involving obliteration, the White House b",
-      "raw": "The search results provided do not contain information about any breaking news involving obliteration, the White House being obliterated, or any confirmed announcements that would move prediction markets.[1][2]\n\nThe available search results only cover Ed Davey's demand that King Charles cancel his planned US state visit due to tensions over Iran and Trump's actions. There is no reporting of any su",
-      "direction": "NO",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about what has been \"just confirmed, announced, or resolved\" today (April 16, 2026) that would move prediction markets.\n\nThe most recent information in the search results is from April 14, 2026, which reports that Kevin Warsh's Senate Banking Committee hearing is scheduled for **Apri",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_494480",
-      "timestamp": "2026-04-16T06:41:58.157407+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump nominates Kevin Warsh as next Fed Chair amid surging US inflation and rate hike speculation | NO | HIGH confidence",
-      "raw": "Trump nominates Kevin Warsh as next Fed Chair amid surging US inflation and rate hike speculation | NO | HIGH confidence**\n\nKevin Warsh, former Fed Governor, has been nominated by President Trump to replace Jerome Powell as Fed Chair, sparking debates on Fed independence, monetary dominance, and potential rate hikes as his first move.[1][2][3][4] Recent Fed meeting left rates at 3.50-3.75% with pr",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_478541",
-      "timestamp": "2026-04-16T06:41:42.218634+00:00",
+      "id": "sig_650513",
+      "timestamp": "2026-04-16T06:44:34.190987+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russian and Turkish FMs confirm readiness to support peaceful resolution of U",
-      "raw": "Russian and Turkish FMs confirm readiness to support peaceful resolution of U.S.-Israeli attack on Iran crisis | YES | HIGH confidence**[1]",
+      "headline": "White House Confirms Iran's Nuclear Facilities Obliterated in Precision Strikes; Operation Epic Fury Achieves Ceasefire",
+      "raw": "White House Confirms Iran's Nuclear Facilities Obliterated in Precision Strikes; Operation Epic Fury Achieves Ceasefire with Iran** | **YES** | **HIGH** confidence[1][2][3]\n\nThe White House released an official statement asserting President Trump's precision strikes \"obliterated\" Iran's key nuclear facilities, including the deeply buried Fordow site, with quotes from VP **JD Vance** confirming sub",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_478551",
-      "timestamp": "2026-04-16T06:41:42.228277+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump states Iran war 'very close to over' as truce talks advance | YES | MED confidence**[3]",
-      "raw": "Trump states Iran war 'very close to over' as truce talks advance | YES | MED confidence**[3]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_478560",
-      "timestamp": "2026-04-16T06:41:42.237809+00:00",
+      "id": "sig_642488",
+      "timestamp": "2026-04-16T06:44:26.165814+00:00",
       "source": "PERPLEXITY",
-      "headline": "Zelenskyy discusses Ukraine peace talks and Istanbul venue with Turkish FM amid Ukraine developments | YES | HIGH confid",
-      "raw": "Zelenskyy discusses Ukraine peace talks and Istanbul venue with Turkish FM amid Ukraine developments | YES | HIGH confidence**[1][4]",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Hormuz Tensions | YES | HIGH confidence**[1]",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Hormuz Tensions | YES | HIGH confidence**[1]\n\nRussia's Kremlin spokesman Dmitry Peskov confirmed on April 8, 2026, that Moscow welcomes the US, Israel, and Iran ceasefire agreement announced Wednesday (April 7), stressing de-escalation and diplomacy over military action, while noting persistent airstrikes and suspended Strait of ",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_489464",
-      "timestamp": "2026-04-16T06:41:53.141553+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches Solana (SOL) Trading for European Investors | YES | HIGH confidence** [3]",
-      "raw": "Interactive Brokers Launches Solana (SOL) Trading for European Investors | YES | HIGH confidence** [3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_489474",
-      "timestamp": "2026-04-16T06:41:53.151036+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Spot ETFs Report $117",
-      "raw": "Bitcoin Spot ETFs Report $117.63M Inflows Amid Market Recovery to $68,539 | YES | MED confidence** [1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_489483",
-      "timestamp": "2026-04-16T06:41:53.160581+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Maintains 7th Consecutive Month Leading DEX Volume at $57B in March | YES | HIGH confidence** [1]",
-      "raw": "Solana Maintains 7th Consecutive Month Leading DEX Volume at $57B in March | YES | HIGH confidence** [1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
-    "watch": 0,
+    "enter": 0,
+    "alert": 2,
+    "watch": 1,
     "high_conf": 1
   }
 }
