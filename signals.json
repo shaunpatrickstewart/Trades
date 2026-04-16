@@ -1,117 +1,129 @@
 {
-  "last_scan": "2026-04-16T15:59:30.469461+00:00",
-  "scan_seconds": 24.5,
+  "last_scan": "2026-04-16T16:02:20.003568+00:00",
+  "scan_seconds": 30.1,
   "markets_scanned": 81,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_940909",
-      "timestamp": "2026-04-16T15:59:24.553498+00:00",
+      "id": "sig_115337",
+      "timestamp": "2026-04-16T16:02:18.980719+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Declares Solana NOT a Security | YES | LOW confidence**",
-      "raw": "SEC Declares Solana NOT a Security | YES | LOW confidence**  \nA YouTube video dated March 19, 2026, claims the SEC has officially declared Solana (SOL) not a security, described as a \"major win\" for SOL and crypto that could boost prices and resolve regulatory uncertainty, potentially moving prediction markets on SOL's status or price targets[8]. No corroboration appears in other sources, which fo",
+      "headline": "Kevin Warsh Nominated as Next Fed Chair Amid Surging US Core Inflation (3",
+      "raw": "Kevin Warsh Nominated as Next Fed Chair Amid Surging US Core Inflation (3.9% Annual, Raising 3-Month PCE to 4.56%) and Fed Rate Pause at 3.50-3.75%; South Korea March CPI Confirmed at 2.2% YoY (Up from 2.0%, Below 2.4% Expected)** | YES | HIGH",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Will Bitcoin reach $78,000 April 13-19?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_108871",
+      "timestamp": "2026-04-16T16:02:12.514484+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin** eyes $80K potential to boost SOL toward $100, per analysts, though no fresh surge or announcement is confirmed",
+      "raw": "Bitcoin** eyes $80K potential to boost SOL toward $100, per analysts, though no fresh surge or announcement is confirmed right now.[3]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_935788",
-      "timestamp": "2026-04-16T15:59:19.432115+00:00",
+      "id": "sig_108876",
+      "timestamp": "2026-04-16T16:02:12.519952+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles' White House visit in doubt amid US-UK tensions post-Iran war | NO | HIGH confidence**",
-      "raw": "King Charles' White House visit in doubt amid US-UK tensions post-Iran war | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions today link Trump, King Charles, or \"obliteration\"/\"obliterated\" (possibly alluding to White House East Wing demolition) in a way that would move prediction markets; reports from March 19-28, 2026, indicate ongoing doubts and a court halt on ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_935793",
-      "timestamp": "2026-04-16T15:59:19.437844+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Key developments (not today):**",
-      "raw": "Key developments (not today):**",
+      "headline": "Confidence: LOW** \u2013 Search results lack any \"just confirmed\" events (e",
+      "raw": "Confidence: LOW** \u2013 Search results lack any \"just confirmed\" events (e.g., upgrades, ETF approvals, or resolutions) post-April 14; focus remains on ongoing technicals and prior data without market-moving developments today.[1][2][3][4][5][6]",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_935799",
-      "timestamp": "2026-04-16T15:59:19.443569+00:00",
+      "id": "sig_115354",
+      "timestamp": "2026-04-16T16:02:18.997266+00:00",
       "source": "PERPLEXITY",
-      "headline": "UK Labour Minister Emily Thornberry suggested delaying King Charles' spring 2026 DC visit for the US 250th independence",
-      "raw": "UK Labour Minister Emily Thornberry suggested delaying King Charles' spring 2026 DC visit for the US 250th independence anniversary due to fractured US-UK ties after the Iran war and Trump's criticism of PM Starmer.[1]",
+      "headline": "**South Korea Annual Inflation Update**: March 2026 CPI confirmed at 2",
+      "raw": "**South Korea Annual Inflation Update**: March 2026 CPI confirmed at 2.2% YoY (from 2.0% Feb, vs 2.4% forecast), core at 2.2%; Polymarket odds cluster mid-2% bins (24-28%) for full-year 2026, ahead of April data and May BoK meeting; IMF/AMRO forecast 2.3-2.5% amid won weakness[1][6].",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_935805",
-      "timestamp": "2026-04-16T15:59:19.449166+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Reform UK's Richard Tice urged proceeding to mend relations",
-      "raw": "Reform UK's Richard Tice urged proceeding to mend relations.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_935810",
-      "timestamp": "2026-04-16T15:59:19.454820+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Federal judge ruled Trump lacks authority for the ballroom on demolished East Wing site (originally 1902/1942), warning",
-      "raw": "Federal judge ruled Trump lacks authority for the ballroom on demolished East Wing site (originally 1902/1942), warning of takedown risk; Trump called challengers \"Radical Left Lunatics\" without confirming appeal.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_945824",
-      "timestamp": "2026-04-16T15:59:29.468800+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady at 4",
-      "raw": "Fed Holds Rates Steady at 4.25-4.5%, Signals Caution on Inflation; Impacts South Korea's Policy Options | NO | HIGH confidence**\n\nThe U.S. Federal Reserve kept its benchmark interest rate unchanged after its latest FOMC meeting, with Chair Jerome Powell emphasizing no urgency for adjustments due to somewhat elevated inflation and solid economic growth; this pauses cuts from late 2024 and removes l",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_115359",
+      "timestamp": "2026-04-16T16:02:19.002798+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Prediction Market Impact**: Warsh nomination + confirmed CPI/inflation data shift Fed hike odds and SK inflation bins,",
+      "raw": "**Prediction Market Impact**: Warsh nomination + confirmed CPI/inflation data shift Fed hike odds and SK inflation bins, moving rate cut probabilities near zero and tightening SK mid-2% contestation[1][2].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_102503",
+      "timestamp": "2026-04-16T16:02:06.146849+00:00",
+      "source": "PERPLEXITY",
+      "headline": "King Charles III State Visit to White House Confirmed: Multiple Meetings with Trump Scheduled for April 27-30 Amid Iran",
+      "raw": "King Charles III State Visit to White House Confirmed: Multiple Meetings with Trump Scheduled for April 27-30 Amid Iran War Tensions | YES | HIGH confidence**  \nBritish officials announced plans Tuesday for King Charles III's state visit to the US, including at least five meetings with President Trump\u2014such as an Oval Office bilateral and state dinner toasts\u2014emphasizing people-to-people ties over g",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_115343",
+      "timestamp": "2026-04-16T16:02:18.986385+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Fed Chair Transition**: Kevin Warsh, former Fed Governor, nominated to succeed Jerome Powell, potentially ushering in",
+      "raw": "**Fed Chair Transition**: Kevin Warsh, former Fed Governor, nominated to succeed Jerome Powell, potentially ushering in a more inflation-focused policy; markets now price ~20% chance of rate hike by Dec 2026 per JPMorgan, with Fed holding rates steady and dot plot showing split (7 expect no cuts, 5 expect two)[2][3][5].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_115348",
+      "timestamp": "2026-04-16T16:02:18.991813+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**US Inflation Surge**: Annual core rate hit 3",
+      "raw": "**US Inflation Surge**: Annual core rate hit 3.9% (pre-oil shock), doubling Fed's 2% target on PCE basis; energy costs and oil shocks amplify pressures, with forecasts at 3.2-4% by end-2026[2][3][4][6].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 7,
+    "watch": 0,
+    "high_conf": 5
   }
 }
