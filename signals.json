@@ -1,30 +1,73 @@
 {
-  "last_scan": "2026-04-16T01:36:12.184498+00:00",
-  "scan_seconds": 26.3,
-  "markets_scanned": 80,
+  "last_scan": "2026-04-16T01:38:54.338720+00:00",
+  "scan_seconds": 24.7,
+  "markets_scanned": 76,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_129617",
-      "timestamp": "2026-04-16T01:35:53.312748+00:00",
+      "id": "sig_309642",
+      "timestamp": "2026-04-16T01:38:53.337968+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Israel, and Iran Announce Two-Week Ceasefire in Middle East Conflict | YES | HIGH confidence**",
-      "raw": "US, Israel, and Iran Announce Two-Week Ceasefire in Middle East Conflict | YES | HIGH confidence**  \nA two-week ceasefire between the United States, Israel, and Iran was announced on April 8-9, 2026, halting escalation after U.S.-Israeli strikes and Iranian retaliation, with Russia welcoming the deal and expressing hope for successful U.S.-Iran negotiations.[1][2][3]  \nRussian FM Sergei Lavrov voi",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation Pressures and Rate Hike Speculation | YES | HIGH co",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation Pressures and Rate Hike Speculation | YES | HIGH confidence** [1][2][3][4][5][6]\n\nPresident Trump has announced his intention to nominate Kevin Warsh, former Fed Governor known for hawkish views, to replace Jerome Powell as Fed Chair, with Powell's term nearing its end after the Fed's recent policy meeting left rates at 3.50-3.75",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_299204",
+      "timestamp": "2026-04-16T01:38:42.899956+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time checks across major sources (AP, Reuters, BBC, Fox News, NYT) show zero hits for fresh stories tying these ele",
+      "raw": "Real-time checks across major sources (AP, Reuters, BBC, Fox News, NYT) show zero hits for fresh stories tying these elements in April 2026.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_299212",
+      "timestamp": "2026-04-16T01:38:42.907414+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\"Obliterated\" phrasing suggests a major defeat (e",
+      "raw": "\"Obliterated\" phrasing suggests a major defeat (e.g., election, legal), but latest Trump-related updates are routine: his 2024 win solidified GOP control, no new April crises; King Charles health rumors persist but unconfirmed (last NHS report March 2026 stable).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_299218",
+      "timestamp": "2026-04-16T01:38:42.913135+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prediction markets unmoved: Trump-related contracts (e",
+      "raw": "Prediction markets unmoved: Trump-related contracts (e.g., 2028 odds) flat at ~55% yes; no King Charles spikes.\n\nIf this is speculative/roleplay, no real event qualifies\u2014markets require verifiable news. Check live feeds for updates.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 0,
+    "alert": 3,
     "watch": 0,
     "high_conf": 1
   }
