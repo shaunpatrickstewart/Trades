@@ -1,42 +1,148 @@
 {
-  "last_scan": "2026-04-16T22:11:42.431718+00:00",
-  "scan_seconds": 22.1,
-  "markets_scanned": 77,
+  "last_scan": "2026-04-16T22:14:31.180375+00:00",
+  "scan_seconds": 27.1,
+  "markets_scanned": 75,
   "open_positions": 35,
   "signals": [
     {
-      "id": "sig_277809",
-      "timestamp": "2026-04-16T22:11:41.430637+00:00",
+      "id": "sig_427818",
+      "timestamp": "2026-04-16T22:14:11.439594+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, released around early April 2026, marks the latest confirmed data amid Middle East tensions driving oil volatility, staying near the Bank of Korea's 2% target but signaling contained pressures before energy shocks.[1][4] The Bank of Korea ",
+      "headline": "Iran-US-Israel Ceasefire Deal Welcomed by Kremlin (April 8)** | YES | HIGH confidence[1][2][6]",
+      "raw": "Iran-US-Israel Ceasefire Deal Welcomed by Kremlin (April 8)** | YES | HIGH confidence[1][2][6]\n\nRussia's Kremlin spokesman Dmitry Peskov confirmed on April 8, 2026, that Moscow welcomes the two-week ceasefire agreement between the US, Israel, and Iran, emphasizing de-escalation and diplomatic talks over military action[1][2]. Iranian Foreign Minister Abbas Araghchi affirmed Iran's acceptance on Ap",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_264052",
-      "timestamp": "2026-04-16T22:11:27.673084+00:00",
+      "id": "sig_433349",
+      "timestamp": "2026-04-16T22:14:16.970124+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nNo resolutions, captures, or escalations confirmed today that would move the Ternuvate market; status quo persists per latest ISW and market data.[1][2][5]",
-      "direction": "NO",
+      "headline": "GOP Debate for Oregon Governor Underway Tonight with Chris Dudley Participating | NO | HIGH confidence**",
+      "raw": "GOP Debate for Oregon Governor Underway Tonight with Chris Dudley Participating | NO | HIGH confidence**  \nThe first Republican primary debate for Oregon's 2026 gubernatorial race, featuring top contenders including **Chris Dudley**, state Sen. Christine Drazan, Rep. Ed Diehl, and Marion County Commissioner Danielle Bethell, is occurring tonight (April 16) in Hillsboro, marking a key escalation ah",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_441668",
+      "timestamp": "2026-04-16T22:14:25.289343+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC CLARITY Act Roundtable Scheduled | YES | HIGH confidence**",
+      "raw": "SEC CLARITY Act Roundtable Scheduled | YES | HIGH confidence**\nThe U.S. Securities and Exchange Commission is holding a CLARITY Act roundtable discussion on April 16, which could formally classify XRP as a digital commodity[2]. The legislation carries 72% odds on Polymarket and could unlock an estimated $4-8 billion in dedicated XRP ETF capital if passed[3].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of XRP be above $0.90 on April 21?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_441690",
+      "timestamp": "2026-04-16T22:14:25.311584+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana DeFi Recovery Despite Drift Protocol Hack | MIXED | MED confidence**",
+      "raw": "Solana DeFi Recovery Despite Drift Protocol Hack | MIXED | MED confidence**\nTether announced a $150 million recovery plan for Drift Protocol users after an April 1 exploit drained $285 million[5]. While damaging to confidence, the swift large-scale recovery effort demonstrates ecosystem support[5].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_441662",
+      "timestamp": "2026-04-16T22:14:25.283497+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results from April 16, 2026, here are the key market-moving developments:",
+      "raw": "Based on the search results from April 16, 2026, here are the key market-moving developments:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_441673",
+      "timestamp": "2026-04-16T22:14:25.294649+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana ETF Inflows Accelerate | YES | HIGH confidence**",
+      "raw": "Solana ETF Inflows Accelerate | YES | HIGH confidence**\nU.S. spot Solana ETFs recorded $5.04 million in net inflows on April 16, following a $5.36 million inflow the previous day, with cumulative net assets reaching $835 million[5]. This signals sustained institutional demand and validates Solana's price support.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_441678",
+      "timestamp": "2026-04-16T22:14:25.299972+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Weekly ETF Inflows Surge Past $119 Million | YES | HIGH confidence**",
+      "raw": "XRP Weekly ETF Inflows Surge Past $119 Million | YES | HIGH confidence**\nWeekly XRP ETF inflows hit $119.6 million, accounting for over half of all global crypto fund inflows for the week[1]. This demonstrates substantial institutional capital rotation into XRP.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_441684",
+      "timestamp": "2026-04-16T22:14:25.305417+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Crypto Market Rally on Iran Peace Signals | YES | HIGH confidence**",
+      "raw": "Crypto Market Rally on Iran Peace Signals | YES | HIGH confidence**\nBitcoin broke above $75,000 after Iran signaled it wants to resume peace talks with the United States[1]. Bitcoin climbed 5.9%, Ethereum rallied 8.6%, XRP gained 4.2%, and Solana rose 6.3%[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_446558",
+      "timestamp": "2026-04-16T22:14:30.179703+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), below market forecasts of 2.4% | NO | HIGH confidence**  \nThis March figure, released around early April 2026 per Trading Economics data, marks the latest confirmed reading and stayed near the Bank of Korea's 2% target amid global energy volatility from the Iran/Middle East conflict[1][4][5].  \nIt dimmed rate-cut prospect",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 3,
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 4
   }
 }
