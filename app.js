@@ -1294,6 +1294,7 @@
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
       renderPerformance();
+      renderWalletCards();
 
       // Copy Signals: use elite wallets (local scrape — real win rates, active filter)
       // Elite wallets sorted by win_rate × roi × sample quality, only those still trading
@@ -1401,6 +1402,7 @@
 
   refresh();
   renderPaperTrades();
+  renderWalletCards();
   renderAudit();
   renderLab();
   renderSignalsFeed();
