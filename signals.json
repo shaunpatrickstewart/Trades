@@ -1,62 +1,47 @@
 {
-  "last_scan": "2026-04-16T02:08:22.512890+00:00",
-  "scan_seconds": 23.0,
-  "markets_scanned": 102,
-  "open_positions": 64,
+  "last_scan": "2026-04-16T02:11:06.272009+00:00",
+  "scan_seconds": 23.3,
+  "markets_scanned": 140,
+  "open_positions": 103,
   "signals": [
     {
-      "id": "sig_73865",
-      "timestamp": "2026-04-16T02:08:17.558889+00:00",
+      "id": "sig_230345",
+      "timestamp": "2026-04-16T02:10:54.038927+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-Wide Price Surge on Geopolitical Hopes | NO | MED confidence**",
-      "raw": "Market-Wide Price Surge on Geopolitical Hopes | NO | MED confidence**  \nBitcoin topped $75K, Ethereum +8.6%, XRP +4.2%, Solana +6.3% amid U.S.-Iran ceasefire signals, but no binding resolutions or policy shifts confirmed to directly impact prediction markets.[4][5]",
-      "direction": "NO",
+      "headline": "Trump Announces Suspension of US Bombing Campaign on Iran with Two-Week Ceasefire After Talks | YES | HIGH confidence**[",
+      "raw": "Trump Announces Suspension of US Bombing Campaign on Iran with Two-Week Ceasefire After Talks | YES | HIGH confidence**[1]\n\nPresident Donald Trump confirmed via Truth Social that the US bombing campaign against Iran is suspended, following a 10-point proposal from Iran and talks with Pakistani leaders, allowing two weeks to finalize an agreement on reopening the Strait of Hormuz and resolving long",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_73836",
-      "timestamp": "2026-04-16T02:08:17.529430+00:00",
+      "id": "sig_241578",
+      "timestamp": "2026-04-16T02:11:05.271367+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC CLARITY Act Roundtable Scheduled for April 16 | NO | HIGH confidence**",
-      "raw": "SEC CLARITY Act Roundtable Scheduled for April 16 | NO | HIGH confidence**  \nNo confirmations, announcements, or resolutions reported as of now; prices for XRP ($1.34-$1.39), Solana ($80-$86), and Ethereum ($2,377) are steady or surging ahead of the U.S. SEC-led discussion on crypto regulation, with whale accumulation and ETF inflows boosting sentiment.[1][4][7]",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Ethereum reach $2,550 on April 15?",
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of XRP be above $1.60 on April 19?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_73849",
-      "timestamp": "2026-04-16T02:08:17.542474+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits 167M Monthly Token Holders Record (April 14) | NO | HIGH confidence**",
-      "raw": "Solana Hits 167M Monthly Token Holders Record (April 14) | NO | HIGH confidence**  \nNetwork activity surged to 148M daily non-vote transactions, driven by Alpenglow upgrade anticipation (targeting 150ms finality), but no new confirmation or release occurred today.[3][6]",
-      "direction": "NO",
+      "headline": "Kevin Warsh Federal Reserve Chair Confirmation Hearings Scheduled for April 16 | NO | HIGH confidence**",
+      "raw": "Kevin Warsh Federal Reserve Chair Confirmation Hearings Scheduled for April 16 | NO | HIGH confidence**  \nNo confirmed announcements, resolutions, or new data releases on inflation, Fed policy, Kevin Warsh, or South Korea's annual inflation as of April 16, 2026, 2 AM UTC that would move prediction markets[1][2][3][4].  \n\nWarsh's confirmation hearings are set for April 16, with markets watching for",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Solana be above $130 on April 19?",
-        "Solana Up or Down - April 15, 10:05PM-10:10PM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
+    "alert": 1,
     "watch": 0,
     "high_conf": 1
   }
