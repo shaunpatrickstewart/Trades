@@ -1,29 +1,32 @@
 {
-  "last_scan": "2026-04-16T22:17:25.973414+00:00",
-  "scan_seconds": 33.9,
-  "markets_scanned": 77,
+  "last_scan": "2026-04-16T22:20:20.897591+00:00",
+  "scan_seconds": 28.6,
+  "markets_scanned": 78,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_607640",
-      "timestamp": "2026-04-16T22:17:11.261712+00:00",
+      "id": "sig_777212",
+      "timestamp": "2026-04-16T22:20:00.833593+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the confirmed developments:",
-      "raw": "Based on the search results provided, here are the confirmed developments:",
-      "direction": null,
+      "headline": "Russia and Ukraine Agreed to Temporary Easter Ceasefire (April 11-12, 2026)** | **YES** | **HIGH** confidence[1][2][3]",
+      "raw": "Russia and Ukraine Agreed to Temporary Easter Ceasefire (April 11-12, 2026)** | **YES** | **HIGH** confidence[1][2][3]\n\nRussia announced a unilateral 30-hour ceasefire from 4 PM April 11 to end of April 12 for Orthodox Easter, with Putin ordering troops to halt operations while expecting Ukraine to reciprocate; Zelensky confirmed Ukraine would observe it hours later[1][2][3]. This includes a sched",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_615940",
-      "timestamp": "2026-04-16T22:17:19.561664+00:00",
+      "id": "sig_788680",
+      "timestamp": "2026-04-16T22:20:12.301552+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin remains above $75,000**\u2014a level it broke through after Iran signaled willingness to resume peace talks with the",
-      "raw": "Bitcoin remains above $75,000**\u2014a level it broke through after Iran signaled willingness to resume peace talks with the United States, providing relief from Middle East war-related bearish pressure[1]. **Solana hit record network metrics**, with 167 million monthly token holders and 148 million daily non-vote transactions, while the Alpenglow consensus upgrade aims to reduce transaction finality f",
-      "direction": null,
+      "headline": "CME Group Confirms Regulated SUI Futures Launch on May 4, Boosting Solana Ecosystem | YES | HIGH confidence**",
+      "raw": "CME Group Confirms Regulated SUI Futures Launch on May 4, Boosting Solana Ecosystem | YES | HIGH confidence**  \nCME announced SUI futures launching May 4, driving SUI up 7.6% and highlighting ongoing institutional infrastructure expansion on networks like Solana via partnerships such as Securitize with Nasdaq-listed Currency Group for tokenization.[4]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -31,66 +34,92 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_607646",
-      "timestamp": "2026-04-16T22:17:11.267588+00:00",
+      "id": "sig_796263",
+      "timestamp": "2026-04-16T22:20:19.884876+00:00",
       "source": "PERPLEXITY",
-      "headline": "Vice President J",
-      "raw": "Vice President J.D. Vance wins CPAC straw poll for 2028 GOP presidential nomination | YES | HIGH confidence**\n\nVice President J.D. Vance secured 53% of the vote in a Conservative Political Action Conference straw poll regarding the 2028 Republican presidential nominee, significantly ahead of Secretary of State Marco Rubio's 35%.[3] This result would likely move prediction markets favoring Vance as",
+      "headline": "**Upside risks**: The Policy Board expects inflation to rise to the mid to upper two-percent range, with price increases",
+      "raw": "**Upside risks**: The Policy Board expects inflation to rise to the mid to upper two-percent range, with price increases driven largely by surging oil costs[3]. Import prices surged in March, marking their sharpest jump in almost three decades[4].",
       "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_607658",
-      "timestamp": "2026-04-16T22:17:11.279373+00:00",
+      "id": "sig_796251",
+      "timestamp": "2026-04-16T22:20:19.872691+00:00",
       "source": "PERPLEXITY",
-      "headline": "Oregon Republican gubernatorial candidates skip major debate | YES | HIGH confidence**",
-      "raw": "Oregon Republican gubernatorial candidates skip major debate | YES | HIGH confidence**\n\nRepublican candidates Senator Christine Drazan and former Portland Trail Blazer Chris Dudley declined to participate in a planned Oregonian/KGW debate scheduled for April 30th.[2] Drazan stated she would participate in three other Republican-hosted debates instead.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_607663",
-      "timestamp": "2026-04-16T22:17:11.284711+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Vice President Vance signals Iran nuclear negotiations ongoing | YES | MED confidence**",
-      "raw": "Vice President Vance signals Iran nuclear negotiations ongoing | YES | MED confidence**\n\nVice President Vance stated \"the ball is in the Iranian court\" regarding nuclear negotiations and uranium enrichment limits, indicating ongoing diplomatic discussions.[4]",
-      "direction": "YES",
+      "headline": "Bank of Korea Holds Rate at 2",
+      "raw": "Bank of Korea Holds Rate at 2.5% Amid Inflation Pressures** | NO | HIGH confidence\n\nThe Bank of Korea's Monetary Policy Board held its benchmark interest rate steady at 2.5% on April 10, 2026, marking the seventh consecutive month without a change[3]. This decision was unanimous among board members[3].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_615934",
-      "timestamp": "2026-04-16T22:17:19.555654+00:00",
+      "id": "sig_796257",
+      "timestamp": "2026-04-16T22:20:19.878792+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Outperforms Market With 4% Gain on Rakuten Wallet Listing and SEC Crypto Roundtable | YES | HIGH confidence**",
-      "raw": "XRP Outperforms Market With 4% Gain on Rakuten Wallet Listing and SEC Crypto Roundtable | YES | HIGH confidence**\n\nXRP climbed 4% to $1.41, outperforming Bitcoin, Ethereum, and Solana, driven by two concrete catalysts: **Rakuten Wallet's XRP listing yesterday** and **the SEC's crypto roundtable happening today**[3]. These represent institutional validation and organic demand expansion\u2014regulatory c",
+      "headline": "**Inflation trend**: South Korea's annual inflation rate rose to 2",
+      "raw": "**Inflation trend**: South Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in the previous two months[1]. This remains slightly above the central bank's 2% target[1].",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_796269",
+      "timestamp": "2026-04-16T22:20:19.890896+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Economic headwinds**: The anticipated economic growth for 2026 is expected to fall below 2% as the Korean won has weak",
+      "raw": "**Economic headwinds**: The anticipated economic growth for 2026 is expected to fall below 2% as the Korean won has weakened significantly, with the exchange rate recently rising to around 1,520 won per U.S. dollar[3].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_796275",
+      "timestamp": "2026-04-16T22:20:19.896985+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Forward guidance**: Core inflation is projected to average 2",
+      "raw": "**Forward guidance**: Core inflation is projected to average 2.20% by the end of Q2 2026, with long-term projections around 2.00% in 2027[2].\n\nThe decision reflects the BOK's cautious stance given external risk factors, particularly the Middle East conflict's impact on oil prices and currency volatility[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_788673",
+      "timestamp": "2026-04-16T22:20:12.294760+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Michael Saylor's MicroStrategy Confirms Acquisition of 17,585 Bitcoin in April 2026 | YES | HIGH confidence**",
+      "raw": "Michael Saylor's MicroStrategy Confirms Acquisition of 17,585 Bitcoin in April 2026 | YES | HIGH confidence**  \nMicroStrategy acquired 17,585 Bitcoin valued at current market prices, as reported by Michael Saylor, representing a major corporate buy that could signal bullish institutional demand amid market fear.[1]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $74,000 on April 19?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 6,
-    "watch": 0,
+    "watch": 1,
     "high_conf": 2
   }
 }
