@@ -1,65 +1,110 @@
 {
-  "last_scan": "2026-04-16T02:35:17.072732+00:00",
-  "scan_seconds": 20.1,
-  "markets_scanned": 79,
+  "last_scan": "2026-04-16T02:38:05.590126+00:00",
+  "scan_seconds": 28.9,
+  "markets_scanned": 75,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_678241",
-      "timestamp": "2026-04-16T02:35:01.933709+00:00",
+      "id": "sig_849855",
+      "timestamp": "2026-04-16T02:37:53.547650+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Rules Out Iran Ceasefire Extension | NO | HIGH confidence** [4][5]",
-      "raw": "Trump Rules Out Iran Ceasefire Extension | NO | HIGH confidence** [4][5]\n\nRussia's Foreign Ministry and Kremlin welcomed the initial U.S.-Iran two-week ceasefire announced on April 7-8, 2026, with Maria Zakharova crediting Moscow's role and blaming U.S./Israel aggression while praising Pakistan's mediation.[1][2][3][6]\n\nOn April 15, 2026 (closest to now), White House Press Secretary Karoline Leavi",
-      "direction": "YES",
+      "headline": "I cannot find any breaking news matching your query parameters",
+      "raw": "I cannot find any breaking news matching your query parameters. The search results contain no reports of anything being \"obliterated\" or \"obliteration\" involving the White House, King Charles, or April 2026 events.[1][2][3]\n\nThe available information shows that King Charles and Queen Camilla are **scheduled to arrive in Washington D.C. on April 28th** for a state visit celebrating the 250th annive",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_682075",
-      "timestamp": "2026-04-16T02:35:05.767079+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Sets Up JD Vance as Iran War 'Fall Guy' by Sending Him on High-Stakes Peace Mission to Pakistan[2] | NO | HIGH con",
-      "raw": "Trump Sets Up JD Vance as Iran War 'Fall Guy' by Sending Him on High-Stakes Peace Mission to Pakistan[2] | NO | HIGH confidence**\n\nNo breaking confirmation, announcement, or resolution of \"obliteration\" or destruction involving Vance and Trump; instead, a Daily Beast report details Trump dispatching VP JD Vance to Pakistan for U.S.-Iran peace talks amid a 25-day conflict, plummeting approval ratin",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_692379",
-      "timestamp": "2026-04-16T02:35:16.072011+00:00",
+      "id": "sig_860897",
+      "timestamp": "2026-04-16T02:38:04.589167+00:00",
       "source": "PERPLEXITY",
-      "headline": "IMF Raises South Korea 2026 Inflation Forecast to 2",
-      "raw": "IMF Raises South Korea 2026 Inflation Forecast to 2.5% (Up 0.7pp), Holds Growth at 1.9% Amid Middle East Oil Disruptions** | YES | HIGH confidence[1][2]\n\nThe IMF released its April World Economic Outlook on Tuesday, April 15, 2026, maintaining South Korea's 2026 GDP growth forecast at 1.9%\u2014unchanged from January despite global downgrades\u2014but lifting the **annual inflation** projection to 2.5% due ",
+      "headline": "Kevin Warsh Appointed New Federal Reserve Chair, Signaling Hawkish Stance on Inflation and Slower U",
+      "raw": "Kevin Warsh Appointed New Federal Reserve Chair, Signaling Hawkish Stance on Inflation and Slower U.S. Rate Cuts Impacting South Korea's Policy** | YES | HIGH\n\nKevin Warsh's appointment as Fed Chair represents confirmed breaking news, shifting market expectations toward a \"flexible hawkish\" approach that prioritizes Fed independence, views inflation as fiscal mismanagement, and highlights AI-drive",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran diplomatic meeting by April 18, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_843076",
+      "timestamp": "2026-04-16T02:37:46.768086+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Russia-Ukraine Easter ceasefire (April 11-12)**: Announced by Putin as a brief humanitarian pause; Ukrainian reports c",
+      "raw": "**Russia-Ukraine Easter ceasefire (April 11-12)**: Announced by Putin as a brief humanitarian pause; Ukrainian reports claim 2,299 Russian violations by April 12 morning; no extensions or resolutions confirmed.[1][2][6][7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_843081",
+      "timestamp": "2026-04-16T02:37:46.773507+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Iran-US/Israel ceasefire**: Fragile 2-week deal (starting ~April 8, expiring April 22); talks collapsed April 12 over",
+      "raw": "**Iran-US/Israel ceasefire**: Fragile 2-week deal (starting ~April 8, expiring April 22); talks collapsed April 12 over nuclear issues; Strait of Hormuz remains disrupted; Kremlin welcomed it initially.[2][3][4][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_843086",
+      "timestamp": "2026-04-16T02:37:46.778821+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No mentions of **Ternuvate** (possibly Ternopil region or misspelling); no fresh escalations, pauses, or Iran-Russia shi",
+      "raw": "No mentions of **Ternuvate** (possibly Ternopil region or misspelling); no fresh escalations, pauses, or Iran-Russia shifts post-April 12.[1][2][3][4][5][6][7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran diplomatic meeting by April 18, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_843093",
+      "timestamp": "2026-04-16T02:37:46.785162+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in any market-moving developments, as results show no updates since April 12 and conflicting violation",
+      "raw": "LOW confidence** in any market-moving developments, as results show no updates since April 12 and conflicting violation reports on prior truces.[6][7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 0,
-    "watch": 1,
+    "alert": 4,
+    "watch": 0,
     "high_conf": 2
   }
 }
