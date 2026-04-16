@@ -1,113 +1,119 @@
 {
-  "last_scan": "2026-04-16T01:13:57.534886+00:00",
-  "scan_seconds": 26.8,
-  "markets_scanned": 151,
+  "last_scan": "2026-04-16T01:16:56.191584+00:00",
+  "scan_seconds": 33.7,
+  "markets_scanned": 153,
   "open_positions": 115,
   "signals": [
     {
-      "id": "sig_798703",
-      "timestamp": "2026-04-16T01:13:42.400962+00:00",
+      "id": "sig_975947",
+      "timestamp": "2026-04-16T01:16:39.644735+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news analysis you've requested because the search results do not contain information dated",
-      "raw": "I cannot provide the breaking news analysis you've requested because the search results do not contain information dated April 16, 2026 (today). The most recent sources are from April 15, 2026, which is yesterday.\n\nAdditionally, the term \"ternuvate\" does not appear in any of the search results, and I cannot confirm what this refers to. If you meant a different term or are looking for information a",
-      "direction": null,
+      "headline": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal | NO | HIGH confidence**",
+      "raw": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal | NO | HIGH confidence**  \nThe Kremlin confirmed on April 8, 2026, that it welcomes the two-week ceasefire agreement between the US, Israel, and Iran, emphasizing de-escalation and diplomacy over military action, with spokesman Dmitry Peskov stating support for avoiding further escalation[1]. This does not involve Russia entering Ternuvate (likely a r",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_798728",
-      "timestamp": "2026-04-16T01:13:42.425990+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Rules Out Ceasefire Extension** | YES | HIGH confidence",
-      "raw": "Trump Rules Out Ceasefire Extension** | YES | HIGH confidence\nPresident Trump stated on April 15 that he is not considering extending the current two-week ceasefire, though he prefers a negotiated outcome.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_798742",
-      "timestamp": "2026-04-16T01:13:42.439423+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia Welcomes Iran Ceasefire** | YES | HIGH confidence",
-      "raw": "Russia Welcomes Iran Ceasefire** | YES | HIGH confidence\nThe Kremlin and Russian Foreign Minister Lavrov both welcomed the ceasefire announcement and expressed support for diplomatic negotiations.[1][2]\n\nFor the most current breaking news from today, you would need fresh search results from April 16, 2026.",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
         "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_803519",
-      "timestamp": "2026-04-16T01:13:47.216267+00:00",
+      "id": "sig_985921",
+      "timestamp": "2026-04-16T01:16:49.618056+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance** tried to downplay the meme as a misunderstood joke and echoed **Trump**'s view that the Vatican should avoid",
-      "raw": "JD Vance** tried to downplay the meme as a misunderstood joke and echoed **Trump**'s view that the Vatican should avoid global policy. [1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_803530",
-      "timestamp": "2026-04-16T01:13:47.227682+00:00",
-      "source": "PERPLEXITY",
-      "headline": "| NO | HIGH confidence** \u2013 This is minor political friction with no market-moving resolutions, per the only available so",
-      "raw": "| NO | HIGH confidence** \u2013 This is minor political friction with no market-moving resolutions, per the only available source. [1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_807847",
-      "timestamp": "2026-04-16T01:13:51.544638+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BitMine Immersion Confirms Purchase of 71,524 ETH, Boosting Holdings to Nearly 4",
-      "raw": "BitMine Immersion Confirms Purchase of 71,524 ETH, Boosting Holdings to Nearly 4.9 Million ETH (4% of Supply)** | YES | HIGH confidence[2][3]\n\nEthereum price surged +8% to $2,370 amid explosive volume and breakout from $2,100s, with Bitcoin reclaiming $74,000 after geopolitical fears eased[1][2].  \nBitMine's aggressive accumulation signals **smart money** confidence, alongside staking yields and P",
+      "headline": "Solana ETFs See Net Inflows Starting Dec 30, 2025 ($5",
+      "raw": "Solana ETFs See Net Inflows Starting Dec 30, 2025 ($5.2M First Day, Holding Strong)** | YES | MED confidence[2]",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Ethereum dip to $2,150 on April 15?",
-        "Will Bitcoin reach $80,000 on April 15?",
-        "Will the price of Bitcoin be less than $64,000 on April 17?"
-      ],
+      "confidence": 0.78,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_812836",
-      "timestamp": "2026-04-16T01:13:56.533845+00:00",
+      "id": "sig_980846",
+      "timestamp": "2026-04-16T01:16:44.543174+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's Senate confirmation hearing for Fed Chair scheduled for April 21 | NO | HIGH confidence**",
-      "raw": "Kevin Warsh's Senate confirmation hearing for Fed Chair scheduled for April 21 | NO | HIGH confidence**  \nNo confirmations, announcements, or resolutions on inflation, Fed policy, or Warsh's appointment have occurred right now; the key development is Senate Banking Committee Chair Tim Scott announcing on April 14 that Warsh's hearing is set for April 21 at 10 a.m. ET, with prediction of Senate con",
+      "headline": "BUCKINGHAM PALACE FIRES BACK AT TRUMP CLAIM ON KING CHARLES' STANCE IN IRAN WAR** | NO | HIGH confidence[1]",
+      "raw": "BUCKINGHAM PALACE FIRES BACK AT TRUMP CLAIM ON KING CHARLES' STANCE IN IRAN WAR** | NO | HIGH confidence[1]\n\nBuckingham Palace issued a firm response to US President Donald Trump's statement to The Telegraph, where he claimed King Charles would have taken a \"very different stand\" on the Iran conflict compared to the UK government; a palace source stated, \"The King is above politics.\"[1] This April",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_985905",
+      "timestamp": "2026-04-16T01:16:49.602082+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Surpasses Ethereum and Tron in February 2026 Stablecoin Volume ($650B Record)** | YES | HIGH confidence[3]",
+      "raw": "Solana Surpasses Ethereum and Tron in February 2026 Stablecoin Volume ($650B Record)** | YES | HIGH confidence[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_985936",
+      "timestamp": "2026-04-16T01:16:49.633241+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Pectra Upgrade Impact Window Active in Q1 2026 (Live Since Early Dec 2025)** | YES | MED confidence[2]",
+      "raw": "Ethereum Pectra Upgrade Impact Window Active in Q1 2026 (Live Since Early Dec 2025)** | YES | MED confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_985949",
+      "timestamp": "2026-04-16T01:16:49.646555+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Alpenglow Consensus and Firedancer Upgrades Launching Q1 2026** | YES | MED confidence[2]",
+      "raw": "Solana Alpenglow Consensus and Firedancer Upgrades Launching Q1 2026** | YES | MED confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_985961",
+      "timestamp": "2026-04-16T01:16:49.658798+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Reclaims $92K, Ethereum and Solana Show Bullish Momentum in 2026 Recovery** | YES | LOW confidence[2][1]",
+      "raw": "Bitcoin Reclaims $92K, Ethereum and Solana Show Bullish Momentum in 2026 Recovery** | YES | LOW confidence[2][1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_991493",
+      "timestamp": "2026-04-16T01:16:55.190844+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Nominated as Next Fed Chair, Signaling Potential Shift in Inflation Policy and Rate Cuts** | **YES** | **HIG",
+      "raw": "Kevin Warsh Nominated as Next Fed Chair, Signaling Potential Shift in Inflation Policy and Rate Cuts** | **YES** | **HIGH** confidence\n\nKevin Warsh's nomination as U.S. Federal Reserve chair by President Trump on January 30, 2026, has been widely reported, with analysts expecting him to support at least two 25-basis-point rate cuts in 2026 to address backward-looking policy amid stable 2% inflatio",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -115,7 +121,7 @@
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 6,
     "watch": 1,
     "high_conf": 1
