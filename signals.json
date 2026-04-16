@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-16T18:50:58.820247+00:00",
-  "scan_seconds": 36.0,
-  "markets_scanned": 153,
+  "last_scan": "2026-04-16T18:53:59.268545+00:00",
+  "scan_seconds": 36.2,
+  "markets_scanned": 152,
   "open_positions": 112,
   "signals": [
     {
-      "id": "sig_219144",
-      "timestamp": "2026-04-16T18:50:42.777240+00:00",
+      "id": "sig_402466",
+      "timestamp": "2026-04-16T18:53:46.099632+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a definitive \"breaking news RIGHT NOW\" answer based on these search results, as they contain outdated i",
-      "raw": "I cannot provide a definitive \"breaking news RIGHT NOW\" answer based on these search results, as they contain outdated information relative to the current date.\n\nThe most recent content in the search results is from April 7, 2026[2], which is 9 days before the current date of April 16, 2026. The other article[1] references events from \"Thursday\" and \"Friday morning\" but lacks a specific date, thou",
+      "headline": "DHS Shutdown Ongoing | YES | HIGH confidence** \u2014 The Department of Homeland Security remains shut down (59+ days as of A",
+      "raw": "DHS Shutdown Ongoing | YES | HIGH confidence** \u2014 The Department of Homeland Security remains shut down (59+ days as of April 14), with GOP leadership targeting a June 1 deadline for a reconciliation bill to restore immigration enforcement funding.[1]\n\nHowever, these don't appear to be \"just announced\" developments specific to Truth Social or represent market-moving confirmations occurring right no",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,66 +20,88 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_208436",
-      "timestamp": "2026-04-16T18:50:32.069843+00:00",
+      "id": "sig_414634",
+      "timestamp": "2026-04-16T18:53:58.267920+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket specifies: \"Humanitarian pauses will not count\"; requires \"publicly announced and mutually agreed halt in mil",
-      "raw": "Polymarket specifies: \"Humanitarian pauses will not count\"; requires \"publicly announced and mutually agreed halt in military engagement\" with official announcements or consensus media; trader consensus shows near-certainty of **NO** by April 30 amid post-Easter escalations (drone/missile strikes, advances).[3]",
-      "direction": "NO",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Replacing Powell in May Amid Surging Inflation and Rate Hike Speculation",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Replacing Powell in May Amid Surging Inflation and Rate Hike Speculation | YES | HIGH confidence** [1][2][3][4]\n\nKevin Warsh's nomination, announced by President Trump on January 31, 2026, positions him to succeed Jerome Powell by mid-May 2026, facing immediate pressure from annual core inflation at 3.9% (pre-oil shock, pushing 3-month annualized core",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_409782",
+      "timestamp": "2026-04-16T18:53:53.415477+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify any breaking news from the search results that represents newly confirmed, announced, or resolved info",
+      "raw": "I cannot identify any breaking news from the search results that represents newly confirmed, announced, or resolved information that would move prediction markets as of April 16, 2026, 6 PM UTC.\n\nThe search results contain:",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_208447",
-      "timestamp": "2026-04-16T18:50:32.080572+00:00",
+      "id": "sig_409814",
+      "timestamp": "2026-04-16T18:53:53.447977+00:00",
       "source": "PERPLEXITY",
-      "headline": "No ternuvate/Russia-specific confirmations; search yields no matches for active fronts or resolutions there",
-      "raw": "No ternuvate/Russia-specific confirmations; search yields no matches for active fronts or resolutions there.[1-5]",
-      "direction": "NO",
+      "headline": "**Market speculation** about Ethereum potentially reaching $4,000 by month-end (56% probability on Polymarket as of an e",
+      "raw": "**Market speculation** about Ethereum potentially reaching $4,000 by month-end (56% probability on Polymarket as of an earlier date in April)[4], which is a prediction rather than confirmed news",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,000 on April 17?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_391295",
+      "timestamp": "2026-04-16T18:53:34.928057+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Ceasefire Extension Under Consideration | YES | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Extension Under Consideration | YES | HIGH confidence**\n\nWashington and Tehran are considering a **two-week extension** of their original ceasefire to allow additional time for negotiations, according to reporting as of April 16, 2026.[6] This development comes as the initial two-week ceasefire (agreed April 7-8) approaches its expiration, with both sides reportedly willing to ex",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Russia enter Ternuvate again by April 30?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_208457",
-      "timestamp": "2026-04-16T18:50:32.090971+00:00",
+      "id": "sig_402434",
+      "timestamp": "2026-04-16T18:53:46.067754+00:00",
       "source": "PERPLEXITY",
-      "headline": "Post-Easter: Mutual violation accusations, Russian barrages killing civilians, Ukrainian drone strikes\u2014no de-escalation",
-      "raw": "Post-Easter: Mutual violation accusations, Russian barrages killing civilians, Ukrainian drone strikes\u2014no de-escalation or talks scheduled.[3][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_208468",
-      "timestamp": "2026-04-16T18:50:32.101498+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Impact on markets: NO material movement**\u2014Easter pause doesn't qualify, and no new announcements today",
-      "raw": "Impact on markets: NO material movement**\u2014Easter pause doesn't qualify, and no new announcements today.[3] **Confidence: HIGH** (direct from Polymarket criteria and uniform reporting).[1][2][3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_219154",
-      "timestamp": "2026-04-16T18:50:42.787842+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recommendation:** Conduct a fresh search for breaking news from April 16, 2026, to identify today's specific announcemen",
-      "raw": "Recommendation:** Conduct a fresh search for breaking news from April 16, 2026, to identify today's specific announcements or confirmations.",
+      "headline": "I don't have breaking news matching your specific query parameters",
+      "raw": "I don't have breaking news matching your specific query parameters. The search results provided contain congressional updates from April 14-15, 2026, but none directly confirm a Trump announcement on Truth Social or a White House development that would significantly move prediction markets today.\n\nThe most recent substantive items in these results are:",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Donald Trump post 160-179 Truth Social posts from April"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_402445",
+      "timestamp": "2026-04-16T18:53:46.078647+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Congressional FISA Vote | YES | HIGH confidence** \u2014 Speaker Johnson is moving forward with an 18-month extension of Sect",
+      "raw": "Congressional FISA Vote | YES | HIGH confidence** \u2014 Speaker Johnson is moving forward with an 18-month extension of Section 702 surveillance powers, with a procedural vote scheduled for Wednesday (April 16) and an April 20 expiration deadline.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -87,29 +109,25 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_229521",
-      "timestamp": "2026-04-16T18:50:53.154409+00:00",
+      "id": "sig_402456",
+      "timestamp": "2026-04-16T18:53:46.089054+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum $4,000 by April End Odds Hit 56% YES on Polymarket After 14% Price Surge | YES | MED confidence**",
-      "raw": "Ethereum $4,000 by April End Odds Hit 56% YES on Polymarket After 14% Price Surge | YES | MED confidence**  \nEthereum's price jumped 14% in the past week amid geopolitical de-escalation and Trump-Iran talks, boosting Polymarket odds to 56% YES for ETH reaching $4,000 by April 30 (16 days left), with $182K USDC traded in 24h and potential 1.79x returns on YES shares.[1]  \nThis rally, tied to ceasef",
+      "headline": "White House Ballroom Construction Blocked | YES | HIGH confidence** \u2014 U",
+      "raw": "White House Ballroom Construction Blocked | YES | HIGH confidence** \u2014 U.S. District Judge Richard Leon issued a sharply worded order Thursday halting above-ground construction on the $400 million White House ballroom project, with limited exceptions only for national security.[4]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_229556",
-      "timestamp": "2026-04-16T18:50:53.189510+00:00",
+      "id": "sig_409793",
+      "timestamp": "2026-04-16T18:53:53.426294+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Ecosystem Announces 22 Scalability/Privacy Upgrades (Prioritizing 2026 Roadmap) | YES | HIGH confidence**",
-      "raw": "Ethereum Ecosystem Announces 22 Scalability/Privacy Upgrades (Prioritizing 2026 Roadmap) | YES | HIGH confidence**  \nReleasing 22 developments drove Polymarket's ETH >$2,400 by Apr 11 to 100% YES (from 18%, via 38-point trade spike), signaling trader bets on immediate catalysts despite extreme fear (Fear/Greed at 12).[3][5]  \nApril 12 markets stayed near 0% YES, showing term structure impact limit",
-      "direction": "YES",
+      "headline": "**Current price data** (Ethereum at $2,343",
+      "raw": "**Current price data** (Ethereum at $2,343.40 as of 8:30 a.m. ET on April 16)[1], which reflects ongoing market conditions rather than a specific news event",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will the price of Ethereum be above $2,000 on April 17?"
@@ -117,12 +135,42 @@
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_409803",
+      "timestamp": "2026-04-16T18:53:53.436807+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Historical context** from earlier in April regarding geopolitical tensions and an Iran ceasefire announcement that dro",
+      "raw": "**Historical context** from earlier in April regarding geopolitical tensions and an Iran ceasefire announcement that drove volatility in early April[4], but this is not \"right now\" breaking news",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_409826",
+      "timestamp": "2026-04-16T18:53:53.459005+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Technical analysis and price predictions** for the longer term[5], not current announcements",
+      "raw": "**Technical analysis and price predictions** for the longer term[5], not current announcements\n\nTo provide the headline-format response you've requested, I would need search results containing actual breaking announcements, confirmations, or resolved events (such as regulatory decisions, major institutional moves, or protocol updates) that occurred on or immediately before April 16, 2026. The curr",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
+    "enter": 2,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 4
   }
 }
