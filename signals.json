@@ -1,16 +1,50 @@
 {
-  "last_scan": "2026-04-16T22:40:24.526629+00:00",
-  "scan_seconds": 44.4,
-  "markets_scanned": 152,
+  "last_scan": "2026-04-16T22:43:28.414060+00:00",
+  "scan_seconds": 31.6,
+  "markets_scanned": 151,
   "open_positions": 107,
   "signals": [
     {
-      "id": "sig_992421",
-      "timestamp": "2026-04-16T22:40:16.041957+00:00",
+      "id": "sig_159927",
+      "timestamp": "2026-04-16T22:43:03.546805+00:00",
       "source": "PERPLEXITY",
-      "headline": "Deutsche B\u00f6rse $200M Kraken Investment Confirmed** | YES | HIGH confidence[2]",
-      "raw": "Deutsche B\u00f6rse $200M Kraken Investment Confirmed** | YES | HIGH confidence[2]  \nInstitutional move signals crypto maturity, driving Bitcoin consolidation above $73K and prediction market repricing toward $75K-$80K breakout[2][3][6].",
+      "headline": "Pentagon Confirms U",
+      "raw": "Pentagon Confirms U.S.-Iran Ceasefire Holding Amid Blockade; Trump Ultimatum Issued to New Regime** | YES | HIGH confidence[1][2][5]\n\nPutin delivered an emergency speech warning against Western intervention in Iran, escalating tensions and challenging U.S. policy under Trump[1]. U.S. Defense Secretary Pete Hegseth and Joint Chiefs Chairman Gen. Dan Caine stated the fragile ceasefire holds, with in",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_165962",
+      "timestamp": "2026-04-16T22:43:09.581382+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Chris Dudley Announces Second Bid for Oregon Governor** | **NO** | **LOW** confidence[1]",
+      "raw": "Chris Dudley Announces Second Bid for Oregon Governor** | **NO** | **LOW** confidence[1]\n\nChris Dudley, a former NBA player and 2010 Republican gubernatorial candidate, has announced his candidacy to challenge Democratic Gov. Tina Kotek, joining 13 other Republicans in the race ahead of the May 19 primary[1]. No mentions of J.D. Vance, White House involvement, or election resolutions appear in rec",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_175714",
+      "timestamp": "2026-04-16T22:43:19.333027+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confirmed economic data releases (Federal Reserve decisions, inflation reports)",
+      "raw": "Confirmed economic data releases (Federal Reserve decisions, inflation reports)",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,12 +52,40 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_992439",
-      "timestamp": "2026-04-16T22:40:16.059287+00:00",
+      "id": "sig_183783",
+      "timestamp": "2026-04-16T22:43:27.402300+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin Spot Rally to $74,680+ on April 13-14** | YES | HIGH confidence[3][6]",
-      "raw": "Bitcoin Spot Rally to $74,680+ on April 13-14** | YES | HIGH confidence[3][6]  \nTriggered $400M-$500M short liquidations and 44pp probability jump to 66% for $73K+ by April 17, with Polymarket at 92% for $75K by April 30[3][5][6].",
+      "headline": "South Korea's Inflation Rises to 2",
+      "raw": "South Korea's Inflation Rises to 2.2% in March 2026, Above Central Bank Target | YES | HIGH confidence**\n\nSouth Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in both January and February, marking a significant shift that exceeds the Bank of Korea's 2% target[1]. This increase comes despite inflation being below market forecasts of 2.4%[1].\n\nThe uptick is primarily driven b",
       "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_183794",
+      "timestamp": "2026-04-16T22:43:27.413164+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** The Bank of Korea has maintained its benchmark interest rate at 2",
+      "raw": "Market implications:** The Bank of Korea has maintained its benchmark interest rate at 2.5% for the 7th consecutive month as of April 10, 2026, with policymakers signaling a cautious stance amid external risks[4]. The Policy Board expects inflation to rise into the mid to upper two-percent range, and experts warn that rising global oil prices and currency weakness continue to increase uncertainty ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_175692",
+      "timestamp": "2026-04-16T22:43:19.311511+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain any recent annou",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain any recent announcements, confirmations, or resolutions that would move Bitcoin prediction markets as of April 16, 2026.\n\nThe most recent data available is from April 15, 2026, which shows Bitcoin trading at $74,286.71[2]\u2014a modest decline from the previous day. The search results primarily conta",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will Bitcoin dip to $70,000 on April 16?",
@@ -35,12 +97,38 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_999905",
-      "timestamp": "2026-04-16T22:40:23.525686+00:00",
+      "id": "sig_175703",
+      "timestamp": "2026-04-16T22:43:19.322181+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, reported around early April 2026, confirms contained price pressures amid global energy volatility from the Iran/Middle East conflict, aligning with the Bank of Korea's 2% target despite oil price surges and a weak won (near 1,520/USD)[1][",
-      "direction": "YES",
+      "headline": "Official announcements from regulatory bodies, exchanges, or major institutions",
+      "raw": "Official announcements from regulatory bodies, exchanges, or major institutions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_175724",
+      "timestamp": "2026-04-16T22:43:19.343682+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Geopolitical developments with direct market impact",
+      "raw": "Geopolitical developments with direct market impact",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_175735",
+      "timestamp": "2026-04-16T22:43:19.354827+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Significant corporate or government cryptocurrency policy changes",
+      "raw": "Significant corporate or government cryptocurrency policy changes\n\nThe search results do reference historical context (such as the Iran ceasefire from April 9 that affected oil prices and triggered short liquidations[3]), but nothing that appears to be breaking news as of your specified date.\n\nIf you're looking for current Bitcoin market movers, I recommend checking real-time financial news source",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -49,28 +137,13 @@
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_982219",
-      "timestamp": "2026-04-16T22:40:05.839861+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Claims Iran Agrees to Ceasefire Package and Nuclear Material Handover; Putin Warns West on Intervention; Russia Re",
-      "raw": "Trump Claims Iran Agrees to Ceasefire Package and Nuclear Material Handover; Putin Warns West on Intervention; Russia Reoffers Uranium Custody** | YES | MED confidence[1][2][3][4]\n\nU.S. President Trump stated Iran has \"agreed very powerfully\" to return nuclear material damaged by U.S. B2 strikes and supports a \"nice little package\" ceasefire involving Israel and Lebanon for about a week, amid expi",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 7,
+    "watch": 0,
+    "high_conf": 3
   }
 }
