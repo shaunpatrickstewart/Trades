@@ -1,32 +1,47 @@
 {
-  "last_scan": "2026-04-16T03:28:22.862776+00:00",
-  "scan_seconds": 27.4,
+  "last_scan": "2026-04-16T03:31:08.827181+00:00",
+  "scan_seconds": 25.5,
   "markets_scanned": 110,
   "open_positions": 71,
   "signals": [
     {
-      "id": "sig_864671",
-      "timestamp": "2026-04-16T03:28:08.360625+00:00",
+      "id": "sig_27721",
+      "timestamp": "2026-04-16T03:30:51.409537+00:00",
       "source": "PERPLEXITY",
-      "headline": "White House Announces Ceasefire with Iran After Operation Epic Fury Obliterates Iranian Navy and Air Force** | **YES** |",
-      "raw": "White House Announces Ceasefire with Iran After Operation Epic Fury Obliterates Iranian Navy and Air Force** | **YES** | **HIGH** confidence\n\nThe White House confirmed on April 8, 2026, that Operation Epic Fury\u2014launched by President Trump\u2014achieved its objectives in 38 days, including functionally neutering Iran's air force (daily flights reduced from 30-100 to zero) and obliterating its navy (150 ",
+      "headline": "Russia-Ukraine Easter Ceasefire Enters Force (April 11-12, 2026)** | **YES** | **HIGH** confidence[1][2][3]",
+      "raw": "Russia-Ukraine Easter Ceasefire Enters Force (April 11-12, 2026)** | **YES** | **HIGH** confidence[1][2][3]\n\nRussia declared a 32-hour humanitarian ceasefire from 4 p.m. Moscow time on April 11 to the end of April 12, 2026, for Orthodox Easter, with Putin ordering troops to halt operations while staying alert for provocations[1][2][3]. Ukraine's Zelenskyy confirmed it will respond \"in a mirror man",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will Zelenskyy post 180-199 posts from April 10 to April 17,"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_873283",
-      "timestamp": "2026-04-16T03:28:16.972811+00:00",
+      "id": "sig_38250",
+      "timestamp": "2026-04-16T03:31:01.938530+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Integration Pilot Announced in Japan | YES | HIGH confidence**",
-      "raw": "XRP Integration Pilot Announced in Japan | YES | HIGH confidence**\n\nA **live pilot announcement** revealed a 60% cost savings using XRP versus SWIFT in cross-border payments, announced at the XRP Tokyo event[5]. Additionally, Rakuten's Ruck 10 wallet confirmed XRP integration, providing access to **44 million users** in Japan[4][5].",
+      "headline": "Iran Ceasefire Developments Drive BTC Volatility, Islamabad Talks Scheduled for Friday | YES | MED confidence**",
+      "raw": "Iran Ceasefire Developments Drive BTC Volatility, Islamabad Talks Scheduled for Friday | YES | MED confidence**  \nA ceasefire briefly pushed Bitcoin to a three-week high of $72,738 before doubt pulled it toward $71,000, with upcoming Islamabad negotiations (Friday) confirmed as a key geopolitical driver likely to move BTC prediction markets amid US-Iran tensions[1][3].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_38242",
+      "timestamp": "2026-04-16T03:31:01.930642+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Coinbase Secures Landmark EU Licensing Under MiCA | YES | HIGH confidence**",
+      "raw": "Coinbase Secures Landmark EU Licensing Under MiCA | YES | HIGH confidence**  \nCoinbase's MiCA compliance in the EU represents confirmed regulatory progress, boosting Ethereum and broader altcoin futures (ETH open interest up 12% to $14.25B), potentially impacting markets tied to institutional crypto access in Europe[2].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
@@ -35,11 +50,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_873291",
-      "timestamp": "2026-04-16T03:28:16.980541+00:00",
+      "id": "sig_38234",
+      "timestamp": "2026-04-16T03:31:01.922799+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETF Inflows Accelerating | YES | HIGH confidence**",
-      "raw": "ETF Inflows Accelerating | YES | HIGH confidence**\n\nXRP is experiencing its **biggest ETF inflow levels in 2 months**, with $11 billion in exchange outflows signaling holders are positioning for upcoming catalysts[1][4].",
+      "headline": "First Solana Staking ETF Launches With SEC Approval | YES | HIGH confidence**",
+      "raw": "First Solana Staking ETF Launches With SEC Approval | YES | HIGH confidence**  \nThe launch of the first Solana staking ETF, approved by the SEC, marks a major regulatory breakthrough amid institutional momentum, with Solana's futures open interest rising steadily to $3.51B, signaling strong confidence that could shift prediction markets on SOL adoption and price rallies[2].",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
@@ -48,70 +63,55 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_859488",
-      "timestamp": "2026-04-16T03:28:03.177051+00:00",
+      "id": "sig_44129",
+      "timestamp": "2026-04-16T03:31:07.817912+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ukrainian Forces Confirm Full Control of Ternuvate Settlement in Zaporizhzhia, Denying Russian Claims** | YES | HIGH con",
-      "raw": "Ukrainian Forces Confirm Full Control of Ternuvate Settlement in Zaporizhzhia, Denying Russian Claims** | YES | HIGH confidence[1]\n\nUkrainian troops have secured **Ternuvate** (also spelled Turnivvate) in the Zaporizhzhia region, with a video showing soldiers by the settlement sign holding the Ukrainian flag and declaring \"Ternuvate is ours.\"[1] Andrii Kovalenko, head of Ukraine's Center for Count",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation | YES | HIGH confidence**",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation | YES | HIGH confidence**  \nKevin Warsh, nominated by President Trump to succeed Jerome Powell as Fed Chair by mid-May 2026, faces immediate pressure from oil prices above $100/barrel (triggered by Middle East conflict) and core PCE inflation at 4.56%\u2014more than double the Fed's 2% target\u2014prompting market",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_873268",
-      "timestamp": "2026-04-16T03:28:16.957213+00:00",
+      "id": "sig_33569",
+      "timestamp": "2026-04-16T03:30:57.257549+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results from April 12-15, 2026, here are the key developments:",
-      "raw": "Based on the search results from April 12-15, 2026, here are the key developments:",
+      "headline": "Based on the available search result, I cannot provide the breaking news update you're requesting in the format specifie",
+      "raw": "Based on the available search result, I cannot provide the breaking news update you're requesting in the format specified.\n\nThe search result provided is from April 2, 2026 and discusses King Charles planning a state visit to America amid strained US-UK relations, but it does not contain information about any event involving \"obliteration\" or any recent announcement that would move prediction mark",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_873276",
-      "timestamp": "2026-04-16T03:28:16.965078+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CLARITY Act Markup Scheduled for Late April | YES | HIGH confidence**",
-      "raw": "CLARITY Act Markup Scheduled for Late April | YES | HIGH confidence**\n\nThe Senate returned from recess on April 13th with **CLARITY Act markup targeted for late April**, which would permanently classify XRP as a commodity under federal law[1]. Treasury Secretary Scott Bessent has stated the market structure bill must pass this spring, with the Senate calendar and his mandate aligned[1].",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Will the price of XRP be above $1.60 on April 16?"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_873299",
-      "timestamp": "2026-04-16T03:28:16.988374+00:00",
+      "id": "sig_44138",
+      "timestamp": "2026-04-16T03:31:07.826148+00:00",
       "source": "PERPLEXITY",
-      "headline": "Price Action Context**",
-      "raw": "Price Action Context**\n\nXRP recently climbed to around $1.39[2], currently sitting at a critical technical level near $1.40 support[3]. Historical April performance shows XRP has averaged **24.8% gains** across its trading history[1].\n\nThe primary market-moving catalyst is the imminent CLARITY Act markup, which would provide regulatory clarity for institutional adoption of XRP across banking and p",
+      "headline": "South Korea** angle: Local outlet Chosun highlights Warsh's nomination sparking \"monetary dominance\" warnings, with expe",
+      "raw": "South Korea** angle: Local outlet Chosun highlights Warsh's nomination sparking \"monetary dominance\" warnings, with experts like Sogang Prof. Lee Yoon-soo noting risks of Fed subordination to fiscal policy.[2]  \nThis hawkish shift could move prediction markets on Fed rates, inflation persistence, and Trump-Fed tensions, as Warsh's May start tests summer tariff effects.[1][3]",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Will the price of XRP be above $1.60 on April 16?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 2,
+    "alert": 3,
+    "watch": 2,
+    "high_conf": 3
   }
 }
