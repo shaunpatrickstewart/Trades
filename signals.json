@@ -1,19 +1,18 @@
 {
-  "last_scan": "2026-04-16T02:16:22.681655+00:00",
-  "scan_seconds": 20.3,
+  "last_scan": "2026-04-16T02:19:04.910434+00:00",
+  "scan_seconds": 22.9,
   "markets_scanned": 138,
-  "open_positions": 103,
+  "open_positions": 102,
   "signals": [
     {
-      "id": "sig_548434",
-      "timestamp": "2026-04-16T02:16:12.127169+00:00",
+      "id": "sig_709694",
+      "timestamp": "2026-04-16T02:18:53.387038+00:00",
       "source": "PERPLEXITY",
-      "headline": "VP JD Vance Warns Pope Leo to 'Be Careful' Amid Trump Feud; Senate Top Republican Urges Focus on Economy Over Church Cla",
-      "raw": "VP JD Vance Warns Pope Leo to 'Be Careful' Amid Trump Feud; Senate Top Republican Urges Focus on Economy Over Church Clash | NO | HIGH confidence**[1][2][6]\n\nVP JD Vance issued a public warning to Pope Leo to \"be careful\" following the Pope's criticism of the US-Iran war, escalating President Trump's ongoing feud, as reported in breaking coverage from ABC News on April 16, 2026[1][2][6]. Senate's ",
-      "direction": "NO",
+      "headline": "TRUMP ANNOUNCES U",
+      "raw": "TRUMP ANNOUNCES U.S.-IRAN CEASEFIRE DEAL AMID WAR BACKLASH AND SUSPICIOUS PREDICTION MARKET BETS | YES | HIGH confidence**\n\nTrump's ceasefire announcement late Tuesday, confirmed via social media, has triggered surging Congressional calls for investigations into well-timed Polymarket bets placed by 50+ new accounts minutes before the reveal, raising insider trading concerns tied to oil exec profit",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A"
       ],
@@ -22,15 +21,58 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_553513",
-      "timestamp": "2026-04-16T02:16:17.206296+00:00",
+      "id": "sig_714858",
+      "timestamp": "2026-04-16T02:18:58.551094+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Overtakes Ethereum in Adjusted Stablecoin Volume for Second Time, Lead Holding with Record Supply Growth | YES |",
-      "raw": "Solana Overtakes Ethereum in Adjusted Stablecoin Volume for Second Time, Lead Holding with Record Supply Growth | YES | HIGH confidence** [1]\n\nSolana captured 32.6% of weekly adjusted USD-based stablecoin volume for the two-week period ending April 12, surpassing Ethereum's 27.8%, with its stablecoin supply hitting a record $16.3 billion\u2014up 10.87% in the past week, the fastest among top chains. Th",
+      "headline": "Solana (SOL) Alpenglow Upgrade Announced (April 14):** Surge to 167M monthly token holders and 148M daily non-vote txns,",
+      "raw": "Solana (SOL) Alpenglow Upgrade Announced (April 14):** Surge to 167M monthly token holders and 148M daily non-vote txns, with upgrade targeting 150ms finality (from 12s). | **NO** | **MED** confidence [1]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 18?",
+        "Will the price of Solana be above $130 on April 19?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_720216",
+      "timestamp": "2026-04-16T02:19:03.909646+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Confirmed as New Fed Chair, Triggering Global Market Volatility Including South Korean Stock Plunge | YES |",
+      "raw": "Kevin Warsh Confirmed as New Fed Chair, Triggering Global Market Volatility Including South Korean Stock Plunge | YES | HIGH confidence**  \nPresident Trump's nomination of Kevin Warsh as Fed Chair has advanced to confirmation, with Warsh now taking office and signaling a shift to \"tapering plus rate cuts\" while prioritizing quantitative tightening (QT) to anchor inflation expectations.[1][2][3] Th",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_714868",
+      "timestamp": "2026-04-16T02:18:58.561399+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for Europeans (April 2026):** Via Zero Hash, expanding institutional access ami",
+      "raw": "Interactive Brokers Launches SOL Trading for Europeans (April 2026):** Via Zero Hash, expanding institutional access amid $82 price compression. | **YES** | **HIGH** confidence [2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_714878",
+      "timestamp": "2026-04-16T02:18:58.571301+00:00",
+      "source": "PERPLEXITY",
+      "headline": "$280M+ Drift Protocol Exploit on Solana (April 2026):** Social engineering attack via pre-approved txns; Circle silent o",
+      "raw": "$280M+ Drift Protocol Exploit on Solana (April 2026):** Social engineering attack via pre-approved txns; Circle silent on $230M USDC freeze; SOL down 13% to $78, DEX vol -40%. | **YES** | **HIGH** confidence [4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Ethereum be less than $1,800 on April 17?",
         "Will the price of Solana be above $100 on April 18?",
         "Will the price of Solana be above $130 on April 19?"
       ],
@@ -39,27 +81,36 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_553523",
-      "timestamp": "2026-04-16T02:16:17.216540+00:00",
+      "id": "sig_714889",
+      "timestamp": "2026-04-16T02:18:58.582172+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin Surges Above $75,000 on Iran Peace Talk Signals, Lifting Ethereum and Solana | YES | MED confidence** [4]",
-      "raw": "Bitcoin Surges Above $75,000 on Iran Peace Talk Signals, Lifting Ethereum and Solana | YES | MED confidence** [4]\n\nBitcoin climbed 5.9% past $75,000 for the first time since mid-March after Iran signaled resumed U.S. peace talks, with Ethereum up 8.6% to $2,377 and Solana rising 6.3%; this relief rally counters prior Middle East war pressure but faces tests from April 15 tax deadlines, April 22 ce",
+      "headline": "Ethereum Foundation Stakes 22,517 ETH:** From treasury, boosting yield models; BlackRock ETH ETF sees $155M inflows Day",
+      "raw": "Ethereum Foundation Stakes 22,517 ETH:** From treasury, boosting yield models; BlackRock ETH ETF sees $155M inflows Day 1 at ~$2,063 price. | **YES** | **MED** confidence [2]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_714900",
+      "timestamp": "2026-04-16T02:18:58.593608+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Holds $66",
+      "raw": "Bitcoin Holds $66.5K Amid Low Sentiment:** Fear & Greed at 12; no new ATH breach confirmed (Polymarket odds low at 3% by June). Speculative $80K rally eyed but unconfirmed. | **NO** | **LOW** confidence [2][3][6][7]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 3,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
