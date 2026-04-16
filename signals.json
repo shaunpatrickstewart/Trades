@@ -1,125 +1,61 @@
 {
-  "last_scan": "2026-04-16T01:25:21.956582+00:00",
-  "scan_seconds": 19.2,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-16T01:27:59.857395+00:00",
+  "scan_seconds": 21.6,
+  "markets_scanned": 82,
   "open_positions": 43,
   "signals": [
     {
-      "id": "sig_483275",
-      "timestamp": "2026-04-16T01:25:06.971747+00:00",
+      "id": "sig_640120",
+      "timestamp": "2026-04-16T01:27:43.816296+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Russia's position**: Kremlin welcomed the ceasefire on April 8, urging diplomacy over escalation, as Iran's partner pr",
-      "raw": "**Russia's position**: Kremlin welcomed the ceasefire on April 8, urging diplomacy over escalation, as Iran's partner providing intelligence/drone advice; no new Russian actions, involvement in talks, or resolutions confirmed**[2]**.",
-      "direction": "NO",
+      "headline": "US signals new Iran talks within days as ceasefire holds; Kremlin welcomed earlier Iran ceasefire deal",
+      "raw": "US signals new Iran talks within days as ceasefire holds; Kremlin welcomed earlier Iran ceasefire deal.** | YES | HIGH confidence[1][2]\n\nUS President Donald Trump announced a new round of negotiations with Iran could occur in the next couple of days, with Pakistan offering to host after prior talks in Islamabad failed due to excessive US demands[1]. US Vice President JD Vance confirmed the current",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_497259",
-      "timestamp": "2026-04-16T01:25:20.955540+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Succeed Powell in May 2026, Pending Senate Confirmation | YES | HIGH co",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Succeed Powell in May 2026, Pending Senate Confirmation | YES | HIGH confidence**[1][2][3][5][6]\n\nPresident Donald Trump announced Kevin Warsh, a former Fed governor known for his hawkish stance on **inflation** and advocacy for a smaller Fed balance sheet, as his nominee for **Fed chair**.[1][2][4][5] This breaking development, highlighted in recen",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_483263",
-      "timestamp": "2026-04-16T01:25:06.959117+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ceasefire status**: A two-week US-Israel-Iran ceasefire, announced April 8, is holding (6-7 days in as of April 15 per",
-      "raw": "**Ceasefire status**: A two-week US-Israel-Iran ceasefire, announced April 8, is holding (6-7 days in as of April 15 per VP JD Vance), despite some post-announcement airstrikes, Strait of Hormuz disruptions, and a US naval blockade on Iranian ports raising tensions**[1][2][3][5]**.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_483269",
-      "timestamp": "2026-04-16T01:25:06.965614+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**New developments**: President Trump announced potential new US-Iran negotiations in \"the next couple of days,\" with Pa",
-      "raw": "**New developments**: President Trump announced potential new US-Iran negotiations in \"the next couple of days,\" with Pakistan offering to host after failed Islamabad talks; seeks nuclear limits for economic relief**[1][4]**.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
         "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_483253",
-      "timestamp": "2026-04-16T01:25:06.949124+00:00",
+      "id": "sig_645443",
+      "timestamp": "2026-04-16T01:27:49.139833+00:00",
       "source": "PERPLEXITY",
-      "headline": "US signals new Iran talks within days as ceasefire holds; Kremlin welcomes deal; no Russian involvement confirmed | NO |",
-      "raw": "US signals new Iran talks within days as ceasefire holds; Kremlin welcomes deal; no Russian involvement confirmed | NO | MED confidence**[1][2]",
+      "headline": "I cannot provide the specific breaking news you're requesting based on the available search results",
+      "raw": "I cannot provide the specific breaking news you're requesting based on the available search results. The search results contain information about King Charles' planned US visit to Washington D.C. on April 28th and ongoing US-Iran tensions, but they do not include any news about Vance, White House announcements, or events that have been \"obliterated\" that would occur around the current date (April ",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_483281",
-      "timestamp": "2026-04-16T01:25:06.977703+00:00",
+      "id": "sig_650149",
+      "timestamp": "2026-04-16T01:27:53.845088+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Prediction market impact**: No breakthroughs resolved (e",
-      "raw": "**Prediction market impact**: No breakthroughs resolved (e.g., no full deal, Russia not entering ceasefire/talks); ongoing tensions (blockade, shipping halt) limit major shifts, though talks signal de-escalation potential**[1][2][3]**.",
-      "direction": "NO",
+      "headline": "Confidence: HIGH** (search results lack any post-April 14 updates fitting \"RIGHT NOW\" or market-moving resolutions)",
+      "raw": "Confidence: HIGH** (search results lack any post-April 14 updates fitting \"RIGHT NOW\" or market-moving resolutions).[1][2][3][4][5][6]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_487999",
-      "timestamp": "2026-04-16T01:25:11.695061+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRUMP CLAIMS IRANIAN FORCES 'LITERALLY OBLITERATED' AFTER US STRIKES ON 7,000+ TARGETS, SLASHING MISSILE LAUNCHES 90% AN",
-      "raw": "TRUMP CLAIMS IRANIAN FORCES 'LITERALLY OBLITERATED' AFTER US STRIKES ON 7,000+ TARGETS, SLASHING MISSILE LAUNCHES 90% AND DRONE ATTACKS 95% | YES | HIGH confidence** [1]\n\nTrump's update, from a March 16, 2026 New York Post-reported statement, describes the Air Force, Navy (with many ships sunk), anti-aircraft systems, radar, and leaders as destroyed amid a third-week conflict involving missile, dr",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
-        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 4
+    "enter": 1,
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 1
   }
 }
