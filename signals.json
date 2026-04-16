@@ -1,64 +1,78 @@
 {
-  "last_scan": "2026-04-16T11:02:08.902695+00:00",
-  "scan_seconds": 25.0,
-  "markets_scanned": 88,
-  "open_positions": 47,
+  "last_scan": "2026-04-16T11:04:51.717522+00:00",
+  "scan_seconds": 24.1,
+  "markets_scanned": 81,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_88566",
-      "timestamp": "2026-04-16T11:01:52.227621+00:00",
+      "id": "sig_267055",
+      "timestamp": "2026-04-16T11:04:50.716465+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Holds Amid Failed Talks; New Round Possible Before Expiration | NO | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Holds Amid Failed Talks; New Round Possible Before Expiration | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions today (April 16, 2026) on a **ceasefire** involving **Russia** or **Iran** that would shift prediction markets, as a prior US-Iran two-week ceasefire (agreed last week, announced Tuesday) persists despite collapsed Pakistan-mediated tal",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_93799",
-      "timestamp": "2026-04-16T11:01:57.460707+00:00",
-      "source": "PERPLEXITY",
-      "headline": "King Charles' US State Visit Officially Confirmed for April 27-30 Despite Trump-UK Tensions Over Iran War | YES | HIGH c",
-      "raw": "King Charles' US State Visit Officially Confirmed for April 27-30 Despite Trump-UK Tensions Over Iran War | YES | HIGH confidence**\n\nBuckingham Palace announced on Tuesday that King Charles and Queen Camilla's first state visit to the US will occur in late April, with Trump promptly confirming exact dates (April 27-30) including a White House banquet on April 28th[3]. This follows earlier doubts a",
+      "headline": "Fed Holds Interest Rates Steady at 4",
+      "raw": "Fed Holds Interest Rates Steady at 4.25-4.5%, Citing Elevated Inflation and No Urgency for Cuts | NO | HIGH confidence**  \nThe U.S. Federal Reserve, led by Chair Jerome Powell, maintained its benchmark rate unchanged after its latest FOMC meeting, removing language on inflation nearing 2% and signaling caution amid solid economic growth.[1]  \nThis decision pressures South Korea's central bank (BOK",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_104240",
-      "timestamp": "2026-04-16T11:02:07.901969+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's nomination as next Fed Chair by President Trump, with likely Senate confirmation by mid-May 2026, amid sur",
-      "raw": "Kevin Warsh's nomination as next Fed Chair by President Trump, with likely Senate confirmation by mid-May 2026, amid surging inflation and oil shock.** | **YES** | **HIGH** confidence[1][2][3][4][5]\n\nWarsh, a former Fed governor known for hawkish views on inflation, is positioned to succeed Jerome Powell, whose final meeting is imminent, potentially leading to a rate hike as his first move despite",
-      "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_257191",
+      "timestamp": "2026-04-16T11:04:40.852166+00:00",
+      "source": "PERPLEXITY",
+      "headline": "VP JD Vance confirms Trump administration 'destroyed' Iran's nuclear facilities in Fordo and elsewhere via recent US str",
+      "raw": "VP JD Vance confirms Trump administration 'destroyed' Iran's nuclear facilities in Fordo and elsewhere via recent US strikes | YES | HIGH confidence** [1]\n\nVance made these remarks during a speech at the Republican state dinner in Lima, Ohio, praising the \"wildly successful attack\" over the weekend and discussing anticipation of Iran's potential counterattack, which could be real or symbolic. [1] ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Trump announces end of military operations against Iran by A",
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_261573",
+      "timestamp": "2026-04-16T11:04:45.234056+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Circle Mints $500M USDC on Solana, Pushing 2026 Total to $38B | YES | HIGH confidence** [2]",
+      "raw": "Circle Mints $500M USDC on Solana, Pushing 2026 Total to $38B | YES | HIGH confidence** [2]\n\nThis mint occurred on April 16, 2026, signaling rising liquidity, network usage, and DeFi growth potential on Solana, which could shift prediction markets on SOL adoption and price momentum.[2] It aligns with recent on-chain surges like 167M monthly token holders and $1T Q1 economic volume, despite price c",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_261581",
+      "timestamp": "2026-04-16T11:04:45.242739+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana AMMs Hit $1B Daily Volume, Matching Top 4 CEXs | YES | MED confidence** [4]",
+      "raw": "Solana AMMs Hit $1B Daily Volume, Matching Top 4 CEXs | YES | MED confidence** [4]\n\nReported April 15, 2026, this milestone reflects deep on-chain liquidity from AMMs like HumidiFi, boosting DEX dominance (60-80% of volume) and trader confidence\u2014e.g., \"Solana above $40\" market at 100% YES.[4] Could influence markets on SOL throughput and trading activity, though sustainability is key.[4]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
+    "enter": 0,
     "alert": 1,
-    "watch": 0,
-    "high_conf": 2
+    "watch": 3,
+    "high_conf": 0
   }
 }
