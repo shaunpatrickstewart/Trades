@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-16T15:45:17.687403+00:00",
-  "scan_seconds": 23.6,
+  "last_scan": "2026-04-16T15:48:09.447240+00:00",
+  "scan_seconds": 27.5,
   "markets_scanned": 82,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_77068",
-      "timestamp": "2026-04-16T15:45:00.712336+00:00",
+      "id": "sig_245307",
+      "timestamp": "2026-04-16T15:47:48.951324+00:00",
       "source": "PERPLEXITY",
-      "headline": "Putin's Emergency Speech Warns West Against Iran Intervention | NO | HIGH confidence**",
-      "raw": "Putin's Emergency Speech Warns West Against Iran Intervention | NO | HIGH confidence**  \nRussian President Vladimir Putin delivered a live emergency speech from the Kremlin on April 16, 2026, issuing a stark warning against Western military intervention in Iran, escalating geopolitical tensions and challenging U.S. policy under President Trump[1].  \nNo formal declarations of war, military alliance",
-      "direction": "NO",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal on Strait of Hormuz (April 8 Announcement)** | **YES** | **HIGH*",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal on Strait of Hormuz (April 8 Announcement)** | **YES** | **HIGH** confidence[1][2][4]\n\nRussia's Kremlin spokesman Dmitry Peskov explicitly welcomed the ceasefire agreement between the US, Israel, and Iran, emphasizing de-escalation and diplomatic talks over military action, as the deal averted escalation after Trump's ultimatum on reopening t",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -22,43 +22,81 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_82893",
-      "timestamp": "2026-04-16T15:45:06.537653+00:00",
+      "id": "sig_249601",
+      "timestamp": "2026-04-16T15:47:53.245345+00:00",
       "source": "PERPLEXITY",
-      "headline": "WHITE HOUSE ANNOUNCES IRAN CEASEFIRE AFTER TRUMP THREAT; CLAIMS IRAN 'BACKED DOWN' IN TWO-WEEK TRUCE** | **YES** | **HIG",
-      "raw": "WHITE HOUSE ANNOUNCES IRAN CEASEFIRE AFTER TRUMP THREAT; CLAIMS IRAN 'BACKED DOWN' IN TWO-WEEK TRUCE** | **YES** | **HIGH** confidence[1][3]\n\nThe White House confirmed on April 8, 2026, that Iran agreed to a two-week ceasefire following President Trump's Tuesday deadline threat of \"whole civilization\" obliteration if the Strait of Hormuz wasn't reopened, with spokesperson Karoline Leavitt stating ",
+      "headline": "King Charles Confirmed to Meet Trump and Address US Congress Despite Tensions | YES | MED confidence**",
+      "raw": "King Charles Confirmed to Meet Trump and Address US Congress Despite Tensions | YES | MED confidence**\n\nKing Charles is set to meet US President Donald Trump and address Congress as part of America's 250th birthday celebrations, with UK commentator Andrew Eborn stating the King remains \"above politics\" and won't cancel amid political fury and US-UK tensions.[1][2][3] This follows reports from Apri",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_93042",
-      "timestamp": "2026-04-16T15:45:16.686051+00:00",
+      "id": "sig_264802",
+      "timestamp": "2026-04-16T15:48:08.446167+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair on January 30, Raising Questions on 2026 Rate Path Amid Steady Inflation a",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair on January 30, Raising Questions on 2026 Rate Path Amid Steady Inflation and Stable Unemployment | YES | HIGH confidence**  \nPresident Trump nominated Kevin Warsh as the new Federal Reserve chair on January 30, 2026, to replace Jerome Powell whose term ends in May 2026; this development, combined with the Fed holding rates steady at 3.5\u20133.75% in Januar",
+      "headline": "Fed Chair Rate Hike Discussions Surfacing | YES | HIGH confidence**",
+      "raw": "Fed Chair Rate Hike Discussions Surfacing | YES | HIGH confidence**\n\nMarch FOMC minutes confirmed that **some Federal Reserve participants argued the target rate range should be raised if inflation exceeds 2%**[5]. However, Fed Chair Powell maintained a cautious stance, with CME FedWatch showing a 98.4% probability of a rate hold at the April FOMC meeting[5].\n\nThese developments suggest upside inf",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_264773",
+      "timestamp": "2026-04-16T15:48:08.417468+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Incoming Bank of Korea Chief Warns of Accelerating Inflation | YES | HIGH confidence**",
+      "raw": "Incoming Bank of Korea Chief Warns of Accelerating Inflation | YES | HIGH confidence**\n\nBank of Korea Governor nominee Shin Hyun-song warned on Wednesday (April 14, 2026) that **headline inflation is likely to accelerate**[1]. The Policy Board expects inflation to rise to the mid to upper two-percent range[3], driven largely by surging oil costs that have already pushed consumer prices above the c",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_264767",
+      "timestamp": "2026-04-16T15:48:08.411329+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the relevant recent developments:",
+      "raw": "Based on the search results provided, here are the relevant recent developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_264789",
+      "timestamp": "2026-04-16T15:48:08.433551+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's Benchmark Rate Held at 2",
+      "raw": "South Korea's Benchmark Rate Held at 2.5% for 7th Consecutive Month | YES | HIGH confidence**\n\nOn April 10, 2026, the Bank of Korea's Monetary Policy Board unanimously decided to **keep the benchmark interest rate unchanged at 2.5%**[3], taking a cautious \"wait-and-see\" approach amid external risk factors including the Middle East conflict[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 0,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 3,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 4
   }
 }
