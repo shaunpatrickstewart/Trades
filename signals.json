@@ -1,100 +1,143 @@
 {
-  "last_scan": "2026-04-16T19:50:50.410159+00:00",
-  "scan_seconds": 27.2,
-  "markets_scanned": 155,
-  "open_positions": 113,
+  "last_scan": "2026-04-16T19:53:37.550191+00:00",
+  "scan_seconds": 26.4,
+  "markets_scanned": 130,
+  "open_positions": 87,
   "signals": [
     {
-      "id": "sig_820160",
-      "timestamp": "2026-04-16T19:50:43.790642+00:00",
+      "id": "sig_987118",
+      "timestamp": "2026-04-16T19:53:30.748286+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana** opened for European investors via Interactive Brokers/Zero Hash, but price held at ~$82 without breakout, faili",
-      "raw": "Solana** opened for European investors via Interactive Brokers/Zero Hash, but price held at ~$82 without breakout, failing to drive appreciation despite strong DeFi volume ($57B in March) and fundamentals like Firedancer upgrade.[5][3] This access expansion lacks immediate market-moving impact on predictions.[6]",
+      "headline": "Ethereum:** Trading around $2,100 in early April[1]",
+      "raw": "Ethereum:** Trading around $2,100 in early April[1].\n\nTo provide accurate \"breaking news\" for April 16, 2026, I would need search results from today or very recent sources that contain current market announcements, confirmed events, or resolved issues. The current results are outdated for your request. I recommend conducting a new search with today's date specifications to capture genuine breaking",
       "direction": null,
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,000 on April 17?",
+        "Will Ethereum dip to $1,600 April 13-19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_974495",
+      "timestamp": "2026-04-16T19:53:18.125322+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Declares Iran War \"Basically Over\"** | YES | HIGH confidence[2]",
+      "raw": "Trump Declares Iran War \"Basically Over\"** | YES | HIGH confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_974504",
+      "timestamp": "2026-04-16T19:53:18.134691+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Putin Delivers Emergency Speech Warning West Against Iran Intervention** | YES | MED confidence[1]",
+      "raw": "Putin Delivers Emergency Speech Warning West Against Iran Intervention** | YES | MED confidence[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_974514",
+      "timestamp": "2026-04-16T19:53:18.144029+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Issues Ultimatum to Iran on Hormuz Blockade: \"Make a Deal or",
+      "raw": "Trump Issues Ultimatum to Iran on Hormuz Blockade: \"Make a Deal or...\"** | YES | HIGH confidence[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_987090",
+      "timestamp": "2026-04-16T19:53:30.720700+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the \"breaking news\" format you've requested based on these search results",
+      "raw": "I cannot provide the \"breaking news\" format you've requested based on these search results. The articles provided are from early April 2026 (primarily April 1st), which are over two weeks old relative to the current date of April 16, 2026.\n\nThe search results contain the following relevant information from early April:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_820134",
-      "timestamp": "2026-04-16T19:50:43.764880+00:00",
+      "id": "sig_987099",
+      "timestamp": "2026-04-16T19:53:30.729956+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin Maintains $75,000 Level on April 16 Amid Institutional Demand and Regulatory Progress | NO | HIGH confidence**",
-      "raw": "Bitcoin Maintains $75,000 Level on April 16 Amid Institutional Demand and Regulatory Progress | NO | HIGH confidence**  \nNo new confirmations, announcements, or resolutions today directly involving **April**, **Solana**, **Bitcoin**, or **Ethereum** that would shift prediction markets; recent surges (Bitcoin at $75K, Ethereum +8.6% to $2,377, Solana +6.3%) stem from earlier Iran-US peace signals a",
+      "headline": "Solana:** Trading around $82-83 with analysts projecting $88-$100 by end of April if a breakout confirms[3]",
+      "raw": "Solana:** Trading around $82-83 with analysts projecting $88-$100 by end of April if a breakout confirms[3]. However, conflicting reports indicate SOL was down 13% over one week due to a $280M+ Drift protocol exploit involving social engineering, with support tested between $75-80[4].",
       "direction": "NO",
       "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 18?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_987109",
+      "timestamp": "2026-04-16T19:53:30.739036+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin:** Analysts suggested potential movement toward $80,000, with stability above $68,000 viewed as a precursor[1]",
+      "raw": "Bitcoin:** Analysts suggested potential movement toward $80,000, with stability above $68,000 viewed as a precursor[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_979469",
+      "timestamp": "2026-04-16T19:53:23.099182+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Removes Truth Social Post Depicting Himself as Jesus; Vance Defends Trump Amid Backlash** | YES | MED confidence[1",
+      "raw": "Trump Removes Truth Social Post Depicting Himself as Jesus; Vance Defends Trump Amid Backlash** | YES | MED confidence[1][2][3]\n\nJD Vance, as Vice President, addressed and defended President Trump's controversial Truth Social post portraying himself as Jesus\u2014now removed\u2014while criticizing Pope Leo XIV, during a Fox News appearance and a Turning Point USA rally in Georgia on April 14-15, 2026[1][2][",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 30, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_820147",
-      "timestamp": "2026-04-16T19:50:43.777557+00:00",
+      "id": "sig_992919",
+      "timestamp": "2026-04-16T19:53:36.549490+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Trading Launched on Interactive Brokers for Europeans | NO | MED confidence**",
-      "raw": "Solana Trading Launched on Interactive Brokers for Europeans | NO | MED confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_820171",
-      "timestamp": "2026-04-16T19:50:43.801232+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Outperforms on On-Chain Surge and Glamsterdam Upgrade Outlook | NO | HIGH confidence**",
-      "raw": "Ethereum Outperforms on On-Chain Surge and Glamsterdam Upgrade Outlook | NO | HIGH confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_820181",
-      "timestamp": "2026-04-16T19:50:43.811931+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum** rallied 8",
-      "raw": "Ethereum** rallied 8.6% to $2,377 with 41% on-chain activity jump, eyeing $2,600\u2013$2,800 if above $2,300 holds, tied to ETF flows and 2026 Glamsterdam upgrade for speed/cost cuts; no fresh resolutions today.[2][6] Prediction markets show low short-term ATH odds (2% by June).[4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_820192",
-      "timestamp": "2026-04-16T19:50:43.822673+00:00",
-      "source": "PERPLEXITY",
-      "headline": "AI Predicts BTC/ETH/SOL as April Top Plays; No Breaking Confirmations | NO | LOW confidence**",
-      "raw": "AI Predicts BTC/ETH/SOL as April Top Plays; No Breaking Confirmations | NO | LOW confidence**  \nGrok AI names **Bitcoin**, **Ethereum**, and **Solana** as top April 2026 plays (BTC \"digital gold,\" ETH DeFi/upgrades, SOL throughput/DeFi), but this is speculative forecast from early April, not a \"right now\" event; BTC ATH probabilities remain low (3% by June).[1][4] Market sentiment moderately posit",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | YES | HIGH confidence** [1]\n\nThis March figure, released around early April 2026 per source timing, marks a recent uptick driven by global energy volatility from Middle East conflict and weak won, keeping inflation above the Bank of Korea's 2% target.[1][4] The Bank of Korea confirmed",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
-        "Will Bitcoin dip to $69,000 on April 16?",
-        "Will the price of Ethereum be above $2,000 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 0
+    "alert": 7,
+    "watch": 2,
+    "high_conf": 1
   }
 }
