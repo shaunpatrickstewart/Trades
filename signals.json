@@ -1,15 +1,49 @@
 {
-  "last_scan": "2026-04-16T22:43:28.414060+00:00",
-  "scan_seconds": 31.6,
-  "markets_scanned": 151,
-  "open_positions": 107,
+  "last_scan": "2026-04-16T22:46:19.946559+00:00",
+  "scan_seconds": 27.1,
+  "markets_scanned": 80,
+  "open_positions": 36,
   "signals": [
     {
-      "id": "sig_159927",
-      "timestamp": "2026-04-16T22:43:03.546805+00:00",
+      "id": "sig_338401",
+      "timestamp": "2026-04-16T22:46:02.020629+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pentagon Confirms U",
-      "raw": "Pentagon Confirms U.S.-Iran Ceasefire Holding Amid Blockade; Trump Ultimatum Issued to New Regime** | YES | HIGH confidence[1][2][5]\n\nPutin delivered an emergency speech warning against Western intervention in Iran, escalating tensions and challenging U.S. policy under Trump[1]. U.S. Defense Secretary Pete Hegseth and Joint Chiefs Chairman Gen. Dan Caine stated the fragile ceasefire holds, with in",
+      "headline": "Iran Limits Strait of Hormuz Transit to 15 Vessels/Day During Ceasefire | NO (No Full Reopening) | HIGH confidence** [1]",
+      "raw": "Iran Limits Strait of Hormuz Transit to 15 Vessels/Day During Ceasefire | NO (No Full Reopening) | HIGH confidence** [1]\n\nIranian officials confirmed on April 9, 2026, they will restrict transit to no more than 15 vessels per day through the Strait of Hormuz amid an ongoing ceasefire, directing ships into Iranian-controlled waters for IRGC Navy coordination and fees.[1][2] This \"new phase\" of mana",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_338407",
+      "timestamp": "2026-04-16T22:46:02.026363+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US Strikes Hit 80% of Iran's Nuclear Industrial Base, Including Key Weapons Site | YES (Nuclear Degradation Confirmed) |",
+      "raw": "US Strikes Hit 80% of Iran's Nuclear Industrial Base, Including Key Weapons Site | YES (Nuclear Degradation Confirmed) | HIGH confidence** [1]\n\nChairman of the Joint Chiefs General Dan Caine confirmed on April 8 that combined US-led strikes damaged 80% of Iran's nuclear industrial base, including the Shahid Boroujerdi site at Parchin (a pre-2003 nuclear weapons core production facility) per satell",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_338419",
+      "timestamp": "2026-04-16T22:46:02.038553+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia Shared Israeli Energy Site Intel with Iran | YES (Confirmed by Ukraine) | MED confidence** [4]",
+      "raw": "Russia Shared Israeli Energy Site Intel with Iran | YES (Confirmed by Ukraine) | MED confidence** [4]\n\nUkraine's Zelenskyy stated on April 7 that Russia provided satellite intelligence on 50-53 Israeli energy facilities to aid Iranian strikes, via a permanent channel and per their security treaty.[4][8]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,56 +56,26 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_165962",
-      "timestamp": "2026-04-16T22:43:09.581382+00:00",
+      "id": "sig_350075",
+      "timestamp": "2026-04-16T22:46:13.694223+00:00",
       "source": "PERPLEXITY",
-      "headline": "Chris Dudley Announces Second Bid for Oregon Governor** | **NO** | **LOW** confidence[1]",
-      "raw": "Chris Dudley Announces Second Bid for Oregon Governor** | **NO** | **LOW** confidence[1]\n\nChris Dudley, a former NBA player and 2010 Republican gubernatorial candidate, has announced his candidacy to challenge Democratic Gov. Tina Kotek, joining 13 other Republicans in the race ahead of the May 19 primary[1]. No mentions of J.D. Vance, White House involvement, or election resolutions appear in rec",
-      "direction": "NO",
+      "headline": "Solana ETF Inflows Confirmed on April 16 | YES | HIGH confidence**",
+      "raw": "Solana ETF Inflows Confirmed on April 16 | YES | HIGH confidence**  \nU.S. spot Solana ETFs recorded $5.04 million in net inflows on April 16, 2026, following $5.36 million the prior day, with cumulative net assets at $835 million, signaling strong institutional demand that could support price momentum amid recent Solana surges to $86.55[3][4].",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_175714",
-      "timestamp": "2026-04-16T22:43:19.333027+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confirmed economic data releases (Federal Reserve decisions, inflation reports)",
-      "raw": "Confirmed economic data releases (Federal Reserve decisions, inflation reports)",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_183783",
-      "timestamp": "2026-04-16T22:43:27.402300+00:00",
+      "id": "sig_355326",
+      "timestamp": "2026-04-16T22:46:18.945838+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's Inflation Rises to 2",
-      "raw": "South Korea's Inflation Rises to 2.2% in March 2026, Above Central Bank Target | YES | HIGH confidence**\n\nSouth Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in both January and February, marking a significant shift that exceeds the Bank of Korea's 2% target[1]. This increase comes despite inflation being below market forecasts of 2.4%[1].\n\nThe uptick is primarily driven b",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_183794",
-      "timestamp": "2026-04-16T22:43:27.413164+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market implications:** The Bank of Korea has maintained its benchmark interest rate at 2",
-      "raw": "Market implications:** The Bank of Korea has maintained its benchmark interest rate at 2.5% for the 7th consecutive month as of April 10, 2026, with policymakers signaling a cautious stance amid external risks[4]. The Policy Board expects inflation to rise into the mid to upper two-percent range, and experts warn that rising global oil prices and currency weakness continue to increase uncertainty ",
+      "headline": "Bank of Korea Holds Benchmark Interest Rate at 2",
+      "raw": "Bank of Korea Holds Benchmark Interest Rate at 2.5% on April 10, 2026, Citing Inflation Above 2% Target and Middle East Risks | YES | HIGH confidence** [3][4]\n\nThis unanimous decision by the Monetary Policy Board marks the 7th consecutive month at 2.5%, driven by consumer prices at about 2.2%\u2014slightly above the 2% target\u2014and upside inflation risks from surging oil prices amid Middle East conflict[",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
@@ -80,55 +84,12 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_175692",
-      "timestamp": "2026-04-16T22:43:19.311511+00:00",
+      "id": "sig_338413",
+      "timestamp": "2026-04-16T22:46:02.032829+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain any recent annou",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain any recent announcements, confirmations, or resolutions that would move Bitcoin prediction markets as of April 16, 2026.\n\nThe most recent data available is from April 15, 2026, which shows Bitcoin trading at $74,286.71[2]\u2014a modest decline from the previous day. The search results primarily conta",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Bitcoin dip to $70,000 on April 16?",
-        "Will Bitcoin dip to $69,000 on April 16?",
-        "Will Bitcoin dip to $58,000 April 13-19?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_175703",
-      "timestamp": "2026-04-16T22:43:19.322181+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official announcements from regulatory bodies, exchanges, or major institutions",
-      "raw": "Official announcements from regulatory bodies, exchanges, or major institutions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_175724",
-      "timestamp": "2026-04-16T22:43:19.343682+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Geopolitical developments with direct market impact",
-      "raw": "Geopolitical developments with direct market impact",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_175735",
-      "timestamp": "2026-04-16T22:43:19.354827+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant corporate or government cryptocurrency policy changes",
-      "raw": "Significant corporate or government cryptocurrency policy changes\n\nThe search results do reference historical context (such as the Iran ceasefire from April 9 that affected oil prices and triggered short liquidations[3]), but nothing that appears to be breaking news as of your specified date.\n\nIf you're looking for current Bitcoin market movers, I recommend checking real-time financial news source",
-      "direction": null,
+      "headline": "Iran-US Strait Talks Reach Stalemate Over Hormuz Control | NO (No Resolution) | MED confidence** [2]",
+      "raw": "Iran-US Strait Talks Reach Stalemate Over Hormuz Control | NO (No Resolution) | MED confidence** [2]\n\nApril 11 negotiations stalled on Strait status, with Iran demanding sovereignty, compensation, asset releases, and a broader \"Axis of Resistance\" ceasefire, per sources briefed on talks.[2]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -137,13 +98,77 @@
       ],
       "action": "ALERT",
       "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_338427",
+      "timestamp": "2026-04-16T22:46:02.046053+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No New Fire Since April 8; Iran Adheres to Ceasefire with Minimal Gulf Drone Strike | YES (Ceasefire Holding) | HIGH con",
+      "raw": "No New Fire Since April 8; Iran Adheres to Ceasefire with Minimal Gulf Drone Strike | YES (Ceasefire Holding) | HIGH confidence** [1][2]\n\nNo exchanges reported since April 8 cutoff; Iran's single April 11 Bahrain drone reflects declining attacks on Gulf states.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_350080",
+      "timestamp": "2026-04-16T22:46:13.699839+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran Signals Peace Talks with U",
+      "raw": "Iran Signals Peace Talks with U.S., Fueling Crypto Surge Including Solana, Ethereum, XRP | YES | HIGH confidence**  \nIran's signal to resume peace talks with the U.S. drove Bitcoin above $75,000, Ethereum up 8.6% to $2,377, Solana up 6.3% to $86.55, and XRP up 4.2% to $1.38, easing Middle East tensions that had pressured markets[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET",
+        "Ethereum Up or Down - April 17, 1:45PM-2:00PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_350086",
+      "timestamp": "2026-04-16T22:46:13.705622+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tether Backs $150M Solana Exploit Recovery Plan | YES | HIGH confidence**",
+      "raw": "Tether Backs $150M Solana Exploit Recovery Plan | YES | HIGH confidence**  \nTether supported Drift Protocol's $150M recovery for users after a $285M exploit on Solana, expanding USDT's role and boosting network confidence on April 16, 2026[4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_350098",
+      "timestamp": "2026-04-16T22:46:13.717225+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP CLARITY Act Senate Markup Looms Mid-April, ETF Inflows Hit $119",
+      "raw": "XRP CLARITY Act Senate Markup Looms Mid-April, ETF Inflows Hit $119.6M | YES | MED confidence**  \nXRP weekly ETF inflows reached $119.6M amid price climb to $1.38-$1.39, with potential CLARITY Act passage in late April possibly pushing prices to $1.60 by confirming commodity status[3][5].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $0.90 on April 21?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 7,
+    "enter": 4,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 4
   }
 }
