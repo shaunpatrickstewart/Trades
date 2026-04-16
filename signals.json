@@ -1,47 +1,90 @@
 {
-  "last_scan": "2026-04-16T04:17:23.871835+00:00",
-  "scan_seconds": 23.4,
+  "last_scan": "2026-04-16T04:20:14.111731+00:00",
+  "scan_seconds": 29.9,
   "markets_scanned": 80,
   "open_positions": 41,
   "signals": [
     {
-      "id": "sig_804874",
-      "timestamp": "2026-04-16T04:17:08.560096+00:00",
+      "id": "sig_989424",
+      "timestamp": "2026-04-16T04:20:13.110501+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Hormuz Tensions | YES | HIGH confidence**[1]",
-      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Hormuz Tensions | YES | HIGH confidence**[1]\n\nThe Kremlin spokesman confirmed Russia's support for a two-week ceasefire agreed on Wednesday (April 8, 2026) between the US, Israel, and Iran, emphasizing de-escalation and diplomacy over military action[1]. This 11th-hour deal aims to avert wider war and address the historic oil sup",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "Kevin Warsh Emerges as Top Contender for Fed Chair, with Speculation on Rate Hike Amid Surging Inflation and Oil Shock |",
+      "raw": "Kevin Warsh Emerges as Top Contender for Fed Chair, with Speculation on Rate Hike Amid Surging Inflation and Oil Shock | NO | HIGH confidence**\n\nNo confirmed announcement, resolution, or final decision on Kevin Warsh's Fed chair nomination, South Korea ties, or immediate policy shifts like rate hikes/cuts\u2014only reports of him as a leading candidate succeeding Jerome Powell by mid-May 2026[1][3][4].",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_813515",
-      "timestamp": "2026-04-16T04:17:17.201328+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to lack of real-time events post-April 14; earlier oil crash from ceasefire already priced in",
-      "raw": "LOW confidence** due to lack of real-time events post-April 14; earlier oil crash from ceasefire already priced in.[2]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_804880",
-      "timestamp": "2026-04-16T04:17:08.566403+00:00",
+      "id": "sig_978744",
+      "timestamp": "2026-04-16T04:20:02.430438+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Plan Second Ceasefire Talks Before Two-Week Pause Ends; Trump Predicts Progress Amid Troop Buildup | YES | MED c",
-      "raw": "US-Iran Plan Second Ceasefire Talks Before Two-Week Pause Ends; Trump Predicts Progress Amid Troop Buildup | YES | MED confidence**[2]\n\nBloomberg reported on April 15 both sides seeking further talks next week to extend the ceasefire, with Trump forecasting \"amazing\" developments in the next two days despite unconfirmed Iranian details and Pentagon plans to deploy thousands more troops[2]. This fo",
+      "headline": "Based on the search results, here are the breaking developments:",
+      "raw": "Based on the search results, here are the breaking developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_978750",
+      "timestamp": "2026-04-16T04:20:02.436171+00:00",
+      "source": "PERPLEXITY",
+      "headline": "UK Rejects Iran War Entry Despite Trump Pressure | YES | HIGH confidence**",
+      "raw": "UK Rejects Iran War Entry Despite Trump Pressure | YES | HIGH confidence**\nPrime Minister Keir Starmer has firmly declared Britain will not join the Iran conflict, stating \"it is not our war\" and \"it is not in our national interest to join this war and we will not do so.\"[1] Trump had threatened to reconsider the UK-US trade deal in response.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_978761",
+      "timestamp": "2026-04-16T04:20:02.447307+00:00",
+      "source": "PERPLEXITY",
+      "headline": "VP Vance Publicly Warns Pope Over War Criticism | YES | HIGH confidence**",
+      "raw": "VP Vance Publicly Warns Pope Over War Criticism | YES | HIGH confidence**\nVice President JD Vance warned Pope Leo to \"be careful when he talks about matters of theology\" after the Pope criticized Trump's rhetoric about destroying Iranian civilization, stating \"Jesus does not listen to the prayers of those who wage war.\"[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_978766",
+      "timestamp": "2026-04-16T04:20:02.452786+00:00",
+      "source": "PERPLEXITY",
+      "headline": "King Charles III State Visit Planned | YES | MEDIUM confidence**",
+      "raw": "King Charles III State Visit Planned | YES | MEDIUM confidence**\nA state visit involving King Charles III is upcoming, marking the 250th anniversary of UK-US relations.[1]\n\nThese developments indicate escalating U.S.-Iran tensions, a diplomatic rift between Trump and the UK over war involvement, and unprecedented friction between the administration and the Catholic Church over military rhetoric.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_970478",
+      "timestamp": "2026-04-16T04:19:54.164912+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran signal new ceasefire talks amid ongoing violations; Russia warns of US-Israel escalation plans",
+      "raw": "US and Iran signal new ceasefire talks amid ongoing violations; Russia warns of US-Israel escalation plans.** | YES | MED[1][2][4][5][6]\n\nUS President Trump and VP JD Vance announced potential second-round peace talks with Iran within days, as the initial two-week ceasefire (from early April) holds despite mutual accusations of violations like Hormuz blockade issues[1][2][4]. Iran officials hint a",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
@@ -52,29 +95,12 @@
       "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_819184",
-      "timestamp": "2026-04-16T04:17:22.870634+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Rises to 2",
-      "raw": "South Korea March 2026 Inflation Rises to 2.2% YoY (from 2.0%), Below 2.4% Expectations | YES | HIGH confidence** [1][3]\n\nThis data, released around early April 2026, marks the latest update on South Korea's **annual inflation**, showing a modest uptick but undershooting forecasts amid won weakness and energy volatility from the Iran conflict.[1][3] Core inflation eased to 2.2%, aligning with the ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?",
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
-    "watch": 2,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 0
   }
 }
