@@ -1,29 +1,61 @@
 {
-  "last_scan": "2026-04-16T23:08:41.591949+00:00",
-  "scan_seconds": 25.1,
-  "markets_scanned": 135,
-  "open_positions": 94,
+  "last_scan": "2026-04-16T23:11:23.888869+00:00",
+  "scan_seconds": 23.6,
+  "markets_scanned": 79,
+  "open_positions": 38,
   "signals": [
     {
-      "id": "sig_696908",
-      "timestamp": "2026-04-16T23:08:40.526679+00:00",
+      "id": "sig_842678",
+      "timestamp": "2026-04-16T23:11:06.296943+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news from these search results that would move prediction markets",
-      "raw": "I cannot identify breaking news from these search results that would move prediction markets. The most recent data available is from **April 10, 2026**, when the Bank of Korea held its benchmark rate at 2.5% for the 7th consecutive month[3]. At that time, consumer prices had climbed above the central bank's 2% target, with inflation expected to rise to the mid to upper two-percent range[3].\n\nHowev",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal as De-Escalation Step | YES | HIGH confidence** [1]",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal as De-Escalation Step | YES | HIGH confidence** [1]\n\nThe Kremlin spokesman confirmed Russia's support for the ceasefire agreement between the US, Israel, and Iran, announced on Wednesday (April 8, 2026), emphasizing a shift to diplomatic talks and no further military escalation[1]. This 11th-hour deal aims to avert wider war amid oil supply d",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_852714",
+      "timestamp": "2026-04-16T23:11:16.332325+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Alpenglow Consensus Upgrade Announced, Slashing Transaction Finality to 150 Milliseconds | YES | HIGH confidence**",
+      "raw": "Alpenglow Consensus Upgrade Announced, Slashing Transaction Finality to 150 Milliseconds | YES | HIGH confidence**  \nThe upgrade aims to boost Solana's speed from 12 seconds, alongside Firedancer validator progress, representing confirmed technical advancements that could influence markets betting on blockchain scalability.[2]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_696925",
-      "timestamp": "2026-04-16T23:08:40.543956+00:00",
+      "id": "sig_852708",
+      "timestamp": "2026-04-16T23:11:16.326688+00:00",
       "source": "PERPLEXITY",
-      "headline": "Today's inflation data release from South Korea's statistics office",
-      "raw": "Today's inflation data release from South Korea's statistics office",
-      "direction": null,
+      "headline": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions as of April 14, 2026 | YE",
+      "raw": "Solana Hits Record 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions as of April 14, 2026 | YES | HIGH confidence**  \nThis network activity surge, reported on April 14, coincides with robust institutional interest from BlackRock and Fidelity's record SOL ETF holdings, potentially moving prediction markets on Solana adoption and performance.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_859269",
+      "timestamp": "2026-04-16T23:11:22.887892+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news as requested because the search results do not contain information from today (April 16,",
+      "raw": "I cannot provide breaking news as requested because the search results do not contain information from today (April 16, 2026). The most recent data available is from April 10, 2026, when the Bank of Korea held its benchmark interest rate at 2.5% for the 7th consecutive month[3]. The latest inflation reading mentioned is approximately 2.2%, slightly above the BOK's 2% target, with expectations for ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -33,62 +65,26 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_696939",
-      "timestamp": "2026-04-16T23:08:40.557467+00:00",
+      "id": "sig_852720",
+      "timestamp": "2026-04-16T23:11:16.338085+00:00",
       "source": "PERPLEXITY",
-      "headline": "An emergency Bank of Korea policy announcement",
-      "raw": "An emergency Bank of Korea policy announcement",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | MED confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | MED confidence**  \nThis expansion provides direct access to one of the largest brokerages, enhancing institutional liquidity amid SOL trading at ~$82, though price remains compressed without breakout.[6]  \n\nNo breaking confirmations, announcements, or resolutions found for Ethereum in April 2026 across results. P",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_696951",
-      "timestamp": "2026-04-16T23:08:40.569391+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Updated economic forecasts or guidance",
-      "raw": "Updated economic forecasts or guidance",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_696962",
-      "timestamp": "2026-04-16T23:08:40.580209+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant currency or commodity price movements affecting Korea's economy",
-      "raw": "Significant currency or commodity price movements affecting Korea's economy",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_696973",
-      "timestamp": "2026-04-16T23:08:40.591168+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I recommend searching for the latest South Korean inflation data or central bank announcements from April 16, 2026** to",
-      "raw": "I recommend searching for the latest South Korean inflation data or central bank announcements from April 16, 2026** to find current market-moving information.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 2
   }
 }
