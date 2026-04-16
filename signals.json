@@ -1,133 +1,112 @@
 {
-  "last_scan": "2026-04-16T02:03:00.693995+00:00",
-  "scan_seconds": 20.9,
+  "last_scan": "2026-04-16T02:05:38.985007+00:00",
+  "scan_seconds": 19.6,
   "markets_scanned": 100,
   "open_positions": 64,
   "signals": [
     {
-      "id": "sig_741027",
-      "timestamp": "2026-04-16T02:02:44.721311+00:00",
+      "id": "sig_899819",
+      "timestamp": "2026-04-16T02:05:23.513380+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran-US Ceasefire Deal Confirmed; Russia Pauses Ukraine War with Easter Truce** | YES | HIGH confidence[1][2][5][6]",
-      "raw": "Iran-US Ceasefire Deal Confirmed; Russia Pauses Ukraine War with Easter Truce** | YES | HIGH confidence[1][2][5][6]\n\nRussia announced a **unilateral ceasefire** in Ukraine from 4 PM April 11 to end of day April 12, 2026, tied to Orthodox Easter, after ignoring Kyiv's prior proposals; Zelenskyy expressed skepticism[1][5]. A **two-week ceasefire** between US, Israel, and Iran took effect around Apri",
-      "direction": "YES",
+      "headline": "US-Iran Ceasefire Announced (April 8-9, 2026) | NO | HIGH confidence**",
+      "raw": "US-Iran Ceasefire Announced (April 8-9, 2026) | NO | HIGH confidence**  \nA two-week ceasefire between the US, Israel, and Iran was confirmed on April 8-9, 2026, averting wider war and easing oil supply shocks in the Strait of Hormuz, with Russia welcoming it and hoping for successful negotiations.[1][2][3]  \nNo connection exists to Ternuvate (a location in Ukraine's Zaporizhzhya Oblast per predict",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_745457",
-      "timestamp": "2026-04-16T02:02:49.151830+00:00",
+      "id": "sig_914290",
+      "timestamp": "2026-04-16T02:05:37.984260+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump threatens to axe UK-US trade deal over UK's refusal to join Iran war; Starmer insists King Charles state visit to",
-      "raw": "Trump threatens to axe UK-US trade deal over UK's refusal to join Iran war; Starmer insists King Charles state visit to US proceeds** | NO | HIGH confidence[1][2]\n\nUK Prime Minister Keir Starmer responded at PMQs on April 15, 2026, to Trump's threat\u2014made in a Sky News phone call\u2014to renege on the prior year's UK-US trade deal (covering tariffs on cars, aluminum, steel) due to UK's non-involvement i",
-      "direction": "NO",
+      "headline": "Confidence: HIGH** (search results lack any \"just confirmed\" developments as of April 16, 2026)",
+      "raw": "Confidence: HIGH** (search results lack any \"just confirmed\" developments as of April 16, 2026).",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran diplomatic meeting by April 18, 2026?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_750793",
-      "timestamp": "2026-04-16T02:02:54.487479+00:00",
+      "id": "sig_909612",
+      "timestamp": "2026-04-16T02:05:33.306735+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Clarifies Crypto Rules at Roundtable | YES | HIGH**",
+      "raw": "SEC Clarifies Crypto Rules at Roundtable | YES | HIGH**  \nOn April 15, 2026, the SEC issued guidance on crypto interfaces, potentially aiding XRPL's native DEX amid a bullish MACD crossover and price compression targeting $1.56 breakout.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $1.60 on April 19?",
+        "Will the price of XRP be above $1.00 on April 19?",
+        "Will XRP reach $1.90 April 13-19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_909620",
+      "timestamp": "2026-04-16T02:05:33.314332+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market Surge: ETH +8",
+      "raw": "Market Surge: ETH +8.6%, XRP +4.2%, SOL +6.3% | YES | MED**  \nBitcoin hit $75K on April 14, 2026, fueling altcoin rallies\u2014Ethereum to $2,377, XRP to $1.38, Solana to $86.55\u2014backed by XRP ETF flows and Solana DeFi/ETF demand, though facing tax deadline and FOMC tests.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Ethereum reach $2,550 on April 15?",
+        "Will the price of Solana be above $100 on April 18?",
+        "Will the price of XRP be above $1.60 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_909627",
+      "timestamp": "2026-04-16T02:05:33.321792+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Teases XRP Integration | YES | MED**",
+      "raw": "Solana Teases XRP Integration | YES | MED**  \nRecent reports on April 15, 2026, highlight Solana teasing XRP bridging via Hex Trust/LayerZero (from Dec 2025 Breakpoint), enabling yield and RWAs without bridging risk, boosting cross-chain hype.[6][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 18?",
+        "Will the price of XRP be above $1.60 on April 19?",
+        "Will the price of Solana be above $130 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_909604",
+      "timestamp": "2026-04-16T02:05:33.298977+00:00",
       "source": "PERPLEXITY",
       "headline": "XRP ETF Inflows Hit $119",
-      "raw": "XRP ETF Inflows Hit $119.6M & Rakuten Integration Confirmed (Apr 14, 2026)** | YES | HIGH  \nU.S. spot XRP ETFs saw their strongest single-day inflows since Dec 2025 at $119.6 million, paired with Rakuten Wallet integrating XRP into Rakuten Pay for 44 million users to convert to loyalty points, signaling institutional demand and retail utility that could shift prediction markets bullish.[4]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_755990",
-      "timestamp": "2026-04-16T02:02:59.684721+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea Annual Inflation Holds at 2",
-      "raw": "South Korea Annual Inflation Holds at 2.2% in March Despite Oil Caps, But Risks 3% by May-June on Energy Spillover | YES | MED confidence**  \nBank of Korea\u2019s March consumer price inflation stabilized at 2.2% thanks to government measures like oil price caps and fuel tax cuts, signaling a temporary pause in rate-cut cycles under Governor Rhee Chang-yong, though experts anticipate acceleration if Mi",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_750802",
-      "timestamp": "2026-04-16T02:02:54.496601+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Hits 167M Monthly Holders Record & Alpenglow Upgrade Progress (Apr 14, 2026)** | YES | MED",
-      "raw": "Solana Hits 167M Monthly Holders Record & Alpenglow Upgrade Progress (Apr 14, 2026)** | YES | MED  \nSolana achieved an all-time high of 167 million monthly token holders and 148 million daily non-vote transactions, with the Alpenglow consensus upgrade advancing toward 150ms finality and institutional ETF holdings from BlackRock/Fidelity growing, potentially impacting ATH prediction markets.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_755998",
-      "timestamp": "2026-04-16T02:02:59.692831+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Warsh Discloses $200M+ Assets Including Juggernaut Funds Ahead of Confirmation | NO**",
-      "raw": "Warsh Discloses $200M+ Assets Including Juggernaut Funds Ahead of Confirmation | NO**  \nNo market-moving confirmation, announcement, or resolution here; this is standard pre-confirmation financial disclosure with no new policy signals.[4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_750810",
-      "timestamp": "2026-04-16T02:02:54.504211+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Issues Crypto Interface Guidance at Roundtable (Apr 15, 2026)** | YES | MED",
-      "raw": "SEC Issues Crypto Interface Guidance at Roundtable (Apr 15, 2026)** | YES | MED  \nSEC clarified rules for crypto interfaces, potentially aiding XRPL's native DEX, amid XRP's technical setup with bullish MACD crossover in a symmetrical triangle, which could influence regulatory clarity bets in prediction markets.[4]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_755981",
-      "timestamp": "2026-04-16T02:02:59.675034+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh to Lead Fed Amid Inflation Concerns and Iran War Stagflation Risks | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh to Lead Fed Amid Inflation Concerns and Iran War Stagflation Risks | YES | HIGH confidence**  \nPresident Trump\u2019s nomination of Kevin Warsh as Fed chair introduces major policy uncertainty, with Warsh potentially delaying rate cuts due to rising inflation pressures from the Iran war and energy shocks, as highlighted in recent analyses.[1][2] This hawkish stance on inflat",
+      "raw": "XRP ETF Inflows Hit $119.6M & Rakuten Integration | YES | HIGH**  \nU.S. spot XRP ETFs saw $119.6 million in inflows on April 14, 2026\u2014the strongest since December 2025\u2014while Rakuten Wallet integrated XRP for its 44 million users to convert into loyalty points, signaling major institutional and retail adoption that could drive prediction markets higher.[4][2]",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the price of XRP be above $1.60 on April 19?",
+        "Will the price of XRP be above $1.00 on April 19?",
+        "Will XRP reach $1.90 April 13-19?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
+    "enter": 1,
     "alert": 4,
-    "watch": 2,
-    "high_conf": 3
+    "watch": 1,
+    "high_conf": 2
   }
 }
