@@ -1,49 +1,31 @@
 {
-  "last_scan": "2026-04-16T23:25:24.286841+00:00",
-  "scan_seconds": 28.4,
-  "markets_scanned": 79,
+  "last_scan": "2026-04-16T23:28:20.814585+00:00",
+  "scan_seconds": 37.0,
+  "markets_scanned": 78,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_682773",
-      "timestamp": "2026-04-16T23:25:06.390763+00:00",
+      "id": "sig_849583",
+      "timestamp": "2026-04-16T23:27:53.200989+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire (announced ~April 8):** Fragile 14-day/2-week deal between US, Israel, and Iran to de-escalate war and",
-      "raw": "US-Iran Ceasefire (announced ~April 8):** Fragile 14-day/2-week deal between US, Israel, and Iran to de-escalate war and reopen Strait of Hormuz, welcomed initially by Kremlin but quickly faltering with violations, ongoing strikes, and Hormuz closure persisting; Russian officials (Zakharova, Medvedev) express skepticism and note Iran's leverage\u2014no new confirmations or resolutions.[1][2][3][4][6]",
+      "headline": "I cannot provide the market-moving prediction you're requesting because the search results don't contain information abo",
+      "raw": "I cannot provide the market-moving prediction you're requesting because the search results don't contain information about \"ternuvate\" or current breaking news from today (April 16, 2026). The most recent information available is from April 14, which describes the collapse of the Easter ceasefire that occurred over April 11-12.\n\nBased on the available search results, here's what has been confirmed",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Russia enter Ternuvate again by April 30?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_682786",
-      "timestamp": "2026-04-16T23:25:06.403585+00:00",
+      "id": "sig_871495",
+      "timestamp": "2026-04-16T23:28:15.112040+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia-Ukraine Ceasefire (April 11-12):** Putin announced 32-hour Easter truce (unilateral, halted Russian operations bu",
-      "raw": "Russia-Ukraine Ceasefire (April 11-12):** Putin announced 32-hour Easter truce (unilateral, halted Russian operations but ready for defense); viewed as humanitarian but no negotiation breakthrough or extension confirmed\u2014expired days ago.[4][5]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Will Russia enter Vozdvyzhivka by April 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_694740",
-      "timestamp": "2026-04-16T23:25:18.357974+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow upgrade governance vote passed (98",
-      "raw": "Solana Alpenglow upgrade governance vote passed (98.27% in favor)** | YES | **MED confidence** - Reported as recent catalyst to cut transaction finality to 100-150ms, but dated to early April without today's confirmation; could boost network appeal amid 167M token holders record.[3][1]",
+      "headline": "Solana Hits 167M Monthly Token Holders, Alpenglow Upgrade On Track | YES | HIGH confidence**",
+      "raw": "Solana Hits 167M Monthly Token Holders, Alpenglow Upgrade On Track | YES | HIGH confidence**\n\nSolana reached an all-time record of 167 million monthly token holders as of April 14, 2026, with daily non-vote transactions hitting 148 million historic highs[1]. The highly anticipated **Alpenglow consensus upgrade has passed governance with 98.27% approval** and aims to reduce transaction finality fro",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -54,142 +36,91 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_682766",
-      "timestamp": "2026-04-16T23:25:06.383258+00:00",
+      "id": "sig_876196",
+      "timestamp": "2026-04-16T23:28:19.813587+00:00",
       "source": "PERPLEXITY",
-      "headline": "No major breaking news confirmed RIGHT NOW (April 16, 2026) on ternuvate, ceasefire, Russia, \"will Russia,\" or Iran that",
-      "raw": "No major breaking news confirmed RIGHT NOW (April 16, 2026) on ternuvate, ceasefire, Russia, \"will Russia,\" or Iran that resolves markets-moving events; recent developments from early April involve faltering US-Iran ceasefire and Russia's short Ukraine truce.**[1][2][3][4][5][6]",
-      "direction": "NO",
+      "headline": "South Korea's March 2026 annual inflation rose to 2",
+      "raw": "South Korea's March 2026 annual inflation rose to 2.2% YoY (from 2.0% in February), undershooting market forecasts of 2.3-2.4% due to government measures curbing oil-driven price hikes.** | NO | HIGH confidence\n\nThis data, released Thursday (April 16, 2026) by the Ministry of Data and Statistics, confirms milder-than-expected inflation pressures despite rising global oil prices from Middle East te",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_849589",
+      "timestamp": "2026-04-16T23:27:53.206655+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Easter Ceasefire Collapsed | YES | HIGH confidence**",
+      "raw": "Easter Ceasefire Collapsed | YES | HIGH confidence**\n\nRussia and Ukraine agreed to a 32-hour Easter ceasefire from April 11-12, but both sides reported extensive violations within hours[4]. Ukrainian military documented 2,299 breaches by Russian forces, while Russia claimed 1,971 violations by Ukrainian forces[4]. Hostilities fully resumed after midnight on April 12, with Russia launching 98 drone",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Russia enter Vozdvyzhivka by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_682797",
-      "timestamp": "2026-04-16T23:25:06.414153+00:00",
+      "id": "sig_849595",
+      "timestamp": "2026-04-16T23:27:53.212207+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia-Iran Ties:** Russia provides Iran intel/drone advice, nuclear energy support, strategic partnership (no mutual de",
-      "raw": "Russia-Iran Ties:** Russia provides Iran intel/drone advice, nuclear energy support, strategic partnership (no mutual defense); monitoring US-Iran efforts skeptically, proposes diplomacy\u2014no entry into war or new pacts confirmed.[1][3][5][6]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_682806",
-      "timestamp": "2026-04-16T23:25:06.423361+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ternuvate:** No mentions in results",
-      "raw": "Ternuvate:** No mentions in results.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_682814",
-      "timestamp": "2026-04-16T23:25:06.431560+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Prediction Markets Impact:** NO | LOW confidence\u2014events are outdated (early-mid April), unresolved (ceasefires failing),",
-      "raw": "Prediction Markets Impact:** NO | LOW confidence\u2014events are outdated (early-mid April), unresolved (ceasefires failing), and lack fresh confirmations/announcements to shift odds significantly as of 11 PM UTC.[1][2][3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_689317",
-      "timestamp": "2026-04-16T23:25:12.934148+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or market-moving confirmations based on the search results provided",
-      "raw": "I cannot provide breaking news or market-moving confirmations based on the search results provided. The most recent information available is from March 2026, which is over a month old relative to the current date of April 16, 2026.\n\nThe search results contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_689322",
-      "timestamp": "2026-04-16T23:25:12.939406+00:00",
-      "source": "PERPLEXITY",
-      "headline": "General information about the 2026 Oregon gubernatorial election scheduled for November 3, 2026[1]",
-      "raw": "General information about the 2026 Oregon gubernatorial election scheduled for November 3, 2026[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_689327",
-      "timestamp": "2026-04-16T23:25:12.944720+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A January-February 2026 poll showing incumbent Governor Tina Kotek (D) at 45% versus Chris Dudley (R) at 35%[1]",
-      "raw": "A January-February 2026 poll showing incumbent Governor Tina Kotek (D) at 45% versus Chris Dudley (R) at 35%[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_689332",
-      "timestamp": "2026-04-16T23:25:12.949908+00:00",
-      "source": "PERPLEXITY",
-      "headline": "References to Governor Kotek losing endorsements as of March 5, 2026[5]",
-      "raw": "References to Governor Kotek losing endorsements as of March 5, 2026[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_689338",
-      "timestamp": "2026-04-16T23:25:12.955360+00:00",
-      "source": "PERPLEXITY",
-      "headline": "General context that the Republican field has \"no obvious frontrunner\"[6]",
-      "raw": "General context that the Republican field has \"no obvious frontrunner\"[6]\n\nHowever, none of these results confirm any recent announcements, resolutions, or developments involving Vance, Dudley, or other candidates that would constitute breaking news or move prediction markets as of mid-April 2026. To provide accurate breaking news information, I would need access to current sources from April 16, ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_694746",
-      "timestamp": "2026-04-16T23:25:18.363344+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers launches SOL trading for Europeans via Zero Hash** | YES | **LOW confidence** - Expanded institution",
-      "raw": "Interactive Brokers launches SOL trading for Europeans via Zero Hash** | YES | **LOW confidence** - Expanded institutional access in April 2026, but price compressed at ~$82 without breakout; not tied to today.[2][6]\n\nNo Ethereum-specific confirmations, upgrades, or ETF news in results; market fear persists with SOL/ETH down 60-70% from peaks.[3] All data pre-April 16, with bearish technicals (e.g",
+      "headline": "Russian Diplomatic Engagement Continues | YES | HIGH confidence**",
+      "raw": "Russian Diplomatic Engagement Continues | YES | HIGH confidence**\n\nA senior Kremlin envoy (Kirill Dmitriev) met with Trump administration officials during this period to discuss a potential peace framework[1][3], coinciding with a US sanctions deadline on Russian oil relief expiring April 11[3].\n\nFor current breaking news from April 16 specifically, you would need search results from today's news ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will Russia enter Vozdvyzhivka by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_871489",
+      "timestamp": "2026-04-16T23:28:15.106377+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key recent developments:",
+      "raw": "Based on the search results provided, here are the key recent developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_871500",
+      "timestamp": "2026-04-16T23:28:15.117528+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Summit Draws 140+ Companies Including American Express, JP Morgan, Amazon | YES | HIGH confidence**",
+      "raw": "Solana Summit Draws 140+ Companies Including American Express, JP Morgan, Amazon | YES | HIGH confidence**\n\nThe Solana Institute hosted Solana Summit: Washington x Wall Street on April 13 in New York City, confirming attendance from American Express, JP Morgan, Moneygram, Apple, and Amazon alongside blockchain companies focused on payments infrastructure[5]. This represents institutional adoption ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_871505",
+      "timestamp": "2026-04-16T23:28:15.122923+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Reclaims Activity Leadership with 41% Weekly Transaction Jump | YES | HIGH confidence**",
+      "raw": "Ethereum Reclaims Activity Leadership with 41% Weekly Transaction Jump | YES | HIGH confidence**\n\nEthereum posted an 8.6% daily gain and reclaimed activity leadership from Solana, with transactions jumping 41% over the past seven days as of mid-April[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
         "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET"
       ],
       "action": "ALERT",
@@ -197,22 +128,22 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_699669",
-      "timestamp": "2026-04-16T23:25:23.286069+00:00",
+      "id": "sig_871511",
+      "timestamp": "2026-04-16T23:28:15.128303+00:00",
       "source": "PERPLEXITY",
-      "headline": "MED confidence**: Search results lack any April 2026 CPI releases or fresh confirmations; latest is February data (March",
-      "raw": "MED confidence**: Search results lack any April 2026 CPI releases or fresh confirmations; latest is February data (March 6, 2026 analysis) and general economic commentary on inflation pressures amid steady Bank of Korea rates at 2.5%.[1][2][3] No evidence of market-moving events today.[4]",
-      "direction": "NO",
+      "headline": "Institutional ETF Holdings Expand: BlackRock, Fidelity Record SOL Holdings; CME Futures Launch May 4 | YES | HIGH confid",
+      "raw": "Institutional ETF Holdings Expand: BlackRock, Fidelity Record SOL Holdings; CME Futures Launch May 4 | YES | HIGH confidence**\n\nBlackRock and Fidelity disclosed record SOL ETF holdings[1], and CME futures are launching May 4[5]. Interactive Brokers opened SOL trading to European investors via Zero Hash[3].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 3,
-    "alert": 11,
+    "alert": 6,
     "watch": 0,
     "high_conf": 3
   }
