@@ -1,117 +1,176 @@
 {
-  "last_scan": "2026-04-16T23:33:58.580831+00:00",
-  "scan_seconds": 30.7,
-  "markets_scanned": 76,
-  "open_positions": 37,
+  "last_scan": "2026-04-16T23:43:47.632020+00:00",
+  "scan_seconds": 25.8,
+  "markets_scanned": 141,
+  "open_positions": 102,
   "signals": [
     {
-      "id": "sig_191699",
-      "timestamp": "2026-04-16T23:33:35.315715+00:00",
+      "id": "sig_797782",
+      "timestamp": "2026-04-16T23:43:41.398347+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia announced a unilateral Easter ceasefire in Ukraine from 16:00 on April 11 to end of April 12, 2026, after rejecti",
-      "raw": "Russia announced a unilateral Easter ceasefire in Ukraine from 16:00 on April 11 to end of April 12, 2026, after rejecting Kyiv's prior proposals | NO | LOW confidence**\n\nRussia's President Putin ordered forces to halt operations for Orthodox Easter, while remaining ready to respond to Ukrainian actions; Ukraine stated it would act symmetrically and called for extension beyond the holiday[1][2]. T",
-      "direction": "NO",
+      "headline": "Based on the search results provided, I cannot identify any **breaking news announced today** (April 16, 2026) that woul",
+      "raw": "Based on the search results provided, I cannot identify any **breaking news announced today** (April 16, 2026) that would move prediction markets for Bitcoin or Ethereum.\n\nThe most recent substantive information in the search results dates to **April 11, 2026**, when Ethereum's $2,400 target contract on Polymarket locked at **100% YES**[2]. However, this occurred five days ago and does not constit",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Ethereum reach $2,500 on April 16?",
+        "Will Ethereum dip to $2,100 on April 16?",
+        "Will the price of Ethereum be above $1,900 on April 18?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_213964",
-      "timestamp": "2026-04-16T23:33:57.580035+00:00",
+      "id": "sig_797814",
+      "timestamp": "2026-04-16T23:43:41.430395+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rates at 2",
-      "raw": "Bank of Korea Holds Rates at 2.5%, Projects Higher Inflation Than February Forecast | NO | HIGH confidence**\n\nThe most recent confirmed development is the Bank of Korea's April 10, 2026 monetary policy decision, which held its base rate steady at 2.5% while signaling that inflation will likely exceed its February forecast of 2.2%[2][5]. This is market-moving information because it represents an of",
+      "headline": "**Ethereum between $2,300-$2,400 on April 17:** 64% YES",
+      "raw": "**Ethereum between $2,300-$2,400 on April 17:** 64% YES\n\nTo provide the headline format you requested, I would need search results containing actual breaking news from today. The available information reflects market sentiment and technical analysis rather than new confirmed events or announcements.",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Ethereum reach $2,500 on April 16?",
+        "Will Ethereum dip to $2,100 on April 16?",
+        "Will the price of Ethereum be above $1,900 on April 18?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_785222",
+      "timestamp": "2026-04-16T23:43:28.838847+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ceasefire agreement**: US-Iran two-week ceasefire announced April 8, tied to Hormuz reopening; Iran suggested safe pas",
+      "raw": "**Ceasefire agreement**: US-Iran two-week ceasefire announced April 8, tied to Hormuz reopening; Iran suggested safe passage possible temporarily.[4]",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "US x Iran permanent peace deal by April 30, 2026?",
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_206473",
-      "timestamp": "2026-04-16T23:33:50.089305+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tether Backs Drift Relaunch on Solana | YES | HIGH confidence**",
-      "raw": "Tether Backs Drift Relaunch on Solana | YES | HIGH confidence**\nTether announced a $150 million recovery plan for users following a $285 million Drift exploit, expanding USDT's role on Solana[3]. This signals institutional confidence in Solana's ecosystem recovery.",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_206461",
-      "timestamp": "2026-04-16T23:33:50.077932+00:00",
+      "id": "sig_785211",
+      "timestamp": "2026-04-16T23:43:28.827794+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Posts 8",
-      "raw": "Ethereum Posts 8.6% Daily Gain | YES | HIGH confidence**\nETH at $2,377 surged 8.6% on the day, pushing price above $2,350 resistance[2]. A close above $2,500 would confirm a breakout and likely drive rotation from ETH shorts into spot accumulation[2].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
+      "headline": "**Iran Strait of Hormuz restrictions**: On April 9, Iran limited transit to 15 vessels/day and directed ships through it",
+      "raw": "**Iran Strait of Hormuz restrictions**: On April 9, Iran limited transit to 15 vessels/day and directed ships through its waters during ceasefire, enabling fees; talks stalled on April 11 over control.[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_206481",
-      "timestamp": "2026-04-16T23:33:50.097867+00:00",
+      "id": "sig_785233",
+      "timestamp": "2026-04-16T23:43:28.849233+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits Record 167M Token Holders | YES | HIGH confidence**",
-      "raw": "Solana Hits Record 167M Token Holders | YES | HIGH confidence**\nSolana reached an all-time record of 167 million monthly token holders with daily non-vote transactions hitting 148 million[4], though capital inflows have not yet been strong enough to sustain price momentum[5].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
+      "headline": "**Russia-Iran ties**: Russia shared satellite intel on Israeli energy sites with Iran, per Ukraine on April 7",
+      "raw": "**Russia-Iran ties**: Russia shared satellite intel on Israeli energy sites with Iran, per Ukraine on April 7.[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_206445",
-      "timestamp": "2026-04-16T23:33:50.061741+00:00",
+      "id": "sig_785243",
+      "timestamp": "2026-04-16T23:43:28.859421+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results from April 16, 2026, here are the market-moving developments:",
-      "raw": "Based on the search results from April 16, 2026, here are the market-moving developments:",
+      "headline": "**UN veto**: Russia/China vetoed resolution for Hormuz reopening (date unspecified, recent context)",
+      "raw": "**UN veto**: Russia/China vetoed resolution for Hormuz reopening (date unspecified, recent context).[6]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_206455",
-      "timestamp": "2026-04-16T23:33:50.071734+00:00",
+      "id": "sig_785253",
+      "timestamp": "2026-04-16T23:43:28.869915+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana ETF Inflows Continue | YES | HIGH confidence**",
-      "raw": "Solana ETF Inflows Continue | YES | HIGH confidence**\nU.S. spot Solana ETFs recorded $5.04 million in net inflows on April 16, with cumulative net assets for SOL ETFs reaching $835 million[3]. This signals sustained institutional demand and provides underlying price support.",
+      "headline": "YES** - No new resolutions, confirmations, or announcements since April 12 reports of ceasefire pressure amid Russian ad",
+      "raw": "YES** - No new resolutions, confirmations, or announcements since April 12 reports of ceasefire pressure amid Russian advances elsewhere.[8]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will Russia enter Vozdvyzhivka by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_785264",
+      "timestamp": "2026-04-16T23:43:28.880164+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH** confidence - Search results lack post-April 12 updates; no evidence of market-moving events today",
+      "raw": "HIGH** confidence - Search results lack post-April 12 updates; no evidence of market-moving events today.[1][2][4][5][6][8]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_797792",
+      "timestamp": "2026-04-16T23:43:41.408382+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Bitcoin above $80,000 in April:** 34% YES",
+      "raw": "**Bitcoin above $80,000 in April:** 34% YES",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Bitcoin dip to $58,000 April 13-19?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_206467",
-      "timestamp": "2026-04-16T23:33:50.083191+00:00",
+      "id": "sig_797803",
+      "timestamp": "2026-04-16T23:43:41.419642+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Reclaims $85 Level | YES | HIGH confidence**",
-      "raw": "Solana Reclaims $85 Level | YES | HIGH confidence**\nSOL climbed 6.3% on the day to $86.55, holding above its 200-day moving average and reclaiming the $85 resistance level[2]. A weekly close above $92 opens room toward $105[2].",
+      "headline": "**Ethereum above $2,600 in April:** 37% YES",
+      "raw": "**Ethereum above $2,600 in April:** 37% YES",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Ethereum reach $2,500 on April 16?",
+        "Will Ethereum dip to $2,100 on April 16?",
+        "Will the price of Ethereum be above $1,900 on April 18?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_797824",
+      "timestamp": "2026-04-16T23:43:41.440671+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recommendation:** Check live Polymarket feeds, major crypto news outlets (CoinDesk, The Block, Crypto Briefing), and off",
+      "raw": "Recommendation:** Check live Polymarket feeds, major crypto news outlets (CoinDesk, The Block, Crypto Briefing), and official announcements from regulatory bodies or major institutions for real-time breaking developments.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -121,7 +180,7 @@
   ],
   "stats": {
     "enter": 2,
-    "alert": 6,
+    "alert": 9,
     "watch": 0,
     "high_conf": 3
   }
