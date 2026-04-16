@@ -1,79 +1,82 @@
 {
-  "last_scan": "2026-04-16T00:22:39.107724+00:00",
-  "scan_seconds": 33.0,
-  "markets_scanned": 124,
-  "open_positions": 85,
+  "last_scan": "2026-04-16T00:25:34.647076+00:00",
+  "scan_seconds": 28.3,
+  "markets_scanned": 79,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_734407",
-      "timestamp": "2026-04-16T00:22:38.107055+00:00",
+      "id": "sig_909946",
+      "timestamp": "2026-04-16T00:25:33.646408+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Jerome Powell | YES | HIGH confidence**",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair to Replace Jerome Powell | YES | HIGH confidence**  \nPresident Trump announced on January 30, 2026, his nomination of Kevin Warsh, a former Fed governor once seen as an inflation hawk but recently advocating lower interest rates, to become the next Federal Reserve chair when Powell's term ends in May.[1][2][3]  \nThis breaking development follows market",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Policy Shift on Inflation and Rates** | YES | HIGH",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Signaling Potential Policy Shift on Inflation and Rates** | YES | HIGH\n\nKevin Warsh, former Fed Governor critical of the Fed's size and inflation management, has been nominated by President Trump to succeed Jerome Powell as Fed Chair, with a possible transition by mid-May 2026[1][2][3][5]. This breaking development, highlighted in recent reports from ",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_729473",
-      "timestamp": "2026-04-16T00:22:33.173153+00:00",
+      "id": "sig_902660",
+      "timestamp": "2026-04-16T00:25:26.360791+00:00",
       "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches Sol Trading for European Investors** | YES | MED confidence[4]",
-      "raw": "Interactive Brokers Launches Sol Trading for European Investors** | YES | MED confidence[4]  \nInteractive Brokers enabled Solana (SOL) trading for European users via Zero Hash on April 2026, expanding institutional access at ~$82 price with projections to $88-$100 by month-end if breakout occurs[4]. This adds liquidity and mainstream exposure, likely boosting prediction markets on Solana adoption ",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Bitcoin April Rally from Ceasefire | NO** | **MED** confidence (event dated but unconfirmed as ongoing; prediction marke",
+      "raw": "Bitcoin April Rally from Ceasefire | NO** | **MED** confidence (event dated but unconfirmed as ongoing; prediction markets would react to hold/break status per derivatives data)[2].  \nOther items like Trump Media's $1B Bitcoin loss (as of ~April 8-10) and general predictions lack recency or resolution[5].",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Solana be above $110 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Trump say \"Discombobulator\" or \"Discombobulated\" in April?",
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_721107",
-      "timestamp": "2026-04-16T00:22:24.807266+00:00",
+      "id": "sig_891186",
+      "timestamp": "2026-04-16T00:25:14.886681+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Names JD Vance 'Fraud Czar' to Target Fraud in Blue States | YES | HIGH confidence**[1]",
-      "raw": "Trump Names JD Vance 'Fraud Czar' to Target Fraud in Blue States | YES | HIGH confidence**[1]\n\nPresident Donald Trump announced on Truth Social Friday morning that he is appointing Vice President **JD Vance** as \"fraud czar,\" formalizing it via executive order after Vance's task force suspended 221 California hospice and healthcare providers amid a busted $50 million fraud scheme in Los Angeles.[1",
+      "headline": "Russia Backs Continuation of US-Iran Talks with China Support Amid Strait of Hormuz Tensions | YES | MED confidence**",
+      "raw": "Russia Backs Continuation of US-Iran Talks with China Support Amid Strait of Hormuz Tensions | YES | MED confidence**\n\nRussian Foreign Minister Sergey Lavrov announced on April 15, 2026, that Moscow is firmly pushing for US-Iran negotiations to continue, stressing a \"fair deal\" restoring freedom of navigation in the Strait of Hormuz while upholding international law, with Russia and China offering",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_898052",
+      "timestamp": "2026-04-16T00:25:21.752842+00:00",
+      "source": "PERPLEXITY",
+      "headline": "TRUMP CLAIMS US STRIKES HAVE 'LITERALLY OBLITERATED' IRANIAN MILITARY ASSETS, SLASHING MISSILE LAUNCHES 90% AND DRONE AT",
+      "raw": "TRUMP CLAIMS US STRIKES HAVE 'LITERALLY OBLITERATED' IRANIAN MILITARY ASSETS, SLASHING MISSILE LAUNCHES 90% AND DRONE ATTACKS 95% | YES | HIGH confidence**  \nTrump provided this update on March 16, 2026, stating US strikes targeted over 7,000 Iranian sites, destroying their Air Force, Navy (including 100+ vessels and all 30 ships), anti-aircraft systems, and Kar Island facilities, amid a third-wee",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
         "Trump announces end of military operations against Iran by A",
-        "Will Donald Trump post 40-59 Truth Social posts from April 1"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
+        "Will Donald Trump announce that the United States blockade of the Strait of Horm"
       ],
       "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_729454",
-      "timestamp": "2026-04-16T00:22:33.154179+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Drift Protocol on Solana Hacked for $280M on April 1** | NO | HIGH confidence[5]",
-      "raw": "Drift Protocol on Solana Hacked for $280M on April 1** | NO | HIGH confidence[5]  \nSolana-based DeFi platform Drift Protocol suffered a major hack on April 1, 2026, with attackers using social engineering on multisig wallets to drain at least $280 million in assets including wrapped BTC, Jito tokens, stablecoins, and meme coins; the protocol suspended functions, updated security, and is coordinati",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of Solana be above $110 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 0,
+    "alert": 2,
     "watch": 2,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
