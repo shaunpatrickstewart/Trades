@@ -1,168 +1,81 @@
 {
-  "last_scan": "2026-04-16T03:51:29.581233+00:00",
-  "scan_seconds": 54.3,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-16T03:54:16.946730+00:00",
+  "scan_seconds": 25.1,
+  "markets_scanned": 82,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_226190",
-      "timestamp": "2026-04-16T03:50:49.877949+00:00",
+      "id": "sig_432259",
+      "timestamp": "2026-04-16T03:54:15.946110+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump hints at peace talks and ceasefire in Iran war; Vance warns Pope amid tensions | YES | HIGH confidence** [1][2][4]",
-      "raw": "Trump hints at peace talks and ceasefire in Iran war; Vance warns Pope amid tensions | YES | HIGH confidence** [1][2][4][5][6]\n\nVP **JD Vance** was heckled at a Turning Point USA event in Georgia on April 15, 2026, over frustrations with the **Iran** war and Trump support, with young Republicans reportedly turning against **Trump** [1][2][5]. **Trump** is signaling **peace talks** could restart so",
+      "headline": "Kevin Warsh Nominated by President Trump as Next Fed Chair (Announced Jan 30, 2026)** | **YES** | **HIGH** confidence",
+      "raw": "Kevin Warsh Nominated by President Trump as Next Fed Chair (Announced Jan 30, 2026)** | **YES** | **HIGH** confidence\n\nWarsh's nomination to succeed Jerome Powell has sparked debate on Fed policy, including potential rate cuts amid inflation concerns, balance sheet reduction, and AI-driven productivity gains.[1][2][3][5][6] Analysts expect at least two 25-basis-point cuts in 2026 (to 3%-3.25%), la",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_414781",
+      "timestamp": "2026-04-16T03:53:58.468572+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal as Fragile Truce Holds Until April 22 Amid No Extension Confirmed | YES |",
+      "raw": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal as Fragile Truce Holds Until April 22 Amid No Extension Confirmed | YES | HIGH confidence**\n\nA ceasefire agreement between the United States, Israel, and Iran was reached on April 8, 2026, lasting two weeks until approximately April 22, pulling the region from wider war risks and easing oil supply shocks via the Strait of Hormuz[1][2][3]. Kremlin spok",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_419422",
+      "timestamp": "2026-04-16T03:54:03.109803+00:00",
+      "source": "PERPLEXITY",
+      "headline": "TRUMP THREATENS IRAN WITH \"ALL HELL\" IF STRAIT OF HORMUZ NOT OPENED IN 48 HOURS | YES | HIGH confidence**",
+      "raw": "TRUMP THREATENS IRAN WITH \"ALL HELL\" IF STRAIT OF HORMUZ NOT OPENED IN 48 HOURS | YES | HIGH confidence**\n\nPaul Krugman reports Trump's recent Truth Social post warning Iran that if it does not open the Strait of Hormuz within 48 hours, \"all hell will reign down on them,\" ending with \"glory be to God\" in caps[1]. This escalatory rhetoric marks a shift from prior implicit U.S. concessions, potentia",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_232546",
-      "timestamp": "2026-04-16T03:50:56.233851+00:00",
+      "id": "sig_425403",
+      "timestamp": "2026-04-16T03:54:09.090342+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Nominated by President Trump as Next Fed Chair, Potentially Facing Immediate Rate Hike Decision Amid Surging",
-      "raw": "Kevin Warsh Nominated by President Trump as Next Fed Chair, Potentially Facing Immediate Rate Hike Decision Amid Surging Inflation and Oil Shock | NO | HIGH confidence**\n\nNo formal confirmation, announcement, or resolution has occurred that would directly move prediction markets right now\u2014Warsh's Fed chair nomination is reported as recent but not yet finalized, with his potential start by mid-May.",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "Ethereum price surges to ~$2,370 on April 14, 2026, up $174 daily (8% gain), hitting two-month high amid U",
+      "raw": "Ethereum price surges to ~$2,370 on April 14, 2026, up $174 daily (8% gain), hitting two-month high amid U.S.-Iran peace bets and extreme fear sentiment | YES | HIGH confidence** [1][2][4][5]\n\nEthereum reached $2,370.04 at 8:30 a.m. ET on April 14 (from $2,196 on April 13), driven by 7% daily jump tied to speculation on U.S.-Iran war de-escalation, boosting Bitcoin to $75K and crypto sentiment[2][",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran diplomatic meeting by April 18, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_265865",
-      "timestamp": "2026-04-16T03:51:29.552763+00:00",
-      "source": "X_GROK",
-      "headline": "Kevin Warsh Fed Chair Confirmation**: Whale $12k YES at 94\u00a2",
-      "raw": "Kevin Warsh Fed Chair Confirmation**: Whale $12k YES at 94\u00a2. Strong backing for confirmation.[[4]](https://x.com/i/status/2044616528851587118) **YES**, HIGH.",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044616528851587118)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_232553",
-      "timestamp": "2026-04-16T03:50:56.240082+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea** updates show Bank of Korea (BoK) holding steady after ending rate-cut cycle, with March CPI at 2",
-      "raw": "South Korea** updates show Bank of Korea (BoK) holding steady after ending rate-cut cycle, with March CPI at 2.2% due to government measures, but inflation projected near 3% by May/June amid energy risks and weak won at 1,457/USD; BoK monitors Fed moves to avoid capital outflows.[2][3] Global forecasts predict stable core CPI at 2.8% in 2026, with U.S. at 3.2% and BoK on prolonged hold near 2%.[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_265854",
-      "timestamp": "2026-04-16T03:51:29.541839+00:00",
-      "source": "X_GROK",
-      "headline": "Bayern Munich Champions League 2025-26**: Whale $36k-$37k bet on YES at 34\u00a2",
-      "raw": "Bayern Munich Champions League 2025-26**: Whale $36k-$37k bet on YES at 34\u00a2. Smart money bullish on Bayern win.[[1]](https://x.com/i/status/2044617304256778533)[[2]](https://x.com/i/status/2044616342385393674) **YES**, MED.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044617304256778533)[[2]](https://x.com/i/status/2044616342385393674)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_265860",
-      "timestamp": "2026-04-16T03:51:29.547322+00:00",
-      "source": "X_GROK",
-      "headline": "Glenn Youngkin 2028 GOP Nom**: Whale $25k YES at 1\u00a2 (7043% ROI potential)",
-      "raw": "Glenn Youngkin 2028 GOP Nom**: Whale $25k YES at 1\u00a2 (7043% ROI potential). High-conviction longshot.[[3]](https://x.com/i/status/2044623005414768946) **YES**, LOW.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044623005414768946)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_265871",
-      "timestamp": "2026-04-16T03:51:29.558845+00:00",
-      "source": "X_GROK",
-      "headline": "Ludvig Aberg 2026 RBC Heritage Winner**: Whale $9k NO at 96\u00a2",
-      "raw": "Ludvig Aberg 2026 RBC Heritage Winner**: Whale $9k NO at 96\u00a2. Fade on favorite.[[5]](https://x.com/i/status/2044615207842934940) **NO**, MED.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044615207842934940)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_265877",
-      "timestamp": "2026-04-16T03:51:29.564431+00:00",
-      "source": "X_GROK",
-      "headline": "AI Bubble Burst by Dec 2026**: Market at 7-23% YES (vs modeled ~28%)",
-      "raw": "AI Bubble Burst by Dec 2026**: Market at 7-23% YES (vs modeled ~28%). Seen as undervalued correlation bet on capex failures.[[6]](https://x.com/i/status/2044573235291791549)[[7]](https://x.com/i/status/2044624644934680609) **YES**, MED.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044573235291791549)[[7]](https://x.com/i/status/2044624644934680609)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_265882",
-      "timestamp": "2026-04-16T03:51:29.569984+00:00",
-      "source": "X_GROK",
-      "headline": "NFT MCAP >$10B by Dec 2026**: At 65% YES",
-      "raw": "NFT MCAP >$10B by Dec 2026**: At 65% YES. Traders call \"free money\" vs current $1.6B, citing past runs.[[8]](https://x.com/i/status/2044624579319214200) **YES**, MED.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044624579319214200)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_265888",
-      "timestamp": "2026-04-16T03:51:29.575488+00:00",
-      "source": "X_GROK",
-      "headline": "XRP Short-Term Down Bets**: Multiple $5k+ whales on 5min DOWN at 94-95\u00a2",
-      "raw": "XRP Short-Term Down Bets**: Multiple $5k+ whales on 5min DOWN at 94-95\u00a2. Bot-heavy fast markets trending.[[9]](https://x.com/i/status/2044618066873421946) **NO (price up)**, LOW.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044618066873421946)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_265894",
-      "timestamp": "2026-04-16T03:51:29.581024+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tips**: Polymarket fast 5min crypto markets bot-dominated (77% BTC vol, $2",
-      "raw": "Trending Tips**: Polymarket fast 5min crypto markets bot-dominated (77% BTC vol, $2.3B), arb ops Kalshi vs Poly, whale manip concerns.[[10]](https://x.com/i/status/2044447535327056269)[[11]](https://x.com/i/status/2044385460617888031)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044447535327056269)[[11]](https://x.com/i/status/2044385460617888031)",
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 10,
-    "watch": 0,
+    "alert": 0,
+    "watch": 3,
     "high_conf": 1
   }
 }
