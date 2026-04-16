@@ -1,0 +1,115 @@
+{
+  "_schema_version": 1,
+  "_last_updated": "2026-04-14T00:00:00Z",
+  "_updated_by": "manual",
+  "_note": "bot.py reads all tunable params from this file. bot_hourly edits THIS, not bot.py. deep_verify validates every 6h.",
+
+  "engine_caps": {
+    "NEAR_CERTAIN": 300,
+    "SHORT_TERM": 20,
+    "LONG_TERM": 0,
+    "ANTI_NC": 15,
+    "NEWS": 5
+  },
+  "engine_caps_min": {
+    "_note": "LOCKED FLOORS — bot_hourly cannot set caps below these values",
+    "SHORT_TERM": 20,
+    "LONG_TERM": 0
+  },
+
+  "price_bands": {
+    "PRICE_MIN": 0.30,
+    "PRICE_MAX": 0.70,
+    "SHORT_TERM_PRICE_MAX": 0.70,
+    "NEAR_CERTAIN_MAX": 0.999
+  },
+
+  "volume_thresholds": {
+    "MIN_VOLUME": 2000,
+    "MIN_VOLUME_FAST": 100
+  },
+
+  "timing": {
+    "SHORT_TERM_DAYS": 30,
+    "INTERVAL_SHORT_TERM_SEC": 1800,
+    "INTERVAL_WALLETS_SEC": 7200,
+    "INTERVAL_MONITOR_SEC": 600
+  },
+
+  "stop_loss": {
+    "EXIT_GAIN_THRESHOLD": 0.15,
+    "STOP_LOSS_THRESHOLD": -0.12,
+    "LT_STOP_LOSS_THRESHOLD": -0.08,
+    "NC_STOP_LOSS_THRESHOLD": -0.07
+  },
+
+  "wallet_scoring": {
+    "COPY_TOP_N": 60,
+    "MIN_WALLET_WIN_RATE": 0.0,
+    "MIN_WALLET_TRADES": 50,
+    "MIN_WALLET_ROI": 1.5,
+    "MIN_SHARPE": 1.0
+  },
+
+  "anti_nc": {
+    "ANTI_NC_MAX_PRICE": 0.025,
+    "ANTI_NC_MIN_SIZE": 20.0
+  },
+
+  "capital_allocation": {
+    "_note": "Max % of bankroll deployable per engine. NC gets lion's share — it's the money machine.",
+    "NEAR_CERTAIN": 0.85,
+    "SHORT_TERM": 0.15,
+    "LONG_TERM": 0.0,
+    "ANTI_NC": 0.05,
+    "NEWS": 0.05
+  },
+
+  "wallets": {
+    "_note": "Multi-wallet support. wallet_id = unique key. label = display name. platform = which exchange. One person can have multiple wallets across platforms.",
+    "shaun_poly": {
+      "label": "Shaun",
+      "platform": "polymarket",
+      "address": "0x0a6a9a2c0cb5899aa43c739a40b1f66b1db64b0d",
+      "initial_bankroll": 1300,
+      "active": true
+    },
+    "shaun_kalshi": {
+      "label": "Shaun",
+      "platform": "kalshi",
+      "account_id": "",
+      "initial_bankroll": 0,
+      "active": false
+    },
+    "don_poly": {
+      "label": "Don S",
+      "platform": "polymarket",
+      "address": "",
+      "initial_bankroll": 0,
+      "active": false
+    },
+    "don_kalshi": {
+      "label": "Don S",
+      "platform": "kalshi",
+      "account_id": "",
+      "initial_bankroll": 0,
+      "active": false
+    }
+  },
+
+  "nc_position_sizing": {
+    "_note": "NC bet multiplier tiers. Trade EVERYTHING, but size by quality. No trades skipped, just sized smarter.",
+    "tier1_price_min": 0.995,
+    "tier1_multiplier": 1.25,
+    "tier1_label": "GOLD (99.5%+, fastest resolution, highest confidence)",
+    "tier2_price_min": 0.992,
+    "tier2_multiplier": 1.0,
+    "tier2_label": "STANDARD (99.2-99.5%, normal sizing)",
+    "tier3_price_min": 0.990,
+    "tier3_multiplier": 0.75,
+    "tier3_label": "FLOOR (99.0-99.2%, minimum sizing — still traded, just smaller)",
+    "fast_resolve_bonus": 1.15,
+    "fast_resolve_hours": 24,
+    "fast_resolve_label": "Resolves within 24h = 15% bonus (faster capital recycling)"
+  }
+}
