@@ -1,168 +1,98 @@
 {
-  "last_scan": "2026-04-16T16:28:27.130568+00:00",
-  "scan_seconds": 28.5,
+  "last_scan": "2026-04-16T16:31:22.791830+00:00",
+  "scan_seconds": 28.1,
   "markets_scanned": 81,
   "open_positions": 42,
   "signals": [
     {
-      "id": "sig_668718",
-      "timestamp": "2026-04-16T16:28:12.360130+00:00",
+      "id": "sig_842274",
+      "timestamp": "2026-04-16T16:31:05.916387+00:00",
       "source": "PERPLEXITY",
-      "headline": "Vice President JD Vance** stated Iran's conventional military is \"effectively destroyed,\" crediting Trump for neutralizi",
-      "raw": "Vice President JD Vance** stated Iran's conventional military is \"effectively destroyed,\" crediting Trump for neutralizing nuclear and missile threats.[2]\n\nIran agreed to ceasefire and **complete, immediate, safe opening** of Strait of Hormuz, disputed as \"closed\" by Iranian media but confirmed with traffic uptick by White House; VP Vance optimistic for peace talks.[1][3]\n\nThis resolution of U.S.-",
-      "direction": null,
+      "headline": "US Navy Turns Back 10 Iranian Oil Tankers Amid Fragile Ceasefire Holding in Strait of Hormuz | NO | HIGH confidence**",
+      "raw": "US Navy Turns Back 10 Iranian Oil Tankers Amid Fragile Ceasefire Holding in Strait of Hormuz | NO | HIGH confidence**  \nThe US Navy has confirmed turning back 10 Iranian-flagged oil tankers attempting to evade its blockade of Iranian ports, while expanding operations to target vessels suspected of carrying weapons; this directly counters Iran's vowed retaliation by blocking Persian Gulf and Red Se",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_668711",
-      "timestamp": "2026-04-16T16:28:12.353577+00:00",
+      "id": "sig_847297",
+      "timestamp": "2026-04-16T16:31:10.939907+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Takes Hold After Operation Epic Fury Meets Objectives, Reopening Strait of Hormuz** | **YES** | **HIGH**",
-      "raw": "Iran Ceasefire Takes Hold After Operation Epic Fury Meets Objectives, Reopening Strait of Hormuz** | **YES** | **HIGH** confidence\n\nWhite House confirms Operation Epic Fury\u2014launched in late February 2026\u2014achieved President Trump's objectives in 38 days: Iran's navy **obliterated** (150 warships destroyed, all submarines sunk, 97% naval mines cleared), air force neutered (flights reduced from 30-10",
+      "headline": "Trump Suspends US Bombing Campaign on Iran After Talks with Pakistan, Securing Two-Week Ceasefire | YES | HIGH confidenc",
+      "raw": "Trump Suspends US Bombing Campaign on Iran After Talks with Pakistan, Securing Two-Week Ceasefire | YES | HIGH confidence**  \nPresident Donald Trump announced the suspension of a planned bombing campaign against Iran's civilian infrastructure, including energy sites and bridges, following negotiations with Pakistani leaders that resulted in a two-week ceasefire[1].  \nThis reversal came shortly bef",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_682431",
-      "timestamp": "2026-04-16T16:28:26.073553+00:00",
+      "id": "sig_852509",
+      "timestamp": "2026-04-16T16:31:16.151069+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain current informat",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain current information from today (April 16, 2026) or very recent announcements about the Federal Reserve, inflation, the Fed Chair, or Kevin Warsh that would constitute \"breaking news.\"\n\nThe most recent specific information in the search results is from the Federal Reserve's **March 18, 2026 meeti",
-      "direction": null,
+      "headline": "Alpenglow Consensus Upgrade Announced for Solana, Targeting 150ms Finality | YES | MED confidence**",
+      "raw": "Alpenglow Consensus Upgrade Announced for Solana, Targeting 150ms Finality | YES | MED confidence**\n\nSolana's Alpenglow upgrade, aimed at reducing transaction finality from 12 seconds to 150 milliseconds, was highlighted in recent coverage alongside a 10% SOL price surge, record 167 million monthly token holders, and 148 million daily non-vote transactions as of April 14, 2026[1]. Institutional ho",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Will the price of Ethereum be above $2,400 on April 20?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_858148",
+      "timestamp": "2026-04-16T16:31:21.790938+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Potentially Delaying US Rate Cuts and Prompting South Korea to Hold Rates",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Potentially Delaying US Rate Cuts and Prompting South Korea to Hold Rates Steady Amid Inflation Concerns | YES | HIGH confidence**[1][2][3][4]\n\nWarsh's nomination, announced late January 2026 by President Trump, has triggered immediate market reactions including a 0.74-0.9% rise in the Dollar Index (DXY) to 96.99-97.13, higher US Treasury yields, a >5",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_842285",
+      "timestamp": "2026-04-16T16:31:05.927026+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kremlin Welcomes Iran Ceasefire, Urges Diplomatic Talks Over Escalation | YES (Russia supports de-escalation) | MED conf",
+      "raw": "Kremlin Welcomes Iran Ceasefire, Urges Diplomatic Talks Over Escalation | YES (Russia supports de-escalation) | MED confidence**  \nRussia's Kremlin spokesman Dmitry Peskov welcomed the US-Israel-Iran ceasefire on April 8, stressing de-escalation and negotiations while condemning prior US-Israeli strikes; no new Russian announcements today.[2]  \nGlobal stocks are rallying on market expectations of ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682438",
-      "timestamp": "2026-04-16T16:28:26.080498+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any announcements or confirmations from today",
-      "raw": "Any announcements or confirmations from today",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682446",
-      "timestamp": "2026-04-16T16:28:26.088334+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent statements from the Fed Chair or Kevin Warsh",
-      "raw": "Recent statements from the Fed Chair or Kevin Warsh",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682453",
-      "timestamp": "2026-04-16T16:28:26.095447+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current inflation data releases",
-      "raw": "Current inflation data releases",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682466",
-      "timestamp": "2026-04-16T16:28:26.108351+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time financial news outlets",
-      "raw": "Real-time financial news outlets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682472",
-      "timestamp": "2026-04-16T16:28:26.114724+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The Federal Reserve's official website for press releases",
-      "raw": "The Federal Reserve's official website for press releases",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682479",
-      "timestamp": "2026-04-16T16:28:26.121878+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official statements from Fed officials",
-      "raw": "Official statements from Fed officials",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682487",
-      "timestamp": "2026-04-16T16:28:26.129654+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current economic data releases scheduled for today",
-      "raw": "Current economic data releases scheduled for today\n\nIf you have access to a specific announcement or event you'd like me to analyze, please share those details and I can help assess its potential market impact.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_682460",
-      "timestamp": "2026-04-16T16:28:26.102132+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any market-moving developments that would alter prediction markets",
-      "raw": "Any market-moving developments that would alter prediction markets\n\nTo obtain actual breaking news that could impact prediction markets, you would need to check:",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 4,
+    "alert": 1,
+    "watch": 0,
+    "high_conf": 4
   }
 }
