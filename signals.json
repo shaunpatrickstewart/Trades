@@ -1,94 +1,106 @@
 {
-  "last_scan": "2026-04-16T11:22:04.018511+00:00",
-  "scan_seconds": 27.3,
-  "markets_scanned": 100,
-  "open_positions": 59,
+  "last_scan": "2026-04-16T11:24:50.254928+00:00",
+  "scan_seconds": 25.9,
+  "markets_scanned": 146,
+  "open_positions": 105,
   "signals": [
     {
-      "id": "sig_294044",
-      "timestamp": "2026-04-16T11:21:57.704191+00:00",
+      "id": "sig_450818",
+      "timestamp": "2026-04-16T11:24:34.478764+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Whispers Boost Bitcoin Above $68K, Ethereum Surges 50% in Early April Rally | YES | MED confidence** [1][",
-      "raw": "Iran Ceasefire Whispers Boost Bitcoin Above $68K, Ethereum Surges 50% in Early April Rally | YES | MED confidence** [1][2]\n\nBitcoin rebounded to $68,456-$71,000 mid-April after reports of Iranian President Masoud Pezeshkian offering to end the war with guarantees, confirmed by US President Trump signaling quick resolution; this shifted market sentiment, driving BTC +3% in 24 hours and ETH +50% in ",
+      "headline": "US, Israel, and Iran Announce Two-Week Ceasefire (April 8-9, 2026); Russia Welcomes Deal and Hopes for Successful Negoti",
+      "raw": "US, Israel, and Iran Announce Two-Week Ceasefire (April 8-9, 2026); Russia Welcomes Deal and Hopes for Successful Negotiations | YES | HIGH confidence**\n\nA two-week ceasefire between the United States, Israel, and Iran was announced on April 8, 2026, pulling the region from the brink of wider war amid oil supply shocks and Strait of Hormuz disruptions.[2][5] Russian Foreign Minister Sergei Lavrov ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
+        "Will Russia enter Ternuvate again by April 30?",
         "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_288396",
-      "timestamp": "2026-04-16T11:21:52.056203+00:00",
+      "id": "sig_455653",
+      "timestamp": "2026-04-16T11:24:39.313399+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news summary you've requested in the format you specified",
-      "raw": "I cannot provide the breaking news summary you've requested in the format you specified. The search results provided contain only a single article from April 6, 2026 (10 days ago) regarding King Charles and Trump's comments about the Iran war\u2014not current breaking news from today.\n\nThe available information shows that Trump claimed King Charles would have taken a different stance on the Iran war th",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Senate Vote Fails to Curb Trump's War Powers on Venezuela After GOP Flip-Flop; Vance Casts Tie-Breaker** | **YES** | **H",
+      "raw": "Senate Vote Fails to Curb Trump's War Powers on Venezuela After GOP Flip-Flop; Vance Casts Tie-Breaker** | **YES** | **HIGH** confidence[1]\n\nA bipartisan Senate effort to limit President Trump's military authority collapsed in a 50-50 deadlock, with Vice President JD Vance delivering the tie-breaking vote to preserve Trump's powers, following Republican senators Josh Hawley and Todd Young's revers",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A"
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_294066",
-      "timestamp": "2026-04-16T11:21:57.726825+00:00",
+      "id": "sig_460043",
+      "timestamp": "2026-04-16T11:24:43.703225+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Foundation Confirms 70K ETH ($143M) Staking Commitment | YES | HIGH confidence** [4]",
-      "raw": "Ethereum Foundation Confirms 70K ETH ($143M) Staking Commitment | YES | HIGH confidence** [4]  \nThe foundation locked 70,000 ETH into staking, supporting ETH at $2,200-$2,250 amid recovery from $1,800 lows; analysts like Arthur Hayes project $10K-$20K targets, potentially signaling treasury strength to prediction markets.[4][1]",
-      "direction": "YES",
+      "headline": "HEADLINE | NO | HIGH confidence**",
+      "raw": "HEADLINE | NO | HIGH confidence**  \nPast items like early April's Iran ceasefire surge (ETH +50%, BTC +8%) are not recent[2]; analyst predictions (e.g., ETH to $10k-$40k[1][3]) and ETF flows ($129M BTC outflows Apr 11[3]) lack today's confirmations[1][2][3]. No resolutions on Bitcoin in April or \"will bitcoin\" queries appear[1][2][3][4].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_465525",
+      "timestamp": "2026-04-16T11:24:49.185463+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump eyed Kevin Warsh as next Fed Chair (Feb 2026), pushing rate cuts as Powell's term nears end in May; impacted KOSPI",
+      "raw": "Trump eyed Kevin Warsh as next Fed Chair (Feb 2026), pushing rate cuts as Powell's term nears end in May; impacted KOSPI drop and won weakening[4][5].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_465563",
+      "timestamp": "2026-04-16T11:24:49.223029+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea inflation stabilized at ~3",
+      "raw": "South Korea inflation stabilized at ~3.6% in 2023, with high grocery costs but low utilities (no 2026 updates)[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_465593",
+      "timestamp": "2026-04-16T11:24:49.254010+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed site shows routine announcements (e",
+      "raw": "Fed site shows routine announcements (e.g., approvals on 4/14/2026), nothing on inflation, Chair, or rates[6].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_294088",
-      "timestamp": "2026-04-16T11:21:57.748086+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Spot ETFs See $129M Net Outflows on April 11 | NO | HIGH confidence** [4]",
-      "raw": "Bitcoin Spot ETFs See $129M Net Outflows on April 11 | NO | HIGH confidence** [4]  \nUS BTC ETFs recorded outflows extending Q1 caution, with AUM at $128B but net flows lagging; contrasts ETH ETF $13B AUM, tempering bullish momentum despite price stability near $69K-$72K.[1][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Bitcoin dip to $67,000 on April 16?",
-        "Will Bitcoin reach $81,000 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_282142",
-      "timestamp": "2026-04-16T11:21:45.802031+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Putin's Emergency Speech Warns West Against Iran Intervention | YES | HIGH confidence** [1]",
-      "raw": "Putin's Emergency Speech Warns West Against Iran Intervention | YES | HIGH confidence** [1]  \nRussian President Vladimir Putin delivered a live emergency speech from the Kremlin on April 16, 2026, issuing a stark warning against Western military intervention in Iran, escalating tensions amid the ongoing US-Iran war and interpreted as a direct challenge to US President Donald Trump.[1] This real-ti",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 2
   }
 }
