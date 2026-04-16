@@ -1,110 +1,12 @@
 {
-  "last_scan": "2026-04-16T03:00:22.260541+00:00",
-  "scan_seconds": 26.2,
-  "markets_scanned": 138,
+  "last_scan": "2026-04-16T03:03:47.054045+00:00",
+  "scan_seconds": 66.9,
+  "markets_scanned": 102,
   "open_positions": 102,
-  "signals": [
-    {
-      "id": "sig_191677",
-      "timestamp": "2026-04-16T03:00:15.368005+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana (SOL)** holds above $84 support toward $75-110 monthly targets, noted as a top April watch alongside XRP amid dev",
-      "raw": "Solana (SOL)** holds above $84 support toward $75-110 monthly targets, noted as a top April watch alongside XRP amid developer activity (e.g., Nokia Snake on Solana blockchain).[2]\n\nNo fresh confirmations on **Bitcoin**; XRP/SOL price analyses show historical April patterns for gains but ongoing caution (e.g., XRP below $1.20 weekly signals risk).[2][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Bitcoin reach $77,000 on April 15?",
-        "Will the price of XRP be above $1.60 on April 16?",
-        "Will the price of Solana be above $100 on April 16?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_191687",
-      "timestamp": "2026-04-16T03:00:15.377641+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: LOW** - Search yields prediction market odds and analyst outlooks, not \"right now\" resolved events like regu",
-      "raw": "Confidence: LOW** - Search yields prediction market odds and analyst outlooks, not \"right now\" resolved events like regulations or listings.[1][2][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_197531",
-      "timestamp": "2026-04-16T03:00:21.221597+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The articles provided are from February and March 2026 and discuss Kevin Warsh's nomination and potential policies as Fed Chair, not real-time developments or market-moving announcements from today.\n\nTo deliver accurate breaking news with market-impact assessment, I would need current news sources from tod",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_197541",
-      "timestamp": "2026-04-16T03:00:21.231013+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Specific confirmations, announcements, or resolutions (not speculation)",
-      "raw": "Specific confirmations, announcements, or resolutions (not speculation)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_197550",
-      "timestamp": "2026-04-16T03:00:21.240295+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Quantifiable data points (inflation readings, policy decisions, etc",
-      "raw": "Quantifiable data points (inflation readings, policy decisions, etc.)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_197559",
-      "timestamp": "2026-04-16T03:00:21.249611+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official statements or actions with timestamp confirmation",
-      "raw": "Official statements or actions with timestamp confirmation",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_197569",
-      "timestamp": "2026-04-16T03:00:21.259548+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Direct market reactions or guidance",
-      "raw": "Direct market reactions or guidance\n\nThe search results primarily contain analysis and commentary about Warsh's potential approach to monetary policy and concerns about Fed independence, but they don't represent concrete market-moving news that occurred today. If you're seeking information about specific developments from April 16, 2026, please provide current news sources, and I can structure the",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    }
-  ],
+  "signals": [],
   "stats": {
     "enter": 0,
-    "alert": 7,
+    "alert": 0,
     "watch": 0,
     "high_conf": 0
   }
