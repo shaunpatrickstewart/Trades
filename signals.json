@@ -1,229 +1,162 @@
 {
-  "last_scan": "2026-04-16T03:22:24.917143+00:00",
-  "scan_seconds": 46.3,
+  "last_scan": "2026-04-16T03:25:34.479808+00:00",
+  "scan_seconds": 51.6,
   "markets_scanned": 79,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_493584",
-      "timestamp": "2026-04-16T03:21:57.273875+00:00",
+      "id": "sig_669118",
+      "timestamp": "2026-04-16T03:24:52.807127+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting",
-      "raw": "I cannot provide the breaking news you're requesting. The search results provided are dated from February-March 2026 and do not contain information about events occurring on or around April 16, 2026. The most recent articles discuss Kevin Warsh's nomination as Fed chair and debates over monetary policy direction, but they predate your query date by several weeks.\n\nTo answer your query about what h",
-      "direction": null,
+      "headline": "Iran-US Ceasefire Collapses | NO DEAL REACHED | HIGH confidence**",
+      "raw": "Iran-US Ceasefire Collapses | NO DEAL REACHED | HIGH confidence**\nNegotiations between the US and Iran in Islamabad ended without agreement on April 12, with the central dispute being Iran's nuclear program.[2][3] Vice President JD Vance stated Iran refused American terms to permanently end its nuclear program.[2] President Trump subsequently announced a US naval blockade of the Strait of Hormuz.[",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_499950",
-      "timestamp": "2026-04-16T03:22:03.639196+00:00",
-      "source": "PERPLEXITY",
-      "headline": "France Advances in 2026 World Cup Play-Offs but Qualification Pending | NO (finals spot not yet confirmed) | MED confide",
-      "raw": "France Advances in 2026 World Cup Play-Offs but Qualification Pending | NO (finals spot not yet confirmed) | MED confidence**  \nFrance won 2-0 vs. Ukraine (Sept. 5, 2025) and drew 2-2 vs. Iceland (Oct. 13, 2025) in play-offs, but no play-off final result confirms their finals spot as of latest matches.[2] France is scheduled for Group I opener vs. Senegal on June 16, suggesting strong positioning ",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
-        "Will France win Group I in the 2026 FIFA World Cup?",
-        "Will Germany win Group E in the 2026 FIFA World Cup?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_521199",
-      "timestamp": "2026-04-16T03:22:24.888051+00:00",
-      "source": "X_GROK",
-      "headline": "Bayern Munich Champions League Winner:** Whale bet $37K on YES (win 2025-26 UCL) at 34\u00a2",
-      "raw": "Bayern Munich Champions League Winner:** Whale bet $37K on YES (win 2025-26 UCL) at 34\u00a2. Signals strong conviction Bayern undervalued (YES). MED confidence (large but single whale).[[1]](https://x.com/i/status/2044617304256778533)[[2]](https://x.com/i/status/2044616342385393674)",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044617304256778533)[[2]](https://x.com/i/status/2044616342385393674)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_493590",
-      "timestamp": "2026-04-16T03:21:57.279539+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Checking financial news sources (Bloomberg, Reuters, CNBC) directly for real-time updates",
-      "raw": "Checking financial news sources (Bloomberg, Reuters, CNBC) directly for real-time updates",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_493596",
-      "timestamp": "2026-04-16T03:21:57.285121+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Searching for announcements from the Federal Reserve's official communications",
-      "raw": "Searching for announcements from the Federal Reserve's official communications",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_493602",
-      "timestamp": "2026-04-16T03:21:57.291897+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Looking for South Korean economic data releases from government statistical agencies",
-      "raw": "Looking for South Korean economic data releases from government statistical agencies",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_499941",
-      "timestamp": "2026-04-16T03:22:03.630244+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Switzerland Qualifies for 2026 World Cup Finals via Play-Offs | YES | HIGH confidence**",
-      "raw": "Switzerland Qualifies for 2026 World Cup Finals via Play-Offs | YES | HIGH confidence**  \nBosnia and Herzegovina defeated Italy 4-1 on penalties in the play-off final on March 31, 2026, securing their spot and confirming Switzerland's qualification as a UEFA nation (16 total slots).[2] Switzerland appears in 2026 World Cup Group B schedule (e.g., June 13 vs. Qatar, June 18 vs. Bosnia and Herzegovi",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
-        "Will France win Group I in the 2026 FIFA World Cup?",
-        "Will Germany win Group E in the 2026 FIFA World Cup?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_499959",
-      "timestamp": "2026-04-16T03:22:03.648019+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Breaking NBA Finals News Confirmed | N/A | LOW confidence**",
-      "raw": "No Breaking NBA Finals News Confirmed | N/A | LOW confidence**  \nRecent Basketball Champions League round-of-16 groups set post-play-in, but no NBA finals updates or resolutions in results (LNB France league scores outdated, e.g., Apr. 12).[1][3] No prediction-market-moving NBA announcements tied to \"finals\" or \"group.\"",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Oklahoma City Thunder win the 2026 NBA Finals?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_499964",
-      "timestamp": "2026-04-16T03:22:03.653947+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No New Group Stage Resolutions for France/Switzerland in Basketball | NO | LOW confidence**",
-      "raw": "No New Group Stage Resolutions for France/Switzerland in Basketball | NO | LOW confidence**  \nFrance basketball league results (e.g., Apr. 12: Bourg 104-81 Monaco) predate today; Champions League groups set but no \"finals\" or nation-specific group news impacting predictions.[1][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_521204",
-      "timestamp": "2026-04-16T03:22:24.893833+00:00",
-      "source": "X_GROK",
-      "headline": "Kevin Warsh Fed Chair Confirmation:** $12K whale buy YES at 94\u00a2",
-      "raw": "Kevin Warsh Fed Chair Confirmation:** $12K whale buy YES at 94\u00a2. Heavy late bet implies imminent confirmation edge (YES). HIGH confidence (near-certainty pricing + size).[[3]](https://x.com/i/status/2044616528851587118)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044616528851587118)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_521210",
-      "timestamp": "2026-04-16T03:22:24.899599+00:00",
-      "source": "X_GROK",
-      "headline": "Aurora Gaming vs B8 Map 2 (CS:GO):** $11",
-      "raw": "Aurora Gaming vs B8 Map 2 (CS:GO):** $11.6K whale on Aurora winner at 66\u00a2 (new wallet). Smart money tilting toward Aurora (YES). MED confidence (esports volatility).[[4]](https://x.com/i/status/2044611773551055135)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "LoL: GAM Esports vs Ground Zero Gaming - Game 2 Winner"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044611773551055135)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_521216",
-      "timestamp": "2026-04-16T03:22:24.905203+00:00",
-      "source": "X_GROK",
-      "headline": "AI Bubble Market (3 Failures in 90 Days):** Traders note 19-23\u00a2 pricing vs 28% modeled odds; potential mispriced YES on",
-      "raw": "AI Bubble Market (3 Failures in 90 Days):** Traders note 19-23\u00a2 pricing vs 28% modeled odds; potential mispriced YES on no-bubble. LOW-MED (opinion-based).[[5]](https://x.com/i/status/2044573235291791549)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044573235291791549)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_521221",
-      "timestamp": "2026-04-16T03:22:24.910966+00:00",
-      "source": "X_GROK",
-      "headline": "Weather Copy Trade Tip:** Pro trader turns $9\u2192$4",
-      "raw": "Weather Copy Trade Tip:** Pro trader turns $9\u2192$4.6K on high-prob (95-99\u00a2) temp bets; bot-copy recommended. Edge on weather YES/NO via data arb. HIGH (proven returns).[[6]](https://x.com/i/status/2044614982596247685)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044614982596247685)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_521227",
-      "timestamp": "2026-04-16T03:22:24.916756+00:00",
-      "source": "X_GROK",
-      "headline": "NBA Sharps:** $16",
-      "raw": "NBA Sharps:** $16.6K on Warriors +4.5, $4.8K Clippers -5.5. Cross-market line value signals (YES on those spreads). MED (multi-platform).[[7]](https://x.com/i/status/2044567846764568661)[[8]](https://x.com/i/status/2044591805337870441)\n\nTrending: Whale alerts on sports/politics; math edges/tips for mispricings (Bayes/Kelly).[[9]](https://x.com/i/status/2044219184419074477)[[10]](https://x.com/i/st",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2044567846764568661)[[8]](https://x.com/i/status/2044591805337870441)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_483433",
-      "timestamp": "2026-04-16T03:21:47.122832+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia warns US-Iran talks may cover military plans; 2-week Iran ceasefire holds amid Gulf tensions; brief Ukraine cease",
-      "raw": "Russia warns US-Iran talks may cover military plans; 2-week Iran ceasefire holds amid Gulf tensions; brief Ukraine ceasefire ended with escalated strikes.** | **NO** | **HIGH** confidence[1][3][5]\n\nRussia's Security Council official stated on April 15 that US-Iran negotiations in Islamabad could mask ground operation preparations against Iran, as US military builds up in the region; no agreement w",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_669123",
+      "timestamp": "2026-04-16T03:24:52.812796+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Russia Announces Easter Ceasefire with Ukraine | CEASEFIRE ANNOUNCED | HIGH confidence**",
+      "raw": "Russia Announces Easter Ceasefire with Ukraine | CEASEFIRE ANNOUNCED | HIGH confidence**\nRussian President Putin announced a unilateral Easter ceasefire from April 11-12, 2026, though experts noted it was unlikely to lead to breakthrough negotiations.[1][5]\n\nTo provide the current market-moving developments you're seeking, I would need search results from April 16, 2026, or later. The results prov",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_679875",
+      "timestamp": "2026-04-16T03:25:03.564588+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Consumer Inflation | YES | HIGH confidence**",
+      "raw": "Incoming Bank of Korea Governor Nominee Warns of Accelerating Consumer Inflation | YES | HIGH confidence**  \nShin Hyun-song, nominee for Bank of Korea Governor, stated on April 14, 2026, that headline consumer inflation is likely to accelerate, amid ongoing 2.2% annual inflation in March and a 7th consecutive interest rate freeze at 2.5% announced April 10.[1][2][5]  \nThis hawkish outlook from the",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_685878",
+      "timestamp": "2026-04-16T03:25:09.567576+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news update you're requesting based on the available search results",
+      "raw": "I cannot provide the breaking news update you're requesting based on the available search results.\n\nThe search results contain information about Switzerland's 2026 FIFA World Cup group stage (Group B with Canada, Qatar, and a UEFA playoff winner) and some women's national team qualifier matches, but they do not include breaking news from April 16, 2026 at 3 AM UTC. The most recent dated items in t",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Will France win Group I in the 2026 FIFA World Cup?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_669112",
+      "timestamp": "2026-04-16T03:24:52.801253+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a complete answer to your query as requested",
+      "raw": "I cannot provide a complete answer to your query as requested. The search results provided are dated April 10-12, 2026, which are 4-6 days before the current date of April 16, 2026. They do not contain breaking news from \"right now\" or today's date.\n\nBased on the available search results, the most recent confirmed developments are:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_710767",
+      "timestamp": "2026-04-16T03:25:34.456553+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Bets on XRP Short-Term Down:** Multiple $5k+ buys on \"Down\" for XRP Up/Down April 15 11:05-11:10PM ET at 94-95\u00a2 (l",
+      "raw": "Whale Bets on XRP Short-Term Down:** Multiple $5k+ buys on \"Down\" for XRP Up/Down April 15 11:05-11:10PM ET at 94-95\u00a2 (likely resolved down). Smart money signals YES Down (price fell). Confidence: HIGH.[[1]](https://x.com/i/status/2044618066873421946)[[2]](https://x.com/i/status/2044618065195720876)[[3]](https://x.com/i/status/2044618064386204141)",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044618066873421946)[[2]](https://x.com/i/status/2044618065195720876)[[3]](https://x.com/i/status/2044618064386204141)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_673899",
+      "timestamp": "2026-04-16T03:24:57.588623+00:00",
+      "source": "PERPLEXITY",
+      "headline": "VP JD Vance Warns Pope Leo to 'Be Careful' on Theology Amid Trump Criticism; Senate GOP Leader Urges Focus on Economy**",
+      "raw": "VP JD Vance Warns Pope Leo to 'Be Careful' on Theology Amid Trump Criticism; Senate GOP Leader Urges Focus on Economy** | **NO** | **HIGH** confidence[1]\n\nNo confirmed resolutions, formal announcements, or deals reported that would shift prediction markets; ongoing Iran peace talks lack final agreement per White House update on April 15[2]. Senate Republican backlash against Vance/Trump remarks on",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_710777",
+      "timestamp": "2026-04-16T03:25:34.466689+00:00",
+      "source": "X_GROK",
+      "headline": "AI Bubble Burst Market at 7%:** Polymarket notes YC startup news amid low odds for AI downturn by Dec 2026",
+      "raw": "AI Bubble Burst Market at 7%:** Polymarket notes YC startup news amid low odds for AI downturn by Dec 2026. No whale action; stable pricing. Neutral signal. Confidence: LOW.[[4]](https://x.com/i/status/2044604276412981338)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044604276412981338)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_710783",
+      "timestamp": "2026-04-16T03:25:34.472090+00:00",
+      "source": "X_GROK",
+      "headline": "Kamala 2026 Run at 18%:** Tied to her gas price post",
+      "raw": "Kamala 2026 Run at 18%:** Tied to her gas price post. No bets mentioned. Neutral. Confidence: LOW.[[5]](https://x.com/i/status/2044602430583619669)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044602430583619669)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_710790",
+      "timestamp": "2026-04-16T03:25:34.479410+00:00",
+      "source": "X_GROK",
+      "headline": "Trending Tips (Recent):** Fade 88-95\u00a2 favorites (bet low-prob No for edge); avoid <10\u00a2 buys; use math (Kelly, EV) over v",
+      "raw": "Trending Tips (Recent):** Fade 88-95\u00a2 favorites (bet low-prob No for edge); avoid <10\u00a2 buys; use math (Kelly, EV) over vibes. No specific mispriced markets now. Confidence: MED.[[6]](https://x.com/i/status/2042408192874070361)[[7]](https://x.com/i/status/2044429560599527469)[[8]](https://x.com/i/status/2043351708471001358)[[9]](https://x.com/i/status/2044167305819763154)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2042408192874070361)[[7]](https://x.com/i/status/2044429560599527469)[[8]](https://x.com/i/status/2043351708471001358)[[9]](https://x.com/i/status/2044167305819763154)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 14,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 4,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 5
   }
 }
