@@ -1,19 +1,20 @@
 {
-  "last_scan": "2026-04-16T17:02:29.648224+00:00",
-  "scan_seconds": 26.9,
+  "last_scan": "2026-04-16T17:05:18.957296+00:00",
+  "scan_seconds": 28.5,
   "markets_scanned": 82,
   "open_positions": 44,
   "signals": [
     {
-      "id": "sig_713439",
-      "timestamp": "2026-04-16T17:02:17.079309+00:00",
+      "id": "sig_882120",
+      "timestamp": "2026-04-16T17:05:05.760082+00:00",
       "source": "PERPLEXITY",
-      "headline": "Federal court halts Trump White House ballroom construction, blocking King Charles visit | NO | HIGH confidence**",
-      "raw": "Federal court halts Trump White House ballroom construction, blocking King Charles visit | NO | HIGH confidence**  \nA US federal court has halted construction on the new White House ballroom, preventing King Charles from visiting it during his confirmed three-day US trip at the end of April 2026, amid tensions with Trump[1].  \nSky News host Chris Kenny reported this on April 1, 2026, citing judici",
-      "direction": "NO",
+      "headline": "US-Iran Truce Talks Collapse in Pakistan: VP JD Vance Delivers 'Bad News' After 21 Hours of Failed Negotiations** | **YE",
+      "raw": "US-Iran Truce Talks Collapse in Pakistan: VP JD Vance Delivers 'Bad News' After 21 Hours of Failed Negotiations** | **YES** | **HIGH** confidence[1][2]\n\nVP JD Vance announced the failure of high-stakes US-Iran peace talks in Islamabad, Pakistan, after 21 hours of substantive discussions yielded no agreement, marking a major setback for President Trump's diplomatic efforts[1][2]. This follows a fra",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
         "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ENTER",
@@ -21,60 +22,71 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_725006",
-      "timestamp": "2026-04-16T17:02:28.646992+00:00",
+      "id": "sig_886703",
+      "timestamp": "2026-04-16T17:05:10.343523+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's first move as Fed chair could be a rate hike amid surging oil prices and U",
-      "raw": "Kevin Warsh's first move as Fed chair could be a rate hike amid surging oil prices and U.S. inflation at 3.9% core annual rate | NO | HIGH confidence**  \nNo new confirmations, announcements, or resolutions today on South Korea's annual inflation, Fed policy shifts, or Kevin Warsh's role\u2014recent reports speculate Warsh may succeed Jerome Powell by mid-May 2026 and face pressure for a rate hike due t",
+      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
+      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow consensus upgrade, aimed at reducing Solana transaction finality to 100-150 milliseconds, was confirmed via a governance vote securing 98.27% support, positioning Solana as a top high-speed blockchain amid surging network activity like 167 million monthly token holders and 148 million dai",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the price of Ethereum be above $2,400 on April 20?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_894316",
+      "timestamp": "2026-04-16T17:05:17.956351+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a breaking news headline with the requested format based on these search results",
+      "raw": "I cannot provide a breaking news headline with the requested format based on these search results. The articles provided are from February 2026 and earlier, reporting on Kevin Warsh's nomination and appointment as Fed chair\u2014events that have already occurred and are not \"breaking news\" as of April 16, 2026.\n\nThe most recent information indicates that Warsh was expected to take office in May 2026[1]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_708423",
-      "timestamp": "2026-04-16T17:02:12.063023+00:00",
+      "id": "sig_877590",
+      "timestamp": "2026-04-16T17:05:01.230099+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia Launches Deadliest Attack on Ukraine Since 2026 Began | NO | HIGH confidence**",
-      "raw": "Russia Launches Deadliest Attack on Ukraine Since 2026 Began | NO | HIGH confidence**  \nRussia conducted its most lethal strikes of the year overnight on April 16, 2026, launching nearly 700 drones and 19 ballistic missiles targeting Kyiv and other cities, killing at least 16 people including a 12-year-old boy in the capital and forcing evacuations.[1]  \nNo confirmed ceasefire, resolution, or anno",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "YES** to ongoing tensions straining ceasefire (US turned back 10 Iranian tankers today, Iran vows Gulf/Red Sea blocks),",
+      "raw": "YES** to ongoing tensions straining ceasefire (US turned back 10 Iranian tankers today, Iran vows Gulf/Red Sea blocks), **NO** to Russia intervention or \"ternuvate\" (likely \"terminate\" ceasefire/activate mutual aid\u2014no such confirmed action).[1][2][5]",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Russia enter Ternuvate again by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_718397",
-      "timestamp": "2026-04-16T17:02:22.037920+00:00",
+      "id": "sig_877595",
+      "timestamp": "2026-04-16T17:05:01.235983+00:00",
       "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Opens SOL Trading to European Investors | NO | HIGH confidence**",
-      "raw": "Interactive Brokers Opens SOL Trading to European Investors | NO | HIGH confidence**  \nInteractive Brokers launched Solana (SOL) trading for European users via Zero Hash, expanding access on one of the world's largest brokerage platforms, but SOL price remains compressed at $82.08 without upward movement.[2]  \nNo other confirmations, announcements, or resolutions today involve Solana rising, Ether",
+      "headline": "MED** confidence (latest Apr 16 reports confirm strain/escalation signals but no final rupture; Russia welcomes truce wi",
+      "raw": "MED** confidence (latest Apr 16 reports confirm strain/escalation signals but no final rupture; Russia welcomes truce without new commitments).[4][5]",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Ethereum be above $2,400 on April 20?",
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 2,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
