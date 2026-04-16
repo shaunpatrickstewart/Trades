@@ -1,98 +1,60 @@
 {
-  "last_scan": "2026-04-16T19:11:03.252057+00:00",
-  "scan_seconds": 32.1,
-  "markets_scanned": 83,
+  "last_scan": "2026-04-16T19:13:52.525459+00:00",
+  "scan_seconds": 29.3,
+  "markets_scanned": 84,
   "open_positions": 43,
   "signals": [
     {
-      "id": "sig_421629",
-      "timestamp": "2026-04-16T19:10:45.261729+00:00",
+      "id": "sig_590899",
+      "timestamp": "2026-04-16T19:13:34.531101+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Limits Strait of Hormuz Transit to 15 Vessels/Day During Ceasefire | NO** | **MED confidence**",
-      "raw": "Iran Limits Strait of Hormuz Transit to 15 Vessels/Day During Ceasefire | NO** | **MED confidence**  \nAn unnamed senior Iranian source confirmed to Russian state media on April 9, 2026, that Iran will restrict transit to no more than 15 vessels per day through the Strait of Hormuz, enforcing designated routes into Iranian waters amid the ongoing ceasefire.[1] This move, paired with a graphic from ",
+      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Tensions | NO | MED confidence**",
+      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal Amid Ongoing Tensions | NO | MED confidence**  \nThe Kremlin publicly welcomed the US, Israel, and Iran ceasefire agreement announced on April 7 (effective Wednesday, April 8), emphasizing de-escalation and diplomacy while noting Russia's close partnership with Iran, including intelligence sharing on drones[1][5]. No new confirmations, extensi",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_421639",
-      "timestamp": "2026-04-16T19:10:45.271256+00:00",
+      "id": "sig_595959",
+      "timestamp": "2026-04-16T19:13:39.591572+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Strikes Hit 80% of Iran's Nuclear Industrial Base, Including Key Weapons Site | YES** | **HIGH confidence**",
-      "raw": "US Strikes Hit 80% of Iran's Nuclear Industrial Base, Including Key Weapons Site | YES** | **HIGH confidence**  \nChairman of the Joint Chiefs General Dan Caine confirmed on April 8, 2026, that combined force strikes degraded 80% of Iran\u2019s nuclear industrial base; satellite imagery verified damage to the Shahid Boroujerdi site at Parchin\u2014a former nuclear weapons core production facility under the p",
+      "headline": "Christine Drazan Officially Launches 2026 Oregon Gubernatorial Campaign** | YES | HIGH confidence[2][3]",
+      "raw": "Christine Drazan Officially Launches 2026 Oregon Gubernatorial Campaign** | YES | HIGH confidence[2][3]\n\nChristine Drazan, a leading Republican contender and 2022 nominee, announced her run for Oregon governor on Monday at a Portland manufacturing facility, positioning for a potential rematch with incumbent Democrat Tina Kotek[3]. This recent confirmation adds her to an already crowded Republican ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_432281",
-      "timestamp": "2026-04-16T19:10:55.913695+00:00",
+      "id": "sig_607892",
+      "timestamp": "2026-04-16T19:13:51.524883+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Teases XRP Partnership with Cryptic Video Post, Sparking Rumors of Integration or Wrapped XRP Token | NO | HIGH c",
-      "raw": "Solana Teases XRP Partnership with Cryptic Video Post, Sparking Rumors of Integration or Wrapped XRP Token | NO | HIGH confidence**  \nNo official confirmation, announcement, or resolution has occurred\u2014Solana's official account posted a 4-second clip today (April 16, 2026) featuring the XRP logo captioned \u201cXRP,\u201d and a co-founder hinted at wrapped XRP, but Ripple has issued no validation, focusing i",
+      "headline": "South Korea's March 2026 annual CPI inflation confirmed at 2",
+      "raw": "South Korea's March 2026 annual CPI inflation confirmed at 2.2% YoY, up from 2.0% but below 2.3-2.4% forecasts** | NO | HIGH confidence\n\nSouth Korea's Statistics Korea released March 2026 CPI data today, showing annual inflation at 2.2% (vs. 2.0% in February and market consensus of 2.3-2.4%), with monthly rise of 0.3% (below 0.6% expected).[1][2][4] Core inflation (ex-food/energy) fell to 2.2% fro",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_421652",
-      "timestamp": "2026-04-16T19:10:45.284354+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran-US Talks Reach Stalemate Over Hormuz Control | NO** | **MED confidence**",
-      "raw": "Iran-US Talks Reach Stalemate Over Hormuz Control | NO** | **MED confidence**  \nApril 11, 2026, negotiations hit deadlock, with Iran demanding sovereignty over the Strait of Hormuz, war reparations, asset releases, and a regional ceasefire, as reported by sources to the Financial Times.[2] Iran refuses full reopening despite Trump threats, using laid mines to funnel ships into its waters for fees,",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_421662",
-      "timestamp": "2026-04-16T19:10:45.294351+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia Sharing Satellite Intel with Iran on Israeli Energy Sites | YES** | **MED confidence**",
-      "raw": "Russia Sharing Satellite Intel with Iran on Israeli Energy Sites | YES** | **MED confidence**  \nUkraine's Zelenskyy stated on April 7, 2026, that Russia is providing Iran satellite imagery of 50-53 Israeli energy facilities via a permanent channel, aiding strikes akin to Ukraine's grid attacks; this leverages a treaty for intel exchange.[3] Earlier reports note similar Russian aid for Hormuz shipp",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 3,
-    "alert": 2,
+    "alert": 0,
     "watch": 0,
     "high_conf": 3
   }
