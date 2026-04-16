@@ -1,102 +1,118 @@
 {
-  "last_scan": "2026-04-16T15:48:09.447240+00:00",
+  "last_scan": "2026-04-16T15:51:01.845354+00:00",
   "scan_seconds": 27.5,
   "markets_scanned": 82,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_245307",
-      "timestamp": "2026-04-16T15:47:48.951324+00:00",
+      "id": "sig_437200",
+      "timestamp": "2026-04-16T15:51:00.844663+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal on Strait of Hormuz (April 8 Announcement)** | **YES** | **HIGH*",
-      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal on Strait of Hormuz (April 8 Announcement)** | **YES** | **HIGH** confidence[1][2][4]\n\nRussia's Kremlin spokesman Dmitry Peskov explicitly welcomed the ceasefire agreement between the US, Israel, and Iran, emphasizing de-escalation and diplomatic talks over military action, as the deal averted escalation after Trump's ultimatum on reopening t",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair, Speculation Rises on Rate Hike Amid Surging Inflation and Oil Shock** | Y",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair, Speculation Rises on Rate Hike Amid Surging Inflation and Oil Shock** | YES | HIGH confidence[1][2][3][4][5][6]\n\nPresident Trump's announcement of Kevin Warsh's nomination to succeed Jerome Powell as Fed Chair\u2014expected by mid-May with likely Senate confirmation\u2014marks the key breaking development, sparking debates on Fed independence, monetary dominanc",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_249601",
-      "timestamp": "2026-04-16T15:47:53.245345+00:00",
-      "source": "PERPLEXITY",
-      "headline": "King Charles Confirmed to Meet Trump and Address US Congress Despite Tensions | YES | MED confidence**",
-      "raw": "King Charles Confirmed to Meet Trump and Address US Congress Despite Tensions | YES | MED confidence**\n\nKing Charles is set to meet US President Donald Trump and address Congress as part of America's 250th birthday celebrations, with UK commentator Andrew Eborn stating the King remains \"above politics\" and won't cancel amid political fury and US-UK tensions.[1][2][3] This follows reports from Apri",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_264802",
-      "timestamp": "2026-04-16T15:48:08.446167+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Chair Rate Hike Discussions Surfacing | YES | HIGH confidence**",
-      "raw": "Fed Chair Rate Hike Discussions Surfacing | YES | HIGH confidence**\n\nMarch FOMC minutes confirmed that **some Federal Reserve participants argued the target rate range should be raised if inflation exceeds 2%**[5]. However, Fed Chair Powell maintained a cautious stance, with CME FedWatch showing a 98.4% probability of a rate hold at the April FOMC meeting[5].\n\nThese developments suggest upside inf",
-      "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_264773",
-      "timestamp": "2026-04-16T15:48:08.417468+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Incoming Bank of Korea Chief Warns of Accelerating Inflation | YES | HIGH confidence**",
-      "raw": "Incoming Bank of Korea Chief Warns of Accelerating Inflation | YES | HIGH confidence**\n\nBank of Korea Governor nominee Shin Hyun-song warned on Wednesday (April 14, 2026) that **headline inflation is likely to accelerate**[1]. The Policy Board expects inflation to rise to the mid to upper two-percent range[3], driven largely by surging oil costs that have already pushed consumer prices above the c",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_264767",
-      "timestamp": "2026-04-16T15:48:08.411329+00:00",
+      "id": "sig_420295",
+      "timestamp": "2026-04-16T15:50:43.939308+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the relevant recent developments:",
-      "raw": "Based on the search results provided, here are the relevant recent developments:",
+      "headline": "Russia's stance:** Kremlin spokesman Dmitry Peskov expressed support for de-escalation and diplomacy, noting Russia's cl",
+      "raw": "Russia's stance:** Kremlin spokesman Dmitry Peskov expressed support for de-escalation and diplomacy, noting Russia's close partnership with Iran (2025 strategic agreement, intelligence sharing) but no mutual defense[2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_420309",
+      "timestamp": "2026-04-16T15:50:43.953834+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Post-ceasefire status (as of April 11):** Ceasefire holds fragilely amid violations, Strait of Hormuz issues, and planne",
+      "raw": "Post-ceasefire status (as of April 11):** Ceasefire holds fragilely amid violations, Strait of Hormuz issues, and planned US-Iran peace talks in Islamabad; no Russian involvement in mediation[1][4][6].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_420316",
+      "timestamp": "2026-04-16T15:50:43.960119+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Latest (April 16):** Ongoing tensions with US forces positioned and Trump warnings of potential escalation, but Pentagon",
+      "raw": "Latest (April 16):** Ongoing tensions with US forces positioned and Trump warnings of potential escalation, but Pentagon claims \"decisive victory\"; nothing newly resolved involving Russia[5].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Russia enter Ternuvate again by April 30?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_264789",
-      "timestamp": "2026-04-16T15:48:08.433551+00:00",
+      "id": "sig_420321",
+      "timestamp": "2026-04-16T15:50:43.965983+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's Benchmark Rate Held at 2",
-      "raw": "South Korea's Benchmark Rate Held at 2.5% for 7th Consecutive Month | YES | HIGH confidence**\n\nOn April 10, 2026, the Bank of Korea's Monetary Policy Board unanimously decided to **keep the benchmark interest rate unchanged at 2.5%**[3], taking a cautious \"wait-and-see\" approach amid external risk factors including the Middle East conflict[3].",
-      "direction": "YES",
+      "headline": "Confidence: HIGH** (no fresh confirmations in results beyond early April events)",
+      "raw": "Confidence: HIGH** (no fresh confirmations in results beyond early April events).",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_425606",
+      "timestamp": "2026-04-16T15:50:49.250367+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE: Trump threatens to obliterate Iran's civilization by 8 p",
+      "raw": "HEADLINE: Trump threatens to obliterate Iran's civilization by 8 p.m. tonight, blindsiding VP JD Vance who learned of it from a journalist mid-speech in Budapest; U.S. begins bombing Iran's bridges ahead of deadline amid GOP criticism and 25th Amendment calls | NO**  \nNo confirmed resolution, announcement, or outcome resolving the threat\u2014Trump's statement issued Tuesday escalates tensions without ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_425614",
+      "timestamp": "2026-04-16T15:50:49.258283+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH confidence**\u2014Reports from New Republic and AP directly detail the unfulfilled threat, Vance's exclusion, and intern",
+      "raw": "HIGH confidence**\u2014Reports from New Republic and AP directly detail the unfulfilled threat, Vance's exclusion, and internal Republican dissent without updates confirming action.[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 3,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 0
   }
 }
