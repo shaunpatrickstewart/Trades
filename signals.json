@@ -1,77 +1,65 @@
 {
-  "last_scan": "2026-04-16T02:32:38.200702+00:00",
-  "scan_seconds": 21.0,
+  "last_scan": "2026-04-16T02:35:17.072732+00:00",
+  "scan_seconds": 20.1,
   "markets_scanned": 79,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_524906",
-      "timestamp": "2026-04-16T02:32:28.598916+00:00",
+      "id": "sig_678241",
+      "timestamp": "2026-04-16T02:35:01.933709+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles' US State Visit Confirmed for April 28 Despite UK Political Pressure to Cancel Amid Trump-Iran Tensions | N",
-      "raw": "King Charles' US State Visit Confirmed for April 28 Despite UK Political Pressure to Cancel Amid Trump-Iran Tensions | NO | LOW confidence**\n\nKing Charles and Queen Camilla's historic US state visit to Washington D.C. on **April 28, 2026**, marking the 250th anniversary of American independence, remains scheduled, with a confirmed private meeting and tea with President Donald Trump[1][3]. UK Liber",
-      "direction": "NO",
+      "headline": "Trump Rules Out Iran Ceasefire Extension | NO | HIGH confidence** [4][5]",
+      "raw": "Trump Rules Out Iran Ceasefire Extension | NO | HIGH confidence** [4][5]\n\nRussia's Foreign Ministry and Kremlin welcomed the initial U.S.-Iran two-week ceasefire announced on April 7-8, 2026, with Maria Zakharova crediting Moscow's role and blaming U.S./Israel aggression while praising Pakistan's mediation.[1][2][3][6]\n\nOn April 15, 2026 (closest to now), White House Press Secretary Karoline Leavi",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_682075",
+      "timestamp": "2026-04-16T02:35:05.767079+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Sets Up JD Vance as Iran War 'Fall Guy' by Sending Him on High-Stakes Peace Mission to Pakistan[2] | NO | HIGH con",
+      "raw": "Trump Sets Up JD Vance as Iran War 'Fall Guy' by Sending Him on High-Stakes Peace Mission to Pakistan[2] | NO | HIGH confidence**\n\nNo breaking confirmation, announcement, or resolution of \"obliteration\" or destruction involving Vance and Trump; instead, a Daily Beast report details Trump dispatching VP JD Vance to Pakistan for U.S.-Iran peace talks amid a 25-day conflict, plummeting approval ratin",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_533508",
-      "timestamp": "2026-04-16T02:32:37.200054+00:00",
+      "id": "sig_692379",
+      "timestamp": "2026-04-16T02:35:16.072011+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | YES | HIGH confidence",
-      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair Amid Surging Inflation and Rate Hike Speculation** | YES | HIGH confidence[1][2][4][5][6]\n\nPresident Donald Trump has announced his intention to nominate Kevin Warsh to replace Jerome Powell as Fed Chair when Powell's term ends in May 2026, confirmed across multiple sources including Treasury Secretary Scott Bessent naming Warsh among top finalists[1][",
+      "headline": "IMF Raises South Korea 2026 Inflation Forecast to 2",
+      "raw": "IMF Raises South Korea 2026 Inflation Forecast to 2.5% (Up 0.7pp), Holds Growth at 1.9% Amid Middle East Oil Disruptions** | YES | HIGH confidence[1][2]\n\nThe IMF released its April World Economic Outlook on Tuesday, April 15, 2026, maintaining South Korea's 2026 GDP growth forecast at 1.9%\u2014unchanged from January despite global downgrades\u2014but lifting the **annual inflation** projection to 2.5% due ",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_528898",
-      "timestamp": "2026-04-16T02:32:32.590493+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Surges Past $74K to One-Month High on April 14 Amid Easing U",
-      "raw": "Bitcoin Surges Past $74K to One-Month High on April 14 Amid Easing U.S.-Iran Tensions and ETF Inflows | YES | HIGH confidence**  \nBitcoin broke key resistance at $74,000 on April 14, 2026, reaching ~$74,500-$75,000 with a 5.34% 24-hour gain, driven by de-escalation signals in the U.S.-Iran standoff (e.g., Trump negotiation comments, Strait of Hormuz relief) and $400M-$500M short liquidations[1][3]",
-      "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
         "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_519783",
-      "timestamp": "2026-04-16T02:32:23.475834+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nothing resolved today** moves markets; prior ceasefire reduced oil shock risks but blockade and tensions sustain uncert",
-      "raw": "Nothing resolved today** moves markets; prior ceasefire reduced oil shock risks but blockade and tensions sustain uncertainty.[1][3][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 2,
-    "watch": 0,
+    "alert": 0,
+    "watch": 1,
     "high_conf": 2
   }
 }
