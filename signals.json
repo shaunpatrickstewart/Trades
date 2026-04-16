@@ -1,79 +1,92 @@
 {
-  "last_scan": "2026-04-16T22:49:07.447377+00:00",
-  "scan_seconds": 26.6,
+  "last_scan": "2026-04-16T22:51:53.129733+00:00",
+  "scan_seconds": 24.4,
   "markets_scanned": 82,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_522827",
-      "timestamp": "2026-04-16T22:49:06.446264+00:00",
+      "id": "sig_672875",
+      "timestamp": "2026-04-16T22:51:36.494163+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts | NO | HIGH confidence** [1]\n\nThis March figure, released around early April 2026, marks a modest acceleration amid contained pressures before Middle East conflict-driven energy volatility, staying near the Bank of Korea's 2% target.[1] No newer April data or announcements conf",
-      "direction": "YES",
+      "headline": "**Russian-Turkish FM call (April 14)**: Lavrov and Fidan discussed resolving the U",
+      "raw": "**Russian-Turkish FM call (April 14)**: Lavrov and Fidan discussed resolving the U.S.-Israeli attack on Iran and Ukraine, expressing support for peaceful efforts; no new resolutions or Russian commitments confirmed.[1]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_688509",
+      "timestamp": "2026-04-16T22:51:52.129017+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bank of Korea Holds Benchmark Interest Rate at 2",
+      "raw": "Bank of Korea Holds Benchmark Interest Rate at 2.5% for 7th Consecutive Month Amid Rising Inflation Pressures from Middle East Conflict and Oil Prices | NO | HIGH confidence** [3][4]\n\nThe Bank of Korea's Monetary Policy Board unanimously decided on April 10, 2026, to maintain the policy rate at 2.5%, citing consumer prices above the 2% target (recently ~2.2%), upside inflation risks from surging o",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the price of XRP be above $0.90 on April 21?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_517711",
-      "timestamp": "2026-04-16T22:49:01.330996+00:00",
+      "id": "sig_672897",
+      "timestamp": "2026-04-16T22:51:36.516040+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Signals Peace Talks with US, Triggering Crypto Surge | YES | HIGH**",
-      "raw": "Iran Signals Peace Talks with US, Triggering Crypto Surge | YES | HIGH**  \nBitcoin broke above $75,000 (up 5.9%), Ethereum jumped 8.6% to $2,377, XRP rose 4.2% to $1.38 (outperforming peers), and Solana gained 6.3% to $86.55 amid reduced Middle East war pressure.[1][2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_517721",
-      "timestamp": "2026-04-16T22:49:01.340389+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Rakuten Wallet Lists XRP Yesterday | YES | HIGH**",
-      "raw": "Rakuten Wallet Lists XRP Yesterday | YES | HIGH**  \nXRP up 4% to $1.41, leading Bitcoin/Ethereum/Solana, with institutional buying and upcoming SEC crypto roundtable adding momentum toward $1.45 resistance.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_517732",
-      "timestamp": "2026-04-16T22:49:01.351766+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tether Backs $150M Drift Protocol Recovery on Solana (April 16) | YES | MED**",
-      "raw": "Tether Backs $150M Drift Protocol Recovery on Solana (April 16) | YES | MED**  \nAddresses $285M exploit, expanding USDT role; pairs with $5.04M Solana ETF inflows (cumulative $835M assets).[4]",
-      "direction": "YES",
+      "headline": "**Turkey's alerts (April 15-16)**: Erdo\u011fan warned military to \"be ready\" amid Israel tensions post-Iran strikes; no inva",
+      "raw": "**Turkey's alerts (April 15-16)**: Erdo\u011fan warned military to \"be ready\" amid Israel tensions post-Iran strikes; no invasion or Russian link confirmed.[2]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_517741",
-      "timestamp": "2026-04-16T22:49:01.360619+00:00",
+      "id": "sig_672906",
+      "timestamp": "2026-04-16T22:51:36.525330+00:00",
       "source": "PERPLEXITY",
-      "headline": "US XRP ETFs See $12M April Inflows | YES | MED**",
-      "raw": "US XRP ETFs See $12M April Inflows | YES | MED**  \nReverses March outflows amid privacy upgrades, Asian adoption, and CLARITY Act markup anticipation (60% Polymarket odds).[2][5][6]",
-      "direction": "YES",
+      "headline": "**Ceasefire notes**: U",
+      "raw": "**Ceasefire notes**: U.S.-Iran two-week truce (from ~April 8) welcomed by Turkey, but Islamabad talks failed; no fresh confirmations or Russian role today.[3][6][7]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the price of XRP be above $0.90 on April 21?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_672912",
+      "timestamp": "2026-04-16T22:51:36.531285+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** \u2013 Search results lack any post-April 15 confirmations tying Russia directly to new Iran actions; earl",
+      "raw": "Confidence: HIGH** \u2013 Search results lack any post-April 15 confirmations tying Russia directly to new Iran actions; earlier reports (e.g., potential Russian satellite aid) remain unupdated and speculative.[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
