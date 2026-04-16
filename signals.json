@@ -1,145 +1,56 @@
 {
-  "last_scan": "2026-04-16T22:46:19.946559+00:00",
-  "scan_seconds": 27.1,
-  "markets_scanned": 80,
-  "open_positions": 36,
+  "last_scan": "2026-04-16T22:49:07.447377+00:00",
+  "scan_seconds": 26.6,
+  "markets_scanned": 82,
+  "open_positions": 38,
   "signals": [
     {
-      "id": "sig_338401",
-      "timestamp": "2026-04-16T22:46:02.020629+00:00",
+      "id": "sig_522827",
+      "timestamp": "2026-04-16T22:49:06.446264+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Limits Strait of Hormuz Transit to 15 Vessels/Day During Ceasefire | NO (No Full Reopening) | HIGH confidence** [1]",
-      "raw": "Iran Limits Strait of Hormuz Transit to 15 Vessels/Day During Ceasefire | NO (No Full Reopening) | HIGH confidence** [1]\n\nIranian officials confirmed on April 9, 2026, they will restrict transit to no more than 15 vessels per day through the Strait of Hormuz amid an ongoing ceasefire, directing ships into Iranian-controlled waters for IRGC Navy coordination and fees.[1][2] This \"new phase\" of mana",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_338407",
-      "timestamp": "2026-04-16T22:46:02.026363+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Strikes Hit 80% of Iran's Nuclear Industrial Base, Including Key Weapons Site | YES (Nuclear Degradation Confirmed) |",
-      "raw": "US Strikes Hit 80% of Iran's Nuclear Industrial Base, Including Key Weapons Site | YES (Nuclear Degradation Confirmed) | HIGH confidence** [1]\n\nChairman of the Joint Chiefs General Dan Caine confirmed on April 8 that combined US-led strikes damaged 80% of Iran's nuclear industrial base, including the Shahid Boroujerdi site at Parchin (a pre-2003 nuclear weapons core production facility) per satell",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts | NO | HIGH confidence** [1]\n\nThis March figure, released around early April 2026, marks a modest acceleration amid contained pressures before Middle East conflict-driven energy volatility, staying near the Bank of Korea's 2% target.[1] No newer April data or announcements conf",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_338419",
-      "timestamp": "2026-04-16T22:46:02.038553+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Russia Shared Israeli Energy Site Intel with Iran | YES (Confirmed by Ukraine) | MED confidence** [4]",
-      "raw": "Russia Shared Israeli Energy Site Intel with Iran | YES (Confirmed by Ukraine) | MED confidence** [4]\n\nUkraine's Zelenskyy stated on April 7 that Russia provided satellite intelligence on 50-53 Israeli energy facilities to aid Iranian strikes, via a permanent channel and per their security treaty.[4][8]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_350075",
-      "timestamp": "2026-04-16T22:46:13.694223+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana ETF Inflows Confirmed on April 16 | YES | HIGH confidence**",
-      "raw": "Solana ETF Inflows Confirmed on April 16 | YES | HIGH confidence**  \nU.S. spot Solana ETFs recorded $5.04 million in net inflows on April 16, 2026, following $5.36 million the prior day, with cumulative net assets at $835 million, signaling strong institutional demand that could support price momentum amid recent Solana surges to $86.55[3][4].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_355326",
-      "timestamp": "2026-04-16T22:46:18.945838+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Benchmark Interest Rate at 2",
-      "raw": "Bank of Korea Holds Benchmark Interest Rate at 2.5% on April 10, 2026, Citing Inflation Above 2% Target and Middle East Risks | YES | HIGH confidence** [3][4]\n\nThis unanimous decision by the Monetary Policy Board marks the 7th consecutive month at 2.5%, driven by consumer prices at about 2.2%\u2014slightly above the 2% target\u2014and upside inflation risks from surging oil prices amid Middle East conflict[",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_338413",
-      "timestamp": "2026-04-16T22:46:02.032829+00:00",
+      "id": "sig_517711",
+      "timestamp": "2026-04-16T22:49:01.330996+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran-US Strait Talks Reach Stalemate Over Hormuz Control | NO (No Resolution) | MED confidence** [2]",
-      "raw": "Iran-US Strait Talks Reach Stalemate Over Hormuz Control | NO (No Resolution) | MED confidence** [2]\n\nApril 11 negotiations stalled on Strait status, with Iran demanding sovereignty, compensation, asset releases, and a broader \"Axis of Resistance\" ceasefire, per sources briefed on talks.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_338427",
-      "timestamp": "2026-04-16T22:46:02.046053+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No New Fire Since April 8; Iran Adheres to Ceasefire with Minimal Gulf Drone Strike | YES (Ceasefire Holding) | HIGH con",
-      "raw": "No New Fire Since April 8; Iran Adheres to Ceasefire with Minimal Gulf Drone Strike | YES (Ceasefire Holding) | HIGH confidence** [1][2]\n\nNo exchanges reported since April 8 cutoff; Iran's single April 11 Bahrain drone reflects declining attacks on Gulf states.[2]",
+      "headline": "Iran Signals Peace Talks with US, Triggering Crypto Surge | YES | HIGH**",
+      "raw": "Iran Signals Peace Talks with US, Triggering Crypto Surge | YES | HIGH**  \nBitcoin broke above $75,000 (up 5.9%), Ethereum jumped 8.6% to $2,377, XRP rose 4.2% to $1.38 (outperforming peers), and Solana gained 6.3% to $86.55 amid reduced Middle East war pressure.[1][2]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_350080",
-      "timestamp": "2026-04-16T22:46:13.699839+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Signals Peace Talks with U",
-      "raw": "Iran Signals Peace Talks with U.S., Fueling Crypto Surge Including Solana, Ethereum, XRP | YES | HIGH confidence**  \nIran's signal to resume peace talks with the U.S. drove Bitcoin above $75,000, Ethereum up 8.6% to $2,377, Solana up 6.3% to $86.55, and XRP up 4.2% to $1.38, easing Middle East tensions that had pressured markets[3].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
-        "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET",
-        "Ethereum Up or Down - April 17, 1:45PM-2:00PM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_350086",
-      "timestamp": "2026-04-16T22:46:13.705622+00:00",
+      "id": "sig_517721",
+      "timestamp": "2026-04-16T22:49:01.340389+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tether Backs $150M Solana Exploit Recovery Plan | YES | HIGH confidence**",
-      "raw": "Tether Backs $150M Solana Exploit Recovery Plan | YES | HIGH confidence**  \nTether supported Drift Protocol's $150M recovery for users after a $285M exploit on Solana, expanding USDT's role and boosting network confidence on April 16, 2026[4].",
+      "headline": "Rakuten Wallet Lists XRP Yesterday | YES | HIGH**",
+      "raw": "Rakuten Wallet Lists XRP Yesterday | YES | HIGH**  \nXRP up 4% to $1.41, leading Bitcoin/Ethereum/Solana, with institutional buying and upcoming SEC crypto roundtable adding momentum toward $1.45 resistance.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_517732",
+      "timestamp": "2026-04-16T22:49:01.351766+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tether Backs $150M Drift Protocol Recovery on Solana (April 16) | YES | MED**",
+      "raw": "Tether Backs $150M Drift Protocol Recovery on Solana (April 16) | YES | MED**  \nAddresses $285M exploit, expanding USDT role; pairs with $5.04M Solana ETF inflows (cumulative $835M assets).[4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -150,11 +61,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_350098",
-      "timestamp": "2026-04-16T22:46:13.717225+00:00",
+      "id": "sig_517741",
+      "timestamp": "2026-04-16T22:49:01.360619+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP CLARITY Act Senate Markup Looms Mid-April, ETF Inflows Hit $119",
-      "raw": "XRP CLARITY Act Senate Markup Looms Mid-April, ETF Inflows Hit $119.6M | YES | MED confidence**  \nXRP weekly ETF inflows reached $119.6M amid price climb to $1.38-$1.39, with potential CLARITY Act passage in late April possibly pushing prices to $1.60 by confirming commodity status[3][5].",
+      "headline": "US XRP ETFs See $12M April Inflows | YES | MED**",
+      "raw": "US XRP ETFs See $12M April Inflows | YES | MED**  \nReverses March outflows amid privacy upgrades, Asian adoption, and CLARITY Act markup anticipation (60% Polymarket odds).[2][5][6]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -166,9 +77,9 @@
     }
   ],
   "stats": {
-    "enter": 4,
-    "alert": 6,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
