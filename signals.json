@@ -1,36 +1,31 @@
 {
-  "last_scan": "2026-04-16T01:44:14.079394+00:00",
+  "last_scan": "2026-04-16T01:46:53.925979+00:00",
   "scan_seconds": 21.0,
-  "markets_scanned": 76,
+  "markets_scanned": 78,
   "open_positions": 40,
   "signals": [
     {
-      "id": "sig_629383",
-      "timestamp": "2026-04-16T01:44:13.078402+00:00",
+      "id": "sig_776653",
+      "timestamp": "2026-04-16T01:46:40.348816+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces Intention to Nominate Kevin Warsh as Next Fed Chair, Replacing Powell in May | YES | HIGH confidence**",
-      "raw": "Trump Announces Intention to Nominate Kevin Warsh as Next Fed Chair, Replacing Powell in May | YES | HIGH confidence**  \nPresident Trump announced on January 31, 2026, his plan to nominate Kevin Warsh to succeed Jerome Powell as Federal Reserve chair when Powell's term ends in May 2026, sparking immediate debate on Fed policy shifts, independence, and rate cuts[1][2][3][4][6].  \nWarsh, a former Fe",
+      "headline": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_620587",
-      "timestamp": "2026-04-16T01:44:04.282926+00:00",
+      "id": "sig_776659",
+      "timestamp": "2026-04-16T01:46:40.354660+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | White House warns Trump administration staffers to stop betting on prediction markets amid reports of insider",
-      "raw": "HEADLINE | White House warns Trump administration staffers to stop betting on prediction markets amid reports of insider trading on Iran war events | NO | HIGH confidence**  \nThe White House issued a warning Thursday against staffers using non-public information for wagers on platforms like Kalshi or Polymarket, following media reports of suspicious trades tied to U.S.-Israel strikes on Iran, ceas",
+      "headline": "King Charles' US Visit Faces Trump Rhetoric Challenges** | **NO** | **HIGH**",
+      "raw": "King Charles' US Visit Faces Trump Rhetoric Challenges** | **NO** | **HIGH**",
       "direction": "NO",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Trump announces end of military operations against Iran by A",
         "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
       ],
       "action": "ALERT",
@@ -39,9 +34,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 0,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
