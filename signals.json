@@ -1,130 +1,64 @@
 {
-  "last_scan": "2026-04-16T15:42:30.132311+00:00",
-  "scan_seconds": 19.8,
+  "last_scan": "2026-04-16T15:45:17.687403+00:00",
+  "scan_seconds": 23.6,
   "markets_scanned": 82,
   "open_positions": 39,
   "signals": [
     {
-      "id": "sig_912269",
-      "timestamp": "2026-04-16T15:42:15.914040+00:00",
+      "id": "sig_77068",
+      "timestamp": "2026-04-16T15:45:00.712336+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal as Russia Backs De-Escalation Amid Ongoing Talks | NO | MED confidence**",
-      "raw": "Kremlin Welcomes US-Israel-Iran Ceasefire Deal as Russia Backs De-Escalation Amid Ongoing Talks | NO | MED confidence**\n\nThe Kremlin on April 8, 2026, publicly welcomed a two-week US-Israel-Iran ceasefire agreement, with spokesman Dmitry Peskov emphasizing support for diplomacy over escalation and noting Russia's close partnership with Iran, including intelligence sharing on drones[1]. No confirme",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Putin's Emergency Speech Warns West Against Iran Intervention | NO | HIGH confidence**",
+      "raw": "Putin's Emergency Speech Warns West Against Iran Intervention | NO | HIGH confidence**  \nRussian President Vladimir Putin delivered a live emergency speech from the Kremlin on April 16, 2026, issuing a stark warning against Western military intervention in Iran, escalating geopolitical tensions and challenging U.S. policy under President Trump[1].  \nNo formal declarations of war, military alliance",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_917320",
-      "timestamp": "2026-04-16T15:42:20.965562+00:00",
+      "id": "sig_82893",
+      "timestamp": "2026-04-16T15:45:06.537653+00:00",
       "source": "PERPLEXITY",
-      "headline": "TRUMP CONFIRMS U",
-      "raw": "TRUMP CONFIRMS U.S./ISRAELI STRIKES ELIMINATED 49 TOP IRANIAN LEADERS, WIPING OUT KHAMENEI SUCCESSION BENCH\u2014AHEAD OF SCHEDULE** | YES | HIGH confidence[1]\n\nWhite House states 49 top Iranian leaders were eliminated in the opening phase of the military campaign against Iran, with Trump telling reporters Tuesday that \"most of the people we had in mind are dead,\" creating uncertainty over succession a",
+      "headline": "WHITE HOUSE ANNOUNCES IRAN CEASEFIRE AFTER TRUMP THREAT; CLAIMS IRAN 'BACKED DOWN' IN TWO-WEEK TRUCE** | **YES** | **HIG",
+      "raw": "WHITE HOUSE ANNOUNCES IRAN CEASEFIRE AFTER TRUMP THREAT; CLAIMS IRAN 'BACKED DOWN' IN TWO-WEEK TRUCE** | **YES** | **HIGH** confidence[1][3]\n\nThe White House confirmed on April 8, 2026, that Iran agreed to a two-week ceasefire following President Trump's Tuesday deadline threat of \"whole civilization\" obliteration if the Strait of Hormuz wasn't reopened, with spokesperson Karoline Leavitt stating ",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_920688",
-      "timestamp": "2026-04-16T15:42:24.333803+00:00",
+      "id": "sig_93042",
+      "timestamp": "2026-04-16T15:45:16.686051+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence**",
-      "raw": "NO | LOW confidence**  \nSearch results lack real-time developments as of April 16, 2026, 3 PM UTC, focusing instead on outdated prices, predictions, and April overviews.[3][7][8][9]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_925462",
-      "timestamp": "2026-04-16T15:42:29.107926+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Markets pricing 97-99% chance of no Fed rate change at the April 28-29 meeting, driven by 3",
-      "raw": "Markets pricing 97-99% chance of no Fed rate change at the April 28-29 meeting, driven by 3.3% annual CPI inflation (up from prior months) and Iran-related oil shocks, ruling out cuts or hikes for now.[1][2]",
+      "headline": "Trump Nominates Kevin Warsh as Next Fed Chair on January 30, Raising Questions on 2026 Rate Path Amid Steady Inflation a",
+      "raw": "Trump Nominates Kevin Warsh as Next Fed Chair on January 30, Raising Questions on 2026 Rate Path Amid Steady Inflation and Stable Unemployment | YES | HIGH confidence**  \nPresident Trump nominated Kevin Warsh as the new Federal Reserve chair on January 30, 2026, to replace Jerome Powell whose term ends in May 2026; this development, combined with the Fed holding rates steady at 3.5\u20133.75% in Januar",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_925468",
-      "timestamp": "2026-04-16T15:42:29.113882+00:00",
-      "source": "PERPLEXITY",
-      "headline": "March 17-18 FOMC minutes (released ~April 8) show \"some\" officials open to rate hikes if inflation persists, with PCE at",
-      "raw": "March 17-18 FOMC minutes (released ~April 8) show \"some\" officials open to rate hikes if inflation persists, with PCE at 2.8% total/3.1% core in January (est. 2.8%/3.0% February); no new actions taken.[5][6][7]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_925474",
-      "timestamp": "2026-04-16T15:42:29.119778+00:00",
-      "source": "PERPLEXITY",
-      "headline": "March FOMC held rates at 3",
-      "raw": "March FOMC held rates at 3.5-3.75%, projecting one 2026 cut but higher inflation (PCE 2.7%) amid energy risks; Kevin Warsh noted as potential Powell successor facing divisions.[4][6]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_925480",
-      "timestamp": "2026-04-16T15:42:29.125646+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No mentions of South Korea or new confirmations/announcements post-March; upcoming March CPI (forecast 3",
-      "raw": "No mentions of South Korea or new confirmations/announcements post-March; upcoming March CPI (forecast 3.4% annual) due soon but not yet released.[5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_925486",
-      "timestamp": "2026-04-16T15:42:29.131559+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (search results lack events after early April; next FOMC April 28)",
-      "raw": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (search results lack events after early April; next FOMC April 28).[1][2][7]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 0,
+    "watch": 1,
+    "high_conf": 2
   }
 }
