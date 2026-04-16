@@ -1121,8 +1121,7 @@
     }
   }
 
-  // ── RENDER: Daily Audit Panel — computed LIVE from paper_trades.jsonl
-  // No stale audit.json dependency. Source of truth = JSONL, refreshed every 3min.
+  // ── RENDER: Daily Audit Panel — computed LIVE from all 3 JSONLs + config.json
   async function renderAudit() {
     const el = document.getElementById('audit-panel');
     if (!el) return;
