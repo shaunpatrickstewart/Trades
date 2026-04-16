@@ -1,115 +1,178 @@
 {
-  "last_scan": "2026-04-16T22:20:20.897591+00:00",
-  "scan_seconds": 28.6,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-16T22:23:10.857762+00:00",
+  "scan_seconds": 30.6,
+  "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_777212",
-      "timestamp": "2026-04-16T22:20:00.833593+00:00",
+      "id": "sig_950168",
+      "timestamp": "2026-04-16T22:22:53.789291+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia and Ukraine Agreed to Temporary Easter Ceasefire (April 11-12, 2026)** | **YES** | **HIGH** confidence[1][2][3]",
-      "raw": "Russia and Ukraine Agreed to Temporary Easter Ceasefire (April 11-12, 2026)** | **YES** | **HIGH** confidence[1][2][3]\n\nRussia announced a unilateral 30-hour ceasefire from 4 PM April 11 to end of April 12 for Orthodox Easter, with Putin ordering troops to halt operations while expecting Ukraine to reciprocate; Zelensky confirmed Ukraine would observe it hours later[1][2][3]. This includes a sched",
-      "direction": "YES",
+      "headline": "Russia hopes** this frees US bandwidth to resume Ukraine peace talks",
+      "raw": "Russia hopes** this frees US bandwidth to resume Ukraine peace talks.[6][5]  \nNo **extension** beyond April 21 confirmed\u2014White House called reports \"not true at this moment\" on April 15, despite optimism for Pakistan talks and Trump saying the war is \"very close to being over.\"[2][4]  \nShipping remains halted; airstrikes reported post-announcement.[1]  \nThis resolution could shift **prediction mar",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_788680",
-      "timestamp": "2026-04-16T22:20:12.301552+00:00",
+      "id": "sig_961072",
+      "timestamp": "2026-04-16T22:23:04.693112+00:00",
       "source": "PERPLEXITY",
-      "headline": "CME Group Confirms Regulated SUI Futures Launch on May 4, Boosting Solana Ecosystem | YES | HIGH confidence**",
-      "raw": "CME Group Confirms Regulated SUI Futures Launch on May 4, Boosting Solana Ecosystem | YES | HIGH confidence**  \nCME announced SUI futures launching May 4, driving SUI up 7.6% and highlighting ongoing institutional infrastructure expansion on networks like Solana via partnerships such as Securitize with Nasdaq-listed Currency Group for tokenization.[4]",
+      "headline": "Tether Backs Drift Relaunch with $150M Recovery Plan After $285M Exploit | YES | HIGH confidence**",
+      "raw": "Tether Backs Drift Relaunch with $150M Recovery Plan After $285M Exploit | YES | HIGH confidence**  \nTether announced support on April 16, 2026, for relaunching Drift on Solana, providing a $150M recovery fund for affected users following a major exploit, which expands USDT's role and signals ecosystem resilience amid strong network activity.[6]",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_955500",
+      "timestamp": "2026-04-16T22:22:59.121465+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The voter registration deadline is **April 28, 2026**[3], which has not yet passed",
+      "raw": "The voter registration deadline is **April 28, 2026**[3], which has not yet passed.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_950161",
+      "timestamp": "2026-04-16T22:22:53.782692+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Israel-Iran Ceasefire Agreed (April 8), Kremlin Welcomes It; No Extension Confirmed, Talks Ongoing | YES | HIGH confi",
+      "raw": "US-Israel-Iran Ceasefire Agreed (April 8), Kremlin Welcomes It; No Extension Confirmed, Talks Ongoing | YES | HIGH confidence**[1][3][6]\n\nA two-week **US-Israel-Iran ceasefire** was announced on April 8, 2026, averting escalation after Trump's threats over the Strait of Hormuz; **Russia welcomed** the deal, citing its partnership with Iran and pushing for de-escalation via UNSC and diplomacy.[1][3",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_955484",
+      "timestamp": "2026-04-16T22:22:59.105456+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, there is no **breaking news** from today (April 16, 2026) that would move predicti",
+      "raw": "Based on the search results provided, there is no **breaking news** from today (April 16, 2026) that would move prediction markets.\n\nThe search results contain only older information:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_955489",
+      "timestamp": "2026-04-16T22:22:59.110798+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Christine Drazan's 2026 gubernatorial campaign announcement occurred in **October 2025**[1], not today",
+      "raw": "Christine Drazan's 2026 gubernatorial campaign announcement occurred in **October 2025**[1], not today.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_955495",
+      "timestamp": "2026-04-16T22:22:59.116123+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Oregon's primary election is scheduled for **May 19, 2026**[3], which is over a month away",
+      "raw": "Oregon's primary election is scheduled for **May 19, 2026**[3], which is over a month away.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_955509",
+      "timestamp": "2026-04-16T22:22:59.130506+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No headline | N/A | LOW confidence**",
+      "raw": "No headline | N/A | LOW confidence**\n\nTo provide the breaking news analysis you're requesting, I would need search results from today or the past few hours. The current results do not contain any announcements, confirmations, or resolutions from April 16, 2026 that would impact prediction markets.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_961086",
+      "timestamp": "2026-04-16T22:23:04.707389+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Rakuten Wallet Lists XRP Yesterday | YES | MED confidence**",
+      "raw": "Rakuten Wallet Lists XRP Yesterday | YES | MED confidence**  \nRakuten Wallet added XRP support yesterday, driving a 4% price surge to $1.41 today\u2014outperforming Bitcoin, Ethereum, and Solana\u2014alongside ongoing SEC crypto roundtable, fueling breakout speculation toward $1.45 amid $119.6M weekly inflows.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_796263",
-      "timestamp": "2026-04-16T22:20:19.884876+00:00",
+      "id": "sig_961094",
+      "timestamp": "2026-04-16T22:23:04.715628+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Upside risks**: The Policy Board expects inflation to rise to the mid to upper two-percent range, with price increases",
-      "raw": "**Upside risks**: The Policy Board expects inflation to rise to the mid to upper two-percent range, with price increases driven largely by surging oil costs[3]. Import prices surged in March, marking their sharpest jump in almost three decades[4].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_796251",
-      "timestamp": "2026-04-16T22:20:19.872691+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rate at 2",
-      "raw": "Bank of Korea Holds Rate at 2.5% Amid Inflation Pressures** | NO | HIGH confidence\n\nThe Bank of Korea's Monetary Policy Board held its benchmark interest rate steady at 2.5% on April 10, 2026, marking the seventh consecutive month without a change[3]. This decision was unanimous among board members[3].",
+      "headline": "Ethereum Outperforms Majors with 8",
+      "raw": "Ethereum Outperforms Majors with 8.6% Gain to $2,377 | NO | LOW confidence**  \nNo specific new confirmation or announcement today; Ethereum's rally ties to 41% on-chain transaction growth and positive ETF flows, but lacks a singular resolved event amid broader market surge.[2]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_796257",
-      "timestamp": "2026-04-16T22:20:19.878792+00:00",
+      "id": "sig_966235",
+      "timestamp": "2026-04-16T22:23:09.856504+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Inflation trend**: South Korea's annual inflation rate rose to 2",
-      "raw": "**Inflation trend**: South Korea's annual inflation rate rose to 2.2% in March 2026, up from 2.0% in the previous two months[1]. This remains slightly above the central bank's 2% target[1].",
-      "direction": "YES",
+      "headline": "South Korea's Annual Inflation Rises to 2",
+      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months, missing market forecasts of 2.4% and remaining near the Bank of Korea's 2% target amid global energy volatility from the Iran conflict.[1]  \nNo newer confirmations, announcements, or resolutions appear in availa",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_796269",
-      "timestamp": "2026-04-16T22:20:19.890896+00:00",
+      "id": "sig_961077",
+      "timestamp": "2026-04-16T22:23:04.698789+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Economic headwinds**: The anticipated economic growth for 2026 is expected to fall below 2% as the Korean won has weak",
-      "raw": "**Economic headwinds**: The anticipated economic growth for 2026 is expected to fall below 2% as the Korean won has weakened significantly, with the exchange rate recently rising to around 1,520 won per U.S. dollar[3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_796275",
-      "timestamp": "2026-04-16T22:20:19.896985+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Forward guidance**: Core inflation is projected to average 2",
-      "raw": "**Forward guidance**: Core inflation is projected to average 2.20% by the end of Q2 2026, with long-term projections around 2.00% in 2027[2].\n\nThe decision reflects the BOK's cautious stance given external risk factors, particularly the Middle East conflict's impact on oil prices and currency volatility[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_788673",
-      "timestamp": "2026-04-16T22:20:12.294760+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Michael Saylor's MicroStrategy Confirms Acquisition of 17,585 Bitcoin in April 2026 | YES | HIGH confidence**",
-      "raw": "Michael Saylor's MicroStrategy Confirms Acquisition of 17,585 Bitcoin in April 2026 | YES | HIGH confidence**  \nMicroStrategy acquired 17,585 Bitcoin valued at current market prices, as reported by Michael Saylor, representing a major corporate buy that could signal bullish institutional demand amid market fear.[1]",
+      "headline": "Solana Spot ETFs Record $5",
+      "raw": "Solana Spot ETFs Record $5.04M Net Inflows on April 16 | YES | HIGH confidence**  \nU.S. spot Solana ETFs saw $5.04M in net inflows today, following $5.36M the prior day, with cumulative assets at $835M, indicating sustained institutional demand that could bolster price support and move prediction markets on adoption bets.[6]",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the price of Bitcoin be above $74,000 on April 19?"
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -117,9 +180,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 2,
+    "alert": 9,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
