@@ -1,177 +1,226 @@
 {
-  "last_scan": "2026-04-16T04:44:04.250491+00:00",
-  "scan_seconds": 34.5,
-  "markets_scanned": 85,
-  "open_positions": 45,
+  "last_scan": "2026-04-16T04:47:18.536398+00:00",
+  "scan_seconds": 52.7,
+  "markets_scanned": 81,
+  "open_positions": 41,
   "signals": [
     {
-      "id": "sig_398837",
-      "timestamp": "2026-04-16T04:43:42.521539+00:00",
+      "id": "sig_580222",
+      "timestamp": "2026-04-16T04:46:43.906659+00:00",
       "source": "PERPLEXITY",
-      "headline": "Two-Week US-Israel-Iran Ceasefire Agreed** | YES | HIGH confidence",
-      "raw": "Two-Week US-Israel-Iran Ceasefire Agreed** | YES | HIGH confidence\n\nA **ceasefire between the United States, Israel, and Iran was announced on Wednesday, April 8** and represents a major de-escalation after tensions threatened wider regional war.[1] The Kremlin welcomed the deal, with spokesman Dmitry Peskov stating support for shifting \"toward political and diplomatic talks\" rather than military ",
+      "headline": "Operation Epic Fury Ceasefire Confirmed | YES | HIGH confidence**",
+      "raw": "Operation Epic Fury Ceasefire Confirmed | YES | HIGH confidence**\n\nIran has agreed to a **ceasefire** and agreed to reopen the Strait of Hormuz following Operation Epic Fury, a 38-day military campaign that concluded in early April 2026[2]. The Trump Administration is now negotiating a broader peace agreement[2].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_398843",
-      "timestamp": "2026-04-16T04:43:42.527343+00:00",
+      "id": "sig_591886",
+      "timestamp": "2026-04-16T04:46:55.570518+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ceasefire Already Showing Cracks** | YES | HIGH confidence",
-      "raw": "Ceasefire Already Showing Cracks** | YES | HIGH confidence\n\nDespite the initial agreement, **negotiations have stalled significantly**. By April 12 (day five of the ceasefire), U.S.-led peace talks in Islamabad ended without progress, with Vice President JD Vance stating no agreement was reached over preventing Iran from developing nuclear capabilities.[3] Iran's foreign minister indicated they we",
+      "headline": "OKC Thunder Clinch No",
+      "raw": "OKC Thunder Clinch No. 1 Seed in Western Conference and Best NBA Record (64 Wins)** | YES | HIGH confidence[2][3]\n\nThe Oklahoma City Thunder secured the **top seed** in the Western Conference and the league's best regular-season record with a 128-110 win over the LA Clippers, marking their 64th victory (records cited as 64-18 or 60-16 across sources, with clinch confirmed 3-6 days ago).[2][3] This",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran diplomatic meeting by April 18, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will the Oklahoma City Thunder win the 2026 NBA Finals?",
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Will France win Group I in the 2026 FIFA World Cup?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_398862",
-      "timestamp": "2026-04-16T04:43:42.546911+00:00",
+      "id": "sig_580240",
+      "timestamp": "2026-04-16T04:46:43.924116+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Hints at Truce Exit** | YES | MEDIUM confidence",
-      "raw": "Iran Hints at Truce Exit** | YES | MEDIUM confidence\n\nRecent reporting indicates **Iran officials are warning of a potential return to military action**, suggesting the ceasefire remains extremely fragile with only days remaining before expiration.[5]\n\nThe market-moving factor: ceasefire announced but collapsing under negotiation failure with escalation risk imminent.",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_419552",
-      "timestamp": "2026-04-16T04:44:03.236509+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions on inflation, Fed, Kevin Warsh, annual inflation, or South Kore",
-      "raw": "No breaking confirmations, announcements, or resolutions on inflation, Fed, Kevin Warsh, annual inflation, or South Korea that would move prediction markets right now.**[1][2][3]\n\nSpeculation surrounds **Kevin Warsh** as President Trump's nominee to succeed Jerome Powell as Fed chair by mid-May 2026, with his potential first action being an interest rate hike amid surging oil prices above $100/bar",
-      "direction": "YES",
+      "headline": "Prediction Market Implications:**",
+      "raw": "Prediction Market Implications:**\n\nThese developments would likely move markets on:",
+      "direction": null,
       "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_580216",
+      "timestamp": "2026-04-16T04:46:43.900823+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key developments:",
+      "raw": "Based on the search results provided, here are the key developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_580228",
+      "timestamp": "2026-04-16T04:46:43.912334+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Military Objectives Achieved | YES | HIGH confidence**",
+      "raw": "Military Objectives Achieved | YES | HIGH confidence**\n\nThe U.S. military completed its stated objectives within 38 days, including destroying Iran's **ballistic missile and drone capabilities**, **navy**, and **defense industrial base**[2]. According to Chairman of the Joint Chiefs General Dan Caine, all three distinct military objectives defined by the President were achieved[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_580233",
+      "timestamp": "2026-04-16T04:46:43.917836+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran's Nuclear Program Severely Degraded | YES | HIGH confidence**",
+      "raw": "Iran's Nuclear Program Severely Degraded | YES | HIGH confidence**\n\nEarlier operations (Operation Midnight Hammer, referenced in June 2025) targeted Iran's nuclear sites, with officials claiming \"obliteration\" of nuclear facilities[1]. The broader Operation Epic Fury campaign further constrained Iran's ability to develop nuclear weapons as one of its core objectives[5].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_580248",
+      "timestamp": "2026-04-16T04:46:43.932879+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran conflict resolution/de-escalation odds",
+      "raw": "Iran conflict resolution/de-escalation odds",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_580254",
+      "timestamp": "2026-04-16T04:46:43.938636+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Oil price futures (Strait of Hormuz reopening reduces supply disruption risk)",
+      "raw": "Oil price futures (Strait of Hormuz reopening reduces supply disruption risk)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_580261",
+      "timestamp": "2026-04-16T04:46:43.945735+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Middle East stability assessments",
+      "raw": "Middle East stability assessments",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_614840",
+      "timestamp": "2026-04-16T04:47:18.524877+00:00",
+      "source": "X_GROK",
+      "headline": "BTC No-Dip Whale:** $853k buy NO \"BTC dips to $65k April",
+      "raw": "BTC No-Dip Whale:** $853k buy NO \"BTC dips to $65k April?\" (NO at 80\u00a2, A-grade trader).[[5]](https://x.com/i/status/2044634041920487499) Means: NO dip (bullish BTC holds >$65k this month). Confidence: HIGH (large size, mid-month).",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044634041920487499)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_614846",
+      "timestamp": "2026-04-16T04:47:18.530624+00:00",
+      "source": "X_GROK",
+      "headline": "Political Longshot:** $20k YES \"Rahm Emanuel 2028 Dem Nom\" at 1\u00a2 (8991% ROI potential)",
+      "raw": "Political Longshot:** $20k YES \"Rahm Emanuel 2028 Dem Nom\" at 1\u00a2 (8991% ROI potential).[[6]](https://x.com/i/status/2044636127722721425) Means: YES outlier bet. Confidence: LOW (speculative, long-term).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044636127722721425)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_614852",
+      "timestamp": "2026-04-16T04:47:18.536174+00:00",
+      "source": "X_GROK",
+      "headline": "Trending Tips:** Weather markets mispriced vs",
+      "raw": "Trending Tips:** Weather markets mispriced vs. models (buy gaps 55-80\u00a2); provide liquidity for $5M rewards (sports focus).[[7]](https://x.com/i/status/2044255873040572610) Liquidity edges beating directional bets.[[8]](https://x.com/i/status/2044584320992690180) No major mispriced consensus beyond NBA/BTC.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044255873040572610)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_571923",
+      "timestamp": "2026-04-16T04:46:35.607184+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US denies requesting Iran ceasefire but confirms productive ongoing talks for second round; Russia urges de-escalation e",
+      "raw": "US denies requesting Iran ceasefire but confirms productive ongoing talks for second round; Russia urges de-escalation extension to Lebanon** | **YES** | **MED** [1][2][4]\n\nHigh-level US-Iran talks continue in Pakistan after near-collapse, with White House spokesperson Karoline Leavitt rejecting ceasefire extension requests while noting \"productive and ongoing\" negotiations and potential in-person",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will the White House call a full lid by 6:30PM on April 14?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_586357",
+      "timestamp": "2026-04-16T04:46:50.041692+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SOUTH KOREA INFLATION RISES TO 2",
+      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, BELOW FORECASTS | NO | MED confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% and staying near the Bank of Korea's 2% target amid contained price pressures.[1] This recent data point, from Statistics Korea, could mildly shift prediction markets on region",
+      "direction": "NO",
+      "confidence": 0.6,
       "matched_markets": [
         "Kevin Warsh confirmed as Fed Chair by May 15?",
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_419559",
-      "timestamp": "2026-04-16T04:44:03.243649+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea** faces inflation at 2",
-      "raw": "South Korea** faces inflation at 2.2% in March (capped by government measures), expected to hit 3% by May/June due to energy shocks, with Bank of Korea monitoring Fed moves, weak won (at 1,457/USD), high household debt, and export strength (+33.9% in January).[2][3][4] J.P. Morgan forecasts stable global core CPI at 2.8% in 2026, with U.S. at 3.2% acceleration and BoK likely holding near 2% inflat",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_398831",
-      "timestamp": "2026-04-16T04:43:42.515344+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results available (through April 15, 2026), here are the key developments:",
-      "raw": "Based on the most recent search results available (through April 15, 2026), here are the key developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_398849",
-      "timestamp": "2026-04-16T04:43:42.533221+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Strait of Hormuz Remains Effectively Blocked** | YES | HIGH confidence",
-      "raw": "Strait of Hormuz Remains Effectively Blocked** | YES | HIGH confidence",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_398855",
-      "timestamp": "2026-04-16T04:43:42.539332+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ship navigation through the Strait of Hormuz\u2014critical to global oil supplies\u2014remains suspended**, with major shipping co",
-      "raw": "Ship navigation through the Strait of Hormuz\u2014critical to global oil supplies\u2014remains suspended**, with major shipping companies like Maersk unable to resume normal operations despite the ceasefire.[1] This represents an ongoing economic crisis affecting oil markets.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_413783",
-      "timestamp": "2026-04-16T04:43:57.467230+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE** | **YES or NO** | **HIGH/MED/LOW confidence**  \nNo Confirmed XRP Breakthroughs or Resolutions | NO | HIGH",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_419565",
-      "timestamp": "2026-04-16T04:44:03.249408+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in market-moving news, as reports discuss scenarios (e",
-      "raw": "LOW confidence** in market-moving news, as reports discuss scenarios (e.g., Warsh nomination, rate debates) without new confirmations; latest dated Feb 17, 2026 (forecast) or April 9, 2026 (analysis).[1][2][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_405213",
-      "timestamp": "2026-04-16T04:43:48.897043+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRUMP ISSUES 48-HOUR ULTIMATUM TO IRAN: \"All hell will rain down\" if Strait of Hormuz not opened, amid UK base denial an",
-      "raw": "TRUMP ISSUES 48-HOUR ULTIMATUM TO IRAN: \"All hell will rain down\" if Strait of Hormuz not opened, amid UK base denial and King Charles' conflict speech** | **YES** | **HIGH** confidence[1][2]\n\nKing Charles III plans a Monday Commonwealth Day speech addressing \"increasing pressures of conflict,\" shortly after US-Israel strikes on Iran that UK PM Keir Starmer declined to join, citing national intere",
+      "id": "sig_614829",
+      "timestamp": "2026-04-16T04:47:18.513585+00:00",
+      "source": "X_GROK",
+      "headline": "NBA Playoffs Whales Active on Polymarket:** Multiple whales targeting Warriors vs",
+      "raw": "NBA Playoffs Whales Active on Polymarket:** Multiple whales targeting Warriors vs. Clippers game.[[1]](https://x.com/i/status/2044637886222401920)[[2]](https://x.com/i/status/2044637885937111420)[[3]](https://x.com/i/status/2044636607832043709) $28k YES Warriors (48\u00a2), $26k YES Warriors (73.4\u00a2), $26k YES Clippers (67\u00a2). Split bets suggest hedging/smart money positioning pre-game. Means: Mixed on w",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?",
-        "Will Donald Trump post 120-139 Truth Social posts from April 10 to April 17, 202"
+        "Will the Charlotte Hornets make the NBA Playoffs?"
       ],
       "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
+      "x_link": "https://x.com/i/status/2044637886222401920)[[2]](https://x.com/i/status/2044637885937111420)[[3]](https://x.com/i/status/2044636607832043709)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 3
+    "enter": 2,
+    "alert": 10,
+    "watch": 3,
+    "high_conf": 2
   }
 }
