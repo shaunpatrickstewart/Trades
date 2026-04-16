@@ -1,80 +1,76 @@
 {
-  "last_scan": "2026-04-16T19:25:03.113224+00:00",
-  "scan_seconds": 24.1,
-  "markets_scanned": 152,
-  "open_positions": 110,
+  "last_scan": "2026-04-16T19:27:55.486987+00:00",
+  "scan_seconds": 32.6,
+  "markets_scanned": 101,
+  "open_positions": 59,
   "signals": [
     {
-      "id": "sig_278481",
-      "timestamp": "2026-04-16T19:25:02.112280+00:00",
+      "id": "sig_433511",
+      "timestamp": "2026-04-16T19:27:37.142636+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence** [1]\n\nThis March figure, reported around early April 2026, marks the most recent confirmed data amid Middle East-driven oil shocks pushing import prices higher, yet it stayed below expectations and the Bank of Korea's 2% target [1][4][5]. The Bank of Korea held i",
+      "headline": "Confidence: HIGH** (search results cover latest available info up to April 11; no fresher hits on queried topics)",
+      "raw": "Confidence: HIGH** (search results cover latest available info up to April 11; no fresher hits on queried topics).",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_439593",
+      "timestamp": "2026-04-16T19:27:43.224298+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRPL Launches On-Ledger RISC-V ZK Verifier for Programmable Privacy | YES | HIGH confidence**",
+      "raw": "XRPL Launches On-Ledger RISC-V ZK Verifier for Programmable Privacy | YES | HIGH confidence**  \nXRPL Commons and Boundless have collaborated to deploy a RISC-V zero-knowledge (ZK) verifier directly on the XRP Ledger, making it the first public blockchain with built-in programmable privacy and compliance controls; rollout includes Q2 2026 \"Smart Escrows\" requiring ZK proofs for fund release, follow",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $1.00 on April 19?",
+        "Will XRP dip to $0.80 April 13-19?",
+        "Will the price of XRP be above $0.90 on April 21?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_450855",
+      "timestamp": "2026-04-16T19:27:54.486320+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the available search results, there is no breaking news from today (April 16, 2026) about South Korean inflatio",
+      "raw": "Based on the available search results, there is no breaking news from today (April 16, 2026) about South Korean inflation. The most recent data in the search results is from **March 2026**, which showed South Korea's consumer price inflation rose to **2.2% year-on-year**[1][2][3].\n\nThe March inflation data itself was notable because it **undershot market forecasts of 2.4%**[2][3], primarily due to",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_273536",
-      "timestamp": "2026-04-16T19:24:57.167014+00:00",
+      "id": "sig_439600",
+      "timestamp": "2026-04-16T19:27:43.231898+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions RIGHT NOW (April 16, 2026) on Bitcoin or Solana that would move",
-      "raw": "No breaking confirmations, announcements, or resolutions RIGHT NOW (April 16, 2026) on Bitcoin or Solana that would move prediction markets.**[1][2][3][4][6][7]\n\nRecent events include the **Bitcoin 2026 Conference** scheduled for April 27 in Las Vegas, featuring keynotes from BlackRock, Fidelity, and Goldman Sachs, amid BTC at ~$68,758 and SOL at ~$79.94 with weak ETF inflows.[1] The **Solana Summ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Bitcoin dip to $69,000 on April 16?",
-        "Will the price of Bitcoin be above $68,000 on April 17?",
-        "Will the price of Solana be above $70 on April 17?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_273547",
-      "timestamp": "2026-04-16T19:24:57.178016+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Alpenglow consensus upgrade** for Solana was highlighted as of April 14, targeting 150ms finality, with network records",
-      "raw": "Alpenglow consensus upgrade** for Solana was highlighted as of April 14, targeting 150ms finality, with network records of 167M monthly holders and 148M daily transactions; institutional SOL ETF holdings by BlackRock/Fidelity noted.[2] A **$280M hack** on Solana's Drift Protocol was reported April 1 via social engineering.[6]\n\nPrice predictions speculate BTC to $80K boosting SOL above $100, but no",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $68,000 on April 17?",
-        "Will the price of Solana be above $70 on April 17?",
-        "Will the price of XRP be above $1.00 on April 19?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_264297",
-      "timestamp": "2026-04-16T19:24:47.928514+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal | YES | HIGH confidence**",
-      "raw": "Kremlin Welcomes US-Israel-Iran Two-Week Ceasefire Deal | YES | HIGH confidence**  \nThe Kremlin confirmed on April 8, 2026, that it welcomes a last-minute two-week ceasefire agreement between the US, Israel, and Iran, aimed at de-escalating tensions and shifting to diplomatic talks amid an oil supply crisis[1][3]. Russia's support as Iran's close partner\u2014via a 2025 strategic pact and reported inte",
+      "headline": "Bybit Launches XRPfi Yield Product with Doppler Finance (Up to 5% APR) | YES | MED confidence**",
+      "raw": "Bybit Launches XRPfi Yield Product with Doppler Finance (Up to 5% APR) | YES | MED confidence**  \nBybit rolled out XRPfi on April 14, 2026\u2014a 90-day fixed-term yield strategy offering up to 5% APR (including 2.5% bonus from 30,000 XRP pool) through July 12, 2026; assets stay on-platform with market-neutral execution by Doppler Finance.[4]  \nThis boosts XRP holder incentives amid April price stabili",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 3,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
