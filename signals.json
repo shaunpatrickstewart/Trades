@@ -1,76 +1,111 @@
 {
-  "last_scan": "2026-04-16T16:56:56.699953+00:00",
-  "scan_seconds": 25.9,
-  "markets_scanned": 86,
-  "open_positions": 45,
+  "last_scan": "2026-04-16T16:59:43.655989+00:00",
+  "scan_seconds": 29.1,
+  "markets_scanned": 83,
+  "open_positions": 44,
   "signals": [
     {
-      "id": "sig_379708",
-      "timestamp": "2026-04-16T16:56:43.348670+00:00",
+      "id": "sig_548362",
+      "timestamp": "2026-04-16T16:59:32.002336+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Obliterated Iranian Military Targets on Kharg Island, Trump Confirms \u2013 Fractures UK Relations, Clouds King Charles Wh",
-      "raw": "US Obliterated Iranian Military Targets on Kharg Island, Trump Confirms \u2013 Fractures UK Relations, Clouds King Charles White House Visit | YES | HIGH confidence**\n\nPresident Trump announced on Truth Social and to reporters that the US conducted powerful bombing raids obliterating all military targets on Iran's Kharg Island oil hub, sparing oil infrastructure but warning of escalation if Iran disrup",
+      "headline": "TRUMP DECLARES IRAN 'NO LONGER A THREAT' AFTER 32-DAY US STRIKES OBLITERATE NUCLEAR SITES AND LEADERSHIP | YES | HIGH co",
+      "raw": "TRUMP DECLARES IRAN 'NO LONGER A THREAT' AFTER 32-DAY US STRIKES OBLITERATE NUCLEAR SITES AND LEADERSHIP | YES | HIGH confidence**\n\nPresident Trump announced in a primetime address on April 1, 2026, that US military operations, including B-2 bomber strikes, have \"obliterated\" Iran's nuclear infrastructure, eviscerated the country, and killed its original leaders, rendering it \"essentially really n",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
-        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_385989",
-      "timestamp": "2026-04-16T16:56:49.629372+00:00",
+      "id": "sig_554320",
+      "timestamp": "2026-04-16T16:59:37.960850+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple Custody Enables Ethereum and Solana Staking for Institutions via Figment Partnership | YES | HIGH confidence**[6]",
-      "raw": "Ripple Custody Enables Ethereum and Solana Staking for Institutions via Figment Partnership | YES | HIGH confidence**[6]\n\nThis breaking development, published minutes ago, allows institutional clients to stake ETH and SOL without validator risks, enhancing Ripple's custody services while XRP-linked products lead inflows ($63.1M last week vs. $8.2M SOL, $5.3M ETH).[6] It positions XRP as connective",
+      "headline": "deBridge ($DBR) Token Unlock of 618",
+      "raw": "deBridge ($DBR) Token Unlock of 618.33M Tokens (12.90% of Circulating Supply, ~$8.88M) Confirmed for April 17 | NO | HIGH confidence**  \nThis substantial unlock, one of the largest in the Solana ecosystem this month, increases liquidity and could exert downward pressure on prices amid bearish sentiment, potentially moving prediction markets on Solana supply events or price drops.[3]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_554332",
+      "timestamp": "2026-04-16T16:59:37.972678+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | NO | HIGH confidence**",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | NO | HIGH confidence**  \nThe brokerage expansion provided institutional access, yet SOL price remained compressed at ~$82 without breakout, failing to catalyze upward movement as of early April.[4]  \nNo Ethereum-specific breaking confirmations or announcements today; price predictions remain bearish in $1,800\u2013$2,400 ra",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Ethereum be above $2,400 on April 20?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Solana Up or Down - April 16, 4:45PM-4:50PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_559014",
+      "timestamp": "2026-04-16T16:59:42.654571+00:00",
+      "source": "PERPLEXITY",
+      "headline": "White House optimistic Kevin Warsh confirmed as next Fed Chair 'on time' amid South Korea media buzz on inflation policy",
+      "raw": "White House optimistic Kevin Warsh confirmed as next Fed Chair 'on time' amid South Korea media buzz on inflation policy shift** | **YES** | **HIGH** confidence[4][1][2]\n\nThe White House expressed optimism on April 15, 2026, that Kevin Warsh's confirmation as Fed Chair to succeed Jerome Powell will proceed on schedule, per Reuters, potentially resolving speculation and influencing prediction marke",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_554326",
+      "timestamp": "2026-04-16T16:59:37.966540+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Alpenglow Consensus Upgrade Governance Vote Passed with 98",
+      "raw": "Alpenglow Consensus Upgrade Governance Vote Passed with 98.27% Approval | YES | MED confidence**  \nThe upgrade, slashing transaction finality to 100-150ms, was confirmed via vote, boosting network performance claims (e.g., 167M monthly token holders, 148M daily non-vote txns as of April 14); this resolves a key scalability milestone but occurred pre-April 16 with limited immediate price impact des",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_392058",
-      "timestamp": "2026-04-16T16:56:55.698907+00:00",
+      "id": "sig_537717",
+      "timestamp": "2026-04-16T16:59:21.357963+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's nomination as next Fed Chair faces immediate test from surging inflation and potential rate hike discussio",
-      "raw": "Kevin Warsh's nomination as next Fed Chair faces immediate test from surging inflation and potential rate hike discussions amid oil shock.** | YES | HIGH confidence[1][2][4]\n\nFed officials kept rates at 3.50-3.75% in their latest meeting but now discuss a possible **rate hike** under incoming Chair **Kevin Warsh** (expected mid-May), driven by **annual core inflation** at 3.9% (pre-oil shock, push",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?",
-        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_374541",
-      "timestamp": "2026-04-16T16:56:38.181189+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire Holds Fragilely as US Turns Back Iranian Tankers; Iran Accuses US of Destroying Talks, No Extension Confirmed",
-      "raw": "Ceasefire Holds Fragilely as US Turns Back Iranian Tankers; Iran Accuses US of Destroying Talks, No Extension Confirmed | NO | HIGH confidence** [5][1][2]\n\nThe two-week US-Iran ceasefire, announced April 8 and mediated by Pakistan, remains in effect but is fragile with ongoing violations, including US Navy actions today turning back 10 Iranian-flagged oil tankers evading its blockade of Iranian po",
+      "headline": "US-Iran Ceasefire Nearing Extension as Pakistani Mediators Arrive in Tehran; White House Confirms Ongoing Talks but No F",
+      "raw": "US-Iran Ceasefire Nearing Extension as Pakistani Mediators Arrive in Tehran; White House Confirms Ongoing Talks but No Formal Request Yet | NO | MED confidence**\n\nA two-week US-Iran ceasefire, announced April 7-8 and set to expire April 22, faces uncertainty with no confirmed extension today (April 16).[1][2][5][6][7][10] Pakistani mediators have arrived in Tehran to revive talks, amid reports of ",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "Trump announces end of military operations against Iran by A"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 4,
+    "alert": 1,
+    "watch": 1,
+    "high_conf": 5
   }
 }
