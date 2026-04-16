@@ -300,16 +300,6 @@
     return { price: pr[bi]||0, outcome: (oc[bi]||'Yes').toUpperCase() };
   }
 
-  function getHighConf(m) {
-    let pr=[], oc=[];
-    try { pr = JSON.parse(m.outcomePrices||'[]').map(Number) } catch(e){}
-    try { oc = JSON.parse(m.outcomes||'["Yes","No"]') }        catch(e){}
-    for (let i=0; i<pr.length; i++) {
-      if (pr[i]>=0.82 && pr[i]<=0.97) return { price: pr[i], outcome: (oc[i]||'Yes').toUpperCase() };
-    }
-    return null;
-  }
-
   const FOREX_RE = /\b(usd|eur|gbp|jpy|cny|cad|aud|nzd|chf|mxn|brl|inr|krw|dollar|euro|pound|yen|yuan|franc|peso|rupee|ruble|won|exchange.?rate|forex|currency|devaluat|xau|gold.price|silver.price|oil.price|bitcoin|ethereum|btc|eth|crypto.price|\busd\/|\beur\/|\bgbp\/|\/usd\b|\/eur\b)/i;
 
   // ── DATA FETCHERS
