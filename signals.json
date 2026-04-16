@@ -1,135 +1,173 @@
 {
-  "last_scan": "2026-04-16T11:39:18.289942+00:00",
-  "scan_seconds": 46.8,
-  "markets_scanned": 82,
-  "open_positions": 41,
+  "last_scan": "2026-04-16T11:42:09.563756+00:00",
+  "scan_seconds": 29.6,
+  "markets_scanned": 80,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_301617",
-      "timestamp": "2026-04-16T11:38:45.276729+00:00",
+      "id": "sig_483402",
+      "timestamp": "2026-04-16T11:41:47.061247+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia's Position: Supporting De-escalation** | **YES** | **HIGH confidence**",
-      "raw": "Russia's Position: Supporting De-escalation** | **YES** | **HIGH confidence**\n\nThe Kremlin welcomed the ceasefire agreement and has called for diplomatic solutions rather than military escalation[2]. Russia continues to support Iran as a strategic partner, with the two countries having signed a strategic partnership agreement in 2025[2].",
+      "headline": "US-Iran Two-Week Ceasefire Holds Until April 22, 2026; Kremlin Welcomes Deal but Trump Rules Out Extension** | YES | HIG",
+      "raw": "US-Iran Two-Week Ceasefire Holds Until April 22, 2026; Kremlin Welcomes Deal but Trump Rules Out Extension** | YES | HIGH confidence[1][2][4]\n\nThe US, Iran, and Israel agreed to an immediate two-week ceasefire around April 8, 2026, mediated by Pakistan, T\u00fcrkiye, and Egypt, averting escalation over the Strait of Hormuz and easing oil prices (Brent crude fell 15% to $93.82/barrel)[1][2][3]. Kremlin ",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_316615",
-      "timestamp": "2026-04-16T11:39:00.274554+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOLANA HITS 167 MILLION MONTHLY HOLDERS & ALPENGLOW UPGRADE TARGETS 150MS FINALITY | YES | HIGH confidence**",
-      "raw": "SOLANA HITS 167 MILLION MONTHLY HOLDERS & ALPENGLOW UPGRADE TARGETS 150MS FINALITY | YES | HIGH confidence**\n\nAs of April 14, 2026, Solana reached an all-time record of 167 million monthly token holders with daily non-vote transactions hitting 148 million.[1] The highly anticipated **Alpenglow consensus upgrade** has been confirmed to target reducing transaction finality from 12 seconds to just 15",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_316621",
-      "timestamp": "2026-04-16T11:39:00.280653+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOLANA CONSOLIDATING AT $82 AMID BEARISH TECHNICAL STRUCTURE | YES | HIGH confidence**",
-      "raw": "SOLANA CONSOLIDATING AT $82 AMID BEARISH TECHNICAL STRUCTURE | YES | HIGH confidence**\n\nDespite these fundamental developments, SOL trades near $82 with a confirmed head-and-shoulders breakdown on the daily chart projecting a target near $73.[2][3][4] Analysts predict a range-bound movement between $80\u2013$95 for April, with potential upside to $88\u2013$100 if resistance breaks with volume.[4][5] Importa",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_333601",
-      "timestamp": "2026-04-16T11:39:17.260884+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Kevin Warsh's nomination as Fed chair** was announced on January 30, 2026, to replace Jerome Powell when his term expi",
-      "raw": "**Kevin Warsh's nomination as Fed chair** was announced on January 30, 2026, to replace Jerome Powell when his term expires in May[2]",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Kevin Warsh confirmed as Fed Chair by May 15?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_333629",
-      "timestamp": "2026-04-16T11:39:17.288750+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Warsh's policy approach** emphasizes price stability and inflation control, with skepticism toward forward guidance an",
-      "raw": "**Warsh's policy approach** emphasizes price stability and inflation control, with skepticism toward forward guidance and commitment to balance sheet reduction[3]\n\nTo provide current breaking news from April 16, 2026, I would need search results from today or very recent sources. The search results available do not contain information about events, announcements, or confirmations that have occurre",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_301612",
-      "timestamp": "2026-04-16T11:38:45.271090+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES - Ceasefire expiration is imminent** | **HIGH confidence**",
-      "raw": "YES - Ceasefire expiration is imminent** | **HIGH confidence**\n\nThe **two-week ceasefire agreed on April 7, 2026** between the United States, Israel, and Iran is set to expire next week[1][2]. International mediators are actively pushing for new peace talks and attempting to extend the fragile agreement[1].\n\nHowever, significant obstacles remain. The two sides are **far apart on critical issues in",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_301623",
-      "timestamp": "2026-04-16T11:38:45.282534+00:00",
+      "id": "sig_493646",
+      "timestamp": "2026-04-16T11:41:57.305072+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key Market-Moving Factor:** The imminent ceasefire expiration within days represents the primary near-term trigger for p",
-      "raw": "Key Market-Moving Factor:** The imminent ceasefire expiration within days represents the primary near-term trigger for prediction markets, particularly regarding renewed military conflict, oil price volatility, and regional stability.",
+      "headline": "King Charles' White House Visit Status Remains Uncertain Amid US-UK Tensions | NO CONFIRMATION | HIGH confidence**",
+      "raw": "King Charles' White House Visit Status Remains Uncertain Amid US-UK Tensions | NO CONFIRMATION | HIGH confidence**\n\nAs of April 14, 2026, King Charles' planned visit to Washington D.C. on April 28 has **not been officially cancelled or confirmed**, despite significant political pressure in the UK[2]. The visit is scheduled to commemorate the 250th anniversary of American independence and marks the",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "Will Trump say \"Obliterated\" or \"Obliteration\" during King Charles visit?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_493679",
+      "timestamp": "2026-04-16T11:41:57.338112+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Prime Minister Keir Starmer has not publicly confirmed cancellation[2]",
+      "raw": "Prime Minister Keir Starmer has not publicly confirmed cancellation[2].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_499823",
+      "timestamp": "2026-04-16T11:42:03.482778+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Upcoming Catalysts**: Alpenglow upgrade confirmed to cut finality to 150ms (from 12s), with Firedancer progress boosti",
+      "raw": "**Upcoming Catalysts**: Alpenglow upgrade confirmed to cut finality to 150ms (from 12s), with Firedancer progress boosting security/throughput; analysts project $88-$100 by end-April if breakout holds[2][4].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_504903",
+      "timestamp": "2026-04-16T11:42:08.562690+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump's Fed Nominee Kevin Warsh Faces Immediate Rate Hike Pressure Amid Surging Inflation and Oil Shock | NO | HIGH conf",
+      "raw": "Trump's Fed Nominee Kevin Warsh Faces Immediate Rate Hike Pressure Amid Surging Inflation and Oil Shock | NO | HIGH confidence**  \nNo breaking confirmations, announcements, or resolutions today on Fed actions, Warsh's chairmanship, annual inflation figures, or South Korea-related developments that would shift prediction markets. Recent reports highlight speculation: Kevin Warsh, nominated by Presi",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Kevin Warsh confirmed as Fed Chair by May 15?",
+        "Will the People Power Party win 2 seats in South Korea\u2019s June 3, 2026 parliament",
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_493640",
+      "timestamp": "2026-04-16T11:41:57.299459+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here is the current situation:",
+      "raw": "Based on the search results provided, here is the current situation:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_307476",
-      "timestamp": "2026-04-16T11:38:51.135982+00:00",
+      "id": "sig_493651",
+      "timestamp": "2026-04-16T11:41:57.310388+00:00",
       "source": "PERPLEXITY",
-      "headline": "King Charles' White House Visit in Doubt After US-UK Relations Fracture Over Iran War Response | NO | HIGH confidence**",
-      "raw": "King Charles' White House Visit in Doubt After US-UK Relations Fracture Over Iran War Response | NO | HIGH confidence**  \nTrump's recent statements confirm U.S. military strikes have \"literally obliterated\" Iran's Air Force, Navy (including all 30 ships), anti-aircraft systems, radar, and leaders, slashing missile launches by 90% and drone attacks by 95% amid the third week of conflict.[1][2]  \nTh",
+      "headline": "Liberal Democrat leader Ed Davey has demanded the visit be cancelled, calling it a \"humiliation\" and arguing it would re",
+      "raw": "Liberal Democrat leader Ed Davey has demanded the visit be cancelled, calling it a \"humiliation\" and arguing it would reward Trump despite rising tensions[2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_493660",
+      "timestamp": "2026-04-16T11:41:57.319436+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Labour Minister Emily Thornberry suggested the visit \"needs to be thought through very carefully\" and indicated it \"woul",
+      "raw": "Labour Minister Emily Thornberry suggested the visit \"needs to be thought through very carefully\" and indicated it \"would be safer to delay it\"[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_493670",
+      "timestamp": "2026-04-16T11:41:57.329590+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Deputy Reform UK leader Richard Tice has argued the king should proceed as planned to help mend the fractured relationsh",
+      "raw": "Deputy Reform UK leader Richard Tice has argued the king should proceed as planned to help mend the fractured relationship[1].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_493685",
+      "timestamp": "2026-04-16T11:41:57.344210+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Context:** The controversy stems from escalating US-Iran conflict tensions, with the UK refusing to join the US naval bl",
+      "raw": "Context:** The controversy stems from escalating US-Iran conflict tensions, with the UK refusing to join the US naval blockade of the Strait of Hormuz and Starmer rejecting Trump's military approach as \"dangerous and reckless\"[2]. Trump has repeatedly insulted Starmer and Britain's role in supporting the US[3].\n\nNo final decision has been announced as of the most recent reporting (April 14, 2026).",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Trump announces end of military operations against Iran by A",
-        "Will the White House call a full lid by 6:30PM on April 14?"
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_316609",
-      "timestamp": "2026-04-16T11:39:00.268304+00:00",
+      "id": "sig_499807",
+      "timestamp": "2026-04-16T11:42:03.466498+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results available, here are the key developments:",
-      "raw": "Based on the search results available, here are the key developments:",
+      "headline": "Solana (SOL) Price Up 1",
+      "raw": "Solana (SOL) Price Up 1.8-2.8% Today Amid Network Surge to 167M Holders and Institutional ETF Inflows | YES | MED confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_499813",
+      "timestamp": "2026-04-16T11:42:03.472133+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Key Confirmation**: SOL price rose 1",
+      "raw": "**Key Confirmation**: SOL price rose 1.87% to Rs 7,945 (~$95 USD equivalent) as of Apr 16, 2026 10:29-12:09 UTC, with Binance reporting +1.79% to $85.48 on $4.8B-$16.6B volume; this follows Apr 14 record of 167M monthly token holders and 148M daily non-vote transactions[2][5][6].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -138,51 +176,38 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_333594",
-      "timestamp": "2026-04-16T11:39:17.253535+00:00",
+      "id": "sig_499818",
+      "timestamp": "2026-04-16T11:42:03.477499+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a breaking news update matching your requested format because the search results provided are from Janu",
-      "raw": "I cannot provide a breaking news update matching your requested format because the search results provided are from January-February 2026, which are over two months old relative to the current date of April 16, 2026.\n\nThe most recent information in these results includes:",
+      "headline": "**Recent Announcements**: Interactive Brokers opened SOL trading to European traders via Zero Hash on Apr 14, expanding",
+      "raw": "**Recent Announcements**: Interactive Brokers opened SOL trading to European traders via Zero Hash on Apr 14, expanding institutional access; robust ETF holdings by BlackRock/Fidelity noted despite consolidation[2][4].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_333607",
-      "timestamp": "2026-04-16T11:39:17.266493+00:00",
+      "id": "sig_499829",
+      "timestamp": "2026-04-16T11:42:03.488143+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Inflation remained elevated** with the PCE price index at 3% annually in December 2025, above the Fed's 2% target[1]",
-      "raw": "**Inflation remained elevated** with the PCE price index at 3% annually in December 2025, above the Fed's 2% target[1]",
+      "headline": "**Market Context**: Apr 15 ETF inflows ($471M total) and Asian recovery signal support, offsetting whale shorts and Alam",
+      "raw": "**Market Context**: Apr 15 ETF inflows ($471M total) and Asian recovery signal support, offsetting whale shorts and Alameda\u2019s $16M SOL unstaking (Apr 13); short-term pullback predictions to $75-77 before rally[1][3][6].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_333619",
-      "timestamp": "2026-04-16T11:39:17.278394+00:00",
+      "id": "sig_499834",
+      "timestamp": "2026-04-16T11:42:03.493817+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Wholesale inflation accelerated** in the second half of 2025, with PPI jumping 0",
-      "raw": "**Wholesale inflation accelerated** in the second half of 2025, with PPI jumping 0.5% month-over-month and 3% annually in December[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_316627",
-      "timestamp": "2026-04-16T11:39:00.286769+00:00",
-      "source": "PERPLEXITY",
-      "headline": "REGULATORY CLARITY ACTS AS INSTITUTIONAL CATALYST | YES | MEDIUM confidence**",
-      "raw": "REGULATORY CLARITY ACTS AS INSTITUTIONAL CATALYST | YES | MEDIUM confidence**\n\nThe SEC and CFTC's classification of digital assets as commodities is reshaping the investment landscape, with regulatory clarity now drawing institutional capital back into altcoins.[5] Interactive Brokers also launched SOL trading for European investors, expanding institutional access.[5]\n\nThe disconnect between funda",
-      "direction": "YES",
+      "headline": "**Prediction Market Impact**: Network records + Euro access + price uptick could shift SOL bullish bets, though mixed wh",
+      "raw": "**Prediction Market Impact**: Network records + Euro access + price uptick could shift SOL bullish bets, though mixed whale data tempers immediacy (MED confidence due to recency <48h, no single blockbuster like ETF approval)[1][2][4][5].",
+      "direction": "NO",
       "confidence": 0.6,
       "matched_markets": [],
       "action": "WATCH",
@@ -191,9 +216,9 @@
     }
   ],
   "stats": {
-    "enter": 3,
-    "alert": 9,
+    "enter": 2,
+    "alert": 12,
     "watch": 1,
-    "high_conf": 5
+    "high_conf": 4
   }
 }
