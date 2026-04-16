@@ -1,65 +1,48 @@
 {
-  "last_scan": "2026-04-16T04:32:18.303791+00:00",
-  "scan_seconds": 29.0,
-  "markets_scanned": 127,
-  "open_positions": 87,
+  "last_scan": "2026-04-16T04:35:13.184225+00:00",
+  "scan_seconds": 31.8,
+  "markets_scanned": 85,
+  "open_positions": 45,
   "signals": [
     {
-      "id": "sig_708071",
-      "timestamp": "2026-04-16T04:32:11.756249+00:00",
+      "id": "sig_865569",
+      "timestamp": "2026-04-16T04:34:49.254688+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record of 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions as of April 1",
-      "raw": "Solana Hits All-Time Record of 167 Million Monthly Token Holders & 148 Million Daily Non-Vote Transactions as of April 14, 2026 | YES | HIGH confidence**  \nThis milestone, confirmed in recent network stats, coincides with robust institutional SOL ETF holdings by BlackRock and Fidelity, amid anticipation for the Alpenglow upgrade targeting 150ms transaction finality and Firedancer validator progres",
+      "headline": "US, Israel, and Iran Agree to Two-Week Ceasefire; Kremlin Welcomes Deal | YES | HIGH confidence** [1][2]",
+      "raw": "US, Israel, and Iran Agree to Two-Week Ceasefire; Kremlin Welcomes Deal | YES | HIGH confidence** [1][2]\n\nThe Kremlin explicitly welcomed the last-minute ceasefire agreement between the US, Israel, and Iran on Wednesday (April 8, 2026), emphasizing de-escalation and a shift to diplomatic talks while supporting no further military escalation.[1] This 11th-hour deal aims to avert wider war and addre",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Solana be above $100 on April 17?",
-        "Will the price of Bitcoin be above $82,000 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Trump announces end of military operations against Iran by A"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_701435",
-      "timestamp": "2026-04-16T04:32:05.120661+00:00",
+      "id": "sig_870209",
+      "timestamp": "2026-04-16T04:34:53.894185+00:00",
       "source": "PERPLEXITY",
-      "headline": "JD Vance Addresses Trump's Controversial Truth Social Post Portraying Him as Jesus Amid Pope Leo XIV Criticism** | NO |",
-      "raw": "JD Vance Addresses Trump's Controversial Truth Social Post Portraying Him as Jesus Amid Pope Leo XIV Criticism** | NO | LOW confidence[1]\n\nVice President **JD Vance** appeared on Fox News' *Special Report* on **April 14, 2026**, to discuss President **Donald Trump**'s recent **Truth Social** post criticizing **Pope Leo XIV** and allegedly depicting Trump as Jesus, sparking controversy over religio",
+      "headline": "BUCKINGHAM PALACE CONFIRMS KING CHARLES' STATE VISIT TO US IN LATE APRIL TO MEET TRUMP AMID CRITICISM | NO | HIGH confid",
+      "raw": "BUCKINGHAM PALACE CONFIRMS KING CHARLES' STATE VISIT TO US IN LATE APRIL TO MEET TRUMP AMID CRITICISM | NO | HIGH confidence**  \nBuckingham Palace has confirmed that King Charles and Queen Camilla will visit the United States in late April for a state visit with President Donald Trump, despite backlash over Trump's criticisms of the UK, its armed forces, and Prime Minister Keir Starmer.[1]  \nCriti",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will J.D. Vance win the 2028 Republican presidential nominat",
-        "Will Donald Trump post 160-179 Truth Social posts from April",
-        "Will Chris Dudley win the 2026 Oregon Governor Republican primary election?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Trump announces end of military operations against Iran by A",
+        "US x Iran diplomatic meeting by April 18, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_708082",
-      "timestamp": "2026-04-16T04:32:11.767121+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Maintains DEX Volume Leadership for 7th Straight Month at ~$57 Billion in March 2026 | YES | MED confidence**",
-      "raw": "Solana Maintains DEX Volume Leadership for 7th Straight Month at ~$57 Billion in March 2026 | YES | MED confidence**  \nDeFiLlama data underscores Solana's dominance over Ethereum and other L1/L2 networks, with stablecoin volume hitting a record $650 billion in February (nearly 3x January's), potentially signaling ecosystem momentum into April[3]. Interactive Brokers launched SOL trading for Europe",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $100 on April 17?",
-        "Will the price of Ethereum be less than $1,800 on April 17?",
-        "Will the price of Solana be above $100 on April 18?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 2,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
