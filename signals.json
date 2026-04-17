@@ -1,126 +1,95 @@
 {
-  "last_scan": "2026-04-17T00:40:48.961884+00:00",
-  "scan_seconds": 41.3,
-  "markets_scanned": 139,
+  "last_scan": "2026-04-17T00:50:28.688348+00:00",
+  "scan_seconds": 27.3,
+  "markets_scanned": 137,
   "open_positions": 100,
   "signals": [
     {
-      "id": "sig_218985",
-      "timestamp": "2026-04-17T00:40:42.597763+00:00",
+      "id": "sig_798140",
+      "timestamp": "2026-04-17T00:50:21.752993+00:00",
       "source": "PERPLEXITY",
-      "headline": "deBridge ($DBR) Token Unlock of 618",
-      "raw": "deBridge ($DBR) Token Unlock of 618.33M Tokens ($8.88M) Confirmed for Today on Solana Ecosystem | NO | HIGH confidence**  \nThis substantial unlock, representing 12.90% of $DBR's current circulating supply, is scheduled for April 17, 2026, and could increase short-term liquidity and downward price pressure across Solana ecosystem tokens.[2] No similar confirmations or announcements today for Ethere",
+      "headline": "Tether Backs $150M Drift Protocol Recovery on Solana (April 16, 2026)** | YES | HIGH",
+      "raw": "Tether Backs $150M Drift Protocol Recovery on Solana (April 16, 2026)** | YES | HIGH  \nTether announced a recovery plan of up to $150M for users hit by Drift's $285M exploit on April 1, expanding USDT's role on Solana and signaling strong ecosystem support amid security concerns.[3][4]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Ethereum dip to $2,100 on April 16?",
         "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Ethereum be above $1,900 on April 18?"
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_209881",
-      "timestamp": "2026-04-17T00:40:33.493015+00:00",
+      "id": "sig_804075",
+      "timestamp": "2026-04-17T00:50:27.687075+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about events occurring after the April 9, 2026 voting date that would qualify as current breaking news for April 17, 2026.\n\nHere's what the search results confirm:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "SOUTH KOREA ANNUAL INFLATION RISES TO 2",
+      "raw": "SOUTH KOREA ANNUAL INFLATION RISES TO 2.2% IN MARCH 2026, ABOVE PRIOR 2.0% BUT BELOW 2.4% FORECASTS | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, remaining near the Bank of Korea's 2% target amid contained price pressures before Middle East-driven energy volatility.[1]  \nThis March figure, the most recent confirmed",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "US x Iran permanent peace deal by April 30, 2026?",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_209890",
-      "timestamp": "2026-04-17T00:40:33.502975+00:00",
+      "id": "sig_798150",
+      "timestamp": "2026-04-17T00:50:21.762548+00:00",
       "source": "PERPLEXITY",
-      "headline": "Voting occurred on April 9, 2026** with a 75",
-      "raw": "Voting occurred on April 9, 2026** with a 75.01% voter turnout[6]. The **Indian Union Muslim League (IUML), a UDF alliance partner, won 25 seats**[1].",
-      "direction": null,
+      "headline": "Solana ETFs See $5",
+      "raw": "Solana ETFs See $5.04M Net Inflows (April 16, 2026)** | YES | HIGH  \nU.S. spot Solana ETFs recorded $5.04M inflows on April 16, following $5.36M prior, with cumulative assets at $835M, indicating sustained institutional demand.[4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "Will the price of Solana be above $100 on April 18?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_798162",
+      "timestamp": "2026-04-17T00:50:21.774394+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits 167M Monthly Token Holders Record (April 14, 2026)** | YES | MED",
+      "raw": "Solana Hits 167M Monthly Token Holders Record (April 14, 2026)** | YES | MED  \nSolana achieved an all-time high of 167M monthly holders and 148M daily non-vote transactions, driven by Alpenglow upgrade anticipation for 150ms finality.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $100 on April 18?",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_792917",
+      "timestamp": "2026-04-17T00:50:16.529170+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IUML Releases First Candidate List for Kerala Assembly Elections 2026, with PK Kunhalikutty Shifting to Malappuram | YES",
+      "raw": "IUML Releases First Candidate List for Kerala Assembly Elections 2026, with PK Kunhalikutty Shifting to Malappuram | YES | HIGH confidence** [1][2]\n\nThe Indian Union Muslim League (IUML), a key ally in Kerala's United Democratic Front (UDF), announced its initial candidates on March 18 for the April 9, 2026, elections, including PK Kunhalikutty contesting from Malappuram (replacing Vengara), TP As",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the White House call a full lid by 6:30PM on April 14?",
         "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
-    },
-    {
-      "id": "sig_209901",
-      "timestamp": "2026-04-17T00:40:33.513560+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Vote counting is scheduled for May 4, 2026**[2][5] \u2014 still over two weeks away from the current date",
-      "raw": "Vote counting is scheduled for May 4, 2026**[2][5] \u2014 still over two weeks away from the current date. Since results have not yet been counted or announced, there are no confirmed outcomes to report as breaking news.\n\nTo provide accurate breaking news about election results, market-moving developments, or official announcements from April 17, 2026, I would need search results containing information",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_224318",
-      "timestamp": "2026-04-17T00:40:47.930663+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news analysis you're requesting",
-      "raw": "I cannot provide the breaking news analysis you're requesting. The search results contain only historical inflation data from South Korea through December 2025, with the most recent figures showing **2.31% annual inflation in December 2025**[1]. \n\nThere are no announcements, confirmations, or recent developments in these results that would constitute breaking news or represent market-moving inform",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_224328",
-      "timestamp": "2026-04-17T00:40:47.940814+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bank of Korea official announcements",
-      "raw": "Bank of Korea official announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_224339",
-      "timestamp": "2026-04-17T00:40:47.951260+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time financial news services",
-      "raw": "Real-time financial news services",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_224349",
-      "timestamp": "2026-04-17T00:40:47.961228+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's statistical agency (KOSTAT) releases",
-      "raw": "South Korea's statistical agency (KOSTAT) releases",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 2
   }
 }
