@@ -1,33 +1,16 @@
 {
-  "last_scan": "2026-04-17T00:16:05.853465+00:00",
-  "scan_seconds": 28.6,
+  "last_scan": "2026-04-17T00:25:53.209680+00:00",
+  "scan_seconds": 30.3,
   "markets_scanned": 73,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_725761",
-      "timestamp": "2026-04-17T00:15:49.375363+00:00",
+      "id": "sig_318663",
+      "timestamp": "2026-04-17T00:25:42.276401+00:00",
       "source": "PERPLEXITY",
-      "headline": "CEASEFIRE EXTENSION NOT CONFIRMED | NO | HIGH confidence**",
-      "raw": "CEASEFIRE EXTENSION NOT CONFIRMED | NO | HIGH confidence**\n\nWhite House Press Secretary Karoline Leavitt stated on April 15 that an extension of the U.S.-Iran ceasefire is \"not true at this moment.\"[4] However, reports indicate the United States and Iran are *considering* extending the ceasefire expiring on April 21 by two weeks to allow more negotiation time.[6]",
+      "headline": "House Democrats File Impeachment Articles Against Defense Secretary Hegseth | CONFIRMED (April 16) | HIGH confidence**",
+      "raw": "House Democrats File Impeachment Articles Against Defense Secretary Hegseth | CONFIRMED (April 16) | HIGH confidence**\n\nSix articles of impeachment against Pete Hegseth were filed by House Democrats, accusing him of unauthorized Iran war operations and mishandling classified information.[3] However, the measure has virtually no chance of passing given Republican congressional control.[3]\n\nThe Geor",
       "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "Will the White House call a full lid by 6:30PM on April 14?",
-        "US x Iran permanent peace deal by April 30, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_731153",
-      "timestamp": "2026-04-17T00:15:54.767252+00:00",
-      "source": "PERPLEXITY",
-      "headline": "King Charles Confirmed to Address Joint Session of US Congress and Meet President Trump During April 27-30 State Visit A",
-      "raw": "King Charles Confirmed to Address Joint Session of US Congress and Meet President Trump During April 27-30 State Visit Amid US-UK Tensions | YES | HIGH confidence**[2][3]\n\nBuckingham Palace announced on April 15, 2026, that King Charles III and Queen Camilla will visit Washington DC, New York, and Virginia from April 27-30 to mark the 250th anniversary of US independence, including a rare address ",
-      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
@@ -39,50 +22,129 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_725756",
-      "timestamp": "2026-04-17T00:15:49.370067+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is no breaking news from today (April 17, 2026) to report",
-      "raw": "Based on the available search results, there is no breaking news from today (April 17, 2026) to report. The most recent confirmed developments are from April 15-16, 2026:",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_741238",
-      "timestamp": "2026-04-17T00:16:04.852686+00:00",
+      "id": "sig_328595",
+      "timestamp": "2026-04-17T00:25:52.208919+00:00",
       "source": "PERPLEXITY",
       "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% YoY in March 2026 (from 2.0% in February), below market consensus of 2.3-2.4% due to government measures curbing oil-driven price hikes | NO | HIGH confidence**[1][2]\n\nSouth Korea's Statistics Korea released March CPI data showing headline inflation at **2.2% YoY** (up from 2.0% prior but under forecasts), with monthly rise of 0.3% (vs. 0.6% expected); c",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, reported around early April 2026, marks the most recent confirmed data and exceeds the Bank of Korea's 2% target amid Middle East-driven oil volatility, reducing rate-cut likelihood[1][4]. No newer April data or resolutions appear in repor",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_725772",
-      "timestamp": "2026-04-17T00:15:49.386380+00:00",
+      "id": "sig_318654",
+      "timestamp": "2026-04-17T00:25:42.267458+00:00",
       "source": "PERPLEXITY",
-      "headline": "Note:** \"Ternuvate\" does not appear in any search results and may be a misspelling or refer to information outside the a",
-      "raw": "Note:** \"Ternuvate\" does not appear in any search results and may be a misspelling or refer to information outside the available sources.",
+      "headline": "Senate Rejects War Powers Resolution on Iran | CONFIRMED (April 16) | HIGH confidence**",
+      "raw": "Senate Rejects War Powers Resolution on Iran | CONFIRMED (April 16) | HIGH confidence**\n\nThe Senate narrowly rejected Bernie Sanders's resolution to limit Trump's ability to wage war against Iran in a 47\u201352 vote, with all Senate Republicans except Rand Paul opposing it.[3] This reflects deepening Republican-White House unity on foreign policy despite Democratic opposition.[3]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_323853",
+      "timestamp": "2026-04-17T00:25:47.466355+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Alpenglow Consensus Upgrade Passes Governance Vote with 98",
+      "raw": "Alpenglow Consensus Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**[4]\n\nSolana's Alpenglow upgrade, targeting transaction finality reduction to 100-150 milliseconds, secured overwhelming community support, positioning it as a major performance catalyst amid record 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026[1][4].",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Ethereum Up or Down - April 16, 8PM ET",
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET",
+        "Ethereum Up or Down - April 17, 1:25PM-1:30PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_310043",
+      "timestamp": "2026-04-17T00:25:33.656838+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results, here's the breaking news update:",
+      "raw": "Based on the search results, here's the breaking news update:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_310050",
+      "timestamp": "2026-04-17T00:25:33.663713+00:00",
+      "source": "PERPLEXITY",
+      "headline": "EASTER CEASEFIRE ENDS; RUSSIA RESUMES STRIKES DAYS LATER | NO | HIGH confidence**",
+      "raw": "EASTER CEASEFIRE ENDS; RUSSIA RESUMES STRIKES DAYS LATER | NO | HIGH confidence**\n\nRussia and Ukraine observed a brief **32-hour Orthodox Easter ceasefire from April 11-12, 2026**, but this did not result in an official, substantive ceasefire agreement.[1][2] Instead, **Russia launched large-scale missile and drone strikes on Ukrainian cities overnight April 14-15, killing at least 18 people and w",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "Will Russia enter Vozdvyzhivka by April 30?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_318636",
+      "timestamp": "2026-04-17T00:25:42.249890+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key developments relevant to your query:",
+      "raw": "Based on the search results provided, here are the key developments relevant to your query:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_318645",
+      "timestamp": "2026-04-17T00:25:42.258916+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GA-14 Special Election Runoff Between Clay Fuller and Shawn Harris | ONGOING | HIGH confidence**",
+      "raw": "GA-14 Special Election Runoff Between Clay Fuller and Shawn Harris | ONGOING | HIGH confidence**\n\nThe **April 7 runoff election** in Georgia's 14th congressional district\u2014held to fill Marjorie Taylor Greene's vacant seat\u2014is the most immediate April event affecting House majority control.[1] Republican Clay Fuller, a Trump-backed prosecutor, faces Democrat Shawn Harris, a retired brigadier general,",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_323858",
+      "timestamp": "2026-04-17T00:25:47.471625+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | MED confidence**[2]",
+      "raw": "Interactive Brokers Launches SOL Trading for European Investors via Zero Hash | YES | MED confidence**[2]\n\nOne of the world's largest brokerages opened direct Solana access for Europeans, expanding institutional reach alongside BlackRock and Fidelity's record SOL ETF holdings, though SOL price remains compressed near $82 without immediate breakout[1][2]. Analyst targets of $88-$100 by April end hi",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 3,
+    "alert": 7,
     "watch": 0,
     "high_conf": 3
   }
