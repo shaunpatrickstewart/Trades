@@ -1,30 +1,15 @@
 {
-  "last_scan": "2026-04-17T14:51:54.424887+00:00",
-  "scan_seconds": 25.6,
-  "markets_scanned": 37,
+  "last_scan": "2026-04-17T14:54:43.759874+00:00",
+  "scan_seconds": 26.5,
+  "markets_scanned": 38,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776437496854_0",
-      "timestamp": "2026-04-17T14:51:36.854953+00:00",
+      "id": "sig_1776437675630_0",
+      "timestamp": "2026-04-17T14:54:35.630115+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala 2026 Assembly Elections, Confirms 27 Total Seats in UDF Alliance |",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala 2026 Assembly Elections, Confirms 27 Total Seats in UDF Alliance | YES | HIGH confidence**  \nThe Indian Union Muslim League (IUML) has announced its initial candidate list for 25 constituencies in the Kerala Legislative Assembly election scheduled for April 9, 2026, while confirming plans to contest 27 seats as part of the Congress-led United De",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776437502461_0",
-      "timestamp": "2026-04-17T14:51:42.461718+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 CPI Inflation Confirmed at 2.16% YoY (Up from 2.00% in Feb)** | NO | HIGH confidence[2]\n\nSouth Korea's Statistics Korea released Consumer Price Index data on April 2, 2026, showing March 2026 year-over-year inflation at **2.16%**, a 0.16 percentage point rise from February's 2.00%, with month-to-month inflation at 0.34% (CPI: 118.8).[2] No newer releases confirm April data a",
+      "headline": "South Korea's March 2026 annual inflation rate rose to 2",
+      "raw": "South Korea's March 2026 annual inflation rate rose to 2.2% (or 2.16%), up from 2.0% in February but below market forecasts of 2.4% | NO | HIGH confidence**\n\nThis figure, confirmed via Statistics Korea data released around early April 2026, indicates contained price pressures despite Middle East energy shocks, aligning with the Bank of Korea's 2% target and its recent policy rate hold at 2.5% with",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -35,37 +20,26 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776437513416_1",
-      "timestamp": "2026-04-17T14:51:53.416944+00:00",
+      "id": "sig_1776437682691_0",
+      "timestamp": "2026-04-17T14:54:42.691046+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran-Israel/US Conflict End Date Heavily Traded | YES | MED confidence**",
-      "raw": "Iran-Israel/US Conflict End Date Heavily Traded | YES | MED confidence**  \n97% odds on a specific end date for \"Iran x Israel/US conflict ends by...?\", signaling strong trader bets amid potential resolutions or escalations impacting geopolitics markets.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776437508079_0",
-      "timestamp": "2026-04-17T14:51:48.079503+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news or market-moving information based on these search results",
-      "raw": "I cannot provide breaking news or market-moving information based on these search results. The search results contain outdated information from December 2025 (the World Cup draw announcement) and earlier qualification matches, with no current updates from April 17, 2026.\n\nTo report breaking news that would move prediction markets, I would need search results with:",
+      "headline": "I don't have breaking news to report based on the available search results",
+      "raw": "I don't have breaking news to report based on the available search results. The information provided shows that **Switzerland's Group B assignment for the 2026 FIFA World Cup (alongside Canada, Bosnia and Herzegovina, and Qatar) was already confirmed during the draw process**, with Switzerland qualifying as UEFA Group B winner on November 18, 2025[1].\n\nThe search results contain no recent announce",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776437508082_1",
-      "timestamp": "2026-04-17T14:51:48.082284+00:00",
+      "id": "sig_1776437682701_1",
+      "timestamp": "2026-04-17T14:54:42.701638+00:00",
       "source": "PERPLEXITY",
-      "headline": "Today's date or very recent timestamps",
-      "raw": "Today's date or very recent timestamps",
+      "headline": "To identify actual breaking news that would affect prediction markets, I would need search results with today's date or",
+      "raw": "To identify actual breaking news that would affect prediction markets, I would need search results with today's date or very recent timestamps showing new developments** such as:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -74,11 +48,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776437508085_2",
-      "timestamp": "2026-04-17T14:51:48.085239+00:00",
+      "id": "sig_1776437682710_2",
+      "timestamp": "2026-04-17T14:54:42.710617+00:00",
       "source": "PERPLEXITY",
-      "headline": "New official announcements, injuries, team changes, or match results",
-      "raw": "New official announcements, injuries, team changes, or match results",
+      "headline": "Injury announcements affecting key players",
+      "raw": "Injury announcements affecting key players",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -87,11 +61,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776437508088_3",
-      "timestamp": "2026-04-17T14:51:48.088153+00:00",
+      "id": "sig_1776437682719_3",
+      "timestamp": "2026-04-17T14:54:42.719716+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current statements from official FIFA, Swiss Football Association, or credible sports news sources",
-      "raw": "Current statements from official FIFA, Swiss Football Association, or credible sports news sources\n\nIf you're looking for current World Cup 2026 news, I recommend checking real-time sports news sources directly, as my search results appear to predate today's date by several months.",
+      "headline": "Tactical changes or managerial decisions",
+      "raw": "Tactical changes or managerial decisions",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -100,49 +74,49 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776437513414_0",
-      "timestamp": "2026-04-17T14:51:53.414236+00:00",
+      "id": "sig_1776437682729_4",
+      "timestamp": "2026-04-17T14:54:42.729286+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Market Dominates X Chatter | YES | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Market Dominates X Chatter | YES | HIGH confidence**  \nPolymarket's \"Elon Musk # tweets April 10 - April 17, 2026?\" market leads activity with 88% odds on 300-319 tweets, $13M volume, and real-time updates drawing trader focus on X.[4]",
-      "direction": "YES",
+      "headline": "Withdrawal or disqualification of a team",
+      "raw": "Withdrawal or disqualification of a team",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776437513422_3",
-      "timestamp": "2026-04-17T14:51:53.422559+00:00",
+      "id": "sig_1776437682739_5",
+      "timestamp": "2026-04-17T14:54:42.739194+00:00",
       "source": "PERPLEXITY",
-      "headline": "X Product Head Nikita Bier Exit Bet Low but Watched | NO | LOW confidence**",
-      "raw": "X Product Head Nikita Bier Exit Bet Low but Watched | NO | LOW confidence**  \n7% odds on \"Nikita Bier out as Head of Product at X by June 30?\", a niche tech bet traders on X flag as undervalued amid Elon Musk tweet volume spikes.[1]",
-      "direction": "NO",
+      "headline": "Rescheduling of matches",
+      "raw": "Rescheduling of matches",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776437513419_2",
-      "timestamp": "2026-04-17T14:51:53.419781+00:00",
+      "id": "sig_1776437682757_6",
+      "timestamp": "2026-04-17T14:54:42.757160+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump US-Iran Ceasefire Break Announcement Odds Surge | NO | LOW confidence**",
-      "raw": "Trump US-Iran Ceasefire Break Announcement Odds Surge | NO | LOW confidence**  \nOnly 11% odds on \"Trump announces US x Iran ceasefire broken by...?\", indicating low conviction but possible mispricing if recent confirmations emerge on X.[1]",
-      "direction": "NO",
-      "confidence": 0.6,
+      "headline": "Unexpected roster changes",
+      "raw": "Unexpected roster changes\n\nThe current results only contain general tournament preview information without any indication of today's date or breaking developments.",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 7,
-    "watch": 1,
+    "alert": 6,
+    "watch": 0,
     "high_conf": 2
   }
 }
