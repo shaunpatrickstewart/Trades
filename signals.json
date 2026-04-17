@@ -1,29 +1,96 @@
 {
-  "last_scan": "2026-04-17T19:03:48.065595+00:00",
-  "scan_seconds": 28.0,
-  "markets_scanned": 40,
+  "last_scan": "2026-04-17T19:06:40.088624+00:00",
+  "scan_seconds": 29.1,
+  "markets_scanned": 38,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776452616302_0",
-      "timestamp": "2026-04-17T19:03:36.302116+00:00",
+      "id": "sig_1776452786384_0",
+      "timestamp": "2026-04-17T19:06:26.384993+00:00",
       "source": "PERPLEXITY",
-      "headline": "Deutsche B\u00f6rse $200M Kraken Investment Confirmed | YES | HIGH confidence**",
-      "raw": "Deutsche B\u00f6rse $200M Kraken Investment Confirmed | YES | HIGH confidence**  \nDeutsche B\u00f6rse's landmark $200 million investment in Kraken, a major crypto exchange, has been confirmed as a key development signaling traditional finance's maturing embrace of crypto infrastructure, coinciding with Bitcoin consolidating above $73,000 and whale accumulation (wallets >10,000 BTC seeing net inflows for the",
+      "headline": "South Korea March 2026 CPI: Annual Inflation at 2",
+      "raw": "South Korea March 2026 CPI: Annual Inflation at 2.2% YoY (up from 2.0%, below 2.3-2.4% consensus)** | NO | HIGH confidence[1][2]\n\nSouth Korea's Statistics Korea reported consumer price inflation rose to **2.2% year-on-year** in March 2026 from 2.0% in February, driven by oil prices amid Middle East tensions, but government fuel caps and vouchers limited the rise below market forecasts (2.3% consen",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Bitcoin Up or Down - April 17, 3PM ET"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776452793900_0",
+      "timestamp": "2026-04-17T19:06:33.900475+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Switzerland placed in World Cup 2026 Group B with Canada, Qatar, and UEFA Playoff A winner (Bosnia & Herzegovina)** | YE",
+      "raw": "Switzerland placed in World Cup 2026 Group B with Canada, Qatar, and UEFA Playoff A winner (Bosnia & Herzegovina)** | YES | HIGH confidence[1][2][4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776452793908_1",
+      "timestamp": "2026-04-17T19:06:33.908097+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking NBA news confirmed today on league status, playoffs, or resolutions** | NO | HIGH confidence",
+      "raw": "No breaking NBA news confirmed today on league status, playoffs, or resolutions** | NO | HIGH confidence",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776452799080_0",
+      "timestamp": "2026-04-17T19:06:39.080780+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH**  \nPolymarket's most active X-related market is \"Iran x Israel/US conflict ends by...?\", with 97% odds on December 31 and over $121M in total X markets volume; traders on X are buzzing about this as the top sentiment gauge amid ongoing tensions.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776452799083_1",
+      "timestamp": "2026-04-17T19:06:39.083556+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Bets Surge with 88% on 300-319 | NO | MED**",
+      "raw": "Elon Musk Tweet Count Bets Surge with 88% on 300-319 | NO | MED**  \nX users highlight \"Elon Musk # tweets April 10 - April 17, 2026?\" as highly active ($13M volume), with 88% crowd odds on 300-319 tweets; whale activity implied by volume, but no specific bets detailed.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776452799086_2",
+      "timestamp": "2026-04-17T19:06:39.086281+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Fresh Announcements or Resolutions Impacting Markets | NO | HIGH**",
+      "raw": "No Fresh Announcements or Resolutions Impacting Markets | NO | HIGH**  \nNo breaking confirmations, announcements, or resolutions (e.g., ceasefires, launches) mentioned that would shift odds; markets like Israel x Hezbollah ceasefire are popular but unresolved, with odds updating dynamically.[1][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 0,
+    "enter": 0,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
