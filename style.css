@@ -127,10 +127,10 @@
 #pm-root .stat .val { font-size: 1.15em; color: var(--g) }
 #pm-root .stat .lbl { font-size: 0.6em; color: #888; margin-top: 2px; text-transform: uppercase; letter-spacing: 1px }
 
-/* ── UNIFIED 4-PANEL GRID ─────────────────────────────────────────── */
+/* ── UNIFIED GRID ─────────────────────────────────────────────────── */
 #pm-root .pm-grid {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-bottom: 10px;
 }

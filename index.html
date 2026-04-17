@@ -23,12 +23,28 @@
 
   <div class="hdr-right">
     <div id="pnl-counter">+$0.00</div>
-    <div class="pnl-label">PAPER P&amp;L</div>
+    <div class="pnl-label">TOTAL P&amp;L</div>
     <div id="hdr-updated">Initializing...</div>
   </div>
 </header>
 
-<!-- ═══ UNIFIED 4-PANEL GRID ══════════════════════════════════════════ -->
+<!-- ═══ WALLET PERFORMANCE — TOP OF PAGE ═══════════════════════════════ -->
+<div class="pm-full">
+  <div class="panel" style="border-left:3px solid #7C3AED">
+    <div class="panel-hdr">
+      <div class="panel-hdr-top">
+        <span class="panel-title" style="color:#7C3AED">&#9670; Wallet Performance — Per-Account Breakdown</span>
+        <span class="panel-count" id="wallet-perf-count">—</span>
+      </div>
+      <div class="panel-desc">Each wallet's bankroll, P&amp;L, win rate, 24h/7d/30d performance, and engine breakdown. Computed from trades in real time.</div>
+    </div>
+    <div id="wallet-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;padding:8px">
+      <div class="loader">Loading wallet data</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ UNIFIED GRID ══════════════════════════════════════════════════ -->
 <div class="pm-grid">
 
   <!-- ── PANEL 1: COPY SIGNALS ──────────────────────────────────────── -->
@@ -81,36 +97,8 @@
     </div>
   </div>
 
-  <!-- ── PANEL 3: BOT PERFORMANCE ───────────────────────────────────── -->
-  <div class="panel accent-yellow">
-    <div class="panel-hdr">
-      <div class="panel-hdr-top">
-        <span class="panel-title c-yellow">&#9670; Bot Performance — Paper Trading Results</span>
-        <span class="panel-count" id="perf-count">—</span>
-      </div>
-      <div class="panel-desc" id="perf-panel-desc">Live paper trade results. Stats and active engines computed from paper_trades.jsonl in real time.</div>
-    </div>
-    <div class="panel-body" id="pm-performance">
-      <div class="loader">Loading results</div>
-    </div>
-  </div>
-
-  <!-- ── PANEL 3b: PER-WALLET FINANCIAL CARDS ────────────────────────── -->
-  <div class="panel" style="border-left:3px solid #7C3AED;grid-column:1/-1">
-    <div class="panel-hdr">
-      <div class="panel-hdr-top">
-        <span class="panel-title" style="color:#7C3AED">&#9670; Wallet Performance — Per-Account Breakdown</span>
-        <span class="panel-count" id="wallet-perf-count">—</span>
-      </div>
-      <div class="panel-desc">Each wallet's bankroll, P&amp;L, win rate, and engine breakdown. Computed from paper_trades.jsonl grouped by wallet_owner.</div>
-    </div>
-    <div id="wallet-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:12px;padding:8px">
-      <div class="loader">Loading wallet data</div>
-    </div>
-  </div>
-
-  <!-- ── PANEL 4: TOP WALLETS LEADERBOARD ───────────────────────────── -->
-  <div class="panel accent-purple">
+  <!-- ── PANEL 3: TOP WALLETS LEADERBOARD ───────────────────────────── -->
+  <div class="panel accent-purple" style="grid-column:1/-1">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
         <span class="panel-title c-purple">&#9733; Top Wallets — Leaderboard</span>
@@ -125,16 +113,16 @@
 
 </div><!-- /.pm-grid -->
 
-<!-- ═══ PAPER TRADE TRACKER — FULL WIDTH ══════════════════════════════ -->
+<!-- ═══ OPEN POSITIONS — FULL WIDTH ════════════════════════════════════ -->
 <div class="pm-full">
   <div class="panel accent-paper">
     <div class="panel-hdr">
       <div class="panel-hdr-top">
-        <span class="panel-title c-paper">&#9632; Open Positions — Live Bot Trades</span>
+        <span class="panel-title c-paper">&#9632; Open Positions — Live Trades</span>
         <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
         <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
-      <div class="panel-desc">Active paper trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
+      <div class="panel-desc">Active trades from all engines. Entry price, bet size, expected value (EV), and current status. Source of truth: paper_trades.jsonl — synced every 30 minutes via GitHub.</div>
     </div>
     <div class="panel-body" style="max-height:280px" id="paper-trades">
       <div class="loader">Loading</div>
@@ -150,7 +138,7 @@
         <span class="panel-title" style="color:#ff8844">&#9670; Daily Bot Audit — Automated Health Check</span>
         <span class="panel-count" id="audit-count">—</span>
       </div>
-      <div class="panel-desc">Computed LIVE from paper_trades.jsonl on every refresh. Today's P&amp;L by US ET hour, per-engine stats, bankroll, live issue detection. No stale cache — updates every 60s.</div>
+      <div class="panel-desc">Computed LIVE from trades on every refresh. Today's P&amp;L by US ET hour, per-engine stats, bankroll, live issue detection. No stale cache — updates every 60s.</div>
     </div>
     <div class="panel-body" id="audit-panel" style="max-height:260px">
       <div class="loader">Loading audit...</div>
@@ -198,7 +186,7 @@
   </span>
   <span>
     <span class="kbd">R</span> refresh &nbsp;|&nbsp;
-    Not financial advice. Paper trading only.
+    Not financial advice.
   </span>
 </footer>
 
