@@ -1062,14 +1062,16 @@
       const cfg = cfgJson || {};
 
       // ── US Eastern Time helpers (bot operates on ET wall clock)
-      const ET_OFFSET_H = -4; // EDT in April
       const parseTs = t => {
         const s = t.settled_at || t.resolved_at || t.last_updated || t.timestamp;
         if (!s) return null;
         const d = new Date(s);
         return isNaN(d) ? null : d;
       };
-      const toET = d => new Date(d.getTime() + (ET_OFFSET_H*3600000) - (-d.getTimezoneOffset()*60000));
+      const toET = d => {
+        const etStr = d.toLocaleString('en-US', {timeZone: 'America/New_York'});
+        return new Date(etStr);
+      };
       const nowET = toET(new Date());
       const todayET = nowET.toISOString().slice(0,10);
 
@@ -1577,7 +1579,6 @@
 
   refresh();
   renderPaperTrades();
-  renderWalletCards();
   renderAudit();
   renderLab();
   renderSignalsFeed();
