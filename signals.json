@@ -1,100 +1,57 @@
 {
-  "last_scan": "2026-04-17T15:00:29.701357+00:00",
-  "scan_seconds": 32.3,
+  "last_scan": "2026-04-17T15:03:33.807899+00:00",
+  "scan_seconds": 36.1,
   "markets_scanned": 39,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776438017985_0",
-      "timestamp": "2026-04-17T15:00:17.985753+00:00",
+      "id": "sig_1776438206184_1",
+      "timestamp": "2026-04-17T15:03:26.184688+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Contesting 27 Seats with Key Chang",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Contesting 27 Seats with Key Changes Including Women Candidates | YES | HIGH confidence**[1][2][5]\n\nIUML announced candidates for 25 constituencies on March 17, 2026, including first-time fielding of two women candidates (Fathima Thahliya in Perambra and Jayanthi Rajan in Koothuparambu), shifting PK Kunhalikutty ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776438028697_1",
-      "timestamp": "2026-04-17T15:00:28.697221+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES**\u2014recent March data confirmed, with Bank of Korea holding rates at 2",
-      "raw": "YES**\u2014recent March data confirmed, with Bank of Korea holding rates at 2.5% last week (7th meeting) amid oil shocks from Middle East conflict.[1][3]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776438022898_0",
-      "timestamp": "2026-04-17T15:00:22.898282+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Goldman Sachs Files for Bitcoin ETF | YES | HIGH confidence**",
-      "raw": "Goldman Sachs Files for Bitcoin ETF | YES | HIGH confidence**  \nGoldman Sachs applied for its first crypto-related ETF on April 14, 2026, proposing a yield-focused fund holding spot Bitcoin ETFs from other issuers, which could drive institutional demand and move prediction markets on Bitcoin adoption.[1]  \nBitcoin traded at $75,049.79 (up 0.9% in 24 hours) and Ether at $2,376.08 (up 2.4%) as of Ap",
-      "direction": "YES",
+      "headline": "ETHEREUM SLIGHT PULLBACK | NO (for $4,000 by April 30) | HIGH confidence**",
+      "raw": "ETHEREUM SLIGHT PULLBACK | NO (for $4,000 by April 30) | HIGH confidence**\nEthereum experienced a 1.02% decline over the past 24 hours, trading at approximately $2,328 on April 17[4]. While prediction markets previously showed a 56% probability of ETH reaching $4,000 by month-end[1], the current pullback and distance from that target (roughly $1,672 away with only 13 days remaining) makes this out",
+      "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [
-        "Bitcoin Up or Down - April 17, 12:00PM-12:15PM ET"
+        "Ethereum above 2,485 on April 17, 11AM ET?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776438028694_0",
-      "timestamp": "2026-04-17T15:00:28.694405+00:00",
+      "id": "sig_1776438206176_0",
+      "timestamp": "2026-04-17T15:03:26.176699+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts\u2014no major new announcement today impacts prediction markets.**[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776438028700_2",
-      "timestamp": "2026-04-17T15:00:28.700380+00:00",
-      "source": "PERPLEXITY",
-      "headline": "MED** confidence\u2014latest sourced update is March 2026 inflation (pre-April 17); no intra-day April releases or resolution",
-      "raw": "MED** confidence\u2014latest sourced update is March 2026 inflation (pre-April 17); no intra-day April releases or resolutions noted, though energy volatility stokes upside risks.[1][3][4]",
-      "direction": "NO",
+      "headline": "Based on the search results available, the most recent significant market-moving event was the **Iran ceasefire announce",
+      "raw": "Based on the search results available, the most recent significant market-moving event was the **Iran ceasefire announcement**, which occurred earlier in April and triggered substantial crypto rallies[1][2][3].\n\nHowever, I should note that the search results don't contain breaking news from today (April 17, 3 PM UTC). The most recent price data available shows:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776438008648_0",
-      "timestamp": "2026-04-17T15:00:08.648102+00:00",
+      "id": "sig_1776438206193_2",
+      "timestamp": "2026-04-17T15:03:26.193470+00:00",
       "source": "PERPLEXITY",
-      "headline": "VCT China 2026 Stage 1 Group Stage Week 2 Live: Xi Lai Gaming Leads Rankings After Wins** | YES | HIGH confidence[1][2]",
-      "raw": "VCT China 2026 Stage 1 Group Stage Week 2 Live: Xi Lai Gaming Leads Rankings After Wins** | YES | HIGH confidence[1][2]\n\nVCT China 2026 Stage 1, the first regional event of the year starting March 31 ahead of other regions, has reached its group stage with live rankings updating as of April 16[1][2]. Xi Lai Gaming tops China rankings at 1797 (+6.4 after Week 2 win) and 1790 (+6.9), positioning str",
+      "headline": "BITCOIN SUSTAINED STRENGTH | YES (above key levels) | HIGH confidence**",
+      "raw": "BITCOIN SUSTAINED STRENGTH | YES (above key levels) | HIGH confidence**\nBitcoin surged above $74,000 as of April 16[6], maintaining upward momentum from the earlier ceasefire-driven rally that pushed it to $73,111[3]. The market showed Bitcoin's related prediction (above $58,000 on April 14) at 99.9% YES[1].\n\nThe search results lack real-time breaking news from today's afternoon session. For curre",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Valorant: JD Gaming vs EDward Gaming (BO3) - VCT China Ranking Matches"
+        "Bitcoin Up or Down - April 17, 12:00PM-12:15PM ET"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 0
   }
 }
