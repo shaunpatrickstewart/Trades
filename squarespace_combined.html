@@ -682,17 +682,17 @@
 
       el.innerHTML = cardsHtml;
 
-      // Wire up wallet filter for open positions
+      // Wire up wallet filter for open positions (replace handler to prevent stacking)
       if (filterEl) {
-        filterEl.addEventListener('change', function() {
+        filterEl.onchange = function() {
           const val = this.value;
           document.querySelectorAll('#paper-trades tr[data-wallet]').forEach(row => {
             row.style.display = (val === 'all' || row.dataset.wallet === val) ? '' : 'none';
           });
-        });
+        };
       }
     } catch(e) {
-      el.innerHTML = '<div class="empty">Could not load wallet data: '+e.message+'</div>';
+      el.innerHTML = '<div class="empty">Could not load wallet data: '+esc(e.message)+'</div>';
     }
   }
 
@@ -1037,7 +1037,7 @@
       });
 
     } catch(e) {
-      el.innerHTML='<div class="err">Trades unavailable: '+e.message+'</div>';
+      el.innerHTML='<div class="err">Trades unavailable: '+esc(e.message)+'</div>';
     }
   }
 
@@ -1319,7 +1319,7 @@
       const countEl = document.getElementById('audit-count');
       if (countEl) countEl.textContent = warnings.length+' warn · '+suggestions.length+' sug · '+oks.length+' ok';
     } catch(e) {
-      if (el) el.innerHTML = '<div class="dim">Audit error: '+e.message+'</div>';
+      if (el) el.innerHTML = '<div class="dim">Audit error: '+esc(e.message)+'</div>';
     }
   }
 
@@ -1573,7 +1573,7 @@
       html += '</div>';
       el.innerHTML = html;
     } catch(e) {
-      if (el) el.innerHTML = '<div class="dim">Signals loading... ('+e.message+')</div>';
+      if (el) el.innerHTML = '<div class="dim">Signals loading... ('+esc(e.message)+')</div>';
     }
   }
 
