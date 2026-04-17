@@ -1,48 +1,170 @@
 {
-  "last_scan": "2026-04-17T00:03:31.825602+00:00",
-  "scan_seconds": 26.2,
+  "last_scan": "2026-04-17T00:06:20.895695+00:00",
+  "scan_seconds": 27.4,
   "markets_scanned": 106,
   "open_positions": 68,
   "signals": [
     {
-      "id": "sig_977277",
-      "timestamp": "2026-04-17T00:03:20.892827+00:00",
+      "id": "sig_145530",
+      "timestamp": "2026-04-17T00:06:09.144925+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify a breaking news event that has \"just been confirmed, announced, or resolved\" based on these search res",
-      "raw": "I cannot identify a breaking news event that has \"just been confirmed, announced, or resolved\" based on these search results.\n\nThe search results reference a prediction market question about \"What will King Charles say during the joint meeting of Congress on April 28?\" with 77% odds on \"Special Relationship\" as the answer[2]. However, this event is scheduled for **11 days in the future** (April 28",
-      "direction": "NO",
+      "headline": "King Charles to Address Congress During US State Visit April 27-30** | YES | HIGH confidence",
+      "raw": "King Charles to Address Congress During US State Visit April 27-30** | YES | HIGH confidence\n\nKing Charles III and Queen Camilla have confirmed plans to visit Washington, D.C., New York, and Virginia from April 27 to 30 to commemorate the 250th anniversary of U.S. independence.[1][2] The visit includes **a joint address to Congress**\u2014described as the \"key diplomatic event\" of the trip\u2014and a **priv",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "US x Iran permanent peace deal by April 30, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_987209",
-      "timestamp": "2026-04-17T00:03:30.824405+00:00",
+      "id": "sig_138407",
+      "timestamp": "2026-04-17T00:06:02.021679+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's Annual Inflation Rises to 2",
-      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in the prior two months, missing market forecasts of 2.4% and remaining near the Bank of Korea's 2% target amid global energy volatility from the Iran/Middle East conflict.[1]  \nThis March data, released around early April 2026, aligns ",
+      "headline": "**No Resolutions:** Iran hints at truce exit if pressured; no mine removal, Strait of Hormuz reopening, or deal confirme",
+      "raw": "**No Resolutions:** Iran hints at truce exit if pressured; no mine removal, Strait of Hormuz reopening, or deal confirmed; fighting persists in spots like Lebanon/Israel.[1][3][7]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_156280",
+      "timestamp": "2026-04-17T00:06:19.894470+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in prior months but below 2.4% forecasts | NO | HIGH confidence**[1]\n\nThis March figure, released around early April 2026, marks the latest confirmed data amid Middle East tensions driving oil volatility, staying near the Bank of Korea's 2% target but signaling contained pressures despite a weak won**[1][4]. The Bank of Korea ",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
-        "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_138365",
+      "timestamp": "2026-04-17T00:06:01.979874+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key Developments (All from April 15-16, 2026; No New Confirmations Today):**",
+      "raw": "Key Developments (All from April 15-16, 2026; No New Confirmations Today):**",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_138394",
+      "timestamp": "2026-04-17T00:06:02.008957+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Russia's Stance:** Kremlin welcomed the initial ceasefire (April 8); Putin gave an \"emergency speech\" (April 15-16) wa",
+      "raw": "**Russia's Stance:** Kremlin welcomed the initial ceasefire (April 8); Putin gave an \"emergency speech\" (April 15-16) warning against Western intervention in Iran, escalating tensions but not announcing new actions.[2][3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will Russia enter Ternuvate again by April 30?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_138417",
+      "timestamp": "2026-04-17T00:06:02.031275+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in market-moving events due to speculative reports, denials of extensions, and absence of official conf",
+      "raw": "LOW confidence** in market-moving events due to speculative reports, denials of extensions, and absence of official confirmations post-April 16.[1][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_150949",
+      "timestamp": "2026-04-17T00:06:14.563704+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Outperforms BTC, ETH, SOL with 4% Gain to $1",
+      "raw": "XRP Outperforms BTC, ETH, SOL with 4% Gain to $1.41 on Rakuten Wallet Listing and SEC Crypto Roundtable | YES | HIGH**  \nRakuten Wallet listed XRP yesterday, enabling access for millions of Japanese users, while the SEC crypto roundtable occurs today, driving institutional inflows of $119.6M last week\u2014the largest among assets, unseating BTC and SOL.[1][5] XRP hit $1.45+ amid breakout attempts towa",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Amazon.com, Inc. (AMZN) hit (HIGH) $264 Week of April 1",
+        "Will the price of XRP be above $1.70 on April 19?",
+        "Will the price of XRP be above $1.00 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_150957",
+      "timestamp": "2026-04-17T00:06:14.571281+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Hits Record 167M Holders Amid XRP DeFi Expansion and Inflows | YES | MED**",
+      "raw": "Solana Hits Record 167M Holders Amid XRP DeFi Expansion and Inflows | YES | MED**  \nSOL holders reached 166.9M in April, with $34.9M inflows last week and price surges to $87-$89 on ceasefire relief; XRP expands DeFi to Solana via Hex Trust, with Solana signaling partnership on X.[4][6][2] UK FCA CP 26/13 confirms crypto regulation by Sep 2026, boosting ecosystem momentum.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will the price of Solana be above $100 on April 18?",
+        "Will the price of XRP be above $1.70 on April 19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_150965",
+      "timestamp": "2026-04-17T00:06:14.579067+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Reclaims $87K with XRP/SOL Leading Gains, $107M Inflows | NO | LOW**",
+      "raw": "Bitcoin Reclaims $87K with XRP/SOL Leading Gains, $107M Inflows | NO | LOW**  \nBTC recovered to $87K (+1.6-4.87%) on short squeeze and ETF inflows, but trails XRP/SOL performance with net monthly outflows; no fresh confirmations beyond market recovery.[8][5] Polymarket eyes $75K+ for April.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of XRP be above $1.70 on April 19?",
+        "Will the price of XRP be above $1.00 on April 19?",
+        "Will XRP reach $1.90 April 13-19?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_138379",
+      "timestamp": "2026-04-17T00:06:01.993865+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Iran-US Ceasefire (Expires April 22):** Active talks for extension or second round reported, with Trump calling a deal",
+      "raw": "**Iran-US Ceasefire (Expires April 22):** Active talks for extension or second round reported, with Trump calling a deal \"very possible\"; White House denies formal extension request; mediators (Pakistan, Saudi Arabia, Qatar, T\u00fcrkiye) pushing diplomacy amid ongoing sanctions, blockade, and nuclear disputes.[1][4][5][6]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the US x Iran ceasefire be extended by April 21, 2026?",
+        "Will the White House call a full lid by 6:30PM on April 14?",
+        "US x Iran permanent peace deal by April 30, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 8,
+    "watch": 1,
+    "high_conf": 2
   }
 }
