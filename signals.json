@@ -1,140 +1,110 @@
 {
-  "last_scan": "2026-04-17T11:38:34.396568+00:00",
-  "scan_seconds": 51.5,
-  "markets_scanned": 48,
+  "last_scan": "2026-04-17T11:42:07.706644+00:00",
+  "scan_seconds": 63.8,
+  "markets_scanned": 47,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_661278",
-      "timestamp": "2026-04-17T11:38:04.851732+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Switzerland's Group B Confirmed: Canada, Switzerland, Qatar, Bosnia-Herzegovina | YES | HIGH confidence** [5]",
-      "raw": "Switzerland's Group B Confirmed: Canada, Switzerland, Qatar, Bosnia-Herzegovina | YES | HIGH confidence** [5]\n\nThe group draw for the FIFA World Cup 2026 has recently been completed, finalizing Switzerland in **Group B** alongside Canada, Qatar, and Bosnia-Herzegovina, with all 48 participants now set ahead of the June 11, 2026 kickoff.[5] This announcement resolves uncertainty around matchups, in",
+      "id": "sig_904048",
+      "timestamp": "2026-04-17T11:42:07.621818+00:00",
+      "source": "X_GROK",
+      "headline": "US-Iran Peace Deal:** Whale deploys $75k on YES by Apr 22 (14% odds), $41k YES by Apr 30 amid rising probabilities (14%\u2192",
+      "raw": "US-Iran Peace Deal:** Whale deploys $75k on YES by Apr 22 (14% odds), $41k YES by Apr 30 amid rising probabilities (14%\u219240% short-term).[[1]](https://x.com/i/status/2045050452845162907) Signals strong smart money conviction on imminent deal. **YES** (Apr 22/30 markets). Confidence: **HIGH**.",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045050452845162907)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_645632",
-      "timestamp": "2026-04-17T11:37:49.205288+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BJP Releases Kerala Assembly Election Manifesto Promising Rs 3,000 Pension and Free Water | NO | HIGH confidence**",
-      "raw": "BJP Releases Kerala Assembly Election Manifesto Promising Rs 3,000 Pension and Free Water | NO | HIGH confidence**  \nThe Bharatiya Janata Party (BJP) released its manifesto for the 2026 Kerala legislative assembly elections, featuring welfare promises like a Rs 3,000 monthly pension for needy women, widows, and seniors over 70, plus 20,000 liters of free water per household monthly, alongside infr",
+      "id": "sig_904063",
+      "timestamp": "2026-04-17T11:42:07.636192+00:00",
+      "source": "X_GROK",
+      "headline": "Israel-Hezbollah Ceasefire by Apr 18:** Whale risks $7M at 99",
+      "raw": "Israel-Hezbollah Ceasefire by Apr 18:** Whale risks $7M at 99.7\u00a2 YES for ~$20k arb profit; repeat strategy on near-certainties.[[2]](https://x.com/i/status/2045070213247369631) **YES**. Confidence: **MED** (low-risk play).",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045070213247369631)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_904079",
+      "timestamp": "2026-04-17T11:42:07.652083+00:00",
+      "source": "X_GROK",
+      "headline": "Weather Markets (e",
+      "raw": "Weather Markets (e.g., Paris Temps):** Trader turns $119\u2192$21k (170x) spotting mispriced NO (under 18\u00b0C Apr 15); asymmetry in low-competition temps.[[3]](https://x.com/i/status/2045066547379716123) Buy undervalued temps. **Varies (NO hits)**. Confidence: **MED**.",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045066547379716123)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_904095",
+      "timestamp": "2026-04-17T11:42:07.668523+00:00",
+      "source": "X_GROK",
+      "headline": "Sports (MLB/NBA/NHL):** $235k PNL trader exploits live game state mispricing, correlated markets; enter limits pre-repri",
+      "raw": "Sports (MLB/NBA/NHL):** $235k PNL trader exploits live game state mispricing, correlated markets; enter limits pre-reprice.[[4]](https://x.com/i/status/2044859382882562533) **YES/NO on undervalued**. Confidence: **HIGH**.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2044859382882562533)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_904116",
+      "timestamp": "2026-04-17T11:42:07.689092+00:00",
+      "source": "X_GROK",
+      "headline": "General Tips Trending:** Fade 88-99\u00a2 overconfidence (true prob < implied); copy whales via Polydata/Polytech; liquidity",
+      "raw": "General Tips Trending:** Fade 88-99\u00a2 overconfidence (true prob < implied); copy whales via Polydata/Polytech; liquidity mispricings rampant (e.g., YES 10\u00a2 vs NO 98\u00a2).[[5]](https://x.com/i/status/2045058873199866116)[[6]](https://x.com/i/status/2043351708471001358) **NO on high-odds**. Confidence: **MED**. No major new whales today; focus copy-trading tools.[[7]](https://x.com/i/status/204504752474",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045058873199866116)[[6]](https://x.com/i/status/2043351708471001358)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_848710",
+      "timestamp": "2026-04-17T11:41:12.283294+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026** | **YES** | **HIGH** confidence",
+      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026** | **YES** | **HIGH** confidence  \nThe Indian Union Muslim League (IUML) has announced its initial candidates for 25 constituencies, confirming plans to contest 27 seats total in the upcoming Kerala Legislative Assembly election on April 9, 2026.[1][5] This development, tied to the UDF alliance, could shift prediction mar",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Trump and Xi handshake last 15 seconds or longer during the day of their ne"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_651268",
-      "timestamp": "2026-04-17T11:37:54.841751+00:00",
+      "id": "sig_861085",
+      "timestamp": "2026-04-17T11:41:24.658679+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nAll search results provide price analyses, predictions, and market snapshots from early/mid-April (e.g., ETH at $2,194 on Apr 13, bearish/neutral signals, targets $2,100-$2,200), with no mentions of new events, resolutions, or announcements as of Apr 17[1][2][3]. Prediction markets like Robinhood (Apr 16 price) and Polymarket (April up/down vs March) remain acti",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% YoY (up from 2.0%, below 2.4% forecast) | YES | HIGH confidence**  \nThis data, released around early April 2026 per Trading Economics update, shows annual inflation rising modestly but missing higher market expectations amid contained pressures before Middle East energy volatility[1]. Bank of Korea held rates at 2.5% on April 10, 2026, citing infl",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_657033",
-      "timestamp": "2026-04-17T11:38:00.606685+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOUTH KOREA INFLATION RISES TO 2",
-      "raw": "SOUTH KOREA INFLATION RISES TO 2.2% IN MARCH 2026, BELOW FORECASTS AMID OIL SHOCK | NO | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in prior months, missing market expectations of 2.4% and remaining near the Bank of Korea's 2% target despite global energy volatility from the Iran/Middle East conflict.[1] This data, released around early April 20",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_690535",
-      "timestamp": "2026-04-17T11:38:34.108570+00:00",
-      "source": "X_GROK",
-      "headline": "LoL Esports LCK: Dplus KIA vs T1 BO3**<br>",
-      "raw": "LoL Esports LCK: Dplus KIA vs T1 BO3**<br>\n$10.9k whale BUY Dplus KIA @68\u00a2 (trader +$196k 24h PnL).[[4]](https://x.com/i/status/2045102548072186177)<br>\nYES on Dplus KIA win. Conf: HIGH (sharp trader).[[5]](https://x.com/i/status/2045104169304965328)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045102548072186177)<br>",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_690638",
-      "timestamp": "2026-04-17T11:38:34.211987+00:00",
-      "source": "X_GROK",
-      "headline": "LoL Esports LPL: ThunderTalk vs Oh My God BO3**<br>",
-      "raw": "LoL Esports LPL: ThunderTalk vs Oh My God BO3**<br>\n$7k whale BUY Oh My God @43\u00a2.[[6]](https://x.com/i/status/2045101757206770126)<br>\nYES on OMG win. Conf: MED.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045101757206770126)<br>",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_690711",
-      "timestamp": "2026-04-17T11:38:34.284819+00:00",
-      "source": "X_GROK",
-      "headline": "Trump out as President by June 30",
-      "raw": "Trump out as President by June 30?**<br>\n$9.5k whale BUY NO @95\u00a2.[[7]](https://x.com/i/status/2045102499556716642)<br>\nNO (Trump stays). Conf: HIGH (large bet near-certainty price).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045102499556716642)<br>",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_690812",
-      "timestamp": "2026-04-17T11:38:34.385113+00:00",
-      "source": "X_GROK",
-      "headline": "Trending tips:** Heavy whale flow on live LoL matches; liquidity issues cause mispricing (YES+NO \u2260$1)",
-      "raw": "Trending tips:** Heavy whale flow on live LoL matches; liquidity issues cause mispricing (YES+NO \u2260$1).[[8]](https://x.com/i/status/2045058873199866116) Bots/copytraders hyped but spammy; 71% users lose, top 1% dominate.[[9]](https://x.com/i/status/2044832691837616481) Esports edges from niche knowledge.[[10]](https://x.com/i/status/2045101057043214784)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045058873199866116)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_690446",
-      "timestamp": "2026-04-17T11:38:34.019518+00:00",
-      "source": "X_GROK",
-      "headline": "LoL Esports LCK: Dplus KIA vs T1 Game 2 Winner**<br>",
-      "raw": "LoL Esports LCK: Dplus KIA vs T1 Game 2 Winner**<br>\nWhale buys: $5.9k T1 @68\u00a2; $7k T1 @56\u00a2; $6.9k Dplus KIA @42\u00a2.[[1]](https://x.com/i/status/2045103628881399995)[[2]](https://x.com/i/status/2045102512114409622)[[3]](https://x.com/i/status/2045102511757885623)<br>\nMixed smart money on both sides (possible arb/hedge). Implies NO edge on single outcome. Conf: LOW.[[4]](https://x.com/i/status/204510",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Mobile Legends Bang Bang: EVOS vs Dewa United Esports - Game 1 Winner",
-        "LoL: GAM Esports vs Ground Zero Gaming - Game 2 Winner"
-      ],
-      "action": "WATCH",
-      "x_link": "https://x.com/i/status/2045103628881399995)[[2]](https://x.com/i/status/2045102512114409622)[[3]](https://x.com/i/status/2045102511757885623)<br>",
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 5,
+    "watch": 2,
+    "high_conf": 0
   }
 }
