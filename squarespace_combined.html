@@ -800,7 +800,7 @@
       const deduped = Array.from(seen.values()).sort((a,b)=>b.timestamp.localeCompare(a.timestamp));
 
       if (!trades.length) {
-        el.innerHTML='<div class="empty">No paper trades logged yet — bot is running, trades will appear here.</div>';
+        el.innerHTML='<div class="empty">No trades logged yet — bot is running, trades will appear here.</div>';
         document.getElementById('paper-summary').textContent='0 trades';
         return;
       }
@@ -1031,7 +1031,7 @@
       });
 
     } catch(e) {
-      el.innerHTML='<div class="err">Paper trades unavailable: '+e.message+'</div>';
+      el.innerHTML='<div class="err">Trades unavailable: '+e.message+'</div>';
     }
   }
 
@@ -1139,7 +1139,7 @@
 
       // ── HTML
       const fmtPnl = v => (v>=0?'<span style="color:#00cc66">+$':'<span style="color:#ee3344">-$')+Math.abs(v).toFixed(2)+'</span>';
-      let html = '<div style="font-size:0.72em;color:#555;margin-bottom:8px">Computed LIVE from paper_trades.jsonl · '+trades.length+' trades · '+new Date().toLocaleTimeString()+'</div>';
+      let html = '<div style="font-size:0.72em;color:#555;margin-bottom:8px">Computed LIVE from trades · '+trades.length+' total · '+new Date().toLocaleTimeString()+'</div>';
 
       // Bankroll card
       html += '<div style="background:#f5f5f5;border-left:3px solid #00cc66;padding:8px 12px;margin-bottom:10px;border-radius:4px">';
