@@ -1,111 +1,15 @@
 {
-  "last_scan": "2026-04-17T15:41:58.503599+00:00",
+  "last_scan": "2026-04-17T15:51:39.912216+00:00",
   "scan_seconds": 27.8,
   "markets_scanned": 39,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776440504239_0",
-      "timestamp": "2026-04-17T15:41:44.239896+00:00",
+      "id": "sig_1776441091922_0",
+      "timestamp": "2026-04-17T15:51:31.922139+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML MP Kunhalikutty's March 2026 statement expressing confidence in a UDF clear majority, citing prior wins, but this i",
-      "raw": "IUML MP Kunhalikutty's March 2026 statement expressing confidence in a UDF clear majority, citing prior wins, but this is pre-election opinion, not new confirmation.[1][3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776440504244_1",
-      "timestamp": "2026-04-17T15:41:44.244683+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ongoing row over alleged communal LDF campaign against IUML woman candidate Fathima Thahliya in Perambra, with UDF criti",
-      "raw": "Ongoing row over alleged communal LDF campaign against IUML woman candidate Fathima Thahliya in Perambra, with UDF criticism and LDF denial; no EC resolution reported.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776440504251_2",
-      "timestamp": "2026-04-17T15:41:44.251496+00:00",
-      "source": "PERPLEXITY",
-      "headline": "VD Satheesan's defense of IUML alliance amid 'communal' charges, highlighting its role against extremism; routine campai",
-      "raw": "VD Satheesan's defense of IUML alliance amid 'communal' charges, highlighting its role against extremism; routine campaign rhetoric.[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776440504254_3",
-      "timestamp": "2026-04-17T15:41:44.254833+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pre-existing seat-sharing: Congress 95 seats, IUML 27 in 140-seat assembly; no updates",
-      "raw": "Pre-existing seat-sharing: Congress 95 seats, IUML 27 in 140-seat assembly; no updates.[6]\n\nSearch results lack items from today (April 17, 2026) indicating fresh announcements like results, coalitions, or shifts; election appears upcoming (polling noted April 9, possibly past but unresolved).[2][3] **Confidence: HIGH** (based on absence in timely sources).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776440510903_0",
-      "timestamp": "2026-04-17T15:41:50.903433+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kraken IPO plans and Deutsche B\u00f6rse's $200M investment, signaling institutional maturity (April 16)",
-      "raw": "Kraken IPO plans and Deutsche B\u00f6rse's $200M investment, signaling institutional maturity (April 16).[2][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776440510939_1",
-      "timestamp": "2026-04-17T15:41:50.939331+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC roundtable on CLARITY Act (April 16), potentially reducing regulatory uncertainty",
-      "raw": "SEC roundtable on CLARITY Act (April 16), potentially reducing regulatory uncertainty.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776440510979_2",
-      "timestamp": "2026-04-17T15:41:50.979321+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin prices: ~$74,287 (April 15), $75,050 (April 15-16), $77,807 (April 16)",
-      "raw": "Bitcoin prices: ~$74,287 (April 15), $75,050 (April 15-16), $77,807 (April 16).[2][4]\n\n| Event | YES/NO (Breaking Now?) | Confidence |\n|-------|-------------------------|------------|\n| U.S.-Iran ceasefire & short squeeze | NO | HIGH[1] |\n| Kraken/Deutsche B\u00f6rse investment | NO | MED[2][5] |\n| SEC CLARITY Act roundtable | NO | MED[3] |\n\nNo sources report resolutions or announcements today that con",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin Up or Down - April 17, 12:05PM-12:10PM ET",
-        "Bitcoin Up or Down - April 17, 12:00PM-12:15PM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776440517500_0",
-      "timestamp": "2026-04-17T15:41:57.500817+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 CPI: Annual Inflation at 2",
-      "raw": "South Korea March 2026 CPI: Annual Inflation at 2.2% YoY (vs 2.0% Feb, below 2.3-2.4% consensus)** | NO | HIGH confidence[1][2]\n\nSouth Korea's Statistics Korea released March 2026 consumer price data today, confirming annual inflation rose to 2.2% year-over-year from 2.0% in February, driven by oil prices amid Middle East tensions but tempered by government fuel caps and vouchers\u2014monthly rise was ",
+      "headline": "Bank of Korea Holds Policy Rate at 2",
+      "raw": "Bank of Korea Holds Policy Rate at 2.5% on April 10, Noting Higher-Than-Expected Inflation Trajectories | NO | HIGH confidence** [2][5]\n\nMarch 2026 annual inflation rose to 2.2% YoY, up from 2.0% in January-February but below 2.4% forecasts, driven by energy costs amid global tensions despite subsidies.[1][2] The BoK's April 10 decision emphasized data-dependent policy amid rising price pressures ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -114,12 +18,27 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776441098906_0",
+      "timestamp": "2026-04-17T15:51:38.906957+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting",
+      "raw": "I cannot provide the breaking news you're requesting. The search results provided contain only historical match information from the 2014 FIFA World Cup and general Switzerland World Cup records\u2014they do not include any current breaking news, market-moving announcements, or information about the specific individuals or events you've referenced (Kon Knueppel, etc.).\n\nTo get timely breaking news abou",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
-    "watch": 0,
+    "alert": 1,
+    "watch": 1,
     "high_conf": 0
   }
 }
