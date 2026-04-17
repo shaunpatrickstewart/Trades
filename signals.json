@@ -1,113 +1,169 @@
 {
-  "last_scan": "2026-04-17T13:08:59.687670+00:00",
-  "scan_seconds": 45.3,
+  "last_scan": "2026-04-17T13:18:44.558273+00:00",
+  "scan_seconds": 45.1,
   "markets_scanned": 42,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_92165",
-      "timestamp": "2026-04-17T13:08:35.732799+00:00",
+      "id": "sig_670330",
+      "timestamp": "2026-04-17T13:18:13.897225+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information date",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information dated April 17, 2026 or any recent announcements from today. The most recent data available is from **March 2026**, when South Korea's annual inflation rose to **2.2% year-on-year**, up from 2.0% in February but below the market consensus of 2.3%[1][2].\n\nThe search results do not ind",
+      "headline": "Deutsche B\u00f6rse $200M Investment in Kraken Confirmed | YES | HIGH confidence**",
+      "raw": "Deutsche B\u00f6rse $200M Investment in Kraken Confirmed | YES | HIGH confidence**  \nDeutsche B\u00f6rse's landmark $200 million investment in Kraken validates crypto infrastructure maturity, driving institutional interest and supporting Bitcoin's consolidation above $73,000 toward a $75,000-$80,000 breakout.[5]  \nThis development, alongside whale accumulation, positions the market for upward momentum in Ap",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Bitcoin above 74,400 on April 17, 10AM ET?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_677405",
+      "timestamp": "2026-04-17T13:18:20.972669+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.2% (Up from 2.0%, Below 2.4% Forecast) | YES | HIGH confidence**  \nSouth Korea's annual inflation rate rose to 2.2% in March 2026 from 2.0% in January and February, per Trading Economics data released around early April 2026; this missed market expectations of 2.4% and aligns closely with rateinflation.com's 2.16% figure, indicating contained price p",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_116095",
-      "timestamp": "2026-04-17T13:08:59.662136+00:00",
-      "source": "X_GROK",
-      "headline": "WTI Crude Oil April Range Bets (Imminent, ends April):** Whales pile into No on hitting HIGH $120 ($11k @90\u00a2)[[1]](https",
-      "raw": "WTI Crude Oil April Range Bets (Imminent, ends April):** Whales pile into No on hitting HIGH $120 ($11k @90\u00a2)[[1]](https://x.com/i/status/2045126639739162967) and Yes on LOW $80 ($19k @80\u00a2).[[2]](https://x.com/i/status/2045127149191864760) Signals oil price stability. NO extreme moves. Confidence: HIGH.",
+      "id": "sig_683033",
+      "timestamp": "2026-04-17T13:18:26.600728+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Socceroos Confirm Switzerland as Final World Cup 2026 Warm-Up Opponent** | YES | MED confidence[2]",
+      "raw": "Socceroos Confirm Switzerland as Final World Cup 2026 Warm-Up Opponent** | YES | MED confidence[2]\n\nAustralia's national team (Socceroos) announced yesterday (April 16, 2026) that they will face **Switzerland** in their last preparation match before the FIFA World Cup 2026, providing a key European test amid final tune-ups[2]. This fixture, reported across multiple outlets including Socceroos' off",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "WTI Crude Oil (WTI) closes above $88 on April 17?"
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
       ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045126639739162967)",
-      "category": "COMMUNITY"
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
     },
     {
-      "id": "sig_116100",
-      "timestamp": "2026-04-17T13:08:59.667922+00:00",
-      "source": "X_GROK",
-      "headline": "Iran Geopolitics (Apr21-May31 deadlines):** Multiple whales bet No Israel strike by Apr21 ($13k @95\u00a2 No),[[3]](https://x",
-      "raw": "Iran Geopolitics (Apr21-May31 deadlines):** Multiple whales bet No Israel strike by Apr21 ($13k @95\u00a2 No),[[3]](https://x.com/i/status/2045125147607089297) No US uranium seizure by May31 ($8.5k @77\u00a2 No),[[4]](https://x.com/i/status/2045127140924866648) Yes US-Iran peace by Jun30 ($46k @69\u00a2 Yes), No US invasion pre-2027 ($22k @71\u00a2 No).[[5]](https://x.com/i/status/2045124931067752798) De-escalation e",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045125147607089297)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_116105",
-      "timestamp": "2026-04-17T13:08:59.672810+00:00",
-      "source": "X_GROK",
-      "headline": "Eurovision Semi-Final (Imminent):** $5k whale buy Yes Moldova advances @90\u00a2",
-      "raw": "Eurovision Semi-Final (Imminent):** $5k whale buy Yes Moldova advances @90\u00a2. Edge on favorite. YES. Confidence: HIGH.[[6]](https://x.com/i/status/2045127048927027408)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Belgium advance through the first Eurovision Semi-Final?"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045127048927027408)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_116110",
-      "timestamp": "2026-04-17T13:08:59.677796+00:00",
-      "source": "X_GROK",
-      "headline": "LoL Esports (Live/Recent):** $26k whale on JD Gaming Game 2 win @68\u00a2",
-      "raw": "LoL Esports (Live/Recent):** $26k whale on JD Gaming Game 2 win @68\u00a2. Smart money on favorite. YES. Confidence: MED.[[7]](https://x.com/i/status/2045126253397590470)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "LoL: GAM Esports vs Ground Zero Gaming - Game 2 Winner"
-      ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045126253397590470)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_116116",
-      "timestamp": "2026-04-17T13:08:59.683203+00:00",
-      "source": "X_GROK",
-      "headline": "Mispriced Tip:** Trump Truth Social posts (Apr17-24) undervalues volatility",
-      "raw": "Mispriced Tip:** Trump Truth Social posts (Apr17-24) undervalues volatility. Buy upside. Potential YES overperformance. Confidence: LOW (one call).[[8]](https://x.com/i/status/2045125472082628617)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045125472082628617)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_116120",
-      "timestamp": "2026-04-17T13:08:59.687340+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tips:** Math edges (Kelly, Black-Scholes, prob dislocation) beat vibes; top 1% dominate, retail loses 70%+",
-      "raw": "Trending Tips:** Math edges (Kelly, Black-Scholes, prob dislocation) beat vibes; top 1% dominate, retail loses 70%+.[[9]](https://x.com/i/status/2045073200392945855)[[10]](https://x.com/i/status/2044370645039956092)[[11]](https://x.com/i/status/2044429560599527469) Track whales via alerts.[[12]](https://x.com/i/status/2044386446174515373)",
+      "id": "sig_663640",
+      "timestamp": "2026-04-17T13:18:07.207418+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Congress-IUML seat-sharing deal confirmed for Kerala Assembly elections: Congress to contest 95 seats, IUML 27 seats in",
+      "raw": "Congress-IUML seat-sharing deal confirmed for Kerala Assembly elections: Congress to contest 95 seats, IUML 27 seats in 140-seat house.**[1][4]",
       "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_670333",
+      "timestamp": "2026-04-17T13:18:13.900317+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Surges Above $70K with $400M-$500M Short Liquidations | YES | MED confidence**",
+      "raw": "Bitcoin Surges Above $70K with $400M-$500M Short Liquidations | YES | MED confidence**  \nBitcoin rebounded to $74,535 (up 5.34% in 24h), liquidating $400M-$500M in shorts and re-establishing above $70,000 after consolidation.[1]  \nPolymarket shows 92% odds for $75,000 by April 30, signaling strong prediction market alignment.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Bitcoin above 74,400 on April 17, 10AM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_700978",
+      "timestamp": "2026-04-17T13:18:44.545581+00:00",
+      "source": "X_GROK",
+      "headline": "Bitcoin $80k in April:** Multiple whales loaded up YES ($41k + $43k at ~48\u00a2), signaling strong conviction it hits despit",
+      "raw": "Bitcoin $80k in April:** Multiple whales loaded up YES ($41k + $43k at ~48\u00a2), signaling strong conviction it hits despite odds.[[1]](https://x.com/i/status/2045128788271411691)[[2]](https://x.com/i/status/2045128706146877602) **YES** | HIGH conf (size + repeats).",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Bitcoin above 74,400 on April 17, 10AM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045128788271411691)[[2]](https://x.com/i/status/2045128706146877602)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_663644",
+      "timestamp": "2026-04-17T13:18:07.211313+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** | **MED** confidence",
+      "raw": "YES** | **MED** confidence  \n\nThis alliance agreement within the UDF opposition front was detailed in recent reports, specifying IUML's unprecedented fielding of two women candidates and Kerala Congress (Joseph) taking 8 seats, ahead of the April 9, 2026 voting date.[1][6] It solidifies UDF's strategy against the ruling LDF, potentially shifting prediction markets on UDF's chances given their 2024",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045073200392945855)[[10]](https://x.com/i/status/2044370645039956092)[[11]](https://x.com/i/status/2044429560599527469)",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_700981",
+      "timestamp": "2026-04-17T13:18:44.548829+00:00",
+      "source": "X_GROK",
+      "headline": "Iran uranium by May 31:** Whales bet NO ($36k at 74\u00a2 + $8",
+      "raw": "Iran uranium by May 31:** Whales bet NO ($36k at 74\u00a2 + $8.5k at 77\u00a2), low event prob.[[3]](https://x.com/i/status/2045127529992684005)[[4]](https://x.com/i/status/2045127140924866648) **NO** | MED conf.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045127529992684005)[[4]](https://x.com/i/status/2045127140924866648)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_700984",
+      "timestamp": "2026-04-17T13:18:44.551841+00:00",
+      "source": "X_GROK",
+      "headline": "Hormuz traffic normal by Apr end:** $35k YES whale at 60\u00a2",
+      "raw": "Hormuz traffic normal by Apr end:** $35k YES whale at 60\u00a2.[[5]](https://x.com/i/status/2045128788283973790) **YES** | LOW conf.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045128788283973790)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_700987",
+      "timestamp": "2026-04-17T13:18:44.554865+00:00",
+      "source": "X_GROK",
+      "headline": "WTI Oil April:** $19k YES low $80; $11k NO high $120",
+      "raw": "WTI Oil April:** $19k YES low $80; $11k NO high $120. Avoids extremes.[[6]](https://x.com/i/status/2045127149191864760)[[7]](https://x.com/i/status/2045126639739162967) **RANGEBOUND** | MED conf.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045127149191864760)[[7]](https://x.com/i/status/2045126639739162967)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_700990",
+      "timestamp": "2026-04-17T13:18:44.557955+00:00",
+      "source": "X_GROK",
+      "headline": "CS:GO Spirit vs MOUZ:** Top H-Score wallets aligned same side (undisclosed)",
+      "raw": "CS:GO Spirit vs MOUZ:** Top H-Score wallets aligned same side (undisclosed).[[8]](https://x.com/i/status/2045127896583286819) **FOLLOW SHARPS** | MED conf.\n\nNo major mispriced calls or tips trending; whale alerts dominate via @WhaleAlertPoly/@tradermap_whale. BTC/Oil/geopolitics hot.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045127896583286819)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 3,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 4
   }
 }
