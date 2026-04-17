@@ -1,73 +1,13 @@
 {
-  "last_scan": "2026-04-17T22:39:41.013068+00:00",
-  "scan_seconds": 19.6,
-  "markets_scanned": 42,
+  "last_scan": "2026-04-17T22:45:42.241682+00:00",
+  "scan_seconds": 1.1,
+  "markets_scanned": 0,
   "open_positions": 0,
-  "signals": [
-    {
-      "id": "sig_1776465567786_0",
-      "timestamp": "2026-04-17T22:39:27.786111+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Elections 2026, Confirming 27 Total Seats with Youth, Wome",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Elections 2026, Confirming 27 Total Seats with Youth, Women Focus** | **YES** | **HIGH** confidence[1][2][7]\n\nIUML announced candidates for 25 constituencies on March 17, 2026, including first-time women nominees (Fathima Thahliya in Perambra, Jayanthi Rajan in Koothuparambu), youth leaders like PK Firoz replacing MK Muneer in Koduvalli",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776465571406_0",
-      "timestamp": "2026-04-17T22:39:31.406877+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nEthereum price shows minor fluctuations (e.g., $2,332.52 on Apr 15, $2,343.40 on Apr 16), with ongoing bullish technical signals like record transactions and MACD cross, but no fresh events such as regulatory resolutions, upgrades beyond Pectra's prior impact, or major announcements reported as of Apr 17[1][2][3][4]. Gas fee volatility ties to network activity, ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776465580007_0",
-      "timestamp": "2026-04-17T22:39:40.007898+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Switzerland women's football team leads World Cup qualifying group after two wins, faces decisive Turkey match tonight t",
-      "raw": "Switzerland women's football team leads World Cup qualifying group after two wins, faces decisive Turkey match tonight to clinch top spot | NO | LOW confidence**\n\nThe Switzerland women's national team (Nati) tops their **World Cup qualifying group** with a 6:1 goal difference from victories over Northern Ireland and Malta, while Turkey sits second at 4:0; tonight's home match in Zurich against Tur",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
-        "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776465575783_0",
-      "timestamp": "2026-04-17T22:39:35.784667+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (up from 2.0% prior), below market forecasts of 2.4% | NO | HIGH confidence**[1]\n\nThis March figure\u2014latest reported in search results\u2014marks a modest acceleration amid Middle East conflict-driven energy shocks but stayed under expectations and the Bank of Korea's 2% target range, with the central bank holding rates at 2.5% last week (sixth m",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
-    }
-  ],
+  "signals": [],
   "stats": {
-    "enter": 1,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 0,
+    "watch": 0,
+    "high_conf": 0
   }
 }
