@@ -1,13 +1,83 @@
 {
-  "last_scan": "2026-04-17T21:20:12.109415+00:00",
-  "scan_seconds": 1.1,
-  "markets_scanned": 0,
+  "last_scan": "2026-04-17T21:25:32.956090+00:00",
+  "scan_seconds": 35.1,
+  "markets_scanned": 42,
   "open_positions": 0,
-  "signals": [],
+  "signals": [
+    {
+      "id": "sig_1776461125401_0",
+      "timestamp": "2026-04-17T21:25:25.401855+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information about e",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information about events happening today or very recently that would be considered \"breaking news\" for prediction markets.\n\nThe most recent confirmed data in the search results is **South Korea's March 2026 inflation at 2.2% year-on-year**[1][2], which was already reported and analyzed. This repres",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776461118040_0",
+      "timestamp": "2026-04-17T21:25:18.040424+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you requested based on these search results. The most recent data available is from **April 15, 2026**, showing Bitcoin at $74,286.71[1], which is two days before your current date of April 17, 2026.\n\nThe search results do not contain any confirmed announcements, resolutions, or breaking developments from April 17, 2026 that would move prediction market",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 17, 5:15PM-5:30PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776461118044_1",
+      "timestamp": "2026-04-17T21:25:18.044300+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Historical price data through April 15[1][4]",
+      "raw": "Historical price data through April 15[1][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776461118047_2",
+      "timestamp": "2026-04-17T21:25:18.047134+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysis of geopolitical factors (Iran de-escalation) from early April[2]",
+      "raw": "Analysis of geopolitical factors (Iran de-escalation) from early April[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776461118050_3",
+      "timestamp": "2026-04-17T21:25:18.050110+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Speculation about post-April 16 market movements[3], but no actual confirmed events",
+      "raw": "Speculation about post-April 16 market movements[3], but no actual confirmed events\n\nTo provide accurate breaking news with prediction market implications, I would need current search results from April 17, 2026 that document specific announcements, regulatory decisions, corporate statements, or macroeconomic developments released today.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    }
+  ],
   "stats": {
-    "enter": 0,
-    "alert": 0,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
