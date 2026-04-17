@@ -1,15 +1,30 @@
 {
-  "last_scan": "2026-04-17T14:54:43.759874+00:00",
-  "scan_seconds": 26.5,
+  "last_scan": "2026-04-17T14:57:35.312267+00:00",
+  "scan_seconds": 29.5,
   "markets_scanned": 38,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776437675630_0",
-      "timestamp": "2026-04-17T14:54:35.630115+00:00",
+      "id": "sig_1776437840056_0",
+      "timestamp": "2026-04-17T14:57:20.056782+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rate rose to 2",
-      "raw": "South Korea's March 2026 annual inflation rate rose to 2.2% (or 2.16%), up from 2.0% in February but below market forecasts of 2.4% | NO | HIGH confidence**\n\nThis figure, confirmed via Statistics Korea data released around early April 2026, indicates contained price pressures despite Middle East energy shocks, aligning with the Bank of Korea's 2% target and its recent policy rate hold at 2.5% with",
+      "headline": "Iran Ceasefire Announcement Triggers $427M Bitcoin Short Squeeze, Pushing BTC to $74K+ | YES | HIGH confidence** [1][2][",
+      "raw": "Iran Ceasefire Announcement Triggers $427M Bitcoin Short Squeeze, Pushing BTC to $74K+ | YES | HIGH confidence** [1][2][3]\n\nBitcoin surged over 4% to around $71,362 by April 9, 2026, following the confirmed two-week U.S.-Iran ceasefire that collapsed WTI crude oil prices from $112 per barrel, repricing Fed rate cut expectations and forcing $427 million in crypto short liquidations\u2014the largest sinc",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Bitcoin Up or Down - April 17, 12:00PM-12:15PM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776437847602_1",
+      "timestamp": "2026-04-17T14:57:27.602374+00:00",
+      "source": "PERPLEXITY",
+      "headline": "What was last confirmed (March 2026):**",
+      "raw": "What was last confirmed (March 2026):**\nSouth Korea's annual inflation rose to **2.2% in March 2026**, up from 2.0% in February, driven primarily by rising global oil prices.[1][2] The Bank of Korea held its policy rate steady at 2.5% at its April meeting and raised its inflation outlook for the year to 2.2%.[2]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,103 +35,90 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776437682691_0",
-      "timestamp": "2026-04-17T14:54:42.691046+00:00",
+      "id": "sig_1776437847599_0",
+      "timestamp": "2026-04-17T14:57:27.599488+00:00",
       "source": "PERPLEXITY",
-      "headline": "I don't have breaking news to report based on the available search results",
-      "raw": "I don't have breaking news to report based on the available search results. The information provided shows that **Switzerland's Group B assignment for the 2026 FIFA World Cup (alongside Canada, Bosnia and Herzegovina, and Qatar) was already confirmed during the draw process**, with Switzerland qualifying as UEFA Group B winner on November 18, 2025[1].\n\nThe search results contain no recent announce",
-      "direction": "NO",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information from",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information from April 17, 2026 (today). The most recent confirmed data available is from March 2026, which is already public and reflected in existing market expectations.",
+      "direction": null,
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776437847608_3",
+      "timestamp": "2026-04-17T14:57:27.608176+00:00",
+      "source": "PERPLEXITY",
+      "headline": "March inflation data was already released and digested by markets weeks ago",
+      "raw": "March inflation data was already released and digested by markets weeks ago",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776437847612_4",
+      "timestamp": "2026-04-17T14:57:27.612091+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The BoK's April rate decision and updated guidance were already announced",
+      "raw": "The BoK's April rate decision and updated guidance were already announced",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776437854309_0",
+      "timestamp": "2026-04-17T14:57:34.309887+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Switzerland placed in Group B with Canada, Qatar, and UEFA Playoff A winner (likely Bosnia and Herzegovina) at 2026 Worl",
+      "raw": "Switzerland placed in Group B with Canada, Qatar, and UEFA Playoff A winner (likely Bosnia and Herzegovina) at 2026 World Cup draw** | NO | LOW confidence\n\nThe 2026 FIFA World Cup group stage draw occurred on December 5, 2025, assigning Switzerland to **Group B** alongside Canada, Qatar, and the winner of UEFA Playoff A (contenders: Wales, Bosnia and Herzegovina, Italy, Northern Ireland; playoff i",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
         "Will Switzerland win Group B in the 2026 FIFA World Cup?"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776437682701_1",
-      "timestamp": "2026-04-17T14:54:42.701638+00:00",
-      "source": "PERPLEXITY",
-      "headline": "To identify actual breaking news that would affect prediction markets, I would need search results with today's date or",
-      "raw": "To identify actual breaking news that would affect prediction markets, I would need search results with today's date or very recent timestamps showing new developments** such as:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776437682710_2",
-      "timestamp": "2026-04-17T14:54:42.710617+00:00",
+      "id": "sig_1776437847605_2",
+      "timestamp": "2026-04-17T14:57:27.605533+00:00",
       "source": "PERPLEXITY",
-      "headline": "Injury announcements affecting key players",
-      "raw": "Injury announcements affecting key players",
+      "headline": "Why this doesn't constitute breaking market-moving news today:**",
+      "raw": "Why this doesn't constitute breaking market-moving news today:**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776437682719_3",
-      "timestamp": "2026-04-17T14:54:42.719716+00:00",
+      "id": "sig_1776437847614_5",
+      "timestamp": "2026-04-17T14:57:27.614976+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tactical changes or managerial decisions",
-      "raw": "Tactical changes or managerial decisions",
+      "headline": "Current inflation expectations stand at 2",
+      "raw": "Current inflation expectations stand at 2.70% as of March[3]\n\nTo identify actual breaking news that would move prediction markets, you would need real-time sources reporting announcements, data releases, or policy decisions occurring on or very recently before April 17, 2026. The search results provided do not contain such information.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776437682729_4",
-      "timestamp": "2026-04-17T14:54:42.729286+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Withdrawal or disqualification of a team",
-      "raw": "Withdrawal or disqualification of a team",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776437682739_5",
-      "timestamp": "2026-04-17T14:54:42.739194+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Rescheduling of matches",
-      "raw": "Rescheduling of matches",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776437682757_6",
-      "timestamp": "2026-04-17T14:54:42.757160+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Unexpected roster changes",
-      "raw": "Unexpected roster changes\n\nThe current results only contain general tournament preview information without any indication of today's date or breaking developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 2,
     "alert": 6,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 5
   }
 }
