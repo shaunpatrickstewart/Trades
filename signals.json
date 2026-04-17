@@ -1,55 +1,13 @@
 {
-  "last_scan": "2026-04-17T23:30:21.944027+00:00",
-  "scan_seconds": 22.9,
-  "markets_scanned": 44,
+  "last_scan": "2026-04-17T23:37:16.409383+00:00",
+  "scan_seconds": 1.1,
+  "markets_scanned": 0,
   "open_positions": 0,
-  "signals": [
-    {
-      "id": "sig_1776468611422_0",
-      "timestamp": "2026-04-17T23:30:11.422481+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Elections 2026, Including Youth and Women for 27 Total Sea",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Elections 2026, Including Youth and Women for 27 Total Seats | YES | HIGH confidence**  \nThe Indian Union Muslim League (IUML), a key UDF ally, announced its initial candidates on March 17, 2026, for the Kerala Legislative Assembly elections set for April 9, 2026, naming contenders for 25 of 27 planned seats with a focus on younger face",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776468605996_0",
-      "timestamp": "2026-04-17T23:30:05.996857+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: NO major resolution or announcement to shift odds significantly",
-      "raw": "Impact on prediction markets: NO major resolution or announcement to shift odds significantly.**[1][2][4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776468606001_1",
-      "timestamp": "2026-04-17T23:30:06.001715+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (consistent reporting across sources on failure/denials since April 11-16, no updates confirming deal",
-      "raw": "Confidence: HIGH** (consistent reporting across sources on failure/denials since April 11-16, no updates confirming deals by April 17).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    }
-  ],
+  "signals": [],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
