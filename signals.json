@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-17T18:50:57.791942+00:00",
-  "scan_seconds": 30.4,
-  "markets_scanned": 42,
+  "last_scan": "2026-04-17T19:00:57.050814+00:00",
+  "scan_seconds": 35.9,
+  "markets_scanned": 40,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776451851190_0",
-      "timestamp": "2026-04-17T18:50:51.190987+00:00",
+      "id": "sig_1776452449078_0",
+      "timestamp": "2026-04-17T19:00:49.078242+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Policy Rate at 2",
-      "raw": "Bank of Korea Holds Policy Rate at 2.5% on April 10, 2026, Citing Higher-Than-Expected Inflation Trajectories Amid Geopolitical Risks | NO | HIGH confidence**[2][5]\n\nSouth Korea's annual inflation rose to **2.2%** in March 2026, up from 2.0% in prior months but below 2.4% forecasts, driven by energy costs despite subsidies[1][2]. The Bank of Korea's decision emphasized data-dependent policy, notin",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), below market forecasts of 2.4%.** [1] | YES | MED\n\nThis figure\u2014released around early April 2026 via Statistics Korea\u2014marks a modest uptick amid Middle East tensions pushing energy prices higher, yet remains near the Bank of Korea's 2% target and aligns with the central bank's revised 2026 outlook of 2.2%.[1] The Bank of K",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,15 +20,29 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776451856789_0",
-      "timestamp": "2026-04-17T18:50:56.789784+00:00",
+      "id": "sig_1776452440170_0",
+      "timestamp": "2026-04-17T19:00:40.170038+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kon Knueppel Emerges as NBA Rookie of the Year Favorite Over Cooper Flagg** | YES | HIGH confidence[3]",
-      "raw": "Kon Knueppel Emerges as NBA Rookie of the Year Favorite Over Cooper Flagg** | YES | HIGH confidence[3]\n\nKon Knueppel, a Charlotte Hornets rookie, has overtaken Cooper Flagg as the betting favorite for **NBA Rookie of the Year**, per recent analysis, potentially shifting prediction market odds amid his strong rookie stats (18.3 points, 5.3 rebounds, 3.4 assists per game)[2][3]. This development, hi",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Based on the search results provided, I cannot identify **breaking news from today (April 17, 2026)** that would move pr",
+      "raw": "Based on the search results provided, I cannot identify **breaking news from today (April 17, 2026)** that would move prediction markets. The most recent data in the search results is from April 16, 2026, which shows Bitcoin trading around $75,000-$77,800 with modest daily gains.\n\nThe most significant confirmed events from the past week that moved prediction markets were:",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
+        "Bitcoin Up or Down - April 17, 3PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776452456046_3",
+      "timestamp": "2026-04-17T19:00:56.046026+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Any confirmed, just-announced development that would move prediction markets today",
+      "raw": "Any confirmed, just-announced development that would move prediction markets today\n\nThe most recent dated item in the results is from **March 6, 2026** (Niederhauser's season-ending injury), which is over a month old and does not constitute breaking news for April 17.\n\nThe Cooper Flagg story appears to be from today based on the context, but it concerns an NBA rookie milestone, not Switzerland, th",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
         "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "ALERT",
@@ -36,42 +50,94 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776451843498_0",
-      "timestamp": "2026-04-17T18:50:43.498620+00:00",
+      "id": "sig_1776452429211_0",
+      "timestamp": "2026-04-17T19:00:29.211702+00:00",
       "source": "PERPLEXITY",
-      "headline": "CLARITY Act Senate Markup Scheduled for Late April 2026, Boosting XRP Commodity Status Prospects | YES | HIGH confidence",
-      "raw": "CLARITY Act Senate Markup Scheduled for Late April 2026, Boosting XRP Commodity Status Prospects | YES | HIGH confidence**  \nSenate Banking Committee Chair Tim Scott has signaled a markup for the CLARITY Act of 2026 in the final two weeks of April, potentially granting XRP permanent federal commodity status akin to Bitcoin and Ethereum, ending \"regulation by enforcement.\"[3] This legislative progr",
+      "headline": "Congress and IUML finalize seat-sharing: Congress to contest 95 seats, IUML 27 seats in 140-seat Kerala Assembly electio",
+      "raw": "Congress and IUML finalize seat-sharing: Congress to contest 95 seats, IUML 27 seats in 140-seat Kerala Assembly elections | YES | HIGH confidence**[7]\n\nIUML had pushed aggressively for around 30 seats\u2014up from 25 in 2021\u2014citing strong local body poll performance (3,203 seats won, third among parties) and expansion into southern Kerala, with talks expected to wrap by January 15[2]. This agreement m",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776452440176_1",
+      "timestamp": "2026-04-17T19:00:40.176685+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Spot Rally on April 13 | YES | HIGH confidence**",
+      "raw": "Bitcoin Spot Rally on April 13 | YES | HIGH confidence**\nBitcoin surged 5.22% to close above $74,400 on Monday, April 13, 2026, directly triggering significant repricing in prediction markets for April 17 settlement, with the \"$73,000 or above\" contract probability jumping 44 percentage points to 66%.[4]\n\nHowever, these are not today's news\u2014they occurred earlier in the week. The search results do ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "XRP Up or Down - April 17, 2:55PM-3:00PM ET",
-        "Ethereum Up or Down - April 17, 3:15PM-3:30PM ET"
+        "Bitcoin Up or Down - April 17, 3PM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776451843505_1",
-      "timestamp": "2026-04-17T18:50:43.505424+00:00",
+      "id": "sig_1776452456037_0",
+      "timestamp": "2026-04-17T19:00:56.037204+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Foundation Stakes 70,000 ETH ($143M), Easing Sell Pressure Amid Recovery Signals | YES | MED confidence**",
-      "raw": "Ethereum Foundation Stakes 70,000 ETH ($143M), Easing Sell Pressure Amid Recovery Signals | YES | MED confidence**  \nThe Ethereum Foundation's staking reduces supply pressure, supporting ETH's rebound to $2,184 with bullish patterns, RSI near oversold, and converging moving averages at $2,126.[1][5] Technical analyses highlight a potential 170% rally to $8,500, mirroring 2021 patterns after bottom",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "I cannot identify breaking news matching your query parameters from the provided search results",
+      "raw": "I cannot identify breaking news matching your query parameters from the provided search results.\n\nThe search results contain information about **NBA rookies with Swiss connections** (Kyshawn George, Yanic Konan Niederhauser) and **Cooper Flagg's 50-point game**, but none of these stories involve:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "XRP Up or Down - April 17, 2:55PM-3:00PM ET",
-        "Ethereum Up or Down - April 17, 3:15PM-3:30PM ET"
+        "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776452456040_1",
+      "timestamp": "2026-04-17T19:00:56.040012+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Switzerland's World Cup participation or qualification",
+      "raw": "Switzerland's World Cup participation or qualification",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776452456042_2",
+      "timestamp": "2026-04-17T19:00:56.042780+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A \"group\" stage announcement",
+      "raw": "A \"group\" stage announcement",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776452456048_4",
+      "timestamp": "2026-04-17T19:00:56.049009+00:00",
+      "source": "PERPLEXITY",
+      "headline": "To answer your query accurately, I would need search results specifically about Swiss national team World Cup developmen",
+      "raw": "To answer your query accurately, I would need search results specifically about Swiss national team World Cup developments or official tournament announcements from today.**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 8,
+    "watch": 0,
+    "high_conf": 3
   }
 }
