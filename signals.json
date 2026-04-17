@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-17T13:39:20.829842+00:00",
-  "scan_seconds": 25.5,
-  "markets_scanned": 36,
+  "last_scan": "2026-04-17T13:49:01.574016+00:00",
+  "scan_seconds": 27.1,
+  "markets_scanned": 38,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776433152638_0",
-      "timestamp": "2026-04-17T13:39:12.638446+00:00",
+      "id": "sig_1776433729120_0",
+      "timestamp": "2026-04-17T13:48:49.120812+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.16% YoY | NO** | **MED confidence**  \nSouth Korea's Consumer Price Index for March 2026 showed **2.16% year-over-year inflation**, up slightly from 2.00% in February 2026, with a 0.34% month-to-month rise; data updated April 2, 2026.[2]  \nNo announcements or resolutions today (April 17, 2026) impact annual forecasts, as next update is May 6, 2026; 20",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), missing forecasts of 2.4% | NO | HIGH confidence**[1]\n\nThis March figure\u2014latest in search results, reported post-release\u2014shows contained pressures amid Middle East energy shocks, aligning with Bank of Korea's 2.2% yearly outlook (up from 2.1%) while holding rates at 2.5% for a sixth meeting[1]. No newer April data or poli",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,26 +20,24 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776433159827_0",
-      "timestamp": "2026-04-17T13:39:19.827652+00:00",
+      "id": "sig_1776433740562_0",
+      "timestamp": "2026-04-17T13:49:00.562661+00:00",
       "source": "PERPLEXITY",
-      "headline": "Switzerland placed in 2026 FIFA World Cup Group B with Canada, Bosnia and Herzegovina, and Qatar** | NO | HIGH confidenc",
-      "raw": "Switzerland placed in 2026 FIFA World Cup Group B with Canada, Bosnia and Herzegovina, and Qatar** | NO | HIGH confidence[1][2][5]\n\nNo breaking news right now confirms, announces, or resolves anything new about Switzerland's World Cup group, as the draw details (Group B fixtures from June 12-24, 2026; Switzerland qualified November 18, 2025 via UEFA Group B win) are already established and static ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
-      ],
-      "action": "ENTER",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Activity | NO | HIGH**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Activity | NO | HIGH**  \nPolymarket's most active X-related market is \"Iran x Israel/US conflict ends by...?\", with 97% odds on resolution by December 31, 2026, and over $121M in total X market volume signaling strong trader focus.[1]",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776433142646_0",
-      "timestamp": "2026-04-17T13:39:02.646196+00:00",
+      "id": "sig_1776433721355_0",
+      "timestamp": "2026-04-17T13:48:41.355874+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Plans to Contest 27 Seats** | YES",
-      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Plans to Contest 27 Seats** | YES | HIGH confidence[1]\n\nThis announcement, covering candidates for 25 constituencies with 2 more expected, provides concrete details on IUML's strategy as part of the UDF alliance ahead of the April 9, 2026 polls, potentially shifting prediction markets on seat shares and UDF prosp",
+      "headline": "IUML Announces First List of 25 Candidates for Kerala Assembly Elections 2026, Including 2 Women for First Time and Key",
+      "raw": "IUML Announces First List of 25 Candidates for Kerala Assembly Elections 2026, Including 2 Women for First Time and Key Seat Shifts like Kunhalikutty to Malappuram | YES | HIGH confidence**[2]  \nThis list, released by state president Panakkad Sadiqali Shihab Thangal on March 17, 2026, covers 25 of 27 planned seats in the UDF alliance, emphasizing younger faces; notable changes include PK Firoz rep",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -48,12 +46,68 @@
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776433734612_0",
+      "timestamp": "2026-04-17T13:48:54.612445+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO recent breaking news confirmed, announced, or resolved about the World Cup group stage involving Switzerland that wou",
+      "raw": "NO recent breaking news confirmed, announced, or resolved about the World Cup group stage involving Switzerland that would move prediction markets.**[1][2][5]\n\nSwitzerland is drawn in **Group B** with Canada (co-host), Bosnia and Herzegovina, and Qatar for the 2026 FIFA World Cup, taking place June 12-24, 2026; all teams currently have 0 points with no matches played.[1][2][3] Qualification detail",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776433740565_1",
+      "timestamp": "2026-04-17T13:49:00.565689+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Market Explodes with $13M+ Volume | NO | HIGH**",
+      "raw": "Elon Musk Tweet Count Market Explodes with $13M+ Volume | NO | HIGH**  \nTraders on X are buzzing about \"Elon Musk # tweets April 10 - April 17, 2026?\", now at 88% odds for 300-319 tweets (up from 67% earlier), indicating potential whale accumulation on this high-volume market ending soon.[3][4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Elon Musk post 300-319 tweets from April 14 to April 21, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776433740568_2",
+      "timestamp": "2026-04-17T13:49:00.568735+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X Stablecoin Launch Odds Draw Speculation | NO | MED**",
+      "raw": "X Stablecoin Launch Odds Draw Speculation | NO | MED**  \nMarket \"Will X launch a USD stablecoin in 2026?\" is active amid X predictions, with traders posting on potential mispricing as sentiment shifts on tech integrations.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776433740572_3",
+      "timestamp": "2026-04-17T13:49:00.572138+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier X Departure Bet Trends | NO | LOW**",
+      "raw": "Nikita Bier X Departure Bet Trends | NO | LOW**  \n\"Nikita Bier out as Head of Product at X by June 30?\" sees discussion as a niche bet, with no volume details but part of 1346+ live X markets.[1]  \n\nNo recent confirmations, announcements, or resolutions in results to shift these markets; odds reflect real-time trader conviction without noted whale tips or mispricing calls.[1][2][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
