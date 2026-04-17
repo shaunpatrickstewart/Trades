@@ -1,139 +1,58 @@
 {
-  "last_scan": "2026-04-17T19:25:14.298441+00:00",
-  "scan_seconds": 31.2,
-  "markets_scanned": 40,
+  "last_scan": "2026-04-17T19:35:26.230030+00:00",
+  "scan_seconds": 46.1,
+  "markets_scanned": 41,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776453906636_0",
-      "timestamp": "2026-04-17T19:25:06.636499+00:00",
+      "id": "sig_1776454517572_0",
+      "timestamp": "2026-04-17T19:35:17.572961+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news update you're requesting",
-      "raw": "I cannot provide the breaking news update you're requesting. The search results provided contain only information about Kon Knueppel's NBA rookie season with the Charlotte Hornets and do not include any breaking news about Switzerland, a World Cup, prediction market movements, or confirmed announcements from today.\n\nThe most recent information in the search results is from April 14, 2026, describi",
-      "direction": null,
+      "headline": "South Korea's Annual Inflation Rises to 2",
+      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | YES | MED confidence**  \nThis is the latest reported figure, up from 2.0% in January and February 2026 but below market forecasts of 2.4%, confirmed via Statistics Korea data updated in March 2026[1]. It aligns with the Bank of Korea's revised 2026 inflation outlook of 2.2% (raised from 2.1%) amid Middle East conflict-driven energy shock",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776454502730_0",
+      "timestamp": "2026-04-17T19:35:02.730865+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results lack post-April 9 updates; nothing \"just confirmed\" to move markets)",
+      "raw": "Confidence: HIGH** (search results lack post-April 9 updates; nothing \"just confirmed\" to move markets).[1][2][3][4][5][6][7]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776454525222_0",
+      "timestamp": "2026-04-17T19:35:25.222186+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Switzerland Loses 60-84 to Bosnia-Herzegovina in FIBA World Cup 2027 Qualifier, Remains Winless and Bottom of Group C**",
+      "raw": "Switzerland Loses 60-84 to Bosnia-Herzegovina in FIBA World Cup 2027 Qualifier, Remains Winless and Bottom of Group C** | YES | HIGH confidence[1]\n\nSwitzerland suffered its third straight defeat in Group C of the FIBA Basketball World Cup 2027 qualifiers, falling 60-84 on the road to Bosnia-Herzegovina, both previously winless teams[1]. The loss after halftime trailing by 14 points eliminates any ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
         "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776453894161_1",
-      "timestamp": "2026-04-17T19:24:54.161284+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Congress-IUML Seat-Sharing Confirmed: Congress in 95 Seats, IUML in 27 | YES | HIGH confidence**",
-      "raw": "Congress-IUML Seat-Sharing Confirmed: Congress in 95 Seats, IUML in 27 | YES | HIGH confidence**  \nThe Congress-led United Democratic Front (UDF) has finalized its alliance deal, with Congress contesting 95 seats and Indian Union Muslim League (IUML) contesting 27 seats in the 140-seat Kerala Assembly, matching IUML's 2021 allocation.[1][5]  \nThis resolution of seat-sharing solidifies UDF's strate",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776453913281_0",
-      "timestamp": "2026-04-17T19:25:13.281281+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time market activity, trader commentary, or breaking news you're requesting",
-      "raw": "I cannot provide the real-time market activity, trader commentary, or breaking news you're requesting. The search results show that Polymarket hosts various prediction markets as of April 17, 2026, but they don't contain current trader discussions, whale bets, smart money moves, or specific market tips being shared right now[1][2][3][4].\n\nThe search results only indicate that the most active X-rel",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453913284_1",
-      "timestamp": "2026-04-17T19:25:13.284355+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check Polymarket's live chat or community forums directly",
-      "raw": "Check Polymarket's live chat or community forums directly",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453913289_2",
-      "timestamp": "2026-04-17T19:25:13.289789+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor crypto and prediction market social media channels (X, Discord, Telegram)",
-      "raw": "Monitor crypto and prediction market social media channels (X, Discord, Telegram)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453913294_3",
-      "timestamp": "2026-04-17T19:25:13.294339+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review real-time market order flow on Polymarket itself",
-      "raw": "Review real-time market order flow on Polymarket itself",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453913297_4",
-      "timestamp": "2026-04-17T19:25:13.297263+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Consult prediction market analytics platforms that track large trades",
-      "raw": "Consult prediction market analytics platforms that track large trades\n\nThe search results provided are general platform information rather than live market intelligence or breaking news updates.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776453894158_0",
-      "timestamp": "2026-04-17T19:24:54.158112+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BJP Releases Kerala Election Manifesto Promising Rs 3,000 Pension and Free Water | YES | HIGH confidence**",
-      "raw": "BJP Releases Kerala Election Manifesto Promising Rs 3,000 Pension and Free Water | YES | HIGH confidence**  \nThe Bharatiya Janata Party (BJP) has released its manifesto for the 2026 Kerala Legislative Assembly elections, outlining welfare measures like a Rs 3,000 monthly pension for needy women, widows, and seniors over 70, plus 20,000 liters of free water per household monthly, alongside infrastr",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776453899788_0",
-      "timestamp": "2026-04-17T19:24:59.788828+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Confirms Long-Term Inflation Expectations Well-Anchored Amid Middle East Supply Shocks | YES | MED conf",
-      "raw": "Fed Chair Powell Confirms Long-Term Inflation Expectations Well-Anchored Amid Middle East Supply Shocks | YES | MED confidence**\n\nJerome Powell stated on March 30, 2026, at Harvard University that longer-term inflation expectations remain well-anchored despite risks from US-Israel war against Iran causing supply shocks like higher energy prices, emphasizing careful monitoring to prevent de-anchori",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Jerome Powell out as Fed Chair by May 31, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 2,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 2
   }
 }
