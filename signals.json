@@ -1,80 +1,93 @@
 {
-  "last_scan": "2026-04-17T00:30:48.002416+00:00",
-  "scan_seconds": 24.7,
-  "markets_scanned": 135,
-  "open_positions": 99,
+  "last_scan": "2026-04-17T00:35:28.385612+00:00",
+  "scan_seconds": 19.9,
+  "markets_scanned": 80,
+  "open_positions": 40,
   "signals": [
     {
-      "id": "sig_609152",
-      "timestamp": "2026-04-17T00:30:32.765998+00:00",
+      "id": "sig_894340",
+      "timestamp": "2026-04-17T00:35:17.953835+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a reliable answer to this query based on the available search results",
-      "raw": "I cannot provide a reliable answer to this query based on the available search results. The search results contain information from April 8-12, 2026, which is several days old relative to the stated current date of April 17, 2026. Additionally, the query contains unclear terms (\"ternuvate\" does not appear in the results and its meaning is ambiguous), making it difficult to identify what specific b",
-      "direction": null,
+      "headline": "KING CHARLES III TO ADDRESS CONGRESS IN HISTORIC FIRST DURING STATE VISIT TO WASHINGTON NEXT WEEK | YES | HIGH confidenc",
+      "raw": "KING CHARLES III TO ADDRESS CONGRESS IN HISTORIC FIRST DURING STATE VISIT TO WASHINGTON NEXT WEEK | YES | HIGH confidence**  \nKing Charles III's visit to Washington in the last week of April 2026, including his address to Congress\u2014the first by a British monarch since Queen Elizabeth II in 1991\u2014has been confirmed by Fox News, amid strained US-UK relations over the US-Israel-Iran conflict.[2]  \nThis",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_609174",
-      "timestamp": "2026-04-17T00:30:32.787779+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 12**: Diplomatic negotiations between the U",
-      "raw": "**April 12**: Diplomatic negotiations between the U.S. and Iran in Pakistan collapsed after 21 hours of talks, with Iran's nuclear program remaining the central sticking point. President Trump announced a U.S. naval blockade of the Strait of Hormuz[4].\n\nTo provide the market-moving headline analysis you're requesting, I would need current information from April 17, 2026, which is not available in ",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
+        "Will J.D. Vance win the 2028 Republican presidential nominat",
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
-        "US x Iran permanent peace deal by April 30, 2026?",
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "Will the White House call a full lid by 6:30PM on April 14?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_609164",
-      "timestamp": "2026-04-17T00:30:32.777261+00:00",
+      "id": "sig_890137",
+      "timestamp": "2026-04-17T00:35:13.750479+00:00",
       "source": "PERPLEXITY",
-      "headline": "**April 8**: Russia welcomed a U",
-      "raw": "**April 8**: Russia welcomed a U.S.-Iran ceasefire announcement, with Foreign Ministry spokesperson Maria Zakharova stating Moscow played an active role in diplomatic efforts[1].",
-      "direction": null,
+      "headline": "Russia announces Easter ceasefire with Ukraine (April 11-12, 2026)** | YES | HIGH confidence[3]",
+      "raw": "Russia announces Easter ceasefire with Ukraine (April 11-12, 2026)** | YES | HIGH confidence[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will the US x Iran ceasefire be extended by April 21, 2026?",
         "Will Russia enter Ternuvate again by April 30?",
-        "US x Iran permanent peace deal by April 30, 2026?"
+        "Will Russia enter Vozdvyzhivka by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_618870",
-      "timestamp": "2026-04-17T00:30:42.483836+00:00",
+      "id": "sig_890143",
+      "timestamp": "2026-04-17T00:35:13.756168+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana (SOL) Hits All-Time Record of 167 Million Monthly Token Holders and Announces Alpenglow Upgrade Slashing Finality",
-      "raw": "Solana (SOL) Hits All-Time Record of 167 Million Monthly Token Holders and Announces Alpenglow Upgrade Slashing Finality to 150ms | YES | HIGH confidence** [1][5]\n\nInstitutional players like BlackRock and Fidelity disclose record SOL ETF holdings amid Firedancer validator progress, driving a 10% surge as of April 14, 2026.[1][5] This record user growth and consensus upgrade confirmation represent ",
+      "headline": "US-Iran ceasefire faltering: Strait of Hormuz shut down again, Medvedev hints at Russia's support for Iran** | YES | MED",
+      "raw": "US-Iran ceasefire faltering: Strait of Hormuz shut down again, Medvedev hints at Russia's support for Iran** | YES | MED confidence[1][2][3]",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Ethereum dip to $2,100 on April 16?",
-        "Will the price of Solana be above $100 on April 18?",
-        "Will the price of Ethereum be above $1,900 on April 18?"
+        "Will the US x Iran ceasefire be extended by April 21, 2026?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_898847",
+      "timestamp": "2026-04-17T00:35:22.460775+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana (SOL) Surges 10% on Alpenglow Upgrade and Record 167 Million Monthly Token Holders as of April 14, 2026 | YES | H",
+      "raw": "Solana (SOL) Surges 10% on Alpenglow Upgrade and Record 167 Million Monthly Token Holders as of April 14, 2026 | YES | HIGH confidence** [1]\n\nNo confirmed announcements or resolutions post-April 14 appear in available sources to further move prediction markets right now, with most updates focusing on bearish technicals like a head-and-shoulders breakdown targeting $73 and consolidation around $80\u2013",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 17, 4:40AM-4:45AM ET"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_903771",
+      "timestamp": "2026-04-17T00:35:27.384791+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026, up from 2.0% in January and February but below market forecasts of 2.4% | NO | MED confidence**\n\nThis March figure, the most recent in search results, confirms inflation ticking above the Bank of Korea's 2% target amid global energy volatility from Middle East tensions, though core pressures remain contained near target levels[2][5]. The B",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 1
   }
 }
