@@ -1,75 +1,44 @@
 {
-  "last_scan": "2026-04-17T19:45:51.086871+00:00",
-  "scan_seconds": 35.9,
-  "markets_scanned": 41,
+  "last_scan": "2026-04-17T19:55:29.023427+00:00",
+  "scan_seconds": 31.1,
+  "markets_scanned": 39,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776455130626_0",
-      "timestamp": "2026-04-17T19:45:30.626729+00:00",
+      "id": "sig_1776455714427_0",
+      "timestamp": "2026-04-17T19:55:14.427819+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, I cannot identify breaking news from today (April 17, 2026) that would move predi",
-      "raw": "Based on the available search results, I cannot identify breaking news from today (April 17, 2026) that would move prediction markets.\n\nThe most recent relevant information in the search results is from **April 15, 2026**, which reports **tensions within the UDF alliance over the chief ministerial post**, with the IUML warning Congress about internal discord regarding who will become Chief Ministe",
-      "direction": null,
+      "headline": "XRP Ledger Upgrades Confirmed with RISC-V ZK Verifier Launch and $550K Audit on April 13 | YES | HIGH confidence**",
+      "raw": "XRP Ledger Upgrades Confirmed with RISC-V ZK Verifier Launch and $550K Audit on April 13 | YES | HIGH confidence**  \nThe XRP Ledger (XRPL) has rolled out a RISC-V zero-knowledge (ZK) verifier via XRPL Commons and Boundless, marking it as the first public blockchain with native programmable privacy and compliance controls; staged rollout includes Smart Escrows in Q2 2026 and Smart Vaults for privat",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "XRP Up or Down on April 18?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776455136935_0",
-      "timestamp": "2026-04-17T19:45:36.935879+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Rebounds Above $70K on Easing U",
-      "raw": "Bitcoin Rebounds Above $70K on Easing U.S.-Iran Tensions and Trump Negotiation Signals | YES | HIGH confidence**  \nBitcoin traded at $74,535, up 5.34% in 24 hours and 3.7% weekly, driven by de-escalation in U.S.-Iran standoff including Strait of Hormuz developments and President Trump's comments on potential negotiations, easing oil supply fears and liquidating $400-500M in shorts.[1]  \nPolymarket",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Bitcoin above 79,000 on April 17, 4PM ET?"
-      ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776455143737_0",
-      "timestamp": "2026-04-17T19:45:43.737429+00:00",
+      "id": "sig_1776455714430_1",
+      "timestamp": "2026-04-17T19:55:14.430744+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea Inflation Holds at 2",
-      "raw": "South Korea Inflation Holds at 2.0% in February 2026, Unchanged from January and Below Expectations of 2.1% | NO | HIGH confidence** [1][2]\n\nThis marks the second straight month at the Bank of Korea's 2% target, with monthly consumer prices up 0.3% as forecast, amid contained pressures before Middle East-driven energy volatility.[2] March saw a slight rise to 2.2% (below 2.4% expected), prompting ",
+      "headline": "Bybit Launches XRPfi Yield Product with Doppler Finance on April 13 | YES | HIGH confidence**",
+      "raw": "Bybit Launches XRPfi Yield Product with Doppler Finance on April 13 | YES | HIGH confidence**  \nBybit announced **XRPfi**, a 90-day fixed-term yield product offering up to **5% APR** (including 2.5% bonus from 30,000 XRP pool), running from **April 13 to July 12, 2026**.[5]  \nThis boosts XRP utility as price hits $1.35-$1.39 amid $12M+ ETF inflows and first green month since September 2025.[1][2]",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "XRP Up or Down on April 18?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776455150085_0",
-      "timestamp": "2026-04-17T19:45:50.085175+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mavericks Rookie Cooper Flagg Scores 51 Points, Becomes First Teen in NBA History to Reach 50+ | NO | HIGH confidence**",
-      "raw": "Mavericks Rookie Cooper Flagg Scores 51 Points, Becomes First Teen in NBA History to Reach 50+ | NO | HIGH confidence**  \nDallas Mavericks rookie **Cooper Flagg**, aged 19, scored 51 points in a 138-127 loss to the Orlando Magic, marking the first time a teenager has achieved 50+ points in an NBA game; he averages 20.8 points, 6.6 rebounds, and 4.5 assists over 65 games this season and is in a tig",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Switzerland win Group B in the 2026 FIFA World Cup?",
-        "Will Kon Knueppel win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
+    "enter": 2,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
