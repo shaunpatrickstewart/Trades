@@ -1,152 +1,59 @@
 {
-  "last_scan": "2026-04-17T13:29:36.379057+00:00",
-  "scan_seconds": 35.5,
-  "markets_scanned": 41,
+  "last_scan": "2026-04-17T13:39:20.829842+00:00",
+  "scan_seconds": 25.5,
+  "markets_scanned": 36,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_337722",
-      "timestamp": "2026-04-17T13:29:21.288621+00:00",
+      "id": "sig_1776433152638_0",
+      "timestamp": "2026-04-17T13:39:12.638446+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is **no breaking news TODAY** (April 17, 2026) that would move prediction ma",
-      "raw": "Based on the search results provided, there is **no breaking news TODAY** (April 17, 2026) that would move prediction markets. The most recent data in the search results is from April 16, 2026, and consists of routine price tracking and technical analysis rather than confirmed announcements or resolved events.\n\nThe latest updates show:",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_337731",
-      "timestamp": "2026-04-17T13:29:21.297849+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analyst Projections (Not Breaking News):** Arthur Hayes projects ETH reaching $10,000\u2013$20,000 by the next presidential e",
-      "raw": "Analyst Projections (Not Breaking News):** Arthur Hayes projects ETH reaching $10,000\u2013$20,000 by the next presidential election cycle, and Standard Chartered targets $15,000 by 2027[6]. These are existing forecasts, not new confirmations.\n\nFor market-moving events that would trigger prediction market activity, you would need official announcements from the Ethereum Foundation, regulatory bodies, o",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_346381",
-      "timestamp": "2026-04-17T13:29:29.947766+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 Inflation Rises to 2",
-      "raw": "South Korea's March 2026 Inflation Rises to 2.2%, Exceeding Central Bank Target | YES | HIGH confidence**\n\nSouth Korea's **annual inflation rate rose to 2.2% in March 2026**, up from 2.0% in the previous two months but falling short of market forecasts of 2.4%[1]. This marks a significant development as inflation has moved above the Bank of Korea's 2% target, driven largely by **surging oil costs*",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.16% YoY | NO** | **MED confidence**  \nSouth Korea's Consumer Price Index for March 2026 showed **2.16% year-over-year inflation**, up slightly from 2.00% in February 2026, with a 0.34% month-to-month rise; data updated April 2, 2026.[2]  \nNo announcements or resolutions today (April 17, 2026) impact annual forecasts, as next update is May 6, 2026; 20",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_330831",
-      "timestamp": "2026-04-17T13:29:14.397667+00:00",
+      "id": "sig_1776433159827_0",
+      "timestamp": "2026-04-17T13:39:19.827652+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML leader PK Kunhalikutty's claim of a pro-UDF wave on April 5, ahead of the April 9 single-phase Kerala assembly poll",
-      "raw": "IUML leader PK Kunhalikutty's claim of a pro-UDF wave on April 5, ahead of the April 9 single-phase Kerala assembly polls (results due May 4).[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_330835",
-      "timestamp": "2026-04-17T13:29:14.401108+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Congress-IUML seat-sharing: Congress in 95 seats, IUML in 27 of 140 total",
-      "raw": "Congress-IUML seat-sharing: Congress in 95 seats, IUML in 27 of 140 total.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_330843",
-      "timestamp": "2026-04-17T13:29:14.409965+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Congress leader VD Satheesan's defense of IUML alliance against \"communal\" charges, citing prevention of extremist group",
-      "raw": "Congress leader VD Satheesan's defense of IUML alliance against \"communal\" charges, citing prevention of extremist groups.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_330851",
-      "timestamp": "2026-04-17T13:29:14.417886+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pre-poll analysis of 5 factors (anti-incumbency, development like SilverLine, BJP growth, youth voters, community equati",
-      "raw": "Pre-poll analysis of 5 factors (anti-incumbency, development like SilverLine, BJP growth, youth voters, community equations involving IUML) for April 9 voting.[4]\n\nNo mentions of Trump, Pakistan, or post-election resolutions; all items predate April 17 by weeks and lack market-moving confirmations like results or major shifts.[1][2][3][4] **Confidence: HIGH** (directly from dated sources).",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Switzerland placed in 2026 FIFA World Cup Group B with Canada, Bosnia and Herzegovina, and Qatar** | NO | HIGH confidenc",
+      "raw": "Switzerland placed in 2026 FIFA World Cup Group B with Canada, Bosnia and Herzegovina, and Qatar** | NO | HIGH confidence[1][2][5]\n\nNo breaking news right now confirms, announces, or resolves anything new about Switzerland's World Cup group, as the draw details (Group B fixtures from June 12-24, 2026; Switzerland qualified November 18, 2025 via UEFA Group B win) are already established and static ",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Trump visit Pakistan by May 31?"
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_337725",
-      "timestamp": "2026-04-17T13:29:21.291616+00:00",
+      "id": "sig_1776433142646_0",
+      "timestamp": "2026-04-17T13:39:02.646196+00:00",
       "source": "PERPLEXITY",
-      "headline": "April 16 Price Data:** Ethereum trading at $2,343",
-      "raw": "April 16 Price Data:** Ethereum trading at $2,343.40[3], a modest $10.88 increase from the previous day.",
+      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Plans to Contest 27 Seats** | YES",
+      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Election 2026, Confirms Plans to Contest 27 Seats** | YES | HIGH confidence[1]\n\nThis announcement, covering candidates for 25 constituencies with 2 more expected, provides concrete details on IUML's strategy as part of the UDF alliance ahead of the April 9, 2026 polls, potentially shifting prediction markets on seat shares and UDF prosp",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 17, 9:40AM-9:45AM ET"
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_337728",
-      "timestamp": "2026-04-17T13:29:21.294642+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade Impact:** ETH gas prices experienced volatility on April 16 due to high network activity following the Pe",
-      "raw": "Pectra Upgrade Impact:** ETH gas prices experienced volatility on April 16 due to high network activity following the Pectra (Prague-Electra) Upgrade's influence on mainnet efficiency[4]. However, this appears to be an ongoing technical development rather than a breaking announcement.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_346386",
-      "timestamp": "2026-04-17T13:29:29.953003+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving implications:** Import prices in South Korea surged in March, marking their sharpest jump in almost three",
-      "raw": "Market-moving implications:** Import prices in South Korea surged in March, marking their sharpest jump in almost three decades[5], adding upside inflation pressure. The weak Korean won (rising to around 1,520 won per U.S. dollar) is amplifying import costs for energy and food[4]. Economists expect headline inflation to temporarily decline below 2% in coming months[3], but geopolitical oil price p",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 9,
-    "watch": 1,
+    "enter": 2,
+    "alert": 1,
+    "watch": 0,
     "high_conf": 2
   }
 }
