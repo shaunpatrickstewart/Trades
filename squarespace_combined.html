@@ -120,11 +120,11 @@
       <div class="panel-hdr-top">
         <span class="panel-title c-live">&#9632; Open Positions — Live Trades</span>
         <select id="wallet-filter" style="font-size:0.7em;padding:2px 6px;border:1px solid #ccc;border-radius:3px;margin-left:8px;background:#fff"><option value="all">All Wallets</option></select>
-        <span id="paper-summary" style="font-size:0.7em;color:#444">Loading...</span>
+        <span id="live-summary" style="font-size:0.7em;color:#444">Loading...</span>
       </div>
       <div class="panel-desc">Active trades from all engines. Entry price, bet size, expected value (EV), and current status. Synced every 60 seconds via GitHub.</div>
     </div>
-    <div class="panel-body" style="max-height:280px" id="paper-trades">
+    <div class="panel-body" style="max-height:280px" id="live-trades">
       <div class="loader">Loading</div>
     </div>
   </div>
@@ -686,7 +686,7 @@
       if (filterEl) {
         filterEl.onchange = function() {
           const val = this.value;
-          document.querySelectorAll('#paper-trades tr[data-wallet]').forEach(row => {
+          document.querySelectorAll('#live-trades tr[data-wallet]').forEach(row => {
             row.style.display = (val === 'all' || row.dataset.wallet === val) ? '' : 'none';
           });
         };
@@ -772,7 +772,7 @@
 
   // ── RENDER: Paper Trade Tracker
   async function renderPaperTrades() {
-    const el = document.getElementById('paper-trades');
+    const el = document.getElementById('live-trades');
     try {
       const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
       const r = await fetch(P+encodeURIComponent(PAPER_URL));
@@ -807,7 +807,7 @@
 
       if (!trades.length) {
         el.innerHTML='<div class="empty">No trades logged yet — bot is running, trades will appear here.</div>';
-        document.getElementById('paper-summary').textContent='0 trades';
+        document.getElementById('live-summary').textContent='0 trades';
         return;
       }
 
@@ -826,7 +826,7 @@
         pnlEl.className   = realizedPnl>=0?'':'loss';
       }
 
-      document.getElementById('paper-summary').innerHTML =
+      document.getElementById('live-summary').innerHTML =
         '<span class="green">'+open.length+' open</span> &nbsp;|&nbsp; '+
         '<span class="green">'+totalWonAll+' won</span> &nbsp;|&nbsp; '+
         '<span style="color:#ff6655">'+totalLostAll+' lost</span> &nbsp;|&nbsp; '+
