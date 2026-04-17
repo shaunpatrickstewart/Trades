@@ -510,12 +510,12 @@
     try {
       const BASE = 'https://shaunpatrickstewart.github.io/trades/';
       const bust = '?_w='+Date.now();
-      const [paperTxt, kalshiTxt] = await Promise.all([
+      const [polyTxt, kalshiTxt] = await Promise.all([
         fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>'')
       ]);
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const polyTrades = parseJsonl(paperTxt);
+      const polyTrades = parseJsonl(polyTxt);
       // Kalshi trades don't carry wallet_owner — default to shaun_kalshi (only active Kalshi wallet)
       const kalshiTrades = parseJsonl(kalshiTxt).map(t => ({...t, wallet_owner: t.wallet_owner || 'shaun_kalshi'}));
       const allTrades = polyTrades.concat(kalshiTrades);
@@ -770,12 +770,12 @@
     }
   };
 
-  // ── RENDER: Paper Trade Tracker
-  async function renderPaperTrades() {
+  // ── RENDER: Open Positions
+  async function renderOpenTrades() {
     const el = document.getElementById('live-trades');
     try {
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
-      const r = await fetch(P+encodeURIComponent(PAPER_URL));
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
+      const r = await fetch(P+encodeURIComponent(TRADES_URL));
       if (!r.ok) throw new Error('HTTP '+r.status);
       const raw = await r.text();
       let text = raw;
@@ -1025,7 +1025,7 @@
       if (showBtn) {
         showBtn.addEventListener('click', function() {
           window._showAllTrades = true;
-          renderPaperTrades();
+          renderOpenTrades();
         });
       }
 
@@ -1050,13 +1050,13 @@
       const bust = '?_a='+Date.now();
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const [paperTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
+      const [polyTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
         fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'arb_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
         fetch(P+encodeURIComponent(BASE+'config.json'+bust)).then(r=>r.json()).catch(()=>({}))
       ]);
-      const trades = parseJsonl(paperTxt);
+      const trades = parseJsonl(polyTxt);
       const kalshiTrades = parseJsonl(kalshiTxt);
       const arbTrades = parseJsonl(arbTxt);
       const cfg = cfgJson || {};
@@ -1331,13 +1331,13 @@
     if (!el) return;
     try {
       const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
-      const PAPER_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
-      const [cfgR, paperR] = await Promise.all([
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
+      const [cfgR, tradesR] = await Promise.all([
         fetch(P+encodeURIComponent(CFG_URL)).then(r=>r.json()),
-        fetch(P+encodeURIComponent(PAPER_URL)).then(r=>r.text())
+        fetch(P+encodeURIComponent(TRADES_URL)).then(r=>r.text())
       ]);
       const cfg = cfgR;
-      const trades = paperR.trim().split('\n').filter(Boolean)
+      const trades = tradesR.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
 
       // Compute live evidence for each experiment from JSONL
@@ -1495,8 +1495,8 @@
       }));
       const walletPositions = lbPosResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
       renderWallets(wallets, walletPositions);
-      // Every other refresh cycle (~60s), also refresh paper trades
-      if (_refreshCount % 2 === 0) renderPaperTrades();
+      // Every other refresh cycle (~60s), also refresh open trades
+      if (_refreshCount % 2 === 0) renderOpenTrades();
     } catch(e) {
       console.error('Refresh error:', e);
       document.getElementById('hdr-updated').textContent = 'Error: '+e.message+' — press R to retry';
@@ -1578,12 +1578,12 @@
   }
 
   refresh();
-  renderPaperTrades();
+  renderOpenTrades();
   renderAudit();
   renderLab();
   renderSignalsFeed();
   setInterval(refresh, REFRESH);
-  // renderPaperTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
+  // renderOpenTrades: called every 2nd refresh cycle (~60s) inside refresh() — no separate timer needed
   // Audit/Lab now compute LIVE from JSONL — refresh every 60s so they're always current
   setInterval(renderAudit, 60000);
   setInterval(renderLab, 60000);
