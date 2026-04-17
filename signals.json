@@ -1,164 +1,102 @@
 {
-  "last_scan": "2026-04-17T14:26:01.730523+00:00",
-  "scan_seconds": 33.4,
+  "last_scan": "2026-04-17T14:28:56.124603+00:00",
+  "scan_seconds": 31.7,
   "markets_scanned": 38,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776435945772_0",
-      "timestamp": "2026-04-17T14:25:45.772223+00:00",
+      "id": "sig_1776436115044_0",
+      "timestamp": "2026-04-17T14:28:35.044697+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or market-moving announcements from the provided search results",
-      "raw": "I cannot identify any breaking news or market-moving announcements from the provided search results. The search results contain **price analysis and predictions** from earlier in April 2026 (April 10-13), but no recent developments, confirmations, or announcements that would typically trigger prediction market movements.\n\nThe most recent concrete data available shows Ethereum trading around **$2,1",
+      "headline": "IUML Releases First List of 25 Candidates for Kerala Assembly Elections 2026, Confirms 27 Total Seats with Key Changes I",
+      "raw": "IUML Releases First List of 25 Candidates for Kerala Assembly Elections 2026, Confirms 27 Total Seats with Key Changes Including 2 Historic Women Candidates | YES | HIGH confidence** [1][2][4]\n\nIUML announced its initial candidates on March 17, 2026, naming contenders for 25 of 27 planned seats in the United Democratic Front (UDF) alliance, with elections set for April 9 and results on May 3.[1][2",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum above 2,350 on April 17, 11AM ET?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776435937278_0",
-      "timestamp": "2026-04-17T14:25:37.278760+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news that would move prediction markets based on these search results",
-      "raw": "I cannot identify breaking news that would move prediction markets based on these search results. The provided sources contain **information from March 2026 and earlier**, describing IUML's candidate announcements and campaign positioning for the Kerala Assembly elections, but do not contain any developments from April 17, 2026 (today).\n\nThe most recent substantive information in the search result",
-      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
         "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776435945791_7",
-      "timestamp": "2026-04-17T14:25:45.791952+00:00",
+      "id": "sig_1776436126507_0",
+      "timestamp": "2026-04-17T14:28:46.507615+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recommendation:** Search for news from the current date (April 17, 2026) or use real-time news feeds to identify what ha",
-      "raw": "Recommendation:** Search for news from the current date (April 17, 2026) or use real-time news feeds to identify what has actually been announced today that prediction markets would be reacting to.",
-      "direction": null,
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), released around early April 2026, exceeding the Bank of Korea's 2% target amid Middle East energy shocks.**[1] | **YES** | **HIGH** confidence[1][4]\n\nThis figure, up from 2.0% in January-February but below 2.4% forecasts, aligns with BOK's revised 2026 outlook of 2.2% and supports its 7th straight rate hold at 2.5% (annou",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776435960729_0",
-      "timestamp": "2026-04-17T14:26:00.729294+00:00",
+      "id": "sig_1776436135113_0",
+      "timestamp": "2026-04-17T14:28:55.113184+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nSwitzerland is confirmed in **Group B** with Canada (co-host), Bosnia and Herzegovina, and Qatar, following their qualification as UEFA Group B winners on November 18, 2025; no new announcements, resolutions, or matches have occurred as of April 17, 2026, with the group stage still over a month away (starting June 12).[1][2][7] Prediction markets would see minim",
-      "direction": "NO",
+      "headline": "Socceroos confirming a final FIFA World Cup 2026 warm-up match against **Switzerland** (announced April 16)",
+      "raw": "Socceroos confirming a final FIFA World Cup 2026 warm-up match against **Switzerland** (announced April 16).[2]",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776436135117_1",
+      "timestamp": "2026-04-17T14:28:55.117499+00:00",
+      "source": "PERPLEXITY",
+      "headline": "FIFA president Gianni Infantino confirming **Iran** \"for sure\" playing in the World Cup (April 16), though earlier uncer",
+      "raw": "FIFA president Gianni Infantino confirming **Iran** \"for sure\" playing in the World Cup (April 16), though earlier uncertainty was noted.[2]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776435955708_0",
-      "timestamp": "2026-04-17T14:25:55.708634+00:00",
+      "id": "sig_1776436135123_2",
+      "timestamp": "2026-04-17T14:28:55.123291+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bank of Korea Holds Rate at 2",
-      "raw": "Bank of Korea Holds Rate at 2.5% Despite Rising Inflation Pressures | YES | HIGH confidence**\n\nThe Bank of Korea's Monetary Policy Board decided on April 10, 2026, to keep its benchmark interest rate unchanged at 2.5% for the seventh consecutive month, despite inflation climbing to 2.2% in March\u2014above the central bank's 2% target.[1][3] The board raised its inflation outlook for 2026 to 2.2% from ",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Italy's elimination from World Cup qualification via shootout loss to Bosnia (March 31), potentially resolving **Group B",
+      "raw": "Italy's elimination from World Cup qualification via shootout loss to Bosnia (March 31), potentially resolving **Group B** spots involving **Switzerland**.[2][4]\n\nThese are 1+ days old, not \"right now,\" with **LOW** confidence in market-moving impact due to no same-day qualifiers, draws, or group confirmations.[1][2][3] Previews and friendlies (e.g., Germany vs. Switzerland on March 28) predate to",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Natural Gas (NG) Up or Down on April 17?",
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will Switzerland win Group B in the 2026 FIFA World Cup?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776435945775_1",
-      "timestamp": "2026-04-17T14:25:45.775437+00:00",
+      "id": "sig_1776436120671_0",
+      "timestamp": "2026-04-17T14:28:40.671602+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official announcements from Ethereum developers or the Ethereum Foundation",
-      "raw": "Official announcements from Ethereum developers or the Ethereum Foundation",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776435945778_2",
-      "timestamp": "2026-04-17T14:25:45.778169+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Regulatory decisions affecting ETH",
-      "raw": "Regulatory decisions affecting ETH",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776435945780_3",
-      "timestamp": "2026-04-17T14:25:45.780940+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major exchange listings or delistings",
-      "raw": "Major exchange listings or delistings",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776435945783_4",
-      "timestamp": "2026-04-17T14:25:45.783669+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Smart contract vulnerabilities or fixes",
-      "raw": "Smart contract vulnerabilities or fixes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776435945786_5",
-      "timestamp": "2026-04-17T14:25:45.786367+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant partnership announcements",
-      "raw": "Significant partnership announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776435945789_6",
-      "timestamp": "2026-04-17T14:25:45.789096+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Network upgrade confirmations",
-      "raw": "Network upgrade confirmations",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "SEC\u2019s surprise ruling gives DeFi a major win | YES | MED confidence**",
+      "raw": "SEC\u2019s surprise ruling gives DeFi a major win | YES | MED confidence**  \nThe SEC issued a surprise ruling favoring DeFi, as discussed in a recent market analysis video covering crypto's lag behind broader market recoveries amid Iran de-escalation and other events; this regulatory clarity could boost Ethereum-based DeFi activity and shift prediction markets toward bullish ETH outcomes.[4]  \nNo other",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Ethereum above 2,350 on April 17, 11AM ET?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 10,
-    "watch": 0,
-    "high_conf": 4
+    "enter": 3,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 3
   }
 }
