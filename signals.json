@@ -1,31 +1,20 @@
 {
-  "last_scan": "2026-04-18T04:32:50.800007+00:00",
-  "scan_seconds": 24.6,
-  "markets_scanned": 49,
+  "last_scan": "2026-04-18T04:35:34.359540+00:00",
+  "scan_seconds": 24.3,
+  "markets_scanned": 50,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776486758464_0",
-      "timestamp": "2026-04-18T04:32:38.464090+00:00",
+      "id": "sig_1776486923223_0",
+      "timestamp": "2026-04-18T04:35:23.223938+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific breaking news format you've requested because the search results do not contain informatio",
-      "raw": "I cannot provide the specific breaking news format you've requested because the search results do not contain information about several key elements of your query:",
+      "headline": "I cannot provide the breaking news response you're requesting",
+      "raw": "I cannot provide the breaking news response you're requesting. The search result provided discusses general voter trends in Michigan rather than a specific confirmed announcement that would move prediction markets. Additionally, the query appears to combine unrelated terms (Truth Social, Indian Union Muslim League, will Trump) without clear connection to a discrete news event.\n\nTo deliver an accur",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776486758467_1",
-      "timestamp": "2026-04-18T04:32:38.467537+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Indian Union Muslim League**: No search results mention this organization",
-      "raw": "**Indian Union Muslim League**: No search results mention this organization.",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
+        "Will Trump post \"Stupid\" this week on Truth Social?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
         "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "ALERT",
@@ -33,12 +22,51 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776486758470_2",
-      "timestamp": "2026-04-18T04:32:38.470882+00:00",
+      "id": "sig_1776486923234_3",
+      "timestamp": "2026-04-18T04:35:23.234737+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Truth Social**: No search results reference Truth Social or any announcements on that platform",
-      "raw": "**Truth Social**: No search results reference Truth Social or any announcements on that platform.",
+      "headline": "Concrete details about what was resolved or announced",
+      "raw": "Concrete details about what was resolved or announced\n\nIf you're looking for recent developments regarding a particular event or announcement, please refine your query with more specific details about what news you're tracking.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776486918000_0",
+      "timestamp": "2026-04-18T04:35:18.000762+00:00",
+      "source": "PERPLEXITY",
+      "headline": "White House** confirms the team, including **Kushner**, will continue, with potential second round eyed, but no new deal",
+      "raw": "White House** confirms the team, including **Kushner**, will continue, with potential second round eyed, but no new deal or resolution reported.[1][6]",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776486918004_1",
+      "timestamp": "2026-04-18T04:35:18.004284+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in market-moving event now, as latest items (April 15) discuss ongoing scrutiny, not fresh confirmation",
+      "raw": "LOW confidence** in market-moving event now, as latest items (April 15) discuss ongoing scrutiny, not fresh confirmations.[1][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776486923227_1",
+      "timestamp": "2026-04-18T04:35:23.227476+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A specific announcement or confirmation with a clear timestamp",
+      "raw": "A specific announcement or confirmation with a clear timestamp",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -46,40 +74,38 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776486758474_3",
-      "timestamp": "2026-04-18T04:32:38.474723+00:00",
+      "id": "sig_1776486923230_2",
+      "timestamp": "2026-04-18T04:35:23.230998+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Events \"RIGHT NOW\"** (April 18, 2026): The search results are from April 1 and April 15-17, 2026, which predate your c",
-      "raw": "**Events \"RIGHT NOW\"** (April 18, 2026): The search results are from April 1 and April 15-17, 2026, which predate your current date of April 18.\n\nThe search results do contain information about Trump and elections from mid-April 2026, including Trump's announcement of a mail-in voting restriction plan (April 1)[1], international election impacts (April 15)[2], and Trump's statement that he is \"off",
+      "headline": "Verified information from authoritative news sources",
+      "raw": "Verified information from authoritative news sources",
       "direction": null,
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776486933358_0",
+      "timestamp": "2026-04-18T04:35:33.358263+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts | NO | HIGH confidence** [1]\n\nNo breaking announcements, confirmations, or resolutions on inflation or Bank of Korea policy have emerged since the March data release, as the BoK held rates at 2.5% (7th meeting) around April 10 amid oil shocks from Middle East conflict, with CPI",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
-        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776486763164_0",
-      "timestamp": "2026-04-18T04:32:43.164533+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence**",
-      "raw": "NO | LOW confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 5,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
