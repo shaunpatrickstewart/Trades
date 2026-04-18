@@ -1,74 +1,124 @@
 {
-  "last_scan": "2026-04-18T05:31:57.411157+00:00",
-  "scan_seconds": 44.6,
+  "last_scan": "2026-04-18T05:35:09.100094+00:00",
+  "scan_seconds": 52.0,
   "markets_scanned": 49,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776490279302_0",
-      "timestamp": "2026-04-18T05:31:19.302675+00:00",
+      "id": "sig_1776490480512_0",
+      "timestamp": "2026-04-18T05:34:40.512798+00:00",
       "source": "PERPLEXITY",
-      "headline": "US, Iran Growing Closer to Framework Agreement to End War | YES | MED confidence** [8]",
-      "raw": "US, Iran Growing Closer to Framework Agreement to End War | YES | MED confidence** [8]\n\nRecent reports indicate progress in back-channel US-Iran communications toward a framework to end the ongoing war, potentially impacting prediction markets on de-escalation or ceasefire resolutions.[8] This follows a temporary two-week ceasefire announced on April 7, 2026, amid stalled direct talks in Islamabad",
+      "headline": "South Korea's Annual Inflation Rises to 2",
+      "raw": "South Korea's Annual Inflation Rises to 2.2% in March 2026 | YES | MED confidence**\n\nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4% but signaling a reversal from the prior 5-month low.[2] This follows January's 2% reading (or 2.01%) and aligns with the Bank of Korea's 2.2% yearly outlook amid Middle East energy ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
-        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776490509091_2",
+      "timestamp": "2026-04-18T05:35:09.091460+00:00",
+      "source": "X_GROK",
+      "headline": "Esports: Dota2 Xtreme Gaming vs Natus Vincere**",
+      "raw": "Esports: Dota2 Xtreme Gaming vs Natus Vincere**  \n$164K YES Natus Vincere (44.6\u00a2, 85% whale accum signal).[[5]](https://x.com/i/status/2045365308882350323)  \nStrong smart money on Na'Vi. Conf: HIGH.",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045365308882350323)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776490509094_3",
+      "timestamp": "2026-04-18T05:35:09.094848+00:00",
+      "source": "X_GROK",
+      "headline": "Iran-US Deal Markets**",
+      "raw": "Iran-US Deal Markets**  \nTraders note: Permanent peace by Apr22 at ~54% YES (whales buying NO ~$5K+ earlier $613K), by Apr30 ~68% YES; Hormuz normal end-Apr 52% (new $13K YES whale).[[6]](https://x.com/i/status/2045368824174719468)[[7]](https://x.com/i/status/2045373143380791580)[[8]](https://x.com/i/status/2045346496741093595)  \nDeal likely but delayed. Signals NO by Apr22. Conf: MED.",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045368824174719468)[[7]](https://x.com/i/status/2045373143380791580)[[8]](https://x.com/i/status/2045346496741093595)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776490464851_0",
+      "timestamp": "2026-04-18T05:34:24.851077+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES or NO:** NO[1][2][3][6]",
+      "raw": "YES or NO:** NO[1][2][3][6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776490285243_0",
-      "timestamp": "2026-04-18T05:31:25.243170+00:00",
+      "id": "sig_1776490464855_1",
+      "timestamp": "2026-04-18T05:34:24.855438+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the requested breaking news format because the search results do not contain information about current",
-      "raw": "I cannot provide the requested breaking news format because the search results do not contain information about current developments that would move prediction markets as of April 18, 2026.\n\nThe search results are from April 9, 2026 (polling day for Kerala's 140 assembly seats) and cover campaign issues from that period, including a controversy over a communal campaign against IUML candidate Fathi",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "HIGH/MED/LOW confidence:** HIGH[1][2][3][4][5]",
+      "raw": "HIGH/MED/LOW confidence:** HIGH[1][2][3][4][5]  \n\nUS-Iran negotiations in Islamabad on April 11, 2026, involving Jared Kushner, Steve Witkoff, and VP JD Vance, ended in stalemate over Strait of Hormuz status, nuclear demands, and broader issues like ceasefires and assets\u2014despite Vance stating Iran rejected US demands.[2][3][4] Iranian officials and diplomats criticized Kushner and Witkoff for lack",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776490290362_0",
-      "timestamp": "2026-04-18T05:31:30.362993+00:00",
+      "id": "sig_1776490474062_0",
+      "timestamp": "2026-04-18T05:34:34.062641+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any \"just confirmed\" catalyst, as results cover price updates through Apr 17 only\u2014no Apr 18 UTC deve",
-      "raw": "LOW confidence** in any \"just confirmed\" catalyst, as results cover price updates through Apr 17 only\u2014no Apr 18 UTC developments or resolved events impacting markets.[1][2][3][5][8]",
-      "direction": "NO",
-      "confidence": 0.9,
+      "headline": "Confidence: HIGH** \u2013 Search results lack any post-April 16 confirmations, announcements, or resolutions tied to price mo",
+      "raw": "Confidence: HIGH** \u2013 Search results lack any post-April 16 confirmations, announcements, or resolutions tied to price movements.[1][2][3][4]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776490294965_0",
-      "timestamp": "2026-04-18T05:31:34.965053+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation at 2",
-      "raw": "South Korea March 2026 Annual Inflation at 2.2% YoY, Below 2.3-2.4% Consensus | NO | HIGH confidence**\n\nSouth Korea's annual CPI inflation rose to 2.2% in March 2026 from 2.0% in February, driven by oil prices but tempered by government fuel caps and food vouchers, missing market forecasts of 2.3-2.4%.[1][2][3] Monthly CPI gained 0.3%, under the 0.6% expected, with core inflation (ex-food/energy) ",
-      "direction": "NO",
+      "id": "sig_1776490509084_0",
+      "timestamp": "2026-04-18T05:35:09.084747+00:00",
+      "source": "X_GROK",
+      "headline": "NBA: Warriors vs Suns**",
+      "raw": "NBA: Warriors vs Suns**  \nWhales piling in: $1.2M YES Warriors win (40\u00a2, F-grade trader), $715K Over 219.5 total pts (48\u00a2, S-grade).[[1]](https://x.com/i/status/2045359346230411776)[[2]](https://x.com/i/status/2045291390670627266)  \nSignals YES high-scoring Warriors win. Conf: MED (conflicting grades).",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
+      "x_link": "https://x.com/i/status/2045359346230411776)[[2]](https://x.com/i/status/2045291390670627266)",
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776490317397_0",
-      "timestamp": "2026-04-18T05:31:57.397484+00:00",
+      "id": "sig_1776490509088_1",
+      "timestamp": "2026-04-18T05:35:09.088127+00:00",
       "source": "X_GROK",
-      "headline": "Taiwan Invasion by 2026 (NO):** 4 alpha wallets fully on NO amid China military news; all profitable, signaling restrain",
-      "raw": "Taiwan Invasion by 2026 (NO):** 4 alpha wallets fully on NO amid China military news; all profitable, signaling restraint. Means NO. Confidence: MED.[[1]](https://x.com/i/status/2045374092035956995)",
+      "headline": "Tennis: Busan - Holmgren vs Broady**",
+      "raw": "Tennis: Busan - Holmgren vs Broady**  \nSplit whales: $485K + $194K YES Holmgren (40\u00a2), $90K + $58K YES Broady (64\u00a2).[[3]](https://x.com/i/status/2045364783696781691)[[4]](https://x.com/i/status/2045367083144245385)  \nEvenly matched, no clear edge. Conf: LOW.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045364783696781691)[[4]](https://x.com/i/status/2045367083144245385)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776490509099_4",
+      "timestamp": "2026-04-18T05:35:09.099850+00:00",
+      "source": "X_GROK",
+      "headline": "Taiwan Invasion by 2026**",
+      "raw": "Taiwan Invasion by 2026**  \n4 alpha wallets all-in NO (profitable), despite China rhetoric.[[9]](https://x.com/i/status/2045374092035956995)  \nSmart money bets no invasion. Conf: HIGH.\n\nSports whales dominate chatter (NBA/tennis/esports); Iran politics active but split. No major mispriced calls trending; liquidity gripes minor. General tips: EV/Kelly sizing, calibration.[[10]](https://x.com/i/stat",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -77,64 +127,27 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776490317400_1",
-      "timestamp": "2026-04-18T05:31:57.400893+00:00",
-      "source": "X_GROK",
-      "headline": "Strait of Hormuz Traffic Normal by Apr End (YES):** Whale buys $13",
-      "raw": "Strait of Hormuz Traffic Normal by Apr End (YES):** Whale buys $13.4k Yes @39\u00a2 (78% accumulation score). Means YES. Confidence: LOW.[[2]](https://x.com/i/status/2045373143380791580)",
+      "id": "sig_1776490469456_0",
+      "timestamp": "2026-04-18T05:34:29.456494+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Announces Immediate Tariff Cut on Indian Goods via Truth Social | YES | HIGH confidence**",
+      "raw": "Trump Announces Immediate Tariff Cut on Indian Goods via Truth Social | YES | HIGH confidence**  \nU.S. President Donald Trump posted on **Truth Social** announcing a reduction in U.S. reciprocal tariffs on Indian goods from 25% to 18% with immediate effect, as part of a broader trade deal with India[1].  \nThis announcement, made via his platform launched in 2022, has sparked political ripples in N",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
-        "Will 40 ships transit the Strait of Hormuz on any day by April 30?"
+        "Will Trump post \"Stupid\" this week on Truth Social?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045373143380791580)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490317404_2",
-      "timestamp": "2026-04-18T05:31:57.404276+00:00",
-      "source": "X_GROK",
-      "headline": "Weather Markets (NO on tight temps):** Traders/bots grind 80% win rates betting NO small ranges via GFS/ECMWF models; co",
-      "raw": "Weather Markets (NO on tight temps):** Traders/bots grind 80% win rates betting NO small ranges via GFS/ECMWF models; copy whales up $21k. Means NO. Confidence: HIGH.[[3]](https://x.com/i/status/2045101206461137101)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045101206461137101)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490317407_3",
-      "timestamp": "2026-04-18T05:31:57.407524+00:00",
-      "source": "X_GROK",
-      "headline": "World Cup Winners (YES early):** Whale +$343k unrealized buying 1-5\u00a2 long-term YES; sell at 30-90\u00a2",
-      "raw": "World Cup Winners (YES early):** Whale +$343k unrealized buying 1-5\u00a2 long-term YES; sell at 30-90\u00a2. Means early YES. Confidence: MED.[[4]](https://x.com/i/status/2045158595331862785)",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045158595331862785)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776490317410_4",
-      "timestamp": "2026-04-18T05:31:57.410932+00:00",
-      "source": "X_GROK",
-      "headline": "Trending Tips:** Copy profitable wallets (e",
-      "raw": "Trending Tips:** Copy profitable wallets (e.g., $25\u2192$12k), probability dislocations (win rate > implied odds), EV/Kelly sizing. Mispriced lags post-news.[[5]](https://x.com/i/status/2045155603517948326)[[6]](https://x.com/i/status/2045073200392945855)[[7]](https://x.com/i/status/2045099435152044483)\n\nPolymarket odds: AI bubble burst 9% YES; SPX $800 EOY Jun 5% YES; WTI <$85 Apr 62% YES.[[8]](https",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045155603517948326)[[6]](https://x.com/i/status/2045073200392945855)[[7]](https://x.com/i/status/2045099435152044483)",
-      "category": "COMMUNITY"
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 8,
-    "watch": 0,
-    "high_conf": 3
+    "watch": 1,
+    "high_conf": 1
   }
 }
