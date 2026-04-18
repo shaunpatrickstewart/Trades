@@ -1,30 +1,85 @@
 {
-  "last_scan": "2026-04-18T04:41:05.515271+00:00",
-  "scan_seconds": 23.7,
+  "last_scan": "2026-04-18T04:43:52.947064+00:00",
+  "scan_seconds": 27.3,
   "markets_scanned": 49,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776487254284_0",
-      "timestamp": "2026-04-18T04:40:54.284839+00:00",
+      "id": "sig_1776487426123_3",
+      "timestamp": "2026-04-18T04:43:46.123387+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Posts First Victory Messages on Truth Social, Refuting Share Sale Rumors | NO | HIGH confidence**",
-      "raw": "Trump Posts First Victory Messages on Truth Social, Refuting Share Sale Rumors | NO | HIGH confidence**\n\nTrump, as president-elect after winning the 2024 election against Kamala Harris, broke a 72-hour silence on Truth Social with posts celebrating his victory\u2014including images of a red Electoral College map, newspaper headlines like \"Trump Triumphs Again,\" and a photo with JD Vance captioned \"Get ",
+      "headline": "**Price predictions**: Long-term forecasts ranging from $10,000 to $40,000 by the next decade[1][2]",
+      "raw": "**Price predictions**: Long-term forecasts ranging from $10,000 to $40,000 by the next decade[1][2]\n\nNone of these constitute breaking news or confirmed announcements that would typically trigger significant prediction market movements. To provide the specific format you requested (HEADLINE | YES or NO | confidence level), I would need search results containing actual confirmed news events, regula",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776487426112_0",
+      "timestamp": "2026-04-18T04:43:46.112853+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify any breaking news or recent announcements in these search results that would move prediction markets",
+      "raw": "I cannot identify any breaking news or recent announcements in these search results that would move prediction markets. The most recent price data available is from April 16, 2026, showing Ethereum trading at $2,343.40[2], which represents normal daily fluctuations rather than a significant market-moving event.\n\nThe search results contain:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Trump post \"Stupid\" this week on Truth Social?",
-        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
+        "Ethereum Up or Down - April 18, 6:20PM-6:25PM ET",
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776487426116_1",
+      "timestamp": "2026-04-18T04:43:46.116372+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Historical price movements**: References to Ethereum's August 2025 peak near $5,000 and early 2026 decline due to rece",
+      "raw": "**Historical price movements**: References to Ethereum's August 2025 peak near $5,000 and early 2026 decline due to recession fears and Vitalik Buterin's ETH sales[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776487426119_2",
+      "timestamp": "2026-04-18T04:43:46.119790+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Technical analysis**: April 2026 mentions of bullish signals including record transactions and MACD indicators[3]",
+      "raw": "**Technical analysis**: April 2026 mentions of bullish signals including record transactions and MACD indicators[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776487431945_0",
+      "timestamp": "2026-04-18T04:43:51.945849+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), below market forecasts of 2.4% but signaling pickup amid Middle East energy shocks.**[1] | YES | HIGH confidence\n\nThis March figure\u2014latest confirmed data from Statistics Korea via Trading Economics\u2014marks the first rise in months after holding at 2.0% in Jan/Feb 2026, driven by global oil volatility impacting import-relian",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 0
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 1
   }
 }
