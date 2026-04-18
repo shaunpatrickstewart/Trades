@@ -1,31 +1,15 @@
 {
-  "last_scan": "2026-04-18T04:49:41.928101+00:00",
-  "scan_seconds": 44.5,
+  "last_scan": "2026-04-18T04:52:25.050823+00:00",
+  "scan_seconds": 23.3,
   "markets_scanned": 49,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776487765263_0",
-      "timestamp": "2026-04-18T04:49:25.263798+00:00",
+      "id": "sig_1776487944049_0",
+      "timestamp": "2026-04-18T04:52:24.049225+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Peace Talks Collapse in Pakistan; No Deal Reached Despite Marathon Sessions Led by Vance, Kushner, Witkoff | NO",
-      "raw": "US-Iran Peace Talks Collapse in Pakistan; No Deal Reached Despite Marathon Sessions Led by Vance, Kushner, Witkoff | NO | HIGH confidence** [1][2][4]\n\nUS Vice President JD Vance, alongside Jared Kushner and Steve Witkoff, announced the breakdown of 21-hour negotiations in Islamabad after Iran rejected US demands, including ending uranium enrichment and dismantling nuclear facilities.[2][4][5] Vanc",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
-        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776487780926_0",
-      "timestamp": "2026-04-18T04:49:40.926896+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 Annual Inflation Rises to 2",
-      "raw": "South Korea's March 2026 Annual Inflation Rises to 2.2%, Up from 2.0% but Below 2.4% Forecast | YES | HIGH confidence** [1]\n\nThis data, sourced from Statistics Korea via Trading Economics, marks the latest confirmed monthly update as of early April 2026, showing contained price pressures amid Middle East energy volatility and Bank of Korea's steady 2.5% rate with raised 2026 outlook to 2.2%.[1] Pr",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), below market forecasts of 2.4%** | NO | HIGH confidence[1]\n\nThis March figure\u2014released around early April 2026 via Statistics Korea\u2014marks the latest confirmed data point amid Middle East-driven energy volatility, but it beat expectations downward and aligns with the Bank of Korea's 2.2% yearly outlook (up slightly from 2.",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -36,92 +20,95 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776487770786_0",
-      "timestamp": "2026-04-18T04:49:30.786805+00:00",
+      "id": "sig_1776487928080_0",
+      "timestamp": "2026-04-18T04:52:08.080163+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news summary you've requested based on the available search results",
-      "raw": "I cannot provide the breaking news summary you've requested based on the available search results.\n\nThe search results contain general news about Kerala Legislative Assembly from various dates in 2026, but they do not include:",
-      "direction": null,
+      "headline": "US-Iran ceasefire talks in Pakistan end without deal; US announces blockade of Iranian ports** | NO | HIGH confidence[2]",
+      "raw": "US-Iran ceasefire talks in Pakistan end without deal; US announces blockade of Iranian ports** | NO | HIGH confidence[2][5]\n\nRecent talks on April 12, 2026, in Islamabad involving Jared Kushner, Steve Witkoff, VP JD Vance, and Iranian officials failed after 21 hours, with Vance stating Iran rejected US terms like no nuclear weapons[2][3]. Trump responded by ordering a US Navy blockade of all Irani",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
+        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776487933527_0",
+      "timestamp": "2026-04-18T04:52:13.527348+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump's Truth Social post mocking Islam draws condemnation from CAIR, no direct link to Indian Union Muslim League; sepa",
+      "raw": "Trump's Truth Social post mocking Islam draws condemnation from CAIR, no direct link to Indian Union Muslim League; separate post announces tariff cut on Indian goods.** | **NO** | **HIGH** confidence[1][2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump post \"Stupid\" this week on Truth Social?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776487770790_1",
-      "timestamp": "2026-04-18T04:49:30.790292+00:00",
+      "id": "sig_1776487933531_1",
+      "timestamp": "2026-04-18T04:52:13.531213+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current breaking news specifically from today (April 18, 2026)",
-      "raw": "Current breaking news specifically from today (April 18, 2026)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776487770793_2",
-      "timestamp": "2026-04-18T04:49:30.793681+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any information about Truth Social",
-      "raw": "Any information about Truth Social",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776487770797_3",
-      "timestamp": "2026-04-18T04:49:30.797035+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any statements or announcements from or about Trump",
-      "raw": "Any statements or announcements from or about Trump",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776487770800_4",
-      "timestamp": "2026-04-18T04:49:30.800436+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any news regarding the Indian Union Muslim League",
-      "raw": "Any news regarding the Indian Union Muslim League",
+      "headline": "**CAIR Condemnation (Recent, Apr 6, 2026)**: CAIR accused Trump of mocking Islam in an Easter Sunday Truth Social post t",
+      "raw": "**CAIR Condemnation (Recent, Apr 6, 2026)**: CAIR accused Trump of mocking Islam in an Easter Sunday Truth Social post threatening Iran over the Strait of Hormuz, ending with \"Praise be to Allah,\" calling it reckless and indifferent to human life[1].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Will Trump post \"Stupid\" this week on Truth Social?",
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776487770804_5",
-      "timestamp": "2026-04-18T04:49:30.804140+00:00",
+      "id": "sig_1776487933534_2",
+      "timestamp": "2026-04-18T04:52:13.534991+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any market-moving confirmations, announcements, or resolutions from these entities",
-      "raw": "Any market-moving confirmations, announcements, or resolutions from these entities\n\nThe most recent dated content in the results references events from earlier in April 2026 (April 7 and April 10), but nothing that appears to be breaking news from the current moment. To provide accurate prediction market-relevant information in the format you've requested, I would need search results containing re",
+      "headline": "**Tariff Announcement on India**: Trump posted on Truth Social about cutting U",
+      "raw": "**Tariff Announcement on India**: Trump posted on Truth Social about cutting U.S. reciprocal tariffs on Indian goods from 25% to 18% immediately as part of a trade deal, sparking political discussion in India; no mention of Indian Union Muslim League or \"stupid\" label[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump post \"Stupid\" this week on Truth Social?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776487933538_3",
+      "timestamp": "2026-04-18T04:52:13.538774+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Older Trump Post on Muslim Lawmakers**: Trump called Reps",
+      "raw": "**Older Trump Post on Muslim Lawmakers**: Trump called Reps. Ilhan Omar and Rashida Tlaib \"lunatic, mentally deranged\" on Truth Social after a State of the Union clash, suggesting they be institutionalized and deported; not \"breaking news right now\" and unrelated to Indian Union Muslim League[3].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump post \"Stupid\" this week on Truth Social?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
+        "Will Donald Trump post 180-199 Truth Social posts from April 17 to April 24, 202"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 6,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
