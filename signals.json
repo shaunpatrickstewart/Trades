@@ -1,74 +1,43 @@
 {
-  "last_scan": "2026-04-18T14:02:46.517704+00:00",
-  "scan_seconds": 34.2,
+  "last_scan": "2026-04-18T14:05:41.014871+00:00",
+  "scan_seconds": 33.0,
   "markets_scanned": 47,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776520946705_1",
-      "timestamp": "2026-04-18T14:02:26.705161+00:00",
+      "id": "sig_1776521118821_0",
+      "timestamp": "2026-04-18T14:05:18.821358+00:00",
       "source": "PERPLEXITY",
-      "headline": "Context of the reversal:**",
-      "raw": "Context of the reversal:**\n\nOn Friday, April 17, Iran's Foreign Minister Abbas Araghchi announced the strait would be fully reopened to commercial vessels as a confidence-building measure tied to the ceasefire.[6] However, President Trump immediately stated the U.S. blockade would remain \"in full force\" until Iran reaches a comprehensive deal including nuclear concessions.[1] Iran's parliamentary ",
+      "headline": "Iran closes Strait of Hormuz again after one day** | YES | HIGH confidence",
+      "raw": "Iran closes Strait of Hormuz again after one day** | YES | HIGH confidence\n\nIran's military confirmed Saturday morning that the Strait of Hormuz has **\"returned to its previous state\"** of closure, reversing the country's reopening announcement from Friday.[7] This move followed President Trump's declaration that the U.S. blockade on Iranian ports would remain in effect despite Iran's good-faith g",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776521118827_1",
+      "timestamp": "2026-04-18T14:05:18.827904+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** Nearly 20% of the world's oil passes through the Strait of Hormuz daily",
+      "raw": "Market implications:** Nearly 20% of the world's oil passes through the Strait of Hormuz daily.[1] When Iran announced the Friday reopening, oil prices fell 9% and the Dow surged as much as 1,100 points, but this closure reversal likely triggers renewed volatility in energy markets and equities. Data firm Kpler warned it could take \"months, not weeks\" to return to normal operations.[1]\n\nThe confli",
       "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776520946716_2",
-      "timestamp": "2026-04-18T14:02:26.716213+00:00",
+      "id": "sig_1776521131308_0",
+      "timestamp": "2026-04-18T14:05:31.308619+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market implications:**",
-      "raw": "Market implications:**\n\nOil prices fell 9% and U.S. stocks surged when the strait briefly opened Friday, as markets assessed the potential resumption of petroleum exports\u2014nearly 20% of global daily oil supply flows through the strait.[1] The renewed closure likely reverses these gains and reintroduces supply-chain uncertainty.",
-      "direction": null,
+      "headline": "Ethereum Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]",
+      "raw": "Ethereum Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]\n\nEthereum has surged significantly, hitting $6K as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, which promises wallet abstraction and validator efficiency improvements.[3] This coincides with **spot Ethereum ETF inflows** reachin",
+      "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776520946695_0",
-      "timestamp": "2026-04-18T14:02:26.695114+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Closes Strait of Hormuz Again After Brief Reopening | NO | HIGH confidence**",
-      "raw": "Iran Closes Strait of Hormuz Again After Brief Reopening | NO | HIGH confidence**\n\nIran has reversed its decision to reopen the Strait of Hormuz, closing the critical waterway again on Saturday in response to the continued U.S. blockade on Iranian ports and ships.[1][9] The Iranian military stated the strait \"returned to its previous state.\"[9]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776520952516_0",
-      "timestamp": "2026-04-18T14:02:32.516580+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO BREAKING TRUMP PRESIDENTIAL NEWS ON TRUTH SOCIAL OR ELSEWHERE RIGHT NOW THAT MOVES PREDICTION MARKETS | NO | N/A**",
-      "raw": "NO BREAKING TRUMP PRESIDENTIAL NEWS ON TRUTH SOCIAL OR ELSEWHERE RIGHT NOW THAT MOVES PREDICTION MARKETS | NO | N/A**\n\nAs of April 18, 2026, 2 PM UTC, there are no confirmed announcements, resolutions, or new posts from Donald Trump on Truth Social (or major outlets like AP, Reuters, Fox, CNN) tied to presidential matters\u2014such as 2028 campaign moves, legal resolutions, or policy shifts\u2014that would ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776520958250_0",
-      "timestamp": "2026-04-18T14:02:38.250757+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Nearing $20B Deal with Iran to Surrender Uranium Stockpile | YES | HIGH confidence**",
-      "raw": "US Nearing $20B Deal with Iran to Surrender Uranium Stockpile | YES | HIGH confidence**  \nReports on April 17, 2026, confirm the U.S. is close to a $20 billion agreement for Iran to relinquish its uranium, with weekend talks planned, driving a broad crypto rally including Ethereum to ~$2,400.[3]  \nThis de-escalation lowered oil prices and boosted risk assets, with Bitcoin hitting $76,370 and Ether",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
@@ -79,40 +48,25 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776520958256_1",
-      "timestamp": "2026-04-18T14:02:38.256953+00:00",
+      "id": "sig_1776521140012_0",
+      "timestamp": "2026-04-18T14:05:40.012599+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade Enters Final Testing Phase | YES | MED confidence**",
-      "raw": "Pectra Upgrade Enters Final Testing Phase | YES | MED confidence**  \nAs of April 17-18, 2026, Ethereum's Pectra (Prague-Electra) upgrade is in final tests, enhancing wallet abstraction and validator efficiency amid record Spot ETH ETF inflows and L2 TVL highs, fueling institutional demand and price tests near resistance.[4]",
+      "headline": "South Korea March 2026 Inflation Confirmed at 2",
+      "raw": "South Korea March 2026 Inflation Confirmed at 2.16-2.2% YoY, Up from 2.0% in Feb but Below 2.4% Forecasts | YES | HIGH confidence** [1][2][4]\n\nSouth Korea's annual inflation rate for March 2026 rose to 2.16% (RateInflation) or 2.2% (Trading Economics), from 2.0% in February, driven by a 0.34% monthly CPI increase to 118.8; this missed market expectations of 2.4% and aligns with the Bank of Korea's",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776520946728_3",
-      "timestamp": "2026-04-18T14:02:26.728981+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Diplomatic status:**",
-      "raw": "Diplomatic status:**\n\nTrump signaled potential direct talks could occur this weekend and hinted he may not extend the ceasefire deadline beyond Wednesday if a deal isn't reached.[7] A separate 10-day Israel-Lebanon ceasefire began Friday and remains in place.[1]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 2
   }
 }
