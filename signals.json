@@ -1,48 +1,29 @@
 {
-  "last_scan": "2026-04-18T08:37:43.494319+00:00",
-  "scan_seconds": 26.1,
-  "markets_scanned": 43,
+  "last_scan": "2026-04-18T08:40:26.555809+00:00",
+  "scan_seconds": 24.2,
+  "markets_scanned": 45,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776501451948_0",
-      "timestamp": "2026-04-18T08:37:31.948282+00:00",
+      "id": "sig_1776501610498_0",
+      "timestamp": "2026-04-18T08:40:10.498561+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or prediction market-moving announcements from these search results",
-      "raw": "I cannot identify breaking news or prediction market-moving announcements from these search results. The most recent data available is from April 17, 2026[3], which shows Ethereum trading at $2,358.26\u2014a modest $14.86 daily increase. This represents normal market activity rather than a confirmed announcement or development that would typically trigger significant prediction market movement.\n\nThe se",
-      "direction": "YES",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information matchin",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information matching your query criteria.\n\nThe available search results focus on Bulgaria's snap parliamentary elections scheduled for April 19, 2026, and cover disinformation threats, polling data, and key candidates like Rumen Radev. However, they do not contain any confirmed announcements or dev",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776501456533_0",
-      "timestamp": "2026-04-18T08:37:36.533664+00:00",
+      "id": "sig_1776501625548_0",
+      "timestamp": "2026-04-18T08:40:25.548165+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 Annual Inflation Rises to 2",
-      "raw": "South Korea's March 2026 Annual Inflation Rises to 2.2% | YES | MED confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, up from prior months but below market forecasts of 2.4%[1][3]. This newly reported figure from Statistics Korea, dated around early April 2026, aligns with the Bank of Korea's updated 2.2% yearly outlook after hold",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776501462489_0",
-      "timestamp": "2026-04-18T08:37:42.489561+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict End Date Market Dominates X Chatter | NO | LOW confidence**",
-      "raw": "Iran x Israel/US Conflict End Date Market Dominates X Chatter | NO | LOW confidence**\n\nPolymarket's X predictions page shows 1346-1347 active markets, with the top one being \"Iran x Israel/US conflict ends by...?\" at 97% odds for December 31, signaling strong trader conviction amid high volume across $121M total.[1] Traders on X are likely buzzing about this as the most active, alongside niche bet",
-      "direction": "YES",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | LOW confidence**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | LOW confidence**  \nPolymarket's most active X-related market assigns a **97% probability** to the \"Iran x Israel/US conflict ends by December 31\" outcome, reflecting strong trader conviction amid high volume on the platform's 1346 live X markets (totaling over $121M volume), though no specific X posts or whale activity are detailed in cur",
+      "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
@@ -50,11 +31,26 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776501445806_0",
-      "timestamp": "2026-04-18T08:37:25.806084+00:00",
+      "id": "sig_1776501610502_1",
+      "timestamp": "2026-04-18T08:40:10.502120+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH**\u2014search results lack any fresh (post-April 17) confirmations matching all query terms",
-      "raw": "Confidence: HIGH**\u2014search results lack any fresh (post-April 17) confirmations matching all query terms. [1][2]",
+      "headline": "Donald Trump or Truth Social",
+      "raw": "Donald Trump or Truth Social",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776501610505_2",
+      "timestamp": "2026-04-18T08:40:10.505308+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Morality-related policy announcements",
+      "raw": "Morality-related policy announcements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -63,76 +59,37 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776501451951_1",
-      "timestamp": "2026-04-18T08:37:31.951368+00:00",
+      "id": "sig_1776501610508_3",
+      "timestamp": "2026-04-18T08:40:10.508939+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official announcements from Ethereum Foundation or major development teams",
-      "raw": "Official announcements from Ethereum Foundation or major development teams",
+      "headline": "Market-moving election developments beyond existing polling projections",
+      "raw": "Market-moving election developments beyond existing polling projections\n\nThe search results are current as of April 16-17, 2026, but do not reflect breaking news from April 18 that would typically move prediction markets. To answer your query accurately, I would need search results containing actual breaking announcements from today with specific market implications.\n\nIf you're looking for informa",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776501451954_2",
-      "timestamp": "2026-04-18T08:37:31.954443+00:00",
+      "id": "sig_1776501625551_1",
+      "timestamp": "2026-04-18T08:40:25.551541+00:00",
       "source": "PERPLEXITY",
-      "headline": "Regulatory decisions affecting Ethereum",
-      "raw": "Regulatory decisions affecting Ethereum",
-      "direction": null,
+      "headline": "Elon Musk Tweet Count Market Highly Active | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Market Highly Active | NO | MED confidence**  \nThe top tweet market, \"Elon Musk # tweets April 10 - April 17, 2026?\", shows **88% odds** on 300-319 tweets with $13M volume across 22-28 active markets ($28.4M total), indicating trader focus but no resolution or external confirmations moving prices.[3]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776501451957_3",
-      "timestamp": "2026-04-18T08:37:31.957400+00:00",
+      "id": "sig_1776501625554_2",
+      "timestamp": "2026-04-18T08:40:25.554796+00:00",
       "source": "PERPLEXITY",
-      "headline": "Major partnership or integration announcements",
-      "raw": "Major partnership or integration announcements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776501451960_4",
-      "timestamp": "2026-04-18T08:37:31.960332+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant network upgrades or security findings",
-      "raw": "Significant network upgrades or security findings",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776501451963_5",
-      "timestamp": "2026-04-18T08:37:31.963305+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Institutional adoption news",
-      "raw": "Institutional adoption news\n\nThe current search results do not contain any of these elements from today or the immediate present.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776501462492_1",
-      "timestamp": "2026-04-18T08:37:42.492870+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Bets Surge in Volume | NO | MED confidence**",
-      "raw": "Elon Musk Tweet Count Bets Surge in Volume | NO | MED confidence**\n\nTweet Markets on Polymarket feature 22-28 active markets with $28.4M volume, led by \"Elon Musk # tweets April 10 - April 17, 2026?\" at 88% odds for 300-319 tweets, and ongoing \"April 14 - April 21, 2026?\" markets\u2014prime for X posts on whale positioning as the April 17 market nears close.[4][3] No explicit whale bets, smart money mo",
+      "headline": "No Recent Announcements or Resolutions Impacting Markets | NO | LOW confidence**",
+      "raw": "No Recent Announcements or Resolutions Impacting Markets | NO | LOW confidence**  \nNo breaking confirmations, announcements, or resolutions (e.g., ceasefires, tech hires, or policy shifts) are noted in results to explain current odds; markets like Iran conflict and Musk tweets update dynamically via trading without tied real-world triggers as of April 17 data.[1][3]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -142,9 +99,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
