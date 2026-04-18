@@ -1,17 +1,45 @@
 {
-  "last_scan": "2026-04-18T17:58:15.133953+00:00",
-  "scan_seconds": 36.6,
+  "last_scan": "2026-04-18T18:01:07.318237+00:00",
+  "scan_seconds": 32.7,
   "markets_scanned": 36,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776535072622_0",
-      "timestamp": "2026-04-18T17:57:52.622567+00:00",
+      "id": "sig_1776535253356_0",
+      "timestamp": "2026-04-18T18:00:53.356017+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify a specific breaking news event that has been \"just confirmed, an",
-      "raw": "Based on the search results provided, I cannot identify a specific breaking news event that has been \"just confirmed, announced, or resolved\" that would move prediction markets. \n\nThe most recent concrete data available is from **April 17, 2026**, showing Ethereum trading at **$2,358.26**[1], which represents a $14.86 daily gain[1]. However, this is normal price movement rather than a catalyst eve",
-      "direction": null,
+      "headline": "I cannot provide breaking news or market-moving announcements based on these search results",
+      "raw": "I cannot provide breaking news or market-moving announcements based on these search results. The most recent data available is from **March 2026**, showing South Korea's inflation rose to 2.2% year-on-year[2], which is already several weeks old relative to the current date of April 18, 2026.\n\nThe search results contain no announcements, confirmations, or resolutions dated April 2026 that would con",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776535266298_2",
+      "timestamp": "2026-04-18T18:01:06.298870+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Fresh Confirmations or Whale Activity Confirmed | NO | HIGH confidence**",
+      "raw": "No Fresh Confirmations or Whale Activity Confirmed | NO | HIGH confidence**\n\nSearch results show no breaking announcements, resolved markets, or X posts on whale bets, mispriced opportunities, or imminent moves as of April 18, 2026; activity centers on ongoing X, tweet, and trending markets without social trader commentary[1][2][3][4][5]. Volumes indicate interest (e.g., $16.2M on tweets), but lac",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776535246805_0",
+      "timestamp": "2026-04-18T18:00:46.805602+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum (ETH) Hits $6K on April 18, 2026 | YES | HIGH confidence**",
+      "raw": "Ethereum (ETH) Hits $6K on April 18, 2026 | YES | HIGH confidence**  \nEthereum has surged to $6,000 amid massive institutional demand, Spot ETH ETF inflows at all-time highs, and the Pectra (Prague-Electra) Upgrade entering its final testing phase, boosting wallet abstraction and validator efficiency.[2]  \nLayer 2 TVL milestones on Base and Arbitrum, rising staking yields, deflationary burn rates,",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
         "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET",
@@ -22,78 +50,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776535094129_1",
-      "timestamp": "2026-04-18T17:58:14.129447+00:00",
+      "id": "sig_1776535266292_0",
+      "timestamp": "2026-04-18T18:01:06.292939+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump US x Iran Ceasefire Announcement at 99% | YES | HIGH confidence**",
-      "raw": "Trump US x Iran Ceasefire Announcement at 99% | YES | HIGH confidence**  \nThe market \"Trump announces US x Iran ceasefire broken by...?\" shows 99% odds, indicating traders heavily back this outcome as nearly confirmed or imminent in X prediction markets[1]. This extreme pricing suggests strong conviction, potentially driven by recent unlisted news, amid high-volume trading on conflict-related even",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776535079791_0",
-      "timestamp": "2026-04-18T17:57:59.791242+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation at 2",
-      "raw": "South Korea March 2026 Annual Inflation at 2.2% YoY, Below Consensus of 2.3-2.4% Due to Fuel Caps Amid Oil Surge | NO | HIGH confidence**\n\nSouth Korea's annual CPI inflation rose to 2.2% in March 2026 from 2.0% in February, driven by oil prices but contained below market forecasts (2.3% consensus per ING, 2.4% per Trading Economics and Reuters poll) thanks to government fuel price caps and food vo",
-      "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776535072628_2",
-      "timestamp": "2026-04-18T17:57:52.628343+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Spot Ethereum ETF inflows reaching all-time highs**[2], indicating sustained institutional interest rather than a sing",
-      "raw": "**Spot Ethereum ETF inflows reaching all-time highs**[2], indicating sustained institutional interest rather than a single breaking event.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776535072630_3",
-      "timestamp": "2026-04-18T17:57:52.630975+00:00",
-      "source": "PERPLEXITY",
-      "headline": "General analyst sentiment remains bullish with long-term price targets ranging from $10,000 to $40,000[1][3]",
-      "raw": "General analyst sentiment remains bullish with long-term price targets ranging from $10,000 to $40,000[1][3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776535072633_4",
-      "timestamp": "2026-04-18T17:57:52.633881+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What I cannot confirm:** The search results lack timestamps after April 17, 5:57 PM UTC on April 18, so I cannot identif",
-      "raw": "What I cannot confirm:** The search results lack timestamps after April 17, 5:57 PM UTC on April 18, so I cannot identify what, if anything, has broken in the last few hours that would represent \"RIGHT NOW\" news.\n\nTo properly answer your question about market-moving announcements, I would need access to real-time news feeds or official announcements from today (April 18) that aren't captured in th",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776535094126_0",
-      "timestamp": "2026-04-18T17:58:14.126651+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict End Odds at 35% | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict End Odds at 35% | NO | HIGH confidence**  \nPolymarket's X predictions page lists \"Iran x Israel/US conflict ends by...?\" trading at 35% yes probability among 1378 active X markets, reflecting real-time trader sentiment on geopolitical tensions with $161.4M total volume across X-related bets[1]. No whale bets or X posts about smart money moves are detailed in current data.",
+      "headline": "Iran x Israel/US Conflict Markets Heating Up | NO | LOW confidence**",
+      "raw": "Iran x Israel/US Conflict Markets Heating Up | NO | LOW confidence**\n\nPolymarket's X predictions page highlights active markets like \"Iran x Israel/US conflict ends by...?\" at 35% YES odds and \"Trump announces US x Iran ceasefire broken by...?\" at 99% YES odds, reflecting trader focus on Middle East tensions amid $161.4M total X market volume[1]. No direct X posts from traders, whale bets, or tips",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -102,36 +63,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776535094132_2",
-      "timestamp": "2026-04-18T17:58:14.132350+00:00",
+      "id": "sig_1776535266296_1",
+      "timestamp": "2026-04-18T18:01:06.296093+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets Active (e",
-      "raw": "Elon Musk Tweet Volume Markets Active (e.g., April 14-21 at 17% for 1240-1279) | NO mispricing calls | MED confidence**  \nTweet Markets on Polymarket, with 22-30 active markets and $18.1M volume, price outcomes like \"Elon Musk # tweets April 14 - April 21, 2026?\" at 17% for specific ranges, but no X posts highlight whale bets, tips, or mispriced odds[3][4]. Nikita Bier \"out as Head of Product at X",
-      "direction": "NO",
+      "headline": "Trending Tech Bets on X Leadership and Nasdaq | NO | MED confidence**",
+      "raw": "Trending Tech Bets on X Leadership and Nasdaq | NO | MED confidence**\n\nX-related markets include \"Nikita Bier out as Head of Product at X by June 30?\" at 7% YES, signaling low trader expectation of change, while broader trending markets feature \"Nasdaq round-the-clock trading by June 30?\" at 13% YES with $43.8K volume[1][2]. Tweet markets track Elon Musk's April 2026 tweet volume (e.g., 17% on 124",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776535072625_1",
-      "timestamp": "2026-04-18T17:57:52.625682+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The **Pectra (Prague-Electra) Upgrade is in final testing phase**[2], which could be significant infrastructure news, bu",
-      "raw": "The **Pectra (Prague-Electra) Upgrade is in final testing phase**[2], which could be significant infrastructure news, but no confirmed launch or resolution is documented.",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
-    "watch": 1,
+    "enter": 1,
+    "alert": 4,
+    "watch": 0,
     "high_conf": 2
   }
 }
