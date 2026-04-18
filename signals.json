@@ -1,33 +1,72 @@
 {
-  "last_scan": "2026-04-18T08:29:17.317663+00:00",
-  "scan_seconds": 22.6,
-  "markets_scanned": 42,
+  "last_scan": "2026-04-18T08:32:09.090106+00:00",
+  "scan_seconds": 30.5,
+  "markets_scanned": 41,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776500945127_0",
-      "timestamp": "2026-04-18T08:29:05.127490+00:00",
+      "id": "sig_1776501122044_1",
+      "timestamp": "2026-04-18T08:32:02.044152+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade Enters Final Testing Phase Amid Surge to $6K on Institutional Demand and ETF Inflows | YES | MED confiden",
-      "raw": "Pectra Upgrade Enters Final Testing Phase Amid Surge to $6K on Institutional Demand and ETF Inflows | YES | MED confidence**\n\nEthereum (ETH) price has rallied to $6,000 as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** reaching its final testing phase, boosting wallet abstraction and validator efficiency[2]. This development, combined with record Spot Ethereum ETF inflows and",
+      "headline": "HEADLINE | YES | HIGH confidence**",
+      "raw": "HEADLINE | YES | HIGH confidence**  \nThis March figure\u2014newly reported and confirmed by Statistics Korea\u2014marks a modest rebound amid oil volatility, aligning with Bank of Korea's recent 2.2% yearly outlook (up from 2.1%) while holding rates at 2.5% for a sixth meeting; it could shift prediction markets on BoK policy or inflation paths given prior moderation trends and external risks.[1][3]",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776501128084_2",
+      "timestamp": "2026-04-18T08:32:08.084815+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets, Smart Money Moves, or Mispriced Markets Confirmed in Real-Time X Posts | NO | HIGH confidence**",
+      "raw": "No Whale Bets, Smart Money Moves, or Mispriced Markets Confirmed in Real-Time X Posts | NO | HIGH confidence**  \nSearch results highlight Polymarket's X-related markets (e.g., Nikita Bier out as X Head of Product by June 30 at 7%, Trump US x Iran ceasefire) but lack specific X posts from Polymarket traders on whales, tips, or mispriced opportunities; trending volumes point to conflict and tweets w",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776501116301_0",
+      "timestamp": "2026-04-18T08:31:56.301040+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum (ETH) Hits $6K on April 18, 2026 | YES | HIGH confidence**",
+      "raw": "Ethereum (ETH) Hits $6K on April 18, 2026 | YES | HIGH confidence**  \nETH is surging to $6,000 amid a massive rally driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, boosting wallet abstraction and validator efficiency, alongside record **Spot Ethereum ETF inflows** and Layer 2 TVL milestones in Base and Arbitrum[3].  \nThis development, dated April 17-18, 2026, co",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
         "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
         "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776500950353_0",
-      "timestamp": "2026-04-18T08:29:10.353125+00:00",
+      "id": "sig_1776501128078_0",
+      "timestamp": "2026-04-18T08:32:08.078753+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's March 2026 annual inflation rose to 2",
-      "raw": "South Korea's March 2026 annual inflation rose to 2.2% YoY (from 2.0% in February), undershooting market consensus of 2.3-2.4% due to government fuel caps offsetting oil price surges.** | NO | HIGH confidence",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Predictions on Polymarket | NO | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Predictions on Polymarket | NO | HIGH confidence**  \nPolymarket's X predictions page shows 1346-1347 active markets as of April 17, 2026, with the top market \"Iran x Israel/US conflict ends by...?\" pricing December 31 at 97% probability, reflecting heavy trader conviction amid $121M total volume; no direct X posts from traders cited, but real-time odds ",
       "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776501122038_0",
+      "timestamp": "2026-04-18T08:32:02.038055+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rose to 2",
+      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (from 2.0% prior), below market forecasts of 2.4% but up due to Middle East energy shocks.**[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -37,24 +76,11 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776500950361_1",
-      "timestamp": "2026-04-18T08:29:10.361062+00:00",
+      "id": "sig_1776501128081_1",
+      "timestamp": "2026-04-18T08:32:08.081837+00:00",
       "source": "PERPLEXITY",
-      "headline": "Key details:** Statistics Korea released this data on April 2, 2026, confirming lower-than-expected monthly CPI rise of",
-      "raw": "Key details:** Statistics Korea released this data on April 2, 2026, confirming lower-than-expected monthly CPI rise of 0.3% (vs. 0.6% forecast) and core inflation at 2.2% YoY (down from 2.3%).[1][2][3] Oil-driven pressures (transport up 5% YoY) were contained by fuel caps and food vouchers, though analysts warn of upside risks from sustained high oil prices (> $100/barrel amid Iran conflict) and ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776500956308_0",
-      "timestamp": "2026-04-18T08:29:16.308136+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**  \nPolymarket's most active X-related market is \"Iran x Israel/US conflict ends by...?\", with traders pricing a 97% chance on \"December 31,\" reflecting heavy real-time trading volume and sentiment shifts as users post about escalating odds[1]. No whale bets, smart money moves, or mispriced calls are detailed in current da",
+      "headline": "Elon Musk Tweet Counts Lead Tweet Markets Buzz | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Counts Lead Tweet Markets Buzz | NO | MED confidence**  \nActive tweet markets like \"Elon Musk # tweets April 10 - April 17, 2026?\" show 88% odds on 300-319 tweets with $28.4M volume, and \"Elon Musk # tweets April 14 - April 21, 2026?\" at high engagement with $13M volume, suggesting traders on X are tracking Musk's activity closely for short-term plays[3][4].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -63,12 +89,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776500956315_1",
-      "timestamp": "2026-04-18T08:29:16.315341+00:00",
+      "id": "sig_1776501128087_3",
+      "timestamp": "2026-04-18T08:32:08.087796+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Bets Surge with High Volume | YES | MED confidence**",
-      "raw": "Elon Musk Tweet Count Bets Surge with High Volume | YES | MED confidence**  \nX traders are buzzing over \"Elon Musk # tweets April 10 - April 17, 2026?\", where 88% odds favor 300-319 tweets amid $28.4M volume across 28 active markets; overlapping \"April 14 - April 21\" markets at $13M vol indicate ongoing momentum[4]. This points to smart money piling into tweet volume buckets as a proxy for X activ",
-      "direction": "YES",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | HIGH confidence**  \nNo breaking news of confirmed events (e.g., ceasefires, product launches like \"\ud835\udd4f Money\") in results to move markets; odds like 97% for Iran conflict by Dec 31 appear stable without cited triggers, though markets update dynamically with trades[1][2].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -77,9 +103,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
