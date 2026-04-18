@@ -1,123 +1,13 @@
 {
-  "last_scan": "2026-04-18T10:28:04.267394+00:00",
-  "scan_seconds": 22.5,
-  "markets_scanned": 50,
+  "last_scan": "2026-04-18T10:31:10.528012+00:00",
+  "scan_seconds": 44.9,
+  "markets_scanned": 1,
   "open_positions": 1,
-  "signals": [
-    {
-      "id": "sig_1776508077393_0",
-      "timestamp": "2026-04-18T10:27:57.393760+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Rises to 2",
-      "raw": "South Korea March 2026 Inflation Rises to 2.2% YoY, Below 2.4% Forecast | NO | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, missing market expectations of 2.4% amid contained price pressures before Middle East energy volatility.[1]  \nThis aligns closely with Statistics Korea data showing 2.16% YoY (CPI at 118.8) and 0.34",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776508083234_0",
-      "timestamp": "2026-04-18T10:28:03.234174+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news and real-time trader commentary you're requesting based on these search results",
-      "raw": "I cannot provide the breaking news and real-time trader commentary you're requesting based on these search results. The search results only show general information about Polymarket's structure, available markets, and trading volumes as of April 18, 2026\u2014they do not contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776508083237_1",
-      "timestamp": "2026-04-18T10:28:03.237794+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current trader discussions or posts on X about specific markets",
-      "raw": "Current trader discussions or posts on X about specific markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776508083241_2",
-      "timestamp": "2026-04-18T10:28:03.241340+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about whale bets or large positions",
-      "raw": "Information about whale bets or large positions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776508083244_3",
-      "timestamp": "2026-04-18T10:28:03.244887+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysis of mispriced markets or predictions about imminent moves",
-      "raw": "Analysis of mispriced markets or predictions about imminent moves",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776508083248_4",
-      "timestamp": "2026-04-18T10:28:03.248488+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent announcements or resolutions that would move prediction markets",
-      "raw": "Recent announcements or resolutions that would move prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776508083251_5",
-      "timestamp": "2026-04-18T10:28:03.251946+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Live social media sentiment or breaking news commentary",
-      "raw": "Live social media sentiment or breaking news commentary\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776508068184_0",
-      "timestamp": "2026-04-18T10:27:48.184171+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Announces Immediate US Navy Blockade of Strait of Hormuz in Response to Iran's Closure | YES | HIGH confidence**",
-      "raw": "Trump Announces Immediate US Navy Blockade of Strait of Hormuz in Response to Iran's Closure | YES | HIGH confidence**\n\nPresident Trump posted on **Truth Social** on April 12, 2026, accusing Iran of \u201cworld extortion\u201d for closing the Strait of Hormuz and directing the **US Navy** to impose its own blockade \u201c**effective immediately**,\u201d including interdiction of vessels that paid tolls to Iran.[1]  \n",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
-    }
-  ],
+  "signals": [],
   "stats": {
     "enter": 0,
-    "alert": 7,
-    "watch": 1,
+    "alert": 0,
+    "watch": 0,
     "high_conf": 0
   }
 }
