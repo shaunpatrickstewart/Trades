@@ -1,143 +1,29 @@
 {
-  "last_scan": "2026-04-18T14:20:19.409824+00:00",
-  "scan_seconds": 35.6,
-  "markets_scanned": 51,
+  "last_scan": "2026-04-18T14:23:11.117877+00:00",
+  "scan_seconds": 29.9,
+  "markets_scanned": 46,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776522012667_0",
-      "timestamp": "2026-04-18T14:20:12.667905+00:00",
+      "id": "sig_1776522170768_0",
+      "timestamp": "2026-04-18T14:22:50.768113+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum (ETH) Hits $6K on April 18, 2026, Amid Pectra Upgrade Final Testing and Record ETF Inflows | YES | HIGH confide",
-      "raw": "Ethereum (ETH) Hits $6K on April 18, 2026, Amid Pectra Upgrade Final Testing and Record ETF Inflows | YES | HIGH confidence**[2]\n\nEthereum is surging today due to confirmed entry of the **Pectra (Prague-Electra) Upgrade** into its final testing phase, boosting wallet abstraction and validator efficiency, alongside all-time high Spot Ethereum ETF inflows and Layer 2 TVL milestones like Base and Arb",
+      "headline": "Iran announces Strait of Hormuz \"completely open\" amid ceasefire, prompting Trump \"Thank you\" and 10%+ oil price drop |",
+      "raw": "Iran announces Strait of Hormuz \"completely open\" amid ceasefire, prompting Trump \"Thank you\" and 10%+ oil price drop | YES | HIGH confidence**[1][2]\n\nIranian FM Abbas Araghchi confirmed on X Friday (April 17) that maritime traffic through the Strait is \"declared completely open for the remaining period of ceasefire\" via a \"coordinated route,\" linked to the US-brokered Israel-Lebanon ceasefire exp",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776522018404_0",
-      "timestamp": "2026-04-18T14:20:18.404655+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation Rises to 2",
-      "raw": "South Korea March 2026 Annual Inflation Rises to 2.16% | NO** | **MED confidence**  \nSouth Korea's annual inflation rate increased to 2.16% in March 2026 from 2.00% in February, as reported in data updated April 2, 2026; this is not \"breaking news right now\" (as of April 18) but the most recent confirmed figure available, with monthly CPI up 0.34%.[2]  \nNo newer announcements, resolutions, or conf",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776522001408_0",
-      "timestamp": "2026-04-18T14:20:01.408273+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran Reopens Strait of Hormuz in Ceasefire-Linked Move | PARTIAL/CONTESTED | HIGH confidence**",
-      "raw": "Iran Reopens Strait of Hormuz in Ceasefire-Linked Move | PARTIAL/CONTESTED | HIGH confidence**\n\nIran's Foreign Minister Abbas Araghchi announced Friday that the **Strait of Hormuz is \"completely open\" for maritime traffic during the ceasefire period**, linked to the US-brokered Israel-Lebanon ceasefire.[1] US President Trump confirmed the announcement, stating Iran \"agreed to never close the Strai",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776522001419_1",
-      "timestamp": "2026-04-18T14:20:01.419318+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Control retained by Iran**: The reopening applies only to \"coordinated routes\" controlled by Iran, with passage requir",
-      "raw": "**Control retained by Iran**: The reopening applies only to \"coordinated routes\" controlled by Iran, with passage requiring Iranian Revolutionary Guard Corps (IRGC) approval.[1] Iran's presidential spokesperson characterized the opening as \"conditional and limited\" and \"solely an Iranian initiative.\"[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776522001429_2",
-      "timestamp": "2026-04-18T14:20:01.429167+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Temporary status**: The reopening is explicitly tied to the Lebanon ceasefire duration and may be temporary",
-      "raw": "**Temporary status**: The reopening is explicitly tied to the Lebanon ceasefire duration and may be temporary.[2] Reports indicate Iran is \"attempting to close the Strait of Hormuz again\" as of April 18.[6]",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [
         "US x Iran permanent peace deal by April 22, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776522001439_3",
-      "timestamp": "2026-04-18T14:20:01.439987+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US blockade continues**: Trump's port blockade on Iran remains \"firmly in place,\" creating an asymmetric situation whe",
-      "raw": "**US blockade continues**: Trump's port blockade on Iran remains \"firmly in place,\" creating an asymmetric situation where the strait is nominally open but Iranian commerce is still restricted.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776522001449_4",
-      "timestamp": "2026-04-18T14:20:01.449885+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Contradictory Iranian messaging**: Iran's statements contradict Trump's characterization, with officials denying his c",
-      "raw": "**Contradictory Iranian messaging**: Iran's statements contradict Trump's characterization, with officials denying his claims about mine removal and commitments.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776522001460_5",
-      "timestamp": "2026-04-18T14:20:01.460493+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market implications**: Oil prices dropped over 10% following the announcement,[1] but the conditional nature and Iran's",
-      "raw": "Market implications**: Oil prices dropped over 10% following the announcement,[1] but the conditional nature and Iran's retention of control mean this is a tactical opening rather than a resolved dispute. The situation remains volatile with potential reversal.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776522006738_0",
-      "timestamp": "2026-04-18T14:20:06.738468+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Endorses Sarah Huckabee Sanders for Re-Election via Truth Social, Backing Her and Multiple House Republicans Ahead",
-      "raw": "Trump Endorses Sarah Huckabee Sanders for Re-Election via Truth Social, Backing Her and Multiple House Republicans Ahead of 2026 Midterms** | YES | MED confidence[1]\n\nTrump posted on **Truth Social** Sunday endorsing Arkansas Gov. **Sarah Huckabee Sanders**\u2014\"Complete and Total Endorsement for Re-Election \u2014 SHE WILL NOT LET YOU DOWN!\"\u2014and numerous **House Republicans** like Jim Jordan, James Comer,",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
-        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?",
-        "Will the Republican Party win the NV-02 House seat?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "POLITICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 0,
+    "watch": 0,
+    "high_conf": 1
   }
 }
