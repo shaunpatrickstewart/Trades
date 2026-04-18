@@ -1,15 +1,31 @@
 {
-  "last_scan": "2026-04-18T03:37:42.333680+00:00",
-  "scan_seconds": 25.7,
-  "markets_scanned": 49,
+  "last_scan": "2026-04-18T03:40:27.609334+00:00",
+  "scan_seconds": 24.1,
+  "markets_scanned": 47,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776483456219_0",
-      "timestamp": "2026-04-18T03:37:36.219789+00:00",
+      "id": "sig_1776483611256_0",
+      "timestamp": "2026-04-18T03:40:11.256743+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Price Surge to $6K on April 18 Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [2]",
-      "raw": "ETH Price Surge to $6K on April 18 Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [2]\n\nEthereum (ETH) has rallied to $6,000 as of April 18, 2026, driven by a massive surge in institutional demand, Spot Ethereum ETF inflows hitting all-time highs, and explosive growth in Layer 2 TVL on networks like Base and Arbitrum[2]. The Pectra (Prague-Electra) Upgrade has ente",
+      "headline": "US-Iran Peace Talks Collapse in Pakistan After 21 Hours; No Deal Reached, Vance Announces End with Kushner Present | NO",
+      "raw": "US-Iran Peace Talks Collapse in Pakistan After 21 Hours; No Deal Reached, Vance Announces End with Kushner Present | NO | HIGH confidence** [1][4]\n\nUS Vice President JD Vance, flanked by Jared Kushner and Steve Witkoff, confirmed on April 12, 2026, that marathon direct talks in Islamabad failed due to Iran's refusal of US terms, including nuclear restrictions and Strait of Hormuz de-escalation.[1]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776483621185_0",
+      "timestamp": "2026-04-18T03:40:21.185360+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results provided are from April 6-16, 2",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results provided are from April 6-16, 2026, and do not contain recent developments from April 18, 2026 (today). The most current data available is from April 16, 2026, which shows Ethereum trading at $2,343.40[1], representing a modest $10.88 daily increase.\n\nTo identify market-moving announcements or confirmed develo",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,12 +36,27 @@
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776483626608_0",
+      "timestamp": "2026-04-18T03:40:26.608125+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's annual inflation rate rose to 2",
+      "raw": "South Korea's annual inflation rate rose to 2.2% in March 2026 (from 2.0% prior), missing forecasts of 2.4% | NO | MED confidence**  \nThis March figure, the most recent confirmed data from Statistics Korea, shows a modest uptick but remains near the Bank of Korea's 2% target amid Middle East-driven energy shocks.[1]  \nBank of Korea held rates at 2.5% last week (7th straight meeting), raised 2026 i",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 3,
     "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
