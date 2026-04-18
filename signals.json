@@ -1,30 +1,28 @@
 {
-  "last_scan": "2026-04-18T17:17:35.655361+00:00",
-  "scan_seconds": 17.9,
+  "last_scan": "2026-04-18T17:20:45.625169+00:00",
+  "scan_seconds": 48.0,
   "markets_scanned": 28,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776532647591_0",
-      "timestamp": "2026-04-18T17:17:27.591907+00:00",
+      "id": "sig_1776532844615_1",
+      "timestamp": "2026-04-18T17:20:44.615821+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers-Raptors East 1st Round Game 4 Scheduled for Apr 26 at Scotiabank Arena (Series 0-0)** | NO | LOW confidence[1]",
-      "raw": "Cavaliers-Raptors East 1st Round Game 4 Scheduled for Apr 26 at Scotiabank Arena (Series 0-0)** | NO | LOW confidence[1]\n\nNo breaking confirmations, announcements, or resolutions reported right now (as of Apr 18, 2026, 5 PM UTC) on Raptors playoffs, Cavaliers series games, or total games played\u2014series starts today with Game 1 at CLE (0-0 record)[1][2]. Injury updates minor (e.g., CLE's Thomas Brya",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Raptors vs. Cavaliers Total Games O/U 5.5"
-      ],
+      "headline": "Trump Announces US x Iran Ceasefire Broken by",
+      "raw": "Trump Announces US x Iran Ceasefire Broken by...? | NO | HIGH confidence**  \nHighlighted on Polymarket's X page at 99% for a specific outcome (likely \"broken by...?\"), signaling traders' strong consensus on ceasefire failure announcement, reflecting heightened geopolitical focus in X prediction markets.[1]",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776532654651_0",
-      "timestamp": "2026-04-18T17:17:34.651627+00:00",
+      "id": "sig_1776532844608_0",
+      "timestamp": "2026-04-18T17:20:44.608433+00:00",
       "source": "PERPLEXITY",
-      "headline": "X Predictions Trending on Polymarket | NO | LOW confidence**",
-      "raw": "X Predictions Trending on Polymarket | NO | LOW confidence**  \nPolymarket hosts 1378 live X-related markets with real-time odds, including high-profile ones like \"Iran x Israel/US conflict ends by...?\" at 35% Yes and \"Trump announces US x Iran ceasefire broken by...?\" at 99% Yes, but no search results show current X posts from traders discussing whale bets, smart money moves, tips, mispriced marke",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | NO | HIGH confidence**  \nPolymarket's X predictions page lists \"Iran x Israel/US conflict ends by...?\" at 35% YES odds, indicating traders see low near-term resolution probability amid ongoing tensions; this market draws attention as a top-listed X-related prediction with real-time sentiment from $161.4M total X market volume.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -33,11 +31,24 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776532654654_1",
-      "timestamp": "2026-04-18T17:17:34.654119+00:00",
+      "id": "sig_1776532844619_2",
+      "timestamp": "2026-04-18T17:20:44.619517+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Tweet Markets Active | NO whale/smart money buzz | MED confidence**",
-      "raw": "Trending Tweet Markets Active | NO whale/smart money buzz | MED confidence**  \nElon Musk tweet volume markets lead activity, such as \"Elon Musk # tweets April 14 - April 21, 2026?\" (17% on 1240-1279 range) and \"Elon Musk # tweets in April 2026?\", with $18.1M volume across 22-30 markets, yet no X posts about bets, mispricings, or tips appear in results.[3][4]",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nX predictions market shows 7% YES odds for Nikita Bier's exit, suggesting traders doubt an imminent change in X leadership, amid broader tech/Elon Musk markets like tweet counts.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776532844623_3",
+      "timestamp": "2026-04-18T17:20:44.623878+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**",
+      "raw": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**  \nTweet Markets on Polymarket price the 1240-1279 tweet range at 17%, with traders betting against this bucket in the active \"Elon Musk # tweets April 14 - April 21, 2026?\" market (30 active markets, $18.1M volume); most active is April full-month tweet count.[3][4]  \n\nNo direct X posts from Polymarket traders, whale b",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -48,7 +59,7 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
+    "alert": 4,
     "watch": 0,
     "high_conf": 0
   }
