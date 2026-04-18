@@ -1,28 +1,71 @@
 {
-  "last_scan": "2026-04-18T17:20:45.625169+00:00",
-  "scan_seconds": 48.0,
+  "last_scan": "2026-04-18T17:23:27.486650+00:00",
+  "scan_seconds": 17.5,
   "markets_scanned": 28,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776532844615_1",
-      "timestamp": "2026-04-18T17:20:44.615821+00:00",
+      "id": "sig_1776533006485_2",
+      "timestamp": "2026-04-18T17:23:26.485393+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Announces US x Iran Ceasefire Broken by",
-      "raw": "Trump Announces US x Iran Ceasefire Broken by...? | NO | HIGH confidence**  \nHighlighted on Polymarket's X page at 99% for a specific outcome (likely \"broken by...?\"), signaling traders' strong consensus on ceasefire failure announcement, reflecting heightened geopolitical focus in X prediction markets.[1]",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | MED confidence**  \nTrending Markets feature this at 13% Yes with $43.8K volume, buzzing on X as potential smart money play amid finance shifts; low liquidity ($2.2K) suggests whale interest could move it, part of 167 markets with $3.1M total volume.[2]  \n\nNo whale bets, resolved markets, or confirmed announcements appear in real-time data; odds ref",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776532844608_0",
-      "timestamp": "2026-04-18T17:20:44.608433+00:00",
+      "id": "sig_1776533000048_0",
+      "timestamp": "2026-04-18T17:23:20.048716+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors-Cavaliers Playoff Series Begins | YES | HIGH confidence**",
+      "raw": "Raptors-Cavaliers Playoff Series Begins | YES | HIGH confidence**\n\nThe 2026 NBA Playoffs have officially begun with Game 1 of the first-round series between the Toronto Raptors (5 seed, 42-32) and Cleveland Cavaliers (4 seed, 52-30) tipping off today at 1:00 PM ET at Rocket Mortgage FieldHouse[1][2][3]. This is a best-of-seven series with Games 2 scheduled for Monday, April 20 at 7:00 PM[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Raptors vs. Cavaliers Total Games O/U 5.5"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776533000050_1",
+      "timestamp": "2026-04-18T17:23:20.050866+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors Ruled Out Immanuel Quickley for Game 1 | YES | HIGH confidence**",
+      "raw": "Raptors Ruled Out Immanuel Quickley for Game 1 | YES | HIGH confidence**\n\nQuickley will miss the playoff opener due to a hamstring injury sustained during the regular-season finale against the Nets, with Jamal Shead starting in his place[2]. Quickley's next opportunity to play is Game 2 on Monday[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776533000052_2",
+      "timestamp": "2026-04-18T17:23:20.052954+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Heavy Favorites | YES | HIGH confidence**",
+      "raw": "Cavaliers Heavy Favorites | YES | HIGH confidence**\n\nCleveland is favored by 8.5 points with an over/under of 219.5[3], reflecting their superior regular-season record and the Raptors' injury complications[2]. The Raptors swept the Cavaliers 3-0 in the regular season, though that accomplishment will be tested without their full roster in the playoffs[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Raptors vs. Cavaliers Total Games O/U 5.5"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776533006480_0",
+      "timestamp": "2026-04-18T17:23:26.480847+00:00",
       "source": "PERPLEXITY",
       "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | NO | HIGH confidence**  \nPolymarket's X predictions page lists \"Iran x Israel/US conflict ends by...?\" at 35% YES odds, indicating traders see low near-term resolution probability amid ongoing tensions; this market draws attention as a top-listed X-related prediction with real-time sentiment from $161.4M total X market volume.[1]",
+      "raw": "Iran x Israel/US Conflict Ends by...? | NO | HIGH confidence**  \nPolymarket's X predictions page lists this market at 35% Yes odds, signaling traders on X view low near-term resolution probability amid ongoing tensions; related \"Trump announces US x Iran ceasefire broken by...?\" trades at 99% (implying high chance of breakdown), drawing attention as a top active market among 1378 X-related ones wi",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -31,25 +74,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776532844619_2",
-      "timestamp": "2026-04-18T17:20:44.619517+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nX predictions market shows 7% YES odds for Nikita Bier's exit, suggesting traders doubt an imminent change in X leadership, amid broader tech/Elon Musk markets like tweet counts.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776532844623_3",
-      "timestamp": "2026-04-18T17:20:44.623878+00:00",
+      "id": "sig_1776533006483_1",
+      "timestamp": "2026-04-18T17:23:26.483030+00:00",
       "source": "PERPLEXITY",
       "headline": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**",
-      "raw": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**  \nTweet Markets on Polymarket price the 1240-1279 tweet range at 17%, with traders betting against this bucket in the active \"Elon Musk # tweets April 14 - April 21, 2026?\" market (30 active markets, $18.1M volume); most active is April full-month tweet count.[3][4]  \n\nNo direct X posts from Polymarket traders, whale b",
-      "direction": "NO",
+      "raw": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**  \nTweet Markets show 17% odds for this range in the active \"Elon Musk # tweets\" market, a hotspot with 22-30 markets and $18.1M volume; traders on X highlight it as mispriced given Musk's posting patterns, with Nikita Bier \"out as Head of Product at X by June 30?\" at just 7% Yes as a linked tech bet.[3][4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -59,8 +89,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
