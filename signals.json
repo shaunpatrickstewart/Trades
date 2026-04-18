@@ -1,33 +1,61 @@
 {
-  "last_scan": "2026-04-18T09:51:58.053883+00:00",
-  "scan_seconds": 23.1,
-  "markets_scanned": 41,
+  "last_scan": "2026-04-18T09:55:01.510021+00:00",
+  "scan_seconds": 42.7,
+  "markets_scanned": 42,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776505902312_0",
-      "timestamp": "2026-04-18T09:51:42.312697+00:00",
+      "id": "sig_1776506100504_0",
+      "timestamp": "2026-04-18T09:55:00.504390+00:00",
       "source": "PERPLEXITY",
-      "headline": "MAGA Supporters Turning on Trump on Truth Social After US-Iran Ceasefire | NO | LOW confidence**",
-      "raw": "MAGA Supporters Turning on Trump on Truth Social After US-Iran Ceasefire | NO | LOW confidence**\n\nA New York Times analysis of 40,000 Truth Social posts, reported in a press review on April 10, 2026, shows die-hard MAGA supporters openly criticizing Donald Trump for his \"war on Iran\" following a fragile two-week US-Iran ceasefire signed around April 9, 2026[1]. This backlash, highlighted amid inte",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO | HIGH confidence**  \nPolymarket traders on X are heavily discussing the \"Iran x Israel/US conflict ends by...?\" market, where the December 31 outcome trades at 97% implied probability amid $121M+ total X-related volume, signaling strong consensus on prolonged conflict.[1]",
       "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776506086216_0",
+      "timestamp": "2026-04-18T09:54:46.216253+00:00",
+      "source": "PERPLEXITY",
+      "headline": "House Rejects Iran War Powers Resolution by 1 Vote (213-214), Affirming Trump's Authority | YES | HIGH confidence** [1][",
+      "raw": "House Rejects Iran War Powers Resolution by 1 Vote (213-214), Affirming Trump's Authority | YES | HIGH confidence** [1][4]\n\nThe Republican-controlled House voted down the measure on April 17, 2026, with all Republicans except Rep. Thomas Massie (R-KY) opposing it; one Democrat (Jared Golden, D-ME) joined them, following a similar Senate rejection[1][4]. This preserves Trump's flexibility on Iran a",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the Republican Party win the NY-21 House seat?",
         "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
         "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776505911525_0",
-      "timestamp": "2026-04-18T09:51:51.525233+00:00",
+      "id": "sig_1776506086223_2",
+      "timestamp": "2026-04-18T09:54:46.223571+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Annual Inflation at 2",
-      "raw": "South Korea March 2026 Annual Inflation at 2.2% YoY, Below Forecasts of 2.3-2.4% | NO | HIGH confidence**\n\nSouth Korea's annual CPI inflation rose to **2.2%** in March 2026 from 2.0% in February, driven by oil prices but contained by government fuel caps and food vouchers, missing market consensus of 2.3% [1][2][3]. Monthly CPI increased 0.3%, below expectations of 0.6% [1][3]. Core inflation (ex-",
-      "direction": "NO",
+      "headline": "Progressive Democrat Wins NJ Special Election, Shrinking GOP House Majority to Razor-Thin | YES | HIGH confidence** [4]",
+      "raw": "Progressive Democrat Wins NJ Special Election, Shrinking GOP House Majority to Razor-Thin | YES | HIGH confidence** [4]\n\nAnalilia Mej\u00eda's victory fills a vacancy, leaving Speaker Johnson able to lose only one Republican on party-line votes[4]. Combined with war powers unity, underscores GOP vulnerability ahead of midterms amid Iran war polling backlash[3][4]. Relevant for markets on congressional ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the Republican Party win the NY-21 House seat?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776506095300_0",
+      "timestamp": "2026-04-18T09:54:55.300863+00:00",
+      "source": "PERPLEXITY",
+      "headline": "South Korea's March 2026 CPI inflation rose to 2",
+      "raw": "South Korea's March 2026 CPI inflation rose to 2.2% YoY (from 2.0% in Feb), below market consensus of 2.3-2.4% due to government measures curbing oil price impacts | NO | HIGH confidence**\n\nSouth Korea's Statistics Korea reported **annual CPI inflation at 2.2% YoY for March 2026**, up from 2.0% in February but lower than expected (2.3% per ING, 2.4% per Trading Economics), driven by oil prices yet",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -37,17 +65,45 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776505906917_0",
-      "timestamp": "2026-04-18T09:51:46.917063+00:00",
+      "id": "sig_1776506100507_1",
+      "timestamp": "2026-04-18T09:55:00.507674+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Hits $6K on Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence**[4]",
-      "raw": "ETH Hits $6K on Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence**[4]\n\nEthereum's price has surged to $6,000 as of April 18, 2026, driven by confirmation of the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, boosting wallet abstraction and validator efficiency[4]. Spot Ethereum ETF inflows hit all-time highs, with Layer 2 TVL milestones on Base and A",
+      "headline": "Elon Musk Tweet Count Bets Surge with High Volume | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Bets Surge with High Volume | NO | MED confidence**  \nThe \"Elon Musk # tweets April 14 - April 21, 2026?\" market, bucking at 24% for 260-279 tweets, draws buzz with $5M volume; traders highlight it as a high-liquidity play on Musk's posting habits, part of $16.2M+ tweet prediction activity.[4][5] No specific whale bets or mispricing calls noted in real-time data.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776506086220_1",
+      "timestamp": "2026-04-18T09:54:46.220394+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Pushes Republicans for Clean FISA 702 Reauthorization Amid Party Divisions | YES | MED confidence** [4][5]",
+      "raw": "Trump Pushes Republicans for Clean FISA 702 Reauthorization Amid Party Divisions | YES | MED confidence** [4][5]\n\nTrump urged unity for a \"clean\" extension of FISA Section 702 (foreign surveillance powers) before deadline, backed by Speaker Mike Johnson despite GOP dissenters like Rep. Jim Jordan seeking amendments over privacy concerns[4][5]. A late-night House vote occurred amid opposition from ",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
+        "Will the Republican Party win the NY-21 House seat?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776506090265_0",
+      "timestamp": "2026-04-18T09:54:50.265295+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pectra Upgrade Enters Final Testing Phase | YES | HIGH confidence**",
+      "raw": "Pectra Upgrade Enters Final Testing Phase | YES | HIGH confidence**  \nEthereum's Pectra (Prague-Electra) Upgrade has reached its final testing phase as of April 18, 2026, driving a price surge amid institutional demand, record ETF inflows, and Layer 2 TVL milestones, positioning ETH to test key resistance levels toward a potential $10K bull run[2]. This development, highlighted in real-time market",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will the price of Bitcoin be above $74,000 on April 21?",
         "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -55,9 +111,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 5,
+    "watch": 2,
+    "high_conf": 0
   }
 }
