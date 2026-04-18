@@ -1,93 +1,45 @@
 {
-  "last_scan": "2026-04-18T15:24:27.888050+00:00",
-  "scan_seconds": 29.5,
-  "markets_scanned": 46,
+  "last_scan": "2026-04-18T15:34:20.367255+00:00",
+  "scan_seconds": 34.2,
+  "markets_scanned": 50,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776525849272_0",
-      "timestamp": "2026-04-18T15:24:09.272993+00:00",
+      "id": "sig_1776526437562_0",
+      "timestamp": "2026-04-18T15:33:57.562099+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news from today (April 18, 2026) that has just been confirmed",
-      "raw": "Based on the search results provided, there is no breaking news from today (April 18, 2026) that has just been confirmed or announced. The most recent concrete event mentioned is from **April 7, 2026**, when significant bets were placed on a US-Iran ceasefire shortly before President Trump announced it[5].\n\nThe current prediction market data as of April 18 shows several active markets tracking pot",
+      "headline": "US Naval Blockade Continues Despite Iran Reopening Strait of Hormuz; Trump Insists Operation Effective After Turning Bac",
+      "raw": "US Naval Blockade Continues Despite Iran Reopening Strait of Hormuz; Trump Insists Operation Effective After Turning Back 21 Ships** | NO | HIGH confidence[1][2][6]\n\nUS Central Command announced on April 17 that forces turned back 21 ships to Iran since the blockade began, enforcing restrictions on Iranian ports amid ceasefire efforts[2][1]. Iran declared the Strait open to commercial traffic on A",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "US x Iran permanent peace deal by April 22, 2026?"
+        "US x Iran permanent peace deal by April 22, 2026?",
+        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776525859816_0",
-      "timestamp": "2026-04-18T15:24:19.816707+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum (ETH) Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]",
-      "raw": "Ethereum (ETH) Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]\n\nEthereum is experiencing a significant price surge **right now** on April 18, 2026, hitting **$6K** driven by confirmed final testing of the **Pectra (Prague-Electra) Upgrade**, which promises wallet abstraction and validator efficiency improvements, alongside all-time high Spot ",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776525866886_1",
-      "timestamp": "2026-04-18T15:24:26.886693+00:00",
+      "id": "sig_1776526442673_0",
+      "timestamp": "2026-04-18T15:34:02.673464+00:00",
       "source": "PERPLEXITY",
       "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**  \nMarch CPI confirmed at **2.2% YoY** (vs 2.0% prior, 2.4% exp) | **YES** (new data just released, contained pressures despite energy volatility) | **HIGH**[1]  \nBoK held rates at **2.5%** (7th meeting, Apr 10 amid oil/inflation risks) | **NO** (no cut/ease despite moderation) | **HIGH**[3]  \nInflation outlook raised to **2.2%** for 2026 (from 2.1%)",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**  \nNo confirmed events | NO | HIGH confidence",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776525849277_1",
-      "timestamp": "2026-04-18T15:24:09.277039+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Active Markets Reflecting Current Sentiment:**",
-      "raw": "Active Markets Reflecting Current Sentiment:**\n\n| Market | Current Odds | Timeframe |\n|--------|--------------|-----------|\n| Israel x Hezbollah ceasefire | 100% | By April 18 (already resolved) |\n| US x Iran permanent peace deal | 74% | By June 30 |\n| Iranian regime fall | 1% (YES) | By April 30 |\n| Strait of Hormuz traffic returns to normal | 30% | By end of April |\n\nThe search results indicate ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776525853875_0",
-      "timestamp": "2026-04-18T15:24:13.875712+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO recent breaking news | NO | HIGH confidence**",
-      "raw": "NO recent breaking news | NO | HIGH confidence**\n\nNo confirmed, announced, or resolved developments as of April 18, 2026, link **Republican vice presidential** selection, **Sarah Huckabee Sanders**, or **Kerala legislative assembly election** that would impact prediction markets[1][2][3][4]. JD Vance was selected as Trump's 2024 VP on July 15, 2024, with the Trump-Vance ticket winning the election",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20",
-        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?",
-        "Will Mike Pence be the 2028 Republican Vice-Presidential nominee?"
-      ],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776525866883_0",
-      "timestamp": "2026-04-18T15:24:26.883321+00:00",
+      "id": "sig_1776526459365_0",
+      "timestamp": "2026-04-18T15:34:19.365781+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rose to 2",
-      "raw": "South Korea's annual inflation rose to 2.2% in March 2026 (latest data), up from 2.0% in Jan-Feb but below 2.4% forecasts; no breaking announcements today on rates or resolutions amid Middle East oil shocks.**[1][2][3]",
-      "direction": "YES",
+      "headline": "I cannot provide breaking news based on these search results",
+      "raw": "I cannot provide breaking news based on these search results. The most recent data available is **South Korea's annual inflation rate of 2.2% in March 2026**[1], which was reported on an earlier date and does not constitute breaking news as of April 18, 2026.\n\nThe search results do not contain any announcements, confirmations, or resolutions from today or the immediate present that would move pred",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
@@ -95,12 +47,29 @@
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776526453836_0",
+      "timestamp": "2026-04-18T15:34:13.836175+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pectra Upgrade Enters Final Testing Phase Amid ETH Price Surge to $6K | YES | MED confidence**",
+      "raw": "Pectra Upgrade Enters Final Testing Phase Amid ETH Price Surge to $6K | YES | MED confidence**\n\nEthereum's price has surged to $6,000 as of April 18, 2026, driven by massive institutional demand, record Spot Ethereum ETF inflows, and Layer 2 TVL milestones like those on Base and Arbitrum[1]. The key development is the **Pectra (Prague-Electra) Upgrade** now in its final testing phase, promising wa",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)",
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 2,
+    "watch": 1,
+    "high_conf": 1
   }
 }
