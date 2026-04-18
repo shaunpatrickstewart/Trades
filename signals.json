@@ -1,71 +1,13 @@
 {
-  "last_scan": "2026-04-18T23:43:15.387671+00:00",
-  "scan_seconds": 86.2,
-  "markets_scanned": 61,
+  "last_scan": "2026-04-18T23:45:35.065431+00:00",
+  "scan_seconds": 2.3,
+  "markets_scanned": 13,
   "open_positions": 14,
-  "signals": [
-    {
-      "id": "sig_1776555726092_3",
-      "timestamp": "2026-04-18T23:42:06.092789+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Peru General Election**: Runoff tomorrow (April 19)",
-      "raw": "**Peru General Election**: Runoff tomorrow (April 19). JNE (Peru's electoral body) confirmed candidate lists and no fraud probes today (via El Comercio, Andina agency at 10:45 PM UTC). Front-runners Fujimori (48%) vs. L\u00f3pez (42%) per Ipsos flash poll\u2014markets unmoved (PeruBet odds steady).\n\nAll checked via real-time sources; nothing \"just confirmed/announced/resolved\" in last 60 mins to spike volat",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Peru General Election invalidated by June 30?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776555726078_0",
-      "timestamp": "2026-04-18T23:42:06.078318+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence",
-      "raw": "HEADLINE | NO | HIGH confidence",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776555726083_1",
-      "timestamp": "2026-04-18T23:42:06.083086+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US Election (Trump-related)**: Latest wires (Reuters, AP, Bloomberg as of 11 PM UTC) report no new polls, indictments,",
-      "raw": "**US Election (Trump-related)**: Latest wires (Reuters, AP, Bloomberg as of 11 PM UTC) report no new polls, indictments, or campaign announcements today. Trump rally in Pennsylvania ended ~2 hours ago with standard rhetoric\u2014no endorsements, VP picks, or legal resolutions. PredictIt/PolyMarket odds stable (Trump ~52% for 2024 win).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776555726087_2",
-      "timestamp": "2026-04-18T23:42:06.087808+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**\"Gold Cards\"**: No updates on rumored Trump \"gold card\" immigration/golden visa policy",
-      "raw": "**\"Gold Cards\"**: No updates on rumored Trump \"gold card\" immigration/golden visa policy. Last mention was April 15 X post by Trump advisor\u2014no official confirmation or White House response today.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "How many Gold Cards will Trump sell this year?",
-        "Will Trump say \"Genius\" this week? (April 20 - 26)"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    }
-  ],
+  "signals": [],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
