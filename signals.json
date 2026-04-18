@@ -1,176 +1,100 @@
 {
-  "last_scan": "2026-04-18T15:01:04.087460+00:00",
-  "scan_seconds": 30.6,
+  "last_scan": "2026-04-18T15:04:03.793949+00:00",
+  "scan_seconds": 29.8,
   "markets_scanned": 46,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776524441889_0",
-      "timestamp": "2026-04-18T15:00:41.889091+00:00",
+      "id": "sig_1776524642791_0",
+      "timestamp": "2026-04-18T15:04:02.791637+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Re-closes Strait of Hormuz in Response to Ongoing US Blockade | YES | HIGH confidence**",
-      "raw": "Iran Re-closes Strait of Hormuz in Response to Ongoing US Blockade | YES | HIGH confidence**  \nIran announced early Saturday, April 18, 2026, that it has re-closed the Strait of Hormuz to commercial vessels just one day after reopening it on Friday, citing the continued US naval blockade on Iranian ships and ports as a violation of ceasefire terms[1][5][6]. President Trump confirmed the US blockad",
+      "headline": "South Korea March 2026 inflation rate confirmed at 2",
+      "raw": "South Korea March 2026 inflation rate confirmed at 2.16% YoY (up from 2.00% in Feb)** | NO | HIGH confidence[2]\n\nSouth Korea's Consumer Price Index rose to 118.8 in March 2026, with year-over-year inflation at 2.16%\u2014a 0.16 percentage point increase from February's 2.00%\u2014as reported in data updated April 2, 2026[2]. Monthly inflation from February to March was 0.34%[2]. This is the most recent conf",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "US x Iran permanent peace deal by April 22, 2026?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776524463082_0",
-      "timestamp": "2026-04-18T15:01:03.082912+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BANK OF KOREA HOLDS RATE AT 2",
-      "raw": "BANK OF KOREA HOLDS RATE AT 2.5% FOR 7TH CONSECUTIVE MONTH AMID RISING INFLATION | YES | HIGH confidence\n\nThe Bank of Korea's Monetary Policy Board held its benchmark interest rate steady at 2.5% on Friday, April 10, 2026, in a unanimous decision for the seventh consecutive month.[4] This decision came as **consumer prices climbed above the central bank's 2% target**, with the Policy Board expecti",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
         "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776524447415_0",
-      "timestamp": "2026-04-18T15:00:47.415207+00:00",
+      "id": "sig_1776524624157_0",
+      "timestamp": "2026-04-18T15:03:44.157790+00:00",
       "source": "PERPLEXITY",
-      "headline": "IUML Announces 25 Candidates for Kerala Assembly Elections, Including First-Ever Women and Youth Faces; Confirms 27 Tota",
-      "raw": "IUML Announces 25 Candidates for Kerala Assembly Elections, Including First-Ever Women and Youth Faces; Confirms 27 Total Seats | NO | LOW confidence**",
+      "headline": "Based on the search results provided, I cannot identify a specific breaking news announcement or market-moving developme",
+      "raw": "Based on the search results provided, I cannot identify a specific breaking news announcement or market-moving development that has just occurred as of April 18, 2026.\n\nThe most recent confirmed information in the search results is from **April 17, 2026**, which reports:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776524624161_1",
+      "timestamp": "2026-04-18T15:03:44.161091+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Israel-Hezbollah ceasefire appears confirmed | YES | HIGH confidence**",
+      "raw": "Israel-Hezbollah ceasefire appears confirmed | YES | HIGH confidence**\n\nThe Polymarket data shows the \"Israel x Hezbollah ceasefire by April 18, 2026?\" market at 100% probability for \"Yes,\"[6] suggesting this has been resolved affirmatively. This represents a significant geopolitical development.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776524624164_2",
+      "timestamp": "2026-04-18T15:03:44.164764+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US and Iran pursuing second round of talks | LIKELY | MED confidence**",
+      "raw": "US and Iran pursuing second round of talks | LIKELY | MED confidence**\n\nSources indicate Washington and Tehran are arranging another round of discussions before the current ceasefire expires,[2] with traders betting on Iranian asset unfreezing (67% probability) and oil sanction relief (52% probability).[6]\n\nHowever, the search results do not contain information about developments occurring *today*",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "GEOPOLITICS"
+    },
+    {
+      "id": "sig_1776524630483_0",
+      "timestamp": "2026-04-18T15:03:50.483616+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | NO | HIGH confidence** (based on absence of matching results in provided sources)",
+      "raw": "HEADLINE | NO | HIGH confidence** (based on absence of matching results in provided sources).",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776524447418_1",
-      "timestamp": "2026-04-18T15:00:47.418596+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The Indian Union Muslim League (IUML), a key UDF ally, released its first list of 25 candidates on March 17, 2026, for t",
-      "raw": "The Indian Union Muslim League (IUML), a key UDF ally, released its first list of 25 candidates on March 17, 2026, for the Kerala Legislative Assembly polls, with plans to contest 27 seats overall\u2014matching its 2021 tally[2][3][6].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776524447421_2",
-      "timestamp": "2026-04-18T15:00:47.421909+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Highlights include fielding two women candidates for the first time (Fathima Thahliya in Perambra and Jayanthi Rajan in",
-      "raw": "Highlights include fielding two women candidates for the first time (Fathima Thahliya in Perambra and Jayanthi Rajan in Koothuparambu), youth leaders like PK Firoz replacing veteran MK Muneer, PK Kunhalikutty shifting to Malappuram, and retaining Thiruvambady[2][5][6].",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776524447425_3",
-      "timestamp": "2026-04-18T15:00:47.425077+00:00",
+      "id": "sig_1776524636036_0",
+      "timestamp": "2026-04-18T15:03:56.036198+00:00",
       "source": "PERPLEXITY",
-      "headline": "No ties to US presidential or Republican VP election news; focus remains on Kerala state polls, with added internal tens",
-      "raw": "No ties to US presidential or Republican VP election news; focus remains on Kerala state polls, with added internal tensions like a women's wing resignation over candidate choices and a row over communal campaigning against Thahliya[4][5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?",
-        "Will Mike Pence be the 2028 Republican Vice-Presidential nominee?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776524447428_4",
-      "timestamp": "2026-04-18T15:00:47.428299+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Earlier seat push for 30 (December 2025) scaled back; this list resolves some UDF negotiations but predates \"right now\"",
-      "raw": "Earlier seat push for 30 (December 2025) scaled back; this list resolves some UDF negotiations but predates \"right now\" (April 18, 2026) by a month, limiting prediction market impact on national/international scales[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776524455708_0",
-      "timestamp": "2026-04-18T15:00:55.709007+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here are the key market-moving developments:",
-      "raw": "Based on the search results, here are the key market-moving developments:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776524455712_1",
-      "timestamp": "2026-04-18T15:00:55.712382+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Hits $76,370 on US-Iran Deal | YES | HIGH confidence**",
-      "raw": "Bitcoin Hits $76,370 on US-Iran Deal | YES | HIGH confidence**\nReports indicate the U.S. is nearing a $20 billion deal for Iran to surrender its uranium stockpile, with further talks expected this weekend.[4] This geopolitical de-escalation triggered a rally in risk assets, with Bitcoin reaching a daily high of $76,370 and Ethereum attracting buyers near $2,400.[4] The resolution of U.S.-Iran tens",
+      "headline": "ETH Price Rally to $6K on Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence**[3][4]",
+      "raw": "ETH Price Rally to $6K on Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence**[3][4]\n\nEthereum has surged to $6K as of April 18, 2026, driven by confirmation of the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, boosting wallet abstraction and validator efficiency, alongside record Spot Ethereum ETF inflows and Layer 2 TVL milestones like Base and Arbi",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776524455715_2",
-      "timestamp": "2026-04-18T15:00:55.715568+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Eyes $4,000 by April 30 | YES | MED confidence**",
-      "raw": "Ethereum Eyes $4,000 by April 30 | YES | MED confidence**\nEthereum's price surged 14% over the past week, pushing the likelihood of Ethereum reaching $4,000 in April to 56% YES on Polymarket.[2] With 16 days left in April, traders are betting on continued upward movement tied to potential ceasefire talks.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
         "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
         "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776524455718_3",
-      "timestamp": "2026-04-18T15:00:55.718804+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NFT Marketplace Foundation Shuts Down | YES | MED confidence**",
-      "raw": "NFT Marketplace Foundation Shuts Down | YES | MED confidence**\nA major Ethereum art platform closed after a failed acquisition on April 17, highlighting sector consolidation.[4] This reflects ecosystem restructuring rather than price-positive news.\n\nThe primary market catalyst is the de-escalation of U.S.-Iran geopolitical tensions, which has driven broad cryptocurrency gains and supports predicti",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "US x Iran permanent peace deal by April 22, 2026?",
-        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET"
-      ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 10,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 3
   }
 }
