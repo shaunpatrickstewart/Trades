@@ -1,13 +1,111 @@
 {
-  "last_scan": "2026-04-18T13:05:08.189494+00:00",
-  "scan_seconds": 1.1,
-  "markets_scanned": 1,
+  "last_scan": "2026-04-18T13:10:43.316411+00:00",
+  "scan_seconds": 52.3,
+  "markets_scanned": 47,
   "open_positions": 1,
-  "signals": [],
+  "signals": [
+    {
+      "id": "sig_1776517829839_0",
+      "timestamp": "2026-04-18T13:10:29.839659+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran Uranium Deal Nears Completion | YES | HIGH confidence**",
+      "raw": "US-Iran Uranium Deal Nears Completion | YES | HIGH confidence**\n\nThe U.S. is nearing a **$20 billion deal for Iran to surrender its uranium stockpile**, with further talks expected this weekend[4]. This geopolitical de-escalation has already triggered a crypto rally, with Bitcoin reaching $76,370 and Ethereum attracting buyers near $2,400[4]. The resolution of this macro risk-off event is bullish ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776517842300_0",
+      "timestamp": "2026-04-18T13:10:42.300218+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Israel x Hezbollah ceasefire by June 30 | YES | HIGH confidence**",
+      "raw": "Israel x Hezbollah ceasefire by June 30 | YES | HIGH confidence**  \nPolymarket's most active X-related market assigns a 100% probability to a ceasefire by June 30, reflecting strong crowd consensus amid real-time trading on $161.4M volume across 1378 markets; traders view this as the top outcome in a multi-option event.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776517829843_1",
+      "timestamp": "2026-04-18T13:10:29.843543+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Testing $4,000 Target | YES | MED confidence**",
+      "raw": "Ethereum Testing $4,000 Target | YES | MED confidence**\n\nPrediction markets show a **56% probability of Ethereum reaching $4,000 by April 30**[2], following a 14% price surge over the past week[2]. With 12 days remaining in April and geopolitical tensions easing, traders are positioning for continued upward movement tied to potential ceasefire talks[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
+        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776517829846_2",
+      "timestamp": "2026-04-18T13:10:29.846974+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pectra Upgrade in Final Testing Phase | YES | MED confidence**",
+      "raw": "Pectra Upgrade in Final Testing Phase | YES | MED confidence**\n\nThe Pectra (Prague-Electra) Upgrade is entering its **final testing phase**, promising to revolutionize wallet abstraction and validator efficiency[5]. Spot Ethereum ETF inflows are reaching all-time highs, and Layer 2 ecosystems like Base and Arbitrum are surpassing major milestones[5], supporting institutional accumulation ahead of ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776517842306_1",
+      "timestamp": "2026-04-18T13:10:42.306069+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US conflict ends by April 30 | NO | MED confidence**",
+      "raw": "Iran x Israel/US conflict ends by April 30 | NO | MED confidence**  \nYES shares trade at 35%, implying low near-term odds for resolution, while a related market on Trump announcing a broken US-Iran ceasefire sits at 15%, signaling trader skepticism on quick diplomatic wins.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776517842309_2",
+      "timestamp": "2026-04-18T13:10:42.309427+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X launches USD stablecoin in 2026 | NO | HIGH confidence**",
+      "raw": "X launches USD stablecoin in 2026 | NO | HIGH confidence**  \nOdds at 23% indicate traders doubt an imminent rollout, part of broader X tech bets like Nikita Bier exiting as Head of Product by June 30 (7% YES).[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776517842313_3",
+      "timestamp": "2026-04-18T13:10:42.313379+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk tweet volume April 14-21, 2026 (e",
+      "raw": "Elon Musk tweet volume April 14-21, 2026 (e.g., 260-279 tweets) | NO | LOW confidence**  \nActive Tweet Markets show 23% odds for mid-range buckets like 260-279, with overall April 2026 volume favoring lower ranges (e.g., 17% for 1240-1279 total); $18.1M volume across 22-30 markets tracks Musk's activity closely.[2][3]  \n\nNo whale bets, smart money moves, mispriced markets, or recent confirmations/",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    }
+  ],
   "stats": {
     "enter": 0,
-    "alert": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
