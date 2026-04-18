@@ -1,59 +1,56 @@
 {
-  "last_scan": "2026-04-18T10:00:34.964487+00:00",
-  "scan_seconds": 25.1,
+  "last_scan": "2026-04-18T10:03:24.183082+00:00",
+  "scan_seconds": 29.1,
   "markets_scanned": 46,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776506433962_0",
-      "timestamp": "2026-04-18T10:00:33.962997+00:00",
+      "id": "sig_1776506596655_0",
+      "timestamp": "2026-04-18T10:03:16.655868+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Chatter | NO (No Whale Bets, Smart Money, or Tips Confirmed) | LOW confiden",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Chatter | NO (No Whale Bets, Smart Money, or Tips Confirmed) | LOW confidence**\n\nPolymarket's X predictions page highlights 1346-1347 active markets as of April 17, 2026, with the top market \"Iran x Israel/US conflict ends by...?\" at 97% odds for December 31, reflecting high trader conviction amid potential breaking developments, though no specific X po",
+      "headline": "Bank of Korea Projects Inflation to Rise to Mid-to-High 2% Range in 2026 | YES | HIGH confidence**",
+      "raw": "Bank of Korea Projects Inflation to Rise to Mid-to-High 2% Range in 2026 | YES | HIGH confidence**\n\nThe Bank of Korea's Monetary Policy Board announced on April 10, 2026, that **inflation is expected to rise to the mid-to-high 2% range** this year, significantly exceeding its February forecast of 2.2%[3]. This represents a material upward revision driven by elevated international oil prices stemmi",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776506417270_0",
-      "timestamp": "2026-04-18T10:00:17.270948+00:00",
+      "id": "sig_1776506603175_0",
+      "timestamp": "2026-04-18T10:03:23.175139+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Posts Cryptic All-Caps \"WORLD\u2019S MOST POWERFUL RESET",
-      "raw": "Trump Posts Cryptic All-Caps \"WORLD\u2019S MOST POWERFUL RESET!!!\" on Truth Social Amid Iran Ceasefire Tensions | NO | LOW confidence**\n\nTrump, aged 79, shared the unexplained ominous message \"WORLD\u2019S MOST POWERFUL RESET!!! President DJT\" on Truth Social Friday morning, following a ceasefire deal with Iran that he called a \"victory,\" despite Iran keeping the Strait of Hormuz closed and considering toll",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Predictions at 97% Odds for December 31 Resolution | NO whale bets or smart",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Predictions at 97% Odds for December 31 Resolution | NO whale bets or smart money moves reported | HIGH confidence**\n\nPolymarket's X predictions page lists 1379 live markets as of April 18, 2026, with the top market being \"Iran x Israel/US conflict ends by...?\" trading at 97% for December 31, reflecting strong crowd consensus on prolonged conflict amid ",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?",
         "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776506422900_0",
-      "timestamp": "2026-04-18T10:00:22.900941+00:00",
+      "id": "sig_1776506603180_1",
+      "timestamp": "2026-04-18T10:03:23.180532+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Hit $17",
-      "raw": "XRP ETF Inflows Hit $17.6M on April 15, Driving 4% Price Rise Amid April 19 Prediction Market Watch | YES | HIGH confidence** [3][4]\n\nXRP experienced $17.6 million in spot ETF inflows on April 15, contributing to cumulative inflows of $1.25 billion since SEC lawsuit resolution and coinciding with a 4% price increase, as Bitcoin and Ethereum prices stalled or wobbled.[3][4] This development anchors",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "XRP Up or Down - April 18, 6:00AM-6:05AM ET",
-        "Will the price of Bitcoin be above $74,000 on April 21?",
-        "Ethereum Up or Down - April 18, 6:00AM-6:05AM ET"
-      ],
-      "action": "WATCH",
+      "headline": "Elon Musk Tweet Count Markets Trending with 17% Odds for 1240-1279 in April | NO mispriced calls or tips specified | MED",
+      "raw": "Elon Musk Tweet Count Markets Trending with 17% Odds for 1240-1279 in April | NO mispriced calls or tips specified | MED confidence**\n\nTweet markets on Polymarket, with 22-30 active options and $18.1M volume, highlight \"Elon Musk # tweets April 14 - April 21, 2026?\" and full-month April tally at 17% for 1240-1279 range, suggesting X traders are posting on Musk's posting habits as a pop culture bet",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 2,
-    "watch": 1,
+    "alert": 3,
+    "watch": 0,
     "high_conf": 1
   }
 }
