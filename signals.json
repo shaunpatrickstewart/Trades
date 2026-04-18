@@ -1,43 +1,49 @@
 {
-  "last_scan": "2026-04-18T14:05:41.014871+00:00",
-  "scan_seconds": 33.0,
+  "last_scan": "2026-04-18T14:08:28.227653+00:00",
+  "scan_seconds": 24.4,
   "markets_scanned": 47,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776521118821_0",
-      "timestamp": "2026-04-18T14:05:18.821358+00:00",
+      "id": "sig_1776521292692_0",
+      "timestamp": "2026-04-18T14:08:12.692523+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran closes Strait of Hormuz again after one day** | YES | HIGH confidence",
-      "raw": "Iran closes Strait of Hormuz again after one day** | YES | HIGH confidence\n\nIran's military confirmed Saturday morning that the Strait of Hormuz has **\"returned to its previous state\"** of closure, reversing the country's reopening announcement from Friday.[7] This move followed President Trump's declaration that the U.S. blockade on Iranian ports would remain in effect despite Iran's good-faith g",
+      "headline": "Iran announces Strait of Hormuz \"completely open\" amid US blockade and ceasefire, but with conflicting claims on permane",
+      "raw": "Iran announces Strait of Hormuz \"completely open\" amid US blockade and ceasefire, but with conflicting claims on permanence and control | YES | MED confidence**[1][2]\n\nIranian Foreign Minister Abbas Araghchi posted on X that maritime traffic through the Strait of Hormuz is \"declared completely open for the remaining period of ceasefire,\" linked to the US-brokered Israel-Lebanon ceasefire, promptin",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
+        "US x Iran permanent peace deal by April 22, 2026?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776521118827_1",
-      "timestamp": "2026-04-18T14:05:18.827904+00:00",
+      "id": "sig_1776521297294_0",
+      "timestamp": "2026-04-18T14:08:17.294870+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market implications:** Nearly 20% of the world's oil passes through the Strait of Hormuz daily",
-      "raw": "Market implications:** Nearly 20% of the world's oil passes through the Strait of Hormuz daily.[1] When Iran announced the Friday reopening, oil prices fell 9% and the Dow surged as much as 1,100 points, but this closure reversal likely triggers renewed volatility in energy markets and equities. Data firm Kpler warned it could take \"months, not weeks\" to return to normal operations.[1]\n\nThe confli",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
+      "headline": "NO | LOW confidence",
+      "raw": "NO | LOW confidence\n\nNo breaking news as of April 18, 2026, confirms, announces, or resolves Sarah Huckabee Sanders as Donald Trump's Republican VP pick; JD Vance was selected as Trump's 2024 running mate on July 15, 2024, and the Trump-Vance ticket won the election.[3] Sanders has repeatedly expressed commitment to her role as Arkansas governor, stating she loves the job, plans to serve seven mor",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Donald Trump post 100-119 Truth Social posts from April 21 to April 28, 202",
+        "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776521131308_0",
-      "timestamp": "2026-04-18T14:05:31.308619+00:00",
+      "id": "sig_1776521302312_0",
+      "timestamp": "2026-04-18T14:08:22.312470+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]",
-      "raw": "Ethereum Price Rally to $6K Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence** [3]\n\nEthereum has surged significantly, hitting $6K as of April 18, 2026, driven by the **Pectra (Prague-Electra) Upgrade** entering its final testing phase, which promises wallet abstraction and validator efficiency improvements.[3] This coincides with **spot Ethereum ETF inflows** reachin",
+      "headline": "ETH Hits $6K on Apr 18 Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence**[4]",
+      "raw": "ETH Hits $6K on Apr 18 Amid Pectra Upgrade Final Testing & Record ETF Inflows | YES | HIGH confidence**[4]\n\nEthereum price surged to $6K as of April 18, 2026, driven by massive institutional demand, Spot ETH ETF inflows at all-time highs, and the Pectra (Prague-Electra) Upgrade entering final testing\u2014enhancing wallet abstraction, validator efficiency, and Layer 2 TVL milestones on Base/Arbitrum[4]",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
         "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
@@ -46,27 +52,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776521140012_0",
-      "timestamp": "2026-04-18T14:05:40.012599+00:00",
-      "source": "PERPLEXITY",
-      "headline": "South Korea March 2026 Inflation Confirmed at 2",
-      "raw": "South Korea March 2026 Inflation Confirmed at 2.16-2.2% YoY, Up from 2.0% in Feb but Below 2.4% Forecasts | YES | HIGH confidence** [1][2][4]\n\nSouth Korea's annual inflation rate for March 2026 rose to 2.16% (RateInflation) or 2.2% (Trading Economics), from 2.0% in February, driven by a 0.34% monthly CPI increase to 118.8; this missed market expectations of 2.4% and aligns with the Bank of Korea's",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
+    "enter": 1,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
