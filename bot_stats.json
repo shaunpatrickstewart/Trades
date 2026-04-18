@@ -1,6 +1,8 @@
 {
-  "last_updated": "2026-04-18T16:06:27.840170+00:00",
+  "last_updated": "2026-04-18T16:22:28.655792+00:00",
   "bankroll": 0,
+  "starting_bankroll": 0,
+  "organic_pnl": 0,
   "engines": {
     "UNKNOWN": {
       "won": 0,
@@ -9,44 +11,10 @@
       "pnl": 0.0
     }
   },
-  "registry": {
-    "NEAR_CERTAIN": {
-      "platform": "polymarket",
-      "engine_type": "nc",
-      "enabled": true
-    },
-    "SHORT_TERM": {
-      "platform": "polymarket",
-      "engine_type": "st",
-      "enabled": true
-    },
-    "LONG_TERM": {
-      "platform": "polymarket",
-      "engine_type": "lt",
-      "enabled": false
-    },
-    "ANTI_NC": {
-      "platform": "polymarket",
-      "engine_type": "anti_nc",
-      "enabled": false
-    },
-    "KALSHI_NC": {
-      "platform": "kalshi",
-      "engine_type": "nc",
-      "enabled": true
-    },
-    "KALSHI_ST": {
-      "platform": "kalshi",
-      "engine_type": "st",
-      "enabled": true
-    }
-  },
   "total_trades": 1,
   "win_streak": 0,
-  "starting_bankroll": 0,
-  "organic_pnl": 0,
-  "daily_log": [],
   "true_realized_pnl": 0,
   "open_capital_deployed": 5.0,
-  "post_filter_pnl": 0
+  "post_filter_pnl": 0,
+  "daily_log": []
 }
