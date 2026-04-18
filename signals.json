@@ -1,15 +1,30 @@
 {
-  "last_scan": "2026-04-18T07:35:49.481152+00:00",
-  "scan_seconds": 35.4,
+  "last_scan": "2026-04-18T07:38:49.160845+00:00",
+  "scan_seconds": 41.9,
   "markets_scanned": 43,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776497738414_2",
-      "timestamp": "2026-04-18T07:35:38.414392+00:00",
+      "id": "sig_1776497906403_0",
+      "timestamp": "2026-04-18T07:38:26.403460+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Whale Bets, Smart Money Moves, or Mispriced Markets Reported in Real-Time | NO | HIGH confidence**",
-      "raw": "No Whale Bets, Smart Money Moves, or Mispriced Markets Reported in Real-Time | NO | HIGH confidence**  \nSearch results lack specifics on X posts about whale activity, tips, or mispriced markets like \"Trump announces US x Iran ceasefire broken by...?\" or \"\ud835\udd4f Money launched by...?\"; trending focuses on geopolitical and tech/tweet volumes without confirmed resolutions or announcements shifting odds.[1",
+      "headline": "South Korea March 2026 annual CPI inflation confirmed at 2",
+      "raw": "South Korea March 2026 annual CPI inflation confirmed at 2.16% (up from 2.00% in Feb), updated April 2, 2026** | NO | MED confidence[2]\n\nSouth Korea's Statistics Korea released March 2026 CPI data showing year-over-year **annual inflation at 2.16%**, a 0.16-point rise from February's 2.00%, with month-to-month inflation at 0.34% (CPI: 118.8); next update due May 6, 2026[2]. No releases since April",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776497911919_1",
+      "timestamp": "2026-04-18T07:38:31.919725+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Bets Surge in Tweet Markets** | NO | MED confidence[4]",
+      "raw": "Elon Musk Tweet Count Bets Surge in Tweet Markets** | NO | MED confidence[4]\n\nHigh-volume Tweet Markets include **\"Elon Musk # tweets April 10 - April 17, 2026?\"** at 88% for 300-319 tweets ($28.4M vol across 22-28 markets) and **\"April 14 - April 21, 2026?\"** markets, indicating active trading on Musk's X activity with continuous price updates from trader sentiment[3][4]. These suggest potential ",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
@@ -18,11 +33,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776497738408_0",
-      "timestamp": "2026-04-18T07:35:38.408022+00:00",
+      "id": "sig_1776497911916_0",
+      "timestamp": "2026-04-18T07:38:31.916503+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Dominates X Predictions on Polymarket | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Market Dominates X Predictions on Polymarket | NO | HIGH confidence**  \nPolymarket's X predictions page shows 1346-1347 active markets as of April 17, 2026, with the top market \"Iran x Israel/US conflict ends by...?\" at 97% odds for December 31, reflecting heavy trader focus amid $121M volume; no direct X posts from traders cited, but real-time odds indicate strong convic",
+      "headline": "Iran x Israel/US Conflict Market Dominates X Predictions Activity** | NO | HIGH confidence[1]",
+      "raw": "Iran x Israel/US Conflict Market Dominates X Predictions Activity** | NO | HIGH confidence[1]\n\nPolymarket's X predictions page shows 1346-1347 active markets with over $121M volume, led by **\"Iran x Israel/US conflict ends by...?\"** at 97% odds for December 31, signaling traders' strong consensus on prolonged conflict rather than quick resolution[1]. No direct X posts from traders are detailed in ",
       "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [],
@@ -31,146 +46,131 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776497722135_0",
-      "timestamp": "2026-04-18T07:35:22.135638+00:00",
+      "id": "sig_1776497901378_0",
+      "timestamp": "2026-04-18T07:38:21.378925+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results.\n\nThe search results contain information about the **Kerala Legislative Assembly elections held on April 9, 2026**\u2014which occurred 9 days ago relative to the current date (April 18, 2026). This is historical election coverage, not breaking news.\n\nThe results discuss:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776497722138_1",
-      "timestamp": "2026-04-18T07:35:22.138795+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Pre-election seat-sharing arrangements** (Congress 95 seats, IUML 27 seats, Kerala Congress 8 seats)[1][4]",
-      "raw": "**Pre-election seat-sharing arrangements** (Congress 95 seats, IUML 27 seats, Kerala Congress 8 seats)[1][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776497722141_2",
-      "timestamp": "2026-04-18T07:35:22.141669+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Campaign issues** including a communal campaign controversy against an IUML woman candidate[5]",
-      "raw": "**Campaign issues** including a communal campaign controversy against an IUML woman candidate[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776497722144_3",
-      "timestamp": "2026-04-18T07:35:22.144724+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**BJP's election manifesto promises**[7]",
-      "raw": "**BJP's election manifesto promises**[7]\n\nAdditionally, **there is no connection between Donald Trump and the Kerala Legislative Assembly elections** in these results. The single mention of Trump concerns U.S. foreign policy regarding the Strait of Hormuz[7], which is unrelated to Kerala politics or the Indian Union Muslim League.\n\nTo provide prediction market-moving information, I would need:",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776497732465_0",
-      "timestamp": "2026-04-18T07:35:32.465412+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results lack any April 18 developments; most recent is March data and April 10 rate hold)[1][",
-      "raw": "Confidence: HIGH** (search results lack any April 18 developments; most recent is March data and April 10 rate hold)[1][4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776497738411_1",
-      "timestamp": "2026-04-18T07:35:38.411120+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Counts Lead Tweet Markets Activity | NO | MED confidence**",
-      "raw": "Elon Musk Tweet Counts Lead Tweet Markets Activity | NO | MED confidence**  \n\"Elon Musk # tweets April 10 - April 17, 2026?\" hits 88% odds for 300-319 tweets with $13M-$28.4M volume across 22-28 markets; \"Nikita Bier out as Head of Product at X by June 30?\" at just 7% suggests low trader bet on internal X shakeups.[1][4]",
+      "headline": "**Bitcoin**: Holds $71K-$76K range amid whale accumulation, profit booking, and ETF support; down 19% YTD from 2025 high",
+      "raw": "**Bitcoin**: Holds $71K-$76K range amid whale accumulation, profit booking, and ETF support; down 19% YTD from 2025 highs.[2][3]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776497738417_3",
-      "timestamp": "2026-04-18T07:35:38.417379+00:00",
+      "id": "sig_1776497901381_1",
+      "timestamp": "2026-04-18T07:38:21.381927+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted to Move Markets | NO | HIGH confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted to Move Markets | NO | HIGH confidence**  \nNo breaking confirmations (e.g., ceasefires, launches) in results; markets like \"Russia x Ukraine ceasefire by April 30, 2026?\" remain open without resolution signals as of April 17 data.[1][2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776497749468_0",
-      "timestamp": "2026-04-18T07:35:49.468729+00:00",
-      "source": "X_GROK",
-      "headline": "Esports whales dominating Polymarket chatter today (April 18, 2026 matches)",
-      "raw": "Esports whales dominating Polymarket chatter today (April 18, 2026 matches).**[[1]](https://x.com/i/status/2045405170948006185)[[2]](https://x.com/i/status/2045399351304876527)[[3]](https://x.com/i/status/2045395270448427056)[[4]](https://x.com/i/status/2045394977618841825)[[5]](https://x.com/i/status/2045394977526628805)[[6]](https://x.com/i/status/2045391459814195450)[[7]](https://x.com/i/status",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045405170948006185)[[2]](https://x.com/i/status/2045399351304876527)[[3]](https://x.com/i/status/2045395270448427056)[[4]](https://x.com/i/status/2045394977618841825)[[5]](https://x.com/i/status/2045394977526628805)[[6]](https://x.com/i/status/2045391459814195450)[[7]](https://x.com/i/status/2045391161766842749)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776497749471_1",
-      "timestamp": "2026-04-18T07:35:49.471809+00:00",
-      "source": "X_GROK",
-      "headline": "**$130k whale buy on Xtreme Gaming win** (Dota 2: vs NaVi BO3, PGL Wallachia, imminent)",
-      "raw": "**$130k whale buy on Xtreme Gaming win** (Dota 2: vs NaVi BO3, PGL Wallachia, imminent). YES for Xtreme (~53% odds). Smart money pile-in suggests mispriced upside. MED confidence.[[6]](https://x.com/i/status/2045391459814195450)",
+      "headline": "**Ethereum**: Up ~50% in early April post-ceasefire (higher beta than BTC); YTD -27%, trading ~$2,200-$2,343 mid-April",
+      "raw": "**Ethereum**: Up ~50% in early April post-ceasefire (higher beta than BTC); YTD -27%, trading ~$2,200-$2,343 mid-April.[1][2][3][4]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Ethereum Up or Down - April 18, 8:45PM-8:50PM ET",
+        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
+        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
+      ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045391459814195450)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776497749474_2",
-      "timestamp": "2026-04-18T07:35:49.474848+00:00",
-      "source": "X_GROK",
-      "headline": "**$106k whale buy on NaVi win** (same Dota 2 match, ~48% odds)",
-      "raw": "**$106k whale buy on NaVi win** (same Dota 2 match, ~48% odds). Counter-bet to above; balanced action. YES for NaVi. LOW-MED confidence (split whales).[[3]](https://x.com/i/status/2045395270448427056)",
-      "direction": "YES",
+      "id": "sig_1776497901384_2",
+      "timestamp": "2026-04-18T07:38:21.384873+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No new resolutions on catalysts like Ethereum ETF staking, Glamsterdam upgrade (June target), or geopolitical escalation",
+      "raw": "No new resolutions on catalysts like Ethereum ETF staking, Glamsterdam upgrade (June target), or geopolitical escalations (e.g., Hormuz).[2][4]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045395270448427056)",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776497901387_3",
+      "timestamp": "2026-04-18T07:38:21.387880+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** \u2013 Search results lack real-time (post-April 17) breaking news; closest events are routine market reac",
+      "raw": "Confidence: HIGH** \u2013 Search results lack real-time (post-April 17) breaking news; closest events are routine market reactions, not prediction-market movers like regulatory approvals or protocol launches.[1][2][3][4][7]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776497929142_0",
+      "timestamp": "2026-04-18T07:38:49.142637+00:00",
+      "source": "X_GROK",
+      "headline": "Recent Polymarket chatter on X (Apr 17-18, 2026):**",
+      "raw": "Recent Polymarket chatter on X (Apr 17-18, 2026):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776497929150_1",
+      "timestamp": "2026-04-18T07:38:49.150636+00:00",
+      "source": "X_GROK",
+      "headline": "**Smart money flip: $119 \u2192 $21k (+17,000% ROI) on Paris temp NOT hitting 18\u00b0C Apr 15",
+      "raw": "**Smart money flip: $119 \u2192 $21k (+17,000% ROI) on Paris temp NOT hitting 18\u00b0C Apr 15.** Trader spotted/capitalized mispriced low-liq market before quick correction. Tip: Hunt illiquid edges early. Means BUY mispriced NOs in weather/low-volume. Confidence: HIGH.[[1]](https://x.com/i/status/2045066547379716123)[[2]](https://x.com/i/status/2045143967596208419)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045066547379716123)[[2]](https://x.com/i/status/2045143967596208419)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776497929153_2",
+      "timestamp": "2026-04-18T07:38:49.153833+00:00",
+      "source": "X_GROK",
+      "headline": "**87% Polymarket wallets lose money; makers earn +1",
+      "raw": "**87% Polymarket wallets lose money; makers earn +1.12%/trade, takers -1.12%.** Data-driven tip: Limit orders (make) over market buys (take) for edge. Means adjust strategy to maker-side across markets. Confidence: HIGH.[[3]](https://x.com/i/status/2045211591700774992)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045211591700774992)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776497929157_3",
+      "timestamp": "2026-04-18T07:38:49.157101+00:00",
+      "source": "X_GROK",
+      "headline": "**Imminent esports bets: Valorant VCT Americas/Pacific matches (MIBR vs LOUD, DRX vs Global) closing in hours",
+      "raw": "**Imminent esports bets: Valorant VCT Americas/Pacific matches (MIBR vs LOUD, DRX vs Global) closing in hours.** Promo buzz, check odds for value. Potential mispricings in niche. Means scout live low-liq games. Confidence: MED.[[4]](https://x.com/i/status/2045392456770798020)[[5]](https://x.com/i/status/2045392257574949183)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045392456770798020)[[5]](https://x.com/i/status/2045392257574949183)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776497929160_4",
+      "timestamp": "2026-04-18T07:38:49.160437+00:00",
+      "source": "X_GROK",
+      "headline": "**Copy-trading push: Tools like @PolyTechTrade to mirror top PM traders",
+      "raw": "**Copy-trading push: Tools like @PolyTechTrade to mirror top PM traders.** Trending for passive alpha without analysis. Means follow whales/smart money flows. Confidence: LOW (promo-heavy).[[6]](https://x.com/i/status/2045027699148620270)\n\nNo big whale bets or major mispriced markets trending now. Focus shifting to PM infra (Hyperliquid HIP-4, lending).[[7]](https://x.com/i/status/2045231220603175",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2045027699148620270)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 12,
+    "enter": 1,
+    "alert": 11,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
