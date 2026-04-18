@@ -1,58 +1,28 @@
 {
-  "last_scan": "2026-04-18T16:43:11.271583+00:00",
-  "scan_seconds": 38.4,
-  "markets_scanned": 38,
+  "last_scan": "2026-04-18T16:46:14.715093+00:00",
+  "scan_seconds": 33.4,
+  "markets_scanned": 36,
   "open_positions": 1,
   "signals": [
     {
-      "id": "sig_1776530582398_3",
-      "timestamp": "2026-04-18T16:43:02.398469+00:00",
+      "id": "sig_1776530773705_1",
+      "timestamp": "2026-04-18T16:46:13.705674+00:00",
       "source": "PERPLEXITY",
-      "headline": "NFT Marketplace Foundation Shuts Down | CONFIRMED | HIGH confidence**",
-      "raw": "NFT Marketplace Foundation Shuts Down | CONFIRMED | HIGH confidence**\n\nA major Ethereum art platform closed after a failed acquisition on April 17[4], highlighting sector consolidation but having limited impact on broader ETH price movements.\n\nThe primary market-moving factor is the **imminent Iran nuclear deal**, which has injected broad risk-on sentiment into cryptocurrency markets[4].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET",
-        "Ethereum Up or Down - April 18, 6:20PM-6:25PM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530573894_0",
-      "timestamp": "2026-04-18T16:42:53.894523+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Congress and IUML finalize seat-sharing: Congress to contest 95 seats, IUML 27 seats in 140-seat Kerala Assembly** | YES",
-      "raw": "Congress and IUML finalize seat-sharing: Congress to contest 95 seats, IUML 27 seats in 140-seat Kerala Assembly** | YES | HIGH confidence[6]\n\nThis agreement resolves ongoing negotiations within the UDF alliance, granting IUML 27 seats\u2014two more than the promised 27 but adjusted from 25 in 2021\u2014based on their local body poll performance[2][6]. IUML had aggressively pushed for 30 seats, including ex",
+      "headline": "Trump Announces US x Iran Ceasefire Broken by",
+      "raw": "Trump Announces US x Iran Ceasefire Broken by...? | NO | HIGH confidence**  \n\"Yes\" shares trade at 99%, implying near-certainty traders expect Trump to announce a US-Iran ceasefire breakdown, a top X market reflecting strong conviction on geopolitical escalation[1]. No confirmed announcements or resolutions yet to shift odds.",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "POLITICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776530582390_0",
-      "timestamp": "2026-04-18T16:43:02.390233+00:00",
+      "id": "sig_1776530753296_0",
+      "timestamp": "2026-04-18T16:45:53.296686+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the most recent search results available (April 17, 2026), here are the confirmed developments moving predictio",
-      "raw": "Based on the most recent search results available (April 17, 2026), here are the confirmed developments moving prediction markets:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776530566928_0",
-      "timestamp": "2026-04-18T16:42:46.928723+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO Israel-Lebanon ceasefire fully ends war | NO | HIGH confidence**",
-      "raw": "NO Israel-Lebanon ceasefire fully ends war | NO | HIGH confidence**  \nIsrael and Lebanon agreed to a 10-day ceasefire, but fighting persists amid gaps over Hezbollah disarmament, with IDF operations ongoing in sectors like Bint Jbeil[1][4][6]. Trump pushed historic direct talks between Netanyahu and Lebanese President Aoun, yet no confirmation or resolution occurred, and Netanyahu insists on real ",
+      "headline": "Trump signals no ceasefire extension with Iran if no deal by Wednesday; declares Strait of Hormuz open amid ongoing bloc",
+      "raw": "Trump signals no ceasefire extension with Iran if no deal by Wednesday; declares Strait of Hormuz open amid ongoing blockade and talks | NO (war not over)** | MED confidence[1][2][4][5]\n\nTrump portrays the Iran war as \"basically over\" and a success, claiming Iran agreed to key US demands like removing enriched uranium, stopping proxy funding (Hamas/Hezbollah), and upcoming talks, while declaring t",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -63,55 +33,77 @@
       "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776530566931_1",
-      "timestamp": "2026-04-18T16:42:46.931805+00:00",
+      "id": "sig_1776530764423_0",
+      "timestamp": "2026-04-18T16:46:04.423399+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO Iran war over | NO | HIGH confidence**",
-      "raw": "NO Iran war over | NO | HIGH confidence**  \nTrump portrays the Iran war as \"basically over\" and a success, but reality shows a protracted standoff with no regime change, ongoing US naval blockade, Iran's Strait of Hormuz closure today, and no formal ceasefire extension[1][2][3][5][6]. Talks continue productively (e.g., in Islamabad), but Trump signals no extension without a deal by Wednesday, reje",
-      "direction": "NO",
+      "headline": "South Korea\u2019s Annual Inflation Rises to 2",
+      "raw": "South Korea\u2019s Annual Inflation Rises to 2.2% in March 2026 | YES | HIGH confidence**  \nSouth Korea's annual inflation rate increased to 2.2% in March 2026 from 2.0% in January and February, below market forecasts of 2.4% but signaling a reversal from the prior five-month slowdown.[2]  \nThis fresh Statistics Korea data, released recently, aligns with the Bank of Korea's updated 2026 forecast of 2.2",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)"
+        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776530582392_1",
-      "timestamp": "2026-04-18T16:43:02.392976+00:00",
+      "id": "sig_1776530773702_0",
+      "timestamp": "2026-04-18T16:46:13.702911+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Uranium Deal Nears Completion | YES | HIGH confidence**",
-      "raw": "US-Iran Uranium Deal Nears Completion | YES | HIGH confidence**\n\nReports indicate the U.S. is nearing a **$20 billion deal for Iran to surrender its uranium stockpile**, with further talks expected this weekend[4]. This geopolitical de-escalation triggered a crypto rally, with Bitcoin reaching $76,370 and Ethereum attracting buyers near $2,400[4]. The resolution of geopolitical tensions is bullish",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | NO | HIGH confidence**  \nPolymarket's X predictions page lists \"Iran x Israel/US conflict ends by...?\" at 35% yes probability, signaling traders view resolution as unlikely soon amid ongoing tensions; this is among top highlighted X-related markets with 1378 active ones and $161.4M volume[1]. No whale bets or X posts on mispricing noted in real-time data.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776530582395_2",
-      "timestamp": "2026-04-18T16:43:02.395822+00:00",
+      "id": "sig_1776530773708_2",
+      "timestamp": "2026-04-18T16:46:13.708742+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Eyes $4,000 by Month-End | YES (56% probability) | MED confidence**",
-      "raw": "Ethereum Eyes $4,000 by Month-End | YES (56% probability) | MED confidence**\n\nEthereum's recent **14% weekly surge** has pushed prediction market odds to 56% YES on Polymarket for hitting $4,000 by April 30[2]. With 16 days remaining in April, traders are betting on continued upward movement tied to potential ceasefire talks[2]. However, this remains speculative and dependent on sustained geopolit",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nMarket at 7% yes, with low trader buy-in on Bier's exit from X, listed under Tech\u00b7Elon Musk topics amid 1376 active X markets[1]. Trending X sentiment leans against, but volume details absent.",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump say \"The War Is Over\" this week? (April 20 - 26)",
-        "Ethereum Up or Down - April 18, 10:15PM-10:20PM ET",
-        "Ethereum Up or Down - April 18, 10:35PM-10:40PM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776530773711_3",
+      "timestamp": "2026-04-18T16:46:13.711352+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**",
+      "raw": "Elon Musk # Tweets April 14-21, 2026 (1240-1279 Range) | NO | HIGH confidence**  \nTweet Markets show 17% for 1240-1279 tweets, most active with $18.1M volume across 22-30 markets; traders price lower ranges higher, updating live on Musk's activity[3][4]. No smart money tips or whale moves specified.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776530773713_4",
+      "timestamp": "2026-04-18T16:46:13.713900+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | MED confidence**  \nTrending at 13% yes with $43.8K volume, indicating skepticism on Nasdaq's 24/7 shift among 167 markets and $3.1M total volume[2]. No recent confirmations driving mispricing claims on X.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 0
   }
 }
