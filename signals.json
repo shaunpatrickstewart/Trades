@@ -1,58 +1,57 @@
 {
-  "last_scan": "2026-04-18T03:51:24.625891+00:00",
-  "scan_seconds": 24.7,
+  "last_scan": "2026-04-18T03:54:06.411464+00:00",
+  "scan_seconds": 22.7,
   "markets_scanned": 48,
   "open_positions": 0,
   "signals": [
     {
-      "id": "sig_1776484283624_0",
-      "timestamp": "2026-04-18T03:51:23.624598+00:00",
+      "id": "sig_1776484430667_0",
+      "timestamp": "2026-04-18T03:53:50.667291+00:00",
       "source": "PERPLEXITY",
-      "headline": "South Korea's annual inflation rises to 2",
-      "raw": "South Korea's annual inflation rises to 2.2% in March 2026 (confirmed via Statistics Korea data)** | **YES** | **HIGH** confidence[1]\n\nThis marks the latest reported figure, up from 2.0% in January and February 2026 but below market forecasts of 2.4%, amid Middle East conflict-driven energy shocks; Bank of Korea held rates at 2.5% last week (6th meeting) and raised its 2026 inflation outlook to 2.",
-      "direction": "YES",
+      "headline": "US-Iran Peace Talks Collapse in Pakistan After 21 Hours; Vance, Kushner, Witkoff Announce Failure** | NO | HIGH confiden",
+      "raw": "US-Iran Peace Talks Collapse in Pakistan After 21 Hours; Vance, Kushner, Witkoff Announce Failure** | NO | HIGH confidence[1][2][3][4]\n\nUS Vice President JD Vance, flanked by Jared Kushner and Steve Witkoff, confirmed on April 12, 2026, that marathon negotiations with Iran in Islamabad ended without a deal, citing Iran's refusal of US demands like zero uranium enrichment, removal of 400kg of 60% e",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will South Korea\u2019s 2026 Annual Inflation be between 2.7% and 2.9%?"
+        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
+        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?",
+        "Will Trump\u2019s approval rating be between 39.0 and 39.4 on April 24, 2026?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "GEOPOLITICS"
     },
     {
-      "id": "sig_1776484278905_0",
-      "timestamp": "2026-04-18T03:51:18.905197+00:00",
+      "id": "sig_1776484440495_0",
+      "timestamp": "2026-04-18T03:54:00.495731+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence**",
-      "raw": "NO | LOW confidence**  \nNo events (e.g., regulatory approvals, upgrades, or partnerships) are reported as newly confirmed; data reflects routine market updates and technical analysis, not actionable resolutions[1][2][3][4][5][6].",
-      "direction": "NO",
-      "confidence": 0.9,
+      "headline": "Confidence: HIGH** (search results lack any post-April 16 updates)",
+      "raw": "Confidence: HIGH** (search results lack any post-April 16 updates).[1][2][3][4][5][6]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776484268773_0",
-      "timestamp": "2026-04-18T03:51:08.773452+00:00",
+      "id": "sig_1776484445410_0",
+      "timestamp": "2026-04-18T03:54:05.410453+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran peace talks in Pakistan collapse after 21 hours; Vance blames Iran for rejecting demands, with Kushner and Witko",
-      "raw": "US-Iran peace talks in Pakistan collapse after 21 hours; Vance blames Iran for rejecting demands, with Kushner and Witkoff blamed for spoiling rapport | NO | HIGH confidence** [1][2][4]\n\nRecent reports confirm US Vice President JD Vance led direct talks with Iranian officials in Islamabad, Pakistan, marking the highest-level US-Iran contact since 1979, but negotiations ended without agreement as I",
+      "headline": "HEADLINE | NO | HIGH confidence**",
+      "raw": "HEADLINE | NO | HIGH confidence**",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will 40 ships transit the Strait of Hormuz on any day by April 30?",
-        "Will Jared Kushner have a diplomatic meeting with Iran by April 30?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "GEOPOLITICS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 2,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
