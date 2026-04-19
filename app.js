@@ -1272,28 +1272,32 @@
     document.getElementById('hdr-updated').textContent =
       'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
     try {
-      const [wallets, allMarkets, forexMarkets, eliteWallets] = await Promise.all([
+      const results = await Promise.allSettled([
         fetchAllWallets(), fetchAllMarkets(), fetchForex(), fetchEliteWallets()
       ]);
+      const wallets      = results[0].status==='fulfilled' ? results[0].value : [];
+      const allMarkets   = results[1].status==='fulfilled' ? results[1].value : [];
+      const forexMarkets = results[2].status==='fulfilled' ? results[2].value : [];
+      const eliteWallets = results[3].status==='fulfilled' ? results[3].value : [];
+
       renderHeaderStats(wallets, allMarkets);
       renderScanner(allMarkets, forexMarkets);
       renderWalletCards();
+      renderOpenTrades();
+      renderAudit();
+      renderSignalsFeed();
 
-      // Copy Signals: use elite wallets (local scrape — real win rates, active filter)
-      // Elite wallets sorted by win_rate × roi × sample quality, only those still trading
       const elitePosResults = await Promise.allSettled(eliteWallets.slice(0,60).map(w=>{
         const addr = w.address||'';
         if (!addr) return Promise.resolve({w, pos:[]});
         return fetchPositions(addr).then(pos=>({w,pos})).catch(()=>({w,pos:[]}));
       }));
-      // Filter: only wallets with at least 1 open position (still actively trading)
       const eliteWalletPositions = elitePosResults
         .filter(r=>r.status==='fulfilled')
         .map(r=>r.value)
         .filter(({pos})=>pos.some(p=>parseFloat(p.curPrice||0)<0.99));
       renderSignals(eliteWalletPositions);
 
-      // Leaderboard: use public API wallets (has names/profiles)
       const lbPosResults = await Promise.allSettled(wallets.slice(0,25).map(w=>{
         const addr = w.proxyWallet||w.address||'';
         if (!addr) return Promise.resolve({w, pos:[]});
@@ -1301,8 +1305,6 @@
       }));
       const walletPositions = lbPosResults.filter(r=>r.status==='fulfilled').map(r=>r.value);
       renderWallets(wallets, walletPositions);
-      // Every other refresh cycle (~60s), also refresh open trades
-      if (_refreshCount % 2 === 0) renderOpenTrades();
     } catch(e) {
       console.error('Refresh error:', e);
       document.getElementById('hdr-updated').textContent = 'Error: '+e.message+' — press R to retry';
