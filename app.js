@@ -293,15 +293,12 @@
     try {
       const BASE = 'https://shaunpatrickstewart.github.io/trades/';
       const bust = '?_w='+Date.now();
-      const [polyTxt, kalshiTxt] = await Promise.all([
-        fetch(BASE+'paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
-        fetch(BASE+'kalshi_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'')
-      ]);
+      const tradesTxt = await fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'');
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const polyTrades = parseJsonl(polyTxt);
-      // Kalshi trades don't carry wallet_owner — default to shaun_kalshi (only active Kalshi wallet)
-      const kalshiTrades = parseJsonl(kalshiTxt).map(t => ({...t, wallet_owner: t.wallet_owner || 'shaun_kalshi'}));
-      const allTrades = polyTrades.concat(kalshiTrades);
+      const allTrades = parseJsonl(tradesTxt).map(t => {
+        if (t.platform === 'kalshi' && !t.wallet_owner) t.wallet_owner = 'shaun_kalshi';
+        return t;
+      });
 
       // Group by wallet_owner — default to "shaun_poly" for legacy trades
       const byWallet = {};
@@ -355,7 +352,7 @@
         const settled = won.length + lost.length;
         const winRate = settled > 0 ? (won.length / settled * 100).toFixed(1) : '—';
         const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
-        const deployed = open.reduce((s,t) => s + (t.paper_bet||0), 0);
+        const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
         const avgWin = won.length ? (won.reduce((s,t)=>s+(t.pnl||0),0)/won.length).toFixed(2) : '0.00';
         const avgLoss = lost.length ? Math.abs(lost.reduce((s,t)=>s+(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
 
@@ -557,7 +554,7 @@
   async function renderOpenTrades() {
     const el = document.getElementById('live-trades');
     try {
-      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/trades.jsonl?v='+Date.now();
       const r = await fetch(TRADES_URL);
       if (!r.ok) throw new Error('HTTP '+r.status);
       const raw = await r.text();
@@ -596,7 +593,7 @@
 
       const open = deduped.filter(t=>t.status==='OPEN');
       // Deployed = only capital currently in open positions
-      const totalBet      = open.reduce((s,t)=>s+(t.paper_bet||0),0);
+      const totalBet      = open.reduce((s,t)=>s+(t.bet_size||0),0);
       const unrealizedPot = open.reduce((s,t)=>s+(t.potential_profit||0),0);
 
       // Header P&L counter shows REALIZED only
@@ -625,7 +622,7 @@
       trades.forEach(t=>{
         const eng = t.type||'UNKNOWN';
         if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0,totalBet:0};
-        const bet = parseFloat(t.paper_bet||0);
+        const bet = parseFloat(t.bet_size||0);
         if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); byEngine[eng].totalBet+=bet; }
         if (t.status==='WON')   { byEngine[eng].won++;  byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
         if (t.status==='LOST')  { byEngine[eng].lost++; byEngine[eng].realPnl+=(t.pnl||0); byEngine[eng].totalBet+=bet; }
@@ -686,7 +683,7 @@
         const cc = confColor(ep);
         const cl = confLabel(ep);
         const profit = (t.potential_profit || 0).toFixed(2);
-        const bet = (t.paper_bet || 0).toFixed(0);
+        const bet = (t.bet_size || 0).toFixed(0);
         const side = (t.outcome||'').toLowerCase() === 'yes' ? '▲ YES' : '▼ NO';
         const sideColor = (t.outcome||'').toLowerCase() === 'yes' ? '#00cc66' : '#ff8844';
         const mkt = esc((t.market || '').slice(0, 42));
@@ -763,7 +760,7 @@
         const resolves = t.end_date || (t.days_left!=null ? 'in '+t.days_left+'d' : '—');
         // Capital button (only for OPEN)
         const capBtn = t.status==='OPEN' && t.slug
-          ? '<button class="cap-btn" data-slug="'+esc(t.slug)+'" data-outcome="'+esc(t.outcome)+'" data-bet="'+(t.paper_bet||5)+'" '+
+          ? '<button class="cap-btn" data-slug="'+esc(t.slug)+'" data-outcome="'+esc(t.outcome)+'" data-bet="'+(t.bet_size||5)+'" '+
             'style="background:#eeeeee;border:1px solid #cccccc;color:#555;padding:2px 6px;cursor:pointer;font-size:0.7em;border-radius:3px">+$</button>'
           : '<span class="dim">—</span>';
 
@@ -773,7 +770,7 @@
           '<td style="max-width:220px">'+esc((t.market||'').slice(0,55))+'</td>'+
           '<td>'+side+'</td>'+
           '<td class="dim">'+(t.entry_price||0).toFixed(3)+'</td>'+
-          '<td>$'+(t.paper_bet||0).toFixed(0)+'</td>'+
+          '<td>$'+(t.bet_size||0).toFixed(0)+'</td>'+
           '<td>'+pnlCell+'</td>'+
           '<td class="hm">'+evH+'</td>'+
           '<td class="dim" style="font-size:0.78em">'+entered+'</td>'+
@@ -833,15 +830,14 @@
       const bust = '?_a='+Date.now();
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const [polyTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
-        fetch(BASE+'paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
-        fetch(BASE+'kalshi_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
-        fetch(BASE+'arb_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+      const [tradesTxt2, cfgJson] = await Promise.all([
+        fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
         fetch(BASE+'config.json'+bust).then(r=>r.ok?r.json():{}).catch(()=>({}))
       ]);
-      const trades = parseJsonl(polyTxt);
-      const kalshiTrades = parseJsonl(kalshiTxt);
-      const arbTrades = parseJsonl(arbTxt);
+      const allRawTrades = parseJsonl(tradesTxt2);
+      const trades = allRawTrades.filter(t => t.platform !== 'kalshi' && t.type !== 'ARB');
+      const kalshiTrades = allRawTrades.filter(t => t.platform === 'kalshi');
+      const arbTrades = allRawTrades.filter(t => t.type === 'ARB');
       const cfg = cfgJson || {};
 
       // ── US Eastern Time helpers (bot operates on ET wall clock)
@@ -889,9 +885,9 @@
       trades.forEach(t=>{
         const e = t.engine || t.type || 'UNKNOWN';
         if (!engines[e]) engines[e] = {w:0,l:0,o:0,bet:0,pnl:0};
-        if (t.status==='WON')  { engines[e].w++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.paper_bet||0); }
-        else if (t.status==='LOST') { engines[e].l++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.paper_bet||0); }
-        else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.paper_bet||0); }
+        if (t.status==='WON')  { engines[e].w++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.bet_size||0); }
+        else if (t.status==='LOST') { engines[e].l++; engines[e].pnl+=(t.pnl||0); engines[e].bet+=(t.bet_size||0); }
+        else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.bet_size||0); }
       });
 
       // ── Bankroll (from bankroll.json + realized PnL)
@@ -902,7 +898,7 @@
       } catch(e) {}
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
       const bankroll = auditInitial + realized;
-      const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.paper_bet||0),0);
+      const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.bet_size||0),0);
 
       // ── Live issues (computed, not cached)
       const issues = [];
@@ -989,7 +985,7 @@
       const deployedByEng = {};
       openTrades.forEach(t => {
         const e = t.engine || t.type || 'UNKNOWN';
-        deployedByEng[e] = (deployedByEng[e]||0) + (t.paper_bet||0);
+        deployedByEng[e] = (deployedByEng[e]||0) + (t.bet_size||0);
       });
       const allocRows = Object.entries(alloc).filter(([k])=>!k.startsWith('_'));
       if (allocRows.length) {
@@ -1014,7 +1010,7 @@
         // Kalshi + Arb lines (separate pools, not in capital_allocation config)
         const kalshiOpen = kalshiTrades.filter(t=>t.status==='OPEN');
         const arbOpen    = arbTrades.filter(t=>t.status==='OPEN');
-        const kalshiDeployed = kalshiOpen.reduce((s,t)=>s+(t.paper_bet||0),0);
+        const kalshiDeployed = kalshiOpen.reduce((s,t)=>s+(t.bet_size||0),0);
         const arbDeployed    = arbOpen.reduce((s,t)=>s+((t.leg_a&&t.leg_a.bet)||0)+((t.leg_b&&t.leg_b.bet)||0),0);
         html += '<div style="display:flex;align-items:center;gap:8px;font-size:0.74em">';
         html += '<span style="min-width:95px;color:#1d9bf0;font-weight:600">KALSHI</span>';
@@ -1114,7 +1110,7 @@
     if (!el) return;
     try {
       const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
-      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/trades.jsonl?_l='+Date.now();
       const [cfgR, tradesR] = await Promise.all([
         fetch(CFG_URL).then(r=>r.json()),
         fetch(TRADES_URL).then(r=>r.text())

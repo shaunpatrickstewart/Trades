@@ -489,8 +489,8 @@
       const BASE = 'https://shaunpatrickstewart.github.io/trades/';
       const bust = '?_w='+Date.now();
       const [polyTxt, kalshiTxt] = await Promise.all([
-        fetch(BASE+'paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
-        fetch(BASE+'kalshi_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'')
+        fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+        fetch(BASE+'kalshi_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'')
       ]);
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
       const polyTrades = parseJsonl(polyTxt);
@@ -752,7 +752,7 @@
   async function renderOpenTrades() {
     const el = document.getElementById('live-trades');
     try {
-      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/trades.jsonl?v='+Date.now();
       const r = await fetch(TRADES_URL);
       if (!r.ok) throw new Error('HTTP '+r.status);
       const raw = await r.text();
@@ -1308,7 +1308,7 @@
     if (!el) return;
     try {
       const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
-      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
+      const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/trades.jsonl?_l='+Date.now();
       const [cfgR, tradesR] = await Promise.all([
         fetch(CFG_URL).then(r=>r.json()),
         fetch(TRADES_URL).then(r=>r.text())
