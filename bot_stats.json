@@ -1,23 +1,17 @@
 {
-  "generated_at": "2026-04-19T15:48:30.211241+00:00",
-  "bankroll": {
-    "initial": 186.2,
-    "current": 186.2,
-    "deployed": 0.0,
-    "available": 186.2,
-    "pnl": 0.0,
-    "roi_pct": 0.0
-  },
-  "trades": {
-    "total": 0,
-    "open": 0,
-    "won": 0,
-    "lost": 0,
-    "win_rate": 0.0,
-    "total_pnl": 0.0
-  },
-  "engines": {},
-  "status": "LIVE \u2014 awaiting signature fix to begin trading",
-  "last_scan": "2026-04-19T15:48:30.211266+00:00",
-  "note": "All paper trading data cleared Apr 20 2026. Live trading only."
+  "last_updated": "2026-04-19T16:00:20.967460+00:00",
+  "bankroll": 186.2,
+  "total_trades": 0,
+  "settled_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate": 0,
+  "win_streak": 0,
+  "starting_bankroll": 186.2,
+  "organic_pnl": 0.0,
+  "true_realized_pnl": 0.0,
+  "open_trades": 0,
+  "open_capital_deployed": 0.0,
+  "post_filter_pnl": 0.0,
+  "engines": {}
 }
