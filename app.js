@@ -3,7 +3,7 @@
 
   const DATA    = 'https://data-api.polymarket.com';
   const GAMMA   = 'https://gamma-api.polymarket.com';
-  const P       = 'https://florida.shaunpatrickstewart.workers.dev/?url=';
+  const P       = 'https://corsproxy.io/?url=';
   const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
   const REFRESH = 30000;
 
@@ -97,10 +97,11 @@
 
   // ── DATA FETCHERS
   async function fetchAllWallets() {
+    const fj = url => fetch(url).then(r=>r.json());
     const [all, month, week] = await Promise.all([
-      pf(DATA+'/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50'),
-      pf(DATA+'/v1/leaderboard?timePeriod=month&orderBy=PNL&limit=50'),
-      pf(DATA+'/v1/leaderboard?timePeriod=week&orderBy=PNL&limit=50'),
+      fj(DATA+'/v1/leaderboard?timePeriod=ALL&orderBy=PNL&limit=50'),
+      fj(DATA+'/v1/leaderboard?timePeriod=month&orderBy=PNL&limit=50'),
+      fj(DATA+'/v1/leaderboard?timePeriod=week&orderBy=PNL&limit=50'),
     ]);
     const map = new Map();
     [...toArr(all),...toArr(month),...toArr(week)].forEach(w=>{
@@ -148,7 +149,7 @@
 
   async function fetchPositions(addr) {
     try {
-      return toArr(await pf(DATA+'/positions?user='+addr+'&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=30'));
+      return toArr(await fetch(DATA+'/positions?user='+addr+'&sizeThreshold=0&sortBy=CASHPNL&sortDirection=DESC&limit=30').then(r=>r.json()));
     } catch(e) { return []; }
   }
 
@@ -316,8 +317,8 @@
       const BASE = 'https://shaunpatrickstewart.github.io/trades/';
       const bust = '?_w='+Date.now();
       const [polyTxt, kalshiTxt] = await Promise.all([
-        fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
-        fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>'')
+        fetch(BASE+'paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+        fetch(BASE+'kalshi_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'')
       ]);
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
       const polyTrades = parseJsonl(polyTxt);
@@ -343,7 +344,7 @@
 
       let liveBankroll = 0;
       try {
-        const brJson = await pf(BASE+'bankroll.json?v='+Date.now());
+        const brJson = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
         liveBankroll = brJson.initial || brJson.current || 0;
       } catch(e) {}
 
@@ -580,7 +581,7 @@
     const el = document.getElementById('live-trades');
     try {
       const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?v='+Date.now();
-      const r = await fetch(P+encodeURIComponent(TRADES_URL));
+      const r = await fetch(TRADES_URL);
       if (!r.ok) throw new Error('HTTP '+r.status);
       const raw = await r.text();
       let text = raw;
@@ -856,10 +857,10 @@
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
       const [polyTxt, kalshiTxt, arbTxt, cfgJson] = await Promise.all([
-        fetch(P+encodeURIComponent(BASE+'paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
-        fetch(P+encodeURIComponent(BASE+'kalshi_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
-        fetch(P+encodeURIComponent(BASE+'arb_paper_trades.jsonl'+bust)).then(r=>r.text()).catch(()=>''),
-        fetch(P+encodeURIComponent(BASE+'config.json'+bust)).then(r=>r.json()).catch(()=>({}))
+        fetch(BASE+'paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+        fetch(BASE+'kalshi_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+        fetch(BASE+'arb_paper_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
+        fetch(BASE+'config.json'+bust).then(r=>r.ok?r.json():{}).catch(()=>({}))
       ]);
       const trades = parseJsonl(polyTxt);
       const kalshiTrades = parseJsonl(kalshiTxt);
@@ -919,7 +920,7 @@
       // ── Bankroll (from bankroll.json + realized PnL)
       let auditInitial = 0;
       try {
-        const brData = await pf(BASE+'bankroll.json?v='+Date.now());
+        const brData = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
         auditInitial = brData.initial || brData.current || 0;
       } catch(e) {}
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
@@ -1138,8 +1139,8 @@
       const CFG_URL = 'https://shaunpatrickstewart.github.io/trades/config.json?_l='+Date.now();
       const TRADES_URL = 'https://shaunpatrickstewart.github.io/trades/paper_trades.jsonl?_l='+Date.now();
       const [cfgR, tradesR] = await Promise.all([
-        fetch(P+encodeURIComponent(CFG_URL)).then(r=>r.json()),
-        fetch(P+encodeURIComponent(TRADES_URL)).then(r=>r.text())
+        fetch(CFG_URL).then(r=>r.json()),
+        fetch(TRADES_URL).then(r=>r.text())
       ]);
       const cfg = cfgR;
       const trades = tradesR.trim().split('\n').filter(Boolean)
@@ -1316,7 +1317,7 @@
     if (!el) return;
     try {
       const SIG_URL = 'https://shaunpatrickstewart.github.io/trades/signals.json?v='+Date.now();
-      const data = await pf(SIG_URL);
+      const data = await fetch(SIG_URL).then(r=>r.json());
       const signals = data.signals || [];
       const stats   = data.stats   || {};
       const scanAge = data.last_scan ? Math.round((Date.now()-new Date(data.last_scan))/60000) : null;
