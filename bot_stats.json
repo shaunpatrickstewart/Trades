@@ -1,23 +1,30 @@
 {
-  "last_updated": "2026-04-19T01:00:16.820875+00:00",
+  "last_updated": "2026-04-19T01:01:09.209986+00:00",
   "bankroll": 0,
-  "engines": {
-    "UNKNOWN": {
-      "won": 1,
-      "lost": 0,
-      "open": 33,
-      "pnl": 0.01,
-      "bets": [
-        5.0
-      ]
-    }
-  },
   "total_trades": 34,
+  "settled_trades": 1,
+  "wins": 1,
+  "losses": 0,
+  "win_rate": 100.0,
   "win_streak": 1,
   "starting_bankroll": 0,
   "organic_pnl": 0.01,
-  "daily_log": [],
   "true_realized_pnl": 0.01,
+  "open_trades": 33,
   "open_capital_deployed": 165.0,
-  "post_filter_pnl": 0.01
+  "post_filter_pnl": 0.01,
+  "engines": {
+    "KALSHI_NC": {
+      "won": 1,
+      "lost": 0,
+      "pnl": 0.01,
+      "open": 13
+    },
+    "KALSHI_ST": {
+      "won": 0,
+      "lost": 0,
+      "pnl": 0.0,
+      "open": 20
+    }
+  }
 }
