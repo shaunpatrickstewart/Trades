@@ -1,42 +1,45 @@
 {
-  "last_updated": "2026-04-20T20:01:22.660915+00:00",
-  "bankroll": 402.63,
-  "total_trades": 32,
-  "settled_trades": 21,
-  "wins": 15,
-  "losses": 6,
-  "win_rate": 71.43,
-  "win_streak": 4,
-  "starting_bankroll": 186.2,
-  "organic_pnl": 35.47,
-  "true_realized_pnl": 35.47,
-  "open_trades": 11,
-  "open_capital_deployed": 142.39,
-  "post_filter_pnl": 35.47,
-  "engines": {
+  "last_updated": "2026-04-20T18:03:14.445879+00:00",
+  "bankroll": 186.2,
+  "engines": {},
+  "registry": {
     "NEAR_CERTAIN": {
-      "won": 5,
-      "lost": 0,
-      "pnl": 0.49,
-      "open": 1
+      "platform": "polymarket",
+      "engine_type": "nc",
+      "enabled": true
     },
     "SHORT_TERM": {
-      "won": 10,
-      "lost": 6,
-      "pnl": 34.980000000000004,
-      "open": 10
+      "platform": "polymarket",
+      "engine_type": "st",
+      "enabled": false
+    },
+    "LONG_TERM": {
+      "platform": "polymarket",
+      "engine_type": "lt",
+      "enabled": false
+    },
+    "ANTI_NC": {
+      "platform": "polymarket",
+      "engine_type": "anti_nc",
+      "enabled": false
+    },
+    "KALSHI_NC": {
+      "platform": "kalshi",
+      "engine_type": "nc",
+      "enabled": true
+    },
+    "KALSHI_ST": {
+      "platform": "kalshi",
+      "engine_type": "st",
+      "enabled": true
     }
   },
-  "today_roi": -1.88,
-  "today_pnl": -1.95,
-  "today_deployed": 103.76,
-  "today_trades": 13,
-  "week_roi": 24.67,
-  "week_pnl": 35.47,
-  "week_deployed": 143.76,
-  "week_trades": 21,
-  "month_roi": 24.67,
-  "month_pnl": 35.47,
-  "month_deployed": 143.76,
-  "month_trades": 21
+  "total_trades": 0,
+  "win_streak": 0,
+  "starting_bankroll": 186.2,
+  "organic_pnl": 0,
+  "daily_log": [],
+  "true_realized_pnl": 0,
+  "open_capital_deployed": 0,
+  "post_filter_pnl": 0
 }
