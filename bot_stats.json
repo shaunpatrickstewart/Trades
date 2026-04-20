@@ -1,8 +1,26 @@
 {
+<<<<<<< HEAD
   "last_updated": "2026-04-20T18:03:14.445879+00:00",
   "bankroll": 186.2,
   "engines": {},
   "registry": {
+=======
+  "last_updated": "2026-04-20T20:11:21.834741+00:00",
+  "bankroll": 402.63,
+  "total_trades": 32,
+  "settled_trades": 21,
+  "wins": 15,
+  "losses": 6,
+  "win_rate": 71.43,
+  "win_streak": 4,
+  "starting_bankroll": 186.2,
+  "organic_pnl": 35.47,
+  "true_realized_pnl": 35.47,
+  "open_trades": 11,
+  "open_capital_deployed": 142.39,
+  "post_filter_pnl": 35.47,
+  "engines": {
+>>>>>>> c783da0 (watchdog: sync trades 20:11)
     "NEAR_CERTAIN": {
       "platform": "polymarket",
       "engine_type": "nc",
