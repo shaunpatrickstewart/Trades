@@ -1,36 +1,64 @@
 {
-  "last_updated": "2026-04-20T01:12:46.448828+00:00",
+  "last_updated": "2026-04-20T01:14:13.917887+00:00",
   "bankroll": 186.2,
-  "total_trades": 10,
-  "settled_trades": 0,
-  "wins": 0,
-  "losses": 0,
-  "win_rate": 0.0,
+  "total_trades": 223,
+  "settled_trades": 213,
+  "wins": 211,
+  "losses": 2,
+  "win_rate": 99.06,
   "win_streak": 0,
   "starting_bankroll": 186.2,
-  "organic_pnl": 0,
-  "true_realized_pnl": 0,
+  "organic_pnl": 46.86,
+  "true_realized_pnl": 46.86,
   "open_trades": 10,
   "open_capital_deployed": 50.0,
-  "post_filter_pnl": 0,
+  "post_filter_pnl": 46.86,
   "engines": {
     "SHORT_TERM": {
-      "won": 0,
-      "lost": 0,
-      "pnl": 0.0,
+      "won": 6,
+      "lost": 2,
+      "pnl": 37.42,
       "open": 10
+    },
+    "NEAR_CERTAIN": {
+      "won": 205,
+      "lost": 0,
+      "pnl": 9.44,
+      "open": 0
     }
   },
-  "today_roi": 0.0,
-  "today_pnl": 0,
-  "today_deployed": 0,
-  "today_trades": 0,
-  "week_roi": 0.0,
-  "week_pnl": 0,
-  "week_deployed": 0,
-  "week_trades": 0,
-  "month_roi": 0.0,
-  "month_pnl": 0,
-  "month_deployed": 0,
-  "month_trades": 0
+  "registry": {
+    "NEAR_CERTAIN": {
+      "platform": "polymarket",
+      "engine_type": "nc",
+      "enabled": true
+    },
+    "SHORT_TERM": {
+      "platform": "polymarket",
+      "engine_type": "st",
+      "enabled": true
+    },
+    "LONG_TERM": {
+      "platform": "polymarket",
+      "engine_type": "lt",
+      "enabled": false
+    },
+    "ANTI_NC": {
+      "platform": "polymarket",
+      "engine_type": "anti_nc",
+      "enabled": false
+    },
+    "KALSHI_NC": {
+      "platform": "kalshi",
+      "engine_type": "nc",
+      "enabled": false
+    },
+    "KALSHI_ST": {
+      "platform": "kalshi",
+      "engine_type": "st",
+      "enabled": false
+    }
+  },
+  "daily_log": [],
+  "_note": "restored from backup; stripped 31 Kalshi phantoms ($0 deposit). NC WON records may include premature signals \u2014 separate audit pending."
 }
