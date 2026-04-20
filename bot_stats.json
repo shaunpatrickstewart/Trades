@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-04-20T01:15:16.599607+00:00",
-  "bankroll": 186.2,
+  "last_updated": "2026-04-20T01:18:18.280376+00:00",
+  "bankroll": 233.06,
   "total_trades": 223,
-  "settled_trades": 213,
-  "wins": 211,
+  "settled_trades": 8,
+  "wins": 6,
   "losses": 2,
-  "win_rate": 99.1,
-  "win_streak": 78,
+  "win_rate": 75.0,
+  "win_streak": 0,
   "starting_bankroll": 186.2,
-  "organic_pnl": 46.86,
-  "true_realized_pnl": 46.86,
-  "open_trades": 10,
-  "open_capital_deployed": 50.0,
-  "post_filter_pnl": 46.86,
+  "organic_pnl": 37.42,
+  "true_realized_pnl": 37.42,
+  "open_trades": 215,
+  "open_capital_deployed": 2775.67,
+  "post_filter_pnl": 37.42,
   "engines": {
     "SHORT_TERM": {
       "won": 6,
@@ -21,10 +21,44 @@
       "open": 10
     },
     "NEAR_CERTAIN": {
-      "won": 205,
+      "won": 0,
       "lost": 0,
-      "pnl": 9.44,
-      "open": 0
+      "pnl": 0.0,
+      "open": 205
     }
-  }
+  },
+  "registry": {
+    "NEAR_CERTAIN": {
+      "platform": "polymarket",
+      "engine_type": "nc",
+      "enabled": true
+    },
+    "SHORT_TERM": {
+      "platform": "polymarket",
+      "engine_type": "st",
+      "enabled": true
+    },
+    "LONG_TERM": {
+      "platform": "polymarket",
+      "engine_type": "lt",
+      "enabled": false
+    },
+    "ANTI_NC": {
+      "platform": "polymarket",
+      "engine_type": "anti_nc",
+      "enabled": false
+    },
+    "KALSHI_NC": {
+      "platform": "kalshi",
+      "engine_type": "nc",
+      "enabled": false
+    },
+    "KALSHI_ST": {
+      "platform": "kalshi",
+      "engine_type": "st",
+      "enabled": false
+    }
+  },
+  "daily_log": [],
+  "_note": "reverted 205 premature NC WONs to OPEN (20260420T011818Z); bot will resolve on next monitor cycle via market.closed check."
 }
