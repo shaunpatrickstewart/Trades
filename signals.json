@@ -1,90 +1,287 @@
 {
-  "last_scan": "2026-04-21T15:36:15.437083+00:00",
-  "scan_seconds": 23.3,
+  "last_scan": "2026-04-21T15:39:16.081640+00:00",
+  "scan_seconds": 40.3,
   "markets_scanned": 61,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776785770091_0",
-      "timestamp": "2026-04-21T15:36:10.091972+00:00",
+      "id": "sig_1776785930865_0",
+      "timestamp": "2026-04-21T15:38:50.865078+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide a breaking news answer based on the search results provided",
-      "raw": "I cannot provide a breaking news answer based on the search results provided. The most recent content available is from **October 29, 2025**, which is nearly six months before the current date of April 21, 2026. This means there is no current information about what Powell or other Fed officials may have announced today or recently.\n\nTo answer your query about breaking news and market-moving announ",
+      "headline": "Based on the search results provided, there is **no breaking news from today (April 21) that has just been confirmed, an",
+      "raw": "Based on the search results provided, there is **no breaking news from today (April 21) that has just been confirmed, announced, or resolved**. The search results contain news from earlier in April 2026, with the most recent dated information being from April 19.\n\nThe key developments referenced in the search results are:",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776785764464_0",
-      "timestamp": "2026-04-21T15:36:04.464173+00:00",
+      "id": "sig_1776785930875_1",
+      "timestamp": "2026-04-21T15:38:50.875104+00:00",
       "source": "PERPLEXITY",
-      "headline": "Speculative hype (e",
-      "raw": "Speculative hype (e.g., XRP to $27K, Ethereum crash/flip in 1-2 months) circulates in YouTube/TikTok but lacks confirmation or resolution.**[1][5] **LOW confidence in market-moving news; sources report April trends (e.g., 2-4% XRP gains, bullish momentum) but no fresh triggers at 3 PM UTC.**[2][3][4][6]",
+      "headline": "Recent confirmed events (prior to today):**",
+      "raw": "Recent confirmed events (prior to today):**",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776785923390_0",
+      "timestamp": "2026-04-21T15:38:43.390426+00:00",
+      "source": "PERPLEXITY",
+      "headline": "# Breaking News Summary",
+      "raw": "# Breaking News Summary\n\nBased on the search results provided, here are the most market-moving developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776785923399_2",
+      "timestamp": "2026-04-21T15:38:43.399601+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kerala Assembly Voting Underway | YES | HIGH confidence**",
+      "raw": "Kerala Assembly Voting Underway | YES | HIGH confidence**\n\nVoting is currently underway in Kerala assembly elections alongside Assam and Puducherry for single-phase polls[4].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776785923404_3",
+      "timestamp": "2026-04-21T15:38:43.404205+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IUML Critical to UDF's Electoral Fortunes | YES | HIGH confidence**",
+      "raw": "IUML Critical to UDF's Electoral Fortunes | YES | HIGH confidence**\n\nThe IUML is contesting 27 seats and roughly contributes 15-20 seats to UDF's tally\u2014approximately one-fifth of seats needed for majority[2]. The party surged to 9.77% statewide vote share in 2025 local body elections, its highest leverage in years[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776785923408_4",
+      "timestamp": "2026-04-21T15:38:43.408819+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Note on Trump/Republican Element:** The search results mention U",
+      "raw": "Note on Trump/Republican Element:** The search results mention U.S. President Donald Trump warning Iran over the Strait of Hormuz[4], but this appears unrelated to Kerala elections and Indian Union Muslim League developments. No Trump-related news directly connects to Kerala legislative assembly outcomes or prediction market movements.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum above 2,245 on April 21, 12PM ET?",
-        "Ethereum above 2,260 on April 21, 12PM ET?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET"
+        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?",
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776785930884_2",
+      "timestamp": "2026-04-21T15:38:50.884182+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**XRP Payment Rail Launch | YES | HIGH confidence** - A payment rail to 44 million Japanese wallets launched on April 15",
+      "raw": "**XRP Payment Rail Launch | YES | HIGH confidence** - A payment rail to 44 million Japanese wallets launched on April 15, 2026, providing real infrastructure adoption[6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776785770096_1",
-      "timestamp": "2026-04-21T15:36:10.096915+00:00",
+      "id": "sig_1776785930889_3",
+      "timestamp": "2026-04-21T15:38:50.889024+00:00",
       "source": "PERPLEXITY",
-      "headline": "Searching for the latest Fed statements or press releases from April 2026",
-      "raw": "Searching for the latest Fed statements or press releases from April 2026",
+      "headline": "**SEC-CFTC Framework | YES | HIGH confidence** - A joint SEC-CFTC framework from March 17 classified XRP as a digital co",
+      "raw": "**SEC-CFTC Framework | YES | HIGH confidence** - A joint SEC-CFTC framework from March 17 classified XRP as a digital commodity alongside Bitcoin and Ethereum[6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776785930898_4",
+      "timestamp": "2026-04-21T15:38:50.898119+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**XRP Touched $1",
+      "raw": "**XRP Touched $1.50 | YES | HIGH confidence** - XRP traded above $1.50 for the first time in 2026 on April 17, though it pulled back to $1.4278 by April 19[6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776785930902_5",
+      "timestamp": "2026-04-21T15:38:50.902669+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Unconfirmed predictions (speculation, not breaking news):**",
+      "raw": "Unconfirmed predictions (speculation, not breaking news):**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776785770101_2",
-      "timestamp": "2026-04-21T15:36:10.101481+00:00",
+      "id": "sig_1776785930907_6",
+      "timestamp": "2026-04-21T15:38:50.907468+00:00",
       "source": "PERPLEXITY",
-      "headline": "Checking current financial news sources for today's announcements",
-      "raw": "Checking current financial news sources for today's announcements",
+      "headline": "Claims of XRP reaching $27,000 are circulating online but lack credible substantiation[1][5]",
+      "raw": "Claims of XRP reaching $27,000 are circulating online but lack credible substantiation[1][5]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776785770106_3",
-      "timestamp": "2026-04-21T15:36:10.106200+00:00",
+      "id": "sig_1776785930912_7",
+      "timestamp": "2026-04-21T15:38:50.912041+00:00",
       "source": "PERPLEXITY",
-      "headline": "Verifying if there was a scheduled FOMC meeting or Powell speech today",
-      "raw": "Verifying if there was a scheduled FOMC meeting or Powell speech today",
+      "headline": "The Polymarket betting contract for XRP above $1",
+      "raw": "The Polymarket betting contract for XRP above $1.80 by April 19 was priced at only 0.2% probability[2]\n\nTo provide breaking news from today specifically, more current search results would be needed.",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776785936902_0",
+      "timestamp": "2026-04-21T15:38:56.902946+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news for April 21, 2026, as the search results provided are from 2025 and earlier, with the mo",
+      "raw": "I cannot provide breaking news for April 21, 2026, as the search results provided are from 2025 and earlier, with the most recent being from December 2025[1]. These sources predate the current date by several months and do not contain any announcements, confirmations, or resolutions from April 2026.\n\nTo answer your query about current market-moving developments involving Powell, tariffs, and infla",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776785758772_0",
-      "timestamp": "2026-04-21T15:35:58.773011+00:00",
+      "id": "sig_1776785941817_0",
+      "timestamp": "2026-04-21T15:39:01.817439+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Claims Iran Deal to Be Signed Tonight Amid Strait of Hormuz Tensions | YES | HIGH confidence** [3]",
-      "raw": "Trump Claims Iran Deal to Be Signed Tonight Amid Strait of Hormuz Tensions | YES | HIGH confidence** [3]\n\nPresident Trump stated on Fox Business' 'Mornings with Maria' today that a deal with Iran \"will be signed tonight,\" as U.S.-Iran tensions escalate following a U.S. Navy seizure of an Iranian-flagged ship and stalled Strait of Hormuz traffic.[3][1][2] This follows Trump's April 20 social media ",
+      "headline": "Cavaliers Advance to NBA Finals by Finishing Raptors Series | YES | HIGH confidence**",
+      "raw": "Cavaliers Advance to NBA Finals by Finishing Raptors Series | YES | HIGH confidence**  \nThe Cleveland Cavaliers have defeated the Toronto Raptors to reach their second straight NBA Finals, facing the Golden State-Oklahoma City series winner on Thursday.[2]  \nNo confirmed news on Cavaliers conference semifinals, Cooper Flagg's status (recently played vs. Raptors in regular season, now questionable ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776785956056_0",
+      "timestamp": "2026-04-21T15:39:16.056728+00:00",
+      "source": "X_GROK",
+      "headline": "BTC Price Outlook on Polymarket:** Odds of BTC dumping to $60k fell to 33%, while pump to $80k rising\u2014bullish signal",
+      "raw": "BTC Price Outlook on Polymarket:** Odds of BTC dumping to $60k fell to 33%, while pump to $80k rising\u2014bullish signal. **YES** for BTC >$80k. Confidence: MED.[[1]](https://x.com/i/status/2046290388684783703)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046290388684783703)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776785956068_1",
+      "timestamp": "2026-04-21T15:39:16.068286+00:00",
+      "source": "X_GROK",
+      "headline": "Iran-US Peace Deal:** 65% chance of permanent deal by June 30",
+      "raw": "Iran-US Peace Deal:** 65% chance of permanent deal by June 30. **YES** implied by crowd odds. Confidence: LOW (market price update).[[2]](https://x.com/i/status/2046063724721738033)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046063724721738033)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776785956072_2",
+      "timestamp": "2026-04-21T15:39:16.072588+00:00",
+      "source": "X_GROK",
+      "headline": "Strait of Hormuz Traffic:** 68% chance returns to normal by end of May",
+      "raw": "Strait of Hormuz Traffic:** 68% chance returns to normal by end of May. **YES** for normalization. Confidence: LOW.[[3]](https://x.com/i/status/2046445939171512503)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046445939171512503)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776785956077_3",
+      "timestamp": "2026-04-21T15:39:16.077081+00:00",
+      "source": "X_GROK",
+      "headline": "Whale Tracking Tools Trending:** Heavy promo for AI bots (Claude: 70% win copying 500+ wallets; Ares insiders page; Tele",
+      "raw": "Whale Tracking Tools Trending:** Heavy promo for AI bots (Claude: 70% win copying 500+ wallets; Ares insiders page; Telegram signals for high-win whales). No specific mispriced markets named, but tips to copy smart money edges. Confidence: MED for tool utility.[[4]](https://x.com/i/status/2046542100078989575)[[5]](https://x.com/i/status/2045923572103659857)[[6]](https://x.com/i/status/204626604934",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046542100078989575)[[5]](https://x.com/i/status/2045923572103659857)[[6]](https://x.com/i/status/2046266049348112466)[[7]](https://x.com/i/status/2045467723153523151)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776785956081_4",
+      "timestamp": "2026-04-21T15:39:16.081416+00:00",
+      "source": "X_GROK",
+      "headline": "Weather Betting Whale:** ColdMath wallet up $101k on temp arbitrages via aviation data edge (ongoing)",
+      "raw": "Weather Betting Whale:** ColdMath wallet up $101k on temp arbitrages via aviation data edge (ongoing). **YES** for similar micro-bets. Confidence: HIGH (verified PnL).[[4]](https://x.com/i/status/2046542100078989575)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046542100078989575)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776785923395_1",
+      "timestamp": "2026-04-21T15:38:43.395094+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IUML Leader Charged with Election Code Violations | YES | HIGH confidence**",
+      "raw": "IUML Leader Charged with Election Code Violations | YES | HIGH confidence**\n\nTirur Police registered a case against IUML state vice-president C P Bava Haji for allegedly offering a 15-day foreign trip to panchayat office-bearers to secure votes for UDF candidate V S Joy in Thavanur constituency[5]. The case was filed under bribery charges and the Representation of People's Act, which could impact ",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?"
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -92,9 +289,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 0,
+    "alert": 19,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
