@@ -1,30 +1,54 @@
 {
-  "last_scan": "2026-04-21T21:47:55.614114+00:00",
-  "scan_seconds": 28.9,
+  "last_scan": "2026-04-21T21:50:43.883555+00:00",
+  "scan_seconds": 29.4,
   "markets_scanned": 70,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776808067523_0",
-      "timestamp": "2026-04-21T21:47:47.523562+00:00",
+      "id": "sig_1776808236727_0",
+      "timestamp": "2026-04-21T21:50:36.727702+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Win Playoff Opener 107-98 Over Rockets Despite Short-Handed Roster | YES (Boosts Series Win Odds) | HIGH confiden",
-      "raw": "Lakers Win Playoff Opener 107-98 Over Rockets Despite Short-Handed Roster | YES (Boosts Series Win Odds) | HIGH confidence**  \nLuke Kennard scored a playoff career-high 27 points and LeBron James added 19 points with 13 assists to lead the Lakers to a surprising victory over the Houston Rockets in Game 1 of their first-round series on April 19, capitalizing on Kevin Durant's injury absence.[1]  \nT",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES | HIGH confidence** [1][3][6]",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | YES | HIGH confidence** [1][3][6]\n\nThe Cleveland Cavaliers won Game 2 of their Eastern Conference first-round playoff series against the Toronto Raptors on Monday, April 20, 2026, by a score of 115-105 at Rocket Mortgage Arena, securing a commanding 2-0 lead.[1][3][6] Donovan Mitchell and James Harden led Cleveland's backcourt, wit",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776808242873_0",
+      "timestamp": "2026-04-21T21:50:42.873384+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Market Resolved at 220-239 | YES (100%) | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Market Resolved at 220-239 | YES (100%) | HIGH confidence**  \nPolymarket's most active market, \"Elon Musk # tweets April 14 - April 21, 2026?\", has reached 100% odds on the 220-239 range, indicating resolution or near-certainty as the April 21 deadline hits, with over $28M in volume across 20+ tweet markets[3][4].  \nThis pop culture bet, previously at 70% for 220-239, reflect",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776808242882_1",
+      "timestamp": "2026-04-21T21:50:42.882208+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Active with 165 Live Options | NO specific whale bets or tips | MED confidence**",
+      "raw": "Trending Markets Active with 165 Live Options | NO specific whale bets or tips | MED confidence**  \nPolymarket lists 165 trending markets like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3M+ volume, but no X posts on whale moves, mispriced odds, or smart money tips in current data[1].  \nTweet markets (130-138 active) dominate activity, including Kanye tweet bets, showing crowd sentiment via",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 0,
+    "alert": 2,
     "watch": 0,
     "high_conf": 1
   }
