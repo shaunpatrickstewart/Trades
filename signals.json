@@ -1,219 +1,29 @@
 {
-  "last_scan": "2026-04-21T16:04:15.925865+00:00",
-  "scan_seconds": 49.0,
-  "markets_scanned": 60,
+  "last_scan": "2026-04-21T16:06:57.570039+00:00",
+  "scan_seconds": 22.3,
+  "markets_scanned": 59,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776787415430_0",
-      "timestamp": "2026-04-21T16:03:35.430436+00:00",
+      "id": "sig_1776787600912_0",
+      "timestamp": "2026-04-21T16:06:40.912909+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on current information, here are the key confirmed developments:",
-      "raw": "Based on current information, here are the key confirmed developments:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787415449_4",
-      "timestamp": "2026-04-21T16:03:35.449618+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran-Hormuz Strait Status Uncertain | MIXED | MED confidence**",
-      "raw": "Iran-Hormuz Strait Status Uncertain | MIXED | MED confidence**\n\nIran initially announced the Hormuz Strait was completely open during the truce, then closed it the next day in response to U.S. refusal to lift its naval blockade[1]. Current status remains contested as negotiations continue[4].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787415435_1",
-      "timestamp": "2026-04-21T16:03:35.435699+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Israel-Lebanon Ceasefire Largely Holding Despite Violations | YES | HIGH confidence**",
-      "raw": "Israel-Lebanon Ceasefire Largely Holding Despite Violations | YES | HIGH confidence**\n\nThe U.S.-brokered 10-day ceasefire between Israel and Hezbollah, which began on April 16, 2026, is largely intact as of April 21. No rockets have been fired from Lebanon across the border since the ceasefire took effect[2]. However, there have been isolated incidents: two IDF soldiers were killed and several wou",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787415440_2",
-      "timestamp": "2026-04-21T16:03:35.440345+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Direct Israel-Lebanon Peace Talks Scheduled | YES | HIGH confidence**",
-      "raw": "Direct Israel-Lebanon Peace Talks Scheduled | YES | HIGH confidence**\n\nIsraeli and Lebanese representatives are set to hold talks in Washington at the State Department, marking the first such direct discussion since the ceasefire took effect[4]. This represents the first direct diplomatic engagement between the two countries in decades[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787415444_3",
-      "timestamp": "2026-04-21T16:03:35.444916+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ceasefire Set to Expire April 22 | YES | HIGH confidence**",
-      "raw": "Ceasefire Set to Expire April 22 | YES | HIGH confidence**\n\nThe 10-day ceasefire is scheduled to expire at 8:00 PM Eastern time on Wednesday, April 22[4]. Israeli military remains on high alert and fully ready to resume fighting if the ceasefire collapses or expires without extension[2]. The agreement includes provisions for extending the ceasefire by mutual agreement if progress is made in negoti",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "GEOPOLITICS"
-    },
-    {
-      "id": "sig_1776787420792_0",
-      "timestamp": "2026-04-21T16:03:40.792897+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump's endorsements target Indiana Senate primaries on May 5 against GOP senators opposing his redistricting, testing h",
-      "raw": "Trump's endorsements target Indiana Senate primaries on May 5 against GOP senators opposing his redistricting, testing his party control (e.g., challengers like Paula Copenhagen).[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776787420797_1",
-      "timestamp": "2026-04-21T16:03:40.797291+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Republicans express midterm fears over Senate flips, Trump's low approval among independents, and hopes for a Supreme Co",
-      "raw": "Republicans express midterm fears over Senate flips, Trump's low approval among independents, and hopes for a Supreme Court retirement \"surprise\" like Justice Alito to rally voters.[2][3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776787420801_2",
-      "timestamp": "2026-04-21T16:03:40.801521+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Incumbent GOP senators snubbed by Trump (e",
-      "raw": "Incumbent GOP senators snubbed by Trump (e.g., Sen. Bill Cassidy in Louisiana primary) still reference his policies in ads amid sliding polls.[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776787420805_3",
-      "timestamp": "2026-04-21T16:03:40.805757+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Speculation on Trump escalating against Iran to boost Republican chances, but no confirmed action",
-      "raw": "Speculation on Trump escalating against Iran to boost Republican chances, but no confirmed action.[5]",
+      "headline": "ILTV News Flash \u2013 Ceasefire Violations Struck by IDF; Second Round of Israel-Lebanon Talks Confirmed for Thursday in Was",
+      "raw": "ILTV News Flash \u2013 Ceasefire Violations Struck by IDF; Second Round of Israel-Lebanon Talks Confirmed for Thursday in Washington | NO | MED confidence**  \nThe 10-day Israel-Hezbollah ceasefire, effective since April 16, 2026, remains fragile with IDF strikes today (April 21) on Hezbollah operatives for violations in southern Lebanon, amid ongoing Israeli troop presence and no rockets fired since mi",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776787420809_4",
-      "timestamp": "2026-04-21T16:03:40.809967+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (No matches to \"Will Ty Masterson\" or \"Indian Union Muslim League\" i",
-      "raw": "YES or NO: NO** | **HIGH/MED/LOW confidence: HIGH** (No matches to \"Will Ty Masterson\" or \"Indian Union Muslim League\" in results; all items are previews or analysis, not new resolutions).[1][2][3][4][5][6]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+        "Israel x Hezbollah Ceasefire extended by April 26, 2026?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776787432458_0",
-      "timestamp": "2026-04-21T16:03:52.458458+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CAVALIERS TAKE 2-0 SERIES LEAD WITH GAME 2 VICTORY | CAVALIERS FAVORED | HIGH CONFIDENCE**",
-      "raw": "CAVALIERS TAKE 2-0 SERIES LEAD WITH GAME 2 VICTORY | CAVALIERS FAVORED | HIGH CONFIDENCE**\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 tonight, extending their playoff series lead to 2-0[1]. Donovan Mitchell led the Cavaliers with 30 points, 7 rebounds, and 5 assists, while James Harden added 28 points on efficient shooting (9-14 FG, 3-8 3P)[1]. For Toronto, Scottie Bar",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776787455912_0",
-      "timestamp": "2026-04-21T16:04:15.912040+00:00",
-      "source": "X_GROK",
-      "headline": "BTC Price Markets:** Odds of BTC crashing to $60k fell to 33% while $80k pump odds rise\u2014bullish shift on Polymarket",
-      "raw": "BTC Price Markets:** Odds of BTC crashing to $60k fell to 33% while $80k pump odds rise\u2014bullish shift on Polymarket.[[1]](https://x.com/i/status/2046290388684783703) Means YES for BTC >$80k. Confidence: HIGH (direct market data).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046290388684783703)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776787455916_1",
-      "timestamp": "2026-04-21T16:04:15.916584+00:00",
-      "source": "X_GROK",
-      "headline": "Weather Temperature Bets:** Multiple whales (e",
-      "raw": "Weather Temperature Bets:** Multiple whales (e.g., ColdMath $101k profit, London meteorologist +2200% ROI) exploiting aviation/sensor data edges; copy via bots like PolyClaw/Claude.[[2]](https://x.com/i/status/2045923572103659857)[[3]](https://x.com/i/status/2045995140645314773)[[4]](https://x.com/i/status/2046542100078989575)[[5]](https://x.com/i/status/2045982538187817169) Means YES on data-back",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045923572103659857)[[3]](https://x.com/i/status/2045995140645314773)[[4]](https://x.com/i/status/2046542100078989575)[[5]](https://x.com/i/status/2045982538187817169)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776787455921_2",
-      "timestamp": "2026-04-21T16:04:15.921062+00:00",
-      "source": "X_GROK",
-      "headline": "MLB Tigers Game:** AI flags Detroit Tigers win at 50",
-      "raw": "MLB Tigers Game:** AI flags Detroit Tigers win at 50.5\u00a2 as mispriced (stats: ERA/WHIP/injuries).[[6]](https://x.com/i/status/2046480413778997329) Means YES on Tigers. Confidence: LOW (promo, imminent game).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046480413778997329)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776787455925_3",
-      "timestamp": "2026-04-21T16:04:15.925649+00:00",
-      "source": "X_GROK",
-      "headline": "General Tip Trending:** Copy profitable Polymarket wallets (e",
-      "raw": "General Tip Trending:** Copy profitable Polymarket wallets (e.g., weather traders 0xb1f8..., ColdMath) via TG bots; 65-70% win rates reported.[[3]](https://x.com/i/status/2045995140645314773)[[7]](https://x.com/i/status/2045851863560364283) Smart money edge on weather/macro. No new whale bets >$100k spotted today.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2045995140645314773)[[7]](https://x.com/i/status/2045851863560364283)",
-      "category": "COMMUNITY"
+      "category": "GEOPOLITICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 15,
+    "enter": 1,
+    "alert": 0,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
