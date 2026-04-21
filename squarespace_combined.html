@@ -197,7 +197,6 @@
   'use strict';
 
   const DATA    = 'https://data-api.polymarket.com';
-  const GAMMA   = 'https://gamma-api.polymarket.com';
   const P       = 'https://corsproxy.io/?url=';
   const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
   const REFRESH = 30000;
@@ -288,7 +287,6 @@
     return { price: pr[bi]||0, outcome: (oc[bi]||'Yes').toUpperCase() };
   }
 
-  const FOREX_RE = /\b(usd|eur|gbp|jpy|cny|cad|aud|nzd|chf|mxn|brl|inr|krw|dollar|euro|pound|yen|yuan|franc|peso|rupee|ruble|won|exchange.?rate|forex|currency|devaluat|xau|gold.price|silver.price|oil.price|bitcoin|ethereum|btc|eth|crypto.price|\busd\/|\beur\/|\bgbp\/|\/usd\b|\/eur\b)/i;
 
   // ── DATA FETCHERS
   async function fetchAllWallets() {
@@ -488,15 +486,12 @@
     try {
       const BASE = 'https://shaunpatrickstewart.github.io/trades/';
       const bust = '?_w='+Date.now();
-      const [polyTxt, kalshiTxt] = await Promise.all([
-        fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>''),
-        fetch(BASE+'kalshi_trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'')
-      ]);
+      const tradesTxt = await fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'');
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
-      const polyTrades = parseJsonl(polyTxt);
-      // Kalshi trades don't carry wallet_owner — default to shaun_kalshi (only active Kalshi wallet)
-      const kalshiTrades = parseJsonl(kalshiTxt).map(t => ({...t, wallet_owner: t.wallet_owner || 'shaun_kalshi'}));
-      const allTrades = polyTrades.concat(kalshiTrades);
+      const allTrades = parseJsonl(tradesTxt).map(t => {
+        if (t.platform === 'kalshi' && !t.wallet_owner) t.wallet_owner = 'shaun_kalshi';
+        return t;
+      });
 
       // Group by wallet_owner — default to "shaun_poly" for legacy trades
       const byWallet = {};
@@ -551,8 +546,6 @@
         const winRate = settled > 0 ? (won.length / settled * 100).toFixed(1) : '—';
         const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
         const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
-        const avgWin = won.length ? (won.reduce((s,t)=>s+(t.pnl||0),0)/won.length).toFixed(2) : '0.00';
-        const avgLoss = lost.length ? Math.abs(lost.reduce((s,t)=>s+(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
 
         const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;
         const walletBankroll = walletInitial + totalPnl;
@@ -1397,8 +1390,8 @@
           status: 'LIVE',
           hypothesis: 'Four AIs in parallel catch bugs single-AI review misses.',
           priority: 'LIVE',
-          result: '4 AIs (Gemma4 + Grok + Perplexity + Anthropic) audit JSONL vs derived files every 6h. Auto-fixes drift.',
-          config: `deep-verify.timer (every 6h). JSONL ground truth.`,
+          result: '4 AIs (Gemma4 + Grok + Anthropic + Claude) audit JSONL vs derived files daily at midnight. Auto-fixes drift.',
+          config: `deep-verify.timer (daily 00:00). JSONL ground truth.`,
         },
       ];
 
@@ -1435,11 +1428,9 @@
 
   // ── MAIN REFRESH
   let _refreshing = false;
-  let _refreshCount = 0;
   async function refresh() {
     if (_refreshing) return;  // guard against overlapping fetches
     _refreshing = true;
-    _refreshCount++;
     document.getElementById('hdr-updated').textContent =
       'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
     try {
