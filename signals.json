@@ -1,40 +1,133 @@
 {
-  "last_scan": "2026-04-21T19:04:50.741147+00:00",
-  "scan_seconds": 17.2,
+  "last_scan": "2026-04-21T19:07:34.029900+00:00",
+  "scan_seconds": 20.7,
   "markets_scanned": 66,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776798289733_0",
-      "timestamp": "2026-04-21T19:04:49.733261+00:00",
+      "id": "sig_1776798453018_0",
+      "timestamp": "2026-04-21T19:07:33.018492+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk # Tweets April 14-21 Market Hits 100% on 220-239 Range | YES | HIGH confidence**",
-      "raw": "Elon Musk # Tweets April 14-21 Market Hits 100% on 220-239 Range | YES | HIGH confidence**  \nPolymarket's most active market as of April 20 shows traders assigning **100% probability** to Elon Musk posting **220-239 tweets** in the April 14-21 period, up from 70% earlier and 86% in related updates, indicating strong consensus likely from confirmed tweet counts nearing resolution by April 21 end.[3",
+      "headline": "Elon Musk Tweet Count Market Hits 100% on 220-239 for April 14-21 | YES | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Market Hits 100% on 220-239 for April 14-21 | YES | HIGH confidence**  \nPolymarket's most active market as of April 20, 2026, is \u201cElon Musk # tweets April 14 - April 21, 2026?,\u201d with traders pricing the 220-239 range at 100% probability, reflecting strong consensus amid real-time updates from new data or events\u2014likely drawing X discussions on potential mispricing or resolutio",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776798289739_1",
-      "timestamp": "2026-04-21T19:04:49.739021+00:00",
+      "id": "sig_1776798440235_0",
+      "timestamp": "2026-04-21T19:07:20.235788+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending Hot on X | YES | MED confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending Hot on X | YES | MED confidence**  \nTraders on Polymarket (and implied X buzz via pop culture focus) are heavily posting about overlapping **Elon Musk tweet volume markets**, including extensions like April 20-22 at 66% for 40-64 tweets, signaling active discussion on **mispriced short-term ranges** as daily data emerges.[4][2] No explicit whale bets or tips ",
+      "headline": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**",
+      "raw": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**\n\nThe SEC has officially dropped its long-running lawsuit against Ripple Labs, removing a regulatory overhang that had suppressed XRP's price potential for years.[1] This resolution represents a fundamental shift in market sentiment and has cleared the path for broader institutional adoption.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776798440242_1",
+      "timestamp": "2026-04-21T19:07:20.242448+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**\n\nRipple has completed the official full-scale launch of its RLUSD stablecoin across both the XRP Ledger and Ethereum, driving a massive influx of capital into the ecosystem.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776798440247_2",
+      "timestamp": "2026-04-21T19:07:20.247272+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**",
+      "raw": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**\n\nXRP Exchange-Traded Fund approvals are in the final stages of authorization, with institutional adoption at all-time highs.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776798440252_3",
+      "timestamp": "2026-04-21T19:07:20.252239+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Technical Breakout: $1",
+      "raw": "Technical Breakout: $1.50 Resistance Breached | YES | HIGH confidence**\n\nXRP has broken decisively above the $1.50 resistance level\u2014a critical psychological milestone that had capped rallies throughout early 2026\u2014and is currently consolidating around $1.42.[1] This represents a nearly 10% gain over the past week and positions the token for potential moves toward $1.60-$1.75 and potentially the $2.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776798440257_4",
+      "timestamp": "2026-04-21T19:07:20.257241+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Record Transaction Volume on XRPL | YES | HIGH confidence**",
+      "raw": "Record Transaction Volume on XRPL | YES | HIGH confidence**\n\nThe XRP Ledger is experiencing record-breaking transaction volume, with central banks increasingly integrating Ripple's payment rails for cross-border settlements.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776798446968_0",
+      "timestamp": "2026-04-21T19:07:26.968497+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Immanuel Quickley Questionable for Game 2 vs Cavaliers | NO confirmed series winner or rookie playoff resolution | HIGH",
+      "raw": "Immanuel Quickley Questionable for Game 2 vs Cavaliers | NO confirmed series winner or rookie playoff resolution | HIGH confidence**  \nThe Cavaliers lead the Raptors 1-0 after a dominant 126-point Game 1 win, with Cleveland favored by 8.5 points for Game 2 and heavily backed to win the series in 5 games (-800 to advance).[1][6]  \nNo new confirmations, announcements, or resolutions today impact ser",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776798453028_2",
+      "timestamp": "2026-04-21T19:07:33.028516+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X Banned in Europe by Dec 31 at 37% with Growing Volume | NO (for ban) | LOW confidence**",
+      "raw": "X Banned in Europe by Dec 31 at 37% with Growing Volume | NO (for ban) | LOW confidence**  \nTwitter-related market on \u201cX banned in any European country by December 31?\u201d trades at 37% yes ($7.2K vol, $17.2K liq), potentially trending on X for **whale bets** or debates over regulatory news\u2014traders may flag it as **about to move** if fresh confirmations emerge.[4]  \n\nNo direct X posts from Polymarket",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776798453023_1",
+      "timestamp": "2026-04-21T19:07:33.023390+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release Before June 2026 Odds at 1% with $14M Volume | NO | MED confidence**",
+      "raw": "GTA VI Release Before June 2026 Odds at 1% with $14M Volume | NO | MED confidence**  \nThis news stories market shows overwhelming trader skepticism (1% yes price) despite massive $14M volume and $58.4K liquidity, ending in about 1 month\u2014could spark X chatter on **smart money** bets against hype or tips that it's **mispriced** low for a delay announcement.[5]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 8,
+    "watch": 1,
+    "high_conf": 0
   }
 }
