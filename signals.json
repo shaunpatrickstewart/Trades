@@ -1,18 +1,20 @@
 {
-  "last_scan": "2026-04-21T10:28:06.480315+00:00",
-  "scan_seconds": 27.8,
-  "markets_scanned": 67,
+  "last_scan": "2026-04-21T10:30:54.078655+00:00",
+  "scan_seconds": 23.3,
+  "markets_scanned": 65,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776767267831_0",
-      "timestamp": "2026-04-21T10:27:47.831672+00:00",
+      "id": "sig_1776767439151_0",
+      "timestamp": "2026-04-21T10:30:39.151084+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kansas Senate President Ty Masterson Announces 2026 Gubernatorial Bid | YES | HIGH confidence**",
-      "raw": "Kansas Senate President Ty Masterson Announces 2026 Gubernatorial Bid | YES | HIGH confidence**  \nTy Masterson, Republican President of the Kansas Senate, announced his candidacy for the 2026 Kansas gubernatorial election on Sunday, April 19, 2026, entering a crowded Republican primary field that includes Jeff Colyer, Vicki Schmidt, and others.[3][2]  \nThis development is reflected in real-time Po",
+      "headline": "Ty Masterson Overhauls Kansas Gubernatorial Campaign with Trump-Aligned National Team | YES (Trump circle backing boosts",
+      "raw": "Ty Masterson Overhauls Kansas Gubernatorial Campaign with Trump-Aligned National Team | YES (Trump circle backing boosts Masterson in KS governor race) | MED confidence** [1][2]\n\nTy Masterson, Kansas Senate President and gubernatorial candidate, has replaced his prior campaign team with Trump 2024 operatives, including consultants like Ryan Smith (linked to Trump's deputy chief of staff) and group",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Donald Trump post 200+ Truth Social posts from April 17 to April 24, 2026?",
         "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?"
       ],
       "action": "ENTER",
@@ -20,39 +22,53 @@
       "category": "POLITICS"
     },
     {
-      "id": "sig_1776767272333_0",
-      "timestamp": "2026-04-21T10:27:52.333826+00:00",
+      "id": "sig_1776767446318_0",
+      "timestamp": "2026-04-21T10:30:46.318864+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no real-time hits for \"right now\" events; oldest result is April 14)",
-      "raw": "Confidence: HIGH** (no real-time hits for \"right now\" events; oldest result is April 14).[1][2]",
-      "direction": "NO",
+      "headline": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 2 rout of Heat | YES (Pacers-Cavs series ongoing, C",
+      "raw": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 2 rout of Heat | YES (Pacers-Cavs series ongoing, Cavs favored to win) | HIGH confidence** [1][2]\n\nGame 2 of the Eastern Conference First Round between the **Cleveland Cavaliers** (1 seed) and Miami Heat (8 seed) concluded with Cavaliers winning 138-83, giving Cleveland a 2-0 series lead as of April 21, 2026[2].  \nThis dominant v",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776767453075_0",
+      "timestamp": "2026-04-21T10:30:53.075952+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Market Dominates Polymarket Activity | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Market Dominates Polymarket Activity | NO | LOW confidence**\n\nPolymarket's most active market as of April 20, 2026, is \"Elon Musk # tweets April 14 - April 21, 2026?\", with the 220-239 range priced at 76% probability and over $10M in volume, indicating strong trader focus amid the week's ongoing count (ending soon).[4][3][2]\n\nTrending markets also feature \"Nasdaq round-the-cl",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776767446323_1",
+      "timestamp": "2026-04-21T10:30:46.323958+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pacers** (4 seed) lead Knicks (3 seed) 1-0 after 125-108 Game 1 win, with Game 2 at 114-105 favoring Pacers[2]",
+      "raw": "Pacers** (4 seed) lead Knicks (3 seed) 1-0 after 125-108 Game 1 win, with Game 2 at 114-105 favoring Pacers[2].  \nNo conference semifinals matchups resolved yet; potential Cavs vs. Pacers if series hold (Pacers up 2-1 on Bucks indirectly via bracket)[2].  \nPrediction markets would shift on Cavs' **85-point margin** (largest playoff blowout recently), boosting their ECF odds per updated brackets[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776767285477_0",
-      "timestamp": "2026-04-21T10:28:05.477980+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Market Dominates Polymarket Activity | NO whale bets or tips reported | MED confidence**",
-      "raw": "Elon Musk Tweet Count Market Dominates Polymarket Activity | NO whale bets or tips reported | MED confidence**\n\nPolymarket's most active market as of April 20, 2026, is \"Elon Musk # tweets April 14 - April 21, 2026?\", with the 220-239 tweets outcome trading at 76% probability and $10M volume[3][1][2]. Traders on X are not directly quoted in results discussing whale bets, smart money moves, or misp",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Donald Trump post 200+ Truth Social posts from April 17 to April 24, 2026?",
-        "Will White House post 180-199 posts from April 17 to April 24, 2026?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 1,
-    "watch": 1,
+    "alert": 3,
+    "watch": 0,
     "high_conf": 1
   }
 }
