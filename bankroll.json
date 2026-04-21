@@ -1,6 +1,6 @@
 {
   "initial": 186.2,
-  "current": 403.27,
+  "current": 403.31,
   "deployed": 162.29,
   "available": 186.2,
   "target_daily_profit": 300,
@@ -16,9 +16,15 @@
       "starting": 212.02,
       "pnl": -0.73,
       "ending": 403.85
+    },
+    {
+      "date": "2026-04-21",
+      "starting": 403.85,
+      "pnl": 0.04,
+      "ending": 403.31
     }
   ],
-  "last_updated": "2026-04-21T03:15:40.204581",
+  "last_updated": "2026-04-21T05:06:24.424673",
   "usdc_free": 264.77,
   "open_position_value": 139.07,
   "_source": "onchain"
