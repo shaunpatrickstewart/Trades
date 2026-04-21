@@ -1,16 +1,48 @@
 {
-  "last_scan": "2026-04-21T19:31:22.959675+00:00",
-  "scan_seconds": 16.0,
+  "last_scan": "2026-04-21T19:33:59.440712+00:00",
+  "scan_seconds": 16.8,
   "markets_scanned": 64,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776799881957_1",
-      "timestamp": "2026-04-21T19:31:21.957739+00:00",
+      "id": "sig_1776800027499_0",
+      "timestamp": "2026-04-21T19:33:47.499373+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye Tweet Market Active Amid Broader Tweet Bets | NO specific whale bets | MED confidence**",
-      "raw": "Kanye Tweet Market Active Amid Broader Tweet Bets | NO specific whale bets | MED confidence**  \n138 live \"Tweet\" markets include \"Will Kanye tweet again by April 30?\" trading at crowd-sourced odds, but no recent X posts on whales, mispriced bets, or tips highlighted in results[3]. Pop Culture tweet markets dominate with dynamic pricing reflecting sentiment, yet lacking confirmed resolutions or ann",
-      "direction": "NO",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst for XRP's April 2026 surge, removing a major regulatory overhang and driving a 10% weekly price gain to ~$1.42 after breaking $1.50 resistance[1]. This resolution shifts market sentiment toward institutional adoption, with XRP's r",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776800032375_0",
+      "timestamp": "2026-04-21T19:33:52.375529+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead | YES | HIGH confidence** [1][2][4]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead | YES | HIGH confidence** [1][2][4]\n\nDonovan Mitchell scored 30 points with 7 rebounds and 5 assists, while James Harden added 28 points on efficient shooting to power Cleveland's wire-to-wire win in Cleveland on April 20, 2026.[1][2][4] Scottie Barnes led Toronto with 26 points and 5 assists, but the Raptors were without injured poi",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776800038438_3",
+      "timestamp": "2026-04-21T19:33:58.438723+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monitor crypto and prediction market news sites for analysis of recent market-moving events",
+      "raw": "Monitor crypto and prediction market news sites for analysis of recent market-moving events\n\nThe search results provided don't include real-time trader sentiment, social media discussions, whale activity alerts, or recently announced events that would affect prediction markets.",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,40 +50,66 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776799881952_0",
-      "timestamp": "2026-04-21T19:31:21.952618+00:00",
+      "id": "sig_1776800027508_1",
+      "timestamp": "2026-04-21T19:33:47.508538+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Market Hits 100% on 220-239 for April 14-21 | YES | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Market Hits 100% on 220-239 for April 14-21 | YES | HIGH confidence**  \nPolymarket's most active market, \"Elon Musk # tweets April 14 - April 21, 2026?\", now prices the 220-239 range at 100\u00a2, implying traders see it as a near-certainty as the period nears its end today[1][2]. This shift from 70% earlier suggests strong conviction or new data like tweet tallies confirming the ",
+      "headline": "Rakuten Wallet Launches XRP Support for 44M Users on April 15 | YES | MED confidence**",
+      "raw": "Rakuten Wallet Launches XRP Support for 44M Users on April 15 | YES | MED confidence**  \nRakuten integrated XRP as a listed asset and payment method, enabling conversion of 3 trillion loyalty points (~$23B) across 44M wallets and 5M merchants, coinciding with XRP's first 2026 $1.50 touch on April 17[2]. No newer confirmations post-April 19, but this enterprise adoption bolsters utility narratives ",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:25AM-8:30AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776800038417_0",
+      "timestamp": "2026-04-21T19:33:58.417758+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the specific real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the specific real-time information you're requesting based on these search results. While the results confirm that Polymarket is an active prediction market platform, they don't contain current breaking news, trader discussions on X (formerly Twitter), specific whale bets, or recently resolved markets as of April 21, 2026.\n\nThe search results show that the most active market is \"E",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776799877139_0",
-      "timestamp": "2026-04-21T19:31:17.139773+00:00",
+      "id": "sig_1776800038427_1",
+      "timestamp": "2026-04-21T19:33:58.427585+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Passes Kon Knueppel as ROY Favorite After 45-Point Statement Game | YES | HIGH confidence**",
-      "raw": "Cooper Flagg Passes Kon Knueppel as ROY Favorite After 45-Point Statement Game | YES | HIGH confidence**  \nFlagg overtook Knueppel in NBA Rookie of the Year odds (-250 vs. +180 on DraftKings) following a 45-point near triple-double on Sunday, marking the first time a rookie since Allen Iverson (and only teenager ever) averaged 45+ points, 5+ rebounds, and 5+ assists over two games[1][2][5].  \nThis",
-      "direction": "YES",
+      "headline": "Visit Polymarket",
+      "raw": "Visit Polymarket.com directly to see live market movements and current odds",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776800038433_2",
+      "timestamp": "2026-04-21T19:33:58.433543+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Check X/Twitter for trader commentary and market discussions",
+      "raw": "Check X/Twitter for trader commentary and market discussions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
