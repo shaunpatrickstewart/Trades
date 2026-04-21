@@ -2,7 +2,6 @@
   'use strict';
 
   const DATA    = 'https://data-api.polymarket.com';
-  const GAMMA   = 'https://gamma-api.polymarket.com';
   const P       = 'https://corsproxy.io/?url=';
   const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
   const REFRESH = 30000;
@@ -93,7 +92,6 @@
     return { price: pr[bi]||0, outcome: (oc[bi]||'Yes').toUpperCase() };
   }
 
-  const FOREX_RE = /\b(usd|eur|gbp|jpy|cny|cad|aud|nzd|chf|mxn|brl|inr|krw|dollar|euro|pound|yen|yuan|franc|peso|rupee|ruble|won|exchange.?rate|forex|currency|devaluat|xau|gold.price|silver.price|oil.price|bitcoin|ethereum|btc|eth|crypto.price|\busd\/|\beur\/|\bgbp\/|\/usd\b|\/eur\b)/i;
 
   // ── DATA FETCHERS
   async function fetchAllWallets() {
@@ -353,8 +351,6 @@
         const winRate = settled > 0 ? (won.length / settled * 100).toFixed(1) : '—';
         const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
         const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
-        const avgWin = won.length ? (won.reduce((s,t)=>s+(t.pnl||0),0)/won.length).toFixed(2) : '0.00';
-        const avgLoss = lost.length ? Math.abs(lost.reduce((s,t)=>s+(t.pnl||0),0)/lost.length).toFixed(2) : '0.00';
 
         const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;
         const walletBankroll = walletInitial + totalPnl;
@@ -1237,11 +1233,9 @@
 
   // ── MAIN REFRESH
   let _refreshing = false;
-  let _refreshCount = 0;
   async function refresh() {
     if (_refreshing) return;  // guard against overlapping fetches
     _refreshing = true;
-    _refreshCount++;
     document.getElementById('hdr-updated').textContent =
       'Updated '+new Date().toLocaleTimeString()+' — next in 30s  |  press R to force refresh';
     try {
