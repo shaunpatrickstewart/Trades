@@ -1195,8 +1195,8 @@
           status: 'LIVE',
           hypothesis: 'Four AIs in parallel catch bugs single-AI review misses.',
           priority: 'LIVE',
-          result: '4 AIs (Gemma4 + Grok + Perplexity + Anthropic) audit JSONL vs derived files every 6h. Auto-fixes drift.',
-          config: `deep-verify.timer (every 6h). JSONL ground truth.`,
+          result: '4 AIs (Gemma4 + Grok + Anthropic + Claude) audit JSONL vs derived files daily at midnight. Auto-fixes drift.',
+          config: `deep-verify.timer (daily 00:00). JSONL ground truth.`,
         },
       ];
 
