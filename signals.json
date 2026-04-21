@@ -1,160 +1,181 @@
 {
-  "last_scan": "2026-04-21T15:45:19.714388+00:00",
-  "scan_seconds": 39.4,
+  "last_scan": "2026-04-21T15:48:14.262638+00:00",
+  "scan_seconds": 37.8,
   "markets_scanned": 61,
   "open_positions": 22,
   "signals": [
     {
-      "id": "sig_1776786286198_0",
-      "timestamp": "2026-04-21T15:44:46.198513+00:00",
+      "id": "sig_1776786484538_0",
+      "timestamp": "2026-04-21T15:48:04.538529+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kansas Republicans override dozens of Gov",
-      "raw": "Kansas Republicans override dozens of Gov. Laura Kelly's vetoes, enacting laws on elections, free speech, welfare, and anti-abortion funding | YES | HIGH confidence**[3]\n\nKansas Republicans in the state legislature successfully overrode a majority of Democratic Gov. Laura Kelly's vetoes at the end of the 2026 session, turning bills into law despite her opposition. Key measures include voter ID enh",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "POLITICS"
-    },
-    {
-      "id": "sig_1776786301895_0",
-      "timestamp": "2026-04-21T15:45:01.895818+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is no breaking news involving a rookie, Cavaliers, and playoff predictions",
-      "raw": "Based on the available search results, there is no breaking news involving a rookie, Cavaliers, and playoff predictions that would move prediction markets.\n\nThe most recent confirmed information is that the **Cleveland Cavaliers lead the Toronto Raptors 2-0** in their first-round series[1], with Donovan Mitchell and James Harden leading the team to a 115-105 Game 2 victory[3]. However, this is not",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead in NBA Playoffs** | NO | HIGH confidence[1][2][6][7]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead in NBA Playoffs** | NO | HIGH confidence[1][2][6][7]\n\nThe Cleveland Cavaliers won Game 2 against the Toronto Raptors on Monday (April 20, 2026), 115-105 at Rocket Mortgage FieldHouse, with Donovan Mitchell scoring 30 points in a dominant performance that tied a Cavaliers postseason record[1][3]. This result, confirmed via post-game r",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776786295280_0",
-      "timestamp": "2026-04-21T15:44:55.280298+00:00",
+      "id": "sig_1776786465715_6",
+      "timestamp": "2026-04-21T15:47:45.715492+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any market-moving confirmation, announcement, or resolution today, as search results lack events pos",
-      "raw": "LOW confidence** in any market-moving confirmation, announcement, or resolution today, as search results lack events post-December 2025 matching the query.",
+      "headline": "My recommendation:**",
+      "raw": "My recommendation:**\n\nTo answer your query accurately, I would need search results from today (April 21, 2026, after 3 PM UTC) containing actual breaking news about these topics. The current results don't provide sufficient information to identify what has been \"just confirmed, announced, or resolved\" in real-time market-moving developments.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776786470831_2",
+      "timestamp": "2026-04-21T15:47:50.831818+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Price predictions for April (SOL $75\u2013$100, ETH $1,800\u2013$2,400) and catalysts like Firedancer, but these are forecasts ami",
+      "raw": "Price predictions for April (SOL $75\u2013$100, ETH $1,800\u2013$2,400) and catalysts like Firedancer, but these are forecasts amid bearish pressure, ETF outflows, and no strong conviction[1][4][5][6].\n\nNo evidence of \"just confirmed\" events (e.g., ETF approvals, outage resolutions, or regulatory wins) in results to shift prediction markets today[1][2][3][4][5][6].",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786465688_0",
+      "timestamp": "2026-04-21T15:47:45.688511+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a meaningful answer to this query based on the available search results",
+      "raw": "I cannot provide a meaningful answer to this query based on the available search results. Here's why:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776786319681_0",
-      "timestamp": "2026-04-21T15:45:19.681989+00:00",
-      "source": "X_GROK",
-      "headline": "Fed Rate Decision Market (Imminent - April 2026 FOMC):**[[1]](https://x",
-      "raw": "Fed Rate Decision Market (Imminent - April 2026 FOMC):**[[1]](https://x.com/i/status/2046615903346024753)[[2]](https://x.com/i/status/2046616161006080227)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046615903346024753)[[2]](https://x.com/i/status/2046616161006080227)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776786319686_1",
-      "timestamp": "2026-04-21T15:45:19.686709+00:00",
-      "source": "X_GROK",
-      "headline": "Whale (@WhalePolymarket alert): Trader 0x7cde",
-      "raw": "Whale (@WhalePolymarket alert): Trader 0x7cde... sold $103k Yes shares (99.3\u00a2) on \"No change in Fed rates after April mtg.\" Signals expectation of rate adjustment. **YES for rate change.** Confidence: MED.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776786319691_2",
-      "timestamp": "2026-04-21T15:45:19.691261+00:00",
-      "source": "X_GROK",
-      "headline": "SPY Weekly Markets (Week of Apr 20, ongoing):**[[3]](https://x",
-      "raw": "SPY Weekly Markets (Week of Apr 20, ongoing):**[[3]](https://x.com/i/status/2046156150341787861)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046156150341787861)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776786319695_3",
-      "timestamp": "2026-04-21T15:45:19.695790+00:00",
-      "source": "X_GROK",
-      "headline": "@Jasonsanxyz (top Polymarket MM): Built model revealing \"ton of mispriced opportunities\" in both directions on SPY weekl",
-      "raw": "@Jasonsanxyz (top Polymarket MM): Built model revealing \"ton of mispriced opportunities\" in both directions on SPY weeklies. **Arbitrage alpha - check options.** Confidence: MED.",
+      "id": "sig_1776786465693_1",
+      "timestamp": "2026-04-21T15:47:45.693025+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Limitations of the search results:**",
+      "raw": "Limitations of the search results:**\n\nThe search results contain only fragmented information that doesn't support actionable breaking news claims:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776786319700_4",
-      "timestamp": "2026-04-21T15:45:19.700258+00:00",
-      "source": "X_GROK",
-      "headline": "Football/Sports Markets (Recent wins):**[[4]](https://x",
-      "raw": "Football/Sports Markets (Recent wins):**[[4]](https://x.com/i/status/2046590785592988058)",
+      "id": "sig_1776786465697_2",
+      "timestamp": "2026-04-21T15:47:45.697599+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Trump and Ty Masterson**: Result [1] discusses Trump's political network supporting Masterson in the Kansas governor's",
+      "raw": "**Trump and Ty Masterson**: Result [1] discusses Trump's political network supporting Masterson in the Kansas governor's race, but this article appears to be from an earlier date in 2026 and doesn't represent breaking news \"right now.\"",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Ty Masterson win the 2026 Kansas Governor Republican primary election?"
+      ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046590785592988058)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776786319704_5",
-      "timestamp": "2026-04-21T15:45:19.704910+00:00",
-      "source": "X_GROK",
-      "headline": "Smart money \"swisstony\": +$45k/day, +$711k Real Madrid, +$570k Athletic Club, etc",
-      "raw": "Smart money \"swisstony\": +$45k/day, +$711k Real Madrid, +$570k Athletic Club, etc. Targets mispriced odds in LaLiga/UCL/EPL. **YES/NO mix on top matches.** Confidence: HIGH (volume/proof).",
-      "direction": "YES",
+      "id": "sig_1776786465702_3",
+      "timestamp": "2026-04-21T15:47:45.702112+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**US-Iran talks**: Result [2] mentions collapsed US-Iran negotiations from April 13, 2026, but this is over a week old r",
+      "raw": "**US-Iran talks**: Result [2] mentions collapsed US-Iran negotiations from April 13, 2026, but this is over a week old relative to the stated current date (April 21, 2026) and doesn't constitute current breaking news.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776786319709_6",
-      "timestamp": "2026-04-21T15:45:19.709501+00:00",
-      "source": "X_GROK",
-      "headline": "Ex-Pinnacle trader: Exploit CLV gaps vs",
-      "raw": "Ex-Pinnacle trader: Exploit CLV gaps vs. composite odds (Pinnacle/Betfair/etc.). Politics/crypto most mispriced (+8.4% politics edge).[[5]](https://x.com/i/status/2046257587130187884)",
-      "direction": null,
+      "id": "sig_1776786465706_4",
+      "timestamp": "2026-04-21T15:47:45.706588+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Kerala Legislative Assembly**: No relevant information appears in the search results",
+      "raw": "**Kerala Legislative Assembly**: No relevant information appears in the search results.",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will the Indian Union Muslim League (IUML) win between 10 and 12 seats in the 20"
+      ],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046257587130187884)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "POLITICS"
     },
     {
-      "id": "sig_1776786319714_7",
-      "timestamp": "2026-04-21T15:45:19.714035+00:00",
-      "source": "X_GROK",
-      "headline": "Track whales via @WhalePolymarket; arb mispricings for $POLY farm",
-      "raw": "Track whales via @WhalePolymarket; arb mispricings for $POLY farm.[[6]](https://x.com/i/status/2046031153098793316)\n\nNo major whale bets or mispriced calls beyond these today. Monitor Fed resolution.[[7]](https://x.com/i/status/2046355017691460030)",
+      "id": "sig_1776786465710_5",
+      "timestamp": "2026-04-21T15:47:45.710917+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Governor race confirmation/announcement**: No new confirmation or announcement is evident in these results that would",
+      "raw": "**Governor race confirmation/announcement**: No new confirmation or announcement is evident in these results that would move prediction markets today.\n\nResults [3], [4], [5], and [6] are vocabulary/word lists with no news value.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046031153098793316)",
-      "category": "COMMUNITY"
+      "x_link": null,
+      "category": "POLITICS"
+    },
+    {
+      "id": "sig_1776786470822_0",
+      "timestamp": "2026-04-21T15:47:50.822718+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Solana's Alpenglow upgrade** (aiming for 150ms finality) and network records (167M token holders, 148M daily transacti",
+      "raw": "**Solana's Alpenglow upgrade** (aiming for 150ms finality) and network records (167M token holders, 148M daily transactions) noted around April 14, with institutional ETF holdings from BlackRock/Fidelity, but no new April 21 updates[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down - April 21, 11:40AM-11:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786470827_1",
+      "timestamp": "2026-04-21T15:47:50.827228+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Interactive Brokers' SOL trading launch** for Europeans via Zero Hash, enabling direct access, yet price remains compr",
+      "raw": "**Interactive Brokers' SOL trading launch** for Europeans via Zero Hash, enabling direct access, yet price remains compressed at ~$80\u2013$83 without breakout[3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776786478402_0",
+      "timestamp": "2026-04-21T15:47:58.402773+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news update you're requesting because the search results available to me are from 2025 and",
+      "raw": "I cannot provide the breaking news update you're requesting because the search results available to me are from 2025 and early 2025, while today's date is April 21, 2026. The most recent content in these results is from October 29, 2025, which is nearly six months old.\n\nTo get current breaking news about Powell, inflation, and tariffs from today, you would need to search current news sources direc",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 9,
+    "enter": 1,
+    "alert": 11,
     "watch": 0,
     "high_conf": 2
   }
