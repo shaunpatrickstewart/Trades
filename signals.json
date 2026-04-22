@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-22T18:44:16.421766+00:00",
-  "scan_seconds": 13.9,
-  "markets_scanned": 54,
+  "last_scan": "2026-04-22T18:45:28.385770+00:00",
+  "scan_seconds": 17.6,
+  "markets_scanned": 52,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776883455418_1",
-      "timestamp": "2026-04-22T18:44:15.418944+00:00",
+      "id": "sig_1776883527376_0",
+      "timestamp": "2026-04-22T18:45:27.376607+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category hosts 168 live options, such as \"Nasdaq round-the-clock trading by June 30",
-      "raw": "Trending Markets** category hosts 168 live options, such as \"Nasdaq round-the-clock trading by June 30?\" with $2.8M volume, but no specific whale bets, smart money moves, mispriced markets, or recent confirmations/announcements are detailed in real-time X posts or resolutions.[1]  \nTweet predictions like \"Will Kanye tweet again by April 30?\" (130 markets) and mention markets (e.g., CS IEM Rio 2026",
-      "direction": "NO",
+      "headline": "Polymarket-X Partnership Officially Launches | YES | HIGH confidence**",
+      "raw": "Polymarket-X Partnership Officially Launches | YES | HIGH confidence**  \nPolymarket and X have announced an official partnership today, integrating Polymarket predictions with X data for live insights, real-time annotations from Grok, and X posts explaining market moves; this is the first product in a suite of integrations, directly impacting X-related prediction markets.[4]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,27 +18,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776883451049_0",
-      "timestamp": "2026-04-22T18:44:11.049752+00:00",
+      "id": "sig_1776883527378_1",
+      "timestamp": "2026-04-22T18:45:27.378617+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after 115-105 Game 2 win** | NO | HIGH confidence[3]",
-      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after 115-105 Game 2 win** | NO | HIGH confidence[3]\n\nDonovan Mitchell scored 30 points, James Harden added 28, and Evan Mobley contributed 25 points with 8 rebounds to secure Cleveland's victory on Monday, marking their second straight win in the series[3]. This result shifts series prediction markets toward Cavaliers advancement",
+      "headline": "Elon Musk Tweet Count Markets Heat Up with High Volume | YES | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Heat Up with High Volume | YES | HIGH confidence**  \nTraders are heavily betting on Elon Musk's X post volume, with the April 23-25 market at $155K volume (trader split ~40% on 65-89 tweets, ~40% on 40-64, based on his ~27 daily average from April 17-24) and April 24-May 1 at $638K; these are among top X predictions drawing conviction amid the new partnership.[1][2][3",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776883455416_0",
-      "timestamp": "2026-04-22T18:44:15.416622+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market assigning an **18-19% probability** to the 1120-1159 tweets outcome amid over $22M in trading volume across related Tweet and Tweet Markets categories.[2][3]  \nThese include ",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -46,12 +31,53 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883527382_3",
+      "timestamp": "2026-04-22T18:45:27.382980+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets or Confirmed Resolutions Reported Right Now | NO | HIGH confidence**",
+      "raw": "No Whale Bets or Confirmed Resolutions Reported Right Now | NO | HIGH confidence**  \nSearch results show no explicit whale moves, smart money tips, mispriced markets, or just-resolved events (e.g., no updates on Iran x Israel/US at 100% or US x Iran meeting at 2%); focus remains on active Elon tweet counts and partnership buzz across 1,399 X markets.[1][2][3][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776883522013_0",
+      "timestamp": "2026-04-22T18:45:22.013528+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CAVS LEAD RAPTORS 2-0 IN EASTERN CONFERENCE FIRST ROUND | YES | HIGH confidence**",
+      "raw": "CAVS LEAD RAPTORS 2-0 IN EASTERN CONFERENCE FIRST ROUND | YES | HIGH confidence**  \nThe Cleveland Cavaliers have secured a 115-105 victory in Game 2 over the Toronto Raptors, taking a 2-0 series lead, with Donovan Mitchell scoring 30 points and James Harden adding 28.[4] Game 3 is scheduled for Thursday, April 23 at 8:00 PM ET in Toronto, where the Raptors are +2.5 favorites with an over/under of ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776883527380_2",
+      "timestamp": "2026-04-22T18:45:27.380885+00:00",
+      "source": "PERPLEXITY",
+      "headline": "X-Specific Markets Trending: Nikita Bier Out as X Head of Product",
+      "raw": "X-Specific Markets Trending: Nikita Bier Out as X Head of Product? | NO | MED confidence**  \nPolymarket's X predictions page highlights low 6% odds on \"Nikita Bier out as Head of Product at X by June 30,\" with trader consensus leaning heavily against amid 1,399 live X markets and $150M+ volume; no whale bets or mispricing calls noted yet, but real-time odds could shift post-partnership.[3]",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 3,
-    "watch": 0,
+    "watch": 2,
     "high_conf": 1
   }
 }
