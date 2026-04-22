@@ -1,28 +1,43 @@
 {
-  "last_scan": "2026-04-22T17:44:31.950770+00:00",
-  "scan_seconds": 21.4,
-  "markets_scanned": 50,
+  "last_scan": "2026-04-22T17:45:41.814003+00:00",
+  "scan_seconds": 21.0,
+  "markets_scanned": 51,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776879854784_0",
-      "timestamp": "2026-04-22T17:44:14.784528+00:00",
+      "id": "sig_1776879926233_2",
+      "timestamp": "2026-04-22T17:45:26.233252+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran Ceasefire Confirmed, Sparking SOL Price Surge to $87 Amid Broader Crypto Relief Rally | YES | MED**",
-      "raw": "Iran Ceasefire Confirmed, Sparking SOL Price Surge to $87 Amid Broader Crypto Relief Rally | YES | MED**  \nAn Iran ceasefire has provided market relief, driving **Solana (SOL)** up ~7% from $78 to $87, with potential to reclaim $85-$93 if momentum holds; this follows Trump's statements impacting prices negatively earlier.[2]",
+      "headline": "**Ethereum's Pectra Upgrade enters final testing phase** | Announced as of April 18, 2026, promising wallet abstraction",
+      "raw": "**Ethereum's Pectra Upgrade enters final testing phase** | Announced as of April 18, 2026, promising wallet abstraction and validator efficiency improvements[5]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776879940807_3",
+      "timestamp": "2026-04-22T17:45:40.807257+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% resolution, likely just confirmed ended, drawing geopolitics trader attention with $12.3K liquidity[2].",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879870934_0",
-      "timestamp": "2026-04-22T17:44:30.934501+00:00",
+      "id": "sig_1776879940796_0",
+      "timestamp": "2026-04-22T17:45:40.796624+00:00",
       "source": "PERPLEXITY",
       "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation soon; no whale bets or X posts noted in real-time data.[1]",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation soon[1].",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
@@ -31,39 +46,82 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879870943_3",
-      "timestamp": "2026-04-22T17:44:30.943356+00:00",
+      "id": "sig_1776879926229_0",
+      "timestamp": "2026-04-22T17:45:26.229122+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES | HIGH confidence**  \nMarket resolved at 100% YES, likely due to recent confirmation; could drive related market shifts, though no specific X whale tips or mispricing calls observed.[2]",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Based on the available search results, I cannot identify any breaking news from today (April 22, 2026) that would move p",
+      "raw": "Based on the available search results, I cannot identify any breaking news from today (April 22, 2026) that would move prediction markets. The most recent dated content in the search results is from April 21, 2026, which shows routine price data rather than announcements.\n\nThe search results contain the following recent developments, but none qualify as breaking news from today:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879859564_0",
-      "timestamp": "2026-04-22T17:44:19.564486+00:00",
+      "id": "sig_1776879926231_1",
+      "timestamp": "2026-04-22T17:45:26.231041+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking US inflation news confirmed, announced, or resolved today (April 22, 2026) that would move prediction market",
-      "raw": "No breaking US inflation news confirmed, announced, or resolved today (April 22, 2026) that would move prediction markets.**[1][2][4]\n\nThe most recent US CPI data (March 2026) was released on April 10, showing headline inflation at 3.3% y/y (vs. 3.4% expected) and 0.9% m/m, driven by a 21.2% gasoline surge from the US-Israel/Iran conflict; core CPI rose 0.2% m/m (benign) and 2.6% y/y.[1][2] No new",
-      "direction": "NO",
+      "headline": "Recent developments (not from today):**",
+      "raw": "Recent developments (not from today):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776879926235_3",
+      "timestamp": "2026-04-22T17:45:26.235160+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Ethereum maintains Proof-of-Stake foundation** | Noted in April 22 analysis as strengthening the network[2]",
+      "raw": "**Ethereum maintains Proof-of-Stake foundation** | Noted in April 22 analysis as strengthening the network[2]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879870936_1",
-      "timestamp": "2026-04-22T17:44:30.936865+00:00",
+      "id": "sig_1776879926237_4",
+      "timestamp": "2026-04-22T17:45:26.237120+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Solana focusing on security enhancements** | Mentioned in April 22 coverage following past exploits[2]",
+      "raw": "**Solana focusing on security enhancements** | Mentioned in April 22 coverage following past exploits[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776879926239_5",
+      "timestamp": "2026-04-22T17:45:26.239096+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current price context (as of April 21, 9 a",
+      "raw": "Current price context (as of April 21, 9 a.m. ET):**\nEthereum was trading at $2,305.04, down $12.76 from the previous day[1].\n\nTo provide the breaking news analysis you're requesting in the HEADLINE | YES/NO | Confidence format, I would need search results containing announcements, confirmations, or resolutions published today. The available results do not contain such material from April 22, 2026",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776879940800_1",
+      "timestamp": "2026-04-22T17:45:40.800132+00:00",
       "source": "PERPLEXITY",
       "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume, reflecting low expectations for launch in 7 days; traders on X not highlighting mispricing or smart money moves per available snapshots.[2]",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-related market at 16% YES odds with $33.6K volume suggests traders doubt imminent launch, amid buzz on Elon Musk tech bets[2].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -72,11 +130,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879870938_2",
-      "timestamp": "2026-04-22T17:44:30.938776+00:00",
+      "id": "sig_1776879940803_2",
+      "timestamp": "2026-04-22T17:45:40.803654+00:00",
       "source": "PERPLEXITY",
       "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with $94.3K volume, suggesting skepticism on crypto surge; no confirmed resolutions or whale activity trending on X.[1]",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending crypto market at 19% YES odds with $94.3K volume reflects skepticism on Monero's price surge this year[1].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -85,67 +143,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879870945_4",
-      "timestamp": "2026-04-22T17:44:30.945385+00:00",
+      "id": "sig_1776879940810_4",
+      "timestamp": "2026-04-22T17:45:40.810699+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | HIGH confidence**  \nAt 7% YES with $1.4K volume, low odds imply stability; part of active X markets but no buzz on impending moves or tips.[2]",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow 7% YES odds with $1.4K volume in X predictions signal minimal expectation of leadership change[2].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776879854786_1",
-      "timestamp": "2026-04-22T17:44:14.786911+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum (ETH)** predictions on Polymarket remain bearish for April, with 96% odds below $2,000 and only 5% above $3,000",
-      "raw": "Ethereum (ETH)** predictions on Polymarket remain bearish for April, with 96% odds below $2,000 and only 5% above $3,000, though one analysis notes ETH repeating a 250% breakout pattern from April 2025 that could lift majors like SOL proportionally.[1][3]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776879854788_2",
-      "timestamp": "2026-04-22T17:44:14.788858+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana** hits record ~167M holders in April (up 12% since Oct 2025), ranking 4th among L1s, plus $34",
-      "raw": "Solana** hits record ~167M holders in April (up 12% since Oct 2025), ranking 4th among L1s, plus $34.9M inflows last week, signaling holder strength despite prior outflows.[2]  \nNo other confirmations, announcements, or resolutions today directly tied to **April**, **Ethereum up**, or prediction markets like Polymarket beyond these; ETF flows were early April and mixed.[4]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776879870947_5",
-      "timestamp": "2026-04-22T17:44:30.947550+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets (e",
-      "raw": "Elon Musk Tweet Volume Markets (e.g., April 2026 Total) | MIXED | LOW confidence**  \nActive markets like \"Elon Musk # tweets in April 2026?\" at 19% for 1120-1159 range with high overall $22M+ volume category; daily ranges (e.g., April 17-24) trading but no X posts on mispriced bins or whales; Kanye tweet by April 30 at 60% YES also notable.[3][4]  \n\nNo breaking confirmations, announcements, or res",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
-    "watch": 3,
-    "high_conf": 1
+    "alert": 11,
+    "watch": 0,
+    "high_conf": 2
   }
 }
