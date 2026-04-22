@@ -1,61 +1,98 @@
 {
-  "last_scan": "2026-04-22T22:37:45.126911+00:00",
-  "scan_seconds": 14.2,
+  "last_scan": "2026-04-22T22:38:59.870488+00:00",
+  "scan_seconds": 28.3,
   "markets_scanned": 45,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776897459455_0",
-      "timestamp": "2026-04-22T22:37:39.455271+00:00",
+      "id": "sig_1776897518677_0",
+      "timestamp": "2026-04-22T22:38:38.678006+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in First Round After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**",
-      "raw": "Lakers Lead Rockets 2-0 in First Round After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**  \nThe Los Angeles Lakers have won Game 1 (107-98) and Game 2 (101-94) against the No. 5 Houston Rockets in the Western Conference first round, taking a 2-0 series lead with home-court advantage as the No. 4 seed.[1][3]  \nGame 3 is scheduled for Friday, April 24 in Houston, with Luka Don",
+      "headline": "Mavs End 14-Game Home Losing Streak with 134-128 Win Over Injury-Depleted Lakers Behind Cooper Flagg's Historic 45 Point",
+      "raw": "Mavs End 14-Game Home Losing Streak with 134-128 Win Over Injury-Depleted Lakers Behind Cooper Flagg's Historic 45 Points | NO | LOW confidence**  \nCooper Flagg scored 45 points, 9 assists, and 8 rebounds\u2014his second straight 40+ point game and fourth such outing as a teenager, surpassing LeBron James' record\u2014powering Dallas to victory on April 5, snapping a 32-year franchise low in home losses[1][",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
         "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
         "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776897455175_0",
-      "timestamp": "2026-04-22T22:37:35.175178+00:00",
+      "id": "sig_1776897538852_0",
+      "timestamp": "2026-04-22T22:38:58.852141+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results lack any April 22 events; price data directly refutes \"up\" narrative)",
-      "raw": "Confidence: HIGH** (search results lack any April 22 events; price data directly refutes \"up\" narrative).[1][3]",
-      "direction": "YES",
+      "headline": "I cannot provide the breaking news and real-time social media discussion you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news and real-time social media discussion you're requesting based on these search results.\n\nThe search results show only general information about Polymarket's platform structure and some market categories (Trending Markets, Tweet predictions, Tweet Markets) as of mid-April 2026, but they do not contain:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776897464121_0",
-      "timestamp": "2026-04-22T22:37:44.121999+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or confirmed announcements reported | LOW co",
-      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or confirmed announcements reported | LOW confidence**  \nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" and \"Elon Musk # tweets April 17 - April 24, 2026?\", with high trading volumes over $20M and the 1120-1159 range priced at 20-21% p",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776897464123_1",
-      "timestamp": "2026-04-22T22:37:44.123916+00:00",
+      "id": "sig_1776897538853_1",
+      "timestamp": "2026-04-22T22:38:58.853870+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending tweet markets** lead activity across 130+ live predictions, including niche ones like \"Will Kanye tweet again b",
-      "raw": "Trending tweet markets** lead activity across 130+ live predictions, including niche ones like \"Will Kanye tweet again by April 30?\", reflecting real-time trader sentiment on pop culture events with continuous odds updates.[3]  \nOther **trending markets** include 168 active ones like \"Nasdaq round-the-clock trading by June 30?\", backed by $3M+ volume, but no specific X posts on whale bets, smart m",
-      "direction": "NO",
+      "headline": "Current X (Twitter) posts from traders or the community",
+      "raw": "Current X (Twitter) posts from traders or the community",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897538855_2",
+      "timestamp": "2026-04-22T22:38:58.855534+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Specific whale trades or large positions being discussed",
+      "raw": "Specific whale trades or large positions being discussed",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897538857_3",
+      "timestamp": "2026-04-22T22:38:58.857209+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market mispricing analysis",
+      "raw": "Real-time market mispricing analysis",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897538858_4",
+      "timestamp": "2026-04-22T22:38:58.858849+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent announcements or resolutions that would move markets",
+      "raw": "Recent announcements or resolutions that would move markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776897538860_5",
+      "timestamp": "2026-04-22T22:38:58.860567+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current sentiment or tips from prediction market participants",
+      "raw": "Current sentiment or tips from prediction market participants\n\nTo get this information, you would need to:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -64,9 +101,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
