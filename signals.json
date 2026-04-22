@@ -1,88 +1,44 @@
 {
-  "last_scan": "2026-04-22T08:32:38.615262+00:00",
-  "scan_seconds": 17.1,
+  "last_scan": "2026-04-22T08:33:47.209616+00:00",
+  "scan_seconds": 16.6,
   "markets_scanned": 75,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776846753167_0",
-      "timestamp": "2026-04-22T08:32:33.167531+00:00",
+      "id": "sig_1776846821880_0",
+      "timestamp": "2026-04-22T08:33:41.880248+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers confirm Luka Doncic and Austin Reaves sidelined for rest of regular season and into playoffs due to hamstring and",
-      "raw": "Lakers confirm Luka Doncic and Austin Reaves sidelined for rest of regular season and into playoffs due to hamstring and oblique strains | YES (impacts playoff seeding and prediction markets for Lakers' Western Conference position) | HIGH confidence** [1][2][3]\n\nLakers drop into tie for 3rd in West with Denver after 134-128 loss to Mavericks (now ended 14-game home streak), holding tiebreaker but ",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First Round | NO | HIGH confidence** [1]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First Round | NO | HIGH confidence** [1][2][3][4][5]\n\nThe Cleveland Cavaliers won Game 2 on Monday against the Toronto Raptors, with Donovan Mitchell scoring 30 points and James Harden adding 28, forcing Toronto into a 0-2 deficit heading to Game 3 in Toronto on Thursday (Thu, Apr 23 @ 8:00 pm ET).[1][2][3] Raptors pla",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776846744965_0",
-      "timestamp": "2026-04-22T08:32:24.965637+00:00",
+      "id": "sig_1776846826206_0",
+      "timestamp": "2026-04-22T08:33:46.206623+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP's 10% Weekly Surge Above $1",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP's 10% Weekly Surge Above $1.50 Resistance** | **YES** | **HIGH** confidence[1]\n\nThe SEC's decision to drop its lawsuit resolves a major regulatory overhang that suppressed XRP for years, driving a fundamental shift in market sentiment and positioning XRP for institutional adoption amid broader crypto rallies[1]. XRP started April near",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119, 28% on 1120-1159), with over $17M-$19M in trading volume across 130+ related markets[2][3][4]. These ",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776846748843_0",
-      "timestamp": "2026-04-22T08:32:28.843749+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell warns tariffs will likely cause higher inflation and slower growth, revising prior transitory view** | **YES** |",
-      "raw": "Powell warns tariffs will likely cause higher inflation and slower growth, revising prior transitory view** | **YES** | **HIGH** confidence[1][2]\n\nFederal Reserve Chair Jerome Powell stated in a speech that President Trump's higher-than-anticipated tariffs\u2014targeting 185 nations and costing importers $792 billion\u2014are **highly likely to generate at least a temporary rise in inflation**, with potenti",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776846757611_1",
-      "timestamp": "2026-04-22T08:32:37.611759+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kanye Tweet Market Active | NO | LOW confidence**",
-      "raw": "Kanye Tweet Market Active | NO | LOW confidence**  \n\"Will Kanye tweet again by April 30?\" runs at unspecified odds (exemplar at 37%), part of 130+ Tweet markets, but lacks volume or buzz indicators.[3] Data reflects platform snapshots, not live X trader chatter.",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776846757607_0",
-      "timestamp": "2026-04-22T08:32:37.607074+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119, 28% on 1120-1159).[2][3][4] These dominate Tweet and Tweet Markets categories with high volumes ($1",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 0
   }
 }
