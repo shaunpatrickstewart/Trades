@@ -1,100 +1,93 @@
 {
-  "last_scan": "2026-04-22T23:35:24.854420+00:00",
-  "scan_seconds": 14.3,
+  "last_scan": "2026-04-22T23:36:37.140801+00:00",
+  "scan_seconds": 16.5,
   "markets_scanned": 49,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776900918254_0",
-      "timestamp": "2026-04-22T23:35:18.254478+00:00",
+      "id": "sig_1776900991896_0",
+      "timestamp": "2026-04-22T23:36:31.896418+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after Game 2 win; no conference semifinals advanceme",
-      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round series after Game 2 win; no conference semifinals advancement or Lakers involvement confirmed | NO | HIGH confidence**[2][3][4][5]\n\nGame 2 ended Monday with Cleveland defeating Toronto 115-105, as Donovan Mitchell scored 30 points, James Harden added 28, and Evan Mobley contributed 25, giving the Cavaliers a 2-0 lead\u2014they've now won 12 s",
-      "direction": "YES",
+      "headline": "Cooper Flagg ankle sprain confirmed in Mavericks' rookie season finale | NO | HIGH confidence**",
+      "raw": "Cooper Flagg ankle sprain confirmed in Mavericks' rookie season finale | NO | HIGH confidence**  \nNo breaking news links Cooper Flagg to the Raptors, NBA playoffs, or rookie playoff involvement; instead, reports confirm he exited the Mavericks' regular-season finale on Sunday with a left ankle sprain after 9 minutes, ending his 2025-26 rookie campaign.[2][6]  \nThe Mavericks, Flagg's team, missed t",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776900923841_0",
-      "timestamp": "2026-04-22T23:35:23.841787+00:00",
+      "id": "sig_1776900987489_3",
+      "timestamp": "2026-04-22T23:36:27.489194+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation by June 30, 2026[1].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
+      "headline": "**Technical developments:** The upcoming Glamsterdam upgrade aims to enhance Ethereum's scalability to 10,000 transactio",
+      "raw": "**Technical developments:** The upcoming Glamsterdam upgrade aims to enhance Ethereum's scalability to 10,000 transactions per second[3].\n\nHowever, these are not breaking news events\u2014they represent ongoing market conditions and previously scheduled developments. To provide the headline format you requested, I would need search results containing actual announcements, regulatory decisions, security",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776900923843_1",
-      "timestamp": "2026-04-22T23:35:23.843850+00:00",
+      "id": "sig_1776900987483_0",
+      "timestamp": "2026-04-22T23:36:27.483280+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume and $3.9K liquidity reflects low expectations for launch within 7 days[2].",
-      "direction": "YES",
+      "headline": "I cannot identify any breaking news from these search results that would move prediction markets",
+      "raw": "I cannot identify any breaking news from these search results that would move prediction markets. The search results contain pricing data and historical information from April 20-21, 2026, but no recent announcements, confirmations, or resolutions that would constitute breaking news as of April 22, 2026.\n\nThe most recent concrete information available is:",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776900923845_2",
-      "timestamp": "2026-04-22T23:35:23.845690+00:00",
+      "id": "sig_1776900987485_1",
+      "timestamp": "2026-04-22T23:36:27.485231+00:00",
       "source": "PERPLEXITY",
-      "headline": "Robinhood (HOOD) Up or Down on April 22",
-      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% UP with $4.7K volume and $57.2K liquidity, confirming stock closed higher today[1].",
-      "direction": "YES",
+      "headline": "**Ethereum price movements:** On April 21, ETH traded at $2,305",
+      "raw": "**Ethereum price movements:** On April 21, ETH traded at $2,305.04, down $12.76 from the previous day[1]. More recent pricing shows ETH around $2,395.42 with a +3.43% change in the last 24 hours[3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776900987487_2",
+      "timestamp": "2026-04-22T23:36:27.487081+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Institutional activity:** Spot Ether ETFs saw record net inflows exceeding $500 million this week, and ETH surged abov",
+      "raw": "**Institutional activity:** Spot Ether ETFs saw record net inflows exceeding $500 million this week, and ETH surged above $2,200 following a U.S.-Iran ceasefire announcement[3].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776900923847_3",
-      "timestamp": "2026-04-22T23:35:23.847593+00:00",
+      "id": "sig_1776900996137_0",
+      "timestamp": "2026-04-22T23:36:36.137756+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero Hit $1000 in 2026",
-      "raw": "Monero Hit $1000 in 2026? | NO | MED confidence**  \nTrending crypto market (ends in 8 months) shows implied low odds based on trader sentiment, though exact YES % not specified amid active volume[1].",
+      "headline": "Elon Musk April Tweet Volume Bets Heating Up | NO whale bets or confirmed announcements reported | LOW confidence**",
+      "raw": "Elon Musk April Tweet Volume Bets Heating Up | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets right now center on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (21% for 1120-1159 range, with $20.7M+ volume).[2][3][4] Traders",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900923849_4",
-      "timestamp": "2026-04-22T23:35:23.849467+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (Resolved) | HIGH confidence**  \nMarket at 100% with $11.4K liquidity, signaling recent confirmation or resolution of end date[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900923851_5",
-      "timestamp": "2026-04-22T23:35:23.851387+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nLow 7% YES odds with $1.4K volume and $3.0K liquidity in X markets indicate traders betting against removal in 2 months[2].  \n\nNo direct X posts on whale bets, smart money moves, mispriced markets, or tips in results; focus is Polymarket's real-time odds across 168+ trending, 1370 X, and tweet markets totaling millions i",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
@@ -102,8 +95,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 6,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
