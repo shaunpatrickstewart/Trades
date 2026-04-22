@@ -1,46 +1,100 @@
 {
-  "last_scan": "2026-04-22T19:21:10.983043+00:00",
-  "scan_seconds": 14.4,
+  "last_scan": "2026-04-22T19:22:15.229247+00:00",
+  "scan_seconds": 14.7,
   "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776885669978_1",
-      "timestamp": "2026-04-22T19:21:09.978709+00:00",
+      "id": "sig_1776885723109_0",
+      "timestamp": "2026-04-22T19:22:03.109459+00:00",
       "source": "PERPLEXITY",
-      "headline": "Whale bets and smart money moves**: No specific whale activity or large bets confirmed in real-time posts; instead, buzz",
-      "raw": "Whale bets and smart money moves**: No specific whale activity or large bets confirmed in real-time posts; instead, buzz around a **Polymarket analytics tool** praised on Binance Square for revealing top traders' strategies, giving \"x-ray vision\" into winning operations[5].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776885669980_2",
-      "timestamp": "2026-04-22T19:21:09.980913+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mispriced markets or tips**: Traders highlight **tweet markets** as dynamic and potentially mispriced due to real-time s",
-      "raw": "Mispriced markets or tips**: Traders highlight **tweet markets** as dynamic and potentially mispriced due to real-time sentiment shifts from new data, outperforming polls; examples include Kanye tweet markets (e.g., \"Will Kanye tweet again by April 30?\") and niche ranges like Nasdaq trading by June 30[1][3].  \nNo recent confirmations, announcements, or resolutions noted that would immediately move",
+      "headline": "US Military Confirms Operating a Bitcoin Node | YES | HIGH confidence** [5]",
+      "raw": "US Military Confirms Operating a Bitcoin Node | YES | HIGH confidence** [5]  \nBitcoin price testing $76K resistance with bullish momentum on 4-hour and daily charts, supported by ascending trendline and potential bear flag breakout. [5]  \nBTC at $75,901 on April 21 (up $577 daily), driven by institutional ETF inflows, whale accumulation, and regulatory clarity amid mid-April surge past $75K. [1][2",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776885669976_0",
-      "timestamp": "2026-04-22T19:21:09.976062+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Tweet Markets and Analytics Tools Amid High-Volume Elon Musk Bets | NO | MED confidence",
-      "raw": "Polymarket Traders on X Focus on Tweet Markets and Analytics Tools Amid High-Volume Elon Musk Bets | NO | MED confidence**\n\nTrending discussions among Polymarket traders on X center on **tweet prediction markets**, particularly Elon Musk's tweet counts, with active markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" (33% on 200-219 range) and \"Elon Musk # tweets in April 2026?\" (19% on 11",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Bitcoin above 77,000 on April 22, 4PM ET?",
+        "Bitcoin above 81,000 on April 22, 4PM ET?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776885734210_0",
+      "timestamp": "2026-04-22T19:22:14.210166+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time breaking news and live trader commentary you're requesting based on the available search",
+      "raw": "I cannot provide the real-time breaking news and live trader commentary you're requesting based on the available search results. The search results show only aggregated market data from Polymarket as of April 21-22, 2026, such as trending markets and their current odds, but they do not contain:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885734212_1",
+      "timestamp": "2026-04-22T19:22:14.212166+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Live social media posts or trader commentary from X (Twitter)",
+      "raw": "Live social media posts or trader commentary from X (Twitter)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885734214_2",
+      "timestamp": "2026-04-22T19:22:14.214185+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Information about specific whale bets or smart money moves",
+      "raw": "Information about specific whale bets or smart money moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885734216_3",
+      "timestamp": "2026-04-22T19:22:14.216159+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysis of mispriced markets",
+      "raw": "Analysis of mispriced markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885734218_4",
+      "timestamp": "2026-04-22T19:22:14.218146+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent announcements or resolutions that would move prediction markets",
+      "raw": "Recent announcements or resolutions that would move prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885734220_5",
+      "timestamp": "2026-04-22T19:22:14.220144+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market discussion or sentiment beyond the odds themselves",
+      "raw": "Real-time market discussion or sentiment beyond the odds themselves\n\nTo get the breaking news and live trader insights you're seeking, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
@@ -48,8 +102,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
