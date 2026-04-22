@@ -1,90 +1,15 @@
 {
-  "last_scan": "2026-04-22T04:16:35.302122+00:00",
-  "scan_seconds": 18.5,
+  "last_scan": "2026-04-22T04:17:37.766381+00:00",
+  "scan_seconds": 17.2,
   "markets_scanned": 78,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776831385378_0",
-      "timestamp": "2026-04-22T04:16:25.378341+00:00",
+      "id": "sig_1776831456764_0",
+      "timestamp": "2026-04-22T04:17:36.764117+00:00",
       "source": "PERPLEXITY",
-      "headline": "**IMF Article IV Consultation (April 2, 2026)**: Confirmed U",
-      "raw": "**IMF Article IV Consultation (April 2, 2026)**: Confirmed U.S. GDP growth at 2.0% for 2025, projecting 2.4% in 2026; core PCE inflation at 2.9% in 2025, forecasted to 2.6% by end-2026 due to tariffs pushing goods prices higher (offset by cooling services); limited Fed rate cuts (fed funds from 3.6% to 3.4%); tariffs at 7-8.5% effective rate dragging growth and risking spillovers**[1].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776831390430_0",
-      "timestamp": "2026-04-22T04:16:30.430416+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results contain information about the **2025 NBA playoffs** (which concluded in the past) and **2026 NBA regular season standings** (with games still remaining), but they do not include any breaking news about Cooper Flagg, conference semifinals, or recent announcements that would affect predict",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776831385381_1",
-      "timestamp": "2026-04-22T04:16:25.381957+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Powell statements (Dec 2025)**: Described economy as \"very unusual\" with tariffs driving most inflation overshoot (goo",
-      "raw": "**Powell statements (Dec 2025)**: Described economy as \"very unusual\" with tariffs driving most inflation overshoot (goods peak Q1 2026, assuming no new rounds); core inflation excluding tariff goods in low 2%s; third 25bp rate cut to defend labor market amid overstated job growth and downside employment risks**[2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776831385384_2",
-      "timestamp": "2026-04-22T04:16:25.384945+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**FOMC statement (March 18, 2026)**: Economic activity solid, job gains low, unemployment stable, inflation somewhat ele",
-      "raw": "**FOMC statement (March 18, 2026)**: Economic activity solid, job gains low, unemployment stable, inflation somewhat elevated; high uncertainty from Middle East developments affecting outlook**[4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776831385387_3",
-      "timestamp": "2026-04-22T04:16:25.387858+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No April 2026-specific announcements in results; Goldman Sachs (pre-April) projected tariffs add 1% to inflation from H2",
-      "raw": "No April 2026-specific announcements in results; Goldman Sachs (pre-April) projected tariffs add 1% to inflation from H2 2025**[5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776831394298_0",
-      "timestamp": "2026-04-22T04:16:34.298885+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz on X | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz on X | NO | LOW confidence**\n\nPolymarket's most active markets as of early April 2026 focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 200-219 at 29%) and \"Elon Musk musk # tweets in April 2026?\" (1080-1119 at 18%), with over $17.1M in trading volume across 130+ tweet prediction markets[1",
+      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or confirmed resolutions reported | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO whale bets or confirmed resolutions reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., \"200-219\" at 29%) and the overall \"Elon Musk musk # tweets in April 2026?\" with 18% odds on 1080-1119 range[1][2][3].[2][3] These ref",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -94,9 +19,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
+    "enter": 0,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
