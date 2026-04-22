@@ -1,86 +1,15 @@
 {
-  "last_scan": "2026-04-22T16:52:15.375931+00:00",
-  "scan_seconds": 23.8,
+  "last_scan": "2026-04-22T16:53:22.841547+00:00",
+  "scan_seconds": 22.3,
   "markets_scanned": 48,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776876717856_0",
-      "timestamp": "2026-04-22T16:51:57.856039+00:00",
+      "id": "sig_1776876797071_0",
+      "timestamp": "2026-04-22T16:53:17.071922+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, the most recent confirmed development is:",
-      "raw": "Based on the search results provided, the most recent confirmed development is:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776876724637_0",
-      "timestamp": "2026-04-22T16:52:04.637219+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Extended, Easing Near-Term Inflation Pressures | YES | HIGH confidence**",
-      "raw": "US-Iran Ceasefire Extended, Easing Near-Term Inflation Pressures | YES | HIGH confidence**\n\nThe US-Iran ceasefire has been extended as of April 22, 2026[2], which directly impacts inflation trajectories after the conflict drove headline CPI to 3.29% year-over-year in March\u2014a spike primarily fueled by energy prices that surged 10.9% monthly, with gasoline jumping 21.2%[1][3]. This development would",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776876717858_1",
-      "timestamp": "2026-04-22T16:51:57.858579+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETHEREUM TRANSACTIONS SURGE 41% IN PAST WEEK, RECLAIMING ACTIVITY LEADERSHIP FROM SOLANA | YES | HIGH confidence**",
-      "raw": "ETHEREUM TRANSACTIONS SURGE 41% IN PAST WEEK, RECLAIMING ACTIVITY LEADERSHIP FROM SOLANA | YES | HIGH confidence**\n\nEthereum's weekly transaction volume jumped 41%, driven by renewed Layer 2 bridging activity on Base and Arbitrum (which launched fee rebate programs) and tokenized treasury issuance settling on Ethereum[1]. This marks a significant shift in on-chain dominance after Solana held activ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776876717860_2",
-      "timestamp": "2026-04-22T16:51:57.860604+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SOLANA ALPENGLOW UPGRADE APPROVED BY VALIDATORS, REDUCES FINALITY FROM 12 SECONDS TO UNDER 200 MILLISECONDS | YES | HIGH",
-      "raw": "SOLANA ALPENGLOW UPGRADE APPROVED BY VALIDATORS, REDUCES FINALITY FROM 12 SECONDS TO UNDER 200 MILLISECONDS | YES | HIGH confidence**\n\nSolana validators approved the Alpenglow upgrade last week, fundamentally redesigning the consensus layer to enable instant settlement and real-time payment workloads previously impossible on-chain[1]. By April 14, 2026, Solana hit an all-time record of 167 million",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776876717862_3",
-      "timestamp": "2026-04-22T16:51:57.862578+00:00",
-      "source": "PERPLEXITY",
-      "headline": "BOTH SOL AND ETH OFFICIALLY CLASSIFIED AS COMMODITIES BY US REGULATORS IN MARCH 2026 | YES | HIGH confidence**",
-      "raw": "BOTH SOL AND ETH OFFICIALLY CLASSIFIED AS COMMODITIES BY US REGULATORS IN MARCH 2026 | YES | HIGH confidence**\n\nThis eliminated major legal uncertainty weighing on institutional allocation decisions[1], enabling the subsequent approval of Solana's spot ETF in October 2025 and setting the stage for April's institutional inflows[1].\n\nThese developments represent structural changes affecting predicti",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776876729254_0",
-      "timestamp": "2026-04-22T16:52:09.254578+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors in Eastern Conference first-round playoffs after 115-105 Game 2 win on April",
-      "raw": "Cavaliers take 2-0 series lead over Raptors in Eastern Conference first-round playoffs after 115-105 Game 2 win on April 20** | YES | HIGH confidence[1][2][4]\n\nGame 2 featured dominant performances from **Donovan Mitchell** (30 points), **James Harden** (28 points, 5 steals), and **Evan Mobley** (25 points), securing Cleveland's 12th straight playoff win against Toronto and matching an NBA record[",
+      "headline": "Cooper Flagg's rookie season with Mavericks officially ends without playoffs; team shifts focus to NBA Draft lottery** |",
+      "raw": "Cooper Flagg's rookie season with Mavericks officially ends without playoffs; team shifts focus to NBA Draft lottery** | YES | HIGH confidence[1][4]\n\nMavericks won their final regular-season game on April 13, 2026, ending **Cooper Flagg**'s rookie year and tying them with Pelicans for 7th/8th lottery odds (6.7-6.8% for No. 1 pick, down from potential 9%), confirming no playoff berth as they priori",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -93,11 +22,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776876734372_0",
-      "timestamp": "2026-04-22T16:52:14.372838+00:00",
+      "id": "sig_1776876801835_0",
+      "timestamp": "2026-04-22T16:53:21.835804+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (19% for 1120-1159, 18% in related Tweet Markets).[2][3][4] Traders are heavily engaged in these pop culture p",
+      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets Amid Low-Volume Trending Markets** | NO conf",
+      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets Amid Low-Volume Trending Markets** | NO confirmed whale bets, smart money moves, or tips in results | **MED** confidence[1][2][3][4]\n\nTrending Polymarket markets highlight **Elon Musk tweet volumes** (e.g., \"Elon Musk # tweets April 17 - April 24, 2026?\" at 33% for 200-219 tweets; overall April 2026 market at 18-19% for 11",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -106,23 +35,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776876724640_1",
-      "timestamp": "2026-04-22T16:52:04.640747+00:00",
+      "id": "sig_1776876801837_1",
+      "timestamp": "2026-04-22T16:53:21.837989+00:00",
       "source": "PERPLEXITY",
-      "headline": "Core Inflation Decelerating Despite Headline Surge | YES | HIGH confidence**",
-      "raw": "Core Inflation Decelerating Despite Headline Surge | YES | HIGH confidence**\n\nCore CPI rose only 2.6% year-over-year in March with just 0.2% monthly gains, significantly below the 0.9% headline monthly increase[1]. This distinction matters for prediction markets evaluating Fed rate cut probabilities\u2014Goldman Sachs indicated that stripping away war and tariff effects reveals a \"gradual return to the",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "No recent confirmations, announcements, or resolutions** noted that would shift these markets; data reflects April 19-21",
+      "raw": "No recent confirmations, announcements, or resolutions** noted that would shift these markets; data reflects April 19-21 snapshots with volumes under $100K per market and no resolved events mentioned[1][2][3][4]. Real-time X trader sentiment unavailable in results.",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 0
   }
 }
