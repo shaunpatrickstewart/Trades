@@ -1,64 +1,103 @@
 {
-  "last_scan": "2026-04-22T15:01:40.482987+00:00",
-  "scan_seconds": 19.9,
+  "last_scan": "2026-04-22T15:02:55.392184+00:00",
+  "scan_seconds": 24.8,
   "markets_scanned": 58,
   "open_positions": 19,
   "signals": [
     {
-      "id": "sig_1776870094356_0",
-      "timestamp": "2026-04-22T15:01:34.356778+00:00",
+      "id": "sig_1776870167402_0",
+      "timestamp": "2026-04-22T15:02:47.402894+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 lead over Raptors in Eastern Conference First Round after Game 2 win on April 20** | NO | HIGH confid",
-      "raw": "Cavaliers take 2-0 lead over Raptors in Eastern Conference First Round after Game 2 win on April 20** | NO | HIGH confidence[1][2][3]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 of their Eastern Conference first-round playoff series on Monday, April 20, 2026, powered by 30 points from Donovan Mitchell, 28 from James Harden, and 25 from Evan Mobley for a combined 83 poin",
+      "headline": "OKC Thunder advance to Western Conference Semifinals after defeating Timberwolves 4-0 | NO (no new series winner beyond",
+      "raw": "OKC Thunder advance to Western Conference Semifinals after defeating Timberwolves 4-0 | NO (no new series winner beyond first round) | HIGH confidence** [1]\n\nCurrent NBA playoffs (2025-26 season) show first-round series concluding, with OKC Thunder confirmed as Western #1 seed winners over #6 Timberwolves (final score: Thunder 124-94 in Game 4, series 4-0) and advancing to semifinals in Oklahoma C",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776870090117_0",
-      "timestamp": "2026-04-22T15:01:30.117117+00:00",
+      "id": "sig_1776870158532_0",
+      "timestamp": "2026-04-22T15:02:38.532389+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | HIGH confidence[3]",
-      "raw": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | HIGH confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) highlights Iran war-driven energy spikes pushing headline CPI to 3.29% YoY and PCE to 3.45% in March, with oil jumping 45% to $103/barrel, though core inflation decelerates and forecasts easing to 2.2% PCE by late 2026 amid fading tariffs[1]. Today's market wrap confi",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
+      "headline": "Based on the search results available, there is **no single breaking news event that has just been confirmed or announce",
+      "raw": "Based on the search results available, there is **no single breaking news event that has just been confirmed or announced** as of April 22, 2026. However, several developing situations are affecting prediction markets:",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870085737_0",
-      "timestamp": "2026-04-22T15:01:25.737175+00:00",
+      "id": "sig_1776870174379_0",
+      "timestamp": "2026-04-22T15:02:54.379239+00:00",
       "source": "PERPLEXITY",
-      "headline": "Analysts split on XRP April targets ($1",
-      "raw": "Analysts split on XRP April targets ($1.15 bearish vs. $1.60), with whale accumulation (1.3B XRP added early March) and reduced exchange supply signaling potential upside, but no new triggers.[1]",
+      "headline": "Iran x Israel/US Conflict Ends by Dec 31 | YES | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Ends by Dec 31 | YES | HIGH confidence**  \nPolymarket's most active X-related market prices \"Iran x Israel/US conflict ends by...?\" at 100% YES odds, with $11.9K liquidity and 116 traders, signaling strong crowd consensus on resolution by year-end[1]. No recent confirmations or announcements noted in real-time odds, but this extreme pricing suggests traders view it as eff",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776870174389_3",
+      "timestamp": "2026-04-22T15:02:54.389099+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Volume Markets Shifting | MIXED | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Shifting | MIXED | MED confidence**  \nActive markets like \"Elon Musk # tweets April 17-24, 2026?\" and \"Elon Musk # tweets in April 2026?\" show crowd pricing 28-60% on bins like 1120-1159 (high volumes: $19.1M-$21.1M total), updating live as tweets post; X traders likely debating mispriced highs/lows[2][3][4]. No whale bets or resolutions confirmed.",
       "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776870158540_2",
+      "timestamp": "2026-04-22T15:02:38.540317+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Technical Breakout Window Closing | YES | MED confidence**",
+      "raw": "Bitcoin Technical Breakout Window Closing | YES | MED confidence**\nAs of early April, Bitcoin was entering the final days of a 50+ day consolidation pattern expected to resolve around mid-April (near tax day), with potential for 18-25% upside to $85,000 or downside to $50,000 depending on whether it holds the $62,750 support level.[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will XRP reach $1.50 April 20-26?"
+        "Bitcoin above 76,800 on April 22, 12PM ET?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870085739_1",
-      "timestamp": "2026-04-22T15:01:25.739938+00:00",
+      "id": "sig_1776870158543_3",
+      "timestamp": "2026-04-22T15:02:38.543755+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum pattern suggests 170% rally potential to $8,500 (echoing 2021), bottoming vs",
-      "raw": "Ethereum pattern suggests 170% rally potential to $8,500 (echoing 2021), bottoming vs. BTC in April; XRP ETFs hold $1B AUM.[2]",
-      "direction": null,
+      "headline": "Ethereum and XRP Showing Technical Signals | YES | MED confidence**",
+      "raw": "Ethereum and XRP Showing Technical Signals | YES | MED confidence**\nXRP is displaying one of the strongest reversal candles, while Ethereum faces critical resistance at $2,600-2,700 or support at $1,800.[3] These technical setups suggest imminent volatility but no confirmed breakout yet.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870158546_4",
+      "timestamp": "2026-04-22T15:02:38.546074+00:00",
+      "source": "PERPLEXITY",
+      "headline": "April Bullish Momentum Narrative | YES | MED confidence**",
+      "raw": "April Bullish Momentum Narrative | YES | MED confidence**\nPost-regulatory clarity has reshaped institutional behavior, with Bitcoin accumulation on-chain, Ethereum's Layer 2 expansion, and XRP's enhanced institutional appeal emerging as Q2 themes.[2]\n\nThe most market-moving confirmation would be the Clarity Act vote outcome, currently expected in early-to-mid May.",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "Bitcoin above 76,800 on April 22, 12PM ET?",
         "Will XRP reach $1.50 April 20-26?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
@@ -67,38 +106,25 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870085742_2",
-      "timestamp": "2026-04-22T15:01:25.742179+00:00",
+      "id": "sig_1776870161339_0",
+      "timestamp": "2026-04-22T15:02:41.339092+00:00",
       "source": "PERPLEXITY",
-      "headline": "Speculative XRP \"quantum resistance by 2028\" talk amid BTC >$76K, but unconfirmed theory",
-      "raw": "Speculative XRP \"quantum resistance by 2028\" talk amid BTC >$76K, but unconfirmed theory.[3]",
-      "direction": null,
+      "headline": "US-Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]",
+      "raw": "US-Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776870085744_3",
-      "timestamp": "2026-04-22T15:01:25.744342+00:00",
+      "id": "sig_1776870174386_2",
+      "timestamp": "2026-04-22T15:02:54.386818+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results lack any post-April 19 updates or real-time confirmations)",
-      "raw": "Confidence: HIGH** (search results lack any post-April 19 updates or real-time confirmations).[1][2][3][4][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776870099475_0",
-      "timestamp": "2026-04-22T15:01:39.475623+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**\n\nPolymarket's most active markets as of April 21, 2026, focus on **Elon Musk tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 1120-1159 at 28% implied probability) and \"Elon Musk musk # tweets in April 2026?\" with similar high-volume bins around 18-28% odds[2][3][4].",
-      "direction": "NO",
+      "headline": "Nikita Bier Out as X Head of Product by June 30 | NO (93% implied) | LOW confidence**",
+      "raw": "Nikita Bier Out as X Head of Product by June 30 | NO (93% implied) | LOW confidence**  \nMarket at 7% YES ($1.4K volume, $4.8K liquidity, ends in 2 months), with low activity suggesting minimal X buzz or smart money interest[1]. Niche bet unlikely to trend without insider leaks.",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -106,28 +132,28 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776870099477_1",
-      "timestamp": "2026-04-22T15:01:39.477868+00:00",
+      "id": "sig_1776870158536_1",
+      "timestamp": "2026-04-22T15:02:38.536346+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tweet Markets** overall show $19",
-      "raw": "Tweet Markets** overall show $19.1M+ in trading volume across 20-131 active markets, with real-time odds shifting on new data like tweet activity[2][3][4].  \nNo search results mention **whale bets, smart money moves, prediction tips, mispriced markets, or recent confirmations/announcements** impacting odds; data reflects general trader sentiment without X-specific posts or breaking resolutions[1][",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "CLARITY Act Vote Timing Uncertain | YES | HIGH confidence**",
+      "raw": "CLARITY Act Vote Timing Uncertain | YES | HIGH confidence**\nThe markup vote on the Clarity Act\u2014critical crypto regulatory legislation\u2014has been pushed potentially into the second week of May due to banking industry pressure, moving the deadline beyond the original April 27 window.[4] This regulatory uncertainty is actively impacting market sentiment.",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870099479_2",
-      "timestamp": "2026-04-22T15:01:39.479967+00:00",
+      "id": "sig_1776870174384_1",
+      "timestamp": "2026-04-22T15:02:54.384604+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category has 166 live options with $3M+ volume on topics like Nasdaq trading changes, but lacks real-",
-      "raw": "Trending Markets** category has 166 live options with $3M+ volume on topics like Nasdaq trading changes, but lacks real-time X trader buzz details[1].",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "\ud835\udd4f Money Launched by April 30 | NO (88% implied) | MED confidence**",
+      "raw": "\ud835\udd4f Money Launched by April 30 | NO (88% implied) | MED confidence**  \nX Money launch market trades at 12% YES ($33.6K volume, $4.5K liquidity, ends in 8 days), implying 88% NO; traders on X may flag this as undervalued NO bet amid Elon Musk tech news[1]. Real-time shifts could spark whale moves if launch rumors emerge.",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
@@ -135,7 +161,7 @@
   "stats": {
     "enter": 1,
     "alert": 8,
-    "watch": 0,
-    "high_conf": 1
+    "watch": 2,
+    "high_conf": 2
   }
 }
