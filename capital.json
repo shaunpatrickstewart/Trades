@@ -1,5 +1,5 @@
 {
-  "ts": 1776870570,
+  "ts": 1776870640,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999821
+    "usdc_usd": 0.999806
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0575,
-        "nav_usdc": 0.4692,
+        "cur_price": 0.056,
+        "nav_usdc": 0.457,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8282
+        "unrealized_pnl": -0.8404
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.1065,
-        "nav_usdc": 0.5233,
+        "cur_price": 0.1075,
+        "nav_usdc": 0.5282,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.0418
+        "unrealized_pnl": 0.0467
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.2744,
-    "total_usdc": 404.211,
-    "total_usd": 404.1386
+    "positions_nav_usdc": 317.267,
+    "total_usdc": 404.2036,
+    "total_usd": 404.1252
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776870571,
+    "ts": 1776870641,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776784171,
+      "window_start_ts": 1776784241,
       "realized_usdc": 0.0,
       "trade_count": 8,
       "buy_volume_usdc": 88.6541,
@@ -461,7 +461,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776265771,
+      "window_start_ts": 1776265841,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -674,7 +674,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774278571,
+      "window_start_ts": 1774278641,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1100,7 +1100,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.1386,
-    "total_usdc": 404.211
+    "total_usd": 404.1252,
+    "total_usdc": 404.2036
   }
 }

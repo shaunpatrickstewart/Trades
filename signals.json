@@ -1,48 +1,130 @@
 {
-  "last_scan": "2026-04-22T15:09:45.260246+00:00",
-  "scan_seconds": 23.7,
-  "markets_scanned": 57,
+  "last_scan": "2026-04-22T15:10:52.728304+00:00",
+  "scan_seconds": 22.2,
+  "markets_scanned": 56,
   "open_positions": 17,
   "signals": [
     {
-      "id": "sig_1776870569789_0",
-      "timestamp": "2026-04-22T15:09:29.789782+00:00",
+      "id": "sig_1776870641667_0",
+      "timestamp": "2026-04-22T15:10:41.667933+00:00",
       "source": "PERPLEXITY",
       "headline": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | MED confidence[3]",
-      "raw": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | MED confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) confirms March 2026 headline CPI at 3.29% YoY (up 0.87% MoM) and PCE at 3.45% YoY, driven by 45% oil spike to $103/barrel from Iran war, though core inflation decelerates with forecasts for 2.2% PCE by late 2026 enabling potential Fed cuts[1][2]. S&P Global and IMF rai",
+      "raw": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | MED confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) highlights headline CPI at 3.29% YoY in March due to Iran war-driven energy spike (oil from $71 to $103/barrel), but core PCE decelerating toward 2.2% (ex-tariffs), with forecasts for core goods easing to 0.6% by Dec 2026 and Brent crude falling to $80/barrel Q4[1]. Ma",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will annual inflation increase by 3.8% in April?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776870577609_0",
-      "timestamp": "2026-04-22T15:09:37.609387+00:00",
+      "id": "sig_1776870636922_0",
+      "timestamp": "2026-04-22T15:10:36.922295+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's rookie season ends as Mavericks finish outside playoffs, tied for 7th-8th worst record and eyeing draft l",
-      "raw": "Cooper Flagg's rookie season ends as Mavericks finish outside playoffs, tied for 7th-8th worst record and eyeing draft lottery** | NO | HIGH confidence[2][5]\n\nDallas Mavericks, featuring rookie **Cooper Flagg**, concluded their 2025-26 regular season with a win over the Los Angeles Lakers, but poor overall performance left them tied for the 7th and 8th lottery spots alongside the Pelicans, shiftin",
+      "headline": "Based on the search results provided, here are the key developments:",
+      "raw": "Based on the search results provided, here are the key developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870636924_1",
+      "timestamp": "2026-04-22T15:10:36.924530+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Rakuten Wallet Lists XRP in Japan | YES | HIGH confidence**",
+      "raw": "Rakuten Wallet Lists XRP in Japan | YES | HIGH confidence**\n\nRakuten Wallet, serving 44 million users in Japan, listed XRP in mid-April, adding major retail distribution in Asia.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will XRP reach $1.50 April 20-26?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870584241_0",
-      "timestamp": "2026-04-22T15:09:44.241382+00:00",
+      "id": "sig_1776870636926_2",
+      "timestamp": "2026-04-22T15:10:36.926597+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some markets as of April 9-21, 2026, but they do not include:",
-      "direction": null,
+      "headline": "XRP Ledger Integrates Boundless Privacy Technology | YES | HIGH confidence**",
+      "raw": "XRP Ledger Integrates Boundless Privacy Technology | YES | HIGH confidence**\n\nThe XRP Ledger integrated Boundless on April 14, bringing zero-knowledge proof technology for institutional confidential transactions.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will XRP reach $1.50 April 20-26?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870636928_3",
+      "timestamp": "2026-04-22T15:10:36.928749+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act SEC Roundtable Avoids Negative XRP Signals | YES | HIGH confidence**",
+      "raw": "CLARITY Act SEC Roundtable Avoids Negative XRP Signals | YES | HIGH confidence**\n\nThe CLARITY Act roundtable held at the SEC on April 16 contained no negative signals toward XRP's commodity classification, maintaining institutional confidence in regulatory trajectory.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will XRP reach $1.50 April 20-26?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870636930_4",
+      "timestamp": "2026-04-22T15:10:36.930804+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Outperforms Bitcoin and Ethereum Weekly | YES | HIGH confidence**",
+      "raw": "XRP Outperforms Bitcoin and Ethereum Weekly | YES | HIGH confidence**\n\nXRP gained 6.7% over seven days to $1.43, outperforming Bitcoin (7%) and Ethereum (9%), with 24-hour trading volume jumping 23% to $3.79 billion.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870636932_5",
+      "timestamp": "2026-04-22T15:10:36.932959+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US XRP ETFs Record Strongest Inflow Day Since February | YES | HIGH confidence**",
+      "raw": "US XRP ETFs Record Strongest Inflow Day Since February | YES | HIGH confidence**\n\nXRP ETF inflows hit $17.11 million on April 15 alone, with four consecutive inflow days totaling $38.86 million, lifting total ETF assets under management above $1.25 billion.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will XRP reach $1.50 April 20-26?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870636935_6",
+      "timestamp": "2026-04-22T15:10:36.935048+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Shows Early Recovery Signs | YES | HIGH confidence**",
+      "raw": "Ethereum Shows Early Recovery Signs | YES | HIGH confidence**\n\nEthereum is trading at $2,184 with bullish technical patterns forming after two weeks of decline, with RSI near oversold levels and major moving averages converging.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870651722_0",
+      "timestamp": "2026-04-22T15:10:51.722892+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Trending on Polymarket with High Volume** | YES | **HIGH** confidence[1][2][3]",
+      "raw": "Elon Musk April Tweet Count Markets Trending on Polymarket with High Volume** | YES | **HIGH** confidence[1][2][3]\n\nPolymarket's **Tweet Markets** are among the most active, featuring real-time odds on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (32% on 220-239 range) and \"Elon Musk # tweets in April 2026?\" (28% on 1120-1159, $9M volume, total category $19",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -50,51 +132,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776870584243_1",
-      "timestamp": "2026-04-22T15:09:44.243485+00:00",
+      "id": "sig_1776870651725_1",
+      "timestamp": "2026-04-22T15:10:51.725170+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current trader discussions or social media posts about X predictions",
-      "raw": "Current trader discussions or social media posts about X predictions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776870584245_2",
-      "timestamp": "2026-04-22T15:09:44.245539+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Specific whale bets or large money movements happening right now",
-      "raw": "Specific whale bets or large money movements happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776870584247_3",
-      "timestamp": "2026-04-22T15:09:44.247607+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysis of mispriced markets or predicted price movements",
-      "raw": "Analysis of mispriced markets or predicted price movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776870584249_4",
-      "timestamp": "2026-04-22T15:09:44.249741+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent breaking news, confirmations, or market resolutions that would impact prediction odds",
-      "raw": "Recent breaking news, confirmations, or market resolutions that would impact prediction odds\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "Trending Markets** category hosts 166 live markets (as of April 21, 2026) with $3M+ volume, including niche bets like \u201cN",
+      "raw": "Trending Markets** category hosts 166 live markets (as of April 21, 2026) with $3M+ volume, including niche bets like \u201cNasdaq round-the-clock trading by June 30?\u201d and \u201cSCOTUS accepts sports event contract case\u201d[1].  \nNo specific X posts from Polymarket traders, whale bets, smart money moves, mispriced markets, or recent confirmations/announcements are detailed in current data; XTracker notes socia",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -103,9 +146,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 1,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
