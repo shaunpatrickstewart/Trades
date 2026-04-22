@@ -1,63 +1,133 @@
 {
-  "last_scan": "2026-04-22T09:29:17.878480+00:00",
-  "scan_seconds": 17.3,
-  "markets_scanned": 79,
+  "last_scan": "2026-04-22T09:30:33.897059+00:00",
+  "scan_seconds": 22.9,
+  "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776850143431_0",
-      "timestamp": "2026-04-22T09:29:03.431484+00:00",
+      "id": "sig_1776850232891_1",
+      "timestamp": "2026-04-22T09:30:32.891759+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | **YES** | **HIGH** confidence[1][2]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | **YES** | **HIGH** confidence[1][2]\n\nThe SEC's decision to fully drop its multi-year case against Ripple provides definitive regulatory clarity, removing a major price overhang and driving XRP's 10% weekly surge to ~$1.42 after breaking $1.50 resistance[1][6]. This resolution, combined with the full-scale rollout of Ripple's RLUSD stablecoin o",
+      "headline": "GTA VI Release and MegaETH Airdrop Odds Draw News Story Volume | NO | LOW confidence**",
+      "raw": "GTA VI Release and MegaETH Airdrop Odds Draw News Story Volume | NO | LOW confidence**  \nNews Stories markets (102 live, $56.4M+ volume) highlight \"GTA VI released before June 2026?\" at 1% YES ($14M volume) and \"MegaETH airdrop by June 30, 2026?\" at 60% YES, potentially mispriced per trader sentiment, though no X chatter, whale activity, or resolutions confirmed[4]. No breaking announcements, reso",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776850151133_0",
-      "timestamp": "2026-04-22T09:29:11.133798+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavs Dominate Raptors 126-113 in Game 1, Take 1-0 Lead Behind Donovan Mitchell's 32 Points** | NO | HIGH confidence[2][4",
-      "raw": "Cavs Dominate Raptors 126-113 in Game 1, Take 1-0 Lead Behind Donovan Mitchell's 32 Points** | NO | HIGH confidence[2][4]\n\nRaptors rookie **Collin Murray-Boyles**, the lone rookie in Toronto's playoff rotation, expressed expectations for a deep run including advancing to the **Eastern Conference Semifinals**, but Cavaliers' dominance with Mitchell's record-extending 9th straight 30+ point Game 1 p",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776850156872_1",
-      "timestamp": "2026-04-22T09:29:16.872458+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Release Before June 2026",
-      "raw": "GTA VI Release Before June 2026? Heavily Skews Low | NO | HIGH confidence**\n\n\"GTA VI released before June 2026?\" trades at 1% YES with $14M volume and $65K liquidity, signaling strong trader consensus against an imminent launch amid 102 news story markets totaling $56.4M volume[4]. Other news bets like \"MegaETH airdrop by June 30?\" sit at 60%, but no resolutions, announcements, or X chatter on wha",
-      "direction": "YES",
-      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776850156869_0",
-      "timestamp": "2026-04-22T09:29:16.869519+00:00",
+      "id": "sig_1776850218417_0",
+      "timestamp": "2026-04-22T09:30:18.417615+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Activity | NO | MED confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Activity | NO | MED confidence**\n\nPolymarket's most active markets as of April 21-22, 2026, focus on **Elon Musk's total tweets in April 2026**, with the \"1120-1159\" outcome at 28% probability and \"1080-1119\" previously at 18-37% across updates[1][2][3]. These tweet markets dominate with over $19.1M in volume across 20-130 active options, in",
+      "headline": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**",
+      "raw": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**\n\nThe long-running SEC legal battle against Ripple has been officially dropped, removing a significant regulatory overhang that had suppressed XRP's price for years[1]. This resolution represents a fundamental shift in market sentiment and has cleared the path for institutional adoption[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850218420_1",
+      "timestamp": "2026-04-22T09:30:18.420642+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**\n\nRipple has officially completed the full-scale rollout of its RLUSD stablecoin across both the XRP Ledger and Ethereum as of April 19, 2026[2]. This launch is driving record-breaking transaction volumes on the XRPL and attracting massive capital inflows to the ecosystem[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850218423_2",
+      "timestamp": "2026-04-22T09:30:18.423550+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**",
+      "raw": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**\n\nXRP ETF approvals are now in their final stage of the approval process[2], with institutional adoption reaching all-time highs following regulatory clarity[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850218427_3",
+      "timestamp": "2026-04-22T09:30:18.427052+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Price Movement Context**",
+      "raw": "Price Movement Context**\n\nXRP surged nearly 10% over the past week, breaking above the $1.50 resistance level before settling around $1.42[1]. The price started April near $1.20 and has gained steady traction throughout the month[1]. Institutional enthusiasm is evident, with the broader cryptocurrency market experiencing renewed capital flows, including nearly $1 billion in fresh Bitcoin ETF inflo",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850227586_0",
+      "timestamp": "2026-04-22T09:30:27.586757+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg's 51-Point Historic Performance Challenges Kon Knueppel in NBA Rookie of the Year Race | YES | MED confiden",
+      "raw": "Cooper Flagg's 51-Point Historic Performance Challenges Kon Knueppel in NBA Rookie of the Year Race | YES | MED confidence**  \nFlagg, the No. 1 pick of the 2025 Draft playing for the Dallas Mavericks, became the youngest player and only teenager in NBA history to score 50+ points (51 points on 19/30 shooting) in a loss to the Orlando Magic on Friday, joining rare rookie company with Brandon Jennin",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776850227589_1",
+      "timestamp": "2026-04-22T09:30:27.589981+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Flagg's Rookie Season Ends with Mavericks Win, Shifting Draft Lottery Odds | YES | HIGH confidence**",
+      "raw": "Flagg's Rookie Season Ends with Mavericks Win, Shifting Draft Lottery Odds | YES | HIGH confidence**  \nDallas won their final game, tying them for 7th/8th-worst record with the Pelicans and dropping lottery odds for the No. 1 pick from ~9% to a coin flip between 6.7-6.8%, impacting offseason rebuild predictions as Flagg emerges as the franchise face[2]. His night was cut short by an ankle sprain, ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776850227593_2",
+      "timestamp": "2026-04-22T09:30:27.593010+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Flagg Injury Raises Concerns in Tight ROY Race with ~20 Games Left | NO | LOW confidence**",
+      "raw": "Flagg Injury Raises Concerns in Tight ROY Race with ~20 Games Left | NO | LOW confidence**  \nNo new confirmation of injury severity or ROY ladder shift; Knueppel leads NBA.com's ladder due to consistency and Hornets' surprise contention, with Flagg's expected return Thursday vs. Magic or Friday vs. Celtics (potential homecoming)[3]. This speculation alone unlikely to move markets without updates[1",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776850232888_0",
+      "timestamp": "2026-04-22T09:30:32.888684+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | LOW confidence**  \nPolymarket traders are actively pricing **Elon Musk tweet volume markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" with \"180-199\" at 29% and broader April 2026 markets showing \"1080-1119\" at 18% or \"1120-1159\" at 28%, reflecting real-time shifts as new tweets emerge[1][2][3]. These dominate Twee",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -65,12 +135,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776850156875_2",
-      "timestamp": "2026-04-22T09:29:16.875514+00:00",
+      "id": "sig_1776850232894_2",
+      "timestamp": "2026-04-22T09:30:32.894955+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye West Tweet by April 30",
-      "raw": "Kanye West Tweet by April 30? Low-Volume Speculation | NO (implied <50%) | LOW confidence**\n\n132 tweet markets include \"Will Kanye tweet again by April 30?\" at unstated but example 30-37% odds, backed by $17.1M volume, with no fresh confirmations or trader buzz on X[3]. Overall, no breaking resolutions (e.g., events, announcements) shift these; odds evolve on sentiment without highlighted whale ac",
-      "direction": "NO",
+      "headline": "No Whale Bets or Confirmed Movers Visible in Real-Time Feeds | NO | MED confidence**",
+      "raw": "No Whale Bets or Confirmed Movers Visible in Real-Time Feeds | NO | MED confidence**  \nXTracker offers social analytics for Polymarket posts, but lacks specifics on whales, tips, or mispriced bets as of now; tweet markets lead activity without noted X hype or events[5][1][2][3]. Data reflects states up to April 19, limiting \"right now\" breaking insights[2][3][4].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -79,9 +149,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 3,
+    "enter": 0,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
