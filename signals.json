@@ -1,70 +1,44 @@
 {
-  "last_scan": "2026-04-22T01:58:18.599838+00:00",
-  "scan_seconds": 17.9,
-  "markets_scanned": 76,
+  "last_scan": "2026-04-22T01:59:27.026269+00:00",
+  "scan_seconds": 16.0,
+  "markets_scanned": 78,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776823088633_0",
-      "timestamp": "2026-04-22T01:58:08.633862+00:00",
+      "id": "sig_1776823157897_0",
+      "timestamp": "2026-04-22T01:59:17.897265+00:00",
       "source": "PERPLEXITY",
-      "headline": "Russia's GDP Contracted 1",
-      "raw": "Russia's GDP Contracted 1.8% in Jan-Feb 2026, Acknowledged by Putin in Recent Meeting | YES | HIGH confidence**  \nVladimir Putin announced during an economic meeting that Russia's GDP fell 1.8% year-over-year between January and February 2026 compared to the prior year, marking two months of decline; he attributed it partly to fewer working days but highlighted underperformance in manufacturing, c",
+      "headline": "No breaking GDP news confirmed, announced, or resolved right now that would move prediction markets | NO | HIGH confiden",
+      "raw": "No breaking GDP news confirmed, announced, or resolved right now that would move prediction markets | NO | HIGH confidence**\n\nThe most recent US GDP development is the third estimate from April 9, 2026, downgrading Q4 2025 growth to 0.5% (from prior estimates), confirmed by the U.S. Bureau of Economic Analysis\u2014over 12 days old and unlikely to shift markets now.[1] IMF's upward revision of India's ",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Russia enter Ternuvate again by April 30?"
-      ],
-      "action": "ENTER",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776823094004_0",
-      "timestamp": "2026-04-22T01:58:14.004649+00:00",
+      "id": "sig_1776823162017_0",
+      "timestamp": "2026-04-22T01:59:22.017559+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Shock Rockets in Game 1 Playoff Win (107-98); LeBron James (19pts/13ast) & Luke Kennard (27pts) Lead Without KD |",
-      "raw": "Lakers Shock Rockets in Game 1 Playoff Win (107-98); LeBron James (19pts/13ast) & Luke Kennard (27pts) Lead Without KD | YES (Lakers series edge confirmed after upset victory) | HIGH confidence** [3][5]\n\nLakers capitalized on Kevin Durant's injury absence, shooting 60.6% while holding Houston to 37.6%; LeBron made history as oldest for playoff points/assists double-double and shared court with son",
+      "headline": "Lakers Lead Rockets 1-0 After Game 1 Win in Western Conference Semifinals | YES (Lakers favored to win series) | HIGH co",
+      "raw": "Lakers Lead Rockets 1-0 After Game 1 Win in Western Conference Semifinals | YES (Lakers favored to win series) | HIGH confidence** [1]\n\nThe Los Angeles Lakers, seeded 4th in the West, defeated the 5th-seeded Houston Rockets in Game 1 on April 21 (10:30 PM), taking a 1-0 series lead as playoffs advance to semifinals; Game 2 is upcoming with Lakers hosting and Rockets as -5.5 underdogs.[1] This resu",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776823094007_1",
-      "timestamp": "2026-04-22T01:58:14.008003+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Dominate Raptors 126-113 in Game 1; Max Strus & James Harden Combine for 46pts | NO (Raptors upset unlikely) |",
-      "raw": "Cavaliers Dominate Raptors 126-113 in Game 1; Max Strus & James Harden Combine for 46pts | NO (Raptors upset unlikely) | HIGH confidence** [3]. Cavs overcame regular-season losses to Toronto, confirming early series control despite Raptors' upset potential via 3-point shooting [1][3]. No market-moving Raptors news since.",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776823097596_0",
-      "timestamp": "2026-04-22T01:58:17.596901+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | HIGH confidence**",
-      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet predictions** for April 2026 periods, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., \"200-219\" at 29%) and overall \"Elon Musk # tweets in April 2026?\" with 18% odds on \"1080-1119.\"[1][2][3]  \nNo whale bets, smart money moves, mispriced ma",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 0,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
