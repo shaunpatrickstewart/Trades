@@ -1,30 +1,32 @@
 {
-  "last_scan": "2026-04-22T08:37:08.315079+00:00",
-  "scan_seconds": 16.8,
+  "last_scan": "2026-04-22T08:38:24.956166+00:00",
+  "scan_seconds": 24.4,
   "markets_scanned": 74,
   "open_positions": 34,
   "signals": [
     {
-      "id": "sig_1776847018619_0",
-      "timestamp": "2026-04-22T08:36:58.619484+00:00",
+      "id": "sig_1776847099450_0",
+      "timestamp": "2026-04-22T08:38:19.450643+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell Warns of 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cuts and Weakening",
-      "raw": "Powell Warns of 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cuts and Weakening Labor Market | YES | HIGH**  \nFederal Reserve Chair Jerome Powell described the U.S. economy as \u201cvery unusual\u201d in a Wednesday statement, citing tariff-affected goods inflation expected to peak around Q1 2026 (assuming no further tariffs), while inflation excluding those goods is ",
+      "headline": "Lakers Lead Rockets 2-0 After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**",
+      "raw": "Lakers Lead Rockets 2-0 After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**  \nThe Los Angeles Lakers have taken a 2-0 series lead over the Houston Rockets in the NBA playoffs first round following their Game 2 victory, as confirmed in the latest bracket updates, shifting momentum significantly in their favor with Game 3 set for April 24.[3] This early dominance, highlighted b",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776847014240_0",
-      "timestamp": "2026-04-22T08:36:54.240691+00:00",
+      "id": "sig_1776847087276_0",
+      "timestamp": "2026-04-22T08:38:07.276974+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]\n\nThe resolution of the SEC v. Ripple case, reported as a key catalyst in April 2026, has removed a major regulatory overhang suppressing XRP's price for years, driving a 10% weekly gain to ~$1.42 after breaking $1.50 resistance[1]. This fundamental shift signals institutional enthusiasm and positions XRP for potential ",
+      "headline": "SEC Drops Ripple Lawsuit, Removing Years-Long Regulatory Overhang | YES | HIGH confidence**",
+      "raw": "SEC Drops Ripple Lawsuit, Removing Years-Long Regulatory Overhang | YES | HIGH confidence**\n\nThe **SEC has resolved its long-running lawsuit against Ripple Labs**, a development that has fundamentally shifted XRP market sentiment in April 2026[1]. This regulatory clarity removes a significant legal burden that had suppressed XRP's price potential for years[1].\n\nThe resolution is directly catalyzin",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -37,11 +39,69 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776847027312_0",
-      "timestamp": "2026-04-22T08:37:07.312097+00:00",
+      "id": "sig_1776847095032_0",
+      "timestamp": "2026-04-22T08:38:15.032068+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Volume Markets Surge in Trader Buzz | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweet Volume Markets Surge in Trader Buzz | NO | LOW confidence**\n\nPolymarket's active **tweet prediction markets**, especially \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", dominate current activity with outcomes like 1080-1119 at 18% and 1120-1159 at 28% implied probability, reflecting real-time trader sentiment amid $17.1M-$19.1M volume",
+      "headline": "I cannot provide the breaking news you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news you're requesting based on these search results. The most recent sources available are from **March 19, 2026** and **April 4, 2026**\u2014both prior to today's date of April 22, 2026. The search results do not contain any announcements, confirmations, or resolutions from today that would move prediction markets.\n\nThe available information includes:[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776847095035_1",
+      "timestamp": "2026-04-22T08:38:15.035563+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell's December 2025 warnings about a \"very unusual\" economy with tariff-driven goods inflation and weakening labor ma",
+      "raw": "Powell's December 2025 warnings about a \"very unusual\" economy with tariff-driven goods inflation and weakening labor markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776847095039_2",
+      "timestamp": "2026-04-22T08:38:15.039397+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A March 2026 discussion where Powell expressed uncertainty about the extent of tariff shocks and their timeline through",
+      "raw": "A March 2026 discussion where Powell expressed uncertainty about the extent of tariff shocks and their timeline through the economy[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776847095042_3",
+      "timestamp": "2026-04-22T08:38:15.042283+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh's April 4, 2026 Senate confirmation hearing criticizing the Fed's past inflation policy errors[3]",
+      "raw": "Kevin Warsh's April 4, 2026 Senate confirmation hearing criticizing the Fed's past inflation policy errors[3]\n\nTo get current breaking news from today, you would need real-time news sources or market data feeds that are updated as events occur.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776847103944_0",
+      "timestamp": "2026-04-22T08:38:23.944672+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**  \nPolymarket's X predictions show this as the most active market, with crowd odds at 100% YES probability amid $152.4M total X trading volume; traders interpret it as near-certainty for resolution by year-end, potentially signaling de-escalation news driving the shift[2].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -50,25 +110,61 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776847023017_0",
-      "timestamp": "2026-04-22T08:37:03.017411+00:00",
+      "id": "sig_1776847103947_1",
+      "timestamp": "2026-04-22T08:38:23.947499+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers vs Raptors Series Prediction Unchanged: No Confirmed Matchup or Winner | NO | HIGH confidence**",
-      "raw": "Lakers vs Raptors Series Prediction Unchanged: No Confirmed Matchup or Winner | NO | HIGH confidence**  \nNo breaking news confirms a Lakers-Raptors playoff series, resolution, or winner as of now; they are in opposite conferences (Lakers in West, Raptors in East, 5th seed).[2][5] Recent playoffs show Lakers won Game 1 vs Rockets without KD (Durant), but lost shot opportunities and rebounding battl",
+      "headline": "\ud835\udd4f Money Launched by April 30 at 12% YES | NO | HIGH confidence**",
+      "raw": "\ud835\udd4f Money Launched by April 30 at 12% YES | NO | HIGH confidence**  \nX-specific market lists 12% YES odds with $33.6K volume, suggesting traders doubt imminent launch despite hype; low liquidity ($4.6K) indicates limited conviction but real-time trader sentiment leans bearish[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776847103950_2",
+      "timestamp": "2026-04-22T08:38:23.950270+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Musk # Tweets in April 2026 (1120-1159 Range) at 28% | NO | MED confidence**",
+      "raw": "Elon Musk Musk # Tweets in April 2026 (1120-1159 Range) at 28% | NO | MED confidence**  \nTop tweet market with massive $9M volume ($491K today) prices this bucket at 28%, reflecting bets on Musk's posting frenzy; high activity hints at traders tracking his behavior for mispriced edges[3].",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776847103953_3",
+      "timestamp": "2026-04-22T08:38:23.953081+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? Trending in General Markets | NO clear odds shift | LOW confidence**  \nFeatured in 166 trending markets with $3M+ volume, but no specific X posts or whale moves noted; traders may view as niche bet with potential for news-driven repricing[1].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776847087280_1",
+      "timestamp": "2026-04-22T08:38:07.280005+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** The lawsuit dismissal signals institutional acceptance of XRP and is driving renewed institutiona",
+      "raw": "Market implications:** The lawsuit dismissal signals institutional acceptance of XRP and is driving renewed institutional enthusiasm across cryptocurrency markets[1]. Analysts project this clarity could unlock substantial upside as institutional capital rotates into altcoins with established use cases, with conservative year-end 2026 targets reaching $2.71 and optimistic forecasts clustering betwe",
+      "direction": null,
       "confidence": 0.6,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
-      ],
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
+    "alert": 9,
     "watch": 1,
     "high_conf": 1
   }
