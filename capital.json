@@ -1,5 +1,5 @@
 {
-  "ts": 1776852879,
+  "ts": 1776852945,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999785
+    "usdc_usd": 0.999793
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -89,10 +89,10 @@
         "slug": "lowest-temperature-in-shanghai-on-april-22-2026-11c",
         "title": "Will the lowest temperature in Shanghai be 11\u00b0C on April 22?",
         "size": 14.69,
-        "cur_price": 0.985,
-        "nav_usdc": 14.4696,
+        "cur_price": 0.9845,
+        "nav_usdc": 14.4623,
         "cost_basis": 14.5431,
-        "unrealized_pnl": -0.0735
+        "unrealized_pnl": -0.0808
       },
       {
         "slug": "highest-temperature-in-cape-town-on-april-20-2026-21corhigher",
@@ -116,19 +116,19 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.058,
-        "nav_usdc": 0.4733,
+        "cur_price": 0.0585,
+        "nav_usdc": 0.4774,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8241
+        "unrealized_pnl": -0.82
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.16,
-        "nav_usdc": 1.2256,
+        "cur_price": 0.165,
+        "nav_usdc": 1.2639,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.5362
+        "unrealized_pnl": -0.4979
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -161,10 +161,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1245,
-        "nav_usdc": 0.6287,
+        "cur_price": 0.1255,
+        "nav_usdc": 0.6338,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.063
+        "unrealized_pnl": -1.0579
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -188,10 +188,10 @@
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.9615,
-        "nav_usdc": 4.841,
+        "cur_price": 0.961,
+        "nav_usdc": 4.8384,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.3097
+        "unrealized_pnl": 0.3071
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -312,16 +312,16 @@
       }
     ],
     "position_count": 33,
-    "positions_nav_usdc": 302.3273,
-    "total_usdc": 403.807,
-    "total_usd": 403.7201
+    "positions_nav_usdc": 302.3648,
+    "total_usdc": 403.8445,
+    "total_usd": 403.7609
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776852880,
+    "ts": 1776852946,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 53,
     "today": {
@@ -369,7 +369,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776766480,
+      "window_start_ts": 1776766546,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 107.3563,
@@ -442,7 +442,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776248080,
+      "window_start_ts": 1776248146,
       "realized_usdc": 1.5555,
       "trade_count": 53,
       "buy_volume_usdc": 480.1765,
@@ -655,7 +655,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774260880,
+      "window_start_ts": 1774260946,
       "realized_usdc": 1.5555,
       "trade_count": 53,
       "buy_volume_usdc": 480.1765,
@@ -1081,7 +1081,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.7201,
-    "total_usdc": 403.807
+    "total_usd": 403.7609,
+    "total_usdc": 403.8445
   }
 }
