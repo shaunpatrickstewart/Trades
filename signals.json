@@ -1,32 +1,86 @@
 {
-  "last_scan": "2026-04-22T12:03:39.299113+00:00",
-  "scan_seconds": 17.8,
+  "last_scan": "2026-04-22T12:04:49.641325+00:00",
+  "scan_seconds": 18.9,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776859405156_0",
-      "timestamp": "2026-04-22T12:03:25.156600+00:00",
+      "id": "sig_1776859483533_0",
+      "timestamp": "2026-04-22T12:04:43.533969+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Lawsuit Against Ripple Fully Resolved, Triggering XRP Surge Above $1",
-      "raw": "SEC Lawsuit Against Ripple Fully Resolved, Triggering XRP Surge Above $1.50 | YES | HIGH confidence** [1][2]\n\nThe SEC has dropped its long-running lawsuit against Ripple Labs, removing a major regulatory overhang that suppressed XRP's price for years and enabling institutional adoption.[1][2] This resolution, circulating through institutional channels in early April 2026, drove a 10% weekly gain, ",
+      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win | YES (Lakers favored to win series) | HIGH co",
+      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence** [1]\n\nLakers hold a **2-0 series lead** over the Houston Rockets in the Western Conference semifinals, with Game 3 scheduled for April 24 (LAL lead 2-0, HOU -9.5 spread). [1] This result, from the ongoing 2025-26 NBA playoffs bracket, strengthens predictions for the **L",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
-        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776859478885_0",
+      "timestamp": "2026-04-22T12:04:38.885205+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting because the search results provided are from **October and December",
+      "raw": "I cannot provide the breaking news you're requesting because the search results provided are from **October and December 2025**, which are significantly outdated relative to the current date of April 22, 2026.\n\nThe available search results contain statements from Federal Reserve Chair Jerome Powell about tariff-driven inflation from late 2025, but they do not represent current breaking news or rec",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776859418292_0",
-      "timestamp": "2026-04-22T12:03:38.292929+00:00",
+      "id": "sig_1776859478888_1",
+      "timestamp": "2026-04-22T12:04:38.888990+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4].  \nN",
+      "headline": "Searching for the latest Federal Reserve statements or press releases from April 2026",
+      "raw": "Searching for the latest Federal Reserve statements or press releases from April 2026",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859478891_2",
+      "timestamp": "2026-04-22T12:04:38.891980+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Checking current financial news sources for today's market-moving announcements",
+      "raw": "Checking current financial news sources for today's market-moving announcements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859478894_3",
+      "timestamp": "2026-04-22T12:04:38.894930+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Looking for recent Powell testimonies or FOMC decisions",
+      "raw": "Looking for recent Powell testimonies or FOMC decisions\n\nI cannot speculate about current market-moving events based on outdated information.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859488631_0",
+      "timestamp": "2026-04-22T12:04:48.631585+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (32% on 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% on 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4]. These reflect hi",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -35,23 +89,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776859418296_1",
-      "timestamp": "2026-04-22T12:03:38.296018+00:00",
+      "id": "sig_1776859488634_1",
+      "timestamp": "2026-04-22T12:04:48.634752+00:00",
       "source": "PERPLEXITY",
-      "headline": "Tweet Markets** dominate with real-time odds shifting on pop culture events like Kanye tweeting by April 30, but lack ev",
-      "raw": "Tweet Markets** dominate with real-time odds shifting on pop culture events like Kanye tweeting by April 30, but lack evidence of \"right now\" X buzz or resolutions impacting prices[2][3].",
-      "direction": null,
+      "headline": "No whale bets, smart money moves, or mispriced markets discussed | NO | LOW confidence**",
+      "raw": "No whale bets, smart money moves, or mispriced markets discussed | NO | LOW confidence**\n\nSearch results show no mentions of whale activity, smart money tips, or claims of mispriced markets on X; focus is solely on Polymarket's platform data like trending tweet and general \"Trending Markets\" (166 live as of April 21)[1][3].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859488637_2",
+      "timestamp": "2026-04-22T12:04:48.637876+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No recent confirmations, announcements, or resolutions impacting markets | NO | LOW confidence**",
+      "raw": "No recent confirmations, announcements, or resolutions impacting markets | NO | LOW confidence**\n\nNo breaking news, confirmed events, or resolutions are reported that could move prediction markets; results highlight ongoing tweet markets (e.g., Kanye by April 30) and Nasdaq trading by June 30, but lack real-time X posts or updates as of April 22[1][3]. Confidence is low due to outdated snapshots (",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 2
   }
 }
