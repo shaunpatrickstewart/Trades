@@ -1,5 +1,5 @@
 {
-  "ts": 1776841426,
+  "ts": 1776841495,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999589
+    "usdc_usd": 0.999646
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -161,10 +161,10 @@
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.16,
-        "nav_usdc": 0.808,
+        "cur_price": 0.17,
+        "nav_usdc": 0.8585,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.404
+        "unrealized_pnl": -0.3535
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
@@ -179,10 +179,10 @@
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.9645,
-        "nav_usdc": 4.8561,
+        "cur_price": 0.9655,
+        "nav_usdc": 4.8611,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.3248
+        "unrealized_pnl": 0.3298
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -303,16 +303,16 @@
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 286.1817,
-    "total_usdc": 402.2045,
-    "total_usd": 402.0392
+    "positions_nav_usdc": 286.2373,
+    "total_usdc": 402.2601,
+    "total_usd": 402.1177
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776841428,
+    "ts": 1776841496,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776755028,
+      "window_start_ts": 1776755096,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 92.8132,
@@ -423,7 +423,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776236628,
+      "window_start_ts": 1776236696,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -636,7 +636,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774249428,
+      "window_start_ts": 1774249496,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1062,7 +1062,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.0392,
-    "total_usdc": 402.2045
+    "total_usd": 402.1177,
+    "total_usdc": 402.2601
   }
 }
