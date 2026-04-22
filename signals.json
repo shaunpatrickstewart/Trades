@@ -1,32 +1,51 @@
 {
-  "last_scan": "2026-04-22T09:07:35.979246+00:00",
-  "scan_seconds": 15.4,
+  "last_scan": "2026-04-22T09:08:46.053093+00:00",
+  "scan_seconds": 19.5,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776848843196_0",
-      "timestamp": "2026-04-22T09:07:23.196490+00:00",
+      "id": "sig_1776848909423_0",
+      "timestamp": "2026-04-22T09:08:29.423556+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**[1][2]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**[1][2]\n\nThe SEC's decision to drop its lawsuit against Ripple provides definitive regulatory clarity, removing a multi-year overhang that suppressed XRP's price and enabling institutional adoption, with XRP surging nearly 10% in the past week to ~$1.42 after breaking $1.50 resistance[1]. This resolution, combined with the ",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst for XRP's April 2026 price surge, with the token gaining nearly 10% in the past week to around $1.42 after breaking $1.50 resistance, signaling a fundamental shift in market sentiment and removing a major overhang.[1]  \nThis resol",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776848851146_0",
-      "timestamp": "2026-04-22T09:07:31.146395+00:00",
+      "id": "sig_1776848914658_0",
+      "timestamp": "2026-04-22T09:08:34.658423+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors in NBA Eastern Conference first-round playoffs** | **YES** | **HIGH** confid",
-      "raw": "Cavaliers take 2-0 series lead over Raptors in NBA Eastern Conference first-round playoffs** | **YES** | **HIGH** confidence[1][2]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on Monday night, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and eight rebounds, securing a 2-0 lead in their first-round series.[1][2] Cleveland n",
+      "headline": "Powell Confirms Tariffs Driving Persistent Goods Inflation into Q1 2026, Expects Peak Absent Further Rounds Amid Weakeni",
+      "raw": "Powell Confirms Tariffs Driving Persistent Goods Inflation into Q1 2026, Expects Peak Absent Further Rounds Amid Weakening Labor Market** | **YES** | **HIGH** confidence[1][2][3][5]\n\nFederal Reserve Chair Jerome Powell recently stated the U.S. economy is \"very unusual\" due to tariff-induced goods inflation remaining elevated\u2014expected to peak around Q1 2026 if no additional tariffs are imposed\u2014whil",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776848919506_0",
+      "timestamp": "2026-04-22T09:08:39.506968+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Mavericks' 14th Straight Home Loss Despite Flagg's Historic 51 Points Hands Lakers Key Advantage Ahead of Sunday Matchup",
+      "raw": "Mavericks' 14th Straight Home Loss Despite Flagg's Historic 51 Points Hands Lakers Key Advantage Ahead of Sunday Matchup | NO (Lakers will not win series; Mavs eliminated from playoffs) | HIGH confidence** [1][2]\n\nThe Dallas Mavericks fell 138-127 to the Orlando Magic on Friday, extending their home losing streak to 14 games despite rookie Cooper Flagg's franchise-record 51 points (19/30 FG, 6/9 3",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
         "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
@@ -35,11 +54,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776848854976_0",
-      "timestamp": "2026-04-22T09:07:34.976253+00:00",
+      "id": "sig_1776848925043_0",
+      "timestamp": "2026-04-22T09:08:45.043435+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on \"180-199\")[2] and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119, 28% on 1120-1159)[3][4]. These dominate Tweet, Tweet Markets, and Pop Culture categories with high vol",
+      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets as of early April 2026 focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 180-199 at 29%) and \"Elon Musk # tweets in April 2026?\" (e.g., 1080-1119 at 18%, 1120-1159 at 28%), with over $17-19M in trading volume across 130+ tweet",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -48,25 +67,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776848847446_0",
-      "timestamp": "2026-04-22T09:07:27.446952+00:00",
+      "id": "sig_1776848925046_1",
+      "timestamp": "2026-04-22T09:08:45.046499+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Confirms Tariffs Driving Persistent Goods Inflation into Q1 2026, Expects Peak Assuming No New Rounds;",
-      "raw": "Fed Chair Powell Confirms Tariffs Driving Persistent Goods Inflation into Q1 2026, Expects Peak Assuming No New Rounds; Labels Economy 'Very Unusual' Amid Weakening Labor Market** | YES | HIGH  \nPowell stated in a Wednesday briefing that goods inflation, fueled by tariffs, remains elevated and should peak around Q1 2026 if no additional tariff rounds occur, while inflation excluding tariff-affecte",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "WATCH",
+      "headline": "No Whale Bets or Smart Money Moves Reported on X Right Now | NO | HIGH confidence**",
+      "raw": "No Whale Bets or Smart Money Moves Reported on X Right Now | NO | HIGH confidence**  \nSearch results show no current X posts about whale bets, smart money flows, or trending tips; instead, Polymarket pages highlight real-time odds updates driven by trader sentiment on pop culture events like Kanye tweeting by April 30[2][3]. One Binance post promotes a Polymarket analytics tool for tracking top tr",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776848925049_2",
+      "timestamp": "2026-04-22T09:08:45.049548+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Trending Mispriced Markets or Imminent Moves on X | NO | MED confidence**",
+      "raw": "No Trending Mispriced Markets or Imminent Moves on X | NO | MED confidence**  \nResults do not capture X discussions on mispriced markets or tips; focus is on active tweet markets' odds (e.g., 18-28% on high-volume Elon bins), suggesting potential edges where traders see value vs. traditional odds, but no X hype confirmed[1][2][3]. Limited X-specific data lowers confidence here.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 2
   }
 }
