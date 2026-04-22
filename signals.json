@@ -1,74 +1,108 @@
 {
-  "last_scan": "2026-04-22T07:00:41.492720+00:00",
-  "scan_seconds": 20.5,
+  "last_scan": "2026-04-22T07:01:42.782441+00:00",
+  "scan_seconds": 21.2,
   "markets_scanned": 79,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776841230663_0",
-      "timestamp": "2026-04-22T07:00:30.663126+00:00",
+      "id": "sig_1776841291052_0",
+      "timestamp": "2026-04-22T07:01:31.052581+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news that matches your query parameters based on the search results provided",
-      "raw": "I cannot identify breaking news that matches your query parameters based on the search results provided.\n\nThe search results contain information from **July 2025, April 2025, and December 2025**\u2014all predating the current date of April 22, 2026. The most recent substantive content discusses:",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "IMF Executive Board Concludes 2026 Article IV Consultation: Projects US GDP at 2",
+      "raw": "IMF Executive Board Concludes 2026 Article IV Consultation: Projects US GDP at 2.4%, Core PCE Inflation to 2% by H1 2027 Despite Tariffs | YES | HIGH confidence** [3]\n\nThe IMF confirmed on April 1, 2026, that US GDP growth reached 2% in 2025 despite challenges like a Q4 government shutdown and policy shifts, with a projected rise to 2.4% in 2026.[3] It states fading tariff effects and lower oil pr",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776841296417_0",
+      "timestamp": "2026-04-22T07:01:36.417613+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win | YES (Lakers favored to win series) | HIGH co",
+      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**  \nThe Los Angeles Lakers have taken a 2-0 series lead over the Houston Rockets in the Western Conference semifinals, with Game 3 scheduled for April 24.[1] This confirmed result strengthens predictions favoring the **Lakers** to advance, as early series leads historica",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776841296424_1",
+      "timestamp": "2026-04-22T07:01:36.424715+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Advance to Eastern Conference Finals After 4-1 Series Win Over Pacers | YES (Cavaliers confirmed series win) |",
+      "raw": "Cavaliers Advance to Eastern Conference Finals After 4-1 Series Win Over Pacers | YES (Cavaliers confirmed series win) | HIGH confidence**  \nCleveland Cavaliers defeated the Indiana Pacers 103-91 in the decisive game, clinching the Eastern Conference semifinals series 4-1.[1] Key wins include Cavaliers' 138-83 rout of the Heat (1st round) and multiple victories over Pacers, positioning them for th",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776841296427_2",
+      "timestamp": "2026-04-22T07:01:36.427975+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Rookie-Specific Breaking News Confirmed in Lakers-Cavs Series Contexts | NO | LOW confidence**",
+      "raw": "No Rookie-Specific Breaking News Confirmed in Lakers-Cavs Series Contexts | NO | LOW confidence**  \nSearch results lack any just-announced rookie injuries, performances, or developments tied to Lakers, Cavaliers, or conference semifinals that would impact markets.[1][2][3] No mentions of standout rookies in ongoing series like Lakers-Rockets or Cavs-Pacers.",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776841291062_1",
+      "timestamp": "2026-04-22T07:01:31.062574+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed's Powell Reiterates Tariff-Driven Goods Inflation as Temporary, Expects Peak Q1 2026; Inflation Ex-Tariffs Near 2% |",
+      "raw": "Fed's Powell Reiterates Tariff-Driven Goods Inflation as Temporary, Expects Peak Q1 2026; Inflation Ex-Tariffs Near 2% | NO** (no new resolution) | **MED confidence** [2][4]\n\nPowell described tariff effects as a \"one-time price increase\" in goods, with inflation excluding tariff-affected goods already in the low 2% range, services cooling, and no broad overheating.[2][4] He noted core PCE at ~2.9-",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776841301776_1",
+      "timestamp": "2026-04-22T07:01:41.776660+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release Before June 2026",
+      "raw": "GTA VI Release Before June 2026? | NO | LOW confidence**  \nTraders price this at 1% yes probability with $14M volume, indicating strong consensus against an imminent release[4].",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776841230666_1",
-      "timestamp": "2026-04-22T07:00:30.666229+00:00",
+      "id": "sig_1776841301773_0",
+      "timestamp": "2026-04-22T07:01:41.773418+00:00",
       "source": "PERPLEXITY",
-      "headline": "**July 2025**: GDP growth of 3% (later revised to 3",
-      "raw": "**July 2025**: GDP growth of 3% (later revised to 3.8%), with Powell citing tariffs as a reason for holding interest rates steady[1][3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776841230672_3",
-      "timestamp": "2026-04-22T07:00:30.672325+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**December 2025**: Powell stating that tariffs are causing \"most of the inflation overshoot\"[4]",
-      "raw": "**December 2025**: Powell stating that tariffs are causing \"most of the inflation overshoot\"[4]\n\nTo provide the breaking news alert you're requesting in the format (HEADLINE | YES or NO | confidence level), I would need search results from April 22, 2026, or very recent dates showing a new announcement, confirmation, or market-moving event. The available results do not contain current information ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776841230675_4",
-      "timestamp": "2026-04-22T07:00:30.675885+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recommendation**: Conduct a fresh search with today's date filters to capture breaking developments in tariff policy, Po",
-      "raw": "Recommendation**: Conduct a fresh search with today's date filters to capture breaking developments in tariff policy, Powell statements, GDP announcements, or related market-moving news.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776841240489_0",
-      "timestamp": "2026-04-22T07:00:40.489433+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket traders are actively discussing **Elon Musk tweet volume markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119), with over $17.1M in trading volume across 130+ related markets as of early April 2026[2][3][5]. These ",
-      "direction": "YES",
+      "headline": "Polymarket Traders on X Focus on Tweet Count Markets Amid High Trading Volume, No Specific Whale Bets or Confirmed Resol",
+      "raw": "Polymarket Traders on X Focus on Tweet Count Markets Amid High Trading Volume, No Specific Whale Bets or Confirmed Resolutions Reported Right Now | NO | LOW confidence**\n\nPolymarket hosts active prediction markets on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", with the most traded outcome at 18% odds for 1080-111",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -76,42 +110,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776841230669_2",
-      "timestamp": "2026-04-22T07:00:30.669254+00:00",
+      "id": "sig_1776841301779_2",
+      "timestamp": "2026-04-22T07:01:41.779808+00:00",
       "source": "PERPLEXITY",
-      "headline": "**April 2025**: Powell warning that tariff effects on inflation remain uncertain[2]",
-      "raw": "**April 2025**: Powell warning that tariff effects on inflation remain uncertain[2]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776841235752_0",
-      "timestamp": "2026-04-22T07:00:35.752099+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Season Effectively Over After Losing Luka Doncic and Austin Reaves for Rest of Regular Season | NO (No Lakers-Fla",
-      "raw": "Lakers Season Effectively Over After Losing Luka Doncic and Austin Reaves for Rest of Regular Season | NO (No Lakers-Flagg Link or Playoff Advancement Confirmed) | HIGH confidence** [1][3]\n\nCooper Flagg, the Dallas Mavericks' rookie No. 1 pick, ended his standout season prematurely with an ankle injury in the Sunday finale against Chicago, exiting early with 10 points in 9 minutes and ruled out fo",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions** noted that would shift markets; results highlight ongoing tweet",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions** noted that would shift markets; results highlight ongoing tweet and news story markets like MegaETH airdrop (57% by June 30) without breaking developments[2][4]. X analytics tools are discussed for tracking top traders, but no live whale activity or tips surfaced[5][6]. Confidence remains **low** due to static market snapshots without real-t",
       "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "WATCH",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
-    "watch": 2,
-    "high_conf": 0
+    "enter": 4,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 4
   }
 }
