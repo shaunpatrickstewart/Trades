@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T06:54:46.706997+00:00",
-  "scan_seconds": 20.1,
+  "last_scan": "2026-04-22T06:55:54.804613+00:00",
+  "scan_seconds": 24.3,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776840875739_0",
-      "timestamp": "2026-04-22T06:54:35.739971+00:00",
+      "id": "sig_1776840941839_0",
+      "timestamp": "2026-04-22T06:55:41.839726+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady at 3",
-      "raw": "Fed Holds Rates Steady at 3.5-3.75%; Inflation Remains Elevated, GDP Solid | NO** | **HIGH** confidence\n\nThe Federal Reserve's FOMC on March 18, 2026, confirmed it is maintaining the federal funds rate target range at **3\u00bd to 3\u00be percent**, citing solid economic activity, low job gains, stable unemployment, and **somewhat elevated inflation**[3]. This decision aligns with Powell's March 19, 2026, r",
+      "headline": "Fed Chair Powell Confirms Tariffs Driving Persistent Goods Inflation into Q1 2026, Describes Economy as 'Very Unusual' w",
+      "raw": "Fed Chair Powell Confirms Tariffs Driving Persistent Goods Inflation into Q1 2026, Describes Economy as 'Very Unusual' with Weakening Labor Market | YES | HIGH**\n\nPowell announced on Wednesday that the U.S. economy faces a rare mix of **tariff-driven goods inflation**\u2014expected to peak around Q1 2026 assuming no further tariffs\u2014and a **labor market** likely weaker than official data shows, with job",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,42 +20,64 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776840875747_1",
-      "timestamp": "2026-04-22T06:54:35.747359+00:00",
+      "id": "sig_1776840937120_0",
+      "timestamp": "2026-04-22T06:55:37.120130+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO** major new confirmation, announcement, or resolution shifts prior expectations\u2014March FOMC and early April IMF align",
-      "raw": "NO** major new confirmation, announcement, or resolution shifts prior expectations\u2014March FOMC and early April IMF align with steady policy, unlikely to move prediction markets significantly as they reinforce \"wait-and-see\" stance on **April inflation** (no specific data) and **Powell** outlook[1][2][3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
+      "headline": "Based on the search results available, the most significant confirmed development is:",
+      "raw": "Based on the search results available, the most significant confirmed development is:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776840885697_0",
-      "timestamp": "2026-04-22T06:54:45.697671+00:00",
+      "id": "sig_1776840937123_1",
+      "timestamp": "2026-04-22T06:55:37.123188+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO | HIGH confidence**\n\nPolymarket's most active markets as of early April 2026 focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and overall \"Elon Musk # tweets in April 2026?\", with the 1080-1119 range priced at **18% probability** amid $17.1M total trading volume across 130+ tweet-related ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?"
-      ],
+      "headline": "SEC Lawsuit Against Ripple Labs Dropped | YES | HIGH confidence**",
+      "raw": "SEC Lawsuit Against Ripple Labs Dropped | YES | HIGH confidence**\n\nThe SEC's resolution of its long-running lawsuit against Ripple Labs has been confirmed and is described as a fundamental market catalyst[1]. This regulatory clarity removes what sources characterize as a \"significant overhang that had suppressed XRP's price potential for years\"[1] and represents \"the resolution of the SEC case\" th",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776840885700_1",
-      "timestamp": "2026-04-22T06:54:45.700770+00:00",
+      "id": "sig_1776840937126_2",
+      "timestamp": "2026-04-22T06:55:37.126080+00:00",
       "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or mispriced markets reported | NO | HIGH confidence**",
-      "raw": "No whale bets, smart money moves, or mispriced markets reported | NO | HIGH confidence**\n\nSearch results show no X posts or data on **whale activity, prediction tips, or claims of mispriced markets**; coverage is limited to Polymarket's own pages on tweet predictions without social trader discussions[1][2][3][5].",
-      "direction": "NO",
+      "headline": "Secondary Confirmed Development:**",
+      "raw": "Secondary Confirmed Development:**",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776840937132_4",
+      "timestamp": "2026-04-22T06:55:37.132452+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current Market Context:**",
+      "raw": "Current Market Context:**\n\nXRP has gained approximately 10% over the past week, breaking above $1.50 resistance before consolidating around $1.42[1]. Weekly net inflows into U.S. spot XRP ETFs total $41.64 million with assets under management stabilized above $1.1 billion[2]. These developments have shifted analyst consensus meaningfully higher, with price targets ranging from $2.71 (conservative)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776840953765_0",
+      "timestamp": "2026-04-22T06:55:53.765846+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time breaking news, social media discussions, or current trader sentiment you're requesting ba",
+      "raw": "I cannot provide the real-time breaking news, social media discussions, or current trader sentiment you're requesting based on the available search results.\n\nThe search results provided contain only static information about Polymarket's platform structure and a snapshot of some markets as of April 9-19, 2026\u2014they do not include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -63,12 +85,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776840885703_2",
-      "timestamp": "2026-04-22T06:54:45.703953+00:00",
+      "id": "sig_1776840953771_1",
+      "timestamp": "2026-04-22T06:55:53.771237+00:00",
       "source": "PERPLEXITY",
-      "headline": "No recent confirmations, announcements, or resolutions moving markets | NO | HIGH confidence**",
-      "raw": "No recent confirmations, announcements, or resolutions moving markets | NO | HIGH confidence**\n\nNo breaking news, resolved events, or announcements (e.g., tweet milestones or pop culture updates) are noted that would shift odds; markets like Kanye West's next tweet by April 30 remain active but static in descriptions[2][4]. XTracker exists for social analytics but yields no specific trends[5].",
-      "direction": "NO",
+      "headline": "Current social media posts or discussions from Polymarket traders",
+      "raw": "Current social media posts or discussions from Polymarket traders",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -76,17 +98,69 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776840870115_0",
-      "timestamp": "2026-04-22T06:54:30.115550+00:00",
+      "id": "sig_1776840953776_2",
+      "timestamp": "2026-04-22T06:55:53.776637+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC drops long-running lawsuit against Ripple Labs, catalyzing XRP's 10% weekly surge to ~$1",
-      "raw": "SEC drops long-running lawsuit against Ripple Labs, catalyzing XRP's 10% weekly surge to ~$1.42 in April 2026 | YES | HIGH confidence**[1]\n\nThis resolution removes a major regulatory overhang that had burdened XRP for years, shifting market sentiment toward institutional acceptance and enabling technical breakouts above $1.50 resistance[1]. No breaking confirmations on Bitcoin or additional April ",
+      "headline": "Real-time whale bets or smart money movements",
+      "raw": "Real-time whale bets or smart money movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840953782_3",
+      "timestamp": "2026-04-22T06:55:53.782027+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Live market sentiment or trending topics among traders",
+      "raw": "Live market sentiment or trending topics among traders",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840953786_4",
+      "timestamp": "2026-04-22T06:55:53.786947+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent announcements or breaking news that would move markets",
+      "raw": "Recent announcements or breaking news that would move markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840953789_5",
+      "timestamp": "2026-04-22T06:55:53.789868+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysis of potentially mispriced markets",
+      "raw": "Analysis of potentially mispriced markets\n\nTo access this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840937129_3",
+      "timestamp": "2026-04-22T06:55:37.129397+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Senate Clarity Act Bill Decision Expected Late April | YES | MED confidence**",
+      "raw": "Senate Clarity Act Bill Decision Expected Late April | YES | MED confidence**\n\nA Senate committee decision on the Clarity Act bill is anticipated in late April 2026 and is expected to provide \"final clarity on XRP's legal status,\" which could serve as an additional market trigger[2].",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?",
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
       "action": "WATCH",
       "x_link": null,
@@ -95,8 +169,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 4,
+    "alert": 10,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 4
   }
 }
