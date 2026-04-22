@@ -1,161 +1,78 @@
 {
-  "last_scan": "2026-04-22T05:34:08.412273+00:00",
-  "scan_seconds": 17.9,
-  "markets_scanned": 81,
+  "last_scan": "2026-04-22T05:35:22.037122+00:00",
+  "scan_seconds": 21.5,
+  "markets_scanned": 82,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776836043310_0",
-      "timestamp": "2026-04-22T05:34:03.310594+00:00",
+      "id": "sig_1776836105238_0",
+      "timestamp": "2026-04-22T05:35:05.238645+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder advance to Western Conference Finals after defeating Nuggets 4-3 | YES (series winner confirmed) | HIGH conf",
-      "raw": "OKC Thunder advance to Western Conference Finals after defeating Nuggets 4-3 | YES (series winner confirmed) | HIGH confidence** [1]",
+      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed Across XRP Ledger and Ethereum | YES | HIGH confidence**",
+      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed Across XRP Ledger and Ethereum | YES | HIGH confidence**  \nThe official full-scale rollout of Ripple USD (RLUSD) stablecoin on the XRP Ledger and Ethereum, reported as of April 18, 2026, is driving massive capital influx and record-breaking transaction volume on XRPL, alongside institutional adoption amid resolved SEC issues and nearing XRP ETF approva",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776836039050_2",
-      "timestamp": "2026-04-22T05:33:59.050230+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Apr 4, 2025: Powell warns tariffs will raise inflation and slow growth amid high uncertainty; too soon for rate decisi",
-      "raw": "**Apr 4, 2025: Powell warns tariffs will raise inflation and slow growth amid high uncertainty; too soon for rate decisions; Dow drops 2,200 points.**[1]\n\n| Date | Headline | YES/NO (New Confirmation?) | Confidence |\n|------|----------|-----------------------------|------------|\n| Dec 10, 2025 | Powell: Tariffs drive most inflation overshoot; rate cut despite risks[2] | NO | HIGH |\n| Oct 29, 2025 ",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776836033615_0",
-      "timestamp": "2026-04-22T05:33:53.615086+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Latest relevant developments (all pre-April 22):**",
-      "raw": "Latest relevant developments (all pre-April 22):**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776836033621_2",
-      "timestamp": "2026-04-22T05:33:53.621105+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**HEADLINE: XRP hit intraday high of $1",
-      "raw": "**HEADLINE: XRP hit intraday high of $1.51 on April 17, first time in 2026 above $1.50** | **NO** (price action, not new confirmation) | **HIGH** confidence[1]",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776836033624_3",
-      "timestamp": "2026-04-22T05:33:53.624042+00:00",
+      "id": "sig_1776836105243_1",
+      "timestamp": "2026-04-22T05:35:05.243816+00:00",
       "source": "PERPLEXITY",
-      "headline": "**HEADLINE: Six U",
-      "raw": "**HEADLINE: Six U.S. spot XRP ETFs reached ~$1B AUM with $119.6M inflows week-ending April 11** | **NO** (ongoing, not newly resolved) | **HIGH** confidence[1]",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Six Active Spot XRP ETFs in U",
+      "raw": "Six Active Spot XRP ETFs in U.S. with $1B AUM Confirmed by Mid-April 2026 | YES | HIGH confidence**  \nBy mid-April 2026, six U.S. spot XRP ETFs (including launches by Franklin Templeton, Grayscale, Bitwise, 21Shares, Amplify, and Rakuten on April 15) hold ~$1 billion in assets and 787 million XRP in custody, fueling $224 million inflows in early April and spot-led rallies to $1.51 intraday high on",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776836039043_0",
-      "timestamp": "2026-04-22T05:33:59.043823+00:00",
+      "id": "sig_1776836110446_0",
+      "timestamp": "2026-04-22T05:35:10.446295+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Dec 10, 2025: Powell attributes 'most' of inflation overshoot above 2% target to Trump's tariffs; Fed cuts rates by 25",
-      "raw": "**Dec 10, 2025: Powell attributes 'most' of inflation overshoot above 2% target to Trump's tariffs; Fed cuts rates by 25bps to 3.5-3.75% amid upside inflation risks and downside employment risks.** Expects tariff effects to be short-lived, with non-tariff inflation in low 2s.[2]",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "I cannot provide breaking news about what has just been announced or confirmed on April 22, 2026, because the search res",
+      "raw": "I cannot provide breaking news about what has just been announced or confirmed on April 22, 2026, because the search results provided contain only statements from Federal Reserve Chair Jerome Powell dated in late 2025 (October and December 2025). These are historical statements relative to the current date you've specified.\n\nThe search results show Powell's December 2025 remarks that **Trump's tar",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776836039046_1",
-      "timestamp": "2026-04-22T05:33:59.046988+00:00",
+      "id": "sig_1776836121027_0",
+      "timestamp": "2026-04-22T05:35:21.027760+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Oct 29, 2025: Powell notes expectation of additional modest inflation (0",
-      "raw": "**Oct 29, 2025: Powell notes expectation of additional modest inflation (0.2-0.4%) from ongoing tariffs into spring 2026, but views as one-time price level shift, not persistent; follows second straight rate cut to 3.75-4%.** Non-tariff inflation near 2%.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776836043313_1",
-      "timestamp": "2026-04-22T05:34:03.313559+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers eliminated by Pacers after ECF loss 91-103 | NO (won't win conference semifinals) | HIGH confidence** [2]",
-      "raw": "Cavaliers eliminated by Pacers after ECF loss 91-103 | NO (won't win conference semifinals) | HIGH confidence** [2]",
+      "headline": "Elon Musk April Tweet Volume Markets Heating Up | NO | MED confidence**",
+      "raw": "Elon Musk April Tweet Volume Markets Heating Up | NO | MED confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and overall \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119), with over $17.1M trading volume reflecting real-time trader sentiment on X activity[1][2][4]. No specific whal",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776836043316_2",
-      "timestamp": "2026-04-22T05:34:03.316558+00:00",
+      "id": "sig_1776836121030_1",
+      "timestamp": "2026-04-22T05:35:21.030998+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers eliminated in Western Conference Semis by Timberwolves (3-96 loss shown in bracket) | NO (won't win conference se",
-      "raw": "Lakers eliminated in Western Conference Semis by Timberwolves (3-96 loss shown in bracket) | NO (won't win conference semifinals) | HIGH confidence** [2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776836043319_3",
-      "timestamp": "2026-04-22T05:34:03.319467+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No breaking confirmation on Cooper Flagg (no recent results mention him in playoffs) | N/A | LOW confidence** [1][2][3][",
-      "raw": "No breaking confirmation on Cooper Flagg (no recent results mention him in playoffs) | N/A | LOW confidence** [1][2][3][4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776836047409_0",
-      "timestamp": "2026-04-22T05:34:07.409378+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 range), with over $17.1M in trading volume across 130+ related markets.[2][3][4]  \n\nNo specific wh",
+      "headline": "No Recent Confirmations or Announcements Impacting Markets | NO | LOW confidence**",
+      "raw": "No Recent Confirmations or Announcements Impacting Markets | NO | LOW confidence**\n\nSearch results show no breaking confirmations, resolutions, or events (e.g., no new tweet data, airdrops like MegaETH at 57% by June 30, or news stories) resolved as of early April 22, 2026, to shift odds; markets like Kanye tweet by April 30 remain active without updates[2][3]. Tweet markets update continuously wi",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -164,27 +81,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776836033618_1",
-      "timestamp": "2026-04-22T05:33:53.618085+00:00",
+      "id": "sig_1776836121034_2",
+      "timestamp": "2026-04-22T05:35:21.034124+00:00",
       "source": "PERPLEXITY",
-      "headline": "**HEADLINE: Rakuten Wallet launched XRP support for 44M users and 5M merchants on April 15** | **YES** (could drive adop",
-      "raw": "**HEADLINE: Rakuten Wallet launched XRP support for 44M users and 5M merchants on April 15** | **YES** (could drive adoption flows) | **MED** confidence[1]",
+      "headline": "Trending Tips: Monitor Tweet Bins for Mispricing | YES | LOW confidence**",
+      "raw": "Trending Tips: Monitor Tweet Bins for Mispricing | YES | LOW confidence**\n\nTraders may eye **Elon Musk tweet ranges** (e.g., 1080-1119 at 18%) as potentially mispriced if real-time X activity spikes, given 132 active tweet markets and $17.1M volume indicating crowd conviction over polls[2][4]. Pop culture and news story markets (102 active, $56.2M volume) like GTA VI offer similar real-money senti",
       "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "WATCH",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 3,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 3
   }
 }
