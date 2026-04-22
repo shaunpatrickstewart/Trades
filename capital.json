@@ -1,5 +1,5 @@
 {
-  "ts": 1776854375,
+  "ts": 1776854445,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999801
+    "usdc_usd": 0.999793
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -161,10 +161,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.124,
-        "nav_usdc": 0.6262,
+        "cur_price": 0.1235,
+        "nav_usdc": 0.6237,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.0655
+        "unrealized_pnl": -1.068
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -312,16 +312,16 @@
       }
     ],
     "position_count": 33,
-    "positions_nav_usdc": 302.6713,
-    "total_usdc": 404.151,
-    "total_usd": 404.0706
+    "positions_nav_usdc": 302.6688,
+    "total_usdc": 404.1485,
+    "total_usd": 404.0649
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776854376,
+    "ts": 1776854446,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 53,
     "today": {
@@ -369,7 +369,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776767976,
+      "window_start_ts": 1776768046,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 107.3563,
@@ -442,7 +442,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776249576,
+      "window_start_ts": 1776249646,
       "realized_usdc": 1.5555,
       "trade_count": 53,
       "buy_volume_usdc": 480.1765,
@@ -655,7 +655,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774262376,
+      "window_start_ts": 1774262446,
       "realized_usdc": 1.5555,
       "trade_count": 53,
       "buy_volume_usdc": 480.1765,
@@ -1081,7 +1081,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.0706,
-    "total_usdc": 404.151
+    "total_usd": 404.0649,
+    "total_usdc": 404.1485
   }
 }
