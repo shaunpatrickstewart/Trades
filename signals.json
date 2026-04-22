@@ -1,61 +1,147 @@
 {
-  "last_scan": "2026-04-22T10:04:19.212327+00:00",
-  "scan_seconds": 17.6,
+  "last_scan": "2026-04-22T10:05:32.744994+00:00",
+  "scan_seconds": 22.1,
   "markets_scanned": 79,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776852253240_0",
-      "timestamp": "2026-04-22T10:04:13.240458+00:00",
+      "id": "sig_1776852318402_0",
+      "timestamp": "2026-04-22T10:05:18.402118+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg surges to favorite in NBA Rookie of the Year odds after 96-point weekend** | YES | HIGH",
-      "raw": "Cooper Flagg surges to favorite in NBA Rookie of the Year odds after 96-point weekend** | YES | HIGH  \nFlagg passed Kon Knueppel as ROY favorite (-250 vs. +180 on DraftKings) following 51 points Friday vs. Orlando and 45 points (near triple-double) Sunday vs. Lakers, marking the first rookie since Allen Iverson with 45+ points, 5+ rebounds, 5+ assists over two games[1][5]. He leads rookies in scor",
+      "headline": "Fed Chair Powell Describes U",
+      "raw": "Fed Chair Powell Describes U.S. Economy as 'Very Unusual' Amid Tariff-Driven Goods Inflation and Weakening Labor Market, Cuts Rates Defensively** | YES | HIGH  \nPowell announced on Wednesday a third consecutive quarter-point rate cut, warning of elevated **inflation** from **tariffs** peaking around Q1 2026 (assuming no further rounds), while official payrolls overstate job growth by ~60,000/month",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776852318405_1",
+      "timestamp": "2026-04-22T10:05:18.405284+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Reiterates Tariffs Likely Cause Temporary (Possibly Persistent) Inflation Rise and Slower Growth** | YES | MED",
+      "raw": "Powell Reiterates Tariffs Likely Cause Temporary (Possibly Persistent) Inflation Rise and Slower Growth** | YES | MED  \nIn a Chicago speech, Powell stated **tariffs** (higher than expected) are \"highly likely\" to generate at least temporary **inflation**, depending on pass-through and anchored expectations; Fed will balance dual mandates if tensions arise[2]. Earlier remarks called tariff-fueled *",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776852313801_1",
+      "timestamp": "2026-04-22T10:05:13.801774+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Japan Ditching SWIFT for XRP-Powered Remittances Confirmed | YES | MED confidence**",
+      "raw": "Japan Ditching SWIFT for XRP-Powered Remittances Confirmed | YES | MED confidence**  \nFresh reports detail Japan's shift to XRP for cross-border payments, bypassing SWIFT, which could drive real-world adoption and liquidity demand following Ripple's $2.4B infrastructure focus and global ETF inflows of $20M this month.[1][2][6]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776852313798_0",
+      "timestamp": "2026-04-22T10:05:13.798465+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple Reveals Four-Phase Plan to Secure XRP Ledger Against Quantum Attacks by 2028 | YES | HIGH confidence**",
+      "raw": "Ripple Reveals Four-Phase Plan to Secure XRP Ledger Against Quantum Attacks by 2028 | YES | HIGH confidence**  \nThis breaking development, reported in the last half hour on April 22, confirms Ripple's structured roadmap for quantum-resistant upgrades, enhancing long-term security and institutional appeal amid XRPL's recent privacy advancements like RISC-V ZK verifiers and upcoming Smart Escrows.[2",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776852313804_2",
+      "timestamp": "2026-04-22T10:05:13.804920+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US XRP ETFs Record $12M Inflows in April After March Outflows | YES | HIGH confidence**",
+      "raw": "US XRP ETFs Record $12M Inflows in April After March Outflows | YES | HIGH confidence**  \nETFs flipped to positive net inflows, signaling renewed institutional demand post-63% drawdown, with XRP now third in global inflows behind BTC and SOL, coinciding with XRPL privacy upgrades and price stabilization at $1.35.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776852327616_0",
+      "timestamp": "2026-04-22T10:05:27.616907+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information about C",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information about Cooper Flagg, conference semifinals predictions, or market-moving announcements.\n\nThe available search results only show that the **Cavaliers lead the Raptors 2-0 in their first-round series**[2][3], with Game 2 featuring a combined 83 points from Harden, Mitchell, and Mobley in a",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776852258203_0",
-      "timestamp": "2026-04-22T10:04:18.203047+00:00",
+      "id": "sig_1776852327619_1",
+      "timestamp": "2026-04-22T10:05:27.619783+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Lead Polymarket Buzz on X | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Lead Polymarket Buzz on X | NO | HIGH confidence**  \nPolymarket's \"Elon Musk # tweets April 23 - April 25, 2026?\" market tops discussions, with \"40-64\" at 42% and \"65-89\" at 38% implied probabilities, drawing $81.8K volume since April 20 launch[1][2]. Traders on X highlight this as potentially mispriced ahead of the April 23 12:00 PM ET start, citing Musk's variable p",
-      "direction": "NO",
+      "headline": "Recent announcements about Cooper Flagg",
+      "raw": "Recent announcements about Cooper Flagg",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776852258206_1",
-      "timestamp": "2026-04-22T10:04:18.206065+00:00",
+      "id": "sig_1776852327622_2",
+      "timestamp": "2026-04-22T10:05:27.622611+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum & Solana Short-Term Crypto Direction Bets Trend as Smart Money Plays | YES | MED confidence**",
-      "raw": "Ethereum & Solana Short-Term Crypto Direction Bets Trend as Smart Money Plays | YES | MED confidence**  \nX posts flag 15-minute Ethereum up/down markets (e.g., April 23, 5:30AM-5:45AM ET) and 5-minute Solana ones (e.g., April 23, 4:25AM-4:30AM ET) for whale activity, with traders sharing tips on momentum signals[4][6]. These micro-markets attract \"smart money\" bets on volatility, though no specifi",
-      "direction": "YES",
+      "headline": "Current conference semifinals matchups and predictions",
+      "raw": "Current conference semifinals matchups and predictions",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776852258209_2",
-      "timestamp": "2026-04-22T10:04:18.209006+00:00",
+      "id": "sig_1776852327625_3",
+      "timestamp": "2026-04-22T10:05:27.625479+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Diplomatic Meeting Market Seen as Mispriced by Some | NO | LOW confidence**",
-      "raw": "US-Iran Diplomatic Meeting Market Seen as Mispriced by Some | NO | LOW confidence**  \n\"No Meeting before May 11\" leads at 33%, with \"May 1\" at 16%; X chatter calls it undervalued amid stalled talks, but lacks whale confirmation or fresh announcements[5]. No resolved events like confirmations shift odds today[5].",
-      "direction": "NO",
+      "headline": "Expert analysis or official statements about series outcomes",
+      "raw": "Expert analysis or official statements about series outcomes\n\nThe search results provided do not include this type of forward-looking market-moving information.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776852331742_0",
+      "timestamp": "2026-04-22T10:05:31.742836+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's Tweet Markets, with over $19.1M in trading volume across 20 active markets, are currently dominated by \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", where traders price 1120-1159 tweets at 28% probability[2][3][4]. These real-time odds reflect trader sentiment",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -64,9 +150,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 2,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
