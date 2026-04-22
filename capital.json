@@ -1,5 +1,5 @@
 {
-  "ts": 1776849670,
+  "ts": 1776849735,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999734
+    "usdc_usd": 0.999589
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -152,10 +152,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1285,
-        "nav_usdc": 0.6489,
+        "cur_price": 0.1275,
+        "nav_usdc": 0.6439,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.0428
+        "unrealized_pnl": -1.0478
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -303,16 +303,16 @@
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 287.9843,
-    "total_usdc": 404.0071,
-    "total_usd": 403.8997
+    "positions_nav_usdc": 287.9793,
+    "total_usdc": 404.0021,
+    "total_usd": 403.8361
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776849671,
+    "ts": 1776849736,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776763271,
+      "window_start_ts": 1776763336,
       "realized_usdc": 0.2316,
       "trade_count": 11,
       "buy_volume_usdc": 92.8132,
@@ -413,7 +413,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776244871,
+      "window_start_ts": 1776244936,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -626,7 +626,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774257671,
+      "window_start_ts": 1774257736,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1052,7 +1052,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.8997,
-    "total_usdc": 404.0071
+    "total_usd": 403.8361,
+    "total_usdc": 404.0021
   }
 }
