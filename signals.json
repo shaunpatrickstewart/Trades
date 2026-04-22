@@ -1,60 +1,47 @@
 {
-  "last_scan": "2026-04-22T22:24:03.206782+00:00",
-  "scan_seconds": 12.7,
+  "last_scan": "2026-04-22T22:25:10.566009+00:00",
+  "scan_seconds": 13.0,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776896633654_0",
-      "timestamp": "2026-04-22T22:23:53.654236+00:00",
+      "id": "sig_1776896704822_1",
+      "timestamp": "2026-04-22T22:25:04.822003+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Price Surge Above $2,200 on U",
-      "raw": "Ethereum Price Surge Above $2,200 on U.S.-Iran Ceasefire Announcement | YES | HIGH confidence** [3]\n\nEthereum's price has risen +3.43% in the last 24 hours to $2,395.42, explicitly linked to a U.S.-Iran ceasefire announcement boosting market sentiment, alongside record $500M+ net inflows into spot Ether ETFs this week[3]. This follows a $98.74 daily gain confirmed at 9:15 a.m. ET on April 22 to $2",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776896642203_2",
-      "timestamp": "2026-04-22T22:24:02.203805+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Limited Visibility on X Chatter or Whale Activity | NO | LOW confidence**",
-      "raw": "Limited Visibility on X Chatter or Whale Activity | NO | LOW confidence**  \nSearch results lack direct X posts from Polymarket traders, whale bets, tips, or confirmed events; focus remains on platform odds for tweets, crypto prices, and niche events like Kanye tweeting by April 30 (78% yes, $393 vol) without evidence of broader social buzz or resolutions[2][4].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776896637512_0",
-      "timestamp": "2026-04-22T22:23:57.512642+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder Advance to Western Conference Semifinals After Game 3 Win Over Timberwolves | YES | HIGH confidence**",
-      "raw": "OKC Thunder Advance to Western Conference Semifinals After Game 3 Win Over Timberwolves | YES | HIGH confidence**  \nOklahoma City defeated Minnesota 124-94 in Game 3, completing a sweep (15-1 playoff record shown) and securing their spot in the semifinals, a major resolution likely shifting prediction markets on Western Conference outcomes.[1][2]",
+      "headline": "Cavaliers defeat Pacers 91-103 in Eastern Conference Semifinals Game (series tied or advancing, per bracket update)[1]",
+      "raw": "Cavaliers defeat Pacers 91-103 in Eastern Conference Semifinals Game (series tied or advancing, per bracket update)[1].**  \nYES | **MED** confidence  \n\nNo breaking news on **Cooper Flagg** (no mentions in results; likely draft prospect not yet impacting playoffs).  \nNO | **HIGH** confidence  \n\nNo other confirmed announcements (e.g., injuries, trades) for Lakers or Cavaliers that resolve markets be",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776896642199_0",
-      "timestamp": "2026-04-22T22:24:02.199840+00:00",
+      "id": "sig_1776896704820_0",
+      "timestamp": "2026-04-22T22:25:04.820013+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Trending Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Trending Activity | NO | HIGH confidence**  \nPolymarket's top trending markets as of April 22, 2026, heavily feature Elon Musk's tweet volume predictions, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (21% odds on 1120-1159 range) and \"Elon Musk musk # tweets in April 2026?\" (20-21% on 1120-1159), with over $20.7M-$20.8M in t",
+      "headline": "Lakers lead Rockets 2-0 after Game 2 win in Western Conference Semifinals[1]",
+      "raw": "Lakers lead Rockets 2-0 after Game 2 win in Western Conference Semifinals[1].**  \nYES | **MED** confidence",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776896709562_0",
+      "timestamp": "2026-04-22T22:25:09.562810+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on \"Elon Musk # tweets in April 2026?\", with over $20.8M in trading volume across related Tweet prediction markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets April 20 - April 22, 2026?\"[2][3][4].  \nCrowd odds show 20-21% proba",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -63,25 +50,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776896642201_1",
-      "timestamp": "2026-04-22T22:24:02.201798+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero $1000 Price Target and Sports Betting Ban Bets Seeing Traction | NO | MED confidence**",
-      "raw": "Monero $1000 Price Target and Sports Betting Ban Bets Seeing Traction | NO | MED confidence**  \nOther active trending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes odds), part of 168 live trending markets with $3.0M+ volume, but no specific whale bets, smart money moves, or X posts highlighted in real-time data[1]. No mention",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 0,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
