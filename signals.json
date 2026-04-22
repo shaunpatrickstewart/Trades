@@ -1,30 +1,112 @@
 {
-  "last_scan": "2026-04-22T09:36:06.897347+00:00",
-  "scan_seconds": 16.3,
+  "last_scan": "2026-04-22T09:37:25.585164+00:00",
+  "scan_seconds": 24.9,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776850561377_0",
-      "timestamp": "2026-04-22T09:36:01.377207+00:00",
+      "id": "sig_1776850635891_2",
+      "timestamp": "2026-04-22T09:37:15.891139+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavs' Cooper Flagg erupts for 45 points in 134-128 win over injury-depleted Lakers, ending 14-game home skid** | NO | HI",
-      "raw": "Mavs' Cooper Flagg erupts for 45 points in 134-128 win over injury-depleted Lakers, ending 14-game home skid** | NO | HIGH confidence[1][2][3][4]\n\nNo breaking news RIGHT NOW (as of April 22, 2026) confirms Lakers-Cavaliers series outcomes, Cooper Flagg trades, or resolved predictions shifting markets; latest relevant event is Flagg's dominant Sunday performance (April 5) vs. short-handed Lakers mi",
+      "headline": "TARIFF-DRIVEN INFLATION PEAK EXPECTED Q1 2026** | YES | HIGH confidence",
+      "raw": "TARIFF-DRIVEN INFLATION PEAK EXPECTED Q1 2026** | YES | HIGH confidence\nPowell confirmed goods inflation should peak around the first quarter of 2026, assuming no additional tariff rounds, with tariff-related price increases characterized as largely a \"one-time effect\" rather than ongoing inflation[1].",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776850635897_4",
+      "timestamp": "2026-04-22T09:37:15.897039+00:00",
+      "source": "PERPLEXITY",
+      "headline": "POWELL ACKNOWLEDGES \"VERY UNUSUAL\" ECONOMY** | YES | HIGH confidence",
+      "raw": "POWELL ACKNOWLEDGES \"VERY UNUSUAL\" ECONOMY** | YES | HIGH confidence\nPowell confirmed the U.S. economy presents a rare combination of tariff-driven goods inflation alongside a weakening labor market, with services inflation cooling and wage pressures easing[1].\n\nTo provide a more precise answer about today's specific breaking news, I would need search results with content dated April 22, 2026.",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776850635885_0",
+      "timestamp": "2026-04-22T09:37:15.885307+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, the most recent confirmed news involves **Federal Reserve Chair Powell's warnings",
+      "raw": "Based on the search results provided, the most recent confirmed news involves **Federal Reserve Chair Powell's warnings about tariffs and their inflationary impact**, with the latest substantive remarks appearing to be from mid-April 2026.\n\nHowever, I should note that the search results show some date inconsistencies and don't include breaking news specifically from April 22, 2026 (today). The mos",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776850553513_0",
-      "timestamp": "2026-04-22T09:35:53.513374+00:00",
+      "id": "sig_1776850635888_1",
+      "timestamp": "2026-04-22T09:37:15.888175+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Surge to $41",
-      "raw": "XRP ETF Inflows Surge to $41.64M for Week Ending April 16 | YES | HIGH confidence** [1][6]  \nU.S. spot XRP ETFs saw their largest single-week net inflows in three months at $41.64 million, a 254% jump from the prior week's $11.75 million, with consistent daily demand ($11.87M, $17.11M, $11.20M, $1.46M, $9.09M) pushing cumulative inflows to $1.26 billion and assets over $1.08 billion.[1][6]  \nThis ",
+      "headline": "Key confirmed developments that would likely move prediction markets:**",
+      "raw": "Key confirmed developments that would likely move prediction markets:**",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776850627674_0",
+      "timestamp": "2026-04-22T09:37:07.674622+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**",
+      "raw": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**\n\nThe long-standing SEC legal battle against Ripple Labs has been officially concluded, removing a regulatory overhang that suppressed XRP's price for years[1][2]. This resolution represents a fundamental shift in market sentiment and clears the path for institutional adoption.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850627677_1",
+      "timestamp": "2026-04-22T09:37:07.677705+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**\n\nRipple has officially launched RLUSD across both the XRP Ledger and Ethereum at full scale[2]. This represents a major milestone for Ripple's payment infrastructure and is driving record-breaking transaction volumes on the XRPL.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850627680_2",
+      "timestamp": "2026-04-22T09:37:07.680766+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**",
+      "raw": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**\n\nXRP Exchange-Traded Fund approvals are now in their final approval stages[2], with institutional capital increasingly flowing into the ecosystem. This development would significantly expand retail and institutional access to XRP.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850627683_3",
+      "timestamp": "2026-04-22T09:37:07.683824+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Technical Breakout: XRP Breaks Above $1",
+      "raw": "Technical Breakout: XRP Breaks Above $1.50 Resistance | YES | HIGH confidence**\n\nXRP has decisively broken above the critical $1.50 resistance level[1], a psychologically significant barrier that had capped rallies throughout early 2026. The token gained nearly 10% in the past week alone, starting April near $1.20 before reaching approximately $1.42 after consolidation[1].\n\nThese catalysts\u2014regulat",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -37,11 +119,43 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776850565891_0",
-      "timestamp": "2026-04-22T09:36:05.891058+00:00",
+      "id": "sig_1776850635894_3",
+      "timestamp": "2026-04-22T09:37:15.894053+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119, 28% on 1120-1159), with over $17M-$19M in trading volume across 130+ related markets[2][3][4].",
+      "headline": "FED RATE CUTS AMID LABOR MARKET WEAKNESS** | YES | HIGH confidence",
+      "raw": "FED RATE CUTS AMID LABOR MARKET WEAKNESS** | YES | HIGH confidence\nThe Fed cut rates for the third consecutive meeting despite elevated inflation, with Powell acknowledging the official payroll figures are overstating job growth by roughly 60,000 per month[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776850639920_0",
+      "timestamp": "2026-04-22T09:37:19.920985+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers take 2-0 series lead over Raptors with 115-105 Game 2 win on Monday** | NO | HIGH confidence[1][3]",
+      "raw": "Cavaliers take 2-0 series lead over Raptors with 115-105 Game 2 win on Monday** | NO | HIGH confidence[1][3]\n\nCleveland Cavaliers defeated Toronto Raptors 115-105 in Game 2 of Eastern Conference first-round playoffs, led by Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points); Cavaliers never trailed and now hold a 2-0 lead, extending their playoff win streak against",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776850644575_0",
+      "timestamp": "2026-04-22T09:37:24.575903+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (28% odds for 1120-1159 range) and \"Elon Musk # tweets in April 2026?\" (18% for 1080-1119), with over $19.1M in Tweet Markets volume across 20+ active markets.[1][2][3]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -50,40 +164,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776850557523_0",
-      "timestamp": "2026-04-22T09:35:57.523150+00:00",
+      "id": "sig_1776850644578_1",
+      "timestamp": "2026-04-22T09:37:24.578963+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's Fed Chair Confirmation Hearing Underway with Intense Scrutiny on Inflation Policies (April 21, 2026)** | Y",
-      "raw": "Kevin Warsh's Fed Chair Confirmation Hearing Underway with Intense Scrutiny on Inflation Policies (April 21, 2026)** | YES | HIGH confidence[1][4][5]\n\nWarsh, Trump's nominee to replace Jerome Powell, faced sharp criticism in yesterday's Senate Banking Committee hearing for past Fed \"policy errors\" allowing inflation to soar and for advocating rate cuts amid high inflation[1][5]. Sen. Tina Smith qu",
+      "headline": "GTA VI Release Odds Plunge to 1% | NO | MED confidence**",
+      "raw": "GTA VI Release Odds Plunge to 1% | NO | MED confidence**  \nNews Stories markets highlight **GTA VI released before June 2026?** at 1% Yes with $14M volume, signaling trader skepticism on a near-term launch amid 102 live markets and $56.4M total volume.[4]",
       "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?",
-        "Will Donald Trump publicly insult someone on April 26, 2026?"
-      ],
-      "action": "WATCH",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776850565894_1",
-      "timestamp": "2026-04-22T09:36:05.894244+00:00",
+      "id": "sig_1776850644582_2",
+      "timestamp": "2026-04-22T09:37:24.582058+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category lists 166 live predictions on topics like \"Nasdaq round-the-clock trading by June 30",
-      "raw": "Trending Markets** category lists 166 live predictions on topics like \"Nasdaq round-the-clock trading by June 30?\" with $3M volume, but no specific whale bets, smart money moves, mispriced odds, or tips are detailed in real-time data[1].  \nNo recent confirmations, announcements, or resolutions (e.g., tweet counts or events) are reported that could shift these markets as of April 21-22, 2026[1][2][",
-      "direction": "NO",
-      "confidence": 0.6,
+      "headline": "Polymarket Analytics Tools Trending for Whale Insights | YES | LOW confidence**",
+      "raw": "Polymarket Analytics Tools Trending for Whale Insights | YES | LOW confidence**  \nX posts promote analytics tools like XTracker and Polymarket trackers as \"x-ray vision\" for spotting **whale bets** and **smart money moves**, claiming they reveal how top traders win\u2014no specific mispriced markets or resolutions named.[5][6]  \n\nNo confirmed announcements, resolutions, or explicit **whale bets/mispric",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 2,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 11,
+    "watch": 0,
+    "high_conf": 4
   }
 }
