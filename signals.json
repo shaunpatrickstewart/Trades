@@ -1,157 +1,223 @@
 {
-  "last_scan": "2026-04-22T04:50:51.427355+00:00",
-  "scan_seconds": 20.9,
+  "last_scan": "2026-04-22T04:51:51.673412+00:00",
+  "scan_seconds": 21.1,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776833435003_0",
-      "timestamp": "2026-04-22T04:50:35.003319+00:00",
+      "id": "sig_1776833497212_1",
+      "timestamp": "2026-04-22T04:51:37.212784+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that would move pr",
-      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that would move prediction markets. The search results contain analysis and price data from early-to-mid April 2026, but none are dated April 22 or describe events happening \"RIGHT NOW.\"\n\nThe most recent concrete information available is from April 6, 2026, which shows SOL trading near $80.50[6], ",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776833435006_1",
-      "timestamp": "2026-04-22T04:50:35.006384+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time news or announcement details from April 22, 2026",
-      "raw": "Real-time news or announcement details from April 22, 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776833435009_2",
-      "timestamp": "2026-04-22T04:50:35.009491+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confirmation of a specific market-moving event (regulatory decision, partnership, technical breakthrough, etc",
-      "raw": "Confirmation of a specific market-moving event (regulatory decision, partnership, technical breakthrough, etc.)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776833435012_3",
-      "timestamp": "2026-04-22T04:50:35.012450+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current price action or on-chain data from today",
-      "raw": "Current price action or on-chain data from today",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776833435015_4",
-      "timestamp": "2026-04-22T04:50:35.015462+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot responsibly format a headline with a YES/NO answer and confidence level without current information that would",
-      "raw": "I cannot responsibly format a headline with a YES/NO answer and confidence level without current information that would actually move markets.** If you have access to specific breaking news from April 22, 2026, please share those details and I can analyze their market implications.",
+      "headline": "Wrapped XRP Launch on Solana | YES | HIGH confidence**",
+      "raw": "Wrapped XRP Launch on Solana | YES | HIGH confidence**\nWrapped XRP (wXRP) went live on Solana on April 17 via Hex Trust and LayerZero[3], enabling XRP holders to access Solana's DeFi ecosystem. Over 834,000 XRP ($1.2 million) has already been wrapped, with 50 million more ($74.5 million) sitting on Ethereum ready for wrapping[3].",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Solana Up or Down on April 22?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776833445362_0",
-      "timestamp": "2026-04-22T04:50:45.362131+00:00",
+      "id": "sig_1776833501519_0",
+      "timestamp": "2026-04-22T04:51:41.519858+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting based on these search results",
-      "raw": "I cannot provide the breaking news you're requesting based on these search results. The available information covers a Lakers-Cavaliers game from **March 31, 2026**, which is nearly three weeks in the past relative to the current date (April 22, 2026).\n\nThe search results do not contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776833445365_1",
-      "timestamp": "2026-04-22T04:50:45.365019+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current playoff bracket information or conference semifinal matchups",
-      "raw": "Current playoff bracket information or conference semifinal matchups",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776833445367_2",
-      "timestamp": "2026-04-22T04:50:45.367952+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any announcements about Cooper Flagg (a prospect name that doesn't appear in these results)",
-      "raw": "Any announcements about Cooper Flagg (a prospect name that doesn't appear in these results)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776833445370_3",
-      "timestamp": "2026-04-22T04:50:45.370937+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving developments from the past week that would affect prediction markets",
-      "raw": "Market-moving developments from the past week that would affect prediction markets\n\nTo get accurate breaking news about current playoff developments, conference semifinal matchups, and any related announcements, you would need up-to-date search results from today or the past few days. The historical game recap from late March cannot fulfill your request for current market-moving information.",
+      "headline": "On April 16, 2025, Powell warned in a Chicago speech that Trump's tariffs (announced April 2, paused for most countries",
+      "raw": "On April 16, 2025, Powell warned in a Chicago speech that Trump's tariffs (announced April 2, paused for most countries except China) would cause higher **inflation** and slower growth, with the Fed aiming to limit it to a one-time price level increase rather than persistent **inflation**[1].",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776833450421_0",
-      "timestamp": "2026-04-22T04:50:50.421266+00:00",
+      "id": "sig_1776833501525_2",
+      "timestamp": "2026-04-22T04:51:41.525723+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | MED confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., \"200-219\" at 29%) and the overall \"Elon Musk musk # tweets in April 2026?\" with 18% odds on 1080-1119 range[1][2][3]. These reflect real-time trader sentiment on pop cu",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776833450424_1",
-      "timestamp": "2026-04-22T04:50:50.424307+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Release and MegaETH Airdrop as Notable Side Bets | NO | LOW confidence**",
-      "raw": "GTA VI Release and MegaETH Airdrop as Notable Side Bets | NO | LOW confidence**\n\nOther live markets include \"GTA VI released before June 2026?\" at 1% with $14M volume and \"MegaETH airdrop by June 30, 2026?\" at 57%, but no buzz on X about whales, tips, or imminent moves[4]. Search results lack breaking X chatter on mispricings or resolutions as of 4 AM UTC; odds update continuously with new trades ",
+      "headline": "In March 2025, post-first rate decision amid Trump's trade policies, Powell noted tariffs were already fueling **inflati",
+      "raw": "In March 2025, post-first rate decision amid Trump's trade policies, Powell noted tariffs were already fueling **inflation** expectations and elevating recession risks[3].\n\nNo sources indicate events in April 2026 or today involving Powell, tariffs, or **inflation** resolutions that could shift prediction markets like rate cuts, policy pauses, or economic data releases.",
       "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776833505403_0",
+      "timestamp": "2026-04-22T04:51:45.403378+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | NO | HIGH confidence**",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | NO | HIGH confidence**  \nThe Cleveland Cavaliers won Game 2 of their playoff series against the Toronto Raptors on April 20, 2026, by a score of 115-105, following their 126-113 Game 1 victory on April 18, securing a 2-0 lead.[1][2][4] No involvement of the Los Angeles Lakers or confirmed rookie-related announcements (e.g., ROY rac",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776833497215_2",
+      "timestamp": "2026-04-22T04:51:37.215736+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Outperforms Major Cryptocurrencies | YES | HIGH confidence**",
+      "raw": "XRP Outperforms Major Cryptocurrencies | YES | HIGH confidence**\nXRP climbed 4% to $1.41 on April 16, outperforming Bitcoin, Ethereum, and Solana for the first time in weeks[1]. XRP investment products saw $119.6 million in net inflows for the week ending April 11\u2014the strongest weekly figure since December 2025[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down on April 22?",
+        "Bitcoin Up or Down - April 22, 1AM ET",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776833497221_4",
+      "timestamp": "2026-04-22T04:51:37.221805+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Critical Resistance Level: $1",
+      "raw": "Critical Resistance Level: $1.45 | YES | HIGH confidence**\nRoughly 1.24 billion XRP sits in wallets between $1.45 and $1.47, representing a significant wall of break-even sellers that every rally has failed to push through[1]. Breaking this level would signal a genuine breakout.\n\nHowever, prediction markets currently show minimal price reaction, with Solana's $150 April target and XRP's $1.80 Apri",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Solana Up or Down on April 22?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776833501522_1",
+      "timestamp": "2026-04-22T04:51:41.522784+00:00",
+      "source": "PERPLEXITY",
+      "headline": "In December 2025, Powell stated Trump's tariffs were driving \"most\" of the **inflation** overshoot above 2%, expecting s",
+      "raw": "In December 2025, Powell stated Trump's tariffs were driving \"most\" of the **inflation** overshoot above 2%, expecting short-lived effects while cutting rates to support employment[2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776833510649_0",
+      "timestamp": "2026-04-22T04:51:50.649044+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results. The search results describe **what Polymarket is** (a prediction market platform) and mention some markets that were active as of mid-April 2026, but they do not contain:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776833510652_1",
+      "timestamp": "2026-04-22T04:51:50.652013+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current social media posts from traders on X about prediction markets",
+      "raw": "Current social media posts from traders on X about prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776833510655_2",
+      "timestamp": "2026-04-22T04:51:50.655022+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Information about whale bets or smart money moves happening right now",
+      "raw": "Information about whale bets or smart money moves happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776833510658_3",
+      "timestamp": "2026-04-22T04:51:50.658122+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market commentary about mispriced outcomes",
+      "raw": "Real-time market commentary about mispriced outcomes",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776833510661_4",
+      "timestamp": "2026-04-22T04:51:50.661165+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news or recently resolved markets that would move predictions",
+      "raw": "Breaking news or recently resolved markets that would move predictions\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776833497209_0",
+      "timestamp": "2026-04-22T04:51:37.209678+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key developments that could move prediction markets:",
+      "raw": "Based on the search results provided, here are the key developments that could move prediction markets:",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776833497218_3",
+      "timestamp": "2026-04-22T04:51:37.218752+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Crypto Roundtable & Rakuten Wallet Listing | YES | HIGH confidence**",
+      "raw": "SEC Crypto Roundtable & Rakuten Wallet Listing | YES | HIGH confidence**\nRakuten Wallet listed XRP, and an SEC crypto roundtable occurred as catalysts driving institutional money into XRP[1]. Additionally, the Senate Banking Committee is targeting a CLARITY Act markup before the end of April, which could trigger a breakout above the $1.45 resistance level[1].",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 4,
+    "alert": 8,
+    "watch": 2,
+    "high_conf": 4
   }
 }
