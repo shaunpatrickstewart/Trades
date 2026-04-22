@@ -1,5 +1,5 @@
 {
-  "ts": 1776890740,
+  "ts": 1776890774,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999753
+    "usdc_usd": 0.999772
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.166,
-        "nav_usdc": 0.8383,
+        "cur_price": 0.1655,
+        "nav_usdc": 0.8358,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.8534
+        "unrealized_pnl": -0.8559
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -188,10 +188,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3725,
-        "nav_usdc": 1.8811,
+        "cur_price": 0.3715,
+        "nav_usdc": 1.8761,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.1187
+        "unrealized_pnl": 0.1137
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.3511,
-    "total_usdc": 404.2877,
-    "total_usd": 404.1878
+    "positions_nav_usdc": 317.3435,
+    "total_usdc": 404.2801,
+    "total_usd": 404.1879
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776890742,
+    "ts": 1776890775,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776804342,
+      "window_start_ts": 1776804375,
       "realized_usdc": 0.0,
       "trade_count": 6,
       "buy_volume_usdc": 86.8923,
@@ -441,7 +441,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776285942,
+      "window_start_ts": 1776285975,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -654,7 +654,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774298742,
+      "window_start_ts": 1774298775,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1080,7 +1080,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.1878,
-    "total_usdc": 404.2877
+    "total_usd": 404.1879,
+    "total_usdc": 404.2801
   }
 }

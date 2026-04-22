@@ -1,74 +1,60 @@
 {
-  "last_scan": "2026-04-22T20:45:46.538346+00:00",
-  "scan_seconds": 35.6,
+  "last_scan": "2026-04-22T20:46:30.205076+00:00",
+  "scan_seconds": 15.5,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776890716207_0",
-      "timestamp": "2026-04-22T20:45:16.207463+00:00",
+      "id": "sig_1776890783092_0",
+      "timestamp": "2026-04-22T20:46:23.092186+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving Price to $2,288+ | YES | HIGH**",
-      "raw": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving Price to $2,288+ | YES | HIGH**  \nEthereum ETFs recorded over $275 million in weekly inflows\u2014the strongest since January 2026\u2014with Fidelity\u2019s FETH and BlackRock\u2019s ETHA leading, coinciding with a 7% ETH price rise to nearly $2,400 amid a broader market rally.[1]  \nThis institutional demand surge, reported via CoinDesk and Coin",
+      "headline": "Cavaliers Win Game 2 Over Raptors 115-105, Take 2-0 Lead in Eastern Conference First Round | NO | LOW confidence**",
+      "raw": "Cavaliers Win Game 2 Over Raptors 115-105, Take 2-0 Lead in Eastern Conference First Round | NO | LOW confidence**\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on Monday (April 20, 2026), securing a 2-0 series lead in the Eastern Conference first-round playoffs, with Donovan Mitchell scoring 30 points, James Harden adding 28, and rookie Evan Mobley posting 25 points and 8 rebounds",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of April 20 2026?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776890738386_2",
-      "timestamp": "2026-04-22T20:45:38.386644+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IMMANUEL QUICKLEY INJURY IMPACTS RAPTORS PLAYOFF PERFORMANCE | YES | HIGH confidence**",
-      "raw": "IMMANUEL QUICKLEY INJURY IMPACTS RAPTORS PLAYOFF PERFORMANCE | YES | HIGH confidence**\n\nToronto's starting point guard Immanuel Quickley remains out due to a right hamstring injury, forcing the Raptors to start replacement Jamal Shead.[3] This absence has directly affected Toronto's performance, with the team averaging 20 turnovers and just 109 points per game through two games\u2014significantly below",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776890738382_0",
-      "timestamp": "2026-04-22T20:45:38.382664+00:00",
+      "id": "sig_1776890789194_0",
+      "timestamp": "2026-04-22T20:46:29.194875+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here is the breaking news:",
-      "raw": "Based on the search results provided, here is the breaking news:",
-      "direction": null,
+      "headline": "Elon Musk April 2026 Tweet Count Market Dominates with $10M Volume | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Market Dominates with $10M Volume | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active market is \"Elon Musk # tweets in April 2026?\" where traders give 18% odds to the 1120-1159 range, amid $10M volume and $541K liquidity across tweet markets.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776890789196_1",
+      "timestamp": "2026-04-22T20:46:29.196784+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Polymarket Markets Show High Activity in Tweets, Nasdaq Trading, Monero Price | NO mispriced calls or smart mon",
+      "raw": "Trending Polymarket Markets Show High Activity in Tweets, Nasdaq Trading, Monero Price | NO mispriced calls or smart money moves on X | LOW confidence**",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776890738384_1",
-      "timestamp": "2026-04-22T20:45:38.384635+00:00",
+      "id": "sig_1776890789198_2",
+      "timestamp": "2026-04-22T20:46:29.198533+00:00",
       "source": "PERPLEXITY",
-      "headline": "CAVALIERS TAKE 2-0 SERIES LEAD OVER RAPTORS WITH DOMINANT DEFENSIVE PERFORMANCE | YES | HIGH confidence**",
-      "raw": "CAVALIERS TAKE 2-0 SERIES LEAD OVER RAPTORS WITH DOMINANT DEFENSIVE PERFORMANCE | YES | HIGH confidence**\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday night, extending their first-round playoff series lead to 2-0.[4][5] Donovan Mitchell led the Cavaliers with 30 points, 7 rebounds, and 5 assists, while James Harden contributed 28 points.[5] The Cavaliers' defen",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776890745532_0",
-      "timestamp": "2026-04-22T20:45:45.532331+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Tweet Markets Amid High Trading Volume** | NO | MED confidence",
-      "raw": "Polymarket Traders on X Focus on Tweet Markets Amid High Trading Volume** | NO | MED confidence\n\nTrending discussions highlight **Elon Musk tweet count markets** as the most active, with over $22M in volume across predictions like \"Elon Musk # tweets April 17 - April 24, 2026?\" (33% on 200-219, 240-259 ranges) and \"Elon Musk # tweets in April 2026?\" (18-19% on 1120-1159).[2][3][4] Traders are trac",
+      "headline": "Tweet markets lead buzz with 20-130 active ones, including Elon Musk's monthly tweets (18-19% on 1120-1159) and Kanye tw",
+      "raw": "Tweet markets lead buzz with 20-130 active ones, including Elon Musk's monthly tweets (18-19% on 1120-1159) and Kanye tweeting by April 30 (60% yes).[2][3]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -79,12 +65,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776890745535_1",
-      "timestamp": "2026-04-22T20:45:45.535328+00:00",
+      "id": "sig_1776890789200_3",
+      "timestamp": "2026-04-22T20:46:29.200261+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mispriced or moving markets** center on tweet predictions and broader Trending Markets (168 active, $2",
-      "raw": "Mispriced or moving markets** center on tweet predictions and broader Trending Markets (168 active, $2.8M volume), including niche events like \u201cNasdaq round-the-clock trading by June 30?\u201d\u2014odds reflect crowd sentiment but no X chatter flags mispricing explicitly.[1][2]\n\nNo **recent confirmations, announcements, or resolutions** are reported to impact markets right now; all noted markets remain open",
-      "direction": "NO",
+      "headline": "Other top trends: Nasdaq round-the-clock trading by June 30 (20% yes, $43",
+      "raw": "Other top trends: Nasdaq round-the-clock trading by June 30 (20% yes, $43.9K vol), Monero hitting $1000 in 2026, Robinhood (HOOD) up on April 22 (85% up, $2.2K vol).[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776890789202_4",
+      "timestamp": "2026-04-22T20:46:29.202059+00:00",
+      "source": "PERPLEXITY",
+      "headline": "News stories like GTA VI before June 2026 (1% yes, $14M vol) and MegaETH airdrop by June 30 (60% yes) draw volume, but n",
+      "raw": "News stories like GTA VI before June 2026 (1% yes, $14M vol) and MegaETH airdrop by June 30 (60% yes) draw volume, but no X posts on whales, tips, or mispricing noted.[4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -93,9 +92,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 4,
+    "enter": 0,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
