@@ -1,31 +1,74 @@
 {
-  "last_scan": "2026-04-22T22:19:34.760420+00:00",
-  "scan_seconds": 14.2,
-  "markets_scanned": 48,
+  "last_scan": "2026-04-22T22:20:45.149788+00:00",
+  "scan_seconds": 16.6,
+  "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776896373755_0",
-      "timestamp": "2026-04-22T22:19:33.755465+00:00",
+      "id": "sig_1776896434293_1",
+      "timestamp": "2026-04-22T22:20:34.293287+00:00",
       "source": "PERPLEXITY",
-      "headline": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts are breaking right now on X",
-      "raw": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts are breaking right now on X based on available data.**[1][2][3][5]\n\nCurrent Polymarket trends focus on **Tweet Markets** (e.g., \"Elon Musk # tweets April 20-22, 2026?\" at 100% for \"40-64\" and \"Elon Musk # tweets in April 2026?\" with 21% on 1120-1159) and **Trending Markets** like \"Nasdaq round-the-clock tr",
-      "direction": "NO",
+      "headline": "Current Price Update | Trading Activity Confirmed | HIGH confidence**",
+      "raw": "Current Price Update | Trading Activity Confirmed | HIGH confidence**\nEthereum is trading at $2,403.78 as of 9:15 a.m. Eastern Time today, up $98.74 from yesterday[1]\u2014a measurable price movement but routine market activity rather than breaking news.",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776896373757_1",
-      "timestamp": "2026-04-22T22:19:33.757365+00:00",
+      "id": "sig_1776896434295_2",
+      "timestamp": "2026-04-22T22:20:34.295224+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to lack of real-time X sentiment or resolution news in results; popular markets include pop culture",
-      "raw": "LOW confidence** due to lack of real-time X sentiment or resolution news in results; popular markets include pop culture tweets, sports (2026 FIFA World Cup, NBA), geopolitics (Iran-Israel), but no fresh confirmations like announcements or resolutions moving prices.[1][3][5]",
-      "direction": "NO",
+      "headline": "Pectra Upgrade in Final Testing | Anticipated Development | MED confidence**",
+      "raw": "Pectra Upgrade in Final Testing | Anticipated Development | MED confidence**\nAs of April 17-18, 2026, the Pectra (Prague-Electra) Upgrade was entering its final testing phase, with reports of massive institutional demand and record Spot Ethereum ETF inflows[2]. However, this represents an ongoing development rather than a newly confirmed announcement today.\n\nThe search results do not contain any a",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776896434291_0",
+      "timestamp": "2026-04-22T22:20:34.291355+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the available search results, I cannot identify any breaking news from today (April 22) that would move predict",
+      "raw": "Based on the available search results, I cannot identify any breaking news from today (April 22) that would move prediction markets. The most recent concrete data points are:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776896438473_0",
+      "timestamp": "2026-04-22T22:20:38.473335+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs** | YES | HIGH conf",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs** | YES | HIGH confidence[1][2]\n\nThe Cavaliers, led by **Donovan Mitchell (30 points)**, **James Harden (28 points)**, and **Evan Mobley (25 points)**, secured a wire-to-wire victory on Monday night, marking their 12th straight playoff win against Toronto and tying an NBA postseason record[1][2]. T",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776896444131_0",
+      "timestamp": "2026-04-22T22:20:44.131080+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results. The search results show general information about Polymarket's platform and structure, but they do not contain:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -33,42 +76,75 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776896364403_0",
-      "timestamp": "2026-04-22T22:19:24.403077+00:00",
+      "id": "sig_1776896444132_1",
+      "timestamp": "2026-04-22T22:20:44.132836+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum price up ~4% today amid crypto market rally** | YES | MED confidence[1][2][3]",
-      "raw": "Ethereum price up ~4% today amid crypto market rally** | YES | MED confidence[1][2][3]\n\nEthereum (ETH) rose from $2,305 on April 21 to $2,403.78 by 9:15 a.m. ET on April 22, 2026\u2014a $98.74 daily gain (4.3%)\u2014with sources confirming 2.7-4.22% 24-hour increases[1][2][3]. No specific new confirmations, announcements, or resolutions (e.g., regulatory or network upgrades) are reported in results; the upt",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "WATCH",
+      "headline": "Current X (Twitter) posts from traders discussing markets",
+      "raw": "Current X (Twitter) posts from traders discussing markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776896369893_0",
-      "timestamp": "2026-04-22T22:19:29.893086+00:00",
+      "id": "sig_1776896444134_2",
+      "timestamp": "2026-04-22T22:20:44.134558+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavericks defeat injury-depleted Lakers 134-128 as Cooper Flagg scores 45 points in historic back-to-back 40+ performanc",
-      "raw": "Mavericks defeat injury-depleted Lakers 134-128 as Cooper Flagg scores 45 points in historic back-to-back 40+ performance | NO** | **MED** confidence\n\nCooper Flagg, the 19-year-old Mavericks rookie and No. 1 pick, dropped 45 points, 9 assists, and 8 rebounds to lead Dallas over the short-handed Lakers on Sunday, ending the Mavs' 14-game home losing streak\u2014their longest in 32 years[1][2][3]. This f",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "WATCH",
+      "headline": "Specific whale bets or smart money moves happening right now",
+      "raw": "Specific whale bets or smart money moves happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776896444136_3",
+      "timestamp": "2026-04-22T22:20:44.136246+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market sentiment or commentary from the trading community",
+      "raw": "Real-time market sentiment or commentary from the trading community",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776896444137_4",
+      "timestamp": "2026-04-22T22:20:44.137985+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent announcements, confirmations, or market resolutions that occurred today",
+      "raw": "Recent announcements, confirmations, or market resolutions that occurred today",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776896444139_5",
+      "timestamp": "2026-04-22T22:20:44.139694+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysis of potentially mispriced markets",
+      "raw": "Analysis of potentially mispriced markets\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
-    "watch": 2,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 10,
+    "watch": 0,
+    "high_conf": 2
   }
 }
