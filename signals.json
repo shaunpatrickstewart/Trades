@@ -1,44 +1,101 @@
 {
-  "last_scan": "2026-04-22T03:05:56.866974+00:00",
-  "scan_seconds": 16.3,
-  "markets_scanned": 75,
-  "open_positions": 36,
+  "last_scan": "2026-04-22T03:07:07.490677+00:00",
+  "scan_seconds": 16.9,
+  "markets_scanned": 55,
+  "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776827147975_0",
-      "timestamp": "2026-04-22T03:05:47.975372+00:00",
+      "id": "sig_1776827218672_0",
+      "timestamp": "2026-04-22T03:06:58.672035+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell Confirms Tariffs Drive Most Goods Price Overrun, Core Inflation ~2% Ex-Tariffs; Goods Inflation to Peak Q1 2026;",
-      "raw": "Powell Confirms Tariffs Drive Most Goods Price Overrun, Core Inflation ~2% Ex-Tariffs; Goods Inflation to Peak Q1 2026; Q1 GDP Growth Slowing on Import Surge Ahead of Tariffs** | **YES** | **HIGH** confidence[1][2][3]\n\nPowell stated in recent remarks that **most of the overrun in goods prices is from tariffs**, not excess demand, with core PCE inflation running just above 2% when excluding tariff ",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "I cannot provide breaking news matching your query criteria",
+      "raw": "I cannot provide breaking news matching your query criteria. The search results contain no information from April 2026 (today's date). The most recent content available is from **December 2025**, which reports that Federal Reserve Chair Powell stated Trump's tariffs are causing \"most of the inflation overshoot\" above the Fed's 2% target.[3]\n\nThe search results include:",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776827151634_0",
-      "timestamp": "2026-04-22T03:05:51.634737+00:00",
+      "id": "sig_1776827218674_1",
+      "timestamp": "2026-04-22T03:06:58.674101+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Receive Injury Updates on Luka Doncic and Austin Reaves Ahead of Game 2 vs",
-      "raw": "Lakers Receive Injury Updates on Luka Doncic and Austin Reaves Ahead of Game 2 vs. Rockets | NO | HIGH confidence**  \nESPN's Shams Charania reported Tuesday that Austin Reaves (oblique) is on track to return late in the first-round series against Houston, providing a potential boost for Los Angeles, while Luka Doncic (Grade 2 hamstring) is not expected to return until the Western Conference semifi",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "A July 2025 report on GDP growth and Powell's concerns about tariff-driven inflation[1]",
+      "raw": "A July 2025 report on GDP growth and Powell's concerns about tariff-driven inflation[1]",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827218676_2",
+      "timestamp": "2026-04-22T03:06:58.676105+00:00",
+      "source": "PERPLEXITY",
+      "headline": "An April 2025 speech by Powell discussing trade policy uncertainty and tariff impacts[2]",
+      "raw": "An April 2025 speech by Powell discussing trade policy uncertainty and tariff impacts[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827218678_3",
+      "timestamp": "2026-04-22T03:06:58.678192+00:00",
+      "source": "PERPLEXITY",
+      "headline": "A December 2025 statement on tariffs and inflation[3]",
+      "raw": "A December 2025 statement on tariffs and inflation[3]\n\nTo answer your question about current market-moving announcements from April 22, 2026, I would need search results with today's date, which are not provided here.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827226485_0",
+      "timestamp": "2026-04-22T03:07:06.485060+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1080-1119 range priced at 18% probability (implied odds updating in real-time based on trader sentiment).[1][2][3]  \nNo specific X posts from Polymark",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776827226487_1",
+      "timestamp": "2026-04-22T03:07:06.487094+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye West Tweet Return Market Active | NO | MED confidence**",
+      "raw": "Kanye West Tweet Return Market Active | NO | MED confidence**  \nMarket like \u201cWill Kanye tweet again by April 30?\u201d remains live but lacks trending X discussion or volume spikes in results.[2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 0,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 0,
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 0
   }
 }

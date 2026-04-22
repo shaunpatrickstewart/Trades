@@ -1,5 +1,5 @@
 {
-  "ts": 1776827155,
+  "ts": 1776827220,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999702
+    "usdc_usd": 0.999792
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -107,10 +107,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0555,
-        "nav_usdc": 0.4529,
+        "cur_price": 0.056,
+        "nav_usdc": 0.457,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8445
+        "unrealized_pnl": -0.8404
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -152,28 +152,28 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.18,
-        "nav_usdc": 0.909,
+        "cur_price": 0.185,
+        "nav_usdc": 0.9342,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.7827
+        "unrealized_pnl": -0.7575
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.2849,
-        "nav_usdc": 1.4387,
+        "cur_price": 0.29,
+        "nav_usdc": 1.4645,
         "cost_basis": 1.212,
-        "unrealized_pnl": 0.2267
+        "unrealized_pnl": 0.2525
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.4079,
-        "nav_usdc": 2.0599,
+        "cur_price": 0.401,
+        "nav_usdc": 2.0251,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.2975
+        "unrealized_pnl": 0.2627
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -296,36 +296,46 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.227,
-        "nav_usdc": 1.1153,
+        "cur_price": 0.23,
+        "nav_usdc": 1.1301,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.6338
+        "unrealized_pnl": 0.6486
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 286.7843,
-    "total_usdc": 402.8071,
-    "total_usd": 402.6871
+    "positions_nav_usdc": 286.8193,
+    "total_usdc": 402.8421,
+    "total_usd": 402.7583
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776827156,
+    "ts": 1776827221,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
-    "activity_rows": 50,
+    "activity_rows": 52,
     "today": {
       "window": "today",
       "window_start_ts": 1776816000,
       "realized_usdc": 0.0,
-      "trade_count": 2,
-      "buy_volume_usdc": 28.8882,
+      "trade_count": 4,
+      "buy_volume_usdc": 57.8061,
       "sell_volume_usdc": 0.0,
       "closed_positions": 0,
       "winning_positions": 0,
       "win_rate_pct": 0.0,
       "per_position": [
+        {
+          "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
+          "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
+          "outcome_index": 0,
+          "buys_usdc": 28.9179,
+          "sells_usdc": 0.0,
+          "net_size": 29.21,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
         {
           "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
           "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
@@ -340,10 +350,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776740756,
+      "window_start_ts": 1776740821,
       "realized_usdc": 0.4633,
-      "trade_count": 14,
-      "buy_volume_usdc": 149.3998,
+      "trade_count": 16,
+      "buy_volume_usdc": 178.3177,
       "sell_volume_usdc": 58.5169,
       "closed_positions": 2,
       "winning_positions": 2,
@@ -368,6 +378,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
+          "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
+          "outcome_index": 0,
+          "buys_usdc": 28.9179,
+          "sells_usdc": 0.0,
+          "net_size": 29.21,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
@@ -433,10 +453,10 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776222356,
+      "window_start_ts": 1776222421,
       "realized_usdc": 1.5555,
-      "trade_count": 50,
-      "buy_volume_usdc": 436.7155,
+      "trade_count": 52,
+      "buy_volume_usdc": 465.6334,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -471,6 +491,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
+          "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
+          "outcome_index": 0,
+          "buys_usdc": 28.9179,
+          "sells_usdc": 0.0,
+          "net_size": 29.21,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
@@ -629,16 +659,6 @@
           "buys_usdc": 2.9795,
           "sells_usdc": 0.0,
           "net_size": 4.9879,
-          "closed": false,
-          "realized_usdc": 0.0
-        },
-        {
-          "title": "Chicago White Sox vs. Athletics",
-          "slug": "mlb-cws-oak-2026-04-19",
-          "outcome_index": 1,
-          "buys_usdc": 2.2725,
-          "sells_usdc": 0.0,
-          "net_size": 4.9667,
           "closed": false,
           "realized_usdc": 0.0
         }
@@ -646,10 +666,10 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774235156,
+      "window_start_ts": 1774235221,
       "realized_usdc": 1.5555,
-      "trade_count": 50,
-      "buy_volume_usdc": 436.7155,
+      "trade_count": 52,
+      "buy_volume_usdc": 465.6334,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -684,6 +704,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
+          "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
+          "outcome_index": 0,
+          "buys_usdc": 28.9179,
+          "sells_usdc": 0.0,
+          "net_size": 29.21,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
@@ -842,16 +872,6 @@
           "buys_usdc": 2.9795,
           "sells_usdc": 0.0,
           "net_size": 4.9879,
-          "closed": false,
-          "realized_usdc": 0.0
-        },
-        {
-          "title": "Chicago White Sox vs. Athletics",
-          "slug": "mlb-cws-oak-2026-04-19",
-          "outcome_index": 1,
-          "buys_usdc": 2.2725,
-          "sells_usdc": 0.0,
-          "net_size": 4.9667,
           "closed": false,
           "realized_usdc": 0.0
         }
@@ -861,8 +881,8 @@
       "window": "all",
       "window_start_ts": 0,
       "realized_usdc": 1.5555,
-      "trade_count": 50,
-      "buy_volume_usdc": 436.7155,
+      "trade_count": 52,
+      "buy_volume_usdc": 465.6334,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 3,
       "winning_positions": 3,
@@ -897,6 +917,16 @@
           "net_size": 0.0,
           "closed": true,
           "realized_usdc": 0.2316
+        },
+        {
+          "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
+          "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
+          "outcome_index": 0,
+          "buys_usdc": 28.9179,
+          "sells_usdc": 0.0,
+          "net_size": 29.21,
+          "closed": false,
+          "realized_usdc": 0.0
         },
         {
           "title": "Will the highest temperature in Shenzhen be 32\u00b0C or higher on April 22?",
@@ -1057,22 +1087,12 @@
           "net_size": 4.9879,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Chicago White Sox vs. Athletics",
-          "slug": "mlb-cws-oak-2026-04-19",
-          "outcome_index": 1,
-          "buys_usdc": 2.2725,
-          "sells_usdc": 0.0,
-          "net_size": 4.9667,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     }
   },
   "summary": {
-    "total_usd": 402.6871,
-    "total_usdc": 402.8071
+    "total_usd": 402.7583,
+    "total_usdc": 402.8421
   }
 }
