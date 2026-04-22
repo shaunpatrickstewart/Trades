@@ -1,71 +1,74 @@
 {
-  "last_scan": "2026-04-22T22:18:31.439990+00:00",
-  "scan_seconds": 14.9,
+  "last_scan": "2026-04-22T22:19:34.760420+00:00",
+  "scan_seconds": 14.2,
   "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776896310435_1",
-      "timestamp": "2026-04-22T22:18:30.435429+00:00",
+      "id": "sig_1776896373755_0",
+      "timestamp": "2026-04-22T22:19:33.755465+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero $1000 Price Target and Niche Bans Gain Traction in Trending Markets | NO | MED confidence**",
-      "raw": "Monero $1000 Price Target and Niche Bans Gain Traction in Trending Markets | NO | MED confidence**  \nTraders are betting on **Will Monero hit $1000 in 2026?** alongside \"Law banning sports prediction markets enacted in 2026?\" at 11% YES odds, within 168 live trending markets aggregating $3M+ volume on crypto, politics, and tech events like Nasdaq 24/7 trading by June 30.[1] No whale bets, smart mo",
-      "direction": "YES",
+      "headline": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts are breaking right now on X",
+      "raw": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts are breaking right now on X based on available data.**[1][2][3][5]\n\nCurrent Polymarket trends focus on **Tweet Markets** (e.g., \"Elon Musk # tweets April 20-22, 2026?\" at 100% for \"40-64\" and \"Elon Musk # tweets in April 2026?\" with 21% on 1120-1159) and **Trending Markets** like \"Nasdaq round-the-clock tr",
+      "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776896305318_0",
-      "timestamp": "2026-04-22T22:18:25.318038+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Raptors down 0-2 to Cavaliers after Game 2 loss (115-105); no major roster moves, injuries, or Lakers/Flagg confirmation",
-      "raw": "Raptors down 0-2 to Cavaliers after Game 2 loss (115-105); no major roster moves, injuries, or Lakers/Flagg confirmations announced | NO | HIGH confidence** [1][2][6]\n\nRaptors lost Game 2 on April 20 to Cleveland (Mitchell 30 pts, Harden 28 pts; Barnes 26 pts in defeat), trailing 0-2 in first-round playoffs with Game 3 on April 23.[2][6] Quickley confirmed out for Game 2 (hamstring sprain from reg",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776896310433_0",
-      "timestamp": "2026-04-22T22:18:30.433576+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominate Polymarket Trending Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominate Polymarket Trending Activity | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume in April 2026**, with \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\" showing high trading volume over $20M; the 1120-1159 tweet outcome trades at 20-21% odds.[2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776896310437_2",
-      "timestamp": "2026-04-22T22:18:30.437298+00:00",
+      "id": "sig_1776896373757_1",
+      "timestamp": "2026-04-22T22:19:33.757365+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye West Tweet Return Market Active but Low Volume | NO | LOW confidence**",
-      "raw": "Kanye West Tweet Return Market Active but Low Volume | NO | LOW confidence**  \n\"Will Kanye tweet again by April 30?\" sits at 78% YES with just $393 volume across 130 tweet prediction markets.[2]  \n\nNo recent confirmations, announcements, or resolutions noted that would shift these markets; activity reflects ongoing trader sentiment on celebrity tweets and crypto without evident whale activity or t",
-      "direction": "YES",
+      "headline": "LOW confidence** due to lack of real-time X sentiment or resolution news in results; popular markets include pop culture",
+      "raw": "LOW confidence** due to lack of real-time X sentiment or resolution news in results; popular markets include pop culture tweets, sports (2026 FIFA World Cup, NBA), geopolitics (Iran-Israel), but no fresh confirmations like announcements or resolutions moving prices.[1][3][5]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776896364403_0",
+      "timestamp": "2026-04-22T22:19:24.403077+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum price up ~4% today amid crypto market rally** | YES | MED confidence[1][2][3]",
+      "raw": "Ethereum price up ~4% today amid crypto market rally** | YES | MED confidence[1][2][3]\n\nEthereum (ETH) rose from $2,305 on April 21 to $2,403.78 by 9:15 a.m. ET on April 22, 2026\u2014a $98.74 daily gain (4.3%)\u2014with sources confirming 2.7-4.22% 24-hour increases[1][2][3]. No specific new confirmations, announcements, or resolutions (e.g., regulatory or network upgrades) are reported in results; the upt",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776896369893_0",
+      "timestamp": "2026-04-22T22:19:29.893086+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Mavericks defeat injury-depleted Lakers 134-128 as Cooper Flagg scores 45 points in historic back-to-back 40+ performanc",
+      "raw": "Mavericks defeat injury-depleted Lakers 134-128 as Cooper Flagg scores 45 points in historic back-to-back 40+ performance | NO** | **MED** confidence\n\nCooper Flagg, the 19-year-old Mavericks rookie and No. 1 pick, dropped 45 points, 9 assists, and 8 rebounds to lead Dallas over the short-handed Lakers on Sunday, ending the Mavs' 14-game home losing streak\u2014their longest in 32 years[1][2][3]. This f",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 0,
+    "enter": 1,
+    "alert": 1,
+    "watch": 2,
     "high_conf": 1
   }
 }
