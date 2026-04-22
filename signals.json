@@ -1,44 +1,61 @@
 {
-  "last_scan": "2026-04-22T23:20:54.725031+00:00",
-  "scan_seconds": 15.1,
+  "last_scan": "2026-04-22T23:21:54.483653+00:00",
+  "scan_seconds": 13.9,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776900044564_0",
-      "timestamp": "2026-04-22T23:20:44.564274+00:00",
+      "id": "sig_1776900104411_0",
+      "timestamp": "2026-04-22T23:21:44.411281+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or prediction market-moving events from the provided search results",
-      "raw": "I cannot identify breaking news or prediction market-moving events from the provided search results. The most recent data available is from **April 21, 2026** (one day ago), which shows Ethereum trading at **$2,305.04**[1]\u2014a modest $12.76 decline from the previous day. Earlier in April, price analysis from April 13 indicated bearish conditions with ETH at $2,194[2], and a YouTube video from April ",
-      "direction": null,
+      "headline": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving Price to $2,288+ Amid Institutional Rally | YES",
+      "raw": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving Price to $2,288+ Amid Institutional Rally | YES | HIGH confidence** [1]\n\nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014led by Fidelity\u2019s FETH and BlackRock\u2019s ETHA, coinciding with a 7% ETH price surge to nearly $2,400 as institutional demand returns.[1] This marks confirmed strong w",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776900044566_1",
-      "timestamp": "2026-04-22T23:20:44.566423+00:00",
+      "id": "sig_1776900113480_2",
+      "timestamp": "2026-04-22T23:21:53.480395+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot generate the requested format (HEADLINE | YES or NO | HIGH/MED/LOW confidence) without current breaking news da",
-      "raw": "I cannot generate the requested format (HEADLINE | YES or NO | HIGH/MED/LOW confidence) without current breaking news data.**\n\nIf you're looking for today's market movements or recent announcements, I'd recommend checking real-time crypto news sources or market data platforms directly.",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Nasdaq 24/7 Trading by June 30",
+      "raw": "Nasdaq 24/7 Trading by June 30? Trending as Potential Misprice | NO | LOW confidence**  \nAmong 168 Trending Markets, \"Nasdaq round-the-clock trading by June 30?\" draws attention with $3M+ volume, where real-time odds reflect trader bets on finance/tech shifts\u2014potentially mispriced per crowd sentiment outperforming polls[1]. Limited resolution news; odds update dynamically without confirmed announc",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776900053712_0",
-      "timestamp": "2026-04-22T23:20:53.712294+00:00",
+      "id": "sig_1776900108688_0",
+      "timestamp": "2026-04-22T23:21:48.688820+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market showing the outcome \"1120-1159\" priced at 20-21% implied probability and over $20.7M in trading volume[3][4]. Related markets like \"Elon Musk # tweets April 17 -",
-      "direction": "NO",
+      "headline": "Raptors Clinch Playoff Spot vs",
+      "raw": "Raptors Clinch Playoff Spot vs. Mavericks; Cooper Flagg Questionable with Injury** | YES | MED confidence\n\nThe Toronto Raptors have clinched a playoff spot, advancing as the Eastern Conference's fifth seed to face the Cavaliers in the first round, per recent highlights and previews[1][2][3]. This resolution locks in their matchup against James Harden and Donovan Mitchell's Cavaliers, potentially s",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776900113474_0",
+      "timestamp": "2026-04-22T23:21:53.474356+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Leads Polymarket Chatter | YES | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Leads Polymarket Chatter | YES | HIGH confidence**  \nPolymarket's most active markets center on **Elon Musk's tweet volume**, with the \"Elon Musk # tweets in April 2026?\" market assigning a 21% probability to the 1120-1159 range amid $20.7M+ total volume across 20+ live Tweet Markets as of April 21-22, 2026[1][2][3][4]. Traders on platforms like Binance highlight a",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -48,64 +65,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776900053714_1",
-      "timestamp": "2026-04-22T23:20:53.714331+00:00",
+      "id": "sig_1776900113477_1",
+      "timestamp": "2026-04-22T23:21:53.477046+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Specific Whale Bets, Smart Money Moves, or X Posts Visible | NO | HIGH confidence**",
-      "raw": "No Specific Whale Bets, Smart Money Moves, or X Posts Visible | NO | HIGH confidence**  \nSearch results highlight high-volume tweet prediction markets but contain no mentions of recent **whale bets**, **smart money moves**, **mispriced markets**, or **trending tips** from Polymarket traders on X[1][2][3][4][5]. No confirmed announcements, resolutions, or events (e.g., Nasdaq trading or Kanye tweet",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900053716_2",
-      "timestamp": "2026-04-22T23:20:53.716121+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Categories | N/A | MED confidence**",
-      "raw": "Trending Polymarket Categories | N/A | MED confidence**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900053717_3",
-      "timestamp": "2026-04-22T23:20:53.717881+00:00",
-      "source": "PERPLEXITY",
-      "headline": "168 **Trending Markets** active, covering topics like \"Nasdaq round-the-clock trading by June 30",
-      "raw": "168 **Trending Markets** active, covering topics like \"Nasdaq round-the-clock trading by June 30?\" with $3.0M volume[1].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900053719_4",
-      "timestamp": "2026-04-22T23:20:53.719602+00:00",
-      "source": "PERPLEXITY",
-      "headline": "130 **Tweet markets** (e",
-      "raw": "130 **Tweet markets** (e.g., \"Will Kanye tweet again by April 30?\")[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900053721_5",
-      "timestamp": "2026-04-22T23:20:53.721596+00:00",
-      "source": "PERPLEXITY",
-      "headline": "20 **Tweet Markets** as of April 21[4]",
-      "raw": "20 **Tweet Markets** as of April 21[4].  \nData as of April 22 reflects real-time odds but lacks X-specific trader discussions or breaking confirmations[1][4].",
-      "direction": null,
+      "headline": "Kanye West Tweet Return by April 30 Sparks Pop Culture Bets | YES | MED confidence**",
+      "raw": "Kanye West Tweet Return by April 30 Sparks Pop Culture Bets | YES | MED confidence**  \nA \"Will Kanye tweet again by April 30?\" market trades at 78% YES odds with $393K volume among 129+ Tweet prediction markets, fueling discussions on mispriced pop culture outcomes as sentiment shifts in real-time[4]. No direct X posts confirmed in results, but high activity suggests trader focus on celebrity twee",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -114,9 +79,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
+    "enter": 1,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
