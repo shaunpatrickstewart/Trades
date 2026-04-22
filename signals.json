@@ -1,41 +1,47 @@
 {
-  "last_scan": "2026-04-22T04:55:16.403487+00:00",
-  "scan_seconds": 20.0,
+  "last_scan": "2026-04-22T04:56:40.638669+00:00",
+  "scan_seconds": 19.8,
   "markets_scanned": 77,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776833715386_4",
-      "timestamp": "2026-04-22T04:55:15.386247+00:00",
+      "id": "sig_1776833785407_0",
+      "timestamp": "2026-04-22T04:56:25.407303+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recently confirmed news or announcements that would move prediction markets",
-      "raw": "Recently confirmed news or announcements that would move prediction markets",
-      "direction": null,
+      "headline": "Wrapped XRP (wXRP) Now Live on Solana via $100M Integration | YES | HIGH confidence**",
+      "raw": "Wrapped XRP (wXRP) Now Live on Solana via $100M Integration | YES | HIGH confidence**  \nSolana's official X account posted \"XRP\" on April 15, 2026, sparking viral speculation and millions of views, tied to the confirmed launch of wrapped XRP on Solana\u2014available on Jupiter, Phantom, Titan Exchange, and Meteora, backed 1:1 by native XRP in institutional custody[1][2][4][5]. This connects XRP and Sol",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776833701478_0",
-      "timestamp": "2026-04-22T04:55:01.478655+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news from today (April 22, 2026) that meets your criteria",
-      "raw": "Based on the search results provided, there is no breaking news from today (April 22, 2026) that meets your criteria. The most recent developments in the search results are from mid-April:",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Solana Up or Down on April 22?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776833701481_1",
-      "timestamp": "2026-04-22T04:55:01.481701+00:00",
+      "id": "sig_1776833794581_0",
+      "timestamp": "2026-04-22T04:56:34.581308+00:00",
       "source": "PERPLEXITY",
-      "headline": "Wrapped XRP (wXRP) Launch on Solana | YES | HIGH confidence**",
-      "raw": "Wrapped XRP (wXRP) Launch on Solana | YES | HIGH confidence**\nWrapped XRP went live on Solana on April 17 via Hex Trust and LayerZero, enabling XRP holders to access Solana's DeFi ecosystem.[1] XRP surged +5.15% in the 48 hours following the launch and was trading at $1.40.[1] However, one analysis noted market skepticism about immediate DeFi adoption impact despite potential benefits.[6]",
+      "headline": "Lakers Lead Rockets 1-0 After Game 1 Win in Western Conference Semifinals | YES | HIGH confidence**",
+      "raw": "Lakers Lead Rockets 1-0 After Game 1 Win in Western Conference Semifinals | YES | HIGH confidence**  \nThe Los Angeles Lakers defeated the Houston Rockets in Game 1 of the Western Conference Semifinals, with the series now at **LAL 1-0** heading into Game 2 on April 22[1][3][4][6].  \nPost-game analysis highlights LeBron James's strong performance despite absences of Luka Don\u010di\u0107 and Austin Reaves, b",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776833785410_1",
+      "timestamp": "2026-04-22T04:56:25.410588+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No New XRP/Solana Announcements Confirmed Post-April 18 | NO | HIGH confidence**",
+      "raw": "No New XRP/Solana Announcements Confirmed Post-April 18 | NO | HIGH confidence**  \nJapanese banks validated XRP settling 60% cheaper than SWIFT; Soci\u00e9t\u00e9 G\u00e9n\u00e9rale launched euro stablecoin on XRP Ledger; South Korea piloted tokenized bond on Ripple infra; XRP ETFs saw peak inflows ($1.2B cumulative AUM)[1]. Solana follow-ups referenced \"589 NDAs\" and \"flip the switch\" memes, with ecosystem memes and",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -48,41 +54,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776833701484_2",
-      "timestamp": "2026-04-22T04:55:01.484899+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No other confirmed announcements or resolutions** from the past few days are evident in these results that would signifi",
-      "raw": "No other confirmed announcements or resolutions** from the past few days are evident in these results that would significantly move prediction markets. The search results indicate that key catalysts being monitored include the CLARITY Act markup and the FOMC meeting scheduled for April 28-29, but neither has been resolved as of the available information.[5]\n\nTo get genuinely breaking news from the",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776833710252_0",
-      "timestamp": "2026-04-22T04:55:10.252894+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round playoffs after Game 2 win (115-105); no conference semifina",
-      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference first-round playoffs after Game 2 win (115-105); no conference semifinals yet | NO | HIGH confidence** [1][2][5]\n\nPolymarket odds shifted to Cavaliers at 62% implied probability to win series (up from opening -550), driven by their 2-0 lead with home wins of 126-113 (Game 1) and 115-105 (Game 2), featuring Donovan Mitchell (30 pts Game 2) and James ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776833715374_0",
-      "timestamp": "2026-04-22T04:55:15.374857+00:00",
+      "id": "sig_1776833799611_0",
+      "timestamp": "2026-04-22T04:56:39.611932+00:00",
       "source": "PERPLEXITY",
       "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some dated market examples (from April 9-21, 2026), but do not include:",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results.\n\nThe search results provide general information about Polymarket's structure and some example markets (such as Elon Musk tweet counts and GTA VI release timing), but they do not contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -91,11 +67,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776833715377_1",
-      "timestamp": "2026-04-22T04:55:15.377696+00:00",
+      "id": "sig_1776833799614_1",
+      "timestamp": "2026-04-22T04:56:39.614778+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media discussions or posts from Polymarket traders",
-      "raw": "Current social media discussions or posts from Polymarket traders",
+      "headline": "Current live posts or discussions from Polymarket traders on X (Twitter)",
+      "raw": "Current live posts or discussions from Polymarket traders on X (Twitter)",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -104,11 +80,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776833715380_2",
-      "timestamp": "2026-04-22T04:55:15.380682+00:00",
+      "id": "sig_1776833799617_2",
+      "timestamp": "2026-04-22T04:56:39.617612+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time whale bets or large trades happening \"right now\"",
-      "raw": "Real-time whale bets or large trades happening \"right now\"",
+      "headline": "Active whale bets or smart money moves happening right now",
+      "raw": "Active whale bets or smart money moves happening right now",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -117,11 +93,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776833715383_3",
-      "timestamp": "2026-04-22T04:55:15.383441+00:00",
+      "id": "sig_1776833799620_3",
+      "timestamp": "2026-04-22T04:56:39.620479+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live market sentiment or trending discussions on X (Twitter)",
-      "raw": "Live market sentiment or trending discussions on X (Twitter)",
+      "headline": "Real-time market mispricing discussions",
+      "raw": "Real-time market mispricing discussions",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -130,11 +106,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776833715389_5",
-      "timestamp": "2026-04-22T04:55:15.389147+00:00",
+      "id": "sig_1776833799623_4",
+      "timestamp": "2026-04-22T04:56:39.623394+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current assessments of mispriced markets",
-      "raw": "Current assessments of mispriced markets\n\nTo get this information, you would need to:",
+      "headline": "Recent breaking news, announcements, or resolutions that would move markets",
+      "raw": "Recent breaking news, announcements, or resolutions that would move markets\n\nTo get this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -144,8 +120,8 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
+    "enter": 1,
+    "alert": 7,
     "watch": 0,
     "high_conf": 1
   }
