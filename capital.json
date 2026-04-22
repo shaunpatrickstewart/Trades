@@ -1,5 +1,5 @@
 {
-  "ts": 1776856465,
+  "ts": 1776856500,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -179,10 +179,10 @@
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.215,
-        "nav_usdc": 1.0857,
+        "cur_price": 0.195,
+        "nav_usdc": 0.9848,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.1262
+        "unrealized_pnl": -0.2272
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.292,
-    "total_usdc": 404.2286,
-    "total_usd": 404.1433
+    "positions_nav_usdc": 317.191,
+    "total_usdc": 404.1276,
+    "total_usd": 404.0424
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776856466,
+    "ts": 1776856502,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776770066,
+      "window_start_ts": 1776770102,
       "realized_usdc": 0.2316,
       "trade_count": 13,
       "buy_volume_usdc": 121.8994,
@@ -471,7 +471,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776251666,
+      "window_start_ts": 1776251702,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -684,7 +684,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774264466,
+      "window_start_ts": 1774264502,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1110,7 +1110,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.1433,
-    "total_usdc": 404.2286
+    "total_usd": 404.0424,
+    "total_usdc": 404.1276
   }
 }
