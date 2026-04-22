@@ -1,46 +1,20 @@
 {
-  "last_scan": "2026-04-22T21:40:16.645099+00:00",
-  "scan_seconds": 16.1,
+  "last_scan": "2026-04-22T21:41:23.842808+00:00",
+  "scan_seconds": 13.2,
   "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776894015640_1",
-      "timestamp": "2026-04-22T21:40:15.640505+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or mispriced markets confirmed | NO | LOW confidence**",
-      "raw": "No whale bets, smart money moves, or mispriced markets confirmed | NO | LOW confidence**\n\nSearch results highlight analytics tools revealing top trader strategies but lack specifics on current **whale bets** or **smart money flows**; no trending tips on mispriced markets or imminent moves are mentioned[5]. General trending categories include 168 live markets on topics like Nasdaq trading and pop c",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776894015638_0",
-      "timestamp": "2026-04-22T21:40:15.638374+00:00",
+      "id": "sig_1776894082839_0",
+      "timestamp": "2026-04-22T21:41:22.839831+00:00",
       "source": "PERPLEXITY",
       "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., 40-64 at varying odds) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 at 21% probability[2][3][4]. These have high trading volumes over $20M, indicating str",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in pop culture tweet markets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at 21% odds[2][3][4]. The \"Elon Musk # tw",
       "direction": "NO",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776894015642_2",
-      "timestamp": "2026-04-22T21:40:15.642629+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No recent confirmations, announcements, or resolutions moving markets | NO | LOW confidence**",
-      "raw": "No recent confirmations, announcements, or resolutions moving markets | NO | LOW confidence**\n\nNo breaking news, resolved events, or announcements (e.g., Kanye tweet by April 30 at 60% with $390 vol) are tied to immediate market shifts as of April 22, 2026[3]. Odds update continuously on trader sentiment, but results show no just-confirmed catalysts[1][2][3][4]. Data is limited to Polymarket pages",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
@@ -48,8 +22,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
