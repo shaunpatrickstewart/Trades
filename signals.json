@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T04:25:37.019001+00:00",
-  "scan_seconds": 16.4,
+  "last_scan": "2026-04-22T04:26:49.826474+00:00",
+  "scan_seconds": 19.2,
   "markets_scanned": 76,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776831922974_0",
-      "timestamp": "2026-04-22T04:25:22.974834+00:00",
+      "id": "sig_1776831996611_1",
+      "timestamp": "2026-04-22T04:26:36.611405+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1][2]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1][2]\n\nThe U.S. SEC's decision to drop its lawsuit against Ripple has been confirmed as resolved in April 2026, removing a major regulatory overhang that suppressed XRP's price for years and driving a 10% weekly surge to ~$1.42 after breaking $1.50 resistance[1]. This fundamental shift boosts institutional adoption and ma",
+      "headline": "RLUSD Stablecoin Full Rollout Confirmed | YES | HIGH confidence**",
+      "raw": "RLUSD Stablecoin Full Rollout Confirmed | YES | HIGH confidence**\nRipple USD (RLUSD) has officially completed full-scale rollout across the XRP Ledger and Ethereum, with this milestone achieved by mid-April 2026.[1]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,155 +22,158 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776831930446_0",
-      "timestamp": "2026-04-22T04:25:30.446324+00:00",
+      "id": "sig_1776832004512_0",
+      "timestamp": "2026-04-22T04:26:44.512849+00:00",
       "source": "PERPLEXITY",
-      "headline": "Rockets Star Kevin Durant Confirmed to Return for Game 2 vs",
-      "raw": "Rockets Star Kevin Durant Confirmed to Return for Game 2 vs. Lakers** | **YES** | **HIGH** confidence  \nKevin Durant (knee) is officially returning for Game 2 of the Lakers-Rockets Western Conference Semifinals series, where Lakers currently lead 1-0 after Game 1[3][2]. This late-breaking confirmation has shifted betting lines from Rockets -5.5 to -2.5, signaling market movement toward Houston's s",
+      "headline": "OKC Thunder Advance to NBA Finals After Defeating Timberwolves 124-94 in Western Conference Finals; Lakers, Cavaliers El",
+      "raw": "OKC Thunder Advance to NBA Finals After Defeating Timberwolves 124-94 in Western Conference Finals; Lakers, Cavaliers Eliminated Early** | NO | HIGH confidence[2][3]\n\nOklahoma City Thunder swept through the Western Conference playoffs, beating Grizzlies (117-115), Nuggets (125-93, 124-93), and Timberwolves (124-94, 103-91 in Finals prep), positioning them as 2025-26 champions after their 2025 titl",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776831935989_0",
-      "timestamp": "2026-04-22T04:25:35.989813+00:00",
+      "id": "sig_1776831996608_0",
+      "timestamp": "2026-04-22T04:26:36.608576+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time breaking news, live X (Twitter) posts, or current whale trading activity you're requestin",
-      "raw": "I cannot provide the real-time breaking news, live X (Twitter) posts, or current whale trading activity you're requesting based on these search results. The search results provide general information about how Polymarket operates as a prediction market platform, but they don't contain:",
+      "headline": "Based on the search results available, here are the key confirmed developments from April 2026:",
+      "raw": "Based on the search results available, here are the key confirmed developments from April 2026:",
       "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776831996614_2",
+      "timestamp": "2026-04-22T04:26:36.614829+00:00",
+      "source": "PERPLEXITY",
+      "headline": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**",
+      "raw": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**\nThe long-standing SEC legal battle is now officially concluded, removing a major regulatory overhang.[1]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776831935992_1",
-      "timestamp": "2026-04-22T04:25:35.992620+00:00",
+      "id": "sig_1776831996617_3",
+      "timestamp": "2026-04-22T04:26:36.617974+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X posts from traders or analysts",
-      "raw": "Current X posts from traders or analysts",
-      "direction": null,
+      "headline": "XRP ETF Approvals in Final Stage | YES | HIGH confidence**",
+      "raw": "XRP ETF Approvals in Final Stage | YES | HIGH confidence**\nXRP ETF approvals have entered the final approval stage, with six live ETFs currently operational as of April 2026.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776831996620_4",
+      "timestamp": "2026-04-22T04:26:36.620982+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Rakuten Payment Rail Launch | YES | HIGH confidence**",
+      "raw": "Rakuten Payment Rail Launch | YES | HIGH confidence**\nRakuten Wallet went live on April 15, 2026, adding a major institutional payment rail integration.[3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776831935995_2",
-      "timestamp": "2026-04-22T04:25:35.995414+00:00",
+      "id": "sig_1776831996626_5",
+      "timestamp": "2026-04-22T04:26:36.626778+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time whale bet information or smart money movements",
-      "raw": "Real-time whale bet information or smart money movements",
-      "direction": null,
+      "headline": "Institutional ETF Inflow Acceleration | YES | HIGH confidence**",
+      "raw": "Institutional ETF Inflow Acceleration | YES | HIGH confidence**\nXRP investment products recorded $224 million in inflows during the first week of April\u2014the largest single-country-led inflow rebound since December.[3] Notably, spot ETF inflows preceded futures demand, indicating institutional rather than leveraged retail buying.\n\nThese developments\u2014particularly the SEC resolution, RLUSD launch, and",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776831935998_3",
-      "timestamp": "2026-04-22T04:25:35.998439+00:00",
+      "id": "sig_1776832000670_0",
+      "timestamp": "2026-04-22T04:26:40.670480+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live market mispricing discussions",
-      "raw": "Live market mispricing discussions",
-      "direction": null,
+      "headline": "IMF Article IV Consultation Concludes: Little Room for Fed Rate Cuts in 2026 Despite 2",
+      "raw": "IMF Article IV Consultation Concludes: Little Room for Fed Rate Cuts in 2026 Despite 2.4% GDP Growth Projection | NO** | **HIGH** confidence[1]\n\nFederal Reserve expected to hold rates steady through 2026 amid persistent **core PCE inflation** at 2.6% by year-end, tariff-driven goods price hikes (effective rate 7-8.5%), and energy shocks from Iran conflict delaying 2% target to 2027[1][2][5].",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776831936001_4",
-      "timestamp": "2026-04-22T04:25:36.001275+00:00",
+      "id": "sig_1776832000673_1",
+      "timestamp": "2026-04-22T04:26:40.673304+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent announcements or resolutions that would move markets",
-      "raw": "Recent announcements or resolutions that would move markets",
-      "direction": null,
+      "headline": "Powell Describes Economy as 'Very Unusual' with Tariff-Peaking Goods Inflation Q1 2026, No Further Rate Cuts Planned | N",
+      "raw": "Powell Describes Economy as 'Very Unusual' with Tariff-Peaking Goods Inflation Q1 2026, No Further Rate Cuts Planned | NO** | **MED** confidence[2][4]",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776831936004_5",
-      "timestamp": "2026-04-22T04:25:36.004268+00:00",
+      "id": "sig_1776832000676_2",
+      "timestamp": "2026-04-22T04:26:40.676209+00:00",
       "source": "PERPLEXITY",
-      "headline": "Today's specific trading activity or sentiment",
-      "raw": "Today's specific trading activity or sentiment\n\nThe most recent concrete data points in the search results are from early-to-mid April 2026 and show that \"Elon Musk # tweets April 17 - April 24, 2026?\" was actively trading, but this doesn't provide the breaking news or current trader commentary you're seeking[4].\n\nTo get this information, you would need to:",
+      "headline": "Powell** highlights labor market weakening (official payrolls overstated by ~60k/month), services inflation cooling, but",
+      "raw": "Powell** highlights labor market weakening (official payrolls overstated by ~60k/month), services inflation cooling, but tariffs as one-time goods shock\u2014not ongoing inflation\u2014prompting neutral policy at \"high end\" post-third cut[2][4].",
       "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776831936007_6",
-      "timestamp": "2026-04-22T04:25:36.007206+00:00",
+      "id": "sig_1776832008823_0",
+      "timestamp": "2026-04-22T04:26:48.823221+00:00",
       "source": "PERPLEXITY",
-      "headline": "Check Polymarket's live platform directly for current odds and recent market activity",
-      "raw": "Check Polymarket's live platform directly for current odds and recent market activity",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO whale bets or confirmed resolutions reported | LOW con",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO whale bets or confirmed resolutions reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 29%) and the overall \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119 outcome).[1][2][3] These reflect r",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776831936010_7",
-      "timestamp": "2026-04-22T04:25:36.010105+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor X/Twitter in real-time for trader discussions and market analysis",
-      "raw": "Monitor X/Twitter in real-time for trader discussions and market analysis",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776831936012_8",
-      "timestamp": "2026-04-22T04:25:36.012949+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review Polymarket analytics tools designed to track whale activity and market movements",
-      "raw": "Review Polymarket analytics tools designed to track whale activity and market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776831936015_9",
-      "timestamp": "2026-04-22T04:25:36.015819+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Follow prediction market communities and Discord channels where traders share insights",
-      "raw": "Follow prediction market communities and Discord channels where traders share insights\n\nI'd recommend checking Polymarket's trending markets page and X directly for the current breaking information you're looking for.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 2,
-    "alert": 10,
-    "watch": 0,
-    "high_conf": 2
+    "alert": 8,
+    "watch": 1,
+    "high_conf": 3
   }
 }
