@@ -1,60 +1,108 @@
 {
-  "last_scan": "2026-04-22T18:11:34.701121+00:00",
-  "scan_seconds": 14.2,
+  "last_scan": "2026-04-22T18:12:46.084824+00:00",
+  "scan_seconds": 15.5,
   "markets_scanned": 50,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776881488936_0",
-      "timestamp": "2026-04-22T18:11:28.936106+00:00",
+      "id": "sig_1776881555225_0",
+      "timestamp": "2026-04-22T18:12:35.225372+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals; Cavaliers Advance Past Heat in East** | YES | HIGH confidence[",
-      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals; Cavaliers Advance Past Heat in East** | YES | HIGH confidence[2][3]\n\nLakers hold a **2-0 series lead** over the Houston Rockets after Game 3 scheduled for Apr 24, with no new losses reported, positioning them favorably against potential OKC-Thunder matchup[2]. Cavaliers secured a dominant **138-83 win** over the Heat, advancing to face Pace",
+      "headline": "Solana\u2013Revolut Partnership Confirmed, Boosting Real-World Adoption Amid Ethereum's Fusaka Upgrade | YES | MED confidence",
+      "raw": "Solana\u2013Revolut Partnership Confirmed, Boosting Real-World Adoption Amid Ethereum's Fusaka Upgrade | YES | MED confidence**  \nEthereum's **Fusaka upgrade** went live less than 48 hours ago, driving a 180k jump in 7-day transaction averages and post-upgrade activity similar to Pectra's rally, while Solana maintains a lead with 74M non-vote transactions (47x Ethereum's daily volume)[1].  \nA **Solana\u2013",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776881483984_0",
-      "timestamp": "2026-04-22T18:11:23.984332+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**",
-      "raw": "Interactive Brokers Launches SOL Trading for European Investors | YES | MED confidence**\n\nInteractive Brokers, a major brokerage, recently launched Solana (SOL) trading for European investors via Zero Hash, expanding institutional access amid SOL trading around $82\u2013$88[1][2]. This development aligns with April 2026 analyst targets of $88\u2013$100 if a breakout occurs, driven by catalysts like the Fire",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Will the price of Solana be above $90 on April 28?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776881493698_0",
-      "timestamp": "2026-04-22T18:11:33.698100+00:00",
+      "id": "sig_1776881565071_0",
+      "timestamp": "2026-04-22T18:12:45.071893+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts** in April 2026, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64%) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 at 18%[2][3][4]. These dominate Tweet and Pop Culture categories with over $22M in vol",
-      "direction": "NO",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows **20% YES odds** with $43.9K volume and $1.8K liquidity, indicating traders heavily favor NO amid discussions on X about regulatory hurdles for 24/7 Nasdaq trading[1].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881565073_1",
+      "timestamp": "2026-04-22T18:12:45.073893+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at **16% YES odds**, $33.6K volume, ending in 7 days; traders on X highlight delays in Elon Musk's payment features as mispriced downside[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881565075_2",
+      "timestamp": "2026-04-22T18:12:45.075742+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at **19% YES odds**, $94.3K volume; crypto whales noted on X betting against due to market saturation, seen as undervalued NO[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881565077_3",
+      "timestamp": "2026-04-22T18:12:45.077623+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at **100% YES**, $12.3K liquidity; recent confirmation of ceasefire resolution driving sharp moves, with X posts calling it a quick whale exit opportunity[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881565079_4",
+      "timestamp": "2026-04-22T18:12:45.079465+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow **7% YES odds**, $1.4K volume; smart money on X views this as overpriced YES amid stability rumors, potential short-term dip[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881565081_5",
+      "timestamp": "2026-04-22T18:12:45.081717+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Volume Markets (e",
+      "raw": "Elon Musk Tweet Volume Markets (e.g., April 2026 Total) | MIXED | LOW confidence**  \nActive markets like \"Elon Musk # tweets in April 2026?\" at ~18-19% for high buckets (1120-1159 tweets); X tips trend on mispriced upside if posting ramps, but no fresh whale bets confirmed[3][4].",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 1
   }
 }
