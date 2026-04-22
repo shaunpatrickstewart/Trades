@@ -1,121 +1,152 @@
 {
-  "last_scan": "2026-04-22T09:56:32.619324+00:00",
-  "scan_seconds": 22.0,
+  "last_scan": "2026-04-22T09:57:39.528805+00:00",
+  "scan_seconds": 18.9,
   "markets_scanned": 81,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776851775350_1",
-      "timestamp": "2026-04-22T09:56:15.350876+00:00",
+      "id": "sig_1776851843548_0",
+      "timestamp": "2026-04-22T09:57:23.548010+00:00",
       "source": "PERPLEXITY",
-      "headline": "**XRP ETF inflows** from mid-April ($17",
-      "raw": "**XRP ETF inflows** from mid-April ($17.6 million on April 15)[1], which had already occurred before today",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776851775353_2",
-      "timestamp": "2026-04-22T09:56:15.353783+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 16th regulatory catalyst** expectations around the Clarity Act discussion[5], which has passed",
-      "raw": "**April 16th regulatory catalyst** expectations around the Clarity Act discussion[5], which has passed",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776851786081_3",
-      "timestamp": "2026-04-22T09:56:26.081382+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A confirmed series winner or resolution",
-      "raw": "A confirmed series winner or resolution\n\nThe most recent playoff development in these results is the Cavaliers' 115-105 victory over the Raptors on April 20, with Donovan Mitchell scoring 30 points and James Harden adding 28 points[2][3], but this occurred before your query timestamp.\n\nTo answer your question accurately, I would need search results containing actual breaking news from April 22, 20",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776851775347_0",
-      "timestamp": "2026-04-22T09:56:15.347669+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify breaking news from today (April 22, 2026) that would move predic",
-      "raw": "Based on the search results provided, I cannot identify breaking news from today (April 22, 2026) that would move prediction markets. The most recent dated content in these results is from early April 2026, with the latest specific reference being April 16th discussions around the Clarity Act and potential regulatory developments[5].\n\nThe search results discuss:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776851775356_3",
-      "timestamp": "2026-04-22T09:56:15.356672+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Historical April price trends** and technical analysis levels[2][4]",
-      "raw": "**Historical April price trends** and technical analysis levels[2][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776851775360_4",
-      "timestamp": "2026-04-22T09:56:15.360065+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Network developments** like 200,000 active XRP users and infrastructure updates[3]",
-      "raw": "**Network developments** like 200,000 active XRP users and infrastructure updates[3]\n\nTo provide the breaking news headline format you requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need current news from April 22, 2026. The search results do not contain announcements, confirmations, or resolutions from today that would impact prediction markets.\n\nIf you're tracking XRP predic",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP Rally in April 2026 | YES | HIGH confidence**[1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Fueling XRP Rally in April 2026 | YES | HIGH confidence**[1]\n\nThe U.S. SEC's decision to drop its lawsuit against Ripple has been confirmed as resolved, removing a major regulatory overhang and driving XRP's ~10% weekly gain to ~$1.42 after breaking $1.50 resistance[1]. This fundamental shift boosts institutional sentiment amid RLUSD stablecoin r",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776851780102_0",
-      "timestamp": "2026-04-22T09:56:20.102095+00:00",
+      "id": "sig_1776851851177_1",
+      "timestamp": "2026-04-22T09:57:31.177641+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh's Senate Confirmation Hearing for Fed Chair Underway Amid Criticism on Inflation Policy and Rate Cuts | NO |",
-      "raw": "Kevin Warsh's Senate Confirmation Hearing for Fed Chair Underway Amid Criticism on Inflation Policy and Rate Cuts | NO | HIGH confidence**\n\nFederal Reserve Chair Jerome Powell is facing replacement pressure, with Kevin Warsh\u2014President Trump's nominee\u2014undergoing intense Senate Banking Committee questioning on April 21, 2026, including rebukes for past \"fatal policy errors\" allowing inflation to soa",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "POWELL WARNS TARIFFS WILL CAUSE HIGHER INFLATION AND SLOWER GROWTH | YES | HIGH confidence**",
+      "raw": "POWELL WARNS TARIFFS WILL CAUSE HIGHER INFLATION AND SLOWER GROWTH | YES | HIGH confidence**\n\nFederal Reserve Chair Jerome Powell made his **strongest warning to date** about President Trump's tariff policies during a speech at the Economic Club of Chicago on Wednesday, April 17, 2025[2]. Powell stated that \"the level of tariff increases announced so far is significantly larger than anticipated, a",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Tariff inflation\" during April press conference?",
         "Will Donald Trump publicly insult someone on April 26, 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776851851189_5",
+      "timestamp": "2026-04-22T09:57:31.189614+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Tariff inflation is already occurring**: Powell acknowledged that tariffs have already started impacting inflation, wi",
+      "raw": "**Tariff inflation is already occurring**: Powell acknowledged that tariffs have already started impacting inflation, with some inflation resulting from consumer stockpiling ahead of higher import taxes[4].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776851851180_2",
+      "timestamp": "2026-04-22T09:57:31.180624+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Tariffs are \"highly likely\" to generate at least temporary inflation increases**[2], with Powell emphasizing this as n",
+      "raw": "**Tariffs are \"highly likely\" to generate at least temporary inflation increases**[2], with Powell emphasizing this as nearly certain.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776851786072_0",
-      "timestamp": "2026-04-22T09:56:26.072296+00:00",
+      "id": "sig_1776851851192_6",
+      "timestamp": "2026-04-22T09:57:31.192724+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information that ma",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information that matches your query parameters.\n\nThe search results show that the **Cavaliers are currently leading the Raptors 2-0 in their first-round playoff series**[2][3], with Game 3 scheduled for Thursday, April 23 at 8:00 pm ET[3]. However, this is not \"breaking news RIGHT NOW\"\u2014Game 2 occur",
-      "direction": "NO",
+      "headline": "**Market reaction confirmed**: The Dow fell nearly 2% following Powell's warnings, with tech stocks also declining after",
+      "raw": "**Market reaction confirmed**: The Dow fell nearly 2% following Powell's warnings, with tech stocks also declining after new export restrictions on Nvidia[1].\n\nThese statements represent a significant escalation in Powell's public concerns about tariff-driven inflation and economic growth risks, directly impacting market expectations for Fed policy and economic trajectory.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776851851174_0",
+      "timestamp": "2026-04-22T09:57:31.174331+00:00",
+      "source": "PERPLEXITY",
+      "headline": "# Recent Fed Chair Powell Statements on Tariffs and Inflation",
+      "raw": "# Recent Fed Chair Powell Statements on Tariffs and Inflation",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776851851183_3",
+      "timestamp": "2026-04-22T09:57:31.183670+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**The economy now faces \"heightened downside risks,\"** with Powell acknowledging the possibility of an economic downturn",
+      "raw": "**The economy now faces \"heightened downside risks,\"** with Powell acknowledging the possibility of an economic downturn\u2014a stark statement from the typically cautious Fed chair[2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776851851186_4",
+      "timestamp": "2026-04-22T09:57:31.186687+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Stagflation is identified as the worst-case scenario**, where high inflation coexists with economic stagnation, creati",
+      "raw": "**Stagflation is identified as the worst-case scenario**, where high inflation coexists with economic stagnation, creating tension between the Fed's dual mandate goals[2].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776851854699_0",
+      "timestamp": "2026-04-22T09:57:34.699684+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first-round playoffs** | YES | HI",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first-round playoffs** | YES | HIGH confidence[3][4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Vegas Golden Knights advance to Round 2 of the 2026 NHL Playoffs?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776851854702_1",
+      "timestamp": "2026-04-22T09:57:34.702663+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key performances: Donovan Mitchell (30 pts, 7 reb, 5 ast), James Harden (28 pts), Evan Mobley (25 pts, 8 reb); Cavaliers",
+      "raw": "Key performances: Donovan Mitchell (30 pts, 7 reb, 5 ast), James Harden (28 pts), Evan Mobley (25 pts, 8 reb); Cavaliers extend playoff win streak vs. Raptors to 12 straight** | YES | HIGH confidence[3][4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
@@ -125,103 +156,12 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776851786075_1",
-      "timestamp": "2026-04-22T09:56:26.075217+00:00",
+      "id": "sig_1776851858525_0",
+      "timestamp": "2026-04-22T09:57:38.525804+00:00",
       "source": "PERPLEXITY",
-      "headline": "A rookie making an announcement or achieving something that would move prediction markets",
-      "raw": "A rookie making an announcement or achieving something that would move prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776851786078_2",
-      "timestamp": "2026-04-22T09:56:26.078236+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Anything about the conference semifinals (the Cavaliers are currently in the first round)",
-      "raw": "Anything about the conference semifinals (the Cavaliers are currently in the first round)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776851791589_0",
-      "timestamp": "2026-04-22T09:56:31.589820+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the information you're requesting based on the available search results",
-      "raw": "I cannot provide the information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some historical market examples, but they do not include:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776851791592_1",
-      "timestamp": "2026-04-22T09:56:31.592785+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time social media discussions or posts from traders on X (Twitter)",
-      "raw": "Real-time social media discussions or posts from traders on X (Twitter)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776851791595_2",
-      "timestamp": "2026-04-22T09:56:31.595696+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current whale bets or smart money movements",
-      "raw": "Current whale bets or smart money movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776851791598_3",
-      "timestamp": "2026-04-22T09:56:31.598602+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Live market mispricings or trading alerts",
-      "raw": "Live market mispricings or trading alerts",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776851791601_4",
-      "timestamp": "2026-04-22T09:56:31.601474+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news or recent announcements that would move markets",
-      "raw": "Breaking news or recent announcements that would move markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776851791604_5",
-      "timestamp": "2026-04-22T09:56:31.604434+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current market sentiment or trending predictions",
-      "raw": "Current market sentiment or trending predictions\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "Elon Musk April Tweets Market Heating Up | NO whale bets or confirmed announcements reported | LOW confidence**",
+      "raw": "Elon Musk April Tweets Market Heating Up | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's trending markets focus heavily on **Tweet Markets**, particularly **Elon Musk's tweet counts**, with active markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and \"Elon Musk # tweets in April 2026?\" (28% on 1120-1159, 18% on 1080-1119 across",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -230,9 +170,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 16,
+    "enter": 3,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 5
   }
 }
