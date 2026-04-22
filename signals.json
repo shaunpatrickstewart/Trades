@@ -1,152 +1,118 @@
 {
-  "last_scan": "2026-04-22T06:52:29.890517+00:00",
-  "scan_seconds": 19.4,
+  "last_scan": "2026-04-22T06:53:43.715366+00:00",
+  "scan_seconds": 23.0,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776840738482_3",
-      "timestamp": "2026-04-22T06:52:18.482780+00:00",
+      "id": "sig_1776840809267_0",
+      "timestamp": "2026-04-22T06:53:29.267389+00:00",
       "source": "PERPLEXITY",
-      "headline": "March 2025 CPI was 2",
-      "raw": "March 2025 CPI was 2.4% (pre-tariff implementation), with surveys showing declined sentiment[1].\n\nThese are not \"right now\" (no 2026 updates in results), and lack new confirmations like April GDP data, resolutions, or market-moving announcements[4]. Prediction markets would likely react to fresh data (e.g., Q1 2026 GDP or CPI), which is absent here[1][2][3].",
+      "headline": "Fed Cuts Rates by 25bps Amid Tariff-Driven Inflation Overshoot and Weakening Labor Market | YES | HIGH**",
+      "raw": "Fed Cuts Rates by 25bps Amid Tariff-Driven Inflation Overshoot and Weakening Labor Market | YES | HIGH**  \nFederal Reserve Chair Jerome Powell announced on December 10, 2025, a third consecutive quarter-point rate cut, describing the economy as \"very unusual\" with tariffs causing most of the inflation above 2%\u2014primarily in goods, expected to peak Q1 2026 absent further tariffs\u2014while official payro",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776840809274_2",
+      "timestamp": "2026-04-22T06:53:29.274154+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No New Tariff Reversals or Resolutions Confirmed; Prior Reversal Cited for Q1 2026 GDP Boost | NO | MED**",
+      "raw": "No New Tariff Reversals or Resolutions Confirmed; Prior Reversal Cited for Q1 2026 GDP Boost | NO | MED**  \nA past tariff reversal mitigated weak GDP/inflation reports blamed on shutdown, with economists forecasting Q1 2026 GDP recovery, but no fresh announcements tie to \"right now.\"[7]",
       "direction": "NO",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776840748865_0",
-      "timestamp": "2026-04-22T06:52:28.865981+00:00",
+      "id": "sig_1776840816092_0",
+      "timestamp": "2026-04-22T06:53:36.092744+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launch Market Heating Up | NO (not launched yet) | HIGH confidence**",
-      "raw": "\ud835\udd4f Money Launch Market Heating Up | NO (not launched yet) | HIGH confidence**  \nPolymarket's top X-related market shows **12% odds** for \"\ud835\udd4f Money launched by April 30?\" with $33.6K volume and $4.6K liquidity, ending in 8 days\u2014traders on X likely buzzing as deadline nears without confirmation.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776840733543_0",
-      "timestamp": "2026-04-22T06:52:13.543057+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC drops long-running lawsuit against Ripple Labs, fueling XRP's 10% weekly surge to ~$1",
-      "raw": "SEC drops long-running lawsuit against Ripple Labs, fueling XRP's 10% weekly surge to ~$1.42 and signaling regulatory clarity.** | YES | HIGH confidence[1][5]\n\nThe resolution removes a multi-year legal overhang, driving a fundamental shift in market sentiment with XRP breaking $1.50 resistance after starting April near $1.20; analysts now project $2.71+ by year-end, potentially higher with ETF app",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776840738467_0",
-      "timestamp": "2026-04-22T06:52:18.467675+00:00",
-      "source": "PERPLEXITY",
-      "headline": "On April 16, 2025, Fed Chair **Jerome Powell** warned in a Chicago speech that Trump's tariffs\u2014larger than anticipated\u2014w",
-      "raw": "On April 16, 2025, Fed Chair **Jerome Powell** warned in a Chicago speech that Trump's tariffs\u2014larger than anticipated\u2014would cause **higher inflation** and **slower growth** (potentially GDP impacts), with risks of persistent effects or stagflation; he stressed anchoring inflation expectations[1][2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?",
-        "Will Donald Trump publicly insult someone on April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776840738472_1",
-      "timestamp": "2026-04-22T06:52:18.472920+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump had paused most April 2 tariffs except on China, but Powell noted elevated uncertainty and downside risks to the e",
-      "raw": "Trump had paused most April 2 tariffs except on China, but Powell noted elevated uncertainty and downside risks to the economy[1].",
+      "headline": "Based on the search results available, here are the confirmed developments from the 2026 NBA Playoffs opening weekend:",
+      "raw": "Based on the search results available, here are the confirmed developments from the 2026 NBA Playoffs opening weekend:",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?",
-        "Will Donald Trump publicly insult someone on April 26, 2026?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776840738477_2",
-      "timestamp": "2026-04-22T06:52:18.477806+00:00",
-      "source": "PERPLEXITY",
-      "headline": "By December 10, 2025, Powell attributed most of the inflation overshoot above 2% (PCE at 2",
-      "raw": "By December 10, 2025, Powell attributed most of the inflation overshoot above 2% (PCE at 2.8%) to tariffs, while noting gradual labor cooling and a base case of short-lived effects; the Fed cut rates by 25bps[3].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776840742597_0",
-      "timestamp": "2026-04-22T06:52:22.597116+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mavericks Rookie Cooper Flagg Makes NBA History with 51 Points in Loss to Magic | NO | LOW confidence**",
-      "raw": "Mavericks Rookie Cooper Flagg Makes NBA History with 51 Points in Loss to Magic | NO | LOW confidence**\n\nNo breaking playoff series resolutions, confirmations, or announcements involving Cooper Flagg or the Los Angeles Lakers that would shift prediction markets, as both teams missed the 2026 playoffs (Mavericks at 24-53, Lakers at 50-27 but not playoff-bound per records).[1][2][4] Flagg's recent 5",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776840748871_1",
-      "timestamp": "2026-04-22T06:52:28.871266+00:00",
+      "id": "sig_1776840816101_3",
+      "timestamp": "2026-04-22T06:53:36.101926+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran-Israel/US Conflict End Odds Locked at 100% | YES (resolved) | MED confidence**",
-      "raw": "Iran-Israel/US Conflict End Odds Locked at 100% | YES (resolved) | MED confidence**  \nGeopolitics market \"Iran x Israel/US conflict ends by...?\" hit **100% YES**, signaling recent resolution or trader consensus on de-escalation, potentially driving X posts on mispriced follow-on bets.[1]",
+      "headline": "Austin Reaves Confirmed Out for Game 2 | YES | HIGH confidence**",
+      "raw": "Austin Reaves Confirmed Out for Game 2 | YES | HIGH confidence**\n\nLakers guard Austin Reaves has been **officially ruled out** for Tuesday's Game 2 against the Rockets due to his left oblique strain.[4]\n\nGame 2 of the Lakers-Rockets series is scheduled for Tuesday, April 21 at 10:30 pm ET.[4]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776840809270_1",
+      "timestamp": "2026-04-22T06:53:29.270834+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Projects 2026 GDP at 2",
+      "raw": "Powell Projects 2026 GDP at 2.3%, PCE Inflation at 2.4% with Upside Inflation Risks from Tariffs | YES | HIGH**  \nSEP median projections show real GDP rising to 2.3% in 2026 (from 1.7% in 2025), total PCE inflation at 2.4% (down from 2.9%), with tariff effects viewed as short-lived but tilting near-term inflation risks upward and employment risks downward; policy now near neutral, poised to monito",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776840816095_1",
+      "timestamp": "2026-04-22T06:53:36.095909+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Take Game 1 Shock Victory Over Rockets | YES | HIGH confidence**",
+      "raw": "Lakers Take Game 1 Shock Victory Over Rockets | YES | HIGH confidence**\n\nThe **Los Angeles Lakers defeated the Houston Rockets 107-98** in Game 1 of their first-round series on April 20, 2026, despite being significant underdogs.[3] This was a major upset given that the Lakers were without key players Luka Doncic (hamstring) and Austin Reaves (oblique), while the Rockets were without Kevin Durant ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776840748876_2",
-      "timestamp": "2026-04-22T06:52:28.876591+00:00",
+      "id": "sig_1776840816098_2",
+      "timestamp": "2026-04-22T06:53:36.098913+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Exit from X as Head of Product | NO (7% odds) | HIGH confidence**",
-      "raw": "Nikita Bier Exit from X as Head of Product | NO (7% odds) | HIGH confidence**  \nLow **7% YES** odds for \"Nikita Bier out as Head of Product at X by June 30?\" with $1.4K volume\u2014X traders may flag this as **mispriced** for smart money if internal rumors confirm shakeup soon.[1]",
+      "headline": "Cavaliers Defeat Raptors in Game 1 | YES | HIGH confidence**",
+      "raw": "Cavaliers Defeat Raptors in Game 1 | YES | HIGH confidence**\n\nThe **Cleveland Cavaliers won 126-113 over the Toronto Raptors** in their opening matchup.[3] Max Strus and James Harden combined for 46 points in the victory.[3]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776840748881_3",
-      "timestamp": "2026-04-22T06:52:28.881989+00:00",
+      "id": "sig_1776840822709_0",
+      "timestamp": "2026-04-22T06:53:42.709070+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Counts Dominate Volume | NO specific whale bets confirmed | LOW confidence**",
-      "raw": "Elon Musk Tweet Counts Dominate Volume | NO specific whale bets confirmed | LOW confidence**  \nHigh-volume markets like \"Elon Musk # tweets April 17-24, 2026?\" at **30%** for 200-219 tweets ($5M vol) and April totals (18% for 1080-1119) show heavy trading, but no fresh X posts on whales or tips in results\u2014check real-time X for moves.[2][3][4]",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | LOW confidenc",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on \"180-199\" outcome) and \"Elon Musk # tweets in April 2026?\" (18% on \"1080-1119\" outcome), with over $17.1M in trading volume ac",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -155,11 +121,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776840748887_4",
-      "timestamp": "2026-04-22T06:52:28.887332+00:00",
+      "id": "sig_1776840822712_1",
+      "timestamp": "2026-04-22T06:53:42.712291+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Fresh Confirmations or Whale Alerts in Results | N/A | LOW confidence**",
-      "raw": "No Fresh Confirmations or Whale Alerts in Results | N/A | LOW confidence**  \nSearch lacks direct X posts on whale bets, smart money, or just-resolved events moving markets (e.g., GTA VI at 1% pre-June release, MegaETH airdrop 57% by June)\u2014odds shift on unconfirmed news like these.[5]",
+      "headline": "Trending Markets** category shows 166 live options (e",
+      "raw": "Trending Markets** category shows 166 live options (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d at 30%), with $3M+ volume, but no specific mispriced calls or smart money moves highlighted.[1]  \nA Binance post mentions a **Polymarket analytics tool** for tracking top traders' strategies, implying \"x-ray vision\" into winning plays, but lacks details on current whale bets or tips.[5]  \nNo sear",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -169,9 +135,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
+    "enter": 2,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 4
   }
 }
