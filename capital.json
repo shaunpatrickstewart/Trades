@@ -1,5 +1,5 @@
 {
-  "ts": 1776834060,
+  "ts": 1776834120,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.99983
+    "usdc_usd": 0.999839
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -305,14 +305,14 @@
     "position_count": 32,
     "positions_nav_usdc": 287.3695,
     "total_usdc": 403.3923,
-    "total_usd": 403.3237
+    "total_usd": 403.3273
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776834061,
+    "ts": 1776834121,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,28 +350,18 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776747661,
-      "realized_usdc": 0.4633,
-      "trade_count": 16,
-      "buy_volume_usdc": 178.3177,
+      "window_start_ts": 1776747721,
+      "realized_usdc": 0.2316,
+      "trade_count": 15,
+      "buy_volume_usdc": 149.2909,
       "sell_volume_usdc": 58.5169,
-      "closed_positions": 2,
-      "winning_positions": 2,
+      "closed_positions": 1,
+      "winning_positions": 1,
       "win_rate_pct": 100.0,
       "per_position": [
         {
           "title": "Will the highest temperature in Cape Town be 22\u00b0C or higher on April 21?",
           "slug": "highest-temperature-in-cape-town-on-april-21-2026-22corhigher",
-          "outcome_index": 1,
-          "buys_usdc": 29.0268,
-          "sells_usdc": 29.2584,
-          "net_size": 0.0,
-          "closed": true,
-          "realized_usdc": 0.2316
-        },
-        {
-          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
-          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
           "outcome_index": 1,
           "buys_usdc": 29.0268,
           "sells_usdc": 29.2584,
@@ -420,6 +410,16 @@
           "realized_usdc": 0.0
         },
         {
+          "title": "Will the highest temperature in Lucknow be 45\u00b0C on April 21?",
+          "slug": "highest-temperature-in-lucknow-on-april-21-2026-45c",
+          "outcome_index": 1,
+          "buys_usdc": 0.0,
+          "sells_usdc": 29.2584,
+          "net_size": -29.32,
+          "closed": false,
+          "realized_usdc": 0.0
+        },
+        {
           "title": "Strait of Hormuz traffic returns to normal by end of April?",
           "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
           "outcome_index": 0,
@@ -453,7 +453,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776229261,
+      "window_start_ts": 1776229321,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -666,7 +666,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774242061,
+      "window_start_ts": 1774242121,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1092,7 +1092,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.3237,
+    "total_usd": 403.3273,
     "total_usdc": 403.3923
   }
 }

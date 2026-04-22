@@ -1,76 +1,113 @@
 {
-  "last_scan": "2026-04-22T05:01:13.196489+00:00",
-  "scan_seconds": 21.7,
+  "last_scan": "2026-04-22T05:02:20.710400+00:00",
+  "scan_seconds": 20.0,
   "markets_scanned": 79,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776834060714_0",
-      "timestamp": "2026-04-22T05:01:00.714589+00:00",
+      "id": "sig_1776834129872_0",
+      "timestamp": "2026-04-22T05:02:09.872603+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news from April 22, 2026, as the search results provided are from late 2025 and early 2026, wi",
-      "raw": "I cannot provide breaking news from April 22, 2026, as the search results provided are from late 2025 and early 2026, with no content dated April 22, 2026. The most recent information available discusses Powell's statements from December 2025 and early 2026 regarding tariff-driven inflation and labor market concerns.\n\nTo answer your query about current breaking news that would move prediction mark",
+      "headline": "Fed Chair Powell Confirms Tariff-Driven Goods Inflation to Peak Q1/Mid-2026, Expects One-Time Effect with Core PCE Sligh",
+      "raw": "Fed Chair Powell Confirms Tariff-Driven Goods Inflation to Peak Q1/Mid-2026, Expects One-Time Effect with Core PCE Slightly Above 2% Excluding Tariffs** | **YES** | **HIGH** confidence[1][2][3][4]\n\nPowell described the economy as \"very unusual\" due to tariff impacts on goods prices amid a potentially weaker labor market, with official payrolls overstating job growth by ~60,000/month[1]. He noted g",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776834135358_0",
+      "timestamp": "2026-04-22T05:02:15.358335+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
+      "raw": "I cannot provide breaking news in the format you've requested based on these search results.\n\nThe search results contain **playoff bracket information and standings from the 2025-26 NBA season**, but they do not include any recent breaking news announcements, confirmations, or resolutions that would move prediction markets. The results show:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776834135361_1",
+      "timestamp": "2026-04-22T05:02:15.361423+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current playoff matchups and scores from earlier in the tournament",
+      "raw": "Current playoff matchups and scores from earlier in the tournament",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776834135364_2",
+      "timestamp": "2026-04-22T05:02:15.364346+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Regular season standings (Raptors at 46-36, Lakers not visible in provided data)",
+      "raw": "Regular season standings (Raptors at 46-36, Lakers not visible in provided data)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776834135370_3",
+      "timestamp": "2026-04-22T05:02:15.370185+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors**: Listed in the Eastern Conference standings at 46-36 record, but no breaking news is provided",
+      "raw": "Raptors**: Listed in the Eastern Conference standings at 46-36 record, but no breaking news is provided.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776834135373_4",
+      "timestamp": "2026-04-22T05:02:15.373206+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Los Angeles Lakers**: Appears in the playoff bracket as the 4th seed, but no recent announcements are included",
+      "raw": "Los Angeles Lakers**: Appears in the playoff bracket as the 4th seed, but no recent announcements are included.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776834135376_5",
+      "timestamp": "2026-04-22T05:02:15.376171+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg** and **Conference Semifinals**: No information in these results",
+      "raw": "Cooper Flagg** and **Conference Semifinals**: No information in these results.\n\nTo find actual breaking news that would impact prediction markets, you would need current sports news sources, official NBA announcements, or real-time reporting from the time of your query.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776834060721_1",
-      "timestamp": "2026-04-22T05:01:00.721612+00:00",
+      "id": "sig_1776834139706_0",
+      "timestamp": "2026-04-22T05:02:19.706921+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell's December 2025 warning about a \"very unusual\" economy with goods inflation expected to peak in Q1 2026[1]",
-      "raw": "Powell's December 2025 warning about a \"very unusual\" economy with goods inflation expected to peak in Q1 2026[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776834060728_2",
-      "timestamp": "2026-04-22T05:01:00.728605+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Goods inflation beginning to show tariff effects in February 2026[4]",
-      "raw": "Goods inflation beginning to show tariff effects in February 2026[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776834060731_3",
-      "timestamp": "2026-04-22T05:01:00.731628+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Uncertainty about tariff pass-through timing into mid-2026[5]",
-      "raw": "Uncertainty about tariff pass-through timing into mid-2026[5]\n\nIf you're seeking current market-moving announcements from Powell or inflation data released on April 22, 2026, please provide search results from that date, and I can identify the specific headline, confirmation status, and confidence level for you.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776834072193_0",
-      "timestamp": "2026-04-22T05:01:12.193211+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO whale bets or confirmed resolutions reported | LOW con",
-      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO whale bets or confirmed resolutions reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., \"200-219\" at 29%) and the broader \"Elon Musk musk # tweets in April 2026?\" with 18% odds on \"1080-1119\".[1][2][3] These r",
-      "direction": "YES",
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | HIGH confidence**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk # tweets** in April 2026, including weekly ranges like April 17-24 and the full-month total where the 1080-1119 range trades at **18% odds**.[1][2][3]  \nNo specific whale bets, smart money moves, or X posts about mispriced markets appear in current d",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -79,9 +116,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 1,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
