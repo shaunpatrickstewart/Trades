@@ -1,60 +1,149 @@
 {
-  "last_scan": "2026-04-22T21:12:27.195069+00:00",
-  "scan_seconds": 26.6,
+  "last_scan": "2026-04-22T21:13:30.075114+00:00",
+  "scan_seconds": 19.5,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776892346191_0",
-      "timestamp": "2026-04-22T21:12:26.191883+00:00",
+      "id": "sig_1776892409060_3",
+      "timestamp": "2026-04-22T21:13:29.060294+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Volume Markets Amid High Trading Activity | NO | LOW confidence**",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Volume Markets Amid High Trading Activity | NO | LOW confidence**\n\nPolymarket's trending prediction markets emphasize tweet-related events, particularly **Elon Musk # tweets** for specific April 2026 periods like April 20-22, April 17-24, and overall April counts, with the 1120-1159 tweet range priced at 18-19% probability in the most active markets",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (Already Resolved) | HIGH confidence**  \nMarket at 100% on an unspecified end date, with $12.3K liquidity, indicates recent confirmation or resolution of the conflict, potentially moving geopolitics bets.[2]",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776892337330_0",
-      "timestamp": "2026-04-22T21:12:17.330647+00:00",
+      "id": "sig_1776892403195_2",
+      "timestamp": "2026-04-22T21:13:23.195136+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or market-moving announcements from the provided search results",
-      "raw": "I cannot identify breaking news or market-moving announcements from the provided search results. The most recent data available is from April 21, 2026, which shows Ethereum trading at **$2,305.04**[1]\u2014a modest $12.76 decline from the previous day[1]. \n\nThe search results contain price tracking and general market analysis from mid-April 2026, but no specific confirmed announcements, resolutions, or",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "Series Prediction**: The Cavaliers are heavily favored to win the series given their dominant 2-0 lead with two games re",
+      "raw": "Series Prediction**: The Cavaliers are heavily favored to win the series given their dominant 2-0 lead with two games remaining in Toronto. The Raptors would need an unprecedented turnaround, particularly from Brandon Ingram, to overcome this deficit. Markets would likely shift significantly in favor of Cleveland's series completion, with the Raptors facing a 9-year playoff drought if they lose[1]",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776892409049_0",
+      "timestamp": "2026-04-22T21:13:29.049949+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling strong trader skepticism on Nasdaq expanding to 24/7 trading soon; no recent confirmations or announcements shift this.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776892394280_0",
+      "timestamp": "2026-04-22T21:13:14.280751+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (search results cover up to April 20 with no \"right now\" events matching criteria)",
+      "raw": "Confidence: HIGH** (search results cover up to April 20 with no \"right now\" events matching criteria).[1][2][3][4][5][6]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776892341618_0",
-      "timestamp": "2026-04-22T21:12:21.618246+00:00",
+      "id": "sig_1776892403190_0",
+      "timestamp": "2026-04-22T21:13:23.190516+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Drop Key Game to Mavericks Amid Major Injuries; Flagg Dominates with Historic 45 Points** | **YES** | **HIGH**",
-      "raw": "Lakers Drop Key Game to Mavericks Amid Major Injuries; Flagg Dominates with Historic 45 Points** | **YES** | **HIGH**  \nThe Dallas Mavericks defeated the injury-depleted Los Angeles Lakers 134-128 on Sunday, with Cooper Flagg scoring 45 points (his second straight 40+ game as a rookie teen, following 51 points)[1][2][4]. Luka Doncic and Austin Reaves are sidelined for the regular season's remainde",
+      "headline": "Based on the search results, here is the breaking news:",
+      "raw": "Based on the search results, here is the breaking news:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776892403192_1",
+      "timestamp": "2026-04-22T21:13:23.192887+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Take 2-0 Series Lead Over Raptors in First Round Playoff Series | YES | HIGH confidence**",
+      "raw": "Cavaliers Take 2-0 Series Lead Over Raptors in First Round Playoff Series | YES | HIGH confidence**\n\nThe **Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2**[1][5][6], giving Cleveland a commanding 2-0 series lead heading back to Toronto for Game 3. **Donovan Mitchell scored 30 points and James Harden added 28 points** to lead the Cavaliers' victory[1].\n\nThe Raptors' offensive st",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776892409052_1",
+      "timestamp": "2026-04-22T21:13:29.052016+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | MED confidence**  \nX-specific market at 16% YES with $33.6K volume and $4.4K liquidity draws attention as traders bet against Elon Musk's payment feature rollout in 7 days; no breaking news confirms launch plans.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776892409058_2",
+      "timestamp": "2026-04-22T21:13:29.058118+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Robinhood (HOOD) Up or Down on April 22",
+      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket at 85% Up with $2.2K volume reflects real-time trader consensus on HOOD closing higher today, amid broader finance trends; daily resolution adds urgency.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776892409066_4",
+      "timestamp": "2026-04-22T21:13:29.066430+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | LOW confidence**  \nTrending crypto market (ends in 8 months) shows implied low odds from trader sentiment, as Polymarket aggregates conviction on volatile assets like XMR.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776892409072_5",
+      "timestamp": "2026-04-22T21:13:29.072660+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | MED confidence**  \n7% YES odds with $1.4K volume and $2.9K liquidity highlight niche X drama bets; no insider tips or announcements on personnel changes.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 10,
     "watch": 0,
     "high_conf": 1
   }
