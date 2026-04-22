@@ -1,46 +1,46 @@
 {
-  "last_scan": "2026-04-22T16:04:22.172847+00:00",
-  "scan_seconds": 21.0,
-  "markets_scanned": 55,
+  "last_scan": "2026-04-22T16:05:20.435864+00:00",
+  "scan_seconds": 18.9,
+  "markets_scanned": 58,
   "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776873861162_0",
-      "timestamp": "2026-04-22T16:04:21.162828+00:00",
+      "id": "sig_1776873914899_0",
+      "timestamp": "2026-04-22T16:05:14.899594+00:00",
       "source": "PERPLEXITY",
-      "headline": "Next CEO of X Market at 100% \"No Announcement in 2025\" | NO | HIGH confidence**",
-      "raw": "Next CEO of X Market at 100% \"No Announcement in 2025\" | NO | HIGH confidence**  \nPolymarket's \"Next CEO of X?\" market shows \"No CEO announced in 2025\" trading at 100% probability (implying 100\u00a2 shares), with Jack Dorsey at <1%, reflecting trader consensus that no announcement occurred by year-end despite 18 outcomes available.[1]  \nNo X posts or whale activity detailed in results, but real-time o",
+      "headline": "NO | LOW confidence** (search results limited to April 21 or earlier; no intraday confirmations found)",
+      "raw": "NO | LOW confidence** (search results limited to April 21 or earlier; no intraday confirmations found).",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776873861165_1",
-      "timestamp": "2026-04-22T16:04:21.165901+00:00",
+      "id": "sig_1776873919430_0",
+      "timestamp": "2026-04-22T16:05:19.430439+00:00",
       "source": "PERPLEXITY",
-      "headline": "Top Polymarket Leaderboard Profits Surge | N/A | HIGH confidence**",
-      "raw": "Top Polymarket Leaderboard Profits Surge | N/A | HIGH confidence**  \nLeaderboard highlights whales like 0x492442... (+$6.9M profit) and HorizonSplendidView (+$4M), signaling smart money concentration in high-return markets, though specific bets or tips not specified.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776873861169_2",
-      "timestamp": "2026-04-22T16:04:21.169542+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tweet Markets and Breaking News Volumes Spike | N/A | MED confidence**",
-      "raw": "Tweet Markets and Breaking News Volumes Spike | N/A | MED confidence**  \n20 live \"Tweet Markets\" (e.g., Elon Musk #tweets in April 2026) active with $22.2M volume; breaking markets like \"Rolex Index to $12,450 by Apr 30\" and \"GRVT FDV >$200M post-launch\" moved most in last 24h as of Apr 21, potentially mispriced per trader reactions\u2014no X posts or resolutions confirmed.[4][5]",
-      "direction": "NO",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 33%) and \"Elon Musk # tweets in April 2026?\" (with \"1120-1159\" at 18%), drawing over $21M-$22M in volume across 130+ related markets[2][3][4].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Elon Musk post 1040-1079 tweets in April 2026?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776873919432_1",
+      "timestamp": "2026-04-22T16:05:19.432861+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Specific Whale Bets or X Posts Visible | NO | MED confidence**",
+      "raw": "No Specific Whale Bets or X Posts Visible | NO | MED confidence**  \nSearch results show no direct recent X posts from Polymarket traders about whale moves, smart money, or mispriced markets; instead, they highlight platform tools like analytics for tracking top traders[5]. Tweet markets dominate due to real-time updates from new data, potentially signaling trader interest in over/under bets as eve",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
