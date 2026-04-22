@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T12:30:25.937544+00:00",
-  "scan_seconds": 25.0,
+  "last_scan": "2026-04-22T12:31:31.236059+00:00",
+  "scan_seconds": 20.6,
   "markets_scanned": 77,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776861007007_1",
-      "timestamp": "2026-04-22T12:30:07.007256+00:00",
+      "id": "sig_1776861074406_0",
+      "timestamp": "2026-04-22T12:31:14.406944+00:00",
       "source": "PERPLEXITY",
-      "headline": "Japan Ditching SWIFT for XRP-Powered Remittances Confirmed | YES | MED confidence**",
-      "raw": "Japan Ditching SWIFT for XRP-Powered Remittances Confirmed | YES | MED confidence**  \nFresh reports today highlight Japan adopting XRP for remittances, replacing SWIFT infrastructure, which could drive massive enterprise adoption and volume amid April's price surge past $1.50.[4][7]",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst driving XRP's 10% surge in April 2026, breaking above $1.50 before settling around $1.42, signaling a fundamental shift in market sentiment and enabling institutional adoption.[1]  \nThis resolution removes a multi-year regulatory ",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,140 +22,112 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776861007012_2",
-      "timestamp": "2026-04-22T12:30:07.012547+00:00",
+      "id": "sig_1776861080750_1",
+      "timestamp": "2026-04-22T12:31:20.750871+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Lawsuit Resolution Fuels XRP's 10% April Surge to $1",
-      "raw": "SEC Lawsuit Resolution Fuels XRP's 10% April Surge to $1.42 | YES | HIGH confidence**  \nThe SEC's decision to drop its case against Ripple Labs\u2014circulating as confirmed news this month\u2014has removed a multi-year overhang, enabling technical breakouts and bullish analyst targets up to $5 by year-end.[2]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
-        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776861018435_2",
-      "timestamp": "2026-04-22T12:30:18.435182+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Lakers Context**: Lakers lost despite LeBron James' efforts in this historic matchup; separately, Austin Reaves is con",
-      "raw": "**Lakers Context**: Lakers lost despite LeBron James' efforts in this historic matchup; separately, Austin Reaves is confirmed out for the rest of the regular season and into the **playoffs**[1][2].",
+      "headline": "Kevin Warsh Criticizes Fed's Inflation Handling | CONFIRMED | HIGH confidence**",
+      "raw": "Kevin Warsh Criticizes Fed's Inflation Handling | CONFIRMED | HIGH confidence**\nKevin Warsh, President Trump's pick to replace Jerome Powell as Federal Reserve Chair, has criticized the Fed for \"policy errors in 2021 and 2022\" that allowed inflation to soar during his Senate confirmation hearing.[2] This represents a significant statement from the likely next Fed Chair about past monetary policy f",
       "direction": null,
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776861007001_0",
-      "timestamp": "2026-04-22T12:30:07.001818+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ripple Reveals Four-Phase Plan to Make XRP Ledger Quantum-Safe by 2028 | YES | HIGH confidence**",
-      "raw": "Ripple Reveals Four-Phase Plan to Make XRP Ledger Quantum-Safe by 2028 | YES | HIGH confidence**  \nThis breaking announcement, reported just hours ago on April 22, 2026, details proactive post-quantum cryptography testing starting H2 2026 on Devnet, positioning XRPL as future-proof against quantum threats and signaling long-term institutional appeal.[3][7]",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
-        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776861018428_0",
-      "timestamp": "2026-04-22T12:30:18.428926+00:00",
+      "id": "sig_1776861080753_2",
+      "timestamp": "2026-04-22T12:31:20.753792+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's Historic 45-Point Performance Leads Mavericks Past Lakers (134-128 Win)** | **NO** | **HIGH** confidence[",
-      "raw": "Cooper Flagg's Historic 45-Point Performance Leads Mavericks Past Lakers (134-128 Win)** | **NO** | **HIGH** confidence[1][3][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776861018432_1",
-      "timestamp": "2026-04-22T12:30:18.432239+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Event Details**: On Sunday (April 5, 2026), Dallas Mavericks rookie **Cooper Flagg** scored 45 points (14-for-27 FG),",
-      "raw": "**Event Details**: On Sunday (April 5, 2026), Dallas Mavericks rookie **Cooper Flagg** scored 45 points (14-for-27 FG), with 9 assists and 8 rebounds, securing a 134-128 victory over the **Los Angeles Lakers**; this followed his career-high 51 points on Friday vs. Orlando, marking back-to-back 40+ point games\u2014the first for a rookie since Allen Iverson\u2014and surpassing LeBron James for most 40-point ",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776861018438_3",
-      "timestamp": "2026-04-22T12:30:18.438024+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**No Raptors or Playoff Resolutions**: No mentions of **Toronto Raptors**; Mavericks are eliminated from **playoffs** (t",
-      "raw": "**No Raptors or Playoff Resolutions**: No mentions of **Toronto Raptors**; Mavericks are eliminated from **playoffs** (two weeks prior), Pistons clinched East No. 1 seed[2][3].",
+      "headline": "Warsh Faces Questioning on Rate-Cutting Stance | CONFIRMED | HIGH confidence**",
+      "raw": "Warsh Faces Questioning on Rate-Cutting Stance | CONFIRMED | HIGH confidence**\nDuring his confirmation hearing, Sen. Chris Van Hollen questioned Warsh about his past support for lowering interest rates while inflation remained elevated, highlighting a potential inconsistency in his policy positions.[3] This is relevant as Trump has publicly stated he wants rates cut to 1% or lower by year-end.[3]",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861080756_3",
+      "timestamp": "2026-04-22T12:31:20.756691+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Monitoring Iran War Energy Shock Inflation | CONFIRMED | MED confidence**",
+      "raw": "Fed Monitoring Iran War Energy Shock Inflation | CONFIRMED | MED confidence**\nChair Powell stated the Fed is closely monitoring inflation amid energy price spikes from the Iran war, with gas prices reaching nearly $4 per gallon.[1] Powell acknowledged the Fed has limited tools for supply shocks but emphasized the need to watch inflation expectations carefully to prevent them from becoming entrench",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861080759_4",
+      "timestamp": "2026-04-22T12:31:20.759595+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Warsh Confirmation Hearing Underway | CONFIRMED | HIGH confidence**",
+      "raw": "Warsh Confirmation Hearing Underway | CONFIRMED | HIGH confidence**\nThe Senate Banking Committee held confirmation hearings for Warsh on April 21, 2026, with Republican Sen. Thom Tillis promising to block confirmation if Trump's investigation of Powell continues.[4]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861085918_0",
+      "timestamp": "2026-04-22T12:31:25.918480+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavs Crush Raptors in Game 1 Playoff Opener, Series Odds Shift Heavily Toward Cleveland Sweep** | **NO** (Raptors will n",
+      "raw": "Cavs Crush Raptors in Game 1 Playoff Opener, Series Odds Shift Heavily Toward Cleveland Sweep** | **NO** (Raptors will not win series) | **HIGH** confidence[1][7]\n\nGame 1 of the Raptors-Cavaliers Eastern Conference playoff series has concluded with Cleveland winning by 13 points after building a 20+ point lead in the second half, confirming the Cavs' dominance despite Toronto's regular-season swee",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776861018441_4",
-      "timestamp": "2026-04-22T12:30:18.441193+00:00",
+      "id": "sig_1776861080747_0",
+      "timestamp": "2026-04-22T12:31:20.747926+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Prediction Market Impact**: Flagg flipped **ROY odds** with these feats (first teen with 50+ and back-to-back 40+); no",
-      "raw": "**Prediction Market Impact**: Flagg flipped **ROY odds** with these feats (first teen with 50+ and back-to-back 40+); no new **playoffs** confirmations, Lakers seeding, or resolutions to shift markets beyond individual props[2].",
+      "headline": "Based on the search results provided, here are the key breaking developments relevant to prediction markets:",
+      "raw": "Based on the search results provided, here are the key breaking developments relevant to prediction markets:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861090233_0",
+      "timestamp": "2026-04-22T12:31:30.233905+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% odds and $9M volume as of April 21[3][1][2]. No search results mention real-time X p",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776861024931_0",
-      "timestamp": "2026-04-22T12:30:24.931623+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ELON MUSK APRIL TWEETS MARKET DOMINATES POLYMARKET BUZZ | NO | MED confidence**",
-      "raw": "ELON MUSK APRIL TWEETS MARKET DOMINATES POLYMARKET BUZZ | NO | MED confidence**\n\nPolymarket's most active markets center on **Elon Musk tweet counts**, with \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\" leading in volume\u2014up to $9M and assigning **28% odds** to the 1120-1159 range as of April 21[1][2][3]. Traders are pricing ranges like 220-239 at **32%** i",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776861024934_1",
-      "timestamp": "2026-04-22T12:30:24.934509+00:00",
-      "source": "PERPLEXITY",
-      "headline": "KANYE TWEET RETURN MARKET ACTIVE AT 60% YES | NO | LOW confidence**",
-      "raw": "KANYE TWEET RETURN MARKET ACTIVE AT 60% YES | NO | LOW confidence**\n\n\"Will Kanye tweet again by April 30?\" trades at **60% YES**, part of 130+ live tweet markets, but lacks evidence of trending X discussion, whale activity, or resolutions moving odds[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 8,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 5
   }
 }
