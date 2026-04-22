@@ -1,166 +1,59 @@
 {
-  "last_scan": "2026-04-22T11:48:39.833902+00:00",
-  "scan_seconds": 19.3,
-  "markets_scanned": 80,
+  "last_scan": "2026-04-22T11:49:47.900792+00:00",
+  "scan_seconds": 17.1,
+  "markets_scanned": 81,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776858504335_3",
-      "timestamp": "2026-04-22T11:48:24.335220+00:00",
+      "id": "sig_1776858578287_0",
+      "timestamp": "2026-04-22T11:49:38.287279+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple Launches Digital Asset Accounts and Unified Treasury in Ripple Treasury | YES | MED confidence**",
-      "raw": "Ripple Launches Digital Asset Accounts and Unified Treasury in Ripple Treasury | YES | MED confidence**  \nNew native digital asset tools integrate directly into treasury management, potentially boosting real-world XRP/RLUSD adoption amid $2.4B infrastructure focus[3][1]. No major resolutions like SEC Clarity Act votes confirmed yet, despite April 16 roundtable mentions[1][5].",
+      "headline": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and",
+      "raw": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and Job Market Warnings | NO | HIGH confidence** [1][2]\n\nPowell announced on Wednesday a third consecutive quarter-point rate cut, framed defensively to support a labor market he said may already show negative job creation (official payrolls overstated by ~60,000/month), while inflat",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776858509400_0",
-      "timestamp": "2026-04-22T11:48:29.400300+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed's Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and Labo",
-      "raw": "Fed's Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and Labor Market Warnings | NO | HIGH confidence** [1]\n\nPowell highlighted elevated **goods inflation** from tariffs\u2014expected to peak in **first quarter 2026** if no new rounds\u2014while non-tariff inflation sits at low 2%, services cool, and wages ease, during a December 2025 FOMC meeting w",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776858513373_0",
-      "timestamp": "2026-04-22T11:48:33.373865+00:00",
+      "id": "sig_1776858583021_0",
+      "timestamp": "2026-04-22T11:49:43.021297+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win** | **NO** (Raptors will not win series; Cavs now h",
-      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win** | **NO** (Raptors will not win series; Cavs now heavily favored) | **HIGH** confidence[1][2][3]\n\nCleveland Cavaliers defeated Toronto Raptors 115-105 in Game 2 on Monday, securing a commanding 2-0 lead in their Eastern Conference first-round series, driven by 30 points from Donovan Mitchell, 28 from James Harden, and 25 from Ev",
+      "headline": "Mavericks Snap 14-Game Home Losing Streak with Cooper Flagg's 45-Point Explosion Over Injury-Depleted Lakers** | NO | HI",
+      "raw": "Mavericks Snap 14-Game Home Losing Streak with Cooper Flagg's 45-Point Explosion Over Injury-Depleted Lakers** | NO | HIGH confidence[1][2][3]\n\nNo confirmed announcements, trades, injuries, or playoff resolutions involving **Cooper Flagg** to the **Lakers**, **Cavaliers**, **conference semifinals**, or prediction market shifts like draft lotteries or postseason seeding[1][2][4]. The key developmen",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776858504325_0",
-      "timestamp": "2026-04-22T11:48:24.325583+00:00",
+      "id": "sig_1776858586897_0",
+      "timestamp": "2026-04-22T11:49:46.897186+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple Reveals Four-Phase Plan to Secure XRP Ledger Against Quantum Attacks by 2028 | YES | HIGH confidence**",
-      "raw": "Ripple Reveals Four-Phase Plan to Secure XRP Ledger Against Quantum Attacks by 2028 | YES | HIGH confidence**  \nThis breaking announcement, published today (April 22, 2026), outlines a structured roadmap for quantum-resistant upgrades, including key rotation and future algorithms, addressing a critical long-term security risk for XRP infrastructure[6][2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776858504328_1",
-      "timestamp": "2026-04-22T11:48:24.328650+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US XRP ETFs Record $12M Net Inflows in April After March Outflows | YES | HIGH confidence**",
-      "raw": "US XRP ETFs Record $12M Net Inflows in April After March Outflows | YES | HIGH confidence**  \nETFs flipped to positive flows this month amid retail recovery post-63% drawdown, signaling renewed institutional demand and XRP's first green month since September 2025[2]. Global ETPs added $20M inflows, ranking XRP third in institutional interest behind Bitcoin and Solana[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776858504331_2",
-      "timestamp": "2026-04-22T11:48:24.331957+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRPL Launches $550K Audit Contest on April 13 for Privacy Upgrades | YES | MED confidence**",
-      "raw": "XRPL Launches $550K Audit Contest on April 13 for Privacy Upgrades | YES | MED confidence**  \nRipple and Sherlock initiated the contest to secure RISC-V ZK verifier, Smart Escrows (Q2 2026), and Smart Vaults, enhancing programmable privacy and compliance on the ledger[2]. This builds on XRPL Commons collaboration for native privacy features[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776858518821_0",
-      "timestamp": "2026-04-22T11:48:38.821871+00:00",
-      "source": "PERPLEXITY",
-      "headline": "X Money Launch Odds Drop to 12% by April 30 | NO | HIGH confidence**",
-      "raw": "X Money Launch Odds Drop to 12% by April 30 | NO | HIGH confidence**  \nPolymarket's top X-related market shows traders pricing **\ud835\udd4f Money launched by...?** at just 12% YES odds as of April 19, 2026, with $33.6K volume and $4.5K liquidity, signaling low conviction amid no recent confirmations.[1]",
-      "direction": "YES",
+      "headline": "Elon Musk April Tweets Markets Dominate Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April Tweets Markets Dominate Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets as of April 21, 2026, focus on **Elon Musk tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% probability and $9M volume[3][2]. These pop culture and ",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776858518824_1",
-      "timestamp": "2026-04-22T11:48:38.824938+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran-Israel/US Conflict \"Ends by",
-      "raw": "Iran-Israel/US Conflict \"Ends by...\" Hits 100% | YES | MED confidence**  \nGeopolitics market on **Iran x Israel/US conflict ends by...?** resolved to 100% YES, backed by $11.9K liquidity and 116 traders, potentially shifting related X sentiment markets without fresh announcements noted.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776858518827_2",
-      "timestamp": "2026-04-22T11:48:38.827863+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Exit from X at 7% by June 30 | NO | HIGH confidence**",
-      "raw": "Nikita Bier Exit from X at 7% by June 30 | NO | HIGH confidence**  \nLow-volume bet (**$1.4K vol, $4.8K liq**) on **Nikita Bier out as Head of Product at X by June 30?** trades at 7% YES, indicating traders dismiss near-term ouster rumors on X.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776858518830_3",
-      "timestamp": "2026-04-22T11:48:38.830855+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Bets Surge | MIXED (e",
-      "raw": "Elon Musk Tweet Volume Bets Surge | MIXED (e.g., 60%/28% on ranges) | LOW confidence**  \nActive tweet markets like **Elon Musk # tweets in April 2026?** (60% on ranges, up to $9M vol) and **April 17-24 slice** (28% on 1120-1159) dominate with $19-21M total volume, but no whale moves, mispriced calls, or resolutions reported in real-time X posts.[2][3] No breaking confirmations, whale bets, or smar",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 8,
-    "watch": 1,
+    "alert": 2,
+    "watch": 0,
     "high_conf": 1
   }
 }
