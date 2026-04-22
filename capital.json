@@ -1,5 +1,5 @@
 {
-  "ts": 1776856430,
+  "ts": 1776856465,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999544
+    "usdc_usd": 0.999789
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0575,
-        "nav_usdc": 0.4692,
+        "cur_price": 0.056,
+        "nav_usdc": 0.457,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8282
+        "unrealized_pnl": -0.8404
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1155,
-        "nav_usdc": 0.5833,
+        "cur_price": 0.1135,
+        "nav_usdc": 0.5732,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.1084
+        "unrealized_pnl": -1.1185
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -188,19 +188,19 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3315,
-        "nav_usdc": 1.6741,
+        "cur_price": 0.3479,
+        "nav_usdc": 1.7569,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.0883
+        "unrealized_pnl": -0.0055
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.961,
-        "nav_usdc": 4.8384,
+        "cur_price": 0.9655,
+        "nav_usdc": 4.8611,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.3071
+        "unrealized_pnl": 0.3298
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.2089,
-    "total_usdc": 404.1455,
-    "total_usd": 403.9612
+    "positions_nav_usdc": 317.292,
+    "total_usdc": 404.2286,
+    "total_usd": 404.1433
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776856431,
+    "ts": 1776856466,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776770031,
+      "window_start_ts": 1776770066,
       "realized_usdc": 0.2316,
       "trade_count": 13,
       "buy_volume_usdc": 121.8994,
@@ -471,7 +471,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776251631,
+      "window_start_ts": 1776251666,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -684,7 +684,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774264431,
+      "window_start_ts": 1774264466,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1110,7 +1110,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.9612,
-    "total_usdc": 404.1455
+    "total_usd": 404.1433,
+    "total_usdc": 404.2286
   }
 }
