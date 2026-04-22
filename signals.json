@@ -1,60 +1,45 @@
 {
-  "last_scan": "2026-04-22T15:32:20.436796+00:00",
-  "scan_seconds": 19.9,
+  "last_scan": "2026-04-22T15:33:43.940856+00:00",
+  "scan_seconds": 23.1,
   "markets_scanned": 53,
   "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776871939429_1",
-      "timestamp": "2026-04-22T15:32:19.429064+00:00",
+      "id": "sig_1776872017639_0",
+      "timestamp": "2026-04-22T15:33:37.639668+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES | HIGH confidence**  \nThis geopolitics market shows **100% YES odds** with $11.9K liquidity and 116 traders, indicating near-certain resolution of the conflict by the specified date per crowd consensus.[2]",
+      "headline": "Raptors Confirm Starting Lineup for Game 1 vs Cavaliers with Rookie Jamal Shead Starting in Place of Injured Immanuel Qu",
+      "raw": "Raptors Confirm Starting Lineup for Game 1 vs Cavaliers with Rookie Jamal Shead Starting in Place of Injured Immanuel Quickley | YES | HIGH confidence** [3]\n\nThe Toronto Raptors officially announced their Game 1 starting lineup\u2014Jamal Shead, RJ Barrett, Brandon Ingram, Scottie Barnes, and Jakob Poeltl\u2014ahead of their first-round Eastern Conference playoff matchup against the No. 4 seed Cleveland Cav",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776871929101_0",
-      "timestamp": "2026-04-22T15:32:09.101478+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US-Iran ceasefire extended (April 22, 2026)** | **YES** | **MED** confidence",
-      "raw": "US-Iran ceasefire extended (April 22, 2026)** | **YES** | **MED** confidence\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) highlights headline CPI surging to 3.29% YoY in March due to Iran war-driven energy spike (oil from $71 to $103/barrel), but core inflation decelerating toward 2.2% (ex-tariffs) with forecasts for easing to enable Fed cuts later in 2026[1]. Core CPI rose 0.2% MoM ",
-      "direction": "YES",
-      "confidence": 0.78,
       "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776871934277_0",
-      "timestamp": "2026-04-22T15:32:14.277774+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's rookie season ends with Mavericks eliminated, now tied for 7th-8th in lottery standings after final win m",
-      "raw": "Cooper Flagg's rookie season ends with Mavericks eliminated, now tied for 7th-8th in lottery standings after final win marred by his ankle sprain | NO | HIGH confidence** [1][2][4]\n\nFlagg's Dallas Mavericks concluded their 24-51 season with a win, but his night ended early due to an ankle sprain; the team now focuses on the NBA Draft lottery with improved odds (e.g., from 1.8% historically for top",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776871939426_0",
-      "timestamp": "2026-04-22T15:32:19.426846+00:00",
+      "id": "sig_1776872004561_0",
+      "timestamp": "2026-04-22T15:33:24.561246+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launch by April 30 | NO | HIGH confidence**",
-      "raw": "\ud835\udd4f Money Launch by April 30 | NO | HIGH confidence**  \nPolymarket's X predictions page lists \"\ud835\udd4f Money launched by...?\" as a top market with **12% YES odds**, $33.6K volume, and $4.5K liquidity, ending in 8 days, signaling traders' low conviction in a near-term launch.[2]",
+      "headline": "Ethereum Price Up 2",
+      "raw": "Ethereum Price Up 2.70% Today | YES | LOW confidence**\n\nEthereum's price rose 2.70% as of 9:29 AM on April 22, 2026, trading at Rs 2,21,701 (approximately $2,630 USD at current INR rates), amid ongoing network developments like the Pectra upgrade entering final testing.[5][2] No specific breaking confirmations, announcements, or resolutions (e.g., ETF approvals, regulatory decisions, or upgrade ac",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776872022931_0",
+      "timestamp": "2026-04-22T15:33:42.931409+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launch & Iran-Israel Truce at 100% | YES | HIGH confidence**",
+      "raw": "\ud835\udd4f Money Launch & Iran-Israel Truce at 100% | YES | HIGH confidence**  \nPolymarket's X prediction markets show \"\ud835\udd4f Money launched by April 30?\" at 12% odds with $33.6K volume, and \"Iran x Israel/US conflict ends by...?\" resolved at 100% YES, signaling recent confirmation of a truce impacting trader sentiment.[3]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -63,25 +48,38 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776871939431_2",
-      "timestamp": "2026-04-22T15:32:19.431100+00:00",
+      "id": "sig_1776872022933_1",
+      "timestamp": "2026-04-22T15:33:42.933691+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30 | NO | HIGH confidence**",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30 | NO | HIGH confidence**  \nOdds sit at **7% YES** with $1.4K volume and $4.8K liquidity over 2 months, reflecting minimal expectation of Bier's exit among X-focused traders.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776871939433_3",
-      "timestamp": "2026-04-22T15:32:19.433538+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets | MIXED (e",
-      "raw": "Elon Musk Tweet Volume Markets | MIXED (e.g., 18% on 1120-1159 tweets) | MED confidence**  \nActive tweet markets like \"Elon Musk # tweets in April 2026?\" (18% on high-volume bin) and \"Elon Musk # tweets April 17-24, 2026?\" draw attention with $21M+ total volume, but no clear mispricing signals or whale moves noted; traders track real-time shifts.[3][4]  \n\nNo whale bets, smart money tips, or mispri",
+      "headline": "Nikita Bier Exits X as Head of Product | NO (7% chance) | MED confidence**",
+      "raw": "Nikita Bier Exits X as Head of Product | NO (7% chance) | MED confidence**  \nTraders price a 7% chance of \"Nikita Bier out as Head of Product at X by June 30?\" with $1.4K volume, amid buzz on X leadership changes in tech-focused markets.[3]",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776872022937_3",
+      "timestamp": "2026-04-22T15:33:42.937777+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Signal Mispriced Tech Plays | NO specific whale bets | LOW confidence**",
+      "raw": "Trending Markets Signal Mispriced Tech Plays | NO specific whale bets | LOW confidence**  \n166 Trending Markets (e.g., \"Nasdaq round-the-clock trading by June 30?\") with $3M volume show real-time odds, but no X posts on whale moves or tips in results; analytics tools teased for spotting \"smart money.\"[1][5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776872022935_2",
+      "timestamp": "2026-04-22T15:33:42.935728+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Counts Trending High Volume | MIXED (e",
+      "raw": "Elon Musk Tweet Counts Trending High Volume | MIXED (e.g., 33% for 200-219) | HIGH confidence**  \nActive \"Tweet Markets\" like \"Elon Musk # tweets April 17-24, 2026\" at 33% for 200-219 range and \"Elon Musk # tweets in April 2026\" with 18% for 1120-1159 draw $22.2M total volume, as traders bet on pop culture metrics.[2][4]",
+      "direction": null,
       "confidence": 0.6,
       "matched_markets": [],
       "action": "WATCH",
@@ -90,8 +88,8 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 1,
+    "alert": 4,
     "watch": 1,
     "high_conf": 1
   }
