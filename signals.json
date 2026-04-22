@@ -1,86 +1,94 @@
 {
-  "last_scan": "2026-04-22T20:13:52.800349+00:00",
-  "scan_seconds": 14.3,
+  "last_scan": "2026-04-22T20:15:06.533570+00:00",
+  "scan_seconds": 15.9,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776888821916_0",
-      "timestamp": "2026-04-22T20:13:41.916917+00:00",
+      "id": "sig_1776888905526_0",
+      "timestamp": "2026-04-22T20:15:05.526413+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETF Inflows Hit $275M in Strongest Week Since January, Driving Price Above $2,288** | YES | HIGH[1]",
-      "raw": "ETH ETF Inflows Hit $275M in Strongest Week Since January, Driving Price Above $2,288** | YES | HIGH[1]\n\nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014with Fidelity\u2019s FETH and BlackRock\u2019s ETHA leading, coinciding with a 7% ETH price climb to nearly $2,400 amid a broader market rally to $2.6T cap[1]. This institutional demand surge, confirmed via CoinDesk",
-      "direction": "YES",
+      "headline": "Polymarket Traders on X Likely Discussing Elon Musk Tweet Volume Markets as Top Trend Amid High Trading Activity | NO |",
+      "raw": "Polymarket Traders on X Likely Discussing Elon Musk Tweet Volume Markets as Top Trend Amid High Trading Activity | NO | LOW confidence**\n\nTrending Polymarket markets focus heavily on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (with outcomes like 40-64 at implied probabilities) and \"Elon Musk # tweets April 17 - April 24, 2026?\", featuring multi-outcome bets",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of April 20 2026?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888894746_0",
+      "timestamp": "2026-04-22T20:14:54.746600+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ongoing hype around **Pectra (Prague-Electra) Upgrade** in final testing (as of April 17-18), boosting institutional dem",
+      "raw": "Ongoing hype around **Pectra (Prague-Electra) Upgrade** in final testing (as of April 17-18), boosting institutional demand, ETF inflows, and Layer 2 TVL, but no new confirmation or mainnet activation announced.[2][6]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776888831797_0",
-      "timestamp": "2026-04-22T20:13:51.797448+00:00",
+      "id": "sig_1776888894749_1",
+      "timestamp": "2026-04-22T20:14:54.749976+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed announcements reported | LOW confidenc",
-      "raw": "Elon Musk Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's trending markets as of April 22, 2026, heavily feature **tweet prediction markets**, particularly those tracking **Elon Musk's tweet volume** in specific April 2026 windows, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" outcome) and \"Elo",
+      "headline": "Price predictions for April note historical gains (avg",
+      "raw": "Price predictions for April note historical gains (avg. 18%), potential rebound to $3,000 via patterns, or risks below $1,755 support, yet nothing resolved or announced today to spike prediction markets.[1][4]",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776888894753_2",
+      "timestamp": "2026-04-22T20:14:54.753769+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** in any market-moving event, as results lack post-April 21 updates and focus on speculation rather than",
+      "raw": "LOW confidence** in any market-moving event, as results lack post-April 21 updates and focus on speculation rather than confirmations.[1][2][4][6]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776888905528_1",
+      "timestamp": "2026-04-22T20:15:05.528380+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO recent resolution | MED confidence** \u2013 Part of 168 live Trending Markets with $2.8M volume, but no breaking confirmations or announcements noted to shift odds right now[1].[1]",
       "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776888826984_0",
-      "timestamp": "2026-04-22T20:13:46.984244+00:00",
+      "id": "sig_1776888905530_2",
+      "timestamp": "2026-04-22T20:15:05.530556+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in Western Conference First Round; Game 3 Set for Apr 24** | YES | HIGH confidence[1]",
-      "raw": "Lakers Lead Rockets 2-0 in Western Conference First Round; Game 3 Set for Apr 24** | YES | HIGH confidence[1]  \nLakers (3rd seed) defeated Rockets (2nd? seed listed) in Games 1 (103-96? context) and 2, advancing their series while OKC (1st) leads Grizzlies/Suns 1-0 with Game 2 ongoing Apr 22[1]. No conference semifinals yet; all series are first-round as of Apr 22, 2026[1][3].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776888826988_2",
-      "timestamp": "2026-04-22T20:13:46.988096+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Shai Gilgeous-Alexander Wins NBA Clutch Player of Year** | YES | HIGH confidence[3]",
-      "raw": "Shai Gilgeous-Alexander Wins NBA Clutch Player of Year** | YES | HIGH confidence[3]  \nOKC's SGA awarded honor amid Thunder's 1-0 series lead, reinforcing their favoritism in ongoing first-round matchup[1][3].",
+      "headline": "Kanye Tweet by April 30",
+      "raw": "Kanye Tweet by April 30? | YES at 30% implied | LOW confidence** \u2013 Niche market in 130+ Tweet predictions, trading as yes/no with crowd pricing, but no fresh resolutions or X tips highlighted[3].[3]\n\nNo confirmed announcements, resolutions, or breaking news in results to drive immediate market moves; odds update dynamically on trader sentiment alone[1][2][3][4].[1][2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776888826986_1",
-      "timestamp": "2026-04-22T20:13:46.986197+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kevin Durant Struggles in Rockets Return from Knee Injury vs Lakers** | YES | MED confidence[3]",
-      "raw": "Kevin Durant Struggles in Rockets Return from Knee Injury vs Lakers** | YES | MED confidence[3]  \nRockets' Durant had poor performance in Game 2 comeback, contributing to Lakers' 2-0 lead; could shift series win markets toward Lakers[1][3].",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 3
   }
 }
