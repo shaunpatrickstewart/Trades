@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-22T09:05:18.246684+00:00",
-  "scan_seconds": 17.7,
+  "last_scan": "2026-04-22T09:06:26.983354+00:00",
+  "scan_seconds": 16.4,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776848705229_0",
-      "timestamp": "2026-04-22T09:05:05.229466+00:00",
+      "id": "sig_1776848773710_0",
+      "timestamp": "2026-04-22T09:06:13.710501+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Lawsuit Against Ripple Labs Dismissed | YES | HIGH confidence**",
-      "raw": "SEC Lawsuit Against Ripple Labs Dismissed | YES | HIGH confidence**\n\nThe most significant confirmed development moving XRP prediction markets is the **SEC's decision to drop its long-running lawsuit against Ripple Labs**[1]. This regulatory resolution removes what sources describe as \"a significant overhang that had suppressed XRP's price potential for years\"[1] and represents \"a fundamental shift",
+      "headline": "XRP ETF Inflows Surge to $41",
+      "raw": "XRP ETF Inflows Surge to $41.64M (Week Ending Apr 16); WisdomTree/Grayscale Filings Clear Final SEC Review | YES | HIGH confidence**  \nU.S. spot XRP ETFs recorded $41.64 million in net inflows for the week ending April 16\u2014the largest in three months and a 254% jump from the prior week\u2014driving a 12.5% price surge from April lows to ~$1.44 amid a forming cup-and-handle pattern.[1][7]  \nWisdomTree an",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -22,55 +22,79 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776848709179_0",
-      "timestamp": "2026-04-22T09:05:09.179092+00:00",
+      "id": "sig_1776848785974_0",
+      "timestamp": "2026-04-22T09:06:25.974185+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Warns Tariffs Will Cause Higher Inflation and Slower Growth in Recent Speech | YES | HIGH confidence**",
-      "raw": "Fed Chair Powell Warns Tariffs Will Cause Higher Inflation and Slower Growth in Recent Speech | YES | HIGH confidence**  \nJerome Powell stated in a speech that President Trump's higher-than-expected tariffs are highly likely to generate at least temporary inflation rises, with potentially persistent effects, while slowing economic growth.[1][2]  \nThis marks a revision from his prior view of tariff",
+      "headline": "Iran-Israel/US Conflict End Date at 100% YES on Polymarket | YES | HIGH confidence**",
+      "raw": "Iran-Israel/US Conflict End Date at 100% YES on Polymarket | YES | HIGH confidence**  \nPolymarket's most active X-related market prices \"Iran x Israel/US conflict ends by...?\" at 100% probability for December 31, 2026, signaling strong trader consensus amid real-time updates from $152.4M total X market volume[2]. This standout pricing suggests traders on X are buzzing about geopolitical resolution",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776848717243_0",
-      "timestamp": "2026-04-22T09:05:17.243677+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 29% for 180-199 tweets) and \"Elon Musk # tweets in April 2026?\" (18% for 1080-1119 tweets, 28% for 1120-1159).[2][3][4] These dominate Tweet and Tweet Markets categories wi",
-      "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776848712962_0",
-      "timestamp": "2026-04-22T09:05:12.962600+00:00",
+      "id": "sig_1776848785980_2",
+      "timestamp": "2026-04-22T09:06:25.980300+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Beat Raptors 115-105 in Game 2, Take 2-0 Series Lead | YES | HIGH confidence**",
-      "raw": "Cavaliers Beat Raptors 115-105 in Game 2, Take 2-0 Series Lead | YES | HIGH confidence**  \nThe Cleveland Cavaliers defeated the Toronto **Raptors** 115-105 on April 20, 2026, with Donovan Mitchell scoring 30 points and James Harden adding 28, securing a **2-0 lead** in their Eastern Conference first-round playoff series.[1][2]  \nNo confirmed announcements involve the **Los Angeles Lakers**, **Cava",
+      "headline": "Elon Musk Tweet Volume Markets Heating Up | NO (1120-1159 range) | HIGH confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Heating Up | NO (1120-1159 range) | HIGH confidence**  \n\"Elon Musk # tweets April 17-24, 2026?\" at 28% for 1120-1159 tweets leads Tweet Markets with massive $9M volume across 20 live markets as of April 21[3]. Traders on X likely discussing this as a mispriced pop-culture bet, given high activity in Polymarket's 1,370+ X predictions[1][2][3]. No whale bets or resolut",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776848777584_0",
+      "timestamp": "2026-04-22T09:06:17.584889+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (based on absence in search results and recency of cited events)",
+      "raw": "Confidence: HIGH** (based on absence in search results and recency of cited events).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776848781011_0",
+      "timestamp": "2026-04-22T09:06:21.011441+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavs Beat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference Semifinals** | YES | HIGH confidence[1][2][3]",
+      "raw": "Cavs Beat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference Semifinals** | YES | HIGH confidence[1][2][3]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on April 21, 2026, securing a 2-0 series lead, with Donovan Mitchell scoring 30 points, James Harden 28, and Evan Mobley contributing to a rare trio of 25+ point games (only the fourth such instance in Cavs playoff hist",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?",
+        "Will the highest temperature in Toronto be 12\u00b0C on April 22?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776848785977_1",
+      "timestamp": "2026-04-22T09:06:25.977283+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launch Timeline Drawing Bets | NO (not by April 30) | MED confidence**",
+      "raw": "\ud835\udd4f Money Launch Timeline Drawing Bets | NO (not by April 30) | MED confidence**  \nTraders are posting about \"\ud835\udd4f Money launched by...?\" at 12% YES odds ending April 30, with $33.6K volume and $4.6K liquidity, indicating low expectation for near-term launch but active speculation on Elon Musk's X initiatives[2]. Related tech markets like \"Nikita Bier out as Head of Product at X by June 30?\" at 7% YES ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 2,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
