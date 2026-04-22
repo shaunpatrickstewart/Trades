@@ -1,44 +1,29 @@
 {
-  "last_scan": "2026-04-22T17:37:48.139746+00:00",
-  "scan_seconds": 21.6,
+  "last_scan": "2026-04-22T17:38:54.046422+00:00",
+  "scan_seconds": 23.5,
   "markets_scanned": 50,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776879457764_1",
-      "timestamp": "2026-04-22T17:37:37.764267+00:00",
+      "id": "sig_1776879513774_0",
+      "timestamp": "2026-04-22T17:38:33.774553+00:00",
       "source": "PERPLEXITY",
-      "headline": "Core Details:**",
-      "raw": "Core Details:**\n\nThe March 2026 Consumer Price Index data, released on April 10, 2026, confirmed **headline inflation surged to 3.3% year-over-year**, marking the largest annual increase in nearly two years[5]. Headline CPI rose 0.87% in the month alone, driven primarily by a 10.9% spike in energy prices following the start of the Iran war[1]. Oil prices jumped 45% in a single month\u2014from an averag",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776879467130_1",
-      "timestamp": "2026-04-22T17:37:47.130962+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? 100% Resolved Already | YES | HIGH confidence**  \nThis market hit 100% on resolution, drawing X buzz on geopolitics with $12.3K liquidity; traders confirm end of active phase, shifting bets to timelines.[2]",
+      "headline": "US Regulators Confirmed SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**",
+      "raw": "US Regulators Confirmed SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**  \nThis classification eliminates major legal uncertainty for allocators, following spot ETF approvals (ETH in 2024, SOL in Oct 2025), enabling clearer institutional flows amid April price gains: SOL +6.3% to $86.55, ETH +8.6% to $2,377.[1]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879457768_3",
-      "timestamp": "2026-04-22T17:37:37.768659+00:00",
+      "id": "sig_1776879522012_1",
+      "timestamp": "2026-04-22T17:38:42.012844+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market Impact:**",
-      "raw": "Market Impact:**\n\nThis data significantly alters inflation expectations and rate-cut probabilities. Goldman Sachs raised its December 2026 headline PCE inflation forecast by a full percentage point since the war began[1]. Short-term inflation expectations jumped one percentage point to 4.8% in the University of Michigan survey, while financial market-implied expectations for 2026 headline CPI infl",
-      "direction": null,
+      "headline": "Core inflation (excluding volatile food and energy) came in at 2",
+      "raw": "Core inflation (excluding volatile food and energy) came in at 2.6% year-over-year**, which is notably elevated and likely to make the Federal Reserve cautious about further interest rate cuts.[5] Monthly core inflation showed only 0.2% gains, slightly better than expected, but the persistence of core price pressures alongside headline inflation volatility creates uncertainty for monetary policy.[",
+      "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
@@ -46,12 +31,25 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776879449870_0",
-      "timestamp": "2026-04-22T17:37:29.870044+00:00",
+      "id": "sig_1776879533041_0",
+      "timestamp": "2026-04-22T17:38:53.041329+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (based on absence of real-time breaking indicators across sources)",
-      "raw": "Confidence: HIGH** (based on absence of real-time breaking indicators across sources).",
-      "direction": null,
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in related outcomes) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with the 1120-1159 range at **18%** odds[2][3][4]. These have seen high tra",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776879513780_1",
+      "timestamp": "2026-04-22T17:38:33.780890+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Solana Validators Approved Alpenglow Upgrade Last Week | YES | HIGH confidence**",
+      "raw": "Solana Validators Approved Alpenglow Upgrade Last Week | YES | HIGH confidence**  \nAlpenglow reworks consensus to cut finality from 12s to <200ms, positioning SOL for high-frequency trading and real-time payments; it boosts network records like 167M monthly token holders and 148M daily non-vote txns as of Apr 14.[1][3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -59,104 +57,68 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879457762_0",
-      "timestamp": "2026-04-22T17:37:37.762068+00:00",
+      "id": "sig_1776879513783_2",
+      "timestamp": "2026-04-22T17:38:33.783089+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE:** Iran War Drives U",
-      "raw": "HEADLINE:** Iran War Drives U.S. Inflation to 3.3% Year-Over-Year in March 2026, Highest in Nearly Two Years | YES | HIGH confidence",
-      "direction": "YES",
+      "headline": "Ethereum Transactions Surged 41% Weekly | NO | MED confidence**",
+      "raw": "Ethereum Transactions Surged 41% Weekly | NO | MED confidence**  \nNo new confirmation or announcement; surge ties to L2 fee rebates (Base, Arbitrum) and tokenized treasuries, reclaiming activity from SOL but not a resolved prediction event.[1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776879522010_0",
+      "timestamp": "2026-04-22T17:38:42.010602+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US-Iran War Drives Inflation to 3",
+      "raw": "US-Iran War Drives Inflation to 3.3% in March, Highest in Nearly 2 Years | YES | HIGH confidence**\n\nThe most significant recent development is the confirmation that **headline inflation surged to 3.3% year-over-year in March 2026**, representing the largest annual increase in nearly two years.[1][5] This marks a sharp acceleration from February's 2.4%, driven primarily by energy prices spiking 10.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will annual inflation increase by 3.8% in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776879457766_2",
-      "timestamp": "2026-04-22T17:37:37.766284+00:00",
+      "id": "sig_1776879527321_0",
+      "timestamp": "2026-04-22T17:38:47.321055+00:00",
       "source": "PERPLEXITY",
-      "headline": "Core inflation** remained elevated at 2",
-      "raw": "Core inflation** remained elevated at 2.6% year-over-year, above pre-pandemic comfort levels[5]. This dual pressure\u2014both headline and core inflation staying high\u2014makes the Federal Reserve cautious about rate cuts[5].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776879467128_0",
-      "timestamp": "2026-04-22T17:37:47.128823+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launch by April 30",
-      "raw": "\ud835\udd4f Money Launch by April 30? Traders Eyeing Elon Musk's X Developments | NO | HIGH confidence**  \nPolymarket's X predictions show \"\ud835\udd4f Money launched by April 30?\" at 16% YES odds with $33.6K volume and $4.4K liquidity, topping X-related markets as traders post about potential crypto payment rollouts amid Musk's tech moves.[2]",
+      "headline": "Lakers Clinch Top-6 West Playoff Spot & 50 Wins with 127-113 Domination Over Cavaliers | NO (No Series Winner Confirmed;",
+      "raw": "Lakers Clinch Top-6 West Playoff Spot & 50 Wins with 127-113 Domination Over Cavaliers | NO (No Series Winner Confirmed; Regular Season Game Only) | HIGH confidence** [1][2][3][5]\n\nThe Los Angeles Lakers defeated the Cleveland Cavaliers 127-113 on Tuesday, March 31, 2026, securing their 50th win (50-26 record), a top-6 seed in the Western Conference playoffs (no lower than #6, nudging toward #3 wi",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776879467132_2",
-      "timestamp": "2026-04-22T17:37:47.132914+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds Spark Mispricing Talk | NO | MED confidence**  \nAt 7% YES with $1.4K volume, X users flag it as undervalued NO bet on internal X drama, citing Bier's stability.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776879467134_3",
-      "timestamp": "2026-04-22T17:37:47.134780+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nasdaq 24/7 Trading by June 30",
-      "raw": "Nasdaq 24/7 Trading by June 30? Trending with Whale Volume | NO | MED confidence**  \nTrending at 20% YES ($43.9K vol), Polymarket traders on X debate mispriced finance shift post-regulatory hints, smart money leaning NO.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776879467136_4",
-      "timestamp": "2026-04-22T17:37:47.136658+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero to $1000 in 2026",
-      "raw": "Monero to $1000 in 2026? Crypto Whales Accumulating | NO | LOW confidence**  \n19% YES with high $94.3K volume; X posts highlight whale buys as undervalued longshot amid privacy coin hype.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776879461521_0",
-      "timestamp": "2026-04-22T17:37:41.521445+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2]",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2]\n\nThe Cleveland Cavaliers won Game 2 of their playoff series against the Toronto Raptors on April 21, 2026, in Cleveland, with Donovan Mitchell scoring 30 points, 7 rebounds, and 5 assists, and James Harden adding 28 points on efficient shooting[1][2]. Scottie Barnes led the Raptors with 26 points in th",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776879533043_1",
+      "timestamp": "2026-04-22T17:38:53.043343+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Tweet Markets Dominate | NO whale bets or smart money moves reported | LOW confidence**",
+      "raw": "Trending Tweet Markets Dominate | NO whale bets or smart money moves reported | LOW confidence**\n\nNo specific X posts from Polymarket traders about whale bets, smart money, mispriced markets, or tips appear in current data; instead, platforms highlight **trending tweet markets** (130-168 active) and general trending predictions (166 markets) with $2.8M+ volume[1][3][4]. Examples include niche bets",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 9,
-    "watch": 1,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 8,
+    "watch": 0,
+    "high_conf": 1
   }
 }
