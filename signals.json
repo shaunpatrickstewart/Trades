@@ -1,56 +1,55 @@
 {
-  "last_scan": "2026-04-22T19:44:33.822273+00:00",
-  "scan_seconds": 13.3,
-  "markets_scanned": 55,
+  "last_scan": "2026-04-22T19:45:44.375184+00:00",
+  "scan_seconds": 15.8,
+  "markets_scanned": 56,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776887063996_0",
-      "timestamp": "2026-04-22T19:44:23.996655+00:00",
+      "id": "sig_1776887143366_0",
+      "timestamp": "2026-04-22T19:45:43.366978+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH**\u2014no results post-April 18 indicate fresh, market-moving confirmations",
-      "raw": "Confidence: HIGH**\u2014no results post-April 18 indicate fresh, market-moving confirmations.[5][7]",
+      "headline": "GTA VI Release Before June 2026 Odds at 1% with $14M Volume | NO | HIGH confidence**",
+      "raw": "GTA VI Release Before June 2026 Odds at 1% with $14M Volume | NO | HIGH confidence**  \nPolymarket's News Stories markets show \"GTA VI released before June 2026?\" trading at **1% YES odds** amid $14M volume and $65.5K liquidity, signaling strong trader consensus against a pre-June launch (ends in ~1 month).[3] This stands out as a top active market, with 60% odds pinned on June 30 exactly, reflecti",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776887143372_2",
+      "timestamp": "2026-04-22T19:45:43.372184+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq 24/7 Trading by June 30",
+      "raw": "Nasdaq 24/7 Trading by June 30? Among 168 Trending Markets | UNRESOLVED | LOW confidence**  \nTrending Markets feature \"Nasdaq round-the-clock trading by June 30?\" in a $2.8M volume category with 168 live options, but no specific odds or X buzz on whales/smart money.[1] Broader platform sentiment favors data-driven bets over hype, with no confirmed announcements resolving these yet.[1]\n\nNo recent c",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776887068335_0",
-      "timestamp": "2026-04-22T19:44:28.335793+00:00",
+      "id": "sig_1776887143369_1",
+      "timestamp": "2026-04-22T19:45:43.369553+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (results lack any post-January 2026 content matching \"RIGHT NOW\" or playoffs)",
-      "raw": "Confidence: HIGH** (results lack any post-January 2026 content matching \"RIGHT NOW\" or playoffs).[1][2][3][4][5][6][7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776887072820_0",
-      "timestamp": "2026-04-22T19:44:32.820119+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets | NO major whale bets or confirmed announcem",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets | NO major whale bets or confirmed announcements reported | MED confidence**\n\nTrending Polymarket markets discussed in real-time data include Elon Musk tweet volume bets, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (33% on 200-219 range) and \"Elon Musk # tweets in April 2026?\" (18% on 1120-1159), reflecting act",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Elon Musk April 2026 Tweet Count Buckets Led by 1120-1159 at 18% | NO dominant | MED confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Buckets Led by 1120-1159 at 18% | NO dominant | MED confidence**  \nIn Tweet Markets, \"Elon Musk # tweets in April 2026?\" has the 1120-1159 range at **18%**, with overall $22.2M volume across 20 markets (e.g., daily ranges like April 17-24).[2] Crowd sentiment tracks Musk's posting frenzy in real-time, but no whale moves or tips noted; could move on sudden tweet spi",
+      "direction": "NO",
+      "confidence": 0.6,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?",
-        "Will Ted Cruz post 120-139 posts from April 17 to April 24, 2026?"
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
-    "watch": 0,
+    "alert": 2,
+    "watch": 1,
     "high_conf": 0
   }
 }
