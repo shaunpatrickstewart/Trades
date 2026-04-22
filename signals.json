@@ -1,30 +1,59 @@
 {
-  "last_scan": "2026-04-22T19:49:05.603078+00:00",
-  "scan_seconds": 14.8,
-  "markets_scanned": 56,
+  "last_scan": "2026-04-22T19:50:13.647787+00:00",
+  "scan_seconds": 17.1,
+  "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776887344587_0",
-      "timestamp": "2026-04-22T19:49:04.587491+00:00",
+      "id": "sig_1776887406851_0",
+      "timestamp": "2026-04-22T19:50:06.851939+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and Geopolitical Markets Amid High-Volume Bets** | NO direct wha",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and Geopolitical Markets Amid High-Volume Bets** | NO direct whale bets or X posts confirmed in results | **MED** confidence[1][2][3][4][5]",
+      "headline": "Mavericks Coach Jason Kidd Declares Cooper Flagg Clear NBA Rookie of the Year Winner Over Raptors Draft Pick Kon Knueppe",
+      "raw": "Mavericks Coach Jason Kidd Declares Cooper Flagg Clear NBA Rookie of the Year Winner Over Raptors Draft Pick Kon Knueppel** | NO | HIGH confidence[1]\n\nJason Kidd, Mavericks head coach and former Rookie of the Year co-winner, stated without doubt that Flagg has separated himself from Charlotte Hornets rookie Kon Knueppel (former Duke teammate), calling him the ROTY amid a tight race with five regul",
       "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776887402483_0",
+      "timestamp": "2026-04-22T19:50:02.483372+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, I cannot identify any breaking news that has been \"just confirmed, announced, or r",
+      "raw": "Based on the search results provided, I cannot identify any breaking news that has been \"just confirmed, announced, or resolved\" as of your query time on April 22, 2026.\n\nThe search results contain content from April 17-18, 2026, which describe **ongoing developments** rather than recent confirmations:",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776887344589_1",
-      "timestamp": "2026-04-22T19:49:04.589685+00:00",
+      "id": "sig_1776887402487_1",
+      "timestamp": "2026-04-22T19:50:02.487498+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Topics:** Traders are heavily engaged with **Elon Musk tweet prediction markets**, including \"Elon M",
-      "raw": "Trending Polymarket Topics:** Traders are heavily engaged with **Elon Musk tweet prediction markets**, including \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., 40-64% implied odds in ranges) and \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 33% at 200-219), plus broader \"Elon Musk # tweets in April 2026?\" (19% at 1120-1159), backed by $22M+ volume across 130+ markets[2][3][4].",
+      "headline": "Ethereum Pectra Upgrade | Entering Final Testing Phase | HIGH confidence**",
+      "raw": "Ethereum Pectra Upgrade | Entering Final Testing Phase | HIGH confidence**\nThe Pectra (Prague-Electra) Upgrade is in its final testing phase and promises wallet abstraction and validator efficiency improvements[1]. However, this represents a development in progress, not a newly confirmed announcement.",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776887412639_0",
+      "timestamp": "2026-04-22T19:50:12.639936+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket Traders on X Likely Discussing Elon Musk Tweet Counts and US-Iran Peace Deals as Top Trending Bets | NO Confi",
+      "raw": "Polymarket Traders on X Likely Discussing Elon Musk Tweet Counts and US-Iran Peace Deals as Top Trending Bets | NO Confirmed Whale Bets or Mispriced Markets in Results | MED Confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"# tweets April 17 - April 24, 2026?\" (top outcome at 33% for 200-219) and \"Elon Musk # tweets in April 2026?\" (18-19% ",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
@@ -33,100 +62,55 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776887344591_2",
-      "timestamp": "2026-04-22T19:49:04.591665+00:00",
+      "id": "sig_1776887402491_2",
+      "timestamp": "2026-04-22T19:50:02.491761+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking News Markets Driving Action:**",
-      "raw": "Breaking News Markets Driving Action:**",
+      "headline": "Spot Ethereum ETF Inflows | All-Time Highs Reached | HIGH confidence**",
+      "raw": "Spot Ethereum ETF Inflows | All-Time Highs Reached | HIGH confidence**\nSpot Ethereum ETF inflows have reached all-time highs as of mid-April 2026[1], reflecting institutional demand acceleration.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776887402495_3",
+      "timestamp": "2026-04-22T19:50:02.495811+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Vote Uncertainty | Potentially Delayed to May | MED confidence**",
+      "raw": "CLARITY Act Vote Uncertainty | Potentially Delayed to May | MED confidence**\nBanking pressure may push the CLARITY Act markup vote from late April to the second week of May 2026[3], creating regulatory uncertainty rather than a resolution.\n\nThe search results do not contain announcements from April 22, 2026 specifically. To provide accurate breaking news with prediction market impact, more current",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776887344595_3",
-      "timestamp": "2026-04-22T19:49:04.595924+00:00",
+      "id": "sig_1776887412644_1",
+      "timestamp": "2026-04-22T19:50:12.644021+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Virginia constitutional amendment referendum pass by 3-6%",
-      "raw": "**Virginia constitutional amendment referendum pass by 3-6%?** at 98%/67% Yes[5].",
+      "headline": "US-Iran peace deal markets** are hot, with \"US x Iran permanent peace deal by June 30",
+      "raw": "US-Iran peace deal markets** are hot, with \"US x Iran permanent peace deal by June 30?\" at 61% Yes ($40M volume) and earlier deadlines like May 31 at 46% Yes, amid breaking news like \"Will Donald Trump announce... blockade of the Strait of Hormuz lifted by April 23?\" at 7% Yes (24% recent odds)[5]. These could drive X chatter on whale positions or tips if announcements confirm progress[5].\n\nOther ",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887344598_4",
-      "timestamp": "2026-04-22T19:49:04.598003+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Trump announce US blockade of Strait of Hormuz lifted by April 23",
-      "raw": "**Trump announce US blockade of Strait of Hormuz lifted by April 23?** at 7%/24% Yes (low odds suggest skepticism)[5].",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [
         "Will Trump agree to Iranian enrichment of uranium in April?",
         "Strait of Hormuz traffic returns to normal by end of April?",
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887344600_5",
-      "timestamp": "2026-04-22T19:49:04.600010+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**US x Iran permanent peace deal** markets (e",
-      "raw": "**US x Iran permanent peace deal** markets (e.g., by June 30 at 61% Yes, $40M volume)[5].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776887334506_0",
-      "timestamp": "2026-04-22T19:48:54.506788+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US XRP ETFs Record $12M Inflows in April, Flipping Green After March Outflows; XRPL Deploys RISC-V ZK Verifier for Progr",
-      "raw": "US XRP ETFs Record $12M Inflows in April, Flipping Green After March Outflows; XRPL Deploys RISC-V ZK Verifier for Programmable Privacy** | YES | HIGH[1]\n\nXRP price rises over 2% to $1.35 amid first positive monthly close since September 2025, driven by $20M global ETP inflows, extreme retail FUD at 2-year highs signaling buy opportunities, and institutional interest ranking XRP third behind Bitco",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Bitcoin above 80,600 on April 22, 4PM ET?",
-        "Bitcoin above 81,000 on April 22, 4PM ET?",
-        "XRP Up or Down - April 22, 3:40PM-3:45PM ET"
-      ],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776887338773_0",
-      "timestamp": "2026-04-22T19:48:58.773883+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg surges to favorite in NBA Rookie of the Year odds after 45-point 'statement' game vs",
-      "raw": "Cooper Flagg surges to favorite in NBA Rookie of the Year odds after 45-point 'statement' game vs. Lakers** | YES | HIGH  \nFlagg passed Kon Knueppel as ROY favorite at -250 odds (DraftKings) following 96 points over two games, including 45 points, 9 assists, and 8 rebounds in Dallas' win over the Lakers; he now leads rookies in scoring (20.8 PPG) and ranks high in rebounds/assists[1][4]. This shif",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 2,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 3
   }
 }
