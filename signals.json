@@ -1,33 +1,92 @@
 {
-  "last_scan": "2026-04-22T12:37:12.530663+00:00",
-  "scan_seconds": 22.0,
+  "last_scan": "2026-04-22T12:38:18.806728+00:00",
+  "scan_seconds": 18.3,
   "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776861426608_0",
-      "timestamp": "2026-04-22T12:37:06.608010+00:00",
+      "id": "sig_1776861492427_0",
+      "timestamp": "2026-04-22T12:38:12.427304+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Confirmed Available for Mavericks vs",
-      "raw": "Cooper Flagg Confirmed Available for Mavericks vs. Raptors Game** | **YES** | **HIGH** confidence\n\nDallas Mavericks rookie **Cooper Flagg** is officially available and cleared to play against the Toronto **Raptors** tonight, ending his game-time decision status, as announced by head coach Jason Kidd.[1] He will be on a **minutes restriction of 20-25 minutes** due to a compressed schedule, despite ",
+      "headline": "Cooper Flagg overtakes Kon Knueppel as betting favorite for NBA Rookie of the Year after scoring 96 points over two game",
+      "raw": "Cooper Flagg overtakes Kon Knueppel as betting favorite for NBA Rookie of the Year after scoring 96 points over two games** | YES | HIGH confidence[1][4][7]\n\nFlagg's odds shifted to -250 on DraftKings (from trailing Knueppel), leading all rookies in scoring (20.8 PPG), third in rebounds (6.6), and second in assists (4.5), with historic 51- and 45-point teen performances\u2014three of the four 45+ point",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776861431527_0",
-      "timestamp": "2026-04-22T12:37:11.527427+00:00",
+      "id": "sig_1776861488214_0",
+      "timestamp": "2026-04-22T12:38:08.214811+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X-Related Bets Amid High-Volume Markets | NO Confirmed Whale",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X-Related Bets Amid High-Volume Markets | NO Confirmed Whale Bets or Announcements | MED Confidence**\n\nReal-time Polymarket data shows active X prediction markets like \"\ud835\udd4f Money launched by...?\" (12% YES odds, ends April 30, $33.6K volume) and \"Nikita Bier out as Head of Product at X by June 30?\" (7% YES odds, $1.4K volume), reflecting tra",
-      "direction": "YES",
+      "headline": "On **March 19, 2026**, Fed Chair **Jerome Powell** addressed **tariff-related inflation** in a press briefing, expressin",
+      "raw": "On **March 19, 2026**, Fed Chair **Jerome Powell** addressed **tariff-related inflation** in a press briefing, expressing uncertainty on the tariff shock's extent after some tariffs were overturned but expecting the administration to reinstate them; he anticipates **tariff inflation** stabilizing mid-year with no further price increases.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861488217_1",
+      "timestamp": "2026-04-22T12:38:08.217737+00:00",
+      "source": "PERPLEXITY",
+      "headline": "On **April 21, 2026**, during **Kevin Warsh**'s Senate confirmation hearing to potentially replace Powell, senators ques",
+      "raw": "On **April 21, 2026**, during **Kevin Warsh**'s Senate confirmation hearing to potentially replace Powell, senators questioned his past views on interest rates amid high inflation (current Fed rate: 3.5-3.7%) and Fed independence under Trump pressure to cut rates; Warsh described the economy's broad contours as improving.[3][4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861488220_2",
+      "timestamp": "2026-04-22T12:38:08.220691+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Earlier on **April 4, 2026**, Warsh criticized the Fed's 2021-2022 \"fatal policy error\" for letting inflation soar, noti",
+      "raw": "Earlier on **April 4, 2026**, Warsh criticized the Fed's 2021-2022 \"fatal policy error\" for letting inflation soar, noting it's harder to reverse once entrenched.[2]\n\nNo confirmed announcements, resolutions, or new **April inflation** figures in these results; events are not \"right now\" and predate today by 1+ month.[1][2][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776861497800_0",
+      "timestamp": "2026-04-22T12:38:17.800437+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's top active markets focus on **Elon Musk tweet volume predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 range across related markets).[2][3][4] These show high trading volumes over $19M-$21M, i",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776861497803_1",
+      "timestamp": "2026-04-22T12:38:17.803506+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Category Active | NO | LOW confidence**",
+      "raw": "Trending Markets Category Active | NO | LOW confidence**\n\n166 live **Trending Markets** on Polymarket, including niche bets like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3M volume, but no whale activity, tips, or mispricing discussions noted from traders on X.[1] Data as of April 21, 2026, lacks direct X posts or fresh confirmations impacting prices.[1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -36,9 +95,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
