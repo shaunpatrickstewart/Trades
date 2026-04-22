@@ -1,48 +1,63 @@
 {
-  "last_scan": "2026-04-22T12:09:18.466181+00:00",
-  "scan_seconds": 17.9,
+  "last_scan": "2026-04-22T12:10:29.921688+00:00",
+  "scan_seconds": 19.1,
   "markets_scanned": 79,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776859752320_0",
-      "timestamp": "2026-04-22T12:09:12.320760+00:00",
+      "id": "sig_1776859813982_0",
+      "timestamp": "2026-04-22T12:10:13.982263+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pacers Eliminate Cavaliers 4-1 in Eastern Conference Semifinals (Game 5: 114-105)** | **NO** | **HIGH** confidence[2]",
-      "raw": "Pacers Eliminate Cavaliers 4-1 in Eastern Conference Semifinals (Game 5: 114-105)** | **NO** | **HIGH** confidence[2]\n\nThe Indiana Pacers defeated the top-seeded Cleveland Cavaliers 114-105 in Game 5 on May 13, 2025, winning the East Semifinals series 4-1 and advancing to the Eastern Conference Finals, as confirmed by final score reports[2]. This eliminates Cleveland from the 2025 playoffs, direct",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]\n\nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst driving XRP's April 2026 surge, with the price gaining nearly 10% in the past week to around $1.42 after breaking $1.50 resistance[1]. This regulatory resolution signals a fundamental shift in market sentiment, removing a major",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "XRP Up or Down - April 22, 8:00AM-8:15AM ET",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
       "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776859743622_0",
-      "timestamp": "2026-04-22T12:09:03.622300+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1][2]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1][2]\n\nThe SEC's decision to fully drop its lawsuit against Ripple provides definitive regulatory clarity, ending a multi-year overhang that suppressed XRP's price and adoption.[1][2] This resolution, combined with the full-scale rollout of Ripple's RLUSD stablecoin on XRP Ledger and Ethereum, has driven a 10% weekly pri",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776859748081_0",
-      "timestamp": "2026-04-22T12:09:08.081929+00:00",
+      "id": "sig_1776859823852_2",
+      "timestamp": "2026-04-22T12:10:23.852182+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news from April 22, 2026, based on the search results provided",
-      "raw": "I cannot provide breaking news from April 22, 2026, based on the search results provided. The most recent content in your search results dates to April 17, 2026[4], which is five days before the current date you've specified.\n\nThe search results do not contain any announcements, confirmations, or developments from today (April 22, 2026) that would move prediction markets. To deliver accurate break",
-      "direction": "YES",
+      "headline": "General playoff preview commentary about the Cavaliers' roster and championship prospects[3]",
+      "raw": "General playoff preview commentary about the Cavaliers' roster and championship prospects[3]\n\nNone of this represents breaking news, recent announcements, or confirmed outcomes regarding the conference semifinals or any other development that would qualify as market-moving information as of today's date. To provide the headline format you've requested, I would need search results with current brea",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776859828903_4",
+      "timestamp": "2026-04-22T12:10:28.903762+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news that has just been confirmed or announced",
+      "raw": "Breaking news that has just been confirmed or announced",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859819077_0",
+      "timestamp": "2026-04-22T12:10:19.077087+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh confirmation hearing for Fed Chair underway amid tariff-driven inflation surge to 3",
+      "raw": "Kevin Warsh confirmation hearing for Fed Chair underway amid tariff-driven inflation surge to 3.3% | NO | HIGH confidence**\n\nPowell's mid-March comments linked 50-75% of rising inflation to tariffs, with Labor Department data on Friday (pre-April 22) confirming CPI at 3.3%\u2014driven by 21.2% gasoline spikes from Trump-Iran war disrupting Strait of Hormuz oil flows\u2014tripling prior growth and dashing ra",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Strait of Hormuz traffic returns to normal by end of April?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
@@ -50,12 +65,44 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776859757459_0",
-      "timestamp": "2026-04-22T12:09:17.459863+00:00",
+      "id": "sig_1776859823846_0",
+      "timestamp": "2026-04-22T12:10:23.846215+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets, smart money moves, or tips reported in real",
-      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets, smart money moves, or tips reported in real-time X posts | LOW confidence** [1][2][3]\n\nPolymarket's most active markets center on **Elon Musk tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with outcomes like 220-239 at 32%) and \"Elon Musk # tweets in April 2026?\" (1120-1159 at 18-28%, $9M volum",
-      "direction": "NO",
+      "headline": "I cannot provide the breaking news you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news you're requesting based on these search results. The available information discusses the Cavaliers' first-round playoff series against the Toronto Raptors from earlier in April 2026, not current developments that would move prediction markets today.\n\nThe search results contain:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?",
+        "Will the highest temperature in Toronto be 12\u00b0C on April 22?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776859823849_1",
+      "timestamp": "2026-04-22T12:10:23.849134+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Game 1 and Game 2 results from the Cavaliers' first-round series against the Raptors[1][2]",
+      "raw": "Game 1 and Game 2 results from the Cavaliers' first-round series against the Raptors[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776859828892_0",
+      "timestamp": "2026-04-22T12:10:28.892132+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about how Polymarket works and reference some prediction markets (such as markets on Elon Musk's tweet count in April 2026), but they do not include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -63,12 +110,51 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776859757463_1",
-      "timestamp": "2026-04-22T12:09:17.463135+00:00",
+      "id": "sig_1776859828895_1",
+      "timestamp": "2026-04-22T12:10:28.895040+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye Tweet by Apr 30",
-      "raw": "Kanye Tweet by Apr 30? | NO trending tips | MED confidence** \u2013 Active with 60% on a key outcome amid 131 markets ($21.1M volume), yet no whale signals or mispricing calls from X. [2] Volumes indicate sentiment but no fresh catalysts. [1][2][3]",
-      "direction": "NO",
+      "headline": "Current live discussions or posts from Polymarket traders on X",
+      "raw": "Current live discussions or posts from Polymarket traders on X",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859828897_2",
+      "timestamp": "2026-04-22T12:10:28.897903+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time whale bets or smart money moves",
+      "raw": "Real-time whale bets or smart money moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859828900_3",
+      "timestamp": "2026-04-22T12:10:28.900740+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recently trending market mispricing alerts",
+      "raw": "Recently trending market mispricing alerts",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859828906_5",
+      "timestamp": "2026-04-22T12:10:28.906633+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Markets that have recently resolved",
+      "raw": "Markets that have recently resolved\n\nTo get this information, you would need to:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -78,8 +164,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 4,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
