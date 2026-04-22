@@ -1,30 +1,32 @@
 {
-  "last_scan": "2026-04-22T07:40:22.626694+00:00",
-  "scan_seconds": 21.9,
+  "last_scan": "2026-04-22T07:41:28.030834+00:00",
+  "scan_seconds": 17.5,
   "markets_scanned": 79,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776843612294_3",
-      "timestamp": "2026-04-22T07:40:12.294598+00:00",
+      "id": "sig_1776843682402_0",
+      "timestamp": "2026-04-22T07:41:22.402286+00:00",
       "source": "PERPLEXITY",
-      "headline": "Clarity on what has been \"just confirmed, announced, or resolved\"",
-      "raw": "Clarity on what has been \"just confirmed, announced, or resolved\"",
-      "direction": null,
+      "headline": "Lakers Crush Cavaliers 127-113 Behind Luka Doncic's 42 Points, Clinch Pacific Division & 50th Win | YES | HIGH confidenc",
+      "raw": "Lakers Crush Cavaliers 127-113 Behind Luka Doncic's 42 Points, Clinch Pacific Division & 50th Win | YES | HIGH confidence**  \nThe Los Angeles Lakers defeated the Cleveland Cavaliers 127-113 on Tuesday night, with Luka Doncic scoring 42 points and 12 assists, Deandre Ayton adding 18 points and 9 rebounds, and contributions from Austin Reaves (19 pts), LeBron James (14 pts), and others, extending th",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776843605386_0",
-      "timestamp": "2026-04-22T07:40:05.386992+00:00",
+      "id": "sig_1776843673766_0",
+      "timestamp": "2026-04-22T07:41:13.766886+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Launches on Solana as wXRP, Price Surges 5% to $1",
-      "raw": "XRP Launches on Solana as wXRP, Price Surges 5% to $1.50 | YES | HIGH confidence**  \nXRP has officially launched on the Solana network as wrapped wXRP via Hex Trust and LayerZero, enabling 1:1 redeemable cross-chain transfers and unlocking DeFi access on platforms like Jupiter Exchange, Meteora, and Titan Exchange with over $100M initial liquidity.[1][2] This confirmation drove a 5.15% price incre",
+      "headline": "Wrapped XRP Now Live on Solana via Hex Trust and LayerZero Integration | YES | HIGH confidence**",
+      "raw": "Wrapped XRP Now Live on Solana via Hex Trust and LayerZero Integration | YES | HIGH confidence**  \nSolana's official X account posted \"XRP\" (April 15, 2026), sparking viral speculation with millions of views, memes, and cross-community hype, driving XRP's price to $1.39-$1.45 (up 3-4% in 24h, outpacing Bitcoin's 0.86% gain) amid $2.8B trading volume.[1][2][3][4]  \nThis fueled a **$100M integration",
       "direction": "YES",
-      "confidence": 0.78,
+      "confidence": 0.65,
       "matched_markets": [
         "Bitcoin above 78,800 on April 22, 4AM ET?",
         "Solana Up or Down - April 22, 3AM ET",
@@ -35,83 +37,12 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776843612277_0",
-      "timestamp": "2026-04-22T07:40:12.277583+00:00",
+      "id": "sig_1776843687024_0",
+      "timestamp": "2026-04-22T07:41:27.024625+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news \"RIGHT NOW\" on April 22, 2026, from these search results",
-      "raw": "I cannot identify breaking news \"RIGHT NOW\" on April 22, 2026, from these search results. The most recent dated content in the search results is from mid-April 2026 (April 28-29 Fed meeting reference and April 2 tariff data), but none of the materials indicate announcements or confirmations occurring on or immediately before April 22, 2026.\n\nThe search results contain economic projections and anal",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776843612283_1",
-      "timestamp": "2026-04-22T07:40:12.283175+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Today's announcement or confirmation (April 22, 2026)",
-      "raw": "Today's announcement or confirmation (April 22, 2026)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776843612288_2",
-      "timestamp": "2026-04-22T07:40:12.288915+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A specific policy decision, data release, or statement from Powell or other officials",
-      "raw": "A specific policy decision, data release, or statement from Powell or other officials",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776843612300_4",
-      "timestamp": "2026-04-22T07:40:12.300279+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What I can confirm from available results:** The Fed held rates steady at 3",
-      "raw": "What I can confirm from available results:** The Fed held rates steady at 3.50%-3.75% at its March 18, 2026 meeting, with projections for minimal rate cuts (one 25 basis-point cut) through year-end 2026.[2] Energy-driven inflation surged in March, with headline CPI jumping 0.9% month-over-month, and PCE inflation projections were revised upward to 2.7% for 2026.[2] However, these are not \"breaking",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776843616404_0",
-      "timestamp": "2026-04-22T07:40:16.404855+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first round** | NO | HIGH",
-      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first round** | NO | HIGH  \nThe Cleveland Cavaliers won Monday's game behind 30 points from Donovan Mitchell, 28 from James Harden, and 25 from Evan Mobley, never trailing and extending their playoff win streak against Toronto to 12 straight games[1][3][4]. Game 3 is scheduled for Thursday, April 23, at 8:00 PM ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776843621601_0",
-      "timestamp": "2026-04-22T07:40:21.601951+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the information you're requesting based on the available search results",
-      "raw": "I cannot provide the information you're requesting based on the available search results.\n\nThe search results provide general information about how Polymarket works as a prediction platform, but they do not contain:",
-      "direction": null,
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 range), with over $17.1M in trading volume across 130+ related markets.[2][3][4]  \nNo specific whale ",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -119,51 +50,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776843621604_1",
-      "timestamp": "2026-04-22T07:40:21.604789+00:00",
+      "id": "sig_1776843687027_1",
+      "timestamp": "2026-04-22T07:41:27.027856+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time social media posts from traders on X (Twitter) discussing current market activity",
-      "raw": "Real-time social media posts from traders on X (Twitter) discussing current market activity",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776843621607_2",
-      "timestamp": "2026-04-22T07:40:21.607591+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about whale bets or specific smart money moves happening right now",
-      "raw": "Information about whale bets or specific smart money moves happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776843621610_3",
-      "timestamp": "2026-04-22T07:40:21.610386+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysis of mispriced markets or imminent price movements",
-      "raw": "Analysis of mispriced markets or imminent price movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776843621613_4",
-      "timestamp": "2026-04-22T07:40:21.613206+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news about recent market resolutions or announcements",
-      "raw": "Breaking news about recent market resolutions or announcements\n\nTo obtain this information, you would need to:",
-      "direction": null,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO recent confirmation | MED confidence**  \nTrending among 166 general markets, but no resolved announcements or X buzz on mispricing; odds reflect real-time trader sentiment without noted shifts.[1]  \nNo breaking confirmations, announcements, or resolutions in results that would move markets; tweet markets update dynamically with new data, potentially ",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -172,8 +64,8 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 12,
+    "enter": 1,
+    "alert": 3,
     "watch": 0,
     "high_conf": 1
   }

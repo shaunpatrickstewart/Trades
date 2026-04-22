@@ -1,5 +1,5 @@
 {
-  "ts": 1776843610,
+  "ts": 1776843680,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999804
+    "usdc_usd": 0.999555
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -170,10 +170,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.338,
-        "nav_usdc": 1.7069,
+        "cur_price": 0.336,
+        "nav_usdc": 1.6968,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.0555
+        "unrealized_pnl": -0.0656
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -303,16 +303,16 @@
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 286.7519,
-    "total_usdc": 402.7747,
-    "total_usd": 402.6957
+    "positions_nav_usdc": 286.7418,
+    "total_usdc": 402.7646,
+    "total_usd": 402.5854
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776843611,
+    "ts": 1776843681,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776757211,
+      "window_start_ts": 1776757281,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 92.8132,
@@ -423,7 +423,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776238811,
+      "window_start_ts": 1776238881,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -636,7 +636,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774251611,
+      "window_start_ts": 1774251681,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1062,7 +1062,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.6957,
-    "total_usdc": 402.7747
+    "total_usd": 402.5854,
+    "total_usdc": 402.7646
   }
 }
