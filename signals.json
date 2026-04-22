@@ -1,192 +1,126 @@
 {
-  "last_scan": "2026-04-22T02:39:58.550079+00:00",
-  "scan_seconds": 18.0,
+  "last_scan": "2026-04-22T02:41:11.853827+00:00",
+  "scan_seconds": 21.2,
   "markets_scanned": 77,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776825585296_0",
-      "timestamp": "2026-04-22T02:39:45.296212+00:00",
+      "id": "sig_1776825670844_1",
+      "timestamp": "2026-04-22T02:41:10.844663+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is **no breaking news as of April 22, 2026** that represents a recently conf",
-      "raw": "Based on the search results provided, there is **no breaking news as of April 22, 2026** that represents a recently confirmed announcement or resolved event.\n\nThe search results contain older content from early-to-mid April 2026 that discuss *anticipated* events rather than confirmations:",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776825585305_3",
-      "timestamp": "2026-04-22T02:39:45.305580+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Ripple's Digital Asset Accounts launch** - Announced but impact unclear",
-      "raw": "**Ripple's Digital Asset Accounts launch** - Announced but impact unclear",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776825585299_1",
-      "timestamp": "2026-04-22T02:39:45.299543+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 16 SEC roundtable** (mentioned as upcoming in earlier articles) - Results do not confirm what was discussed or d",
-      "raw": "**April 16 SEC roundtable** (mentioned as upcoming in earlier articles) - Results do not confirm what was discussed or decided",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776825585302_2",
-      "timestamp": "2026-04-22T02:39:45.302485+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**CLARITY Act progress** (Treasury Secretary Scott Bessent urging Congress) - Still pending, not resolved",
-      "raw": "**CLARITY Act progress** (Treasury Secretary Scott Bessent urging Congress) - Still pending, not resolved",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776825585308_4",
-      "timestamp": "2026-04-22T02:39:45.308781+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**\n\nThe articles analyze potential catalysts and price movements around regulatory discussions and the Fed meeting, but contain no newly confirmed announcements, resolutions, or breakthroughs that would constitute breaking news at this date. The most recent video content in the results is from April 14, 2026, which predates your current timestamp by over a week, leav",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776825589914_0",
-      "timestamp": "2026-04-22T02:39:49.914950+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Yale Budget Lab's April 2 report details U",
-      "raw": "Yale Budget Lab's April 2 report details U.S. tariffs (e.g., Section 122 at 10%, effective rate 11.0%) reducing long-run GDP by 0.1-0.16%, raising prices 0.5-1.0%, with expiration scheduled post-150 days (around August 2026); no updates confirmed.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776825589917_1",
-      "timestamp": "2026-04-22T02:39:49.917985+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IMF's April 2 Article IV consultation forecasts minimal Fed rate cuts in 2026 (fed funds from 3",
-      "raw": "IMF's April 2 Article IV consultation forecasts minimal Fed rate cuts in 2026 (fed funds from 3.6% to 3.4%), GDP at 2.4%, inflation at 2.6% end-2026 amid 7-8.5% tariffs dragging growth; Powell noted steady policy in January.[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776825589920_2",
-      "timestamp": "2026-04-22T02:39:49.920829+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Earlier tariff reversal (undated, pre-April 22) mitigated market drops after weak GDP/inflation data blamed on shutdown,",
-      "raw": "Earlier tariff reversal (undated, pre-April 22) mitigated market drops after weak GDP/inflation data blamed on shutdown, with Q1 2026 GDP rebound expected; not new.[3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776825589923_3",
-      "timestamp": "2026-04-22T02:39:49.923612+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell's Fed term expires May 2026, amid policy tensions; no resolution announced",
-      "raw": "Powell's Fed term expires May 2026, amid policy tensions; no resolution announced.[4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776825589926_4",
-      "timestamp": "2026-04-22T02:39:49.926511+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HIGH confidence** in no major RIGHT NOW developments, as results cover only up to early April with no later confirmation",
-      "raw": "HIGH confidence** in no major RIGHT NOW developments, as results cover only up to early April with no later confirmations.[1][2][3][4]",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? Traders Pricing in Resolution | YES 100% | MED confidence**  \nOne market lists \"Iran x Israel/US conflict ends by...?\" at 100% YES, indicating traders view this as already resolved or certain soon, potentially shifting capital to other geopolitics bets[1].",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776825597544_0",
-      "timestamp": "2026-04-22T02:39:57.544020+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweet Volume Markets Lead Polymarket Activity | NO | LOW confidence**\n\nPolymarket traders on X are focusing on high-volume **Elon Musk tweet count markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% odds on 200-219 tweets, $5M volume) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 tweets, $9M volume, $501K today).[1][2][4]  \nNo specific **whale bets, ",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776825597547_1",
-      "timestamp": "2026-04-22T02:39:57.547048+00:00",
+      "id": "sig_1776825659909_0",
+      "timestamp": "2026-04-22T02:40:59.909414+00:00",
       "source": "PERPLEXITY",
-      "headline": "No recent confirmations, announcements, or resolutions** noted that would shift these markets, as odds update continuous",
-      "raw": "No recent confirmations, announcements, or resolutions** noted that would shift these markets, as odds update continuously with trader sentiment on pop culture and Twitter events (e.g., 132 tweet markets, $17.1M volume).[2]  \nData limited to Polymarket pages; lacks direct X posts for live trader chatter.[1][2][3][4]",
-      "direction": "NO",
+      "headline": "I cannot provide breaking news from today, April 22, 2026, as the search results provided are from December 2025 through",
+      "raw": "I cannot provide breaking news from today, April 22, 2026, as the search results provided are from December 2025 through early April 2026, with the most recent being from April 4, 2026. None of the results contain announcements or confirmations from April 22, 2026.\n\nThe most recent relevant information available is:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776825593726_0",
-      "timestamp": "2026-04-22T02:39:53.726753+00:00",
+      "id": "sig_1776825659912_1",
+      "timestamp": "2026-04-22T02:40:59.912405+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Confirms Season-Ending Ankle Injury in Mavericks' Final Game vs",
-      "raw": "Cooper Flagg Confirms Season-Ending Ankle Injury in Mavericks' Final Game vs. Bulls** | **YES** | **HIGH** confidence[1][3][5]\n\nMavericks officially announced on April 13, 2026, that rookie Cooper Flagg suffered a left ankle sprain and will not return from Sunday's game against the Chicago Bulls, ending his standout debut season (21.2 PPG, 6.7 RPG, 4.6 APG over 70 games) prematurely[1][2][3][5]. T",
+      "headline": "Kevin Warsh Criticized Fed Policy (April 4, 2026)** | N/A | MED confidence",
+      "raw": "Kevin Warsh Criticized Fed Policy (April 4, 2026)** | N/A | MED confidence\nDuring his Senate confirmation hearing to replace Jerome Powell as Federal Reserve chairman, Warsh criticized the Fed for \"policy errors in 2021 and 2022\" that allowed inflation to soar, stating that once inflation takes hold, \"it's more expensive and harder to bring it down.\"[5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776825664070_0",
+      "timestamp": "2026-04-22T02:41:04.070356+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Secure 2-0 Series Lead Over Raptors in Game 2 with 115-105 Win** | **YES** | **HIGH** confidence",
+      "raw": "Cavaliers Secure 2-0 Series Lead Over Raptors in Game 2 with 115-105 Win** | **YES** | **HIGH** confidence\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on Monday night, April 20, 2026, taking a 2-0 lead in their Eastern Conference first-round playoff series, with Donovan Mitchell scoring 30 points, James Harden adding 28 points and 4 assists, and Evan Mobley contributing 25 points",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776825670841_0",
+      "timestamp": "2026-04-22T02:41:10.841570+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launch by April 30",
+      "raw": "\ud835\udd4f Money Launch by April 30? Traders Eyeing Elon Musk's Next Move | YES 15% | HIGH confidence**  \nPolymarket's top X-related market shows \"\ud835\udd4f Money launched by...?\" at 15% YES odds with $33.6K volume and $4.4K liquidity, ending in 8 days; this reflects real-time trader sentiment on X platform developments[1]. Low YES pricing suggests skepticism on a near-term launch amid high activity in 1370+ X pre",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776825670847_2",
+      "timestamp": "2026-04-22T02:41:10.847558+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds Signal Stability | NO 93% | HIGH confidence**  \nMarket trades at 7% YES ($1.4K vol, $4.8K liq) for Nikita Bier exiting, implying trader confidence in X leadership continuity over 2 months[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776825670850_3",
+      "timestamp": "2026-04-22T02:41:10.850546+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Counts Dominate Volume: April Markets Heating Up | N/A | HIGH confidence**",
+      "raw": "Elon Musk Tweet Counts Dominate Volume: April Markets Heating Up | N/A | HIGH confidence**  \nHigh-volume tweet markets like \"Elon Musk # tweets April 17-24, 2026?\" (30% on 200-219, $5M vol) and full April tally (18% on 1080-1119, $9M vol, $501K today) lead activity, with traders betting on patterns amid no confirmed news triggers[2][3][4].\n\nNo whale bets, smart money moves, mispriced markets, or r",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776825659915_2",
+      "timestamp": "2026-04-22T02:40:59.915494+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tariff Effects and Inflation Uncertainty (March 19, 2026)** | UNCERTAIN | MED confidence",
+      "raw": "Tariff Effects and Inflation Uncertainty (March 19, 2026)** | UNCERTAIN | MED confidence\nPowell acknowledged uncertainty about the extent of tariff shocks, noting that tariff-related price increases are expected to be a \"one-time effect,\" though administration actions to reinstate tariffs complicate predictions.[4]\n\nTo get actual breaking news from April 22, 2026, you would need access to current ",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 12,
+    "alert": 7,
     "watch": 1,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
