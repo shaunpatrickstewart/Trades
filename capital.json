@@ -1,5 +1,5 @@
 {
-  "ts": 1776854980,
+  "ts": 1776855050,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,11 +7,11 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999762
+    "usdc_usd": 0.999835
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
-    "idle_usdc": 101.4797,
+    "idle_usdc": 86.9366,
     "positions": [
       {
         "slug": "highest-temperature-in-miami-on-april-21-2026-86-87f",
@@ -84,6 +84,15 @@
         "nav_usdc": 16.23,
         "cost_basis": 16.0676,
         "unrealized_pnl": 0.1624
+      },
+      {
+        "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
+        "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
+        "size": 14.69,
+        "cur_price": 0.998,
+        "nav_usdc": 14.6606,
+        "cost_basis": 14.5431,
+        "unrealized_pnl": 0.1175
       },
       {
         "slug": "lowest-temperature-in-shanghai-on-april-22-2026-11c",
@@ -311,17 +320,17 @@
         "unrealized_pnl": 0.3562
       }
     ],
-    "position_count": 33,
-    "positions_nav_usdc": 302.6654,
-    "total_usdc": 404.1451,
-    "total_usd": 404.0489
+    "position_count": 34,
+    "positions_nav_usdc": 317.326,
+    "total_usdc": 404.2626,
+    "total_usd": 404.1959
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776854981,
+    "ts": 1776855051,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 53,
     "today": {
@@ -369,7 +378,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776768581,
+      "window_start_ts": 1776768651,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 107.3563,
@@ -442,7 +451,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776250181,
+      "window_start_ts": 1776250251,
       "realized_usdc": 1.5555,
       "trade_count": 53,
       "buy_volume_usdc": 480.1765,
@@ -655,7 +664,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774262981,
+      "window_start_ts": 1774263051,
       "realized_usdc": 1.5555,
       "trade_count": 53,
       "buy_volume_usdc": 480.1765,
@@ -1081,7 +1090,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.0489,
-    "total_usdc": 404.1451
+    "total_usd": 404.1959,
+    "total_usdc": 404.2626
   }
 }

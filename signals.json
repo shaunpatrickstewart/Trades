@@ -1,61 +1,53 @@
 {
-  "last_scan": "2026-04-22T10:49:47.466842+00:00",
-  "scan_seconds": 16.9,
+  "last_scan": "2026-04-22T10:50:56.799306+00:00",
+  "scan_seconds": 16.2,
   "markets_scanned": 82,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776854981905_0",
-      "timestamp": "2026-04-22T10:49:41.905749+00:00",
+      "id": "sig_1776855043723_0",
+      "timestamp": "2026-04-22T10:50:43.723801+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers advance to Western Conference Semifinals after Game 1 win over Rockets | YES (Lakers beat Rockets 103-96) | HIGH",
-      "raw": "Lakers advance to Western Conference Semifinals after Game 1 win over Rockets | YES (Lakers beat Rockets 103-96) | HIGH confidence** [3][2]",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as resolved in April 2026, removing a major regulatory overhang and driving XRP's ~10% weekly price surge to ~$1.42 after breaking $1.50 resistance[1][6]. This fundamental shift in sentiment, amid institutional enthusiasm, positions XRP for potenti",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776854981908_1",
-      "timestamp": "2026-04-22T10:49:41.908810+00:00",
+      "id": "sig_1776855043726_1",
+      "timestamp": "2026-04-22T10:50:43.726984+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers dominate Heat 138-83 in Eastern Conference First Round | YES (Cavs secure blowout victory) | HIGH confidence**",
-      "raw": "Cavaliers dominate Heat 138-83 in Eastern Conference First Round | YES (Cavs secure blowout victory) | HIGH confidence** [3]",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger and Ethereum | YES | MED confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger and Ethereum | YES | MED confidence**  \nOfficial rollout of RLUSD occurred around April 19, 2026, boosting XRPL transaction volume and institutional adoption alongside SEC finality and nearing XRP ETF approvals[2]. This enhances XRP's utility for cross-border payments, contributing to market momentum but with less emphasis on immediate",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776855051470_0",
+      "timestamp": "2026-04-22T10:50:51.470645+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CAVS LEAD RAPTORS 2-0 AFTER 115-105 PLAYOFF WIN FEATURING MITCHELL'S 30 PTS, HARDEN'S 28 PTS, MOBLEY'S 25 PTS** | YES |",
+      "raw": "CAVS LEAD RAPTORS 2-0 AFTER 115-105 PLAYOFF WIN FEATURING MITCHELL'S 30 PTS, HARDEN'S 28 PTS, MOBLEY'S 25 PTS** | YES | HIGH  \nCavaliers defeated Toronto Raptors 115-105 on Apr 21, 2026, securing a 2-0 lead in Eastern Conference first-round series; marks 12th straight playoff win vs. Raptors, tying NBA record.[2][5]  \nDonovan Mitchell (30 pts, 7 reb, 5 ast), James Harden (28 pts on 9-14 FG), Evan ",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776854981912_2",
-      "timestamp": "2026-04-22T10:49:41.912226+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Timberwolves upset Nuggets 120-101 in Game 1 Western matchup | NO (Nuggets do not advance easily; series tightens) | HIG",
-      "raw": "Timberwolves upset Nuggets 120-101 in Game 1 Western matchup | NO (Nuggets do not advance easily; series tightens) | HIGH confidence** [3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776854981915_3",
-      "timestamp": "2026-04-22T10:49:41.915222+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Pacers defeat Knicks 125-108 in Eastern Game 1 | NO direct Cavaliers/Raptors impact (Raptors absent from playoffs) | HIG",
-      "raw": "Pacers defeat Knicks 125-108 in Eastern Game 1 | NO direct Cavaliers/Raptors impact (Raptors absent from playoffs) | HIGH confidence** [3]",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
@@ -63,26 +55,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776854981918_4",
-      "timestamp": "2026-04-22T10:49:41.918733+00:00",
+      "id": "sig_1776855055793_0",
+      "timestamp": "2026-04-22T10:50:55.793118+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmation on Cooper Flagg to Lakers, Cavaliers, or Raptors | NO (no announcements in results) | HIGH conf",
-      "raw": "No breaking confirmation on Cooper Flagg to Lakers, Cavaliers, or Raptors | NO (no announcements in results) | HIGH confidence** [1][2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776854986463_0",
-      "timestamp": "2026-04-22T10:49:46.463370+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focusing on Elon Musk Tweet Volume Markets as Top Trending Bets | NO whale bets or confirmed res",
-      "raw": "Polymarket Traders on X Focusing on Elon Musk Tweet Volume Markets as Top Trending Bets | NO whale bets or confirmed resolutions reported | LOW confidence**\n\nPolymarket's trending markets emphasize tweet-related predictions, particularly **Elon Musk # tweets in April 2026** (e.g., \"1120-1159\" outcome at 18-28% implied probability across categories) and specific ranges like \"Elon Musk # tweets Apri",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's top active markets focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 29% for 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18-28% odds for 1120-1159 range across sources).[2][3][4] These dominate Tweet and Tweet Markets categories with high v",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -91,25 +68,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776854978063_0",
-      "timestamp": "2026-04-22T10:49:38.063721+00:00",
+      "id": "sig_1776855055796_1",
+      "timestamp": "2026-04-22T10:50:55.796242+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell Confirms Tariff-Driven Goods Inflation to Peak Q1/Mid-2026, Signaling Upcoming Relief as Fed Cuts Rates Amid Weak",
-      "raw": "Powell Confirms Tariff-Driven Goods Inflation to Peak Q1/Mid-2026, Signaling Upcoming Relief as Fed Cuts Rates Amid Weakening Labor Market** | **YES** | **HIGH** confidence[1][2][5]\n\nFederal Reserve Chair Jerome Powell stated on December 10, 2025, that the U.S. economy is \"very unusual\" with elevated **tariff-driven goods inflation** peaking around Q1 2026 (assuming no new tariffs), while services",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "WATCH",
+      "headline": "Trending Markets Category Active | NO | LOW confidence**",
+      "raw": "Trending Markets Category Active | NO | LOW confidence**\n\n166 live **Trending Markets** (e.g., \"Nasdaq round-the-clock trading by June 30?\") show $3.0M volume as of April 21, with real-time odds, but lack specifics on X discussions, whale activity, tips, or resolutions moving prices.[1]\n\nNo breaking news, confirmed events, or trader posts on X about whale bets/mispricings found in results; data li",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 2,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 2
   }
 }
