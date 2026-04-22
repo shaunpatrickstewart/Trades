@@ -1,33 +1,65 @@
 {
-  "last_scan": "2026-04-22T08:33:47.209616+00:00",
-  "scan_seconds": 16.6,
-  "markets_scanned": 75,
+  "last_scan": "2026-04-22T08:34:57.650941+00:00",
+  "scan_seconds": 17.1,
+  "markets_scanned": 76,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776846821880_0",
-      "timestamp": "2026-04-22T08:33:41.880248+00:00",
+      "id": "sig_1776846883137_0",
+      "timestamp": "2026-04-22T08:34:43.137956+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First Round | NO | HIGH confidence** [1]",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First Round | NO | HIGH confidence** [1][2][3][4][5]\n\nThe Cleveland Cavaliers won Game 2 on Monday against the Toronto Raptors, with Donovan Mitchell scoring 30 points and James Harden adding 28, forcing Toronto into a 0-2 deficit heading to Game 3 in Toronto on Thursday (Thu, Apr 23 @ 8:00 pm ET).[1][2][3] Raptors pla",
-      "direction": "NO",
-      "confidence": 0.65,
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]\n\nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst for XRP's April 2026 price surge, with the token gaining nearly 10% in the past week to around $1.42 after breaking $1.50 resistance[1]. This resolution removes a major regulatory overhang that suppressed XRP for years, shifting",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776846888338_0",
+      "timestamp": "2026-04-22T08:34:48.338253+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and",
+      "raw": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and Labor Market Warnings | YES | HIGH**  \nPowell announced on Wednesday that the U.S. economy features elevated **inflation** from **tariffs** on goods\u2014expected to peak around **Q1 2026** assuming no further rounds\u2014while non-tariff-affected inflation is low at ~2%, services inflatio",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776846892488_0",
+      "timestamp": "2026-04-22T08:34:52.488873+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg's Historic 45-Point Game vs",
+      "raw": "Cooper Flagg's Historic 45-Point Game vs. Lakers Boosts Rookie of the Year Case | YES (ROTY favorite solidified) | HIGH confidence** [1][2][3][4]\n\nDallas Mavericks rookie **Cooper Flagg** scored 45 points, 9 assists, and 8 rebounds in a 134-128 win over the Los Angeles Lakers on April 5-6, 2026, marking his second straight 40+ point game (after 51 vs. Orlando) and making him the first rookie since",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776846826206_0",
-      "timestamp": "2026-04-22T08:33:46.206623+00:00",
+      "id": "sig_1776846896647_0",
+      "timestamp": "2026-04-22T08:34:56.647933+00:00",
       "source": "PERPLEXITY",
       "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119, 28% on 1120-1159), with over $17M-$19M in trading volume across 130+ related markets[2][3][4]. These ",
-      "direction": "YES",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 180-199 at 29%) and \"Elon Musk # tweets in April 2026?\" with high probabilities on ranges like 1080-1119 (18%) and 1120-1159 (28%), backed by over $17M-$19M in trading volu",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -36,9 +68,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 3,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 3
   }
 }
