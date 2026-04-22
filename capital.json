@@ -1,5 +1,5 @@
 {
-  "ts": 1776822110,
+  "ts": 1776822180,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999859
+    "usdc_usd": 0.99983
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -134,10 +134,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1744,
-        "nav_usdc": 0.8807,
+        "cur_price": 0.175,
+        "nav_usdc": 0.8837,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.811
+        "unrealized_pnl": -0.808
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -152,10 +152,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3835,
-        "nav_usdc": 1.9367,
+        "cur_price": 0.395,
+        "nav_usdc": 1.9948,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.1743
+        "unrealized_pnl": 0.2324
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -285,16 +285,16 @@
       }
     ],
     "position_count": 30,
-    "positions_nav_usdc": 228.4565,
-    "total_usdc": 402.2854,
-    "total_usd": 402.2287
+    "positions_nav_usdc": 228.5176,
+    "total_usdc": 402.3465,
+    "total_usd": 402.2781
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776822111,
+    "ts": 1776822181,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 48,
     "today": {
@@ -311,11 +311,11 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776735711,
+      "window_start_ts": 1776735781,
       "realized_usdc": 0.4633,
-      "trade_count": 14,
+      "trade_count": 13,
       "buy_volume_usdc": 149.4592,
-      "sell_volume_usdc": 180.4188,
+      "sell_volume_usdc": 58.5169,
       "closed_positions": 2,
       "winning_positions": 2,
       "win_rate_pct": 100.0,
@@ -399,22 +399,12 @@
           "net_size": 29.24,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will the highest temperature in Austin be between 72-73\u00b0F on April 20?",
-          "slug": "highest-temperature-in-austin-on-april-20-2026-72-73f",
-          "outcome_index": 1,
-          "buys_usdc": 0.0,
-          "sells_usdc": 121.9019,
-          "net_size": -122.03,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776217311,
+      "window_start_ts": 1776217381,
       "realized_usdc": 1.5555,
       "trade_count": 48,
       "buy_volume_usdc": 407.8273,
@@ -627,7 +617,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774230111,
+      "window_start_ts": 1774230181,
       "realized_usdc": 1.5555,
       "trade_count": 48,
       "buy_volume_usdc": 407.8273,
@@ -1053,7 +1043,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.2287,
-    "total_usdc": 402.2854
+    "total_usd": 402.2781,
+    "total_usdc": 402.3465
   }
 }
