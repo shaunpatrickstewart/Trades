@@ -1,5 +1,5 @@
 {
-  "ts": 1776873020,
+  "ts": 1776873090,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999871
+    "usdc_usd": 0.999855
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -134,10 +134,10 @@
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.195,
-        "nav_usdc": 1.4937,
+        "cur_price": 0.19,
+        "nav_usdc": 1.4554,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.2681
+        "unrealized_pnl": -0.3064
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1485,
-        "nav_usdc": 0.7499,
+        "cur_price": 0.1435,
+        "nav_usdc": 0.7247,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.9418
+        "unrealized_pnl": -0.967
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -188,10 +188,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3405,
-        "nav_usdc": 1.7195,
+        "cur_price": 0.3355,
+        "nav_usdc": 1.6943,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.0429
+        "unrealized_pnl": -0.0681
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.3773,
-    "total_usdc": 404.3139,
-    "total_usd": 404.2617
+    "positions_nav_usdc": 317.2885,
+    "total_usdc": 404.2251,
+    "total_usd": 404.1664
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776873021,
+    "ts": 1776873091,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776786621,
+      "window_start_ts": 1776786691,
       "realized_usdc": 0.0,
       "trade_count": 8,
       "buy_volume_usdc": 88.6541,
@@ -461,7 +461,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776268221,
+      "window_start_ts": 1776268291,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -674,7 +674,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774281021,
+      "window_start_ts": 1774281091,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1100,7 +1100,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.2617,
-    "total_usdc": 404.3139
+    "total_usd": 404.1664,
+    "total_usdc": 404.2251
   }
 }
