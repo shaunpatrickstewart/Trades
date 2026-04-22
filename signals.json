@@ -1,112 +1,30 @@
 {
-  "last_scan": "2026-04-22T19:39:31.210872+00:00",
-  "scan_seconds": 30.5,
-  "markets_scanned": 13,
+  "last_scan": "2026-04-22T19:40:14.598431+00:00",
+  "scan_seconds": 13.5,
+  "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776886770208_2",
-      "timestamp": "2026-04-22T19:39:30.208012+00:00",
+      "id": "sig_1776886813593_0",
+      "timestamp": "2026-04-22T19:40:13.593010+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions impacting markets confirmed right now | NO | HIGH confidence**",
-      "raw": "No breaking confirmations, announcements, or resolutions impacting markets confirmed right now | NO | HIGH confidence**\n\nNo recent events (e.g., tweet data releases or official outcomes) are noted in results to shift odds; markets like Kanye tweeting by April 30 or pop culture tweets remain speculative with real-time pricing (e.g., 60% on active tweet markets).[2][3] Odds update continuously with ",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
+      "headline": "Polymarket Traders on X Focus on Tweet Markets, Especially Elon Musk's Activity, with Tools Highlighting Winning Strateg",
+      "raw": "Polymarket Traders on X Focus on Tweet Markets, Especially Elon Musk's Activity, with Tools Highlighting Winning Strategies | NO Major Whale Bets or Confirmed Events Reported | MED Confidence**\n\nTrending discussions among Polymarket traders on X center on **tweet prediction markets**, particularly those tracking **Elon Musk's tweet volume** in April 2026, such as \"Elon Musk # tweets April 17 - Apr",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776886765261_0",
-      "timestamp": "2026-04-22T19:39:25.261041+00:00",
+      "id": "sig_1776886813595_1",
+      "timestamp": "2026-04-22T19:40:13.595428+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results contain outdated information from early-to-mid April 2026, and the current date is April 22, 2026 at 7:39 PM UTC\u2014meaning we're at the end of the NBA regular season or potentially in the early playoffs.\n\nThe most recent substantive information in the search results is from April 9, 2026, ",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776886765261_1",
-      "timestamp": "2026-04-22T19:39:25.261610+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Tonight's or today's games",
-      "raw": "Tonight's or today's games",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776886765262_2",
-      "timestamp": "2026-04-22T19:39:25.262124+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any playoff outcomes or seeding changes",
-      "raw": "Any playoff outcomes or seeding changes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776886765262_3",
-      "timestamp": "2026-04-22T19:39:25.262659+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any recent announcements regarding Flagg or the Cavaliers",
-      "raw": "Any recent announcements regarding Flagg or the Cavaliers",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776886765263_4",
-      "timestamp": "2026-04-22T19:39:25.263244+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any updates to Rookie of the Year odds as of today",
-      "raw": "Any updates to Rookie of the Year odds as of today\n\nPlease search for today's latest NBA news to get the breaking information you're looking for.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776886770206_0",
-      "timestamp": "2026-04-22T19:39:30.206182+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | HIGH confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with outcomes like 200-219 at 33%, 240-259 trading actively) and \"Elon Musk # tweets in April 2026?\" (1120-1159 at 18-19% chance), backed by over $22M+ in volume across 20",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886770207_1",
-      "timestamp": "2026-04-22T19:39:30.207226+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or mispriced markets reported on X in real-time search data | NO | HIGH confidence**",
-      "raw": "No whale bets, smart money moves, or mispriced markets reported on X in real-time search data | NO | HIGH confidence**\n\nSearch results lack current X posts detailing whale activity, prediction tips, or claims of mispriced markets like Nasdaq round-the-clock trading by June 30 (part of 168 trending markets with $2.8M volume).[1][5] One mention highlights a Polymarket analytics tool for tracking top",
+      "headline": "No specific whale bets, smart money moves, mispriced markets, or recent confirmations/announcements** (e",
+      "raw": "No specific whale bets, smart money moves, mispriced markets, or recent confirmations/announcements** (e.g., Nasdaq trading or resolved events) are detailed in current posts; focus remains on real-time tweet odds across 130+ markets with $2.8M+ volume[1][2][3][4].  \nOdds shift dynamically with new tweets or data, but no tips on imminent moves or resolutions noted right now[1][3][4].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -117,8 +35,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
+    "alert": 2,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
