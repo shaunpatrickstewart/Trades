@@ -1,29 +1,128 @@
 {
-  "last_scan": "2026-04-22T17:18:09.080110+00:00",
-  "scan_seconds": 18.8,
+  "last_scan": "2026-04-22T17:19:25.572156+00:00",
+  "scan_seconds": 25.0,
   "markets_scanned": 50,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776878283111_0",
-      "timestamp": "2026-04-22T17:18:03.111096+00:00",
+      "id": "sig_1776878364561_4",
+      "timestamp": "2026-04-22T17:19:24.561587+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavs Take 1-0 Series Lead Over Raptors | YES (Cavs lead series) | HIGH confidence** [5]",
-      "raw": "Cavs Take 1-0 Series Lead Over Raptors | YES (Cavs lead series) | HIGH confidence** [5]",
+      "headline": "Recently announced events or breaking news that would impact prediction markets",
+      "raw": "Recently announced events or breaking news that would impact prediction markets",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776878347535_3",
+      "timestamp": "2026-04-22T17:19:07.535009+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum ETFs Post Strong Weekly Inflows | YES | HIGH confidence**",
+      "raw": "Ethereum ETFs Post Strong Weekly Inflows | YES | HIGH confidence**\nEthereum ETFs logged $276 million in inflows for the week, with Fidelity's FETH leading at $126 million.[2] Ethereum spot ETFs also recorded their 8th consecutive day of net inflows at $67.77 million on April 20.[4]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776878347528_0",
+      "timestamp": "2026-04-22T17:19:07.528967+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key market-moving developments:",
+      "raw": "Based on the search results provided, here are the key market-moving developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776878347531_1",
+      "timestamp": "2026-04-22T17:19:07.531065+00:00",
+      "source": "PERPLEXITY",
+      "headline": "BlackRock $900M Bitcoin Purchase Boosts $80K Odds | YES | HIGH confidence**",
+      "raw": "BlackRock $900M Bitcoin Purchase Boosts $80K Odds | YES | HIGH confidence**\nBlackRock purchased $900 million in Bitcoin through its iShares Bitcoin Trust (IBIT) ETF, causing the Polymarket contract for Bitcoin reaching $80,000 in April to jump to 71.5% YES, up from 44% just 24 hours ago.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin above 77,400 on April 22, 2PM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776878347533_2",
+      "timestamp": "2026-04-22T17:19:07.533079+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Spot Bitcoin ETFs Extend 5-Day Inflow Streak | YES | HIGH confidence**",
+      "raw": "Spot Bitcoin ETFs Extend 5-Day Inflow Streak | YES | HIGH confidence**\nU.S. spot Bitcoin ETFs recorded $238.37 million in net inflows on April 20, extending an institutional inflow streak to five consecutive sessions\u2014the strongest tempo since February.[2] BlackRock's IBIT led with $256.05 million in inflows on that day.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin above 77,400 on April 22, 2PM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776878347536_4",
+      "timestamp": "2026-04-22T17:19:07.536942+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Trading Near $75,900 | YES | HIGH confidence**",
+      "raw": "Bitcoin Trading Near $75,900 | YES | HIGH confidence**\nBitcoin is trading around $75,900, up over 2% in the last 24 hours, with the total crypto market cap reaching approximately $2.5 trillion.[3] This represents continued momentum toward the $80,000 target, though still below that level as of the latest data points provided.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776878288077_0",
-      "timestamp": "2026-04-22T17:18:08.077141+00:00",
+      "id": "sig_1776878347538_5",
+      "timestamp": "2026-04-22T17:19:07.538813+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active prediction markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (19% for 1120-1159, 18% in related markets).[2][3][4] These dominate Tweet and Pop Culture catego",
+      "headline": "No Solana-specific breaking news** was found in the search results to report",
+      "raw": "No Solana-specific breaking news** was found in the search results to report.",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776878352109_0",
+      "timestamp": "2026-04-22T17:19:12.109081+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US\u2013Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]",
+      "raw": "US\u2013Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (April 20, 2026) confirms headline CPI surged to 3.29% y/y in March due to Iran war-driven energy prices (oil from $71 to $103/barrel), but core inflation is decelerating toward 2.2% (excluding tariffs), with forecasts for core PCE easing to enable Fed rate cuts later in 2026[1]. This ce",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will annual inflation increase by 3.8% in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776878364554_0",
+      "timestamp": "2026-04-22T17:19:24.554023+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results. The results contain only general information about Polymarket's platform structure and some historical market data (from April 9-21, 2026), but they do not include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -31,25 +130,62 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776878283113_1",
-      "timestamp": "2026-04-22T17:18:03.113441+00:00",
+      "id": "sig_1776878364555_1",
+      "timestamp": "2026-04-22T17:19:24.555899+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavs End 14-Game Home Losing Streak, Beat Injury-Depleted Lakers 134-128 Behind Flagg's 45 Pts | NO (Lakers lose, hurt p",
-      "raw": "Mavs End 14-Game Home Losing Streak, Beat Injury-Depleted Lakers 134-128 Behind Flagg's 45 Pts | NO (Lakers lose, hurt playoff seeding) | HIGH confidence** [1][2][3]  \n\nLakers (50-28) dropped into a tie for 3rd in West with Denver after loss to Mavs (25-53), with injuries sidelining key players like Luka Doncic and Austin Reaves for regular season; LA holds tiebreaker over Nuggets[1][2].  \nCooper ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "WATCH",
+      "headline": "Current social media discussions or posts from traders on X",
+      "raw": "Current social media discussions or posts from traders on X",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776878364557_2",
+      "timestamp": "2026-04-22T17:19:24.557736+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale bets or smart money movements happening right now",
+      "raw": "Active whale bets or smart money movements happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776878364559_3",
+      "timestamp": "2026-04-22T17:19:24.559575+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market sentiment or trending discussion topics",
+      "raw": "Real-time market sentiment or trending discussion topics",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776878364563_5",
+      "timestamp": "2026-04-22T17:19:24.563410+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current assessments of mispriced markets",
+      "raw": "Current assessments of mispriced markets\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 2,
-    "watch": 1,
-    "high_conf": 0
+    "alert": 13,
+    "watch": 0,
+    "high_conf": 1
   }
 }
