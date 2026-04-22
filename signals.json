@@ -1,58 +1,134 @@
 {
-  "last_scan": "2026-04-22T12:06:58.702729+00:00",
-  "scan_seconds": 18.2,
+  "last_scan": "2026-04-22T12:08:10.411203+00:00",
+  "scan_seconds": 19.9,
   "markets_scanned": 79,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776859608517_0",
-      "timestamp": "2026-04-22T12:06:48.517690+00:00",
+      "id": "sig_1776859673678_0",
+      "timestamp": "2026-04-22T12:07:53.678905+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kevin Warsh Faces Tough Senate Confirmation Hearing on April 21, 2026, Amid Pressure on Fed Independence and Rate Cuts |",
-      "raw": "Kevin Warsh Faces Tough Senate Confirmation Hearing on April 21, 2026, Amid Pressure on Fed Independence and Rate Cuts | NO | HIGH confidence**  \nNo breaking announcements today (April 22, 2026) on inflation, tariffs, or Jerome Powell actions that resolve key uncertainties\u2014recent developments center on yesterday's hearing for Warsh as Trump's Fed chair nominee[3][4][5].[1][2]  \nPowell's Fed held r",
-      "direction": "NO",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]\n\nThis resolution, confirmed in April 2026, has triggered a **10% XRP price surge** over the past week, breaking above $1.50 resistance to settle at ~$1.42, signaling a fundamental shift in market sentiment and enabling broader institutional adoption.[1][2]\n\nSupporting developments include the **full-scale rollout of R",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
+        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776859680026_3",
+      "timestamp": "2026-04-22T12:08:00.026010+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Powell's Term Ending in May** | Confirmed | HIGH confidence \u2013 Jerome Powell's term as Fed chair is set to end in May 2",
+      "raw": "**Powell's Term Ending in May** | Confirmed | HIGH confidence \u2013 Jerome Powell's term as Fed chair is set to end in May 2026, with uncertainty about whether the April 28-29 meeting will be his last.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776859602914_0",
-      "timestamp": "2026-04-22T12:06:42.914658+00:00",
+      "id": "sig_1776859673682_1",
+      "timestamp": "2026-04-22T12:07:53.682347+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nSearch results show only price predictions (e.g., $1.52 target by April end), technical analyses (death cross, bullish April patterns), and unconfirmed speculations (quantum resistance roadmap, potential bank-crypto markup vote), with no evidence of fresh confirmations or official resolutions today.[1][2][3][4][5][6]",
-      "direction": "NO",
+      "headline": "Analyst consensus** post-resolution projects $2",
+      "raw": "Analyst consensus** post-resolution projects $2.71-$5.00 by year-end, with technical support at $1.30-$1.42 and resistance at $1.60-$1.75, positioning XRP for sustained uptrend amid historical April strength (avg. 24.8% returns since 2014).[1][3]",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
+        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776859617697_0",
-      "timestamp": "2026-04-22T12:06:57.697148+00:00",
+      "id": "sig_1776859680016_0",
+      "timestamp": "2026-04-22T12:08:00.016267+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active prediction markets right now focus on **Elon Musk's tweet volumes**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"1120-1159\" at 28% odds) and \"Elon Musk # tweets in April 2026?\" (with \"1120-1159\" at 18% odds), reflecting over $19M-$21M in trading volume across 20-131 active tw",
+      "headline": "Based on the search results provided, there is no breaking news from today (April 22, 2026) that matches your query crit",
+      "raw": "Based on the search results provided, there is no breaking news from today (April 22, 2026) that matches your query criteria. The most recent substantive developments are from April 21, 2026, which are congressional confirmation hearings for Kevin Warsh as Powell's successor\u2014not market-moving announcements about inflation, tariffs, or Powell himself.\n\nThe search results indicate:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859680019_1",
+      "timestamp": "2026-04-22T12:08:00.019276+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent Developments (Not Today):**",
+      "raw": "Recent Developments (Not Today):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859680022_2",
+      "timestamp": "2026-04-22T12:08:00.022482+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Warsh Confirmation Hearings** | Ongoing as of April 21 | HIGH confidence \u2013 Kevin Warsh faced Senate Banking Committee",
+      "raw": "**Warsh Confirmation Hearings** | Ongoing as of April 21 | HIGH confidence \u2013 Kevin Warsh faced Senate Banking Committee questioning about his stance on interest rates and Fed independence, but no confirmation vote or resolution has occurred yet.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776859617700_1",
-      "timestamp": "2026-04-22T12:06:57.700151+00:00",
+      "id": "sig_1776859680029_4",
+      "timestamp": "2026-04-22T12:08:00.029097+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq round-the-clock trading by June 30",
-      "raw": "Nasdaq round-the-clock trading by June 30?** appears among 166 broader Trending Markets, but lacks highlighted trader buzz or volume spikes[1].  \nConfidence remains **low** due to absence of real-time X sentiment or whale activity in results, with data slightly dated to April 21[1][4].",
+      "headline": "**No Rate Change Expected at April 28-29 Meeting** | Expected | HIGH confidence \u2013 Markets show a 99% probability that th",
+      "raw": "**No Rate Change Expected at April 28-29 Meeting** | Expected | HIGH confidence \u2013 Markets show a 99% probability that the Fed will hold rates steady at its upcoming meeting.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859680032_5",
+      "timestamp": "2026-04-22T12:08:00.032311+00:00",
+      "source": "PERPLEXITY",
+      "headline": "What Would Move Markets:**",
+      "raw": "What Would Move Markets:**\nMarkets are primarily awaiting three events: (1) the March inflation report (scheduled for release as of the April 8 article), (2) the April 28-29 FOMC decision, and (3) Warsh's Senate confirmation vote. None of these appear to have been resolved based on today's available search results.\n\nI cannot identify market-moving announcements from today specifically without more",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776859689408_0",
+      "timestamp": "2026-04-22T12:08:09.408149+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 tweets range), with over $19-21M in trading volume across 20-131 related markets[2][3]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -62,8 +138,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 3,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
