@@ -1,16 +1,70 @@
 {
-  "last_scan": "2026-04-22T17:36:39.004321+00:00",
-  "scan_seconds": 18.3,
+  "last_scan": "2026-04-22T17:37:48.139746+00:00",
+  "scan_seconds": 21.6,
   "markets_scanned": 50,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776879389021_0",
-      "timestamp": "2026-04-22T17:36:29.021842+00:00",
+      "id": "sig_1776879457764_1",
+      "timestamp": "2026-04-22T17:37:37.764267+00:00",
       "source": "PERPLEXITY",
-      "headline": "HIGH** confidence: Search results lack any April 22 announcements; prior data (12 days old) is unlikely to shift markets",
-      "raw": "HIGH** confidence: Search results lack any April 22 announcements; prior data (12 days old) is unlikely to shift markets now.[1][2]",
-      "direction": "NO",
+      "headline": "Core Details:**",
+      "raw": "Core Details:**\n\nThe March 2026 Consumer Price Index data, released on April 10, 2026, confirmed **headline inflation surged to 3.3% year-over-year**, marking the largest annual increase in nearly two years[5]. Headline CPI rose 0.87% in the month alone, driven primarily by a 10.9% spike in energy prices following the start of the Iran war[1]. Oil prices jumped 45% in a single month\u2014from an averag",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will annual inflation increase by 3.8% in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776879467130_1",
+      "timestamp": "2026-04-22T17:37:47.130962+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? 100% Resolved Already | YES | HIGH confidence**  \nThis market hit 100% on resolution, drawing X buzz on geopolitics with $12.3K liquidity; traders confirm end of active phase, shifting bets to timelines.[2]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776879457768_3",
+      "timestamp": "2026-04-22T17:37:37.768659+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market Impact:**",
+      "raw": "Market Impact:**\n\nThis data significantly alters inflation expectations and rate-cut probabilities. Goldman Sachs raised its December 2026 headline PCE inflation forecast by a full percentage point since the war began[1]. Short-term inflation expectations jumped one percentage point to 4.8% in the University of Michigan survey, while financial market-implied expectations for 2026 headline CPI infl",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776879449870_0",
+      "timestamp": "2026-04-22T17:37:29.870044+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: HIGH** (based on absence of real-time breaking indicators across sources)",
+      "raw": "Confidence: HIGH** (based on absence of real-time breaking indicators across sources).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776879457762_0",
+      "timestamp": "2026-04-22T17:37:37.762068+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE:** Iran War Drives U",
+      "raw": "HEADLINE:** Iran War Drives U.S. Inflation to 3.3% Year-Over-Year in March 2026, Highest in Nearly Two Years | YES | HIGH confidence",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,27 +72,24 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776879393192_0",
-      "timestamp": "2026-04-22T17:36:33.192117+00:00",
+      "id": "sig_1776879457766_2",
+      "timestamp": "2026-04-22T17:37:37.766284+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavs Crush Raptors in Game 2, Take Commanding 2-0 Series Lead | YES (Cavs favored to win series) | HIGH confidence** [5]",
-      "raw": "Cavs Crush Raptors in Game 2, Take Commanding 2-0 Series Lead | YES (Cavs favored to win series) | HIGH confidence** [5]\n\nBleacher Report reports the Cavaliers defeated the Toronto Raptors in Game 2, led by Donovan Mitchell (Spida) and James Harden, securing a 2-0 lead in the first-round playoff series.[5] This outcome, following their Game 1 win, resolves early uncertainty and shifts prediction m",
-      "direction": "YES",
+      "headline": "Core inflation** remained elevated at 2",
+      "raw": "Core inflation** remained elevated at 2.6% year-over-year, above pre-pandemic comfort levels[5]. This dual pressure\u2014both headline and core inflation staying high\u2014makes the Federal Reserve cautious about rate cuts[5].",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776879398000_0",
-      "timestamp": "2026-04-22T17:36:38.000858+00:00",
+      "id": "sig_1776879467128_0",
+      "timestamp": "2026-04-22T17:37:47.128823+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" outcome) and \"Elon Musk # tweets in April 2026?\" (e.g., 1120-1159 at 19% chance, 200-219 at 33%).[2][3][4] These dominate Tweet and Tweet Markets categories with over ",
+      "headline": "\ud835\udd4f Money Launch by April 30",
+      "raw": "\ud835\udd4f Money Launch by April 30? Traders Eyeing Elon Musk's X Developments | NO | HIGH confidence**  \nPolymarket's X predictions show \"\ud835\udd4f Money launched by April 30?\" at 16% YES odds with $33.6K volume and $4.4K liquidity, topping X-related markets as traders post about potential crypto payment rollouts amid Musk's tech moves.[2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -47,39 +98,65 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879384405_0",
-      "timestamp": "2026-04-22T17:36:24.405950+00:00",
+      "id": "sig_1776879467132_2",
+      "timestamp": "2026-04-22T17:37:47.132914+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade Approved, Slashing Finality to 200ms | YES | HIGH confidence**",
-      "raw": "Solana Alpenglow Upgrade Approved, Slashing Finality to 200ms | YES | HIGH confidence**  \nSolana validators approved the Alpenglow upgrade last week, redesigning consensus to reduce transaction finality from 12 seconds to under 200 milliseconds, enabling high-frequency trading and real-time payments\u2014positioning Solana ahead of Ethereum's L1 and L2 latency for consumer apps[1][2]. This non-incremen",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds Spark Mispricing Talk | NO | MED confidence**  \nAt 7% YES with $1.4K volume, X users flag it as undervalued NO bet on internal X drama, citing Bier's stability.[2]",
       "direction": "YES",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879384407_1",
-      "timestamp": "2026-04-22T17:36:24.407959+00:00",
+      "id": "sig_1776879467134_3",
+      "timestamp": "2026-04-22T17:37:47.134780+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Transactions Surge 41%, Pectra Upgrade Nears Final Testing | YES | MED confidence**",
-      "raw": "Ethereum Transactions Surge 41%, Pectra Upgrade Nears Final Testing | YES | MED confidence**  \nEthereum saw an 8.6% price rise to $2,377 with transactions up 41% weekly, fueled by L2 fee rebates (Base, Arbitrum) and tokenized treasuries, reclaiming activity leadership over Solana on value-settled basis[1]. Pectra (Prague-Electra) upgrade is in final testing as of April 18, boosting wallet abstract",
+      "headline": "Nasdaq 24/7 Trading by June 30",
+      "raw": "Nasdaq 24/7 Trading by June 30? Trending with Whale Volume | NO | MED confidence**  \nTrending at 20% YES ($43.9K vol), Polymarket traders on X debate mispriced finance shift post-regulatory hints, smart money leaning NO.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776879467136_4",
+      "timestamp": "2026-04-22T17:37:47.136658+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero to $1000 in 2026",
+      "raw": "Monero to $1000 in 2026? Crypto Whales Accumulating | NO | LOW confidence**  \n19% YES with high $94.3K volume; X posts highlight whale buys as undervalued longshot amid privacy coin hype.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776879461521_0",
+      "timestamp": "2026-04-22T17:37:41.521445+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2]\n\nThe Cleveland Cavaliers won Game 2 of their playoff series against the Toronto Raptors on April 21, 2026, in Cleveland, with Donovan Mitchell scoring 30 points, 7 rebounds, and 5 assists, and James Harden adding 28 points on efficient shooting[1][2]. Scottie Barnes led the Raptors with 26 points in th",
       "direction": "YES",
       "confidence": 0.6,
       "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 2,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 9,
+    "watch": 1,
+    "high_conf": 2
   }
 }
