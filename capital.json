@@ -1,5 +1,5 @@
 {
-  "ts": 1776840530,
+  "ts": 1776840600,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999804
+    "usdc_usd": 0.999876
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -305,14 +305,14 @@
     "position_count": 32,
     "positions_nav_usdc": 287.5667,
     "total_usdc": 403.5895,
-    "total_usd": 403.5104
+    "total_usd": 403.5395
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776840531,
+    "ts": 1776840601,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776754131,
+      "window_start_ts": 1776754201,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 92.8132,
@@ -423,7 +423,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776235731,
+      "window_start_ts": 1776235801,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -636,7 +636,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774248531,
+      "window_start_ts": 1774248601,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1062,7 +1062,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.5104,
+    "total_usd": 403.5395,
     "total_usdc": 403.5895
   }
 }
