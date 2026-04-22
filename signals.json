@@ -1,70 +1,151 @@
 {
-  "last_scan": "2026-04-22T13:42:08.731641+00:00",
-  "scan_seconds": 18.2,
+  "last_scan": "2026-04-22T13:43:23.966887+00:00",
+  "scan_seconds": 23.4,
   "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776865323487_0",
-      "timestamp": "2026-04-22T13:42:03.487419+00:00",
+      "id": "sig_1776865386828_0",
+      "timestamp": "2026-04-22T13:43:06.828574+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news from the provided search results that meets your criteria",
-      "raw": "I cannot identify any breaking news from the provided search results that meets your criteria. The search results contain current odds and market predictions as of April 21-22, 2026, but do not include any newly confirmed announcements, resolved outcomes, or market-moving events regarding the Cavaliers, a rookie, or specific playoff series results.\n\nThe most recent information shows the **Clevelan",
-      "direction": "YES",
+      "headline": "Based on the search results provided, I cannot identify any breaking news that has been \"just confirmed, announced, or r",
+      "raw": "Based on the search results provided, I cannot identify any breaking news that has been \"just confirmed, announced, or resolved\" as of today. The search results contain price predictions and analysis from mid-April 2026, but they are dated articles rather than real-time breaking news.\n\nThe most recent developments mentioned in the search results are:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776865386849_7",
+      "timestamp": "2026-04-22T13:43:06.849176+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum around $2,389",
+      "raw": "Ethereum around $2,389.72[4]\n\nSince the search results do not contain real-time breaking news updates or confirmed resolutions for today's date, I cannot provide the formatted response you requested. To answer your question accurately, I would need current market news sources or real-time data from April 22, 2026 at 1 PM UTC.",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776865323490_1",
-      "timestamp": "2026-04-22T13:42:03.490603+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confirmed playoff series results or eliminations",
-      "raw": "Confirmed playoff series results or eliminations",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776865323493_2",
-      "timestamp": "2026-04-22T13:42:03.493689+00:00",
+      "id": "sig_1776865386831_1",
+      "timestamp": "2026-04-22T13:43:06.831679+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official announcements about roster changes or injuries",
-      "raw": "Official announcements about roster changes or injuries",
+      "headline": "Key events referenced (with target dates):**",
+      "raw": "Key events referenced (with target dates):**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776865323496_3",
-      "timestamp": "2026-04-22T13:42:03.496437+00:00",
+      "id": "sig_1776865386837_3",
+      "timestamp": "2026-04-22T13:43:06.837468+00:00",
       "source": "PERPLEXITY",
-      "headline": "Resolved prediction market outcomes",
-      "raw": "Resolved prediction market outcomes\n\nNone of these elements are present in the current search results.",
+      "headline": "**CLARITY Act markup vote: Late April 2026** \u2014 Targeted for end of April with 55% Polymarket odds of passage, but no con",
+      "raw": "**CLARITY Act markup vote: Late April 2026** \u2014 Targeted for end of April with 55% Polymarket odds of passage, but no confirmation of voting results is present in these results.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776865386840_4",
+      "timestamp": "2026-04-22T13:43:06.840495+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**SEC roundtable: April 16, 2026** \u2014 Scheduled implementation details discussion, but no outcome reported",
+      "raw": "**SEC roundtable: April 16, 2026** \u2014 Scheduled implementation details discussion, but no outcome reported.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776865386843_5",
+      "timestamp": "2026-04-22T13:43:06.843326+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current price snapshot (from mid-April articles):**",
+      "raw": "Current price snapshot (from mid-April articles):**",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776865327729_0",
-      "timestamp": "2026-04-22T13:42:07.729153+00:00",
+      "id": "sig_1776865386846_6",
+      "timestamp": "2026-04-22T13:43:06.846106+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | LOW confidence**\n\nPolymarket's most active markets right now center on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and broader \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% probability (up from 18% recently) amid $19.1M+ volume across 20+ tweet markets[1][2][3]. No ",
+      "headline": "XRP trading around $1",
+      "raw": "XRP trading around $1.42\u2013$1.44[2][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776865394345_0",
+      "timestamp": "2026-04-22T13:43:14.345034+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, here are the key developments:",
+      "raw": "Based on the search results provided, here are the key developments:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776865394348_1",
+      "timestamp": "2026-04-22T13:43:14.348798+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Criticizes Fed's Inflation Handling | YES | HIGH confidence**",
+      "raw": "Kevin Warsh Criticizes Fed's Inflation Handling | YES | HIGH confidence**\n\nKevin Warsh, President Trump's nominee to replace Jerome Powell as Federal Reserve chair, criticized the Fed for \"fatal policy errors\" in 2021 and 2022 that allowed inflation to soar during his Senate confirmation hearing on April 4, 2026.[2] Warsh stated that \"once you let inflation take hold of the economy, it's more expe",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776865394355_3",
+      "timestamp": "2026-04-22T13:43:14.355506+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump Seeks Lower Interest Rates Despite Inflation Concerns | YES | HIGH confidence**",
+      "raw": "Trump Seeks Lower Interest Rates Despite Inflation Concerns | YES | HIGH confidence**\n\nPresident Trump told the Wall Street Journal he wants the Fed to cut rates to 1% or lower by the end of 2026, while the current Fed rate stands at 3.5-3.7%.[3] This creates tension with current inflation concerns and Warsh's stated inflation-fighting priorities during his confirmation hearing.[3]\n\nThese developm",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776865402963_0",
+      "timestamp": "2026-04-22T13:43:22.963334+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4]. The",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Elon Musk post 1040-1079 tweets in April 2026?"
@@ -72,12 +153,59 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776865386834_2",
+      "timestamp": "2026-04-22T13:43:06.834566+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Iran ceasefire expiration: April 22, 2026** \u2014 This was positioned as a critical date that could confirm or unwind XRP'",
+      "raw": "**Iran ceasefire expiration: April 22, 2026** \u2014 This was positioned as a critical date that could confirm or unwind XRP's rally, but the search results do not confirm whether this has been resolved or extended.[2]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will XRP reach $1.50 April 20-26?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776865394351_2",
+      "timestamp": "2026-04-22T13:43:14.351769+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Acknowledges Iran War Energy Spike Impact on Inflation | YES | HIGH confidence**",
+      "raw": "Powell Acknowledges Iran War Energy Spike Impact on Inflation | YES | HIGH confidence**\n\nFederal Reserve Chair Jerome Powell stated it is important to closely monitor inflation expectations amid energy price spikes from the Iran war, as gas prices approached $4 per gallon.[1] Powell noted the Fed has limited ability to address energy shocks through monetary policy since they \"tend to come and go p",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776865398883_0",
+      "timestamp": "2026-04-22T13:43:18.883898+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers take 2-0 series lead over Rockets in Game 2 with 101-94 win, pulling off never-before-seen playoff feat** | YES |",
+      "raw": "Lakers take 2-0 series lead over Rockets in Game 2 with 101-94 win, pulling off never-before-seen playoff feat** | YES | HIGH[1][2][5]\n\nLakers defeated Houston Rockets 101-94 on Tuesday night (April 21, 2026), now leading first-round series 2-0 despite absences of Luka Doncic and Austin Reaves; LeBron James and defense (praised by JJ Redick) key in both games[1][2][3][5].  \nKevin Durant's knee inj",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
-    "watch": 0,
+    "enter": 0,
+    "alert": 11,
+    "watch": 3,
     "high_conf": 2
   }
 }
