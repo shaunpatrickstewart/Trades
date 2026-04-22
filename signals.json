@@ -1,43 +1,44 @@
 {
-  "last_scan": "2026-04-22T01:12:07.899455+00:00",
-  "scan_seconds": 19.8,
+  "last_scan": "2026-04-22T01:13:09.885662+00:00",
+  "scan_seconds": 21.6,
   "markets_scanned": 67,
   "open_positions": 26,
   "signals": [
     {
-      "id": "sig_1776820321065_0",
-      "timestamp": "2026-04-22T01:12:01.065356+00:00",
+      "id": "sig_1776820388877_0",
+      "timestamp": "2026-04-22T01:13:08.877145+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers beat Raptors 115-105 in Game 2, take 2-0 series lead** | NO | HIGH confidence[2]",
-      "raw": "Cavaliers beat Raptors 115-105 in Game 2, take 2-0 series lead** | NO | HIGH confidence[2]",
-      "direction": "NO",
+      "headline": "Elon Musk Tweet Count Markets Resolved at 220-239 (100% YES)** | YES | HIGH",
+      "raw": "Elon Musk Tweet Count Markets Resolved at 220-239 (100% YES)** | YES | HIGH  \nPolymarket's most active tweet market, \"Elon Musk # tweets April 14 - April 21, 2026?\", has resolved to 220-239 at 100% probability, reflecting confirmed tweet totals that drove final trading volume over $28M across 20 active markets.[4] Traders on X are likely buzzing about this resolution as a major pop culture event, ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776820379373_0",
+      "timestamp": "2026-04-22T01:12:59.373489+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trump's Fed Chair Nominee Kevin Warsh Testifies on Inflation Target Amid Tariff-Driven Price Surge; Powell to Stay Inter",
+      "raw": "Trump's Fed Chair Nominee Kevin Warsh Testifies on Inflation Target Amid Tariff-Driven Price Surge; Powell to Stay Interim Post-April Term End | YES | HIGH confidence** [1][2][3][4][5]\n\nPowell's term as Fed Chair ends next month (May 2026), but he confirmed he will serve as interim chair until Warsh's confirmation, ensuring continuity amid tariff-induced inflation[4]. Warsh testified Tuesday (Apri",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776820321067_1",
-      "timestamp": "2026-04-22T01:12:01.067927+00:00",
+      "id": "sig_1776820388879_1",
+      "timestamp": "2026-04-22T01:13:08.879886+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors rule out key guard Immanuel Quickley for Game 2** | NO | HIGH confidence[2]",
-      "raw": "Raptors rule out key guard Immanuel Quickley for Game 2** | NO | HIGH confidence[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776820326893_0",
-      "timestamp": "2026-04-22T01:12:06.893859+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Market Leads Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Market Leads Polymarket Activity | NO | HIGH confidence**  \nPolymarket traders are focusing on short-term X post volume markets like \"Elon Musk # tweets April 24 - May 1, 2026?\", with $468.1K trading volume and consensus at 240-299 tweets based on his recent 29 daily average amid Tesla, SpaceX, and DOGE updates[2]. No whale bets, smart money moves, mispriced markets, or predi",
+      "headline": "Elon Musk April 2026 Tweet Volume Buckets Trading Heavily (1080-1119 at 18%)** | N/A | HIGH",
+      "raw": "Elon Musk April 2026 Tweet Volume Buckets Trading Heavily (1080-1119 at 18%)** | N/A | HIGH  \nCurrent top market \"Elon Musk # tweets in April 2026?\" shows crowd pricing 1080-1119 at 18%, amid ongoing trading across pop culture tweet predictions with volumes in the millions; no specific whale bets or mispricing calls noted in recent data.[2] This dynamic market updates continuously with new trader ",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -46,23 +47,40 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776820326896_1",
-      "timestamp": "2026-04-22T01:12:06.896415+00:00",
+      "id": "sig_1776820388882_2",
+      "timestamp": "2026-04-22T01:13:08.882559+00:00",
       "source": "PERPLEXITY",
-      "headline": "Zelenskyy and NYC Mayor Tweet Markets Show Split Odds | NO | MED confidence**",
-      "raw": "Zelenskyy and NYC Mayor Tweet Markets Show Split Odds | NO | MED confidence**  \nZelenskyy market frontrunners are \"60-79\" and \"100-119\" posts at 26% each for April 24-May 1[4]; NYC Mayor market is active but lacks specific odds or volume in reports[5]. Trending markets (165 total, $3.0M volume) include niche bets like Nasdaq 24/7 trading, but no X posts highlight mispricing or imminent moves[3].",
-      "direction": "NO",
+      "headline": "GTA VI Release Before June 2026 Odds at 1% (Potentially Mispriced",
+      "raw": "GTA VI Release Before June 2026 Odds at 1% (Potentially Mispriced?)** | NO | MED  \nNews Stories market \"GTA VI released before June 2026?\" trades at 1% YES with $14M volume and $61.3K liquidity, ending in ~1 month; low odds amid 102 active markets ($51.8M total vol) may attract contrarian bets if no delays confirmed.[3] No fresh announcements resolved, but high volume suggests trader conviction ag",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776820374175_0",
+      "timestamp": "2026-04-22T01:12:54.175382+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking confirmations, announcements, or resolutions RIGHT NOW that would move prediction markets for April trends i",
+      "raw": "No breaking confirmations, announcements, or resolutions RIGHT NOW that would move prediction markets for April trends in XRP, Ethereum, or Bitcoin.| NO | HIGH confidence**\n\nCurrent search results highlight ongoing market analysis and price movements rather than fresh, confirmed events. Ethereum shows **early recovery signs** with bullish patterns, RSI near oversold, Ethereum Foundation staking 70",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Strait of Hormuz traffic returns to normal by end of April?",
+        "Bitcoin above 74,400 on April 21, 10PM ET?",
+        "Will Ethereum reach $2,400 April 20-26?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 4,
-    "watch": 0,
-    "high_conf": 0
+    "watch": 1,
+    "high_conf": 1
   }
 }
