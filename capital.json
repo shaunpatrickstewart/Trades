@@ -1,5 +1,5 @@
 {
-  "ts": 1776870025,
+  "ts": 1776870095,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -44,10 +44,10 @@
         "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
         "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
         "size": 29.21,
-        "cur_price": 0.997,
-        "nav_usdc": 29.1224,
+        "cur_price": 0.9995,
+        "nav_usdc": 29.1954,
         "cost_basis": 28.9179,
-        "unrealized_pnl": 0.2045
+        "unrealized_pnl": 0.2775
       },
       {
         "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
@@ -134,10 +134,10 @@
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.19,
-        "nav_usdc": 1.4554,
+        "cur_price": 0.195,
+        "nav_usdc": 1.4937,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.3064
+        "unrealized_pnl": -0.2681
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.14,
-        "nav_usdc": 0.707,
+        "cur_price": 0.1409,
+        "nav_usdc": 0.7115,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.9847
+        "unrealized_pnl": -0.9802
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.1806,
-    "total_usdc": 404.1172,
-    "total_usd": 404.0114
+    "positions_nav_usdc": 317.2965,
+    "total_usdc": 404.2331,
+    "total_usd": 404.1272
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776870026,
+    "ts": 1776870096,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776783626,
+      "window_start_ts": 1776783696,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 117.6809,
@@ -461,7 +461,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776265226,
+      "window_start_ts": 1776265296,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -674,7 +674,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774278026,
+      "window_start_ts": 1774278096,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1100,7 +1100,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.0114,
-    "total_usdc": 404.1172
+    "total_usd": 404.1272,
+    "total_usdc": 404.2331
   }
 }

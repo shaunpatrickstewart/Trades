@@ -1,19 +1,18 @@
 {
-  "last_scan": "2026-04-22T15:00:41.658407+00:00",
-  "scan_seconds": 24.8,
+  "last_scan": "2026-04-22T15:01:40.482987+00:00",
+  "scan_seconds": 19.9,
   "markets_scanned": 58,
   "open_positions": 19,
   "signals": [
     {
-      "id": "sig_1776870034098_0",
-      "timestamp": "2026-04-22T15:00:34.098772+00:00",
+      "id": "sig_1776870094356_0",
+      "timestamp": "2026-04-22T15:01:34.356778+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win; Cavaliers Advance to Eastern Conference Final",
-      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win; Cavaliers Advance to Eastern Conference Finals** | YES | HIGH confidence\n\nLakers hold a **2-0 series lead** over the Houston Rockets in the Western Conference semifinals, with Game 3 scheduled for April 24.[1] This result, confirmed via the latest NBA playoffs bracket, strengthens predictions favoring the **Los Angeles Lake",
+      "headline": "Cavaliers take 2-0 lead over Raptors in Eastern Conference First Round after Game 2 win on April 20** | NO | HIGH confid",
+      "raw": "Cavaliers take 2-0 lead over Raptors in Eastern Conference First Round after Game 2 win on April 20** | NO | HIGH confidence[1][2][3]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 of their Eastern Conference first-round playoff series on Monday, April 20, 2026, powered by 30 points from Donovan Mitchell, 28 from James Harden, and 25 from Evan Mobley for a combined 83 poin",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
@@ -22,12 +21,27 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776870022563_0",
-      "timestamp": "2026-04-22T15:00:22.563176+00:00",
+      "id": "sig_1776870090117_0",
+      "timestamp": "2026-04-22T15:01:30.117117+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC lawsuit against Ripple resolved, boosting XRP surge in April 2026 | YES | HIGH confidence**",
-      "raw": "SEC lawsuit against Ripple resolved, boosting XRP surge in April 2026 | YES | HIGH confidence**  \nThe SEC has dropped its long-running lawsuit against Ripple Labs, removing a major overhang and driving XRP's 10% monthly gain, breakout above $1.50 (now ~$1.42), and renewed institutional interest in cross-border payments[2][4][5]. This resolution, highlighted as a fundamental shift after years of su",
+      "headline": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | HIGH confidence[3]",
+      "raw": "US-Iran Ceasefire Extended (April 22, 2026)** | YES | HIGH confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) highlights Iran war-driven energy spikes pushing headline CPI to 3.29% YoY and PCE to 3.45% in March, with oil jumping 45% to $103/barrel, though core inflation decelerates and forecasts easing to 2.2% PCE by late 2026 amid fading tariffs[1]. Today's market wrap confi",
       "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will annual inflation increase by 3.8% in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776870085737_0",
+      "timestamp": "2026-04-22T15:01:25.737175+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysts split on XRP April targets ($1",
+      "raw": "Analysts split on XRP April targets ($1.15 bearish vs. $1.60), with whale accumulation (1.3B XRP added early March) and reduced exchange supply signaling potential upside, but no new triggers.[1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will XRP reach $1.50 April 20-26?"
@@ -37,14 +51,15 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870022567_1",
-      "timestamp": "2026-04-22T15:00:22.567095+00:00",
+      "id": "sig_1776870085739_1",
+      "timestamp": "2026-04-22T15:01:25.739938+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Foundation stakes 70,000 ETH ($143M), easing supply pressure amid ETF inflows and network growth | YES | MED co",
-      "raw": "Ethereum Foundation stakes 70,000 ETH ($143M), easing supply pressure amid ETF inflows and network growth | YES | MED confidence**  \nEthereum shows recovery signs at $2,184 with bullish patterns, RSI near oversold, and converging moving averages; on-chain data reports record Wrapped Ethereum (WETH) growth (32,058 new wallets, 46,650 active\u201416x and 3x norms), plus $11.6B net inflows to U.S. spot ET",
-      "direction": "YES",
+      "headline": "Ethereum pattern suggests 170% rally potential to $8,500 (echoing 2021), bottoming vs",
+      "raw": "Ethereum pattern suggests 170% rally potential to $8,500 (echoing 2021), bottoming vs. BTC in April; XRP ETFs hold $1B AUM.[2]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
+        "Will XRP reach $1.50 April 20-26?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ALERT",
@@ -52,12 +67,12 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870022571_2",
-      "timestamp": "2026-04-22T15:00:22.571575+00:00",
+      "id": "sig_1776870085742_2",
+      "timestamp": "2026-04-22T15:01:25.742179+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin stable at $70,778 amid macro uncertainty, holds leadership but range-bound | NO | HIGH confidence**",
-      "raw": "Bitcoin stable at $70,778 amid macro uncertainty, holds leadership but range-bound | NO | HIGH confidence**  \nBTC dipped 1.1% in 24h (range $70,540\u2013$71,932) with no new confirmations or resolutions; it leads but lacks upside catalysts like ETH staking or XRP legal wins[1].  \n\nNo other confirmed announcements (e.g., CLARITY Act passage or JPMorgan/Citi leaks) qualify as breaking news resolved today",
-      "direction": "NO",
+      "headline": "Speculative XRP \"quantum resistance by 2028\" talk amid BTC >$76K, but unconfirmed theory",
+      "raw": "Speculative XRP \"quantum resistance by 2028\" talk amid BTC >$76K, but unconfirmed theory.[3]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -65,12 +80,25 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776870040646_0",
-      "timestamp": "2026-04-22T15:00:40.646500+00:00",
+      "id": "sig_1776870085744_3",
+      "timestamp": "2026-04-22T15:01:25.744342+00:00",
       "source": "PERPLEXITY",
-      "headline": "I don't have access to real-time information about what Polymarket traders are currently posting, discussing, or betting",
-      "raw": "I don't have access to real-time information about what Polymarket traders are currently posting, discussing, or betting on right now. The search results provided show only general information about Polymarket's platform structure and some historical market examples from April 2026, but they don't contain current trading activity, whale bets, social media discussions, or live market movements.\n\nTo",
+      "headline": "Confidence: HIGH** (search results lack any post-April 19 updates or real-time confirmations)",
+      "raw": "Confidence: HIGH** (search results lack any post-April 19 updates or real-time confirmations).[1][2][3][4][5]",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776870099475_0",
+      "timestamp": "2026-04-22T15:01:39.475623+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**\n\nPolymarket's most active markets as of April 21, 2026, focus on **Elon Musk tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 1120-1159 at 28% implied probability) and \"Elon Musk musk # tweets in April 2026?\" with similar high-volume bins around 18-28% odds[2][3][4].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -78,12 +106,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776870040648_1",
-      "timestamp": "2026-04-22T15:00:40.648706+00:00",
+      "id": "sig_1776870099477_1",
+      "timestamp": "2026-04-22T15:01:39.477868+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Visit Polymarket directly** to see live market odds and trading volume on specific prediction markets",
-      "raw": "**Visit Polymarket directly** to see live market odds and trading volume on specific prediction markets",
-      "direction": null,
+      "headline": "Tweet Markets** overall show $19",
+      "raw": "Tweet Markets** overall show $19.1M+ in trading volume across 20-131 active markets, with real-time odds shifting on new data like tweet activity[2][3][4].  \nNo search results mention **whale bets, smart money moves, prediction tips, mispriced markets, or recent confirmations/announcements** impacting odds; data reflects general trader sentiment without X-specific posts or breaking resolutions[1][",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -91,49 +119,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776870040650_2",
-      "timestamp": "2026-04-22T15:00:40.650828+00:00",
+      "id": "sig_1776870099479_2",
+      "timestamp": "2026-04-22T15:01:39.479967+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Check social media platforms** (X/Twitter, Discord, Telegram) where prediction market traders discuss strategies and o",
-      "raw": "**Check social media platforms** (X/Twitter, Discord, Telegram) where prediction market traders discuss strategies and opportunities",
+      "headline": "Trending Markets** category has 166 live options with $3M+ volume on topics like Nasdaq trading changes, but lacks real-",
+      "raw": "Trending Markets** category has 166 live options with $3M+ volume on topics like Nasdaq trading changes, but lacks real-time X trader buzz details[1].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776870040653_3",
-      "timestamp": "2026-04-22T15:00:40.653013+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Monitor crypto trading forums** and prediction market communities for real-time discussion of mispriced markets",
-      "raw": "**Monitor crypto trading forums** and prediction market communities for real-time discussion of mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776870040655_4",
-      "timestamp": "2026-04-22T15:00:40.655320+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Review recent news** to identify events that might trigger market movements",
-      "raw": "**Review recent news** to identify events that might trigger market movements\n\nThe search results confirm that Polymarket aggregates real-time odds based on trading volume and that prices update dynamically as new information emerges[3], but they don't provide the breaking news or current trader sentiment you're asking about.",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 7,
-    "watch": 1,
+    "alert": 8,
+    "watch": 0,
     "high_conf": 1
   }
 }
