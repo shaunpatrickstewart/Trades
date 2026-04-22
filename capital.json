@@ -1,5 +1,5 @@
 {
-  "ts": 1776899180,
+  "ts": 1776899250,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999724
+    "usdc_usd": 0.999789
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -152,10 +152,10 @@
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
         "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
         "size": 7.5664,
-        "cur_price": 0.62,
-        "nav_usdc": 4.6912,
+        "cur_price": 0.615,
+        "nav_usdc": 4.6533,
         "cost_basis": 4.1615,
-        "unrealized_pnl": 0.5297
+        "unrealized_pnl": 0.4918
       },
       {
         "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.7687,
-    "total_usdc": 403.7053,
-    "total_usd": 403.5939
+    "positions_nav_usdc": 316.7308,
+    "total_usdc": 403.6674,
+    "total_usd": 403.5823
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776899181,
+    "ts": 1776899253,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776812781,
+      "window_start_ts": 1776812853,
       "realized_usdc": 0.0,
       "trade_count": 6,
       "buy_volume_usdc": 86.8923,
@@ -441,7 +441,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776294381,
+      "window_start_ts": 1776294453,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -654,7 +654,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774307181,
+      "window_start_ts": 1774307253,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1080,7 +1080,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.5939,
-    "total_usdc": 403.7053
+    "total_usd": 403.5823,
+    "total_usdc": 403.6674
   }
 }
