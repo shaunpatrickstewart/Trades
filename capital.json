@@ -1,5 +1,5 @@
 {
-  "ts": 1776884580,
+  "ts": 1776884650,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999745
+    "usdc_usd": 0.999749
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1305,
-        "nav_usdc": 0.659,
+        "cur_price": 0.131,
+        "nav_usdc": 0.6615,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.0327
+        "unrealized_pnl": -1.0301
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -269,10 +269,10 @@
         "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.95,
-        "cur_price": 0.545,
-        "nav_usdc": 2.6978,
+        "cur_price": 0.54,
+        "nav_usdc": 2.673,
         "cost_basis": 1.683,
-        "unrealized_pnl": 1.0148
+        "unrealized_pnl": 0.99
       },
       {
         "slug": "will-orlando-magic-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -305,10 +305,10 @@
         "slug": "will-detroit-pistons-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9242,
-        "cur_price": 0.305,
-        "nav_usdc": 1.5019,
+        "cur_price": 0.3,
+        "nav_usdc": 1.4773,
         "cost_basis": 0.8371,
-        "unrealized_pnl": 0.6648
+        "unrealized_pnl": 0.6402
       },
       {
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.154,
-    "total_usdc": 404.0906,
-    "total_usd": 403.9875
+    "positions_nav_usdc": 317.1071,
+    "total_usdc": 404.0437,
+    "total_usd": 403.9423
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776884581,
+    "ts": 1776884651,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776798181,
+      "window_start_ts": 1776798251,
       "realized_usdc": 0.0,
       "trade_count": 7,
       "buy_volume_usdc": 86.8923,
@@ -451,7 +451,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776279781,
+      "window_start_ts": 1776279851,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -664,7 +664,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774292581,
+      "window_start_ts": 1774292651,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1090,7 +1090,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.9875,
-    "total_usdc": 404.0906
+    "total_usd": 403.9423,
+    "total_usdc": 404.0437
   }
 }
