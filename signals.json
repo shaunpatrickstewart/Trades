@@ -1,82 +1,56 @@
 {
-  "last_scan": "2026-04-22T01:38:29.703865+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-22T01:39:38.548305+00:00",
+  "scan_seconds": 18.0,
   "markets_scanned": 53,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776821898424_0",
-      "timestamp": "2026-04-22T01:38:18.424263+00:00",
+      "id": "sig_1776821964223_0",
+      "timestamp": "2026-04-22T01:39:24.223475+00:00",
       "source": "PERPLEXITY",
-      "headline": "UK GDP Growth Confirmed Unrevised at 0",
-      "raw": "UK GDP Growth Confirmed Unrevised at 0.1% QoQ and 1% YoY in Q4 2025 | YES | HIGH confidence**  \nThe UK economy expanded by 0.1% quarter-on-quarter in Q4 2025 (October-December), matching preliminary estimates and the prior quarter's pace, with production up 1.2% led by manufacturing; year-on-year growth was 1%, the slowest since Q1 2024.[4]  \nThis final confirmation 25 minutes ago aligns exactly w",
+      "headline": "US-Iran Two-Week Ceasefire Confirmed | YES | HIGH confidence**",
+      "raw": "US-Iran Two-Week Ceasefire Confirmed | YES | HIGH confidence**  \nA two-week ceasefire between the US and Iran has been announced, easing geopolitical tensions and boosting risk appetite, with Bitcoin climbing to $72,000, Ethereum to $2,200 (rallying over 6% weekly and closing above key resistance), and XRP to $1.38 (up 4.35% daily after $1.30 support).[4]  \nThis resolution directly counters prior ",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Strait of Hormuz traffic returns to normal by end of April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776821977542_0",
+      "timestamp": "2026-04-22T01:39:37.542629+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows \"Nasdaq round-the-clock trading by June 30?\" at 22% YES odds with $43.9K volume, indicating traders heavily favor NO amid 165 active Trending Markets as of April 21, 2026[1]. Real-time odds reflect strong financial conviction against implementation in under 2 months[1].",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776821968423_0",
+      "timestamp": "2026-04-22T01:39:28.423855+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No breaking GDP news confirmed, announced, or resolved right now that would move prediction markets",
+      "raw": "No breaking GDP news confirmed, announced, or resolved right now that would move prediction markets.**[1][2]\n\nThe most recent US GDP development\u2014a downgrade of Q4 2025 growth to 0.5%\u2014was released on April 9, 2026, over two weeks ago, with no newer national figures today.[1] Other items like state GDP records (e.g., California, Texas) or projections (e.g., AI spending, Australia defense) are from A",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776821904274_3",
-      "timestamp": "2026-04-22T01:38:24.274407+00:00",
+      "id": "sig_1776821977544_1",
+      "timestamp": "2026-04-22T01:39:37.544744+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Flagg suffered an ankle sprain** during his rookie season[1]",
-      "raw": "**Flagg suffered an ankle sprain** during his rookie season[1]\n\nHowever, none of these constitute breaking developments as of April 22, 2026, nor do they directly address current playoff or conference semifinal status that would move prediction markets today. To provide accurate breaking news analysis, I would need current search results from April 22, 2026 that contain today's announcements or co",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776821904268_0",
-      "timestamp": "2026-04-22T01:38:24.268267+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news update you're requesting in the format specified",
-      "raw": "I cannot provide the breaking news update you're requesting in the format specified. The search results provided are from April 13, 2026 and earlier, which are **9+ days old** relative to the current date of April 22, 2026. They do not contain breaking news or recent announcements from today.\n\nThe available information shows:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776821904270_1",
-      "timestamp": "2026-04-22T01:38:24.270309+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Cooper Flagg's rookie season ended** with a Mavericks win against the Lakers, where he scored 45 points[2]",
-      "raw": "**Cooper Flagg's rookie season ended** with a Mavericks win against the Lakers, where he scored 45 points[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776821904272_2",
-      "timestamp": "2026-04-22T01:38:24.272283+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**The Mavericks' playoff positioning** was affected by their final game result, dropping their lottery odds[1]",
-      "raw": "**The Mavericks' playoff positioning** was affected by their final game result, dropping their lottery odds[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776821908698_0",
-      "timestamp": "2026-04-22T01:38:28.698988+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Surge in Volume | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Surge in Volume | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (30% on 200-219, $5M volume) and \"Elon Musk musk # tweets in April 2026?\" (18% on 1080-1119, $9M volume, $501K today).[1][2][4] Crowd odds show 86% chance for",
+      "headline": "Elon Musk # Tweets April 17-24, 2026 | NO (for high ranges) | MED confidence**",
+      "raw": "Elon Musk # Tweets April 17-24, 2026 | NO (for high ranges) | MED confidence**  \nActive tweet markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" show outcomes such as 200-219 at 29% and broader April ranges (e.g., 1080-1119 at 18%) signaling traders betting against extreme activity, with $17.1M total volume across 130+ markets[2][3][4]. No whale bets or mispricing tips noted in current d",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -85,23 +59,27 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776821908700_1",
-      "timestamp": "2026-04-22T01:38:28.700934+00:00",
+      "id": "sig_1776821973125_0",
+      "timestamp": "2026-04-22T01:39:33.125023+00:00",
       "source": "PERPLEXITY",
-      "headline": "X Ban in Europe by Dec 31 | NO | LOW confidence**",
-      "raw": "X Ban in Europe by Dec 31 | NO | LOW confidence**  \nMarket at 37% yes ($7.2K volume); no trader buzz or resolutions noted.[3]",
+      "headline": "Cavaliers go up 2-0 on Raptors in Eastern Conference First Round | YES | HIGH confidence**",
+      "raw": "Cavaliers go up 2-0 on Raptors in Eastern Conference First Round | YES | HIGH confidence**  \nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday, April 20, securing a 2-0 series lead after never trailing, with Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points) combining for 83 points.[1][4][5] This extends Cleveland's playoff win streak",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 1
   }
 }
