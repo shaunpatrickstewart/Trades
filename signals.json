@@ -1,49 +1,58 @@
 {
-  "last_scan": "2026-04-22T07:24:21.169681+00:00",
-  "scan_seconds": 20.6,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-22T07:25:31.839549+00:00",
+  "scan_seconds": 21.3,
+  "markets_scanned": 77,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776842643697_0",
-      "timestamp": "2026-04-22T07:24:03.697271+00:00",
+      "id": "sig_1776842720753_0",
+      "timestamp": "2026-04-22T07:25:20.753317+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst driving XRP's April 2026 surge, with the token gaining nearly 10% in the past week to break above $1.50 before settling at ~$1.42, signaling a fundamental shift in market sentiment.[1]  \nThis resolution removes a major regulatory ",
+      "headline": "April 2 Tariff Suspension Confirmed: 90-Day Pause on Major Increases, Retaining 10% Universal Tariff Amid Negotiations**",
+      "raw": "April 2 Tariff Suspension Confirmed: 90-Day Pause on Major Increases, Retaining 10% Universal Tariff Amid Negotiations** | YES | HIGH confidence[3]\n\nFederal Reserve Governor Waller confirmed in his April 14 speech that substantial portions of the April 2, 2026 tariff hikes\u2014deemed \"dramatically larger\" than expected\u2014were suspended last Wednesday (April 15) for 90 days to enable negotiations reducin",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776842652541_0",
-      "timestamp": "2026-04-22T07:24:12.541227+00:00",
+      "id": "sig_1776842720770_3",
+      "timestamp": "2026-04-22T07:25:20.770928+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Beat Raptors 115-105 in Game 2, Take 2-0 Playoff Series Lead | NO | HIGH confidence**",
-      "raw": "Cavaliers Beat Raptors 115-105 in Game 2, Take 2-0 Playoff Series Lead | NO | HIGH confidence**  \nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on April 20, 2026, securing a 2-0 lead in their Eastern Conference first-round playoff series, with Donovan Mitchell scoring 30 points and James Harden adding 28.[1][5] Raptors point guard Immanuel Quickley was confirmed out for Game 2 due t",
-      "direction": "NO",
-      "confidence": 0.9,
+      "headline": "**Powell/Fed Context**: Powell (Dec 2025 remarks) flagged tariff-driven goods inflation peaking Q1 2026 (absent further",
+      "raw": "**Powell/Fed Context**: Powell (Dec 2025 remarks) flagged tariff-driven goods inflation peaking Q1 2026 (absent further rounds), with labor market weaker than data shows (payrolls overstating by ~60k/month); Fed \"looking through\" one-time effects as core non-tariff inflation nears 2%[2]. Waller's outlook aligns, noting Q1 GDP dip from import surge but strong jobs (228k in March)[3].",
+      "direction": null,
+      "confidence": 0.78,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?",
-        "Will the Pittsburgh Steelers draft a quarterback in the first round of the 2026 "
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776842648565_0",
-      "timestamp": "2026-04-22T07:24:08.565359+00:00",
+      "id": "sig_1776842720760_1",
+      "timestamp": "2026-04-22T07:25:20.760745+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady at 3",
-      "raw": "Fed Holds Rates Steady at 3.50%-3.75% in March 2026 FOMC Meeting Amid Elevated Inflation and Oil Spike Risks | NO | HIGH confidence**  \nThe Federal Reserve's FOMC issued a statement on March 18, 2026, maintaining the federal funds rate target at 3\u00bd to 3\u00be percent, noting solid economic activity, low job gains, stable unemployment, and **somewhat elevated inflation** with uncertainty from Middle Eas",
+      "headline": "Key Impacts Relevant to Powell, GDP, and Markets**:",
+      "raw": "Key Impacts Relevant to Powell, GDP, and Markets**:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776842720763_2",
+      "timestamp": "2026-04-22T07:25:20.763820+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Tariff Effects on GDP and Inflation**: Yale Budget Lab estimates current regime (post-suspension) shrinks long-run U",
+      "raw": "**Tariff Effects on GDP and Inflation**: Yale Budget Lab estimates current regime (post-suspension) shrinks long-run U.S. GDP by 0.1% ($27B annually), with 2026 growth temporarily boosted vs. 2025 but manufacturing gains offset by 2.0% construction contraction; Section 122's 10% tariffs expire in 150 days unless extended, dropping effective rates from 11.0% to 8.2%[1]. Waller forecasts significant",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -54,118 +63,77 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776842648568_1",
-      "timestamp": "2026-04-22T07:24:08.568563+00:00",
+      "id": "sig_1776842730826_0",
+      "timestamp": "2026-04-22T07:25:30.826932+00:00",
       "source": "PERPLEXITY",
-      "headline": "Inflation** is projected to accelerate to 3",
-      "raw": "Inflation** is projected to accelerate to 3.5% PCE by **April 2026** due to oil spikes, with core PCE at 2.6% by year-end per IMF; no cuts expected unless labor worsens significantly.[1][2]",
+      "headline": "Iran x Israel/US Conflict End Date Market at 100% Odds for Dec 31 | NO (no whale bets, smart money moves, or X posts rep",
+      "raw": "Iran x Israel/US Conflict End Date Market at 100% Odds for Dec 31 | NO (no whale bets, smart money moves, or X posts reported) | LOW confidence**  \nPolymarket's most active X-related market prices a 100% chance the Iran-Israel/US conflict ends by December 31, 2026, amid 1,370+ live X prediction markets with $152.4M total volume, but no real-time X chatter on whales, tips, or mispriced bets is deta",
       "direction": "NO",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776842730830_1",
+      "timestamp": "2026-04-22T07:25:30.830081+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launch Date & Nikita Bier Exit Markets Heating Up | NO (no confirmed announcements or resolutions) | LOW confide",
+      "raw": "\ud835\udd4f Money Launch Date & Nikita Bier Exit Markets Heating Up | NO (no confirmed announcements or resolutions) | LOW confidence**  \n\"\ud835\udd4f Money launched by...?\" trades at 12% Yes odds (ends April 30, $33.6K volume), while \"Nikita Bier out as Head of Product at X by June 30?\" sits at 7% Yes ($1.4K volume), signaling trader skepticism but lacking X buzz on smart money or impending moves.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776842730833_2",
+      "timestamp": "2026-04-22T07:25:30.833266+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Volume Markets Dominant Trend | NO (no fresh confirmations or whale activity noted) | MEDIUM confidence*",
+      "raw": "Elon Musk Tweet Volume Markets Dominant Trend | NO (no fresh confirmations or whale activity noted) | MEDIUM confidence**  \nMarkets like \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 range) and weekly bins (e.g., April 17-24) lead Tweet predictions with $17.1M volume across 130+ markets, yet no X posts highlight mispriced odds, tips, or resolutions driving shifts.[2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776842730836_3",
+      "timestamp": "2026-04-22T07:25:30.836248+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI Release & MegaETH Airdrop as Broader News Movers | NO (no X-specific whale or resolution news) | LOW confidence**",
+      "raw": "GTA VI Release & MegaETH Airdrop as Broader News Movers | NO (no X-specific whale or resolution news) | LOW confidence**  \nNews stories markets feature \"GTA VI released before June 2026?\" at 1% Yes ($14M volume) and \"MegaETH airdrop by June 30?\" at 60%, but absent are reports of Polymarket traders on X calling these mispriced or reacting to confirmations.[4]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776842720778_4",
+      "timestamp": "2026-04-22T07:25:20.778049+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Prediction Market Movers**: Suspension resolves immediate \"shock\" from April 2 announcement (which tanked markets[3]),",
+      "raw": "**Prediction Market Movers**: Suspension resolves immediate \"shock\" from April 2 announcement (which tanked markets[3]), but persistent uncertainty on permanence could shift Fed rate cut odds, inflation bets, and GDP forecasts; Goldman Sachs sees 1% inflation rise H2 2025-2026[4]. No newer April 16-22 confirmations in results.",
+      "direction": "YES",
+      "confidence": 0.6,
       "matched_markets": [
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776842648571_2",
-      "timestamp": "2026-04-22T07:24:08.571504+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GDP** growth is forecasted at 2",
-      "raw": "GDP** growth is forecasted at 2.4% for 2026 by IMF, down from 2.0% in 2025, pressured by tariffs and deficits.[1]  \nThis unchanged \"hold steady\" decision, combined with hawkish signals, has shifted prediction markets toward fewer/no **Powell-led rate cuts**.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776842660140_0",
-      "timestamp": "2026-04-22T07:24:20.140644+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news and real-time trader sentiment you're requesting based on the available search result",
-      "raw": "I cannot provide the breaking news and real-time trader sentiment you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some markets related to tweet volumes, but they do not include:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776842660143_1",
-      "timestamp": "2026-04-22T07:24:20.143441+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current trader discussions or posts on X (Twitter)",
-      "raw": "Current trader discussions or posts on X (Twitter)",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776842660146_2",
-      "timestamp": "2026-04-22T07:24:20.146315+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Active whale bets or smart money positioning",
-      "raw": "Active whale bets or smart money positioning",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776842660149_3",
-      "timestamp": "2026-04-22T07:24:20.149131+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recently identified mispriced markets",
-      "raw": "Recently identified mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776842660151_4",
-      "timestamp": "2026-04-22T07:24:20.151911+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent market resolutions or announcements that would move prices",
-      "raw": "Recent market resolutions or announcements that would move prices",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776842660154_5",
-      "timestamp": "2026-04-22T07:24:20.154741+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market movements or sentiment shifts",
-      "raw": "Real-time market movements or sentiment shifts\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 9,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 1,
+    "alert": 7,
+    "watch": 1,
+    "high_conf": 1
   }
 }
