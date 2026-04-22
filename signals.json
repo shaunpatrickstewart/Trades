@@ -1,16 +1,109 @@
 {
-  "last_scan": "2026-04-22T12:51:10.682796+00:00",
-  "scan_seconds": 20.0,
+  "last_scan": "2026-04-22T12:52:21.846527+00:00",
+  "scan_seconds": 21.3,
   "markets_scanned": 75,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776862269677_0",
-      "timestamp": "2026-04-22T12:51:09.677710+00:00",
+      "id": "sig_1776862340837_0",
+      "timestamp": "2026-04-22T12:52:20.837675+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk X/Twitter Bets Amid Low-Volume Trending Markets | NO | LOW confidence**",
-      "raw": "Polymarket Traders on X Focus on Elon Musk X/Twitter Bets Amid Low-Volume Trending Markets | NO | LOW confidence**\n\nPolymarket's trending markets emphasize X-related predictions, including \"\ud835\udd4f Money launched by April 30?\" at 12% YES odds with $33.6K volume, \"Nikita Bier out as Head of Product at X by June 30?\" at 7% YES, and Elon Musk tweet volume markets like \"# tweets April 17-24, 2026\" or \"1120-",
-      "direction": "YES",
+      "headline": "Polymarket Traders on X Focus on Tweet Markets, Especially Elon Musk's April 2026 Tweet Counts | NO | LOW confidence**",
+      "raw": "Polymarket Traders on X Focus on Tweet Markets, Especially Elon Musk's April 2026 Tweet Counts | NO | LOW confidence**\n\nNo breaking news, whale bets, smart money moves, or confirmed announcements appear in current data to drive immediate prediction market shifts.[1][2][3][4] Trending discussions center on **tweet prediction markets**, with high activity in \"Elon Musk # tweets April 17 - April 24, ",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776862325059_0",
+      "timestamp": "2026-04-22T12:52:05.059347+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Confidence: LOW**\u2014Search results highlight ongoing trends and speculation as of early/mid-April 2026, with no timestampe",
+      "raw": "Confidence: LOW**\u2014Search results highlight ongoing trends and speculation as of early/mid-April 2026, with no timestamped \"right now\" announcements (e.g., YouTube recaps from April 1/16).[1][2][3][4][5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776862335161_0",
+      "timestamp": "2026-04-22T12:52:15.161090+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news you're requesting based on these search results",
+      "raw": "I cannot provide the breaking news you're requesting based on these search results. The available information does not contain any recent announcements, confirmations, or resolutions involving the Cavaliers, Raptors, Cooper Flagg, or the conference semifinals that would meaningfully move prediction markets.\n\nThe search results primarily discuss Cooper Flagg's performance with the Dallas Mavericks ",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776862335163_1",
+      "timestamp": "2026-04-22T12:52:15.163854+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current Cavaliers news or playoff developments",
+      "raw": "Current Cavaliers news or playoff developments",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776862335166_2",
+      "timestamp": "2026-04-22T12:52:15.166589+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent Raptors announcements",
+      "raw": "Recent Raptors announcements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776862335169_3",
+      "timestamp": "2026-04-22T12:52:15.169440+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Conference semifinals information",
+      "raw": "Conference semifinals information",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776862335172_4",
+      "timestamp": "2026-04-22T12:52:15.172439+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Any market-moving confirmations or resolutions",
+      "raw": "Any market-moving confirmations or resolutions\n\nTo provide the headline format you requested with accurate confidence levels, I would need search results containing actual breaking news from today or very recent announcements. The existing results are insufficient for this purpose.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776862340840_1",
+      "timestamp": "2026-04-22T12:52:20.840593+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Potentially mispriced or moving markets**: Multi-outcome tweet bins like 1120-1159 tweets (18-28% implied probability)",
+      "raw": "**Potentially mispriced or moving markets**: Multi-outcome tweet bins like 1120-1159 tweets (18-28% implied probability) draw volume over $19-21M, signaling trader interest in Elon Musk's posting volume amid real-time updates.[3][4]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,27 +111,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776862265193_0",
-      "timestamp": "2026-04-22T12:51:05.193609+00:00",
+      "id": "sig_1776862340843_2",
+      "timestamp": "2026-04-22T12:52:20.843496+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win | YES | HIGH confidence** [2]",
-      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals After Game 2 Win | YES | HIGH confidence** [2]  \nNo other breaking confirmations on Cavaliers status (1st seed, advanced past Heat but no new semifinal results), 76ers-Celtics Game 2 imminent with Embiid out (Celtics -14.5 favorites), or Cooper Flagg (no mentions). [1][2][3]  \nLAL's series lead (vs HOU Game 3 Apr 24, LAL favored -9.5) could ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "WATCH",
+      "headline": "No specific whale bets, tips, or resolutions noted; data highlights general sentiment on pop culture tweets (e",
+      "raw": "No specific whale bets, tips, or resolutions noted; data highlights general sentiment on pop culture tweets (e.g., Kanye by April 30) and broader trending markets (166 active, $3M+ volume).[1][2][3]\n\nConfidence remains **LOW** due to static snapshots (as of April 9-21, 2026) lacking real-time X posts or fresh events.[1][2][3][4] For live X buzz, check Polymarket's trending pages directly.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 1,
-    "watch": 1,
-    "high_conf": 0
+    "alert": 9,
+    "watch": 0,
+    "high_conf": 1
   }
 }
