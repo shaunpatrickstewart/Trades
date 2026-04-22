@@ -1,5 +1,5 @@
 {
-  "ts": 1776841290,
+  "ts": 1776841360,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999791
+    "usdc_usd": 0.99976
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -44,10 +44,10 @@
         "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
         "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
         "size": 29.21,
-        "cur_price": 0.996,
-        "nav_usdc": 29.0932,
+        "cur_price": 0.9615,
+        "nav_usdc": 28.0854,
         "cost_basis": 28.9179,
-        "unrealized_pnl": 0.1753
+        "unrealized_pnl": -0.8325
       },
       {
         "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
@@ -303,16 +303,16 @@
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 286.8502,
-    "total_usdc": 402.873,
-    "total_usd": 402.7888
+    "positions_nav_usdc": 285.8425,
+    "total_usdc": 401.8653,
+    "total_usd": 401.7688
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776841291,
+    "ts": 1776841361,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776754891,
+      "window_start_ts": 1776754961,
       "realized_usdc": 0.2316,
       "trade_count": 12,
       "buy_volume_usdc": 92.8132,
@@ -423,7 +423,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776236491,
+      "window_start_ts": 1776236561,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -636,7 +636,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774249291,
+      "window_start_ts": 1774249361,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1062,7 +1062,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.7888,
-    "total_usdc": 402.873
+    "total_usd": 401.7688,
+    "total_usdc": 401.8653
   }
 }
