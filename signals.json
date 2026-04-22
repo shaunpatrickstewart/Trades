@@ -1,15 +1,32 @@
 {
-  "last_scan": "2026-04-22T12:24:30.251125+00:00",
-  "scan_seconds": 19.7,
-  "markets_scanned": 79,
+  "last_scan": "2026-04-22T12:25:35.057999+00:00",
+  "scan_seconds": 18.2,
+  "markets_scanned": 78,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776860669247_3",
-      "timestamp": "2026-04-22T12:24:29.247788+00:00",
+      "id": "sig_1776860720350_0",
+      "timestamp": "2026-04-22T12:25:20.350845+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk # Tweets in April 2026 (e",
-      "raw": "Elon Musk # Tweets in April 2026 (e.g., 1120-1159) | NO | MED confidence**  \nTweet markets give 18%-28% odds to high-tweet buckets like 1120-1159, with $19.1M-$21.1M total volume; X users may flag these as mispriced based on recent patterns, but no whale moves noted[3][4].  \n\nNo whale bets, smart money tips, or confirmed announcements (e.g., resolutions) appear in real-time Polymarket data as of A",
+      "headline": "SEC Lawsuit Against Ripple Resolved, Triggering XRP's 10% April Surge Above $1",
+      "raw": "SEC Lawsuit Against Ripple Resolved, Triggering XRP's 10% April Surge Above $1.50 | YES | HIGH confidence**[1][2]\n\nThe SEC's decision to drop its long-running lawsuit against Ripple Labs has been confirmed as resolved, removing a major regulatory overhang that suppressed XRP's price for years and sparking a rally from ~$1.20 early April to a high of $1.51094 on April 17, now consolidating at ~$1.4",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
+        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776860734048_0",
+      "timestamp": "2026-04-22T12:25:34.048740+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets as of April 21, 2026, center on \"Elon Musk # tweets April 17 - April 24, 2026?\" and broader \"Elon Musk # tweets in April 2026?\", with the 1120-1159 tweet range trading at 28% probability and $9M volume; no specific X posts from traders, whale bets, or mispricing tips confirmed in",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
@@ -18,66 +35,67 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776860669244_2",
-      "timestamp": "2026-04-22T12:24:29.244310+00:00",
+      "id": "sig_1776860734054_2",
+      "timestamp": "2026-04-22T12:25:34.054650+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | MED confidence**  \nAt 7% YES odds with $1.4K volume and $4.8K liquidity (ends in 2 months), traders on X are likely posting this as undervalued NO bet amid X leadership rumors[2].",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | MED confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Impacting Markets | NO | MED confidence**  \nNo breaking news, resolved events, or announcements (e.g., in News Stories markets like GTA VI release) noted that would shift odds; markets like Elon Musk tweets update dynamically with new data, but nothing \"just confirmed\" as of April 22, 2026[1][2][3][4].",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776860724848_0",
+      "timestamp": "2026-04-22T12:25:24.848822+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Confirms Tariffs Driving Persistent Inflation and Slower Growth | NO | HIGH confidence**",
+      "raw": "Powell Confirms Tariffs Driving Persistent Inflation and Slower Growth | NO | HIGH confidence**\n\nFederal Reserve Chair Jerome Powell stated in a speech that President Trump's higher-than-anticipated tariffs\u2014targeting 185 nations and costing importers $792 billion\u2014are highly likely to cause at least temporary higher **inflation** and slower economic growth, revising his prior view of effects as mer",
       "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776860669238_0",
-      "timestamp": "2026-04-22T12:24:29.238456+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nPolymarket's X predictions page lists \"\ud835\udd4f Money launched by...?\" as a top market with 12% YES odds, $33.6K volume, and $4.5K liquidity, ending in 8 days; low YES pricing indicates traders doubt a near-term launch despite hype on X[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776860669241_1",
-      "timestamp": "2026-04-22T12:24:29.241423+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES | HIGH confidence**  \nThis geopolitical market shows 100% YES odds with $11.9K liquidity and 116 traders, suggesting near-unanimous trader consensus on resolution soon, potentially driving X posts on de-escalation bets[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776860663190_0",
-      "timestamp": "2026-04-22T12:24:23.190643+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Win Game 2 Over Rockets: LeBron Scores 28 to Lead Shorthanded Victory | YES (Lakers take 1-1 series lead) | HIGH",
-      "raw": "Lakers Win Game 2 Over Rockets: LeBron Scores 28 to Lead Shorthanded Victory | YES (Lakers take 1-1 series lead) | HIGH confidence**[1][3][4]\n\nLakers secured a key Game 2 road win against the Rockets in the NBA playoffs first round, with **LeBron James** dropping 28 points despite the team being shorthanded, as confirmed in recent headlines and postgame comments from JJ Redick, Marcus Smart, and R",
-      "direction": "YES",
-      "confidence": 0.6,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776860729055_0",
+      "timestamp": "2026-04-22T12:25:29.055385+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Lead Raptors 2-0 After Game 2 Win (115-105); No Lakers Series Exists | NO | HIGH confidence**",
+      "raw": "Cavaliers Lead Raptors 2-0 After Game 2 Win (115-105); No Lakers Series Exists | NO | HIGH confidence**  \nNo breaking news confirms any Cavaliers vs. Los Angeles Lakers playoff series; Cavaliers are up 2-0 vs. Raptors in Eastern Conference first round, with Game 3 in Toronto on Thursday[1][2][4]. Donovan Mitchell (30 pts), James Harden (28 pts), and rookie Evan Mobley (25 pts, 77.3% FG over series",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776860734051_1",
+      "timestamp": "2026-04-22T12:25:34.051718+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets or Smart Money Moves Reported on X Right Now | NO | HIGH confidence**",
+      "raw": "No Whale Bets or Smart Money Moves Reported on X Right Now | NO | HIGH confidence**  \nSearch results highlight 131 active Tweet markets (e.g., Kanye tweeting by April 30 at varying odds) with $21.1M total volume, but lack mentions of recent whale activity, prediction tips, or trader discussions on X about mispriced markets[2][3]. XTracker tool exists for social analytics, yet no current posts or t",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 3
   }
 }
