@@ -1,55 +1,32 @@
 {
-  "last_scan": "2026-04-22T17:39:59.162907+00:00",
-  "scan_seconds": 18.6,
+  "last_scan": "2026-04-22T17:41:10.581240+00:00",
+  "scan_seconds": 20.0,
   "markets_scanned": 50,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776879583990_0",
-      "timestamp": "2026-04-22T17:39:43.990889+00:00",
+      "id": "sig_1776879653950_0",
+      "timestamp": "2026-04-22T17:40:53.950261+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Regulators Officially Classified SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**",
-      "raw": "US Regulators Officially Classified SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**  \nThis classification, confirmed in March 2026, eliminated major legal uncertainty for allocators, enabling clearer institutional investment paths alongside existing spot ETF approvals (ETH in 2024, SOL in Oct 2025).[1]",
+      "headline": "Solana Alpenglow Upgrade Passes Governance Vote with 98",
+      "raw": "Solana Alpenglow Upgrade Passes Governance Vote with 98.27% Approval | YES | HIGH confidence**  \nThe Alpenglow consensus upgrade, slashing transaction finality to 100-150 milliseconds, was confirmed via governance vote, boosting network performance amid record 167 million monthly token holders and 148 million daily non-vote transactions as of April 14, 2026[1][4]. This resolution enhances Solana's",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will the price of Solana be above $90 on April 28?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776879583995_2",
-      "timestamp": "2026-04-22T17:39:43.995307+00:00",
+      "id": "sig_1776879669570_0",
+      "timestamp": "2026-04-22T17:41:09.570430+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits All-Time Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions (Apr 14) | YES | MED confidenc",
-      "raw": "Solana Hits All-Time Record 167M Monthly Token Holders & 148M Daily Non-Vote Transactions (Apr 14) | YES | MED confidence**  \nAnnounced Apr 14, 2026, this record activity coincides with Alpenglow upgrade anticipation (slashing finality to 150ms from 12s), fueling 6.3% SOL price climb to $86.55 and tokenized stock trading dominance.[3][1][2]",
+      "headline": "Iran x Israel/US Conflict Ends by December 31 | YES | HIGH confidence**",
+      "raw": "Iran x Israel/US Conflict Ends by December 31 | YES | HIGH confidence**  \nPolymarket's X predictions show this market at 100% YES odds with $12.3K liquidity and 116 traders, making it the most active, likely driving trader buzz on X for its extreme pricing amid ongoing geopolitics[2].",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776879593746_0",
-      "timestamp": "2026-04-22T17:39:53.746154+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Lead Over Rockets in Western Conference First Round | YES (Lakers lead series 2-0, boosting advance odds",
-      "raw": "Lakers Take 2-0 Lead Over Rockets in Western Conference First Round | YES (Lakers lead series 2-0, boosting advance odds) | HIGH confidence** [2][3]\n\nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, April 21, securing a surprise 2-0 series lead despite injuries to Luka Doncic (hamstring, ruled out) and Austin Reaves (oblique, ruled out).[2][3] LeBron James scored 28",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776879598159_0",
-      "timestamp": "2026-04-22T17:39:58.159861+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or smart money moves reported | MED confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or smart money moves reported | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in some outcomes) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at 18% odds[",
-      "direction": "NO",
       "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
@@ -57,40 +34,75 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879583993_1",
-      "timestamp": "2026-04-22T17:39:43.993246+00:00",
+      "id": "sig_1776879669574_2",
+      "timestamp": "2026-04-22T17:41:09.574313+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Transactions Jump 41% in Past Seven Days, Reclaiming Activity Leadership | YES | HIGH confidence**",
-      "raw": "Ethereum Transactions Jump 41% in Past Seven Days, Reclaiming Activity Leadership | YES | HIGH confidence**  \nETH daily transactions surged 41% weekly, driven by L2 bridging (Base/Arbitrum fee rebates) and tokenized treasury issuance settling exclusively on Ethereum, boosting on-chain activity amid 8.6% price rise to $2,377.[1]",
+      "headline": "GTA VI Released Before June 2026 | NO (99% implied) | HIGH confidence**",
+      "raw": "GTA VI Released Before June 2026 | NO (99% implied) | HIGH confidence**  \nNews Stories market at 1% YES with massive $14M volume and $67.2K liquidity (29 traders), indicating strong trader conviction against release, potentially trending as a \"safe NO\" bet or mispriced opportunity[4].",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776879669578_4",
+      "timestamp": "2026-04-22T17:41:09.578174+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Hits $1000 in 2026 | NO (81% implied) | LOW confidence**",
+      "raw": "Monero Hits $1000 in 2026 | NO (81% implied) | LOW confidence**  \nCrypto market at 19% YES ($94.3K volume), could be fueling X discussions on altcoin predictions amid broader market sentiment[1].  \n\nNo whale bets, specific smart money moves, or X posts detailed in results; no recent confirmations/announcements noted to shift these markets (data as of April 19-21, 2026)[1][2][4]. Traders likely foc",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776879658165_0",
+      "timestamp": "2026-04-22T17:40:58.165729+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO** | **LOW** confidence (no confirmations, announcements, or resolutions today that would move prediction markets; lat",
+      "raw": "NO** | **LOW** confidence (no confirmations, announcements, or resolutions today that would move prediction markets; latest data is 12 days old, with no April CPI due until ~May 10)[2].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776879669572_1",
+      "timestamp": "2026-04-22T17:41:09.572403+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30 | NO (84% implied) | MED confidence**",
+      "raw": "\ud835\udd4f Money Launched by April 30 | NO (84% implied) | MED confidence**  \nTop X market at 16% YES ($33.6K volume, $4.4K liquidity), suggesting traders on X view it as unlikely soon, possibly sparking mispricing debates or tips on Elon Musk-related tech bets[2].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776879593752_1",
-      "timestamp": "2026-04-22T17:39:53.752679+00:00",
+      "id": "sig_1776879669576_3",
+      "timestamp": "2026-04-22T17:41:09.576197+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Eastern Conference First Round Game 2 | NO (Raptors trail 0-2, lowers win odds) | HI",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Eastern Conference First Round Game 2 | NO (Raptors trail 0-2, lowers win odds) | HIGH confidence** [4]\n\nCleveland Cavaliers won Game 2 over the Toronto Raptors 115-105 in the first round, putting Toronto down 0-2 in the series.[4] No mentions of Cooper Flagg, conference semifinals advancements, or resolutions involving Lakers/Raptors matchups.[1][4] Raptors rec",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30 | NO (80% implied) | MED confidence**",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30 | NO (80% implied) | MED confidence**  \nTrending market at 20% YES ($43.9K volume), highlighting finance/tech hype that Polymarket traders may be posting about on X as a potential smart money play[1].",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 6,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
