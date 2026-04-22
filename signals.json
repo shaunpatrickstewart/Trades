@@ -1,48 +1,32 @@
 {
-  "last_scan": "2026-04-22T14:27:55.719778+00:00",
-  "scan_seconds": 15.0,
+  "last_scan": "2026-04-22T14:28:56.444142+00:00",
+  "scan_seconds": 14.9,
   "markets_scanned": 76,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776868064789_0",
-      "timestamp": "2026-04-22T14:27:44.789779+00:00",
+      "id": "sig_1776868124678_0",
+      "timestamp": "2026-04-22T14:28:44.678465+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin price surges above $78,000 | YES | HIGH confidence**",
-      "raw": "Bitcoin price surges above $78,000 | YES | HIGH confidence**  \nBitcoin reached $78,194 at 9:15 a.m. ET on April 22, 2026, up from $76,000 earlier, amid US-Iran ceasefire extension announced late April 21 by President Trump and US Treasury's $15B debt buyback plan injecting liquidity.[2][4]",
+      "headline": "Bitmine Immersion Technologies Buys 101,627 ETH in Largest 2026 Purchase | YES | HIGH confidence**",
+      "raw": "Bitmine Immersion Technologies Buys 101,627 ETH in Largest 2026 Purchase | YES | HIGH confidence**  \nTom Lee's Bitmine added 101,627 Ethereum last week\u2014its biggest buy of 2026\u2014boosting holdings to nearly 5 million ETH (82% toward 5% of total supply goal), signaling strong institutional demand amid Ethereum's price rise to $2,403.78 (up $98.74 from yesterday).[1][2]  \nThis corporate accumulation co",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Bitcoin above 76,800 on April 22, 11AM ET?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776868064796_2",
-      "timestamp": "2026-04-22T14:27:44.796576+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum at $2,403",
-      "raw": "Ethereum at $2,403.78, XRP at $1.44 as of April 22 morning | NO | MED confidence**  \nCurrent prices confirmed but no new announcements, resolutions, or events today for Ethereum or XRP to drive prediction markets; Bitcoin leads gains.[2]",
-      "direction": "NO",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "matched_markets": [
         "Bitcoin above 76,800 on April 22, 11AM ET?",
         "Will XRP reach $1.50 April 20-26?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776868074707_0",
-      "timestamp": "2026-04-22T14:27:54.707934+00:00",
+      "id": "sig_1776868135431_0",
+      "timestamp": "2026-04-22T14:28:55.431762+00:00",
       "source": "PERPLEXITY",
       "headline": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**  \nPolymarket's most active X prediction market prices the Iran-Israel/US conflict resolution by December 31, 2026, at 100% YES probability, with $11.9K liquidity and 116 traders, signaling strong crowd consensus on de-escalation despite no confirmed announcements[1].",
+      "raw": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**  \nPolymarket's X predictions page shows this as the most active market, with crowd odds at 100% YES probability amid $11.9K liquidity and 116 traders, indicating strong consensus on resolution by year-end despite ongoing geopolitics.[2]",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [],
@@ -51,73 +35,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776868064793_1",
-      "timestamp": "2026-04-22T14:27:44.793339+00:00",
+      "id": "sig_1776868135434_1",
+      "timestamp": "2026-04-22T14:28:55.434882+00:00",
       "source": "PERPLEXITY",
-      "headline": "MicroStrategy discloses record 34,164 BTC purchase on April 20 | YES | HIGH confidence**",
-      "raw": "MicroStrategy discloses record 34,164 BTC purchase on April 20 | YES | HIGH confidence**  \nMicroStrategy bought 34,164 BTC (avg. $74,395) from April 13-19 for $2.54B, pushing holdings to 815,061 BTC\u2014largest corporate stash, surpassing BlackRock's ETF; stock surged 25% in 5 days.[1][5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776868068498_0",
-      "timestamp": "2026-04-22T14:27:48.498709+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Lead Rockets 2-0 in Western Conference Semifinals** | YES | HIGH confidence[3]",
-      "raw": "Lakers Lead Rockets 2-0 in Western Conference Semifinals** | YES | HIGH confidence[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776868068501_1",
-      "timestamp": "2026-04-22T14:27:48.501590+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Advance Past Heat in Eastern Conference Semifinals (138-83 Win)** | YES | HIGH confidence[3]",
-      "raw": "Cavaliers Advance Past Heat in Eastern Conference Semifinals (138-83 Win)** | YES | HIGH confidence[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776868068504_2",
-      "timestamp": "2026-04-22T14:27:48.504458+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Reports on Cooper Flagg in Current NBA Playoffs** | NO | HIGH confidence[1][2][3]",
-      "raw": "No Reports on Cooper Flagg in Current NBA Playoffs** | NO | HIGH confidence[1][2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776868074713_2",
-      "timestamp": "2026-04-22T14:27:54.713706+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30 at 7% YES | NO | LOW confidence**",
-      "raw": "Nikita Bier Out as X Head of Product by June 30 at 7% YES | NO | LOW confidence**  \nSlim 7% YES odds on Nikita Bier exiting as X's Head of Product by June 30, with modest $1.4K volume/$4.8K liquidity; potential smart money play if internal X drama surfaces on the platform[1].",
+      "headline": "\ud835\udd4f Money Launched by April 30 at 12% YES | NO | HIGH confidence**",
+      "raw": "\ud835\udd4f Money Launched by April 30 at 12% YES | NO | HIGH confidence**  \nTraders on X-related markets price \"\ud835\udd4f Money launched by April 30?\" at just 12% YES with $33.6K volume, signaling low expectations for Elon Musk's payment feature rollout soon.[2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -126,36 +48,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776868074710_1",
-      "timestamp": "2026-04-22T14:27:54.710821+00:00",
+      "id": "sig_1776868135438_2",
+      "timestamp": "2026-04-22T14:28:55.438019+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30 at 12% YES | NO | MED confidence**",
-      "raw": "\ud835\udd4f Money Launched by April 30 at 12% YES | NO | MED confidence**  \nTraders price low odds (12%) for X (\ud835\udd4f) launching a money/payment feature by April 30, backed by $33.6K volume and $4.5K liquidity; no recent confirmations or whale activity noted, but real-time shifts could indicate mispricing if Elon Musk hints emerge[1].",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "Elon Musk Musk # Tweets in April 2026 (1120-1159 Range) at 28% | NO | MED confidence**",
+      "raw": "Elon Musk Musk # Tweets in April 2026 (1120-1159 Range) at 28% | NO | MED confidence**  \nHigh-volume tweet market ($9M total vol, $491K today) assigns 28% to this bin for Musk's April tweets, reflecting bets on his posting patterns amid X product speculation like Nikita Bier's role (7% out by June).[3][2]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776868074716_3",
-      "timestamp": "2026-04-22T14:27:54.716631+00:00",
+      "id": "sig_1776868135441_3",
+      "timestamp": "2026-04-22T14:28:55.441042+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets Trending (e",
-      "raw": "Elon Musk Tweet Volume Markets Trending (e.g., Apr 17-24 at 31% for 220-239) | MIXED | MED confidence**  \nActive tweet prediction markets like \"Elon Musk # tweets April 17-24, 2026?\" show 31% on 220-239 range, with others like April total at 28% for 1120-1159; high volumes ($19M+ aggregate) suggest traders watching for mispriced ranges amid no new tweet spikes confirmed[2][3][4].",
-      "direction": "NO",
-      "confidence": 0.6,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? Trending but Odds Unspecified | UNCLEAR | LOW confidence**  \nFeatured in 166 trending markets with over $3M volume, this tech-finance bet draws attention for potential mispricing as traders eye regulatory shifts, though exact YES/NO odds not detailed in real-time data.[1]  \n\nNo direct X posts on whale bets, smart money moves, or explicit mispriced markets",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 6,
-    "watch": 2,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 5,
+    "watch": 0,
+    "high_conf": 0
   }
 }
