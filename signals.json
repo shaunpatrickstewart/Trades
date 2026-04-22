@@ -1,73 +1,48 @@
 {
-  "last_scan": "2026-04-22T07:15:29.783764+00:00",
-  "scan_seconds": 22.9,
+  "last_scan": "2026-04-22T07:16:30.998785+00:00",
+  "scan_seconds": 20.5,
   "markets_scanned": 78,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776842118665_0",
-      "timestamp": "2026-04-22T07:15:18.665854+00:00",
+      "id": "sig_1776842174125_0",
+      "timestamp": "2026-04-22T07:16:14.125360+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady at 3",
-      "raw": "Fed Holds Rates Steady at 3.5-3.75% in March 2026 FOMC Meeting Amid Elevated Inflation and Tariff Uncertainty | NO** | **HIGH**  \nThe Federal Reserve's March 18, 2026, FOMC statement confirmed no rate cut, with economic activity expanding solidly but job gains low, unemployment stable, and inflation somewhat elevated; the Committee maintained the federal funds rate target at 3\u00bd to 3\u00be percent while",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776842124633_0",
-      "timestamp": "2026-04-22T07:15:24.633736+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Take 2-0 Series Lead Over Raptors in Game 2 Playoff Win | YES (Cavs favored to win series) | HIGH confidence**",
-      "raw": "Cavaliers Take 2-0 Series Lead Over Raptors in Game 2 Playoff Win | YES (Cavs favored to win series) | HIGH confidence** [1][3][5]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 of their first-round NBA playoff series on April 21, 2026, securing a commanding **2-0 lead** with standout performances from Donovan Mitchell (30 points, 7 rebounds, 5 assists) and James Harden (2",
+      "headline": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL and Ethereum | YES | HIGH confidence**[1]",
+      "raw": "RLUSD Stablecoin Full-Scale Rollout Confirmed on XRPL and Ethereum | YES | HIGH confidence**[1]  \nThe official rollout of Ripple USD (RLUSD) across XRP Ledger and Ethereum has driven massive capital influx and record XRPL transaction volume as of April 18, 2026, amid resolved SEC battle and nearing XRP ETF approvals, positioning it as a major institutional catalyst.[1]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776842184250_0",
+      "timestamp": "2026-04-22T07:16:24.250086+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg's 45-Point Explosion Leads Mavs to End 14-Game Home Losing Streak vs Injury-Depleted Lakers | NO | LOW conf",
+      "raw": "Cooper Flagg's 45-Point Explosion Leads Mavs to End 14-Game Home Losing Streak vs Injury-Depleted Lakers | NO | LOW confidence**  \nThe Dallas Mavericks defeated the Los Angeles Lakers 134-128 on April 5, 2026, with rookie **Cooper Flagg** scoring 45 points, 9 assists, and 8 rebounds in a near triple-double, marking his second straight 40+ point game and ending Dallas' longest home skid in 32 years",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776842112773_0",
-      "timestamp": "2026-04-22T07:15:12.773804+00:00",
+      "id": "sig_1776842174131_1",
+      "timestamp": "2026-04-22T07:16:14.131521+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that would move pr",
-      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that would move prediction markets. The most recent confirmed information in these results is from mid-April:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776842112776_1",
-      "timestamp": "2026-04-22T07:15:12.776700+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Most Recent Confirmed Events:**",
-      "raw": "Most Recent Confirmed Events:**",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776842112786_4",
-      "timestamp": "2026-04-22T07:15:12.786619+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ripple Treasury Announcement | YES | MED confidence**",
-      "raw": "Ripple Treasury Announcement | YES | MED confidence**\nRipple announced the launch of Digital Asset Accounts and Unified Treasury within Ripple Treasury, embedding native digital asset capabilities directly into a treasury management system[3].",
+      "headline": "XRP ETF Approvals Entering Final Stage | YES | MED confidence**[1]",
+      "raw": "XRP ETF Approvals Entering Final Stage | YES | MED confidence**[1]  \nApprovals are in final stages with significant ETF inflows reported, fueling speculation alongside Ripple IPO rumors, though not yet fully confirmed as complete.[1]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
@@ -76,62 +51,24 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776842112780_2",
-      "timestamp": "2026-04-22T07:15:12.780254+00:00",
+      "id": "sig_1776842189986_0",
+      "timestamp": "2026-04-22T07:16:29.986776+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Surge | YES | HIGH confidence**",
-      "raw": "XRP ETF Inflows Surge | YES | HIGH confidence**\nU.S. spot XRP ETFs recorded $41.64 million in net inflows for the week ending April 16\u2014the largest single-week inflow in three months, representing a 254% jump from the prior week[1]. Cumulative ETF inflows have reached $1.26 billion since the SEC lawsuit resolution[2].",
+      "headline": "Iran x Israel/US conflict ends by Dec 31, 2026",
+      "raw": "Iran x Israel/US conflict ends by Dec 31, 2026? | YES | HIGH confidence**  \nPolymarket's most active X-related market prices \"YES\" at 100%, signaling traders' strong consensus that the conflict resolves by year-end, with real-time odds reflecting over $152.4M in total X prediction volume.[2]",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
+      "confidence": 0.78,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776842112783_3",
-      "timestamp": "2026-04-22T07:15:12.783438+00:00",
+      "id": "sig_1776842179054_0",
+      "timestamp": "2026-04-22T07:16:19.054760+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Lawsuit Dismissal Impact | YES | HIGH confidence**",
-      "raw": "SEC Lawsuit Dismissal Impact | YES | HIGH confidence**\nXRP surged 12.5% from its April lows, driven substantially by the SEC lawsuit dismissal, which enabled institutional adoption and ETF launches[5].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776842112789_5",
-      "timestamp": "2026-04-22T07:15:12.789758+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What This Means for Prediction Markets:**",
-      "raw": "What This Means for Prediction Markets:**\nThe April 19 Polymarket contract for XRP above $1.80 was priced at just 0.2% YES as of mid-April, indicating traders saw minimal probability of that level being reached by the deadline[2]. Current technical analysis suggests XRP faces resistance at $1.46 with potential targets of $1.65-$1.70 on a breakout[1].\n\nThe search results do not contain any announce",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776842118671_1",
-      "timestamp": "2026-04-22T07:15:18.671095+00:00",
-      "source": "PERPLEXITY",
-      "headline": "IMF April 2, 2026, Report Forecasts Minimal 2026 Rate Cuts (to 3",
-      "raw": "IMF April 2, 2026, Report Forecasts Minimal 2026 Rate Cuts (to 3.4%), GDP at 2.4%, Inflation at 2.6% End-2026 Due to Tariffs and Energy Risks | NO** | **MED**  \nThe IMF's Article IV Consultation concluded little room for rate cuts in 2026 unless labor weakens and inflation falls sharply; it projects U.S. GDP growth picking up modestly to 2.4%, core PCE inflation at 2.6% by year-end (delayed to 202",
+      "headline": "IMF's January 2026 forecast projects U",
+      "raw": "IMF's January 2026 forecast projects U.S. GDP at 2.4% for 2026 (up from 2.0% in 2025), core PCE inflation at 2.6% by end-2026 (down from 2.9% in 2025), and minimal Fed rate cuts (fed funds from 3.6% to 3.4%), citing tariffs (7-8.5% effective rate) dragging growth and delaying 2% inflation target to 2027 amid energy risks from Iran conflict.[1]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -142,12 +79,12 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776842118676_2",
-      "timestamp": "2026-04-22T07:15:18.676397+00:00",
+      "id": "sig_1776842179058_1",
+      "timestamp": "2026-04-22T07:16:19.058182+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell March 19, 2026, Briefing: Expects Tariff Inflation to Stabilize Mid-Year After Court-Overturned Tariffs Replaced",
-      "raw": "Powell March 19, 2026, Briefing: Expects Tariff Inflation to Stabilize Mid-Year After Court-Overturned Tariffs Replaced | NO** | **MED**  \nFed Chair Powell expressed slight confidence in tariff-related inflation easing mid-2026 as the administration replaces court-overturned tariffs, though levels are assumed to return to prior highs, amid broader services cooling but persistent pressures.[2]",
-      "direction": "NO",
+      "headline": "Powell's December 10, 2025 statements called the economy \"very unusual,\" attributing most inflation overshoot to Trump's",
+      "raw": "Powell's December 10, 2025 statements called the economy \"very unusual,\" attributing most inflation overshoot to Trump's tariffs on goods (peaking Q1 2026), with Fed cutting rates by 25bps to 3.5-3.75% to support labor market amid overstated job data; services inflation cooling, non-tariff inflation near 2%.[2][3][4]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will Powell say \"Tariff inflation\" during April press conference?"
@@ -157,12 +94,51 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776842128780_0",
-      "timestamp": "2026-04-22T07:15:28.780761+00:00",
+      "id": "sig_1776842179061_2",
+      "timestamp": "2026-04-22T07:16:19.061431+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Market Leads Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Market Leads Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active market is \"Elon Musk # tweets in April 2026?\", with the 1080-1119 range at 18% odds amid $17.1M trading volume across 130+ tweet markets.[1][2]  \nNo X posts from Polymarket traders on whale bets, smart money moves, mispriced markets, or imminent shifts are detailed i",
+      "headline": "Powell's term expires in May 2026 amid Trump tensions, but no updates today",
+      "raw": "Powell's term expires in May 2026 amid Trump tensions, but no updates today.[5]",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776842189989_1",
+      "timestamp": "2026-04-22T07:16:29.989786+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money launched by April 30, 2026",
+      "raw": "\ud835\udd4f Money launched by April 30, 2026? | NO | HIGH confidence**  \nThis market shows only 12% \"YES\" odds amid $33.6K volume, indicating low trader expectation for X's (Twitter's) money product launch by deadline, part of 1,370+ live X markets tracked.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776842189992_2",
+      "timestamp": "2026-04-22T07:16:29.992758+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk # tweets April 17-24, 2026 (180-199 range) | NO (29% implied) | MED confidence**",
+      "raw": "Elon Musk # tweets April 17-24, 2026 (180-199 range) | NO (29% implied) | MED confidence**  \nTraders price the 180-199 tweet bin at 29\u00a2 in this active Tweet Markets event (20 markets total, $17.1M volume), with odds shifting on daily data\u2014no whale bets or mispricing buzz noted in results.[1][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776842189995_3",
+      "timestamp": "2026-04-22T07:16:29.995760+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GTA VI released before June 2026",
+      "raw": "GTA VI released before June 2026? | NO | HIGH confidence**  \nNews Stories market (102 active, $56.4M volume) at 1% \"YES\" with $14M volume suggests near-certainty of delay, potentially drawing smart money shorts as a mispriced long-shot.[4]  \n\nNo recent confirmations, announcements, or resolutions in results to shift these markets; odds update live on trader activity without specified whale moves o",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -172,8 +148,8 @@
   ],
   "stats": {
     "enter": 2,
-    "alert": 9,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 5
+    "high_conf": 3
   }
 }
