@@ -1,5 +1,5 @@
 {
-  "ts": 1776883519,
+  "ts": 1776883585,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999705
+    "usdc_usd": 0.999756
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.054,
-        "nav_usdc": 0.4406,
+        "cur_price": 0.055,
+        "nav_usdc": 0.4488,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8568
+        "unrealized_pnl": -0.8486
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1465,
-        "nav_usdc": 0.7398,
+        "cur_price": 0.1405,
+        "nav_usdc": 0.7095,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.9519
+        "unrealized_pnl": -0.9822
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -188,19 +188,19 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.362,
-        "nav_usdc": 1.8281,
+        "cur_price": 0.364,
+        "nav_usdc": 1.8382,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.0657
+        "unrealized_pnl": 0.0758
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.961,
-        "nav_usdc": 4.8384,
+        "cur_price": 0.965,
+        "nav_usdc": 4.8586,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.3071
+        "unrealized_pnl": 0.3273
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -269,10 +269,10 @@
         "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.95,
-        "cur_price": 0.54,
-        "nav_usdc": 2.673,
+        "cur_price": 0.545,
+        "nav_usdc": 2.6978,
         "cost_basis": 1.683,
-        "unrealized_pnl": 0.99
+        "unrealized_pnl": 1.0148
       },
       {
         "slug": "will-orlando-magic-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.2049,
-    "total_usdc": 404.1415,
-    "total_usd": 404.0222
+    "positions_nav_usdc": 317.2377,
+    "total_usdc": 404.1743,
+    "total_usd": 404.0757
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776883520,
+    "ts": 1776883586,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776797120,
+      "window_start_ts": 1776797186,
       "realized_usdc": 0.0,
       "trade_count": 7,
       "buy_volume_usdc": 86.8923,
@@ -451,7 +451,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776278720,
+      "window_start_ts": 1776278786,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -664,7 +664,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774291520,
+      "window_start_ts": 1774291586,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1090,7 +1090,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.0222,
-    "total_usdc": 404.1415
+    "total_usd": 404.0757,
+    "total_usdc": 404.1743
   }
 }
