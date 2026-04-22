@@ -1,60 +1,96 @@
 {
-  "last_scan": "2026-04-22T23:23:03.379369+00:00",
-  "scan_seconds": 12.1,
+  "last_scan": "2026-04-22T23:24:13.360281+00:00",
+  "scan_seconds": 15.8,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776900174026_0",
-      "timestamp": "2026-04-22T23:22:54.026024+00:00",
+      "id": "sig_1776900241113_0",
+      "timestamp": "2026-04-22T23:24:01.113271+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETF Inflows Hit $275M in Strongest Week Since January | YES | HIGH confidence**",
-      "raw": "ETH ETF Inflows Hit $275M in Strongest Week Since January | YES | HIGH confidence**  \nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014with Fidelity\u2019s FETH and BlackRock\u2019s ETHA leading, coinciding with ETH price climbing 7% to nearly $2,400 amid a broader crypto market cap rise to $2.6 trillion.[1]  \nThis institutional demand surge, reported via CoinDesk an",
+      "headline": "ETH ETF Inflows Hit $275M Weekly \u2013 Strongest Since January 2026 | YES | HIGH confidence**",
+      "raw": "ETH ETF Inflows Hit $275M Weekly \u2013 Strongest Since January 2026 | YES | HIGH confidence**  \nEthereum ETFs recorded over $275 million in weekly inflows, the highest since January 2026, led by Fidelity\u2019s FETH and BlackRock\u2019s ETHA, driving ETH price up 7% to near $2,400 amid a broader market rally[1]. This marks confirmed institutional demand returning to Ethereum, with price holding above $2,288 as ",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776900178299_0",
-      "timestamp": "2026-04-22T23:22:58.299335+00:00",
+      "id": "sig_1776900252353_1",
+      "timestamp": "2026-04-22T23:24:12.353271+00:00",
       "source": "PERPLEXITY",
-      "headline": "OKC Thunder Defeat Grizzlies 117-115 in Game 1 of Western Conference First Round | NO | HIGH confidence**",
-      "raw": "OKC Thunder Defeat Grizzlies 117-115 in Game 1 of Western Conference First Round | NO | HIGH confidence**  \nThe Oklahoma City Thunder, the No. 1 seed, secured a narrow 117-115 victory over the No. 8 Memphis Grizzlies in Game 1 on April 22 at 9:30 PM ET, taking a 1-0 series lead as confirmed by the latest playoff bracket updates.[4]  \nThis win aligns with OKC's locked No. 1 Western Conference seed ",
+      "headline": "Elon Musk Tweet Counts Driving High Volume Bets | YES | MED confidence**",
+      "raw": "Elon Musk Tweet Counts Driving High Volume Bets | YES | MED confidence**  \nMarkets like \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" show $20.7-20.8M volume across 129-130 markets; active as most traded but no specific whale moves or mispricing buzz confirmed.[2][3]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900246788_0",
+      "timestamp": "2026-04-22T23:24:06.788584+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Lead Rockets 2-0 in First Round Playoffs After LeBron's Dominant Game 2 Win | YES | HIGH confidence**",
+      "raw": "Lakers Lead Rockets 2-0 in First Round Playoffs After LeBron's Dominant Game 2 Win | YES | HIGH confidence**  \nLeBron James recorded a triple-double in the Lakers' 120-101 victory over the Wizards (noted 11 hours ago), but context confirms this aligns with their playoff series against the Houston Rockets, where they now hold a 2-0 lead after outplaying Kevin Durant in Game 2[1][3]. Victor Wembanya",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776900182375_0",
-      "timestamp": "2026-04-22T23:23:02.375584+00:00",
+      "id": "sig_1776900252351_0",
+      "timestamp": "2026-04-22T23:24:12.351388+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range priced at 20-21% implied probability across Tweet and Pop Culture categories, backed by over $20.7M in volume[2][3][4]. Traders are betting on specific ranges like 1120-1159 (21%) amid 20-168 activ",
+      "headline": "Monero $1000 Price Target Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Monero $1000 Price Target Trending on Polymarket | NO | LOW confidence**  \nPolymarket's trending markets page lists \"Will Monero hit $1000 in 2026?\" as a highlighted prediction among 168 active markets with over $3.0M in volume, but no X posts or whale activity detailed in results.[1]",
       "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900252355_2",
+      "timestamp": "2026-04-22T23:24:12.355175+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye West Tweet Return Odds at 78% | YES | LOW confidence**",
+      "raw": "Kanye West Tweet Return Odds at 78% | YES | LOW confidence**  \n\"Will Kanye tweet again by April 30?\" at 78% YES ($393 volume) featured prominently, suggesting trader interest in tweet predictions, though no recent X chatter or resolutions noted.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776900252357_3",
+      "timestamp": "2026-04-22T23:24:12.357166+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Sports Prediction Market Ban Odds at 11% | NO | LOW confidence**",
+      "raw": "Sports Prediction Market Ban Odds at 11% | NO | LOW confidence**  \n\"Law banning sports prediction markets enacted in 2026?\" at 11% YES appears in trending, potentially sparking debate on regulation risks amid niche events like CS IEM Rio mentions.[1][4]  \nNo confirmed announcements, resolutions, or X posts on whale bets/smart money in results; data reflects platform odds as of April 22, 2026, with",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 2,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
