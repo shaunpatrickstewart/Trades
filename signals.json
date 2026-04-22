@@ -1,33 +1,61 @@
 {
-  "last_scan": "2026-04-22T12:27:51.239531+00:00",
-  "scan_seconds": 20.6,
+  "last_scan": "2026-04-22T12:29:00.582913+00:00",
+  "scan_seconds": 20.0,
   "markets_scanned": 78,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776860855176_3",
-      "timestamp": "2026-04-22T12:27:35.176225+00:00",
+      "id": "sig_1776860924596_1",
+      "timestamp": "2026-04-22T12:28:44.596312+00:00",
       "source": "PERPLEXITY",
-      "headline": "Discussion of April 16th clarity legislation discussions as a potential catalyst[5]",
-      "raw": "Discussion of April 16th clarity legislation discussions as a potential catalyst[5]\n\nTo provide current breaking news about XRP and market-moving events happening right now (April 22), I would need access to real-time news sources and recent announcements from today. The available search results do not contain information about what has been confirmed, announced, or resolved in the past 6+ days si",
-      "direction": null,
+      "headline": "XRPL Launches $550,000 Audit Contest with Sherlock for Privacy Upgrades | YES | HIGH confidence**",
+      "raw": "XRPL Launches $550,000 Audit Contest with Sherlock for Privacy Upgrades | YES | HIGH confidence**  \nAnnounced April 13, this contest secures the network's new RISC-V ZK verifier and upcoming Smart Escrows/Vaults for programmable privacy, marking XRPL as the first public blockchain with built-in compliance controls\u2014directly tied to recent inflows and adoption momentum.[2]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
         "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776860855167_0",
-      "timestamp": "2026-04-22T12:27:35.167031+00:00",
+      "id": "sig_1776860931209_2",
+      "timestamp": "2026-04-22T12:28:51.209206+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about events occurring on or after April 22, 2026.\n\nThe most recent dated content in the search results is from early-to-mid April 2026 (April 2-16), which predates the current date by over a week. The search results reference:",
+      "headline": "Tariff Inflation Already Materializing[5]** - Fed Chair Powell confirmed a significant uptick in goods inflation during",
+      "raw": "Tariff Inflation Already Materializing[5]** - Fed Chair Powell confirmed a significant uptick in goods inflation during January-February 2026, directly attributable to tariff impacts.[5]",
       "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776860931206_1",
+      "timestamp": "2026-04-22T12:28:51.206334+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Fed Maintains One Rate Cut Expectation for 2026[1]** - The Federal Reserve left rates unchanged and signaled only one ra",
+      "raw": "Fed Maintains One Rate Cut Expectation for 2026[1]** - The Federal Reserve left rates unchanged and signaled only one rate cut for 2026, citing elevated inflation expectations. The next cut is likely in H2 2026 at the soonest, pending inflation data reversal.[1]",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776860924593_0",
+      "timestamp": "2026-04-22T12:28:44.593246+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple Reveals Four-Phase Plan to Quantum-Proof XRP Ledger by 2028 | YES | HIGH confidence**",
+      "raw": "Ripple Reveals Four-Phase Plan to Quantum-Proof XRP Ledger by 2028 | YES | HIGH confidence**  \nThis breaking announcement, reported in the last half hour, outlines a structured roadmap for quantum resistance, addressing a critical long-term security risk for XRP and potentially boosting institutional confidence amid rising quantum computing threats.[5]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -35,25 +63,12 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776860855169_1",
-      "timestamp": "2026-04-22T12:27:35.170003+00:00",
+      "id": "sig_1776860924599_2",
+      "timestamp": "2026-04-22T12:28:44.599318+00:00",
       "source": "PERPLEXITY",
-      "headline": "April 15-16 price movements and ETF inflows[1][5]",
-      "raw": "April 15-16 price movements and ETF inflows[1][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776860855172_2",
-      "timestamp": "2026-04-22T12:27:35.172951+00:00",
-      "source": "PERPLEXITY",
-      "headline": "April 19 Polymarket expiry predictions for XRP reaching $1",
-      "raw": "April 19 Polymarket expiry predictions for XRP reaching $1.80[1]",
-      "direction": null,
+      "headline": "US XRP ETFs Record $12M Net Inflows in April After March Outflows | YES | MED confidence**",
+      "raw": "US XRP ETFs Record $12M Net Inflows in April After March Outflows | YES | MED confidence**  \nFresh data shows a $12M swing to positive flows, with global ETPs at $20M, fueling XRP's 2%+ rise to ~$1.35 and its first green month since September 2025, signaling institutional rebound despite retail FUD extremes.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
@@ -65,12 +80,68 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776860870236_0",
-      "timestamp": "2026-04-22T12:27:50.236251+00:00",
+      "id": "sig_1776860931203_0",
+      "timestamp": "2026-04-22T12:28:51.203422+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets as of April 21, 2026, center on **Elon Musk tweet counts**, with \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\" leading in volume\u2014up to $9M and assigning ~28% odds to the 1120-1159 range[1][2][3]. These pop cultur",
+      "headline": "Based on the search results provided, I cannot identify breaking news from today (April 22, 2026) that would move predic",
+      "raw": "Based on the search results provided, I cannot identify breaking news from today (April 22, 2026) that would move prediction markets. The most recent substantive information in these results dates from early-to-mid April 2026.\n\nThe relevant recent developments are:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776860931212_3",
+      "timestamp": "2026-04-22T12:28:51.212464+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Expresses Uncertainty on Tariff Timeline[2]** - During a March 19 briefing, Powell stated he lacks confidence in",
+      "raw": "Powell Expresses Uncertainty on Tariff Timeline[2]** - During a March 19 briefing, Powell stated he lacks confidence in predicting how long tariffs will take to flow through the economy, though he expects tariff inflation (not price increases) to decline in mid-2026.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776860931215_4",
+      "timestamp": "2026-04-22T12:28:51.215453+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kevin Warsh Criticizes Fed Policy[3]** - During an April 4 Senate confirmation hearing to replace Powell, Warsh cited \"p",
+      "raw": "Kevin Warsh Criticizes Fed Policy[3]** - During an April 4 Senate confirmation hearing to replace Powell, Warsh cited \"policy errors in 2021 and 2022\" as allowing inflation to soar.\n\nWithout access to real-time news from today's date, I cannot confirm what specific announcement or development occurred on April 22, 2026, that would be market-moving. To provide the headline format you requested with",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776860939576_0",
+      "timestamp": "2026-04-22T12:28:59.576694+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Activity | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 18-28% odds and volumes up to $9M[1][2][3].  \nNo X posts from traders on whale bets, smart m",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776860939579_1",
+      "timestamp": "2026-04-22T12:28:59.579753+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tweet markets** like Kanye tweeting by April 30 remain active across 20-131 options with $19",
+      "raw": "Tweet markets** like Kanye tweeting by April 30 remain active across 20-131 options with $19.1M-$21.1M total volume, but lack buzz on X trends or tips[1][2][3].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -79,9 +150,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 1,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
