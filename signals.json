@@ -1,84 +1,17 @@
 {
-  "last_scan": "2026-04-22T18:14:57.308964+00:00",
-  "scan_seconds": 16.8,
-  "markets_scanned": 50,
+  "last_scan": "2026-04-22T18:16:05.089372+00:00",
+  "scan_seconds": 14.5,
+  "markets_scanned": 52,
   "open_positions": 14,
   "signals": [
     {
-      "id": "sig_1776881696303_1",
-      "timestamp": "2026-04-22T18:14:56.303748+00:00",
+      "id": "sig_1776881753966_0",
+      "timestamp": "2026-04-22T18:15:53.966346+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Whale Bets or Smart Money Moves Reported | NO | LOW confidence**",
-      "raw": "No Whale Bets or Smart Money Moves Reported | NO | LOW confidence**\n\nSearch results highlight real-time odds shifting with new data (e.g., 19% on 1120-1159 tweets for April 2026), but lack specifics on whale activity, tips, or claims of mispricing[3][4]. General trending includes 166+ markets like Nasdaq trading changes, but no X chatter or \"smart money\" signals confirmed[1].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881696301_0",
-      "timestamp": "2026-04-22T18:14:56.301706+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64\u00a2 implying ~40-64% probability for that range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with 1120-1159 tweets at 18% odds[2][3][4]. These have high trading ",
-      "direction": "NO",
+      "headline": "US Regulators Confirm SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**",
+      "raw": "US Regulators Confirm SOL and ETH as Commodities in March 2026 | YES | HIGH confidence**  \nThis classification eliminates major legal uncertainty for allocators, enabling spot ETFs for both (ETH since 2024, SOL since Oct 2025) with current AUM at $48B for ETH and $4.8B for SOL.[1]  \nEthereum shows strong momentum with an 8.6% daily gain to ~$2,377\u2013$2,403 (up 41% in weekly transactions from L2 acti",
+      "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776881686534_0",
-      "timestamp": "2026-04-22T18:14:46.534177+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that would move pr",
-      "raw": "Based on the search results provided, I cannot identify any breaking news from today (April 22, 2026) that would move prediction markets. The most recent dated content in these results is from April 16-18, 2026, which is several days old.\n\nThe most significant recent developments mentioned are:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881686536_1",
-      "timestamp": "2026-04-22T18:14:46.536133+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana Alpenglow Upgrade | YES | HIGH confidence** \u2014 The consensus layer upgrade reducing finality from 12 seconds to 15",
-      "raw": "Solana Alpenglow Upgrade | YES | HIGH confidence** \u2014 The consensus layer upgrade reducing finality from 12 seconds to 150-200 milliseconds has been approved and is positioned as a major technical catalyst, though the search results do not confirm final deployment as of April 22.[1][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881686538_2",
-      "timestamp": "2026-04-22T18:14:46.538118+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Regulatory Classification | YES | HIGH confidence** \u2014 Both SOL and ETH were officially classified as commodities by US r",
-      "raw": "Regulatory Classification | YES | HIGH confidence** \u2014 Both SOL and ETH were officially classified as commodities by US regulators in March 2026, and Solana's spot ETF launched in October 2025, removing legal uncertainty for institutional allocators.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776881686540_3",
-      "timestamp": "2026-04-22T18:14:46.540114+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Transaction Activity Surge | YES | HIGH confidence** \u2014 Ethereum posted an 8",
-      "raw": "Ethereum Transaction Activity Surge | YES | HIGH confidence** \u2014 Ethereum posted an 8.6% daily gain with a 41% jump in weekly transactions, reclaiming activity leadership from Solana as of mid-April.[1]\n\nHowever, none of these represent announcements or confirmations made *today* (April 22). To provide accurate breaking news with prediction market impact, I would need search results with timestamps",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
         "Will the price of Solana be above $90 on April 28?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
@@ -88,11 +21,42 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776881696305_2",
-      "timestamp": "2026-04-22T18:14:56.305786+00:00",
+      "id": "sig_1776881759427_0",
+      "timestamp": "2026-04-22T18:15:59.427263+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | LOW confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | LOW confidence**\n\nNo breaking news, resolved events, or announcements (e.g., Kanye tweets or Nasdaq updates) are cited as moving markets; odds reflect ongoing trader sentiment without tied real-world triggers[1][2][3][4]. Data is as of April 21, 2026, limiting recency for 6 PM UTC today[1][4].",
+      "headline": "Lakers Rookie Adou Thiero Returns from Face Injury vs",
+      "raw": "Lakers Rookie Adou Thiero Returns from Face Injury vs. Thunder, Cleared for Key Minutes Amid Injuries to Reaves, Doncic, Smart** | NO | LOW confidence[2]\n\nAdou Thiero, Lakers' second-round rookie forward (6'8\", Arkansas), returned Tuesday to the game against OKC after an elbow to the face in Q2, playing with 7:54 left in Q3 and likely seeing ongoing meaningful minutes for the banged-up roster[2]. ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776881764084_0",
+      "timestamp": "2026-04-22T18:16:04.084038+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet volume predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (18% chance for 1120-1159 range) and broader \"Elon Musk # tweets in April 2026?\" (19% for 1120-1159), with over $22M in trading volume across 20-130 related tweet markets[2][",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776881764086_1",
+      "timestamp": "2026-04-22T18:16:04.086099+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Category** overall shows 166-168 live options like \"Nasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets Category** overall shows 166-168 live options like \"Nasdaq round-the-clock trading by June 30?\" with $2.8M volume, but no highlighted tips or moves[1].  \nConfidence remains **LOW** due to absence of direct X sentiment, whale alerts, or breaking event resolutions in results.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -103,8 +67,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
