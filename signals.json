@@ -1,30 +1,43 @@
 {
-  "last_scan": "2026-04-22T08:06:25.307634+00:00",
-  "scan_seconds": 18.8,
+  "last_scan": "2026-04-22T08:07:32.395612+00:00",
+  "scan_seconds": 21.8,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776845173952_0",
-      "timestamp": "2026-04-22T08:06:13.952593+00:00",
+      "id": "sig_1776845236439_0",
+      "timestamp": "2026-04-22T08:07:16.439924+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Holds Rates Steady at March 18, 2026 FOMC Meeting, Projects Single Cut for 2026 Amid Elevated Inflation and Solid GD",
-      "raw": "Fed Holds Rates Steady at March 18, 2026 FOMC Meeting, Projects Single Cut for 2026 Amid Elevated Inflation and Solid GDP Growth | NO** | HIGH confidence[4][5]\n\nThe Federal Reserve's FOMC statement on March 18, 2026, confirmed no rate change, keeping the federal funds rate at 3.5-3.75%, with economic activity expanding solidly, low job gains, stable unemployment, and somewhat elevated inflation[5]",
-      "direction": "NO",
+      "headline": "Based on the available search results, here are the confirmed developments:",
+      "raw": "Based on the available search results, here are the confirmed developments:",
+      "direction": null,
       "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776845241902_2",
+      "timestamp": "2026-04-22T08:07:21.902618+00:00",
+      "source": "PERPLEXITY",
+      "headline": "On **April 15, 2026** (closest to query's \"April\"), Q2 2025 **GDP** jumped 3% (beating forecasts), but economists cautio",
+      "raw": "On **April 15, 2026** (closest to query's \"April\"), Q2 2025 **GDP** jumped 3% (beating forecasts), but economists cautioned on **tariff** distortions in trade data; **Powell** held rates steady to monitor **tariff** impacts on **inflation**[3].  \n\nNo sources indicate events today or in April 2026 beyond this, so no market-moving resolutions like new data releases, policy shifts, or confirmations[1",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776845169432_0",
-      "timestamp": "2026-04-22T08:06:09.432291+00:00",
+      "id": "sig_1776845236443_1",
+      "timestamp": "2026-04-22T08:07:16.443242+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin Surges Past $75K Resistance on Institutional ETF Inflows and Whale Accumulation Amid Iran Ceasefire Oil Crash**",
-      "raw": "Bitcoin Surges Past $75K Resistance on Institutional ETF Inflows and Whale Accumulation Amid Iran Ceasefire Oil Crash** | YES | HIGH  \nBitcoin hit $75,901 on April 21, reaching four-week highs after breaking key $75,000 resistance, driven by record $471M spot ETF inflows on April 6 (strongest since late February), $34M day-one inflows into Morgan Stanley's new MSBT ETF, and whale wallets (10K+ BTC",
+      "headline": "Bitcoin Surges Past $75,000 on Institutional Demand | YES | HIGH confidence**",
+      "raw": "Bitcoin Surges Past $75,000 on Institutional Demand | YES | HIGH confidence**\n\nBitcoin has broken through the $75,000 resistance level in mid-April 2026, reaching $75,901.41 as of April 21[3]. This represents a significant technical breakout supported by record-breaking spot Bitcoin ETF inflows and corporate treasury accumulation[1].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -37,45 +50,112 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776845179022_0",
-      "timestamp": "2026-04-22T08:06:19.022133+00:00",
+      "id": "sig_1776845236446_2",
+      "timestamp": "2026-04-22T08:07:16.446294+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Playoff Series Lead Over Rockets After 101-94 Game 2 Win Despite Missing Luka Doncic and Austin Reaves**",
-      "raw": "Lakers Take 2-0 Playoff Series Lead Over Rockets After 101-94 Game 2 Win Despite Missing Luka Doncic and Austin Reaves** | YES | HIGH confidence[1][2][4]\n\nThe Los Angeles Lakers secured a commanding 2-0 lead in their Western Conference first-round series against the Houston Rockets with a gritty 101-94 victory on Tuesday night at Crypto.com Arena, led by LeBron James' 28 points, eight rebounds, an",
+      "headline": "Morgan Stanley Launches First Major Bank Bitcoin ETF | YES | HIGH confidence**",
+      "raw": "Morgan Stanley Launches First Major Bank Bitcoin ETF | YES | HIGH confidence**\n\nMorgan Stanley's MSBT spot Bitcoin ETF launched on Tuesday, April 9, generating $34 million in day-one inflows\u2014placing it in the top 1% of all ETF launches historically[2]. This marks the first spot Bitcoin ETF from a major U.S. bank, opening a new institutional demand channel.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Bitcoin above 75,800 on April 22, 5AM ET?",
+        "Bitcoin above 78,800 on April 22, 4AM ET?",
+        "Bitcoin above 79,800 on April 22, 5AM ET?"
       ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776845236449_3",
+      "timestamp": "2026-04-22T08:07:16.449261+00:00",
+      "source": "PERPLEXITY",
+      "headline": "$427 Million Crypto Short Liquidation Cascade | YES | HIGH confidence**",
+      "raw": "$427 Million Crypto Short Liquidation Cascade | YES | HIGH confidence**\n\nA major short squeeze occurred following the U.S.-Iran ceasefire announcement, which collapsed crude oil prices and forced $427 million in crypto short positions into liquidation over 48 hours\u2014the largest since late February[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776845236452_4",
+      "timestamp": "2026-04-22T08:07:16.452326+00:00",
+      "source": "PERPLEXITY",
+      "headline": "April 6 ETF Inflows Hit Strongest Day Since February | YES | HIGH confidence**",
+      "raw": "April 6 ETF Inflows Hit Strongest Day Since February | YES | HIGH confidence**\n\nSpot Bitcoin ETFs recorded $471 million in net inflows on April 6, the strongest single day since late February, with BlackRock's IBIT, Fidelity's FBTC, and Ark Invest's ARKB leading absorption[2].\n\nThese developments confirm that the April rally is fundamentally driven rather than speculative, with institutional capit",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin above 75,800 on April 22, 5AM ET?",
+        "Bitcoin above 78,800 on April 22, 4AM ET?",
+        "Bitcoin above 79,800 on April 22, 5AM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776845241896_0",
+      "timestamp": "2026-04-22T08:07:21.896565+00:00",
+      "source": "PERPLEXITY",
+      "headline": "On **December 10, 2025**, Fed Chair **Powell** stated in a speech that **Trump's tariffs** are driving **'most' of the i",
+      "raw": "On **December 10, 2025**, Fed Chair **Powell** stated in a speech that **Trump's tariffs** are driving **'most' of the inflation overshoot** above the 2% target (core PCE at 2.8%), while cutting rates by 25bps to 3.5-3.75% amid cooling labor market and elevated **inflation**[1]. He noted tariffs caused goods inflation pickup, but effects may be short-lived, with projections at 2.9% PCE this year f",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776845245911_0",
+      "timestamp": "2026-04-22T08:07:25.911910+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO** | **LOW** confidence (search results show no new confirmations; latest is pre-April 22 hype/discussion, no playoff/",
+      "raw": "NO** | **LOW** confidence (search results show no new confirmations; latest is pre-April 22 hype/discussion, no playoff/Raptors ties or resolutions).[1][2][3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776845179025_1",
-      "timestamp": "2026-04-22T08:06:19.025718+00:00",
+      "id": "sig_1776845251383_0",
+      "timestamp": "2026-04-22T08:07:31.383558+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors Down 0-2 to Cavaliers After 115-105 Game 2 Loss, Facing Roster Pivot with Collin Murray-Boyles** | YES | MED con",
-      "raw": "Raptors Down 0-2 to Cavaliers After 115-105 Game 2 Loss, Facing Roster Pivot with Collin Murray-Boyles** | YES | MED confidence[6]\n\nThe Toronto Raptors trail 0-2 in their Eastern Conference first-round series after a 115-105 Game 2 defeat to the Cleveland Cavaliers, prompting urgent adjustments like elevating rookie Collin Murray-Boyles as a key big amid Jakob Poeltl's reduced role and a Brandon I",
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | YES (trending heavily on X via Polymarket trackers) | HIGH",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET ACTIVITY | YES (trending heavily on X via Polymarket trackers) | HIGH confidence**  \nPolymarket's most active markets as of early April 2026 focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 180-199 at 29\u00a2 implying 29% probability) and \"Elon Musk # tweets in April 2026?\" (1080-1119 at 18%, 1120-1",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will the Pittsburgh Steelers draft a quarterback in the first round of the 2026 "
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776845184298_0",
-      "timestamp": "2026-04-22T08:06:24.298445+00:00",
+      "id": "sig_1776845251386_1",
+      "timestamp": "2026-04-22T08:07:31.386630+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets as of early April 2026 focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 180-199 at 29\u00a2 implying 29% probability) and \"Elon Musk musk # tweets in April 2026?\" (e.g., 1080-1119 at 18%, 1120-1159 at 28%).[1][2][3] These reflect ",
+      "headline": "WHALE/SMART MONEY TOOLS TRENDING ON X | YES (analytics tools highlighted) | MED confidence**",
+      "raw": "WHALE/SMART MONEY TOOLS TRENDING ON X | YES (analytics tools highlighted) | MED confidence**  \nX posts promote Polymarket analytics tools for tracking top traders' moves, described as \"x-ray vision\" into winning strategies and whale bets, urging users to use them before losses[5]. XTracker also enables social media post analytics tied to Polymarket[4]. No specific whale bets detailed in current da",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776845251389_2",
+      "timestamp": "2026-04-22T08:07:31.389600+00:00",
+      "source": "PERPLEXITY",
+      "headline": "MISPRICED MARKETS OR TIPS | NO (no explicit calls found) | HIGH confidence**",
+      "raw": "MISPRICED MARKETS OR TIPS | NO (no explicit calls found) | HIGH confidence**  \nSearch results show no trending X posts on mispriced markets, upcoming moves, or tips; focus remains on live tweet odds and tools[1][2][3][4][5].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -84,12 +164,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776845184301_1",
-      "timestamp": "2026-04-22T08:06:24.301551+00:00",
+      "id": "sig_1776845251392_3",
+      "timestamp": "2026-04-22T08:07:31.392620+00:00",
       "source": "PERPLEXITY",
-      "headline": "GTA VI Release and Crypto Airdrops Draw News Story Volume | NO | MED confidence**",
-      "raw": "GTA VI Release and Crypto Airdrops Draw News Story Volume | NO | MED confidence**  \nActive news markets like **GTA VI released before June 2026?** (1% yes at $14M volume) and **MegaETH airdrop by June 30, 2026?** (60% yes) show trader interest in pop culture and crypto, totaling $56.4M volume, yet lack mentions of recent X discussions, whale activity, or perceived mispricings.[4] No confirmed anno",
-      "direction": "YES",
+      "headline": "RECENT CONFIRMATIONS/ANNOUNCEMENTS IMPACTING MARKETS | NO (none resolved) | HIGH confidence**",
+      "raw": "RECENT CONFIRMATIONS/ANNOUNCEMENTS IMPACTING MARKETS | NO (none resolved) | HIGH confidence**  \nNo confirmed announcements, resolutions, or events noted that have moved markets; odds shift dynamically on trader activity alone[1][2][3]. Pop culture tweet markets (e.g., Kanye by April 30) active but secondary to Musk[2].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -97,23 +177,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776845184304_2",
-      "timestamp": "2026-04-22T08:06:24.304577+00:00",
+      "id": "sig_1776845241899_1",
+      "timestamp": "2026-04-22T08:07:21.899500+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Whale Bets or X Chatter Confirmed in Live Data | NO | HIGH confidence**",
-      "raw": "No Whale Bets or X Chatter Confirmed in Live Data | NO | HIGH confidence**  \nSearch results highlight 130+ tweet markets and 100+ news stories but provide no breaking X posts from traders on whales, tips, or movements; XTracker exists for analytics without specifics.[2][3][5] Data is dated (up to April 19) with no real-time \"right now\" confirmations as of 8 AM UTC.[1][4]",
+      "headline": "In an undated **Powell speech** (linked as April 4, 2025, but contextually later), he warned **higher tariffs** will rai",
+      "raw": "In an undated **Powell speech** (linked as April 4, 2025, but contextually later), he warned **higher tariffs** will raise **inflation** in coming quarters (PCE at 2.5%, core 2.8%), slow growth, with uncertain persistence, stressing anchored long-term expectations[2].",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
-    "watch": 0,
+    "enter": 0,
+    "alert": 12,
+    "watch": 1,
     "high_conf": 1
   }
 }
