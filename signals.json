@@ -1,93 +1,66 @@
 {
-  "last_scan": "2026-04-22T02:43:29.748318+00:00",
-  "scan_seconds": 19.1,
-  "markets_scanned": 77,
+  "last_scan": "2026-04-22T02:44:33.431952+00:00",
+  "scan_seconds": 16.8,
+  "markets_scanned": 75,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776825808739_0",
-      "timestamp": "2026-04-22T02:43:28.739119+00:00",
+      "id": "sig_1776825859657_0",
+      "timestamp": "2026-04-22T02:44:19.657202+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 22% odds for \"yes\" on Nasdaq implementing round-the-clock trading by June 30, 2026, with $43.9K volume and $1.5K liquidity, indicating traders heavily favor \"no\" as the likely outcome.[1]",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple Labs has been confirmed as resolved in April 2026, removing a major regulatory overhang and driving XRP's ~10% weekly price gain to ~$1.42 after breaking $1.50 resistance[1][2]. This fundamental shift boosts institutional sentiment amid broader crypto inflows, with a",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776825804487_0",
-      "timestamp": "2026-04-22T02:43:24.487842+00:00",
+      "id": "sig_1776825859660_1",
+      "timestamp": "2026-04-22T02:44:19.660317+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify breaking news that matches your specific criteria",
-      "raw": "Based on the search results provided, I cannot identify breaking news that matches your specific criteria. The results show **ongoing first-round playoff games** rather than conference semifinals, and there is **no recent announcement about the Cavaliers in the semifinals** that would move prediction markets.\n\nThe available information indicates:",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776825804490_1",
-      "timestamp": "2026-04-22T02:43:24.490878+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**First round in progress**: The Eastern Conference bracket shows the Cavaliers as a 4-seed currently in a first-round s",
-      "raw": "**First round in progress**: The Eastern Conference bracket shows the Cavaliers as a 4-seed currently in a first-round series[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776825804496_3",
-      "timestamp": "2026-04-22T02:43:24.496752+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Celtics dominance**: Jayson Tatum dominated as the Celtics blew out the 76ers in Game 1, which is notable but occurred",
-      "raw": "**Celtics dominance**: Jayson Tatum dominated as the Celtics blew out the 76ers in Game 1, which is notable but occurred during the first round[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776825804499_4",
-      "timestamp": "2026-04-22T02:43:24.499945+00:00",
-      "source": "PERPLEXITY",
-      "headline": "For market-moving news specific to Cavaliers conference semifinals or rookies**, the search results are insufficient",
-      "raw": "For market-moving news specific to Cavaliers conference semifinals or rookies**, the search results are insufficient. To provide the breaking news analysis you requested in HEADLINE | YES/NO | CONFIDENCE format, I would need more recent playoff updates that specifically confirm advancement to the conference semifinals or announce significant roster/health developments.",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger & Ethereum | YES | MED confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger & Ethereum | YES | MED confidence**  \nOfficial RLUSD launch is reported as occurring in April 2026, fueling record XRPL transaction volumes and institutional adoption alongside SEC resolution and nearing XRP ETF approvals[2]. Supporting XRP surge but dated April 17 (less \"right now\" than SEC news)[2].",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776825868162_0",
+      "timestamp": "2026-04-22T02:44:28.162209+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs | NO | HIGH confide",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs | NO | HIGH confidence** [1][4]\n\nThe Cleveland Cavaliers won 115-105 against the Toronto Raptors on April 21, 2026, securing a 2-0 series lead in their first-round matchup, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and 8 rebounds.[1][4] ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776825808742_1",
-      "timestamp": "2026-04-22T02:43:28.742143+00:00",
+      "id": "sig_1776825872425_0",
+      "timestamp": "2026-04-22T02:44:32.425436+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kinetiq Price in 2026 | Under $0",
-      "raw": "Kinetiq Price in 2026 | Under $0.5 | MED confidence**  \nTrending market prices Kinetiq hitting 59% probability at $0.5 or below for 2026, reflecting trader sentiment on this crypto/finance asset amid 166 active trending markets.[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776825808745_2",
-      "timestamp": "2026-04-22T02:43:28.745226+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume April 17-24, 2026 | 1080-1119 Tweets | LOW confidence**",
-      "raw": "Elon Musk Tweet Volume April 17-24, 2026 | 1080-1119 Tweets | LOW confidence**  \nActive tweet markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" show 18% odds for the 1080-1119 range as most priced outcome, part of high-volume categories ($17.1M total) including pop culture and tweet predictions.[2][3][4]  \n\nNo whale bets, smart money moves, mispriced markets, or recent confirmations/ann",
+      "headline": "Polymarket Racist Slurs Scandal Sparks Outrage on X | NO | HIGH confidence**",
+      "raw": "Polymarket Racist Slurs Scandal Sparks Outrage on X | NO | HIGH confidence**  \nPolymarket's official Traders account allegedly posted ethnic slurs accusing users from India, Nigeria, and Turkey of pretending to be women influencers, then deleted the tweet, prompting massive backlash with no company response yet[1]. This breaking controversy, unfolding right now on X, overshadows other trader discu",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -96,23 +69,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776825804493_2",
-      "timestamp": "2026-04-22T02:43:24.493776+00:00",
+      "id": "sig_1776825872428_1",
+      "timestamp": "2026-04-22T02:44:32.428559+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Spurs-related breaking news**: Victor Wembanyama entered concussion protocol after a hard fall in Game 2 vs",
-      "raw": "**Spurs-related breaking news**: Victor Wembanyama entered concussion protocol after a hard fall in Game 2 vs. the Trail Blazers, which could affect playoff predictions for that series[4]",
+      "headline": "New Tweet Count Markets Launch with Early Trader Action | NO | MED confidence**",
+      "raw": "New Tweet Count Markets Launch with Early Trader Action | NO | MED confidence**  \nFresh Polymarket markets opened April 21 on tweet volumes for Elon Musk (traders cluster 240-299 posts, $468K volume), Zelenskyy (60-79 or 100-119 at 26% each), White House (120-159 at 50%), and NYC Mayor ($1K+ volume), drawing initial bets but no reported whale moves, smart money tips, or mispricing calls on X yet[3",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 1
   }
 }
