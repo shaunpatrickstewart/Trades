@@ -1,59 +1,96 @@
 {
-  "last_scan": "2026-04-22T11:59:06.810201+00:00",
-  "scan_seconds": 16.2,
-  "markets_scanned": 82,
+  "last_scan": "2026-04-22T12:00:21.163160+00:00",
+  "scan_seconds": 20.1,
+  "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776859142203_0",
-      "timestamp": "2026-04-22T11:59:02.203956+00:00",
+      "id": "sig_1776859214625_0",
+      "timestamp": "2026-04-22T12:00:14.625787+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Crush Cavaliers 127-113 in Regular Season Finale; Boost Playoff Momentum vs Rockets (1-0 Series Lead)** | **YES**",
-      "raw": "Lakers Crush Cavaliers 127-113 in Regular Season Finale; Boost Playoff Momentum vs Rockets (1-0 Series Lead)** | **YES** | **HIGH** confidence[1][2][3]\n\nLuka Doncic erupted for **42 points and 12 assists**, Deandre Ayton added 18 points and 9 rebounds, and the Lakers routed Cleveland to clinch the Pacific Division and a top-6 West seed\u2014extending their win streak to four\u2014right before playoffs[1]. T",
+      "headline": "Philadelphia 76ers Upset Boston Celtics in Game 2, Tying Eastern Conference First-Round Series 1-1 | NO major series win",
+      "raw": "Philadelphia 76ers Upset Boston Celtics in Game 2, Tying Eastern Conference First-Round Series 1-1 | NO major series winner confirmed | LOW confidence** [1]\n\nPhiladelphia 76ers defeated the Boston Celtics 111-97 in Game 2 on or before April 22, 2026, evening the series after Boston's Game 1 win (123-91); Game 3 is Friday in Philadelphia.[1] No conference semifinals have started\u2014all matchups remain",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776859133543_0",
-      "timestamp": "2026-04-22T11:58:53.543760+00:00",
+      "id": "sig_1776859220147_0",
+      "timestamp": "2026-04-22T12:00:20.147174+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple Reveals Four-Phase Plan to Quantum-Proof XRP Ledger by 2028 | YES | HIGH confidence**",
-      "raw": "Ripple Reveals Four-Phase Plan to Quantum-Proof XRP Ledger by 2028 | YES | HIGH confidence**  \nThis breaking announcement, reported in the last half hour, outlines a roadmap to protect the XRP Ledger from quantum computing threats, positioning XRP as a forward-thinking asset amid rising security concerns.[4]  \nThe plan has driven immediate buzz, with XRP flipping BNB to rank third and analysts hig",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
-        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776859145807_0",
-      "timestamp": "2026-04-22T11:59:05.807144+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweets Market Leads Polymarket Activity | NO | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and broader \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range priced at 18-28% probability across recent updates[1][2][3]. These dominate Tweet and Pop Culture categories, reflectin",
-      "direction": "YES",
+      "headline": "I cannot answer this query based on the provided search results",
+      "raw": "I cannot answer this query based on the provided search results. The search results contain only general information about how Polymarket functions as a prediction market platform\u2014they don't include any current social media posts, whale bets, trending discussions, market mispricing analysis, or breaking news about recent announcements or resolutions.\n\nTo answer your question, I would need:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859220151_1",
+      "timestamp": "2026-04-22T12:00:20.151047+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time social media feeds or posts from X (Twitter) discussing Polymarket predictions",
+      "raw": "Real-time social media feeds or posts from X (Twitter) discussing Polymarket predictions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859220153_2",
+      "timestamp": "2026-04-22T12:00:20.153975+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current whale trading activity or large bet data",
+      "raw": "Current whale trading activity or large bet data",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859220160_4",
+      "timestamp": "2026-04-22T12:00:20.160069+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Analysis of which markets traders believe are mispriced",
+      "raw": "Analysis of which markets traders believe are mispriced\n\nThe search results only show that as of April 21, 2026, the most active market was \"Elon Musk # tweets in April 2026?\" with a 28% probability assigned to the 1120-1159 outcome range[3], but this doesn't capture the live discussion or sentiment you're asking about.\n\nFor the breaking news and real-time trader sentiment you're seeking, you woul",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859220156_3",
+      "timestamp": "2026-04-22T12:00:20.156905+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent market announcements, confirmations, or resolutions that could impact prediction odds",
+      "raw": "Recent market announcements, confirmations, or resolutions that could impact prediction odds",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
-    "watch": 0,
+    "alert": 5,
+    "watch": 1,
     "high_conf": 0
   }
 }
