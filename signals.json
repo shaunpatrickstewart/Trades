@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-22T06:44:34.538424+00:00",
-  "scan_seconds": 18.0,
-  "markets_scanned": 80,
+  "last_scan": "2026-04-22T06:45:44.108162+00:00",
+  "scan_seconds": 23.5,
+  "markets_scanned": 79,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776840268053_0",
-      "timestamp": "2026-04-22T06:44:28.053569+00:00",
+      "id": "sig_1776840336068_0",
+      "timestamp": "2026-04-22T06:45:36.068898+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Confirm 2-0 Series Lead Over Rockets After LeBron's Game-Sealing Dunk in 101-94 Game 2 Win** | **YES** | **HIGH**",
-      "raw": "Lakers Confirm 2-0 Series Lead Over Rockets After LeBron's Game-Sealing Dunk in 101-94 Game 2 Win** | **YES** | **HIGH** confidence[3][4][6]\n\nLeBron James scored 28 points with 8 rebounds and 7 assists to lead the short-handed Lakers past the Rockets, despite Luka Doncic (hamstring) and Austin Reaves (oblique) ruled out for Game 2\u2014both expected to miss early series games but with potential returns",
-      "direction": "YES",
+      "headline": "Based on the search results provided, here are the confirmed playoff developments:",
+      "raw": "Based on the search results provided, here are the confirmed playoff developments:",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,36 +18,123 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776840259305_0",
-      "timestamp": "2026-04-22T06:44:19.305663+00:00",
+      "id": "sig_1776840343095_0",
+      "timestamp": "2026-04-22T06:45:43.095668+00:00",
       "source": "PERPLEXITY",
-      "headline": "HIGH confidence** (search results lack any fresh April 22, 2026 events; content focuses on predictions and past data)",
-      "raw": "HIGH confidence** (search results lack any fresh April 22, 2026 events; content focuses on predictions and past data).",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "\ud835\udd4f Money Launch by April 30",
+      "raw": "\ud835\udd4f Money Launch by April 30? Traders Eye Elon Musk's Next Move | YES 12% | HIGH confidence**  \nPolymarket's top X-related market shows \"\ud835\udd4f Money launched by...?\" at 12% YES odds with $33.6K volume and $4.6K liquidity, ending April 30; traders on X are likely buzzing about potential mispricing given low probability despite high interest in Musk's tech plans[1].",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840324575_0",
+      "timestamp": "2026-04-22T06:45:24.575349+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Hits $75K+ Amid Institutional ETF Inflows and Regulatory Clarity Surge | YES | HIGH**",
+      "raw": "Bitcoin Hits $75K+ Amid Institutional ETF Inflows and Regulatory Clarity Surge | YES | HIGH**  \nBitcoin surpassed $75,000 in mid-April 2026, driven by record ETF inflows, MicroStrategy's 300,000+ BTC accumulation, and new regulatory clarity creating a supply crunch\u2014its strongest weekly gain since October[1][2][4][5]. On April 21, BTC tested $76K resistance with bullish momentum on 4-hour and daily",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776840273535_0",
-      "timestamp": "2026-04-22T06:44:33.535842+00:00",
+      "id": "sig_1776840336071_1",
+      "timestamp": "2026-04-22T06:45:36.071869+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 29% for 180-199 tweets) and \"Elon Musk # tweets in April 2026?\" (18% for 1080-1119 tweets), with over $17.1M in trading volume across 130+ related markets.[2][3][4] These",
-      "direction": "NO",
+      "headline": "CAVALIERS TAKE 2-0 SERIES LEAD OVER RAPTORS | YES | HIGH confidence**",
+      "raw": "CAVALIERS TAKE 2-0 SERIES LEAD OVER RAPTORS | YES | HIGH confidence**\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on Monday night (April 21, 2026) to secure a 2-0 advantage in their NBA Eastern Conference first-round series[1]. Donovan Mitchell led with 30 points, James Harden added 28, and Evan Mobley contributed 25 points and eight rebounds[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776840336078_2",
+      "timestamp": "2026-04-22T06:45:36.078923+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CAVALIERS TIE NBA RECORD WITH 12 CONSECUTIVE PLAYOFF WINS VS",
+      "raw": "CAVALIERS TIE NBA RECORD WITH 12 CONSECUTIVE PLAYOFF WINS VS. TORONTO | YES | HIGH confidence**\n\nCleveland has now achieved 12 consecutive playoff victories against Toronto, tying the NBA record for most consecutive wins over a single opponent in the postseason[1]. This streak matches similar 12-game winning streaks held by the Cavaliers against Detroit and Atlanta, and the Los Angeles Lakers agai",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776840336086_3",
+      "timestamp": "2026-04-22T06:45:36.086028+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ROOKIE COLLIN MURRAY-BOYLES CONTRIBUTING FOR RAPTORS | YES | HIGH confidence**",
+      "raw": "ROOKIE COLLIN MURRAY-BOYLES CONTRIBUTING FOR RAPTORS | YES | HIGH confidence**\n\nRookie centre Collin Murray-Boyles stepped into an expanded role, recording 17 points, seven rebounds, a block and a steal in nearly 26 minutes of play in at least one playoff game[3].\n\nThe search results do not contain breaking news specifically about the Lakers or other developments that would constitute market-movin",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776840343101_2",
+      "timestamp": "2026-04-22T06:45:43.101721+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds Draw Speculation | YES 7% | LOW confidence**  \nMarket at 7% YES with $1.4K volume and $4.5K liquidity positions this as a potential mispriced longshot for smart money; X traders may tip it as undervalued amid Musk product shakeups[1].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840343098_1",
+      "timestamp": "2026-04-22T06:45:43.098703+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? 100% Implied Resolution | YES 100% | MED confidence**  \nGeopolitics market \"Iran x Israel/US conflict ends by...?\" trades at 100% YES, signaling traders' conviction in an imminent end (specific date not listed); this could spark X posts on whale bets if recent confirmations emerged, though details are sparse[1].",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840343105_3",
+      "timestamp": "2026-04-22T06:45:43.105144+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Volume Markets Heating Up | Varies (e",
+      "raw": "Elon Musk Tweet Volume Markets Heating Up | Varies (e.g., 18% on 1080-1119 for April) | MED confidence**  \nActive tweet markets like \"Elon Musk # tweets April 17-24, 2026?\" and full April totals (18% on 1080-1119) show $17.1M+ cumulative volume; real-time shifts could prompt X tips on over/undervalued bins as data accrues[2][3][4].  \n\nNo recent confirmations, announcements, or resolutions explicit",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
-    "watch": 0,
+    "alert": 7,
+    "watch": 2,
     "high_conf": 1
   }
 }
