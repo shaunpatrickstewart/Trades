@@ -1,54 +1,28 @@
 {
-  "last_scan": "2026-04-22T22:09:34.590258+00:00",
-  "scan_seconds": 14.0,
-  "markets_scanned": 46,
+  "last_scan": "2026-04-22T22:10:40.916060+00:00",
+  "scan_seconds": 14.4,
+  "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776895773587_1",
-      "timestamp": "2026-04-22T22:09:33.587287+00:00",
+      "id": "sig_1776895839905_0",
+      "timestamp": "2026-04-22T22:10:39.905619+00:00",
       "source": "PERPLEXITY",
-      "headline": "No mispriced markets, tips, or recent confirmations/announcements** (e",
-      "raw": "No mispriced markets, tips, or recent confirmations/announcements** (e.g., resolved events or breaking news) are confirmed to be driving moves; 168 trending markets exist with $2.8M volume, but specifics beyond tweets are absent.[1]  \nOther active areas include pop culture tweets (e.g., Kanye by April 30 at 60%) and niche predictions like Nasdaq trading, but none indicate fresh resolutions or X hy",
-      "direction": "NO",
-      "confidence": 0.9,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume and $1.8K liquidity, indicating strong trader consensus against implementation by the deadline.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776895764063_0",
-      "timestamp": "2026-04-22T22:09:24.063544+00:00",
+      "id": "sig_1776895829452_0",
+      "timestamp": "2026-04-22T22:10:29.452032+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO** | **LOW** confidence",
-      "raw": "NO** | **LOW** confidence",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776895764065_1",
-      "timestamp": "2026-04-22T22:09:24.065329+00:00",
-      "source": "PERPLEXITY",
-      "headline": "[1][4] report static prices ($2,317",
-      "raw": "[1][4] report static prices ($2,317.80 on Apr 20, $2,358 on Apr 17), down daily but up yearly.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776895764067_2",
-      "timestamp": "2026-04-22T22:09:24.067147+00:00",
-      "source": "PERPLEXITY",
-      "headline": "[2] hypes **Pectra upgrade** in final testing (as of Apr 17-18) and ETF inflows, but this is speculative video content,",
-      "raw": "[2] hypes **Pectra upgrade** in final testing (as of Apr 17-18) and ETF inflows, but this is speculative video content, not a fresh confirmation.",
+      "headline": "LOW confidence** in any breaking news impact, as results lack events post-April 21 and show price weakness over hype[5]",
+      "raw": "LOW confidence** in any breaking news impact, as results lack events post-April 21 and show price weakness over hype[5].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -57,53 +31,78 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776895764068_3",
-      "timestamp": "2026-04-22T22:09:24.068965+00:00",
+      "id": "sig_1776895839907_1",
+      "timestamp": "2026-04-22T22:10:39.907462+00:00",
       "source": "PERPLEXITY",
-      "headline": "[3][5] predict April rebound via patterns/ETFs, but note ongoing slumps (60% from 2025 highs), outflows ($2",
-      "raw": "[3][5] predict April rebound via patterns/ETFs, but note ongoing slumps (60% from 2025 highs), outflows ($2.4B net), and no new catalysts resolved.[3]  \nNo \"right now\" events like regulatory approvals or macro data releases appear in results to move markets upward.[3]",
-      "direction": "NO",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume and $4.4K liquidity reflects low expectations for launch in 7 days.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776895768910_0",
-      "timestamp": "2026-04-22T22:09:28.910695+00:00",
+      "id": "sig_1776895839909_2",
+      "timestamp": "2026-04-22T22:10:39.909357+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Series Lead Over Rockets Despite Key Injuries; No Cavaliers or Flagg Matchup Confirmed** | NO | HIGH con",
-      "raw": "Lakers Take 2-0 Series Lead Over Rockets Despite Key Injuries; No Cavaliers or Flagg Matchup Confirmed** | NO | HIGH confidence\n\nNo breaking news confirms a Lakers-Cavaliers playoff series or involves rookie Cooper Flagg; instead, the Lakers just won Game 2 vs. Houston Rockets 101-94, led by LeBron James' 28 points, 8 rebounds, and 7 assists, despite missing Luka Don\u010di\u0107 (hamstring) and Austin Reav",
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with $94.3K volume and $6.7K liquidity; crypto sentiment cautious amid market conditions.[1]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776895773585_0",
-      "timestamp": "2026-04-22T22:09:33.585485+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with \"Elon Musk # tweets in April 2026?\" leading activity; the 1120-1159 range trades at 19-21% implied probability amid over $20M+ in volume across related markets.[3][4]  \nNo specific **whale bets, smart money m",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776895839911_3",
+      "timestamp": "2026-04-22T22:10:39.911153+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES, suggesting recent confirmation or resolution driving full trader conviction ($12.3K liquidity).[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776895839913_4",
+      "timestamp": "2026-04-22T22:10:39.913126+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow 7% YES odds with $1.4K volume and $2.9K liquidity show minimal expectation of departure in 2 months.[2]  \n\nNo direct X posts on whale bets, smart money moves, mispriced markets, or tips in results; focus is on Polymarket's real-time odds from high-volume trades aggregating trader sentiment across 168+ trending, 1370+ X",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776895835149_0",
+      "timestamp": "2026-04-22T22:10:35.149561+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Wembanyama Concussion Rules Him Out of Game 2: Spurs Vulnerable in #7 Blazers vs #2 Spurs Series | NO (Blazers Win Serie",
+      "raw": "Wembanyama Concussion Rules Him Out of Game 2: Spurs Vulnerable in #7 Blazers vs #2 Spurs Series | NO (Blazers Win Series) | HIGH confidence** [1][4][5]\n\nVictor Wembanyama, the Spurs' MVP finalist and key to their #2 seed (62-20 record), suffered a concussion after a hard fall in Game 2 vs. the Trail Blazers and was ruled out immediately, per breaking CBS Sports report[5]. This follows a Game 1 Sp",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 0
   }
 }
