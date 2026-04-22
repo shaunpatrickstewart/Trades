@@ -1,5 +1,5 @@
 {
-  "ts": 1776863505,
+  "ts": 1776863575,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999809
+    "usdc_usd": 0.999779
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -44,10 +44,10 @@
         "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
         "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
         "size": 29.21,
-        "cur_price": 0.9965,
-        "nav_usdc": 29.1078,
+        "cur_price": 0.997,
+        "nav_usdc": 29.1224,
         "cost_basis": 28.9179,
-        "unrealized_pnl": 0.1899
+        "unrealized_pnl": 0.2045
       },
       {
         "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
@@ -125,19 +125,19 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.057,
-        "nav_usdc": 0.4651,
+        "cur_price": 0.0575,
+        "nav_usdc": 0.4692,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8323
+        "unrealized_pnl": -0.8282
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.14,
-        "nav_usdc": 1.0724,
+        "cur_price": 0.12,
+        "nav_usdc": 0.9192,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.6894
+        "unrealized_pnl": -0.8426
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.8082,
-    "total_usdc": 403.7448,
-    "total_usd": 403.6677
+    "positions_nav_usdc": 316.6737,
+    "total_usdc": 403.6103,
+    "total_usd": 403.5211
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776863506,
+    "ts": 1776863576,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776777106,
+      "window_start_ts": 1776777176,
       "realized_usdc": 0.2316,
       "trade_count": 13,
       "buy_volume_usdc": 121.8994,
@@ -471,7 +471,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776258706,
+      "window_start_ts": 1776258776,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -684,7 +684,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774271506,
+      "window_start_ts": 1774271576,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1110,7 +1110,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.6677,
-    "total_usdc": 403.7448
+    "total_usd": 403.5211,
+    "total_usdc": 403.6103
   }
 }
