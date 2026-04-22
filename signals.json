@@ -1,32 +1,84 @@
 {
-  "last_scan": "2026-04-22T16:28:11.515249+00:00",
-  "scan_seconds": 20.9,
-  "markets_scanned": 56,
+  "last_scan": "2026-04-22T16:29:31.892845+00:00",
+  "scan_seconds": 31.3,
+  "markets_scanned": 15,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776875279729_0",
-      "timestamp": "2026-04-22T16:27:59.729558+00:00",
+      "id": "sig_1776875364539_0",
+      "timestamp": "2026-04-22T16:29:24.539394+00:00",
       "source": "PERPLEXITY",
-      "headline": "US-Iran Ceasefire Extended (22",
-      "raw": "US-Iran Ceasefire Extended (22.04.2026)** | **YES** | **MED** confidence\n\nGlobal markets react positively to the extension of the US-Iran ceasefire, with Wall Street indices rising amid reduced geopolitical tensions over peace negotiations, potentially easing oil price pressures from the prior energy crisis[2]. This development follows March 2026 CPI data (released April 10) showing headline infla",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will annual inflation increase by 3.8% in April?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776875290512_0",
-      "timestamp": "2026-04-22T16:28:10.512147+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Tweet Markets Amid High-Volume Elon Musk and Kanye Bets | NO Confirmed Whale Bets or An",
-      "raw": "Polymarket Traders on X Focus on Tweet Markets Amid High-Volume Elon Musk and Kanye Bets | NO Confirmed Whale Bets or Announcements in Real-Time Data | MED Confidence**\n\nTrending discussions among Polymarket traders center on **tweet prediction markets**, particularly high-volume ones like \"Elon Musk # tweets April 17 - April 24, 2026?\" (32% implied probability for 220-239 tweets) and \"Elon Musk #",
+      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference First Round after Game 2 win (Mitchell 30 pts, Harden double-double, Mo",
+      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference First Round after Game 2 win (Mitchell 30 pts, Harden double-double, Mobley 25 pts)** | **YES** | **MED** confidence[4][7]\n\nCavaliers defeated Raptors 115-105 in Game 2 on Monday, April 20, 2026, securing a 2-0 series lead in the first round\u2014not semifinals\u2014with strong performances from Donovan Mitchell (30 points), James Harden (22 points, 10 assist",
       "direction": "YES",
       "confidence": 0.78,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776875370887_0",
+      "timestamp": "2026-04-22T16:29:30.887147+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows **20% YES odds** with $43.9K volume and $1.8K liquidity, indicating strong trader consensus against implementation by the deadline.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776875370888_1",
+      "timestamp": "2026-04-22T16:29:30.888092+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-related market at **12% YES odds**, $33.6K volume, ending in 8 days; traders on Polymarket heavily betting NO amid low sentiment for timely rollout.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776875370888_2",
+      "timestamp": "2026-04-22T16:29:30.888807+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending crypto market at **19% YES odds**, $94.3K volume, $6.7K liquidity; reflects cautious trader bets despite ongoing hype, no whale activity noted in results.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776875370889_3",
+      "timestamp": "2026-04-22T16:29:30.889464+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at **100% YES**, $11.9K liquidity across 116 outcomes, signaling recent confirmation or resolution driving full trader alignment.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776875370890_4",
+      "timestamp": "2026-04-22T16:29:30.890205+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow **7% YES odds**, $1.4K volume; minimal activity suggests traders see low risk of change soon.[2]  \n\nNo direct X posts on whale bets, smart money moves, mispriced markets, or tips in results; data limited to Polymarket pages as of April 21 (Nasdaq/Monero) and April 19 (X markets), potentially missing real-time X buzz.[1",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
@@ -34,9 +86,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 1,
+    "enter": 0,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
