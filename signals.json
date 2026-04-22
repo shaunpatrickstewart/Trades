@@ -1,17 +1,58 @@
 {
-  "last_scan": "2026-04-22T21:31:16.485558+00:00",
-  "scan_seconds": 15.9,
+  "last_scan": "2026-04-22T21:32:44.125502+00:00",
+  "scan_seconds": 42.5,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776893470609_0",
-      "timestamp": "2026-04-22T21:31:10.609156+00:00",
+      "id": "sig_1776893552780_0",
+      "timestamp": "2026-04-22T21:32:32.780283+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain current information",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain current information from today (April 22, 2026) or recently confirmed announcements that would move prediction markets.\n\nThe search results available are from early April 2026 and focus on **Cooper Flagg's historic scoring performances** (51 points on April 5, then 45 points on April 7), which move",
-      "direction": null,
+      "headline": "Based on the available search results, I cannot identify any breaking news announcement, confirmation, or resolution tha",
+      "raw": "Based on the available search results, I cannot identify any breaking news announcement, confirmation, or resolution that would move prediction markets for Ethereum today.\n\nThe search results show that **Ethereum is up $98.74 (4.3%) from yesterday**, trading at $2,403.78 as of 9:15 a.m. Eastern Time on April 22, 2026[1]. However, this price movement appears to reflect normal market activity rather",
+      "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776893563113_0",
+      "timestamp": "2026-04-22T21:32:43.113014+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation by the deadline.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776893552782_1",
+      "timestamp": "2026-04-22T21:32:32.782630+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE | Cannot Confirm | LOW confidence**",
+      "raw": "HEADLINE | Cannot Confirm | LOW confidence**\n\nThere is insufficient information in the search results to identify breaking news that would move prediction markets at this time.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776893558262_0",
+      "timestamp": "2026-04-22T21:32:38.262523+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Mavs Rookie Cooper Flagg Posts 27-10 Double-Double in Stunning 130-120 Win Over Cavs, Splitting Home-and-Home Series** |",
+      "raw": "Mavs Rookie Cooper Flagg Posts 27-10 Double-Double in Stunning 130-120 Win Over Cavs, Splitting Home-and-Home Series** | NO | HIGH confidence[1]\n\nRookie **Cooper Flagg** delivered 27 points, 10 assists, 6 rebounds, and 2 blocks in 33 minutes, powering the visiting Dallas Mavericks to a 130-120 upset victory against the Cleveland Cavaliers on March 15, 2026, ending Cleveland's seven-game win streak",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
@@ -20,77 +61,75 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776893470610_1",
-      "timestamp": "2026-04-22T21:31:10.611003+00:00",
+      "id": "sig_1776893563114_1",
+      "timestamp": "2026-04-22T21:32:43.114854+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent confirmed announcements about series outcomes (playoffs, Finals, etc",
-      "raw": "Recent confirmed announcements about series outcomes (playoffs, Finals, etc.)",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776893470616_4",
-      "timestamp": "2026-04-22T21:31:10.616916+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Resolved or newly announced information affecting current predictions",
-      "raw": "Resolved or newly announced information affecting current predictions\n\nTo provide accurate breaking news in the format you've requested, I would need search results with today's timestamp or very recent developments that represent newly confirmed information.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776893470613_2",
-      "timestamp": "2026-04-22T21:31:10.613140+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current updates on Lakers, Cavaliers, or other teams",
-      "raw": "Current updates on Lakers, Cavaliers, or other teams",
-      "direction": null,
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific predictions list 16% YES odds and $33.6K volume, with the market ending in 7 days; traders on Polymarket view launch as unlikely soon.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893470614_3",
-      "timestamp": "2026-04-22T21:31:10.614894+00:00",
+      "id": "sig_1776893563116_2",
+      "timestamp": "2026-04-22T21:32:43.116694+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-moving news from today's date",
-      "raw": "Market-moving news from today's date",
-      "direction": null,
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% YES with $12.3K liquidity, signaling recent confirmation or resolution driving full trader agreement.[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776893475482_0",
-      "timestamp": "2026-04-22T21:31:15.482340+00:00",
+      "id": "sig_1776893563118_3",
+      "timestamp": "2026-04-22T21:32:43.118466+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market highlighting a 19-21% probability for the 1120-1159 tweets outcome amid over $20M+ in trading volume across related tweet prediction categories.[3][4] Specific sub",
-      "direction": "NO",
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES odds and $94.3K volume over 8 months; crypto sentiment leans bearish amid ongoing price debates.[1]",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776893563120_4",
+      "timestamp": "2026-04-22T21:32:43.120316+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as Head of Product at X by June 30",
+      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | HIGH confidence**  \nX predictions give 7% YES odds with $1.4K volume; low probability reflects stability expectations.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776893563122_5",
+      "timestamp": "2026-04-22T21:32:43.122117+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye Tweets Again by April 30",
+      "raw": "Kanye Tweets Again by April 30? | YES | MED confidence**  \nTweet markets at 60% YES odds; active trader interest in celebrity behavior without whale signals noted.[3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 1,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
