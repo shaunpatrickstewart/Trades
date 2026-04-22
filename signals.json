@@ -1,32 +1,73 @@
 {
-  "last_scan": "2026-04-22T16:40:53.655650+00:00",
-  "scan_seconds": 23.1,
+  "last_scan": "2026-04-22T16:42:00.283928+00:00",
+  "scan_seconds": 19.7,
   "markets_scanned": 46,
   "open_positions": 15,
   "signals": [
     {
-      "id": "sig_1776876034925_3",
-      "timestamp": "2026-04-22T16:40:34.925338+00:00",
+      "id": "sig_1776876114510_0",
+      "timestamp": "2026-04-22T16:41:54.510007+00:00",
       "source": "PERPLEXITY",
-      "headline": "**No April 22 specifics**: Results discuss early/mid-April rallies (e",
-      "raw": "**No April 22 specifics**: Results discuss early/mid-April rallies (e.g., Solana +4\u201310%, ETH surges), fear index at extreme lows, but nothing \"just\" resolved or announced to shift markets imminently.[1][2][3][4][5]",
-      "direction": "NO",
+      "headline": "Lakers Clinch Pacific Division Title and Playoff Spot After Suns Loss and 127-113 Win Over Cavaliers** | YES | HIGH conf",
+      "raw": "Lakers Clinch Pacific Division Title and Playoff Spot After Suns Loss and 127-113 Win Over Cavaliers** | YES | HIGH confidence[1][2]\n\nThe Los Angeles Lakers secured a top-six seed in the Western Conference playoffs and the Pacific Division crown before tip-off on Tuesday when the Phoenix Suns lost in Orlando, with the victory over Cleveland (powered by Luka Doncic's 42 points) confirming 50 wins a",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776876110528_1",
+      "timestamp": "2026-04-22T16:41:50.528293+00:00",
+      "source": "PERPLEXITY",
+      "headline": "March 2026 CPI data confirmed headline inflation surged 0",
+      "raw": "March 2026 CPI data confirmed headline inflation surged 0.87% month-over-month, pushing year-over-year headline CPI to 3.29%**[1], with the spike primarily driven by a 10.9% jump in energy prices tied to the Iran war[1]. Oil prices spiked 45% in a single month, jumping from $71 to $103 per barrel between February and March[1].",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776876110532_3",
+      "timestamp": "2026-04-22T16:41:50.532276+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market implications:** Goldman has raised its December 2026 headline PCE forecast by a full percentage point since the w",
+      "raw": "Market implications:** Goldman has raised its December 2026 headline PCE forecast by a full percentage point since the war began[1], and short-term inflation expectations jumped to 4.8% in the University of Michigan survey[1]. This development likely delays Federal Reserve rate cuts, which markets had been pricing in before the geopolitical shock. However, Goldman's base case still projects core i",
+      "direction": null,
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776876102938_0",
+      "timestamp": "2026-04-22T16:41:42.938701+00:00",
+      "source": "PERPLEXITY",
+      "headline": "US President Signs Executive Order Positioning America as Bitcoin and Crypto Hub | YES | HIGH confidence**[1]",
+      "raw": "US President Signs Executive Order Positioning America as Bitcoin and Crypto Hub | YES | HIGH confidence**[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776876034923_2",
-      "timestamp": "2026-04-22T16:40:34.923340+00:00",
+      "id": "sig_1776876102940_1",
+      "timestamp": "2026-04-22T16:41:42.940455+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Network upgrades in progress**: Ethereum's Pectra entering final testing (as of April 18), Solana's Alpenglow anticipa",
-      "raw": "**Network upgrades in progress**: Ethereum's Pectra entering final testing (as of April 18), Solana's Alpenglow anticipated (as of April 14), not confirmed live today.[4][5]",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "OCBC Launches Tokenized Gold Fund (GOLDX) on Ethereum and Solana Blockchains (21 April 2026) | YES | HIGH confidence**[4",
+      "raw": "OCBC Launches Tokenized Gold Fund (GOLDX) on Ethereum and Solana Blockchains (21 April 2026) | YES | HIGH confidence**[4]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will the price of Solana be above $90 on April 28?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
@@ -36,12 +77,12 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776876034919_0",
-      "timestamp": "2026-04-22T16:40:34.919593+00:00",
+      "id": "sig_1776876102942_2",
+      "timestamp": "2026-04-22T16:41:42.942119+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Market recovery signals**: Bitcoin eyes $80K with ETF inflows (e",
-      "raw": "**Market recovery signals**: Bitcoin eyes $80K with ETF inflows (e.g., $471M in one day, $117.63M recently), Solana holds $80\u2013$87 support amid DEX volume leadership ($57B in March, $87B late March), Ethereum around $2,050\u2013$2,321 post-declines.[1][2][3][6]",
-      "direction": null,
+      "headline": "Ethereum Fusaka Upgrade Live, Enhancing Scalability and Layer-2 Efficiency | YES | MED confidence**[4]",
+      "raw": "Ethereum Fusaka Upgrade Live, Enhancing Scalability and Layer-2 Efficiency | YES | MED confidence**[4]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -49,27 +90,12 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776876034921_1",
-      "timestamp": "2026-04-22T16:40:34.921394+00:00",
+      "id": "sig_1776876110526_0",
+      "timestamp": "2026-04-22T16:41:50.526221+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Pending catalysts**: Solana ETF approvals, CLARITY Act markup (late April), no resolutions yet",
-      "raw": "**Pending catalysts**: Solana ETF approvals, CLARITY Act markup (late April), no resolutions yet.[1][2][3]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Solana be above $90 on April 28?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776876040158_0",
-      "timestamp": "2026-04-22T16:40:40.158983+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: LOW** confidence in any immediate shifts, as March data is ~12 days old and no fresh catal",
-      "raw": "Impact on prediction markets: LOW** confidence in any immediate shifts, as March data is ~12 days old and no fresh catalysts confirmed.[1][2]",
-      "direction": "NO",
+      "headline": "IRAN WAR DRIVES HEADLINE INFLATION TO 3",
+      "raw": "IRAN WAR DRIVES HEADLINE INFLATION TO 3.29%, LARGEST MONTHLY SURGE SINCE 2022 | YES | HIGH confidence",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -77,83 +103,66 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776876047109_0",
-      "timestamp": "2026-04-22T16:40:47.109464+00:00",
+      "id": "sig_1776876110530_2",
+      "timestamp": "2026-04-22T16:41:50.530215+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information matchin",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information matching your query parameters.\n\nThe search results show that the **Cleveland Cavaliers lead the Toronto Raptors 2-0 in the Eastern Conference first-round series**[1][3], not the conference semifinals. Game 3 is scheduled for Thursday, April 23 at 8:00 PM ET[3]. There is no information ",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776876047111_1",
-      "timestamp": "2026-04-22T16:40:47.111159+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The Los Angeles Lakers in these results",
-      "raw": "The Los Angeles Lakers in these results",
+      "headline": "Core inflation showed more restraint**, rising only 0",
+      "raw": "Core inflation showed more restraint**, rising only 0.2% month-over-month (below the 0.3% consensus)[2] and 2.6% year-over-year[2], though Goldman notes tariff passthrough remains an active concern with core goods inflation at 2.7%[1].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776876047113_2",
-      "timestamp": "2026-04-22T16:40:47.113344+00:00",
+      "id": "sig_1776876110534_4",
+      "timestamp": "2026-04-22T16:41:50.534043+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any rookie-related announcements or confirmations",
-      "raw": "Any rookie-related announcements or confirmations",
+      "headline": "Key uncertainty:** Goldman's oil strategists expect Brent crude to pull back to $80 by Q4 2026, but explicitly note upsi",
+      "raw": "Key uncertainty:** Goldman's oil strategists expect Brent crude to pull back to $80 by Q4 2026, but explicitly note upside risks remain[1], making the inflation trajectory heavily dependent on Iran conflict resolution.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776876047115_3",
-      "timestamp": "2026-04-22T16:40:47.115053+00:00",
+      "id": "sig_1776876119277_0",
+      "timestamp": "2026-04-22T16:41:59.277193+00:00",
       "source": "PERPLEXITY",
-      "headline": "Conference semifinals matchups",
-      "raw": "Conference semifinals matchups",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776876047116_4",
-      "timestamp": "2026-04-22T16:40:47.116907+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving announcements or resolutions",
-      "raw": "Market-moving announcements or resolutions\n\nThe results focus on regular playoff first-round action, with no breaking news about trades, injuries, roster changes, or other developments that would typically move prediction markets. To answer your query accurately, I would need search results containing current breaking news from today (April 22, 2026) about the specific topics you mentioned.",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (19% for 1120-1159, 18% in related tweet markets).[2][3][4] These dominate Tweet and Tweet Markets categorie",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776876052652_0",
-      "timestamp": "2026-04-22T16:40:52.652481+00:00",
+      "id": "sig_1776876119279_1",
+      "timestamp": "2026-04-22T16:41:59.279017+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets Amid High-Volume Trending Markets | NO whale",
-      "raw": "Polymarket Traders on X Focus on Elon Musk Tweet Counts and X Platform Bets Amid High-Volume Trending Markets | NO whale bets or confirmed announcements reported | MED confidence**\n\nPolymarket's trending markets show heavy activity on **Elon Musk tweet volumes** for April 2026, with the most active market assigning 19% odds to 1120-1159 tweets and related bins like 200-219 at 33% or 240-259[1][3][",
+      "headline": "Kanye West Tweet Return Market Active | NO | LOW confidence**",
+      "raw": "Kanye West Tweet Return Market Active | NO | LOW confidence**\n\n\"Will Kanye tweet again by April 30?\" trades at 60% YES, part of 130+ live Tweet markets, but lacks mentions of whale bets, mispricing tips, or smart money shifts on X.[3]",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?"
-      ],
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776876119280_2",
+      "timestamp": "2026-04-22T16:41:59.280880+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Broad but No Specific X Buzz or News Triggers | NO | LOW confidence**",
+      "raw": "Trending Markets Broad but No Specific X Buzz or News Triggers | NO | LOW confidence**\n\n166+ Trending Markets (e.g., \"Nasdaq round-the-clock trading by June 30?\") show $2.8M volume, yet search results reveal no confirmed announcements, resolutions, or X posts about mispriced odds or big bets as of April 21 data.[1] Real-time X trader sentiment unavailable in results.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
@@ -161,7 +170,7 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 10,
+    "alert": 11,
     "watch": 0,
     "high_conf": 2
   }
