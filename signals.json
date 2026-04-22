@@ -1,17 +1,30 @@
 {
-  "last_scan": "2026-04-22T11:07:00.792063+00:00",
-  "scan_seconds": 20.3,
+  "last_scan": "2026-04-22T11:08:12.496858+00:00",
+  "scan_seconds": 21.9,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776856005210_0",
-      "timestamp": "2026-04-22T11:06:45.210902+00:00",
+      "id": "sig_1776856073427_0",
+      "timestamp": "2026-04-22T11:07:53.427008+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify a specific breaking news announcement, confirmation, or resoluti",
-      "raw": "Based on the search results provided, I cannot identify a specific breaking news announcement, confirmation, or resolution that has occurred today or very recently that would move prediction markets.\n\nThe search results contain general market commentary and price analysis from April 2026, but they lack concrete breaking news with definitive timestamps. The most recent dated content is from April 1",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Ripple Launches Digital Asset Accounts and Unified Treasury in Ripple Treasury | YES | MED confidence[1]",
+      "raw": "Ripple Launches Digital Asset Accounts and Unified Treasury in Ripple Treasury | YES | MED confidence[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776856073430_1",
+      "timestamp": "2026-04-22T11:07:53.430459+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Key details:** This is the first native digital asset capabilities embedded directly into a treasury management system,",
+      "raw": "Key details:** This is the first native digital asset capabilities embedded directly into a treasury management system, integrating XRP and RLUSD balances with cash in real-time for treasury management[1].  \nNo other confirmations, announcements, or resolutions (e.g., SEC deal, ETF approvals, or regulatory markups) appear finalized right now; XRP trades sideways around $1.31-$1.39 amid historical ",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
@@ -22,41 +35,84 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776856005214_1",
-      "timestamp": "2026-04-22T11:06:45.214330+00:00",
+      "id": "sig_1776856080983_0",
+      "timestamp": "2026-04-22T11:08:00.983378+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | YES or NO | Confidence Level**",
-      "raw": "HEADLINE | YES or NO | Confidence Level**\n\nI would need search results containing news with timestamps from April 22, 2026, or very recent announcements with specific confirmations, regulatory decisions, or market-moving events. The current results reflect general market sentiment and technical analysis rather than breaking developments.\n\nIf you have access to more recent news sources or specific ",
-      "direction": "YES",
+      "headline": "Based on the search results provided, here are the relevant recent developments:",
+      "raw": "Based on the search results provided, here are the relevant recent developments:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776856013879_0",
-      "timestamp": "2026-04-22T11:06:53.879024+00:00",
+      "id": "sig_1776856080990_1",
+      "timestamp": "2026-04-22T11:08:00.990556+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavericks Rookie Cooper Flagg Drops Historic 45 Points in Win Over Injury-Hit Lakers | NO | LOW confidence**",
-      "raw": "Mavericks Rookie Cooper Flagg Drops Historic 45 Points in Win Over Injury-Hit Lakers | NO | LOW confidence**  \nCooper Flagg scored 45 points (near triple-double) against the Lakers, marking back-to-back 40+ point games as the first teenager in NBA history, powering Dallas to a 134-128 victory\u2014their first home win since January after 14 straight losses[2][4].  \nThe Lakers were without leading score",
+      "headline": "Fed Maintains Rates Unchanged, Projects Single 2026 Cut** | YES | HIGH confidence",
+      "raw": "Fed Maintains Rates Unchanged, Projects Single 2026 Cut** | YES | HIGH confidence\n\nThe Federal Reserve held interest rates steady between 3.5% and 3.75%, with Chair Jerome Powell confirming the Fed projects only a single rate reduction for all of 2026[1]. Powell emphasized that progress on inflation\u2014particularly through reduction in goods inflation as tariff effects normalize\u2014is critical to any fu",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776856019776_0",
-      "timestamp": "2026-04-22T11:06:59.776882+00:00",
+      "id": "sig_1776856080997_2",
+      "timestamp": "2026-04-22T11:08:00.997705+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific real-time information you're requesting based on these search results",
-      "raw": "I cannot provide the specific real-time information you're requesting based on these search results. The results describe how Polymarket operates as a prediction market platform, but they don't contain current social media posts from traders, specific whale bets, trending market commentary, or recent breaking news that would be moving markets right now[1][2][3][4].\n\nTo get the information you're l",
+      "headline": "Core Inflation Remains Elevated at ~3%, with Tariffs as Major Driver** | YES | HIGH confidence",
+      "raw": "Core Inflation Remains Elevated at ~3%, with Tariffs as Major Driver** | YES | HIGH confidence\n\nCore inflation sits around 3%, with tariffs accounting for between 0.5 and 0.75 percentage points of this figure[1]. The Fed is specifically watching for tariff inflation to decline mid-year as one-time price effects work through the economy[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776856081004_3",
+      "timestamp": "2026-04-22T11:08:01.004862+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Oil Price Surge from Iran Conflict Pushes Overall Inflation to 3",
+      "raw": "Oil Price Surge from Iran Conflict Pushes Overall Inflation to 3.3%** | YES | HIGH confidence\n\nRecent CPI data showed prices rose 3.3% over 12 months, driven significantly by rising gas prices stemming from the Iran-U.S. conflict and disruptions to Strait of Hormuz oil supplies[2]. This geopolitical factor is now a key inflation variable affecting Fed decision-making[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Strait of Hormuz traffic returns to normal by end of April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776856081007_4",
+      "timestamp": "2026-04-22T11:08:01.007899+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market Pricing: 97% Probability of April 28 Hold** | YES | HIGH confidence",
+      "raw": "Market Pricing: 97% Probability of April 28 Hold** | YES | HIGH confidence\n\nTraders are pricing a more than 97% probability that the Fed will maintain rates at its April 28 meeting, with only 2.6% pricing in a potential hike[2].\n\nThese developments would reinforce market expectations of a prolonged hold period and potentially delay rate-cut timing beyond mid-year if tariff and geopolitical inflati",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776856091481_0",
+      "timestamp": "2026-04-22T11:08:11.481765+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time trading discussions, whale bets, or current social media posts you're requesting based on",
+      "raw": "I cannot provide the real-time trading discussions, whale bets, or current social media posts you're requesting based on these search results. The provided sources only contain general information about Polymarket's structure and some historical market data from April 21, 2026\u2014they don't include live trader commentary, social media posts, recent announcements, or information about which markets ar",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -65,11 +121,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776856019781_1",
-      "timestamp": "2026-04-22T11:06:59.781206+00:00",
+      "id": "sig_1776856091484_1",
+      "timestamp": "2026-04-22T11:08:11.484790+00:00",
       "source": "PERPLEXITY",
-      "headline": "Check Polymarket's live markets directly to see current prices and trading activity",
-      "raw": "Check Polymarket's live markets directly to see current prices and trading activity",
+      "headline": "Check Polymarket's platform directly and filter by recent activity and trading volume",
+      "raw": "Check Polymarket's platform directly and filter by recent activity and trading volume",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -78,11 +134,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776856019785_2",
-      "timestamp": "2026-04-22T11:06:59.785035+00:00",
+      "id": "sig_1776856091487_2",
+      "timestamp": "2026-04-22T11:08:11.487697+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monitor X/Twitter for posts from prediction market traders and accounts discussing specific positions",
-      "raw": "Monitor X/Twitter for posts from prediction market traders and accounts discussing specific positions",
+      "headline": "Monitor X (formerly Twitter) for hashtags like #Polymarket or #PredictionMarkets",
+      "raw": "Monitor X (formerly Twitter) for hashtags like #Polymarket or #PredictionMarkets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -91,23 +147,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776856019788_3",
-      "timestamp": "2026-04-22T11:06:59.788916+00:00",
+      "id": "sig_1776856091490_3",
+      "timestamp": "2026-04-22T11:08:11.490680+00:00",
       "source": "PERPLEXITY",
-      "headline": "Review recent news sources for announcements or resolutions that might impact market outcomes",
-      "raw": "Review recent news sources for announcements or resolutions that might impact market outcomes\n\nThe search results only show that as of April 21, 2026, the most active market was \"Elon Musk # tweets in April 2026?\" with a 28% probability assigned to the 1120-1159 outcome range[3], but this doesn't reflect real-time trader commentary or breaking developments.",
+      "headline": "Review trading forums or Discord communities focused on prediction markets",
+      "raw": "Review trading forums or Discord communities focused on prediction markets",
       "direction": null,
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776856091493_4",
+      "timestamp": "2026-04-22T11:08:11.493761+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Look at recent news sources for market-moving announcements",
+      "raw": "Look at recent news sources for market-moving announcements\n\nThe search results show that as of April 21, 2026, the most active market was \"Elon Musk # tweets April 17 - April 24, 2026?\" with traders assigning 28% odds to the 1120-1159 outcome range[4], but this doesn't capture current breaking news or real-time trader sentiment.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 6,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 12,
+    "watch": 0,
+    "high_conf": 0
   }
 }
