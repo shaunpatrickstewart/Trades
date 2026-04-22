@@ -1,46 +1,73 @@
 {
-  "last_scan": "2026-04-22T19:41:14.773087+00:00",
-  "scan_seconds": 13.2,
+  "last_scan": "2026-04-22T19:42:23.275677+00:00",
+  "scan_seconds": 14.7,
   "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776886869638_0",
-      "timestamp": "2026-04-22T19:41:09.638274+00:00",
+      "id": "sig_1776886942268_0",
+      "timestamp": "2026-04-22T19:42:22.268095+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Defeat Rockets 107-98 in NBA Playoffs Game 1 Despite Missing Luka Don\u010di\u0107 and Austin Reaves** | NO | HIGH confiden",
-      "raw": "Lakers Defeat Rockets 107-98 in NBA Playoffs Game 1 Despite Missing Luka Don\u010di\u0107 and Austin Reaves** | NO | HIGH confidence[3][7]\n\nThe Los Angeles Lakers secured a 107-98 victory over the Houston Rockets in their playoff opener, with Luke Kennard scoring 27 points and LeBron James adding 19 points, 13 assists, and 8 rebounds despite absences of Don\u010di\u0107 and Reaves; Houston missed Kevin Durant[3][7]. ",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced tips confirmed in",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced tips confirmed in current data | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in related pop culture tweet markets) and \"Elon Musk # tweets April ",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776886937557_0",
+      "timestamp": "2026-04-22T19:42:17.557876+00:00",
+      "source": "PERPLEXITY",
+      "headline": "COOPER FLAGG'S MAVERICKS RALLY TO WIN FINAL REGULAR SEASON GAME VS",
+      "raw": "COOPER FLAGG'S MAVERICKS RALLY TO WIN FINAL REGULAR SEASON GAME VS. RAPTORS, ENDING HIS ROOKIE YEAR AND TANKING DRAFT LOTTERY ODDS | NO** | **MED** [1][4][5]\n\nMavericks defeated Raptors 139-129 in a game featuring strong play from **Cooper Flagg** (22 points, key dunk in decisive run), marking Dallas's first win with the No. 1 pick early in the season and Flagg's rookie finale per postgame analysi",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776886873769_0",
-      "timestamp": "2026-04-22T19:41:13.769639+00:00",
+      "id": "sig_1776886942270_1",
+      "timestamp": "2026-04-22T19:42:22.270619+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | MED confidenc",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"# tweets April 17-24, 2026\" and overall \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range priced at 18-19% implied probability and over $22M in trading volume across 20-",
+      "headline": "Elon Musk # tweets in April 2026",
+      "raw": "Elon Musk # tweets in April 2026?** leads activity, assigning 19% chance to 1120-1159 tweets amid $22.8M+ trading volume across 130+ tweet markets as of early April 2026[3].  \nTrending Markets category shows 168 live options like \u201cNasdaq round-the-clock trading by June 30?\u201d with $2.8M volume, but no specific whale bets, tips, or mispriced alerts mentioned[1].  \nNo recent confirmations, announcemen",
       "direction": "NO",
-      "confidence": 0.6,
+      "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776886942272_2",
+      "timestamp": "2026-04-22T19:42:22.272665+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye tweet by April 30",
+      "raw": "Kanye tweet by April 30?** at 60% yes odds appears active but secondary to Musk markets[3].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 3,
+    "watch": 0,
+    "high_conf": 1
   }
 }
