@@ -1,105 +1,63 @@
 {
-  "last_scan": "2026-04-22T05:09:12.217104+00:00",
-  "scan_seconds": 21.7,
-  "markets_scanned": 78,
+  "last_scan": "2026-04-22T05:10:19.757437+00:00",
+  "scan_seconds": 19.2,
+  "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776834536390_1",
-      "timestamp": "2026-04-22T05:08:56.390522+00:00",
+      "id": "sig_1776834604333_0",
+      "timestamp": "2026-04-22T05:10:04.333591+00:00",
       "source": "PERPLEXITY",
-      "headline": "Solana Hits 167M Monthly Token Holders Record | YES | HIGH confidence**",
-      "raw": "Solana Hits 167M Monthly Token Holders Record | YES | HIGH confidence**\n\nAs of April 14, 2026, Solana achieved an **all-time record of 167 million monthly token holders**, with daily non-vote transactions reaching 148 million[1]. The **Alpenglow consensus upgrade** was confirmed to slash transaction finality from 12 seconds to just 150 milliseconds[1]. Additionally, **institutional interest streng",
+      "headline": "Wrapped XRP (wXRP) Launched on Solana on April 17, 2026 | YES | HIGH confidence**",
+      "raw": "Wrapped XRP (wXRP) Launched on Solana on April 17, 2026 | YES | HIGH confidence**  \nWrapped XRP went live on Solana via Hex Trust and LayerZero on April 17, 2026, enabling XRP holders to access Solana's DeFi ecosystem (yield farming, liquidity pools) without selling their tokens[1][2]. This bridge expands XRP utility into one of the fastest DeFi networks, driving a +5.15% price surge to $1.40 with",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Solana Up or Down on April 22?"
+        "Solana Up or Down on April 22?",
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776834536393_2",
-      "timestamp": "2026-04-22T05:08:56.393436+00:00",
+      "id": "sig_1776834609001_0",
+      "timestamp": "2026-04-22T05:10:09.001507+00:00",
       "source": "PERPLEXITY",
-      "headline": "Technical Breakdown Confirmed | YES | HIGH confidence**",
-      "raw": "Technical Breakdown Confirmed | YES | HIGH confidence**\n\nA **head and shoulders pattern breakout was confirmed on March 27**, projecting a downside target near $73[2]. However, **bullish divergence has formed on the daily timeframe**, suggesting downward momentum may be weakening[3], with price consolidating near support at $78.87[3].",
+      "headline": "**Dec 10, 2025**: Powell stated Trump's tariffs caused **most** of the inflation overshoot above 2% target (PCE at 2",
+      "raw": "**Dec 10, 2025**: Powell stated Trump's tariffs caused **most** of the inflation overshoot above 2% target (PCE at 2.8%), while cutting rates 25bps to 3.5-3.75% amid cooling labor market and upside inflation risks.[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776834609004_1",
+      "timestamp": "2026-04-22T05:10:09.004559+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Oct 29, 2025**: Powell noted **expectations** of modest additional inflation (0",
+      "raw": "**Oct 29, 2025**: Powell noted **expectations** of modest additional inflation (0.2-0.4%) from tariffs phased in Feb-May, post second rate cut to 3.75-4%.[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776834609010_3",
+      "timestamp": "2026-04-22T05:10:09.010570+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO | LOW confidence** \u2013 Search results lack any 2026 events; no \"Will Powell\" matches; outdated info (up to Dec 2025) sh",
+      "raw": "NO | LOW confidence** \u2013 Search results lack any 2026 events; no \"Will Powell\" matches; outdated info (up to Dec 2025) shows no new resolutions.[1][2][3]",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776834542058_1",
-      "timestamp": "2026-04-22T05:09:02.058848+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell's mid-March 2026 presser addressed tariff shocks as likely \"one-time\" price increases, not persistent inflation,",
-      "raw": "Powell's mid-March 2026 presser addressed tariff shocks as likely \"one-time\" price increases, not persistent inflation, with expectations of tariff effects easing mid-year after court-overturned tariffs were partially replaced[4].",
-      "direction": null,
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776834542061_2",
-      "timestamp": "2026-04-22T05:09:02.061960+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed's prior policy decision (likely early April) held rates at 3",
-      "raw": "Fed's prior policy decision (likely early April) held rates at 3.5-3.75%, penciled in one 2026 cut (H2 at earliest), cited higher 2026 inflation projections including oil shocks and Trump's 15% blanket tariff[2][6].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776834536387_0",
-      "timestamp": "2026-04-22T05:08:56.387392+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the available search results, here are the key developments from April 2026:",
-      "raw": "Based on the available search results, here are the key developments from April 2026:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776834536396_3",
-      "timestamp": "2026-04-22T05:08:56.396574+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Note on XRP:** The search results provided do not contain information about XRP developments in April 2026, so I cannot",
-      "raw": "Note on XRP:** The search results provided do not contain information about XRP developments in April 2026, so I cannot provide analysis on that asset.\n\nThe most market-moving confirmations are the Alpenglow upgrade milestone and record institutional ETF flows, which represent positive fundamental catalysts despite recent price weakness.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776834542055_0",
-      "timestamp": "2026-04-22T05:09:02.055650+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Fed's March 2026 meeting minutes (released ~April 8) showed more officials open to 2026 rate hikes due to Iran war-drive",
-      "raw": "Fed's March 2026 meeting minutes (released ~April 8) showed more officials open to 2026 rate hikes due to Iran war-driven oil/gas price spikes risking sustained inflation (forecast March CPI at 3.4% YoY vs. Feb 2.4%; Fed targets 2%)[1][2].",
-      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "Will Powell say \"Tariff inflation\" during April press conference?"
@@ -109,38 +67,107 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776834542065_3",
-      "timestamp": "2026-04-22T05:09:02.065391+00:00",
+      "id": "sig_1776834613813_0",
+      "timestamp": "2026-04-22T05:10:13.813774+00:00",
       "source": "PERPLEXITY",
-      "headline": "Upcoming: April 28-29 FOMC meeting expected to hold rates steady (99% market odds); March CPI report (due ~April 11, alr",
-      "raw": "Upcoming: April 28-29 FOMC meeting expected to hold rates steady (99% market odds); March CPI report (due ~April 11, already released by now but no breaking update here); Kevin Warsh's April 4 confirmation hearing criticized past Fed inflation policy but no Powell replacement confirmed[3][5].\n\nNo sources indicate fresh confirmations/announcements as of this moment; next potential movers are April ",
+      "headline": "Cooper Flagg's NBA Rookie Season Ends Prematurely Due to Ankle Injury in Mavericks' Finale vs",
+      "raw": "Cooper Flagg's NBA Rookie Season Ends Prematurely Due to Ankle Injury in Mavericks' Finale vs. Bulls | NO | HIGH confidence**  \nNo breaking news RIGHT NOW (as of April 22, 2026) confirms, announces, or resolves any Rookie of the Year award, Lakers/Raptors trades, drafts, or prediction-market-moving events involving Cooper Flagg; the regular season concluded on April 13 with Flagg exiting early due",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776834551214_0",
-      "timestamp": "2026-04-22T05:09:11.214027+00:00",
+      "id": "sig_1776834618742_0",
+      "timestamp": "2026-04-22T05:10:18.742422+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or resolved events reported | LOW confidenc",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or resolved events reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" where traders price outcomes like \"200-219\" at 29% and the top market \"Elon Musk # tweets in April 2026?\" at 18% for \"1080-1119\"[1][2]",
-      "direction": "NO",
+      "headline": "I cannot provide the information you're requesting because the search results do not contain real-time social media post",
+      "raw": "I cannot provide the information you're requesting because the search results do not contain real-time social media posts, whale betting activity, or current trader sentiment from X (formerly Twitter).[1][2][3] The search results only describe Polymarket's general platform functionality and show some historical market data from earlier in April 2026.\n\nTo get the breaking information you're looking",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776834618745_1",
+      "timestamp": "2026-04-22T05:10:18.745567+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Monitor X directly** for posts from prediction market traders and analysts discussing current market moves",
+      "raw": "**Monitor X directly** for posts from prediction market traders and analysts discussing current market moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776834618748_2",
+      "timestamp": "2026-04-22T05:10:18.748569+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Check Polymarket's live markets page** to see which markets have recent price movements and high trading volume",
+      "raw": "**Check Polymarket's live markets page** to see which markets have recent price movements and high trading volume",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776834618751_3",
+      "timestamp": "2026-04-22T05:10:18.751481+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Review crypto/trading Discord servers or Telegram channels** where traders typically discuss mispriced markets and pos",
+      "raw": "**Review crypto/trading Discord servers or Telegram channels** where traders typically discuss mispriced markets and positioning",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776834618754_4",
+      "timestamp": "2026-04-22T05:10:18.754405+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Follow prediction market analysts** on social media who commentary on market inefficiencies",
+      "raw": "**Follow prediction market analysts** on social media who commentary on market inefficiencies\n\nThe search results provided are insufficient for real-time market intelligence, which requires live data feeds rather than static platform descriptions.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776834609007_2",
+      "timestamp": "2026-04-22T05:10:09.007536+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Apr 4, 2025**: Powell warned tariffs would raise inflation and slow growth (highly uncertain); 10% import tariff effec",
+      "raw": "**Apr 4, 2025**: Powell warned tariffs would raise inflation and slow growth (highly uncertain); 10% import tariff effective Apr 5, higher ones Apr 9; Dow fell 2,200 pts.[1]",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 8,
-    "watch": 0,
-    "high_conf": 2
+    "alert": 9,
+    "watch": 1,
+    "high_conf": 1
   }
 }
