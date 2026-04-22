@@ -1,77 +1,119 @@
 {
-  "last_scan": "2026-04-22T03:07:07.490677+00:00",
-  "scan_seconds": 16.9,
+  "last_scan": "2026-04-22T03:08:18.975956+00:00",
+  "scan_seconds": 18.4,
   "markets_scanned": 55,
   "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776827218672_0",
-      "timestamp": "2026-04-22T03:06:58.672035+00:00",
+      "id": "sig_1776827294216_0",
+      "timestamp": "2026-04-22T03:08:14.216811+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news matching your query criteria",
-      "raw": "I cannot provide breaking news matching your query criteria. The search results contain no information from April 2026 (today's date). The most recent content available is from **December 2025**, which reports that Federal Reserve Chair Powell stated Trump's tariffs are causing \"most of the inflation overshoot\" above the Fed's 2% target.[3]\n\nThe search results include:",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776827218674_1",
-      "timestamp": "2026-04-22T03:06:58.674101+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A July 2025 report on GDP growth and Powell's concerns about tariff-driven inflation[1]",
-      "raw": "A July 2025 report on GDP growth and Powell's concerns about tariff-driven inflation[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776827218676_2",
-      "timestamp": "2026-04-22T03:06:58.676105+00:00",
-      "source": "PERPLEXITY",
-      "headline": "An April 2025 speech by Powell discussing trade policy uncertainty and tariff impacts[2]",
-      "raw": "An April 2025 speech by Powell discussing trade policy uncertainty and tariff impacts[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776827218678_3",
-      "timestamp": "2026-04-22T03:06:58.678192+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A December 2025 statement on tariffs and inflation[3]",
-      "raw": "A December 2025 statement on tariffs and inflation[3]\n\nTo answer your question about current market-moving announcements from April 22, 2026, I would need search results with today's date, which are not provided here.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776827226485_0",
-      "timestamp": "2026-04-22T03:07:06.485060+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Heating Up | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Heating Up | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1080-1119 range priced at 18% probability (implied odds updating in real-time based on trader sentiment).[1][2][3]  \nNo specific X posts from Polymark",
+      "headline": "Cavaliers lead Raptors 2-0 in Eastern Conference First Round after Game 2 win (115-105); no conference semifinals yet**",
+      "raw": "Cavaliers lead Raptors 2-0 in Eastern Conference First Round after Game 2 win (115-105); no conference semifinals yet** | NO | HIGH confidence[1][2][5]\n\nLakers defeated Rockets in Game 1 despite Kevin Durant's confirmed absence due to right knee injury, with LeBron James delivering 19 points, 8 rebounds, and 13 assists; Luka Don\u010di\u0107 and Austin Reaves are injured, raising doubts on Lakers' series pr",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776827289785_0",
+      "timestamp": "2026-04-22T03:08:09.785540+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify breaking news from these search results that would move prediction markets",
+      "raw": "I cannot identify breaking news from these search results that would move prediction markets. The most recent sources are from **early April 2026** (Yale Budget Lab tariff report from April 2) and **late March 2026** (Powell's energy price monitoring remarks), but none contain announcements or confirmations made in the last few days that would constitute \"breaking news RIGHT NOW.\"\n\nThe search resu",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827289789_1",
+      "timestamp": "2026-04-22T03:08:09.789082+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Tariff updates** from April 2, 2026, showing the U",
+      "raw": "**Tariff updates** from April 2, 2026, showing the U.S. average effective tariff rate at 11.0%, the highest since 1943[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827289792_2",
+      "timestamp": "2026-04-22T03:08:09.792391+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Powell's December 2025 remarks** attributing inflation overshoot primarily to Trump's tariffs[2]",
+      "raw": "**Powell's December 2025 remarks** attributing inflation overshoot primarily to Trump's tariffs[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827289795_3",
+      "timestamp": "2026-04-22T03:08:09.795670+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**IMF projections** from 2025 forecasting 2026 outcomes (core PCE inflation at 2",
+      "raw": "**IMF projections** from 2025 forecasting 2026 outcomes (core PCE inflation at 2.6% by end of 2026, GDP growth at 2.4%)[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827289799_4",
+      "timestamp": "2026-04-22T03:08:09.799277+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Energy price monitoring** from late March 2026 amid Iran war concerns[4]",
+      "raw": "**Energy price monitoring** from late March 2026 amid Iran war concerns[4]\n\nTo provide the market-moving breaking news headline you're requesting, I would need search results containing announcements, data releases, or official statements from **today or the last 24-48 hours** (April 20-22, 2026). The current results appear to be trailing by 2-3 weeks.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827289802_5",
+      "timestamp": "2026-04-22T03:08:09.802709+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recommendation:** Search for the latest Federal Reserve statements, inflation data releases, or tariff policy announceme",
+      "raw": "Recommendation:** Search for the latest Federal Reserve statements, inflation data releases, or tariff policy announcements from this week to identify genuine breaking news.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827297968_0",
+      "timestamp": "2026-04-22T03:08:17.968438+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 22% odds (implying 78% NO) with $43.9K volume, drawing trader focus amid real-time odds updates on finance/tech events[1].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -79,11 +121,24 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776827226487_1",
-      "timestamp": "2026-04-22T03:07:06.487094+00:00",
+      "id": "sig_1776827297970_1",
+      "timestamp": "2026-04-22T03:08:17.970751+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye West Tweet Return Market Active | NO | MED confidence**",
-      "raw": "Kanye West Tweet Return Market Active | NO | MED confidence**  \nMarket like \u201cWill Kanye tweet again by April 30?\u201d remains live but lacks trending X discussion or volume spikes in results.[2]",
+      "headline": "Elon Musk # Tweets April 17-24, 2026",
+      "raw": "Elon Musk # Tweets April 17-24, 2026? | NO (for high ranges) | MED confidence**  \nActive tweet markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" trade at 29% for 200-219 range and similar low probs for 1080-1119 (18%), signaling trader bets against high tweet volumes in pop culture categories with $17.1M total volume[2][3][4]. No whale bets or mispricing tips specified in current data.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776827297972_2",
+      "timestamp": "2026-04-22T03:08:17.972836+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kinetiq 2026 Price Target | NO (above $0",
+      "raw": "Kinetiq 2026 Price Target | NO (above $0.5?) | LOW confidence**  \nTrending at 59% for hitting $0.5, but low volume ($ unspecified beyond market) limits insight into smart money moves or resolutions[1]. No confirmed announcements or resolved events noted to shift odds right now.",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -93,9 +148,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 1,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
