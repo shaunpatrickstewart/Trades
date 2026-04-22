@@ -1,5 +1,5 @@
 {
-  "ts": 1776877870,
+  "ts": 1776877940,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999838
+    "usdc_usd": 0.999747
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -89,10 +89,10 @@
         "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
         "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
         "size": 14.69,
-        "cur_price": 0.9925,
-        "nav_usdc": 14.5798,
+        "cur_price": 0.993,
+        "nav_usdc": 14.5872,
         "cost_basis": 14.5431,
-        "unrealized_pnl": 0.0367
+        "unrealized_pnl": 0.0441
       },
       {
         "slug": "lowest-temperature-in-shanghai-on-april-22-2026-11c",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.056,
-        "nav_usdc": 0.457,
+        "cur_price": 0.0545,
+        "nav_usdc": 0.4447,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8404
+        "unrealized_pnl": -0.8527
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.62,
-    "total_usdc": 403.5566,
-    "total_usd": 403.4912
+    "positions_nav_usdc": 316.6151,
+    "total_usdc": 403.5517,
+    "total_usd": 403.4496
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776877871,
+    "ts": 1776877941,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,7 +388,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776791471,
+      "window_start_ts": 1776791541,
       "realized_usdc": 0.0,
       "trade_count": 8,
       "buy_volume_usdc": 88.6541,
@@ -461,7 +461,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776273071,
+      "window_start_ts": 1776273141,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -674,7 +674,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774285871,
+      "window_start_ts": 1774285941,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1100,7 +1100,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.4912,
-    "total_usdc": 403.5566
+    "total_usd": 403.4496,
+    "total_usdc": 403.5517
   }
 }
