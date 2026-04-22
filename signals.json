@@ -1,84 +1,46 @@
 {
-  "last_scan": "2026-04-22T13:13:01.061049+00:00",
-  "scan_seconds": 20.5,
+  "last_scan": "2026-04-22T13:14:13.907427+00:00",
+  "scan_seconds": 23.3,
   "markets_scanned": 77,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776863575417_0",
-      "timestamp": "2026-04-22T13:12:55.417704+00:00",
+      "id": "sig_1776863640225_0",
+      "timestamp": "2026-04-22T13:14:00.225073+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain any recent announce",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain any recent announcements, confirmations, or market-moving developments as of April 22, 2026.\n\nThe search results available are from April 19-21, 2026, and show **prediction market odds** rather than breaking news. They indicate:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776863575420_1",
-      "timestamp": "2026-04-22T13:12:55.420633+00:00",
-      "source": "PERPLEXITY",
-      "headline": "The **Raptors are heavy underdogs** against the Cavaliers in their playoff series, with prediction markets assigning onl",
-      "raw": "The **Raptors are heavy underdogs** against the Cavaliers in their playoff series, with prediction markets assigning only a **4% chance** the Raptors win[2]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "I cannot identify any breaking news, confirmed announcements, or market-moving developments from the provided search res",
+      "raw": "I cannot identify any breaking news, confirmed announcements, or market-moving developments from the provided search results that would affect prediction markets.\n\nThe search results contain routine price updates from April 15-21, 2026, showing Ethereum trading in the $2,194\u2013$2,358 range[1][2][3][5][6], along with general technical analysis and long-term price predictions. One source mentions the ",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Ethereum above 2,340 on April 22, 10AM ET?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776863575423_2",
-      "timestamp": "2026-04-22T13:12:55.423398+00:00",
+      "id": "sig_1776863648623_0",
+      "timestamp": "2026-04-22T13:14:08.623341+00:00",
       "source": "PERPLEXITY",
-      "headline": "The **Cavaliers are favored** at 77% to advance in this matchup[1]",
-      "raw": "The **Cavaliers are favored** at 77% to advance in this matchup[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776863575426_3",
-      "timestamp": "2026-04-22T13:12:55.426670+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Game 2 of the Raptors-Cavaliers series was scheduled for Monday, April 20, with the Cavaliers favored by 6",
-      "raw": "Game 2 of the Raptors-Cavaliers series was scheduled for Monday, April 20, with the Cavaliers favored by 6.5-8 points[3]\n\nRegarding **Cooper Flagg**: The search results do not mention Cooper Flagg at all, so I cannot provide information about any developments involving him.\n\nTo get authentic breaking news about market-moving developments, you would need access to real-time sports news sources or u",
+      "headline": "Victor Wembanyama Shatters Tim Duncan's Rookie Playoff Scoring Record in Spurs' Game 1 Win** | NO | HIGH confidence[1]",
+      "raw": "Victor Wembanyama Shatters Tim Duncan's Rookie Playoff Scoring Record in Spurs' Game 1 Win** | NO | HIGH confidence[1]\n\nVictor Wembanyama electrified his playoff debut, breaking Tim Duncan's rookie scoring record and giving the San Antonio Spurs an early series lead over their opponent[1]. This confirmed performance boosts Spurs series win odds in prediction markets, as it signals their rookie-led",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776863580054_0",
-      "timestamp": "2026-04-22T13:13:00.054852+00:00",
+      "id": "sig_1776863652904_0",
+      "timestamp": "2026-04-22T13:14:12.904476+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Leads Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweets Market Leads Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 18-28% odds and up to $9M volume[1][2][3]. No search results mention X posts from traders about wh",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776863580057_1",
-      "timestamp": "2026-04-22T13:13:00.057879+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kanye Tweet Market Active | NO trending discussions | LOW confidence**",
-      "raw": "Kanye Tweet Market Active | NO trending discussions | LOW confidence**  \n\"Will Kanye tweet again by April 30?\" is among 131 live tweet markets with significant volume, but no evidence of X buzz on mispricing or moves[2]. News stories markets (102 active, $56M+ volume) like GTA VI release lack trader X commentary in results[4]. Limited real-time X data available, so insights rely on Polymarket page",
+      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets or tips reported | LOW confidence**",
+      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28% odds and $9M volume as of April 21[3][1][2]. No search results mention real-tim",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -88,9 +50,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 6,
+    "enter": 2,
+    "alert": 1,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
