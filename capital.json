@@ -1,5 +1,5 @@
 {
-  "ts": 1776839300,
+  "ts": 1776839370,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999856
+    "usdc_usd": 0.999844
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -305,14 +305,14 @@
     "position_count": 32,
     "positions_nav_usdc": 287.9629,
     "total_usdc": 403.9857,
-    "total_usd": 403.9276
+    "total_usd": 403.9227
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776839301,
+    "ts": 1776839371,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,10 +350,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776752901,
+      "window_start_ts": 1776752971,
       "realized_usdc": 0.2316,
-      "trade_count": 13,
-      "buy_volume_usdc": 95.1082,
+      "trade_count": 12,
+      "buy_volume_usdc": 92.8132,
       "sell_volume_usdc": 58.5169,
       "closed_positions": 1,
       "winning_positions": 1,
@@ -418,22 +418,12 @@
           "net_size": -29.32,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Strait of Hormuz traffic returns to normal by end of April?",
-          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-          "outcome_index": 0,
-          "buys_usdc": 2.295,
-          "sells_usdc": 0.0,
-          "net_size": 7.65,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776234501,
+      "window_start_ts": 1776234571,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -646,7 +636,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774247301,
+      "window_start_ts": 1774247371,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1072,7 +1062,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.9276,
+    "total_usd": 403.9227,
     "total_usdc": 403.9857
   }
 }
