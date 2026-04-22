@@ -1,32 +1,17 @@
 {
-  "last_scan": "2026-04-22T21:42:45.238955+00:00",
-  "scan_seconds": 33.7,
+  "last_scan": "2026-04-22T21:43:36.357353+00:00",
+  "scan_seconds": 15.8,
   "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776894152415_0",
-      "timestamp": "2026-04-22T21:42:32.415205+00:00",
+      "id": "sig_1776894211097_0",
+      "timestamp": "2026-04-22T21:43:31.097528+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news in these search results that would constitute a confirmed announcement or resolution",
-      "raw": "I cannot identify any breaking news in these search results that would constitute a confirmed announcement or resolution moving prediction markets right now.\n\nThe search results contain analysis and price data from April 13-21, 2026, but no recent announcements meeting your criteria. The most recent concrete information is from April 21, showing Ethereum trading at $2,305.04[1], which represents n",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776894158535_0",
-      "timestamp": "2026-04-22T21:42:38.535420+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news matching your query parameters based on the available search results",
-      "raw": "I cannot provide breaking news matching your query parameters based on the available search results.\n\nThe search results contain information from April 6-13, 2026, which is 8-9 days prior to the current date (April 22, 2026). While they discuss Cooper Flagg's rookie season performance and his Rookie of the Year odds, they do not contain **confirmed announcements or resolved events from today** tha",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Cooper Flagg, Dallas Mavericks rookie, just dropped 45 points in a 134-128 win over the Los Angeles Lakers, achieving ba",
+      "raw": "Cooper Flagg, Dallas Mavericks rookie, just dropped 45 points in a 134-128 win over the Los Angeles Lakers, achieving back-to-back 40+ point games as the first teenager in NBA history and surpassing LeBron James for most 40-point games by a teen (4 total); he's now tied with Wilt Chamberlain for most points (96) by a rookie in a two-game span.**[1]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
@@ -35,104 +20,27 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776894158539_2",
-      "timestamp": "2026-04-22T21:42:38.539159+00:00",
+      "id": "sig_1776894211099_1",
+      "timestamp": "2026-04-22T21:43:31.099575+00:00",
       "source": "PERPLEXITY",
-      "headline": "**April 6-9, 2026:** Flagg had a strong two-game stretch (96 points), overtaking Kon Knueppel as the Rookie of the Year",
-      "raw": "**April 6-9, 2026:** Flagg had a strong two-game stretch (96 points), overtaking Kon Knueppel as the Rookie of the Year favorite with -250 odds[1][2][3]\n\nTo provide the breaking news format you requested, I would need search results from April 22, 2026, containing official announcements or confirmed developments regarding the Lakers, Flagg's status, or playoff implications. I recommend checking cu",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "HEADLINE | YES | HIGH confidence**",
+      "raw": "HEADLINE | YES | HIGH confidence**  \nThis performance\u2014detailed in an ESPN recap from April 6, 2026\u2014has propelled Flagg back to the front of the NBA Rookie of the Year race, matching Michael Jordan-like stats (leading his team in points, rebounds, assists, steals) and setting historic rookie benchmarks alongside Kobe, Wilt, and LeBron, potentially shifting prediction markets on ROY odds.[1][2][3] N",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776894152417_1",
-      "timestamp": "2026-04-22T21:42:32.417359+00:00",
+      "id": "sig_1776894215352_0",
+      "timestamp": "2026-04-22T21:43:35.352380+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official protocol upgrade announcements or completions",
-      "raw": "Official protocol upgrade announcements or completions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776894152419_2",
-      "timestamp": "2026-04-22T21:42:32.419160+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Regulatory decisions",
-      "raw": "Regulatory decisions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776894152420_3",
-      "timestamp": "2026-04-22T21:42:32.420991+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Major institutional developments",
-      "raw": "Major institutional developments",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776894152423_4",
-      "timestamp": "2026-04-22T21:42:32.423056+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Network upgrades going live",
-      "raw": "Network upgrades going live",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776894152424_5",
-      "timestamp": "2026-04-22T21:42:32.424985+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Significant exchange listings or delistings",
-      "raw": "Significant exchange listings or delistings\n\nNone of these appear in the provided results with current timestamps.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776894158537_1",
-      "timestamp": "2026-04-22T21:42:38.537272+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**April 13, 2026:** Cooper Flagg suffered a left ankle sprain in the final regular season game against Chicago and did n",
-      "raw": "**April 13, 2026:** Cooper Flagg suffered a left ankle sprain in the final regular season game against Chicago and did not return[4][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776894164231_0",
-      "timestamp": "2026-04-22T21:42:44.231098+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | HIGH confidence**  \nPolymarket's most active markets right now center on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., 40-64 outcome) and \"Elon Musk # tweets April 17 - April 24, 2026?\", with the 1120-1159 range priced at 19-21% implied probability across high-volume markets totaling o",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" outcome) and \"Elon Musk # tweets April 17 - April 24, 2026?\", with the 1120-1159 range priced at 19-21% probability across high-volume markets totaling over $20M+ in t",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -143,24 +51,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776894164233_1",
-      "timestamp": "2026-04-22T21:42:44.233145+00:00",
+      "id": "sig_1776894215354_1",
+      "timestamp": "2026-04-22T21:43:35.354382+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Whale Bets or Smart Money Tips Visible in Current Data | NO | HIGH confidence**",
-      "raw": "No Whale Bets or Smart Money Tips Visible in Current Data | NO | HIGH confidence**  \nSearch results show no specific mentions of whale bets, smart money moves, or trader tips trending on X; instead, they highlight analytics tools for tracking top Polymarket traders' strategies, implying serious players use data-driven insights without public X posts detailed here[5].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776894164235_2",
-      "timestamp": "2026-04-22T21:42:44.235948+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mispriced Markets",
-      "raw": "Mispriced Markets? Tweet Counts Lead Trends, No Clear Edges Called Out | NO | LOW confidence**  \n168 Trending Markets and 130+ Tweet markets active with $2.8M+ volume, but no X chatter on mispriced odds or imminent moves; real-time odds (e.g., 1120-1159 at 21%) reflect crowd sentiment on Elon Musk tweets as the hottest topic[1][2][3][4].",
+      "headline": "Trending Markets category** lists 168 active predictions like \u201cNasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets category** lists 168 active predictions like \u201cNasdaq round-the-clock trading by June 30?\u201d with $2.8M volume, but no X chatter or resolutions noted[1].  \nNo confirmed announcements or events resolving markets appear in real-time data as of April 22, 2026[1][2][3][4].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -170,9 +65,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 11,
+    "enter": 0,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 0
   }
 }
