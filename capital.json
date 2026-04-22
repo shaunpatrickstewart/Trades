@@ -1,5 +1,5 @@
 {
-  "ts": 1776866890,
+  "ts": 1776866960,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999769
+    "usdc_usd": 0.999885
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -323,14 +323,14 @@
     "position_count": 34,
     "positions_nav_usdc": 316.6491,
     "total_usdc": 403.5857,
-    "total_usd": 403.4924
+    "total_usd": 403.5392
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776866891,
+    "ts": 1776866961,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -388,10 +388,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776780491,
+      "window_start_ts": 1776780561,
       "realized_usdc": 0.2316,
-      "trade_count": 13,
-      "buy_volume_usdc": 121.8994,
+      "trade_count": 12,
+      "buy_volume_usdc": 117.6809,
       "sell_volume_usdc": 29.2584,
       "closed_positions": 1,
       "winning_positions": 1,
@@ -456,22 +456,12 @@
           "net_size": 7.66,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
-          "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
-          "outcome_index": 1,
-          "buys_usdc": 4.2185,
-          "sells_usdc": 0.0,
-          "net_size": 7.5665,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776262091,
+      "window_start_ts": 1776262161,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -684,7 +674,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774274891,
+      "window_start_ts": 1774274961,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1110,7 +1100,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.4924,
+    "total_usd": 403.5392,
     "total_usdc": 403.5857
   }
 }
