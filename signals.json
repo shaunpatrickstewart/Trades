@@ -1,76 +1,48 @@
 {
-  "last_scan": "2026-04-22T09:35:00.901203+00:00",
-  "scan_seconds": 20.4,
+  "last_scan": "2026-04-22T09:36:06.897347+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776850484652_0",
-      "timestamp": "2026-04-22T09:34:44.652487+00:00",
+      "id": "sig_1776850561377_0",
+      "timestamp": "2026-04-22T09:36:01.377207+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP ETF Inflows Surge to $41",
-      "raw": "XRP ETF Inflows Surge to $41.64M (Week Ending Apr 16); WisdomTree/Grayscale Spot ETF Filings Clear Final SEC Review | YES | HIGH confidence** [1][6][7]\n\nXRP price has risen 12.5% from April lows to ~$1.44, forming a cup-and-handle pattern with bullish EMA alignment, driven by the largest single-week U.S. spot ETF inflows in three months ($41.64M, up 254% WoW) and consistent daily demand ($1.46M\u2013$1",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776850499898_3",
-      "timestamp": "2026-04-22T09:34:59.898170+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets Heating Up | VARIES (e",
-      "raw": "Elon Musk Tweet Volume Markets Heating Up | VARIES (e.g., 28% on 1120-1159) | MED confidence**  \nActive markets like \"Elon Musk # tweets April 17-24, 2026?\" and overall April tally (e.g., 28% on 1120-1159 range, $9M vol) see X buzz on over/under bets; traders tip high-volume weeks as mispriced amid no major announcements[2][3].  \n\nNo whale bets, smart money moves, or tips explicitly confirmed in r",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776850493977_0",
-      "timestamp": "2026-04-22T09:34:53.977923+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's Historic 45-Point Game Secures Mavericks Win Over Injury-Depleted Lakers, Bolstering ROY Case | YES | HIG",
-      "raw": "Cooper Flagg's Historic 45-Point Game Secures Mavericks Win Over Injury-Depleted Lakers, Bolstering ROY Case | YES | HIGH confidence**  \nCooper Flagg, the 19-year-old No. 1 rookie pick for the Dallas Mavericks, scored 45 points with 9 assists and 8 rebounds in a 134-128 victory over the Los Angeles Lakers on Sunday night, ending Dallas's 14-game home losing streak\u2014their longest in 32 years[1][2][3",
+      "headline": "Mavs' Cooper Flagg erupts for 45 points in 134-128 win over injury-depleted Lakers, ending 14-game home skid** | NO | HI",
+      "raw": "Mavs' Cooper Flagg erupts for 45 points in 134-128 win over injury-depleted Lakers, ending 14-game home skid** | NO | HIGH confidence[1][2][3][4]\n\nNo breaking news RIGHT NOW (as of April 22, 2026) confirms Lakers-Cavaliers series outcomes, Cooper Flagg trades, or resolved predictions shifting markets; latest relevant event is Flagg's dominant Sunday performance (April 5) vs. short-handed Lakers mi",
       "direction": "YES",
       "confidence": 0.78,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776850499892_1",
-      "timestamp": "2026-04-22T09:34:59.892272+00:00",
+      "id": "sig_1776850553513_0",
+      "timestamp": "2026-04-22T09:35:53.513374+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? Fully Resolved at 100% | NO (implied) | HIGH confidence**  \nGeopolitics market \"Iran x Israel/US conflict ends by...?\" hit 100% resolution (likely NO), sparking X posts on resolved outcomes moving odds; high trader conviction with 116 comments signals smart money shift[1].",
+      "headline": "XRP ETF Inflows Surge to $41",
+      "raw": "XRP ETF Inflows Surge to $41.64M for Week Ending April 16 | YES | HIGH confidence** [1][6]  \nU.S. spot XRP ETFs saw their largest single-week net inflows in three months at $41.64 million, a 254% jump from the prior week's $11.75 million, with consistent daily demand ($11.87M, $17.11M, $11.20M, $1.46M, $9.09M) pushing cumulative inflows to $1.26 billion and assets over $1.08 billion.[1][6]  \nThis ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850565891_0",
+      "timestamp": "2026-04-22T09:36:05.891058+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119, 28% on 1120-1159), with over $17M-$19M in trading volume across 130+ related markets[2][3][4].",
       "direction": "NO",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776850499889_0",
-      "timestamp": "2026-04-22T09:34:59.889119+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launch by April 30",
-      "raw": "\ud835\udd4f Money Launch by April 30? Traders Eyeing Elon Musk's Next Move | YES 12% | HIGH confidence**  \nPolymarket's top X-related market shows \"\ud835\udd4f Money launched by...?\" at 12% YES odds with $33.6K volume and $4.6K liquidity, ending April 30; traders on X are posting about potential mispricing given low odds despite hype around X's financial products[1].",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -78,23 +50,40 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776850499895_2",
-      "timestamp": "2026-04-22T09:34:59.895196+00:00",
+      "id": "sig_1776850557523_0",
+      "timestamp": "2026-04-22T09:35:57.523150+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds Draw Whale Bets | NO 93% | MED confidence**  \nMarket at 7% YES ($1.4K vol, $4.5K liq) has X users calling it mispriced for bearish bets on X leadership changes; tips trending on potential moves if internal drama confirms[1].",
+      "headline": "Kevin Warsh's Fed Chair Confirmation Hearing Underway with Intense Scrutiny on Inflation Policies (April 21, 2026)** | Y",
+      "raw": "Kevin Warsh's Fed Chair Confirmation Hearing Underway with Intense Scrutiny on Inflation Policies (April 21, 2026)** | YES | HIGH confidence[1][4][5]\n\nWarsh, Trump's nominee to replace Jerome Powell, faced sharp criticism in yesterday's Senate Banking Committee hearing for past Fed \"policy errors\" allowing inflation to soar and for advocating rate cuts amid high inflation[1][5]. Sen. Tina Smith qu",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Tariff inflation\" during April press conference?",
+        "Will Donald Trump publicly insult someone on April 26, 2026?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776850565894_1",
+      "timestamp": "2026-04-22T09:36:05.894244+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets** category lists 166 live predictions on topics like \"Nasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** category lists 166 live predictions on topics like \"Nasdaq round-the-clock trading by June 30?\" with $3M volume, but no specific whale bets, smart money moves, mispriced odds, or tips are detailed in real-time data[1].  \nNo recent confirmations, announcements, or resolutions (e.g., tweet counts or events) are reported that could shift these markets as of April 21-22, 2026[1][2][",
+      "direction": "NO",
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 3,
+    "watch": 2,
+    "high_conf": 0
   }
 }
