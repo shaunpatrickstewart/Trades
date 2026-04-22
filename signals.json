@@ -1,126 +1,44 @@
 {
-  "last_scan": "2026-04-22T03:04:53.988179+00:00",
-  "scan_seconds": 17.5,
+  "last_scan": "2026-04-22T03:05:56.866974+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 75,
   "open_positions": 36,
   "signals": [
     {
-      "id": "sig_1776827079195_0",
-      "timestamp": "2026-04-22T03:04:39.195186+00:00",
+      "id": "sig_1776827147975_0",
+      "timestamp": "2026-04-22T03:05:47.975372+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as resolved in April 2026, removing a major regulatory overhang and driving XRP's ~10% weekly price surge to $1.42 after breaking $1.50 resistance[1][2]. This fundamental shift boosts institutional sentiment amid RLUSD stablecoin rollout on XRP Led",
+      "headline": "Powell Confirms Tariffs Drive Most Goods Price Overrun, Core Inflation ~2% Ex-Tariffs; Goods Inflation to Peak Q1 2026;",
+      "raw": "Powell Confirms Tariffs Drive Most Goods Price Overrun, Core Inflation ~2% Ex-Tariffs; Goods Inflation to Peak Q1 2026; Q1 GDP Growth Slowing on Import Surge Ahead of Tariffs** | **YES** | **HIGH** confidence[1][2][3]\n\nPowell stated in recent remarks that **most of the overrun in goods prices is from tariffs**, not excess demand, with core PCE inflation running just above 2% when excluding tariff ",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776827088332_1",
-      "timestamp": "2026-04-22T03:04:48.332881+00:00",
-      "source": "PERPLEXITY",
-      "headline": "CAVALIERS TAKE 2-0 SERIES LEAD WITH 115-105 GAME 2 WIN | CONFIRMED | HIGH confidence**",
-      "raw": "CAVALIERS TAKE 2-0 SERIES LEAD WITH 115-105 GAME 2 WIN | CONFIRMED | HIGH confidence**\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 on April 21, 2026, in their first-round playoff series.[1][2] Donovan Mitchell led the Cavaliers with 30 points, 7 rebounds, and 5 assists, while James Harden contributed 28 points.[1] The Cavaliers' trio of Harden, Mitchell, and Mobley combined for 8",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776827088335_2",
-      "timestamp": "2026-04-22T03:04:48.335751+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Note:** The search results do not contain any information about Cooper Flagg or breaking news specifically from today (A",
-      "raw": "Note:** The search results do not contain any information about Cooper Flagg or breaking news specifically from today (April 22, 2026). The confirmed news relates only to the Cavaliers' playoff victory on April 21, 2026.",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776827083401_0",
-      "timestamp": "2026-04-22T03:04:43.401899+00:00",
-      "source": "PERPLEXITY",
-      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776827088329_0",
-      "timestamp": "2026-04-22T03:04:48.329967+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here is the breaking news:",
-      "raw": "Based on the search results provided, here is the breaking news:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776827092982_0",
-      "timestamp": "2026-04-22T03:04:52.982120+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or confirmed announcements reported | LOW c",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"200-219\" at 29%) and \"Elon Musk musk # tweets in April 2026?\" (crowd pricing 18% on 1080-1119).[1][2][3] These reflect real-",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776827092984_1",
-      "timestamp": "2026-04-22T03:04:52.984963+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XTracker for Polymarket social analytics exists**, potentially useful for monitoring trader posts, though no live X tren",
-      "raw": "XTracker for Polymarket social analytics exists**, potentially useful for monitoring trader posts, though no live X trends or whale activity surfaced here.[5] Confidence stays **LOW** due to static market snapshots (as of April 9-19) without real-time X posts or breaking updates.[2][3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776827083405_1",
-      "timestamp": "2026-04-22T03:04:43.405046+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Major Updates on Inflation/Tariffs/Powell/GDP | NO | HIGH confidence**",
-      "raw": "No Major Updates on Inflation/Tariffs/Powell/GDP | NO | HIGH confidence**  \n\nThese items describe an ongoing \"very unusual\" economy with tariff-driven goods inflation (expected short-lived as a one-time price level shift), cooling services disinflation, and labor market risks, but lack any fresh announcements since late 2025 that could shift markets like rate decisions or GDP revisions.[1][2][3][4",
-      "direction": "NO",
-      "confidence": 0.6,
       "matched_markets": [
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "WATCH",
+      "action": "ENTER",
       "x_link": null,
       "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776827151634_0",
+      "timestamp": "2026-04-22T03:05:51.634737+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Receive Injury Updates on Luka Doncic and Austin Reaves Ahead of Game 2 vs",
+      "raw": "Lakers Receive Injury Updates on Luka Doncic and Austin Reaves Ahead of Game 2 vs. Rockets | NO | HIGH confidence**  \nESPN's Shams Charania reported Tuesday that Austin Reaves (oblique) is on track to return late in the first-round series against Houston, providing a potential boost for Los Angeles, while Luka Doncic (Grade 2 hamstring) is not expected to return until the Western Conference semifi",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 5,
+    "enter": 1,
+    "alert": 0,
     "watch": 1,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
