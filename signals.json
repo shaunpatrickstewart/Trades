@@ -1,50 +1,119 @@
 {
-  "last_scan": "2026-04-22T19:31:14.905141+00:00",
-  "scan_seconds": 15.3,
+  "last_scan": "2026-04-22T19:32:19.413086+00:00",
+  "scan_seconds": 18.9,
   "markets_scanned": 56,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776886263160_0",
-      "timestamp": "2026-04-22T19:31:03.160008+00:00",
+      "id": "sig_1776886332153_0",
+      "timestamp": "2026-04-22T19:32:12.153436+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin surges past $76K, sharply lowering prediction market odds (now near 0%) for a dip to $60K in April | YES (confir",
-      "raw": "Bitcoin surges past $76K, sharply lowering prediction market odds (now near 0%) for a dip to $60K in April | YES (confirmed surge impacting markets) | HIGH confidence** [1]\n\nBitcoin's price broke above $76,000 as verified by on-chain data from @BTCtreasuries, directly challenging April dip predictions and compressing YES odds to 0% on the Polymarket contract for a drop to $60K by April 14 (with 12",
+      "headline": "Cooper Flagg Season-Ending Ankle Injury Confirmed | NO (Lakers favored to win series) | HIGH confidence**",
+      "raw": "Cooper Flagg Season-Ending Ankle Injury Confirmed | NO (Lakers favored to win series) | HIGH confidence**  \nCooper Flagg, the Dallas Mavericks' top 2025 NBA Draft pick, sustained a left ankle sprain in the season finale vs. the Bulls, officially ending his 2025-26 rookie campaign and ruling him out for playoffs.[2]  \nThis injury shifts series odds heavily toward the Lakers, who recently beat Dalla",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Bitcoin above 77,000 on April 22, 4PM ET?",
-        "Bitcoin above 80,600 on April 22, 4PM ET?",
-        "Bitcoin above 81,000 on April 22, 4PM ET?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776886268465_0",
-      "timestamp": "2026-04-22T19:31:08.465158+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Magic Defeat Flagg's Mavericks Despite His 51 Points; Mavs Face Lakers Sunday Amid 14th Straight Home Loss** | **NO** |",
-      "raw": "Magic Defeat Flagg's Mavericks Despite His 51 Points; Mavs Face Lakers Sunday Amid 14th Straight Home Loss** | **NO** | **HIGH** confidence[1]\n\nOrlando Magic won 138-127 over the Dallas Mavericks on Friday, with Wendell Carter Jr. scoring 28 points to overcome rookie Cooper Flagg's historic 51-point performance (19/30 FG, 6/9 3PT), extending Dallas's home losing streak to 14 games[1]. This keeps O",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776886273883_0",
-      "timestamp": "2026-04-22T19:31:13.883490+00:00",
+      "id": "sig_1776886338405_3",
+      "timestamp": "2026-04-22T19:32:18.405738+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the information you're requesting based on the available search results",
-      "raw": "I cannot provide the information you're requesting based on the available search results. The search results only contain general information about Polymarket's structure and a few specific markets related to Elon Musk's tweet counts in April 2026\u2014they do not include:",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? | YES (resolved) | HIGH confidence**  \nMarket at 100% resolution, likely confirmed ended, drawing attention in geopolitics X predictions with $12.3K liquidity[2].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776886338399_0",
+      "timestamp": "2026-04-22T19:32:18.399383+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling strong trader skepticism on Nasdaq implementing 24/7 trading soon[1].",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776886328008_0",
+      "timestamp": "2026-04-22T19:32:08.008080+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results available, here are the key market-moving developments from April 2026:",
+      "raw": "Based on the search results available, here are the key market-moving developments from April 2026:",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776886328010_1",
+      "timestamp": "2026-04-22T19:32:08.010346+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin Surges Past $75K on Institutional ETF Demand | YES | HIGH confidence**",
+      "raw": "Bitcoin Surges Past $75K on Institutional ETF Demand | YES | HIGH confidence**\n\nBitcoin has broken through the critical $75,000 resistance level in mid-April 2026, driven by unprecedented institutional capital flows.[3] As of April 21, BTC traded at $75,901.41, marking its strongest weekly gain since October.[3][4] This represents a fundamental shift in market structure, with spot Bitcoin ETFs rec",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin above 77,000 on April 22, 4PM ET?",
+        "Bitcoin above 80,600 on April 22, 4PM ET?",
+        "Bitcoin above 81,000 on April 22, 4PM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776886328012_2",
+      "timestamp": "2026-04-22T19:32:08.012606+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Morgan Stanley Launches First Major Bank Spot Bitcoin ETF | YES | HIGH confidence**",
+      "raw": "Morgan Stanley Launches First Major Bank Spot Bitcoin ETF | YES | HIGH confidence**\n\nMorgan Stanley's MSBT launched on Tuesday, April 15, 2026, with $34 million in day-one inflows, placing it in the top 1% of all ETF launches historically.[1] This represents a watershed moment for institutional adoption, providing a regulated onramp for pension funds and wealth managers.",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Bitcoin above 77,000 on April 22, 4PM ET?",
+        "Bitcoin above 80,600 on April 22, 4PM ET?",
+        "Bitcoin above 81,000 on April 22, 4PM ET?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776886328017_3",
+      "timestamp": "2026-04-22T19:32:08.017135+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Technical Breakout Opens Path to $80K-$85K | YES | MED confidence**",
+      "raw": "Technical Breakout Opens Path to $80K-$85K | YES | MED confidence**\n\nBitcoin's breach of $75,000\u2014aligning with the 100-day moving average\u2014has opened technical targets toward $85,000, contingent on sustaining institutional ETF flows and ceasefire stability.[3] However, $6 billion in leveraged shorts remain concentrated at $72,200-$73,500, creating cascade liquidation risk if prices reverse.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776886338401_1",
+      "timestamp": "2026-04-22T19:32:18.401557+00:00",
+      "source": "PERPLEXITY",
+      "headline": "\ud835\udd4f Money Launched by April 30",
+      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific predictions highlight 16% YES odds on this Elon Musk-related market with $33.6K volume, amid buzz on X platform developments[2].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -54,12 +123,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776886273885_1",
-      "timestamp": "2026-04-22T19:31:13.885931+00:00",
+      "id": "sig_1776886338403_2",
+      "timestamp": "2026-04-22T19:32:18.403637+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time social media posts from traders on X (Twitter)",
-      "raw": "Real-time social media posts from traders on X (Twitter)",
-      "direction": null,
+      "headline": "Monero Hits $1000 in 2026",
+      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with $94.3K volume, reflecting crypto trader bets against major Monero price surge despite ongoing liquidity[1].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -67,12 +136,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776886273887_2",
-      "timestamp": "2026-04-22T19:31:13.887928+00:00",
+      "id": "sig_1776886338407_4",
+      "timestamp": "2026-04-22T19:32:18.407830+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information about whale bets or smart money moves",
-      "raw": "Information about whale bets or smart money moves",
-      "direction": null,
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | HIGH confidence**  \nLow 7% YES odds with $1.4K volume in X tech markets, indicating trader confidence in stability[2].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -80,101 +149,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776886273889_3",
-      "timestamp": "2026-04-22T19:31:13.889962+00:00",
+      "id": "sig_1776886338409_5",
+      "timestamp": "2026-04-22T19:32:18.409968+00:00",
       "source": "PERPLEXITY",
-      "headline": "Commentary about mispriced markets",
-      "raw": "Commentary about mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886273891_4",
-      "timestamp": "2026-04-22T19:31:13.891963+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent breaking news, announcements, or resolved events that would move prediction markets",
-      "raw": "Recent breaking news, announcements, or resolved events that would move prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886273894_5",
-      "timestamp": "2026-04-22T19:31:13.894046+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending discussion among the prediction market community",
-      "raw": "Trending discussion among the prediction market community\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886273896_6",
-      "timestamp": "2026-04-22T19:31:13.896044+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check X/Twitter directly for posts from prediction market traders and analysts",
-      "raw": "Check X/Twitter directly for posts from prediction market traders and analysts",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886273898_7",
-      "timestamp": "2026-04-22T19:31:13.898093+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Visit Polymarket's platform in real-time to see current market activity and commentary",
-      "raw": "Visit Polymarket's platform in real-time to see current market activity and commentary",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886273900_8",
-      "timestamp": "2026-04-22T19:31:13.900082+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor prediction market news sources and community forums",
-      "raw": "Monitor prediction market news sources and community forums",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776886273902_9",
-      "timestamp": "2026-04-22T19:31:13.902127+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Look at order flow data and recent trades on active markets",
-      "raw": "Look at order flow data and recent trades on active markets\n\nThe search results provided focus on Polymarket's general functionality rather than current market sentiment or recent developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Elon Musk Tweet Volume Markets | MIXED (under 1120-1159 tweets) | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Markets | MIXED (under 1120-1159 tweets) | MED confidence**  \nActive X/Tweet markets like April totals (19% on 1120-1159) and weekly ranges (e.g., 33% on 200-219) show traders betting low on high-volume posting[3][4]. No whale bets, mispriced calls, or smart money tips evident in real-time odds; volumes suggest crowd consensus over big moves[1][2].",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 10,
-    "watch": 0,
+    "enter": 1,
+    "alert": 9,
+    "watch": 1,
     "high_conf": 2
   }
 }
