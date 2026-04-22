@@ -1,57 +1,76 @@
 {
-  "last_scan": "2026-04-22T23:48:05.820765+00:00",
-  "scan_seconds": 15.2,
+  "last_scan": "2026-04-22T23:49:09.327393+00:00",
+  "scan_seconds": 13.3,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776901679152_0",
-      "timestamp": "2026-04-22T23:47:59.152977+00:00",
+      "id": "sig_1776901738990_0",
+      "timestamp": "2026-04-22T23:48:58.990426+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The available information shows the **Toronto Raptors are down 0-2 to the Cleveland Cavaliers in their first-round playoff series**[1][2], but this is not breaking news\u2014it occurred on April 20, 2026[2].\n\nAdditionally, **Cooper Flagg does not appear in any of the search results**, so I cannot confirm any br",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776901684807_4",
-      "timestamp": "2026-04-22T23:48:04.807862+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news that just resolved or was announced",
-      "raw": "Breaking news that just resolved or was announced",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776901673924_0",
-      "timestamp": "2026-04-22T23:47:53.924536+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence** \u2013 No events match \"up\" momentum or market-moving resolutions in real-time results[1][2][3][4][5]",
-      "raw": "NO | LOW confidence** \u2013 No events match \"up\" momentum or market-moving resolutions in real-time results[1][2][3][4][5].",
+      "headline": "ETH ETFs Record Best Weekly Inflows Since January ($275M), Driving Price Above $2,288 Amid Institutional Return** | YES",
+      "raw": "ETH ETFs Record Best Weekly Inflows Since January ($275M), Driving Price Above $2,288 Amid Institutional Return** | YES | HIGH  \nEthereum ETFs saw $275 million in weekly inflows\u2014the strongest since January\u2014pushing ETH price up 7% to nearly $2,400, with holdings steady above $2,288 as institutional demand from Fidelity and BlackRock surges.[1]  \nBitmine Immersion Technologies bought 101,627 ETH las",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776901684799_0",
-      "timestamp": "2026-04-22T23:48:04.799896+00:00",
+      "id": "sig_1776901748316_0",
+      "timestamp": "2026-04-22T23:49:08.316773+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time information about what Polymarket traders are currently posting, discussing, or betting on ri",
-      "raw": "I cannot provide real-time information about what Polymarket traders are currently posting, discussing, or betting on right now. The search results show that Polymarket is a prediction market platform with various active markets as of April 2026, but they don't contain:",
-      "direction": null,
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets in April 2026?\" leading activity; traders assign 20-21% odds to the 1120-1159 range, backed by over $20.7M-$20.8M in volume across 20-130 related markets[2][3].  \nReal-time odds update dynamically as b",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776901743570_0",
+      "timestamp": "2026-04-22T23:49:03.570723+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Take 2-0 Lead Over Rockets in First-Round Playoffs | YES | HIGH confidence**",
+      "raw": "Lakers Take 2-0 Lead Over Rockets in First-Round Playoffs | YES | HIGH confidence**  \nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, April 21, 2026, securing a commanding 2-0 series lead with LeBron James scoring 28 points, grabbing 8 rebounds, and dishing 7 assists[3][3]. This win, despite Luka Doncic's ongoing hamstring injury ruling him out for the first round ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776901743572_1",
+      "timestamp": "2026-04-22T23:49:03.572750+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Dominate Game 1 vs",
+      "raw": "Cavaliers Dominate Game 1 vs. Raptors with New Defensive Scheme | YES | MED confidence**  \nCleveland Cavaliers won Game 1 against the Toronto Raptors by stifling Brandon Ingram to 9 shots (1 in second half) via a targeted shadowing defense led by Dean Wade, addressing prior defensive concerns[1][1]. No Game 2 result confirmed yet; this early success boosts their contender status but awaits further",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776901748320_1",
+      "timestamp": "2026-04-22T23:49:08.320496+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero $1000 Price Target and Niche Bans Heating Up in Trending Markets | YES | MED confidence**",
+      "raw": "Monero $1000 Price Target and Niche Bans Heating Up in Trending Markets | YES | MED confidence**  \nIn Polymarket's 168 **trending markets**, \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes odds) draw attention, with $3M+ total volume reflecting crypto and regulatory bets[1].  \nNo specific whale bets, smart money moves, or X posts on mispriced ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -59,51 +78,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776901684801_1",
-      "timestamp": "2026-04-22T23:48:04.801867+00:00",
+      "id": "sig_1776901748323_2",
+      "timestamp": "2026-04-22T23:49:08.323928+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media discussions or trader commentary",
-      "raw": "Current social media discussions or trader commentary",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776901684803_2",
-      "timestamp": "2026-04-22T23:48:04.803816+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Active whale bets or smart money positions being placed at this moment",
-      "raw": "Active whale bets or smart money positions being placed at this moment",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776901684805_3",
-      "timestamp": "2026-04-22T23:48:04.805717+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time analysis of mispriced markets",
-      "raw": "Real-time analysis of mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776901684809_5",
-      "timestamp": "2026-04-22T23:48:04.809799+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Live trader sentiment or tips being shared",
-      "raw": "Live trader sentiment or tips being shared\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "Kanye West Tweet Return Market Active but Lower Volume | YES | LOW confidence**",
+      "raw": "Kanye West Tweet Return Market Active but Lower Volume | YES | LOW confidence**  \n\"Will Kanye tweet again by April 30?\" trades at 78% yes odds with $393 volume across 130 tweet prediction markets, but less buzz than Musk volumes[2].  \nNo confirmed announcements, resolutions, or tips on moves in results; odds shift on trader conviction alone[1][2][3].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -112,9 +92,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
+    "enter": 0,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
