@@ -1,93 +1,102 @@
 {
-  "last_scan": "2026-04-22T06:41:08.541097+00:00",
-  "scan_seconds": 17.9,
+  "last_scan": "2026-04-22T06:42:29.587417+00:00",
+  "scan_seconds": 28.9,
   "markets_scanned": 80,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776840058196_0",
-      "timestamp": "2026-04-22T06:40:58.196782+00:00",
+      "id": "sig_1776840137592_0",
+      "timestamp": "2026-04-22T06:42:17.592661+00:00",
       "source": "PERPLEXITY",
-      "headline": "Q4 2025 GDP Third Estimate Released: Growth at 0",
-      "raw": "Q4 2025 GDP Third Estimate Released: Growth at 0.5%, Inflation Metrics Stable** | NO | HIGH confidence[4]\n\nThe U.S. Bureau of Economic Analysis confirmed real GDP grew 0.5% annualized in Q4 2025 (third estimate, revised down 0.2 pp), with 2025 annual GDP at 2.1%; PCE price index rose 2.9% in Q4 and 2.6% annually, core PCE at 2.7%[4]. This follows a government shutdown delay, with final sales to pr",
-      "direction": "NO",
+      "headline": "Mavs End 14-Game Home Losing Streak with Flagg's 45-Point Explosion Over Injury-Hit Lakers | NO | LOW confidence**",
+      "raw": "Mavs End 14-Game Home Losing Streak with Flagg's 45-Point Explosion Over Injury-Hit Lakers | NO | LOW confidence**  \nCooper Flagg scored 45 points, 9 assists, and 8 rebounds to lead Dallas to a 134-128 win over the Lakers on Sunday, snapping their longest home skid in 32 years; Lakers' Luka Doncic (hamstring) and Austin Reaves (oblique) are out for the regular season, but LA (50-28) remains playof",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776840132495_1",
+      "timestamp": "2026-04-22T06:42:12.495269+00:00",
+      "source": "PERPLEXITY",
+      "headline": "IMF Rate Cut Forecast Confirmed | NO | HIGH confidence**",
+      "raw": "IMF Rate Cut Forecast Confirmed | NO | HIGH confidence**\nThe IMF's April 2, 2026 Article IV Consultation with the U.S. officially concluded that there is **\"little room to cut interest rates in 2026.\"**[1] The Fed funds rate is projected to move only from 3.6% to 3.4% \u2014 essentially one cut's worth for the entire year.[1]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776840053959_0",
-      "timestamp": "2026-04-22T06:40:53.959490+00:00",
+      "id": "sig_1776840132492_0",
+      "timestamp": "2026-04-22T06:42:12.492021+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin at $75,324 on April 20 (down slightly daily but stable around $75k range), XRP at $1",
-      "raw": "Bitcoin at $75,324 on April 20 (down slightly daily but stable around $75k range), XRP at $1.42.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776840053962_1",
-      "timestamp": "2026-04-22T06:40:53.962831+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin at $75,747 on April 17, XRP at $1",
-      "raw": "Bitcoin at $75,747 on April 17, XRP at $1.44.[2]",
+      "headline": "Based on the search results provided, the most recent major announcements are from **early April 2026**, not from today",
+      "raw": "Based on the search results provided, the most recent major announcements are from **early April 2026**, not from today. Here are the key developments:",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776840053965_2",
-      "timestamp": "2026-04-22T06:40:53.965948+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Mid-April analysis of Bitcoin rally to $75k driven by ETF inflows (e",
-      "raw": "Mid-April analysis of Bitcoin rally to $75k driven by ETF inflows (e.g., $471M on April 6, Morgan Stanley's MSBT launch), U.S.-Iran ceasefire impacts, and short liquidations ($427M), with predictions toward $80k or pullbacks.[3][4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $78,000 and $80,000 on April 22?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776840053969_3",
-      "timestamp": "2026-04-22T06:40:53.969060+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no results post-April 20 indicate fresh catalysts as of 6 AM UTC today)",
-      "raw": "Confidence: HIGH** (no results post-April 20 indicate fresh catalysts as of 6 AM UTC today).[1][2][3][4]",
-      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776840067538_0",
-      "timestamp": "2026-04-22T06:41:07.538115+00:00",
+      "id": "sig_1776840132498_2",
+      "timestamp": "2026-04-22T06:42:12.498295+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18% on 1080-1119 outcome), with over $17.1M in trading volume across 130+ related markets.[2][3][4] These reflect rea",
-      "direction": "NO",
+      "headline": "Core Inflation Stalling | NO | HIGH confidence**",
+      "raw": "Core Inflation Stalling | NO | HIGH confidence**\nCore PCE inflation remains stuck at 2.9% (as of 2025) with projections showing it will only decline to 2.6% by end of 2026[1], falling short of the 2% target until at least first-half 2027.[1] Powell explicitly warned of higher inflation in coming quarters due to energy prices from the ongoing Iran conflict.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776840132504_4",
+      "timestamp": "2026-04-22T06:42:12.504277+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tariff Rate at 80-Year High | YES | HIGH confidence**",
+      "raw": "Tariff Rate at 80-Year High | YES | HIGH confidence**\nAs of April 2, 2026, the U.S. average effective tariff rate stands at **11.0%, the highest since 1943** (excluding 2025).[4] This is creating upward price pressure and constraining economic activity.[1]\n\nThese announcements suggest **lower probability of rate cuts and persistent inflation pressures**, which would typically move markets toward h",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776840137595_1",
+      "timestamp": "2026-04-22T06:42:17.595835+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors' Brandon Ingram Delivers Historic Playoff Dud in Game 2 Loss to Cavs | NO | MED confidence**",
+      "raw": "Raptors' Brandon Ingram Delivers Historic Playoff Dud in Game 2 Loss to Cavs | NO | MED confidence**  \nIn first-round Game 2 on Monday, Ingram posted 7 points (3-15 FG), 5 turnovers, and -15 plus/minus in 36 minutes, marking one of the worst playoff games ever (first since 2016 with <8 pts on \u226420% FG, 12+ misses, 5+ TOs); Cavs took a series lead after Game 1 win.[3][4]  \nPuts Raptors on brink of f",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776840148560_0",
+      "timestamp": "2026-04-22T06:42:28.560008+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the specific real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the specific real-time information you're requesting based on the available search results. The search results contain general information about how Polymarket operates as a prediction market platform, but they do not include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -95,25 +104,75 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776840062544_0",
-      "timestamp": "2026-04-22T06:41:02.544103+00:00",
+      "id": "sig_1776840148562_1",
+      "timestamp": "2026-04-22T06:42:28.562961+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Series** | **YES** | **HIGH*",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Series** | **YES** | **HIGH** confidence[1][2]\n\nThe Cleveland Cavaliers secured a decisive victory on Monday night, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and eight rebounds, never trailing en route to a 115-105 win[1]. This clinches a 2-0 ser",
-      "direction": "YES",
+      "headline": "Current posts or discussions from traders on X (Twitter) right now",
+      "raw": "Current posts or discussions from traders on X (Twitter) right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840148565_2",
+      "timestamp": "2026-04-22T06:42:28.565860+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale bets or smart money moves being made today",
+      "raw": "Active whale bets or smart money moves being made today",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840148568_3",
+      "timestamp": "2026-04-22T06:42:28.568799+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time trending market analysis or mispricing discussions",
+      "raw": "Real-time trending market analysis or mispricing discussions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840148571_4",
+      "timestamp": "2026-04-22T06:42:28.571794+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent breaking news, announcements, or market resolutions happening at this moment",
+      "raw": "Recent breaking news, announcements, or market resolutions happening at this moment\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776840132501_3",
+      "timestamp": "2026-04-22T06:42:12.501266+00:00",
+      "source": "PERPLEXITY",
+      "headline": "GDP Growth Modest | MIXED | HIGH confidence**",
+      "raw": "GDP Growth Modest | MIXED | HIGH confidence**\nThe IMF projects U.S. GDP growth of 2.4% in 2026, a modest pickup from 2.0% in 2025,[1] but growth is expected to decay toward 1.8% thereafter.[1] Tariffs are dragging on growth, with the effective tariff rate at 7-8.5%.[1]",
+      "direction": null,
       "confidence": 0.6,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
+      "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 5,
+    "alert": 10,
     "watch": 1,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
