@@ -1,5 +1,5 @@
 {
-  "ts": 1776821385,
+  "ts": 1776821865,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999824
+    "usdc_usd": 0.999775
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -116,10 +116,10 @@
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
         "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
         "size": 7.5664,
-        "cur_price": 0.52,
-        "nav_usdc": 3.9345,
+        "cur_price": 0.41,
+        "nav_usdc": 3.1022,
         "cost_basis": 4.1615,
-        "unrealized_pnl": -0.227
+        "unrealized_pnl": -1.0593
       },
       {
         "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
@@ -134,37 +134,37 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1665,
-        "nav_usdc": 0.8408,
+        "cur_price": 0.1719,
+        "nav_usdc": 0.8681,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.8509
+        "unrealized_pnl": -0.8236
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.28,
-        "nav_usdc": 1.414,
+        "cur_price": 0.29,
+        "nav_usdc": 1.4645,
         "cost_basis": 1.212,
-        "unrealized_pnl": 0.202
+        "unrealized_pnl": 0.2525
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3925,
-        "nav_usdc": 1.9821,
+        "cur_price": 0.3865,
+        "nav_usdc": 1.9518,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.2197
+        "unrealized_pnl": 0.1894
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.96,
-        "nav_usdc": 4.8334,
+        "cur_price": 0.958,
+        "nav_usdc": 4.8233,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.3021
+        "unrealized_pnl": 0.292
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -233,10 +233,10 @@
         "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.95,
-        "cur_price": 0.255,
-        "nav_usdc": 1.2623,
+        "cur_price": 0.26,
+        "nav_usdc": 1.287,
         "cost_basis": 1.683,
-        "unrealized_pnl": -0.4207
+        "unrealized_pnl": -0.396
       },
       {
         "slug": "will-orlando-magic-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -285,16 +285,16 @@
       }
     ],
     "position_count": 30,
-    "positions_nav_usdc": 228.9319,
-    "total_usdc": 402.7608,
-    "total_usd": 402.6899
+    "positions_nav_usdc": 228.1618,
+    "total_usdc": 401.9907,
+    "total_usd": 401.9002
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776821386,
+    "ts": 1776821866,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 48,
     "today": {
@@ -311,10 +311,10 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776734986,
+      "window_start_ts": 1776735466,
       "realized_usdc": 0.4633,
-      "trade_count": 15,
-      "buy_volume_usdc": 150.7566,
+      "trade_count": 14,
+      "buy_volume_usdc": 149.4592,
       "sell_volume_usdc": 180.4188,
       "closed_positions": 2,
       "winning_positions": 2,
@@ -409,22 +409,12 @@
           "net_size": -122.03,
           "closed": false,
           "realized_usdc": 0.0
-        },
-        {
-          "title": "Will April 2026 be the 4th or lower hottest on record?",
-          "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
-          "outcome_index": 0,
-          "buys_usdc": 1.2974,
-          "sells_usdc": 0.0,
-          "net_size": 8.16,
-          "closed": false,
-          "realized_usdc": 0.0
         }
       ]
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776216586,
+      "window_start_ts": 1776217066,
       "realized_usdc": 1.5555,
       "trade_count": 48,
       "buy_volume_usdc": 407.8273,
@@ -637,7 +627,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774229386,
+      "window_start_ts": 1774229866,
       "realized_usdc": 1.5555,
       "trade_count": 48,
       "buy_volume_usdc": 407.8273,
@@ -1063,7 +1053,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.6899,
-    "total_usdc": 402.7608
+    "total_usd": 401.9002,
+    "total_usdc": 401.9907
   }
 }
