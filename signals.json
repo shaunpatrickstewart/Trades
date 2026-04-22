@@ -1,116 +1,87 @@
 {
-  "last_scan": "2026-04-22T19:17:48.563723+00:00",
-  "scan_seconds": 18.0,
+  "last_scan": "2026-04-22T19:18:56.832554+00:00",
+  "scan_seconds": 16.2,
   "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776885458428_0",
-      "timestamp": "2026-04-22T19:17:38.428955+00:00",
+      "id": "sig_1776885524562_0",
+      "timestamp": "2026-04-22T19:18:44.562944+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, here are the key Bitcoin developments from April 2026:",
-      "raw": "Based on the search results provided, here are the key Bitcoin developments from April 2026:",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "Bitcoin surges past $76K, sharply lowering Polymarket odds of April dip to $60K (now near 0%)** | YES | HIGH confidence[",
+      "raw": "Bitcoin surges past $76K, sharply lowering Polymarket odds of April dip to $60K (now near 0%)** | YES | HIGH confidence[1]\n\nBitcoin's price broke above $76,000 as of recent trading, verifiable via market data and confirmed by @BTCtreasuries, directly challenging and compressing YES probabilities on the Polymarket contract for a drop to $60K by April end (with 12 days remaining)[1]. This momentum s",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "Bitcoin above 77,000 on April 22, 4PM ET?",
         "Bitcoin above 81,000 on April 22, 4PM ET?",
         "Bitcoin above 80,600 on April 22, 4PM ET?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776885458432_1",
-      "timestamp": "2026-04-22T19:17:38.432633+00:00",
+      "id": "sig_1776885529061_0",
+      "timestamp": "2026-04-22T19:18:49.061389+00:00",
       "source": "PERPLEXITY",
-      "headline": "Morgan Stanley Launches MSBT Spot Bitcoin ETF | YES | HIGH confidence**",
-      "raw": "Morgan Stanley Launches MSBT Spot Bitcoin ETF | YES | HIGH confidence**\n\nMorgan Stanley's MSBT became the first spot Bitcoin ETF from a major U.S. bank, launching on Tuesday (April 8-9) with $34 million in day-one inflows, placing it in the top 1% of all ETF launches historically.[1] This represents significant institutional validation and opens a new demand channel for traditional capital.",
+      "headline": "Mavericks End 14-Game Home Losing Streak with 134-128 Win Over Injury-Depleted Lakers, Powered by Cooper Flagg's Histori",
+      "raw": "Mavericks End 14-Game Home Losing Streak with 134-128 Win Over Injury-Depleted Lakers, Powered by Cooper Flagg's Historic 45 Points | YES | HIGH confidence**  \nCooper Flagg scored 45 points (plus 9 assists, 8 rebounds), following his 51-point game, marking the first back-to-back 40+ point games by a rookie since Allen Iverson and most 40-point teen games ever (4, tying then breaking LeBron James' ",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Bitcoin above 77,000 on April 22, 4PM ET?",
-        "Bitcoin above 81,000 on April 22, 4PM ET?",
-        "Bitcoin above 80,600 on April 22, 4PM ET?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776885458435_2",
-      "timestamp": "2026-04-22T19:17:38.435958+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin Breaks Above $75,000 Resistance | YES | HIGH confidence**",
-      "raw": "Bitcoin Breaks Above $75,000 Resistance | YES | HIGH confidence**\n\nBitcoin surged past $75,000 in mid-April 2026, reaching $75,901.41 as of April 21.[2][3] This represents a critical technical breakout that aligns with the 100-day moving average and previously key resistance levels, opening potential for further upside toward $85,000.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin above 77,000 on April 22, 4PM ET?",
-        "Bitcoin above 81,000 on April 22, 4PM ET?",
-        "Bitcoin above 80,600 on April 22, 4PM ET?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776885458438_3",
-      "timestamp": "2026-04-22T19:17:38.438188+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Record ETF Inflows Signal Institutional Reallocation | YES | HIGH confidence**",
-      "raw": "Record ETF Inflows Signal Institutional Reallocation | YES | HIGH confidence**\n\nSpot Bitcoin ETFs recorded $471 million in net inflows on April 6\u2014the strongest single day since late February\u2014with BlackRock's IBIT, Fidelity's FBTC, and Ark Invest's ARKB absorbing the bulk.[1] Whale wallets also recorded inflows for only the second week in 2026, suggesting genuine institutional accumulation rather t",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin above 77,000 on April 22, 4PM ET?",
-        "Bitcoin above 81,000 on April 22, 4PM ET?",
-        "Bitcoin above 80,600 on April 22, 4PM ET?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776885463283_0",
-      "timestamp": "2026-04-22T19:17:43.283250+00:00",
-      "source": "PERPLEXITY",
-      "headline": "OKC Thunder defeats Indiana Pacers 103-91 to win Western Conference Semifinals series | YES (OKC advances) | HIGH confid",
-      "raw": "OKC Thunder defeats Indiana Pacers 103-91 to win Western Conference Semifinals series | YES (OKC advances) | HIGH confidence** [1]\n\nToronto Raptors not mentioned in current playoff brackets or matchups; no Eastern or Western Conference Semifinals series involving Raptors reported as ongoing or resolved today [1][4].  \nPacers (Eastern #4 seed) lose to OKC (Western #1 seed) in what appears to be a c",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776885467558_0",
-      "timestamp": "2026-04-22T19:17:47.558397+00:00",
+      "id": "sig_1776885535822_0",
+      "timestamp": "2026-04-22T19:18:55.822882+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's # of tweets (or \"musk\" mentions) in April 2026**, with the 1120-1159 range priced at 18-19% probability across Tweet and Tweet Markets categories, backed by over $22M in volume[2][3].",
-      "direction": "NO",
+      "headline": "I cannot provide real-time information about what Polymarket traders are currently posting on X or what breaking news is",
+      "raw": "I cannot provide real-time information about what Polymarket traders are currently posting on X or what breaking news is happening right now. The search results provided contain historical examples and specific market data, but they don't include live social media posts, current trader discussions, or real-time market movements from April 22, 2026.\n\nTo get the information you're looking for, you w",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776885467560_1",
-      "timestamp": "2026-04-22T19:17:47.560750+00:00",
+      "id": "sig_1776885535825_1",
+      "timestamp": "2026-04-22T19:18:55.825524+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq round-the-clock trading by June 30",
-      "raw": "Nasdaq round-the-clock trading by June 30?** leads Trending Markets (168 live markets, $2.8M volume), but no specific odds or X posts noted[1].  \nNo whale bets, smart money moves, mispriced markets, or recent confirmations/announcements mentioned in real-time data; searches highlight tweet volume as top trader focus without resolution triggers[1][2][3][4].  \nOther active areas include Kanye West t",
-      "direction": "YES",
+      "headline": "Check X (formerly Twitter) directly for live posts from traders and analysts using hashtags like #Polymarket or #Predict",
+      "raw": "Check X (formerly Twitter) directly for live posts from traders and analysts using hashtags like #Polymarket or #PredictionMarkets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885535827_2",
+      "timestamp": "2026-04-22T19:18:55.827572+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Visit Polymarket",
+      "raw": "Visit Polymarket.com to see currently active markets and their real-time price movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885535829_3",
+      "timestamp": "2026-04-22T19:18:55.829646+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monitor cryptocurrency and prediction market news feeds for breaking developments",
+      "raw": "Monitor cryptocurrency and prediction market news feeds for breaking developments\n\nThe search results show that Polymarket traders do discuss market inefficiencies, whale positions, and mispriced markets on social media[1][2], but I cannot access current discussions or identify what specific markets are trending right now without live data access.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -119,9 +90,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
+    "enter": 2,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
