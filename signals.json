@@ -1,16 +1,32 @@
 {
-  "last_scan": "2026-04-22T21:13:30.075114+00:00",
-  "scan_seconds": 19.5,
+  "last_scan": "2026-04-22T21:14:35.770957+00:00",
+  "scan_seconds": 15.2,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776892409060_3",
-      "timestamp": "2026-04-22T21:13:29.060294+00:00",
+      "id": "sig_1776892463525_0",
+      "timestamp": "2026-04-22T21:14:23.525028+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (Already Resolved) | HIGH confidence**  \nMarket at 100% on an unspecified end date, with $12.3K liquidity, indicates recent confirmation or resolution of the conflict, potentially moving geopolitics bets.[2]",
+      "headline": "ETH ETF Inflows Cross $275M in Strongest Week Since January, Driving Price to $2,288 Amid Institutional Return** | YES |",
+      "raw": "ETH ETF Inflows Cross $275M in Strongest Week Since January, Driving Price to $2,288 Amid Institutional Return** | YES | HIGH  \nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014with Fidelity\u2019s FETH and BlackRock\u2019s ETHA leading, as ETH price climbed 7% to near $2,400 before holding at $2,288.[1] This marks confirmed strong institutional demand, coinciding wi",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of April 20 2026?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776892474767_1",
+      "timestamp": "2026-04-22T21:14:34.767766+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news markets** highlight recent movers like \"USD",
+      "raw": "Breaking news markets** highlight recent movers like \"USD.AI FDV above $800M one day after launch?\" and \"OpenGradient FDV above $200M one day after launch?\" from the last 24 hours (as of Apr 21), indicating potential crypto hype but no resolution details[4].\n\nNo search results mention **X posts from Polymarket traders**, **whale bets**, **smart money moves**, **mispriced markets**, or **confirmed ",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,13 +34,30 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776892403195_2",
-      "timestamp": "2026-04-22T21:13:23.195136+00:00",
+      "id": "sig_1776892469886_0",
+      "timestamp": "2026-04-22T21:14:29.886596+00:00",
       "source": "PERPLEXITY",
-      "headline": "Series Prediction**: The Cavaliers are heavily favored to win the series given their dominant 2-0 lead with two games re",
-      "raw": "Series Prediction**: The Cavaliers are heavily favored to win the series given their dominant 2-0 lead with two games remaining in Toronto. The Raptors would need an unprecedented turnaround, particularly from Brandon Ingram, to overcome this deficit. Markets would likely shift significantly in favor of Cleveland's series completion, with the Raptors facing a 9-year playoff drought if they lose[1]",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "I cannot provide breaking news about the Raptors-Cavaliers Conference Semifinals outcome based on these search results",
+      "raw": "I cannot provide breaking news about the Raptors-Cavaliers Conference Semifinals outcome based on these search results. The provided information only shows Game 1 results from the first round of the 2025-26 NBA Playoffs (Cavaliers 138, Heat 83), not Conference Semifinals matchups or recent developments that would affect prediction markets.[1]\n\nTo answer your query accurately, I would need current ",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776892469888_1",
+      "timestamp": "2026-04-22T21:14:29.888700+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Whether the Raptors and Cavaliers have advanced to the Conference Semifinals",
+      "raw": "Whether the Raptors and Cavaliers have advanced to the Conference Semifinals",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
@@ -33,37 +66,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776892409049_0",
-      "timestamp": "2026-04-22T21:13:29.049949+00:00",
+      "id": "sig_1776892469890_2",
+      "timestamp": "2026-04-22T21:14:29.890704+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, signaling strong trader skepticism on Nasdaq expanding to 24/7 trading soon; no recent confirmations or announcements shift this.[1]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892394280_0",
-      "timestamp": "2026-04-22T21:13:14.280751+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (search results cover up to April 20 with no \"right now\" events matching criteria)",
-      "raw": "Confidence: HIGH** (search results cover up to April 20 with no \"right now\" events matching criteria).[1][2][3][4][5][6]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776892403190_0",
-      "timestamp": "2026-04-22T21:13:23.190516+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here is the breaking news:",
-      "raw": "Based on the search results, here is the breaking news:",
+      "headline": "Recent game results or official announcements about their series",
+      "raw": "Recent game results or official announcements about their series",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -72,27 +79,25 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776892403192_1",
-      "timestamp": "2026-04-22T21:13:23.192887+00:00",
+      "id": "sig_1776892469892_3",
+      "timestamp": "2026-04-22T21:14:29.892909+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Take 2-0 Series Lead Over Raptors in First Round Playoff Series | YES | HIGH confidence**",
-      "raw": "Cavaliers Take 2-0 Series Lead Over Raptors in First Round Playoff Series | YES | HIGH confidence**\n\nThe **Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2**[1][5][6], giving Cleveland a commanding 2-0 series lead heading back to Toronto for Game 3. **Donovan Mitchell scored 30 points and James Harden added 28 points** to lead the Cavaliers' victory[1].\n\nThe Raptors' offensive st",
-      "direction": "YES",
+      "headline": "Any roster changes, injuries, or other factors affecting predictions",
+      "raw": "Any roster changes, injuries, or other factors affecting predictions\n\nThe search results focus on first-round reactions from April 20, 2026, which is outdated relative to your query about current Conference Semifinals activity.[2] Please provide updated search results for today's date to enable a proper news-breaking analysis.",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776892409052_1",
-      "timestamp": "2026-04-22T21:13:29.052016+00:00",
+      "id": "sig_1776892474765_0",
+      "timestamp": "2026-04-22T21:14:34.765653+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | MED confidence**  \nX-specific market at 16% YES with $33.6K volume and $4.4K liquidity draws attention as traders bet against Elon Musk's payment feature rollout in 7 days; no breaking news confirms launch plans.[2]",
-      "direction": "YES",
+      "headline": "Trending Polymarket Discussions on X: Tweet Markets and Crypto Launch Bets | NO whale bets or resolutions confirmed | LO",
+      "raw": "Trending Polymarket Discussions on X: Tweet Markets and Crypto Launch Bets | NO whale bets or resolutions confirmed | LOW confidence**\n\nPolymarket's **trending markets** as of April 22, 2026, emphasize **Tweet Markets** focused on Elon Musk's tweeting activity, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and broader \"Elon Musk musk # tweets in April 2026?\" with the 1120-1159 range at 1",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -100,51 +105,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892409058_2",
-      "timestamp": "2026-04-22T21:13:29.058118+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Robinhood (HOOD) Up or Down on April 22",
-      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket at 85% Up with $2.2K volume reflects real-time trader consensus on HOOD closing higher today, amid broader finance trends; daily resolution adds urgency.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892409066_4",
-      "timestamp": "2026-04-22T21:13:29.066430+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | LOW confidence**  \nTrending crypto market (ends in 8 months) shows implied low odds from trader sentiment, as Polymarket aggregates conviction on volatile assets like XMR.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776892409072_5",
-      "timestamp": "2026-04-22T21:13:29.072660+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30",
-      "raw": "Nikita Bier Out as X Head of Product by June 30? | NO | MED confidence**  \n7% YES odds with $1.4K volume and $2.9K liquidity highlight niche X drama bets; no insider tips or announcements on personnel changes.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
