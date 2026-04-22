@@ -1,5 +1,5 @@
 {
-  "ts": 1776828580,
+  "ts": 1776828650,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999889
+    "usdc_usd": 0.999829
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -44,10 +44,10 @@
         "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
         "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
         "size": 29.21,
-        "cur_price": 0.9975,
-        "nav_usdc": 29.137,
+        "cur_price": 0.997,
+        "nav_usdc": 29.1224,
         "cost_basis": 28.9179,
-        "unrealized_pnl": 0.2191
+        "unrealized_pnl": 0.2045
       },
       {
         "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
@@ -107,19 +107,19 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.056,
-        "nav_usdc": 0.457,
+        "cur_price": 0.0565,
+        "nav_usdc": 0.461,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8404
+        "unrealized_pnl": -0.8364
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.14,
-        "nav_usdc": 1.0724,
+        "cur_price": 0.145,
+        "nav_usdc": 1.1107,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.6894
+        "unrealized_pnl": -0.6511
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -152,10 +152,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1775,
-        "nav_usdc": 0.8964,
+        "cur_price": 0.177,
+        "nav_usdc": 0.8938,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -0.7953
+        "unrealized_pnl": -0.7979
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -170,10 +170,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.391,
-        "nav_usdc": 1.9746,
+        "cur_price": 0.385,
+        "nav_usdc": 1.9443,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.2122
+        "unrealized_pnl": 0.1819
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -296,23 +296,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.232,
-        "nav_usdc": 1.1399,
+        "cur_price": 0.2305,
+        "nav_usdc": 1.1325,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.6584
+        "unrealized_pnl": 0.651
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 286.8137,
-    "total_usdc": 402.8365,
-    "total_usd": 402.7918
+    "positions_nav_usdc": 286.8013,
+    "total_usdc": 402.8241,
+    "total_usd": 402.7552
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776828582,
+    "ts": 1776828651,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776742182,
+      "window_start_ts": 1776742251,
       "realized_usdc": 0.4633,
       "trade_count": 16,
       "buy_volume_usdc": 178.3177,
@@ -453,7 +453,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776223782,
+      "window_start_ts": 1776223851,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -666,7 +666,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774236582,
+      "window_start_ts": 1774236651,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1092,7 +1092,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.7918,
-    "total_usdc": 402.8365
+    "total_usd": 402.7552,
+    "total_usdc": 402.8241
   }
 }
