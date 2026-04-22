@@ -1,100 +1,45 @@
 {
-  "last_scan": "2026-04-22T22:54:15.349906+00:00",
-  "scan_seconds": 15.8,
+  "last_scan": "2026-04-22T22:55:13.751743+00:00",
+  "scan_seconds": 13.2,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776898448538_1",
-      "timestamp": "2026-04-22T22:54:08.538713+00:00",
+      "id": "sig_1776898508101_0",
+      "timestamp": "2026-04-22T22:55:08.101927+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confirmed playoff brackets or seedings for April 2026",
-      "raw": "Confirmed playoff brackets or seedings for April 2026",
-      "direction": null,
+      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | NO | HIGH confidence**",
+      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead | NO | HIGH confidence**  \nThe Cleveland Cavaliers won Game 2 against the Toronto Raptors on April 20, 2026, with Donovan Mitchell scoring 30 points and James Harden adding 28, establishing a commanding series advantage in their first-round matchup.[3][4]  \nRaptors coach Darko Rajakovic criticized officiating on Brandon Ingram's foul",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776898442778_0",
-      "timestamp": "2026-04-22T22:54:02.778159+00:00",
+      "id": "sig_1776898504107_0",
+      "timestamp": "2026-04-22T22:55:04.107479+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Price Surge Above $2,200 Tied to U",
-      "raw": "Ethereum Price Surge Above $2,200 Tied to U.S.-Iran Ceasefire Announcement | YES | HIGH confidence**  \nEthereum's price has risen +3.43% in the past 24 hours to $2,395.42, explicitly linked to a U.S.-Iran ceasefire announcement boosting market sentiment.[3]  \nThis follows a $98.74 daily gain to $2,403.78 as of 9:15 a.m. ET on April 22, 2026, from $2,305.04 the prior day, confirming upward momentum",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
+      "headline": "LOW confidence** in prediction market impact, as results lack \"right now\" breaking news (latest is 2 days old)",
+      "raw": "LOW confidence** in prediction market impact, as results lack \"right now\" breaking news (latest is 2 days old).[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776898448536_0",
-      "timestamp": "2026-04-22T22:54:08.536983+00:00",
+      "id": "sig_1776898512746_0",
+      "timestamp": "2026-04-22T22:55:12.746055+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news confirming playoff outcomes or market-moving announcements based on these search results",
-      "raw": "I cannot provide breaking news confirming playoff outcomes or market-moving announcements based on these search results.\n\nThe search results contain information from different timeframes in the 2025-26 NBA season, but none represent current breaking news from April 22, 2026. The most recent content references games from mid-March 2026 and earlier in the season, with one result discussing a college",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776898448540_2",
-      "timestamp": "2026-04-22T22:54:08.540445+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Official announcements about conference semifinals matchups",
-      "raw": "Official announcements about conference semifinals matchups",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776898448542_3",
-      "timestamp": "2026-04-22T22:54:08.542154+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any news dated April 22, 2026",
-      "raw": "Any news dated April 22, 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776898448544_4",
-      "timestamp": "2026-04-22T22:54:08.544081+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information that would move prediction markets regarding upcoming playoff games",
-      "raw": "Information that would move prediction markets regarding upcoming playoff games\n\nTo obtain current breaking news about NBA playoffs and conference semifinals, you would need real-time sports news sources covering today's announcements.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776898454346_0",
-      "timestamp": "2026-04-22T22:54:14.346857+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Chatter on X: Tweet Count Markets Dominate, Elon Musk Bets Heating Up | NO confirmed whale bets or r",
-      "raw": "Trending Polymarket Chatter on X: Tweet Count Markets Dominate, Elon Musk Bets Heating Up | NO confirmed whale bets or resolutions | MED confidence**\n\nPolymarket's **Tweet Markets** are currently the hottest topic among traders on X, with heavy focus on **Elon Musk's April 2026 tweet volume**, including active markets like \"Elon Musk # tweets April 20 - April 22, 2026?\" (e.g., \"40-64\" at 100% impl",
-      "direction": "YES",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (with outcomes like 40-64 priced variably) and \"Elon Musk # tweets April 17 - April 24, 2026?\", alongside broader \"Elon Musk # tweets in April 2026?\" where the 1120-1159 range holds a",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -102,12 +47,25 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776898512748_1",
+      "timestamp": "2026-04-22T22:55:12.748535+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets** category features 168 live options with $3M+ volume, including niche bets like \u201cNasdaq round-the-cloc",
+      "raw": "Trending Markets** category features 168 live options with $3M+ volume, including niche bets like \u201cNasdaq round-the-clock trading by June 30?\u201d, but no specific whale bets, smart money moves, mispriced markets, or prediction tips are detailed in real-time X posts from traders[1].  \nNo recent confirmations, announcements, or resolutions (e.g., tweet data releases) are noted that could shift odds, li",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 0,
+    "enter": 1,
+    "alert": 2,
+    "watch": 1,
     "high_conf": 1
   }
 }
