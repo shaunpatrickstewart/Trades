@@ -1,48 +1,46 @@
 {
-  "last_scan": "2026-04-22T12:02:39.981658+00:00",
-  "scan_seconds": 18.9,
+  "last_scan": "2026-04-22T12:03:39.299113+00:00",
+  "scan_seconds": 17.8,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776859350076_0",
-      "timestamp": "2026-04-22T12:02:30.076197+00:00",
+      "id": "sig_1776859405156_0",
+      "timestamp": "2026-04-22T12:03:25.156600+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and",
-      "raw": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, Amid Rate Cut and Labor Market Warnings | NO | HIGH**  \nPowell stated on Wednesday that U.S. policymakers face a rare mix of elevated **goods inflation** from **tariffs** and a potentially weaker **labor market** than official data shows, with payrolls possibly overstating job growth by ~60,000/mo",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776859354499_0",
-      "timestamp": "2026-04-22T12:02:34.499570+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors in East first-round playoffs | YES (Raptors facing elimination risk, impacti",
-      "raw": "Cavaliers take 2-0 series lead over Raptors in East first-round playoffs | YES (Raptors facing elimination risk, impacting playoff futures) | HIGH confidence** [2]  \nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on April 20, with Donovan Mitchell scoring 30 points and James Harden adding 28, confirming a 2-0 lead in their best-of-7 East first-round series.[2]  \nGame 3 is s",
+      "headline": "SEC Lawsuit Against Ripple Fully Resolved, Triggering XRP Surge Above $1",
+      "raw": "SEC Lawsuit Against Ripple Fully Resolved, Triggering XRP Surge Above $1.50 | YES | HIGH confidence** [1][2]\n\nThe SEC has dropped its long-running lawsuit against Ripple Labs, removing a major regulatory overhang that suppressed XRP's price for years and enabling institutional adoption.[1][2] This resolution, circulating through institutional channels in early April 2026, drove a 10% weekly gain, ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET",
+        "XRP Up or Down - April 22, 8:45AM-9:00AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776859358978_0",
-      "timestamp": "2026-04-22T12:02:38.978405+00:00",
+      "id": "sig_1776859418292_0",
+      "timestamp": "2026-04-22T12:03:38.292929+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Market Leads Activity | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April Tweets Market Leads Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active market is \"Elon Musk # tweets April 17 - April 24, 2026?\" (or broader April 2026 variants), with \"1120-1159\" outcome at 28% probability and $9M volume as of April 21[3][1][2]. No X posts from traders on whale bets, smart money moves, mispriced markets, or imminent shifts are ",
+      "headline": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4].  \nN",
       "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776859418296_1",
+      "timestamp": "2026-04-22T12:03:38.296018+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tweet Markets** dominate with real-time odds shifting on pop culture events like Kanye tweeting by April 30, but lack ev",
+      "raw": "Tweet Markets** dominate with real-time odds shifting on pop culture events like Kanye tweeting by April 30, but lack evidence of \"right now\" X buzz or resolutions impacting prices[2][3].",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -51,9 +49,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
