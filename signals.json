@@ -1,29 +1,161 @@
 {
-  "last_scan": "2026-04-22T20:07:07.645680+00:00",
-  "scan_seconds": 16.1,
+  "last_scan": "2026-04-22T20:08:15.992836+00:00",
+  "scan_seconds": 15.3,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776888426642_0",
-      "timestamp": "2026-04-22T20:07:06.642732+00:00",
+      "id": "sig_1776888488716_0",
+      "timestamp": "2026-04-22T20:08:08.716018+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Topics on X: Nasdaq 24/7 Trading, Monero Price Surge, X Product Shifts | NO Confirmed Resolutions |",
-      "raw": "Trending Polymarket Topics on X: Nasdaq 24/7 Trading, Monero Price Surge, X Product Shifts | NO Confirmed Resolutions | MED Confidence**\n\nPolymarket's trending markets include \"Nasdaq round-the-clock trading by June 30?\" at 20% YES odds with $43.9K volume, and \"Will Monero hit $1000 in 2026?\" at 19% YES odds with $94.3K volume, indicating active trader interest in finance and crypto without specif",
+      "headline": "Cavs Secure 2-0 Series Lead Over Raptors; Lakers Take 1-0 Lead Despite KD Absence** | YES | HIGH confidence[4]",
+      "raw": "Cavs Secure 2-0 Series Lead Over Raptors; Lakers Take 1-0 Lead Despite KD Absence** | YES | HIGH confidence[4]\n\nCleveland Cavaliers defeated Toronto Raptors in Game 2, with Donovan Mitchell and James Harden leading to a commanding 2-0 advantage in their 4-5 East matchup, as confirmed 1 day ago[4]. Los Angeles Lakers won Game 1 against Houston Rockets (Luke Kennard: 27 pts), taking a 1-0 lead despi",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776888484130_0",
+      "timestamp": "2026-04-22T20:08:04.130224+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum price up $98",
+      "raw": "Ethereum price up $98.74 today (April 22, 2026) to $2,403.78 | NO | HIGH confidence**\n\nEthereum (ETH) is trading at **$2,403.78** as of 9:15 a.m. Eastern Time on April 22, 2026, reflecting a **$98.74 daily increase** from yesterday's $2,305.04 close[1][3]. No breaking confirmations, announcements, or resolutions (e.g., on Pectra upgrade, ETFs, or policy) appear in results to drive prediction marke",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776888494966_0",
+      "timestamp": "2026-04-22T20:08:14.966779+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results. The search results contain only general information about Polymarket's structure and features, not current breaking news, live trader discussions, or real-time market movements as of April 22, 2026.\n\nTo answer your query, I would need access to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494969_1",
+      "timestamp": "2026-04-22T20:08:14.969926+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Live social media feeds** from X (Twitter) where traders are currently discussing Polymarket positions",
+      "raw": "**Live social media feeds** from X (Twitter) where traders are currently discussing Polymarket positions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494973_2",
+      "timestamp": "2026-04-22T20:08:14.973391+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Real-time market data** showing which specific markets are experiencing unusual trading volume or price movements",
+      "raw": "**Real-time market data** showing which specific markets are experiencing unusual trading volume or price movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494976_3",
+      "timestamp": "2026-04-22T20:08:14.976699+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Current news events** that would impact prediction markets",
+      "raw": "**Current news events** that would impact prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494980_4",
+      "timestamp": "2026-04-22T20:08:14.980289+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Active trader commentary** about mispriced markets or emerging opportunities",
+      "raw": "**Active trader commentary** about mispriced markets or emerging opportunities\n\nThe search results reference XTracker as a social media analytics tool[4] and mention that Polymarket hosts 20 active Tweet Markets[3], but they don't provide the live data or breaking news you're seeking.\n\nFor this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494983_5",
+      "timestamp": "2026-04-22T20:08:14.983272+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Visit Polymarket directly and check trending markets",
+      "raw": "Visit Polymarket directly and check trending markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494985_6",
+      "timestamp": "2026-04-22T20:08:14.985141+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monitor X/Twitter for real-time trader discussions",
+      "raw": "Monitor X/Twitter for real-time trader discussions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494986_7",
+      "timestamp": "2026-04-22T20:08:14.986995+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Use tools like XTracker[4] for social media analytics on prediction market activity",
+      "raw": "Use tools like XTracker[4] for social media analytics on prediction market activity",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776888494989_8",
+      "timestamp": "2026-04-22T20:08:14.989290+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Check financial news sources for breaking announcements that might move markets",
+      "raw": "Check financial news sources for breaking announcements that might move markets\n\nI cannot responsibly fabricate breaking news or trader insights, as doing so would be inaccurate and potentially misleading for financial decision-making.",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 1,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 9,
+    "watch": 1,
+    "high_conf": 1
   }
 }
