@@ -1,61 +1,47 @@
 {
-  "last_scan": "2026-04-22T23:21:54.483653+00:00",
-  "scan_seconds": 13.9,
+  "last_scan": "2026-04-22T23:23:03.379369+00:00",
+  "scan_seconds": 12.1,
   "markets_scanned": 47,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776900104411_0",
-      "timestamp": "2026-04-22T23:21:44.411281+00:00",
+      "id": "sig_1776900174026_0",
+      "timestamp": "2026-04-22T23:22:54.026024+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving Price to $2,288+ Amid Institutional Rally | YES",
-      "raw": "ETH ETF Inflows Hit $275M Weekly High (Strongest Since January), Driving Price to $2,288+ Amid Institutional Rally | YES | HIGH confidence** [1]\n\nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014led by Fidelity\u2019s FETH and BlackRock\u2019s ETHA, coinciding with a 7% ETH price surge to nearly $2,400 as institutional demand returns.[1] This marks confirmed strong w",
+      "headline": "ETH ETF Inflows Hit $275M in Strongest Week Since January | YES | HIGH confidence**",
+      "raw": "ETH ETF Inflows Hit $275M in Strongest Week Since January | YES | HIGH confidence**  \nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014with Fidelity\u2019s FETH and BlackRock\u2019s ETHA leading, coinciding with ETH price climbing 7% to nearly $2,400 amid a broader crypto market cap rise to $2.6 trillion.[1]  \nThis institutional demand surge, reported via CoinDesk an",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776900113480_2",
-      "timestamp": "2026-04-22T23:21:53.480395+00:00",
+      "id": "sig_1776900178299_0",
+      "timestamp": "2026-04-22T23:22:58.299335+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq 24/7 Trading by June 30",
-      "raw": "Nasdaq 24/7 Trading by June 30? Trending as Potential Misprice | NO | LOW confidence**  \nAmong 168 Trending Markets, \"Nasdaq round-the-clock trading by June 30?\" draws attention with $3M+ volume, where real-time odds reflect trader bets on finance/tech shifts\u2014potentially mispriced per crowd sentiment outperforming polls[1]. Limited resolution news; odds update dynamically without confirmed announc",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900108688_0",
-      "timestamp": "2026-04-22T23:21:48.688820+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Raptors Clinch Playoff Spot vs",
-      "raw": "Raptors Clinch Playoff Spot vs. Mavericks; Cooper Flagg Questionable with Injury** | YES | MED confidence\n\nThe Toronto Raptors have clinched a playoff spot, advancing as the Eastern Conference's fifth seed to face the Cavaliers in the first round, per recent highlights and previews[1][2][3]. This resolution locks in their matchup against James Harden and Donovan Mitchell's Cavaliers, potentially s",
+      "headline": "OKC Thunder Defeat Grizzlies 117-115 in Game 1 of Western Conference First Round | NO | HIGH confidence**",
+      "raw": "OKC Thunder Defeat Grizzlies 117-115 in Game 1 of Western Conference First Round | NO | HIGH confidence**  \nThe Oklahoma City Thunder, the No. 1 seed, secured a narrow 117-115 victory over the No. 8 Memphis Grizzlies in Game 1 on April 22 at 9:30 PM ET, taking a 1-0 series lead as confirmed by the latest playoff bracket updates.[4]  \nThis win aligns with OKC's locked No. 1 Western Conference seed ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776900113474_0",
-      "timestamp": "2026-04-22T23:21:53.474356+00:00",
+      "id": "sig_1776900182375_0",
+      "timestamp": "2026-04-22T23:23:02.375584+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Leads Polymarket Chatter | YES | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Leads Polymarket Chatter | YES | HIGH confidence**  \nPolymarket's most active markets center on **Elon Musk's tweet volume**, with the \"Elon Musk # tweets in April 2026?\" market assigning a 21% probability to the 1120-1159 range amid $20.7M+ total volume across 20+ live Tweet Markets as of April 21-22, 2026[1][2][3][4]. Traders on platforms like Binance highlight a",
-      "direction": "YES",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range priced at 20-21% implied probability across Tweet and Pop Culture categories, backed by over $20.7M in volume[2][3][4]. Traders are betting on specific ranges like 1120-1159 (21%) amid 20-168 activ",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -63,25 +49,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776900113477_1",
-      "timestamp": "2026-04-22T23:21:53.477046+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kanye West Tweet Return by April 30 Sparks Pop Culture Bets | YES | MED confidence**",
-      "raw": "Kanye West Tweet Return by April 30 Sparks Pop Culture Bets | YES | MED confidence**  \nA \"Will Kanye tweet again by April 30?\" market trades at 78% YES odds with $393K volume among 129+ Tweet prediction markets, fueling discussions on mispriced pop culture outcomes as sentiment shifts in real-time[4]. No direct X posts confirmed in results, but high activity suggests trader focus on celebrity twee",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
+    "enter": 0,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
