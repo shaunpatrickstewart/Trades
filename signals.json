@@ -1,73 +1,17 @@
 {
-  "last_scan": "2026-04-22T09:30:33.897059+00:00",
-  "scan_seconds": 22.9,
+  "last_scan": "2026-04-22T09:31:41.331640+00:00",
+  "scan_seconds": 20.4,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776850232891_1",
-      "timestamp": "2026-04-22T09:30:32.891759+00:00",
+      "id": "sig_1776850286252_1",
+      "timestamp": "2026-04-22T09:31:26.252505+00:00",
       "source": "PERPLEXITY",
-      "headline": "GTA VI Release and MegaETH Airdrop Odds Draw News Story Volume | NO | LOW confidence**",
-      "raw": "GTA VI Release and MegaETH Airdrop Odds Draw News Story Volume | NO | LOW confidence**  \nNews Stories markets (102 live, $56.4M+ volume) highlight \"GTA VI released before June 2026?\" at 1% YES ($14M volume) and \"MegaETH airdrop by June 30, 2026?\" at 60% YES, potentially mispriced per trader sentiment, though no X chatter, whale activity, or resolutions confirmed[4]. No breaking announcements, reso",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776850218417_0",
-      "timestamp": "2026-04-22T09:30:18.417615+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**",
-      "raw": "SEC Lawsuit Against Ripple Labs Officially Resolved | YES | HIGH confidence**\n\nThe long-running SEC legal battle against Ripple has been officially dropped, removing a significant regulatory overhang that had suppressed XRP's price for years[1]. This resolution represents a fundamental shift in market sentiment and has cleared the path for institutional adoption[1].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776850218420_1",
-      "timestamp": "2026-04-22T09:30:18.420642+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**",
-      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout Completed | YES | HIGH confidence**\n\nRipple has officially completed the full-scale rollout of its RLUSD stablecoin across both the XRP Ledger and Ethereum as of April 19, 2026[2]. This launch is driving record-breaking transaction volumes on the XRPL and attracting massive capital inflows to the ecosystem[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776850218423_2",
-      "timestamp": "2026-04-22T09:30:18.423550+00:00",
-      "source": "PERPLEXITY",
-      "headline": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**",
-      "raw": "XRP ETF Approvals Entering Final Stage | YES | HIGH confidence**\n\nXRP ETF approvals are now in their final stage of the approval process[2], with institutional adoption reaching all-time highs following regulatory clarity[2].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776850218427_3",
-      "timestamp": "2026-04-22T09:30:18.427052+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Price Movement Context**",
-      "raw": "Price Movement Context**\n\nXRP surged nearly 10% over the past week, breaking above the $1.50 resistance level before settling around $1.42[1]. The price started April near $1.20 and has gained steady traction throughout the month[1]. Institutional enthusiasm is evident, with the broader cryptocurrency market experiencing renewed capital flows, including nearly $1 billion in fresh Bitcoin ETF inflo",
+      "headline": "XRP spot ETFs recorded $41",
+      "raw": "XRP spot ETFs recorded $41.64 million in net inflows for the week ending April 16**\u2014the largest single-week inflow in three months and a 254% jump from the prior week's $11.75 million.[1] This acceleration in institutional demand represents a significant development, as the inflow pattern is arriving before a price breakout rather than following one, suggesting strong conviction among ETF particip",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.78,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
@@ -78,55 +22,40 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776850227586_0",
-      "timestamp": "2026-04-22T09:30:27.586757+00:00",
+      "id": "sig_1776850286244_0",
+      "timestamp": "2026-04-22T09:31:26.244779+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's 51-Point Historic Performance Challenges Kon Knueppel in NBA Rookie of the Year Race | YES | MED confiden",
-      "raw": "Cooper Flagg's 51-Point Historic Performance Challenges Kon Knueppel in NBA Rookie of the Year Race | YES | MED confidence**  \nFlagg, the No. 1 pick of the 2025 Draft playing for the Dallas Mavericks, became the youngest player and only teenager in NBA history to score 50+ points (51 points on 19/30 shooting) in a loss to the Orlando Magic on Friday, joining rare rookie company with Brandon Jennin",
+      "headline": "XRP ETF Inflows Surge 254% Week-Over-Week, Signaling Potential Breakout** | YES | HIGH confidence",
+      "raw": "XRP ETF Inflows Surge 254% Week-Over-Week, Signaling Potential Breakout** | YES | HIGH confidence",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850295082_0",
+      "timestamp": "2026-04-22T09:31:35.082544+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg's Historic 45-Point Performance vs",
+      "raw": "Cooper Flagg's Historic 45-Point Performance vs. Lakers Solidifies ROY Lead | YES | HIGH confidence**\n\nCooper Flagg, Dallas Mavericks rookie, scored 45 points (plus 9 assists, 8 rebounds) in a 134-128 win over the injury-depleted Los Angeles Lakers on April 5, 2026, following his 51-point game vs. Orlando\u2014marking the first back-to-back 40+ point rookie games since Allen Iverson (1996-97) and most ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776850227589_1",
-      "timestamp": "2026-04-22T09:30:27.589981+00:00",
+      "id": "sig_1776850300325_0",
+      "timestamp": "2026-04-22T09:31:40.325598+00:00",
       "source": "PERPLEXITY",
-      "headline": "Flagg's Rookie Season Ends with Mavericks Win, Shifting Draft Lottery Odds | YES | HIGH confidence**",
-      "raw": "Flagg's Rookie Season Ends with Mavericks Win, Shifting Draft Lottery Odds | YES | HIGH confidence**  \nDallas won their final game, tying them for 7th/8th-worst record with the Pelicans and dropping lottery odds for the No. 1 pick from ~9% to a coin flip between 6.7-6.8%, impacting offseason rebuild predictions as Flagg emerges as the franchise face[2]. His night was cut short by an ankle sprain, ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776850227593_2",
-      "timestamp": "2026-04-22T09:30:27.593010+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Flagg Injury Raises Concerns in Tight ROY Race with ~20 Games Left | NO | LOW confidence**",
-      "raw": "Flagg Injury Raises Concerns in Tight ROY Race with ~20 Games Left | NO | LOW confidence**  \nNo new confirmation of injury severity or ROY ladder shift; Knueppel leads NBA.com's ladder due to consistency and Hornets' surprise contention, with Flagg's expected return Thursday vs. Magic or Friday vs. Celtics (potential homecoming)[3]. This speculation alone unlikely to move markets without updates[1",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776850232888_0",
-      "timestamp": "2026-04-22T09:30:32.888684+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | LOW confidence**  \nPolymarket traders are actively pricing **Elon Musk tweet volume markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" with \"180-199\" at 29% and broader April 2026 markets showing \"1080-1119\" at 18% or \"1120-1159\" at 28%, reflecting real-time shifts as new tweets emerge[1][2][3]. These dominate Twee",
+      "headline": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Heating Up on Polymarket | NO | MED confidence**  \nPolymarket traders are actively discussing **Elon Musk tweet volume markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 180-199\u00a2 at 29%) and the most active \"Elon Musk # tweets in April 2026?\" with 1120-1159 at 28% and 1080-1119 at 18%[1][2][3]. These reflect real-time sentiment shifts from",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -135,11 +64,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776850232894_2",
-      "timestamp": "2026-04-22T09:30:32.894955+00:00",
+      "id": "sig_1776850300328_1",
+      "timestamp": "2026-04-22T09:31:40.328618+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Whale Bets or Confirmed Movers Visible in Real-Time Feeds | NO | MED confidence**",
-      "raw": "No Whale Bets or Confirmed Movers Visible in Real-Time Feeds | NO | MED confidence**  \nXTracker offers social analytics for Polymarket posts, but lacks specifics on whales, tips, or mispriced bets as of now; tweet markets lead activity without noted X hype or events[5][1][2][3]. Data reflects states up to April 19, limiting \"right now\" breaking insights[2][3][4].",
+      "headline": "GTA VI Release Before June 2026 Odds Plunge to 1% | NO | LOW confidence**",
+      "raw": "GTA VI Release Before June 2026 Odds Plunge to 1% | NO | LOW confidence**  \nNews stories markets like **GTA VI released before June 2026?** trade at 1% YES with $14M volume, signaling traders pricing in major delays amid pop culture buzz[4]. Related crypto airdrop markets (e.g., MegaETH by June 30 at 60%) show cross-category interest, but no confirmed announcements or resolutions noted to drive mo",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -150,8 +79,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 10,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
