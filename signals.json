@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-22T22:48:43.739902+00:00",
-  "scan_seconds": 13.8,
+  "last_scan": "2026-04-22T22:49:44.094189+00:00",
+  "scan_seconds": 13.5,
   "markets_scanned": 46,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776898122736_1",
-      "timestamp": "2026-04-22T22:48:42.736617+00:00",
+      "id": "sig_1776898183089_1",
+      "timestamp": "2026-04-22T22:49:43.089240+00:00",
       "source": "PERPLEXITY",
-      "headline": "Limitations**: Search results provide Polymarket odds as of April 9-22, 2026, without live X posts or whale alerts; real",
-      "raw": "Limitations**: Search results provide Polymarket odds as of April 9-22, 2026, without live X posts or whale alerts; real-time trader sentiment on X cannot be confirmed here[1][2][3][4][5].",
-      "direction": null,
+      "headline": "Monero $1000 Price Target & Sports Betting Ban Odds Drawing Attention in Trending Markets | YES | MED confidence**",
+      "raw": "Monero $1000 Price Target & Sports Betting Ban Odds Drawing Attention in Trending Markets | YES | MED confidence**  \nTrending Markets (168 active) highlight \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" at 11% yes odds, with over $3M volume signaling niche crypto and regulatory bets amid broader topics like Nasdaq 24/7 trading[1]. No specific X posts",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,25 +18,42 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776898113332_0",
-      "timestamp": "2026-04-22T22:48:33.332895+00:00",
+      "id": "sig_1776898183091_2",
+      "timestamp": "2026-04-22T22:49:43.091168+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in immediate market-moving events today, as latest sourced updates predate April 22 and show ongoing tr",
-      "raw": "LOW confidence** in immediate market-moving events today, as latest sourced updates predate April 22 and show ongoing trends without fresh confirmations.[1][2][3][4][5]",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted to Move Markets | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted to Move Markets | NO | HIGH confidence**  \nSearch results show no breaking confirmations (e.g., tweet counts resolved, laws passed, or prices hit) as of April 22, 2026\u2014markets remain open and dynamic without resolution triggers[1][2][3]. Kanye \"tweet by April 30?\" at 78% yes ($393 vol) is active but lower volume[2].",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776898122734_0",
-      "timestamp": "2026-04-22T22:48:42.734714+00:00",
+      "id": "sig_1776898177188_0",
+      "timestamp": "2026-04-22T22:49:37.188186+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market highlighting the 1120-1159 range at **21% implied probability** (down from prior 20-38% in recent snapshots), backed by over **$20.7M-$20.8M trading volume** acros",
-      "direction": "NO",
+      "headline": "Lakers Win Game 1 of NBA Playoffs Over Rockets | YES | HIGH confidence**",
+      "raw": "Lakers Win Game 1 of NBA Playoffs Over Rockets | YES | HIGH confidence**  \nThe Los Angeles Lakers have defeated the Houston Rockets in Game 1 of the 2025-26 NBA Playoffs, with analysis highlighting LeBron James's strong performance despite absences of Luka Doncic and Austin Reaves, positioning the Lakers favorably early in the series.[2]  \nLakers hold a 49-26 regular season record (1st in Pacific ",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776898183087_0",
+      "timestamp": "2026-04-22T22:49:43.087415+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets in April 2026?\" leading activity\u2014crowd odds at 20-21% for the 1120-1159 range and related markets like \"Elon Musk # tweets April 17 - April 24, 2026?\" showing high trading volume over $20M[2][3]. These",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -44,27 +61,12 @@
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776898116875_0",
-      "timestamp": "2026-04-22T22:48:36.875663+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2]",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[1][2]\n\nThe Cleveland Cavaliers won Game 2 of their NBA playoff series against the Toronto Raptors on April 21, 2026, in Cleveland, with Donovan Mitchell scoring 30 points and James Harden adding 28 points (9-14 FG)[1][2]. Scottie Barnes led the Raptors with 26 points in the loss[1]. This result confirms the ",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 2
   }
 }
