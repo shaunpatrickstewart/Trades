@@ -1,5 +1,5 @@
 {
-  "ts": 1776828305,
+  "ts": 1776828370,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999867
+    "usdc_usd": 0.999831
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -44,10 +44,10 @@
         "slug": "lowest-temperature-in-tokyo-on-april-22-2026-14c",
         "title": "Will the lowest temperature in Tokyo be 14\u00b0C on April 22?",
         "size": 29.21,
-        "cur_price": 0.9965,
-        "nav_usdc": 29.1078,
+        "cur_price": 0.9975,
+        "nav_usdc": 29.137,
         "cost_basis": 28.9179,
-        "unrealized_pnl": 0.1899
+        "unrealized_pnl": 0.2191
       },
       {
         "slug": "highest-temperature-in-shenzhen-on-april-22-2026-32corhigher",
@@ -107,10 +107,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0565,
-        "nav_usdc": 0.461,
+        "cur_price": 0.056,
+        "nav_usdc": 0.457,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8364
+        "unrealized_pnl": -0.8404
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -296,23 +296,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.231,
-        "nav_usdc": 1.135,
+        "cur_price": 0.232,
+        "nav_usdc": 1.1399,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.6535
+        "unrealized_pnl": 0.6584
       }
     ],
     "position_count": 32,
-    "positions_nav_usdc": 286.822,
-    "total_usdc": 402.8448,
-    "total_usd": 402.7913
+    "positions_nav_usdc": 286.8521,
+    "total_usdc": 402.8749,
+    "total_usd": 402.8068
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776828306,
+    "ts": 1776828371,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 52,
     "today": {
@@ -350,7 +350,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776741906,
+      "window_start_ts": 1776741971,
       "realized_usdc": 0.4633,
       "trade_count": 16,
       "buy_volume_usdc": 178.3177,
@@ -453,7 +453,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776223506,
+      "window_start_ts": 1776223571,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -666,7 +666,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774236306,
+      "window_start_ts": 1774236371,
       "realized_usdc": 1.5555,
       "trade_count": 52,
       "buy_volume_usdc": 465.6334,
@@ -1092,7 +1092,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.7913,
-    "total_usdc": 402.8448
+    "total_usd": 402.8068,
+    "total_usdc": 402.8749
   }
 }
