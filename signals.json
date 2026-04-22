@@ -1,61 +1,273 @@
 {
-  "last_scan": "2026-04-22T05:47:41.869370+00:00",
-  "scan_seconds": 16.3,
+  "last_scan": "2026-04-22T05:49:01.040290+00:00",
+  "scan_seconds": 30.5,
   "markets_scanned": 82,
   "open_positions": 37,
   "signals": [
     {
-      "id": "sig_1776836848368_0",
-      "timestamp": "2026-04-22T05:47:28.368406+00:00",
+      "id": "sig_1776836932725_5",
+      "timestamp": "2026-04-22T05:48:52.725339+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]\n\nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst for XRP's April 2026 price surge, with the token gaining nearly 10% in the past week to around $1.42 after breaking $1.50 resistance[1]. This resolution removes a major regulatory overhang that suppressed XRP for years, signali",
+      "headline": "Regarding series outcome prediction:** This remains speculative at 2-0",
+      "raw": "Regarding series outcome prediction:** This remains speculative at 2-0. While the Cavaliers have a commanding lead, the series is not yet resolved\u2014the Raptors would need to win four consecutive games to advance, which is possible but increasingly unlikely as the series progresses.\n\nFor market-moving confirmed announcements about who will win the series, you would need outcomes from Games 3 or 4, w",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776836932713_1",
+      "timestamp": "2026-04-22T05:48:52.713425+00:00",
+      "source": "PERPLEXITY",
+      "headline": "What is confirmed:**",
+      "raw": "What is confirmed:**",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776836914245_1",
+      "timestamp": "2026-04-22T05:48:34.245364+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Speculation on ETF progress (e",
+      "raw": "Speculation on ETF progress (e.g., WisdomTree/Grayscale filings advancing), conference on April 7, and inflows ($120M ETPs), but no fresh resolutions today.[6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776836856791_0",
-      "timestamp": "2026-04-22T05:47:36.791887+00:00",
+      "id": "sig_1776836914248_2",
+      "timestamp": "2026-04-22T05:48:34.248385+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers** | NO | HIGH confidence[1][2][3][4]",
-      "raw": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers** | NO | HIGH confidence[1][2][3][4][5]\n\nDallas Mavericks defeated the short-handed Los Angeles Lakers 134-128 on Sunday, with rookie **Cooper Flagg** posting 45 points, 9 assists, and 8 rebounds\u2014his second straight 40+ point game after 51 vs. Orlando, making him the first teenager in NBA history with back-to-back ",
-      "direction": "YES",
+      "headline": "Video discussions on potential April breakouts or Ripple-SWIFT ties targeting end-May, dated early April",
+      "raw": "Video discussions on potential April breakouts or Ripple-SWIFT ties targeting end-May, dated early April.[3][5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776836914251_3",
+      "timestamp": "2026-04-22T05:48:34.251419+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO | LOW confidence**\u2014search results lack real-time confirmations; content focuses on trends, not events moving markets",
+      "raw": "NO | LOW confidence**\u2014search results lack real-time confirmations; content focuses on trends, not events moving markets imminently.[1][2][3][5][6]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776836918404_0",
+      "timestamp": "2026-04-22T05:48:38.404102+00:00",
+      "source": "PERPLEXITY",
+      "headline": "NO | LOW confidence** \u2013 No confirmed announcements, resolutions, or events today that would move prediction markets; lat",
+      "raw": "NO | LOW confidence** \u2013 No confirmed announcements, resolutions, or events today that would move prediction markets; latest data is over 4 months old.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776836932710_0",
+      "timestamp": "2026-04-22T05:48:52.710503+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about the **conference semifinals**. The Cavaliers are currently in the **first-round series against the Toronto Raptors**, not the conference semifinals[2][3].\n\nBased on the available information:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776836860866_0",
-      "timestamp": "2026-04-22T05:47:40.866387+00:00",
+      "id": "sig_1776836932716_2",
+      "timestamp": "2026-04-22T05:48:52.716340+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 29% for 180-199 range) and \"Elon Musk # tweets in April 2026?\" (18% for 1080-1119 range), with over $17.1M in volume across 130+ related markets[2][3][4]. These reflect re",
-      "direction": "NO",
+      "headline": "The Cavaliers lead their first-round series against the Raptors 2-0[2][3]",
+      "raw": "The Cavaliers lead their first-round series against the Raptors 2-0[2][3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776836932719_3",
+      "timestamp": "2026-04-22T05:48:52.719275+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Game 3 is scheduled for Thursday, April 23 at 8:00 PM ET[3]",
+      "raw": "Game 3 is scheduled for Thursday, April 23 at 8:00 PM ET[3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776836932722_4",
+      "timestamp": "2026-04-22T05:48:52.722270+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The Cavaliers defeated the Raptors 115-105 in Game 2 on April 21, 2026, with Donovan Mitchell scoring 30 points and Jame",
+      "raw": "The Cavaliers defeated the Raptors 115-105 in Game 2 on April 21, 2026, with Donovan Mitchell scoring 30 points and James Harden adding 28 points[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776836940015_0",
+      "timestamp": "2026-04-22T05:49:00.015338+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting",
+      "raw": "I cannot provide the real-time information you're requesting. While the search results show that Polymarket hosts prediction markets and has social media tracking tools like XTracker[4], the results don't contain:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940018_1",
+      "timestamp": "2026-04-22T05:49:00.018408+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current posts from Polymarket traders on X (Twitter)",
+      "raw": "Current posts from Polymarket traders on X (Twitter)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940021_2",
+      "timestamp": "2026-04-22T05:49:00.021913+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale bets or smart money moves happening right now",
+      "raw": "Active whale bets or smart money moves happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940024_3",
+      "timestamp": "2026-04-22T05:49:00.024984+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market mispricing discussions",
+      "raw": "Real-time market mispricing discussions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940028_4",
+      "timestamp": "2026-04-22T05:49:00.028271+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent announcements or resolved events that would move markets",
+      "raw": "Recent announcements or resolved events that would move markets\n\nThe search results only reference historical market data (such as April 14-21 and April 17-24 ranges for Elon Musk tweet predictions[3]) and general information about how Polymarket works, rather than live market activity or trader sentiment from this moment.\n\nTo find this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940031_5",
+      "timestamp": "2026-04-22T05:49:00.031277+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Visit Polymarket directly and check active markets and their price movements",
+      "raw": "Visit Polymarket directly and check active markets and their price movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940034_6",
+      "timestamp": "2026-04-22T05:49:00.034260+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Search X/Twitter for #polymarket or trader discussions happening now",
+      "raw": "Search X/Twitter for #polymarket or trader discussions happening now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836940037_7",
+      "timestamp": "2026-04-22T05:49:00.037323+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Check Polymarket's analytics tools or community forums for real-time discussions",
+      "raw": "Check Polymarket's analytics tools or community forums for real-time discussions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776836914242_0",
+      "timestamp": "2026-04-22T05:48:34.242299+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP price consolidation around **$1",
+      "raw": "XRP price consolidation around **$1.30-$1.36** with resistance at **$1.60**, eyeing historical April volatility (e.g., +180% in 2021, mixed results since).[1][2][4]",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 17,
+    "watch": 1,
+    "high_conf": 2
   }
 }
