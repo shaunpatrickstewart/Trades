@@ -1,115 +1,62 @@
 {
-  "last_scan": "2026-04-22T15:23:22.611980+00:00",
-  "scan_seconds": 21.9,
-  "markets_scanned": 52,
-  "open_positions": 17,
+  "last_scan": "2026-04-22T15:24:25.028011+00:00",
+  "scan_seconds": 18.5,
+  "markets_scanned": 51,
+  "open_positions": 16,
   "signals": [
     {
-      "id": "sig_1776871386143_0",
-      "timestamp": "2026-04-22T15:23:06.143118+00:00",
+      "id": "sig_1776871455021_0",
+      "timestamp": "2026-04-22T15:24:15.021090+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETFs Record Best Weekly Inflows Since January ($275M+), Driving Price to $2,403 Amid Institutional Return | YES | HI",
-      "raw": "ETH ETFs Record Best Weekly Inflows Since January ($275M+), Driving Price to $2,403 Amid Institutional Return | YES | HIGH**  \nEthereum's price reached $2,403.78 at 9:15 a.m. ET today (April 22, 2026), up $98.74 from yesterday and 7% recently, as ETH ETFs saw their strongest weekly inflows since January\u2014over $275 million\u2014led by Fidelity and BlackRock, signaling renewed institutional demand.[1][2] ",
+      "headline": "US-Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]",
+      "raw": "US-Iran ceasefire extended (April 22, 2026)** | YES | HIGH confidence[3]\n\nGoldman Sachs' U.S. Inflation Monitor (released April 20) confirms March 2026 headline CPI at 3.29% YoY (up 0.87% MoM) and PCE at 3.45% YoY, driven by 45% oil spike to $103/barrel from Iran war, though core inflation decelerates with forecasts for 2.2% PCE by late 2026 enabling potential Fed cuts[1][2]. Today's Wall Street i",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will annual inflation increase by 3.8% in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776871459726_0",
+      "timestamp": "2026-04-22T15:24:19.726798+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Take 2-0 Lead Over Raptors in Eastern Conference First Round | NO | HIGH confidence**",
+      "raw": "Cavaliers Take 2-0 Lead Over Raptors in Eastern Conference First Round | NO | HIGH confidence**  \nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday, securing a 2-0 series lead ahead of Game 3 in Toronto on Thursday at 8 p.m. EDT.[1][2][3]  \nLakers hold a 2-0 lead over the Rockets in the West after the first weekend, with strong play from LeBron James (13 assists in G",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776871450284_0",
+      "timestamp": "2026-04-22T15:24:10.284399+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Price Hits $2,403",
+      "raw": "Ethereum Price Hits $2,403.78 on April 22, Up $98.74 (4.3%) from Yesterday | NO | HIGH confidence**[1][2]\n\nNo confirmed announcements, resolutions, or events today directly tied to Ethereum that would shift prediction markets; the price rise reflects short-term investor speculation and sentiment amid ongoing volatility, not specific news.[1][2]  \nEthereum traded at $2,317.80 on April 20 (down slig",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776871397072_0",
-      "timestamp": "2026-04-22T15:23:17.072312+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting",
-      "raw": "I cannot provide the breaking news you're requesting. The search results provided contain only historical information about the Toronto Raptors' 2019 NBA championship run, including Kawhi Leonard's famous Game 7 buzzer-beater and their Finals victory over the Golden State Warriors.\n\nThese results do not contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776871397074_1",
-      "timestamp": "2026-04-22T15:23:17.074234+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current 2026 playoff information",
-      "raw": "Current 2026 playoff information",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776871397076_2",
-      "timestamp": "2026-04-22T15:23:17.076121+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any details about ongoing series or predictions",
-      "raw": "Any details about ongoing series or predictions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776871397078_3",
-      "timestamp": "2026-04-22T15:23:17.078029+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about Cooper Flagg or current player performances",
-      "raw": "Information about Cooper Flagg or current player performances",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776871397080_4",
-      "timestamp": "2026-04-22T15:23:17.080070+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving announcements from today",
-      "raw": "Market-moving announcements from today\n\nTo get accurate breaking news about current NBA playoffs and market-relevant developments, you would need real-time sports news sources, official NBA announcements, or live sports coverage platforms. The search results available do not support answering your query about current events or predictions.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776871401606_0",
-      "timestamp": "2026-04-22T15:23:21.606891+00:00",
+      "id": "sig_1776871464024_0",
+      "timestamp": "2026-04-22T15:24:24.024812+00:00",
       "source": "PERPLEXITY",
       "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18% for 1120-1159 range), with over $21M-$22M in trading volume across 20-131 related markets[2][3][4]. ",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at outcomes like 220-239 at 32%) and \"Elon Musk # tweets in April 2026?\" (1120-1159 at 18%), with over $21M-$22M in trading volume across 20-131 related markets[2][3][4]. Th",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776871401608_1",
-      "timestamp": "2026-04-22T15:23:21.608946+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Kanye West tweet market** (\"Will Kanye tweet again by April 30",
-      "raw": "Kanye West tweet market** (\"Will Kanye tweet again by April 30?\") at 60% yes adds to pop culture buzz, but lacks trader sentiment or tips from X[3].  \nData limited to Polymarket pages; real-time X discussions unavailable, reducing confidence on trader posts or moves[1][2][3][4].",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -118,9 +65,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
+    "enter": 0,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
