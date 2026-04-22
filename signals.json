@@ -1,113 +1,61 @@
 {
-  "last_scan": "2026-04-22T22:36:37.215544+00:00",
-  "scan_seconds": 16.3,
+  "last_scan": "2026-04-22T22:37:45.126911+00:00",
+  "scan_seconds": 14.2,
   "markets_scanned": 45,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776897385045_0",
-      "timestamp": "2026-04-22T22:36:25.045553+00:00",
+      "id": "sig_1776897459455_0",
+      "timestamp": "2026-04-22T22:37:39.455271+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETF Inflows Hit $275M Weekly High, Strongest Since January, Driving Price Recovery Near $2,288-$2,400** | YES | HIGH",
-      "raw": "ETH ETF Inflows Hit $275M Weekly High, Strongest Since January, Driving Price Recovery Near $2,288-$2,400** | YES | HIGH confidence[2]\n\nEthereum ETFs recorded over $275 million in weekly inflows, the largest since January 2026, led by Fidelity\u2019s FETH and BlackRock\u2019s ETHA, coinciding with a 7% ETH price climb to nearly $2,400 amid a broader market rally[2]. This institutional demand surge, reported",
+      "headline": "Lakers Lead Rockets 2-0 in First Round After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**",
+      "raw": "Lakers Lead Rockets 2-0 in First Round After Game 2 Win | YES (Lakers favored to win series) | HIGH confidence**  \nThe Los Angeles Lakers have won Game 1 (107-98) and Game 2 (101-94) against the No. 5 Houston Rockets in the Western Conference first round, taking a 2-0 series lead with home-court advantage as the No. 4 seed.[1][3]  \nGame 3 is scheduled for Friday, April 24 in Houston, with Luka Don",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776897389794_0",
-      "timestamp": "2026-04-22T22:36:29.794173+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Clinch Playoff Spot with 127-113 Win Over Cavaliers on March 31** | **NO** | **HIGH** confidence[1][3][6]",
-      "raw": "Lakers Clinch Playoff Spot with 127-113 Win Over Cavaliers on March 31** | **NO** | **HIGH** confidence[1][3][6]\n\nThe Los Angeles Lakers defeated the Cleveland Cavaliers 127-113 in a regular-season game on March 31, 2026, locking in a top-six seed in the Western Conference playoffs and reaching 50 wins (50-26 record), while the Cavaliers fell to 47-29[1][2][3][5]. Luka Don\u010di\u0107 led with 42 points, 1",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776897396204_4",
-      "timestamp": "2026-04-22T22:36:36.204810+00:00",
+      "id": "sig_1776897455175_0",
+      "timestamp": "2026-04-22T22:37:35.175178+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news that has just been announced or resolved",
-      "raw": "Breaking news that has just been announced or resolved",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776897396197_0",
-      "timestamp": "2026-04-22T22:36:36.197922+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time information about what traders are currently posting on X (Twitter), specific whale bets, or",
-      "raw": "I cannot provide real-time information about what traders are currently posting on X (Twitter), specific whale bets, or live market sentiment on Polymarket based on the search results provided.\n\nThe search results only contain general information about Polymarket's structure and the types of markets available as of April 19-22, 2026, such as markets on X-related topics, trending predictions, and t",
-      "direction": null,
+      "headline": "Confidence: HIGH** (search results lack any April 22 events; price data directly refutes \"up\" narrative)",
+      "raw": "Confidence: HIGH** (search results lack any April 22 events; price data directly refutes \"up\" narrative).[1][3]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776897396199_1",
-      "timestamp": "2026-04-22T22:36:36.199576+00:00",
+      "id": "sig_1776897464121_0",
+      "timestamp": "2026-04-22T22:37:44.121999+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current trader discussions or posts on X",
-      "raw": "Current trader discussions or posts on X",
-      "direction": null,
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or confirmed announcements reported | LOW co",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or confirmed announcements reported | LOW confidence**  \nPolymarket's most active markets right now focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" and \"Elon Musk # tweets April 17 - April 24, 2026?\", with high trading volumes over $20M and the 1120-1159 range priced at 20-21% p",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776897396201_2",
-      "timestamp": "2026-04-22T22:36:36.201242+00:00",
+      "id": "sig_1776897464123_1",
+      "timestamp": "2026-04-22T22:37:44.123916+00:00",
       "source": "PERPLEXITY",
-      "headline": "Specific whale bets or large money movements",
-      "raw": "Specific whale bets or large money movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776897396202_3",
-      "timestamp": "2026-04-22T22:36:36.202893+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time analysis of mispriced markets",
-      "raw": "Real-time analysis of mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776897396206_5",
-      "timestamp": "2026-04-22T22:36:36.206476+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current market momentum or predictions about to move",
-      "raw": "Current market momentum or predictions about to move\n\nTo get this information, you would need to:",
-      "direction": null,
+      "headline": "Trending tweet markets** lead activity across 130+ live predictions, including niche ones like \"Will Kanye tweet again b",
+      "raw": "Trending tweet markets** lead activity across 130+ live predictions, including niche ones like \"Will Kanye tweet again by April 30?\", reflecting real-time trader sentiment on pop culture events with continuous odds updates.[3]  \nOther **trending markets** include 168 active ones like \"Nasdaq round-the-clock trading by June 30?\", backed by $3M+ volume, but no specific X posts on whale bets, smart m",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -116,9 +64,9 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 6,
+    "enter": 1,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 1
   }
 }
