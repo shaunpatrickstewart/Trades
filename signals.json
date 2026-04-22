@@ -1,50 +1,33 @@
 {
-  "last_scan": "2026-04-22T10:47:36.682077+00:00",
-  "scan_seconds": 17.1,
+  "last_scan": "2026-04-22T10:48:37.383346+00:00",
+  "scan_seconds": 16.8,
   "markets_scanned": 81,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776854842341_0",
-      "timestamp": "2026-04-22T10:47:22.341555+00:00",
+      "id": "sig_1776854912011_0",
+      "timestamp": "2026-04-22T10:48:32.011593+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Triggering XRP's 10% April 2026 Surge Above $1",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs, Triggering XRP's 10% April 2026 Surge Above $1.50** | **YES** | **HIGH** confidence[1]\n\nThe SEC's decision to drop its multi-year lawsuit against Ripple has been confirmed as resolved, removing a major regulatory overhang and driving XRP from ~$1.20 to $1.42-$1.50, with analysts citing this as a fundamental shift enabling institutional adoption a",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776854850332_0",
-      "timestamp": "2026-04-22T10:47:30.332829+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 lead in Eastern Conference first-round playoffs** | YES | HIGH conf",
-      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 lead in Eastern Conference first-round playoffs** | YES | HIGH confidence[1][2][3]\n\nThe Cleveland Cavaliers, led by Donovan Mitchell's 30 points, James Harden's 28, and Evan Mobley's 25, never trailed en route to victory on Monday, extending their playoff winning streak against Toronto to 12 straight games\u2014a tie for the NBA postseason record[1][",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Secure 2-0 Lead in Eastern Conference First-Round Playoffs | YES | HIGH conf",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Secure 2-0 Lead in Eastern Conference First-Round Playoffs | YES | HIGH confidence**  \nThe Cleveland Cavaliers won Game 2 on Monday night, led by Donovan Mitchell's 30 points, James Harden's 28 points and 4 assists (moving him to 7th on playoff assists list), and Evan Mobley's 25 points, never trailing en route to a 115-105 victory over Toronto.[1][2]  \n",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776854855656_0",
-      "timestamp": "2026-04-22T10:47:35.656602+00:00",
+      "id": "sig_1776854916365_0",
+      "timestamp": "2026-04-22T10:48:36.365917+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific breaking news, whale bets, or real-time social media discussions you're requesting based o",
-      "raw": "I cannot provide the specific breaking news, whale bets, or real-time social media discussions you're requesting based on these search results. The search results describe Polymarket's general functionality and show some historical market data from April 9-21, 2026, but they don't contain information about current X (Twitter) posts, live trader commentary, or recent market-moving announcements hap",
-      "direction": null,
+      "headline": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweets Market Dominates Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with the 1120-1159 range trading at 28-29% probability and volumes up to $9M[1][2][3]. No direct X posts from traders, whale bets, or mispricing t",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -52,12 +35,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776854855661_1",
-      "timestamp": "2026-04-22T10:47:35.661949+00:00",
+      "id": "sig_1776854916373_1",
+      "timestamp": "2026-04-22T10:48:36.373184+00:00",
       "source": "PERPLEXITY",
-      "headline": "Visit **Polymarket directly** to see live odds and trading activity on active markets[3]",
-      "raw": "Visit **Polymarket directly** to see live odds and trading activity on active markets[3]",
-      "direction": null,
+      "headline": "GTA VI Release Odds Plunge to 1% | NO | MED confidence**",
+      "raw": "GTA VI Release Odds Plunge to 1% | NO | MED confidence**",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -65,25 +48,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776854855667_2",
-      "timestamp": "2026-04-22T10:47:35.667545+00:00",
+      "id": "sig_1776854916376_2",
+      "timestamp": "2026-04-22T10:48:36.376211+00:00",
       "source": "PERPLEXITY",
-      "headline": "Check **XTracker** (Polymarket's social media analytics tool) for trending discussions among traders[5]",
-      "raw": "Check **XTracker** (Polymarket's social media analytics tool) for trending discussions among traders[5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776854855673_3",
-      "timestamp": "2026-04-22T10:47:35.673151+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor **X/Twitter** directly for whale accounts and prediction market influencers discussing market positions",
-      "raw": "Monitor **X/Twitter** directly for whale accounts and prediction market influencers discussing market positions\n\nThe search results only show that as of April 21, 2026, the most active market was \"Elon Musk # tweets in April 2026?\" with 28% odds assigned to the 1120-1159 tweet range[3], but this doesn't reflect breaking news or current trading dynamics.",
-      "direction": null,
+      "headline": "GTA VI released before June 2026",
+      "raw": "GTA VI released before June 2026?** market sits at 1% YES with $14M volume, signaling low trader expectations amid no confirmed announcements[4]. Other news markets like MegaETH airdrop (60% by June 30) show activity, but lack whale moves or resolutions impacting odds[4].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -92,9 +62,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
+    "enter": 0,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
