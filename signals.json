@@ -1,35 +1,32 @@
 {
-  "last_scan": "2026-04-22T09:02:18.319725+00:00",
-  "scan_seconds": 27.4,
+  "last_scan": "2026-04-22T09:03:11.072288+00:00",
+  "scan_seconds": 19.6,
   "markets_scanned": 80,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776848515043_0",
-      "timestamp": "2026-04-22T09:01:55.043594+00:00",
+      "id": "sig_1776848590062_1",
+      "timestamp": "2026-04-22T09:03:10.062952+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ripple Announces Partnership with Kyobo Life Insurance | YES | HIGH confidence**",
-      "raw": "Ripple Announces Partnership with Kyobo Life Insurance | YES | HIGH confidence**  \nRipple confirmed a new partnership with South Korea's Kyobo Life Insurance on April 16, 2026, to tokenize government bond settlements, driving a 4.4% XRP price surge to over $1.40 in 24 hours and 5.8% weekly gains, outperforming Bitcoin.[6]  \nThis real-world adoption news flipped retail sentiment to bullish on Stock",
+      "headline": "Iran x Israel/US Conflict End at 100% | YES | MED confidence**",
+      "raw": "Iran x Israel/US Conflict End at 100% | YES | MED confidence**  \nGeopolitics market \"Iran x Israel/US conflict ends by...?\" hit **100% YES**, potentially resolved or confirmed recently, driving sharp price moves\u2014traders on X may flag this as mispriced or overreacted[1]. Volume not specified, but full resolution implies prediction market payout and buzz.",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $78,000 on April 22?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776848526933_0",
-      "timestamp": "2026-04-22T09:02:06.933226+00:00",
+      "id": "sig_1776848580809_0",
+      "timestamp": "2026-04-22T09:03:00.809038+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting because the search results provided are from 2025 and earlier, not",
-      "raw": "I cannot provide the breaking news you're requesting because the search results provided are from 2025 and earlier, not from today (April 22, 2026). The most recent result is from December 2025[2], which is over three months old relative to the current date.\n\nTo answer your query about what has \"just been confirmed, announced, or resolved,\" I would need current search results from April 22, 2026. ",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Powell Confirms Tariff-Driven Goods Inflation to Peak Q1-Mid 2026, Expects One-Time Effect Absent New Tariffs | NO | MED",
+      "raw": "Powell Confirms Tariff-Driven Goods Inflation to Peak Q1-Mid 2026, Expects One-Time Effect Absent New Tariffs | NO | MED confidence**\n\nFederal Reserve Chair Jerome Powell stated on December 10, 2025, that U.S. goods inflation\u2014primarily from tariffs\u2014should peak around Q1 2026, assuming no further tariff rounds, while core PCE inflation excluding tariff effects runs just above 2%[1][2]. He described",
+      "direction": "YES",
+      "confidence": 0.78,
       "matched_markets": [
+        "Will the price of Bitcoin be above $78,000 on April 22?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ALERT",
@@ -37,58 +34,41 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776848531787_0",
-      "timestamp": "2026-04-22T09:02:11.787447+00:00",
+      "id": "sig_1776848590065_2",
+      "timestamp": "2026-04-22T09:03:10.066001+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Series Lead Over Rockets in Conference Semifinals; No Confirmed Wins Involving Cavs or Flagg** | **NO**",
-      "raw": "Lakers Take 2-0 Series Lead Over Rockets in Conference Semifinals; No Confirmed Wins Involving Cavs or Flagg** | **NO** | **HIGH** confidence[5]\n\nThe Los Angeles Lakers secured a 101-94 victory over the Houston Rockets in Game 2 of their first-round playoff series (not semifinals), leading 2-0 with Marcus Smart's strong defense on Kevin Durant, as reported 9 minutes ago.[5] Cleveland Cavaliers hol",
+      "headline": "Elon Musk Tweet Volume Bets Heat Up | 28% (1120-1159 Range) | HIGH confidence**",
+      "raw": "Elon Musk Tweet Volume Bets Heat Up | 28% (1120-1159 Range) | HIGH confidence**  \nActive \"Elon Musk # tweets April 17-24, 2026\" market at **28%** for 1120-1159 tweets with $9M volume as of April 21; separate April total market at 18% for 1080-1119\u2014X traders likely debating mispricing as Musk's activity surges[2][3]. Tips trending: Trade real-time odds over polls for edge.",
       "direction": "YES",
       "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776848584593_0",
+      "timestamp": "2026-04-22T09:03:04.593764+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Playoff Series Lead** | **YES** | **HIGH** confidence[1][2][4][5]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Playoff Series Lead** | **YES** | **HIGH** confidence[1][2][4][5]\n\nThe Cleveland Cavaliers won Game 2 of their Eastern Conference first-round series against the Toronto Raptors on April 21, 2026, by a score of 115-105 at Rocket Mortgage Arena, never trailing and securing a commanding 2-0 lead[1][2][4]. Donovan Mitchell scored 30 points with 7 re",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?",
+        "Will the highest temperature in Toronto be 12\u00b0C on April 22?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776848515052_1",
-      "timestamp": "2026-04-22T09:01:55.052175+00:00",
+      "id": "sig_1776848590059_0",
+      "timestamp": "2026-04-22T09:03:10.059805+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Other Confirmed Breaking Announcements | NO | HIGH confidence**",
-      "raw": "No Other Confirmed Breaking Announcements | NO | HIGH confidence**  \nCLARITY Act faces bank pressure delaying markup past April 27; SEC roundtable on April 16 offered no resolutions; Fed meeting looms end-April without outcomes yet.[1][7]  \nXRP holds steady above $1.30 support with choppy 2-3% early-April gains, matching historical \"normal\" patterns sans 2021 spike; Bitcoin stable above $76K.[1][4",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will the price of Bitcoin be above $78,000 on April 22?",
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776848537307_0",
-      "timestamp": "2026-04-22T09:02:17.307446+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (18% chance for 1080-1119 tweets[2]) and ranges like 1120-1159 (28%[3]), with high volumes over $17M-$19M across 130+ related markets as of April 9-21, 2026[2][3]. These reflect real-time trader",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776848537310_1",
-      "timestamp": "2026-04-22T09:02:17.310528+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Release Before June 2026 at 1% Odds in News Stories | NO | LOW confidence**",
-      "raw": "GTA VI Release Before June 2026 at 1% Odds in News Stories | NO | LOW confidence**  \nNews Stories markets highlight **GTA VI released before June 2026?** at 1% yes probability with $14M volume and $65K liquidity, among 102 active markets totaling $56.4M volume as of April 19[4]. Low odds suggest traders see it as unlikely soon[4].",
+      "headline": "\ud835\udd4f Money Launch Odds Spike to 12% by April 30 | YES | HIGH confidence**",
+      "raw": "\ud835\udd4f Money Launch Odds Spike to 12% by April 30 | YES | HIGH confidence**  \nPolymarket's top X-related market shows traders betting on \"\ud835\udd4f Money launched by...?\" with **12% YES odds**, $33.6K volume, and $4.6K liquidity as of April 19, 2026\u2014indicating rising speculation on X's payment feature rollout amid real-time trader conviction[1]. No whale bets or X posts explicitly noted in results, but high li",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -97,36 +77,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776848537313_2",
-      "timestamp": "2026-04-22T09:02:17.313747+00:00",
+      "id": "sig_1776848590068_3",
+      "timestamp": "2026-04-22T09:03:10.068994+00:00",
       "source": "PERPLEXITY",
-      "headline": "MegaETH Airdrop by June 30 at 60% in Crypto News | NO recent confirmation | MED confidence**",
-      "raw": "MegaETH Airdrop by June 30 at 60% in Crypto News | NO recent confirmation | MED confidence**  \nCrypto airdrop market \"MegaETH airdrop by June 30, 2026?\" trades at 60% yes in News Stories category[4], but no breaking announcements or resolutions noted in data up to April 21[1][4].",
+      "headline": "Nikita Bier Exit from X at 7% by June 30 | NO | LOW confidence**",
+      "raw": "Nikita Bier Exit from X at 7% by June 30 | NO | LOW confidence**  \nLow-volume ($1.4K) \"Nikita Bier out as Head of Product at X by June 30?\" market at **7% YES**\u2014niche bet with $4.5K liquidity, possible X chatter on internal shifts but no confirmed announcements[1]. Minimal whale activity evident.",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776848537316_3",
-      "timestamp": "2026-04-22T09:02:17.316771+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Markets Category Active with 166 Live Options | NO whale bets or X posts detailed | LOW confidence**",
-      "raw": "Trending Markets Category Active with 166 Live Options | NO whale bets or X posts detailed | LOW confidence**  \n166 Trending Markets (e.g., \"Nasdaq round-the-clock trading by June 30?\") show $3M+ volume as of April 21, but search results lack specifics on **X posts, whale bets, smart money moves, mispriced markets, or fresh confirmations** from traders[1]. XTracker mentions social analytics withou",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 2
+    "enter": 0,
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 1
   }
 }
