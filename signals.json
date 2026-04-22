@@ -1,70 +1,57 @@
 {
-  "last_scan": "2026-04-22T20:20:35.104522+00:00",
-  "scan_seconds": 14.5,
+  "last_scan": "2026-04-22T20:21:40.699759+00:00",
+  "scan_seconds": 14.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776889234101_0",
-      "timestamp": "2026-04-22T20:20:34.101557+00:00",
+      "id": "sig_1776889299696_1",
+      "timestamp": "2026-04-22T20:21:39.696874+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Tweet Markets and Analytics Tools Amid Trending Pop Culture Bets | NO | LOW confidence*",
-      "raw": "Polymarket Traders on X Focus on Tweet Markets and Analytics Tools Amid Trending Pop Culture Bets | NO | LOW confidence**\n\nNo specific breaking news, whale bets, smart money moves, or confirmed announcements moving markets are detailed in current search results, which instead highlight active **tweet prediction markets** dominating Polymarket activity[1][2][3][4].[5] Traders are heavily engaged wi",
-      "direction": "NO",
+      "headline": "Trending discussions** highlight these as potential mispriced opportunities, with real-time odds shifting on daily/weekl",
+      "raw": "Trending discussions** highlight these as potential mispriced opportunities, with real-time odds shifting on daily/weekly bins (e.g., 240-259 range active), plus broader \"Trending Markets\" like Nasdaq trading changes (168 markets, $2.8M volume)[1][4].  \nX posts promote **Polymarket analytics tools** for spotting whale/smart money moves, revealing how top traders win by analyzing hidden data patter",
+      "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776889223934_1",
-      "timestamp": "2026-04-22T20:20:23.934476+00:00",
+      "id": "sig_1776889294342_0",
+      "timestamp": "2026-04-22T20:21:34.342907+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to lack of breaking news catalysts; price data is recent but not \"right now\" at 8 PM UTC, and no pr",
-      "raw": "LOW confidence** due to lack of breaking news catalysts; price data is recent but not \"right now\" at 8 PM UTC, and no prediction market-moving events like policy shifts are confirmed.[6]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776889223932_0",
-      "timestamp": "2026-04-22T20:20:23.932205+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Price Up Today | YES | LOW confidence**[1][5][7]",
-      "raw": "Ethereum Price Up Today | YES | LOW confidence**[1][5][7]\n\nEthereum (ETH) rose **$98.74** to **$2,403.78** as of 9:15 a.m. ET on April 22, 2026 (1:15 p.m. UTC), confirming a **4.3% daily gain** from April 21's $2,305.04 close and reversing two days of declines ($2,317.80 on April 20).[1][2][3]  \nNo specific confirmations, announcements, or resolutions (e.g., regulatory, upgrades, or events) appear",
+      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday** | **NO** | **HIGH** confidence[1][2][3]",
+      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win on Monday** | **NO** | **HIGH** confidence[1][2][3][4][5]\n\nCleveland's star trio of Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points) combined for 83 points in a wire-to-wire victory, marking their 12th straight playoff win against Toronto and tying an NBA record[1][2][5]. Raptors struggled with ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776889228038_0",
-      "timestamp": "2026-04-22T20:20:28.038653+00:00",
+      "id": "sig_1776889299694_0",
+      "timestamp": "2026-04-22T20:21:39.694738+00:00",
       "source": "PERPLEXITY",
-      "headline": "Wembanyama Concussion Rules Him Out After Game 2 Fall vs",
-      "raw": "Wembanyama Concussion Rules Him Out After Game 2 Fall vs. Trail Blazers | YES | HIGH confidence**  \nVictor Wembanyama, Spurs' MVP finalist and rookie standout, suffered a concussion in Game 2 of their Western Conference semifinal series against the Trail Blazers and was ruled out immediately after exiting, shifting series odds heavily toward Portland[3][4].  \nThis injury confirmation, reported as ",
-      "direction": "YES",
+      "headline": "Polymarket Traders on X Focus on Tweet Markets and Analytics Tools Amid Trending High-Volume Bets | NO | MED confidence*",
+      "raw": "Polymarket Traders on X Focus on Tweet Markets and Analytics Tools Amid Trending High-Volume Bets | NO | MED confidence**\n\nPolymarket's most active markets right now center on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with outcomes like 200-219 at 33%) and \"Elon Musk # tweets in April 2026?\" (1120-1159 at 18-19% odds), drawing over $22M in volume across 2",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
+    "enter": 0,
     "alert": 3,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
