@@ -1,18 +1,20 @@
 {
-  "last_scan": "2026-04-22T10:44:16.489032+00:00",
-  "scan_seconds": 18.8,
-  "markets_scanned": 83,
+  "last_scan": "2026-04-22T10:45:17.460583+00:00",
+  "scan_seconds": 16.7,
+  "markets_scanned": 81,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776854646934_0",
-      "timestamp": "2026-04-22T10:44:06.934458+00:00",
+      "id": "sig_1776854707900_0",
+      "timestamp": "2026-04-22T10:45:07.900607+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, No Additional Rate",
-      "raw": "Fed Chair Powell Describes 'Very Unusual' Economy with Tariff-Driven Goods Inflation Peaking Q1 2026, No Additional Rate Cuts Signaled Amid Weaker Labor Market | NO | HIGH confidence** [1][2][3]\n\nPowell confirmed in recent remarks that U.S. inflation remains elevated primarily due to a **one-time price surge in goods from tariffs**, expected to peak around the first quarter of 2026 assuming no fur",
+      "headline": "Fed Chair Powell Warns Tariffs Will Cause Higher Inflation and Slower Growth in First Remarks Post-Trump's \"Liberation D",
+      "raw": "Fed Chair Powell Warns Tariffs Will Cause Higher Inflation and Slower Growth in First Remarks Post-Trump's \"Liberation Day\" Announcements | YES | HIGH confidence** [1][2]\n\nPowell stated in a speech that Trump's higher-than-expected tariffs are **highly likely to generate at least a temporary rise in inflation**, with potentially **more persistent effects**, revising his prior view of them as merel",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Donald Trump publicly insult someone on April 26, 2026?",
         "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
       "action": "ENTER",
@@ -20,24 +22,67 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776854651406_0",
-      "timestamp": "2026-04-22T10:44:11.406961+00:00",
+      "id": "sig_1776854712040_0",
+      "timestamp": "2026-04-22T10:45:12.040701+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO | LOW confidence** - Search results cover games through early April 2026 (e",
-      "raw": "NO | LOW confidence** - Search results cover games through early April 2026 (e.g., Cavs-Mavs ~April 17-18 based on context); nothing \"just confirmed\" today impacts markets like playoff odds, draft futures, or injuries.[1][2][3][4][5]",
+      "headline": "Lakers Playoff Matchup Confirmed: LeBron James and Lakers to Face Kevin Durant and Houston Rockets in 1st Round | YES |",
+      "raw": "Lakers Playoff Matchup Confirmed: LeBron James and Lakers to Face Kevin Durant and Houston Rockets in 1st Round | YES | HIGH confidence**[4]\n\nThe Los Angeles Lakers' first-round opponent in the NBA playoffs has been officially confirmed as the Houston Rockets, setting up a high-profile LeBron James vs. Kevin Durant series.[4] This resolution clarifies seeding and tiebreakers in the Western Confere",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776854703973_2",
+      "timestamp": "2026-04-22T10:45:03.973359+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP ETF Approvals Enter Final Stage | NO | MED confidence** [2]",
+      "raw": "XRP ETF Approvals Enter Final Stage | NO | MED confidence** [2]  \nProcess advancing with institutional enthusiasm and ETF inflow data, but not yet confirmed as approved. [2]",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776854655482_0",
-      "timestamp": "2026-04-22T10:44:15.482617+00:00",
+      "id": "sig_1776854703967_0",
+      "timestamp": "2026-04-22T10:45:03.967012+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (29% on 180-199 outcome) and \"Elon Musk # tweets in April 2026?\" (18-28% on 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets[2][3][4].",
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence** [1]  \nThe SEC's decision to drop its lawsuit provides regulatory clarity, removing a major overhang on XRP and driving a 10% price surge to ~$1.42 after breaking $1.50 resistance. This fundamental resolution shifts market sentiment toward institutional adoption. [1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776854703970_1",
+      "timestamp": "2026-04-22T10:45:03.970101+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple USD (RLUSD) Stablecoin Officially Rolls Out on XRP Ledger and Ethereum | YES | MED confidence** [2]",
+      "raw": "Ripple USD (RLUSD) Stablecoin Officially Rolls Out on XRP Ledger and Ethereum | YES | MED confidence** [2]  \nFull-scale RLUSD launch coincides with record XRPL transaction volume and heightens institutional inflows amid SEC case finality. [2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776854716443_0",
+      "timestamp": "2026-04-22T10:45:16.443189+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | LOW confidence**\n\nPolymarket's most active markets as of April 21, 2026, center on **Elon Musk tweet counts**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (e.g., 1120-1159 at 28-29% odds) and \"Elon Musk musk # tweets in April 2026?\" with high trading volumes over $19.1M[2][3][4].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -46,11 +91,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776854655485_1",
-      "timestamp": "2026-04-22T10:44:15.485778+00:00",
+      "id": "sig_1776854716457_1",
+      "timestamp": "2026-04-22T10:45:16.457441+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category lists 166 live predictions on topics like Nasdaq round-the-clock trading by June 30, backed",
-      "raw": "Trending Markets** category lists 166 live predictions on topics like Nasdaq round-the-clock trading by June 30, backed by $3M volume, but no specific whale bets, smart money moves, mispriced odds, or tips are detailed in real-time X posts from traders[1].  \nNo confirmed announcements, resolutions, or breaking events (e.g., Kanye tweet by April 30 at 60%) are noted as moving markets right now; dat",
+      "headline": "Tweet Markets** (20+ active) and broader **Trending Markets** (166 live, $3M+ volume) lead activity, alongside niche bet",
+      "raw": "Tweet Markets** (20+ active) and broader **Trending Markets** (166 live, $3M+ volume) lead activity, alongside niche bets like Nasdaq round-the-clock trading or Kanye tweeting by April 30[1][3][4].  \nNo search results mention **whale bets**, **smart money moves**, **mispriced markets**, **prediction tips**, or recent **confirmations/announcements** impacting odds; data lacks real-time X posts from",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -60,9 +105,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
