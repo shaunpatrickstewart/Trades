@@ -1,30 +1,66 @@
 {
-  "last_scan": "2026-04-22T09:41:47.832733+00:00",
-  "scan_seconds": 17.3,
+  "last_scan": "2026-04-22T09:42:46.516919+00:00",
+  "scan_seconds": 15.9,
   "markets_scanned": 83,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776850898413_0",
-      "timestamp": "2026-04-22T09:41:38.413645+00:00",
+      "id": "sig_1776850953344_0",
+      "timestamp": "2026-04-22T09:42:33.344295+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting based on the available search results",
-      "raw": "I cannot provide the breaking news you're requesting based on the available search results. The search results contain information from December 2025, which predates the current date of April 22, 2026. While the results discuss Powell's statements about tariffs and inflation with projections extending into early 2026, they do not contain announcements or confirmations from April 2026 that would be",
-      "direction": null,
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs | YES | HIGH confidence**  \nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as resolved in April 2026, removing a major regulatory overhang and driving XRP's ~10% weekly price surge to ~$1.42 after breaking $1.50 resistance[1][6].  \nThis fundamental shift boosts market sentiment amid institutional adoption, with analysts c",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776850953347_1",
+      "timestamp": "2026-04-22T09:42:33.347697+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger & Ethereum | YES | MED confidence**",
+      "raw": "Ripple USD (RLUSD) Stablecoin Full-Scale Rollout on XRP Ledger & Ethereum | YES | MED confidence**  \nOfficial rollout of RLUSD occurred as of April 19, 2026, sparking massive XRPL transaction volume and capital inflows alongside SEC resolution[3].  \nXRP ETF approvals are in final stages, enhancing institutional enthusiasm[3].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
+        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
+        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
+        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776850906829_0",
-      "timestamp": "2026-04-22T09:41:46.829735+00:00",
+      "id": "sig_1776850961223_0",
+      "timestamp": "2026-04-22T09:42:41.223446+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Lead Polymarket Chatter | NO | MED confidence**",
-      "raw": "Elon Musk Tweet Count Markets Lead Polymarket Chatter | NO | MED confidence**\n\nPolymarket's most active markets as of April 21, 2026, focus on **Elon Musk's tweet volumes**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", with crowd odds like 28% for 1120-1159 tweets and 18% for 1080-1119, backed by $17.1M-$19.1M volume across 20-132 tweet-re",
+      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[3][5]",
+      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Series Lead** | YES | HIGH confidence[3][5]\n\nCleveland Cavaliers won Game 2 of their first-round NBA playoffs series against the Toronto Raptors on Monday night (April 20, 2026), led by Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points), marking their 12th straight playoff win over Toronto[3][6][7][9]. Raptors' I",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776850965513_0",
+      "timestamp": "2026-04-22T09:42:45.513799+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (with \"1120-1159\" at 28% odds) and the broader \"Elon Musk # tweets in April 2026?\" (various bins like 1080-1119 at 18-37% in recent snapshots).[2][3][4] These Tweet Markets show",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -34,9 +70,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 2,
+    "enter": 1,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
