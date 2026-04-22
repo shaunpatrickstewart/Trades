@@ -1,60 +1,140 @@
 {
-  "last_scan": "2026-04-22T13:31:39.874665+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-22T13:33:01.759138+00:00",
+  "scan_seconds": 20.8,
   "markets_scanned": 75,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776864684331_0",
-      "timestamp": "2026-04-22T13:31:24.331197+00:00",
+      "id": "sig_1776864765216_0",
+      "timestamp": "2026-04-22T13:32:45.216255+00:00",
       "source": "PERPLEXITY",
-      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]",
-      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]\n\nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst driving XRP's 10% surge in April 2026, breaking above $1.50 to $1.42, signaling a fundamental shift toward institutional adoption and regulatory clarity[1]. This resolution removes a major overhang since 2020, historically XRP's",
-      "direction": "YES",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results provided do not contain informa",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results provided do not contain information from today (April 22, 2026). The most recent articles are from April 16-20, 2026, which are several days old.\n\nThe search results do reference an event relevant to today's date: **the U.S.-Iran ceasefire expiration on April 22**[2], which could affect crypto market sentiment",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
         "Will XRP reach $1.50 April 20-26?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776864693695_0",
-      "timestamp": "2026-04-22T13:31:33.695688+00:00",
+      "id": "sig_1776864769504_0",
+      "timestamp": "2026-04-22T13:32:49.504651+00:00",
       "source": "PERPLEXITY",
-      "headline": "I don't have sufficient current breaking news information to provide market-moving announcements in the format you've re",
-      "raw": "I don't have sufficient current breaking news information to provide market-moving announcements in the format you've requested. The search results available are from the 2025-26 NBA season's first round (mid-to-late April 2026), showing Lakers vs. Rockets playoff action and other early-round matchups, but they don't contain breaking news or confirmed announcements specifically about the Conferenc",
-      "direction": "YES",
+      "headline": "I cannot provide the breaking news analysis you've requested because the search results provided are from 2025 and do no",
+      "raw": "I cannot provide the breaking news analysis you've requested because the search results provided are from 2025 and do not contain current information from April 2026. The most recent result is from April 4, 2025, when Fed Chair Powell stated that tariff impacts would be \"significantly larger than expected.\"\n\nTo answer your query about what has \"just been confirmed, announced, or resolved\" that wou",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Powell say \"Tariff inflation\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776864698871_0",
-      "timestamp": "2026-04-22T13:31:38.871660+00:00",
+      "id": "sig_1776864780730_0",
+      "timestamp": "2026-04-22T13:33:00.730777+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 32% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (18-28% for 1120-1159 range), with over $19-21M in trading volume across 20-131 related markets.[2][3][4] The",
-      "direction": "NO",
+      "headline": "I cannot provide the information you're requesting based on the available search results",
+      "raw": "I cannot provide the information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some specific markets related to Elon Musk's tweet counts, but they do **not** include:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776864780733_1",
+      "timestamp": "2026-04-22T13:33:00.733599+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time social media posts from traders on X (Twitter)",
+      "raw": "Real-time social media posts from traders on X (Twitter)",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776864780736_2",
+      "timestamp": "2026-04-22T13:33:00.736332+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current discussions about whale bets or smart money moves",
+      "raw": "Current discussions about whale bets or smart money moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776864780739_3",
+      "timestamp": "2026-04-22T13:33:00.739115+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Live commentary about mispriced markets or upcoming shifts",
+      "raw": "Live commentary about mispriced markets or upcoming shifts",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776864780741_4",
+      "timestamp": "2026-04-22T13:33:00.741876+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news or recent announcements that would move prediction markets",
+      "raw": "Breaking news or recent announcements that would move prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776864780744_5",
+      "timestamp": "2026-04-22T13:33:00.744643+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current market sentiment or trader predictions posted on social platforms",
+      "raw": "Current market sentiment or trader predictions posted on social platforms\n\nTo answer your query accurately, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776864775276_0",
+      "timestamp": "2026-04-22T13:32:55.276343+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers up 2-0 on Raptors after Game 2 win (115-105); Mitchell (30 pts), Harden (28 pts) dominate in series lead confi",
+      "raw": "Cavaliers up 2-0 on Raptors after Game 2 win (115-105); Mitchell (30 pts), Harden (28 pts) dominate in series lead confirmation** | **YES** | **HIGH** confidence[2][3][5]\n\nThe Cavaliers secured a 2-0 lead in their first-round Eastern Conference playoff series against the Toronto Raptors, defeating them 115-105 in Game 2 on Monday, April 20, with Donovan Mitchell scoring 30 points and James Harden ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will the highest temperature in Toronto be 14\u00b0C on April 22?",
+        "Will the highest temperature in Toronto be 12\u00b0C on April 22?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 1,
-    "watch": 0,
+    "enter": 0,
+    "alert": 8,
+    "watch": 1,
     "high_conf": 2
   }
 }
