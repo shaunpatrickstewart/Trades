@@ -1,33 +1,62 @@
 {
-  "last_scan": "2026-04-22T11:33:38.214598+00:00",
-  "scan_seconds": 16.7,
+  "last_scan": "2026-04-22T11:34:58.346698+00:00",
+  "scan_seconds": 17.8,
   "markets_scanned": 83,
   "open_positions": 38,
   "signals": [
     {
-      "id": "sig_1776857604770_0",
-      "timestamp": "2026-04-22T11:33:24.770207+00:00",
+      "id": "sig_1776857683409_0",
+      "timestamp": "2026-04-22T11:34:43.409180+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions RIGHT NOW for XRP in April 2026 that would move prediction mark",
-      "raw": "No breaking confirmations, announcements, or resolutions RIGHT NOW for XRP in April 2026 that would move prediction markets.**| NO | HIGH confidence[1][2][3][7]\n\nRecent developments include strong XRP ETF inflows ($41.64M for week ending April 16, cumulative $1.26B) driving 12.5% surge from April lows to ~$1.44, with technical cup-and-handle forming near $1.46 resistance[2][4]. CLARITY Act markup ",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]",
+      "raw": "SEC Drops Long-Running Lawsuit Against Ripple Labs** | YES | HIGH confidence[1]\n\nThe SEC's decision to drop its lawsuit against Ripple has been confirmed as a key catalyst for XRP's April 2026 surge, with the price gaining nearly 10% in the past week to ~$1.42 after breaking $1.50 resistance, signaling a fundamental shift in market sentiment and potential to move prediction markets via regulatory ",
+      "direction": "YES",
+      "confidence": 0.9,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
         "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776857617208_0",
-      "timestamp": "2026-04-22T11:33:37.208471+00:00",
+      "id": "sig_1776857692090_0",
+      "timestamp": "2026-04-22T11:34:52.090374+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets as of April 21-22, 2026, focus on **Elon Musk's tweet volume**, with the \"Elon Musk # tweets April 17 - April 24, 2026?\" market showing \"1120-1159\" at **28% probability** and $9M volume; a related market prices the same range at 18%[1][2][3].",
-      "direction": "NO",
+      "headline": "Lakers Take 2-0 Lead Over Rockets in First Round After Game 2 Win | YES | HIGH confidence**",
+      "raw": "Lakers Take 2-0 Lead Over Rockets in First Round After Game 2 Win | YES | HIGH confidence**  \nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, securing a 2-0 series lead despite injuries to Austin Reaves (oblique) and Luka Doncic (hamstring), with LeBron James scoring 28 points, grabbing 8 rebounds, and dishing 7 assists[1][3]. Luke Kennard scored 27 points with fiv",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776857697341_4",
+      "timestamp": "2026-04-22T11:34:57.341196+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recently confirmed announcements or resolved markets",
+      "raw": "Recently confirmed announcements or resolved markets",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776857697329_0",
+      "timestamp": "2026-04-22T11:34:57.329018+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot answer this query based on the provided search results",
+      "raw": "I cannot answer this query based on the provided search results. The search results describe how Polymarket works as a prediction market platform\u2014explaining market mechanics, trading volumes, and example markets\u2014but they do not contain any information about:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -35,12 +64,51 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776857617211_1",
-      "timestamp": "2026-04-22T11:33:37.211527+00:00",
+      "id": "sig_1776857697332_1",
+      "timestamp": "2026-04-22T11:34:57.332082+00:00",
       "source": "PERPLEXITY",
-      "headline": "No whale bets, smart money moves, or X posts** from traders are detailed in current data, limiting insights into mispric",
-      "raw": "No whale bets, smart money moves, or X posts** from traders are detailed in current data, limiting insights into mispriced markets or tips[1][2][3][5].",
-      "direction": "NO",
+      "headline": "Current social media discussions on X (Twitter) about Polymarket",
+      "raw": "Current social media discussions on X (Twitter) about Polymarket",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776857697335_2",
+      "timestamp": "2026-04-22T11:34:57.335117+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Specific whale bets or smart money moves",
+      "raw": "Specific whale bets or smart money moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776857697338_3",
+      "timestamp": "2026-04-22T11:34:57.338183+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market sentiment or trending commentary",
+      "raw": "Real-time market sentiment or trending commentary",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776857697344_5",
+      "timestamp": "2026-04-22T11:34:57.344528+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Which markets traders believe are mispriced",
+      "raw": "Which markets traders believe are mispriced\n\nTo answer your question, I would need access to current X/Twitter posts, Polymarket trading activity feeds, or real-time market analysis from traders or financial commentators\u2014none of which are included in these search results. The results only provide background information about how the platform operates, not live market intelligence or social comment",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -49,9 +117,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 2,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 3
   }
 }
