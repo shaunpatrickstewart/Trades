@@ -1,5 +1,5 @@
 {
-  "ts": 1776825730,
+  "ts": 1776825800,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.99987
+    "usdc_usd": 0.999868
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -152,10 +152,10 @@
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.29,
-        "nav_usdc": 1.4645,
+        "cur_price": 0.2849,
+        "nav_usdc": 1.4387,
         "cost_basis": 1.212,
-        "unrealized_pnl": 0.2525
+        "unrealized_pnl": 0.2267
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
@@ -294,16 +294,16 @@
       }
     ],
     "position_count": 31,
-    "positions_nav_usdc": 256.9149,
-    "total_usdc": 401.8556,
-    "total_usd": 401.8034
+    "positions_nav_usdc": 256.8891,
+    "total_usdc": 401.8298,
+    "total_usd": 401.7768
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776825731,
+    "ts": 1776825801,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 50,
     "today": {
@@ -331,7 +331,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776739331,
+      "window_start_ts": 1776739401,
       "realized_usdc": 0.4633,
       "trade_count": 14,
       "buy_volume_usdc": 149.3998,
@@ -424,7 +424,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776220931,
+      "window_start_ts": 1776221001,
       "realized_usdc": 1.5555,
       "trade_count": 50,
       "buy_volume_usdc": 436.7155,
@@ -637,7 +637,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774233731,
+      "window_start_ts": 1774233801,
       "realized_usdc": 1.5555,
       "trade_count": 50,
       "buy_volume_usdc": 436.7155,
@@ -1063,7 +1063,7 @@
     }
   },
   "summary": {
-    "total_usd": 401.8034,
-    "total_usdc": 401.8556
+    "total_usd": 401.7768,
+    "total_usdc": 401.8298
   }
 }
