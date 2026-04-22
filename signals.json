@@ -1,32 +1,90 @@
 {
-  "last_scan": "2026-04-22T19:22:15.229247+00:00",
-  "scan_seconds": 14.7,
+  "last_scan": "2026-04-22T19:23:23.140594+00:00",
+  "scan_seconds": 13.6,
   "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776885723109_0",
-      "timestamp": "2026-04-22T19:22:03.109459+00:00",
+      "id": "sig_1776885797158_1",
+      "timestamp": "2026-04-22T19:23:17.158816+00:00",
       "source": "PERPLEXITY",
-      "headline": "US Military Confirms Operating a Bitcoin Node | YES | HIGH confidence** [5]",
-      "raw": "US Military Confirms Operating a Bitcoin Node | YES | HIGH confidence** [5]  \nBitcoin price testing $76K resistance with bullish momentum on 4-hour and daily charts, supported by ascending trendline and potential bear flag breakout. [5]  \nBTC at $75,901 on April 21 (up $577 daily), driven by institutional ETF inflows, whale accumulation, and regulatory clarity amid mid-April surge past $75K. [1][2",
+      "headline": "YES** - Confirmed Game 2 victory (101-94), with LeBron James delivering a strong effort despite missing key opponents li",
+      "raw": "YES** - Confirmed Game 2 victory (101-94), with LeBron James delivering a strong effort despite missing key opponents like Kevin Durant and apparent Luka Don\u010di\u0107 absence for Lakers; historic rebounding edge noted (21-3 for Rockets in Game 1 loss).[1][2][3]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776885793138_0",
+      "timestamp": "2026-04-22T19:23:13.138712+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin surges past $76K, sharply lowering Polymarket odds of dipping to $60K in April to near 0%** | **YES** | **HIGH**",
+      "raw": "Bitcoin surges past $76K, sharply lowering Polymarket odds of dipping to $60K in April to near 0%** | **YES** | **HIGH** confidence[1]\n\nBitcoin's price broke above $76,000 as of recent trading, verifiable via market data and @BTCtreasuries posts, directly challenging prior predictions of a $60K dip by April end[1]. This momentum shift\u2014with 12 days left in April\u2014has compressed YES odds on the relev",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Bitcoin above 77,000 on April 22, 4PM ET?",
-        "Bitcoin above 81,000 on April 22, 4PM ET?"
+        "Bitcoin above 81,000 on April 22, 4PM ET?",
+        "Bitcoin above 80,600 on April 22, 4PM ET?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776885734210_0",
-      "timestamp": "2026-04-22T19:22:14.210166+00:00",
+      "id": "sig_1776885797156_0",
+      "timestamp": "2026-04-22T19:23:17.156800+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time breaking news and live trader commentary you're requesting based on the available search",
-      "raw": "I cannot provide the real-time breaking news and live trader commentary you're requesting based on the available search results. The search results show only aggregated market data from Polymarket as of April 21-22, 2026, such as trending markets and their current odds, but they do not contain:",
+      "headline": "Lakers take 2-0 series lead over Rockets in NBA Western Conference first-round playoffs after Game 2 win on Tuesday",
+      "raw": "Lakers take 2-0 series lead over Rockets in NBA Western Conference first-round playoffs after Game 2 win on Tuesday.**[1][2][3]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776885797161_2",
+      "timestamp": "2026-04-22T19:23:17.161126+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HIGH** confidence - Multiple ESPN/Fox Sports reports align on result, odds shift (Rockets line moved from -5",
+      "raw": "HIGH** confidence - Multiple ESPN/Fox Sports reports align on result, odds shift (Rockets line moved from -5.5 to -2.5 pre-Game 2), and Lakers now heavily favored (+9.5 for next game at Houston).[1][2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776885802131_0",
+      "timestamp": "2026-04-22T19:23:22.131527+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Volume Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet counts**, such as \"Elon Musk # tweets April 20 - April 22, 2026?\" (priced at 40-64% implied probability in examples) and \"Elon Musk # tweets April 17 - April 24, 2026?\", with the 1120-1159 range at **18-19% chance** across high-volume markets totali",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776885802133_1",
+      "timestamp": "2026-04-22T19:23:22.133657+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**High activity in tweet predictions**: Crowd assigns dynamic odds like 60% to \"Will Kanye tweet again by April 30",
+      "raw": "**High activity in tweet predictions**: Crowd assigns dynamic odds like 60% to \"Will Kanye tweet again by April 30?\" ($390 vol.), but Musk markets dominate with real-time updates from trader sentiment.[3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -35,11 +93,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776885734212_1",
-      "timestamp": "2026-04-22T19:22:14.212166+00:00",
+      "id": "sig_1776885802135_2",
+      "timestamp": "2026-04-22T19:23:22.135631+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live social media posts or trader commentary from X (Twitter)",
-      "raw": "Live social media posts or trader commentary from X (Twitter)",
+      "headline": "**Trending categories**: 166+ Trending Markets (e",
+      "raw": "**Trending categories**: 166+ Trending Markets (e.g., \"Nasdaq round-the-clock trading by June 30?\") and 130+ Tweet markets show $2.8M+ volume, reflecting financial conviction over polls.[1][3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -48,51 +106,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776885734214_2",
-      "timestamp": "2026-04-22T19:22:14.214185+00:00",
+      "id": "sig_1776885802137_3",
+      "timestamp": "2026-04-22T19:23:22.137603+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information about specific whale bets or smart money moves",
-      "raw": "Information about specific whale bets or smart money moves",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776885734216_3",
-      "timestamp": "2026-04-22T19:22:14.216159+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analysis of mispriced markets",
-      "raw": "Analysis of mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776885734218_4",
-      "timestamp": "2026-04-22T19:22:14.218146+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent announcements or resolutions that would move prediction markets",
-      "raw": "Recent announcements or resolutions that would move prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776885734220_5",
-      "timestamp": "2026-04-22T19:22:14.220144+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market discussion or sentiment beyond the odds themselves",
-      "raw": "Real-time market discussion or sentiment beyond the odds themselves\n\nTo get the breaking news and live trader insights you're seeking, you would need to:",
-      "direction": null,
+      "headline": "No specific whale bets, smart money moves, or X posts on mispriced markets in recent data; one Binance note highlights P",
+      "raw": "No specific whale bets, smart money moves, or X posts on mispriced markets in recent data; one Binance note highlights Polymarket analytics tools for spotting top trader strategies.[5]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -102,8 +121,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 7,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
