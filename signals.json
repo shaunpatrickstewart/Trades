@@ -1,99 +1,29 @@
 {
-  "last_scan": "2026-04-22T22:12:54.759344+00:00",
-  "scan_seconds": 13.2,
+  "last_scan": "2026-04-22T22:14:03.372064+00:00",
+  "scan_seconds": 14.8,
   "markets_scanned": 48,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776895973748_0",
-      "timestamp": "2026-04-22T22:12:53.748048+00:00",
+      "id": "sig_1776896042369_0",
+      "timestamp": "2026-04-22T22:14:02.369073+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader skepticism on Nasdaq implementing 24/7 trading soon; no X posts in results confirm whale bets or mispricing buzz[1].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776895973749_1",
-      "timestamp": "2026-04-22T22:12:53.749930+00:00",
-      "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | HIGH confidence**  \nX-specific market at 16% YES odds with $33.6K volume draws attention amid Elon Musk tech bets; traders likely viewing it as delayed, though no direct X whale activity or tips reported in real-time data[2].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776895973751_2",
-      "timestamp": "2026-04-22T22:12:53.751808+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | YES (Resolved) | MED confidence**  \nMarket at 100% resolution (likely YES on an end date), with $12.3K liquidity; suggests recent confirmation or announcement ended the conflict, potentially moving geopolitics markets, but no X chatter on whales or tips[2].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776895967945_0",
-      "timestamp": "2026-04-22T22:12:47.945547+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers lead Raptors 2-0 in playoff series after wire-to-wire 115-105 Game 2 win | YES Cavaliers win series | HIGH con",
-      "raw": "Cavaliers lead Raptors 2-0 in playoff series after wire-to-wire 115-105 Game 2 win | YES Cavaliers win series | HIGH confidence** [3]\n\nCleveland's stars dominated with Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points), extending their playoff winning streak against Toronto to a record-tying 12 games[3]. This recent confirmation of a 2-0 lead, with Games 3-4 shifti",
+      "headline": "Nasdaq 24/7 Trading & Monero $1000 Surge Lead Polymarket Trends | NO | MED confidence**",
+      "raw": "Nasdaq 24/7 Trading & Monero $1000 Surge Lead Polymarket Trends | NO | MED confidence**\n\nPolymarket's trending markets as of April 22, 2026, highlight \"Nasdaq round-the-clock trading by June 30?\" at 20% YES odds with $43.9K volume and \"Will Monero hit $1000 in 2026?\" at 19% YES odds with $94.3K volume, drawing trader focus amid 168 active trending markets totaling over $2.8M volume[1]. X-related m",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776895973753_3",
-      "timestamp": "2026-04-22T22:12:53.753669+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monero Hits $1000 in 2026",
-      "raw": "Monero Hits $1000 in 2026? | NO | MED confidence**  \nTrending at 19% YES with $94.3K volume; crypto traders on Polymarket imply undervaluation or bearish sentiment, possible smart money fade, absent X-specific posts on mispricing[1].",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776895973755_4",
-      "timestamp": "2026-04-22T22:12:53.755916+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Volumes (e",
-      "raw": "Elon Musk Tweet Volumes (e.g., April 17-24 or Full April) | MIXED (Low Buckets) | LOW confidence**  \nActive markets like \"Elon Musk # tweets April 17 - April 24\" at 38% and full April at 21% for 1120-1159 range with high prior volume ($20.7M category); hints at expected drop-off, potential mispriced if X activity spikes, no confirmed resolutions or whale moves[3][4].",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
-    "watch": 2,
+    "alert": 1,
+    "watch": 0,
     "high_conf": 0
   }
 }
