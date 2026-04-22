@@ -1,99 +1,73 @@
 {
-  "last_scan": "2026-04-22T03:37:51.226927+00:00",
-  "scan_seconds": 20.7,
-  "markets_scanned": 82,
-  "open_positions": 37,
+  "last_scan": "2026-04-22T03:38:55.088773+00:00",
+  "scan_seconds": 19.9,
+  "markets_scanned": 111,
+  "open_positions": 251,
   "signals": [
     {
-      "id": "sig_1776829056771_1",
-      "timestamp": "2026-04-22T03:37:36.771404+00:00",
+      "id": "sig_1776829128743_1",
+      "timestamp": "2026-04-22T03:38:48.743162+00:00",
       "source": "PERPLEXITY",
-      "headline": "RLUSD Stablecoin Full Rollout Confirmed | YES | HIGH confidence**",
-      "raw": "RLUSD Stablecoin Full Rollout Confirmed | YES | HIGH confidence**\nRipple USD (RLUSD) has completed its official full-scale rollout across the XRP Ledger and Ethereum, driving a massive influx of capital into the ecosystem.[1]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776829070217_1",
-      "timestamp": "2026-04-22T03:37:50.217644+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Whale Bets or Smart Money Moves Reported on X | NO | HIGH confidence**",
-      "raw": "No Whale Bets or Smart Money Moves Reported on X | NO | HIGH confidence**  \nSearch results show no current X posts detailing **whale bets**, **smart money moves**, or **analytics tools** exposing top traders beyond a single Binance mention of a \"Polymarket analytics tool\" for tracking winners (data already available but underused)[6]. XTracker exists for social metrics but lacks breaking trader ac",
+      "headline": "No New Conference Semifinals Results or Rookie Updates Confirmed Right Now | NO | HIGH confidence**",
+      "raw": "No New Conference Semifinals Results or Rookie Updates Confirmed Right Now | NO | HIGH confidence**  \nAs of April 22, 2026, 3 AM UTC, no breaking announcements resolve ongoing playoff matchups or semifinals; first-round games are ongoing without recent Cavaliers-specific semifinal advancements.[7] Cooper Flagg's rookie season with the Mavericks ended weeks ago on April 13 due to an ankle sprain, w",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776829070223_3",
-      "timestamp": "2026-04-22T03:37:50.223827+00:00",
+      "id": "sig_1776829120162_0",
+      "timestamp": "2026-04-22T03:38:40.162555+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nothing Confirmed/Announced to Move Markets | NO | MED confidence**",
-      "raw": "Nothing Confirmed/Announced to Move Markets | NO | MED confidence**  \nNo recent resolutions, announcements, or confirmations (e.g., tweet data releases) noted to impact odds; markets update continuously on events but lack tied breaking news in results as of April 22, 2026[1][2][3]. Other active areas include News Stories (102 markets) and Pop Culture, but no X hype[4].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776829056783_5",
-      "timestamp": "2026-04-22T03:37:36.783616+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Central Bank Integration Accelerating | YES | MEDIUM confidence**",
-      "raw": "Central Bank Integration Accelerating | YES | MEDIUM confidence**\nCentral banks are increasingly integrating Ripple's payment rails for cross-border settlements as part of the broader institutional adoption wave.[1]\n\nThe most significant market-moving confirmation is the SEC resolution combined with RLUSD's full deployment\u2014both represent removal of regulatory uncertainty and expansion of XRP's use",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776829056768_0",
-      "timestamp": "2026-04-22T03:37:36.768229+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results, here are the key developments in XRP from April 2026:",
-      "raw": "Based on the search results, here are the key developments in XRP from April 2026:",
+      "headline": "I cannot identify any breaking news from these search results that qualifies as \"just confirmed, announced, or resolved\"",
+      "raw": "I cannot identify any breaking news from these search results that qualifies as \"just confirmed, announced, or resolved\" at this exact moment. The search results are from early-to-mid April 2026 and do not contain information from April 22, 2026.\n\nThe most recent substantive events referenced in the search results are:",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776829056774_2",
-      "timestamp": "2026-04-22T03:37:36.774439+00:00",
-      "source": "PERPLEXITY",
-      "headline": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**",
-      "raw": "SEC Legal Battle Officially Resolved | YES | HIGH confidence**\nThe long-standing SEC legal battle with Ripple is now \"officially in the rearview mirror,\" with XRP ETF approvals entering the final stage.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776829056777_3",
-      "timestamp": "2026-04-22T03:37:36.777511+00:00",
+      "id": "sig_1776829120168_1",
+      "timestamp": "2026-04-22T03:38:40.168323+00:00",
       "source": "PERPLEXITY",
-      "headline": "XRP Breached $1",
-      "raw": "XRP Breached $1.50 Resistance for First Time in 2026 | YES | HIGH confidence**\nXRP touched $1.51094 on April 17, marking its first break above $1.50 since February's selloff.[3] This was driven by institutional spot ETF inflows ($224 million in the first week of April) rather than retail futures trading, suggesting more stable demand.[3]",
+      "headline": "SEC Roundtable on April 16** | Already Occurred | MED confidence",
+      "raw": "SEC Roundtable on April 16** | Already Occurred | MED confidence\nThe SEC roundtable mentioned as a potential catalyst has already passed as of your current date, but the search results do not confirm what was announced or resolved at that event.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776829120172_2",
+      "timestamp": "2026-04-22T03:38:40.172576+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CLARITY Act Status** | Unclear | LOW confidence",
+      "raw": "CLARITY Act Status** | Unclear | LOW confidence\nTreasury Secretary Scott Bessent was reported urging Congress to pass the Clarity Act, but the search results do not confirm whether it was voted on or passed between April 16-22.",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776829120177_3",
+      "timestamp": "2026-04-22T03:38:40.177585+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP-Linked ETF Inflows** | Confirmed but Not Time-Specific | MED confidence",
+      "raw": "XRP-Linked ETF Inflows** | Confirmed but Not Time-Specific | MED confidence\nFresh inflows arrived for XRP-linked ETFs with four straight positive sessions, but the exact timing and whether this continues through April 22 is unclear from these results.\n\nTo provide accurate breaking news from April 22, 2026, you would need search results dated from that specific date or later.",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [
         "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
         "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
@@ -104,58 +78,24 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776829056780_4",
-      "timestamp": "2026-04-22T03:37:36.780591+00:00",
+      "id": "sig_1776829134084_3",
+      "timestamp": "2026-04-22T03:38:54.084977+00:00",
       "source": "PERPLEXITY",
-      "headline": "Rakuten Wallet Payment Rail Launched | YES | HIGH confidence**",
-      "raw": "Rakuten Wallet Payment Rail Launched | YES | HIGH confidence**\nRakuten Wallet went live on April 15, providing a new payment rail integration that correlates with XRP's subsequent price strength.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "XRP Up or Down - April 22, 8:40AM-8:45AM ET",
-        "XRP Up or Down - April 22, 8:20AM-8:25AM ET",
-        "XRP Up or Down - April 22, 8:35AM-8:40AM ET"
-      ],
+      "headline": "Elon Musk April Tweets Range (e",
+      "raw": "Elon Musk April Tweets Range (e.g., 1080-1119) at 18% | NO (for that bin) | MED confidence**  \nTweet markets like \"Elon Musk # tweets April 17-24, 2026?\" and full April total assign 18% to 1080-1119 range amid $17.1M volume across 20-132 active markets; no specific mispricing buzz but dynamic odds track real-time activity[3][4][5]. \n\nNo direct X posts from Polymarket traders on whales, tips, or co",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776829060395_0",
-      "timestamp": "2026-04-22T03:37:40.395493+00:00",
+      "id": "sig_1776829128738_0",
+      "timestamp": "2026-04-22T03:38:48.738586+00:00",
       "source": "PERPLEXITY",
-      "headline": "IMF Executive Board Concludes 2026 Article IV Consultation (April 2, 2026): Limited Fed rate cuts in 2026, GDP at 2",
-      "raw": "IMF Executive Board Concludes 2026 Article IV Consultation (April 2, 2026): Limited Fed rate cuts in 2026, GDP at 2.4%, core PCE inflation at 2.6% end-2026 due to tariffs offsetting services cooling | YES | HIGH confidence** [1][2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776829060406_1",
-      "timestamp": "2026-04-22T03:37:40.406252+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell (Dec 2025 remarks, recent context): Goods inflation peaks Q1 2026 from tariffs; Fed at \"high end of neutral,\" no",
-      "raw": "Powell (Dec 2025 remarks, recent context): Goods inflation peaks Q1 2026 from tariffs; Fed at \"high end of neutral,\" no aggressive cuts amid labor risks | YES | HIGH confidence** [3][5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Tariff inflation\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776829065109_0",
-      "timestamp": "2026-04-22T03:37:45.109097+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers advance to Eastern Conference Semifinals after sweeping Heat 4-0 | NO (no series win prediction resolved for C",
-      "raw": "Cavaliers advance to Eastern Conference Semifinals after sweeping Heat 4-0 | NO (no series win prediction resolved for Cavs semifinals vs. Pacers; Cavs lead 2-1) | HIGH confidence** [1][4]\n\nEastern Conference first-round playoffs show **Cleveland Cavaliers** defeating Miami Heat 138-83 in Game 4, completing a sweep and advancing to semifinals against Indiana Pacers, where Cavs currently lead 2-1 a",
+      "headline": "Cavs Clinch 2026 NBA Playoff Spot | YES | HIGH confidence**",
+      "raw": "Cavs Clinch 2026 NBA Playoff Spot | YES | HIGH confidence**  \nThe Cleveland Cavaliers secured their playoff berth for the fourth straight season after a 118-111 road win over the Golden State Warriors on April 2, 2026, locking in their position ahead of the conference semifinals.[7]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -168,12 +108,12 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776829070214_0",
-      "timestamp": "2026-04-22T03:37:50.214577+00:00",
+      "id": "sig_1776829134072_0",
+      "timestamp": "2026-04-22T03:38:54.072304+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweet Count Markets Lead Polymarket Buzz | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk tweet predictions**, such as \"# tweets April 17-24, 2026?\" (e.g., \"200-219\" at 29%) and overall \"Elon Musk # tweets in April 2026?\" (crowd pricing 18% on 1080-1119 range), with real-time odds shifting on new tweets and over $17.1M volume across 130+ re",
-      "direction": "NO",
+      "headline": "X Money Launch by April 30",
+      "raw": "X Money Launch by April 30? Traders Eye Elon Musk's \ud835\udd4f Initiative | NO | HIGH confidence**  \nPolymarket's X predictions show \"\ud835\udd4f Money launched by April 30?\" at 15% YES odds with $33.6K volume and $4.4K liquidity, ending in 8 days, signaling low trader conviction amid heavy X category trading volume over $148M across 1,370 markets[2]. No whale bets or smart money moves detailed; real-time odds refle",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -181,23 +121,51 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776829070220_2",
-      "timestamp": "2026-04-22T03:37:50.220783+00:00",
+      "id": "sig_1776829134076_1",
+      "timestamp": "2026-04-22T03:38:54.076514+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Trending Tips, Mispriced Markets, or Imminent Moves on X | NO | HIGH confidence**",
-      "raw": "No Trending Tips, Mispriced Markets, or Imminent Moves on X | NO | HIGH confidence**  \nNo X discussions highlight **mispriced markets**, **prediction tips**, or bets \"about to move\"; focus remains on live odds for niche events like Kanye tweeting by April 30 or GTA VI release (1% before June 2026, $14M vol.) without trader sentiment flagged as skewed[2][3][4].",
-      "direction": "NO",
+      "headline": "Iran x Israel/US Conflict Ends by",
+      "raw": "Iran x Israel/US Conflict Ends by...? Fully Resolved at 100% | YES | HIGH confidence**  \nGeopolitics market \"Iran x Israel/US conflict ends by...?\" trades at 100% on Polymarket's X predictions, indicating recent confirmation or resolution driving full trader consensus, with 116 related markets active[2].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776829134080_2",
+      "timestamp": "2026-04-22T03:38:54.080640+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Nikita Bier Out as X Head of Product by June 30",
+      "raw": "Nikita Bier Out as X Head of Product by June 30? Low Odds Signal Stability Bet | NO | MED confidence**  \nMarket at 7% YES with $1.4K volume and $4.8K liquidity suggests traders see low risk of change in 2 months, potentially a smart money hold on X leadership stability[2].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776829125099_0",
+      "timestamp": "2026-04-22T03:38:45.099455+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Powell Confirms Tariffs Drive Most Goods Inflation Overshoot, Core PCE Slightly Above 2% Excluding Effects; Expects One-",
+      "raw": "Powell Confirms Tariffs Drive Most Goods Inflation Overshoot, Core PCE Slightly Above 2% Excluding Effects; Expects One-Time Peak and Decline** | **YES** | **HIGH** confidence[1][2][3][4]\n\nFederal Reserve Chair Jerome Powell stated in a January 28, 2026 press conference that **most of the overrun in goods prices stems from tariffs**, not excess demand, with core PCE inflation running just above 2%",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Powell say \"Tariff inflation\" during April press conference?"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "ECONOMICS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 13,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 9,
+    "watch": 1,
+    "high_conf": 6
   }
 }
