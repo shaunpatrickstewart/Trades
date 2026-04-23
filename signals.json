@@ -1,83 +1,28 @@
 {
-  "last_scan": "2026-04-23T04:24:15.477638+00:00",
-  "scan_seconds": 44.9,
+  "last_scan": "2026-04-23T04:24:48.692639+00:00",
+  "scan_seconds": 13.1,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776918216154_0",
-      "timestamp": "2026-04-23T04:23:36.154562+00:00",
+      "id": "sig_1776918287678_0",
+      "timestamp": "2026-04-23T04:24:47.678684+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent announcements in the provided search results that would move prediction ma",
-      "raw": "I cannot identify any breaking news or recent announcements in the provided search results that would move prediction markets.\n\nThe search results contain **prediction forecasts and market data** from various crypto analysis platforms (Polymarket, Changelly, Capital.com, Binance, CoinCodex, and LiteFinance), but they do not document any newly confirmed events, announcements, or resolutions that ha",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776918216162_4",
-      "timestamp": "2026-04-23T04:23:36.162307+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Historical analyst predictions and price ranges[7]",
-      "raw": "Historical analyst predictions and price ranges[7]\n\nThese are ongoing market forecasts and current trading data, not breaking news of a confirmed event or announcement. To answer your query about what has \"just been confirmed, announced, or resolved,\" I would need search results containing recent news articles, official announcements, or documented market-moving events from the past hours. The cur",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776918254455_3",
-      "timestamp": "2026-04-23T04:24:14.455472+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recently announced events or resolutions that would impact markets",
-      "raw": "Recently announced events or resolutions that would impact markets",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "SCOTUS Sports Event Contract Case Acceptance | NO (not confirmed/announced) | HIGH confidence**",
+      "raw": "SCOTUS Sports Event Contract Case Acceptance | NO (not confirmed/announced) | HIGH confidence**  \nPolymarket's top trending market assigns a 37% \"Yes\" probability for SCOTUS accepting the case by December 31, 2026, with over $3.3M in volume signaling trader interest but no resolution or new confirmation[1].",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776918216156_1",
-      "timestamp": "2026-04-23T04:23:36.156655+00:00",
+      "id": "sig_1776918287682_1",
+      "timestamp": "2026-04-23T04:24:47.682397+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current Ethereum price around $2,384-$2,400[2][5]",
-      "raw": "Current Ethereum price around $2,384-$2,400[2][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776918216158_2",
-      "timestamp": "2026-04-23T04:23:36.158426+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Prediction market odds on Polymarket for various Ethereum price targets[1]",
-      "raw": "Prediction market odds on Polymarket for various Ethereum price targets[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776918254446_0",
-      "timestamp": "2026-04-23T04:24:14.446120+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on these search results",
-      "raw": "I cannot provide the real-time information you're requesting based on these search results.\n\nThe search results provide general information about Polymarket's platform structure and some markets that were active as of April 9-22, 2026, but they contain **no current breaking news, real-time trader commentary, whale betting activity, or market analysis from X (Twitter)**. The results don't include:",
+      "headline": "Elon Musk April Tweet Volume (1120-1159 tweets) | NO (not resolved) | HIGH confidence**",
+      "raw": "Elon Musk April Tweet Volume (1120-1159 tweets) | NO (not resolved) | HIGH confidence**  \nCrowd odds sit at 22-24% for this range in active tweet markets, topping volumes over $21M across related predictions like daily/weekly counts, with real-time shifts but no fresh announcements driving moves[2][3].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -86,12 +31,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776918254449_1",
-      "timestamp": "2026-04-23T04:24:14.449274+00:00",
+      "id": "sig_1776918287685_2",
+      "timestamp": "2026-04-23T04:24:47.685733+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live social media posts from traders discussing current market moves",
-      "raw": "Live social media posts from traders discussing current market moves",
-      "direction": null,
+      "headline": "Kanye West Tweets by April 30 | NO (not confirmed) | MED confidence**",
+      "raw": "Kanye West Tweets by April 30 | NO (not confirmed) | MED confidence**  \nListed as a live market with unspecified odds amid 129+ tweet predictions, drawing trader bets on celebrity activity but lacking breaking confirmations or whale activity reports[2].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -99,64 +44,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776918254452_2",
-      "timestamp": "2026-04-23T04:24:14.452345+00:00",
+      "id": "sig_1776918287688_3",
+      "timestamp": "2026-04-23T04:24:47.688911+00:00",
       "source": "PERPLEXITY",
-      "headline": "Whale or smart money activity happening right now",
-      "raw": "Whale or smart money activity happening right now",
-      "direction": null,
+      "headline": "Nasdaq 24/7 Trading by June 30 | NO (not announced) | LOW confidence**",
+      "raw": "Nasdaq 24/7 Trading by June 30 | NO (not announced) | LOW confidence**  \nEmerging as a tracked trending market without dominant volume or resolution, reflecting niche speculation on finance shifts[1].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776918254458_4",
-      "timestamp": "2026-04-23T04:24:14.458518+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market mispricings or imminent price movements",
-      "raw": "Real-time market mispricings or imminent price movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776918254461_5",
-      "timestamp": "2026-04-23T04:24:14.461569+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current discussion trends on X about prediction markets",
-      "raw": "Current discussion trends on X about prediction markets\n\nTo get the breaking news and real-time market intelligence you're looking for, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776918216160_3",
-      "timestamp": "2026-04-23T04:23:36.160193+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analyst forecasts projecting Ethereum could reach $2,394-$2,500 in late April 2026[2][8]",
-      "raw": "Analyst forecasts projecting Ethereum could reach $2,394-$2,500 in late April 2026[2][8]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "WATCH",
-      "x_link": null,
-      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 10,
-    "watch": 1,
-    "high_conf": 3
+    "alert": 4,
+    "watch": 0,
+    "high_conf": 0
   }
 }
