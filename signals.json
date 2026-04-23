@@ -1,36 +1,18 @@
 {
-  "last_scan": "2026-04-23T08:01:22.863365+00:00",
-  "scan_seconds": 32.3,
+  "last_scan": "2026-04-23T08:02:13.804211+00:00",
+  "scan_seconds": 16.2,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776931267249_0",
-      "timestamp": "2026-04-23T08:01:07.249080+00:00",
+      "id": "sig_1776931324193_0",
+      "timestamp": "2026-04-23T08:02:04.193026+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the available search results, there is no breaking news from today (April 23, 2026) that has been confirmed or",
-      "raw": "Based on the available search results, there is no breaking news from today (April 23, 2026) that has been confirmed or announced. The most recent market data in the results is from April 22, 2026, which shows a prediction market pricing a 63.5% chance Bitcoin closes higher on that date[2].\n\nThe most significant recent development occurred on **April 21, 2026**, when Bitcoin dropped sharply[2], wh",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Bitcoin above 79,000 on April 23, 4AM ET?",
-        "Bitcoin above 77,000 on April 23, 4AM ET?",
-        "Bitcoin above 80,200 on April 23, 4AM ET?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776931271514_0",
-      "timestamp": "2026-04-23T08:01:11.514155+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell Confirms He Will Stay as Fed Chair Until Successor Confirmed, Amid Ongoing Investigation and Unconfirmed Warsh No",
-      "raw": "Powell Confirms He Will Stay as Fed Chair Until Successor Confirmed, Amid Ongoing Investigation and Unconfirmed Warsh Nomination** | NO | HIGH confidence[1][3]\n\nPowell stated on April 21, 2026, that he will serve as chair pro tem if his successor is not confirmed by the end of his term (May 2026), and he has no intention of leaving the Board until a criminal investigation concludes with transparen",
+      "headline": "Fed Chair Powell Confirms He Will Serve as Chair Pro Tem Until Successor Confirmed if Term Expires Without Replacement**",
+      "raw": "Fed Chair Powell Confirms He Will Serve as Chair Pro Tem Until Successor Confirmed if Term Expires Without Replacement** | **NO** | **HIGH** confidence[1]\n\nPowell stated in a recent FOMC press conference (dated around April 21, 2026) that \"if my successor is not confirmed by the end of my term as chair, I would serve as chair pro tem until he is confirmed,\" addressing concerns about a potential Ma",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Successor\" during April press conference?"
       ],
       "action": "ENTER",
@@ -38,105 +20,66 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776931281850_1",
-      "timestamp": "2026-04-23T08:01:21.850803+00:00",
+      "id": "sig_1776931328333_0",
+      "timestamp": "2026-04-23T08:02:08.333026+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends Soon | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Ends Soon | NO | HIGH confidence**  \nThis market resolved to 100% (likely YES for ending by a prior date), reflecting confirmed de-escalation or resolution impacting geopolitics bets.[2]",
+      "headline": "Cavaliers take 1-0 lead over Raptors in Eastern Conference first-round playoffs** | YES | HIGH confidence[2][4]",
+      "raw": "Cavaliers take 1-0 lead over Raptors in Eastern Conference first-round playoffs** | YES | HIGH confidence[2][4]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors in Game 1 on Saturday, securing a 1-0 series lead with a dominant performance, as confirmed by post-game coverage from 92.3 The Fan and other reports[2][4]. This first-round matchup pits the No. 4 seed Cavaliers\u2014bolstered by James Har",
       "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931267253_1",
-      "timestamp": "2026-04-23T08:01:07.253487+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Summary of Recent Market-Moving Events (not today):**",
-      "raw": "Summary of Recent Market-Moving Events (not today):**\n\n| Event | Confidence |\n|---|---|\n| Bitcoin sharp drop on April 21 | HIGH |\n| Bearish repricing on April 12 | HIGH |\n| Geopolitical optimism supporting rally (around April 18) | MED |\n\nTo identify actual breaking news moving markets *right now*, you would need current sources from April 23, 2026, which are not included in these search results.",
-      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Bitcoin above 79,000 on April 23, 4AM ET?",
-        "Bitcoin above 77,000 on April 23, 4AM ET?",
-        "Bitcoin above 80,200 on April 23, 4AM ET?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776931281848_0",
-      "timestamp": "2026-04-23T08:01:21.848775+00:00",
+      "id": "sig_1776931332797_0",
+      "timestamp": "2026-04-23T08:02:12.797222+00:00",
       "source": "PERPLEXITY",
-      "headline": "X \ud835\udd4f Money Launch by April 30 | NO | HIGH confidence**",
-      "raw": "X \ud835\udd4f Money Launch by April 30 | NO | HIGH confidence**  \nPolymarket's X predictions show **\ud835\udd4f Money launched by April 30?** at 14% YES odds with $33.7K volume, indicating traders heavily bet against a near-term launch amid Elon Musk/Tech focus.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931281852_2",
-      "timestamp": "2026-04-23T08:01:21.852991+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30 | NO | MED confidence**",
-      "raw": "Nikita Bier Out as X Head of Product by June 30 | NO | MED confidence**  \nOdds at 7% YES with $1.4K volume signal low trader expectation of change, potentially a smart money lean on X stability.[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931281854_3",
-      "timestamp": "2026-04-23T08:01:21.854887+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweets Volume April 2026 (1120-1159 Range) | NO | MED confidence**",
-      "raw": "Elon Musk Tweets Volume April 2026 (1120-1159 Range) | NO | MED confidence**  \nTweet Markets give 22% to this bin as most active, with traders possibly seeing it as **mispriced** for higher output based on real-time tracking.[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931281856_4",
-      "timestamp": "2026-04-23T08:01:21.856798+00:00",
-      "source": "PERPLEXITY",
-      "headline": "GTA VI Before June 2026 | NO | HIGH confidence**",
-      "raw": "GTA VI Before June 2026 | NO | HIGH confidence**  \nNews Stories market at 1% YES with massive $14M volume shows overwhelming bets against release, a whale-favored longshot amid high liquidity ($62.6K).[5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931281858_5",
-      "timestamp": "2026-04-23T08:01:21.858835+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Solana April Price Milestone | NO (for 100+",
-      "raw": "Solana April Price Milestone | NO (for 100+?) | LOW confidence**  \n7% odds on \"What price will Solana hit in April?\" with $3M volume and upward arrow suggest recent smart money moves, but late-month timing limits conviction.[5]  \n\nNo direct X posts from Polymarket traders or whale alerts in results; data reflects platform odds as of April 19-22, 2026, cutting through noise via $165.9M+ X volume.[1",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | HIGH confidence**",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239 outcome) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on 1120-1159 in related markets), with over $21M+ in volume across 130+ live tweet prediction marke",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776931332799_1",
+      "timestamp": "2026-04-23T08:02:12.799204+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets, Smart Money Moves, or X Posts Reported | NO | HIGH confidence**",
+      "raw": "No Whale Bets, Smart Money Moves, or X Posts Reported | NO | HIGH confidence**  \nSearch results show no mentions of **whale bets**, **smart money moves**, **prediction market tips**, **mispriced markets**, or **trending X posts** from Polymarket traders; activity centers on real-time odds for tweet volumes without trader sentiment or social discussion details[1][2][3][4].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776931332801_2",
+      "timestamp": "2026-04-23T08:02:12.801190+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**",
+      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**  \nNo breaking news, confirmed events, announcements, or resolved markets are referenced that could shift prediction markets; updates reflect ongoing trader sentiment on pop culture events like tweet counts and niche predictions (e.g., Kanye tweeting by April 30), with data current to April 22, 2026[1][3][5].",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 1
   }
 }
