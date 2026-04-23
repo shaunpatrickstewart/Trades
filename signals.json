@@ -1,169 +1,121 @@
 {
-  "last_scan": "2026-04-23T07:03:44.490144+00:00",
-  "scan_seconds": 23.9,
+  "last_scan": "2026-04-23T07:04:51.976900+00:00",
+  "scan_seconds": 21.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776927818003_0",
-      "timestamp": "2026-04-23T07:03:38.003885+00:00",
+      "id": "sig_1776927874981_0",
+      "timestamp": "2026-04-23T07:04:34.981140+00:00",
       "source": "PERPLEXITY",
-      "headline": "Jalen Williams injury confirmed after Thunder's Game 2 win | YES (Lakers/Rockets series status; Thunder injury impacts p",
-      "raw": "Jalen Williams injury confirmed after Thunder's Game 2 win | YES (Lakers/Rockets series status; Thunder injury impacts playoffs) | HIGH confidence**  \nThe Oklahoma City Thunder defeated the Phoenix Suns 120-107 in Game 2 on April 22, 2026, taking a 2-0 lead in their first-round series, with Shai Gilgeous-Alexander scoring 37 points.[1][2][4] Jalen Williams, who added 19 points, suffered an injury ",
+      "headline": "Polymarket Bitcoin October Price Market Locks in \u2191126k at 100% Probability | YES | HIGH confidence** [1]",
+      "raw": "Polymarket Bitcoin October Price Market Locks in \u2191126k at 100% Probability | YES | HIGH confidence** [1]\n\nPolymarket's \"What price will Bitcoin hit in October?\" prediction market, with over $43 million in volume, now shows **\u2191126k** as the sole frontrunner at 100% implied probability, followed closely by **\u2191124k** also at 100%, reflecting real-time trader consensus on Bitcoin reaching at least $12",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776927806437_0",
-      "timestamp": "2026-04-23T07:03:26.437658+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news about October 2026 Bitcoin developments, as the search results provided contain informati",
-      "raw": "I cannot provide breaking news about October 2026 Bitcoin developments, as the search results provided contain information from October 2025 and later months in 2025, which are historical relative to the current date of April 23, 2026.\n\nThe search results discuss a significant crypto crash that occurred on October 10, 2025, triggered by President Trump's announcement of 100% tariffs on Chinese imp",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776927812574_0",
-      "timestamp": "2026-04-23T07:03:32.574100+00:00",
+      "id": "sig_1776927884850_0",
+      "timestamp": "2026-04-23T07:04:44.850142+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence",
-      "raw": "HEADLINE | NO | HIGH confidence",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776927812577_1",
-      "timestamp": "2026-04-23T07:03:32.577449+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time checks across major sources (Reuters, Bloomberg, WSJ, CNBC, AP, Federal Reserve site, X trends via semantic se",
-      "raw": "Real-time checks across major sources (Reuters, Bloomberg, WSJ, CNBC, AP, Federal Reserve site, X trends via semantic search) show zero hits for \"Powell successor,\" \"Powell resigns,\" or \"Fed chair April 2026\" announcements today.",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information about t",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information about the **conference semifinals**. The available results only cover a **first-round Eastern Conference series** between the Cavaliers and Raptors, with Game 3 scheduled for Thursday (today).[1][2]\n\nThe most recent confirmed information is that the **Cavaliers lead the series 2-0** aft",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Powell say \"Successor\" during April press conference?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Donovan Mitchell: Points O/U 27.5"
       ],
       "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776927812580_2",
-      "timestamp": "2026-04-23T07:03:32.580733+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell's term as Fed Chair ends May 2026; no credible reports of early exit or successor naming (e",
-      "raw": "Powell's term as Fed Chair ends May 2026; no credible reports of early exit or successor naming (e.g., no White House or Senate confirmations).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776927812583_3",
-      "timestamp": "2026-04-23T07:03:32.583732+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Prediction markets (e",
-      "raw": "Prediction markets (e.g., Polymarket, Kalshi equivalents) unchanged in last hour per public APIs\u2014no volume spikes on Powell-related contracts.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776927812587_4",
-      "timestamp": "2026-04-23T07:03:32.587140+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Last related news: Routine FOMC minutes release April 10, 2026; nothing successor-linked",
-      "raw": "Last related news: Routine FOMC minutes release April 10, 2026; nothing successor-linked. Any \"Will Powell\" rumors (e.g., Will Powell as nominee) are pre-2026 speculation, unconfirmed. \n\nIf this evolves, markets would react to official Fed/White House statements only.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776927823483_0",
-      "timestamp": "2026-04-23T07:03:43.483038+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**",
-      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | YES | HIGH**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related listings), with over $21M+ in trading volume across 129+ live Tweet markets as of April",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927823485_1",
-      "timestamp": "2026-04-23T07:03:43.485075+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TWEET & POP CULTURE MARKETS BUZZING WITH REAL-TIME ODDS SHIFTS | YES | MED**",
-      "raw": "TWEET & POP CULTURE MARKETS BUZZING WITH REAL-TIME ODDS SHIFTS | YES | MED**  \nTraders are tracking dynamic odds on niche predictions like \"Will Kanye tweet again by April 30?\" amid 130+ Tweet markets and 20+ Tweet Markets, where prices (0\u00a2-100\u00a2) reflect crowd sentiment updating continuously with new data[2][3][4]. No specific whale bets, smart money moves, mispriced alerts, or recent confirmation",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927823487_2",
-      "timestamp": "2026-04-23T07:03:43.487043+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRENDING MARKETS CATEGORY ACTIVE WITH 160+ EVENTS | YES | HIGH**",
-      "raw": "TRENDING MARKETS CATEGORY ACTIVE WITH 160+ EVENTS | YES | HIGH**  \n168 live Trending Markets (as of April 22) include examples like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3.3M volume, but no X posts on whales, tips, or resolutions highlighted[1]. Mentions markets exist for event phrases (e.g., CS IEM Rio 2026), yet lack breaking details[5].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927818005_1",
-      "timestamp": "2026-04-23T07:03:38.005935+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers lead Rockets 2-0 in first-round series | YES (Lakers advancing) | HIGH confidence**",
-      "raw": "Lakers lead Rockets 2-0 in first-round series | YES (Lakers advancing) | HIGH confidence**  \nLos Angeles Lakers hold a 2-0 series lead over the Houston Rockets after Game 2, with Game 3 upcoming; Austin Reaves could reportedly return during the first round, boosting their outlook.[2][4] No conference semifinals have started as of April 23, 2026\u2014playoffs remain in first round.[4]",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
-      ],
-      "action": "WATCH",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776927890958_0",
+      "timestamp": "2026-04-23T07:04:50.958139+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide real-time breaking news about what Polymarket traders are currently posting on X or identify specific w",
+      "raw": "I cannot provide real-time breaking news about what Polymarket traders are currently posting on X or identify specific whale bets and smart money moves, as the search results do not contain this information.\n\nThe search results provide general information about Polymarket's platform and structure\u2014such as how prediction markets work, available market categories, and historical snapshots from April ",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776927890960_1",
+      "timestamp": "2026-04-23T07:04:50.960069+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current social media discussions or posts from traders on X",
+      "raw": "Current social media discussions or posts from traders on X",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776927890962_2",
+      "timestamp": "2026-04-23T07:04:50.962028+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale bets or large positions being placed right now",
+      "raw": "Active whale bets or large positions being placed right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776927890963_3",
+      "timestamp": "2026-04-23T07:04:50.963901+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market sentiment or which predictions traders believe are mispriced",
+      "raw": "Real-time market sentiment or which predictions traders believe are mispriced",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776927890965_4",
+      "timestamp": "2026-04-23T07:04:50.965919+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent breaking news that would move markets",
+      "raw": "Recent breaking news that would move markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776927890967_5",
+      "timestamp": "2026-04-23T07:04:50.967813+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Newly resolved markets",
+      "raw": "Newly resolved markets\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 10,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 8,
+    "watch": 0,
+    "high_conf": 2
   }
 }
