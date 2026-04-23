@@ -1,20 +1,18 @@
 {
-  "last_scan": "2026-04-23T03:42:23.342645+00:00",
-  "scan_seconds": 12.7,
+  "last_scan": "2026-04-23T03:43:34.199716+00:00",
+  "scan_seconds": 13.6,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776915733843_0",
-      "timestamp": "2026-04-23T03:42:13.843284+00:00",
+      "id": "sig_1776915803714_1",
+      "timestamp": "2026-04-23T03:43:23.714502+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitmine Makes Largest 2026 ETH Purchase Amid Tom Lee's Bullish Outlook on Ending Crypto Winter | YES | HIGH confidence**",
-      "raw": "Bitmine Makes Largest 2026 ETH Purchase Amid Tom Lee's Bullish Outlook on Ending Crypto Winter | YES | HIGH confidence**  \nBitmine, a major player, has confirmed purchasing 101,627 ETH\u2014its biggest acquisition in 2026\u2014boosting holdings as Chairman Tom Lee states the crypto winter is nearing its end, signaling strong institutional demand for Ethereum[5].  \nThis development, tied to Ethereum's recent",
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**  \nEthereum Price Uptrend Confirmed in April 2026 | **NO** | **HIGH** [1][3][4]",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Bitcoin above 79,000 on April 23, 12AM ET?",
-        "Will the price of Bitcoin be above $78,000 on April 23?",
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ENTER",
@@ -22,52 +20,43 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776915742331_0",
-      "timestamp": "2026-04-23T03:42:22.331253+00:00",
+      "id": "sig_1776915803712_0",
+      "timestamp": "2026-04-23T03:43:23.712537+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? | NO | HIGH confidence**  \nPolymarket's top trending market shows 20% YES odds with $43.9K volume, indicating strong trader consensus against implementation soon; no X posts in results confirm whale bets or mispricing buzz[1].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776915742335_2",
-      "timestamp": "2026-04-23T03:42:22.335059+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Robinhood (HOOD) Up or Down on April 22",
-      "raw": "Robinhood (HOOD) Up or Down on April 22? | YES (Up) | HIGH confidence**  \nMarket resolved 100% Up with $4.7K volume and $57.2K liquidity as of April 22; recent daily stock outcome likely drove trader posts on X about accurate predictions[1].",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776915737771_0",
-      "timestamp": "2026-04-23T03:42:17.771961+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors after Game 2 win on Monday** | **YES** (Cavaliers favored to win series) | *",
-      "raw": "Cavaliers take 2-0 series lead over Raptors after Game 2 win on Monday** | **YES** (Cavaliers favored to win series) | **HIGH** confidence[1][2][3]  \nCleveland defeated Toronto 115-105 in Game 2, powered by 30 points from Donovan Mitchell, 28 from James Harden, and 25 from Evan Mobley, extending their playoff winning streak against the Raptors to 12 games (an NBA record tie)[1][2][3].  \nThis comma",
+      "headline": "Latest price movements (as of April 22, 9:15 AM ET):** Ethereum up ~4% day-over-day to $2,403",
+      "raw": "Latest price movements (as of April 22, 9:15 AM ET):** Ethereum up ~4% day-over-day to $2,403.78 (from $2,305.04 on April 21); Bitcoin up to $78,194.[1][3] These reflect routine volatility, not tied to new confirmations\u2014ETH remains in a $1,755\u2013$2,405 consolidation channel amid waning ETF outflows ($77M lost in March).[4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Bitcoin above 79,000 on April 23, 12AM ET?",
+        "Will the price of Bitcoin be above $78,000 on April 23?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776915808732_0",
+      "timestamp": "2026-04-23T03:43:28.732835+00:00",
+      "source": "PERPLEXITY",
+      "headline": "COOPER FLAGG DROPS 45 POINTS IN MAVS' WIN OVER LAKERS, FIRST ROOKIE WITH BACK-TO-BACK 40+ GAMES SINCE IVERSON** | YES |",
+      "raw": "COOPER FLAGG DROPS 45 POINTS IN MAVS' WIN OVER LAKERS, FIRST ROOKIE WITH BACK-TO-BACK 40+ GAMES SINCE IVERSON** | YES | HIGH confidence[1][2][3]\n\nCooper Flagg scored 45 points, 9 assists, and 8 rebounds in Dallas' 134-128 victory over the injury-depleted Lakers (missing Luka Don\u010di\u0107 and Austin Reaves, both with season-ending injuries for Lakers), ending the Mavericks' 14-game home losing streak[1][",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776915742333_1",
-      "timestamp": "2026-04-23T03:42:22.333207+00:00",
+      "id": "sig_1776915813192_0",
+      "timestamp": "2026-04-23T03:43:33.192549+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30",
-      "raw": "\ud835\udd4f Money Launched by April 30? | NO | MED confidence**  \nX-specific market at 16% YES with $33.6K volume and ends in 7 days; traders on Polymarket lean NO amid low liquidity ($3.9K), but no recent X chatter on whales or tips noted[2].",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (22% odds for 1120-1159 range) and broader \"Elon Musk # tweets in April 2026?\" (20-22% for 1120-1159), with over $20.8M-$21.5M in trading volume across 20-130 live tweet markets[2",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -76,11 +65,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776915742336_3",
-      "timestamp": "2026-04-23T03:42:22.336970+00:00",
+      "id": "sig_1776915813194_1",
+      "timestamp": "2026-04-23T03:43:33.194434+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as Head of Product at X by June 30",
-      "raw": "Nikita Bier Out as Head of Product at X by June 30? | NO | LOW confidence**  \n7% YES odds with $1.4K volume; niche X market shows minimal trader conviction, no confirmed announcements or whale moves in results[2].",
+      "headline": "Analytics Tools for Whale/Smart Money Detection Trending | YES | MED confidence**",
+      "raw": "Analytics Tools for Whale/Smart Money Detection Trending | YES | MED confidence**  \nBinance Square posts highlight a **Polymarket analytics tool** providing \"x-ray vision\" into top traders' strategies, whale bets, and smart money moves to spot mispriced markets before they shift[5].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -89,12 +78,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776915742339_4",
-      "timestamp": "2026-04-23T03:42:22.339135+00:00",
+      "id": "sig_1776915813196_2",
+      "timestamp": "2026-04-23T03:43:33.196298+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by",
-      "raw": "Iran x Israel/US Conflict Ends by...? | NO (per bucket) | MED confidence**  \nResolved elements at 100% in some buckets with $11.4K liquidity; geopolitics market active on X predictions, potential for mispricing tips if recent news broke[2].",
-      "direction": "NO",
+      "headline": "Trending Markets Category Active with 168 Options | YES | HIGH confidence**",
+      "raw": "Trending Markets Category Active with 168 Options | YES | HIGH confidence**  \nPolymarket lists 168 live **Trending Markets** (e.g., \"Nasdaq round-the-clock trading by June 30?\") with $3M+ volume, where traders flag potential mispricings via real-time odds shifts, though no specific X posts on whales or tips in results[1].",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -104,7 +93,7 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 6,
+    "alert": 5,
     "watch": 0,
     "high_conf": 1
   }
