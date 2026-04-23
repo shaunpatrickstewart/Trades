@@ -1,28 +1,127 @@
 {
-  "last_scan": "2026-04-23T05:31:09.975737+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-23T05:32:37.020494+00:00",
+  "scan_seconds": 36.4,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776922268964_4",
-      "timestamp": "2026-04-23T05:31:08.964883+00:00",
+      "id": "sig_1776922326602_0",
+      "timestamp": "2026-04-23T05:32:06.602813+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recently confirmed announcements or resolved markets",
-      "raw": "Recently confirmed announcements or resolved markets",
+      "headline": "I cannot identify any breaking news, confirmed announcements, or market-moving developments in the provided search resul",
+      "raw": "I cannot identify any breaking news, confirmed announcements, or market-moving developments in the provided search results that would shift prediction markets as of April 23, 2026.\n\nThe search results contain:",
       "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776922268957_0",
-      "timestamp": "2026-04-23T05:31:08.957327+00:00",
+      "id": "sig_1776922326610_4",
+      "timestamp": "2026-04-23T05:32:06.610809+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on these search results",
-      "raw": "I cannot provide the real-time information you're requesting based on these search results. The search results contain general information about Polymarket's platform and structure, but they do not include:",
+      "headline": "**Speculative discussion** about potential catalysts like the CLARITY Act (priced at 65% probability)[2], Fed policy cha",
+      "raw": "**Speculative discussion** about potential catalysts like the CLARITY Act (priced at 65% probability)[2], Fed policy changes[4], and Ethereum upgrades[4]\n\nHowever, none of these constitute **breaking news** of something newly confirmed, announced, or resolved. The CLARITY Act remains a future possibility rather than a confirmed passage[2], and references to protocol upgrades like the Fusaka Hard F",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922326604_1",
+      "timestamp": "2026-04-23T05:32:06.605002+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Historical price data** from mid-April 2026 showing Ethereum at $2,370 and Bitcoin at $74,314[1]",
+      "raw": "**Historical price data** from mid-April 2026 showing Ethereum at $2,370 and Bitcoin at $74,314[1]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922326606_2",
+      "timestamp": "2026-04-23T05:32:06.606851+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Analysis and commentary** comparing Bitcoin and Ethereum performance year-to-date[2]",
+      "raw": "**Analysis and commentary** comparing Bitcoin and Ethereum performance year-to-date[2]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922326608_3",
+      "timestamp": "2026-04-23T05:32:06.608678+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Price forecasts and predictions** for future dates, including October 2026[5][6][7]",
+      "raw": "**Price forecasts and predictions** for future dates, including October 2026[5][6][7]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922326612_5",
+      "timestamp": "2026-04-23T05:32:06.612648+00:00",
+      "source": "PERPLEXITY",
+      "headline": "HEADLINE:** No breaking news identified in available sources",
+      "raw": "HEADLINE:** No breaking news identified in available sources",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922326614_6",
+      "timestamp": "2026-04-23T05:32:06.614549+00:00",
+      "source": "PERPLEXITY",
+      "headline": "CONFIDENCE:** HIGH - The search results are explicitly dated mid-to-late April 2026 and contain only historical analysis",
+      "raw": "CONFIDENCE:** HIGH - The search results are explicitly dated mid-to-late April 2026 and contain only historical analysis, forecasts, and conditional speculation about future events, not announcements of events that have just occurred.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922330617_0",
+      "timestamp": "2026-04-23T05:32:10.617248+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Pacers Upset Cavaliers 121-112 in Game 1 of Eastern Conference Semifinals, Stealing Home-Court Advantage | YES | HIGH co",
+      "raw": "Pacers Upset Cavaliers 121-112 in Game 1 of Eastern Conference Semifinals, Stealing Home-Court Advantage | YES | HIGH confidence**  \nIndiana Pacers defeated the top-seeded Cleveland Cavaliers 121-112 in Game 1, outscoring them 29-22 in the fourth quarter with 19 three-pointers (second-most in franchise playoff history) and six players in double figures, including Tyrese Haliburton's 22 points and ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoff",
+        "Donovan Mitchell: Points O/U 27.5"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776922355996_0",
+      "timestamp": "2026-04-23T05:32:35.996891+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I don't have access to real-time data about what Polymarket traders are currently posting on X (formerly Twitter) or liv",
+      "raw": "I don't have access to real-time data about what Polymarket traders are currently posting on X (formerly Twitter) or live market movements as of this moment[1][2][3].\n\nThe search results provided describe Polymarket's platform and historical market examples, but they don't contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -31,11 +130,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776922268959_1",
-      "timestamp": "2026-04-23T05:31:08.959246+00:00",
+      "id": "sig_1776922355999_1",
+      "timestamp": "2026-04-23T05:32:35.999551+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current trader discussions or social media posts about specific markets",
-      "raw": "Current trader discussions or social media posts about specific markets",
+      "headline": "Current posts or discussions from traders on X",
+      "raw": "Current posts or discussions from traders on X",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -44,11 +143,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776922268961_2",
-      "timestamp": "2026-04-23T05:31:08.961095+00:00",
+      "id": "sig_1776922356001_2",
+      "timestamp": "2026-04-23T05:32:36.001435+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time whale bets or smart money movements",
-      "raw": "Real-time whale bets or smart money movements",
+      "headline": "Active whale bets or smart money moves happening right now",
+      "raw": "Active whale bets or smart money moves happening right now",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -57,11 +156,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776922268962_3",
-      "timestamp": "2026-04-23T05:31:08.962929+00:00",
+      "id": "sig_1776922356003_3",
+      "timestamp": "2026-04-23T05:32:36.003266+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active market sentiment or pricing changes happening right now",
-      "raw": "Active market sentiment or pricing changes happening right now",
+      "headline": "Real-time market mispricings or impending movements",
+      "raw": "Real-time market mispricings or impending movements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -70,50 +169,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776922268966_5",
-      "timestamp": "2026-04-23T05:31:08.966848+00:00",
+      "id": "sig_1776922356005_4",
+      "timestamp": "2026-04-23T05:32:36.005195+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information about which markets traders believe are mispriced",
-      "raw": "Information about which markets traders believe are mispriced\n\nThe most recent data in these results (from April 21-22, 2026) shows that Elon Musk's tweet count markets were among the most active, with the 1120-1159 range trading at 22% probability[4], but this doesn't reflect current trading activity, social commentary, or emerging opportunities.\n\nTo get the breaking information you're seeking, y",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776922268968_6",
-      "timestamp": "2026-04-23T05:31:08.968665+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Visit Polymarket directly and check live market prices and trade volumes",
-      "raw": "Visit Polymarket directly and check live market prices and trade volumes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776922268970_7",
-      "timestamp": "2026-04-23T05:31:08.970462+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor X (formerly Twitter) for trader discussions and market commentary",
-      "raw": "Monitor X (formerly Twitter) for trader discussions and market commentary",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776922268972_8",
-      "timestamp": "2026-04-23T05:31:08.972296+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check real-time market data feeds that track prediction market movements",
-      "raw": "Check real-time market data feeds that track prediction market movements\n\nThe search results provided are descriptive overviews rather than live market intelligence.",
+      "headline": "Recent breaking news, confirmations, or announcements that would affect prediction markets",
+      "raw": "Recent breaking news, confirmations, or announcements that would affect prediction markets\n\nTo get this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -124,8 +184,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 9,
+    "alert": 13,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
