@@ -1,5 +1,5 @@
 {
-  "ts": 1776941435,
+  "ts": 1776941505,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999785
+    "usdc_usd": 0.999756
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -323,14 +323,14 @@
     "position_count": 34,
     "positions_nav_usdc": 315.8721,
     "total_usdc": 402.8087,
-    "total_usd": 402.7221
+    "total_usd": 402.7104
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776941436,
+    "ts": 1776941506,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,30 +347,19 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776855036,
+      "window_start_ts": 1776855106,
       "realized_usdc": 0.0,
-      "trade_count": 1,
-      "buy_volume_usdc": 14.5431,
+      "trade_count": 0,
+      "buy_volume_usdc": 0.0,
       "sell_volume_usdc": 0.0,
       "closed_positions": 0,
       "winning_positions": 0,
       "win_rate_pct": 0.0,
-      "per_position": [
-        {
-          "title": "Will the highest temperature in Dallas be between 68-69\u00b0F on April 22?",
-          "slug": "highest-temperature-in-dallas-on-april-22-2026-68-69f",
-          "outcome_index": 1,
-          "buys_usdc": 14.5431,
-          "sells_usdc": 0.0,
-          "net_size": 14.69,
-          "closed": false,
-          "realized_usdc": 0.0
-        }
-      ]
+      "per_position": []
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776336636,
+      "window_start_ts": 1776336706,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -583,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774349436,
+      "window_start_ts": 1774349506,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1009,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.7221,
+    "total_usd": 402.7104,
     "total_usdc": 402.8087
   }
 }
