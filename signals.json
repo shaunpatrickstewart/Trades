@@ -1,118 +1,81 @@
 {
-  "last_scan": "2026-04-23T08:31:13.524391+00:00",
-  "scan_seconds": 22.9,
+  "last_scan": "2026-04-23T08:32:21.297124+00:00",
+  "scan_seconds": 20.5,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776933055786_4",
-      "timestamp": "2026-04-23T08:30:55.786450+00:00",
+      "id": "sig_1776933134643_0",
+      "timestamp": "2026-04-23T08:32:14.643089+00:00",
       "source": "PERPLEXITY",
-      "headline": "Price forecast estimates suggest Bitcoin could trade between $81,531",
-      "raw": "Price forecast estimates suggest Bitcoin could trade between $81,531.24 and $86,262.34 in October 2026[3]\n\nThese are forward-looking predictions rather than breaking news about confirmed events. To provide the headline/YES-NO/confidence format you requested, I would need search results containing actual announcements, regulatory decisions, or market-moving events that occurred very recently\u2014which ",
-      "direction": "YES",
+      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain information abou",
+      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain information about events that have just occurred or been confirmed today that would move prediction markets.\n\nThe available search results discuss:",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776933055778_0",
-      "timestamp": "2026-04-23T08:30:55.778510+00:00",
+      "id": "sig_1776933134649_3",
+      "timestamp": "2026-04-23T08:32:14.649508+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent confirmations that would move prediction markets based on the search resul",
-      "raw": "I cannot identify any breaking news or recent confirmations that would move prediction markets based on the search results provided. The search results contain analyst predictions and forecasts about Bitcoin's potential price movements in October 2026, but no announcements of confirmed events or resolved outcomes that occurred recently.\n\nThe most relevant information available is analyst speculati",
+      "headline": "The **Hornets' elimination** from playoff contention on Friday night (a past event)[2]",
+      "raw": "The **Hornets' elimination** from playoff contention on Friday night (a past event)[2]\n\nHowever, none of these appear to be breaking announcements from today. The Cavaliers' playoff position was already settled before this date, and Flagg's injury concluded his season but does not directly involve a Raptors-Cavaliers playoff matchup or conference semifinals outcome.\n\nTo provide accurate breaking n",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776933140293_0",
+      "timestamp": "2026-04-23T08:32:20.293669+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% chance for 1120-1159, previously 22%).[2][3][4] These dominate with over $21.5M in trading volume across ",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933055780_1",
-      "timestamp": "2026-04-23T08:30:55.780507+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analyst Predictions for October 2026:**",
-      "raw": "Analyst Predictions for October 2026:**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933055782_2",
-      "timestamp": "2026-04-23T08:30:55.782485+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Analyst Ali Martinez predicts a potential Bitcoin bottom around October 2026, with an expected retracement to approximat",
-      "raw": "Analyst Ali Martinez predicts a potential Bitcoin bottom around October 2026, with an expected retracement to approximately $37,500 (an ~80% decline from recent peaks)[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933055784_3",
-      "timestamp": "2026-04-23T08:30:55.784448+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A fractal model by Crypto Rover also suggests October 2026 as a potential low point in Bitcoin's current cycle[2]",
-      "raw": "A fractal model by Crypto Rover also suggests October 2026 as a potential low point in Bitcoin's current cycle[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933072517_0",
-      "timestamp": "2026-04-23T08:31:12.517051+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, with the \"Elon Musk # tweets in April 2026?\" market assigning a 22% chance to the 1120-1159 range and similar odds (24% in related data) for specific buckets like April 17-24.[2][3] These dominate Tweet Markets (20 active with $2",
-      "direction": "NO",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776933072519_1",
-      "timestamp": "2026-04-23T08:31:12.519097+00:00",
+      "id": "sig_1776933134645_1",
+      "timestamp": "2026-04-23T08:32:14.645304+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30? Gaining Traction in Trending Markets | NO whale bets or tips confirmed | LOW confidence**\n\nTrending Markets (164 live, $3.3M volume) highlight predictions like **\"Nasdaq round-the-clock trading by June 30?\"**, but no X posts or search data confirm whale activity, smart money moves, mispriced odds, or recent announcements driving shifts.[1] No resolved eve",
+      "headline": "The Cavaliers' **secured No",
+      "raw": "The Cavaliers' **secured No. 4 seed** in the Eastern Conference with a 51-30 record[1]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776933072521_2",
-      "timestamp": "2026-04-23T08:31:12.521227+00:00",
+      "id": "sig_1776933134647_2",
+      "timestamp": "2026-04-23T08:32:14.647243+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Whale Bets, Mispriced Markets, or Breaking Resolutions Detected on X | NO | LOW confidence**",
-      "raw": "No Whale Bets, Mispriced Markets, or Breaking Resolutions Detected on X | NO | LOW confidence**\n\nSearch results show no real-time X posts from Polymarket traders about **whale bets, smart money, tips, or mispriced markets**; focus remains on platform volumes without social confirmation or fresh news triggers like announcements.[1][2][3][5] XTracker exists for analytics, but lacks specific buzz.[5]",
-      "direction": "NO",
+      "headline": "**Cooper Flagg's season-ending left ankle sprain** during a Mavericks season finale[3]",
+      "raw": "**Cooper Flagg's season-ending left ankle sprain** during a Mavericks season finale[3]",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
