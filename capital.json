@@ -1,5 +1,5 @@
 {
-  "ts": 1776926015,
+  "ts": 1776926080,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999793
+    "usdc_usd": 0.999797
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -170,19 +170,19 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.114,
-        "nav_usdc": 0.5757,
+        "cur_price": 0.1125,
+        "nav_usdc": 0.5681,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.116
+        "unrealized_pnl": -1.1236
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.175,
-        "nav_usdc": 0.8837,
+        "cur_price": 0.14,
+        "nav_usdc": 0.707,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.3283
+        "unrealized_pnl": -0.505
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 318.8829,
-    "total_usdc": 405.8195,
-    "total_usd": 405.7355
+    "positions_nav_usdc": 318.6985,
+    "total_usdc": 405.6352,
+    "total_usd": 405.5528
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776926016,
+    "ts": 1776926081,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776839616,
+      "window_start_ts": 1776839681,
       "realized_usdc": 0.0,
       "trade_count": 2,
       "buy_volume_usdc": 29.0862,
@@ -380,7 +380,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776321216,
+      "window_start_ts": 1776321281,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +593,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774334016,
+      "window_start_ts": 1774334081,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1019,7 @@
     }
   },
   "summary": {
-    "total_usd": 405.7355,
-    "total_usdc": 405.8195
+    "total_usd": 405.5528,
+    "total_usdc": 405.6352
   }
 }
