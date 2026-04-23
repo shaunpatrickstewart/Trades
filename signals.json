@@ -1,30 +1,56 @@
 {
-  "last_scan": "2026-04-23T00:40:46.043162+00:00",
-  "scan_seconds": 45.2,
-  "markets_scanned": 53,
+  "last_scan": "2026-04-23T00:41:46.409500+00:00",
+  "scan_seconds": 40.8,
+  "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776904804946_0",
-      "timestamp": "2026-04-23T00:40:04.946980+00:00",
+      "id": "sig_1776904868053_0",
+      "timestamp": "2026-04-23T00:41:08.053028+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH ETF Inflows Hit $275M in Strongest Week Since January, Driving Price Above $2,288 | YES | HIGH confidence** [1]",
-      "raw": "ETH ETF Inflows Hit $275M in Strongest Week Since January, Driving Price Above $2,288 | YES | HIGH confidence** [1]\n\nEthereum ETFs recorded over $275 million in weekly inflows\u2014the highest since January 2026\u2014with Fidelity\u2019s FETH and BlackRock\u2019s ETHA leading, coinciding with a 7% ETH price rise to nearly $2,400 as institutional demand returns.[1] This marks a confirmed recovery signal amid improving",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
+      "headline": "Confidence: HIGH** (no relevant breaking events in results)",
+      "raw": "Confidence: HIGH** (no relevant breaking events in results).",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776904808993_0",
-      "timestamp": "2026-04-23T00:40:08.993822+00:00",
+      "id": "sig_1776904872082_0",
+      "timestamp": "2026-04-23T00:41:12.083003+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any immediate market movement, as results reflect ongoing season futures and picks without fresh pla",
-      "raw": "LOW confidence** in any immediate market movement, as results reflect ongoing season futures and picks without fresh playoffs/semifinals outcomes or Flagg-related news (no mentions across sources).[3][7]",
+      "headline": "Awards finalists revealed (non-playoff impact):**",
+      "raw": "Awards finalists revealed (non-playoff impact):**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776904872084_1",
+      "timestamp": "2026-04-23T00:41:12.084955+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Rookie of the Year:** V",
+      "raw": "**Rookie of the Year:** V.J. Edgecombe, Cooper Flagg, OG Anunoby[2] (**LOW** confidence market mover; regular-season award).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776904872086_2",
+      "timestamp": "2026-04-23T00:41:12.086894+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**MVP:** Shai Gilgeous-Alexander, Nikola Jokic, Victor Wembanyama[2] (**LOW** confidence market mover)",
+      "raw": "**MVP:** Shai Gilgeous-Alexander, Nikola Jokic, Victor Wembanyama[2] (**LOW** confidence market mover).  \nOther notes: Wizards' Cam Whitmore out indefinitely (DVT diagnosis, unrelated to query teams/series)[1]; no Lakers/Luka Doncic series context or Raptors mentions[1][2].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -33,11 +59,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776904814218_0",
-      "timestamp": "2026-04-23T00:40:14.218166+00:00",
+      "id": "sig_1776904877002_0",
+      "timestamp": "2026-04-23T00:41:17.002311+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Activity | NO whale bets or tips reported | LOW confidenc",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\", with over $20.7M-$20.8M total trading volume across 20-130 related marke",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Surge in Volume | NO whale bets or confirmed announcements reported | MED confi",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Surge in Volume | NO whale bets or confirmed announcements reported | MED confidence**[2][3]\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market assigning a **21% chance to the 1120-1159 range** amid over **$20.7M in total trading volume** across related tweet p",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -48,11 +74,24 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776904814220_1",
-      "timestamp": "2026-04-23T00:40:14.220191+00:00",
+      "id": "sig_1776904877004_1",
+      "timestamp": "2026-04-23T00:41:17.004347+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero Price and Niche Bans Trending on Polymarket | NO mispriced calls or smart money moves on X | LOW confidence**",
-      "raw": "Monero Price and Niche Bans Trending on Polymarket | NO mispriced calls or smart money moves on X | LOW confidence**  \nOther **trending markets** include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes odds), part of 168 live Trending Markets with $3M+ volume, but no X posts on whale activity, tips, or mispricing noted in results.[1]",
+      "headline": "Monero $1000 Price Target and Niche Bans Trending | NO mispriced calls or smart money tips on X | LOW confidence**[1]",
+      "raw": "Monero $1000 Price Target and Niche Bans Trending | NO mispriced calls or smart money tips on X | LOW confidence**[1]\n\nTrending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" at **11% odds**, part of 168 live trending predictions with **$3.0M volume**, but no X posts in results highlight whale moves, tips, or resolutions impacting thes",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776904877006_2",
+      "timestamp": "2026-04-23T00:41:17.006401+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Kanye Tweet Return Market Active | NO recent confirmations or moves | MED confidence**[2]",
+      "raw": "Kanye Tweet Return Market Active | NO recent confirmations or moves | MED confidence**[2]\n\n\"Will Kanye tweet again by April 30?\" trades at **78% YES odds** with **$393 volume** among 130 tweet markets, yet no breaking confirmations, whale activity, or X buzz on mispricing appears in current data.[2]\n\nNo search results capture real-time X posts from Polymarket traders, whale bets, or just-resolved ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -61,75 +100,36 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776904846034_0",
-      "timestamp": "2026-04-23T00:40:46.034640+00:00",
+      "id": "sig_1776904906406_0",
+      "timestamp": "2026-04-23T00:41:46.406964+00:00",
       "source": "X_GROK",
-      "headline": "NBA: Suns vs Thunder (April 22 game)**",
-      "raw": "NBA: Suns vs Thunder (April 22 game)**  \nWhale cluster bets $500k+ total on Thunder -16.5 spread (51-53% odds).[[1]](https://x.com/i/status/2047112775525093830)[[2]](https://x.com/i/status/2047112279762547022)[[3]](https://x.com/i/status/2047111491229192504)[[4]](https://x.com/i/status/2047111020498313294)  \nYES (Thunder covers), HIGH conf (multiple trackers, sharp action first).[[5]](https://x.co",
+      "headline": "Weather markets tip trending:** Sharp wallet (46k trades, Sortino 5",
+      "raw": "Weather markets tip trending:** Sharp wallet (46k trades, Sortino 5.14, $24k 15d PnL) farms 95-99\u00a2 YES/1-5\u00a2 NO small bets for steady edge (e.g., $9\u2192$4.6k). Replicable volume play. NO acute misprice, but low-risk grind. MED conf.[[4]](https://x.com/i/status/2047109320291053825)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047112775525093830)[[2]](https://x.com/i/status/2047112279762547022)[[3]](https://x.com/i/status/2047111491229192504)[[4]](https://x.com/i/status/2047111020498313294)",
+      "x_link": "https://x.com/i/status/2047109320291053825)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776904846036_1",
-      "timestamp": "2026-04-23T00:40:46.036618+00:00",
+      "id": "sig_1776904906408_1",
+      "timestamp": "2026-04-23T00:41:46.408931+00:00",
       "source": "X_GROK",
-      "headline": "Iran: Kharg Island control by June 30**",
-      "raw": "Iran: Kharg Island control by June 30**  \n$11k whale sells NO shares (bets remains Iranian-controlled).[[6]](https://x.com/i/status/2047110737709928645)  \nYES (stays controlled), MED conf (single alert).",
+      "headline": "Other whales:** Elche CF win NO @47-64% ($249k, $165k, etc",
+      "raw": "Other whales:** Elche CF win NO @47-64% ($249k, $165k, etc.); Thunder -16.5 YES @51% ($200k). Sports heavy. Track @PolyWhaleFeed, @tradermap_whale.[[5]](https://x.com/i/status/2046998320342573253)[[6]](https://x.com/i/status/2047096258427310318) No broad mispriced calls.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047110737709928645)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776904846038_2",
-      "timestamp": "2026-04-23T00:40:46.038572+00:00",
-      "source": "X_GROK",
-      "headline": "US-Iran permanent peace by Apr 30**",
-      "raw": "US-Iran permanent peace by Apr 30**  \n$18k whale sells YES @15\u00a2 (bets NO deal).[[7]](https://x.com/i/status/2047110723831026073)  \nNO (no deal), MED conf (low odds entry).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047110723831026073)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776904846040_3",
-      "timestamp": "2026-04-23T00:40:46.040577+00:00",
-      "source": "X_GROK",
-      "headline": "Tip trending: Fade hype, bet NO on drama events** (recurring smart money strat)",
-      "raw": "Tip trending: Fade hype, bet NO on drama events** (recurring smart money strat).[[8]](https://x.com/i/status/2046865191477170507)  \nGeneral NO bias, LOW conf (broad advice).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2046865191477170507)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776904846042_4",
-      "timestamp": "2026-04-23T00:40:46.042547+00:00",
-      "source": "X_GROK",
-      "headline": "Polymarket update: Leveraged perps launched** \u2192 10x volume prediction",
-      "raw": "Polymarket update: Leveraged perps launched** \u2192 10x volume prediction.[[9]](https://x.com/i/status/2047015075051938302)  \nPlatform bullish, MED conf. No major mispriced markets called out now; sports/geopolitics active.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047015075051938302)",
+      "x_link": "https://x.com/i/status/2046998320342573253)[[6]](https://x.com/i/status/2047096258427310318)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 0,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
