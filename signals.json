@@ -1,29 +1,70 @@
 {
-  "last_scan": "2026-04-23T01:26:19.966387+00:00",
-  "scan_seconds": 14.1,
+  "last_scan": "2026-04-23T01:27:26.306147+00:00",
+  "scan_seconds": 15.7,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776907570057_0",
-      "timestamp": "2026-04-23T01:26:10.057700+00:00",
+      "id": "sig_1776907640158_0",
+      "timestamp": "2026-04-23T01:27:20.158836+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to outdated results (latest April 14\u2013early April) lacking real-time events",
-      "raw": "LOW confidence** due to outdated results (latest April 14\u2013early April) lacking real-time events.[1][2][3][4][5][6]",
+      "headline": "I cannot provide the breaking news headline you're requesting because the search results do not contain current informat",
+      "raw": "I cannot provide the breaking news headline you're requesting because the search results do not contain current information about Raptors playoff series outcomes or Cooper Flagg-related developments from today (April 23, 2026).\n\nThe search results primarily cover:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776907574378_0",
-      "timestamp": "2026-04-23T01:26:14.379001+00:00",
+      "id": "sig_1776907640160_1",
+      "timestamp": "2026-04-23T01:27:20.160791+00:00",
       "source": "PERPLEXITY",
-      "headline": "[1] mentions Cooper Flagg's recent career-high 22 PTS for the **Dallas Mavericks** (not Raptors or Cavaliers) in their f",
-      "raw": "[1] mentions Cooper Flagg's recent career-high 22 PTS for the **Dallas Mavericks** (not Raptors or Cavaliers) in their first win, but this appears as a past game highlight without a timestamp confirming it as \"right now.\"",
-      "direction": "YES",
+      "headline": "**Cooper Flagg's Rookie of the Year race** from an earlier point in the 2025-26 season, showing his 96-point weekend per",
+      "raw": "**Cooper Flagg's Rookie of the Year race** from an earlier point in the 2025-26 season, showing his 96-point weekend performance that shifted odds in his favor over Kon Knueppel[1][2][3]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776907640162_2",
+      "timestamp": "2026-04-23T01:27:20.162650+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Historical odds tracking** showing Knueppel at -250 and Flagg at +190 at an unspecified recent point[4]",
+      "raw": "**Historical odds tracking** showing Knueppel at -250 and Flagg at +190 at an unspecified recent point[4]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776907640164_3",
+      "timestamp": "2026-04-23T01:27:20.164498+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**General analysis** of the ROY market[5]",
+      "raw": "**General analysis** of the ROY market[5]",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776907640166_4",
+      "timestamp": "2026-04-23T01:27:20.166496+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**References to the 2025 NBA Draft** (not current playoff activity)[6]",
+      "raw": "**References to the 2025 NBA Draft** (not current playoff activity)[6]\n\nThe results include one mention of Raptors dropping to the 9th lottery pick[6], but this appears to be from the 2025 draft, not current playoff news.\n\nTo get accurate breaking news about today's Raptors playoff series status and any market-moving developments, you would need current sports news sources with timestamps from Apr",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
@@ -33,56 +74,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776907574380_1",
-      "timestamp": "2026-04-23T01:26:14.380982+00:00",
+      "id": "sig_1776907645298_0",
+      "timestamp": "2026-04-23T01:27:25.298981+00:00",
       "source": "PERPLEXITY",
-      "headline": "[2][3] discuss **2025 NBA Draft Lottery** odds for Raptors to land Flagg (12",
-      "raw": "[2][3] discuss **2025 NBA Draft Lottery** odds for Raptors to land Flagg (12.5% for #1 pick), scheduled for May 12\u2014future event, no resolution yet.",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776907574382_2",
-      "timestamp": "2026-04-23T01:26:14.382850+00:00",
-      "source": "PERPLEXITY",
-      "headline": "[4] previews **2026 NBA Playoffs** matchups like Thunder-Suns (set for Friday), unrelated to query topics",
-      "raw": "[4] previews **2026 NBA Playoffs** matchups like Thunder-Suns (set for Friday), unrelated to query topics.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776907574384_3",
-      "timestamp": "2026-04-23T01:26:14.384746+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No sources report Cavaliers involvement, trades, injuries, or market-moving events; all pre-date \"right now\" with **LOW",
-      "raw": "No sources report Cavaliers involvement, trades, injuries, or market-moving events; all pre-date \"right now\" with **LOW confidence** in any implied immediacy.[1][2][3][4]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776907578959_0",
-      "timestamp": "2026-04-23T01:26:18.959292+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | YES | HIGH confidence**",
-      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | YES | HIGH confidence**  \nPolymarket traders are heavily focused on tweet prediction markets, especially \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" amid $20.7M+ trading volume across 20-130 active markets.[3][4]",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket; Traders Betting on April 17-24 Range at 38% for 220-239 Tweets | Y",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket; Traders Betting on April 17-24 Range at 38% for 220-239 Tweets | YES | MED**  \nPolymarket's Tweet Markets show active trading on \"Elon Musk # tweets April 17 - April 24, 2026?\", with the 220-239 range at 38% implied probability, reflecting real-time trader sentiment amid $20.7M volume across 20 markets[2][3].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
@@ -93,11 +89,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907578961_1",
-      "timestamp": "2026-04-23T01:26:18.961222+00:00",
+      "id": "sig_1776907645300_1",
+      "timestamp": "2026-04-23T01:27:25.300994+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Trading Expansion Market Heating Up | YES | MED confidence**",
-      "raw": "Nasdaq Trading Expansion Market Heating Up | YES | MED confidence**  \nTrending markets include \"Nasdaq round-the-clock trading by June 30?\" within 168 live predictions totaling $3M+ volume, signaling trader interest in finance shifts.[1]",
+      "headline": "Nasdaq 24/7 Trading by June 30 Market Active in Trending Predictions | YES | LOW**",
+      "raw": "Nasdaq 24/7 Trading by June 30 Market Active in Trending Predictions | YES | LOW**  \nTrending Markets on Polymarket feature 168 live predictions, including \"Nasdaq round-the-clock trading by June 30?\" with over $3.0M volume, as traders price crowd-sourced odds on tech-finance shifts[1]. No specific whale bets or X posts detailed.",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -106,23 +102,39 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776907578963_2",
-      "timestamp": "2026-04-23T01:26:18.963318+00:00",
+      "id": "sig_1776907645303_2",
+      "timestamp": "2026-04-23T01:27:25.303120+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Analytics Tools Spotlighted as Whale Edge | NO specific bets | LOW confidence**",
-      "raw": "Polymarket Analytics Tools Spotlighted as Whale Edge | NO specific bets | LOW confidence**  \nX posts highlight analytics tools revealing \"x-ray vision\" into top traders' strategies, implying smart money moves but no confirmed whale bets or mispriced markets detailed.[5]  \nNo recent confirmations, announcements, or resolutions in results to trigger immediate market moves; odds update in real-time o",
-      "direction": "NO",
+      "headline": "Polymarket Analytics Tools Gaining Traction for Whale/Smart Money Insights | YES | MED**",
+      "raw": "Polymarket Analytics Tools Gaining Traction for Whale/Smart Money Insights | YES | MED**  \nBinance Square highlights a Polymarket analytics tool revealing top trader strategies, described as \"x-ray vision\" for spotting winning moves and avoiding losses[5]. XTracker also tracks social metrics for Polymarket activity[4]. No confirmed resolutions, announcements, or mispriced markets explicitly noted ",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776907633555_0",
+      "timestamp": "2026-04-23T01:27:13.555249+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum price up on April 22, 2026 | YES | HIGH confidence**",
+      "raw": "Ethereum price up on April 22, 2026 | YES | HIGH confidence**  \nEthereum traded at $2,403.78 at 9:15 a.m. ET on April 22, up $98.74 from April 21's $2,305.04, confirming a short-term price increase amid neutral-to-bullish technicals targeting $2,100-$2,200 if resistance at $2,034 breaks.[1][4][3] Bitcoin also rose to $78,194.37, supporting broader market momentum.[1] No breaking confirmations, ann",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Bitcoin above 76,800 on April 22, 10PM ET?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 8,
-    "watch": 0,
+    "watch": 1,
     "high_conf": 0
   }
 }
