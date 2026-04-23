@@ -1,113 +1,71 @@
 {
-  "last_scan": "2026-04-23T04:53:27.953739+00:00",
-  "scan_seconds": 17.4,
+  "last_scan": "2026-04-23T04:54:34.660324+00:00",
+  "scan_seconds": 14.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776919994352_0",
-      "timestamp": "2026-04-23T04:53:14.352218+00:00",
+      "id": "sig_1776920069238_1",
+      "timestamp": "2026-04-23T04:54:29.238195+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Posts 3 Bullish Signals at 2-Month High of $2,408 | YES | HIGH confidence**",
-      "raw": "ETH Posts 3 Bullish Signals at 2-Month High of $2,408 | YES | HIGH confidence**  \nEthereum has just confirmed three simultaneous bullish signals\u2014record 3.6 million daily transactions, Rainbow Chart at accumulation levels, and first 2026 weekly MACD bullish crossover\u2014all at $2,408, breaking $2,400 resistance and activating a cup-and-handle pattern targeting $3,000, amid BTC's rally past $78K on $82",
+      "headline": "Raptors rookie Kolby Morris Boykins boosts playoff odds amid injury concerns | NO | MED confidence**",
+      "raw": "Raptors rookie Kolby Morris Boykins boosts playoff odds amid injury concerns | NO | MED confidence**  \nToronto's 9th overall pick rookie (20 years old) is averaging 15 PPG, 6 RPG, 7.2 box plus-minus over recent games, favorably altering Raptors' playoff seeding odds (currently 5th, tiebreakers over Atlanta/Orlando) despite sitting out a key game with Immanuel Quickley[2]. Coach Darko backs core pl",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
-        "Will October be the best month for Bitcoin in 2026?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776920006951_1",
-      "timestamp": "2026-04-23T04:53:26.951014+00:00",
+      "id": "sig_1776920069236_0",
+      "timestamp": "2026-04-23T04:54:29.236126+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent resolutions or announcements impacting markets: None explicitly confirmed in last hours, but dynamic odds updates",
-      "raw": "Recent resolutions or announcements impacting markets: None explicitly confirmed in last hours, but dynamic odds updates from \"new information\" like tweet data or inflation reports are moving prices**\u2014e.g., Musk market adjusting continuously[2][3][4]. XTracker tools show social analytics spiking on these, suggesting tips trending around **underpriced YES on inflation peaks** if data drops[6][1]. O",
+      "headline": "Lakers lead Rockets 2-0 after Game 2 win | YES | HIGH confidence**",
+      "raw": "Lakers lead Rockets 2-0 after Game 2 win | YES | HIGH confidence**  \nThe Los Angeles Lakers have taken a 2-0 series lead over the Houston Rockets in their Western Conference first-round playoff matchup, with LeBron James (41 years old) delivering a highlight-reel reverse windmill dunk and expressing surprise at the play post-game[3][4]. This development, highlighted in recent Bleacher Report updat",
       "direction": "YES",
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776920000692_3",
-      "timestamp": "2026-04-23T04:53:20.692148+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Flagg's recent shooting struggles**, with poor three-point performance in late games[5]",
-      "raw": "**Flagg's recent shooting struggles**, with poor three-point performance in late games[5]\n\nHowever, none of these results contain breaking news, official announcements, or playoff series outcomes from today. To answer your question about series predictions and confirmed outcomes, I would need current search results from April 23, 2026 that include official league announcements, playoff results, or",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776920006948_0",
-      "timestamp": "2026-04-23T04:53:26.948972+00:00",
+      "id": "sig_1776920073655_0",
+      "timestamp": "2026-04-23T04:54:33.655285+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Discussions on X: SCOTUS Sports Case, Elon Musk Tweets, Inflation Peaks | YES (active chatter) | MED",
-      "raw": "Trending Polymarket Discussions on X: SCOTUS Sports Case, Elon Musk Tweets, Inflation Peaks | YES (active chatter) | MED confidence**\n\nPolymarket's top trending markets include \"SCOTUS accepts sports event contract case by Dec 31\" at 37% YES odds with high volume, \"Elon Musk # tweets April 17-24, 2026\" favoring 220-239 at 40% and 1120-1159 at 22%, and \"How high will inflation get in 2026?\" amid 16",
-      "direction": "YES",
-      "confidence": 0.9,
+      "headline": "Elon Musk April Tweet Count Markets Dominating Polymarket Trends | NO | MED confidence**",
+      "raw": "Elon Musk April Tweet Count Markets Dominating Polymarket Trends | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% chance for 1120-1159, previously noted at 22%).[2][3][4] These tweet prediction markets ha",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920000686_0",
-      "timestamp": "2026-04-23T04:53:20.686543+00:00",
+      "id": "sig_1776920073657_1",
+      "timestamp": "2026-04-23T04:54:33.657324+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting",
-      "raw": "I cannot provide the breaking news you're requesting. The search results provided are from March and early April 2026 and do not contain any recent announcements, confirmations, or resolved outcomes from today (April 23, 2026) that would move prediction markets.\n\nThe most recent information available discusses:",
-      "direction": null,
+      "headline": "Trending Analytics Tools for Whale Tracking | YES | LOW confidence**",
+      "raw": "Trending Analytics Tools for Whale Tracking | YES | LOW confidence**\n\nTraders on platforms like Binance Square are buzzing about a **Polymarket analytics tool** that reveals \"x-ray vision\" into top traders' strategies, helping spot whale bets and smart money moves before losses\u2014users claim it's essential for winning edges.[5]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776920000688_1",
-      "timestamp": "2026-04-23T04:53:20.688426+00:00",
-      "source": "PERPLEXITY",
-      "headline": "A **Mavericks victory over the Cavaliers 130-120** in what appears to be a mid-season game, with Cooper Flagg posting 27",
-      "raw": "A **Mavericks victory over the Cavaliers 130-120** in what appears to be a mid-season game, with Cooper Flagg posting 27 points and 10 assists[1]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776920000690_2",
-      "timestamp": "2026-04-23T04:53:20.690229+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Flagg being identified as a Rookie of the Year frontrunner** as of early April[2]",
-      "raw": "**Flagg being identified as a Rookie of the Year frontrunner** as of early April[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 5,
+    "enter": 1,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
