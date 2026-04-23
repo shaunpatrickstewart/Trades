@@ -1,163 +1,177 @@
 {
-  "last_scan": "2026-04-23T04:37:39.505560+00:00",
-  "scan_seconds": 28.9,
+  "last_scan": "2026-04-23T04:38:32.895357+00:00",
+  "scan_seconds": 17.3,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776919040266_0",
-      "timestamp": "2026-04-23T04:37:20.266264+00:00",
+      "id": "sig_1776919099221_0",
+      "timestamp": "2026-04-23T04:38:19.221553+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify breaking news or recent announcements from the provided search results that would represent newly conf",
-      "raw": "I cannot identify breaking news or recent announcements from the provided search results that would represent newly confirmed, announced, or resolved events moving prediction markets.\n\nThe search results contain **price predictions and forecasts** rather than breaking news about confirmed events. They show:",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776919040274_4",
-      "timestamp": "2026-04-23T04:37:20.274300+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Technical analysis indicating Bitcoin's 200-day moving average has been rising since April 17, 2026[5]",
-      "raw": "Technical analysis indicating Bitcoin's 200-day moving average has been rising since April 17, 2026[5]\n\nHowever, none of these represent \"just confirmed\" or \"newly announced\" events\u2014they are ongoing market predictions and technical analyses. The search results lack recent announcements, regulatory decisions, or other catalyst events that would constitute breaking news moving markets.\n\nTo provide t",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776919058502_0",
-      "timestamp": "2026-04-23T04:37:38.502604+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Discussions on X: Elon Musk Tweet Counts and Inflation Peaks Lead Chatter** | NO | MED confidence",
-      "raw": "Trending Polymarket Discussions on X: Elon Musk Tweet Counts and Inflation Peaks Lead Chatter** | NO | MED confidence\n\nPolymarket's **trending markets** as of April 22, 2026, highlight active trading in \"How high will inflation get in 2026?\" alongside niche bets like \"Nasdaq round-the-clock trading by June 30?\", reflecting over $3.3M in volume across 168 markets[1]. Traders on X are buzzing about ",
+      "headline": "Ethereum Price Up 2",
+      "raw": "Ethereum Price Up 2.70% on April 22, 2026, Amid April Bullish Momentum for BTC and ETH** | YES | MED[1][3][5]\n\nEthereum traded at $2,403.78 on April 22 (up $98.74 from April 21's $2,305.04), with a 2.70% 24-hour gain reported early April 23, while Bitcoin held near $78,000[1][2][5]. April 2026 shows **bullish momentum** for Bitcoin, Ethereum, XRP, BNB, and Solana, driven by Ethereum's Layer 2 expa",
       "direction": "YES",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
+        "Will October be the best month for Bitcoin in 2026?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776919103811_0",
+      "timestamp": "2026-04-23T04:38:23.811599+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers lead Raptors 2-0 after Game 2 win 115-105** | **YES** | **HIGH** confidence[4][6]",
+      "raw": "Cavaliers lead Raptors 2-0 after Game 2 win 115-105** | **YES** | **HIGH** confidence[4][6]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 of their first-round NBA playoff series at Rocket Mortgage Arena, taking a 2-0 series lead, with Donovan Mitchell scoring 30 points and James Harden adding 28[4][6]. This outcome was just confirmed in recent reports, as the Raptors had ",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Donovan Mitchell: Points O/U 27.5"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776919111875_0",
+      "timestamp": "2026-04-23T04:38:31.875503+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting",
+      "raw": "I cannot provide the real-time information you're requesting. The search results provided are pages from Polymarket's general market listings and do not contain:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919040268_1",
-      "timestamp": "2026-04-23T04:37:20.268509+00:00",
+      "id": "sig_1776919111877_1",
+      "timestamp": "2026-04-23T04:38:31.877384+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum price predictions for April 2026 (minimum $2,300",
-      "raw": "Ethereum price predictions for April 2026 (minimum $2,300.04, maximum $2,554.21)[2]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776919040270_2",
-      "timestamp": "2026-04-23T04:37:20.270345+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Bitcoin price forecasts ranging from $60,000 to $250,000 for 2026[6]",
-      "raw": "Bitcoin price forecasts ranging from $60,000 to $250,000 for 2026[6]",
+      "headline": "Current social media posts from traders on X (Twitter)",
+      "raw": "Current social media posts from traders on X (Twitter)",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919040272_3",
-      "timestamp": "2026-04-23T04:37:20.272196+00:00",
+      "id": "sig_1776919111879_2",
+      "timestamp": "2026-04-23T04:38:31.879198+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket prediction market odds on whether Ethereum will hit $2,600 in April (21% yes, 79% no)[3]",
-      "raw": "Polymarket prediction market odds on whether Ethereum will hit $2,600 in April (21% yes, 79% no)[3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776919053531_0",
-      "timestamp": "2026-04-23T04:37:33.531936+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the specific \"breaking news\" or market-moving announcement you're requesting based on these search resu",
-      "raw": "I cannot provide the specific \"breaking news\" or market-moving announcement you're requesting based on these search results. The available information is from **April 6, 2026** \u2014 more than two weeks before the current date you've specified (April 23, 2026) \u2014 making it outdated for a breaking news query.\n\nThe search results document Cooper Flagg's historic 45-point performance against the Lakers on",
+      "headline": "Active whale bets or smart money positions",
+      "raw": "Active whale bets or smart money positions",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919053534_1",
-      "timestamp": "2026-04-23T04:37:33.534067+00:00",
+      "id": "sig_1776919111881_3",
+      "timestamp": "2026-04-23T04:38:31.881018+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current Raptors-related news involving Flagg",
-      "raw": "Current Raptors-related news involving Flagg",
+      "headline": "Real-time market commentary or tips",
+      "raw": "Real-time market commentary or tips",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919053535_2",
-      "timestamp": "2026-04-23T04:37:33.535841+00:00",
+      "id": "sig_1776919111882_4",
+      "timestamp": "2026-04-23T04:38:31.882809+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confirmation of playoff seeding or eligibility",
-      "raw": "Confirmation of playoff seeding or eligibility",
+      "headline": "Recent news announcements or market-moving events",
+      "raw": "Recent news announcements or market-moving events",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919053537_3",
-      "timestamp": "2026-04-23T04:37:33.537679+00:00",
+      "id": "sig_1776919111884_5",
+      "timestamp": "2026-04-23T04:38:31.884734+00:00",
       "source": "PERPLEXITY",
-      "headline": "Any recent announcements about the Lakers, Flagg, or roster moves",
-      "raw": "Any recent announcements about the Lakers, Flagg, or roster moves",
+      "headline": "Information about mispriced or imminent market movements",
+      "raw": "Information about mispriced or imminent market movements\n\nThe search results only show general platform information and historical snapshots of market activity (from April 9-22, 2026), such as Elon Musk tweet count predictions trading at various odds.\n\nTo find this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919053539_4",
-      "timestamp": "2026-04-23T04:37:33.539682+00:00",
+      "id": "sig_1776919111886_6",
+      "timestamp": "2026-04-23T04:38:31.886551+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information relevant to prediction markets as of April 23",
-      "raw": "Information relevant to prediction markets as of April 23\n\nTo provide accurate breaking news with market-moving implications, I would need search results from April 23, 2026, or very recent sources. The historical context from two weeks ago, while impressive (Flagg's back-to-back 40+ point games and rookie records), does not meet your requirement for current confirmations or announcements.",
+      "headline": "Check X/Twitter directly for posts from prediction market traders and analysts",
+      "raw": "Check X/Twitter directly for posts from prediction market traders and analysts",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776919111888_7",
+      "timestamp": "2026-04-23T04:38:31.888479+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monitor Polymarket's live order books and recent trade activity",
+      "raw": "Monitor Polymarket's live order books and recent trade activity",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776919111890_8",
+      "timestamp": "2026-04-23T04:38:31.890282+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Review crypto/finance news outlets covering prediction markets",
+      "raw": "Review crypto/finance news outlets covering prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776919111892_9",
+      "timestamp": "2026-04-23T04:38:31.892241+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Follow prediction market Discord servers or specialized trading communities",
+      "raw": "Follow prediction market Discord servers or specialized trading communities\n\nThe nature of your query requires real-time data that isn't captured in these search results.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 11,
+    "enter": 2,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 3
+    "high_conf": 2
   }
 }
