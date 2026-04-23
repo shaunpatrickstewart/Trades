@@ -1,49 +1,16 @@
 {
-  "last_scan": "2026-04-23T04:58:13.819239+00:00",
-  "scan_seconds": 23.2,
+  "last_scan": "2026-04-23T04:59:17.229625+00:00",
+  "scan_seconds": 16.6,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776920275346_0",
-      "timestamp": "2026-04-23T04:57:55.346495+00:00",
+      "id": "sig_1776920347772_0",
+      "timestamp": "2026-04-23T04:59:07.772325+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent confirmations that would move prediction markets from the available search",
-      "raw": "I cannot identify any breaking news or recent confirmations that would move prediction markets from the available search results. The search results contain general price updates and historical information about Ethereum and Bitcoin from April 21-22, 2026, but no announcement of a specific event, regulatory decision, or market-moving development that has just been confirmed or resolved.\n\nThe most ",
+      "headline": "Impact on prediction markets: NONE (speculation only, no resolution)",
+      "raw": "Impact on prediction markets: NONE (speculation only, no resolution). Confidence: HIGH** (search results lack any official rookie-related confirmations or market-moving events).[1][2][3]",
       "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776920283674_1",
-      "timestamp": "2026-04-23T04:58:03.674137+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Raptors playoff status**: The Toronto Raptors lost Game 1 to the Cleveland Cavaliers (126-113)[1], indicating they are",
-      "raw": "**Raptors playoff status**: The Toronto Raptors lost Game 1 to the Cleveland Cavaliers (126-113)[1], indicating they are in the first round of the Eastern Conference playoffs, not the conference semifinals.\n\nTo provide breaking news with the market-impact format you've requested, I would need search results from today (April 23, 2026) containing recent announcements or confirmed developments. The ",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776920283669_0",
-      "timestamp": "2026-04-23T04:58:03.669936+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results do not contain current informat",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results do not contain current information from today (April 23, 2026). The most recent article in the search results is dated April 20, 2026, reporting on the Lakers' Game 1 playoff victory over the Rockets.\n\nThe search results show:",
-      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -51,11 +18,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776920292800_0",
-      "timestamp": "2026-04-23T04:58:12.800039+00:00",
+      "id": "sig_1776920356211_0",
+      "timestamp": "2026-04-23T04:59:16.211294+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's platform structure and some markets from April 9-22, 2026, but they do not include:",
+      "headline": "I cannot provide the real-time information you're requesting",
+      "raw": "I cannot provide the real-time information you're requesting. The search results provided are from Polymarket's general market pages (dated April 21-22, 2026) and contain only **structural information about how prediction markets work**, not current trader sentiment, social media posts, whale activity, or live market movements.\n\nTo answer your query, I would need:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -64,11 +31,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920292801_1",
-      "timestamp": "2026-04-23T04:58:12.801900+00:00",
+      "id": "sig_1776920356213_1",
+      "timestamp": "2026-04-23T04:59:16.213203+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from traders discussing Polymarket activity",
-      "raw": "Current X (Twitter) posts from traders discussing Polymarket activity",
+      "headline": "**Real-time X (Twitter) feeds** monitoring trader discussions and market commentary",
+      "raw": "**Real-time X (Twitter) feeds** monitoring trader discussions and market commentary",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -77,11 +44,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920292803_2",
-      "timestamp": "2026-04-23T04:58:12.803691+00:00",
+      "id": "sig_1776920356215_2",
+      "timestamp": "2026-04-23T04:59:16.215065+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time whale bets or large trades",
-      "raw": "Real-time whale bets or large trades",
+      "headline": "**Live order book data** showing current positions and large trades",
+      "raw": "**Live order book data** showing current positions and large trades",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -90,11 +57,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920292805_3",
-      "timestamp": "2026-04-23T04:58:12.805499+00:00",
+      "id": "sig_1776920356217_3",
+      "timestamp": "2026-04-23T04:59:16.217169+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current market mispricing discussions",
-      "raw": "Current market mispricing discussions",
+      "headline": "**Recent market resolutions** or breaking news announcements",
+      "raw": "**Recent market resolutions** or breaking news announcements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -103,11 +70,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920292807_4",
-      "timestamp": "2026-04-23T04:58:12.807365+00:00",
+      "id": "sig_1776920356219_4",
+      "timestamp": "2026-04-23T04:59:16.219108+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news or recent announcements that would move prediction markets",
-      "raw": "Breaking news or recent announcements that would move prediction markets",
+      "headline": "**Current odds and volume changes** across active markets",
+      "raw": "**Current odds and volume changes** across active markets\n\nThe search results show that Polymarket hosts markets on topics like Elon Musk's tweet count and various news events, but they don't reveal what traders are actively discussing, which positions are being accumulated, or what markets are moving right now.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -116,11 +83,50 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776920292809_5",
-      "timestamp": "2026-04-23T04:58:12.809201+00:00",
+      "id": "sig_1776920356220_5",
+      "timestamp": "2026-04-23T04:59:16.220999+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live trader sentiment or commentary",
-      "raw": "Live trader sentiment or commentary\n\nTo get this information, you would need to:",
+      "headline": "For current breaking news and trader sentiment**, you would need to:",
+      "raw": "For current breaking news and trader sentiment**, you would need to:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776920356222_6",
+      "timestamp": "2026-04-23T04:59:16.222804+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Check X/Twitter directly for #Polymarket or trader discussions",
+      "raw": "Check X/Twitter directly for #Polymarket or trader discussions",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776920356224_7",
+      "timestamp": "2026-04-23T04:59:16.224706+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monitor Polymarket's platform in real-time for order flow and market shifts",
+      "raw": "Monitor Polymarket's platform in real-time for order flow and market shifts",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776920356226_8",
+      "timestamp": "2026-04-23T04:59:16.226573+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Review dedicated crypto/prediction market news sources with live updates",
+      "raw": "Review dedicated crypto/prediction market news sources with live updates\n\nThe static search results cannot capture the dynamic, moment-to-moment information your query requires.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -130,9 +136,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 0,
+    "alert": 10,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
