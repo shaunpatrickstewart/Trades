@@ -1,99 +1,108 @@
 {
-  "last_scan": "2026-04-23T09:25:22.744082+00:00",
-  "scan_seconds": 22.1,
+  "last_scan": "2026-04-23T09:26:27.025423+00:00",
+  "scan_seconds": 16.4,
   "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776936313077_0",
-      "timestamp": "2026-04-23T09:25:13.077065+00:00",
+      "id": "sig_1776936381581_4",
+      "timestamp": "2026-04-23T09:26:21.581882+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the requested format because the search results do not contain information dated after",
-      "raw": "I cannot provide breaking news in the requested format because the search results do not contain information dated after April 14, 2026, and the current date is April 23, 2026.\n\nThe most recent information available shows that as of April 14, 2026, Kevin Warsh's confirmation hearing was scheduled for Tuesday, April 21[2]. However, the search results do not include the outcome of that hearing or an",
-      "direction": null,
+      "headline": "Event occurred ~2 weeks ago (April 6 coverage); nothing \"RIGHT NOW\" as of April 23, 2026, confirmed/announced to shift p",
+      "raw": "Event occurred ~2 weeks ago (April 6 coverage); nothing \"RIGHT NOW\" as of April 23, 2026, confirmed/announced to shift prediction markets (e.g., no playoff seeding locks, Flagg-related trades, or Raptors/Lakers outcomes resolved)[1][2][3][4]. **LOW confidence** due to outdated timing and lack of market-moving playoff context.",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776936313079_1",
-      "timestamp": "2026-04-23T09:25:13.079397+00:00",
+      "id": "sig_1776936377118_0",
+      "timestamp": "2026-04-23T09:26:17.118672+00:00",
       "source": "PERPLEXITY",
-      "headline": "The result of Warsh's confirmation hearing on April 21",
-      "raw": "The result of Warsh's confirmation hearing on April 21",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776936313081_2",
-      "timestamp": "2026-04-23T09:25:13.081440+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any announcements regarding the DOJ probe into the Federal Reserve",
-      "raw": "Any announcements regarding the DOJ probe into the Federal Reserve",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776936313083_3",
-      "timestamp": "2026-04-23T09:25:13.083397+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell's stated intentions about remaining on the Board after his chairmanship ends May 15",
-      "raw": "Powell's stated intentions about remaining on the Board after his chairmanship ends May 15",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776936313085_4",
-      "timestamp": "2026-04-23T09:25:13.085444+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Senate voting outcomes on Warsh's nomination",
-      "raw": "Senate voting outcomes on Warsh's nomination\n\nI recommend performing a new search with today's date to capture the latest developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776936321738_0",
-      "timestamp": "2026-04-23T09:25:21.738381+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets in April 2026?\" leading: 26% odds for 1160-1199 tweets[2] and 24% for 1120-1159[3]. These reflect real-time trader sentiment across Tweet Markets (20 active[2]) and broader Tweet predictions (130 active[3]), bac",
+      "headline": "Kevin Warsh's Senate Confirmation Hearing for Fed Chair Underway, Boosting Odds of Replacing Powell by May 15** | **YES*",
+      "raw": "Kevin Warsh's Senate Confirmation Hearing for Fed Chair Underway, Boosting Odds of Replacing Powell by May 15** | **YES** | **HIGH** confidence[1][2]\n\nTrump nominated Kevin Warsh in January 2026 to succeed Jerome Powell, whose term ends May 15; Warsh testified live before the Senate Banking Committee on April 21, with strong administration confidence in confirmation and prior unanimous Senate appr",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776936386022_0",
+      "timestamp": "2026-04-23T09:26:26.022135+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trending Activity | NO | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trending Activity | NO | LOW confidence**\n\nPolymarket's top trending markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24-26% odds on high-volume buckets like 1120-1159 or 1160-1199).[2][3][4]  \nTrading volumes exce",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776936321741_1",
-      "timestamp": "2026-04-23T09:25:21.741026+00:00",
+      "id": "sig_1776936381573_0",
+      "timestamp": "2026-04-23T09:26:21.573091+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq 24/7 Trading by June 30",
-      "raw": "Nasdaq 24/7 Trading by June 30? Gaining Traction in Trending Markets | NO specific whale moves | MED confidence**  \nTrending Markets (164 live[1]) highlight queries like **\u201cNasdaq round-the-clock trading by June 30?\u201d**, with $3.3M volume showing investor bets on finance shifts[1]. Lacks confirmation of X buzz, mispricing tips, or resolutions moving odds.",
+      "headline": "Cooper Flagg's Historic 45-Point Explosion Ends Mavs' 14-Game Home Skid vs",
+      "raw": "Cooper Flagg's Historic 45-Point Explosion Ends Mavs' 14-Game Home Skid vs. Injury-Hit Lakers | NO | LOW confidence**",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776936381575_1",
+      "timestamp": "2026-04-23T09:26:21.575265+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The Dallas Mavericks defeated the Los Angeles Lakers 134-128 on Sunday, April 5, 2026, with rookie **Cooper Flagg** scor",
+      "raw": "The Dallas Mavericks defeated the Los Angeles Lakers 134-128 on Sunday, April 5, 2026, with rookie **Cooper Flagg** scoring **45 points**, 9 assists, and 8 rebounds\u2014his second straight 40+ point game (after 51 points), making him the first NBA teenager with back-to-back 40-point outings and the first rookie since Allen Iverson in 1996-97[1][2][3].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776936381577_2",
+      "timestamp": "2026-04-23T09:26:21.577579+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers were **injury-depleted**, with Austin Reaves out for the regular season and playoffs, and mentions of Luka Doncic",
+      "raw": "Lakers were **injury-depleted**, with Austin Reaves out for the regular season and playoffs, and mentions of Luka Doncic's absence impacting LA; this extends Lakers' struggles but is a regular-season game (Lakers next host OKC Tuesday)[1][2][4].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776936381579_3",
+      "timestamp": "2026-04-23T09:26:21.579599+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No mentions of **Raptors**, **NBA playoffs** starting, or resolutions involving them; Flagg's prior games vs",
+      "raw": "No mentions of **Raptors**, **NBA playoffs** starting, or resolutions involving them; Flagg's prior games vs. Toronto (19.5 PPG avg in 2 matchups) unrelated to this news[5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
