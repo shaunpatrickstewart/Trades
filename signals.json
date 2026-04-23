@@ -1,72 +1,114 @@
 {
-  "last_scan": "2026-04-23T01:06:57.699316+00:00",
-  "scan_seconds": 17.1,
+  "last_scan": "2026-04-23T01:08:08.212347+00:00",
+  "scan_seconds": 17.6,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776906409078_1",
-      "timestamp": "2026-04-23T01:06:49.078407+00:00",
+      "id": "sig_1776906474743_1",
+      "timestamp": "2026-04-23T01:07:54.743120+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavs Dominate Raptors in Game 1 with New Defensive Scheme Targeting Ingram | NO | MED confidence**",
-      "raw": "Cavs Dominate Raptors in Game 1 with New Defensive Scheme Targeting Ingram | NO | MED confidence**  \nCleveland Cavaliers won Game 1 over Toronto Raptors by implementing a targeted defense that limited Raptors' leading scorer Brandon Ingram, who averaged 20 shots per game against them in the regular season[5]. No series outcome or Game 2 result confirmed; matchup remains early in first round with p",
-      "direction": "NO",
+      "headline": "ETH ETFs 8-Day Inflow Streak Confirmed | YES | HIGH confidence**",
+      "raw": "ETH ETFs 8-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nU.S. spot Ethereum ETFs saw $67.77 million net inflows on April 20 (8th consecutive day) and $276 million for the week, with Fidelity\u2019s FETH leading at $126 million; ETH up 3.33% to $2,395.[1][3]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776906416686_4",
-      "timestamp": "2026-04-23T01:06:56.686322+00:00",
+      "id": "sig_1776906474741_0",
+      "timestamp": "2026-04-23T01:07:54.741144+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news that has just been announced or resolved",
-      "raw": "Breaking news that has just been announced or resolved",
-      "direction": null,
+      "headline": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**",
+      "raw": "BTC ETFs 5-Day Inflow Streak Confirmed | YES | HIGH confidence**  \nU.S. spot Bitcoin ETFs recorded $238.37 million in net inflows on April 20, extending a 5-day streak\u2014the firmest institutional bid since February\u2014led by BlackRock\u2019s IBIT at $256.05 million.[1][3] This signals strong demand amid Bitcoin trading around $75,900-$78,497 (up 2-3.6%).[1][2]",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776906403924_0",
-      "timestamp": "2026-04-23T01:06:43.924790+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETH Nears Two-Month High on U",
-      "raw": "ETH Nears Two-Month High on U.S.-Iran Peace Optimism | YES | HIGH confidence**  \nBitcoin rose 5% to ~$75,000 and Ethereum jumped 7% to nearly $2,400 early Tuesday (April 14, 2026), driven by market bets on progressing U.S.-Iran peace talks reducing geopolitical risks.[2]  \nThis recent price surge aligns with Polymarket odds showing 59% probability for ETH at $2,300\u2013$2,400 on April 23, 2026, potent",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
-        "Will October be the best month for Bitcoin in 2026?"
-      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776906409075_0",
-      "timestamp": "2026-04-23T01:06:49.075934+00:00",
+      "id": "sig_1776906474745_2",
+      "timestamp": "2026-04-23T01:07:54.745154+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Series Lead Over Rockets Despite Injuries to Doncic and Reaves | YES | HIGH confidence**",
-      "raw": "Lakers Take 2-0 Series Lead Over Rockets Despite Injuries to Doncic and Reaves | YES | HIGH confidence**  \nThe Los Angeles Lakers have secured a 2-0 lead in their first-round playoff series against the Houston Rockets, dramatically improving their NBA Finals odds from 150-1 to 35-1 and becoming a major sportsbook liability at BetMGM, Caesars, and DraftKings[1][5]. This shift occurred after victori",
+      "headline": "Bitcoin $80K by April End Odds Jump | YES | MED confidence**",
+      "raw": "Bitcoin $80K by April End Odds Jump | YES | MED confidence**  \nOdds for Bitcoin hitting $80K in April 2026 have risen amid ETF momentum, tokenization gains, and prior short squeezes, with BTC breaking $75K resistance on institutional flows.[4][7] No new October or prediction market resolutions confirmed.[2]",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776906481385_0",
+      "timestamp": "2026-04-23T01:08:01.385445+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you've requested because the search results don't contain recent announcements",
+      "raw": "I cannot provide the breaking news format you've requested because the search results don't contain recent announcements, confirmed predictions, or market-moving developments that would justify the urgent framing you're asking for.\n\nBased on the available information, here's what is currently known about the relevant series:",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776906416678_0",
-      "timestamp": "2026-04-23T01:06:56.678547+00:00",
+      "id": "sig_1776906487193_4",
+      "timestamp": "2026-04-23T01:08:07.193612+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on these search results",
-      "raw": "I cannot provide the real-time information you're requesting based on these search results.\n\nThe search results provided describe **general features of Polymarket** as a prediction market platform, but they do not contain:",
+      "headline": "Breaking news that just resolved or was announced",
+      "raw": "Breaking news that just resolved or was announced",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776906481392_1",
+      "timestamp": "2026-04-23T01:08:01.392892+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Status**: The Cavaliers are seeded 4th in the Eastern Conference[1] and are currently competing in the playoff",
+      "raw": "Cavaliers Status**: The Cavaliers are seeded 4th in the Eastern Conference[1] and are currently competing in the playoffs, but the search results don't provide specific information about their Conference Semifinals matchup or current series status beyond playoff bracket positioning.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776906481396_2",
+      "timestamp": "2026-04-23T01:08:01.396428+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Rookie Information**: The search results don't contain information about a specific rookie affecting any of these series",
+      "raw": "Rookie Information**: The search results don't contain information about a specific rookie affecting any of these series outcomes.\n\nThe search results lack the real-time announcements, official confirmations, or market-moving developments needed to provide the \"breaking news\" headline format you requested. To get current market-moving information, you would need access to live sports news sources,",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776906487182_0",
+      "timestamp": "2026-04-23T01:08:07.182903+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I don't have access to real-time information about what Polymarket traders are currently posting, discussing, or betting",
+      "raw": "I don't have access to real-time information about what Polymarket traders are currently posting, discussing, or betting on. The search results provided are static pages showing general information about Polymarket's prediction markets and some example markets, but they don't contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -75,11 +117,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906416680_1",
-      "timestamp": "2026-04-23T01:06:56.680475+00:00",
+      "id": "sig_1776906487185_1",
+      "timestamp": "2026-04-23T01:08:07.185445+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media posts from Polymarket traders on X (Twitter)",
-      "raw": "Current social media posts from Polymarket traders on X (Twitter)",
+      "headline": "Live trader commentary or social media discussions",
+      "raw": "Live trader commentary or social media discussions",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -88,11 +130,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906416682_2",
-      "timestamp": "2026-04-23T01:06:56.682348+00:00",
+      "id": "sig_1776906487187_2",
+      "timestamp": "2026-04-23T01:08:07.187886+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active whale trades or large money movements happening right now",
-      "raw": "Active whale trades or large money movements happening right now",
+      "headline": "Current whale bets or smart money movements",
+      "raw": "Current whale bets or smart money movements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -101,11 +143,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906416684_3",
-      "timestamp": "2026-04-23T01:06:56.684215+00:00",
+      "id": "sig_1776906487190_3",
+      "timestamp": "2026-04-23T01:08:07.190987+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time market analysis or commentary about mispriced markets",
-      "raw": "Real-time market analysis or commentary about mispriced markets",
+      "headline": "Real-time market analysis or tips from traders",
+      "raw": "Real-time market analysis or tips from traders",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -114,11 +156,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906416688_5",
-      "timestamp": "2026-04-23T01:06:56.688270+00:00",
+      "id": "sig_1776906487196_5",
+      "timestamp": "2026-04-23T01:08:07.196636+00:00",
       "source": "PERPLEXITY",
-      "headline": "Specific market movements or sentiment from traders",
-      "raw": "Specific market movements or sentiment from traders\n\nTo get this information, you would need to:",
+      "headline": "Information about which markets traders believe are mispriced",
+      "raw": "Information about which markets traders believe are mispriced\n\nTo find this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -129,8 +171,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 8,
+    "alert": 11,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 5
   }
 }
