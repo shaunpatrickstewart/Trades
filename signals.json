@@ -1,85 +1,62 @@
 {
-  "last_scan": "2026-04-23T03:28:43.360968+00:00",
-  "scan_seconds": 12.7,
+  "last_scan": "2026-04-23T03:29:53.014444+00:00",
+  "scan_seconds": 12.1,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776914918140_0",
-      "timestamp": "2026-04-23T03:28:38.141004+00:00",
+      "id": "sig_1776914983970_0",
+      "timestamp": "2026-04-23T03:29:43.970431+00:00",
       "source": "PERPLEXITY",
-      "headline": "Magic Defeat Mavericks 138-127 Despite Cooper Flagg's Historic 51 Points, Extending Dallas' Home Losing Streak to 14 | N",
-      "raw": "Magic Defeat Mavericks 138-127 Despite Cooper Flagg's Historic 51 Points, Extending Dallas' Home Losing Streak to 14 | NO major resolution for Lakers series win or conference semis | HIGH confidence** [1]\n\nOrlando Magic overcame a 51-point performance from Dallas Mavericks rookie **Cooper Flagg**\u2014including 24 points in the fourth quarter, making him the youngest player in NBA history with a 50-poi",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776914913844_0",
-      "timestamp": "2026-04-23T03:28:33.844323+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH**\u2014search results lack any \"just confirmed\" news fitting the query as of April 23, 2026, 3 AM UTC; only",
-      "raw": "Confidence: HIGH**\u2014search results lack any \"just confirmed\" news fitting the query as of April 23, 2026, 3 AM UTC; only historical prices and analyst outlooks provided.[1][2][3][4]",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Confidence: HIGH** \u2013 Search results show no fresh (post-April 21) catalysts; claims like $6K ETH are unverified outliers",
+      "raw": "Confidence: HIGH** \u2013 Search results show no fresh (post-April 21) catalysts; claims like $6K ETH are unverified outliers. [1][3][4]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776914922348_0",
-      "timestamp": "2026-04-23T03:28:42.348142+00:00",
+      "id": "sig_1776914988117_0",
+      "timestamp": "2026-04-23T03:29:48.117930+00:00",
       "source": "PERPLEXITY",
-      "headline": "SCOTUS Sports Event Contract Case Acceptance | NO (62% implied, most active market) | HIGH confidence** [1]",
-      "raw": "SCOTUS Sports Event Contract Case Acceptance | NO (62% implied, most active market) | HIGH confidence** [1]  \nPolymarket's top trending market assigns 38% odds to acceptance by Dec 31, 2026, with real-time trading volume driving updates amid high activity.[1]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776914922351_1",
-      "timestamp": "2026-04-23T03:28:42.351565+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends Soon | NO (high volume across timelines) | MED confidence** [2][5]",
-      "raw": "Iran x Israel/US Conflict Ends Soon | NO (high volume across timelines) | MED confidence** [2][5]  \nRepeatedly listed as top-traded world event market alongside \"U.S. invade Iran before 2027?\"; no resolution confirmed, but concentrated 24h volume signals trader focus.[5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776914922354_2",
-      "timestamp": "2026-04-23T03:28:42.354016+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LIV Golf Shutdown Announcement in 2026 | NO (trending current event) | LOW confidence** [4]",
-      "raw": "LIV Golf Shutdown Announcement in 2026 | NO (trending current event) | LOW confidence** [4]  \nActive in 113 current events markets with $93.2M category volume; traders pricing low yes odds on niche debated shutdown.[4]",
+      "headline": "Cavaliers lead Raptors 2-0 in playoffs after Game 2 win | YES | HIGH confidence**",
+      "raw": "Cavaliers lead Raptors 2-0 in playoffs after Game 2 win | YES | HIGH confidence**  \nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday, securing a 2-0 series lead in the first round of the NBA playoffs, with the series now shifting to Toronto for Games 3 and 4.[6]  \nThis outcome advances Cavaliers' playoff progression markets while pressuring Raptors' upset chances, p",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776914922355_3",
-      "timestamp": "2026-04-23T03:28:42.355872+00:00",
+      "id": "sig_1776914988120_1",
+      "timestamp": "2026-04-23T03:29:48.120090+00:00",
       "source": "PERPLEXITY",
-      "headline": "Anthropic Best AI Model End-April | YES (71%) | HIGH confidence** [6]",
-      "raw": "Anthropic Best AI Model End-April | YES (71%) | HIGH confidence** [6]  \nTech category frontrunner at 71\u00a2 in multi-outcome \"best AI model\" race; continuous updates from data releases moving sentiment in 517 markets.[6]",
-      "direction": "YES",
+      "headline": "Cooper Flagg exits Mavericks' rookie-season finale with left ankle sprain | NO | HIGH confidence**",
+      "raw": "Cooper Flagg exits Mavericks' rookie-season finale with left ankle sprain | NO | HIGH confidence**  \nNo. 1 overall pick Cooper Flagg (Dallas Mavericks) left Sunday's regular-season finale against the Chicago Bulls early due to a left ankle sprain after 9 minutes (10 points, 4 rebounds, 1 assist), ending his standout rookie campaign without playoffs.[1][4]  \nMavericks (26-56) missed playoffs, focus",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776914992009_0",
+      "timestamp": "2026-04-23T03:29:52.009211+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Dominating Polymarket Trends | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (20-22% for 1120-1159 range), with over $20.8M-$21.5M in volume across 20-130 live Tweet/Tweet Market",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -87,12 +64,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776914922357_4",
-      "timestamp": "2026-04-23T03:28:42.357846+00:00",
+      "id": "sig_1776914992011_1",
+      "timestamp": "2026-04-23T03:29:52.011361+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Apr 17-24 | 220-239 (38%) | MED confidence** [3]",
-      "raw": "Elon Musk Tweet Count Apr 17-24 | 220-239 (38%) | MED confidence** [3]  \nPop culture tweet market pricing bucket at 38%; real-time shifts as count nears end, exemplifying dynamic crowd odds.[3]  \n\nNo whale bets, X posts, smart money moves, mispriced alerts, or fresh confirmations/announcements in results; data reflects Apr 22 platform snapshots without real-time X discourse or resolutions.[1][2]",
-      "direction": "NO",
+      "headline": "Trending Markets** category lists 168 active predictions like \u201cNasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** category lists 168 active predictions like \u201cNasdaq round-the-clock trading by June 30?\u201d, aggregating $3M+ volume for real-time odds on pop culture, tech, and events[1].  \nNo search results mention **whale bets**, **smart money moves**, **prediction tips**, **mispriced markets**, or recent confirmations/announcements impacting resolutions\u2014data reflects trader sentiment up to Apri",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -101,9 +78,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 6,
+    "enter": 0,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
