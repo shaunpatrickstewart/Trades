@@ -1,57 +1,111 @@
 {
-  "last_scan": "2026-04-23T08:12:27.976864+00:00",
-  "scan_seconds": 17.0,
+  "last_scan": "2026-04-23T08:13:40.893458+00:00",
+  "scan_seconds": 20.3,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776931942345_0",
-      "timestamp": "2026-04-23T08:12:22.345078+00:00",
+      "id": "sig_1776932003639_0",
+      "timestamp": "2026-04-23T08:13:23.639636+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in First-Round Series | YES | HIGH confidence**",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in First-Round Series | YES | HIGH confidence**  \nThe Cleveland Cavaliers won Game 2 of their Eastern Conference first-round playoff series against the Toronto Raptors on Monday night, led by 83 combined points from Donovan Mitchell (30), James Harden (28), and Evan Mobley (25), extending their playoff winning streak against Toronto to 12 g",
-      "direction": "YES",
+      "headline": "Bitcoin's 'Uptober' Streak Ends with 3",
+      "raw": "Bitcoin's 'Uptober' Streak Ends with 3.6% Decline in October 2025 | NO | HIGH confidence**  \nBitcoin fell 3.6% in October 2025 for the first time since 2018, closing around $110,000 after peaking above $126,000 earlier in the month, driven by $19B liquidations, Trump's China tariffs, and Fed hesitation on rate cuts[3]. This confirmed break of historical October gains (positive in 10 of 12 years) s",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will October be the best month for Bitcoin in 2026?"
       ],
       "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776932012668_0",
+      "timestamp": "2026-04-23T08:13:32.668766+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers, first rookie with back-to-back 40+",
+      "raw": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers, first rookie with back-to-back 40+ point games since Allen Iverson** | NO | HIGH confidence[1][2][3][4]\n\nNo confirmed announcements, resolutions, or developments today involving Cooper Flagg joining the Lakers, playoffs qualification for Lakers/Raptors, or shifts in NBA playoff markets; reports detail Flagg's hist",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776931946971_0",
-      "timestamp": "2026-04-23T08:12:26.971348+00:00",
+      "id": "sig_1776932019882_0",
+      "timestamp": "2026-04-23T08:13:39.882705+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced calls confirmed in",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced calls confirmed in real-time X posts | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% odds on 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on same in r",
-      "direction": "NO",
-      "confidence": 0.9,
+      "headline": "I don't have access to real-time information about what Polymarket traders are currently posting on X (Twitter), their w",
+      "raw": "I don't have access to real-time information about what Polymarket traders are currently posting on X (Twitter), their whale bets, or live discussions about market mispricing. The search results provided are general informational pages about Polymarket's platform and historical market data from mid-April 2026, not live social media feeds or current trader sentiment.\n\nTo get the breaking informatio",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776931946973_1",
-      "timestamp": "2026-04-23T08:12:26.973598+00:00",
+      "id": "sig_1776932019884_1",
+      "timestamp": "2026-04-23T08:13:39.884646+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions** (e",
-      "raw": "No breaking confirmations, announcements, or resolutions** (e.g., events moving odds) are detailed; markets like Kanye tweeting by April 30 or CS IEM Rio mentions remain speculative without fresh triggers[3][5].  \nLow confidence due to outdated snapshots (latest April 22) missing 8 AM UTC real-time X sentiment or whale activity[1][2][3][4].",
-      "direction": "NO",
+      "headline": "**Monitor X directly** by searching for hashtags like #Polymarket or #PredictionMarkets and following traders who discus",
+      "raw": "**Monitor X directly** by searching for hashtags like #Polymarket or #PredictionMarkets and following traders who discuss these markets",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776932019886_2",
+      "timestamp": "2026-04-23T08:13:39.886596+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Check Polymarket's live order books** for real-time price movements and trading volume spikes indicating smart money a",
+      "raw": "**Check Polymarket's live order books** for real-time price movements and trading volume spikes indicating smart money activity",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776932019888_3",
+      "timestamp": "2026-04-23T08:13:39.888496+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Review prediction market Discord servers or Telegram groups** where traders typically discuss potential mispriced mark",
+      "raw": "**Review prediction market Discord servers or Telegram groups** where traders typically discuss potential mispriced markets and upcoming moves",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776932019890_4",
+      "timestamp": "2026-04-23T08:13:39.890502+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Follow crypto and finance news outlets** for announcements that might trigger market resolution or sudden trading acti",
+      "raw": "**Follow crypto and finance news outlets** for announcements that might trigger market resolution or sudden trading activity\n\nThe search results show that as of April 21, 2026, markets existed around topics like Elon Musk's tweet frequency in April, but they don't provide current breaking news, unconfirmed announcements, or trader commentary needed to answer your question in the HEADLINE | YES/NO ",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 2,
-    "watch": 0,
-    "high_conf": 2
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 1
   }
 }
