@@ -1,122 +1,72 @@
 {
-  "last_scan": "2026-04-23T04:39:35.915649+00:00",
-  "scan_seconds": 15.3,
+  "last_scan": "2026-04-23T04:40:44.640649+00:00",
+  "scan_seconds": 14.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776919169558_1",
-      "timestamp": "2026-04-23T04:39:29.558592+00:00",
+      "id": "sig_1776919238616_0",
+      "timestamp": "2026-04-23T04:40:38.616529+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Wembanyama Concussion Confirmed | YES (series-altering injury for Spurs-Blazers) | HIGH confidence** - Victor Wembanya",
-      "raw": "**Wembanyama Concussion Confirmed | YES (series-altering injury for Spurs-Blazers) | HIGH confidence** - Victor Wembanyama exited Game 2 vs. Trail Blazers with a concussion after a hard fall, ruled out immediately; throws Western Conference playoffs into disarray and forces Spurs game plan change.[2][3]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776919169560_2",
-      "timestamp": "2026-04-23T04:39:29.560635+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Spurs' Keldon Johnson Wins Sixth Man of the Year | YES (award announced) | HIGH confidence** - Confirmed award for Joh",
-      "raw": "**Spurs' Keldon Johnson Wins Sixth Man of the Year | YES (award announced) | HIGH confidence** - Confirmed award for Johnson amid Spurs' first-round challenges.[3]",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776919174904_0",
-      "timestamp": "2026-04-23T04:39:34.904349+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by Dec 31 | YES | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Ends by Dec 31 | YES | HIGH confidence**  \nPolymarket's X predictions page shows this market at 100% YES odds with $11.4K liquidity and strong trader conviction, topping activity as the most active market amid real-time updates[2]. High volume ($162.6M total across X markets) indicates crowd-sourced consensus on resolution, potentially signaling de-escalation bets or reso",
+      "headline": "Raptors' rookie Ja'Kobe Walter questionable for Game 3 vs",
+      "raw": "Raptors' rookie Ja'Kobe Walter questionable for Game 3 vs. Cavaliers due to illness | NO | LOW confidence**\n\nNo major breaking confirmations, announcements, or resolutions (e.g., trades, returns, or series shifts) have been reported in the last few hours that would significantly move prediction markets for the Raptors-Cavaliers series[3][4][5][6]. The Cavaliers lead 2-0 after a 115-105 Game 2 win ",
       "direction": "YES",
       "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776919169556_0",
-      "timestamp": "2026-04-23T04:39:29.556473+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Closest recent developments (from April 22):**",
-      "raw": "Closest recent developments (from April 22):**",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776919169562_3",
-      "timestamp": "2026-04-23T04:39:29.562600+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Lakers Lead Rockets 2-0 | YES (first-round series update) | HIGH confidence** - LeBron James carrying Lakers in chaoti",
-      "raw": "**Lakers Lead Rockets 2-0 | YES (first-round series update) | HIGH confidence** - LeBron James carrying Lakers in chaotic first round.[1][2]\n\nNo mentions of **Raptors** in playoffs, semifinals advancement, or rookie-specific news (e.g., no confirmed rookie injuries/awards); Toronto finished 5th East but absent from current bracket/results.[1][4] All data reflects first-round chaos through ~April 2",
-      "direction": "YES",
-      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776919174906_1",
-      "timestamp": "2026-04-23T04:39:34.906318+00:00",
+      "id": "sig_1776919233175_0",
+      "timestamp": "2026-04-23T04:40:33.175301+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30 | NO (84% implied) | MED confidence**",
-      "raw": "\ud835\udd4f Money Launched by April 30 | NO (84% implied) | MED confidence**  \nOdds at 16% YES ($33.6K volume, $3.9K liquidity) suggest traders doubt Elon Musk's X payment launch by deadline, with low YES pricing hinting at mispricing for contrarian bets[2]. Med confidence due to 7-day horizon and niche tech focus.",
+      "headline": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**",
+      "raw": "HEADLINE | YES or NO | HIGH/MED/LOW confidence**\n\nBitcoin ETFs recorded their **sixth consecutive day of positive net inflows** yesterday (April 22, 2026), attracting over $250 million this week after nearly $1 billion last week, driving BTC to $78,794 (up 4.3%) and ETH to $2,399 (up 3.4%).[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
+        "Bitcoin Up or Down - April 23, 12:55AM-1:00AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776919233177_1",
+      "timestamp": "2026-04-23T04:40:33.177363+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** | **HIGH** confidence[1]",
+      "raw": "YES** | **HIGH** confidence[1]\n\nNo other **confirmed announcements, resolutions, or events** (e.g., regulatory Clarity Act markup delayed by bank pressure to May; no Middle East ceasefire) directly confirmed right now to newly move prediction markets beyond ongoing ETF inflows and rally.[1][4]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776919174908_2",
-      "timestamp": "2026-04-23T04:39:34.908250+00:00",
+      "id": "sig_1776919233179_2",
+      "timestamp": "2026-04-23T04:40:33.179352+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nikita Bier Out as X Head of Product by June 30 | NO (93% implied) | LOW confidence**",
-      "raw": "Nikita Bier Out as X Head of Product by June 30 | NO (93% implied) | LOW confidence**  \nMarket at 7% YES ($1.4K volume, $3K liquidity) reflects low trader expectation of change, but thin volume limits signal strength for whale moves or tips[2]. LOW confidence as longer-term (2 months) with minimal activity.",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776919174910_3",
-      "timestamp": "2026-04-23T04:39:34.910170+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30 | NO (undetermined odds) | LOW confidence**",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30 | NO (undetermined odds) | LOW confidence**  \nTrending in Polymarket's 168 live markets ($3.3M volume), this finance prediction draws interest but lacks specific X posts or whale signals in results[1]. LOW due to no real-time X trader buzz captured.",
+      "headline": "NO** | **MED** confidence[1][4]",
+      "raw": "NO** | **MED** confidence[1][4]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776919174912_4",
-      "timestamp": "2026-04-23T04:39:34.912090+00:00",
+      "id": "sig_1776919243637_0",
+      "timestamp": "2026-04-23T04:40:43.637548+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking News Markets Spike (Last 24h) | N/A | MED confidence**",
-      "raw": "Breaking News Markets Spike (Last 24h) | N/A | MED confidence**  \nPolymarket's breaking page highlights top movers across politics, world events, sports (e.g., Counter-Strike esports), crypto, finance, tech on Apr 22, implying recent confirmations or announcements shifted odds without X-specific posts detailed[5]. No whale bets or mispriced tips confirmed in results[1][2][5].",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related markets), with over $21.5M in volume across 20-130 live tweet markets.[2][",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -127,8 +77,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 9,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
