@@ -1,54 +1,28 @@
 {
-  "last_scan": "2026-04-23T01:13:54.628571+00:00",
+  "last_scan": "2026-04-23T01:15:04.564394+00:00",
   "scan_seconds": 14.0,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776906823749_0",
-      "timestamp": "2026-04-23T01:13:43.749143+00:00",
+      "id": "sig_1776906903556_1",
+      "timestamp": "2026-04-23T01:15:03.556976+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Extends Iran Ceasefire Indefinitely, Triggering BTC Breakout to $77,541 and ETH to $2,390** | **YES** | **HIGH** c",
-      "raw": "Trump Extends Iran Ceasefire Indefinitely, Triggering BTC Breakout to $77,541 and ETH to $2,390** | **YES** | **HIGH** confidence[4]",
+      "headline": "Monero $1000 Price Target and Niche Bans Trending | NO | MED confidence**",
+      "raw": "Monero $1000 Price Target and Niche Bans Trending | NO | MED confidence**  \nIn Trending Markets (168 active), **Will Monero hit $1000 in 2026?** and **Law banning sports prediction markets enacted in 2026?** (11% yes) are prominent, backed by $3.0M volume, but no specific X posts or whale bets noted in current data[1]. These reflect crypto and regulatory sentiment without confirmed mispricing buzz",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906823751_1",
-      "timestamp": "2026-04-23T01:13:43.751122+00:00",
+      "id": "sig_1776906894117_0",
+      "timestamp": "2026-04-23T01:14:54.117857+00:00",
       "source": "PERPLEXITY",
-      "headline": "Vitalik Buterin-Backed Report Projects ETH at $250K by Capturing Gold/BTC Premium** | **YES** | **MED** confidence[2]",
-      "raw": "Vitalik Buterin-Backed Report Projects ETH at $250K by Capturing Gold/BTC Premium** | **YES** | **MED** confidence[2]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776906823753_2",
-      "timestamp": "2026-04-23T01:13:43.753104+00:00",
-      "source": "PERPLEXITY",
-      "headline": "US Spot Bitcoin ETFs Log Continued Inflows ($26M on Apr 16), BTC Tests $77K-$78K Resistance** | **YES** | **HIGH** confi",
-      "raw": "US Spot Bitcoin ETFs Log Continued Inflows ($26M on Apr 16), BTC Tests $77K-$78K Resistance** | **YES** | **HIGH** confidence[1][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776906823755_3",
-      "timestamp": "2026-04-23T01:13:43.755279+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETH Range-Bound at $2,260-$2,350, Awaiting $2,400 Breakout Confirmation Amid BTC Dominance** | **NO** (no resolution yet",
-      "raw": "ETH Range-Bound at $2,260-$2,350, Awaiting $2,400 Breakout Confirmation Amid BTC Dominance** | **NO** (no resolution yet) | **HIGH** confidence[1]",
+      "headline": "Confidence: HIGH** - Exhaustive review of results shows only ongoing predictions, no actionable breaking developments",
+      "raw": "Confidence: HIGH** - Exhaustive review of results shows only ongoing predictions, no actionable breaking developments.[1][2][3][4][5][6][7][8]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -57,12 +31,29 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776906833623_0",
-      "timestamp": "2026-04-23T01:13:53.623458+00:00",
+      "id": "sig_1776906898363_0",
+      "timestamp": "2026-04-23T01:14:58.363737+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominate Polymarket Activity | NO | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominate Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets center on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market assigning a 20-21% chance to the 1120-1159 tweets outcome amid over $20.7M-$20.8M total volume across related markets[2][3]. Specific sub-markets like \"Elon Musk # ",
+      "headline": "Lakers & Raptors Both Lead 2-0 in First-Round Series (No Conference Semifinals Yet) | NO | HIGH confidence**",
+      "raw": "Lakers & Raptors Both Lead 2-0 in First-Round Series (No Conference Semifinals Yet) | NO | HIGH confidence**  \nBoth the **Los Angeles Lakers** and **Toronto Raptors** are in the first round of the 2026 NBA playoffs, with the Lakers leading the Houston Rockets 2-0 (Game 1: 107-98; Game 2: 101-94) and the Cavaliers leading the Raptors 2-0 (Game 1: 126-113; Game 2: 115-105).[1][5]  \nNo recent confirm",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776906903554_0",
+      "timestamp": "2026-04-23T01:15:03.554659+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Dominating Polymarket Activity | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Dominating Polymarket Activity | NO | HIGH confidence**  \nPolymarket's most active markets as of April 22, 2026, center on **Elon Musk's tweet volume in April 2026**, with the 1120-1159 tweet range at 20-21% odds and over $20.7M in trading volume across related markets[1][2][3]. Traders are heavily engaged here, as it's highlighted as the top market with real-time odd",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -72,12 +63,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906833625_1",
-      "timestamp": "2026-04-23T01:13:53.625533+00:00",
+      "id": "sig_1776906903558_2",
+      "timestamp": "2026-04-23T01:15:03.558942+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero $1000 in 2026 and Sports Betting Ban Bets Trending | NO | MED confidence**",
-      "raw": "Monero $1000 in 2026 and Sports Betting Ban Bets Trending | NO | MED confidence**  \nTrending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes), part of 168 live markets with $3M+ volume, alongside niche bets like Nasdaq 24/7 trading by June 30[1]. No X posts on whale activity or tips noted; traders focus on real-time crowd odds ",
-      "direction": "YES",
+      "headline": "Kanye West Tweet Return Market Active | NO | LOW confidence**",
+      "raw": "Kanye West Tweet Return Market Active | NO | LOW confidence**",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -85,27 +76,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906828116_0",
-      "timestamp": "2026-04-23T01:13:48.116784+00:00",
+      "id": "sig_1776906903561_3",
+      "timestamp": "2026-04-23T01:15:03.561252+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Lead Over Rockets in NBA Playoffs First Round After 101-94 Game 2 Win** | **NO** | **HIGH** confidence[1",
-      "raw": "Lakers Take 2-0 Lead Over Rockets in NBA Playoffs First Round After 101-94 Game 2 Win** | **NO** | **HIGH** confidence[1][2][3]\n\nLakers defeated Houston 101-94 in Game 2 on April 22, 2026, with LeBron James scoring 28 points, 8 rebounds, and 7 assists despite being shorthanded without Luka Doncic (hamstring, ruled out for first round) and Austin Reaves (oblique, possible return soon)[1][2]. This g",
+      "headline": "Will Kanye tweet again by April 30",
+      "raw": "Will Kanye tweet again by April 30?** sits at 78% yes with $393 volume in Tweet Predictions (130 markets as of April 9), but lower activity and older data limit trending insight on X[2]. No whale moves or tips evident.  \n\nNo search results confirm **whale bets, smart money moves, mispriced markets, or recent announcements** (e.g., resolutions) impacting these; data shows general platform trends wi",
       "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "WATCH",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 6,
-    "watch": 1,
-    "high_conf": 0
+    "watch": 0,
+    "high_conf": 1
   }
 }
