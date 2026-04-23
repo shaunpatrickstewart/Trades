@@ -1,16 +1,111 @@
 {
-  "last_scan": "2026-04-23T09:42:29.335529+00:00",
-  "scan_seconds": 18.7,
+  "last_scan": "2026-04-23T09:43:41.717323+00:00",
+  "scan_seconds": 21.1,
   "markets_scanned": 58,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776937348320_0",
-      "timestamp": "2026-04-23T09:42:28.320968+00:00",
+      "id": "sig_1776937411416_0",
+      "timestamp": "2026-04-23T09:43:31.416096+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results provided contain only general information about Polymarket's prediction market platform and structure, not current breaking news, live trader discussions, or active market movements as of April 23, 2026.\n\nTo answer your query, I would need:",
+      "headline": "HEADLINE | YES | HIGH confidence**",
+      "raw": "HEADLINE | YES | HIGH confidence**  \nJerome Powell confirmed he will remain Fed Chair (as Chair Pro Tem) until a successor is Senate-confirmed, even if his term ends in May; this follows Trump's January nomination of Kevin Warsh, who awaits confirmation amid an ongoing Fed investigation.[1][2][4]  \nPowell's statement resolves immediate leadership uncertainty, potentially stabilizing prediction mar",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776937406110_0",
+      "timestamp": "2026-04-23T09:43:26.110534+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the specific format you requested because the search results don't contain information about October bi",
+      "raw": "I cannot provide the specific format you requested because the search results don't contain information about October bitcoin predictions or recent announcements that would specifically move prediction markets. \n\nThe available search results focus on **current bitcoin price movements in April 2026**, showing that bitcoin broke above $79,000 following the Iran cease-fire announcement[1][2]. While t",
       "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776937420714_2",
+      "timestamp": "2026-04-23T09:43:40.714221+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets, Mispriced Markets, or Breaking Resolutions Confirmed | NO | HIGH confidence**",
+      "raw": "No Whale Bets, Mispriced Markets, or Breaking Resolutions Confirmed | NO | HIGH confidence**\n\nSearch data shows no real-time X posts from Polymarket traders on whales, tips, or imminent moves as of April 22-23, 2026; volumes indicate sentiment on tweets and events like CS IEM Rio mentions, but nothing \"just confirmed\" to move markets[1][2][3][4]. XTracker exists for analytics, yet no trending insi",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776937406113_1",
+      "timestamp": "2026-04-23T09:43:26.113045+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Specific October 2026 bitcoin price predictions or targets",
+      "raw": "Specific October 2026 bitcoin price predictions or targets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776937406115_2",
+      "timestamp": "2026-04-23T09:43:26.115221+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent market-moving announcements or confirmations about Bitcoin",
+      "raw": "Recent market-moving announcements or confirmations about Bitcoin",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776937406117_3",
+      "timestamp": "2026-04-23T09:43:26.117498+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Information from prediction markets themselves",
+      "raw": "Information from prediction markets themselves\n\nIf you're looking for current bitcoin market sentiment or April 2026 developments, I can provide that based on the available results. Otherwise, please clarify what specific October bitcoin event or announcement you're asking about.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776937415640_0",
+      "timestamp": "2026-04-23T09:43:35.640258+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Raptors rookie Ja'Kobe Walter questionable for Game 3 vs",
+      "raw": "Raptors rookie Ja'Kobe Walter questionable for Game 3 vs. Cavaliers (illness); no confirmed change to series outcome or Lakers matchup | NO | HIGH confidence** [2][3][5]\n\nRaptors trail Cavaliers 0-2 in first-round playoffs ahead of tonight's Game 3 at Scotiabank Arena (8 PM ET), with no recent confirmation of a series win, bold roster move, or resolution impacting predictions[1][2]. **Rookie Ja'Ko",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776937420709_0",
+      "timestamp": "2026-04-23T09:43:40.709578+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets in April 2026?\" leading across Tweet Markets (26% odds for 1160-1199 tweets) and related categories (24% for 1120-1159), backed by $22.4M+ trading volume[2][3]. These reflect real-time crowd odds on his p",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,75 +113,23 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776937348323_1",
-      "timestamp": "2026-04-23T09:42:28.323214+00:00",
+      "id": "sig_1776937420711_1",
+      "timestamp": "2026-04-23T09:43:40.711919+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Real-time social media feeds** from X (Twitter) where Polymarket traders discuss current positions and market insights",
-      "raw": "**Real-time social media feeds** from X (Twitter) where Polymarket traders discuss current positions and market insights",
-      "direction": null,
+      "headline": "Nasdaq Round-the-Clock Trading by June 30",
+      "raw": "Nasdaq Round-the-Clock Trading by June 30? Gaining Traction in Trending Markets | NO | LOW confidence**\n\nAmong 164 Trending Markets with $3.3M volume, predictions like **\"Nasdaq round-the-clock trading by June 30?\"** highlight finance/tech bets, but lack specifics on X trader buzz, smart money moves, or resolutions[1]. No confirmed announcements or whale activity noted to shift odds.",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776937348325_2",
-      "timestamp": "2026-04-23T09:42:28.325377+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Live market data** showing which prediction markets are experiencing unusual trading volume or price movements",
-      "raw": "**Live market data** showing which prediction markets are experiencing unusual trading volume or price movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776937348327_3",
-      "timestamp": "2026-04-23T09:42:28.327524+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Current breaking news** that would impact prediction markets",
-      "raw": "**Current breaking news** that would impact prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776937348329_4",
-      "timestamp": "2026-04-23T09:42:28.329748+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Recent market resolutions** or confirmations that have occurred",
-      "raw": "**Recent market resolutions** or confirmations that have occurred\n\nThe search results reference Polymarket's analytics tools (like XTracker) but don't provide access to the actual live data these tools would display.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776937348331_5",
-      "timestamp": "2026-04-23T09:42:28.331995+00:00",
-      "source": "PERPLEXITY",
-      "headline": "What you could do instead:**",
-      "raw": "What you could do instead:**\n\nVisit Polymarket directly to see trending markets sorted by trading volume, check X/Twitter for #polymarket or trader accounts discussing active positions, or use Polymarket's own analytics dashboard to identify markets with unusual recent activity.",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
-    "watch": 1,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 8,
+    "watch": 0,
+    "high_conf": 3
   }
 }
