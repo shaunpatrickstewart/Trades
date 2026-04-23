@@ -1,29 +1,33 @@
 {
-  "last_scan": "2026-04-23T02:45:27.786120+00:00",
-  "scan_seconds": 26.8,
+  "last_scan": "2026-04-23T02:46:21.862831+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776912326775_4",
-      "timestamp": "2026-04-23T02:45:26.775644+00:00",
+      "id": "sig_1776912369927_0",
+      "timestamp": "2026-04-23T02:46:09.927773+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recently confirmed announcements or resolved markets that would move prediction markets",
-      "raw": "Recently confirmed announcements or resolved markets that would move prediction markets",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
+      "headline": "Trump Extends Iran Ceasefire Indefinitely | YES | HIGH**",
+      "raw": "Trump Extends Iran Ceasefire Indefinitely | YES | HIGH**  \nTrump's indefinite extension of the Iran ceasefire on April 22, 2026, removed geopolitical risk premiums (e.g., Strait of Hormuz tensions), driving a Bitcoin breakout above $76,000 to $77,541 (+2.2% daily, +4.3% weekly) and enabling short unwinds.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Strait of Hormuz traffic returns to normal by end of April?",
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776912306876_0",
-      "timestamp": "2026-04-23T02:45:06.876582+00:00",
+      "id": "sig_1776912369931_1",
+      "timestamp": "2026-04-23T02:46:09.931116+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (no matching breaking news in results; all are predictive analyses)",
-      "raw": "Confidence: HIGH** (no matching breaking news in results; all are predictive analyses).[1-7]",
-      "direction": "NO",
+      "headline": "Strategy Discloses $2",
+      "raw": "Strategy Discloses $2.54B Bitcoin Purchase | YES | HIGH**  \nMicroStrategy revealed a $2.54 billion BTC buy on April 22, 2026, pushing holdings past 815,000 coins and absorbing ~3x April's global miner supply, fueling the rally alongside ETF inflows (e.g., BlackRock's IBIT leading $411M+ streak).[1][2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -31,148 +35,70 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776912312132_0",
-      "timestamp": "2026-04-23T02:45:12.132399+00:00",
+      "id": "sig_1776912369934_2",
+      "timestamp": "2026-04-23T02:46:09.934310+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers lead Rockets 2-0 after Game 2 win (series now Game 3 Apr 24)** | YES | HIGH[1]",
-      "raw": "Lakers lead Rockets 2-0 after Game 2 win (series now Game 3 Apr 24)** | YES | HIGH[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776912312134_1",
-      "timestamp": "2026-04-23T02:45:12.134329+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers advance to Eastern Conference Semifinals after sweeping Pacers (final score: OKC 103-91 over IND in East",
-      "raw": "Cavaliers advance to Eastern Conference Semifinals after sweeping Pacers (final score: OKC 103-91 over IND in East? Wait, bracket confirms Cavs 1-seed dominance)** | YES | HIGH[1]",
+      "headline": "Ethereum Tracks BTC Gains to $2,390 | YES | MED**",
+      "raw": "Ethereum Tracks BTC Gains to $2,390 | YES | MED**  \nEthereum rose 0.7% to $2,390 on April 22 amid risk-on sentiment from the ceasefire and inflows, holding $2,260\u2013$2,350 range with potential breakout above $2,400 pivot, though lagging BTC.[1][2]",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "Ethereum above 2,320 on April 22, 11PM ET?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776912312136_2",
-      "timestamp": "2026-04-23T02:45:12.136556+00:00",
+      "id": "sig_1776912380856_0",
+      "timestamp": "2026-04-23T02:46:20.856802+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmation on Cooper Flagg (no draft, injury, or commitment news tied to NBA playoffs)** | NO | HIGH[4]",
-      "raw": "No breaking confirmation on Cooper Flagg (no draft, injury, or commitment news tied to NBA playoffs)** | NO | HIGH[4]",
+      "headline": "Trending Polymarket Chatter on X: Limited Real-Time Data Available | NO | LOW confidence**",
+      "raw": "Trending Polymarket Chatter on X: Limited Real-Time Data Available | NO | LOW confidence**\n\nSearch results highlight active Polymarket categories like **Trending Markets** (168 live markets as of April 22, 2026, with $3M+ volume on topics including Kinetiq price in 2026, law banning sports prediction markets, and Nasdaq 24/7 trading by June 30) but lack direct X posts or trader discussions[1]. No ",
       "direction": "NO",
       "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912380859_1",
+      "timestamp": "2026-04-23T02:46:20.859272+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Tweet Markets** gaining traction with 20 live options ($20",
+      "raw": "Tweet Markets** gaining traction with 20 live options ($20.7M volume), led by \"Elon Musk # tweets in April 2026?\" (21% odds on 1120-1159 range), potentially sparking X buzz on Musk activity[2]. User @randytraderxd shows a bet on \"Zohran Mamdani NYC mayoral win?\" at No 9\u00a2 (500 shares, -100% return), but no broader X trending confirmed[3].\n\nNo recent confirmations, announcements, or resolutions (e.g",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776912312138_3",
-      "timestamp": "2026-04-23T02:45:12.138601+00:00",
+      "id": "sig_1776912375187_0",
+      "timestamp": "2026-04-23T02:46:15.187838+00:00",
       "source": "PERPLEXITY",
-      "headline": "Hawks steal Game 2 vs Knicks (107-106 win, Knicks blow 12-pt lead; impacts East 3-6 matchup)** | YES | MED[3][4]",
-      "raw": "Hawks steal Game 2 vs Knicks (107-106 win, Knicks blow 12-pt lead; impacts East 3-6 matchup)** | YES | MED[3][4]",
+      "headline": "Raptors Coach Rajakovic Confirms Trust in Rookie Collin Murray-Boyles as Key Playoff Big vs",
+      "raw": "Raptors Coach Rajakovic Confirms Trust in Rookie Collin Murray-Boyles as Key Playoff Big vs. Cavs, Forcing Lineup Pivot After 0-2 Deficit** | YES | HIGH confidence[1][4][6]\n\nRaptors trail Cavaliers 0-2 after 115-105 Game 2 loss on April 20/21, 2026, with series shifting to Toronto for Game 3; coach Darko Rajakovic expresses support for rookie Collin Murray-Boyles stepping up at center ahead of Jak",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776912312141_4",
-      "timestamp": "2026-04-23T02:45:12.141082+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Wembanyama ruled out Game 3+ vs Blazers with concussion (Spurs trail West 2-7; MVP finalist sidelined)** | YES | HIGH[4]",
-      "raw": "Wembanyama ruled out Game 3+ vs Blazers with concussion (Spurs trail West 2-7; MVP finalist sidelined)** | YES | HIGH[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776912326767_0",
-      "timestamp": "2026-04-23T02:45:26.767522+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting based on the available search results",
-      "raw": "I cannot provide the breaking news you're requesting based on the available search results. The search results contain only general information about Polymarket's platform structure and some prediction market categories as of mid-April 2026, but they do not include:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912326769_1",
-      "timestamp": "2026-04-23T02:45:26.769503+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from Polymarket traders",
-      "raw": "Current X (Twitter) posts from Polymarket traders",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912326771_2",
-      "timestamp": "2026-04-23T02:45:26.771572+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about whale bets or large trades happening right now",
-      "raw": "Information about whale bets or large trades happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912326773_3",
-      "timestamp": "2026-04-23T02:45:26.773478+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market sentiment or discussion about mispriced markets",
-      "raw": "Real-time market sentiment or discussion about mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912326777_5",
-      "timestamp": "2026-04-23T02:45:26.777525+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Live social media commentary from traders",
-      "raw": "Live social media commentary from traders\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 12,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 0
   }
 }
