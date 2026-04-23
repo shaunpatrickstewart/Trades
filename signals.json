@@ -1,107 +1,122 @@
 {
-  "last_scan": "2026-04-23T02:10:45.401139+00:00",
-  "scan_seconds": 14.8,
+  "last_scan": "2026-04-23T02:12:04.561029+00:00",
+  "scan_seconds": 23.9,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776910238539_0",
-      "timestamp": "2026-04-23T02:10:38.539802+00:00",
+      "id": "sig_1776910323557_0",
+      "timestamp": "2026-04-23T02:12:03.557890+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers confirm 2-0 series lead over Rockets in conference semifinals after Game 2 win; no Raptors involvement",
-      "raw": "Lakers confirm 2-0 series lead over Rockets in conference semifinals after Game 2 win; no Raptors involvement.**[1][2][4]",
+      "headline": "No major whale bets, smart money moves, or confirmed announcements trending on X from Polymarket traders right now",
+      "raw": "No major whale bets, smart money moves, or confirmed announcements trending on X from Polymarket traders right now.**[1][2][3][6]\n\nPolymarket's trending markets include \"Law banning sports prediction markets enacted in 2026?\" and \"Nasdaq round-the-clock trading by June 30?\", with over $3M in volume across 168 active markets, but no X posts highlight whale activity or mispriced odds in real-time da",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776910314882_0",
+      "timestamp": "2026-04-23T02:11:54.882621+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide a reliable breaking news summary based on these search results",
+      "raw": "I cannot provide a reliable breaking news summary based on these search results. The data is significantly outdated and internally inconsistent, making it unsuitable for identifying current market-moving announcements.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776910314884_1",
+      "timestamp": "2026-04-23T02:11:54.884590+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Issues with the search results:**",
+      "raw": "Issues with the search results:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776910314886_2",
+      "timestamp": "2026-04-23T02:11:54.886546+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Temporal conflicts:** Results reference events from October 2025, November 2025, and February-March 2023, while claimi",
+      "raw": "**Temporal conflicts:** Results reference events from October 2025, November 2025, and February-March 2023, while claiming to be current. One source states Bitcoin broke $116,000 in October; another shows $77,000 levels.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776910314890_4",
+      "timestamp": "2026-04-23T02:11:54.890518+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**No confirmed announcements:** While results mention potential developments (CBOE futures plans, BitMine acquisition, P",
+      "raw": "**No confirmed announcements:** While results mention potential developments (CBOE futures plans, BitMine acquisition, Pectra upgrade anticipation), none are presented as breaking news with confirmed dates or details.",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776910314892_5",
+      "timestamp": "2026-04-23T02:11:54.892621+00:00",
+      "source": "PERPLEXITY",
+      "headline": "What I can extract cautiously:**",
+      "raw": "What I can extract cautiously:**\n\nThe only reference with a near-current timestamp is ETH options data from April 22, 2026, showing Ethereum trading around $2,326\u2013$2,350 with elevated volatility (58-63% implied volatility).",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776910238541_1",
-      "timestamp": "2026-04-23T02:10:38.541963+00:00",
+      "id": "sig_1776910314894_6",
+      "timestamp": "2026-04-23T02:11:54.894583+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** (Lakers leading series) | **HIGH** confidence",
-      "raw": "YES** (Lakers leading series) | **HIGH** confidence  \n\nLakers defeated Rockets in Game 2, with ESPN bracket showing LAL lead 2-0 ahead of Game 3 on Apr 24 (HOU -9.5 spread).[1] Analysts note LeBron James dominating without Luka Doncic (injured), despite Rockets' edges in shots (27 more attempts) and rebounds (21-3).[2][4] Houston's math favors comeback (e.g., Durant pregame workout), but no confir",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776910244381_0",
-      "timestamp": "2026-04-23T02:10:44.381479+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some dated market examples (from April 9-22, 2026), but they do not include:",
+      "headline": "Recommendation:** Query a real-time crypto news source or prediction market platform directly for verified breaking anno",
+      "raw": "Recommendation:** Query a real-time crypto news source or prediction market platform directly for verified breaking announcements from April 23, 2026 UTC, as these search results cannot reliably distinguish between historical events and current developments.",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776910244383_1",
-      "timestamp": "2026-04-23T02:10:44.383371+00:00",
+      "id": "sig_1776910314888_3",
+      "timestamp": "2026-04-23T02:11:54.888466+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from Polymarket traders discussing live market activity",
-      "raw": "Current X (Twitter) posts from Polymarket traders discussing live market activity",
+      "headline": "**Price inconsistencies:** Ethereum prices range from $2,000 to $4,525 across sources without clear dating, suggesting m",
+      "raw": "**Price inconsistencies:** Ethereum prices range from $2,000 to $4,525 across sources without clear dating, suggesting mixed historical and current data.",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776910244385_2",
-      "timestamp": "2026-04-23T02:10:44.385274+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Information about active whale bets or smart money moves happening right now",
-      "raw": "Information about active whale bets or smart money moves happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776910244387_3",
-      "timestamp": "2026-04-23T02:10:44.387162+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time assessments of mispriced markets",
-      "raw": "Real-time assessments of mispriced markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776910244389_4",
-      "timestamp": "2026-04-23T02:10:44.389196+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent breaking news, announcements, or market resolutions that would move prediction markets as of April 23, 2026, 2 AM",
-      "raw": "Recent breaking news, announcements, or market resolutions that would move prediction markets as of April 23, 2026, 2 AM UTC\n\nTo get this information, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 7,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 6,
+    "watch": 1,
+    "high_conf": 1
   }
 }
