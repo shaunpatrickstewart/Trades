@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-23T08:02:13.804211+00:00",
-  "scan_seconds": 16.2,
+  "last_scan": "2026-04-23T08:03:17.795112+00:00",
+  "scan_seconds": 17.2,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776931324193_0",
-      "timestamp": "2026-04-23T08:02:04.193026+00:00",
+      "id": "sig_1776931386608_0",
+      "timestamp": "2026-04-23T08:03:06.608743+00:00",
       "source": "PERPLEXITY",
-      "headline": "Fed Chair Powell Confirms He Will Serve as Chair Pro Tem Until Successor Confirmed if Term Expires Without Replacement**",
-      "raw": "Fed Chair Powell Confirms He Will Serve as Chair Pro Tem Until Successor Confirmed if Term Expires Without Replacement** | **NO** | **HIGH** confidence[1]\n\nPowell stated in a recent FOMC press conference (dated around April 21, 2026) that \"if my successor is not confirmed by the end of my term as chair, I would serve as chair pro tem until he is confirmed,\" addressing concerns about a potential Ma",
-      "direction": "NO",
+      "headline": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed** | **YES** | **HIGH** confidence[1][2][3]",
+      "raw": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed** | **YES** | **HIGH** confidence[1][2][3]\n\nFederal Reserve Chair Jerome Powell stated on March 18 that he will stay as leader if his successor is not confirmed by the end of his term in May, serving as chair pro-tem per legal precedent.[1][3] This follows the nomination of Kevin Warsh, who awaits Senate confirmation amid a noted c",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
         "Will Powell say \"Successor\" during April press conference?"
@@ -20,66 +20,53 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776931328333_0",
-      "timestamp": "2026-04-23T08:02:08.333026+00:00",
+      "id": "sig_1776931396791_2",
+      "timestamp": "2026-04-23T08:03:16.791373+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 1-0 lead over Raptors in Eastern Conference first-round playoffs** | YES | HIGH confidence[2][4]",
-      "raw": "Cavaliers take 1-0 lead over Raptors in Eastern Conference first-round playoffs** | YES | HIGH confidence[2][4]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors in Game 1 on Saturday, securing a 1-0 series lead with a dominant performance, as confirmed by post-game coverage from 92.3 The Fan and other reports[2][4]. This first-round matchup pits the No. 4 seed Cavaliers\u2014bolstered by James Har",
+      "headline": "Confirmed/Resolved Events: None Impacting Markets | NO | LOW confidence**",
+      "raw": "Confirmed/Resolved Events: None Impacting Markets | NO | LOW confidence**  \nSearch results show no breaking announcements, resolutions, or confirmations (e.g., no election results, sports upsets, or geopolitical shifts) tied to market moves; focus remains on ongoing predictions like 2026 FIFA World Cup, Bitcoin $150k timing, and Iran-Israel conflict end dates[5]. Pop culture \"Mentions Markets\" tra",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Bitcoin above 79,000 on April 23, 4AM ET?",
+        "Bitcoin above 77,000 on April 23, 4AM ET?",
+        "Bitcoin above 80,200 on April 23, 4AM ET?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776931396787_0",
+      "timestamp": "2026-04-23T08:03:16.787329+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Polymarket Chatter: Elon Musk Tweet Counts Lead Activity | NO | LOW confidence**",
+      "raw": "Trending Polymarket Chatter: Elon Musk Tweet Counts Lead Activity | NO | LOW confidence**\n\nPolymarket's most active markets as of April 21-22, 2026, focus on **Elon Musk tweet volume** in April 2026, with the \"1120-1159 tweets\" bin at 22% probability amid $21.5M trading volume across 20 Tweet Markets[4][3]. Traders price ranges like \"220-239\" at 41% for specific weekly periods (e.g., April 17-24),",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776931396789_1",
+      "timestamp": "2026-04-23T08:03:16.789361+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Whale/Smart Money Moves: Limited Visibility | NO | LOW confidence**",
+      "raw": "Whale/Smart Money Moves: Limited Visibility | NO | LOW confidence**  \nOne trader (@randytraderxd) shows positions like 600 YES shares on Jannik Sinner winning the 2026 Men's French Open (43\u00a2) and smaller bets on tennis matches, but no massive whale activity or X posts calling out \"smart money\" trends in results[2]. No explicit tips on mispriced markets or imminent moves reported.",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776931332797_0",
-      "timestamp": "2026-04-23T08:02:12.797222+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | HIGH confidence**",
-      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239 outcome) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on 1120-1159 in related markets), with over $21M+ in volume across 130+ live tweet prediction marke",
-      "direction": "NO",
-      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931332799_1",
-      "timestamp": "2026-04-23T08:02:12.799204+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Whale Bets, Smart Money Moves, or X Posts Reported | NO | HIGH confidence**",
-      "raw": "No Whale Bets, Smart Money Moves, or X Posts Reported | NO | HIGH confidence**  \nSearch results show no mentions of **whale bets**, **smart money moves**, **prediction market tips**, **mispriced markets**, or **trending X posts** from Polymarket traders; activity centers on real-time odds for tweet volumes without trader sentiment or social discussion details[1][2][3][4].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776931332801_2",
-      "timestamp": "2026-04-23T08:02:12.801190+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**",
-      "raw": "No Recent Confirmations, Announcements, or Resolutions Noted | NO | HIGH confidence**  \nNo breaking news, confirmed events, announcements, or resolved markets are referenced that could shift prediction markets; updates reflect ongoing trader sentiment on pop culture events like tweet counts and niche predictions (e.g., Kanye tweeting by April 30), with data current to April 22, 2026[1][3][5].",
-      "direction": "NO",
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "enter": 2,
+    "alert": 2,
+    "watch": 0,
+    "high_conf": 2
   }
 }
