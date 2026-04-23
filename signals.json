@@ -1,29 +1,96 @@
 {
-  "last_scan": "2026-04-23T05:49:06.851975+00:00",
-  "scan_seconds": 16.3,
+  "last_scan": "2026-04-23T05:50:54.108282+00:00",
+  "scan_seconds": 53.5,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776923345848_0",
-      "timestamp": "2026-04-23T05:49:05.848958+00:00",
+      "id": "sig_1776923431024_0",
+      "timestamp": "2026-04-23T05:50:31.024861+00:00",
       "source": "PERPLEXITY",
-      "headline": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts reported right now on X",
-      "raw": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts reported right now on X.**[1][2][3][4][6]  \nCurrent Polymarket trends focus on **Tweet Markets** (e.g., Elon Musk tweet counts for April 17-24, 2026, with 1120-1159 tweets at 22% odds and $21.5M volume) and **Trending Markets** like 2026 inflation peaks, Nasdaq 24/7 trading by June 30, and SCOTUS cases, bu",
+      "headline": "Based on the search results provided, I cannot identify a specific breaking news announcement that has \"just been confir",
+      "raw": "Based on the search results provided, I cannot identify a specific breaking news announcement that has \"just been confirmed\" today (April 23, 2026) that would move prediction markets. The most recent dated information in the search results is from April 21, 2026, which shows routine price data rather than a major announcement.\n\nHowever, the search results do reference several significant developme",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923431032_4",
+      "timestamp": "2026-04-23T05:50:31.032743+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current ETH Price Range: $2,250-$2,305** | CONFIRMED | HIGH confidence",
+      "raw": "Current ETH Price Range: $2,250-$2,305** | CONFIRMED | HIGH confidence\nEthereum is trading in the $2,305-$2,317 range as of April 20-21, 2026.[5][6]\n\nThe search results do not contain announcements from April 23, 2026 specifically. For today's breaking news, more current sources would be needed.",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923449140_5",
+      "timestamp": "2026-04-23T05:50:49.140577+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Joel Embiid Unlikely to Return**",
+      "raw": "Joel Embiid Unlikely to Return**\n\nIt's been confirmed that Joel Embiid will not play in the playoffs as he recovers from an appendectomy[2], significantly impacting the Celtics' championship hopes.",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776923342267_0",
-      "timestamp": "2026-04-23T05:49:02.267368+00:00",
+      "id": "sig_1776923431027_1",
+      "timestamp": "2026-04-23T05:50:31.027063+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Lead Over Rockets in NBA Playoffs First Round | YES (Lakers advancing odds rise) | HIGH confidence**",
-      "raw": "Lakers Take 2-0 Lead Over Rockets in NBA Playoffs First Round | YES (Lakers advancing odds rise) | HIGH confidence**  \nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, April 22, securing a commanding 2-0 series lead in the Western Conference first round, with LeBron James scoring 28 points, Marcus Smart adding 25, and Luke Kennard contributing 23.[1][2][5] This shor",
+      "headline": "Pectra Upgrade Enters Final Testing Phase** | YES | HIGH confidence",
+      "raw": "Pectra Upgrade Enters Final Testing Phase** | YES | HIGH confidence\nThe Prague-Electra (Pectra) Upgrade is in its final testing phase and promises to revolutionize wallet abstraction and validator efficiency, driving institutional demand for Ethereum.[2]",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923431028_2",
+      "timestamp": "2026-04-23T05:50:31.028948+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Ethereum Foundation Completes 70,000 ETH Staking Commitment** | YES | HIGH confidence",
+      "raw": "Ethereum Foundation Completes 70,000 ETH Staking Commitment** | YES | HIGH confidence\nThe Ethereum Foundation completed a $143 million staking commitment, signaling long-term network support.[1]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923431030_3",
+      "timestamp": "2026-04-23T05:50:31.030832+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Spot Ethereum ETF Inflows Reach All-Time Highs** | YES | HIGH confidence",
+      "raw": "Spot Ethereum ETF Inflows Reach All-Time Highs** | YES | HIGH confidence\nETF inflows have reached record levels, with sources highlighting this as a major catalyst for institutional accumulation.[2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923449131_0",
+      "timestamp": "2026-04-23T05:50:49.131084+00:00",
+      "source": "PERPLEXITY",
+      "headline": "# NBA Playoffs Update",
+      "raw": "# NBA Playoffs Update\n\nBased on the search results provided, here are the key developments:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
@@ -35,42 +102,103 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776923342269_1",
-      "timestamp": "2026-04-23T05:49:02.269910+00:00",
+      "id": "sig_1776923449133_1",
+      "timestamp": "2026-04-23T05:50:49.133030+00:00",
       "source": "PERPLEXITY",
-      "headline": "Luka Doncic Unlikely to Return in First Round vs",
-      "raw": "Luka Doncic Unlikely to Return in First Round vs. Rockets | YES (confirms extended absence) | HIGH confidence**  \nESPN's Shams Charania reported Tuesday that Doncic (Grade 2 hamstring strain) is not expected back during the first-round series against Houston, meaning Lakers must advance to conference semifinals for his potential return.[1] This confirmation boosts LeBron's carry-job narrative and ",
+      "headline": "Oklahoma City Thunder Dominate Game 2 vs Phoenix Suns | YES (Thunder Advancing) | HIGH confidence**",
+      "raw": "Oklahoma City Thunder Dominate Game 2 vs Phoenix Suns | YES (Thunder Advancing) | HIGH confidence**\n\nThe Thunder are leading their first-round series 1-0 after a dominant 35-point victory in Game 1, and secured Game 2 with a 104-80 win[1][4]. Game 3 shifts to Phoenix on Saturday[1].",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776923449134_2",
+      "timestamp": "2026-04-23T05:50:49.134923+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Detroit Pistons Secure First Home Playoff Win Since 2008 vs Orlando Magic | YES (Series Competitive) | HIGH confidence**",
+      "raw": "Detroit Pistons Secure First Home Playoff Win Since 2008 vs Orlando Magic | YES (Series Competitive) | HIGH confidence**\n\nThe Pistons bounced back with a Game 2 victory over Orlando, marking their first home playoff win in 18 years[3]. This was noted as the only \"real upset\" in early playoff action[2].",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
-        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776923342272_2",
-      "timestamp": "2026-04-23T05:49:02.273006+00:00",
+      "id": "sig_1776923449136_3",
+      "timestamp": "2026-04-23T05:50:49.136796+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Raptors or Conference Semifinals Updates | NO | N/A**",
-      "raw": "No Raptors or Conference Semifinals Updates | NO | N/A**  \nToronto Raptors lost Game 1 to Cleveland Cavaliers, who used a new defensive plan targeting Brandon Ingram, but no Game 2 result or resolution reported; series ongoing with no market-moving news on advancement or semifinals.[3][4] No first-round series have reached semifinals yet.[1][2]",
-      "direction": "NO",
+      "headline": "Los Angeles Lakers Lead Series 2-0 vs Houston Rockets | YES (Lakers Advancing) | HIGH confidence**",
+      "raw": "Los Angeles Lakers Lead Series 2-0 vs Houston Rockets | YES (Lakers Advancing) | HIGH confidence**\n\nThe Lakers hold a 2-0 series lead with Game 3 scheduled for April 24 at 8:00 PM[4].",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776923449138_4",
+      "timestamp": "2026-04-23T05:50:49.138684+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers Advance to Conference Finals**",
+      "raw": "Cavaliers Advance to Conference Finals**\n\nThe Cavaliers secured their conference finals berth with dominant performances, including a 138-83 victory[4].",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776923453101_0",
+      "timestamp": "2026-04-23T05:50:53.101046+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets in April 2026?\" (22% odds for 1120-1159 range) and related bins like April 17-24 counts, with over $21.5M-$21.7M total volume across Tweet and Tweet Markets categories[2][3].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776923453102_1",
+      "timestamp": "2026-04-23T05:50:53.102917+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No whale bets, smart money moves, mispriced markets, or prediction tips** are detailed in current data; discussions on X",
+      "raw": "No whale bets, smart money moves, mispriced markets, or prediction tips** are detailed in current data; discussions on X about these are not captured in available results[1][2][3][5].",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776923453104_2",
+      "timestamp": "2026-04-23T05:50:53.104951+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No recent confirmations, announcements, or resolutions** noted that would shift markets; trending categories emphasize r",
+      "raw": "No recent confirmations, announcements, or resolutions** noted that would shift markets; trending categories emphasize real-time odds on tweets (e.g., Kanye by April 30) and niche events like Nasdaq 24/7 trading by June 30 or CS IEM Rio phrases[1][3][4].  \nOther active areas include 168 Trending Markets and 20 Tweet Markets as of April 21-22, 2026, but lack specifics on X trader buzz or big moves[",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
+    "alert": 14,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
