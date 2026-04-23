@@ -1,5 +1,5 @@
 {
-  "ts": 1776934500,
+  "ts": 1776934570,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999793
+    "usdc_usd": 0.999744
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -143,10 +143,10 @@
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "title": "Strait of Hormuz traffic returns to normal by end of April?",
         "size": 7.65,
-        "cur_price": 0.033,
-        "nav_usdc": 0.2525,
+        "cur_price": 0.0335,
+        "nav_usdc": 0.2563,
         "cost_basis": 2.295,
-        "unrealized_pnl": -2.0425
+        "unrealized_pnl": -2.0387
       },
       {
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.0756,
-    "total_usdc": 403.0122,
-    "total_usd": 402.9288
+    "positions_nav_usdc": 316.0794,
+    "total_usdc": 403.016,
+    "total_usd": 402.9129
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776934501,
+    "ts": 1776934571,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776848101,
+      "window_start_ts": 1776848171,
       "realized_usdc": 0.0,
       "trade_count": 2,
       "buy_volume_usdc": 29.0862,
@@ -380,7 +380,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776329701,
+      "window_start_ts": 1776329771,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +593,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774342501,
+      "window_start_ts": 1774342571,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1019,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.9288,
-    "total_usdc": 403.0122
+    "total_usd": 402.9129,
+    "total_usdc": 403.016
   }
 }
