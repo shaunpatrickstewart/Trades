@@ -1,33 +1,68 @@
 {
-  "last_scan": "2026-04-23T02:24:39.344519+00:00",
-  "scan_seconds": 18.7,
+  "last_scan": "2026-04-23T02:25:44.307326+00:00",
+  "scan_seconds": 13.7,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776911069920_0",
-      "timestamp": "2026-04-23T02:24:29.920204+00:00",
+      "id": "sig_1776911134281_1",
+      "timestamp": "2026-04-23T02:25:34.281380+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news you're requesting in the format specified",
-      "raw": "I cannot provide the breaking news you're requesting in the format specified. The search results show that the Cleveland Cavaliers are currently in the **first round** of the 2026 NBA playoffs against the Toronto Raptors (leading 2-0)[2], not the conference semifinals. Additionally, the search results do not mention any rookie-related announcements, recent confirmations, or market-moving developme",
+      "headline": "Prior Pectra upgrade was in final testing as of April 17-18, not newly confirmed",
+      "raw": "Prior Pectra upgrade was in final testing as of April 17-18, not newly confirmed.[2]",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776911069922_1",
-      "timestamp": "2026-04-23T02:24:29.922182+00:00",
+      "id": "sig_1776911134279_0",
+      "timestamp": "2026-04-23T02:25:34.279241+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Series status:** Cavaliers lead Raptors 2-0 after Game 2[2]",
-      "raw": "**Series status:** Cavaliers lead Raptors 2-0 after Game 2[2]",
+      "headline": "NO** | **LOW** confidence",
+      "raw": "NO** | **LOW** confidence",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776911134283_2",
+      "timestamp": "2026-04-23T02:25:34.283401+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Predictions cite potential ETF inflows or inverted head-and-shoulders pattern for rebound to $3,000, but these are specu",
+      "raw": "Predictions cite potential ETF inflows or inverted head-and-shoulders pattern for rebound to $3,000, but these are speculative, not breaking confirmations.[3]",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776911134285_3",
+      "timestamp": "2026-04-23T02:25:34.285263+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No sources report resolutions moving prediction markets (e",
+      "raw": "No sources report resolutions moving prediction markets (e.g., SEC decisions or network milestones) as of April 23.[1][2][3][4][5]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776911137565_0",
+      "timestamp": "2026-04-23T02:25:37.565733+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers take 2-0 series lead over Raptors in playoffs with record-tying 12th straight playoff win against them** | YES",
+      "raw": "Cavaliers take 2-0 series lead over Raptors in playoffs with record-tying 12th straight playoff win against them** | YES | HIGH confidence[2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
@@ -37,51 +72,28 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776911069924_2",
-      "timestamp": "2026-04-23T02:24:29.924037+00:00",
+      "id": "sig_1776911137567_1",
+      "timestamp": "2026-04-23T02:25:37.567685+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Prediction:** One analyst predicted a Cavaliers victory in five games[1]",
-      "raw": "**Prediction:** One analyst predicted a Cavaliers victory in five games[1]",
-      "direction": null,
+      "headline": "Cooper Flagg (Mavericks rookie) passes Kobe Bryant for 6th-most 20+ point games (25) by a teenager in NBA history vs",
+      "raw": "Cooper Flagg (Mavericks rookie) passes Kobe Bryant for 6th-most 20+ point games (25) by a teenager in NBA history vs. Cavaliers** | YES | HIGH confidence[1]",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776911069926_3",
-      "timestamp": "2026-04-23T02:24:29.926004+00:00",
+      "id": "sig_1776911143300_0",
+      "timestamp": "2026-04-23T02:25:43.300645+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Context:** Game 3 is upcoming, with Toronto's coach discussing team mentality[4]",
-      "raw": "**Context:** Game 3 is upcoming, with Toronto's coach discussing team mentality[4]\n\nTo provide accurate breaking news with market-moving implications, I would need search results with very recent announcements, player injuries, trades, or other significant developments. The current results reflect game outcomes and commentary rather than new confirmations or resolutions.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776911078329_0",
-      "timestamp": "2026-04-23T02:24:38.329385+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time breaking news about current Polymarket trading activity, whale bets, or trader discussions",
-      "raw": "I cannot provide real-time breaking news about current Polymarket trading activity, whale bets, or trader discussions. The search results provided are snapshots of prediction markets from April 19-22, 2026, and do not contain information about what traders are currently posting or discussing, specific whale movements, or live market commentary.\n\nThe search results show only:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776911078331_1",
-      "timestamp": "2026-04-23T02:24:38.331246+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Active prediction markets** on Polymarket as of April 19-22, including markets on X/Elon Musk topics, geopolitics, and",
-      "raw": "**Active prediction markets** on Polymarket as of April 19-22, including markets on X/Elon Musk topics, geopolitics, and tech news[1][2][3][4]",
-      "direction": null,
+      "headline": "Elon Musk April 2026 Tweet Count Markets Surge in Volume and Trader Focus | NO whale bets or tips confirmed | LOW confid",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Surge in Volume and Trader Focus | NO whale bets or tips confirmed | LOW confidence** [1][2][3]\n\nPolymarket's trending markets highlight heavy activity on **Elon Musk tweet predictions**, including \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range, over $20M volume) and related bins like \"Elon Musk # tweets April 17 - April 24, 2026?\" (21%",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -91,12 +103,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776911078333_2",
-      "timestamp": "2026-04-23T02:24:38.333092+00:00",
+      "id": "sig_1776911143302_1",
+      "timestamp": "2026-04-23T02:25:43.302503+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Market odds** at specific past dates (e",
-      "raw": "**Market odds** at specific past dates (e.g., \"Iran x Israel/US conflict ends by...?\" at 100% probability)[1]",
-      "direction": null,
+      "headline": "Monero $1000 in 2026",
+      "raw": "Monero $1000 in 2026? | NO recent buzz | LOW confidence** [1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -104,64 +116,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776911078334_3",
-      "timestamp": "2026-04-23T02:24:38.334927+00:00",
+      "id": "sig_1776911143304_2",
+      "timestamp": "2026-04-23T02:25:43.304333+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Trading volumes** from those dates, not current activity[1][2][3]",
-      "raw": "**Trading volumes** from those dates, not current activity[1][2][3]\n\nTo find what traders are currently discussing, you would need to:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776911078336_4",
-      "timestamp": "2026-04-23T02:24:38.336767+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check Polymarket's live chat or community forums directly",
-      "raw": "Check Polymarket's live chat or community forums directly",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776911078338_5",
-      "timestamp": "2026-04-23T02:24:38.338564+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor social media discussions about specific prediction markets",
-      "raw": "Monitor social media discussions about specific prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776911078340_6",
-      "timestamp": "2026-04-23T02:24:38.340373+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Review recent market movements on Polymarket's platform in real-time",
-      "raw": "Review recent market movements on Polymarket's platform in real-time",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776911078342_7",
-      "timestamp": "2026-04-23T02:24:38.342250+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Look at crypto/trading communities on Discord, Twitter/X, or Reddit for trader commentary",
-      "raw": "Look at crypto/trading communities on Discord, Twitter/X, or Reddit for trader commentary\n\nThe search results do not capture live trader sentiment, whale positioning, or breaking announcements that would move markets right now.",
-      "direction": null,
+      "headline": "Kanye Tweet by Apr 30 | 78% YES implied | MED confidence** [2]",
+      "raw": "Kanye Tweet by Apr 30 | 78% YES implied | MED confidence** [2]",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -171,8 +131,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 12,
+    "alert": 9,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
