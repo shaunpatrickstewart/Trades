@@ -1,5 +1,5 @@
 {
-  "ts": 1776915390,
+  "ts": 1776915460,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999719
+    "usdc_usd": 0.999725
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.06,
-        "nav_usdc": 0.4896,
+        "cur_price": 0.059,
+        "nav_usdc": 0.4814,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8078
+        "unrealized_pnl": -0.816
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,19 +170,19 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1105,
-        "nav_usdc": 0.558,
+        "cur_price": 0.11,
+        "nav_usdc": 0.5555,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.1337
+        "unrealized_pnl": -1.1362
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.14,
-        "nav_usdc": 0.707,
+        "cur_price": 0.145,
+        "nav_usdc": 0.7322,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.505
+        "unrealized_pnl": -0.4798
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.1019,
-        "nav_usdc": 0.5007,
+        "cur_price": 0.103,
+        "nav_usdc": 0.5061,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.0192
+        "unrealized_pnl": 0.0246
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.4452,
-    "total_usdc": 404.3818,
-    "total_usd": 404.2682
+    "positions_nav_usdc": 317.4652,
+    "total_usdc": 404.4018,
+    "total_usd": 404.2906
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776915391,
+    "ts": 1776915461,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776828991,
+      "window_start_ts": 1776829061,
       "realized_usdc": 0.0,
       "trade_count": 2,
       "buy_volume_usdc": 29.0862,
@@ -380,7 +380,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776310591,
+      "window_start_ts": 1776310661,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +593,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774323391,
+      "window_start_ts": 1774323461,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1019,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.2682,
-    "total_usdc": 404.3818
+    "total_usd": 404.2906,
+    "total_usdc": 404.4018
   }
 }
