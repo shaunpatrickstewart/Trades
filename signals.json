@@ -1,17 +1,89 @@
 {
-  "last_scan": "2026-04-23T05:42:29.334165+00:00",
-  "scan_seconds": 18.7,
+  "last_scan": "2026-04-23T05:44:09.849872+00:00",
+  "scan_seconds": 49.2,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776922935550_0",
-      "timestamp": "2026-04-23T05:42:15.550574+00:00",
+      "id": "sig_1776923040220_0",
+      "timestamp": "2026-04-23T05:44:00.220808+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested based on these search results",
-      "raw": "I cannot provide breaking news in the format you've requested based on these search results. The search results contain **price predictions and forecasts** rather than confirmed announcements or resolved events that would move prediction markets[1][2][4][5][6].\n\nThe most recent concrete data point is from April 22-23, 2026, showing Ethereum trading around **$2,366-$2,367**[5], but this represents ",
-      "direction": null,
+      "headline": "Powell Confirms He Will Stay as Fed Chair Until Successor Confirmed Amid Ongoing Nomination Process** | NO | HIGH confid",
+      "raw": "Powell Confirms He Will Stay as Fed Chair Until Successor Confirmed Amid Ongoing Nomination Process** | NO | HIGH confidence\n\nJerome Powell has stated he will remain in his role as Federal Reserve Chair until a successor is confirmed by the Senate, with no confirmation or resolution announced for nominee Kevin Warsh as of now[1][2]. His chair term expires in May 2026, but his Board term extends to",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776923044669_0",
+      "timestamp": "2026-04-23T05:44:04.669542+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers Lead Rockets 2-0 in Western Conference First Round | YES | HIGH confidence**",
+      "raw": "Lakers Lead Rockets 2-0 in Western Conference First Round | YES | HIGH confidence**  \nThe Los Angeles Lakers have won Game 3 against the Houston Rockets, extending their series lead to 2-0 in the ongoing NBA playoffs first round, as confirmed by the latest ESPN playoff bracket updates.[2] This development, with Game 3 listed for April 24, strengthens Lakers' advancement odds and could shift predic",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776923036692_5",
+      "timestamp": "2026-04-23T05:43:56.692552+00:00",
+      "source": "PERPLEXITY",
+      "headline": "The closest item to \"breaking news\"** would be the Pectra Upgrade's progression[5], but the search results only indicate",
+      "raw": "The closest item to \"breaking news\"** would be the Pectra Upgrade's progression[5], but the search results only indicate it was in \"final testing phase\" rather than announcing a confirmed launch or completion.\n\nTo provide the headline format you requested (HEADLINE | YES or NO | HIGH/MED/LOW confidence), I would need search results containing a specific announcement, confirmation, or resolution re",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923036683_0",
+      "timestamp": "2026-04-23T05:43:56.683545+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify a clear \"breaking news\" item from the search results that meets your criteria for moving prediction ma",
+      "raw": "I cannot identify a clear \"breaking news\" item from the search results that meets your criteria for moving prediction markets.\n\nThe search results contain **price data and technical analysis from April 13-22, 2026**, but no announcement of a specific confirmed event, resolution, or development that would constitute breaking news as of April 23, 2026. Here's what the results show:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923036685_1",
+      "timestamp": "2026-04-23T05:43:56.685342+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent Ethereum Activity:**",
+      "raw": "Recent Ethereum Activity:**",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776923036687_2",
+      "timestamp": "2026-04-23T05:43:56.687104+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Price movement**: Ethereum traded at $2,403",
+      "raw": "**Price movement**: Ethereum traded at $2,403.78 on April 22, 2026, up $98.74 from the previous day[1]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
         "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
       ],
@@ -20,63 +92,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776922935555_2",
-      "timestamp": "2026-04-23T05:42:15.555900+00:00",
+      "id": "sig_1776923036688_3",
+      "timestamp": "2026-04-23T05:43:56.688882+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confirmed network upgrades or protocol changes",
-      "raw": "Confirmed network upgrades or protocol changes",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776922935563_5",
-      "timestamp": "2026-04-23T05:42:15.563761+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Market-moving corporate treasury announcements",
-      "raw": "Market-moving corporate treasury announcements\n\nThe predictions in these results (ranging from $1,000 bearish targets to $7,500+ bullish targets by end-2026) reflect analyst opinions and technical analysis rather than confirmed events that have just occurred[1][2][4][6].",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776922940722_2",
-      "timestamp": "2026-04-23T05:42:20.722371+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell's announced departure decision",
-      "raw": "Powell's announced departure decision",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776922940727_5",
-      "timestamp": "2026-04-23T05:42:20.727613+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Without such information in the search results, I cannot confirm what has been announced or resolved today",
-      "raw": "Without such information in the search results, I cannot confirm what has been announced or resolved today.**",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776922935553_1",
-      "timestamp": "2026-04-23T05:42:15.553534+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent official announcements from Ethereum developers, exchanges, or regulators",
-      "raw": "Recent official announcements from Ethereum developers, exchanges, or regulators",
+      "headline": "**Technical analysis**: As of mid-April, ETH showed bearish conditions with support levels at $2,106-$2,176[4]",
+      "raw": "**Technical analysis**: As of mid-April, ETH showed bearish conditions with support levels at $2,106-$2,176[4]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -85,11 +105,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776922935558_3",
-      "timestamp": "2026-04-23T05:42:15.558737+00:00",
+      "id": "sig_1776923036690_4",
+      "timestamp": "2026-04-23T05:43:56.690680+00:00",
       "source": "PERPLEXITY",
-      "headline": "Major institutional adoption news",
-      "raw": "Major institutional adoption news",
+      "headline": "**Pectra Upgrade**: The Prague-Electra (Pectra) Upgrade was in its final testing phase as of April 18, 2026, with potent",
+      "raw": "**Pectra Upgrade**: The Prague-Electra (Pectra) Upgrade was in its final testing phase as of April 18, 2026, with potential to improve wallet abstraction and validator efficiency[5]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -98,107 +118,25 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776922935560_4",
-      "timestamp": "2026-04-23T05:42:15.560779+00:00",
+      "id": "sig_1776923048844_0",
+      "timestamp": "2026-04-23T05:44:08.844946+00:00",
       "source": "PERPLEXITY",
-      "headline": "Regulatory decisions or policy changes",
-      "raw": "Regulatory decisions or policy changes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776922940718_0",
-      "timestamp": "2026-04-23T05:42:20.718673+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news announcement from April 23, 2026 (today) that",
-      "raw": "Based on the search results provided, I cannot identify any breaking news announcement from April 23, 2026 (today) that would move prediction markets. The most recent dated information in these results is from **April 14, 2026**, which reported that prediction markets indicated a **62% likelihood that Powell will depart the Board of Governors this year**[2].\n\nThe only upcoming event mentioned is *",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776922940720_1",
-      "timestamp": "2026-04-23T05:42:20.720461+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Warsh's confirmation vote or hearing outcomes",
-      "raw": "Warsh's confirmation vote or hearing outcomes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776922940724_3",
-      "timestamp": "2026-04-23T05:42:20.724139+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Resolution of the DOJ criminal investigation",
-      "raw": "Resolution of the DOJ criminal investigation",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776922940725_4",
-      "timestamp": "2026-04-23T05:42:20.725880+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Any other market-moving development",
-      "raw": "Any other market-moving development",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776922943820_0",
-      "timestamp": "2026-04-23T05:42:23.820083+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Lakers Drop to Tie for 3rd in West After Loss to Flagg's Mavs; Officially Out of Playoff Contention Amid Injuries** | NO",
-      "raw": "Lakers Drop to Tie for 3rd in West After Loss to Flagg's Mavs; Officially Out of Playoff Contention Amid Injuries** | NO | HIGH[1][2]",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or smart money moves reported | MED confiden",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or smart money moves reported | MED confidence**\n\nPolymarket's top active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related markets), with over $21.5M-$21.7M in vol",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776922943821_1",
-      "timestamp": "2026-04-23T05:42:23.821886+00:00",
+      "id": "sig_1776923048846_1",
+      "timestamp": "2026-04-23T05:44:08.846889+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg Sets Historic Rookie Records with Back-to-Back 40+ Point Games (51 Then 45 vs Lakers)** | YES | HIGH[1][2][",
-      "raw": "Cooper Flagg Sets Historic Rookie Records with Back-to-Back 40+ Point Games (51 Then 45 vs Lakers)** | YES | HIGH[1][2][3]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776922948331_0",
-      "timestamp": "2026-04-23T05:42:28.331607+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Chatter: Elon Musk Tweet Counts Lead, Inflation & Tennis Bets Active | NO whale bets or resolutions",
-      "raw": "Trending Polymarket Chatter: Elon Musk Tweet Counts Lead, Inflation & Tennis Bets Active | NO whale bets or resolutions confirmed | LOW confidence**\n\nPolymarket's trending markets as of April 22 include high inflation in 2026 and niche events like \"Nasdaq round-the-clock trading by June 30?\", with 168 active markets and over $3.3M volume reflecting trader sentiment on real-time odds.[1]  \nTweet Ma",
-      "direction": "YES",
+      "headline": "Trending Markets** category shows 160-168 active predictions (e",
+      "raw": "Trending Markets** category shows 160-168 active predictions (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d) with $3.3M volume, but lacks real-time X discussion or moves[1].  \nOther niches like Kanye tweets or CS IEM Rio mentions appear, yet no breaking trader sentiment or shifts noted as of April 22, 2026 data[3][5].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -207,9 +145,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 15,
+    "enter": 2,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 5
+    "high_conf": 3
   }
 }
