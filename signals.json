@@ -1,36 +1,31 @@
 {
-  "last_scan": "2026-04-23T03:20:45.115287+00:00",
-  "scan_seconds": 14.5,
+  "last_scan": "2026-04-23T03:21:53.946330+00:00",
+  "scan_seconds": 13.3,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776914439367_0",
-      "timestamp": "2026-04-23T03:20:39.367059+00:00",
+      "id": "sig_1776914504046_0",
+      "timestamp": "2026-04-23T03:21:44.046479+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news headline you're requesting because the search results do not contain current informat",
-      "raw": "I cannot provide the breaking news headline you're requesting because the search results do not contain current information from today (April 23, 2026).\n\nThe most recent substantive information in the search results dates to **January 18, 2026**, covering a regular season matchup between the Lakers and Raptors[1][2]. Additionally, there are references to **2026 NBA Playoffs** content[7][8], but th",
+      "headline": "Confidence: HIGH** (search results lack any \"just confirmed\" news, focusing on ongoing trends without timed breakthrough",
+      "raw": "Confidence: HIGH** (search results lack any \"just confirmed\" news, focusing on ongoing trends without timed breakthroughs[1][3][4]).",
       "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776914439380_4",
-      "timestamp": "2026-04-23T03:20:39.380523+00:00",
+      "id": "sig_1776914508292_0",
+      "timestamp": "2026-04-23T03:21:48.292914+00:00",
       "source": "PERPLEXITY",
-      "headline": "Market-confirmed outcomes or announcements",
-      "raw": "Market-confirmed outcomes or announcements\n\nTo answer your query accurately, I would need search results with today's date that specifically reference NBA playoff developments, rookie news, or Lakers-Raptors series information that has just been announced or confirmed.",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Raptors rookie Ja'Kobe Walter questionable for Game 3 vs",
+      "raw": "Raptors rookie Ja'Kobe Walter questionable for Game 3 vs. Cavaliers due to illness; Immanuel Quickley also questionable with hamstring strain.**[2]  \nYES | MED confidence[2]",
+      "direction": "YES",
+      "confidence": 0.65,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
@@ -38,81 +33,12 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776914433457_0",
-      "timestamp": "2026-04-23T03:20:33.457267+00:00",
+      "id": "sig_1776914512940_0",
+      "timestamp": "2026-04-23T03:21:52.940419+00:00",
       "source": "PERPLEXITY",
-      "headline": "No breaking confirmations, announcements, or resolutions RIGHT NOW on Bitcoin or Ethereum that would move prediction mar",
-      "raw": "No breaking confirmations, announcements, or resolutions RIGHT NOW on Bitcoin or Ethereum that would move prediction markets.**  \nMarket trends show Bitcoin reaffirming its central role with institutional ETF inflows and corporate purchases as strategic reserves, while Ethereum exhibits strengthening via restored spot ETF demand, rising on-chain activity, and anticipation around the Pectra upgrade",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 38% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (22% chance for 1120-1159 tweets, with high volume over $20.8M).[2][3][4] These dominate Tweet and Tweet Ma",
       "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Bitcoin above 79,000 on April 23, 12AM ET?",
-        "Will Bitcoin reach $82,500 in April?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776914433459_1",
-      "timestamp": "2026-04-23T03:20:33.459389+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (based on absence of urgent news in real-time sources)",
-      "raw": "Confidence: HIGH** (based on absence of urgent news in real-time sources).",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776914439370_1",
-      "timestamp": "2026-04-23T03:20:39.370372+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news from April 23, 2026",
-      "raw": "Breaking news from April 23, 2026",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776914439373_2",
-      "timestamp": "2026-04-23T03:20:39.373589+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Current playoff series information",
-      "raw": "Current playoff series information",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776914439376_3",
-      "timestamp": "2026-04-23T03:20:39.376830+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent rookie updates",
-      "raw": "Recent rookie updates",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776914444107_0",
-      "timestamp": "2026-04-23T03:20:44.107825+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\" showing high trading volume over $20M; the 1120-1159 tweet range holds 20-21% odds.[2][3]",
-      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -122,12 +48,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776914444110_1",
-      "timestamp": "2026-04-23T03:20:44.110142+00:00",
+      "id": "sig_1776914512943_1",
+      "timestamp": "2026-04-23T03:21:52.943039+00:00",
       "source": "PERPLEXITY",
-      "headline": "Monero $1000 Price Target and Niche Bans Heating Up in Trending Markets | YES | MED confidence**",
-      "raw": "Monero $1000 Price Target and Niche Bans Heating Up in Trending Markets | YES | MED confidence**  \nTrending markets include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" at 11% odds, amid 168 live markets with $3M+ volume on crypto, tech, and regulatory events like Nasdaq 24/7 trading by June 30.[1] No specific whale bets or X posts detailed in real-",
-      "direction": "YES",
+      "headline": "Trending Markets** category shows 168 active predictions like \u201cNasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** category shows 168 active predictions like \u201cNasdaq round-the-clock trading by June 30?\u201d with $3.0M volume, but no X posts on whales or tips here.[1] No recent confirmations, announcements, or resolutions (e.g., tweet counts or events) are reported to shift odds as of April 22-23, 2026 data.[1][2][3][4] Confidence medium due to real-time page snapshots lacking live X trader posts",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -135,23 +61,25 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776914444112_2",
-      "timestamp": "2026-04-23T03:20:44.112239+00:00",
+      "id": "sig_1776914508296_1",
+      "timestamp": "2026-04-23T03:21:48.296320+00:00",
       "source": "PERPLEXITY",
-      "headline": "Kanye West Tweet Return Market Active at 78% Yes | YES | HIGH confidence**",
-      "raw": "Kanye West Tweet Return Market Active at 78% Yes | YES | HIGH confidence**  \n\"Will Kanye tweet again by April 30?\" trades at 78% yes odds with $393 volume, part of 130 tweet prediction markets as of early April.[2]",
+      "headline": "Series context:** Cavaliers lead Raptors 2-0 after Game 2 win (115-105 on April 20, 2026), shifting to Toronto for Game",
+      "raw": "Series context:** Cavaliers lead Raptors 2-0 after Game 2 win (115-105 on April 20, 2026), shifting to Toronto for Game 3 on Thursday at 8 p.m. ET.[1][2][3][4] Raptors showing desperation signals with coach/player quotes hinting at bold changes ahead, potentially impacting series and offseason.[1] Walter (rookie, 21 points over first 2 games) averaged 7.5 PPG in regular season; his status could sw",
       "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 10,
-    "watch": 0,
-    "high_conf": 2
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 1
   }
 }
