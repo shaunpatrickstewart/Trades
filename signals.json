@@ -1,65 +1,41 @@
 {
-  "last_scan": "2026-04-23T06:59:07.000852+00:00",
-  "scan_seconds": 16.4,
+  "last_scan": "2026-04-23T07:00:13.283933+00:00",
+  "scan_seconds": 17.7,
   "markets_scanned": 54,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776927545997_0",
-      "timestamp": "2026-04-23T06:59:05.997620+00:00",
+      "id": "sig_1776927603462_0",
+      "timestamp": "2026-04-23T07:00:03.462838+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced alerts confirmed f",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced alerts confirmed from X posts | LOW confidence**  \nPolymarket's most active markets as of April 22, 2026, focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159",
+      "headline": "Jerome Powell Confirms He Will Remain Fed Chair Until Successor Confirmed** | **YES** | **HIGH** confidence[1][3]",
+      "raw": "Jerome Powell Confirms He Will Remain Fed Chair Until Successor Confirmed** | **YES** | **HIGH** confidence[1][3]\n\nPowell's statement, delivered in a recent press conference amid FOMC decision to hold rates steady, explicitly affirms he will serve as **chair pro tem** if his term ends in May 2026 without Senate confirmation of a successor (e.g., nominated Kevin Warsh).[1][2][3] He also pledged no ",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776927533827_0",
-      "timestamp": "2026-04-23T06:58:53.827361+00:00",
+      "id": "sig_1776927612280_0",
+      "timestamp": "2026-04-23T07:00:12.280331+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** \u2013 All sources consistently describe this past October 2025 selloff as the key event, with no new brea",
-      "raw": "Confidence: HIGH** \u2013 All sources consistently describe this past October 2025 selloff as the key event, with no new breaking confirmations today (April 2026); markets have stabilized post-crash but remain in a bearish phase with ETF outflows and reduced open interest.[3][4]",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO | MED confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO | MED confidence**\n\nPolymarket's trending markets as of April 22, 2026, heavily feature **Elon Musk tweet predictions**, including \"Elon Musk # tweets in April 2026?\" (most active with 22-24% odds on 1120-1159 range across sub-markets) and specific windows like April 17-24, backed by $21.5M+ volume[1][2][3]. **Tweet Markets** (20",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776927538205_0",
-      "timestamp": "2026-04-23T06:58:58.205736+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (based on recency of results up to April 21; no later developments reported)",
-      "raw": "Confidence: HIGH** (based on recency of results up to April 21; no later developments reported).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776927541733_0",
-      "timestamp": "2026-04-23T06:59:01.733134+00:00",
-      "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any immediate market shift, as search results show pre-playoff odds without updates",
-      "raw": "LOW confidence** in any immediate market shift, as search results show pre-playoff odds without updates.[5][6][7]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 4,
+    "enter": 1,
+    "alert": 1,
     "watch": 0,
     "high_conf": 1
   }
