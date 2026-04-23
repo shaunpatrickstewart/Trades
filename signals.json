@@ -1,79 +1,141 @@
 {
-  "last_scan": "2026-04-23T01:42:13.840799+00:00",
-  "scan_seconds": 18.2,
+  "last_scan": "2026-04-23T01:43:15.087186+00:00",
+  "scan_seconds": 14.5,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776908532823_0",
-      "timestamp": "2026-04-23T01:42:12.823045+00:00",
+      "id": "sig_1776908584600_0",
+      "timestamp": "2026-04-23T01:43:04.600934+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time information about what Polymarket traders are currently posting on X (Twitter) or identify sp",
-      "raw": "I cannot provide real-time information about what Polymarket traders are currently posting on X (Twitter) or identify specific whale bets and smart money moves happening right now.\n\nThe search results provided describe Polymarket's general functionality and historical market data from April 9-22, 2026, but they do not contain:",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Trump Extends Iran Ceasefire Indefinitely; Strategy Discloses $2",
+      "raw": "Trump Extends Iran Ceasefire Indefinitely; Strategy Discloses $2.54B BTC Buy** | **YES** | **HIGH**  \nBitcoin surged to $77,541 on April 22, 2026 (up 2.2% daily, 4.3% weekly), breaking a two-month consolidation, driven by Trump's indefinite Iran ceasefire extension removing geopolitical risk premium and Strategy's purchase lifting holdings past 815,000 BTC\u2014absorbing ~3x April's global miner supply",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Trump name \"Elon\" or \"Musk\" in April?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776908594083_0",
+      "timestamp": "2026-04-23T01:43:14.083966+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for certain ranges) and \"Elon Musk # tweets in April 2026?\" (21% chance for 1120-1159 range, with over $20.7M volume).[2][3][4]  \nNo direct X posts from Polymarket tr",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ENTER",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776908532824_1",
-      "timestamp": "2026-04-23T01:42:12.824932+00:00",
+      "id": "sig_1776908584605_2",
+      "timestamp": "2026-04-23T01:43:04.605509+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media discussions or trader commentary from X",
-      "raw": "Current social media discussions or trader commentary from X",
-      "direction": null,
-      "confidence": 0.65,
+      "headline": "$175M Kelp DAO DeFi Exploit Confirmed** | **NO** | **HIGH**",
+      "raw": "$175M Kelp DAO DeFi Exploit Confirmed** | **NO** | **HIGH**  \nHacker laundered $175M ETH stolen from Kelp DAO restaking protocol (April 22, 2026), sparking ecosystem crisis and potential short-term ETH pressure despite broader upside.[3]",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776908532826_2",
-      "timestamp": "2026-04-23T01:42:12.826717+00:00",
+      "id": "sig_1776908590331_1",
+      "timestamp": "2026-04-23T01:43:10.331824+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active whale trades or large position movements",
-      "raw": "Active whale trades or large position movements",
+      "headline": "Recent confirmed announcements about Cavaliers playoffs status",
+      "raw": "Recent confirmed announcements about Cavaliers playoffs status",
       "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776908532828_3",
-      "timestamp": "2026-04-23T01:42:12.828507+00:00",
+      "id": "sig_1776908590337_4",
+      "timestamp": "2026-04-23T01:43:10.337471+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time assessments of mispriced markets",
-      "raw": "Real-time assessments of mispriced markets",
+      "headline": "Any developments from the past week that constitute breaking news",
+      "raw": "Any developments from the past week that constitute breaking news\n\nTo accurately report breaking news that would impact prediction markets, I would need search results from today or within the past 24 hours containing recent official announcements, confirmed roster decisions, or playoff qualification resolutions. The available results are approximately 2-3 weeks old.\n\nIf you'd like analysis of the",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776908532830_4",
-      "timestamp": "2026-04-23T01:42:12.830322+00:00",
+      "id": "sig_1776908584603_1",
+      "timestamp": "2026-04-23T01:43:04.603421+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recent news, confirmations, or market-moving announcements as of this moment",
-      "raw": "Recent news, confirmations, or market-moving announcements as of this moment\n\nTo find this information, you would need to:",
+      "headline": "Vitalik-Backed Report Projects ETH to $250K by Capturing Gold/BTC Premium** | **YES** | **MED**",
+      "raw": "Vitalik-Backed Report Projects ETH to $250K by Capturing Gold/BTC Premium** | **YES** | **MED**  \nEtherealize report (April 22, 2026), supported by Vitalik Buterin, forecasts Ethereum hitting $250K via staking, DeFi, and tokenization utility overtaking $31T gold/BTC monetary premium\u2014boosting long-term sentiment amid ETH's $2,260\u2013$2,390 range and 100-day EMA support (~$2,350).[3][2]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776908590329_0",
+      "timestamp": "2026-04-23T01:43:10.329996+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the \"breaking news RIGHT NOW\" format you've requested based on these search results",
+      "raw": "I cannot provide the \"breaking news RIGHT NOW\" format you've requested based on these search results. The search results primarily cover events from early April 2026 (Cooper Flagg's 45-point and 51-point performances against the Lakers), which are not current breaking news as of April 23, 2026.\n\nThe search results do not contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776908590333_2",
+      "timestamp": "2026-04-23T01:43:10.333626+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current updates on Cooper Flagg's playoff eligibility",
+      "raw": "Current updates on Cooper Flagg's playoff eligibility",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776908590335_3",
+      "timestamp": "2026-04-23T01:43:10.335438+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New information about Lakers or Raptors that would move prediction markets today",
+      "raw": "New information about Lakers or Raptors that would move prediction markets today",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 5,
+    "enter": 2,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 5
   }
 }
