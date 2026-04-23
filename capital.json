@@ -1,5 +1,5 @@
 {
-  "ts": 1776907370,
+  "ts": 1776907439,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999735
+    "usdc_usd": 0.999692
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.117,
-        "nav_usdc": 0.5908,
+        "cur_price": 0.1165,
+        "nav_usdc": 0.5883,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.1008
+        "unrealized_pnl": -1.1034
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -305,10 +305,10 @@
         "slug": "will-detroit-pistons-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9242,
-        "cur_price": 0.36,
-        "nav_usdc": 1.7727,
+        "cur_price": 0.365,
+        "nav_usdc": 1.7973,
         "cost_basis": 0.8371,
-        "unrealized_pnl": 0.9356
+        "unrealized_pnl": 0.9602
       },
       {
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.4062,
-    "total_usdc": 404.3428,
-    "total_usd": 404.2357
+    "positions_nav_usdc": 317.4283,
+    "total_usdc": 404.3649,
+    "total_usd": 404.2404
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776907371,
+    "ts": 1776907440,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776820971,
+      "window_start_ts": 1776821040,
       "realized_usdc": 0.0,
       "trade_count": 6,
       "buy_volume_usdc": 86.8923,
@@ -400,7 +400,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776302571,
+      "window_start_ts": 1776302640,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -613,7 +613,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774315371,
+      "window_start_ts": 1774315440,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1039,7 +1039,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.2357,
-    "total_usdc": 404.3428
+    "total_usd": 404.2404,
+    "total_usdc": 404.3649
   }
 }
