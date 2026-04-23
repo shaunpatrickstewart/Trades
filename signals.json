@@ -1,71 +1,95 @@
 {
-  "last_scan": "2026-04-23T02:48:35.357370+00:00",
-  "scan_seconds": 14.5,
+  "last_scan": "2026-04-23T02:49:51.153885+00:00",
+  "scan_seconds": 20.6,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776912504622_1",
-      "timestamp": "2026-04-23T02:48:24.622177+00:00",
+      "id": "sig_1776912575360_0",
+      "timestamp": "2026-04-23T02:49:35.360014+00:00",
       "source": "PERPLEXITY",
-      "headline": "MED confidence** - Latest data is from April 20 (ETH at $2,317",
-      "raw": "MED confidence** - Latest data is from April 20 (ETH at $2,317.80, down daily but up yearly); no post-April 20 confirmations in results, with predictions varying from $2,100-$2,200[3] to bullish $10K long-term.[1][6] Prediction markets on Robinhood priced ETH above $2,280 at 96\u00a2 for April 21 (already passed).[5]",
-      "direction": "YES",
+      "headline": "I cannot identify a specific breaking news event that has \"just been confirmed, announced, or resolved\" based on the sea",
+      "raw": "I cannot identify a specific breaking news event that has \"just been confirmed, announced, or resolved\" based on the search results provided. The available information shows Ethereum trading at approximately **$2,395-$2,403** as of April 22, 2026[1][3], with recent price movements attributed to factors like a U.S.-Iran ceasefire announcement and institutional inflows into Ethereum spot ETFs[3], bu",
+      "direction": null,
       "confidence": 0.9,
-      "matched_markets": [],
+      "matched_markets": [
+        "Ethereum above 2,320 on April 22, 11PM ET?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776912509485_0",
-      "timestamp": "2026-04-23T02:48:29.485858+00:00",
+      "id": "sig_1776912590142_4",
+      "timestamp": "2026-04-23T02:49:50.142161+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavericks Snap 14-Game Home Losing Streak as Cooper Flagg Drops 45 on Injury-Depleted Lakers** | **YES** | **HIGH** conf",
-      "raw": "Mavericks Snap 14-Game Home Losing Streak as Cooper Flagg Drops 45 on Injury-Depleted Lakers** | **YES** | **HIGH** confidence[1][2][3]\n\nCooper Flagg scored 45 points (near triple-double with 9 assists, 8 rebounds), leading Dallas to a 134-128 win over LeBron James and the Lakers, ending their 14-game home skid since January 22[1][2][3]. This marks Flagg's second straight 40+ point game (51 vs. OR",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776912514354_0",
-      "timestamp": "2026-04-23T02:48:34.354330+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Activity | NO whale bets or tips reported | LOW confidenc",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Dominating Polymarket Activity | NO whale bets or tips reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" across Tweet and Tweet Markets categories, with over $20M+ in total volum",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
-      ],
+      "headline": "Breaking news or recently confirmed announcements that would move markets",
+      "raw": "Breaking news or recently confirmed announcements that would move markets\n\nTo get this information, you would need to:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776912504618_0",
-      "timestamp": "2026-04-23T02:48:24.618631+00:00",
+      "id": "sig_1776912590134_0",
+      "timestamp": "2026-04-23T02:49:50.134561+00:00",
       "source": "PERPLEXITY",
-      "headline": "YES** - Recent Pectra Upgrade entering final testing phase (as of April 18) could boost network efficiency and wallet fe",
-      "raw": "YES** - Recent Pectra Upgrade entering final testing phase (as of April 18) could boost network efficiency and wallet features, driving institutional inflows and ETH to $6K in video reports, though prices show consolidation around $2,000-$2,300 through April 20.[2][1][5]",
-      "direction": "YES",
-      "confidence": 0.6,
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results show Polymarket's platform overview and some historical market data from April 9-22, 2026, but they do not contain:",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
-      "action": "WATCH",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912590136_1",
+      "timestamp": "2026-04-23T02:49:50.136453+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current X (Twitter) posts from traders discussing prediction markets",
+      "raw": "Current X (Twitter) posts from traders discussing prediction markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912590138_2",
+      "timestamp": "2026-04-23T02:49:50.138306+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Active whale bets or smart money movements happening right now",
+      "raw": "Active whale bets or smart money movements happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912590140_3",
+      "timestamp": "2026-04-23T02:49:50.140154+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time market commentary about mispricings or imminent price movements",
+      "raw": "Real-time market commentary about mispricings or imminent price movements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 3,
-    "watch": 1,
-    "high_conf": 1
+    "alert": 6,
+    "watch": 0,
+    "high_conf": 2
   }
 }
