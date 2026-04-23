@@ -1,5 +1,5 @@
 {
-  "ts": 1776948945,
+  "ts": 1776949015,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999756
+    "usdc_usd": 0.999776
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0585,
-        "nav_usdc": 0.4774,
+        "cur_price": 0.055,
+        "nav_usdc": 0.4488,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.82
+        "unrealized_pnl": -0.8486
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1075,
-        "nav_usdc": 0.5429,
+        "cur_price": 0.1045,
+        "nav_usdc": 0.5277,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.1488
+        "unrealized_pnl": -1.164
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 315.932,
-    "total_usdc": 402.8686,
-    "total_usd": 402.7703
+    "positions_nav_usdc": 315.8883,
+    "total_usdc": 402.8249,
+    "total_usd": 402.7347
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776948946,
+    "ts": 1776949016,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776862546,
+      "window_start_ts": 1776862616,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776344146,
+      "window_start_ts": 1776344216,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774356946,
+      "window_start_ts": 1774357016,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.7703,
-    "total_usdc": 402.8686
+    "total_usd": 402.7347,
+    "total_usdc": 402.8249
   }
 }
