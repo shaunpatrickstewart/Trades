@@ -1,5 +1,5 @@
 {
-  "ts": 1776935610,
+  "ts": 1776935680,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999756
+    "usdc_usd": 0.999686
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,28 +125,28 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.061,
-        "nav_usdc": 0.4978,
+        "cur_price": 0.0605,
+        "nav_usdc": 0.4937,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.7996
+        "unrealized_pnl": -0.8037
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.13,
-        "nav_usdc": 0.9958,
+        "cur_price": 0.135,
+        "nav_usdc": 1.0341,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.766
+        "unrealized_pnl": -0.7277
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "title": "Strait of Hormuz traffic returns to normal by end of April?",
         "size": 7.65,
-        "cur_price": 0.0395,
-        "nav_usdc": 0.3022,
+        "cur_price": 0.0335,
+        "nav_usdc": 0.2563,
         "cost_basis": 2.295,
-        "unrealized_pnl": -1.9928
+        "unrealized_pnl": -2.0387
       },
       {
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.118,
-        "nav_usdc": 0.5959,
+        "cur_price": 0.1135,
+        "nav_usdc": 0.5732,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.0958
+        "unrealized_pnl": -1.1185
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.0552,
-    "total_usdc": 402.9918,
-    "total_usd": 402.8934
+    "positions_nav_usdc": 316.0207,
+    "total_usdc": 402.9574,
+    "total_usd": 402.8308
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776935611,
+    "ts": 1776935681,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776849211,
+      "window_start_ts": 1776849281,
       "realized_usdc": 0.0,
       "trade_count": 2,
       "buy_volume_usdc": 29.0862,
@@ -380,7 +380,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776330811,
+      "window_start_ts": 1776330881,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +593,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774343611,
+      "window_start_ts": 1774343681,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1019,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.8934,
-    "total_usdc": 402.9918
+    "total_usd": 402.8308,
+    "total_usdc": 402.9574
   }
 }
