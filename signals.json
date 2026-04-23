@@ -1,31 +1,69 @@
 {
-  "last_scan": "2026-04-23T04:14:34.531082+00:00",
-  "scan_seconds": 13.9,
+  "last_scan": "2026-04-23T04:15:45.893172+00:00",
+  "scan_seconds": 14.7,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776917668452_0",
-      "timestamp": "2026-04-23T04:14:28.452706+00:00",
+      "id": "sig_1776917738408_0",
+      "timestamp": "2026-04-23T04:15:38.408642+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers, ending Dallas' 14-game home losing",
-      "raw": "Cooper Flagg scores 45 points in Mavericks' 134-128 win over injury-depleted Lakers, ending Dallas' 14-game home losing streak | NO | LOW confidence** [1][2][3]\n\nThis regular-season game on Sunday (early April 2026) saw the 19-year-old rookie No. 1 pick Flagg deliver back-to-back 40+ point games (51 then 45), with 9 assists and 8 rebounds, becoming the first teenager with consecutive 40-point outi",
+      "headline": "Lakers lead Rockets 2-0 in Western Conference Semifinals after Game 2 win; no immediate series prediction shift",
+      "raw": "Lakers lead Rockets 2-0 in Western Conference Semifinals after Game 2 win; no immediate series prediction shift.**  \nYES - Game 2 result confirmed (LAL  vs. HOU, LAL leads 2-0, next Game 3 on Apr 24)[1].  \nHIGH confidence - Bracket explicitly states \"Game 3, LAL lead 2-0\" as latest update[1].",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776917673526_0",
-      "timestamp": "2026-04-23T04:14:33.526062+00:00",
+      "id": "sig_1776917734905_0",
+      "timestamp": "2026-04-23T04:15:34.905414+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or tips reported | LOW confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or tips reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (20-22% for 1120-1159 range), with over $20M+ in volume across 129+ ",
+      "headline": "LOW confidence** in any immediate price-up news, as latest data (April 22) emphasizes consolidation over breakouts",
+      "raw": "LOW confidence** in any immediate price-up news, as latest data (April 22) emphasizes consolidation over breakouts.[5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776917744879_0",
+      "timestamp": "2026-04-23T04:15:44.879647+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, with \"Elon Musk # tweets in April 2026?\" showing 20-22% odds for the 1120-1159 range amid $20.8M-$21.5M total volume across related markets like \"Elon Musk # tweets April 17 - April 24, 2026?\"[2][3]. Traders highlight real-time odds shi",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776917744882_1",
+      "timestamp": "2026-04-23T04:15:44.882742+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Monero $1000 Price Target & Niche Bans in Trending Markets | YES | MED confidence**",
+      "raw": "Monero $1000 Price Target & Niche Bans in Trending Markets | YES | MED confidence**",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776917744886_2",
+      "timestamp": "2026-04-23T04:15:44.886329+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending markets** include \"Will Monero hit $1000 in 2026",
+      "raw": "Trending markets** include \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" at 11% odds, part of 168 live markets with $3M volume[1]. These draw trader interest for crypto/finance edges, potentially mispriced on regulatory or price catalysts; no fresh confirmations or resolutions noted to shift odds immediately[1].",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -34,11 +72,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776917673527_1",
-      "timestamp": "2026-04-23T04:14:33.527911+00:00",
+      "id": "sig_1776917744889_3",
+      "timestamp": "2026-04-23T04:15:44.889513+00:00",
       "source": "PERPLEXITY",
-      "headline": "Limitations**: Results lack direct X chatter or whale activity; data from Polymarket pages only (up to April 22)",
-      "raw": "Limitations**: Results lack direct X chatter or whale activity; data from Polymarket pages only (up to April 22).[1][2][3][4][5]",
+      "headline": "Kanye West Tweet by April 30 & Tweet-Specific Bets Heating Up | YES | MED confidence**",
+      "raw": "Kanye West Tweet by April 30 & Tweet-Specific Bets Heating Up | YES | MED confidence**  \n\"Will Kanye tweet again by April 30?\" at 78% YES ($393 vol) leads Tweet markets (130 active), signaling crowd bets on quick resolution[2]. Related \"Tweet Markets\" (20 active) track phrases/events like CS IEM Rio 2026 mentions, with no confirmed announcements but real-time trading as **prediction tips**[2][3][4",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -48,9 +86,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 1,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
