@@ -1,58 +1,100 @@
 {
-  "last_scan": "2026-04-23T02:51:03.117491+00:00",
-  "scan_seconds": 22.3,
+  "last_scan": "2026-04-23T02:52:17.065534+00:00",
+  "scan_seconds": 26.5,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776912652595_0",
-      "timestamp": "2026-04-23T02:50:52.595068+00:00",
+      "id": "sig_1776912729508_0",
+      "timestamp": "2026-04-23T02:52:09.508121+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide breaking news in the format you've requested because the search results don't contain information about",
-      "raw": "I cannot provide breaking news in the format you've requested because the search results don't contain information about events happening \"right now\" on April 23, 2026. The most recent data available is from April 22, 2026, which shows Ethereum up 2.70% and trading at Rs 2,21,701[5], but this represents routine price movement rather than a confirmed announcement or resolved event.\n\nThe search resu",
-      "direction": "YES",
+      "headline": "I cannot provide the breaking news format you've requested because the search results don't contain confirmed announceme",
+      "raw": "I cannot provide the breaking news format you've requested because the search results don't contain confirmed announcements or market-moving developments about Cooper Flagg or the conference semifinals that would have just occurred.\n\nThe search results show**ongoing Eastern Conference first-round matchups** (Knicks vs. Hawks, Celtics vs. 76ers, Cavaliers vs. Heat, Pistons vs. Magic) and **Western ",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Ethereum above 2,320 on April 22, 11PM ET?",
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776912652601_3",
-      "timestamp": "2026-04-23T02:50:52.601679+00:00",
+      "id": "sig_1776912729512_2",
+      "timestamp": "2026-04-23T02:52:09.512460+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Bitcoin consolidation near $76,000** | YES - price holding firm | HIGH confidence: Bitcoin is holding near $76,000 wit",
-      "raw": "**Bitcoin consolidation near $76,000** | YES - price holding firm | HIGH confidence: Bitcoin is holding near $76,000 with strong ETF inflows despite geopolitical uncertainty[5].\n\nHowever, none of these represent \"just confirmed\" breaking news that would warrant a prediction market shift. For actual breaking news, you would need real-time news sources or market data feeds updated within the last fe",
-      "direction": "YES",
+      "headline": "Official announcements or confirmed developments from today",
+      "raw": "Official announcements or confirmed developments from today",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776912652599_2",
-      "timestamp": "2026-04-23T02:50:52.599559+00:00",
+      "id": "sig_1776912736056_3",
+      "timestamp": "2026-04-23T02:52:16.056460+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Iran-US geopolitical tensions** | Ongoing situation | LOW confidence: Multiple search results reference \"Iran conflict",
-      "raw": "**Iran-US geopolitical tensions** | Ongoing situation | LOW confidence: Multiple search results reference \"Iran conflict\" and \"mid-east tensions\" affecting crypto sentiment in April 2026, though the resolution status is unclear[4][5].",
+      "headline": "**Elon Musk # tweets April 17-24, 2026",
+      "raw": "**Elon Musk # tweets April 17-24, 2026? (220-239 range) | NO (at 38%) | HIGH confidence**  \n  Pop Culture/Tweet Markets leader with $20.7M volume; dynamic pricing reflects trader sentiment on Musk's activity, likely sparking X tips as market updates.[2][3]",
+      "direction": "NO",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912729510_1",
+      "timestamp": "2026-04-23T02:52:09.510504+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg is not mentioned in any search results**, so there is no confirmed information about his playoff performanc",
+      "raw": "Cooper Flagg is not mentioned in any search results**, so there is no confirmed information about his playoff performance or series implications to report.\n\nTo provide accurate breaking news in the format you requested, I would need search results containing:",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776912729514_3",
+      "timestamp": "2026-04-23T02:52:09.514431+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Specific details about Flagg's involvement in current series",
+      "raw": "Specific details about Flagg's involvement in current series",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776912662106_0",
-      "timestamp": "2026-04-23T02:51:02.106531+00:00",
+      "id": "sig_1776912729516_4",
+      "timestamp": "2026-04-23T02:52:09.516446+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket traders are actively discussing and trading on **Elon Musk tweet volume markets**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk # tweets in April 2026?\", with outcomes like 1120-1159 priced at 20-21% implied probability amid over $20M in volume across 20-130 related markets.[2][3][",
-      "direction": "YES",
+      "headline": "Information that would substantively shift prediction markets",
+      "raw": "Information that would substantively shift prediction markets\n\nIf you're looking for current playoff updates, I'd recommend checking the latest ESPN or official NBA sources directly.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776912736046_0",
+      "timestamp": "2026-04-23T02:52:16.046367+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Polymarket Discussions on X: Limited real-time data available; no confirmed whale bets, smart money moves, or m",
+      "raw": "Trending Polymarket Discussions on X: Limited real-time data available; no confirmed whale bets, smart money moves, or mispriced markets directly from recent X posts in results. Focus on tweet volume markets like Elon Musk's April 2026 tweets, with active trading on ranges (e.g., 1120-1159 at 21% probability).[3][2]**",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -62,49 +104,77 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776912662109_1",
-      "timestamp": "2026-04-23T02:51:02.109989+00:00",
+      "id": "sig_1776912736049_1",
+      "timestamp": "2026-04-23T02:52:16.049853+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading Market Heating Up | YES | MED confidence**",
-      "raw": "Nasdaq Round-the-Clock Trading Market Heating Up | YES | MED confidence**  \nTrending markets include \"Nasdaq round-the-clock trading by June 30?\", part of 168 active Trending Markets with $3M+ volume, where real-time odds reflect trader sentiment on tech/finance shifts, potentially mispriced given niche debate.[1]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912662113_2",
-      "timestamp": "2026-04-23T02:51:02.113492+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Analytics Tools Expose Whale Strategies | YES | LOW confidence**",
-      "raw": "Polymarket Analytics Tools Expose Whale Strategies | YES | LOW confidence**  \nTraders on platforms like Binance Square highlight analytics tools revealing \"x-ray vision\" into top performers' moves, implying smart money tips for spotting mispriced markets or big bets, though specifics on current whales remain unconfirmed.[5]  \n\nNo recent confirmations, announcements, or resolutions in results that ",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776912652597_1",
-      "timestamp": "2026-04-23T02:50:52.597560+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**CLARITY Act markup vote scheduled** | Uncertain timing | MED confidence: The committee has until Friday (April 25) to",
-      "raw": "**CLARITY Act markup vote scheduled** | Uncertain timing | MED confidence: The committee has until Friday (April 25) to notice a markup of the Clarity Act stablecoin legislation, with a potential vote the week of April 27, though banks are reportedly pressuring to delay it to May[6].",
+      "headline": "Recent Polymarket Highlights Potentially Driving X Chatter:**",
+      "raw": "Recent Polymarket Highlights Potentially Driving X Chatter:**",
       "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912736053_2",
+      "timestamp": "2026-04-23T02:52:16.053443+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Law banning sports prediction markets enacted in 2026",
+      "raw": "**Law banning sports prediction markets enacted in 2026? | NO | MED confidence**  \n  Featured in trending markets with real-time odds; traders betting against enactment amid regulatory debates, part of 168 active trending markets with $3M+ volume.[1]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912736058_4",
+      "timestamp": "2026-04-23T02:52:16.058423+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Elon Musk # tweets in April 2026",
+      "raw": "**Elon Musk # tweets in April 2026? (1120-1159 range) | NO (at 21%) | MED confidence**  \n  Most active market per recent data; crowd pricing low probability, potential for X posts on mispricing if tweet counts surge.[3]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Trump name \"Elon\" or \"Musk\" in April?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912736060_5",
+      "timestamp": "2026-04-23T02:52:16.060379+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Nasdaq round-the-clock trading by June 30",
+      "raw": "**Nasdaq round-the-clock trading by June 30? | NO (implied low from examples) | LOW confidence**  \n  Example in trending markets; niche finance bet with real-time odds shifting on news, possible X discussion on over/undervaluation.[1]",
+      "direction": "NO",
       "confidence": 0.6,
       "matched_markets": [],
       "action": "WATCH",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776912736062_6",
+      "timestamp": "2026-04-23T02:52:16.062416+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Zohran Mamdani wins 2025 NYC mayoral election",
+      "raw": "**Zohran Mamdani wins 2025 NYC mayoral election? | NO (9\u00a2 shares) | HIGH confidence**  \n  User @randytraderxd's big position (500 shares); signals potential whale-like conviction against, could trend on X for politics tips.[4]\n\nNo breaking confirmations, announcements, or resolutions noted in results to immediately move markets; odds update continuously on events like tweet counts or policy news.[",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 5,
-    "watch": 1,
+    "enter": 0,
+    "alert": 10,
+    "watch": 2,
     "high_conf": 2
   }
 }
