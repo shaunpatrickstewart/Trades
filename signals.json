@@ -1,46 +1,72 @@
 {
-  "last_scan": "2026-04-22T23:59:18.797381+00:00",
-  "scan_seconds": 13.2,
+  "last_scan": "2026-04-23T00:01:01.337727+00:00",
+  "scan_seconds": 50.0,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776902352816_0",
-      "timestamp": "2026-04-22T23:59:12.816957+00:00",
+      "id": "sig_1776902423832_0",
+      "timestamp": "2026-04-23T00:00:23.832704+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win** | YES | HIGH confidence[1][2][3][5]",
-      "raw": "Cavaliers take 2-0 series lead over Raptors after 115-105 Game 2 win** | YES | HIGH confidence[1][2][3][5]\n\nGame 2 occurred Monday with Cleveland's star trio\u2014Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points)\u2014scoring 83 combined points in a wire-to-wire victory, marking their 12th straight playoff win vs. Toronto[1][5]. Raptors' Scottie Barnes scored 26 and RJ Barr",
+      "headline": "Cavaliers take 2-0 series lead over Raptors in NBA playoffs first round after Game 2 win | YES | HIGH confidence**[1][2]",
+      "raw": "Cavaliers take 2-0 series lead over Raptors in NBA playoffs first round after Game 2 win | YES | HIGH confidence**[1][2]\n\nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday, April 21, 2026, led by Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points), securing a commanding 2-0 lead in their Eastern Conference first-round series; this exte",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776902348702_0",
-      "timestamp": "2026-04-22T23:59:08.702471+00:00",
+      "id": "sig_1776902419434_1",
+      "timestamp": "2026-04-23T00:00:19.434116+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Price Surge Tied to U",
-      "raw": "Ethereum Price Surge Tied to U.S.-Iran Ceasefire Announcement | YES | HIGH confidence**  \nEthereum's price has risen above $2,200, currently at $2,395.42 (+3.43% in 24 hours), following a U.S.-Iran ceasefire announcement that boosted market sentiment.[3]  \nThis marks a $98.74 daily gain from $2,305.04 on April 21 to $2,403.78 on April 22 (9:15 a.m. ET), driven by positive trader hype amid broader ",
+      "headline": "Ethereum ETFs Record Best Weekly Inflows Since January | YES | HIGH confidence**",
+      "raw": "Ethereum ETFs Record Best Weekly Inflows Since January | YES | HIGH confidence**\n\nEthereum-based ETFs posted over **$275 million in weekly inflows**\u2014the strongest performance since January 2026[1]. Fidelity's FETH and BlackRock's ETHA led institutional demand back into Ethereum[1]. During this same period, ETH climbed 7% to nearly $2,400[1], with the broader crypto market cap rising 4% to $2.6 tri",
       "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776902357791_0",
-      "timestamp": "2026-04-22T23:59:17.791958+00:00",
+      "id": "sig_1776902419436_2",
+      "timestamp": "2026-04-23T00:00:19.436182+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Topic: Elon Musk Tweet Count Markets Heating Up** | NO | HIGH confidence[3][4]",
-      "raw": "Trending Polymarket Topic: Elon Musk Tweet Count Markets Heating Up** | NO | HIGH confidence[3][4]\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market showing the **1120-1159 tweets outcome** priced at 20-21% implied probability amid over $20.7M in total trading volume across 20-130 related tweet predi",
+      "headline": "Secondary development:** **Bitmine Purchases 101,627 ETH\u2014Largest 2026 Buy | YES | HIGH confidence**",
+      "raw": "Secondary development:** **Bitmine Purchases 101,627 ETH\u2014Largest 2026 Buy | YES | HIGH confidence**\n\nTom Lee's Bitmine Immersion Technologies made its largest Ethereum purchase of 2026, adding 101,627 ETH and bringing total holdings to nearly 5 million ETH[2]. The firm has now reached approximately 82% of its stated goal to control 5% of Ethereum's total supply[2].\n\nBoth developments represent con",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776902419430_0",
+      "timestamp": "2026-04-23T00:00:19.430653+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results available, the most recent breaking news is:",
+      "raw": "Based on the search results available, the most recent breaking news is:",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776902429162_0",
+      "timestamp": "2026-04-23T00:00:29.162277+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or tips confirmed | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or tips confirmed | LOW confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets in April 2026?\" (20-21% odds on 1120-1159 range) and \"Elon Musk # tweets April 17 - April 24, 2026?\" with high $20.7M+ trading volume across 129-130 live Tweet markets[2][",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
         "Will Trump name \"Elon\" or \"Musk\" in April?"
@@ -50,23 +76,62 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776902357794_1",
-      "timestamp": "2026-04-22T23:59:17.794399+00:00",
+      "id": "sig_1776902429164_1",
+      "timestamp": "2026-04-23T00:00:29.164469+00:00",
       "source": "PERPLEXITY",
-      "headline": "Related Buzz: Broader Trending Markets Active** | NO whale bets or tips specified | MED confidence[1]",
-      "raw": "Related Buzz: Broader Trending Markets Active** | NO whale bets or tips specified | MED confidence[1]\n\n168 live **Trending Markets** cover diverse topics like \u201c**Nasdaq round-the-clock trading by June 30?**\u201d with $3.0M+ volume, but no direct X posts about whale moves, mispriced odds, smart money tips, or recent confirmations (e.g., announcements or resolutions) appear in current data\u2014search result",
-      "direction": "NO",
+      "headline": "Trending Markets** category shows 168 active predictions like \"Will Monero hit $1000 in 2026",
+      "raw": "Trending Markets** category shows 168 active predictions like \"Will Monero hit $1000 in 2026?\" and \"Law banning sports prediction markets enacted in 2026?\" (11% yes), plus \"Nasdaq round-the-clock trading by June 30?\" with $3M+ volume, but no real-time X posts from traders on whale moves, mispriced odds, or tips in results[1].  \nNo confirmed announcements, resolutions, or breaking events shifting t",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776902461326_0",
+      "timestamp": "2026-04-23T00:01:01.326050+00:00",
+      "source": "X_GROK",
+      "headline": "BTC Dip to $70K in April:** Whale ($7",
+      "raw": "BTC Dip to $70K in April:** Whale ($7.7K) buys NO @91\u00a2. Smart money signals no dip imminent. NO. MED.[[1]](https://x.com/i/status/2047103183030272373)",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2047103183030272373)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776902461336_2",
+      "timestamp": "2026-04-23T00:01:01.336942+00:00",
+      "source": "X_GROK",
+      "headline": "Trending Tips:** Sports mispricings in 46-55\u00a2 range; track whale clusters (5+ high-win wallets); avoid <10\u00a2 buys; politi",
+      "raw": "Trending Tips:** Sports mispricings in 46-55\u00a2 range; track whale clusters (5+ high-win wallets); avoid <10\u00a2 buys; politics whales profitable ~80% win rate.[[5]](https://x.com/i/status/2046968430088040691)[[6]](https://x.com/i/status/2047023860281672043)[[7]](https://x.com/i/status/2046638266800054699)[[8]](https://x.com/i/status/2046613990009086456)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2046968430088040691)[[6]](https://x.com/i/status/2047023860281672043)[[7]](https://x.com/i/status/2046638266800054699)[[8]](https://x.com/i/status/2046613990009086456)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776902461329_1",
+      "timestamp": "2026-04-23T00:01:01.329697+00:00",
+      "source": "X_GROK",
+      "headline": "US-Iran Diplomatic Meeting by Apr 25:** New whale ($11",
+      "raw": "US-Iran Diplomatic Meeting by Apr 25:** New whale ($11.7K) buys NO @88\u00a2; trader calls 31% YES mispriced low vs Trump Sunday deadline news. Mixed: NO lean but potential undervalued YES. LOW-MED.[[2]](https://x.com/i/status/2047103178231906808)[[3]](https://x.com/i/status/2047099203134865731)",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": "https://x.com/i/status/2047103178231906808)[[3]](https://x.com/i/status/2047099203134865731)",
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 1
+    "alert": 7,
+    "watch": 1,
+    "high_conf": 3
   }
 }
