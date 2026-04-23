@@ -1,46 +1,58 @@
 {
-  "last_scan": "2026-04-23T07:32:30.668809+00:00",
-  "scan_seconds": 19.8,
+  "last_scan": "2026-04-23T07:33:38.748567+00:00",
+  "scan_seconds": 18.1,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776929543466_0",
-      "timestamp": "2026-04-23T07:32:23.466375+00:00",
+      "id": "sig_1776929604686_0",
+      "timestamp": "2026-04-23T07:33:24.686282+00:00",
       "source": "PERPLEXITY",
-      "headline": "CAVS NOW LEAD EASTERN CONFERENCE FIRST-ROUND SERIES 2-0 OVER RAPTORS AFTER GAME 2 WIN** | **YES** (Cavs favored to win s",
-      "raw": "CAVS NOW LEAD EASTERN CONFERENCE FIRST-ROUND SERIES 2-0 OVER RAPTORS AFTER GAME 2 WIN** | **YES** (Cavs favored to win series) | **HIGH** confidence[1][2][5]\n\nCleveland Cavaliers defeated Toronto Raptors 115-105 in Game 2 on Monday, with Donovan Mitchell scoring 30 points, James Harden adding 28, and Evan Mobley contributing 25 points and 8 rebounds, securing a 2-0 series lead[1][5]. This extends ",
-      "direction": "YES",
-      "confidence": 0.78,
+      "headline": "Bitcoin Price Plunges ~50% from October 2025 Peak Toward $60,000s Amid $1",
+      "raw": "Bitcoin Price Plunges ~50% from October 2025 Peak Toward $60,000s Amid $1.1B Liquidations | NO | HIGH confidence** [1][2][4]\n\nBitcoin has crashed through key support levels to ~$64,000 as of Thursday, marking its largest raw dollar drawdown ever and erasing all 2025 gains, with over $1.1 billion in leveraged long positions liquidated in 24 hours.[2] This extends a slump from its October 6 high of ",
+      "direction": "NO",
+      "confidence": 0.9,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Bitcoin above 76,600 on April 23, 4AM ET?",
+        "Bitcoin above 80,200 on April 23, 4AM ET?"
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776929534828_0",
-      "timestamp": "2026-04-23T07:32:14.828051+00:00",
+      "id": "sig_1776929609176_0",
+      "timestamp": "2026-04-23T07:33:29.176201+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in any resolution or announcement tied to the query's phrasing (\"will october\"), as search results show",
-      "raw": "LOW confidence** in any resolution or announcement tied to the query's phrasing (\"will october\"), as search results show only market turmoil without new policy, regulatory, or event confirmations impacting prediction markets like election odds or timelines.[2][4]  \nCrypto stocks (e.g., MicroStrategy down 15-60%, miners, Coinbase) and BlackRock's IBIT ETF (record $10B volume, -13%) are hit hard, am",
+      "headline": "Confidence: HIGH** (search results lack any post-April 21 confirmations or resolutions that would shift markets)",
+      "raw": "Confidence: HIGH** (search results lack any post-April 21 confirmations or resolutions that would shift markets).",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776929617743_0",
+      "timestamp": "2026-04-23T07:33:37.743489+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk musk # tweets in April 2026?\" (22-24% odds on 1120-1159 tweets) and related bins like April 17-24, with over $21.5M in trading volume across 20-130 live Tweet/Tweet Markets.[2][3]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776929549652_0",
-      "timestamp": "2026-04-23T07:32:29.652386+00:00",
+      "id": "sig_1776929617745_1",
+      "timestamp": "2026-04-23T07:33:37.745554+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting",
-      "raw": "I cannot provide the real-time information you're requesting. The search results show that Polymarket is a prediction market platform, but they don't contain:",
-      "direction": null,
+      "headline": "Trending Markets** category shows 160-168 active predictions on topics like \"Nasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** category shows 160-168 active predictions on topics like \"Nasdaq round-the-clock trading by June 30?\" with $3.3M volume, but no specific real-time X posts from traders highlighted.[1]  \nNo direct evidence in results of **whale bets, smart money moves, mispriced markets, or prediction tips** trending on X; XTracker tool mentioned for social analytics but lacks specifics.[5]  \nNo ",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -48,101 +60,27 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776929549654_1",
-      "timestamp": "2026-04-23T07:32:29.654187+00:00",
+      "id": "sig_1776929613144_0",
+      "timestamp": "2026-04-23T07:33:33.144279+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media posts from traders on X (Twitter) about Polymarket markets",
-      "raw": "Current social media posts from traders on X (Twitter) about Polymarket markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Lakers Confirm 2-0 Series Lead Over Rockets After Game 2 Win | YES | HIGH confidence** [1][2][3]",
+      "raw": "Lakers Confirm 2-0 Series Lead Over Rockets After Game 2 Win | YES | HIGH confidence** [1][2][3]\n\nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 of the Western Conference First Round playoffs on Tuesday, April 21, securing a commanding 2-0 lead heading into Game 3 in Houston on Friday, April 24.[2][3] LeBron James led with 28 points, 8 rebounds, and 7 assists, while Rui Hachi",
+      "direction": "YES",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776929549655_2",
-      "timestamp": "2026-04-23T07:32:29.655989+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Specific whale bets or \"smart money\" positioning happening right now",
-      "raw": "Specific whale bets or \"smart money\" positioning happening right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776929549657_3",
-      "timestamp": "2026-04-23T07:32:29.657844+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time discussions about mispriced markets or imminent market movements",
-      "raw": "Real-time discussions about mispriced markets or imminent market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776929549659_4",
-      "timestamp": "2026-04-23T07:32:29.659750+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Breaking news or recent announcements that would move prediction markets",
-      "raw": "Breaking news or recent announcements that would move prediction markets\n\nThe search results only show general information about how Polymarket works and some example markets (like the 2026 FIFA World Cup, Bitcoin price targets, and various political/sports predictions), but they're not updated to capture live trader sentiment or breaking developments as of this morning.\n\nTo find this information,",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776929549661_5",
-      "timestamp": "2026-04-23T07:32:29.661596+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check X/Twitter directly for real-time posts from prediction market traders and analysts",
-      "raw": "Check X/Twitter directly for real-time posts from prediction market traders and analysts",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776929549663_6",
-      "timestamp": "2026-04-23T07:32:29.663417+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Visit Polymarket's platform to see current market prices and trading volume changes",
-      "raw": "Visit Polymarket's platform to see current market prices and trading volume changes",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776929549665_7",
-      "timestamp": "2026-04-23T07:32:29.665263+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Follow prediction market-focused accounts and communities for live commentary",
-      "raw": "Follow prediction market-focused accounts and communities for live commentary\n\nI cannot format speculative answers in the headline format you requested, as doing so would require me to invent information rather than report actual breaking developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 10,
-    "watch": 0,
-    "high_conf": 0
+    "enter": 1,
+    "alert": 3,
+    "watch": 1,
+    "high_conf": 1
   }
 }
