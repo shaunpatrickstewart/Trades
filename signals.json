@@ -1,18 +1,19 @@
 {
-  "last_scan": "2026-04-23T05:36:01.672788+00:00",
-  "scan_seconds": 41.1,
+  "last_scan": "2026-04-23T05:36:56.639663+00:00",
+  "scan_seconds": 31.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776922527823_0",
-      "timestamp": "2026-04-23T05:35:27.823173+00:00",
+      "id": "sig_1776922593969_0",
+      "timestamp": "2026-04-23T05:36:33.969645+00:00",
       "source": "PERPLEXITY",
-      "headline": "Powell Confirms He'll Stay as Fed Chair Pro Tem Until Successor Confirmed Amid Trump Announcement of Pick Tomorrow** | Y",
-      "raw": "Powell Confirms He'll Stay as Fed Chair Pro Tem Until Successor Confirmed Amid Trump Announcement of Pick Tomorrow** | YES | HIGH confidence[1][2][3]\n\nJerome Powell stated he will serve as Chair Pro Tem if his successor is not confirmed by the end of his term in May, per legal provisions, and has no intention of leaving the Fed Board until an ongoing investigation concludes with transparency[1][3]",
-      "direction": "YES",
+      "headline": "Based on the search results provided, there is **no breaking news from today (April 23, 2026)** about Powell's successor",
+      "raw": "Based on the search results provided, there is **no breaking news from today (April 23, 2026)** about Powell's successor confirmation.\n\nThe most recent substantive information in these results is from **January 30, 2026**, when former President Trump nominated ex-Fed governor Kevin Warsh to replace Jerome Powell as chair[2]. At that time, the nomination faced Senate resistance from some Republican",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Successor\" during April press conference?"
       ],
       "action": "ENTER",
@@ -20,106 +21,71 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776922555747_3",
-      "timestamp": "2026-04-23T05:35:55.747122+00:00",
+      "id": "sig_1776922611150_0",
+      "timestamp": "2026-04-23T05:36:51.150973+00:00",
       "source": "PERPLEXITY",
-      "headline": "**No Lakers information**: The search results contain no information about the Los Angeles Lakers or their playoff statu",
-      "raw": "**No Lakers information**: The search results contain no information about the Los Angeles Lakers or their playoff status\n\nThe search results do not include any breaking announcements, confirmed trades, injury resolutions, or other developments that would typically move prediction markets. To identify market-moving news from this morning, more current search results would be needed.",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain recent announcement",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain recent announcements, confirmations, or resolutions that would move prediction markets. The available information shows that the **Cavaliers lead the Raptors 2-0 in the first round** (not conference semifinals)[1], with Game 3 scheduled for tonight at 8 p.m. ET[1]. No new developments, roster moves",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776922555741_0",
-      "timestamp": "2026-04-23T05:35:55.741177+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, I cannot identify any breaking news announcements, confirmations, or market-moving",
-      "raw": "Based on the search results provided, I cannot identify any breaking news announcements, confirmations, or market-moving developments that occurred around 5 AM UTC on April 23, 2026.\n\nThe search results contain information about the **Cleveland Cavaliers' 2-0 series lead over the Toronto Raptors** in their first-round matchup, with Game 3 scheduled for 8:00 PM ET on April 23. However, this represe",
-      "direction": null,
-      "confidence": 0.65,
       "matched_markets": [
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
-      "action": "ALERT",
+      "action": "ENTER",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776922555743_1",
-      "timestamp": "2026-04-23T05:35:55.743060+00:00",
+      "id": "sig_1776922588207_0",
+      "timestamp": "2026-04-23T05:36:28.207473+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Cavaliers lead 2-0**: The Cavaliers defeated the Raptors 115-105 in Game 2 (Monday, April 21)[1][3]",
-      "raw": "**Cavaliers lead 2-0**: The Cavaliers defeated the Raptors 115-105 in Game 2 (Monday, April 21)[1][3]",
-      "direction": null,
+      "headline": "Schwab Launches Bitcoin and Ethereum Trading with 0",
+      "raw": "Schwab Launches Bitcoin and Ethereum Trading with 0.7% Fee Per Trade | YES | HIGH confidence**  \nCharles Schwab has launched trading for Bitcoin and Ethereum with a 0.7% fee per trade, marking major institutional access expansion likely to drive inflows and move prediction markets.[1]",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776922588209_1",
+      "timestamp": "2026-04-23T05:36:28.209766+00:00",
+      "source": "PERPLEXITY",
+      "headline": "XRP Joins Bitcoin, Ethereum, and Solana on SoFi Bank\u2019s Crypto Platform | YES | HIGH confidence**",
+      "raw": "XRP Joins Bitcoin, Ethereum, and Solana on SoFi Bank\u2019s Crypto Platform | YES | HIGH confidence**  \nSoFi Bank added XRP to its growing crypto platform alongside Bitcoin, Ethereum, and Solana, boosting mainstream adoption and potentially shifting Ethereum's competitive landscape in prediction markets.[2]  \n\nNo other confirmed announcements or resolutions in the results directly tie to \"will October,",
+      "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will the price of Bitcoin be between $76,000 and $78,000 on April 24?",
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
+        "Will October be the best month for Bitcoin in 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776922555744_2",
-      "timestamp": "2026-04-23T05:35:55.744974+00:00",
+      "id": "sig_1776922593971_1",
+      "timestamp": "2026-04-23T05:36:33.971611+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Injury updates**: Thomas Bryant is questionable for Game 3 with a left calf strain[3], and Ja'Kobe Walter is questiona",
-      "raw": "**Injury updates**: Thomas Bryant is questionable for Game 3 with a left calf strain[3], and Ja'Kobe Walter is questionable for the Raptors with an illness[4]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776922560664_0",
-      "timestamp": "2026-04-23T05:36:00.664682+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDS | YES | HIGH**",
-      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDS | YES | HIGH**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on same in related market), with over $21M+ in volume across 130+ live tweet prediction markets as of April 9-",
+      "headline": "No confirmation, announcement, or resolution regarding Powell's successor appears to have occurred recently that would m",
+      "raw": "No confirmation, announcement, or resolution regarding Powell's successor appears to have occurred recently that would move prediction markets.** To provide the headline/YES-NO/confidence format you requested, I would need search results containing actual breaking news from April 23, 2026, which are not present in the current results.",
       "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776922560666_1",
-      "timestamp": "2026-04-23T05:36:00.666759+00:00",
+      "id": "sig_1776922615636_0",
+      "timestamp": "2026-04-23T05:36:55.636552+00:00",
       "source": "PERPLEXITY",
-      "headline": "TWEET & POP CULTURE MARKETS BUZZ ON X | YES | MED**",
-      "raw": "TWEET & POP CULTURE MARKETS BUZZ ON X | YES | MED**  \nTraders highlight **tweet markets** like \"Will Kanye tweet again by April 30?\" amid 20+ active \"Tweet Markets\" and pop culture bets, signaling real-time sentiment shifts from new data or events, though no specific X posts or whale moves detailed in current results[2][3][4].",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776922560668_2",
-      "timestamp": "2026-04-23T05:36:00.668610+00:00",
-      "source": "PERPLEXITY",
-      "headline": "TRENDING MARKETS CATEGORY ACTIVE WITH 160+ OPTIONS | YES | HIGH**",
-      "raw": "TRENDING MARKETS CATEGORY ACTIVE WITH 160+ OPTIONS | YES | HIGH**",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776922560670_3",
-      "timestamp": "2026-04-23T05:36:00.670554+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Markets** category leads with 168 live predictions (e",
-      "raw": "Trending Markets** category leads with 168 live predictions (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d), $3.3M volume, and no confirmed resolutions or announcements noted to shift odds right now[1]. No explicit mispriced calls, whale bets, or smart money tips in results[5].",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Activity | NO whale bets, smart money moves, or mispriced marke",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Activity | NO whale bets, smart money moves, or mispriced markets reported | LOW confidence**\n\nPolymarket's most active markets right now center on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market showing 22-24% odds for the 1120-1159 tweets bin amid $21.5M-$21.7M total volume across related mar",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -129,8 +95,8 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 8,
+    "enter": 2,
+    "alert": 4,
     "watch": 0,
     "high_conf": 2
   }
