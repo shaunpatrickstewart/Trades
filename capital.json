@@ -1,5 +1,5 @@
 {
-  "ts": 1776927250,
+  "ts": 1776927320,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.99984
+    "usdc_usd": 0.999845
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -179,10 +179,10 @@
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.115,
-        "nav_usdc": 0.5807,
+        "cur_price": 0.12,
+        "nav_usdc": 0.606,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.6312
+        "unrealized_pnl": -0.606
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
@@ -305,10 +305,10 @@
         "slug": "will-detroit-pistons-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9242,
-        "cur_price": 0.62,
-        "nav_usdc": 3.053,
+        "cur_price": 0.2849,
+        "nav_usdc": 1.4029,
         "cost_basis": 0.8371,
-        "unrealized_pnl": 2.2159
+        "unrealized_pnl": 0.5658
       },
       {
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.781,
-    "total_usdc": 404.7176,
-    "total_usd": 404.6529
+    "positions_nav_usdc": 316.1562,
+    "total_usdc": 403.0928,
+    "total_usd": 403.0303
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776927251,
+    "ts": 1776927321,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776840851,
+      "window_start_ts": 1776840921,
       "realized_usdc": 0.0,
       "trade_count": 2,
       "buy_volume_usdc": 29.0862,
@@ -380,7 +380,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776322451,
+      "window_start_ts": 1776322521,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +593,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774335251,
+      "window_start_ts": 1774335321,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1019,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.6529,
-    "total_usdc": 404.7176
+    "total_usd": 403.0303,
+    "total_usdc": 403.0928
   }
 }
