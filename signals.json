@@ -1,56 +1,15 @@
 {
-  "last_scan": "2026-04-23T04:47:37.383318+00:00",
-  "scan_seconds": 11.8,
+  "last_scan": "2026-04-23T04:48:45.302878+00:00",
+  "scan_seconds": 14.7,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776919652387_2",
-      "timestamp": "2026-04-23T04:47:32.387336+00:00",
+      "id": "sig_1776919724296_0",
+      "timestamp": "2026-04-23T04:48:44.296555+00:00",
       "source": "PERPLEXITY",
-      "headline": "Spurs' Keldon Johnson Wins Sixth Man Award | NO (minimal series impact) | LOW confidence** [4]",
-      "raw": "Spurs' Keldon Johnson Wins Sixth Man Award | NO (minimal series impact) | LOW confidence** [4]  \nJohnson's award is confirmed but unrelated to ongoing Spurs-Blazers or other series predictions.[4]",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776919652383_0",
-      "timestamp": "2026-04-23T04:47:32.383175+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Wembanyama Concussion Rules Him Out After Game 2 Fall | YES (Spurs series now favors Trail Blazers) | HIGH confidence**",
-      "raw": "Wembanyama Concussion Rules Him Out After Game 2 Fall | YES (Spurs series now favors Trail Blazers) | HIGH confidence** [4]  \nVictor Wembanyama, San Antonio Spurs' rookie star and MVP finalist, suffered a concussion in Game 2 of their Western Conference semifinals vs. Portland Trail Blazers and was ruled out immediately, shifting series prediction markets toward Portland.[4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Spurs vs. Trail Blazers: O/U 219.5"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776919652385_1",
-      "timestamp": "2026-04-23T04:47:32.385185+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Knicks Blow 12-Point Lead in Game 2 vs",
-      "raw": "Knicks Blow 12-Point Lead in Game 2 vs. Hawks | NO (Knicks series win odds drop) | MED confidence** [2][4]  \nNew York Knicks collapsed in the fourth quarter of Game 2 vs. Atlanta Hawks (lost 107-106), with coach Mike Brown criticized for poor decisions, weakening their Eastern Conference series outlook.[2][4]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776919656379_0",
-      "timestamp": "2026-04-23T04:47:36.379202+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related markets), with over $21.5M in trading volume across 20-130 live tweet prediction mark",
+      "headline": "Elon Musk Tweet Count Markets Surge in Activity on Polymarket | NO | MED confidence**",
+      "raw": "Elon Musk Tweet Count Markets Surge in Activity on Polymarket | NO | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume in April 2026**, with the \"Elon Musk # tweets in April 2026?\" market showing 22-24% odds for the 1120-1159 tweets bin amid $21.5M-$21.7M total volume across 20-130 related markets.[2][3] Traders are heavily engaged in granular bins li",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -59,11 +18,24 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776919656381_1",
-      "timestamp": "2026-04-23T04:47:36.381211+00:00",
+      "id": "sig_1776919724298_1",
+      "timestamp": "2026-04-23T04:48:44.298738+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets** category shows 160-168 active predictions (e",
-      "raw": "Trending Markets** category shows 160-168 active predictions (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d) with $3.3M volume, but no specific X posts or resolutions noted[1].  \nNo confirmed announcements or events resolving markets appear in real-time data as of April 22-23, 2026[1][2][3][4].",
+      "headline": "Trending Markets Category Boasts 160+ Active Bets | NO | LOW confidence**",
+      "raw": "Trending Markets Category Boasts 160+ Active Bets | NO | LOW confidence**\n\nOver 168 live markets in Polymarket's Trending Markets span topics like **\"Nasdaq round-the-clock trading by June 30?\"** with $3.3M volume, but lacks evidence of recent X chatter, whale activity, or tips on mispriced odds.[1] No confirmed announcements, resolutions, or breaking events (e.g., CS IEM Rio 2026 mentions or Kany",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776919724300_2",
+      "timestamp": "2026-04-23T04:48:44.300754+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Whale Bets or Confirmed Movers Detected in Real-Time Scan | NO | LOW confidence**",
+      "raw": "No Whale Bets or Confirmed Movers Detected in Real-Time Scan | NO | LOW confidence**\n\nSearch results show no posts about whale positions, smart money, or imminent moves; activity centers on tweet predictions without fresh resolutions or X-trending tips.[1][2][3][4] Odds like 22% for Musk's tweet bin update dynamically but lack attributed trader buzz or external confirmations impacting prices.[3]",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -74,8 +46,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 5,
+    "alert": 3,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 0
   }
 }
