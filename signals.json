@@ -1,28 +1,75 @@
 {
-  "last_scan": "2026-04-23T08:41:40.475788+00:00",
-  "scan_seconds": 19.8,
+  "last_scan": "2026-04-23T08:42:51.863741+00:00",
+  "scan_seconds": 21.2,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776933689136_0",
-      "timestamp": "2026-04-23T08:41:29.136290+00:00",
+      "id": "sig_1776933761139_0",
+      "timestamp": "2026-04-23T08:42:41.139977+00:00",
       "source": "PERPLEXITY",
-      "headline": "Impact on prediction markets: MED confidence** in no major shift, as unresolved issues (hearing outcome, probe appeal) c",
-      "raw": "Impact on prediction markets: MED confidence** in no major shift, as unresolved issues (hearing outcome, probe appeal) could trigger volatility if resolved soon, but nothing \"just confirmed.\"[1][2]",
+      "headline": "Based on the search results provided, there is no breaking news from today (April 23, 2026) about Powell or his successo",
+      "raw": "Based on the search results provided, there is no breaking news from today (April 23, 2026) about Powell or his successor. The most recent information in the search results is from **April 14, 2026**, which reported that prediction markets indicated a 62% likelihood that Powell would depart the Board of Governors in 2026.[2]\n\nThe search results reference Kevin Warsh's **nomination hearing schedule",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776933765284_0",
+      "timestamp": "2026-04-23T08:42:45.284392+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Mavericks Rookie Cooper Flagg Makes NBA History with 51 Points in Loss to Magic** | NO | HIGH confidence",
+      "raw": "Mavericks Rookie Cooper Flagg Makes NBA History with 51 Points in Loss to Magic** | NO | HIGH confidence\n\nNo breaking news on playoffs, conference semifinals, or series outcomes has been confirmed, announced, or resolved as of now\u2014Flagg's record-breaking 51-point game (first teen to reach 50+ in NBA history) occurred Friday in a regular-season loss (138-127), boosting his Rookie of the Year case a",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776933756179_0",
+      "timestamp": "2026-04-23T08:42:36.179051+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, there is **no breaking news or recent announcements** that would move prediction m",
+      "raw": "Based on the search results provided, there is **no breaking news or recent announcements** that would move prediction markets. The most recent data points are from April 14-22, 2026, and show routine price movements rather than confirmed announcements or resolved events.\n\nThe search results contain:",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776933684847_0",
-      "timestamp": "2026-04-23T08:41:24.847175+00:00",
+      "id": "sig_1776933756185_3",
+      "timestamp": "2026-04-23T08:42:36.185352+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum hit $6K briefly amid Pectra upgrade testing and ETF inflows, but prices later fell to ~$2,200-$2,358 by April 1",
-      "raw": "Ethereum hit $6K briefly amid Pectra upgrade testing and ETF inflows, but prices later fell to ~$2,200-$2,358 by April 17-18.[1][2][3]",
+      "headline": "**Algorithmic price predictions** from CoinCodex (last updated April 22, 2026)[4]",
+      "raw": "**Algorithmic price predictions** from CoinCodex (last updated April 22, 2026)[4]\n\nNone of these constitute breaking news about confirmed announcements, resolutions, or events that would significantly move prediction markets. The results reflect ongoing market analysis and forecasting rather than new developments.\n\nIf you're looking for specific breaking news about Ethereum, Bitcoin, or regulatory",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 4:30AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776933756181_1",
+      "timestamp": "2026-04-23T08:42:36.181319+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Price updates** from April 14, 2026 showing Ethereum at $2,370",
+      "raw": "**Price updates** from April 14, 2026 showing Ethereum at $2,370.04[1]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [
@@ -33,24 +80,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776933684849_1",
-      "timestamp": "2026-04-23T08:41:24.849172+00:00",
+      "id": "sig_1776933756183_2",
+      "timestamp": "2026-04-23T08:42:36.183271+00:00",
       "source": "PERPLEXITY",
-      "headline": "Bitcoin traded ~$71K-$75K mid-April, down YTD, with $80K April odds at 71",
-      "raw": "Bitcoin traded ~$71K-$75K mid-April, down YTD, with $80K April odds at 71.5% on Polymarket due to tokenization momentum (no new confirmation).[3][4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933684851_2",
-      "timestamp": "2026-04-23T08:41:24.851126+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Upcoming catalysts like FOMC (April 28-29), CLARITY Act, Glamsterdam fork (June), and halving cycle peak (April-October)",
-      "raw": "Upcoming catalysts like FOMC (April 28-29), CLARITY Act, Glamsterdam fork (June), and halving cycle peak (April-October) are anticipated but unconfirmed today.[3]",
+      "headline": "**Technical analysis commentary** from YouTube videos discussing price trends and trader sentiment[2][3]",
+      "raw": "**Technical analysis commentary** from YouTube videos discussing price trends and trader sentiment[2][3]",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -59,39 +93,11 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776933684853_3",
-      "timestamp": "2026-04-23T08:41:24.853003+00:00",
+      "id": "sig_1776933770858_0",
+      "timestamp": "2026-04-23T08:42:50.858089+00:00",
       "source": "PERPLEXITY",
-      "headline": "No mentions of fresh resolutions on \"Ethereum up,\" October predictions, or market-moving events post-April 18",
-      "raw": "No mentions of fresh resolutions on \"Ethereum up,\" October predictions, or market-moving events post-April 18.[1][2][3][4][5]",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 4:30AM-4:45AM ET"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933684854_4",
-      "timestamp": "2026-04-23T08:41:24.854895+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (based on absence of real-time confirmations in results spanning April 16-18)",
-      "raw": "Confidence: HIGH** (based on absence of real-time confirmations in results spanning April 16-18).[1][2][3][4][5]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933699470_0",
-      "timestamp": "2026-04-23T08:41:39.470624+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, with the \"Elon Musk # tweets in April 2026?\" market assigning a 22% chance to the 1120-1159 range as the top outcome, backed by over $21.5M in trading volume across Tweet Markets.[2][3] Related markets like \"Elon Musk # tweets April 17 ",
+      "headline": "Polymarket Trader \"Prexpect\" Profits $118K Betting on Elon Musk's Tweet Volume | YES | HIGH confidence**",
+      "raw": "Polymarket Trader \"Prexpect\" Profits $118K Betting on Elon Musk's Tweet Volume | YES | HIGH confidence**  \nA trader named Prexpect earned $118,754 by predicting Elon Musk's weekly tweet counts using a custom real-time tracker for front-running market prices, as revealed in a leaked Snapchat post viewed ~340,000 times.[1] This strategy highlights vulnerabilities in Polymarket's tweet markets, which",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -100,11 +106,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776933699472_1",
-      "timestamp": "2026-04-23T08:41:39.472733+00:00",
+      "id": "sig_1776933770860_1",
+      "timestamp": "2026-04-23T08:42:50.860395+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Markets Category Active with 164 Live Options | YES | MED confidence**",
-      "raw": "Trending Markets Category Active with 164 Live Options | YES | MED confidence**  \nPolymarket lists 164 trending prediction markets as of April 22, 2026, covering topics like \"Nasdaq round-the-clock trading by June 30?\" with over $3.3M in volume, but no specific X posts or whale bets detailed in current data.[1] Broader categories include Tweet Predictions (130 markets, e.g., \"Will Kanye tweet agai",
+      "headline": "Trending X Markets on Polymarket Feature Low-Odds Bets on Elon Musk/Tech Events | NO whale bets reported | MED confidenc",
+      "raw": "Trending X Markets on Polymarket Feature Low-Odds Bets on Elon Musk/Tech Events | NO whale bets reported | MED confidence**  \nPolymarket's X predictions (1,370+ markets, $165.9M volume) spotlight bets like \"\ud835\udd4f Money launched by April 30?\" at 14% YES ($33.7K volume), \"Iran x Israel/US conflict ends by...?\" at 100% (high liquidity), and \"Nikita Bier out as Head of Product at X by June 30?\" at 7%.[3] ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -114,9 +120,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 8,
+    "enter": 2,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 4
   }
 }
