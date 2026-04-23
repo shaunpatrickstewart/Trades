@@ -1,97 +1,47 @@
 {
-  "last_scan": "2026-04-23T09:19:34.685677+00:00",
-  "scan_seconds": 23.8,
+  "last_scan": "2026-04-23T09:20:38.044552+00:00",
+  "scan_seconds": 17.5,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776935967750_3",
-      "timestamp": "2026-04-23T09:19:27.750387+00:00",
+      "id": "sig_1776936027664_0",
+      "timestamp": "2026-04-23T09:20:27.664259+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Team positioning for changes**: There are indications the Raptors organization is considering significant moves, thoug",
-      "raw": "**Team positioning for changes**: There are indications the Raptors organization is considering significant moves, though no specific announcements have been confirmed[1].",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776935967752_4",
-      "timestamp": "2026-04-23T09:19:27.752636+00:00",
-      "source": "PERPLEXITY",
-      "headline": "No series outcome has been decided or announced",
-      "raw": "No series outcome has been decided or announced.** Tonight's Game 3 is still to be played, and any market-moving confirmation regarding who will win the series cannot occur until the playoff results are determined. The search results contain only pre-game analysis and speculation, not confirmed news that would shift prediction markets.",
+      "headline": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed Amid Ongoing Investigation | NO new confirmation of s",
+      "raw": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed Amid Ongoing Investigation | NO new confirmation of successor | HIGH confidence**[1][2]\n\nJerome Powell stated he will stay in his role until a successor is confirmed by the Senate and a criminal investigation into the Fed (related to expenses like headquarters renovation) is resolved; his term ends in May 2026**[1][2][3].  \nTrump h",
       "direction": "YES",
       "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776935954244_0",
-      "timestamp": "2026-04-23T09:19:14.244240+00:00",
+      "id": "sig_1776936031681_0",
+      "timestamp": "2026-04-23T09:20:31.681830+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confidence: HIGH** (all results converge on the same past October 2025 event, no real-time updates)",
-      "raw": "Confidence: HIGH** (all results converge on the same past October 2025 event, no real-time updates).[1][2][3][4][5]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776935967744_0",
-      "timestamp": "2026-04-23T09:19:27.744100+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Based on the current search results, I cannot confirm any breaking news about a series resolution or market-moving annou",
-      "raw": "Based on the current search results, I cannot confirm any breaking news about a series resolution or market-moving announcement. The Raptors are currently in the **first round** of the playoffs (not conference semifinals) against the Cleveland Cavaliers, down 0-2 in the series[1][4]. Game 3 is scheduled for tonight (Thursday, April 23) at 8:00 PM ET[4].\n\nThe most recent developments are:",
+      "headline": "Cooper Flagg exits Mavericks' rookie season finale with left ankle sprain | NO | HIGH confidence** [1][2][3]",
+      "raw": "Cooper Flagg exits Mavericks' rookie season finale with left ankle sprain | NO | HIGH confidence** [1][2][3]\n\nNo confirmed announcements, trades, or resolutions involving Cooper Flagg with the Cavaliers or Lakers, nor any Rookie of the Year award decision, that would impact prediction markets. Flagg, the No. 1 pick playing for the Dallas Mavericks, ended the 2025-26 regular season Sunday with a sp",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776935967746_1",
-      "timestamp": "2026-04-23T09:19:27.746207+00:00",
+      "id": "sig_1776936037023_0",
+      "timestamp": "2026-04-23T09:20:37.023725+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Raptors' roster status uncertainty**: Ja'Kobe Walter is questionable for tonight's game due to illness, while Immanuel",
-      "raw": "**Raptors' roster status uncertainty**: Ja'Kobe Walter is questionable for tonight's game due to illness, while Immanuel Quickley remains out with a hamstring injury[4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776935967748_2",
-      "timestamp": "2026-04-23T09:19:27.748267+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Performance concerns**: Brandon Ingram scored only 7 points on 3-15 shooting in Game 2, raising questions about his im",
-      "raw": "**Performance concerns**: Brandon Ingram scored only 7 points on 3-15 shooting in Game 2, raising questions about his impact going forward[4].",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776935973664_0",
-      "timestamp": "2026-04-23T09:19:33.664859+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time information about what Polymarket traders are currently posting on X (Twitter), whale bets, o",
-      "raw": "I cannot provide real-time information about what Polymarket traders are currently posting on X (Twitter), whale bets, or live market sentiment as of this moment.\n\nThe search results provided are general informational pages about Polymarket's structure and capabilities, not real-time data feeds or current trader discussions. They show historical snapshots (from April 9-22, 2026) indicating that ma",
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results contain only general information about Polymarket's structure and some dated market snapshots (from April 9-22, 2026), but they do not include:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -100,11 +50,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776935973666_1",
-      "timestamp": "2026-04-23T09:19:33.666767+00:00",
+      "id": "sig_1776936037025_1",
+      "timestamp": "2026-04-23T09:20:37.025732+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current trader commentary or posts on X",
-      "raw": "Current trader commentary or posts on X",
+      "headline": "Current X (Twitter) posts from traders about Polymarket",
+      "raw": "Current X (Twitter) posts from traders about Polymarket",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -113,11 +63,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776935973668_2",
-      "timestamp": "2026-04-23T09:19:33.668690+00:00",
+      "id": "sig_1776936037027_2",
+      "timestamp": "2026-04-23T09:20:37.027689+00:00",
       "source": "PERPLEXITY",
-      "headline": "Live whale activity or large position movements",
-      "raw": "Live whale activity or large position movements",
+      "headline": "Active whale bets or smart money movements happening right now",
+      "raw": "Active whale bets or smart money movements happening right now",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -126,11 +76,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776935973670_3",
-      "timestamp": "2026-04-23T09:19:33.670579+00:00",
+      "id": "sig_1776936037029_3",
+      "timestamp": "2026-04-23T09:20:37.029647+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time market repricing events",
-      "raw": "Real-time market repricing events",
+      "headline": "Real-time assessments of mispriced markets",
+      "raw": "Real-time assessments of mispriced markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -139,11 +89,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776935973672_4",
-      "timestamp": "2026-04-23T09:19:33.672487+00:00",
+      "id": "sig_1776936037031_4",
+      "timestamp": "2026-04-23T09:20:37.031550+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news that just moved markets",
-      "raw": "Breaking news that just moved markets",
+      "headline": "Recent breaking news or market-moving announcements",
+      "raw": "Recent breaking news or market-moving announcements",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -152,11 +102,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776935973675_5",
-      "timestamp": "2026-04-23T09:19:33.675893+00:00",
+      "id": "sig_1776936037033_5",
+      "timestamp": "2026-04-23T09:20:37.033508+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current sentiment about mispriced markets",
-      "raw": "Current sentiment about mispriced markets\n\nTo get this information, you would need to:",
+      "headline": "Current market resolutions",
+      "raw": "Current market resolutions\n\nTo get this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -166,9 +116,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 12,
+    "enter": 1,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 1
   }
 }
