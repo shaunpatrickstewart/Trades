@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-23T08:54:11.500862+00:00",
-  "scan_seconds": 20.9,
+  "last_scan": "2026-04-23T08:55:17.483922+00:00",
+  "scan_seconds": 16.9,
   "markets_scanned": 55,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776934439033_0",
-      "timestamp": "2026-04-23T08:53:59.033840+00:00",
+      "id": "sig_1776934507166_0",
+      "timestamp": "2026-04-23T08:55:07.166880+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Fed Chair to Succeed Powell** | **YES** | **HIGH** confidence[1][2]",
-      "raw": "Trump Nominates Kevin Warsh as Fed Chair to Succeed Powell** | **YES** | **HIGH** confidence[1][2]\n\nPresident Trump announced on January 30, 2026, the nomination of former Fed Governor **Kevin Warsh** to replace **Jerome Powell** as Federal Reserve Chair, whose term ends in May 2026[1][2]. Warsh, a 2006-2011 Fed veteran, edged out contenders like Kevin Hassett, Christopher Waller, and Rick Rieder[",
+      "headline": "Trump Nominates Kevin Warsh to Replace Fed Chair Jerome Powell** | **YES** | **HIGH** confidence[1]",
+      "raw": "Trump Nominates Kevin Warsh to Replace Fed Chair Jerome Powell** | **YES** | **HIGH** confidence[1]\n\nPresident Donald Trump announced his intention to nominate former Fed Governor Kevin Warsh as Jerome Powell's successor, amid criticism of Powell's slow rate cuts, with Powell's term ending in May 2026[1]. This development, reported in a January 30, 2026, segment (titled for April 14, 2026), highli",
       "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [
@@ -21,90 +21,70 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776934435366_0",
-      "timestamp": "2026-04-23T08:53:55.366575+00:00",
+      "id": "sig_1776934503628_0",
+      "timestamp": "2026-04-23T08:55:03.628337+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot identify any breaking news or recent announcements from the search results provided that would move prediction",
-      "raw": "I cannot identify any breaking news or recent announcements from the search results provided that would move prediction markets today. The search results contain general Bitcoin price forecasts and historical prediction market data, but they do not include current breaking news, recent confirmations, or market-moving announcements as of April 23, 2026.\n\nThe most recent dated information in the res",
+      "headline": "Bitcoin's 'Uptober' Streak Ends with 3",
+      "raw": "Bitcoin's 'Uptober' Streak Ends with 3.6% Decline in October 2025 | NO | HIGH confidence**  \nBitcoin fell 3.6% in October 2025 for the first time since 2018, closing around $109,560\u2013$110,000 after peaking above $126,000 earlier in the month, driven by $19B liquidations, Trump's China tariffs, and Fed hesitation on rate cuts.[3] This breaks the historical October green close in 10 of the past 12 ye",
       "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will October be the best month for Bitcoin in 2026?"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776934435373_3",
-      "timestamp": "2026-04-23T08:53:55.373055+00:00",
+      "id": "sig_1776934511952_0",
+      "timestamp": "2026-04-23T08:55:11.952047+00:00",
       "source": "PERPLEXITY",
-      "headline": "Confirmed events or resolutions that directly impact Bitcoin or prediction markets",
-      "raw": "Confirmed events or resolutions that directly impact Bitcoin or prediction markets",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
+      "headline": "**Raptors**: Lost to Cavaliers in first-round Game 1 (implied in previews); no series win or elimination confirmed",
+      "raw": "**Raptors**: Lost to Cavaliers in first-round Game 1 (implied in previews); no series win or elimination confirmed.[5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776934450487_4",
-      "timestamp": "2026-04-23T08:54:10.487648+00:00",
+      "id": "sig_1776934511954_1",
+      "timestamp": "2026-04-23T08:55:11.954094+00:00",
       "source": "PERPLEXITY",
-      "headline": "Breaking news or recently confirmed events that would move markets today",
-      "raw": "Breaking news or recently confirmed events that would move markets today",
-      "direction": null,
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776934435368_1",
-      "timestamp": "2026-04-23T08:53:55.368934+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent news articles or press releases from today or the past few hours",
-      "raw": "Recent news articles or press releases from today or the past few hours",
-      "direction": null,
+      "headline": "**Cooper Flagg**: No mentions in latest playoff coverage or announcements",
+      "raw": "**Cooper Flagg**: No mentions in latest playoff coverage or announcements.[1][2][5][6]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776934435370_2",
-      "timestamp": "2026-04-23T08:53:55.370938+00:00",
+      "id": "sig_1776934511956_2",
+      "timestamp": "2026-04-23T08:55:11.956254+00:00",
       "source": "PERPLEXITY",
-      "headline": "Official announcements from exchanges, regulatory bodies, or major market participants",
-      "raw": "Official announcements from exchanges, regulatory bodies, or major market participants",
-      "direction": null,
+      "headline": "Ongoing first-round series (e",
+      "raw": "Ongoing first-round series (e.g., Celtics vs. Sixers, Lakers vs. Rockets, Knicks vs. Hawks, Pistons vs. Magic, Thunder vs. Suns) show no resolved outcomes shifting markets.[4][5]\n\nClosest non-playoff news is Clippers' president reaffirming commitment to Kawhi Leonard post-season, but this is end-of-season (not playoffs) and lacks market-moving confirmation on contracts.[3] Confidence: **HIGH**\u2014sea",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [],
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+      ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776934435375_4",
-      "timestamp": "2026-04-23T08:53:55.375108+00:00",
+      "id": "sig_1776934516478_0",
+      "timestamp": "2026-04-23T08:55:16.478440+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recommendation:** Search for \"Bitcoin breaking news today April 23 2026\" or check real-time news sources like CoinTelegr",
-      "raw": "Recommendation:** Search for \"Bitcoin breaking news today April 23 2026\" or check real-time news sources like CoinTelegraph, The Block, or major financial news outlets for current market-moving developments.",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776934450479_0",
-      "timestamp": "2026-04-23T08:54:10.479456+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results.\n\nThe search results provide **general information about Polymarket's structure and past trending markets** (such as Elon Musk tweet counts as of April 21-22, 2026), but they do not contain:",
-      "direction": null,
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed announcements reported | LO",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's trending markets as of April 22 heavily feature **Elon Musk tweet volume predictions**, including \"Elon Musk # tweets in April 2026?\" (22% odds for 1120-1159 range) and sub-markets like April 17-24 counts, with over $21.5M volume across 20+ active Twe",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -112,51 +92,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776934450481_1",
-      "timestamp": "2026-04-23T08:54:10.481535+00:00",
+      "id": "sig_1776934516480_1",
+      "timestamp": "2026-04-23T08:55:16.480694+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current X (Twitter) posts from traders discussing prediction markets right now",
-      "raw": "Current X (Twitter) posts from traders discussing prediction markets right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776934450483_2",
-      "timestamp": "2026-04-23T08:54:10.483600+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Active whale bets or smart money moves happening this moment",
-      "raw": "Active whale bets or smart money moves happening this moment",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776934450485_3",
-      "timestamp": "2026-04-23T08:54:10.485599+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market mispricing discussions",
-      "raw": "Real-time market mispricing discussions",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776934450489_5",
-      "timestamp": "2026-04-23T08:54:10.489667+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Live market resolution data or announcements",
-      "raw": "Live market resolution data or announcements\n\nTo get the information you're seeking, you would need to:",
-      "direction": null,
+      "headline": "Tweet Markets** dominate activity (130+ markets, $21",
+      "raw": "Tweet Markets** dominate activity (130+ markets, $21.7M volume), alongside 164 Trending Markets like \"Nasdaq round-the-clock trading by June 30?\" ($3.3M volume).[1][3]  \nNo search results mention **whale bets, smart money moves, mispriced markets, or recent confirmations/announcements** moving odds; X posts from Polymarket traders unavailable in data.[5]  \nData limited to April 22 snapshots, poten",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -166,8 +107,8 @@
   ],
   "stats": {
     "enter": 1,
-    "alert": 11,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 4
+    "high_conf": 1
   }
 }
