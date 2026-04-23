@@ -1,56 +1,96 @@
 {
-  "last_scan": "2026-04-23T08:35:47.222830+00:00",
-  "scan_seconds": 16.6,
+  "last_scan": "2026-04-23T08:37:02.111192+00:00",
+  "scan_seconds": 21.5,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776933346219_1",
-      "timestamp": "2026-04-23T08:35:46.219659+00:00",
+      "id": "sig_1776933410146_1",
+      "timestamp": "2026-04-23T08:36:50.146176+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending markets** also include broader categories like Nasdaq round-the-clock trading by June 30 and general Trending M",
-      "raw": "Trending markets** also include broader categories like Nasdaq round-the-clock trading by June 30 and general Trending Markets (168 live with $3.3M volume), but no mentions of mispriced markets or imminent moves.[1]  \nNo **recent confirmations, announcements, or resolutions** (e.g., events moving odds) are confirmed in real-time data as of April 22-23, 2026; odds update dynamically with trades.[1]",
-      "direction": "NO",
+      "headline": "YES** | **HIGH** confidence",
+      "raw": "YES** | **HIGH** confidence  \n\nPowell's statement, reported Wednesday (April 22, 2026), addresses uncertainty around his May 2026 term end, with Warsh nominated but Senate confirmation pending.[1][2] Polymarket odds shifted: 94% for Warsh confirmed as Chair, 84% by June 30, 83% for Powell out by June 30 (up from prior markets), signaling market movement on timeline resolution.[3] No other April co",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776933406081_0",
+      "timestamp": "2026-04-23T08:36:46.081688+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot identify any breaking news from these search results that would move prediction markets today",
+      "raw": "I cannot identify any breaking news from these search results that would move prediction markets today. The search results contain **price forecasts and predictions for October 2026**, not recent announcements or confirmed events that would trigger market movement.\n\nThe most relevant information available is:",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776933341613_0",
-      "timestamp": "2026-04-23T08:35:41.613447+00:00",
+      "id": "sig_1776933406086_2",
+      "timestamp": "2026-04-23T08:36:46.086267+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's Historic 51-Point Game Shakes Up NBA Rookie of the Year Race Against Kon Knueppel | NO | HIGH confidence*",
-      "raw": "Cooper Flagg's Historic 51-Point Game Shakes Up NBA Rookie of the Year Race Against Kon Knueppel | NO | HIGH confidence**  \nNo confirmed announcements, resolutions, or official decisions (e.g., award winner, trade, or Cavaliers/Raptors involvement) have been reported as breaking news right now that would directly move prediction markets[1][5].  \nFlagg, the No. 1 pick playing for the Dallas Maveric",
-      "direction": "YES",
-      "confidence": 0.65,
+      "headline": "**Prediction market data**: Polymarket shows traders currently assigning high probability to Bitcoin reaching \u2191$90,000 i",
+      "raw": "**Prediction market data**: Polymarket shows traders currently assigning high probability to Bitcoin reaching \u2191$90,000 in 2026 overall[4], though specific October outcomes appear outdated (referencing October 2024)[3].\n\nHowever, these are **forward-looking analyses and probabilistic forecasts**, not breaking news of confirmed events or announcements that would typically trigger immediate market mo",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776933410144_0",
+      "timestamp": "2026-04-23T08:36:50.144118+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Jerome Powell confirms he will remain Fed Chair until successor Kevin Warsh is confirmed and criminal investigation reso",
+      "raw": "Jerome Powell confirms he will remain Fed Chair until successor Kevin Warsh is confirmed and criminal investigation resolved.**[2]",
+      "direction": null,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+        "Will Powell say \"Successor\" during April press conference?"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776933346217_0",
-      "timestamp": "2026-04-23T08:35:46.217649+00:00",
+      "id": "sig_1776933421107_0",
+      "timestamp": "2026-04-23T08:37:01.107767+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | MED confidenc",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | MED confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, including \"Elon Musk # tweets in April 2026?\" (24% odds for 1120-1159 tweets) and \"Elon Musk # tweets April 17 - April 24, 2026?\" (22% for 1120-1159 range), with over $21M+ in trading volume a",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed resolutions reported | LOW",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO whale bets or confirmed resolutions reported | LOW confidence**  \nPolymarket's trending markets as of April 22 include 168 active predictions on topics like \"Nasdaq round-the-clock trading by June 30?\" with over $3.3M in volume, but no specific X posts from traders highlight whale bets, smart money moves, or mispriced opportuniti",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776933406083_1",
+      "timestamp": "2026-04-23T08:36:46.083949+00:00",
+      "source": "PERPLEXITY",
+      "headline": "**Analyst prediction**: A fractal cycle model predicts Bitcoin could reach a bottom in October 2026[1], with forecasts s",
+      "raw": "**Analyst prediction**: A fractal cycle model predicts Bitcoin could reach a bottom in October 2026[1], with forecasts suggesting October 2026 prices between $81,531\u2013$86,262[2].",
+      "direction": null,
+      "confidence": 0.6,
+      "matched_markets": [],
+      "action": "WATCH",
+      "x_link": null,
+      "category": "CRYPTO"
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
-    "watch": 0,
-    "high_conf": 1
+    "enter": 1,
+    "alert": 4,
+    "watch": 1,
+    "high_conf": 4
   }
 }
