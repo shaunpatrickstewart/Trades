@@ -1,16 +1,55 @@
 {
-  "last_scan": "2026-04-23T04:18:43.603857+00:00",
-  "scan_seconds": 53.0,
+  "last_scan": "2026-04-23T04:19:08.293510+00:00",
+  "scan_seconds": 12.7,
   "markets_scanned": 50,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776917922593_0",
-      "timestamp": "2026-04-23T04:18:42.593141+00:00",
+      "id": "sig_1776917942475_0",
+      "timestamp": "2026-04-23T04:19:02.475364+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time breaking news and live trader sentiment you're requesting based on these search results",
-      "raw": "I cannot provide the real-time breaking news and live trader sentiment you're requesting based on these search results. The search results describe **how Polymarket works as a prediction market platform**, but they don't contain current market activity, live trader discussions, whale bets, or real-time price movements as of April 23, 2026.\n\nTo get the information you're looking for, you would need",
-      "direction": null,
+      "headline": "Cooper Flagg Return Confirmed for Mavericks | NO | HIGH confidence**",
+      "raw": "Cooper Flagg Return Confirmed for Mavericks | NO | HIGH confidence**  \nJason Kidd announced that Cooper Flagg, the No. 1 overall pick, will return from a long absence for the Dallas Mavericks on Thursday after official confirmation, though the Mavericks are lottery-bound and not in playoffs.[1][3]",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776917947287_1",
+      "timestamp": "2026-04-23T04:19:07.287142+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweet Markets Heating Up | NO (no whale alerts) | MED confidence**",
+      "raw": "Elon Musk April Tweet Markets Heating Up | NO (no whale alerts) | MED confidence**  \nHigh-volume markets on Musk's tweet counts (e.g., 1120-1159 range) dominate Tweet and Tweet Markets categories with $21.5M volume, potentially drawing trader buzz on X for mispricing as odds shift live, though no specific smart money or whale activity confirmed.[2][3]",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776917938895_0",
+      "timestamp": "2026-04-23T04:18:58.895706+00:00",
+      "source": "PERPLEXITY",
+      "headline": "YES** to continued institutional Bitcoin support via ETFs; **NO** to major Ethereum surge or resolution impacting market",
+      "raw": "YES** to continued institutional Bitcoin support via ETFs; **NO** to major Ethereum surge or resolution impacting markets immediately.[3][5]",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776917947283_0",
+      "timestamp": "2026-04-23T04:19:07.283924+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Polymarket Traders on X: No Breaking Whale Bets or Confirmed Events Reported in Real-Time Data | NO | HIGH confidence**",
+      "raw": "Polymarket Traders on X: No Breaking Whale Bets or Confirmed Events Reported in Real-Time Data | NO | HIGH confidence**  \nCurrent Polymarket data highlights trending markets like \"Will Monero hit $1000 in 2026?\" (active with real-time odds) and Elon Musk tweet counts (e.g., \"# tweets in April 2026?\" at 20-22% for 1120-1159 range, $20.8M+ volume), but search results lack direct X posts on whale mov",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,12 +57,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776917922595_1",
-      "timestamp": "2026-04-23T04:18:42.595217+00:00",
+      "id": "sig_1776917947290_2",
+      "timestamp": "2026-04-23T04:19:07.290357+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Visit Polymarket directly** to see live market prices and trading volume on X-related prediction markets[1][2]",
-      "raw": "**Visit Polymarket directly** to see live market prices and trading volume on X-related prediction markets[1][2]",
-      "direction": null,
+      "headline": "Monero $1000 in 2026 Trending | NO (no tips or moves) | LOW confidence**",
+      "raw": "Monero $1000 in 2026 Trending | NO (no tips or moves) | LOW confidence**  \nListed as a key Trending Market ending in 8 months, but no X chatter on whales, tips, or impending shifts evident in results.[1]",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -31,49 +70,40 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776917922597_2",
-      "timestamp": "2026-04-23T04:18:42.597119+00:00",
+      "id": "sig_1776917938897_1",
+      "timestamp": "2026-04-23T04:18:58.897870+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Check XTracker**, Polymarket's social media analytics tool, which tracks and analyzes social media post metrics[4]",
-      "raw": "**Check XTracker**, Polymarket's social media analytics tool, which tracks and analyzes social media post metrics[4]",
+      "headline": "LOW** confidence due to lack of real-time updates post-April 22; prices and trends are mixed YTD (BTC -19%, ETH -27% mid",
+      "raw": "LOW** confidence due to lack of real-time updates post-April 22; prices and trends are mixed YTD (BTC -19%, ETH -27% mid-April).[3]",
       "direction": null,
-      "confidence": 0.65,
+      "confidence": 0.6,
       "matched_markets": [],
-      "action": "ALERT",
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776917922598_3",
-      "timestamp": "2026-04-23T04:18:42.598915+00:00",
+      "id": "sig_1776917942478_1",
+      "timestamp": "2026-04-23T04:19:02.478958+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Monitor financial news outlets** for recent announcements or resolved events that would affect prediction markets",
-      "raw": "**Monitor financial news outlets** for recent announcements or resolved events that would affect prediction markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
+      "headline": "Cavaliers Secure No",
+      "raw": "Cavaliers Secure No. 4 Seed in East | NO | HIGH confidence**  \nCleveland Cavaliers locked in the No. 4 seed (51-30 record) in the Eastern Conference, guaranteeing home-court advantage in the first round against the No. 5 seed (e.g., possible Hawks or Raptors), with their final regular-season game on April 12.[2]  \n\nNo confirmed announcements on Raptors-Cavaliers matchups, conference semifinals, or",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "WATCH",
       "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776917922600_4",
-      "timestamp": "2026-04-23T04:18:42.600872+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Review Polymarket's analytics tools** that show trader positioning and market sentiment[5]",
-      "raw": "**Review Polymarket's analytics tools** that show trader positioning and market sentiment[5]\n\nThe search results confirm that Polymarket hosts over 1,360 active X prediction markets with real-time odds and significant trading volume ($162.6M reported)[2], but they don't capture the live market data or trader discussions you're seeking. For the headline format with confidence levels you requested, ",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
     "alert": 5,
-    "watch": 0,
-    "high_conf": 0
+    "watch": 2,
+    "high_conf": 2
   }
 }
