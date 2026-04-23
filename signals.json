@@ -1,30 +1,44 @@
 {
-  "last_scan": "2026-04-23T05:08:23.237971+00:00",
-  "scan_seconds": 12.7,
+  "last_scan": "2026-04-23T05:09:33.405079+00:00",
+  "scan_seconds": 12.8,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776920902235_0",
-      "timestamp": "2026-04-23T05:08:22.235843+00:00",
+      "id": "sig_1776920967800_0",
+      "timestamp": "2026-04-23T05:09:27.800492+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Markets on X: High Tweet Activity and Merger Bets | NO confirmed resolutions | MED confidence**",
-      "raw": "Trending Polymarket Markets on X: High Tweet Activity and Merger Bets | NO confirmed resolutions | MED confidence**\n\nPolymarket's top trending categories right now include **Tweet predictions** (130+ markets, $21.7M volume), with heavy focus on **Elon Musk's tweet counts in April 2026**\u2014crowd odds at 24% for 1120-1159 tweets and 22% for 220-239 in specific windows like April 17-24[2][4]. **Social ",
+      "headline": "Cavaliers lead Raptors 2-0 after Game 2 win, extending playoff dominance to 14-2 all-time | NO series win for Raptors |",
+      "raw": "Cavaliers lead Raptors 2-0 after Game 2 win, extending playoff dominance to 14-2 all-time | NO series win for Raptors | HIGH confidence**[1][2][5]\n\nCleveland Cavaliers defeated Toronto Raptors 115-105 in Game 2 on Monday, with Donovan Mitchell (30 points), James Harden (28 points), and Evan Mobley (25 points, 8 rebounds) leading to a 2-0 series lead; series shifts to Toronto for Game 3 on Thursday",
       "direction": "YES",
-      "confidence": 0.65,
+      "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Strait of Hormuz traffic returns to normal by end of April?"
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Donovan Mitchell: Points O/U 27.5"
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776920972401_0",
+      "timestamp": "2026-04-23T05:09:32.401879+00:00",
+      "source": "PERPLEXITY",
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | NO WHALE BETS OR MISPRICED CALLS CONFIRMED | LOW CONFIDENCE",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | NO WHALE BETS OR MISPRICED CALLS CONFIRMED | LOW CONFIDENCE** [1][2][3][4]\n\nPolymarket's top trending markets focus on **Elon Musk tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 38% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% chance for 1120-1159, with 22% in another snapshot), ba",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 0,
+    "enter": 1,
     "alert": 1,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 2
   }
 }
