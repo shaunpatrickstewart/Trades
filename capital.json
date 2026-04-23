@@ -1,13 +1,13 @@
 {
-  "ts": 1776957970,
+  "ts": 1776958040,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
     "positions_age_s": 0,
-    "usdc_age_s": 29
+    "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999779
+    "usdc_usd": 0.999855
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.057,
-        "nav_usdc": 0.4651,
+        "cur_price": 0.0565,
+        "nav_usdc": 0.461,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8323
+        "unrealized_pnl": -0.8364
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,28 +170,28 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.0925,
-        "nav_usdc": 0.4671,
+        "cur_price": 0.099,
+        "nav_usdc": 0.5,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.2246
+        "unrealized_pnl": -1.1917
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.305,
-        "nav_usdc": 1.5402,
+        "cur_price": 0.265,
+        "nav_usdc": 1.3382,
         "cost_basis": 1.212,
-        "unrealized_pnl": 0.3282
+        "unrealized_pnl": 0.1262
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.34,
-        "nav_usdc": 1.717,
+        "cur_price": 0.3405,
+        "nav_usdc": 1.7195,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.0454
+        "unrealized_pnl": -0.0429
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -269,10 +269,10 @@
         "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.95,
-        "cur_price": 0.73,
-        "nav_usdc": 3.6135,
+        "cur_price": 0.725,
+        "nav_usdc": 3.5888,
         "cost_basis": 1.683,
-        "unrealized_pnl": 1.9305
+        "unrealized_pnl": 1.9058
       },
       {
         "slug": "will-orlando-magic-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.607,
-    "total_usdc": 404.5436,
-    "total_usd": 404.4542
+    "positions_nav_usdc": 317.4115,
+    "total_usdc": 404.3482,
+    "total_usd": 404.2895
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776957970,
+    "ts": 1776958041,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776871570,
+      "window_start_ts": 1776871641,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776353170,
+      "window_start_ts": 1776353241,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774365970,
+      "window_start_ts": 1774366041,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.4542,
-    "total_usdc": 404.5436
+    "total_usd": 404.2895,
+    "total_usdc": 404.3482
   }
 }
