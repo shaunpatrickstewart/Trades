@@ -1,16 +1,16 @@
 {
-  "last_scan": "2026-04-23T06:27:02.992319+00:00",
-  "scan_seconds": 22.4,
+  "last_scan": "2026-04-23T06:28:12.019504+00:00",
+  "scan_seconds": 21.4,
   "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776925607280_0",
-      "timestamp": "2026-04-23T06:26:47.280540+00:00",
+      "id": "sig_1776925677264_0",
+      "timestamp": "2026-04-23T06:27:57.264932+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news from today (April 23, 2026) that has just been confirmed",
-      "raw": "Based on the search results provided, there is no breaking news from today (April 23, 2026) that has just been confirmed or announced. The most recent dated content in the search results is from **April 11, 2026** and **April 22, 2026**.\n\nThe closest item to \"breaking news\" is:",
-      "direction": "NO",
+      "headline": "I cannot identify any breaking news, recent confirmations, announcements, or market-moving resolutions in the provided s",
+      "raw": "I cannot identify any breaking news, recent confirmations, announcements, or market-moving resolutions in the provided search results that would affect prediction markets.\n\nThe search results contain **price predictions and forecasts** for Ethereum (ETH) rather than news about confirmed events or announcements. These are speculative projections based on technical analysis and historical trends, no",
+      "direction": "YES",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,66 +18,121 @@
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776925607285_2",
-      "timestamp": "2026-04-23T06:26:47.285036+00:00",
+      "id": "sig_1776925677272_2",
+      "timestamp": "2026-04-23T06:27:57.272038+00:00",
       "source": "PERPLEXITY",
-      "headline": "Important caveat:** The search results do not contain any announcements, confirmations, or resolutions from today that w",
-      "raw": "Important caveat:** The search results do not contain any announcements, confirmations, or resolutions from today that would directly move prediction markets. The April 11 analysis is the most recent substantive development, but it represents technical analysis opinion rather than confirmed news. Multiple prediction sources from the search results offer varying 2026 targets ($2,800-$3,400 year-end",
+      "headline": "Confirmed market developments or technological upgrades",
+      "raw": "Confirmed market developments or technological upgrades",
       "direction": null,
       "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776925621988_0",
-      "timestamp": "2026-04-23T06:27:01.988783+00:00",
+      "id": "sig_1776925691016_1",
+      "timestamp": "2026-04-23T06:28:11.016235+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (24% chance for 1120-1159 tweets, or 22% in related data).[2][3][4] These tweet prediction markets show high ",
+      "headline": "Trending markets** also include 160-168 others like \"Nasdaq round-the-clock trading by June 30",
+      "raw": "Trending markets** also include 160-168 others like \"Nasdaq round-the-clock trading by June 30?\" with $3.3M volume, but no X posts on mispriced markets or imminent moves are confirmed.[1]  \nNo **recent confirmations, announcements, or resolutions** (e.g., tweet milestones or events) are reported to shift odds as of April 22-23, 2026; data reflects ongoing real-time trading without breaking updates",
       "direction": "NO",
-      "confidence": 0.78,
+      "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776925617104_0",
-      "timestamp": "2026-04-23T06:26:57.104056+00:00",
+      "id": "sig_1776925680922_0",
+      "timestamp": "2026-04-23T06:28:00.922056+00:00",
       "source": "PERPLEXITY",
-      "headline": "NO** newly confirmed/announced/resolution impacting markets like Polymarket (e",
-      "raw": "NO** newly confirmed/announced/resolution impacting markets like Polymarket (e.g., no injuries, trades, or Game 1 outcomes as of April 23, 2026).[1][2] **LOW** confidence in any \"right now\" shift due to lack of real-time updates in results.[3][6]",
-      "direction": "NO",
+      "headline": "Trump Nominates Kevin Warsh to Succeed Jerome Powell as Fed Chair** | **YES** | **HIGH** confidence[1][2][3]",
+      "raw": "Trump Nominates Kevin Warsh to Succeed Jerome Powell as Fed Chair** | **YES** | **HIGH** confidence[1][2][3]\n\nPresident Donald Trump has nominated former Federal Reserve Governor Kevin Warsh to replace Jerome Powell as Fed Chair when Powell's term expires in May 2026, requiring Senate confirmation[1][3]. This announcement, reported by multiple outlets including those citing the Associated Press, d",
+      "direction": "YES",
+      "confidence": 0.78,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776925677268_1",
+      "timestamp": "2026-04-23T06:27:57.268968+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Official announcements from blockchain projects or regulators",
+      "raw": "Official announcements from blockchain projects or regulators",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776925677274_3",
+      "timestamp": "2026-04-23T06:27:57.274067+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent institutional decisions or policy changes",
+      "raw": "Recent institutional decisions or policy changes",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776925677275_4",
+      "timestamp": "2026-04-23T06:27:57.275977+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Resolved events with market impact",
+      "raw": "Resolved events with market impact\n\nThe search results do not contain this type of breaking news information.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776925686128_0",
+      "timestamp": "2026-04-23T06:28:06.128653+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 4 rout of Heat** | YES | HIGH confidence[1][3]",
+      "raw": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 4 rout of Heat** | YES | HIGH confidence[1][3]\n\nThe Cleveland Cavaliers swept the No. 8 Miami Heat 3-0 in the first round (wins: 105-?, 138-83 in Game 3 listed, with Game 4 implied complete), confirming their matchup vs. the No. 4 Indiana Pacers, who lead Knicks 2-1 (Pacers wins: 125-108 Game 1, 114-105 Game 2, Knicks 119-? Game ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776925607282_1",
-      "timestamp": "2026-04-23T06:26:47.282893+00:00",
+      "id": "sig_1776925691013_0",
+      "timestamp": "2026-04-23T06:28:11.013934+00:00",
       "source": "PERPLEXITY",
-      "headline": "Ethereum Analyst Identifies Historic Pattern Pointing to $8,000 Target by Q4 2026 | YES | MED confidence**",
-      "raw": "Ethereum Analyst Identifies Historic Pattern Pointing to $8,000 Target by Q4 2026 | YES | MED confidence**\n\nOn April 11, 2026, analyst Leshka.eth published analysis identifying a historic chart pattern suggesting Ethereum could surge 3-4X (to $6,000-$8,000+) within six months.[2] This analysis cited institutional buying acceleration and decreasing exchange supply as supporting factors. However, th",
-      "direction": "YES",
-      "confidence": 0.6,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "WATCH",
+      "headline": "Elon Musk Tweet Count Markets Dominate Polymarket Trending Activity | NO | LOW confidence**",
+      "raw": "Elon Musk Tweet Count Markets Dominate Polymarket Trending Activity | NO | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume** in April 2026, including \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", with the 1120-1159 tweet range priced at 22-24% odds and over $21.5M in volume across 20-130 related market",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 4,
-    "watch": 1,
-    "high_conf": 2
+    "alert": 9,
+    "watch": 0,
+    "high_conf": 3
   }
 }
