@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-23T05:48:00.026972+00:00",
-  "scan_seconds": 19.2,
+  "last_scan": "2026-04-23T05:49:06.851975+00:00",
+  "scan_seconds": 16.3,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776923279023_3",
-      "timestamp": "2026-04-23T05:47:59.023391+00:00",
+      "id": "sig_1776923345848_0",
+      "timestamp": "2026-04-23T05:49:05.848958+00:00",
       "source": "PERPLEXITY",
-      "headline": "No Breaking Confirmations or Resolutions | NO | HIGH confidence**",
-      "raw": "No Breaking Confirmations or Resolutions | NO | HIGH confidence**  \nSearch results lack any just-confirmed announcements, resolutions, or events (e.g., no Kanye tweet updates or SCOTUS decisions) impacting markets; all data is promotional snapshots from April 9-22, not real-time X chatter at 5 AM UTC.[1][2][3]",
+      "headline": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts reported right now on X",
+      "raw": "No major whale bets, smart money moves, or confirmed announcements driving Polymarket shifts reported right now on X.**[1][2][3][4][6]  \nCurrent Polymarket trends focus on **Tweet Markets** (e.g., Elon Musk tweet counts for April 17-24, 2026, with 1120-1159 tweets at 22% odds and $21.5M volume) and **Trending Markets** like 2026 inflation peaks, Nasdaq 24/7 trading by June 30, and SCOTUS cases, bu",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
@@ -18,79 +18,59 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776923266078_0",
-      "timestamp": "2026-04-23T05:47:46.078167+00:00",
+      "id": "sig_1776923342267_0",
+      "timestamp": "2026-04-23T05:49:02.267368+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** due to absence of time-sensitive breaking alerts in results",
-      "raw": "LOW confidence** due to absence of time-sensitive breaking alerts in results.[1][2]",
-      "direction": null,
+      "headline": "Lakers Take 2-0 Lead Over Rockets in NBA Playoffs First Round | YES (Lakers advancing odds rise) | HIGH confidence**",
+      "raw": "Lakers Take 2-0 Lead Over Rockets in NBA Playoffs First Round | YES (Lakers advancing odds rise) | HIGH confidence**  \nThe Los Angeles Lakers defeated the Houston Rockets 101-94 in Game 2 on Tuesday, April 22, securing a commanding 2-0 series lead in the Western Conference first round, with LeBron James scoring 28 points, Marcus Smart adding 25, and Luke Kennard contributing 23.[1][2][5] This shor",
+      "direction": "YES",
       "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776923279017_0",
-      "timestamp": "2026-04-23T05:47:59.017707+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume** in April 2026, including \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", with the 1120-1159 tweet range priced at **22-24%** odds and over **$21.5M-$21.7M** in trading volume across 20-130 rela",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776923279019_1",
-      "timestamp": "2026-04-23T05:47:59.019534+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Polymarket Categories on X | NO whale bets or tips confirmed | MED confidence**",
-      "raw": "Trending Polymarket Categories on X | NO whale bets or tips confirmed | MED confidence**",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776923279021_2",
-      "timestamp": "2026-04-23T05:47:59.021516+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trending Markets** (168 live as of April 22) like \"Nasdaq round-the-clock trading by June 30",
-      "raw": "Trending Markets** (168 live as of April 22) like \"Nasdaq round-the-clock trading by June 30?\" show **$3.3M** volume, but no X posts in results detail whale moves, smart money, mispriced odds, or imminent shifts.[1] XTracker tool exists for social analytics, and a Binance post hypes a Polymarket analytics tool revealing top traders' strategies, implying potential tips but without specifics on curr",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776923274662_0",
-      "timestamp": "2026-04-23T05:47:54.662387+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cooper Flagg's Rookie Season Ends with Ankle Injury in Mavericks' Finale vs",
-      "raw": "Cooper Flagg's Rookie Season Ends with Ankle Injury in Mavericks' Finale vs. Bulls | NO** | **MED** confidence\n\nNo breaking news RIGHT NOW (as of April 23, 2026) confirms Lakers advancing to conference semifinals, facing Raptors, or involving rookie Cooper Flagg; his standout Dallas Mavericks rookie campaign concluded on April 12-13 with a confirmed ankle sprain that ruled him out for the season f",
-      "direction": "NO",
-      "confidence": 0.6,
       "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
-      "action": "WATCH",
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776923342269_1",
+      "timestamp": "2026-04-23T05:49:02.269910+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Luka Doncic Unlikely to Return in First Round vs",
+      "raw": "Luka Doncic Unlikely to Return in First Round vs. Rockets | YES (confirms extended absence) | HIGH confidence**  \nESPN's Shams Charania reported Tuesday that Doncic (Grade 2 hamstring strain) is not expected back during the first-round series against Houston, meaning Lakers must advance to conference semifinals for his potential return.[1] This confirmation boosts LeBron's carry-job narrative and ",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776923342272_2",
+      "timestamp": "2026-04-23T05:49:02.273006+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No Raptors or Conference Semifinals Updates | NO | N/A**",
+      "raw": "No Raptors or Conference Semifinals Updates | NO | N/A**  \nToronto Raptors lost Game 1 to Cleveland Cavaliers, who used a new defensive plan targeting Brandon Ingram, but no Game 2 result or resolution reported; series ongoing with no market-moving news on advancement or semifinals.[3][4] No first-round series have reached semifinals yet.[1][2]",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
+      ],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 5,
-    "watch": 1,
+    "alert": 4,
+    "watch": 0,
     "high_conf": 1
   }
 }
