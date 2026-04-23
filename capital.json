@@ -1,5 +1,5 @@
 {
-  "ts": 1776931520,
+  "ts": 1776931587,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999787
+    "usdc_usd": 0.999756
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0605,
-        "nav_usdc": 0.4937,
+        "cur_price": 0.061,
+        "nav_usdc": 0.4978,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8037
+        "unrealized_pnl": -0.7996
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.1215,
-        "nav_usdc": 0.6136,
+        "cur_price": 0.1195,
+        "nav_usdc": 0.6035,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.0781
+        "unrealized_pnl": -1.0882
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -197,10 +197,10 @@
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.9325,
-        "nav_usdc": 4.695,
+        "cur_price": 0.9315,
+        "nav_usdc": 4.6899,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.1637
+        "unrealized_pnl": 0.1586
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -296,10 +296,10 @@
         "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
         "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
         "size": 4.9257,
-        "cur_price": 0.265,
-        "nav_usdc": 1.3053,
+        "cur_price": 0.26,
+        "nav_usdc": 1.2807,
         "cost_basis": 0.8866,
-        "unrealized_pnl": 0.4187
+        "unrealized_pnl": 0.3941
       },
       {
         "slug": "will-detroit-pistons-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.2353,
-    "total_usdc": 403.1719,
-    "total_usd": 403.086
+    "positions_nav_usdc": 316.1996,
+    "total_usdc": 403.1362,
+    "total_usd": 403.0379
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776931521,
+    "ts": 1776931588,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776845121,
+      "window_start_ts": 1776845188,
       "realized_usdc": 0.0,
       "trade_count": 2,
       "buy_volume_usdc": 29.0862,
@@ -380,7 +380,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776326721,
+      "window_start_ts": 1776326788,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -593,7 +593,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774339521,
+      "window_start_ts": 1774339588,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -1019,7 +1019,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.086,
-    "total_usdc": 403.1719
+    "total_usd": 403.0379,
+    "total_usdc": 403.1362
   }
 }
