@@ -1,46 +1,97 @@
 {
-  "last_scan": "2026-04-23T06:37:12.327525+00:00",
-  "scan_seconds": 16.7,
+  "last_scan": "2026-04-23T06:38:21.109267+00:00",
+  "scan_seconds": 20.5,
   "markets_scanned": 54,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776926218678_0",
-      "timestamp": "2026-04-23T06:36:58.678321+00:00",
+      "id": "sig_1776926288312_0",
+      "timestamp": "2026-04-23T06:38:08.312048+00:00",
       "source": "PERPLEXITY",
-      "headline": "LOW confidence** in prediction market movement from breaking news, as results highlight speculation (e",
-      "raw": "LOW confidence** in prediction market movement from breaking news, as results highlight speculation (e.g., analyst targets of $143K-$150K[3]) rather than resolutions; BTC trades near $111K with support at $109K[1].",
+      "headline": "Trump Confirmed Kevin Warsh as Powell's Fed Successor in January; Warsh Testified Before Senate Banking Committee on Apr",
+      "raw": "Trump Confirmed Kevin Warsh as Powell's Fed Successor in January; Warsh Testified Before Senate Banking Committee on April 21, 2026** | **NO** | **HIGH** confidence[1][2][3][4][6]\n\nNo new confirmations, announcements, or resolutions have occurred since the April 21 Senate hearing to alter prediction markets on Powell's replacement\u2014Warsh's nomination (announced January by Trump) requires Senate Ban",
+      "direction": "NO",
+      "confidence": 0.9,
+      "matched_markets": [
+        "Will Trump agree to Iranian enrichment of uranium in April?",
+        "Will Powell say \"Successor\" during April press conference?"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "ECONOMICS"
+    },
+    {
+      "id": "sig_1776926300088_0",
+      "timestamp": "2026-04-23T06:38:20.088985+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
+      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results only contain general information about Polymarket's structure and some dated market snapshots (from April 9-22, 2026), but they do not include:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776926226588_0",
-      "timestamp": "2026-04-23T06:37:06.588853+00:00",
+      "id": "sig_1776926300090_1",
+      "timestamp": "2026-04-23T06:38:20.090856+00:00",
       "source": "PERPLEXITY",
-      "headline": "Raptors down 0-2 to Cavaliers in first-round playoffs; no advancement to conference semifinals; Game 3 tonight with rook",
-      "raw": "Raptors down 0-2 to Cavaliers in first-round playoffs; no advancement to conference semifinals; Game 3 tonight with rookie Ja'Kobe Walter questionable (illness) and no Lakers involvement confirmed | NO | HIGH confidence** [1][4][6]\n\nRaptors lost Game 1 (126-113) and Game 2 (115-105) to the No. 4 seed Cavaliers, facing elimination risk in Game 3 at home (Thu Apr 23, 8pm ET) where they are +2.5 unde",
-      "direction": "NO",
+      "headline": "Current social media posts from traders on X (Twitter)",
+      "raw": "Current social media posts from traders on X (Twitter)",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776926231323_0",
-      "timestamp": "2026-04-23T06:37:11.323271+00:00",
+      "id": "sig_1776926300092_2",
+      "timestamp": "2026-04-23T06:38:20.092746+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced markets reported i",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO whale bets, smart money moves, or mispriced markets reported in real-time X posts | LOW confidence**\n\nPolymarket's most active prediction markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-",
-      "direction": "NO",
+      "headline": "Active whale bets or smart money moves happening right now",
+      "raw": "Active whale bets or smart money moves happening right now",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776926300094_3",
+      "timestamp": "2026-04-23T06:38:20.094578+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Real-time analysis of mispriced markets",
+      "raw": "Real-time analysis of mispriced markets",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776926300096_4",
+      "timestamp": "2026-04-23T06:38:20.096440+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Recent breaking news or market-moving announcements",
+      "raw": "Recent breaking news or market-moving announcements",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776926300098_5",
+      "timestamp": "2026-04-23T06:38:20.098298+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Live trader sentiment or tips being shared",
+      "raw": "Live trader sentiment or tips being shared\n\nTo get this information, you would need to:",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -49,9 +100,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 3,
+    "enter": 1,
+    "alert": 6,
     "watch": 0,
-    "high_conf": 0
+    "high_conf": 1
   }
 }
