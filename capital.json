@@ -1,5 +1,5 @@
 {
-  "ts": 1776980745,
+  "ts": 1776980815,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999855
+    "usdc_usd": 0.999858
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.055,
-        "nav_usdc": 0.4488,
+        "cur_price": 0.0555,
+        "nav_usdc": 0.4529,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8486
+        "unrealized_pnl": -0.8445
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -188,10 +188,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.337,
-        "nav_usdc": 1.7019,
+        "cur_price": 0.3365,
+        "nav_usdc": 1.6993,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.0605
+        "unrealized_pnl": -0.0631
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.1545,
-        "nav_usdc": 0.7591,
+        "cur_price": 0.155,
+        "nav_usdc": 0.7616,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.2776
+        "unrealized_pnl": 0.2801
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.7234,
-    "total_usdc": 403.66,
-    "total_usd": 403.6014
+    "positions_nav_usdc": 316.7274,
+    "total_usdc": 403.664,
+    "total_usd": 403.6066
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776980746,
+    "ts": 1776980816,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776894346,
+      "window_start_ts": 1776894416,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776375946,
+      "window_start_ts": 1776376016,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774388746,
+      "window_start_ts": 1774388816,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.6014,
-    "total_usdc": 403.66
+    "total_usd": 403.6066,
+    "total_usdc": 403.664
   }
 }
