@@ -1,84 +1,59 @@
 {
-  "last_scan": "2026-04-23T01:05:45.625373+00:00",
-  "scan_seconds": 14.8,
+  "last_scan": "2026-04-23T01:06:57.699316+00:00",
+  "scan_seconds": 17.1,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776906344616_5",
-      "timestamp": "2026-04-23T01:05:44.616546+00:00",
+      "id": "sig_1776906409078_1",
+      "timestamp": "2026-04-23T01:06:49.078407+00:00",
       "source": "PERPLEXITY",
-      "headline": "Recently resolved or confirmed events",
-      "raw": "Recently resolved or confirmed events\n\nThe only specific market data included is that traders on Polymarket are assigning a 21% probability to Elon Musk tweeting 1,120-1,159 times in April 2026[4], but this is neither breaking news nor information about what traders are currently discussing.\n\nTo get the real-time information you're seeking, you would need to:",
-      "direction": null,
+      "headline": "Cavs Dominate Raptors in Game 1 with New Defensive Scheme Targeting Ingram | NO | MED confidence**",
+      "raw": "Cavs Dominate Raptors in Game 1 with New Defensive Scheme Targeting Ingram | NO | MED confidence**  \nCleveland Cavaliers won Game 1 over Toronto Raptors by implementing a targeted defense that limited Raptors' leading scorer Brandon Ingram, who averaged 20 shots per game against them in the regular season[5]. No series outcome or Game 2 result confirmed; matchup remains early in first round with p",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump name \"Elon\" or \"Musk\" in April?"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776906416686_4",
+      "timestamp": "2026-04-23T01:06:56.686322+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Breaking news that has just been announced or resolved",
+      "raw": "Breaking news that has just been announced or resolved",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906335122_0",
-      "timestamp": "2026-04-23T01:05:35.122506+00:00",
+      "id": "sig_1776906403924_0",
+      "timestamp": "2026-04-23T01:06:43.924790+00:00",
       "source": "PERPLEXITY",
-      "headline": "ETH Price Up on Apr 22 | YES | HIGH**",
-      "raw": "ETH Price Up on Apr 22 | YES | HIGH**  \nEthereum traded at $2,403.78 on April 22, 2026 (9:15 a.m. ET), up $98.74 (+4.3%) from April 21's $2,305.04, confirming short-term bullish momentum amid ongoing price tracking.[1][5] Bitcoin also rose to $78,194.37 (+3.0% from $75,901.41).[1][5] No new confirmations, announcements, or resolutions (e.g., Pectra upgrade still in testing as of Apr 18) directly t",
+      "headline": "ETH Nears Two-Month High on U",
+      "raw": "ETH Nears Two-Month High on U.S.-Iran Peace Optimism | YES | HIGH confidence**  \nBitcoin rose 5% to ~$75,000 and Ethereum jumped 7% to nearly $2,400 early Tuesday (April 14, 2026), driven by market bets on progressing U.S.-Iran peace talks reducing geopolitical risks.[2]  \nThis recent price surge aligns with Polymarket odds showing 59% probability for ETH at $2,300\u2013$2,400 on April 23, 2026, potent",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
+        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET",
+        "Will October be the best month for Bitcoin in 2026?"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "CRYPTO"
     },
     {
-      "id": "sig_1776906335124_1",
-      "timestamp": "2026-04-23T01:05:35.124763+00:00",
+      "id": "sig_1776906409075_0",
+      "timestamp": "2026-04-23T01:06:49.075934+00:00",
       "source": "PERPLEXITY",
-      "headline": "Pectra Upgrade Live in April | NO | HIGH**",
-      "raw": "Pectra Upgrade Live in April | NO | HIGH**  \nPectra (Prague-Electra) remains in final testing (latest Apr 18 update); no confirmation of April deployment or resolution impacting markets.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776906335126_2",
-      "timestamp": "2026-04-23T01:05:35.126734+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETH Hits $6K in April | NO | HIGH**",
-      "raw": "ETH Hits $6K in April | NO | HIGH**  \nNo evidence of $6K price; current levels ~$2,400 with older predictions targeting $2,100-$2,200.[1][2][4] YouTube title sensationalizes Apr 18 rally context.[2]",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776906335128_3",
-      "timestamp": "2026-04-23T01:05:35.128733+00:00",
-      "source": "PERPLEXITY",
-      "headline": "ETH Above Key April Levels (e",
-      "raw": "ETH Above Key April Levels (e.g., $2,340) | YES | MED**  \nApr 21 market at 12am EDT resolved above $2,340 (implied by pricing); Apr 22 price exceeds prior predictions/resistances like $2,034.[1][4][6] Confidence medium due to snapshot timing vs. current 1 AM UTC (late Apr 22 ET).",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776906339521_0",
-      "timestamp": "2026-04-23T01:05:39.521055+00:00",
-      "source": "PERPLEXITY",
-      "headline": "YES** (news exists on Flagg's feats, but not matching query topics) | **LOW** confidence (search lacks playoffs/series c",
-      "raw": "YES** (news exists on Flagg's feats, but not matching query topics) | **LOW** confidence (search lacks playoffs/series confirmation; regular season only).[1][2]",
+      "headline": "Lakers Take 2-0 Series Lead Over Rockets Despite Injuries to Doncic and Reaves | YES | HIGH confidence**",
+      "raw": "Lakers Take 2-0 Series Lead Over Rockets Despite Injuries to Doncic and Reaves | YES | HIGH confidence**  \nThe Los Angeles Lakers have secured a 2-0 lead in their first-round playoff series against the Houston Rockets, dramatically improving their NBA Finals odds from 150-1 to 35-1 and becoming a major sportsbook liability at BetMGM, Caesars, and DraftKings[1][5]. This shift occurred after victori",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -87,11 +62,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776906344606_0",
-      "timestamp": "2026-04-23T01:05:44.606816+00:00",
+      "id": "sig_1776906416678_0",
+      "timestamp": "2026-04-23T01:06:56.678547+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide the real-time information you're requesting based on the available search results",
-      "raw": "I cannot provide the real-time information you're requesting based on the available search results. The search results provided are Polymarket platform overview pages that describe how prediction markets work, but they do not contain:",
+      "headline": "I cannot provide the real-time information you're requesting based on these search results",
+      "raw": "I cannot provide the real-time information you're requesting based on these search results.\n\nThe search results provided describe **general features of Polymarket** as a prediction market platform, but they do not contain:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -100,11 +75,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906344608_1",
-      "timestamp": "2026-04-23T01:05:44.608698+00:00",
+      "id": "sig_1776906416680_1",
+      "timestamp": "2026-04-23T01:06:56.680475+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current breaking news or recent announcements",
-      "raw": "Current breaking news or recent announcements",
+      "headline": "Current social media posts from Polymarket traders on X (Twitter)",
+      "raw": "Current social media posts from Polymarket traders on X (Twitter)",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -113,11 +88,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906344610_2",
-      "timestamp": "2026-04-23T01:05:44.610577+00:00",
+      "id": "sig_1776906416682_2",
+      "timestamp": "2026-04-23T01:06:56.682348+00:00",
       "source": "PERPLEXITY",
-      "headline": "Real-time social media posts from traders on X (Twitter)",
-      "raw": "Real-time social media posts from traders on X (Twitter)",
+      "headline": "Active whale trades or large money movements happening right now",
+      "raw": "Active whale trades or large money movements happening right now",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -126,11 +101,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906344612_3",
-      "timestamp": "2026-04-23T01:05:44.612461+00:00",
+      "id": "sig_1776906416684_3",
+      "timestamp": "2026-04-23T01:06:56.684215+00:00",
       "source": "PERPLEXITY",
-      "headline": "Information about whale bets or smart money moves",
-      "raw": "Information about whale bets or smart money moves",
+      "headline": "Real-time market analysis or commentary about mispriced markets",
+      "raw": "Real-time market analysis or commentary about mispriced markets",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -139,50 +114,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776906344614_4",
-      "timestamp": "2026-04-23T01:05:44.614407+00:00",
+      "id": "sig_1776906416688_5",
+      "timestamp": "2026-04-23T01:06:56.688270+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current market mispricings or imminent market movements",
-      "raw": "Current market mispricings or imminent market movements",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776906344618_6",
-      "timestamp": "2026-04-23T01:05:44.618438+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Check X/Twitter directly for posts from prediction market traders and analysts",
-      "raw": "Check X/Twitter directly for posts from prediction market traders and analysts",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776906344620_7",
-      "timestamp": "2026-04-23T01:05:44.620320+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Monitor Polymarket's live markets interface in real-time",
-      "raw": "Monitor Polymarket's live markets interface in real-time",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776906344622_8",
-      "timestamp": "2026-04-23T01:05:44.622227+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Follow prediction market research accounts and newsletters that track whale activity and market movements",
-      "raw": "Follow prediction market research accounts and newsletters that track whale activity and market movements",
+      "headline": "Specific market movements or sentiment from traders",
+      "raw": "Specific market movements or sentiment from traders\n\nTo get this information, you would need to:",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -192,9 +128,9 @@
     }
   ],
   "stats": {
-    "enter": 0,
-    "alert": 14,
+    "enter": 1,
+    "alert": 8,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 2
   }
 }
