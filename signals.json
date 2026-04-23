@@ -1,45 +1,33 @@
 {
-  "last_scan": "2026-04-23T07:04:51.976900+00:00",
-  "scan_seconds": 21.1,
+  "last_scan": "2026-04-23T07:05:59.719400+00:00",
+  "scan_seconds": 19.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776927874981_0",
-      "timestamp": "2026-04-23T07:04:34.981140+00:00",
+      "id": "sig_1776927953944_0",
+      "timestamp": "2026-04-23T07:05:53.944097+00:00",
       "source": "PERPLEXITY",
-      "headline": "Polymarket Bitcoin October Price Market Locks in \u2191126k at 100% Probability | YES | HIGH confidence** [1]",
-      "raw": "Polymarket Bitcoin October Price Market Locks in \u2191126k at 100% Probability | YES | HIGH confidence** [1]\n\nPolymarket's \"What price will Bitcoin hit in October?\" prediction market, with over $43 million in volume, now shows **\u2191126k** as the sole frontrunner at 100% implied probability, followed closely by **\u2191124k** also at 100%, reflecting real-time trader consensus on Bitcoin reaching at least $12",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776927884850_0",
-      "timestamp": "2026-04-23T07:04:44.850142+00:00",
-      "source": "PERPLEXITY",
-      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain information about t",
-      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain information about the **conference semifinals**. The available results only cover a **first-round Eastern Conference series** between the Cavaliers and Raptors, with Game 3 scheduled for Thursday (today).[1][2]\n\nThe most recent confirmed information is that the **Cavaliers lead the series 2-0** aft",
-      "direction": null,
-      "confidence": 0.9,
+      "headline": "Cavaliers' Donovan Mitchell to undergo MRI for ankle injury sustained in Eastern Conference Semifinals Game 4 vs",
+      "raw": "Cavaliers' Donovan Mitchell to undergo MRI for ankle injury sustained in Eastern Conference Semifinals Game 4 vs. Pacers | NO (injury hurts Cavs series odds) | HIGH confidence**[1]  \n\nThis breaking injury report from Game 4 introduces uncertainty to **Cavaliers**' series prediction markets, as Mitchell\u2014a key star alongside players like Evan Mobley and James Harden\u2014requires imaging after an ankle i",
+      "direction": "NO",
+      "confidence": 0.78,
       "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Donovan Mitchell: Points O/U 27.5"
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
       ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776927890958_0",
-      "timestamp": "2026-04-23T07:04:50.958139+00:00",
+      "id": "sig_1776927958710_0",
+      "timestamp": "2026-04-23T07:05:58.710355+00:00",
       "source": "PERPLEXITY",
-      "headline": "I cannot provide real-time breaking news about what Polymarket traders are currently posting on X or identify specific w",
-      "raw": "I cannot provide real-time breaking news about what Polymarket traders are currently posting on X or identify specific whale bets and smart money moves, as the search results do not contain this information.\n\nThe search results provide general information about Polymarket's platform and structure\u2014such as how prediction markets work, available market categories, and historical snapshots from April ",
-      "direction": null,
+      "headline": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | NO | HIGH**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS DOMINATE POLYMARKET TRENDING | NO | HIGH**  \nPolymarket's most active markets focus on **Elon Musk tweet predictions**, such as \"# tweets in April 2026\" (1120-1159 at 24% chance) and \"Elon Musk # tweets April 17-24, 2026?\" (similar ranges at 22%), with over $21M+ in volume across 130+ live tweet markets[3][4].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -47,12 +35,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776927890960_1",
-      "timestamp": "2026-04-23T07:04:50.960069+00:00",
+      "id": "sig_1776927958713_1",
+      "timestamp": "2026-04-23T07:05:58.713870+00:00",
       "source": "PERPLEXITY",
-      "headline": "Current social media discussions or posts from traders on X",
-      "raw": "Current social media discussions or posts from traders on X",
-      "direction": null,
+      "headline": "Trending tweet markets** like \"Will Kanye tweet again by April 30",
+      "raw": "Trending tweet markets** like \"Will Kanye tweet again by April 30?\" and pop culture tweet odds (e.g., 220-239 tweets at 41%) lead activity, reflecting real-time trader sentiment on X-related events[2][3].  \nNo whale bets, smart money moves, mispriced markets, or recent confirmations/announcements noted in current data; search results from April 9-22, 2026, show no X posts or resolutions impacting ",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -60,50 +48,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776927890962_2",
-      "timestamp": "2026-04-23T07:04:50.962028+00:00",
+      "id": "sig_1776927958716_2",
+      "timestamp": "2026-04-23T07:05:58.716275+00:00",
       "source": "PERPLEXITY",
-      "headline": "Active whale bets or large positions being placed right now",
-      "raw": "Active whale bets or large positions being placed right now",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927890963_3",
-      "timestamp": "2026-04-23T07:04:50.963901+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Real-time market sentiment or which predictions traders believe are mispriced",
-      "raw": "Real-time market sentiment or which predictions traders believe are mispriced",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927890965_4",
-      "timestamp": "2026-04-23T07:04:50.965919+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Recent breaking news that would move markets",
-      "raw": "Recent breaking news that would move markets",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776927890967_5",
-      "timestamp": "2026-04-23T07:04:50.967813+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Newly resolved markets",
-      "raw": "Newly resolved markets\n\nTo get this information, you would need to:",
+      "headline": "Other trending**: Nasdaq 24/7 trading by June 30 and general pop culture/mentions markets (e",
+      "raw": "Other trending**: Nasdaq 24/7 trading by June 30 and general pop culture/mentions markets (e.g., CS IEM Rio phrases), but tweet markets have highest volume[1][5].",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
@@ -114,8 +63,8 @@
   ],
   "stats": {
     "enter": 0,
-    "alert": 8,
+    "alert": 4,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 0
   }
 }
