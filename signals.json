@@ -1,16 +1,48 @@
 {
-  "last_scan": "2026-04-23T00:03:04.622843+00:00",
-  "scan_seconds": 44.0,
+  "last_scan": "2026-04-23T00:04:04.488849+00:00",
+  "scan_seconds": 38.9,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776902548505_0",
-      "timestamp": "2026-04-23T00:02:28.505184+00:00",
+      "id": "sig_1776902617859_0",
+      "timestamp": "2026-04-23T00:03:37.859377+00:00",
       "source": "PERPLEXITY",
-      "headline": "Lakers Take 2-0 Series Lead Over Rockets in Playoffs** | YES | HIGH confidence[3][4]",
-      "raw": "Lakers Take 2-0 Series Lead Over Rockets in Playoffs** | YES | HIGH confidence[3][4]  \nLakers defeated Houston 101-94 in Game 2, leading 2-0 after Game 1 win (107-98); vaults title odds from 150-1 to 35-1 amid injuries to Luka Doncic and Austin Reaves[2][3]. Game 3 Friday in Houston[3].",
+      "headline": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 1 win over Heat; series prediction shifts toward CL",
+      "raw": "Cavaliers advance to Eastern Conference Semifinals after 138-83 Game 1 win over Heat; series prediction shifts toward CLE in 5 or fewer.** | **YES** | **HIGH** confidence[1]\n\nCleveland Cavaliers dominated Miami Heat 138-83 in Game 1 of their first-round playoff series, confirming a commanding 1-0 lead with the largest margin in the matchup[1]. No Game 2 result confirmed yet, positioning Cavaliers ",
       "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs",
+        "Will Detroit Pistons advance to the Conference Semifinals in the 2026 NBA Playof"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776902617861_1",
+      "timestamp": "2026-04-23T00:03:37.861575+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Lakers lead Rockets 2-0 in Western Semifinals after Game 2 win; series prediction favors LAL",
+      "raw": "Lakers lead Rockets 2-0 in Western Semifinals after Game 2 win; series prediction favors LAL.** | **YES** | **MED** confidence[1]\n\nLos Angeles Lakers hold a 2-0 series lead over Houston Rockets in Western Conference Semifinals (Game 3 scheduled Apr 24), with LAL as -9.5 road favorites next, strengthening market predictions for Lakers advancement[1]. Cavaliers remain unconfirmed for semifinals in E",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776902617864_2",
+      "timestamp": "2026-04-23T00:03:37.864129+00:00",
+      "source": "PERPLEXITY",
+      "headline": "No other Cavaliers/semifinals resolutions; 76ers-Celtics Game 2 imminent with Embiid out",
+      "raw": "No other Cavaliers/semifinals resolutions; 76ers-Celtics Game 2 imminent with Embiid out.** | **NO** | **HIGH** confidence[2]\n\nPhiladelphia 76ers trail Boston Celtics (Eastern #2) with Joel Embiid ruled out for Game 2 (Celtics -14.5 favorites, tipoff ~7 PM ET), but no final score or series shift confirmed yet[2]. No breaking injuries or announcements for Cavaliers; Wembanyama's Spurs concussion (W",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -18,26 +50,11 @@
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776902548507_1",
-      "timestamp": "2026-04-23T00:02:28.507403+00:00",
+      "id": "sig_1776902622294_0",
+      "timestamp": "2026-04-23T00:03:42.294345+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Lead Raptors 2-0 in East First Round** | NO | HIGH confidence[1][3]",
-      "raw": "Cavaliers Lead Raptors 2-0 in East First Round** | NO | HIGH confidence[1][3]  \nCleveland won Game 2 (115-105) after Game 1 (126-113), targeting Raptors' Brandon Ingram defensively; Raptors coach Darko backs Jakob Poeltl for Game 3 tonight in Toronto[1][3][4]. No conference semifinals yet (first round ongoing)[3].",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776902553652_0",
-      "timestamp": "2026-04-23T00:02:33.652349+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Traders on X Focus on Tweet Count Markets Amid High Trading Volume** | NO | LOW confidence",
-      "raw": "Polymarket Traders on X Focus on Tweet Count Markets Amid High Trading Volume** | NO | LOW confidence\n\nPolymarket's trending markets emphasize tweet predictions, particularly **Elon Musk's tweet volumes**, with over $20M+ in volume across related categories like \"Elon Musk # tweets April 17 - April 24, 2026?\" (38% implied probability for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (20-2",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | LO",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Trending on Polymarket | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets focus on **Elon Musk tweet predictions**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (trading at 38% for certain ranges) and \"Elon Musk # tweets in April 2026?\" (21% chance for 1120-1159 range, with over $20.8M volum",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
@@ -48,39 +65,37 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776902584612_0",
-      "timestamp": "2026-04-23T00:03:04.612503+00:00",
+      "id": "sig_1776902644478_0",
+      "timestamp": "2026-04-23T00:04:04.478241+00:00",
       "source": "X_GROK",
-      "headline": "NBA: Pistons vs Magic**",
-      "raw": "NBA: Pistons vs Magic**  \nWhale conviction: $747K+ on Pistons ML (-333) at 77\u00a2 entry; additional $35K at 81\u00a2.[[1]](https://x.com/i/status/2047103421933666478)[[2]](https://x.com/i/status/2047094476821115285)  \nYES (Pistons win), HIGH (multi-whale volume).",
-      "direction": "YES",
+      "headline": "Whale Alerts & Smart Money on Polymarket (Apr 23, 2026):**",
+      "raw": "Whale Alerts & Smart Money on Polymarket (Apr 23, 2026):**",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
-      ],
+      "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047103421933666478)[[2]](https://x.com/i/status/2047094476821115285)",
+      "x_link": null,
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776902584614_1",
-      "timestamp": "2026-04-23T00:03:04.614457+00:00",
+      "id": "sig_1776902644480_1",
+      "timestamp": "2026-04-23T00:04:04.480215+00:00",
       "source": "X_GROK",
-      "headline": "NBA: Suns vs Thunder Spread**",
-      "raw": "NBA: Suns vs Thunder Spread**  \nWhales: $200K+ on Thunder -16.5 at 51\u00a2; $103K bet.[[3]](https://x.com/i/status/2047097010533138630)[[4]](https://x.com/i/status/2047096258427310318)  \nYES (Thunder covers), MED (recent bets, game imminent).",
+      "headline": "**US-Iran diplomatic meeting by Apr 23",
+      "raw": "**US-Iran diplomatic meeting by Apr 23?** Heavy sell pressure drops odds to 2% ($501k vol); whales dumping YES \u2192 bet NO. HIGH conf.[[1]](https://x.com/i/status/2047103918250004595)[[2]](https://x.com/i/status/2047103178231906808)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047097010533138630)[[4]](https://x.com/i/status/2047096258427310318)",
+      "x_link": "https://x.com/i/status/2047103918250004595)[[2]](https://x.com/i/status/2047103178231906808)",
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776902584616_2",
-      "timestamp": "2026-04-23T00:03:04.616426+00:00",
+      "id": "sig_1776902644482_2",
+      "timestamp": "2026-04-23T00:04:04.482224+00:00",
       "source": "X_GROK",
-      "headline": "US Invade Iran before 2027",
-      "raw": "US Invade Iran before 2027?**  \n12 top sharps (millions PNL) positioned NO vs crowd 30% YES ($16M vol).[[5]](https://x.com/i/status/2047103811001700651)  \nNO, HIGH (sharp consensus).",
+      "headline": "**US invade Iran before 2027",
+      "raw": "**US invade Iran before 2027?** 12 top traders (millions PNL) heavy on NO despite 30% YES crowd ($16M vol) \u2192 bet NO. HIGH conf.[[3]](https://x.com/i/status/2047103811001700651)",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -89,24 +104,11 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776902584618_3",
-      "timestamp": "2026-04-23T00:03:04.618330+00:00",
+      "id": "sig_1776902644484_3",
+      "timestamp": "2026-04-23T00:04:04.484165+00:00",
       "source": "X_GROK",
-      "headline": "US-Iran Diplomatic Meeting by Apr 25",
-      "raw": "US-Iran Diplomatic Meeting by Apr 25?**  \nNew whale $11.7K NO at 88\u00a2.[[6]](https://x.com/i/status/2047103178231906808)  \nNO, MED (fresh whale).",
-      "direction": "NO",
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047103178231906808)",
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776902584620_4",
-      "timestamp": "2026-04-23T00:03:04.620199+00:00",
-      "source": "X_GROK",
-      "headline": "BTC Dip to $70K in April",
-      "raw": "BTC Dip to $70K in April?**  \nWhale $7.7K NO at 91\u00a2.[[7]](https://x.com/i/status/2047103183030272373)  \nNO, LOW (single whale, month-end).",
+      "headline": "**BTC dip to $70k in April",
+      "raw": "**BTC dip to $70k in April?** $7.7k whale buys NO @91\u00a2 \u2192 bet NO. MED conf.[[4]](https://x.com/i/status/2047103183030272373)",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
@@ -115,22 +117,37 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776902584622_5",
-      "timestamp": "2026-04-23T00:03:04.622246+00:00",
+      "id": "sig_1776902644486_4",
+      "timestamp": "2026-04-23T00:04:04.486173+00:00",
       "source": "X_GROK",
-      "headline": "Trending tips:** Weather markets mispriced (quiet traders +200-6400% ROIs via hourly forecast edges); copy via low-laten",
-      "raw": "Trending tips:** Weather markets mispriced (quiet traders +200-6400% ROIs via hourly forecast edges); copy via low-latency bots.[[8]](https://x.com/i/status/2047056927570751659)[[9]](https://x.com/i/status/2046539072244482416) Sports/politics arb ops; perps launch hype (leverage incoming).[[10]](https://x.com/i/status/2046952916158746865)",
+      "headline": "**NBA Magic vs Pistons (Apr 22):** $747k whales on Pistons win @77\u00a2 \u2192 bet YES Pistons",
+      "raw": "**NBA Magic vs Pistons (Apr 22):** $747k whales on Pistons win @77\u00a2 \u2192 bet YES Pistons. HIGH conf.[[5]](https://x.com/i/status/2047103421933666478)",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic "
+      ],
+      "action": "ALERT",
+      "x_link": "https://x.com/i/status/2047103421933666478)",
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776902644488_5",
+      "timestamp": "2026-04-23T00:04:04.488221+00:00",
+      "source": "X_GROK",
+      "headline": "Trending Tips:** Track whale clusters (5+ sharp wallets), CLV vs composites (Pinnacle/Betfair), arb mispricings in polit",
+      "raw": "Trending Tips:** Track whale clusters (5+ sharp wallets), CLV vs composites (Pinnacle/Betfair), arb mispricings in politics/crypto (8%+ edges); SPY weeklies undervalued.[[6]](https://x.com/i/status/2046156150341787861)[[7]](https://x.com/i/status/2046257587130187884) Retail chases hype\u2014smart money exploits panic/timing.[[8]](https://x.com/i/status/2046638266800054699)",
       "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": "https://x.com/i/status/2047056927570751659)[[9]](https://x.com/i/status/2046539072244482416)",
+      "x_link": "https://x.com/i/status/2046156150341787861)[[7]](https://x.com/i/status/2046257587130187884)",
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 0,
-    "alert": 9,
+    "alert": 10,
     "watch": 0,
     "high_conf": 0
   }
