@@ -1,44 +1,16 @@
 {
-  "last_scan": "2026-04-23T05:46:52.185890+00:00",
-  "scan_seconds": 16.6,
+  "last_scan": "2026-04-23T05:48:00.026972+00:00",
+  "scan_seconds": 19.2,
   "markets_scanned": 51,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776923198705_1",
-      "timestamp": "2026-04-23T05:46:38.705770+00:00",
+      "id": "sig_1776923279023_3",
+      "timestamp": "2026-04-23T05:47:59.023391+00:00",
       "source": "PERPLEXITY",
-      "headline": "No October Ethereum Upside Confirmation | NO | MED confidence**",
-      "raw": "No October Ethereum Upside Confirmation | NO | MED confidence**  \nPredictions forecast ETH at ~$3,284 by end-2026 (up from ~$2,370), but no specific October triggers or \"up\" resolutions confirmed; long-term bullishness noted without fresh news[1][4].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Ethereum Up or Down - April 23, 2:30AM-2:35AM ET"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776923198703_0",
-      "timestamp": "2026-04-23T05:46:38.703830+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Ethereum Throughput Milestone Confirmed | YES | HIGH confidence**",
-      "raw": "Ethereum Throughput Milestone Confirmed | YES | HIGH confidence**  \nEthereum's ecosystem hit a peak throughput of ~75,862 transactions per second, driven by MegaETH, Lighter, Arbitrum, Base, and Polygon PoS, as reported recently by growthepie and Joseph Young[4]. This boosts network utility and DeFi adoption potential, a key price driver amid ETH's 50% surge in the past week[3].",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776923211184_0",
-      "timestamp": "2026-04-23T05:46:51.184251+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**",
-      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | YES | HIGH confidence**  \nPolymarket's most active markets focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 range) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% in related markets), with over $21M+ in trading volume across 20-130 live tweet prediction ",
-      "direction": "YES",
+      "headline": "No Breaking Confirmations or Resolutions | NO | HIGH confidence**",
+      "raw": "No Breaking Confirmations or Resolutions | NO | HIGH confidence**  \nSearch results lack any just-confirmed announcements, resolutions, or events (e.g., no Kanye tweet updates or SCOTUS decisions) impacting markets; all data is promotional snapshots from April 9-22, not real-time X chatter at 5 AM UTC.[1][2][3]",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
@@ -46,42 +18,79 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776923202408_0",
-      "timestamp": "2026-04-23T05:46:42.408803+00:00",
+      "id": "sig_1776923266078_0",
+      "timestamp": "2026-04-23T05:47:46.078167+00:00",
       "source": "PERPLEXITY",
-      "headline": "HEADLINE | NO | HIGH confidence**",
-      "raw": "HEADLINE | NO | HIGH confidence**  \nPowell's chair term ends May 15, 2026; he plans to stay as governor until DOJ probe resolves, per March FOMC statement\u2014probe remains unresolved, with Tillis conditioning Warsh support on its dismissal.[2] Prediction markets (as of April 14) show 62% chance Powell leaves Board this year, but no updates post-April 21 hearing or May 6 Treasury decisions.[1][2] Trum",
-      "direction": "NO",
+      "headline": "LOW confidence** due to absence of time-sensitive breaking alerts in results",
+      "raw": "LOW confidence** due to absence of time-sensitive breaking alerts in results.[1][2]",
+      "direction": null,
       "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776923206833_0",
-      "timestamp": "2026-04-23T05:46:46.833140+00:00",
+      "id": "sig_1776923279017_0",
+      "timestamp": "2026-04-23T05:47:59.017707+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers take 2-0 series lead over Raptors after Game 2 win; Raptors' Ja'Kobe Walter questionable for Game 3 | YES (Cav",
-      "raw": "Cavaliers take 2-0 series lead over Raptors after Game 2 win; Raptors' Ja'Kobe Walter questionable for Game 3 | YES (Cavs favored to win series) | HIGH confidence** [2][3]\n\nThe Cavaliers defeated the Raptors 115-105 in Game 2 on Monday, with Donovan Mitchell (30 pts), James Harden (28 pts), and Evan Mobley (25 pts) combining for 83 points to secure a commanding series lead\u2014never trailing and exten",
-      "direction": "YES",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume** in April 2026, including \"Elon Musk # tweets April 17 - April 24, 2026?\" and \"Elon Musk musk # tweets in April 2026?\", with the 1120-1159 tweet range priced at **22-24%** odds and over **$21.5M-$21.7M** in trading volume across 20-130 rela",
+      "direction": "NO",
       "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Donovan Mitchell: Points O/U 27.5"
-      ],
+      "matched_markets": [],
       "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776923279019_1",
+      "timestamp": "2026-04-23T05:47:59.019534+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Polymarket Categories on X | NO whale bets or tips confirmed | MED confidence**",
+      "raw": "Trending Polymarket Categories on X | NO whale bets or tips confirmed | MED confidence**",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776923279021_2",
+      "timestamp": "2026-04-23T05:47:59.021516+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets** (168 live as of April 22) like \"Nasdaq round-the-clock trading by June 30",
+      "raw": "Trending Markets** (168 live as of April 22) like \"Nasdaq round-the-clock trading by June 30?\" show **$3.3M** volume, but no X posts in results detail whale moves, smart money, mispriced odds, or imminent shifts.[1] XTracker tool exists for social analytics, and a Binance post hypes a Polymarket analytics tool revealing top traders' strategies, implying potential tips but without specifics on curr",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776923274662_0",
+      "timestamp": "2026-04-23T05:47:54.662387+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Cooper Flagg's Rookie Season Ends with Ankle Injury in Mavericks' Finale vs",
+      "raw": "Cooper Flagg's Rookie Season Ends with Ankle Injury in Mavericks' Finale vs. Bulls | NO** | **MED** confidence\n\nNo breaking news RIGHT NOW (as of April 23, 2026) confirms Lakers advancing to conference semifinals, facing Raptors, or involving rookie Cooper Flagg; his standout Dallas Mavericks rookie campaign concluded on April 12-13 with a confirmed ankle sprain that ruled him out for the season f",
+      "direction": "NO",
+      "confidence": 0.6,
+      "matched_markets": [
+        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "WATCH",
       "x_link": null,
       "category": "SPORTS"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 4,
-    "watch": 0,
-    "high_conf": 3
+    "enter": 0,
+    "alert": 5,
+    "watch": 1,
+    "high_conf": 1
   }
 }
