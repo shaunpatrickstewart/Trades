@@ -1,124 +1,97 @@
 {
-  "last_scan": "2026-04-23T08:27:36.720109+00:00",
-  "scan_seconds": 15.9,
+  "last_scan": "2026-04-23T08:28:49.190778+00:00",
+  "scan_seconds": 18.1,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776932846682_0",
-      "timestamp": "2026-04-23T08:27:26.682186+00:00",
+      "id": "sig_1776932924028_0",
+      "timestamp": "2026-04-23T08:28:44.028917+00:00",
       "source": "PERPLEXITY",
-      "headline": "Jerome Powell Confirms He Will Remain Fed Chair Until Successor Confirmed** | **YES** | **HIGH** confidence",
-      "raw": "Jerome Powell Confirms He Will Remain Fed Chair Until Successor Confirmed** | **YES** | **HIGH** confidence\n\nPowell stated he would serve as **chair pro tem** if his successor is not confirmed by the end of his term in May 2026, as required by law, amid ongoing scrutiny and a criminal investigation into the Fed.[1][3] This follows President Trump's nomination of Kevin Warsh as successor, who is no",
-      "direction": "YES",
+      "headline": "I cannot provide the breaking news you've requested because the search results do not contain information about a Raptor",
+      "raw": "I cannot provide the breaking news you've requested because the search results do not contain information about a Raptors-Lakers conference semifinals matchup or any related market-moving announcements.\n\nThe available search results indicate the Raptors are currently in a **first-round playoff series against the Cleveland Cavaliers** (down 0-2 as of the most recent reports), not facing the Lakers ",
+      "direction": "NO",
       "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776932918390_0",
+      "timestamp": "2026-04-23T08:28:38.390746+00:00",
+      "source": "PERPLEXITY",
+      "headline": "LOW confidence** due to lack of breaking updates post-April 21 hearing; no evidence of confirmation, probe resolution, o",
+      "raw": "LOW confidence** due to lack of breaking updates post-April 21 hearing; no evidence of confirmation, probe resolution, or Powell exit that would shift prediction markets like CME Fed Funds futures (pricing ~70% unchanged rates through 2026).[2]",
+      "direction": "NO",
+      "confidence": 0.65,
       "matched_markets": [
         "Will Powell say \"Successor\" during April press conference?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776932855709_0",
-      "timestamp": "2026-04-23T08:27:35.709191+00:00",
+      "id": "sig_1776932924030_1",
+      "timestamp": "2026-04-23T08:28:44.030768+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Ends by Dec 31 at 100% YES | YES | HIGH confidence**  \nPolymarket's X predictions show this market at 100% YES probability with $11.4K liquidity and strong trader conviction, topping activity as the most prominent real-time sentiment indicator.[2]",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776932843106_0",
-      "timestamp": "2026-04-23T08:27:23.106703+00:00",
-      "source": "PERPLEXITY",
-      "headline": "NO** | **LOW** confidence (speculative analyst models, no market-moving events confirmed; current BTC price ~$78k with s",
-      "raw": "NO** | **LOW** confidence (speculative analyst models, no market-moving events confirmed; current BTC price ~$78k with short-term bullish signals amid volatility).[1][2]",
-      "direction": "NO",
+      "headline": "Current playoff bracket information showing a Raptors-Lakers conference semifinal",
+      "raw": "Current playoff bracket information showing a Raptors-Lakers conference semifinal",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776932851142_0",
-      "timestamp": "2026-04-23T08:27:31.142154+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first-round playoffs** | **YES**",
-      "raw": "Cavaliers defeat Raptors 115-105 in Game 2, take 2-0 series lead in Eastern Conference first-round playoffs** | **YES** | **HIGH** confidence[1][2][3][4][5][6]\n\nThe Cleveland Cavaliers, seeded No. 4, won wire-to-wire on Monday night behind **Donovan Mitchell (30 points)**, **James Harden (28 points, 5 rebounds, 4 assists)**, and **Evan Mobley (25 points on 11-of-13 shooting)**, combining for 83 po",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776932855711_1",
-      "timestamp": "2026-04-23T08:27:35.711162+00:00",
+      "id": "sig_1776932924032_2",
+      "timestamp": "2026-04-23T08:28:44.032707+00:00",
       "source": "PERPLEXITY",
-      "headline": "GTA VI Released Before June 2026 at 1% YES | NO | HIGH confidence**",
-      "raw": "GTA VI Released Before June 2026 at 1% YES | NO | HIGH confidence**  \nNews Stories markets highlight this at 1% YES amid $14M volume, signaling traders' low expectations for an imminent release.[5]",
-      "direction": "YES",
+      "headline": "Recent announcements or confirmations about series outcomes or roster moves",
+      "raw": "Recent announcements or confirmations about series outcomes or roster moves",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776932855713_2",
-      "timestamp": "2026-04-23T08:27:35.713126+00:00",
+      "id": "sig_1776932924034_3",
+      "timestamp": "2026-04-23T08:28:44.034653+00:00",
       "source": "PERPLEXITY",
-      "headline": "\ud835\udd4f Money Launched by April 30 at 14% YES | NO | MED confidence**",
-      "raw": "\ud835\udd4f Money Launched by April 30 at 14% YES | NO | MED confidence**  \nX-specific market trades at 14% YES with $33.7K volume, reflecting limited optimism for a near-term Elon Musk/X launch.[2]",
-      "direction": "YES",
+      "headline": "Market-relevant developments from today",
+      "raw": "Market-relevant developments from today\n\nIf you're looking for current playoff updates or Lakers-Raptors related news, please provide more recent search results, or clarify which specific announcement you're asking about.",
+      "direction": null,
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776932855717_4",
-      "timestamp": "2026-04-23T08:27:35.717104+00:00",
+      "id": "sig_1776932928187_0",
+      "timestamp": "2026-04-23T08:28:48.187769+00:00",
       "source": "PERPLEXITY",
-      "headline": "Nasdaq Round-the-Clock Trading by June 30 at Undisclosed Odds | NO CLEAR BETS | LOW confidence**",
-      "raw": "Nasdaq Round-the-Clock Trading by June 30 at Undisclosed Odds | NO CLEAR BETS | LOW confidence**  \nTrending Markets mention this as an example with overall $3.3M volume category-wide, but no specific whale moves or X posts detailed.[1]",
+      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trending Activity | NO whale bets or confirmed announcements re",
+      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trending Activity | NO whale bets or confirmed announcements reported | LOW confidence**\n\nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets in April 2026?\" (22-24% odds for 1120-1159 tweets) and related bins like \"Elon Musk # tweets April 17 - April 24, 2026?\", with over $21.5M-$2",
       "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776932855715_3",
-      "timestamp": "2026-04-23T08:27:35.715118+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Elon Musk # Tweets April 17-24, 2026 at 40% for 220-239 Range | MIXED | MED confidence**",
-      "raw": "Elon Musk # Tweets April 17-24, 2026 at 40% for 220-239 Range | MIXED | MED confidence**  \nTweet Markets show 40% odds for this range with high $7M volume across Elon Musk tweet counts, indicating active trader focus on his posting patterns.[3][4]",
-      "direction": null,
-      "confidence": 0.6,
-      "matched_markets": [],
-      "action": "WATCH",
       "x_link": null,
       "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
-    "alert": 6,
-    "watch": 1,
+    "alert": 5,
+    "watch": 0,
     "high_conf": 1
   }
 }
