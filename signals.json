@@ -1,15 +1,15 @@
 {
-  "last_scan": "2026-04-23T08:42:51.863741+00:00",
-  "scan_seconds": 21.2,
+  "last_scan": "2026-04-23T08:44:00.582602+00:00",
+  "scan_seconds": 20.0,
   "markets_scanned": 52,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776933761139_0",
-      "timestamp": "2026-04-23T08:42:41.139977+00:00",
+      "id": "sig_1776933827268_0",
+      "timestamp": "2026-04-23T08:43:47.268486+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is no breaking news from today (April 23, 2026) about Powell or his successo",
-      "raw": "Based on the search results provided, there is no breaking news from today (April 23, 2026) about Powell or his successor. The most recent information in the search results is from **April 14, 2026**, which reported that prediction markets indicated a 62% likelihood that Powell would depart the Board of Governors in 2026.[2]\n\nThe search results reference Kevin Warsh's **nomination hearing schedule",
+      "headline": "NO recent confirmation, announcement, or resolution on Powell's successor (Kevin Warsh) as of April 23, 2026",
+      "raw": "NO recent confirmation, announcement, or resolution on Powell's successor (Kevin Warsh) as of April 23, 2026.**  \nPowell's chair term ends May 15, 2026; he stated in March 2026 he will serve as chair pro tem until a successor is confirmed and stay on the Board of Governors until a DOJ criminal probe into Fed renovations resolves[1][2][3]. Warsh's nomination hearing occurred April 21, but no confir",
       "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
@@ -20,84 +20,97 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776933765284_0",
-      "timestamp": "2026-04-23T08:42:45.284392+00:00",
+      "id": "sig_1776933834419_2",
+      "timestamp": "2026-04-23T08:43:54.419552+00:00",
       "source": "PERPLEXITY",
-      "headline": "Mavericks Rookie Cooper Flagg Makes NBA History with 51 Points in Loss to Magic** | NO | HIGH confidence",
-      "raw": "Mavericks Rookie Cooper Flagg Makes NBA History with 51 Points in Loss to Magic** | NO | HIGH confidence\n\nNo breaking news on playoffs, conference semifinals, or series outcomes has been confirmed, announced, or resolved as of now\u2014Flagg's record-breaking 51-point game (first teen to reach 50+ in NBA history) occurred Friday in a regular-season loss (138-127), boosting his Rookie of the Year case a",
+      "headline": "**No market-moving announcements today**: The search results do not contain any breaking news, confirmed announcements,",
+      "raw": "**No market-moving announcements today**: The search results do not contain any breaking news, confirmed announcements, or resolved outcomes from April 23, 2026.",
       "direction": "NO",
       "confidence": 0.9,
-      "matched_markets": [
-        "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla"
-      ],
-      "action": "ENTER",
+      "matched_markets": [],
+      "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776933756179_0",
-      "timestamp": "2026-04-23T08:42:36.179051+00:00",
+      "id": "sig_1776933834421_3",
+      "timestamp": "2026-04-23T08:43:54.421547+00:00",
       "source": "PERPLEXITY",
-      "headline": "Based on the search results provided, there is **no breaking news or recent announcements** that would move prediction m",
-      "raw": "Based on the search results provided, there is **no breaking news or recent announcements** that would move prediction markets. The most recent data points are from April 14-22, 2026, and show routine price movements rather than confirmed announcements or resolved events.\n\nThe search results contain:",
+      "headline": "**Luka Doncic unavailable**: The Lakers are proceeding without Doncic (hamstring) and Austin Reaves (oblique) in their c",
+      "raw": "**Luka Doncic unavailable**: The Lakers are proceeding without Doncic (hamstring) and Austin Reaves (oblique) in their current series[3], which is critical context for any series prediction but doesn't address your specific query.\n\nTo receive the headline format you've requested, you would need search results containing today's actual breaking news about playoff developments, series outcomes, or c",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776933839577_1",
+      "timestamp": "2026-04-23T08:43:59.577376+00:00",
+      "source": "PERPLEXITY",
+      "headline": "TWEET & POP CULTURE MARKETS BUZZING | YES | MED**",
+      "raw": "TWEET & POP CULTURE MARKETS BUZZING | YES | MED**  \nActive discussions implied in **tweet prediction markets** like \"Will Kanye tweet again by April 30?\" and pop culture odds (e.g., priced 0\u00a2-100\u00a2 per outcome), part of 160+ trending markets with $3.3M volume, but no breaking X chatter on whales or tips confirmed[1][2][3].",
+      "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776933823727_0",
+      "timestamp": "2026-04-23T08:43:43.727381+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Bitcoin and Ethereum Break Out of October Descending Channels | YES | HIGH confidence**",
+      "raw": "Bitcoin and Ethereum Break Out of October Descending Channels | YES | HIGH confidence**  \nBitcoin has surged to $79,000, breaking above its $75,000 pivot and out of its main October bear channel on April 22, 2026, signaling bull dominance.[1]  \nEthereum has consistently rebounded, officially breaking its descending channel and key resistances like $2,201\u2013$2,300, with bulls targeting $2,450 confirm",
+      "direction": "YES",
+      "confidence": 0.65,
+      "matched_markets": [
+        "Ethereum Up or Down - April 23, 4:30AM-4:45AM ET"
+      ],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776933834415_0",
+      "timestamp": "2026-04-23T08:43:54.415643+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Based on the search results provided, I cannot deliver the breaking news format you've requested because the available i",
+      "raw": "Based on the search results provided, I cannot deliver the breaking news format you've requested because the available information does not contain recent developments that would move prediction markets today.\n\nThe search results show that the **Lakers are currently in the first round of the 2026 playoffs against the Houston Rockets**, leading the series 2-0[3]. The Cavaliers are not mentioned as ",
       "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933756185_3",
-      "timestamp": "2026-04-23T08:42:36.185352+00:00",
-      "source": "PERPLEXITY",
-      "headline": "**Algorithmic price predictions** from CoinCodex (last updated April 22, 2026)[4]",
-      "raw": "**Algorithmic price predictions** from CoinCodex (last updated April 22, 2026)[4]\n\nNone of these constitute breaking news about confirmed announcements, resolutions, or events that would significantly move prediction markets. The results reflect ongoing market analysis and forecasting rather than new developments.\n\nIf you're looking for specific breaking news about Ethereum, Bitcoin, or regulatory",
-      "direction": null,
-      "confidence": 0.9,
+      "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 23, 4:30AM-4:45AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776933756181_1",
-      "timestamp": "2026-04-23T08:42:36.181319+00:00",
+      "id": "sig_1776933834417_1",
+      "timestamp": "2026-04-23T08:43:54.417598+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Price updates** from April 14, 2026 showing Ethereum at $2,370",
-      "raw": "**Price updates** from April 14, 2026 showing Ethereum at $2,370.04[1]",
-      "direction": null,
+      "headline": "**No current playoffs matchup between Lakers and Cavaliers**: The search results only confirm Lakers vs",
+      "raw": "**No current playoffs matchup between Lakers and Cavaliers**: The search results only confirm Lakers vs. Rockets in the first round, with no indication the Cavaliers are advancing to face the Lakers[3][5].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [
-        "Ethereum Up or Down - April 23, 4:30AM-4:45AM ET"
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers "
       ],
       "action": "ALERT",
       "x_link": null,
-      "category": "CRYPTO"
+      "category": "SPORTS"
     },
     {
-      "id": "sig_1776933756183_2",
-      "timestamp": "2026-04-23T08:42:36.183271+00:00",
+      "id": "sig_1776933839575_0",
+      "timestamp": "2026-04-23T08:43:59.575418+00:00",
       "source": "PERPLEXITY",
-      "headline": "**Technical analysis commentary** from YouTube videos discussing price trends and trader sentiment[2][3]",
-      "raw": "**Technical analysis commentary** from YouTube videos discussing price trends and trader sentiment[2][3]",
-      "direction": null,
-      "confidence": 0.65,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "CRYPTO"
-    },
-    {
-      "id": "sig_1776933770858_0",
-      "timestamp": "2026-04-23T08:42:50.858089+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Polymarket Trader \"Prexpect\" Profits $118K Betting on Elon Musk's Tweet Volume | YES | HIGH confidence**",
-      "raw": "Polymarket Trader \"Prexpect\" Profits $118K Betting on Elon Musk's Tweet Volume | YES | HIGH confidence**  \nA trader named Prexpect earned $118,754 by predicting Elon Musk's weekly tweet counts using a custom real-time tracker for front-running market prices, as revealed in a leaked Snapchat post viewed ~340,000 times.[1] This strategy highlights vulnerabilities in Polymarket's tweet markets, which",
+      "headline": "ELON MUSK TWEET COUNT MARKETS TRENDING ON POLYMARKET | YES | HIGH**",
+      "raw": "ELON MUSK TWEET COUNT MARKETS TRENDING ON POLYMARKET | YES | HIGH**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volume**, including \"Elon Musk # tweets April 17 - April 24, 2026?\" (priced at 41% for 220-239 tweets) and \"Elon Musk # tweets in April 2026?\" (24% for 1120-1159, 22% for same range in recent data), with over $21M+ in trading volume across 20-130 live tweet ",
       "direction": "YES",
       "confidence": 0.65,
       "matched_markets": [],
@@ -106,12 +119,12 @@
       "category": "COMMUNITY"
     },
     {
-      "id": "sig_1776933770860_1",
-      "timestamp": "2026-04-23T08:42:50.860395+00:00",
+      "id": "sig_1776933839579_2",
+      "timestamp": "2026-04-23T08:43:59.579496+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trending X Markets on Polymarket Feature Low-Odds Bets on Elon Musk/Tech Events | NO whale bets reported | MED confidenc",
-      "raw": "Trending X Markets on Polymarket Feature Low-Odds Bets on Elon Musk/Tech Events | NO whale bets reported | MED confidence**  \nPolymarket's X predictions (1,370+ markets, $165.9M volume) spotlight bets like \"\ud835\udd4f Money launched by April 30?\" at 14% YES ($33.7K volume), \"Iran x Israel/US conflict ends by...?\" at 100% (high liquidity), and \"Nikita Bier out as Head of Product at X by June 30?\" at 7%.[3] ",
-      "direction": "YES",
+      "headline": "NO RECENT CONFIRMATIONS OR RESOLUTIONS MOVING MARKETS | NO | HIGH**",
+      "raw": "NO RECENT CONFIRMATIONS OR RESOLUTIONS MOVING MARKETS | NO | HIGH**  \nSearch results show no just-announced events, whale bets, or resolved outcomes (e.g., no Nasdaq trading or CS IEM mentions impacting odds right now); all data as of April 9-22, 2026, with dynamic updates ongoing[1][5].",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -120,8 +133,8 @@
     }
   ],
   "stats": {
-    "enter": 2,
-    "alert": 6,
+    "enter": 1,
+    "alert": 8,
     "watch": 0,
     "high_conf": 4
   }
