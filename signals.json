@@ -1,49 +1,96 @@
 {
-  "last_scan": "2026-04-23T08:45:08.574264+00:00",
-  "scan_seconds": 18.0,
-  "markets_scanned": 52,
+  "last_scan": "2026-04-23T08:46:19.262142+00:00",
+  "scan_seconds": 18.7,
+  "markets_scanned": 53,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776933898699_0",
-      "timestamp": "2026-04-23T08:44:58.699224+00:00",
+      "id": "sig_1776933962498_0",
+      "timestamp": "2026-04-23T08:46:02.498738+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh to Succeed Jerome Powell as Fed Chair; Confirmation Hearing Underway** | YES | HIGH confiden",
-      "raw": "Trump Nominates Kevin Warsh to Succeed Jerome Powell as Fed Chair; Confirmation Hearing Underway** | YES | HIGH confidence[2][4]\n\nKevin Warsh, Trump's nominee to replace Fed Chair Jerome Powell (term ending May 2026), faced a polarized Senate Banking Committee hearing on April 21, 2026, defending Fed independence amid questions on his 2008 crisis role and potential political influence[2][4]. Powel",
-      "direction": "YES",
+      "headline": "Bitcoin's historic 'Uptober' streak ended with a confirmed 3",
+      "raw": "Bitcoin's historic 'Uptober' streak ended with a confirmed 3.6% decline in October 2025, the first red month since 2018, amid $19B liquidations, Trump tariffs on China, and Fed rate cut delays.[1]",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Successor\" during April press conference?"
+        "Will October be the best month for Bitcoin in 2026?"
       ],
-      "action": "ENTER",
+      "action": "ALERT",
       "x_link": null,
-      "category": "ECONOMICS"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776933903171_0",
-      "timestamp": "2026-04-23T08:45:03.171600+00:00",
+      "id": "sig_1776933972907_0",
+      "timestamp": "2026-04-23T08:46:12.907575+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs | NO | HIGH confide",
-      "raw": "Cavaliers Defeat Raptors 115-105 in Game 2, Take 2-0 Lead in Eastern Conference First-Round Playoffs | NO | HIGH confidence**[1][2][3]\n\nThe Cleveland Cavaliers, powered by **Donovan Mitchell (30 points)**, **James Harden (28 points)**, and **Evan Mobley (25 points)**, secured a dominant wire-to-wire victory over the Toronto Raptors on Monday night, marking their 12th straight playoff win against T",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
-        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
-        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
-      ],
+      "headline": "Based on the search results provided, I cannot identify specific breaking news that has \"just been confirmed, announced,",
+      "raw": "Based on the search results provided, I cannot identify specific breaking news that has \"just been confirmed, announced, or resolved\" that would move prediction markets. The search results show:",
+      "direction": null,
+      "confidence": 0.9,
+      "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
     },
     {
-      "id": "sig_1776933907572_0",
-      "timestamp": "2026-04-23T08:45:07.572626+00:00",
+      "id": "sig_1776933972911_2",
+      "timestamp": "2026-04-23T08:46:12.911704+00:00",
       "source": "PERPLEXITY",
-      "headline": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO | MED confidence**",
-      "raw": "Elon Musk April 2026 Tweet Count Markets Lead Polymarket Trends | NO | MED confidence**\n\nPolymarket's most active markets as of April 22, 2026, focus on **Elon Musk's tweet volume**, with the \"Elon Musk # tweets in April 2026?\" market assigning a 22% probability to the 1120-1159 range amid $21.5M+ trading volume across 20+ related markets[2][3]. Related tweet prediction markets, including \"Elon Mu",
+      "headline": "Potential concern:** CBS Sports mentions that \"Oklahoma City has a 2-0 series lead over the Suns, but the team's title d",
+      "raw": "Potential concern:** CBS Sports mentions that \"Oklahoma City has a 2-0 series lead over the Suns, but the team's title defense will get a whole lot tougher if Jalen Williams misses extended time,\"[3] but this is framed as a conditional concern rather than a confirmed injury ruling.\n\nThe search results lack the specificity needed to format an answer as **HEADLINE | YES or NO | CONFIDENCE LEVEL**, a",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776933962501_1",
+      "timestamp": "2026-04-23T08:46:02.501012+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Uptober Streak Broken | NO | HIGH confidence**",
+      "raw": "Uptober Streak Broken | NO | HIGH confidence**",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776933972909_1",
+      "timestamp": "2026-04-23T08:46:12.909647+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Current playoff status:** The Thunder lead the Suns 2-0 in their first-round series[2], and the Thunder are the #1 seed",
+      "raw": "Current playoff status:** The Thunder lead the Suns 2-0 in their first-round series[2], and the Thunder are the #1 seed with a 64-18 regular season record[4]. However, the results don't contain announcements of new trades, injuries being officially ruled out/in, or other market-moving confirmations from today.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776933978256_0",
+      "timestamp": "2026-04-23T08:46:18.256660+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or smart money moves reported | LOW confiden",
+      "raw": "Elon Musk April Tweets Dominate Polymarket Trending Markets | NO whale bets or smart money moves reported | LOW confidence**  \nPolymarket's most active markets focus on **Elon Musk tweet counts**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on 1120-1159 in related markets), with over $21M+ in volume across ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
+    },
+    {
+      "id": "sig_1776933978258_1",
+      "timestamp": "2026-04-23T08:46:18.258936+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Trending Markets Category Active | NO resolutions noted | MED confidence**",
+      "raw": "Trending Markets Category Active | NO resolutions noted | MED confidence**  \n160-168 live markets in Trending Markets (e.g., \u201cNasdaq round-the-clock trading by June 30?\u201d) show $3.3M volume, but no X-specific buzz or shifts reported[1]. Tweet markets and pop culture odds (like Kanye tweeting by April 30) update in real-time without highlighted mispricings[2][3][5]. Data limited to Polymarket pages;",
+      "direction": "NO",
       "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
@@ -52,9 +99,9 @@
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 0,
+    "alert": 7,
     "watch": 0,
-    "high_conf": 1
+    "high_conf": 3
   }
 }
