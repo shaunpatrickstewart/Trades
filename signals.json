@@ -1,19 +1,18 @@
 {
-  "last_scan": "2026-04-23T07:11:38.573672+00:00",
-  "scan_seconds": 17.8,
+  "last_scan": "2026-04-23T07:13:11.262831+00:00",
+  "scan_seconds": 30.7,
   "markets_scanned": 49,
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776928288324_0",
-      "timestamp": "2026-04-23T07:11:28.324505+00:00",
+      "id": "sig_1776928381711_0",
+      "timestamp": "2026-04-23T07:13:01.711356+00:00",
       "source": "PERPLEXITY",
-      "headline": "Trump Nominates Kevin Warsh as Powell's Successor as Fed Chair** | YES | HIGH confidence[1][2]",
-      "raw": "Trump Nominates Kevin Warsh as Powell's Successor as Fed Chair** | YES | HIGH confidence[1][2]\n\nPresident Donald Trump announced on January 30, 2026, that he will nominate former Fed Governor **Kevin Warsh** to replace **Jerome Powell** as Federal Reserve Chair, with Powell's term ending in May 2026[1][2]. Warsh, a 2006-2011 Fed veteran from the 2008 crisis, edged out contenders like Kevin Hassett",
-      "direction": "YES",
+      "headline": "Trump Nominates Kevin Warsh as Successor to Jerome Powell as Fed Chair** | NO | MED confidence",
+      "raw": "Trump Nominates Kevin Warsh as Successor to Jerome Powell as Fed Chair** | NO | MED confidence\n\nPresident Trump announced his nomination of former Fed Governor **Kevin Warsh** to replace **Jerome Powell** as Federal Reserve chair, via a Truth Social post, ending months of speculation.[1][2] Powell's term ends in May 2026, with Warsh\u2014known for his role in the 2008 crisis\u2014facing a Senate confirmatio",
+      "direction": "NO",
       "confidence": 0.9,
       "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
         "Will Powell say \"Successor\" during April press conference?"
       ],
       "action": "ENTER",
@@ -21,36 +20,92 @@
       "category": "ECONOMICS"
     },
     {
-      "id": "sig_1776928297570_0",
-      "timestamp": "2026-04-23T07:11:37.570295+00:00",
+      "id": "sig_1776928386157_0",
+      "timestamp": "2026-04-23T07:13:06.157063+00:00",
       "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict End Date Market Hits 100% on Dec 31; High Volume on X-Related Bets | NO | LOW confidence**",
-      "raw": "Iran x Israel/US Conflict End Date Market Hits 100% on Dec 31; High Volume on X-Related Bets | NO | LOW confidence**\n\nPolymarket's most active X prediction market assigns 100% crowd probability to the \"Iran x Israel/US conflict ends by December 31\" outcome, amid $150.8M total X market volume, but no direct X posts from traders are confirmed in results[1][6][7]. US x Iran peace deal markets show Ju",
+      "headline": "Cavaliers take 2-0 lead over Raptors in NBA Playoffs first round after 115-105 Game 2 win | YES | HIGH confidence**",
+      "raw": "Cavaliers take 2-0 lead over Raptors in NBA Playoffs first round after 115-105 Game 2 win | YES | HIGH confidence**  \nThe Cleveland Cavaliers defeated the Toronto Raptors 115-105 in Game 2 on Monday night (April 20, 2026), with James Harden (28 points), Donovan Mitchell (30 points), and Evan Mobley (25+ points) combining for dominant scoring to secure a 2-0 series lead; the series now shifts to To",
       "direction": "YES",
+      "confidence": 0.9,
+      "matched_markets": [
+        "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
+        "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Pla",
+        "Will Orlando Magic advance to the Conference Semifinals in the 2026 NBA Playoffs"
+      ],
+      "action": "ENTER",
+      "x_link": null,
+      "category": "SPORTS"
+    },
+    {
+      "id": "sig_1776928378065_0",
+      "timestamp": "2026-04-23T07:12:58.065760+00:00",
+      "source": "PERPLEXITY",
+      "headline": "I cannot provide the breaking news format you've requested because the search results do not contain any recent announce",
+      "raw": "I cannot provide the breaking news format you've requested because the search results do not contain any recent announcements, confirmations, or resolutions that would move prediction markets today.\n\nThe search results discuss **predictions and analyses about a potential Bitcoin bottom in October 2026**, primarily from analysts like Benjamin Cowen and Ali Martinez who base their forecasts on histo",
+      "direction": null,
       "confidence": 0.9,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "COMMUNITY"
+      "category": "CRYPTO"
     },
     {
-      "id": "sig_1776928292548_0",
-      "timestamp": "2026-04-23T07:11:32.548420+00:00",
+      "id": "sig_1776928378068_1",
+      "timestamp": "2026-04-23T07:12:58.068146+00:00",
       "source": "PERPLEXITY",
-      "headline": "Cavaliers cruise to 2-0 series lead in first round | NO | HIGH confidence**",
-      "raw": "Cavaliers cruise to 2-0 series lead in first round | NO | HIGH confidence**  \nThe Cleveland Cavaliers have taken a 2-0 lead in their Eastern Conference first-round playoff series, highlighted by strong performances from their star trio, including Donovan Mitchell's key jumper, but this pertains to the first round, not semifinals, with no mentions of conference semifinals, Cooper Flagg, or resoluti",
-      "direction": "NO",
-      "confidence": 0.78,
+      "headline": "Official announcements from exchanges, institutions, or regulatory bodies",
+      "raw": "Official announcements from exchanges, institutions, or regulatory bodies",
+      "direction": null,
+      "confidence": 0.65,
       "matched_markets": [],
       "action": "ALERT",
       "x_link": null,
-      "category": "SPORTS"
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776928378070_2",
+      "timestamp": "2026-04-23T07:12:58.070443+00:00",
+      "source": "PERPLEXITY",
+      "headline": "New data releases or on-chain metrics",
+      "raw": "New data releases or on-chain metrics",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776928378072_3",
+      "timestamp": "2026-04-23T07:12:58.072524+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Market developments that have just occurred",
+      "raw": "Market developments that have just occurred\n\nIf you're looking for current Bitcoin market updates or the latest prediction refinements, I'd recommend searching for today's news specifically.",
+      "direction": null,
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "CRYPTO"
+    },
+    {
+      "id": "sig_1776928390259_0",
+      "timestamp": "2026-04-23T07:13:10.259772+00:00",
+      "source": "PERPLEXITY",
+      "headline": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**",
+      "raw": "Elon Musk Tweet Count Markets Trending on Polymarket | NO | HIGH confidence**  \nPolymarket's most active markets right now focus on **Elon Musk's tweet volumes**, such as \"Elon Musk # tweets April 17 - April 24, 2026?\" (41% on 220-239) and \"Elon Musk # tweets in April 2026?\" (24% on 1120-1159, 22% on 1120-1159 in related markets), with over $21.5M\u2013$21.7M in trading volume across 20\u2013130 live tweet ",
+      "direction": "NO",
+      "confidence": 0.65,
+      "matched_markets": [],
+      "action": "ALERT",
+      "x_link": null,
+      "category": "COMMUNITY"
     }
   ],
   "stats": {
-    "enter": 1,
-    "alert": 2,
+    "enter": 2,
+    "alert": 5,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 3
   }
 }
