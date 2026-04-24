@@ -1,5 +1,5 @@
 {
-  "ts": 1776996295,
+  "ts": 1776996365,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999754
+    "usdc_usd": 0.999779
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -296,10 +296,10 @@
         "slug": "nba-playoffs-who-will-win-series-pistons-vs-magic",
         "title": "NBA Playoffs: Who Will Win Series? - Pistons vs. Magic ",
         "size": 4.9257,
-        "cur_price": 0.26,
-        "nav_usdc": 1.2807,
+        "cur_price": 0.265,
+        "nav_usdc": 1.3053,
         "cost_basis": 0.8866,
-        "unrealized_pnl": 0.3941
+        "unrealized_pnl": 0.4187
       },
       {
         "slug": "will-detroit-pistons-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 317.4442,
-    "total_usdc": 404.3808,
-    "total_usd": 404.2813
+    "positions_nav_usdc": 317.4688,
+    "total_usdc": 404.4054,
+    "total_usd": 404.3161
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1776996296,
+    "ts": 1776996366,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776909896,
+      "window_start_ts": 1776909966,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776391496,
+      "window_start_ts": 1776391566,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774404296,
+      "window_start_ts": 1774404366,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 404.2813,
-    "total_usdc": 404.3808
+    "total_usd": 404.3161,
+    "total_usdc": 404.4054
   }
 }
