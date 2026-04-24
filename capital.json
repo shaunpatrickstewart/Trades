@@ -1,5 +1,5 @@
 {
-  "ts": 1777025465,
+  "ts": 1777025530,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999762
+    "usdc_usd": 0.999775
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,19 +125,19 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0515,
-        "nav_usdc": 0.4202,
+        "cur_price": 0.055,
+        "nav_usdc": 0.4488,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8772
+        "unrealized_pnl": -0.8486
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.2,
-        "nav_usdc": 1.532,
+        "cur_price": 0.21,
+        "nav_usdc": 1.6086,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.2298
+        "unrealized_pnl": -0.1532
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.057,
-        "nav_usdc": 0.2878,
+        "cur_price": 0.049,
+        "nav_usdc": 0.2475,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.4039
+        "unrealized_pnl": -1.4443
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 315.0536,
-    "total_usdc": 401.9902,
-    "total_usd": 401.8945
+    "positions_nav_usdc": 315.1184,
+    "total_usdc": 402.055,
+    "total_usd": 401.9645
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777025466,
+    "ts": 1777025531,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776939066,
+      "window_start_ts": 1776939131,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776420666,
+      "window_start_ts": 1776420731,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774433466,
+      "window_start_ts": 1774433531,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 401.8945,
-    "total_usdc": 401.9902
+    "total_usd": 401.9645,
+    "total_usdc": 402.055
   }
 }
