@@ -364,7 +364,9 @@
       if (!liveBankroll) {
         try {
           const brJson = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
-          liveBankroll = brJson.initial || brJson.current || 0;
+          // 2026-04-25: prefer CURRENT over initial. Using initial masked the real
+          // bankroll behind a stale seed figure on the wallet-performance card.
+          liveBankroll = parseFloat(brJson.current) || parseFloat(brJson.initial) || 0;
         } catch(e) {}
       }
 
@@ -428,7 +430,7 @@
         // Per-engine breakdown
         const engines = {};
         trades.forEach(t => {
-          const eng = t.type || t.engine || 'UNKNOWN';
+          const eng = t.engine || t.type || 'UNKNOWN';
           if (!engines[eng]) engines[eng] = {w:0,l:0,o:0,pnl:0};
           if (t.status==='WON') { engines[eng].w++; engines[eng].pnl += (t.pnl||0); }
           else if (t.status==='LOST') { engines[eng].l++; engines[eng].pnl += (t.pnl||0); }
@@ -661,10 +663,13 @@
         ' &nbsp;|&nbsp; '+
         '<span class="yellow">Unrealized est: +$'+unrealizedPot.toFixed(2)+'</span>';
 
-      // Engine breakdown — use ALL trades for accurate PnL per engine
+      // Engine breakdown — use ALL trades for accurate PnL per engine.
+      // 2026-04-25: `t.engine` is the current canonical field; older records
+      // only set `type`. Read engine FIRST so missing-type records (~19 in the
+      // historical jsonl) don't spuriously bucket into UNKNOWN.
       const byEngine = {};
       trades.forEach(t=>{
-        const eng = t.type||'UNKNOWN';
+        const eng = t.engine || t.type || 'UNKNOWN';
         if (!byEngine[eng]) byEngine[eng]={open:0,won:0,lost:0,realPnl:0,unrealized:0,totalBet:0};
         const bet = parseFloat(t.bet_size||0);
         if (t.status==='OPEN')  { byEngine[eng].open++; byEngine[eng].unrealized+=(t.potential_profit||0); byEngine[eng].totalBet+=bet; }
@@ -934,24 +939,20 @@
         else if (t.status==='OPEN') { engines[e].o++; engines[e].bet+=(t.bet_size||0); }
       });
 
-      // ── Bankroll — prefer chain-live value (/value?user=funder); fall back to
-      // cached bankroll.json if the live endpoint is unreachable (offline,
-      // CORS, API change). The live value already includes open positions
-      // and wallet USDC, so realized PnL is implicit — don't double-add it
-      // when the live path succeeded.
-      let auditInitial = await fetchLiveBankroll();
-      const usedLive = auditInitial > 0;
-      if (!usedLive) {
-        try {
-          const brData = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
-          auditInitial = brData.initial || brData.current || 0;
-        } catch(e) {}
-      }
+      // ── Bankroll — two distinct values, one source of truth each:
+      //   CURRENT  = live chain portfolio (positions NAV + USDC). Falls back to
+      //              bankroll.json.current if the chain endpoint is unreachable.
+      //   INITIAL  = bankroll.json.initial (actual seed deposit, manually set).
+      //              NEVER derived from the live chain value — they are semantically
+      //              different numbers and conflating them made "Initial deposit"
+      //              display the same figure as "Current" (bug caught 2026-04-25).
+      let cached = {};
+      try { cached = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json()); } catch(e) {}
+      let liveChain = await fetchLiveBankroll();
+      const usedLive = liveChain > 0;
+      const bankroll = usedLive ? liveChain : (parseFloat(cached.current) || 0);
+      const auditInitial = parseFloat(cached.initial) || 0;
       const realized = settledAll.reduce((s,t)=>s+(t.pnl||0),0);
-      // When live path succeeded, auditInitial is already the CURRENT chain value
-      // (positions + USDC = post-PnL). When we fell back to cached bankroll.json,
-      // auditInitial is the STARTING bankroll and we add realized PnL on top.
-      const bankroll = usedLive ? auditInitial : (auditInitial + realized);
       const deployed = trades.filter(t=>t.status==='OPEN').reduce((s,t)=>s+(t.bet_size||0),0);
 
       // ── Live issues (computed, not cached)

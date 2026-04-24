@@ -5,48 +5,6 @@
   "open_positions": 13,
   "signals": [
     {
-      "id": "sig_1776937955674_0",
-      "timestamp": "2026-04-23T09:52:35.674142+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed Amid Ongoing Investigation** | **NO** | **HIGH** conf",
-      "raw": "Powell Confirms He Will Remain Fed Chair Until Successor Confirmed Amid Ongoing Investigation** | **NO** | **HIGH** confidence[1][2][3]\n\nJerome Powell stated he will hold the chair until his successor is confirmed and a criminal investigation into the Fed is resolved, with his term ending in May 2026[2][3].  \nPresident Trump nominated Kevin Warsh as replacement on January 30, 2026, criticizing Pow",
-      "direction": "NO",
-      "confidence": 0.9,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Powell say \"Successor\" during April press conference?"
-      ],
-      "action": "ENTER",
-      "x_link": null,
-      "category": "ECONOMICS"
-    },
-    {
-      "id": "sig_1776937967240_2",
-      "timestamp": "2026-04-23T09:52:47.240244+00:00",
-      "source": "PERPLEXITY",
-      "headline": "X Platform Bets: Nikita Bier Out as Head of Product by June 30 at 13% Yes | NO | LOW confidence**",
-      "raw": "X Platform Bets: Nikita Bier Out as Head of Product by June 30 at 13% Yes | NO | LOW confidence**  \nLow-odds X-specific market on \"Nikita Bier out as Head of Product at X by June 30?\" (13% Yes) and \"Will X launch a USD stablecoin in 2026?\" suggest niche trader interest in tech/Elon Musk shifts, but minimal volume vs. geopolitics[1]. No resolutions, announcements, or confirmed events noted to drive",
-      "direction": "YES",
-      "confidence": 0.9,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
-      "id": "sig_1776937967235_0",
-      "timestamp": "2026-04-23T09:52:47.235898+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Iran x Israel/US Conflict Market Hits 100% Odds for End by Dec 31 | NO | HIGH confidence**",
-      "raw": "Iran x Israel/US Conflict Market Hits 100% Odds for End by Dec 31 | NO | HIGH confidence**  \nPolymarket's most active X-related market assigns 100% probability to the \"Iran x Israel/US conflict ends by December 31\" outcome, reflecting strong trader consensus amid high volume on world events pages[1][5][6]. This stands out as the top-traded market across X predictions (1,380 active markets, $167.6M",
-      "direction": "YES",
-      "confidence": 0.78,
-      "matched_markets": [],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
-    },
-    {
       "id": "sig_1776937952049_0",
       "timestamp": "2026-04-23T09:52:32.049725+00:00",
       "source": "PERPLEXITY",
@@ -112,28 +70,13 @@
       "action": "ALERT",
       "x_link": null,
       "category": "SPORTS"
-    },
-    {
-      "id": "sig_1776937967238_1",
-      "timestamp": "2026-04-23T09:52:47.238124+00:00",
-      "source": "PERPLEXITY",
-      "headline": "Trump Announces Hormuz Blockade Lift by May 31 at 76% | NO | MED confidence**",
-      "raw": "Trump Announces Hormuz Blockade Lift by May 31 at 76% | NO | MED confidence**  \nSocial media markets highlight \"Trump announces US blockade of Hormuz lifted by May 31?\" at 76% Yes with $5M volume, tying into Iran tensions and potentially mispriced given conflict market extremes[7]. Related high-conviction bets include \"Will Trump acquire Greenland before 2027?\" at 93% No[7]. Traders may view these",
-      "direction": "YES",
-      "confidence": 0.65,
-      "matched_markets": [
-        "Will Trump agree to Iranian enrichment of uranium in April?",
-        "Will Trump say \"Soleimani\" during WHCA Dinner events?"
-      ],
-      "action": "ALERT",
-      "x_link": null,
-      "category": "COMMUNITY"
     }
   ],
   "stats": {
     "enter": 1,
     "alert": 8,
     "watch": 0,
-    "high_conf": 2
+    "high_conf": 2,
+    "political_filtered": 4
   }
 }
