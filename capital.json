@@ -1,5 +1,5 @@
 {
-  "ts": 1777016935,
+  "ts": 1777017005,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999841
+    "usdc_usd": 0.999864
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.0605,
-        "nav_usdc": 0.3055,
+        "cur_price": 0.06,
+        "nav_usdc": 0.303,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.3862
+        "unrealized_pnl": -1.3887
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 315.2965,
-    "total_usdc": 402.2331,
-    "total_usd": 402.1691
+    "positions_nav_usdc": 315.2939,
+    "total_usdc": 402.2305,
+    "total_usd": 402.1758
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777016936,
+    "ts": 1777017006,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776930536,
+      "window_start_ts": 1776930606,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776412136,
+      "window_start_ts": 1776412206,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774424936,
+      "window_start_ts": 1774425006,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.1691,
-    "total_usdc": 402.2331
+    "total_usd": 402.1758,
+    "total_usdc": 402.2305
   }
 }
