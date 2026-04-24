@@ -1,13 +1,13 @@
 {
-  "ts": 1777004075,
+  "ts": 1777004140,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
-    "positions_age_s": 0,
-    "usdc_age_s": 0
+    "positions_age_s": 29,
+    "usdc_age_s": 29
   },
   "prices": {
-    "usdc_usd": 0.999815
+    "usdc_usd": 0.999837
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0625,
-        "nav_usdc": 0.51,
+        "cur_price": 0.0555,
+        "nav_usdc": 0.4529,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.7874
+        "unrealized_pnl": -0.8445
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.2857,
-    "total_usdc": 403.2223,
-    "total_usd": 403.1477
+    "positions_nav_usdc": 316.2286,
+    "total_usdc": 403.1652,
+    "total_usd": 403.0995
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777004076,
+    "ts": 1777004140,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776917676,
+      "window_start_ts": 1776917740,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776399276,
+      "window_start_ts": 1776399340,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774412076,
+      "window_start_ts": 1774412140,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 403.1477,
-    "total_usdc": 403.2223
+    "total_usd": 403.0995,
+    "total_usdc": 403.1652
   }
 }
