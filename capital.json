@@ -1,5 +1,5 @@
 {
-  "ts": 1777004615,
+  "ts": 1777004685,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999774
+    "usdc_usd": 0.999761
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.053,
-        "nav_usdc": 0.4325,
+        "cur_price": 0.0515,
+        "nav_usdc": 0.4202,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8649
+        "unrealized_pnl": -0.8772
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -170,28 +170,28 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.0595,
-        "nav_usdc": 0.3005,
+        "cur_price": 0.0605,
+        "nav_usdc": 0.3055,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.3912
+        "unrealized_pnl": -1.3862
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
         "title": "DeepSeek V4 released by April 30?",
         "size": 5.05,
-        "cur_price": 0.0855,
-        "nav_usdc": 0.4318,
+        "cur_price": 0.085,
+        "nav_usdc": 0.4293,
         "cost_basis": 1.212,
-        "unrealized_pnl": -0.7802
+        "unrealized_pnl": -0.7827
       },
       {
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.3525,
-        "nav_usdc": 1.7801,
+        "cur_price": 0.3585,
+        "nav_usdc": 1.8104,
         "cost_basis": 1.7624,
-        "unrealized_pnl": 0.0177
+        "unrealized_pnl": 0.048
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 316.1162,
-    "total_usdc": 403.0528,
-    "total_usd": 402.9617
+    "positions_nav_usdc": 316.1368,
+    "total_usdc": 403.0734,
+    "total_usd": 402.9771
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777004616,
+    "ts": 1777004686,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776918216,
+      "window_start_ts": 1776918286,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776399816,
+      "window_start_ts": 1776399886,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774412616,
+      "window_start_ts": 1774412686,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.9617,
-    "total_usdc": 403.0528
+    "total_usd": 402.9771,
+    "total_usdc": 403.0734
   }
 }
