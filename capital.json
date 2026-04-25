@@ -1,5 +1,5 @@
 {
-  "ts": 1777076087,
+  "ts": 1777076992,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999805
+    "usdc_usd": 0.999796
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.056,
-        "nav_usdc": 0.457,
+        "cur_price": 0.058,
+        "nav_usdc": 0.4733,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8404
+        "unrealized_pnl": -0.8241
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -152,10 +152,10 @@
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
         "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
         "size": 7.5664,
-        "cur_price": 0.52,
-        "nav_usdc": 3.9345,
+        "cur_price": 0.54,
+        "nav_usdc": 4.0859,
         "cost_basis": 4.1615,
-        "unrealized_pnl": -0.227
+        "unrealized_pnl": -0.0756
       },
       {
         "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
@@ -188,19 +188,19 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.2515,
-        "nav_usdc": 1.2701,
+        "cur_price": 0.3105,
+        "nav_usdc": 1.568,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.4923
+        "unrealized_pnl": -0.1944
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.9075,
-        "nav_usdc": 4.5691,
+        "cur_price": 0.908,
+        "nav_usdc": 4.5716,
         "cost_basis": 4.5313,
-        "unrealized_pnl": 0.0378
+        "unrealized_pnl": 0.0403
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.2145,
-        "nav_usdc": 1.0539,
+        "cur_price": 0.2195,
+        "nav_usdc": 1.0785,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.5724
+        "unrealized_pnl": 0.597
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 314.4852,
-    "total_usdc": 401.4218,
-    "total_usd": 401.3435
+    "positions_nav_usdc": 314.9779,
+    "total_usdc": 401.9145,
+    "total_usd": 401.8325
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777076088,
+    "ts": 1777076993,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776989688,
+      "window_start_ts": 1776990593,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776471288,
+      "window_start_ts": 1776472193,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774484088,
+      "window_start_ts": 1774484993,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 401.3435,
-    "total_usdc": 401.4218
+    "total_usd": 401.8325,
+    "total_usdc": 401.9145
   }
 }
