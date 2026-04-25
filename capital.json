@@ -1,5 +1,5 @@
 {
-  "ts": 1777078777,
+  "ts": 1777079687,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999769
+    "usdc_usd": 0.999859
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.0615,
-        "nav_usdc": 0.5018,
+        "cur_price": 0.063,
+        "nav_usdc": 0.5141,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.7956
+        "unrealized_pnl": -0.7833
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -188,10 +188,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.294,
-        "nav_usdc": 1.4847,
+        "cur_price": 0.299,
+        "nav_usdc": 1.5099,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.2777
+        "unrealized_pnl": -0.2525
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -269,10 +269,10 @@
         "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.95,
-        "cur_price": 0.665,
-        "nav_usdc": 3.2918,
+        "cur_price": 0.82,
+        "nav_usdc": 4.059,
         "cost_basis": 1.683,
-        "unrealized_pnl": 1.6088
+        "unrealized_pnl": 2.376
       },
       {
         "slug": "will-orlando-magic-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -321,16 +321,16 @@
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 315.1896,
-    "total_usdc": 402.1262,
-    "total_usd": 402.0333
+    "positions_nav_usdc": 315.9944,
+    "total_usdc": 402.931,
+    "total_usd": 402.8741
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777078778,
+    "ts": 1777079688,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776992378,
+      "window_start_ts": 1776993288,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776473978,
+      "window_start_ts": 1776474888,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774486778,
+      "window_start_ts": 1774487688,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.0333,
-    "total_usdc": 402.1262
+    "total_usd": 402.8741,
+    "total_usdc": 402.931
   }
 }
