@@ -1,5 +1,5 @@
 {
-  "ts": 1777112967,
+  "ts": 1777113877,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999836
+    "usdc_usd": 0.999817
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,19 +125,19 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.066,
-        "nav_usdc": 0.5386,
+        "cur_price": 0.0704,
+        "nav_usdc": 0.5745,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.7588
+        "unrealized_pnl": -0.7229
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.185,
-        "nav_usdc": 1.4171,
+        "cur_price": 0.195,
+        "nav_usdc": 1.4937,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.3447
+        "unrealized_pnl": -0.2681
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.0859,
-        "nav_usdc": 0.4221,
+        "cur_price": 0.0855,
+        "nav_usdc": 0.4201,
         "cost_basis": 0.4815,
-        "unrealized_pnl": -0.0594
+        "unrealized_pnl": -0.0614
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 314.3107,
-    "total_usdc": 401.2473,
-    "total_usd": 401.1815
+    "positions_nav_usdc": 314.4212,
+    "total_usdc": 401.3578,
+    "total_usd": 401.2844
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777112968,
+    "ts": 1777113878,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1777026568,
+      "window_start_ts": 1777027478,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776508168,
+      "window_start_ts": 1776509078,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774520968,
+      "window_start_ts": 1774521878,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 401.1815,
-    "total_usdc": 401.2473
+    "total_usd": 401.2844,
+    "total_usdc": 401.3578
   }
 }
