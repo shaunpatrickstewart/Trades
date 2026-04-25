@@ -1,5 +1,5 @@
 {
-  "ts": 1777075177,
+  "ts": 1777076087,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999813
+    "usdc_usd": 0.999805
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,19 +125,19 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.068,
-        "nav_usdc": 0.5549,
+        "cur_price": 0.056,
+        "nav_usdc": 0.457,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.7425
+        "unrealized_pnl": -0.8404
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
         "title": "Will Russia enter Ternuvate again by April 30?",
         "size": 7.66,
-        "cur_price": 0.19,
-        "nav_usdc": 1.4554,
+        "cur_price": 0.185,
+        "nav_usdc": 1.4171,
         "cost_basis": 1.7618,
-        "unrealized_pnl": -0.3064
+        "unrealized_pnl": -0.3447
       },
       {
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.058,
-        "nav_usdc": 0.2929,
+        "cur_price": 0.0575,
+        "nav_usdc": 0.2904,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.3988
+        "unrealized_pnl": -1.4013
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -197,10 +197,10 @@
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.8975,
-        "nav_usdc": 4.5187,
+        "cur_price": 0.9075,
+        "nav_usdc": 4.5691,
         "cost_basis": 4.5313,
-        "unrealized_pnl": -0.0126
+        "unrealized_pnl": 0.0378
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -314,28 +314,28 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.2195,
-        "nav_usdc": 1.0785,
+        "cur_price": 0.2145,
+        "nav_usdc": 1.0539,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.597
+        "unrealized_pnl": 0.5724
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 314.5982,
-    "total_usdc": 401.5348,
-    "total_usd": 401.4597
+    "positions_nav_usdc": 314.4852,
+    "total_usdc": 401.4218,
+    "total_usd": 401.3435
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777075178,
+    "ts": 1777076088,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
       "window": "today",
-      "window_start_ts": 1776988800,
+      "window_start_ts": 1777075200,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776988778,
+      "window_start_ts": 1776989688,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776470378,
+      "window_start_ts": 1776471288,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774483178,
+      "window_start_ts": 1774484088,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 401.4597,
-    "total_usdc": 401.5348
+    "total_usd": 401.3435,
+    "total_usdc": 401.4218
   }
 }
