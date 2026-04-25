@@ -1,5 +1,5 @@
 {
-  "ts": 1777085982,
+  "ts": 1777086887,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999767
+    "usdc_usd": 0.999782
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.061,
-        "nav_usdc": 0.4978,
+        "cur_price": 0.0565,
+        "nav_usdc": 0.461,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.7996
+        "unrealized_pnl": -0.8364
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -143,10 +143,10 @@
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "title": "Strait of Hormuz traffic returns to normal by end of April?",
         "size": 7.65,
-        "cur_price": 0.021,
-        "nav_usdc": 0.1607,
+        "cur_price": 0.0185,
+        "nav_usdc": 0.1415,
         "cost_basis": 2.295,
-        "unrealized_pnl": -2.1343
+        "unrealized_pnl": -2.1535
       },
       {
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
@@ -188,10 +188,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.292,
-        "nav_usdc": 1.4746,
+        "cur_price": 0.2785,
+        "nav_usdc": 1.4064,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.2878
+        "unrealized_pnl": -0.356
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.0709,
-        "nav_usdc": 0.3484,
+        "cur_price": 0.07,
+        "nav_usdc": 0.3439,
         "cost_basis": 0.4815,
-        "unrealized_pnl": -0.1331
+        "unrealized_pnl": -0.1376
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 313.9216,
-    "total_usdc": 400.8582,
-    "total_usd": 400.7648
+    "positions_nav_usdc": 313.7932,
+    "total_usdc": 400.7298,
+    "total_usd": 400.6424
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777085983,
+    "ts": 1777086888,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776999583,
+      "window_start_ts": 1777000488,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776481183,
+      "window_start_ts": 1776482088,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774493983,
+      "window_start_ts": 1774494888,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 400.7648,
-    "total_usdc": 400.8582
+    "total_usd": 400.6424,
+    "total_usdc": 400.7298
   }
 }
