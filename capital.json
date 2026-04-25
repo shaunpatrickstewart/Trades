@@ -1,5 +1,5 @@
 {
-  "ts": 1777080587,
+  "ts": 1777081492,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999824
+    "usdc_usd": 0.999836
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -125,10 +125,10 @@
         "slug": "will-april-2026-be-the-4th-or-lower-hottest-on-record",
         "title": "Will April 2026 be the 4th or lower hottest on record?",
         "size": 8.16,
-        "cur_price": 0.056,
-        "nav_usdc": 0.457,
+        "cur_price": 0.057,
+        "nav_usdc": 0.4651,
         "cost_basis": 1.2974,
-        "unrealized_pnl": -0.8404
+        "unrealized_pnl": -0.8323
       },
       {
         "slug": "will-russia-enter-ternuvate-again-by-april-30",
@@ -143,10 +143,10 @@
         "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
         "title": "Strait of Hormuz traffic returns to normal by end of April?",
         "size": 7.65,
-        "cur_price": 0.0165,
-        "nav_usdc": 0.1262,
+        "cur_price": 0.0185,
+        "nav_usdc": 0.1415,
         "cost_basis": 2.295,
-        "unrealized_pnl": -2.1688
+        "unrealized_pnl": -2.1535
       },
       {
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
@@ -188,10 +188,10 @@
         "slug": "will-cooper-flagg-win-the-202526-nba-rookie-of-the-year-award",
         "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
         "size": 5.05,
-        "cur_price": 0.2819,
-        "nav_usdc": 1.4236,
+        "cur_price": 0.276,
+        "nav_usdc": 1.3938,
         "cost_basis": 1.7624,
-        "unrealized_pnl": -0.3388
+        "unrealized_pnl": -0.3686
       },
       {
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
@@ -269,10 +269,10 @@
         "slug": "will-los-angeles-lakers-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Los Angeles Lakers advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.95,
-        "cur_price": 0.725,
-        "nav_usdc": 3.5888,
+        "cur_price": 0.765,
+        "nav_usdc": 3.7868,
         "cost_basis": 1.683,
-        "unrealized_pnl": 1.9058
+        "unrealized_pnl": 2.1037
       },
       {
         "slug": "will-orlando-magic-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.219,
-        "nav_usdc": 1.076,
+        "cur_price": 0.1744,
+        "nav_usdc": 0.8569,
         "cost_basis": 0.4815,
-        "unrealized_pnl": 0.5945
+        "unrealized_pnl": 0.3754
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 315.4672,
-    "total_usdc": 402.4038,
-    "total_usd": 402.333
+    "positions_nav_usdc": 315.4397,
+    "total_usdc": 402.3763,
+    "total_usd": 402.3103
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777080588,
+    "ts": 1777081493,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1776994188,
+      "window_start_ts": 1776995093,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776475788,
+      "window_start_ts": 1776476693,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774488588,
+      "window_start_ts": 1774489493,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 402.333,
-    "total_usdc": 402.4038
+    "total_usd": 402.3103,
+    "total_usdc": 402.3763
   }
 }
