@@ -1,5 +1,5 @@
 {
-  "ts": 1777107582,
+  "ts": 1777108482,
   "stale": false,
   "feed_ages": {
     "prices_age_s": 0,
@@ -7,7 +7,7 @@
     "usdc_age_s": 0
   },
   "prices": {
-    "usdc_usd": 0.999827
+    "usdc_usd": 0.999817
   },
   "polymarket": {
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
@@ -152,10 +152,10 @@
         "slug": "will-montreal-canadiens-advance-to-round-2-of-the-2026-nhl-playoffs",
         "title": "Will Montreal Canadiens advance to Round 2 of the 2026 NHL Playoffs?",
         "size": 7.5664,
-        "cur_price": 0.42,
-        "nav_usdc": 3.1779,
+        "cur_price": 0.425,
+        "nav_usdc": 3.2157,
         "cost_basis": 4.1615,
-        "unrealized_pnl": -0.9836
+        "unrealized_pnl": -0.9458
       },
       {
         "slug": "highest-temperature-in-paris-on-april-20-2026-13c",
@@ -170,10 +170,10 @@
         "slug": "will-trump-agree-to-iranian-enrichment-of-uranium-in-april",
         "title": "Will Trump agree to Iranian enrichment of uranium in April?",
         "size": 5.05,
-        "cur_price": 0.063,
-        "nav_usdc": 0.3181,
+        "cur_price": 0.0635,
+        "nav_usdc": 0.3207,
         "cost_basis": 1.6917,
-        "unrealized_pnl": -1.3736
+        "unrealized_pnl": -1.371
       },
       {
         "slug": "deepseek-v4-released-by-april-30-896",
@@ -197,10 +197,10 @@
         "slug": "nba-playoffs-who-will-win-series-raptors-vs-cavaliers",
         "title": "NBA Playoffs: Who Will Win Series? - Raptors vs. Cavaliers ",
         "size": 5.0348,
-        "cur_price": 0.891,
-        "nav_usdc": 4.486,
+        "cur_price": 0.8915,
+        "nav_usdc": 4.4885,
         "cost_basis": 4.5313,
-        "unrealized_pnl": -0.0453
+        "unrealized_pnl": -0.0428
       },
       {
         "slug": "mlb-bal-cle-2026-04-19",
@@ -314,23 +314,23 @@
         "slug": "will-boston-celtics-advance-to-the-conference-semifinals-in-the-2026-nba-playoffs",
         "title": "Will Boston Celtics advance to the Conference Semifinals in the 2026 NBA Playoffs?",
         "size": 4.9133,
-        "cur_price": 0.064,
-        "nav_usdc": 0.3145,
+        "cur_price": 0.0855,
+        "nav_usdc": 0.4201,
         "cost_basis": 0.4815,
-        "unrealized_pnl": -0.167
+        "unrealized_pnl": -0.0614
       }
     ],
     "position_count": 34,
-    "positions_nav_usdc": 314.2645,
-    "total_usdc": 401.2011,
-    "total_usd": 401.1317
+    "positions_nav_usdc": 314.413,
+    "total_usdc": 401.3496,
+    "total_usd": 401.2761
   },
   "kalshi": {
     "funded": false,
     "total_usd": 0.0
   },
   "pnl": {
-    "ts": 1777107583,
+    "ts": 1777108483,
     "funder": "0x86f70cf14893180f815a3cea7d3a521dd10cf5ef",
     "activity_rows": 54,
     "today": {
@@ -347,7 +347,7 @@
     },
     "24h": {
       "window": "24h",
-      "window_start_ts": 1777021183,
+      "window_start_ts": 1777022083,
       "realized_usdc": 0.0,
       "trade_count": 0,
       "buy_volume_usdc": 0.0,
@@ -359,7 +359,7 @@
     },
     "7d": {
       "window": "7d",
-      "window_start_ts": 1776502783,
+      "window_start_ts": 1776503683,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -572,7 +572,7 @@
     },
     "30d": {
       "window": "30d",
-      "window_start_ts": 1774515583,
+      "window_start_ts": 1774516483,
       "realized_usdc": 1.5555,
       "trade_count": 54,
       "buy_volume_usdc": 494.7196,
@@ -998,7 +998,7 @@
     }
   },
   "summary": {
-    "total_usd": 401.1317,
-    "total_usdc": 401.2011
+    "total_usd": 401.2761,
+    "total_usdc": 401.3496
   }
 }
