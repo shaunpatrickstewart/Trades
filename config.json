@@ -5,7 +5,7 @@
   "_note": "bot.py reads all tunable params from this file. Operator-only; no autonomous writer touches it (bot_hourly retired 2026-04-25). Apr 25 2026: NEAR_CERTAIN pivoted from 0.99+ Penny Trap to aggressive 0.80-0.88 entries with dynamic exit ladder; AGGRESSIVE engine retired.",
   "trading_host": {
     "_note": "Single field. engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only that machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
-    "active_hostname": "polybot-dub"
+    "active_hostname": "polybot-mad"
   },
   "engine_caps": {
     "NEAR_CERTAIN": 300,
@@ -17,7 +17,7 @@
     "KALSHI_ST": 0
   },
   "engine_caps_min": {
-    "_note": "LOCKED FLOORS — operator-owned; no autonomous writer touches these (bot_hourly retired 2026-04-25).",
+    "_note": "LOCKED FLOORS \u2014 operator-owned; no autonomous writer touches these (bot_hourly retired 2026-04-25).",
     "SHORT_TERM": 20,
     "LONG_TERM": 0
   },
@@ -150,7 +150,7 @@
   "strategy": {
     "_note": "2026-04-25: AGGRESSIVE engine collapsed into NEAR_CERTAIN. NC now uses 0.80-0.88 entry, dynamic exit ladder 0.98/0.97/0.96 (10s/rung quick fallback), hard stop at 0.60 absolute price, 1h volatility filter, circuit breakers, 2-rung dupguard. All sub-flags below tune NC behavior.",
     "dupguard": {
-      "_note": "MAX 2 positions per market per engine enables 2-rung ladder. Each rung uses the FULL bet from _get_bet (NOT half — example: $12 + $12 = $24 deployed per market at $12 NC base). min_price_delta=0.04 prevents both rungs firing at the same price (must be ≥4¢ apart). Opposing-side bets always blocked. Use this as backstop if 0.80-0.88 universe is thin: same market can absorb 2× capital.",
+      "_note": "MAX 2 positions per market per engine enables 2-rung ladder. Each rung uses the FULL bet from _get_bet (NOT half \u2014 example: $12 + $12 = $24 deployed per market at $12 NC base). min_price_delta=0.04 prevents both rungs firing at the same price (must be \u22654\u00a2 apart). Opposing-side bets always blocked. Use this as backstop if 0.80-0.88 universe is thin: same market can absorb 2\u00d7 capital.",
       "enabled": true,
       "max_bets_per_market_default": 1,
       "per_engine": {
@@ -180,7 +180,7 @@
       "invalidate_on_price_move_pct": 0.05
     },
     "wallet_copy_poller": {
-      "_note": "Sub-second elite-wallet activity poller (task #54). Writes /tmp/wallet_copy_signal when top-N wallets make new BUY trades >min_usd. OFF by default — detection-only infrastructure. Bot-side signal consumption is a follow-up when user wants to flip it live.",
+      "_note": "Sub-second elite-wallet activity poller (task #54). Writes /tmp/wallet_copy_signal when top-N wallets make new BUY trades >min_usd. OFF by default \u2014 detection-only infrastructure. Bot-side signal consumption is a follow-up when user wants to flip it live.",
       "enabled": false,
       "top_n": 5,
       "interval_sec": 1.0,
@@ -202,7 +202,7 @@
       "hard_stop_price": 0.6,
       "hard_stop_note": "Absolute price stop. Bot exits if curPrice drops below 0.60 from any entry, regardless of position-level pnl. Caps max loss per $12 bet at -$3.60 (worst case 0.84 entry -> 0.60 exit).",
       "volatility_filter": {
-        "_note": "Multi-AI Tier 5 audit 2026-04-25: switched from absolute cents (10c) to PERCENTAGE of entry price (12%) — 10c on 0.90 ≠ 10c on 0.50. Falls back to absolute cents if use_percentage=false. min_observations=4 prevents startup-blindspot trade-on-no-data.",
+        "_note": "Multi-AI Tier 5 audit 2026-04-25: switched from absolute cents (10c) to PERCENTAGE of entry price (12%) \u2014 10c on 0.90 \u2260 10c on 0.50. Falls back to absolute cents if use_percentage=false. min_observations=4 prevents startup-blindspot trade-on-no-data.",
         "enabled": true,
         "lookback_hours": 1,
         "max_range_cents": 10,
@@ -220,7 +220,7 @@
       }
     },
     "arb": {
-      "_note": "2026-04-25 cross-platform arb settings. enabled=False until operator confirms balances/strategy in interactive session. allow_single_leg=True permits directional bets when one platform unfunded (uses cross-platform mispricing as signal; no hedge — operator accepts directional risk).",
+      "_note": "2026-04-25 cross-platform arb settings. enabled=False until operator confirms balances/strategy in interactive session. allow_single_leg=True permits directional bets when one platform unfunded (uses cross-platform mispricing as signal; no hedge \u2014 operator accepts directional risk).",
       "enabled": false,
       "allow_single_leg": true
     }
