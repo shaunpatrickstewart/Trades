@@ -1,7 +1,7 @@
 {
   "_schema_version": 1,
-  "_last_updated": "2026-04-25T19:44:17.851821+00:00",
-  "_updated_by": "manual_strategy_pivot_2026_04_25",
+  "_last_updated": "2026-05-02T19:55:00+00:00",
+  "_updated_by": "interactive_2026_05_02_simplify_bet_sizing",
   "_note": "bot.py reads all tunable params from this file. Operator-only; no autonomous writer touches it (bot_hourly retired 2026-04-25). Apr 25 2026: NEAR_CERTAIN pivoted from 0.99+ Penny Trap to aggressive 0.80-0.88 entries with dynamic exit ladder; AGGRESSIVE engine retired.",
   "trading_host": {
     "_note": "Single field. engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only that machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
@@ -90,36 +90,9 @@
     }
   },
   "bet_sizing": {
-    "_note": "4-AI unanimous Tier 5 consensus 2026-04-25 (Gemini max-thinking, Grok, Anthropic, Claude): smooth percentage-of-bankroll, NOT step ladder. Step ladder auto-LEVERED-UP into drawdowns ($40 bet at $1501 bankroll = 2.7% vs intended 1.3%). Smooth 5% with $50 cap and $10 floor is Quarter-Kelly given realistic edge uncertainty (true WR likely 74% live vs 84% backtest). Formula: max(10, min(0.05 * bankroll, 50)).",
+    "_note": "Single sizing knob: nc_pct_of_bankroll. _get_bet returns pct*bankroll, no floor/cap/guard. Polymarket protocol $5 min enforced by caller-skip on undersized bet. Operator directive 2026-05-02.",
     "scheme": "smooth_pct",
-    "nc_pct_of_bankroll": 0.05,
-    "nc_min": 10.0,
-    "nc_max": 50.0,
-    "_legacy_step_ladder_deprecated_2026_04_25": [
-      {
-        "min_bankroll": 0,
-        "bet_usd": 12.0
-      },
-      {
-        "min_bankroll": 800,
-        "bet_usd": 18.0
-      },
-      {
-        "min_bankroll": 1500,
-        "bet_usd": 25.0
-      },
-      {
-        "min_bankroll": 3000,
-        "bet_usd": 40.0
-      }
-    ],
-    "st_pct": 0.035,
-    "st_min": 10.0,
-    "st_max": 20.0,
-    "st_tier_multiplier": 0.75,
-    "st_tier_note": "FLOOR only (0.75x) until ST proves n>100 with WR>95%. Then graduate to full tiers.",
-    "st_graduate_n": 100,
-    "st_graduate_wr": 0.95
+    "nc_pct_of_bankroll": 0.1
   },
   "platform_allocation": {
     "_note": "4-AI consensus Apr 17: 70/30 Poly/Kalshi. Rebalance weekly if >10% drift.",
