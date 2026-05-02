@@ -1,7 +1,7 @@
 {
   "_schema_version": 1,
-  "_last_updated": "2026-05-02T19:55:00+00:00",
-  "_updated_by": "interactive_2026_05_02_simplify_bet_sizing",
+  "_last_updated": "2026-05-02T22:00:00+00:00",
+  "_updated_by": "interactive_2026_05_02_band_align_ws_engine",
   "_note": "bot.py reads all tunable params from this file. Operator-only; no autonomous writer touches it (bot_hourly retired 2026-04-25). Apr 25 2026: NEAR_CERTAIN pivoted from 0.99+ Penny Trap to aggressive 0.80-0.88 entries with dynamic exit ladder; AGGRESSIVE engine retired.",
   "trading_host": {
     "_note": "Single field. engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only that machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
@@ -20,8 +20,9 @@
     "PRICE_MIN": 0.3,
     "PRICE_MAX": 0.7,
     "SHORT_TERM_PRICE_MAX": 0.7,
-    "NEAR_CERTAIN_MAX": 0.88,
-    "NEAR_CERTAIN_MIN": 0.8
+    "NEAR_CERTAIN_MAX": 0.92,
+    "NEAR_CERTAIN_MIN": 0.72,
+    "_note": "Aligned 2026-05-02 with NC v3 outer band (NC_V3_PRICE_MIN_OUTER=0.72 / MAX_OUTER=0.92 in nc_v3_scan.py). Per-cell ALLOW_TABLE inside v3 narrows further. Was 0.80-0.88 v2 strategy \u2014 retired when v3 wired 2026-04-30. ws_engine.py and engine_registry.py read these keys."
   },
   "volume_thresholds": {
     "MIN_VOLUME": 2000,
