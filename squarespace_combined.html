@@ -578,8 +578,11 @@
         const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
         const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
 
-        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;
-        const walletBankroll = walletInitial + totalPnl;
+        // 2026-05-07 audit fix (G#1): liveBankroll IS chain-truth current (already
+        // includes realized pnl). Adding totalPnl on top = double count. Mirrored
+        // from app.js. See app.js for full reasoning.
+        const walletBankroll = (wid === 'shaun_poly') ? liveBankroll : totalPnl;
+        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;  // legacy var
 
         // Time-window PnL (24h / 7d / 30d)
         const now = Date.now();

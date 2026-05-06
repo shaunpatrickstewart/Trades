@@ -407,8 +407,16 @@
         const totalPnl = trades.reduce((s,t) => s + (t.status==='WON'||t.status==='LOST' ? (t.pnl||0) : 0), 0);
         const deployed = open.reduce((s,t) => s + (t.bet_size||0), 0);
 
-        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;
-        const walletBankroll = walletInitial + totalPnl;
+        // 2026-05-07 audit fix (G#1, deeper than the F5 fetchLiveBankroll fix):
+        // liveBankroll IS already chain-truth (collateral_free + open NAV — recomputed
+        // every monitor cycle). Adding totalPnl on top double-counts every realized
+        // win/loss because they're already baked into liveBankroll via the chain
+        // delta. The display value IS liveBankroll for the active wallet. For
+        // inactive wallets (no chain query), fall back to per-wallet trade pnl.
+        const walletBankroll = (wid === 'shaun_poly')
+            ? liveBankroll                 // chain truth, no double-add
+            : totalPnl;                    // pnl-only display for non-active wallets
+        const walletInitial = (wid === 'shaun_poly') ? liveBankroll : 0;  // legacy var, kept for downstream refs
 
         // Time-window PnL (24h / 7d / 30d)
         const now = Date.now();
