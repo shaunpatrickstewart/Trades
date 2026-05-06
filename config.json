@@ -57,11 +57,11 @@
       "min_hours_to_close": 0.25
     },
     "clob_throttle": {
-      "_note": "Polymarket CLOB enforces sequential nonces per wallet. 250ms between submissions avoids collisions. Batch endpoint /orders accepts up to 15 in one HTTP call. Responses matched by token_id (FIFO per token).",
+      "_note": "Polymarket CLOB enforces sequential nonces per wallet. 250ms between submissions avoids collisions. Batch endpoint /orders accepts up to 15 in one HTTP call. Responses matched by token_id (FIFO per token). batch_enabled=false pre-live (Anthropic max-reasoning C7 2026-05-06): live response shape unverified; fail-closed in clob_throttle._align_batch_responses could block ladder exits if Polymarket omits token_id per response. Re-enable after first 100 live trades confirm response shape.",
       "enabled": true,
       "min_interval_ms": 250,
       "batch_size": 15,
-      "batch_enabled": true
+      "batch_enabled": false
     },
     "haiku_cache": {
       "_note": "SQLite disk cache for Haiku verdicts. Cuts cost dramatically by avoiding re-scan of same slug. Invalidates on large price move. DB path resolves to ./haiku_cache.db alongside bot.py on each machine.",
