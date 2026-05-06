@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-04-30T01:46:32.397575+00:00",
-  "timers_discovered": 13,
+  "timestamp": "2026-05-06T23:21:51.782606+00:00",
+  "timers_discovered": 20,
   "projected": {
     "perplexity": {
       "calls_per_day": 0,
@@ -26,11 +26,11 @@
   "caps": {
     "xai": {
       "daily": 50,
-      "note": "Hard-coded in news_monitor.py _XAI_DAILY_LIMIT"
+      "note": "Legacy cap \u2014 news_monitor.py archived 2026-04-23. Kept for any future xAI-using daemons."
     },
     "perplexity": {
       "daily": 20,
-      "note": "Hard-coded in news_monitor.py _PPLX_DAILY_LIMIT (added 2026-04-25 after Apr 23 $100 incident)"
+      "note": "Legacy cap \u2014 news_monitor.py archived 2026-04-23 (Apr 23 $100 incident). NEVER use Perplexity for code (CLAUDE.md rule)."
     },
     "anthropic": {
       "daily": 500,
@@ -49,8 +49,8 @@
   },
   "overall_risk": "LOW",
   "ai_consensus": {
-    "gemini": "**Reasoning:** 13 active timers but 0 projected calls means your analysis tool is blind to dynamic triggers. \"Hard-coded\" daily limits imply local memory variables, which reset upon process restarts.\n\n**(a) Runaway Loop:** If the bot crashes and auto-restarts on errors, local in-memory caps reset to zero. Anthropic's \"60s error cooldown\" suggests existing retry logic that will infinite-loop across restarts.\n**(b) Missing Caps:** No centralized, persistent state (e.g., Redis) or provider-level billing caps exist. Caps are siloed in individual files.\n**(c) 2x Rate Blow-up:** If Perplexity hits 2x its cap via restart bypasses, history (the \"Apr 23 $100 incident\") guarantees a massive spike.\n**(d) Unseen Burn:** Gemini (\"deep-verify\"). The 0-call projection means operators have zero visibility",
-    "anthropic": "{'answer': 'Based on my analysis of your trading bot API budget data and current industry research, here are the critical risk scenarios:\\n\\n## Primary Blow-Up Scenarios\\n\\n**(a) Runaway-Loop Scenarios:**\\n\\nRunaway loops can cost $15-40 for 2-hour GPT-4 sessions\\n, but your bot shows zero current usage across all services. \\nMost frameworks retry immediately on failures, potentially causing IP bans lasting 2-48 hours\\n. With no active timers detected, you lack loop detection\u2014if a service activates, it could burn through daily caps in minutes.\\n\\n**(b) Missing Daily Caps Analysis:**\\nYour caps appear robust: XAI (50), Perplexity (20), Anthropic (500), Gemini (100). However, \\nyou need alerts for unexpected token usage spikes that might indicate runaway agent loops or prompt injection attac",
-    "grok": "**Risks:**  \n(a) Runaway loops: any of the 13 unmapped timers with broken 60s cooldown or retry logic can hammer Anthropic/Haiku in <1 min.  \n(b) Missing caps: only 4 services are capped; any direct SDK calls or new helpers bypass shared_gates.py entirely.  \n(c) 2\u00d7 rate on zero baseline = still zero projected cost, so model gives false safety.  \n(d) **Anthropic** is most likely to silently burn: ad-hoc reasoning calls sit outside the \u201cdeep-verify\u201d path the Gemini cap was sized for and lack per-call visibility.\n\nMap the 13 timers before go-live. Current \u201cLOW\u201d rating is misleading."
+    "gemini": "**Reasoning:** 20 active timers but 0 projected calls means the scanner is blind to dynamic usage. Caps are dangerously file-local, meaning system-wide protection is an illusion.\n\n**(a) Runaway:** Gemini's \"deep-verify auto-call\" lacks Anthropic's 60s error cooldown. Verification recursion will cause instant infinite loops.\n**(b) Missing Caps:** Limits reside in specific files (e.g., `shared_gates.py`). Any new script bypassing these helpers has *no* limit. \n**(c) 2x Blow-up:** If Anthropic runs 2x faster, it exhausts its 500-call limit by midday. Second-order effect: the trading bot runs blind and crashes during active market hours.\n**(d) Unnoticed Burn:** Perplexity. Projections show $0, so operators won't watch it. If a timer triggers it, it silently repeats the April $100 incident.\n\n**",
+    "anthropic": "{'answer': '# API Budget Risk Audit\\n\\n**Headline:** \"LOW\" risk is misleading \u2014 projected calls=0 means the auditor found **20 timers but couldn\\'t statically resolve their call rates**. Zero \u2260 safe; it means blind.\\n\\n**(a) Runaway loops:** Anthropic cap (500/day, ~$1.50) relies on `shared_gates.py` + 60s error cooldown. A retry loop *inside* a single daemon tick (no cooldown hit) or a timer firing sub-60s can burn the cap in minutes. xAI/Perplexity caps are \"legacy\" \u2014 if a new daemon imports them without wiring the gate, **no enforcement**.\\n\\n**(b) Missing caps:** Gemini\\'s 100/day only covers `gemma4_helper.deep-verify`. Any *other* Gemini caller bypasses it. Same pattern risk for xAI.\\n\\n**(c) 2\u00d7 rate blow-up:** Perplexity is the killer \u2014 Apr 23 already cost $100 at presumably ~normal",
+    "grok": "**Blow-up risks:**\n\n(a) **Runaway loops**: 20 timers but 0 projected calls indicates scheduler blind spot. Trading bot error/retry loops could hammer Anthropic or Gemini without hitting the 60s cooldown or cache.\n\n(b) **Missing caps**: XAI (50) and Perplexity (20) are legacy only \u2014 news_monitor.py was archived after $100 incident. No active enforcement if trading bot imports them directly.\n\n(c) **2x rate**: Anthropic at 1000 calls = ~$3/day (still safe). Gemini at 200 calls risks breaching its hard-coded limit with no headroom.\n\n(d) **Silent burner**: Perplexity \u2014 explicitly banned for code yet has history of surprise bills and weakest current visibility.\n\nOverall: \"LOW\" rating is misleading. Add bot-specific call tracing before launch."
   }
 }
