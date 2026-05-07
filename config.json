@@ -11,7 +11,7 @@
     "NEAR_CERTAIN": 0
   },
   "price_bands": {
-    "_note": "NC v3 outer band. Aligned 2026-05-06 with nc_v3_scan.NC_V3_PRICE_MIN_OUTER/MAX_OUTER. Per-cell ALLOW_TABLE inside nc_v3_scan.py narrows further. ws_engine.py and nc_v3_resolution_report_v2.py read these keys \u2014 must match across both. (engine_registry.py used to read these but was collapsed 2026-05-08; no longer applies.)",
+    "_note": "NC v3 outer band. Aligned 2026-05-06 with nc_v3_scan.NC_V3_PRICE_MIN_OUTER/MAX_OUTER. Per-cell ALLOW_TABLE inside nc_v3_scan.py narrows further. ws_engine.py and nc_v3_resolution_report_v2.py read these keys \u2014 must match across both. (engine_registry.py was collapsed 2026-05-08 to is_active_trading_host() only; no longer reads these keys, but the module still exists for snipe_engine.py:648.)",
     "NEAR_CERTAIN_MIN": 0.7,
     "NEAR_CERTAIN_MAX": 0.85
   },
