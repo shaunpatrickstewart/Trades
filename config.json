@@ -1,8 +1,8 @@
 {
   "_schema_version": 3,
-  "_last_updated": "2026-05-07T00:00:00+00:00",
-  "_updated_by": "unify_bet_sizing_pct_of_bankroll",
-  "_note": "bot.py reads tunable params from this file. Operator-only edits — no autonomous writer touches it. Single engine: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98). Snipe engine (snipe_engine.py) shares the SAME bet_sizing.pct_of_bankroll knob; live execution is double-gated by snipe_engine.DRY_RUN AND snipe_engine.live_enabled below.",
+  "_last_updated": "2026-05-07T01:15:00+00:00",
+  "_updated_by": "drop_max_hours_and_dead_config",
+  "_note": "bot.py reads tunable params from this file. Operator-only edits \u2014 no autonomous writer touches it. Single engine: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98). Snipe engine (snipe_engine.py) shares the SAME bet_sizing.pct_of_bankroll knob; live execution is double-gated by snipe_engine.DRY_RUN AND snipe_engine.live_enabled below.",
   "trading_host": {
     "_note": "engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only the named machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
     "active_hostname": "polybot-mad"
@@ -11,8 +11,8 @@
     "NEAR_CERTAIN": 0
   },
   "price_bands": {
-    "_note": "NC v3 outer band. Aligned 2026-05-06 with nc_v3_scan.NC_V3_PRICE_MIN_OUTER/MAX_OUTER. Per-cell ALLOW_TABLE inside nc_v3_scan.py narrows further. ws_engine.py and engine_registry.py read these keys — must match across all three.",
-    "NEAR_CERTAIN_MIN": 0.70,
+    "_note": "NC v3 outer band. Aligned 2026-05-06 with nc_v3_scan.NC_V3_PRICE_MIN_OUTER/MAX_OUTER. Per-cell ALLOW_TABLE inside nc_v3_scan.py narrows further. ws_engine.py and engine_registry.py read these keys \u2014 must match across all three.",
+    "NEAR_CERTAIN_MIN": 0.7,
     "NEAR_CERTAIN_MAX": 0.85
   },
   "stop_loss": {
@@ -34,12 +34,12 @@
     }
   },
   "bet_sizing": {
-    "_note": "UNIFIED 2026-05-07. ONE knob: pct_of_bankroll. _compute_bet() in bot.py and snipe_engine.py both read this same value. bet = pct × current_bankroll, with a Polymarket protocol-min skip when the computed bet falls below 5 × entry_price. Operator directive: lowest legal % is the binding constraint at the band ceiling (NEAR_CERTAIN_MAX × 5 / bankroll). At $400 bankroll, NEAR_CERTAIN_MAX=0.85 → floor pct = 0.011. Set 0.015 for safety margin.",
+    "_note": "UNIFIED 2026-05-07. ONE knob: pct_of_bankroll. _compute_bet() in bot.py and snipe_engine.py both read this same value. bet = pct \u00d7 current_bankroll, with a Polymarket protocol-min skip when the computed bet falls below 5 \u00d7 entry_price. Operator directive: lowest legal % is the binding constraint at the band ceiling (NEAR_CERTAIN_MAX \u00d7 5 / bankroll). At $400 bankroll, NEAR_CERTAIN_MAX=0.85 \u2192 floor pct = 0.011. Set 0.015 for safety margin.",
     "scheme": "smooth_pct",
     "pct_of_bankroll": 0.015
   },
   "snipe_engine": {
-    "_note": "Snipe engine SECOND-LOCK. Live execution requires DRY_RUN=False in snipe_engine.py AND live_enabled=true here. Belt + suspenders. Snipe also reads bet_sizing.pct_of_bankroll above — no separate snipe-only sizing.",
+    "_note": "Snipe engine SECOND-LOCK. Live execution requires DRY_RUN=False in snipe_engine.py AND live_enabled=true here. Belt + suspenders. Snipe also reads bet_sizing.pct_of_bankroll above \u2014 no separate snipe-only sizing.",
     "live_enabled": false
   },
   "strategy": {
@@ -52,13 +52,6 @@
         "NEAR_CERTAIN": 2
       },
       "min_price_delta": 0.04
-    },
-    "time_decay_harvest": {
-      "_note": "Markets closing within max_hours_to_close get 2.0x priority weight in scanner. Avoids multi-day UMA lockup, matches paper-trade speed mechanism.",
-      "enabled": true,
-      "max_hours_to_close": 4,
-      "bonus_multiplier": 2.0,
-      "min_hours_to_close": 0.25
     },
     "clob_throttle": {
       "_note": "Polymarket CLOB enforces sequential nonces per wallet. 250ms between submissions avoids collisions. Batch endpoint /orders accepts up to 15 in one HTTP call. Responses matched by token_id (FIFO per token). batch_enabled=false pre-live (Anthropic max-reasoning C7 2026-05-06): live response shape unverified; fail-closed in clob_throttle._align_batch_responses could block ladder exits if Polymarket omits token_id per response. Re-enable after first 100 live trades confirm response shape.",
