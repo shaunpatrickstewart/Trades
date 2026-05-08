@@ -1,17 +1,7 @@
 {
-  "timestamp": "2026-05-07T23:53:24.857872+00:00",
+  "timestamp": "2026-05-08T00:22:27.747491+00:00",
   "timers_discovered": 20,
   "projected": {
-    "perplexity": {
-      "calls_per_day": 0,
-      "usd_per_day": 0.0,
-      "sources": []
-    },
-    "xai": {
-      "calls_per_day": 0,
-      "usd_per_day": 0.0,
-      "sources": []
-    },
     "anthropic": {
       "calls_per_day": 0,
       "usd_per_day": 0.0,
@@ -24,21 +14,13 @@
     }
   },
   "caps": {
-    "xai": {
-      "daily": 50,
-      "note": "Legacy cap \u2014 news_monitor.py archived 2026-04-23. Kept for any future xAI-using daemons."
-    },
-    "perplexity": {
-      "daily": 20,
-      "note": "Legacy cap \u2014 news_monitor.py archived 2026-04-23 (Apr 23 $100 incident). NEVER use Perplexity for code (CLAUDE.md rule)."
-    },
     "anthropic": {
       "daily": 500,
       "note": "Hard-coded in shared_gates.py _ANTHROPIC_DAILY_LIMIT (added 2026-04-25). Caps Haiku NC scans + ad-hoc reasoning calls. 500/day = ~$1.50/day max. Cache + 60s error cooldown protect within budget."
     },
     "gemini": {
       "daily": 100,
-      "note": "Hard-coded in gemma4_helper.py _GEMINI_DAILY_LIMIT (added 2026-04-25). Currently only deep-verify auto-call uses it; cap is plenty of headroom."
+      "note": "Hard-coded in gemma4_helper.py _GEMINI_DAILY_LIMIT (added 2026-04-25). Currently only audit_check + audit_fire_debate use it; cap has plenty of headroom."
     }
   },
   "findings": [],
@@ -49,8 +31,8 @@
   },
   "overall_risk": "LOW",
   "ai_consensus": {
-    "gemini": "**Reasoning:** 20 active timers but 0 projected calls means dynamic execution bypasses this static scanner. This illusion of $0 cost creates a dangerous second-order effect: the operator trusts the dashboard and ignores live logs, enabling silent drains. \n\n**Risks:**\n**(a) Runaways:** Gemini lacks Anthropic\u2019s 60s error cooldown. A failing \"deep-verify\" auto-call will retry instantly in a tight loop.\n**(b) Missing Caps:** Only 4 APIs are tracked. If a timer calls an unlisted API (e.g., OpenAI), blow-up is uncapped.\n**(c) 2x Blow-up:** Anthropic at 2x cap failure is cheap (~$3). Gemini cap failures (200 calls on Pro models) cause massive cost surges.\n**(d) Silent Burn:** Gemini. Event-driven triggers burn credits unseen by the $0 static projection.\n\n**Forecast if wrong:** If timers strictly ",
-    "anthropic": "**Audit verdict: \"LOW\" is misleading \u2014 this is unobserved risk, not absent risk.**\n\n(a) **Runaway loops:** 20 timers discovered, 0 projected calls = the auditor can't see inside them. Any timer calling Anthropic/Gemini in a retry-on-error loop without honoring the 60s cooldown can hit 500/100 caps silently.\n\n(b) **Missing caps:** xai/perplexity caps are *legacy* (archived daemon). If a new bot imports those clients, no live enforcement path is proven \u2014 only `shared_gates` and `gemma4_helper` are hard-coded.\n\n(c) **2\u00d7 rate blow-up:** Anthropic 500\u21921000/day \u2248 $3 (tolerable); Perplexity 20\u219240 is the Apr-23 $100 repeat risk \u2014 uncapped in code.\n\n(d) **Most likely silent burner: Anthropic Haiku NC scans** \u2014 high cap, frequent timers, cached calls hide spikes from operators.\n\nAdd: per-service liv",
-    "grok": "**Blow-up risks:** 20 timers vs 0 projected calls indicates undetected scheduled calls in trading-bot loops. Runaway-loop risk high if error paths bypass Anthropic's 60s cooldown (a). Legacy xAI/Perplexity caps are archived with news_monitor.py and not enforced in new code (b). \n\nIf any service runs 2\u00d7 expected rate, Anthropic doubles from ~$1.50 to $3/day (still capped); Perplexity can repeat its prior $100 incident (c). **Perplexity is most likely to burn credits silently** \u2014 explicitly banned for code yet retains only a 20-call legacy cap with no active monitoring (d)."
+    "gemini": "The projection is fatally blind: 20 timers exist, but 0 API calls are projected. \n\n**(a) Runaway Loop:** Gemini lacks Anthropic\u2019s 60s error cooldown. A failing `audit_fire_debate` will recursively retry, causing an instant infinite loop.\n**(b) Missing Caps:** Caps are hard-coded local Python variables. A bot crash-restart loop resets these in-memory counters, completely bypassing daily limits. \n**(c) 2x Cost Blow-up:** 2x the 0 projection is 0. If local limits fail, Anthropic is cheap (~$3/day), but Gemini's complex \"debate\" calls will spike costs exponentially.\n**(d) Unseen Burn:** Gemini. Background \"audits\" will silently drain credits without halting visible front-end trading.\n\n**If wrong:** If the Python limits are actually backed by a persistent database, crash-loops won't bypass bill",
+    "anthropic": "**Audit verdict: \"LOW\" is misleading \u2014 this is a blind-spot report, not a safe one.**\n\n(a) **Runaway loops:** 20 timers discovered but `sources: []` for both providers means the scanner failed to attribute callers. Any timer firing Anthropic/Gemini inside a retry-on-exception block bypasses your view; 60s cooldown only fires on errors, not on success-loops.\n\n(b) **Missing caps:** Daily caps exist per-process only (hard-coded module globals). Multi-worker/restart resets the counter \u2014 effective cap = 500 \u00d7 N workers. No per-minute cap, no spend cap, no Gemini cost note.\n\n(c) **2\u00d7 rate:** Anthropic \u2192 $3/day (fine). But if a non-Haiku model slips through the same gate, 1000 calls could be $30\u2013100/day silently.\n\n(d) **Highest burn risk:** Gemini `audit_fire_debate` \u2014 debate loops compound, cap ",
+    "grok": "**Blow-up risks:**\n\n(a) **Runaway loops**: 20 timers discovered but 0 projected calls indicates static analysis missed timer \u2192 API paths. A stuck timer calling Anthropic (no 60s cooldown hit) or Gemini audit_fire_debate in a retry loop could burn the full daily cap in <10 min.\n\n(b) **Missing daily caps**: Only Anthropic/Gemini are capped. Any other LLM/provider the trading bot uses has zero protection.\n\n(c) **2x rate**: Anthropic at 2\u00d7 still safe ($3/day). Gemini easily absorbs 2\u00d7 given current headroom.\n\n(d) **Silent burner**: Gemini \u2014 its 100/day cap is loose, hidden inside \"audit\" functions, and has no usage visibility. Operator will only notice after credits are gone.\n\n**Immediate action**: Instrument all 20 timers before launch. Current \"LOW\" risk is false."
   }
 }
