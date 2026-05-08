@@ -2,7 +2,7 @@
   "_schema_version": 3,
   "_last_updated": "2026-05-07T01:15:00+00:00",
   "_updated_by": "drop_max_hours_and_dead_config",
-  "_note": "bot.py reads tunable params from this file. Operator-only edits \u2014 no autonomous writer touches it. Single engine: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98). Snipe engine (snipe_engine.py) shares the SAME bet_sizing.pct_of_bankroll knob; live execution is double-gated by snipe_engine.DRY_RUN AND snipe_engine.live_enabled below.",
+  "_note": "bot.py reads tunable params from this file. Operator-only edits \u2014 no autonomous writer touches it. Two engines: NEAR_CERTAIN v3 (entry 0.70-0.85, exit ladder 0.96/0.97/0.98) and Snipe. Both share bet_sizing.pct_of_bankroll \u2014 ONE knob. Snipe live state is single-flip via snipe_engine.live_mode below ('off'/'shadow'/'live').",
   "trading_host": {
     "_note": "engine_registry.is_active_trading_host() compares socket.gethostname() to active_hostname. Only the named machine places live orders. To migrate: hostnamectl set-hostname <new> on new VPS, then update this value.",
     "active_hostname": "polybot-mad"
@@ -39,8 +39,8 @@
     "pct_of_bankroll": 0.015
   },
   "snipe_engine": {
-    "_note": "Snipe engine SECOND-LOCK. Live execution requires DRY_RUN=False in snipe_engine.py AND live_enabled=true here. Belt + suspenders. Snipe also reads bet_sizing.pct_of_bankroll above \u2014 no separate snipe-only sizing.",
-    "live_enabled": false
+    "_note": "Snipe engine SINGLE-FLIP. live_mode is the only operator knob. Values: 'off' (paper, default) / 'shadow' (full LIVE wires fire, $0 risk \u2014 records to trades.jsonl with status=SHADOW_OPEN) / 'live' (real money, full CLOB POST + chain-delta verify). Unknown values default to 'off' for safety. Snipe also reads bet_sizing.pct_of_bankroll above \u2014 no separate snipe-only sizing.",
+    "live_mode": "off"
   },
   "strategy": {
     "_note": "NC v3 only. Entry 0.70-0.85 with per-cell ALLOW_TABLE narrowing, dynamic exit ladder targeting 0.96, hard stop at 0.60 absolute, 1h volatility filter, daily-drawdown circuit breaker. Operator directive 2026-05-06.",
