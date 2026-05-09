@@ -60,12 +60,6 @@
       "batch_size": 15,
       "batch_enabled": false
     },
-    "haiku_cache": {
-      "_note": "SQLite disk cache for Haiku verdicts. Cuts cost dramatically by avoiding re-scan of same slug. Invalidates on large price move. DB path resolves to ./haiku_cache.db alongside bot.py on each machine.",
-      "enabled": true,
-      "ttl_sec": 43200,
-      "invalidate_on_price_move_pct": 0.05
-    },
     "nc_strategy": {
       "_note": "NEAR_CERTAIN v3 strategy params. Entry band per_cell ALLOW_TABLE. Knobs read at runtime by NC scanner + execute_sell + monitor.",
       "exit_ladder": {
