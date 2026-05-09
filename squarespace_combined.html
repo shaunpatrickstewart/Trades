@@ -542,7 +542,10 @@
       if (!liveBankroll) {
         try {
           const brJson = await fetch(BASE+'bankroll.json?v='+Date.now()).then(r=>r.json());
-          liveBankroll = brJson.initial || brJson.current || 0;
+          // 2026-05-09 fix (Anthropic F2 / audit_check.sh tier 3.9):
+          // prefer current over initial — using initial masked the real
+          // bankroll behind the stale seed figure. Mirrors app.js fallback.
+          liveBankroll = parseFloat(brJson.current) || parseFloat(brJson.initial) || 0;
         } catch(e) {}
       }
 
