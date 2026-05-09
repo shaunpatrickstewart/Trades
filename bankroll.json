@@ -1,6 +1,6 @@
 {
   "initial": 186.2,
-  "current": 395.52,
+  "current": 394.94,
   "deployed": 162.29,
   "available": 186.2,
   "target_daily_profit": 300,
@@ -33,12 +33,14 @@
       "date": "2026-05-09",
       "starting": 403.58,
       "pnl": -8.22,
-      "deposit": 0,
-      "ending": 395.36
+      "deposit": 36.0,
+      "ending": 395.36,
+      "operator_corrected": true,
+      "correction_note": "auto-detector wrongly recorded $183.06; operator confirmed actual deposit was $36; remaining drift is REAL"
     }
   ],
-  "last_updated": "2026-05-09T21:27:31.243885+00:00",
-  "open_position_value": 0.58,
+  "last_updated": "2026-05-09T21:42:53.556895+00:00",
+  "open_position_value": 0.62,
   "_source": "onchain",
   "collateral_free": 394.94,
   "usdc_e_free": 0.0,
