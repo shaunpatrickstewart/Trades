@@ -40,7 +40,7 @@
   },
   "snipe_engine": {
     "_note": "Snipe engine SINGLE-FLIP. live_mode is the only operator knob. Values: 'off' (paper, default) / 'shadow' (full LIVE wires fire, $0 risk \u2014 records to trades.jsonl with status=SHADOW_OPEN) / 'live' (real money, full CLOB POST + chain-delta verify). Unknown values default to 'off' for safety. Snipe also reads bet_sizing.pct_of_bankroll above \u2014 no separate snipe-only sizing.",
-    "live_mode": "shadow"
+    "live_mode": "off"
   },
   "strategy": {
     "_note": "NC v3 only. Entry 0.70-0.85 with per-cell ALLOW_TABLE narrowing, dynamic exit ladder targeting 0.96, hard stop at 0.60 absolute, 1h volatility filter, daily-drawdown circuit breaker. Operator directive 2026-05-06.",
