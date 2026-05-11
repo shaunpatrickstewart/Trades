@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-11T21:25:00.290322+00:00",
+  "timestamp": "2026-05-11T21:25:38.869260+00:00",
   "timers_discovered": 26,
   "projected": {
     "anthropic": {
@@ -31,8 +31,8 @@
   },
   "overall_risk": "LOW",
   "ai_consensus": {
-    "gemini": "ERR: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-    "anthropic": "**Blow-up risks despite \"LOW\" rating:**\n\n(a) **Runaway loop:** 26 timers but zero projected calls = auditor can't see them. If any timer re-enters audit_check without honoring `/tmp/audit_check_ai_last_run.txt` (e.g., tmpfs wipe on reboot, container restart loop), Opus fires repeatedly at ~$2/call.\n\n(b) **Missing caps:** Anthropic cap relies on a *lockfile in /tmp* \u2014 ephemeral, not atomic, no per-hour ceiling, no spend ceiling. Gemini cap=100 but no cost cap and no alert on approach.\n\n(c) **2\u00d7 rate:** Gemini at 200/day is silently absorbed (no $ cap). Anthropic at 2/day = $4 \u2014 trivial, but lockfile bypass means \"2\u00d7\" could really be 50\u00d7.\n\n(d) **Most likely silent burn:** **Gemini via gemma4_helper** \u2014 high cap, two callers, no USD projection, no operator visibility.",
-    "grok": "**Blow-up risks:**\n\n(a) **Runaway loop**: Lockfile in /tmp can be deleted on reboot or race between processes, letting audit_fire_debate loop and fire multiple Opus calls ($2 each).\n\n(b) **Missing daily caps**: 26 timers discovered but *zero* projected calls and no caps outside the two audit paths. Any new timer or re-added Haiku caller bypasses all enforcement.\n\n(c) **2x rate**: Anthropic doubles to ~$4/day (still contained). Gemini at 200 calls/day stays under hard cap but masks broader leakage.\n\n(d) **Gemini** is most likely to burn silently: 100/day hard-coded limit is generous, calls are cheap, and usage is invisible vs Anthropic\u2019s explicit daily lockfile.\n\n**Overall**: Current \u201cLOW\u201d rating is misleading\u2014audit system itself is the fragility before the bot goes live."
+    "gemini": "TIMEOUT: ",
+    "anthropic": "**Audit verdict: \"LOW\" is misleading \u2014 projections are $0 because no sources were discovered, not because no calls happen.**\n\n(a) **Runaway loops:** 26 timers found, 0 attributed to Anthropic/Gemini. Discovery is broken (regex/import miss). A retry-on-exception loop inside any timer fires Opus repeatedly \u2014 the lockfile only blocks *re-entry across days*, not intra-day retries before the file is written.\n\n(b) **Missing caps:** Anthropic cap is filesystem-based (`/tmp/...txt`) \u2014 wiped on reboot/container restart = unlimited fires. No per-hour or per-run cap. Gemini cap is in one helper; any direct SDK import bypasses it.\n\n(c) **2\u00d7 rate:** Opus at 2/day = ~$4 \u2014 trivial. But if loop defeats lockfile, 100\u00d7/day = ~$200/day.\n\n(d) **Highest silent burn risk: `audit_fire_debate`** \u2014 multi-turn Opus",
+    "grok": "**Blow-up risks:**\n\n(a) **Runaway loop**: /tmp lockfile can be deleted or ignored by concurrent trading-bot instances/container restarts \u2192 repeated Opus calls ($2 each). A 1-sec retry loop burns ~$7k/day.\n\n(b) **Missing caps**: Gemini cap exists only in two audit functions; any new trading code using Gemini bypasses it. Haiku reintroduction has zero enforcement.\n\n(c) **2x rate**: Anthropic at 2 calls/day = $4/day (harmless). Gemini at 200 calls/day still cheap.\n\n(d) **Silent burner**: Anthropic Opus via audit_fire_debate. High per-call cost, lockfile failure invisible in normal trading logs.\n\nCurrent projected $0 is misleading \u2014 the audit protection itself is the fragility."
   }
 }
