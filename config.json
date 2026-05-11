@@ -97,5 +97,11 @@
       "_non_micro_bankroll_cap_note": "Fraction of bankroll allowed to be deployed to non-micro NC v3 fires at any one time. Micros are EXEMPT (uncapped per operator directive). Read by strategy_nc_v3.py:gate_check.",
       "non_micro_bankroll_cap": 0.50
     }
-  }
+  },
+  "_rpc_urls_note": "Polygon RPC endpoints used for chain balance reads (USDC.e + pUSD on proxy). bot.py:_chain_collateral_split tries these in order, returns (None, None) if all fail (see G4 atomicity contract). Bot falls back to RPC_URLS_DEFAULT in code if this key is missing — operator override here lets you switch providers without a code edit. polygon-rpc.com is API-key-gated as of 2026-05; publicnode + drpc are free public endpoints.",
+  "rpc_urls": [
+    "https://polygon-bor-rpc.publicnode.com",
+    "https://polygon.drpc.org",
+    "https://1rpc.io/matic"
+  ]
 }
