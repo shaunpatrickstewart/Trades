@@ -283,9 +283,9 @@
   }
   function days(s)  { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/86400000) }
   function hours(s) { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/3600000) }
-  // 2026-05-12 frontend-parity fix: retired engines purged. Current engines per
-  // polybot/CLAUDE.md: NEAR_CERTAIN (NC v3) + SNIPE. SHORT_TERM/LONG_TERM retired
-  // 2026-05-02, ANTI_NC retired 2026-04-12, NEWS retired 2026-05-10.
+  // 2026-05-12 frontend-parity fix: retired engines purged. Current engines
+  // per polybot/CLAUDE.md "Trading Strategy" canon: NC v3 + snipe only.
+  // See git log on this file for the engine-retirement dates and rationale.
   const ENG_LABEL  = {NEAR_CERTAIN:'NC v3', SNIPE:'SNIPE'};
   const ENG_COLORS = {NEAR_CERTAIN:'#ccaa00', SNIPE:'#ff88aa', UNKNOWN:'#888'};
   function engLabel(type)  { return ENG_LABEL[type]  || (type||'').replace(/_/g,' '); }
@@ -1373,12 +1373,11 @@
       const ncStats = engineStats('NEAR_CERTAIN', '2026-04-25');
       const snipeStats = engineStats('SNIPE', '2026-05-02');
 
-      // 2026-05-12 frontend-parity fix: retired-engine narrative purged.
-      // Current engines per polybot/CLAUDE.md "Trading Strategy" canon:
-      // NC v3 (0.70-0.85 ALLOW_TABLE) + snipe (Binance WS, micro crypto).
-      // SHORT_TERM/LONG_TERM/ANTI_NC retired 2026-04-12/05-02; News Monitor
-      // retired 2026-05-10 ($100 Perplexity cost incident); deep-verify
-      // replaced 2026-05-03 by chain_pnl_reconciler.
+      // 2026-05-12 frontend-parity purge: panel now reflects current
+      // architecture (NC v3 + snipe — two engines, both via config.json
+      // single-flip per polybot/CLAUDE.md). Six retired-feature cards
+      // removed; see git log for retirement dates + rationale. Audit_check.sh
+      // Dim 35 R5 blocks any retired engine name from regressing back here.
       const experiments = [
         {
           name: 'NC v3 — 0.70-0.85 cell-band ALLOW_TABLE',

@@ -111,10 +111,11 @@
   }
   function days(s)  { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/86400000) }
   function hours(s) { return !s ? 9999 : Math.ceil((new Date(s)-new Date())/3600000) }
-  // Canonical engine display name — single source of truth for all UI rendering
-  const ENG_LABEL  = {NEAR_CERTAIN:'NEAR-CERTAIN', SHORT_TERM:'WALLET COPY SHORT', LONG_TERM:'WALLET COPY LONG', ANTI_NC:'ANTI-NC', NEWS:'NEWS', ARB:'ARB'};
-  // Canonical engine color — single source of truth for all chart/badge/label coloring
-  const ENG_COLORS = {NEAR_CERTAIN:'#ccaa00', SHORT_TERM:'#00cc66', LONG_TERM:'#88aaff', ANTI_NC:'#cc44ff', NEWS:'#ff8844', ARB:'#ff8800', UNKNOWN:'#888'};
+  // 2026-05-12 frontend-parity fix: retired engines purged. Current engines
+  // per polybot/CLAUDE.md: NC v3 (NEAR_CERTAIN) + snipe. Historical trades.jsonl
+  // entries with retired tags still render via engLabel() fallback.
+  const ENG_LABEL  = {NEAR_CERTAIN:'NC v3', SNIPE:'SNIPE'};
+  const ENG_COLORS = {NEAR_CERTAIN:'#ccaa00', SNIPE:'#ff88aa', UNKNOWN:'#888'};
   function engLabel(type)  { return ENG_LABEL[type]  || (type||'').replace(/_/g,' '); }
   function engColor(type)  { return ENG_COLORS[type] || '#888'; }
 
@@ -724,7 +725,7 @@
           '<div style="font-size:0.8em">Realized: '+pnlStr+'</div>'+
           '<div style="font-size:0.78em;margin-top:2px">'+roiStr+wrStr+'</div>'+
           wrGauge+
-          '<div style="font-size:0.75em;color:#555;margin-top:2px">'+(eng==='ANTI_NC'?'Max payout if all win':'Unrealized')+': +$'+d.unrealized.toFixed(2)+'</div>'+
+          '<div style="font-size:0.75em;color:#555;margin-top:2px">Unrealized: +$'+d.unrealized.toFixed(2)+'</div>'+
           '</div>';
       });
       engHtml += '</div>';
@@ -1203,15 +1204,13 @@
       const ncStats = engineStats('NEAR_CERTAIN', '2026-04-25');
       const snipeStats = engineStats('SNIPE', '2026-05-02');
 
-      // 2026-05-12 frontend-parity fix: panel now reflects current architecture
-      // (NC v3 + snipe — two engines, both via config.json single-flip).
-      // Pre-fix, this panel rendered SHORT_TERM / ANTI_NC / LONG_TERM /
-      // News Monitor / Multi-AI / NC Gold Zone 0.990+ cards — all retired
-      // (engines: 2026-04-12 / 2026-05-02; News Monitor: 2026-05-10 after the
-      // $100 Perplexity cost incident; deep-verify: replaced 2026-05-03 by
-      // chain_pnl_reconciler). 0.990+ band was retired 2026-04-25 in favor
-      // of the LOCKED 0.70-0.85 band. Site is now consistent with
-      // polybot/CLAUDE.md "Trading Strategy" canon.
+      // 2026-05-12 frontend-parity purge: panel now reflects current
+      // architecture (NC v3 + snipe — two engines, both via config.json
+      // single-flip per polybot/CLAUDE.md "Trading Strategy" canon). Six
+      // retired-feature cards removed in this commit; see git log for the
+      // engine-retirement dates and the rationale per entry. Audit_check.sh
+      // Dim 35 R5 blocks regression of any retired-engine name back into
+      // trades-site source.
       const experiments = [
         {
           name: 'NC v3 — 0.70-0.85 cell-band ALLOW_TABLE',
