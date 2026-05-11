@@ -1200,76 +1200,58 @@
         const pnl = sub.reduce((s,t)=>s+(t.pnl||0),0);
         return {w,l,n:w+l,pnl,wr: w+l>0 ? (w/(w+l)*100).toFixed(1) : '—'};
       };
-      const ncStats = engineStats('NEAR_CERTAIN', '2026-04-12');
-      const stStats = engineStats('SHORT_TERM', '2026-04-08');
-      const antiStats = engineStats('ANTI_NC', '2026-04-12');
-      const ltStats = engineStats('LONG_TERM', null);
+      const ncStats = engineStats('NEAR_CERTAIN', '2026-04-25');
+      const snipeStats = engineStats('SNIPE', '2026-05-02');
 
-      // ── EXPERIMENTS (structural state, updated in-code when bot strategy changes)
+      // 2026-05-12 frontend-parity fix: panel now reflects current architecture
+      // (NC v3 + snipe — two engines, both via config.json single-flip).
+      // Pre-fix, this panel rendered SHORT_TERM / ANTI_NC / LONG_TERM /
+      // News Monitor / Multi-AI / NC Gold Zone 0.990+ cards — all retired
+      // (engines: 2026-04-12 / 2026-05-02; News Monitor: 2026-05-10 after the
+      // $100 Perplexity cost incident; deep-verify: replaced 2026-05-03 by
+      // chain_pnl_reconciler). 0.990+ band was retired 2026-04-25 in favor
+      // of the LOCKED 0.70-0.85 band. Site is now consistent with
+      // polybot/CLAUDE.md "Trading Strategy" canon.
       const experiments = [
         {
-          name: 'NC Gold Zone (0.990+)',
-          status: 'LIVE',
-          hypothesis: 'Markets at 99%+ probability are near-perfect money machines if non-stale.',
+          name: 'NC v3 — 0.70-0.85 cell-band ALLOW_TABLE',
+          status: (cfg.engine_caps?.NEAR_CERTAIN||0) > 0 ? 'LIVE' : 'PAPER',
+          hypothesis: 'Edge from non-data-driven blue-chip markets with confirmed drift; (sub_category, match_type) cells whitelisted per 30-day backtest.',
           priority: 'LIVE',
-          result: ncStats.n > 0 ? `${ncStats.w}W / ${ncStats.l}L (${ncStats.wr}% WR) · ${ncStats.pnl>=0?'+':''}$${ncStats.pnl.toFixed(2)} realized since Apr 12` : 'Awaiting trades',
-          config: `NEAR_CERTAIN_MIN = 0.990 (hardcoded, LOCKED)`,
+          result: ncStats.n > 0 ? `${ncStats.w}W / ${ncStats.l}L (${ncStats.wr}% WR) · ${ncStats.pnl>=0?'+':''}$${ncStats.pnl.toFixed(2)} since 2026-04-25` : 'Awaiting trades',
+          config: `engine_caps.NEAR_CERTAIN = ${cfg.engine_caps?.NEAR_CERTAIN??0} (0 = paper, >0 = live max-OPEN cap). Bet sizing pct = ${cfg.bet_sizing?.pct_of_bankroll??'—'}%.`,
         },
         {
-          name: 'NC Gate 6 — 1h expiry filter',
+          name: 'NC v3 hours_left < 1h SKIP',
           status: 'LIVE',
-          hypothesis: 'Skip markets resolving in < 1 hour — prevents expired-market losses.',
+          hypothesis: 'Skip markets resolving in <1h — exit ladder can\'t fill against thin near-close liquidity.',
           priority: 'LIVE',
-          result: 'Active on every NC scan. Blocked 37 historical losses. Preserves 67% of NC income vs old 48h gate.',
-          config: `hours_left < 1 → reject (bot.py _nc_haiku_scan)`,
+          result: 'Active on every NC scan. LOCKED — never remove (see polybot/CLAUDE.md).',
+          config: 'hours_left < 1 → reject (nc_v3_scan gate)',
         },
         {
-          name: 'NC Position Sizing Tiers',
+          name: 'NC v3 exit ladder (0.96 / 0.97 / 0.98)',
           status: 'LIVE',
-          hypothesis: 'Size bets by quality within NC band — 0.995+ bigger, 0.990-0.992 smaller.',
+          hypothesis: 'Tiered partial-exit ladder captures the outer-band gap before settlement.',
           priority: 'LIVE',
-          result: `Tiers: GOLD ≥${cfg.nc_position_sizing?.tier1_price_min||0.995} × ${cfg.nc_position_sizing?.tier1_multiplier||1.25}; STD ≥${cfg.nc_position_sizing?.tier2_price_min||0.992} × ${cfg.nc_position_sizing?.tier2_multiplier||1.0}; FLOOR ≥${cfg.nc_position_sizing?.tier3_price_min||0.990} × ${cfg.nc_position_sizing?.tier3_multiplier||0.75}`,
-          config: `fast_resolve_bonus = ${cfg.nc_position_sizing?.fast_resolve_bonus||1.15}x for <${cfg.nc_position_sizing?.fast_resolve_hours||24}h`,
+          result: `Rungs read live from config.json:strategy.nc_strategy.exit_ladder. Hard stop = ${cfg.strategy?.nc_strategy?.hard_stop_price??0.60}. 12% range filter over 1h lookback.`,
+          config: 'sell_early.py + CLOB throttle.',
         },
         {
-          name: 'SHORT_TERM Haiku Thesis Scan',
+          name: 'Snipe — Binance WS oracle, micro crypto markets',
+          status: cfg.snipe_engine?.live_mode === 'live' ? 'LIVE' : (cfg.snipe_engine?.live_mode === 'shadow' ? 'SHADOW' : 'PAPER'),
+          hypothesis: 'Crypto micro markets T-30s before resolution can be sniped from the oracle price.',
+          priority: 'LIVE',
+          result: snipeStats.n > 0 ? `${snipeStats.w}W / ${snipeStats.l}L (${snipeStats.wr}% WR) · ${snipeStats.pnl>=0?'+':''}$${snipeStats.pnl.toFixed(2)} since 2026-05-02` : 'Collecting data',
+          config: `snipe_engine.live_mode = ${cfg.snipe_engine?.live_mode||'off'} (off = paper, shadow = $0 fire, live = real money). T-30s evaluate window.`,
+        },
+        {
+          name: 'Chain reconciliation — every 5min',
           status: 'LIVE',
-          hypothesis: 'Wallet-copy SHORT trades need thesis verification (is it real noise?).',
+          hypothesis: 'On-chain pUSD + collateral is the source of truth; JSONL must reconcile within $1 or trading pauses.',
           priority: 'LIVE',
-          result: stStats.n > 0 ? `${stStats.w}W / ${stStats.l}L (${stStats.wr}% WR) · ${stStats.pnl>=0?'+':''}$${stStats.pnl.toFixed(2)} since Apr 8` : 'Low volume',
-          config: `SHORT_TERM cap = ${cfg.engine_caps?.SHORT_TERM||20} (floor 20 LOCKED). Scan every ${(cfg.timing?.INTERVAL_SHORT_TERM_SEC||1800)/60}min.`,
-        },
-        {
-          name: 'Anti-NC Engine — low-price NO',
-          status: antiStats.n > 0 ? 'LIVE' : 'ANALYZING',
-          hypothesis: 'Cheap NO bets on near-certain YES markets can catch rare upsets at huge ROI.',
-          priority: 'MEDIUM',
-          result: antiStats.n > 0 ? `${antiStats.w}W / ${antiStats.l}L · ${antiStats.pnl>=0?'+':''}$${antiStats.pnl.toFixed(2)} (since Apr 12 category filter)` : 'Collecting post-filter data',
-          config: `max_price ${cfg.anti_nc?.ANTI_NC_MAX_PRICE||0.025}, min_size $${cfg.anti_nc?.ANTI_NC_MIN_SIZE||20}, cap ${cfg.engine_caps?.ANTI_NC||15}`,
-        },
-        {
-          name: 'LONG_TERM Wallet Copy',
-          status: 'BLOCKED',
-          hypothesis: 'Copying top wallets on multi-month markets — disproven, suspended.',
-          priority: 'MEDIUM',
-          result: ltStats.n > 0 ? `All-time: ${ltStats.w}W / ${ltStats.l}L · ${ltStats.pnl>=0?'+':''}$${ltStats.pnl.toFixed(2)}. Capital locks for months. PAUSED Apr 16 (4-AI consensus).` : 'Paused',
-          config: `LONG_TERM cap = ${cfg.engine_caps?.LONG_TERM||0} (disabled). Awaiting thesis-mode rewrite.`,
-        },
-        {
-          name: 'News Monitor — X + Perplexity',
-          status: 'LIVE',
-          hypothesis: 'Breaking news should trigger alerts on open positions.',
-          priority: 'LIVE',
-          result: 'Scans every 5 min. ENTER/ALERT/WATCH signals written to signals.json — see Live News panel below.',
-          config: `news-monitor.timer (every 5min). X/Grok + Perplexity sonar-pro.`,
-        },
-        {
-          name: 'Multi-AI Cross-Verification',
-          status: 'LIVE',
-          hypothesis: 'Four AIs in parallel catch bugs single-AI review misses.',
-          priority: 'LIVE',
-          result: '4 AIs (Gemma4 + Grok + Anthropic + Claude) audit JSONL vs derived files daily at midnight. Auto-fixes drift.',
-          config: `deep-verify.timer (daily 00:00). JSONL ground truth.`,
+          result: 'chain_pnl_reconciler.timer — pulls Polygon RPC every 5min, writes bankroll.json, notifies + pauses on >$1 drift.',
+          config: 'chain-pnl-reconciler.service (VPS-only).',
         },
       ];
 
