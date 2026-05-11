@@ -3,7 +3,8 @@
 
   const DATA    = 'https://data-api.polymarket.com';
   const P       = 'https://corsproxy.io/?url=';
-  const ELITE_URL = 'https://shaunpatrickstewart.github.io/trades/elite_wallets.json';
+  const BASE    = 'https://shaunpatrickstewart.github.io/trades/';  // 2026-05-10 audit fix: hoisted from renderWalletCards function-local scope so fetchLiveBankroll can see it
+  const ELITE_URL = BASE + 'elite_wallets.json';
   const REFRESH = 30000;
 
   // Funder/proxy wallet — holds all Polymarket positions under sig_type=1.
@@ -180,7 +181,7 @@
 
   async function fetchScannerData() {
     try {
-      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      // 2026-05-10 audit: BASE now hoisted to module scope (line ~6); use it.
       const data = await fetch(BASE+'scanner_data.json?v='+Date.now()).then(r=>r.json());
       return data;
     } catch(e) { return {week:[],day48:[],swing:[],forex:[],total_markets:0}; }
@@ -338,7 +339,7 @@
     const el = document.getElementById('wallet-cards');
     if (!el) return;
     try {
-      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      // 2026-05-10 audit: BASE is module-scoped — no need for local redecl.
       const bust = '?_w='+Date.now();
       const tradesTxt = await fetch(BASE+'trades.jsonl'+bust).then(r=>r.ok?r.text():'').catch(()=>'');
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean).map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
@@ -888,7 +889,7 @@
     const el = document.getElementById('audit-panel');
     if (!el) return;
     try {
-      const BASE = 'https://shaunpatrickstewart.github.io/trades/';
+      // 2026-05-10 audit: BASE is module-scoped — no need for local redecl.
       const bust = '?_a='+Date.now();
       const parseJsonl = txt => txt.trim().split('\n').filter(Boolean)
         .map(l=>{try{return JSON.parse(l);}catch{return null;}}).filter(Boolean);
