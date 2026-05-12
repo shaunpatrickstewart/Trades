@@ -579,7 +579,7 @@
 
   // ── Capital increase modal
   window.pmSetCapital = async function(slug, outcome, currentBet) {
-    const amt = prompt(
+    const amt = window.prompt(
       'Increase capital for:\n['+outcome+'] '+slug+'\n\nCurrent bet: $'+currentBet+'\nEnter new bet amount in USD:',
       currentBet
     );
