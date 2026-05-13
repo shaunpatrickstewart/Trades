@@ -1,59 +1,59 @@
 {
-  "captured_at": "2026-05-13T22:00:42.307151+00:00",
+  "captured_at": "2026-05-13T23:00:46.846543+00:00",
   "endpoints": {
     "gamma_markets": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 159.5,
-      "latency_ms_max": 181.5,
+      "latency_ms_avg": 172.6,
+      "latency_ms_max": 191.6,
       "error": null,
       "healthy": true
     },
     "gamma_events": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 187.5,
-      "latency_ms_max": 296.5,
+      "latency_ms_avg": 142.5,
+      "latency_ms_max": 203.4,
       "error": null,
       "healthy": true
     },
     "gamma_tags": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 126.2,
-      "latency_ms_max": 159.1,
+      "latency_ms_avg": 186.2,
+      "latency_ms_max": 226.4,
       "error": null,
       "healthy": true
     },
     "clob_markets": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 276.9,
-      "latency_ms_max": 288.4,
+      "latency_ms_avg": 270.2,
+      "latency_ms_max": 348.9,
       "error": null,
       "healthy": true
     },
     "clob_book": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 188.5,
-      "latency_ms_max": 265.9,
+      "latency_ms_avg": 140.3,
+      "latency_ms_max": 154.7,
       "error": null,
       "healthy": true
     },
     "kalshi_markets": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 262.3,
-      "latency_ms_max": 358.3,
+      "latency_ms_avg": 145.1,
+      "latency_ms_max": 187.4,
       "error": null,
       "healthy": true
     },
     "polygon_rpc": {
       "status": 200,
       "schema_ok": true,
-      "latency_ms_avg": 177.0,
-      "latency_ms_max": 239.2,
+      "latency_ms_avg": 175.7,
+      "latency_ms_max": 214.7,
       "error": null,
       "healthy": true
     }
